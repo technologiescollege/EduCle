@@ -1,0 +1,312 @@
+<LiberKeyVersionInfo checktime="20140923031118">
+	<Platform v="5.6" p="20120620105059" pu="http://update.liberkey.com/whatsup/patch/5.7/20120207105954_20990000000000/public/lbk_20120620105059_MultiLng.exe">
+		<Description><![CDATA[Platforme LiberKey]]></Description>
+		<PatchInfo><![CDATA[Un patch est disponible pour votre LiberKey.\n\nIl est fortement recommandé de le télécharger et de l'appliquer !\n\nTaille du téléchargement : 2.06 Mo]]></PatchInfo>
+	</Platform>
+	<News v="20120210230000">
+		<NewsFeed id="LiberKeyNews" last_update="20120210230000">
+			<locale id="fr-FR" url="http://www.liberkey.com/fr/liberkey-news.feed?type=rss"/>
+			<locale id="en-EN" url="http://www.liberkey.com/en/liberkey-news.feed?type=rss"/>
+		</NewsFeed>
+	</News>
+	<Apps t="1411302749">
+		<app id="4stattack" v="2.0" sync="1"/>
+		<app id="7zip-7-ziplkl" v="9.22" sync="2"/>
+		<app id="abakt" v="0.9.5 rev2" sync="3"/>
+		<app id="abiword" v="2.8.6" sync="4"/>
+		<app id="aimp" v="3.55 Build 1355" sync="5"/>
+		<app id="akelpad" v="4.9.0" sync="6"/>
+		<app id="alphachess" v="4.0.3" sync="7"/>
+		<app id="amokburning" v="1.10" sync="8"/>
+		<app id="ampfontviewer" v="3.86" sync="9"/>
+		<app id="amsn" v="0.98.9" sync="10"/>
+		<app id="anim8or" v="0.98" sync="11"/>
+		<app id="antmoviecatalog" v="4.2.0.2" sync="12"/>
+		<app id="antrenamer" v="2.10 rev1" sync="13"/>
+		<app id="anytoisoconverter" v="3.6.1 Build 482" sync="14"/>
+		<app id="aquasnap" v="1.6.3 rev1" sync="15"/>
+		<app id="aspect" v="2.1.0 rev1" sync="16"/>
+		<app id="assaultcube" v="1.1.0.4 rev1" sync="17"/>
+		<app id="audacity" v="2.0.5" sync="18"/>
+		<app id="audioidentifier" v="0.7.1" sync="19"/>
+		<app id="autohotkey" v="1.1.16.03" sync="20"/>
+		<app id="autoruns" v="12.02" sync="21"/>
+		<app id="avidemux" v="2.6.8v2" sync="22"/>
+		<app id="balabolka" v="2.10.0.573" sync="23"/>
+		<app id="bill2sprocessmanager-processmanagerlkl" v="3.4.3.8" sync="24"/>
+		<app id="blender" v="2.71" sync="25"/>
+		<app id="bluescreenview" v="1.52" sync="26"/>
+		<app id="bombermaaan" v="1.4.0.655e" sync="27"/>
+		<app id="bulkrenameutility" v="2.7.1.3" sync="28"/>
+		<app id="calibre" v="2.2.0" sync="29"/>
+		<app id="carmetal" v="3.8.3" sync="30"/>
+		<app id="ccleaner" v="4.17.4808" sync="31"/>
+		<app id="cdburnerxp" v="4.5.4.5000" sync="32"/>
+		<app id="cdcat" v="2.3.1 r655" sync="33"/>
+		<app id="celestia" v="1.6.1" sync="34"/>
+		<app id="checkemon" v="1.1" sync="35"/>
+		<app id="childsplay" v="1.6" sync="36"/>
+		<app id="chrome" v="37.0.2062.120" sync="37"/>
+		<app id="chromium" v="39.0.2154.0 Build 294461" sync="38"/>
+		<app id="clamwin" v="0.98.4.1" sync="39"/>
+		<app id="clavierplus" v="10.6.7" sync="40"/>
+		<app id="cleanafterme" v="1.37" sync="41"/>
+		<app id="clickntype-click-n-typelkl" v="3.03.414" sync="42"/>
+		<app id="clipboardic" v="1.11" sync="43"/>
+		<app id="clocx" v="1.6.0" sync="44"/>
+		<app id="codectweaktool" v="5.3.6" sync="45"/>
+		<app id="colorconsole" v="2.26" sync="46"/>
+		<app id="colormania" v="5.0" sync="47"/>
+		<app id="colorpic" v="4.1" sync="48"/>
+		<app id="converber" v="2.3.1" sync="49"/>
+		<app id="coolplayer" v="219" sync="50"/>
+		<app id="copytransmanager" v="1.008" sync="51"/>
+		<app id="cpuz" v="1.70" sync="52"/>
+		<app id="crystaldiskinfo" v="6.2.1" sync="53"/>
+		<app id="crystaldiskmark" v="3.0.3b" sync="54"/>
+		<app id="crystalmark" v="0.9.126.452d" sync="55"/>
+		<app id="currports" v="2.01" sync="56"/>
+		<app id="dcu" v="2.3.2" sync="57"/>
+		<app id="defraggler" v="2.18.945" sync="58"/>
+		<app id="desktopok" v="3.99.3" sync="59"/>
+		<app id="dia" v="0.97.2" sync="60"/>
+		<app id="diagramdesigner" v="1.27.1" sync="61"/>
+		<app id="dirhtml" v="4.8710" sync="62"/>
+		<app id="diskdefrag" v="4.5.4.0" sync="63"/>
+		<app id="diskdigger" v="0.8.3.176" sync="64"/>
+		<app id="ditto" v="3.19.24.0" sync="65"/>
+		<app id="divfix" v="0.34 rev1" sync="66"/>
+		<app id="drivemanager" v="4.20" sync="67"/>
+		<app id="driversweeper" v="3.2.0" sync="68"/>
+		<app id="dshutdown" v="1.72.1" sync="69"/>
+		<app id="dspeech" v="1.62" sync="70"/>
+		<app id="dsynchronize" v="2.30.6" sync="71"/>
+		<app id="dtaskmanager" v="1.53" sync="72"/>
+		<app id="dupkiller" v="0.8.2 rev2" sync="73"/>
+		<app id="dvdstyler" v="2.2" sync="74"/>
+		<app id="eizotest" v="1.6.30.0" sync="75"/>
+		<app id="emule" v="0.50a" sync="76"/>
+		<app id="esbcalc" v="7.3.1" sync="77"/>
+		<app id="esbunitconv" v="7.4" sync="78"/>
+		<app id="essentialpim" v="5.82" sync="79"/>
+		<app id="etoolz" v="3.4.8" sync="80"/>
+		<app id="everything" v="1.3.4.686" sync="81"/>
+		<app id="evince" v="2.32.0.14500" sync="82"/>
+		<app id="executor" v="0.99.12b" sync="83"/>
+		<app id="faststoneimageviewer" v="5.1" sync="84"/>
+		<app id="fat32formatter" v="1.1" sync="85"/>
+		<app id="fcleaner" v="1.3.1.621" sync="86"/>
+		<app id="fileassassin" v="1.06" sync="87"/>
+		<app id="filepro" v="1.0.0 Build 202" sync="88"/>
+		<app id="filetypesman" v="1.66" sync="89"/>
+		<app id="filezilla" v="3.9.0.5" sync="90"/>
+		<app id="filmerit" v="3.0.8 rev1" sync="91"/>
+		<app id="filmotech" v="3.40" sync="92"/>
+		<app id="firefox" v="32.0" sync="93"/>
+		<app id="floola" v="2012r1" sync="94"/>
+		<app id="folder2iso" v="2.0" sync="95"/>
+		<app id="foldersize" v="1.4" sync="96"/>
+		<app id="fontlist" v="1.6" sync="97"/>
+		<app id="formatfactory" v="3.3.5.0" sync="98"/>
+		<app id="fotosketcher" v="2.95" sync="99"/>
+		<app id="freac" v="1.0.22" sync="100"/>
+		<app id="freecommander" v="2014.1.0 Build 650" sync="101"/>
+		<app id="freedatarecoverysoftware" v="2.7.0.77" sync="102"/>
+		<app id="freedownloadmanager" v="3.9.4 Build 1472" sync="103"/>
+		<app id="freefilesync" v="6.2" sync="104"/>
+		<app id="gimp" v="2.8.14" sync="105"/>
+		<app id="glaryutilities" v="4.0.0.53" sync="106"/>
+		<app id="glint" v="1.28 build 1044" sync="107"/>
+		<app id="gpucapsviewer" v="1.21.1" sync="109"/>
+		<app id="gpu-z" v="0.7.9" sync="108"/>
+		<app id="greatnews" v="1.0 build 390" sync="110"/>
+		<app id="greenfishiconeditorpro" v="3.31" sync="111"/>
+		<app id="greenshot" v="1.1.9.13" sync="112"/>
+		<app id="gsplit" v="3.0.1" sync="113"/>
+		<app id="hashcalc" v="2.0.2 rev2" sync="114"/>
+		<app id="hashmyfiles" v="2.02" sync="115"/>
+		<app id="hdtune" v="2.55 rev1" sync="116"/>
+		<app id="heavyload" v="3.3.1" sync="117"/>
+		<app id="hfs" v="2.3 beta build 279" sync="118"/>
+		<app id="hostsman" v="3.2.73" sync="119"/>
+		<app id="httrack" v="3.48-19" sync="120"/>
+		<app id="hwinfo32" v="4.44" sync="121"/>
+		<app id="hwmonitor" v="1.25" sync="122"/>
+		<app id="hxd" v="1.7.7.0" sync="123"/>
+		<app id="icyradio" v="0.6.2.4" sync="124"/>
+		<app id="imgburn" v="2.5.8.0" sync="125"/>
+		<app id="infrarecorder" v="0.53" sync="126"/>
+		<app id="inkscape" v="0.48.4" sync="127"/>
+		<app id="ip2" v="1.04" sync="128"/>
+		<app id="ipnetinfo" v="1.37" sync="129"/>
+		<app id="irfanview" v="4.38 rev1" sync="130"/>
+		<app id="iwebalbum" v="2.02" sync="131"/>
+		<app id="izarc2go" v="4.1.9" sync="132"/>
+		<app id="javara" v="2.6" sync="133"/>
+		<app id="jooleem" v="0.1.4" sync="134"/>
+		<app id="kdiff3" v="0.9.98" sync="135"/>
+		<app id="keepass" v="1.27" sync="136"/>
+		<app id="keepassprofessionaledition" v="2.27" sync="137"/>
+		<app id="kitty" v="0.63.1.3" sync="138"/>
+		<app id="kompozer" v="0.7.10 rev1" sync="139"/>
+		<app id="lcisocreator" v="1.1" sync="140"/>
+		<app id="libreoffice" v="4.2.5" sync="141"/>
+		<app id="lightscreen" v="2.0" sync="142"/>
+		<app id="lines95" v="3.2e" sync="143"/>
+		<app id="lucaschess" v="6.3b" sync="144"/>
+		<app id="marble" v="1.9.0" sync="145"/>
+		<app id="mediainfo" v="0.7.70" sync="146"/>
+		<app id="mediaplayerclassichc" v="1.7.6" sync="147"/>
+		<app id="megairc" v="4.06" sync="148"/>
+		<app id="miranda" v="0.10.24" sync="149"/>
+		<app id="mobalivecd" v="2.1" sync="150"/>
+		<app id="mobaphoto" v="1.42" sync="151"/>
+		<app id="moneymanagerex" v="1.1.0" sync="152"/>
+		<app id="mp3directcut" v="2.20" sync="153"/>
+		<app id="mp3gain" v="1.3.4 beta" sync="154"/>
+		<app id="mp3tag" v="2.63" sync="155"/>
+		<app id="muicacheview" v="1.01" sync="156"/>
+		<app id="mycalc2" v="1.21" sync="157"/>
+		<app id="mypaint" v="1.0.0" sync="158"/>
+		<app id="myuninstaller" v="1.74" sync="159"/>
+		<app id="netscan" v="5.5.12" sync="160"/>
+		<app id="netsetman" v="3.4.4" sync="161"/>
+		<app id="networkstuff" v="3.0.9" sync="162"/>
+		<app id="networx" v="5.3.2 Build 14213" sync="163"/>
+		<app id="neverball" v="1.5.4" sync="164"/>
+		<app id="newfiletime" v="2.44" sync="165"/>
+		<app id="nexusfont" v="2.5.8.1582 rev1" sync="166"/>
+		<app id="notepad++" v="6.6.9" sync="167"/>
+		<app id="occt" v="4.4.0" sync="168"/>
+		<app id="omziff" v="3.3" sync="169"/>
+		<app id="openoffice" v="3.3.0" sync="170"/>
+		<app id="opera" v="24.0.1558.53" sync="171"/>
+		<app id="paint-net" v="4.0.3" sync="172"/>
+		<app id="partitionfindandmount" v="2.31 rev1" sync="173"/>
+		<app id="passwordgenerator" v="3.3" sync="174"/>
+		<app id="patheditor" v="2.1.3.3" sync="175"/>
+		<app id="pathological" v="1.1.2" sync="176"/>
+		<app id="pcchrono" v="1.1.0.6" sync="177"/>
+		<app id="pcwizard" v="2014.2.13" sync="178"/>
+		<app id="pdftkbuilder" v="3.6" sync="179"/>
+		<app id="pdfxchangeviewer" v="2.5.309.0" sync="180"/>
+		<app id="peazip" v="5.4.1" sync="181"/>
+		<app id="performancepinging" v="2.0.1" sync="182"/>
+		<app id="pestudio" v="8.37" sync="183"/>
+		<app id="photofiltre" v="7.1.2" sync="184"/>
+		<app id="picpick" v="3.4.1" sync="185"/>
+		<app id="pidgin" v="2.10.9" sync="186"/>
+		<app id="pngoptimizer" v="2.4.1" sync="187"/>
+		<app id="pnotes" v="9.3.0" sync="188"/>
+		<app id="pocketdivxencoder" v="0.4.5" sync="189"/>
+		<app id="pointofix" v="1.7.2012.06.28" sync="190"/>
+		<app id="pokerth" v="0.9.5" sync="191"/>
+		<app id="poppeeper" v="3.8.1.0" sync="192"/>
+		<app id="poptray" v="3.2" sync="193"/>
+		<app id="pouetchess" v="0.2.0" sync="194"/>
+		<app id="processexplorer" v="16.03" sync="195"/>
+		<app id="processhacker" v="2.33 Build 5590" sync="196"/>
+		<app id="processmonitor" v="3.10" sync="197"/>
+		<app id="pspad" v="4.5.8 Build 2500" sync="198"/>
+		<app id="q-dir" v="5.99.7" sync="199"/>
+		<app id="qtweb" v="3.8.5 Build 108" sync="200"/>
+		<app id="quicksysregdefrag" v="2.9" sync="201"/>
+		<app id="radiosure" v="2.2.1042" sync="202"/>
+		<app id="rainlendarlite" v="2.12.2" sync="203"/>
+		<app id="ramrush" v="1.0.6.917" sync="204"/>
+		<app id="rapidenvironmenteditor" v="8.0 Build 923" sync="205"/>
+		<app id="rapidtyping" v="5.0.132.81" sync="206"/>
+		<app id="recuva" v="1.51.1063" sync="207"/>
+		<app id="regdllview" v="1.57" sync="208"/>
+		<app id="regfromapp" v="1.32" sync="209"/>
+		<app id="regscanner" v="2.05" sync="210"/>
+		<app id="regshot" v="2.0.1.70" sync="211"/>
+		<app id="removeemptydirectories" v="2.2" sync="212"/>
+		<app id="renamer" v="5.76" sync="213"/>
+		<app id="resourcesextract" v="1.18" sync="214"/>
+		<app id="revouninstaller" v="1.95" sync="215"/>
+		<app id="riot" v="0.5.2" sync="216"/>
+		<app id="rjtexted" v="9.20" sync="217"/>
+		<app id="rocketdock" v="1.3.5 rev1" sync="218"/>
+		<app id="runscanner" v="2.0.0.60" sync="219"/>
+		<app id="screamerradio" v="0.4.4" sync="220"/>
+		<app id="scribus" v="1.4.4" sync="221"/>
+		<app id="searchmyfiles" v="2.50" sync="222"/>
+		<app id="serviwin" v="1.62" sync="223"/>
+		<app id="sharepod" v="3.9.9 rev1" sync="224"/>
+		<app id="shellexview" v="1.90" sync="225"/>
+		<app id="simplesudoku" v="4.2n" sync="226"/>
+		<app id="slow" v="0.8 rev1" sync="227"/>
+		<app id="smartsniff" v="1.92" sync="228"/>
+		<app id="speccy" v="1.26.698" sync="229"/>
+		<app id="speedcrunch" v="0.11" sync="230"/>
+		<app id="spydllremover" v="5.0" sync="231"/>
+		<app id="stduviewer" v="1.6.350" sync="232"/>
+		<app id="stellarium" v="0.13.0" sync="233"/>
+		<app id="stickies" v="8.0a" sync="234"/>
+		<app id="sumatrapdf" v="2.5.2" sync="235"/>
+		<app id="sumo" v="3.11.1.244" sync="236"/>
+		<app id="supertuxkart" v="0.7.3" sync="237"/>
+		<app id="sysexporter" v="1.71" sync="238"/>
+		<app id="systemexplorer" v="5.9.3.5253" sync="239"/>
+		<app id="systemspec" v="3.08" sync="240"/>
+		<app id="tagscanner" v="5.1.652" sync="241"/>
+		<app id="taskcoach" v="1.4.0" sync="242"/>
+		<app id="teamviewer" v="9.0.31064" sync="243"/>
+		<app id="teracopy" v="2.30" sync="244"/>
+		<app id="teratermpro" v="4.74" sync="245"/>
+		<app id="thunderbird" v="31.1.1" sync="246"/>
+		<app id="timesync" v="2.31 rev1" sync="247"/>
+		<app id="trackballs" v="1.1.2" sync="248"/>
+		<app id="transmute" v="2.50" sync="249"/>
+		<app id="treedbnotes" v="4.34 Build 01" sync="250"/>
+		<app id="truecrypt" v="7.1a" sync="251"/>
+		<app id="tunatic" v="1.0.1b" sync="252"/>
+		<app id="tuxguitar" v="1.2" sync="253"/>
+		<app id="tuxmath" v="2.0.3" sync="254"/>
+		<app id="tuxpaint" v="0.9.22" sync="255"/>
+		<app id="ultrashredder" v="4.9" sync="256"/>
+		<app id="undercoverxp" v="1.23" sync="257"/>
+		<app id="universalextractor" v="1.6.1 rev4" sync="258"/>
+		<app id="unlocker" v="1.9.1" sync="259"/>
+		<app id="unstoppablecopier" v="5.2" sync="260"/>
+		<app id="usbdeview" v="2.36" sync="261"/>
+		<app id="usbdiskejector" v="1.3.0.3 rev1" sync="262"/>
+		<app id="usbimagetool" v="1.66" sync="263"/>
+		<app id="usbsudoku" v="2" sync="264"/>
+		<app id="utorrent" v="3.3.2 Build 30303" sync="265"/>
+		<app id="vicompte" v="1.4.91.1" sync="266"/>
+		<app id="videocalc" v="1.1 rev1" sync="267"/>
+		<app id="virtualdub" v="1.9.11 build 32842" sync="268"/>
+		<app id="virtualmagnifyingglass" v="3.6" sync="269"/>
+		<app id="virtuawin" v="4.4" sync="270"/>
+		<app id="vlc" v="2.1.5" sync="271"/>
+		<app id="vtuterecorder" v="1.0" sync="272"/>
+		<app id="wavosaur" v="1.1.0.0" sync="273"/>
+		<app id="webvideocap" v="1.41" sync="274"/>
+		<app id="winaudit" v="2.29" sync="275"/>
+		<app id="windirstat" v="1.1.2 rev1" sync="276"/>
+		<app id="wink" v="2.0 build 1060 rev2" sync="277"/>
+		<app id="winmerge" v="2.14.0" sync="278"/>
+		<app id="winscp" v="5.5.5" sync="279"/>
+		<app id="wintopo" v="1.740" sync="280"/>
+		<app id="wipedisk" v="1.2.0" sync="281"/>
+		<app id="wipefile" v="2.2.0" sync="282"/>
+		<app id="wisediskcleaner" v="8.24 Build 584" sync="283"/>
+		<app id="wiseregistrycleaner" v="8.23 Build 538" sync="284"/>
+		<app id="xdntweaker" v="0.9.3.0" sync="285"/>
+		<app id="xmediarecode" v="3.1.9.4" sync="286"/>
+		<app id="xmplay" v="3.8.0.5" sync="287"/>
+		<app id="xnview" v="2.22" sync="288"/>
+		<app id="xp-antispy" v="3.98.2" sync="289"/>
+		<app id="xpconfig" v="1.1.1.0" sync="290"/>
+		<app id="xvideoservicethief" v="2.4.1" sync="291"/>
+		<app id="yeachess" v="4.84" sync="292"/>
+		<app id="yoyocut" v="2.5.0.208" sync="293"/>
+		<app id="zoomit" v="4.50" sync="294"/>
+	</Apps>
+	<menu_options><![CDATA[CBp0J8U5YFglo+ImVL/zRDeuimgLH1K58R+29LBxax8=
+]]></menu_options>
+	<UserOptions><![CDATA[ogLEGHdc3O93DJYeBLn9XyuqL9NdIswUN99XLdqbUtM=
+]]></UserOptions>
+</LiberKeyVersionInfo>

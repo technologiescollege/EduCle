@@ -1,0 +1,20 @@
+09:23:57 | 105C | Error | Error 91 (Variable objet ou variable bloc With non définie) in Sub frmMain.AppEvents_Fire
+09:23:57 | 105C | Error | Error 91 (Variable objet ou variable bloc With non définie) in Sub frmMain.AppEvents_Fire
+09:23:57 | 105C | Error | Error 91 (Variable objet ou variable bloc With non définie) in Sub frmMain.AppEvents_Fire
+09:23:58 | 105C | Error | Error 735 (Le contrôle n'est plus utilisable car il a été supprimé de la collection de contrôles) in Property cAlphaTabs.Left
+09:23:58 | 105C | Error | Error 735 (Le contrôle n'est plus utilisable car il a été supprimé de la collection de contrôles) in Property cAlphaTabs.Left
+09:23:58 | 105C | Error | Error 735 (Le contrôle n'est plus utilisable car il a été supprimé de la collection de contrôles) in Property cAlphaTabs.Container
+09:23:58 | 105C | Error | Error 735 (Le contrôle n'est plus utilisable car il a été supprimé de la collection de contrôles) in Property cAlphaTabs.Left
+09:23:58 | 105C | Error | Error 735 (Le contrôle n'est plus utilisable car il a été supprimé de la collection de contrôles) in Property cAlphaTabs.Top
+09:23:58 | 105C | Error | Error 735 (Le contrôle n'est plus utilisable car il a été supprimé de la collection de contrôles) in Property cAlphaTabs.Top
+09:23:58 | 105C | Error | Error 735 (Le contrôle n'est plus utilisable car il a été supprimé de la collection de contrôles) in Property cAlphaTabs.Container
+09:23:58 | 105C | Error | Error 735 (Le contrôle n'est plus utilisable car il a été supprimé de la collection de contrôles) in Property cAlphaTabs.Top
+09:23:58 | 105C | Error | Error 735 (Le contrôle n'est plus utilisable car il a été supprimé de la collection de contrôles) in Property cAlphaTabs.Width
+09:23:58 | 105C | Error | Error 735 (Le contrôle n'est plus utilisable car il a été supprimé de la collection de contrôles) in Property cAlphaTabs.Width
+09:23:58 | 105C | Error | Error 735 (Le contrôle n'est plus utilisable car il a été supprimé de la collection de contrôles) in Property cAlphaTabs.Container
+09:23:58 | 105C | Error | Error 735 (Le contrôle n'est plus utilisable car il a été supprimé de la collection de contrôles) in Property cAlphaTabs.Width
+09:23:59 | 105C | Error | Error 735 (Le contrôle n'est plus utilisable car il a été supprimé de la collection de contrôles) in Sub frmMain.Form_Load
+16:35:37 | C6C | Error | Error 91 (Variable objet ou variable bloc With non définie) in Sub frmMain.DeleteCurrentMenu
+16:35:46 | C6C | Error | Error 91 (Variable objet ou variable bloc With non définie) in Sub frmMain.SwapTree
+16:35:49 | C6C | Error | Error 91 (Variable objet ou variable bloc With non définie) in Sub cAlphaTree.EnsureVisible
+16:35:49 | C6C | Error | Error 91 (Variable objet ou variable bloc With non définie) in Sub cAlphaTree.UpdateView

@@ -1,0 +1,160 @@
+<LiberKeyDB>
+	<Categories>
+		<Category id="accessibility" en="Accessibility" fr="Accessibilité" icon="accessibility.ico"/>
+		<Category id="audio" en="Audio" fr="Audio" icon="audio.ico"/>
+		<Category id="audio:converter" en="Converter" fr="Convertisseur" icon="auto:Green"/>
+		<Category id="audio:editor" en="Editor" fr="Editeur" icon="auto:Green"/>
+		<Category id="audio:ipod_manager" en="iPod manager" fr="Gestionnaire iPod" icon="auto:Green"/>
+		<Category id="audio:player" en="Player" fr="Lecteur" icon="auto:Green"/>
+		<Category id="audio:radio" en="Radio" fr="Radio" icon="auto:Green"/>
+		<Category id="audio:ripper" en="Ripper" fr="Ripper" icon="auto:Green"/>
+		<Category id="audio:tagger" en="Tagger" fr="Tagger" icon="auto:Green"/>
+		<Category id="audio:text_to_speech" en="Text to Speech" fr="Synthèse vocale" icon="auto:Green"/>
+		<Category id="audio:tools" en="Tools" fr="Outils" icon="auto:Green"/>
+		<Category id="audio-video" en="Audio - Video" fr="Audio - Vidéo" icon="multimedia.ico"/>
+		<Category id="cd-dvd" en="CD - DVD" fr="CD - DVD" icon="cd.ico"/>
+		<Category id="cd-dvd:burning_tools" en="Burning tools" fr="Gravure" icon="auto:Violet"/>
+		<Category id="cd-dvd:cover_printer" en="Cover printer" fr="Impression de jaquette" icon="auto:Violet"/>
+		<Category id="cd-dvd:image_tools" en="Image tools" fr="Gestion image" icon="auto:Violet"/>
+		<Category id="development" en="Development" fr="Développement" icon="dev.ico"/>
+		<Category id="education" en="Education" fr="Education" icon="education.ico"/>
+		<Category id="education:astronomy" en="Astronomy" fr="Astronomie" icon="auto:Red"/>
+		<Category id="education:children" en="Children" fr="Enfants" icon="auto:Red"/>
+		<Category id="education:drawing" en="Drawing" fr="Dessin" icon="auto:Red"/>
+		<Category id="education:geography" en="Geography" fr="Géographie" icon="auto:Red"/>
+		<Category id="education:music" en="Music" fr="Musique" icon="auto:Red"/>
+		<Category id="education:typing" en="Typing" fr="Dactylographie" icon="auto:Red"/>
+		<Category id="file_management" en="File management" fr="Gestion des fichiers" icon="file_management.ico"/>
+		<Category id="file_management:backup" en="Backup" fr="Backup" icon="auto:Green"/>
+		<Category id="file_management:cataloger" en="Cataloger" fr="Catalogueur" icon="auto:Green"/>
+		<Category id="file_management:comparison" en="Comparison" fr="Comparaison" icon="auto:Green"/>
+		<Category id="file_management:compression" en="Compression" fr="Compression" icon="auto:Green"/>
+		<Category id="file_management:copy" en="Copy" fr="Copie" icon="auto:Green"/>
+		<Category id="file_management:defragmenter" en="Defragmenter" fr="Défragmentation" icon="auto:Green"/>
+		<Category id="file_management:directory_lister" en="Directory Lister" fr="Listing" icon="auto:Green"/>
+		<Category id="file_management:disk_space_tool" en="Disk space tool" fr="Information espace disque" icon="auto:Green"/>
+		<Category id="file_management:duplicate_finder" en="Duplicate finder" fr="Recherche de doublons" icon="auto:Green"/>
+		<Category id="file_management:manager" en="Manager" fr="Gestionnaire" icon="auto:Green"/>
+		<Category id="file_management:recovery" en="Recovery" fr="Restauration après effacement" icon="auto:Green"/>
+		<Category id="file_management:renamer" en="Renamer" fr="Renommer" icon="auto:Green"/>
+		<Category id="file_management:search" en="Search" fr="Recherche" icon="auto:Green"/>
+		<Category id="file_management:splitter" en="Splitter" fr="Découpage" icon="auto:Green"/>
+		<Category id="file_management:synchronization" en="Synchronization" fr="Synchronisation" icon="auto:Green"/>
+		<Category id="file_management:tools" en="Tools" fr="Outils" icon="auto:Green"/>
+		<Category id="file_management:universal_viewer" en="Universal Viewer" fr="Visualisateur universel" icon="auto:Green"/>
+		<Category id="games" en="Games" fr="Jeux" icon="games.ico"/>
+		<Category id="games:action" en="Action" fr="Action" icon="auto:Red"/>
+		<Category id="games:card" en="Card" fr="Carte" icon="auto:Red"/>
+		<Category id="games:puzzle" en="Puzzle" fr="Puzzle" icon="auto:Red"/>
+		<Category id="games:reflexion" en="Reflexion" fr="Réflexion" icon="auto:Red"/>
+		<Category id="games:strategy" en="Strategy" fr="Stratégie" icon="auto:Red"/>
+		<Category id="graphics-photo" en="Graphics - Photo" fr="Graphisme - Photo" icon="graphic_tools.ico"/>
+		<Category id="graphics-photo:3d" en="3D" fr="3D" icon="auto:Red"/>
+		<Category id="graphics-photo:color_picker" en="Color picker" fr="Pipette couleur" icon="auto:Red"/>
+		<Category id="graphics-photo:editor" en="Editor" fr="Editeur" icon="auto:Red"/>
+		<Category id="graphics-photo:effect_and_filter" en="Effect and filter" fr="Effet et filtre" icon="auto:Red"/>
+		<Category id="graphics-photo:icon_editor" en="Icon editor" fr="Editeur d&apos;icône" icon="auto:Red"/>
+		<Category id="graphics-photo:screen_capture" en="Screen capture" fr="Copie d&apos;écran" icon="auto:Red"/>
+		<Category id="graphics-photo:tools" en="Tools" fr="Outils" icon="auto:Red"/>
+		<Category id="graphics-photo:vector_converter" en="Vector converter" fr="Vectorisation" icon="auto:Red"/>
+		<Category id="graphics-photo:viewer" en="Viewer" fr="Visualisateur" icon="auto:Red"/>
+		<Category id="internet" en="Internet" fr="Internet" icon="internet.ico"/>
+		<Category id="internet:bookmark_manager" en="Bookmark manager" fr="Gestion des favoris" icon="auto:Blue"/>
+		<Category id="internet:browser" en="Browser" fr="Navigateur" icon="auto:Blue"/>
+		<Category id="internet:download" en="Download" fr="Téléchargement" icon="auto:Blue"/>
+		<Category id="internet:email" en="Email" fr="Email" icon="auto:Blue"/>
+		<Category id="internet:ftp" en="FTP" fr="FTP" icon="auto:Blue"/>
+		<Category id="internet:instant_messenger" en="Instant messenger" fr="Messagerie instantanée" icon="auto:Blue"/>
+		<Category id="internet:rss_reader" en="RSS reader" fr="Lecteur RSS" icon="auto:Blue"/>
+		<Category id="internet:website_authoring" en="Website authoring" fr="Création de sites Web" icon="auto:Blue"/>
+		<Category id="internet:website_copier" en="Website copier" fr="Aspirateur de site" icon="auto:Blue"/>
+		<Category id="multimedia" en="Multimedia" fr="Multimédia" icon="multimedia.ico"/>
+		<Category id="networking-server" en="Networking - Server" fr="Réseaux - Serveurs" icon="network.ico"/>
+		<Category id="networking-server:bandwidth_monitor" en="Bandwidth monitor" fr="Bande passante" icon="auto:Blue"/>
+		<Category id="networking-server:configuration" en="Configuration" fr="Configuration" icon="auto:Blue"/>
+		<Category id="networking-server:network_analyzer" en="Network analyzer" fr="Analyse réseau" icon="auto:Blue"/>
+		<Category id="networking-server:remote_control" en="Remote control" fr="Télémaintenance" icon="auto:Blue"/>
+		<Category id="networking-server:scanner" en="Scanner" fr="Scanner" icon="auto:Blue"/>
+		<Category id="networking-server:server" en="Server" fr="Serveur" icon="auto:Blue"/>
+		<Category id="networking-server:settings_manager" en="Settings manager" fr="Gestion des profils" icon="auto:Blue"/>
+		<Category id="networking-server:telnet-ssh_client" en="Telnet-SSH client" fr="Client Telnet-SSH" icon="auto:Blue"/>
+		<Category id="networking-server:tools" en="Tools" fr="Outils" icon="auto:Blue"/>
+		<Category id="office" en="Office" fr="Bureautique" icon="office.ico"/>
+		<Category id="office:calculator" en="Calculator" fr="Calculatrice" icon="auto:Blue"/>
+		<Category id="office:calendar" en="Calendar" fr="Calendrier" icon="auto:Blue"/>
+		<Category id="office:chrono" en="Chrono" fr="Chronomètre" icon="auto:Blue"/>
+		<Category id="office:desktop_tools" en="Desktop tools" fr="Accessoires bureau" icon="auto:Blue"/>
+		<Category id="office:desktop_tools:application_launcher" en="Application launcher" fr="Lanceur d&apos;application"/>
+		<Category id="office:desktop_tools:automation" en="Automation" fr="Automatisation"/>
+		<Category id="office:desktop_tools:clipboard_manager" en="Clipboard manager" fr="Gestionnaire presse papier"/>
+		<Category id="office:desktop_tools:clock" en="Clock" fr="Horloge"/>
+		<Category id="office:desktop_tools:customization" en="Customization" fr="Personnalisation"/>
+		<Category id="office:desktop_tools:desktop_note" en="Desktop note" fr="Pense-bête"/>
+		<Category id="office:desktop_tools:keyboard-mouse" en="Keyboard - Mouse" fr="Clavier - Souris"/>
+		<Category id="office:desktop_tools:save_desktop_icon" en="Save desktop icon" fr="Sauver icônes du bureau"/>
+		<Category id="office:desktop_tools:virtual_desktop" en="Virtual desktop" fr="Bureaux virtuels"/>
+		<Category id="office:desktop_tools:zoom" en="Zoom" fr="Zoom"/>
+		<Category id="office:diagram_editor" en="Diagram editor" fr="Editeur de diagrammes" icon="auto:Blue"/>
+		<Category id="office:finance_manager" en="Finance manager" fr="Gestionnaire financier" icon="auto:Blue"/>
+		<Category id="office:font_manager" en="Font manager" fr="Police de caractères" icon="auto:Blue"/>
+		<Category id="office:note_manager" en="Note manager" fr="Gestionnaire de notes" icon="auto:Blue"/>
+		<Category id="office:office_suite" en="Office suite" fr="Suite bureautique" icon="auto:Blue"/>
+		<Category id="office:pdf" en="PDF" fr="PDF" icon="auto:Blue"/>
+		<Category id="office:presentation" en="Presentation" fr="Présentation" icon="auto:Blue"/>
+		<Category id="office:task_manager" en="Task manager" fr="Gestionnaire de tâches" icon="auto:Blue"/>
+		<Category id="office:text_editor" en="Text editor" fr="Editeur de texte" icon="auto:Blue"/>
+		<Category id="office:tutorial_creator" en="Tutorial creator" fr="Création de tutoriel" icon="auto:Blue"/>
+		<Category id="office:unit_converter" en="Unit converter" fr="Convertisseur d&apos;unité" icon="auto:Blue"/>
+		<Category id="office:universal_viewer" en="Universal Viewer" fr="Visualisateur universel" icon="auto:Blue"/>
+		<Category id="security" en="Security" fr="Sécurité" icon="security.ico"/>
+		<Category id="security:anti_virus-spyware" en="Anti virus-spyware" fr="Anti virus-spyware" icon="auto:Yellow"/>
+		<Category id="security:encryption" en="Encryption" fr="Cryptage" icon="auto:Yellow"/>
+		<Category id="security:integrity_checker" en="Integrity checker" fr="Contrôle d&apos;intégrité" icon="auto:Yellow"/>
+		<Category id="security:password_manager" en="Password manager" fr="Gestion des mots de passe" icon="auto:Yellow"/>
+		<Category id="security:privacy_tool" en="Privacy tool" fr="Protection vie privée" icon="auto:Yellow"/>
+		<Category id="security:secure_deletion" en="Secure deletion" fr="Effacement permanent" icon="auto:Yellow"/>
+		<Category id="security:tools" en="Tools" fr="Outils" icon="auto:Yellow"/>
+		<Category id="system_utilities" en="System utilities" fr="Outils système" icon="system_utilities.ico"/>
+		<Category id="system_utilities:benchmark" en="Benchmark" fr="Performances" icon="auto:Grey"/>
+		<Category id="system_utilities:benchmark:hard_disk" en="Hard disk" fr="Disque dur"/>
+		<Category id="system_utilities:benchmark:universal" en="Universal" fr="Globales"/>
+		<Category id="system_utilities:cleaner-uninstaller" en="Cleaner - uninstaller" fr="Nettoyeur - désinstalleur" icon="auto:Grey"/>
+		<Category id="system_utilities:emulator" en="Emulator" fr="Emulateur" icon="auto:Grey"/>
+		<Category id="system_utilities:hex_editor" en="Hex editor" fr="Editeur Hex" icon="auto:Grey"/>
+		<Category id="system_utilities:information" en="Information" fr="Informations" icon="auto:Grey"/>
+		<Category id="system_utilities:information:file_monitoring" en="File monitoring" fr="Surveillance des accès fichiers"/>
+		<Category id="system_utilities:information:hardware_monitoring" en="Hardware monitoring" fr="Surveillance du matériel"/>
+		<Category id="system_utilities:information:inventory" en="Inventory" fr="Inventaire"/>
+		<Category id="system_utilities:information:process" en="Process" fr="Processus"/>
+		<Category id="system_utilities:information:processor" en="Processor" fr="Processeur"/>
+		<Category id="system_utilities:information:service" en="Service" fr="Service"/>
+		<Category id="system_utilities:information:startup_manager" en="Startup manager" fr="Gestionnaire de démarrage"/>
+		<Category id="system_utilities:information:usb_device" en="USB device" fr="Périphériques USB"/>
+		<Category id="system_utilities:information:video_card" en="Video card" fr="Carte graphique"/>
+		<Category id="system_utilities:registry" en="Registry" fr="Base de registre" icon="auto:Grey"/>
+		<Category id="system_utilities:registry:backup" en="Backup" fr="Sauvegarde"/>
+		<Category id="system_utilities:registry:comparison" en="Comparison" fr="Comparaison"/>
+		<Category id="system_utilities:registry:compression" en="Compression" fr="Compression"/>
+		<Category id="system_utilities:registry:monitoring" en="Monitoring" fr="Surveillance"/>
+		<Category id="system_utilities:registry:repair" en="Repair" fr="Réparation"/>
+		<Category id="system_utilities:registry:search" en="Search" fr="Rechercher"/>
+		<Category id="system_utilities:repair" en="Repair" fr="Réparation" icon="auto:Grey"/>
+		<Category id="system_utilities:tests" en="Tests" fr="Tests" icon="auto:Grey"/>
+		<Category id="system_utilities:tests:burning_test" en="Burning test" fr="Burning test"/>
+		<Category id="system_utilities:tests:hard_disk" en="Hard disk" fr="Disque dur"/>
+		<Category id="system_utilities:tests:monitor" en="Monitor" fr="Ecran"/>
+		<Category id="system_utilities:tests:ram" en="RAM" fr="RAM"/>
+		<Category id="system_utilities:tools" en="Tools" fr="Outils" icon="auto:Grey"/>
+		<Category id="system_utilities:tweaker" en="Tweaker" fr="Tweaker" icon="auto:Grey"/>
+		<Category id="system_utilities:update_checker" en="Update checker" fr="Vérification des mises à jour" icon="auto:Grey"/>
+		<Category id="video" en="Video" fr="Vidéo" icon="video.ico"/>
+		<Category id="video:authoring" en="Authoring" fr="Authoring" icon="auto:Grey"/>
+		<Category id="video:capture" en="Capture" fr="Capture" icon="auto:Grey"/>
+		<Category id="video:cataloger" en="Cataloger" fr="Catalogueur" icon="auto:Grey"/>
+		<Category id="video:converter" en="Converter" fr="Convertisseur" icon="auto:Grey"/>
+		<Category id="video:editor" en="Editor" fr="Editeur" icon="auto:Grey"/>
+		<Category id="video:player" en="Player" fr="Lecteur" icon="auto:Grey"/>
+		<Category id="video:repair" en="Repair" fr="Réparation" icon="auto:Grey"/>
+		<Category id="video:tools" en="Tools" fr="Outils" icon="auto:Grey"/>
+	</Categories>
+</LiberKeyDB>

@@ -1,0 +1,269 @@
+<Languages version="0.2">
+	<he-IL en_name="Hebrew" icon="il.png" date="2011-02-27" version="1.0" name="Hebrew Translation">
+		<FileAssoc>
+			<CommandButtons>
+				<Apply_caption>ה&amp;חל</Apply_caption>
+				<Cancel_caption>בי&amp;טול</Cancel_caption>
+				<Add_caption>חד&amp;ש</Add_caption>
+				<Delete_caption>מח&amp;ק</Delete_caption>
+				<SelectApp_caption>עריכה...</SelectApp_caption>
+				<Advanced_caption>מ&amp;תקדם</Advanced_caption>
+				<OK_caption>אישור</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<FrameCaption_caption>פרטים על הסיומת &apos;%1&apos;</FrameCaption_caption>
+				<OpenWithInfo_caption>פתיחה באמצעות:</OpenWithInfo_caption>
+				<AssocListTitle_caption>סוגי הקבצים הרשומים:</AssocListTitle_caption>
+				<ExtInfo>הקבצים מסוג &apos;%1&apos; הם &apos;%2&apos;. כדי לשנות את היישומים הניידים המשויכים לקובץ זה, יש ללחוץ על &apos;מתקדם&apos;.</ExtInfo>
+				<FrameCaptionNoExt_caption>פרטים על סוג &apos;%1&apos;</FrameCaptionNoExt_caption>
+				<ExtInfoNoExt>כדי לשנות את הפרמטרים החלים על סוג &apos;%1&apos;, יש ללחוץ על &apos;מתקדם&apos;.</ExtInfoNoExt>
+			</Labels>
+			<Messages>
+				<ExtExists>סיומת זו משויכת כבר לקבצים מסוג &apos;%1&apos;</ExtExists>
+				<ExtExistsTitle>סוגי קבצים</ExtExistsTitle>
+				<AppExeNotFound>אירעה שגיאה בעת אחזור הנתיב ליישום הנייד שנבחר</AppExeNotFound>
+				<DeleteConfirm>הסרת הרישום של סיומת קובץ תמנע בעתיד פתיחת קבצים מסוג זה בהקלקה כפולה על האייקון.\n\nהאם אתה בטוח שברצונך להסיר את סיומת הקובץ הזו?</DeleteConfirm>
+				<DeleteConfirmTitle>סוגי קבצים</DeleteConfirmTitle>
+			</Messages>
+			<caption>סוגי קבצים המשויכים ליישומים הניידים שבמעטפת</caption>
+		</FileAssoc>
+		<Messages>
+			<ApplyDone>היישומים הניידים שבמעטפת משויכים כעת לקבצים בהתאמה.</ApplyDone>
+			<ApplyDoneTitle>שיוכים ליישומים הניידים במעטפת</ApplyDoneTitle>
+			<ApplyError>אירעה שגיאה בעת ניסיון להפעיל את השיוכים במעטפת</ApplyError>
+			<ApplyErrorTitle>שגיאה בשיוך קבצים</ApplyErrorTitle>
+			<RestoreDone>שיוך הקבצים שוחזר</RestoreDone>
+			<RestoreDoneTitle>השיוכים נשמרו מחדש</RestoreDoneTitle>
+			<RestoreError>לא ניתן לשחזר את סיומות הקבצים.\nאירעה שגיאה במהלך השחזור של סיומות הקבצים</RestoreError>
+			<RestoreErrorTitle>שגיאה בשיוך קובץ</RestoreErrorTitle>
+			<AutoRestoreDone>סיומות הקבצים לא שוחזרו במהלך השימוש האחרון.</AutoRestoreDone>
+			<AutoRestoreDoneTitle>השיוכים שוחזרו</AutoRestoreDoneTitle>
+			<ASuiteConfMissing>לא נמצא הקובץ הכולל את רשימת היישומים הניידים !</ASuiteConfMissing>
+			<UpdateInfoError>אירעה שגיאה באחזור פרטי המהדורה האחרונה</UpdateInfoError>
+			<UpdateErrorTitle>אירעה שגיאה במהלך העדכון</UpdateErrorTitle>
+			<UpdateTitle>עדכון</UpdateTitle>
+			<NewVersionInfo>קיימת מהדורה %version% מתאריך %versiondate%.\n\n%description%\n\nהאם ברצונך להוריד אותה כעת?</NewVersionInfo>
+			<UpdateDownloadError>אירעה שגיאה במהלך ההורדה של המהדורה האחרונה.\n\n%error%</UpdateDownloadError>
+			<UpdateAppStillRunning>התוכנית עדיין פועלת.\nהאם ברצונך לנסות שוב?</UpdateAppStillRunning>
+			<UpdateDone>עדכון הגירסה %version% הסתיים.</UpdateDone>
+			<NoAppUpdate>מהדורת היישום %appname% שבידך היא .המעודכנת</NoAppUpdate>
+			<UpdateExeError>אירעה שגיאה במהלך עדכון התוכנה.\n\n%error%</UpdateExeError>
+			<NewVersionAvailable>קיימת מהדורה חדשה ליישום של שיוך הקבצים</NewVersionAvailable>
+		</Messages>
+		<NewType>
+			<caption>יצירת סיומת חדשה</caption>
+			<CommandButtons>
+				<OK_caption>&amp;אישור</OK_caption>
+				<Cancel_caption>בי&amp;טול</Cancel_caption>
+			</CommandButtons>
+			<Labels>
+				<Info_caption>סיומת קובץ:</Info_caption>
+			</Labels>
+			<Messages>
+				<NoExt>חובה לציין סיומת קובץ.</NoExt>
+				<NoExtTitle>סוגי קבצים</NoExtTitle>
+			</Messages>
+		</NewType>
+		<AppSelect>
+			<caption>בחירת היישום הנייד המשויך</caption>
+			<Labels>
+				<Loading_caption>טוען את רשימת התוכנות הקיימות...</Loading_caption>
+			</Labels>
+			<CommandButtons>
+				<Cancel_caption>בי&amp;טול</Cancel_caption>
+				<OK_caption>&amp;אישור</OK_caption>
+			</CommandButtons>
+		</AppSelect>
+		<AssocAdvance>
+			<caption>שינ</caption>
+			<CommandButtons>
+				<OK_caption>&amp;אישור</OK_caption>
+				<Cancel_caption>בי&amp;טול</Cancel_caption>
+				<Default_caption>&amp;ברירת המחדל</Default_caption>
+				<DelAction_caption>ה&amp;סר</DelAction_caption>
+				<EditAction_caption>שי&amp;נוי...</EditAction_caption>
+				<Add_caption>חד&amp;ש...</Add_caption>
+				<ChangeIcon_caption>שינוי האיי&amp;קון</ChangeIcon_caption>
+			</CommandButtons>
+			<Labels>
+				<Actions_caption>פ&amp;עולות:</Actions_caption>
+			</Labels>
+			<CheckBoxs>
+				<WinEdit_caption>אפשר שינוי בחלון &apos;אפשרויות תיקייה&apos;</WinEdit_caption>
+				<ReplaceWinEntry_caption>החלף את הפעולות הנוכחיות עבור סוג זה של קבצים</ReplaceWinEntry_caption>
+			</CheckBoxs>
+			<Messages>
+				<ActionDeleteConfirm>האם אתה בטוח שברצונך להסיר פעולה זו?</ActionDeleteConfirm>
+				<ActionDeleteConfirmTitle>סוגי קבצים</ActionDeleteConfirmTitle>
+			</Messages>
+		</AssocAdvance>
+		<SelectIcon>
+			<caption>שנה אייקון</caption>
+			<CommandButtons>
+				<OK_caption>&amp;אישור</OK_caption>
+				<Cancel_caption>בי&amp;טול</Cancel_caption>
+				<Browse_caption>&amp;עיון...</Browse_caption>
+			</CommandButtons>
+			<Labels>
+				<IconList_caption>ב&amp;חר אייקון מהרשימה שלהלן:</IconList_caption>
+				<IconPath_caption>חפש אייקון בקובץ הבא:</IconPath_caption>
+			</Labels>
+			<Messages>
+				<FilterIconFiles>קובצי אייקונים</FilterIconFiles>
+				<FilterPrograms>תוכניות</FilterPrograms>
+				<FilterLibraries>ספריות</FilterLibraries>
+				<FilterAllFiles>כל הקבצים</FilterAllFiles>
+				<OpenFileTitle>שנה אייקון</OpenFileTitle>
+				<FileNotFound>הקובץ לא נמצא: %1</FileNotFound>
+			</Messages>
+		</SelectIcon>
+		<AddAction>
+			<caption>פעולה חדשה</caption>
+			<EditCaption>שינוי פעולה עבור הסוג: &amp;typedesc%</EditCaption>
+			<CommandButtons>
+				<Browse_caption>עיון...</Browse_caption>
+				<Cancel_caption>בי&amp;טול</Cancel_caption>
+				<OK_caption>&amp;אישור</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<ActionArgs_caption>הפרמטרים של שורת הפקודה:</ActionArgs_caption>
+				<ActionAppPath_caption>היישום המשמש לביצוע פעולה זו:</ActionAppPath_caption>
+				<Action_caption>פעולה:</Action_caption>
+			</Labels>
+			<Messages>
+				<AppNotFound>התוכנית שצוינה לא נמצאה. ייתכן ששם הקובץ או הנתיב שגויים.</AppNotFound>
+				<AppNotFoundTitle>הוסף פעולה</AppNotFoundTitle>
+				<ActionIsEmpty>חובה לציין פעולה.</ActionIsEmpty>
+				<ActionIsEmptyTitle>סוגי קבצים</ActionIsEmptyTitle>
+			</Messages>
+		</AddAction>
+		<Main>
+			<Menus>
+				<Options_caption>א&amp;פשרויות...</Options_caption>
+				<Config_caption>הגדרת השיוכים...</Config_caption>
+				<Web_caption>בי&amp;קור באתר האינטרנט של שיוכי הקבצים...</Web_caption>
+				<About_caption>או&amp;דות...</About_caption>
+				<Apply_caption>החל את השיוכים במעטפת</Apply_caption>
+				<Restore_caption>שחזר את השיוכים של סוגי הקבצים</Restore_caption>
+				<Quit_caption>י&amp;ציאה</Quit_caption>
+				<Test_caption>בדיקה</Test_caption>
+			</Menus>
+		</Main>
+		<General>
+			<AppActionPrefix>פתיחה באמצעות...</AppActionPrefix>
+			<AppActionSufix>(המעטפת)</AppActionSufix>
+			<DefaultTypeName>קבצים %1</DefaultTypeName>
+		</General>
+		<Update>
+			<caption>עדכון תוכנה</caption>
+			<Labels>
+				<RunNewVersion_caption>מפעיל את הגירסה חדשה</RunNewVersion_caption>
+				<ReplaceExe_caption>מעדכן את התוכנה</ReplaceExe_caption>
+				<ClosingApp_caption>סוגר את היישום</ClosingApp_caption>
+				<Title_caption>התקנת עדכון התוכנה</Title_caption>
+			</Labels>
+			<CommandButtons>
+				<Cancel_caption>בי&amp;טול</Cancel_caption>
+			</CommandButtons>
+		</Update>
+		<Download>
+			<caption>עדכון תוכנ</caption>
+			<Labels>
+				<Title_caption>הורדה של עדכון התוכנה...</Title_caption>
+			</Labels>
+			<CommandButtons>
+				<Cancel_caption>בי&amp;טול</Cancel_caption>
+			</CommandButtons>
+		</Download>
+		<About>
+			<caption>אודות</caption>
+			<CommandButtons>
+				<Update_caption>ב&amp;דיקת עדכונים...</Update_caption>
+				<OK_caption>ס&amp;גור</OK_caption>
+				<History_caption>היסטוריית הגיר&amp;סאות...</History_caption>
+			</CommandButtons>
+			<Labels>
+				<LiberKeyPartner_caption>היישום של שיוכי הקבצים פותח עלידי צוות הפיתוח של המעטפת</LiberKeyPartner_caption>
+				<LiberKeyExclu_caption>אין להשתמש בתוכנית זו אלא בתוך יישום המעטפת</LiberKeyExclu_caption>
+			</Labels>
+		</About>
+		<MergeAssocs>
+			<caption>עדכון התצורה</caption>
+			<CommandButtons>
+				<SkipDefaultAssoc_caption>אין לשנות את התצורה!</SkipDefaultAssoc_caption>
+				<MergeDefaultAssocs_caption>ה&amp;חל את השיוכים שנבחרו</MergeDefaultAssocs_caption>
+				<Cancel_caption>אבד&amp;וק זאת בהפעלההבאה...</Cancel_caption>
+			</CommandButtons>
+			<Labels>
+				<Title_caption>ברירת המחדל של הגדרות השיוכים</Title_caption>
+				<UpdateInfo_caption>ברשימה שלהלן מרוכזים כל השיוכים החדשים של קבצים למהדורה זו. השיוכים בצבע אדום כבר מוגדרים בתצורה הקיימת. כל השיוכים שנבחרו ברשימה זו יתווספו לתצורה הקיימת.</UpdateInfo_caption>
+			</Labels>
+		</MergeAssocs>
+		<Loading>
+			<Labels>
+				<Info_caption>טוען...</Info_caption>
+			</Labels>
+		</Loading>
+		<Options>
+			<caption>הגדרות התצורה של יישום שיוכי הקבצים</caption>
+			<CommandButtons>
+				<Cancel_caption>בי&amp;טול</Cancel_caption>
+				<OK_caption>&amp;אישור</OK_caption>
+				<DelAssocErrors_caption>הסר את השיוכים שנבחרו</DelAssocErrors_caption>
+			</CommandButtons>
+			<Labels>
+				<AppsErrorsTitle_caption>התוכנה לא נמצאה (השיוכים הושבתו)</AppsErrorsTitle_caption>
+				<FastSwitchMode_caption>בהקלקה כפולה על האייקון במגש המערכת:</FastSwitchMode_caption>
+				<Language_caption>שפת ממשק המשתמש:</Language_caption>
+			</Labels>
+			<OptionButtons>
+				<optSystrayFastSwitchOFF_caption>הגדרות השיוכים</optSystrayFastSwitchOFF_caption>
+				<optSystrayFastSwitchON_caption>שייך או שחזר את שיוכי התוכניות של יישום המעטפת</optSystrayFastSwitchON_caption>
+			</OptionButtons>
+			<CheckBoxs>
+				<AutoCheckVersionAtStart_caption>עם הפעלת התוכנית, בדוק אם קיימים עדכונים</AutoCheckVersionAtStart_caption>
+				<ShowAssocToolTip_caption>הצג עצה כאשר השיוכים מופעלים או משוחזרים</ShowAssocToolTip_caption>
+				<UseLbkProxySettings_caption>השתמש בהגדרות התצורה של שרת הפרוקסי ביישום המעטפת</UseLbkProxySettings_caption>
+			</CheckBoxs>
+			<Tabs>
+				<Options>אפשרויות</Options>
+				<ActionErrors>פעולות לא חוקיות</ActionErrors>
+			</Tabs>
+			<Messages>
+				<NotFoundApp>(השיוך לא נמצא)</NotFoundApp>
+				<AppCounters>היישום משויך עם %objcount% עצמים (%actioncount% פעולות)</AppCounters>
+				<ActionCount>(פעולה אחת)</ActionCount>
+			</Messages>
+		</Options>
+		<History>
+			<caption>היסטוריית הגירסאות של יישום שיוכי הקבצים</caption>
+			<CommandButtons>
+				<Close_caption>ס&amp;גור</Close_caption>
+				<Download_caption>מוריד את המהדורה %ver%...</Download_caption>
+			</CommandButtons>
+			<Messages>
+				<AppVersion>גירסה %ver%</AppVersion>
+				<VersionDate>-  %date%</VersionDate>
+				<NextVersion>(הגירסה הבאה...)</NextVersion>
+				<YourVersion>הגירסה שבידך</YourVersion>
+				<VersionAvailable>קיים עדכון</VersionAvailable>
+				<New>חדש</New>
+				<NoVersionInfo>פרטי הגירסה אינם קיימים</NoVersionInfo>
+			</Messages>
+		</History>
+		<AppWarning>
+			<caption>יישום שיוכי הקבצים - קיים סיכון התנגשות עם יישום אחר</caption>
+			<CommandButtons>
+				<OK_caption>&amp;אישור</OK_caption>
+				<RemoveAssocs_caption>השבת את השיוכים כעת</RemoveAssocs_caption>
+			</CommandButtons>
+			<Labels>
+				<Title_caption>אזהרה!</Title_caption>
+				<Message_caption>יישום שיוכי הקבצים גילה הפעלה של יישום העלול לגרום לקשיים. לפני ביצוע שינויים ברישום של מערכת ההפעלה, מומלץ מאוד להשבית את השיוכים הזמניים של קבצים.</Message_caption>
+			</Labels>
+		</AppWarning>
+		<Contributors>
+			<Contributor name="Abe C"/>
+		</Contributors>
+	</he-IL>
+</Languages>

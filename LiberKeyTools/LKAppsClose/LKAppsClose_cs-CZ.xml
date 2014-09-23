@@ -1,0 +1,31 @@
+<Languages version="0.2">
+	<cs-CZ en_name="Czech" icon="cz.png" date="2010-10-11" name="Čeština">
+		<Main>
+			<CommandButtons>
+				<CloseApps_Caption>&amp;Zavřít přenosné aplikace</CloseApps_Caption>
+				<Close_Caption>Z&amp;rušit</Close_Caption>
+			</CommandButtons>
+		</Main>
+		<Messages>
+			<Closing>Uzavírání aplikace...</Closing>
+			<CloseFailed>Alikace stále běží.\nUzavřete jí ručně, nebo násilným ukončením</CloseFailed>
+			<ForceFailed>Chyba při pokusu o násilné ukončení!</ForceFailed>
+			<AppsCloseCanceled>Zavírání aplikace zrušeno</AppsCloseCanceled>
+			<ContinueClose>Chcete pokračovat uzavřením dalších aplikací?</ContinueClose>
+		</Messages>
+		<Closing>
+			<caption>Uzavření alikací LiberKey</caption>
+			<CommandButtons>
+				<Cancel_Caption>&amp;Zrušit</Cancel_Caption>
+				<Terminate_Caption>&amp;Donucení k uzavření</Terminate_Caption>
+				<Retry_Caption>&amp;Opakovat</Retry_Caption>
+			</CommandButtons>
+		</Closing>
+		<Debug>
+			<caption>Informace o oknech zjištěných aplikací</caption>
+		</Debug>
+		<Message>
+			<KillWarning>Varování !\n \nNásilné uzavření aplikace může narušit vaše data. \nJe proto výhodnější opustit aplikace normálně. \n \nJste si jistý, že chcete vynutit přerušení práce tohoto programu?</KillWarning>
+		</Message>
+	</cs-CZ>
+</Languages>

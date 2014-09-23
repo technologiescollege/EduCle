@@ -1,0 +1,73 @@
+<Languages version="0.2">
+	<en en_name="English" date="2011-03-14" version="0.40" icon="gb.png" name="English">
+		<Messages>
+			<Errors>
+				<404>%appname% %appversion%\n\nThe file was not found on the server!\nPlease try again later.</404>
+				<Login>An error occured during LiberKey login.\nPlease try again later.</Login>
+				<Password>You have provided a wrong username or password.</Password>
+				<403>It appears your proxy server has stopped the LiberKey from connecting to the internet.\nPlease check your proxy configuration.</403>
+				<InvalidPwd>You have provided a wrong password.\n\nPlease provide the correct password.</InvalidPwd>
+				<DownloadError>An error occured during the download.\nTry again?</DownloadError>
+				<InvalidUser>The user was not found in the LiberKey database.\n\nPlease try again.</InvalidUser>
+				<DepositFolderError>Unable to save data in the repository directory.\n%path%\n\nWould you like to download the missing packages in the temporary directory?</DepositFolderError>
+			</Errors>
+			<UpdateDone>Application updates completed.</UpdateDone>
+			<DownloadingTip>Downloading updates...\nClick here for more details.</DownloadingTip>
+			<DownloadingTipTitle>LiberKey applications update</DownloadingTipTitle>
+			<DownloadDone>Your updates have downloaded successfully.\nThe LiberKey menu will close while your applications are updated.</DownloadDone>
+			<ConfirmCancel>You are downloading updates.\nDo you wish to cancel the download and update?</ConfirmCancel>
+			<HttpError>An error occured while trying to recover information about available LiberKey updates.\nDo you have access to internet on this computer?</HttpError>
+			<UpToDate>Your LiberKey applications are up to date.</UpToDate>
+			<UpdatesAvailable>Updates are available for your applications.\nClick here to install updates.</UpdatesAvailable>
+			<HighPriority>Priority</HighPriority>
+			<LowPriority>Optional</LowPriority>
+			<LowPriorityInfoTitle>Optional update</LowPriorityInfoTitle>
+			<LowPriorityInfo>This update is recommended if you regularly use this software.\nIt can bring new features.</LowPriorityInfo>
+			<HighPriorityInfoTitle>Priority update</HighPriorityInfoTitle>
+			<HighPriorityInfo>We encourage you to apply this update.\nIt contains several important fixes, some of which may affect the application&apos;s security.</HighPriorityInfo>
+			<HideThisUpdate>Do not show this update</HideThisUpdate>
+			<HideUpdateInfo>Disabled updates can be displayed again by clicking &quot;Show hidden updates&quot;</HideUpdateInfo>
+			<AppAlreadyInstalled>%appname% %appversion% is already installed on your LiberKey.\n\nDo you want to re-install this application ?</AppAlreadyInstalled>
+			<AppUpdateObsolete>A newer version of %appname% is already installed on your LiberKey.\n\nVersion already installed: %appversion%\nVersion being installed: %newversion%\n\nDo you want to install the old version?</AppUpdateObsolete>
+			<InformationTitle>Information</InformationTitle>
+			<DiskSpace>Required disk space: %needed% (available: %avail%)</DiskSpace>
+			<TempSpaceNeeded>The available space to download temporary installation files is too low.\n\nYour selection requires %downloadsize% of free space on drive %drive% (there are currently only %avail% available on %drive%)</TempSpaceNeeded>
+			<AppsDownloadDone>Download in the file repository is completed.\n=&gt; %downloadpath%\n\nDo you want to start installing the updates now?</AppsDownloadDone>
+			<KeepTempFiles>Do you want to keep the downloaded files for later usage?</KeepTempFiles>
+		</Messages>
+		<Main>
+			<CommandButtons>
+				<Download_Caption>Install selected applications</Download_Caption>
+				<Cancel_Caption>Cancel</Cancel_Caption>
+				<HideWindow_Caption>&amp;Hide this window during downloading</HideWindow_Caption>
+			</CommandButtons>
+			<Labels>
+				<SelectNone_Caption>Unselect all</SelectNone_Caption>
+				<SelectAll_Caption>Select all</SelectAll_Caption>
+				<Info_Caption>Available Updates :</Info_Caption>
+				<SelectHighPriority_Caption>Select priority updates</SelectHighPriority_Caption>
+				<ShowHiddenUpdates_Caption>Show hidden updates (%count%)</ShowHiddenUpdates_Caption>
+				<RemoveHiddenUpdates_Caption>Remove disabled updates (%count%)</RemoveHiddenUpdates_Caption>
+				<InstallTitle_Caption>Installing applications</InstallTitle_Caption>
+				<Version_Caption>Version : </Version_Caption>
+				<DownloadSize_Caption>Download size :</DownloadSize_Caption>
+				<InstalledSize_Caption>Disk space required:</InstalledSize_Caption>
+				<bytes>bytes</bytes>
+				<Kb>Kb</Kb>
+				<Mb>Mb</Mb>
+				<Gb>Gb</Gb>
+			</Labels>
+			<CheckBoxs>
+				<Silent_Caption>Install applications without user input (automatic mode)</Silent_Caption>
+			</CheckBoxs>
+		</Main>
+		<Info>
+			<UpdateIgnore>(disabled)</UpdateIgnore>
+			<UpdateLowPriority>(low priority)</UpdateLowPriority>
+		</Info>
+		<Contributors>
+			<Contributor name="LiberKey" email="contact@liberkey.com" website="http://www.liberkey.com/"/>
+			<Contributor name="BlueMaxima" email="bluemaximax011@hotmail.com"/>
+		</Contributors>
+	</en>
+</Languages>

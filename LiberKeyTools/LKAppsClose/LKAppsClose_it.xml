@@ -1,0 +1,35 @@
+<Languages version="0.2">
+	<it en_name="Italian" date="2012-01-27" version="5.6.0124" name="Italiano" icon="it.png">
+		<Main>
+			<CommandButtons>
+				<CloseApps_Caption>&amp;Chiudi le applicazioni portabili</CloseApps_Caption>
+				<Close_Caption>C&amp;ancella</Close_Caption>
+			</CommandButtons>
+		</Main>
+		<Messages>
+			<Closing>Sto chiudendo l&apos;applicazione...</Closing>
+			<CloseFailed>L&apos;applicazione è ancora in esecuzione.\nChiudila manualmente o forzane la chiusura.</CloseFailed>
+			<ForceFailed>Si è verificato un errore durante la chiusura forzata dell&apos;applicazione!</ForceFailed>
+			<AppsCloseCanceled>La chiusura dell&apos;applicazione è stata interrotta</AppsCloseCanceled>
+			<ContinueClose>Vuoi continuare la chiusura delle restanti applicazioni?</ContinueClose>
+		</Messages>
+		<Closing>
+			<caption>Chiusura applicazioni LiberKey adesso</caption>
+			<CommandButtons>
+				<Cancel_Caption>&amp;Cancella</Cancel_Caption>
+				<Terminate_Caption>&amp;Forza la chiusura</Terminate_Caption>
+				<Retry_Caption>&amp;Riprova</Retry_Caption>
+			</CommandButtons>
+		</Closing>
+		<Debug>
+			<caption>Informazioni sulle finestre delle applicazioni rilevate</caption>
+		</Debug>
+		<Message>
+			<KillWarning>Attenzione!\n\nForzare la chiusura di un&apos;applicazione può causare problemi ai suoi dati.\nE&apos; quindi preferibile provare a chiuderla normalmente.\n\nSi è sicuri di voler forzare la chiusura di questa applicazione?</KillWarning>
+		</Message>
+		<Contributors>
+			<Contributor name="Alessandro Stella" email="mail@alessandrostella.it" website="http://www.alessandrostella.it/"/>
+			<Contributor name="Maurizio Ballo" email="xmaurizio.13@hotmail.com"/>
+		</Contributors>
+	</it>
+</Languages>

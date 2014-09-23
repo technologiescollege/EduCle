@@ -1,0 +1,72 @@
+<Languages version="0.2">
+	<fr en_name="French" name="Français" date="2010-09-16" version="0.30" icon="fr.png">
+		<Messages>
+			<Errors>
+				<404>%appname% %appversion%\n\nLe fichier demandé est introuvable sur le serveur !\nVeuillez réessayer ultérieurement.</404>
+				<Login>Une erreur est apparue pendant l&apos;identification !\nVeuillez réessayer ultérieurement.</Login>
+				<Password>Identification invalide.\n\nLe nom d&apos;utilisateur et/ou le mot de passe sont incorrects</Password>
+				<403>Une erreur est apparue pendant l&apos;identification à votre serveur proxy !\nVeuillez vérifier la configuration du proxy.</403>
+				<InvalidPwd>Identification invalide.\n\nLe mot de passe est incorrect</InvalidPwd>
+				<DownloadError>Une erreur est apparue pendant le téléchargement de la mise à jour !\nVoulez-vous réessayer ?</DownloadError>
+				<InvalidUser>Identification invalide.\n\nUtilisateur introuvable</InvalidUser>
+				<DepositFolderError>Impossible de sauver les données dans le répertoire de dépot.\n%path%\n\nVoulez-vous télécharger les paquets manquants dans le répertoire temporaire ?</DepositFolderError>
+			</Errors>
+			<UpdateDone>Mise à jour des applications terminée</UpdateDone>
+			<DownloadingTip>Le téléchargement des mises à jour est en cours.\nCliquez ici pour plus de détails</DownloadingTip>
+			<DownloadingTipTitle>Mise à jour des applications Liberkey</DownloadingTipTitle>
+			<DownloadDone>Le téléchargement est terminé.\nLe menu de la Liberkey va maintenant se fermer pendant la mise à jour des applications...</DownloadDone>
+			<ConfirmCancel>Le téléchargement des mises à jour est en cours.\nVoulez-vous annuler le transfert et interrompre la mise à jour ?</ConfirmCancel>
+			<HttpError>Une erreur est apparue en tentant de récupérer les informations de mise à jour des applications de la LiberKey.\nAvez-vous actuellement accès à internet depuis cet ordinateur ?</HttpError>
+			<UpToDate>Les applications de votre LiberKey sont à jour</UpToDate>
+			<UpdatesAvailable>Des mises à jour sont disponibles pour vos applications.\nCliquez ici pour installer les nouvelles versions.</UpdatesAvailable>
+			<HighPriority>Prioritaire</HighPriority>
+			<LowPriority>Facultatif</LowPriority>
+			<LowPriorityInfoTitle>Mise à jour facultative</LowPriorityInfoTitle>
+			<LowPriorityInfo>Cette mise à jour est conseillée si vous utilisez régulièrement ce logiciel.\nElle peut apporter de nouvelles fonctionnalités.</LowPriorityInfo>
+			<HighPriorityInfoTitle>Mise à jour prioritaire</HighPriorityInfoTitle>
+			<HighPriorityInfo>Nous vous encourageons à appliquer cette mise à jour.\nElle contient plusieurs correctifs importants, certains pouvant toucher à la sécurité.</HighPriorityInfo>
+			<HideThisUpdate>Ne plus afficher cette mise à jour</HideThisUpdate>
+			<HideUpdateInfo>Les mises à jour désactivées peuvent être affichées à nouveau en cliquant sur\n\n&quot;Afficher les mises à jour masquées&quot;</HideUpdateInfo>
+			<AppAlreadyInstalled>%appname% %appversion% est déjà installé sur votre LiberKey.\n\nVoulez-vous l&apos;installer à nouveau ?</AppAlreadyInstalled>
+			<AppUpdateObsolete>Une version plus récente de %appname% est déjà installée sur votre LiberKey.\n\nVersion déjà installée : %appversion%\nVersion sur le point d&apos;être installée : %newversion%\n\nVoulez-vous installer cette ancienne version ?</AppUpdateObsolete>
+			<InformationTitle>Information</InformationTitle>
+			<DiskSpace>Espace nécessaire: %needed% (disponible: %avail%)</DiskSpace>
+			<TempSpaceNeeded>La place nécessaire au téléchargement temporaire des fichiers d&apos;installation est insuffisante.\n\nVotre sélection nécessite %downloadsize% d&apos;espace libre sur le lecteur %drive% (il n&apos;y a actuellement que %avail% disponibles sur %drive%)</TempSpaceNeeded>
+			<AppsDownloadDone>Le téléchargement dans le dossier de dépot est terminé.\n=&gt; %downloadpath%\n\nVoulez-vous démarrer l&apos;installation des mises à jour maintenant ?</AppsDownloadDone>
+			<KeepTempFiles>Voulez-vous conserver les fichiers téléchargés pour les utiliser ultérieurement ?</KeepTempFiles>
+		</Messages>
+		<Main>
+			<CommandButtons>
+				<Download_Caption>&amp;Installer les mises à jour sélectionnées</Download_Caption>
+				<Cancel_Caption>&amp;Annuler</Cancel_Caption>
+				<HideWindow_Caption>&amp;Masquer cette fenêtre pendant le téléchargement</HideWindow_Caption>
+			</CommandButtons>
+			<Labels>
+				<SelectNone_Caption>Tout décocher</SelectNone_Caption>
+				<SelectAll_Caption>Tout cocher</SelectAll_Caption>
+				<Info_Caption>Mises à jour disponibles :</Info_Caption>
+				<SelectHighPriority_Caption>Cocher prioritaires</SelectHighPriority_Caption>
+				<ShowHiddenUpdates_Caption>Afficher les mises à jour masquées (%count%)</ShowHiddenUpdates_Caption>
+				<RemoveHiddenUpdates_Caption>Masquer les mises à jour désactivées (%count%)</RemoveHiddenUpdates_Caption>
+				<InstallTitle_Caption>Installation d&apos;applications</InstallTitle_Caption>
+				<Version_Caption>Version : </Version_Caption>
+				<DownloadSize_Caption>Taille téléchargement :</DownloadSize_Caption>
+				<InstalledSize_Caption>Espace disque nécessaire :</InstalledSize_Caption>
+				<bytes>octets</bytes>
+				<Kb>Ko</Kb>
+				<Mb>Mo</Mb>
+				<Gb>Go</Gb>
+			</Labels>
+			<CheckBoxs>
+				<Silent_Caption>Installer les applications sans intervention (mode automatique)</Silent_Caption>
+			</CheckBoxs>
+		</Main>
+		<Info>
+			<UpdateIgnore>(désactivé)</UpdateIgnore>
+			<UpdateLowPriority>(non prioritaire)</UpdateLowPriority>
+		</Info>
+		<Contributors>
+			<Contributor name="LiberKey" website="http://www.liberkey.com/" email="contact@liberkey.com"/>
+		</Contributors>
+	</fr>
+</Languages>

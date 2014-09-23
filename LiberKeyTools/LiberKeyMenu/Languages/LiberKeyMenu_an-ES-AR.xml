@@ -1,0 +1,916 @@
+<Languages version="0.2">
+	<an-ES-AR en_name="Aragonese" icon="es-ar.png" date="2011-11-15" version="0.1" name="Aragonés" en_country="Aragon (Spain)" country="Aragón">
+		<AppCategories>
+			<accessibility>Azesibilidá</accessibility>
+			<audio>Audio</audio>
+			<audio:converter>Combertidor</audio:converter>
+			<audio:editor>Editor</audio:editor>
+			<audio:ipod_manager>Almenistrador d&apos;iPod</audio:ipod_manager>
+			<audio:player>Reprodutor</audio:player>
+			<audio:radio>Arradio</audio:radio>
+			<audio:ripper>Ripeador</audio:ripper>
+			<audio:tagger>Etiquetador</audio:tagger>
+			<audio:text_to_speech>Testo á boz</audio:text_to_speech>
+			<audio:tools>Ferramientas</audio:tools>
+			<audio-video>Audio-Bidio</audio-video>
+			<cd-dvd>CD - DVD</cd-dvd>
+			<cd-dvd:burning_tools>Ferramientas de grabazión</cd-dvd:burning_tools>
+			<cd-dvd:cover_printer>Imprentazión de portaladas</cd-dvd:cover_printer>
+			<cd-dvd:image_tools>Ferramientas d&apos;imáchens</cd-dvd:image_tools>
+			<development>Desarrollo</development>
+			<education>Amostranza</education>
+			<education:astronomy>Astronomía</education:astronomy>
+			<education:children>Ninos</education:children>
+			<education:drawing>Debuxo</education:drawing>
+			<education:geography>Cheografía</education:geography>
+			<education:music>Mosica</education:music>
+			<education:typing>Tecleyo</education:typing>
+			<file_management>Almenistrazión d&apos;archibos</file_management>
+			<file_management:backup>Copia de seguranza</file_management:backup>
+			<file_management:cataloger>Catalogador</file_management:cataloger>
+			<file_management:comparison>Contimparazión</file_management:comparison>
+			<file_management:compression>Atapimiento</file_management:compression>
+			<file_management:copy>Copia</file_management:copy>
+			<file_management:defragmenter>Estroxador</file_management:defragmenter>
+			<file_management:directory_lister>Listador de direutorios</file_management:directory_lister>
+			<file_management:disk_space_tool>Ferramienta d&apos;espazio en disco</file_management:disk_space_tool>
+			<file_management:duplicate_finder>Trobador de duplicatos</file_management:duplicate_finder>
+			<file_management:manager>Almenistrador</file_management:manager>
+			<file_management:recovery>Recuperador</file_management:recovery>
+			<file_management:renamer>Renombrador</file_management:renamer>
+			<file_management:search>Buscar</file_management:search>
+			<file_management:splitter>Tallador</file_management:splitter>
+			<file_management:synchronization>Sincronizazión</file_management:synchronization>
+			<file_management:tools>Ferramientas</file_management:tools>
+			<file_management:universal_viewer>Beyedor unibersal</file_management:universal_viewer>
+			<games>Chuegos</games>
+			<games:action>Aizión</games:action>
+			<games:card>Cartas</games:card>
+			<games:puzzle>Puzzle</games:puzzle>
+			<games:reflexion>Reflesión</games:reflexion>
+			<games:strategy>Estratechia</games:strategy>
+			<graphics-photo>Graficos - Foto</graphics-photo>
+			<graphics-photo:3d>3D</graphics-photo:3d>
+			<graphics-photo:color_picker>Seleutor de color</graphics-photo:color_picker>
+			<graphics-photo:editor>Editor</graphics-photo:editor>
+			<graphics-photo:effect_and_filter>Efeutos e filtros</graphics-photo:effect_and_filter>
+			<graphics-photo:icon_editor>Editor d&apos;iconos</graphics-photo:icon_editor>
+			<graphics-photo:screen_capture>Captura de pantalla</graphics-photo:screen_capture>
+			<graphics-photo:tools>Ferramientas</graphics-photo:tools>
+			<graphics-photo:vector_converter>Combertidor de beutors</graphics-photo:vector_converter>
+			<graphics-photo:viewer>Beyedor</graphics-photo:viewer>
+			<internet>Internet</internet>
+			<internet:bookmark_manager>Almenistrador de faboritos</internet:bookmark_manager>
+			<internet:browser>Nabatiador</internet:browser>
+			<internet:download>Escargas</internet:download>
+			<internet:email>Email</internet:email>
+			<internet:ftp>FTP</internet:ftp>
+			<internet:instant_messenger>Mensachería istantania</internet:instant_messenger>
+			<internet:rss_reader>Leutor RSS</internet:rss_reader>
+			<internet:website_authoring>Autoría de pachina web</internet:website_authoring>
+			<internet:website_copier>Copiador de puestos web</internet:website_copier>
+			<multimedia>Multimeya</multimedia>
+			<networking-server>Retes - Serbidor</networking-server>
+			<networking-server:bandwidth_monitor>Monitor d&apos;amplaria de banda</networking-server:bandwidth_monitor>
+			<networking-server:configuration>Confegurazión</networking-server:configuration>
+			<networking-server:network_analyzer>Analizador de rete</networking-server:network_analyzer>
+			<networking-server:remote_control>Control remoto</networking-server:remote_control>
+			<networking-server:scanner>Escáner</networking-server:scanner>
+			<networking-server:server>Serbidor</networking-server:server>
+			<networking-server:settings_manager>Almenistrador de propiedaz</networking-server:settings_manager>
+			<networking-server:telnet-ssh_client>Telnet-Cliyén SSH</networking-server:telnet-ssh_client>
+			<networking-server:tools>Ferramientas</networking-server:tools>
+			<office>Ofizina</office>
+			<office:calculator>Calculadera</office:calculator>
+			<office:calendar>Calandario</office:calendar>
+			<office:chrono>Cronometro</office:chrono>
+			<office:desktop_tools>Ferramientas d&apos;escritorio</office:desktop_tools>
+			<office:desktop_tools:application_launcher>Iniziador d&apos;aplicazions</office:desktop_tools:application_launcher>
+			<office:desktop_tools:automation>Automatizazión</office:desktop_tools:automation>
+			<office:desktop_tools:clipboard_manager>Almenistrador de portapapels</office:desktop_tools:clipboard_manager>
+			<office:desktop_tools:clock>Reloch</office:desktop_tools:clock>
+			<office:desktop_tools:customization>Presonalizazión</office:desktop_tools:customization>
+			<office:desktop_tools:desktop_note>Notas d&apos;escritorio</office:desktop_tools:desktop_note>
+			<office:desktop_tools:keyboard-mouse>Teclau - Zorz</office:desktop_tools:keyboard-mouse>
+			<office:desktop_tools:save_desktop_icon>Alzar icono d&apos;escritorio</office:desktop_tools:save_desktop_icon>
+			<office:desktop_tools:virtual_desktop>Escritorio Bertual</office:desktop_tools:virtual_desktop>
+			<office:desktop_tools:zoom>Zoom</office:desktop_tools:zoom>
+			<office:diagram_editor>Editor de diagramas</office:diagram_editor>
+			<office:finance_manager>Almenistrador finaziero</office:finance_manager>
+			<office:font_manager>Almenistrador de fuens</office:font_manager>
+			<office:note_manager>Almenistrador de notas</office:note_manager>
+			<office:office_suite>Suite d&apos;ofimatica</office:office_suite>
+			<office:pdf>PDF</office:pdf>
+			<office:presentation>Presentazión</office:presentation>
+			<office:task_manager>Almenistrador de quefers</office:task_manager>
+			<office:text_editor>Editor de testo</office:text_editor>
+			<office:tutorial_creator>Creyador de tutorials</office:tutorial_creator>
+			<office:unit_converter>Combertidor d&apos;unidaz</office:unit_converter>
+			<office:universal_viewer>Beyedor unibersal</office:universal_viewer>
+			<security>Seguranza</security>
+			<security:anti_virus-spyware>Anti birus-spyware</security:anti_virus-spyware>
+			<security:encryption>Zifrato</security:encryption>
+			<security:integrity_checker>Comprebador d&apos;integridá</security:integrity_checker>
+			<security:password_manager>Almenistrador de contrasiñals</security:password_manager>
+			<security:privacy_tool>Ferramientas de pribazidá</security:privacy_tool>
+			<security:secure_deletion>Borrato seguro</security:secure_deletion>
+			<security:tools>Ferramientas</security:tools>
+			<system_utilities>Utilidaz d&apos;o sistema</system_utilities>
+			<system_utilities:benchmark>Benchmark</system_utilities:benchmark>
+			<system_utilities:benchmark:hard_disk>Disco duro</system_utilities:benchmark:hard_disk>
+			<system_utilities:benchmark:universal>Unibersal</system_utilities:benchmark:universal>
+			<system_utilities:cleaner-uninstaller>Escoscador - Desinstalador</system_utilities:cleaner-uninstaller>
+			<system_utilities:emulator>Emulador</system_utilities:emulator>
+			<system_utilities:hex_editor>Editor esadecimal</system_utilities:hex_editor>
+			<system_utilities:information>Informazión</system_utilities:information>
+			<system_utilities:information:file_monitoring>Monitorizazión d&apos;archibos</system_utilities:information:file_monitoring>
+			<system_utilities:information:hardware_monitoring>Monitorizazión de hardware</system_utilities:information:hardware_monitoring>
+			<system_utilities:information:inventory>Imbentario</system_utilities:information:inventory>
+			<system_utilities:information:process>Prozeso</system_utilities:information:process>
+			<system_utilities:information:processor>Prozesador</system_utilities:information:processor>
+			<system_utilities:information:service>Serbizio</system_utilities:information:service>
+			<system_utilities:information:startup_manager>Almenistrador d&apos;inizio</system_utilities:information:startup_manager>
+			<system_utilities:information:usb_device>Despositibo USB</system_utilities:information:usb_device>
+			<system_utilities:information:video_card>Tarcheta de bidio</system_utilities:information:video_card>
+			<system_utilities:registry>Rechistro</system_utilities:registry>
+			<system_utilities:registry:backup>Copia de seguranza</system_utilities:registry:backup>
+			<system_utilities:registry:comparison>Contimparazión</system_utilities:registry:comparison>
+			<system_utilities:registry:compression>Atapimiento</system_utilities:registry:compression>
+			<system_utilities:registry:monitoring>Monitorizazión</system_utilities:registry:monitoring>
+			<system_utilities:registry:repair>Apaño</system_utilities:registry:repair>
+			<system_utilities:registry:search>Busca</system_utilities:registry:search>
+			<system_utilities:repair>Apaño</system_utilities:repair>
+			<system_utilities:tests>Tests</system_utilities:tests>
+			<system_utilities:tests:burning_test>Tests de grabazión</system_utilities:tests:burning_test>
+			<system_utilities:tests:hard_disk>Disco duro</system_utilities:tests:hard_disk>
+			<system_utilities:tests:monitor>Monitor</system_utilities:tests:monitor>
+			<system_utilities:tests:ram>RAM</system_utilities:tests:ram>
+			<system_utilities:tools>Ferramientas</system_utilities:tools>
+			<system_utilities:tweaker>Achustes</system_utilities:tweaker>
+			<system_utilities:update_checker>Comprebador d&apos;autualizazions</system_utilities:update_checker>
+			<video>Bidio</video>
+			<video:authoring>Autoría</video:authoring>
+			<video:capture>Captura</video:capture>
+			<video:cataloger>Catalogador</video:cataloger>
+			<video:converter>Combertidor</video:converter>
+			<video:editor>Editor</video:editor>
+			<video:player>Reprodutor</video:player>
+			<video:repair>Apañar</video:repair>
+			<video:tools>Ferramientas</video:tools>
+		</AppCategories>
+		<AppInfo>
+			<CommandButtons>
+				<AppGoToWebSite_ToolTip>Besitar o puesto web d&apos;o editor</AppGoToWebSite_ToolTip>
+				<AppInstall_Caption>Instalar agora !</AppInstall_Caption>
+				<AppOpenLicenseFile_ToolTip>Beyer lizenzia</AppOpenLicenseFile_ToolTip>
+				<AppProperties_Caption>Propiedaz...</AppProperties_Caption>
+				<AppRun_Caption>Iniziar</AppRun_Caption>
+				<AppUpdate_Caption>Autualizar agora...</AppUpdate_Caption>
+			</CommandButtons>
+			<CheckBoxs>
+				<AutoShowInfo_Caption>Amostrar ista informazión automaticamén</AutoShowInfo_Caption>
+			</CheckBoxs>
+			<Labels>
+				<AppEditorLabel_Caption>Editor:</AppEditorLabel_Caption>
+				<AppLicenseLabel_Caption>Lizenzia:</AppLicenseLabel_Caption>
+				<AppPlatformLabel_Caption>Plataforma(s):</AppPlatformLabel_Caption>
+			</Labels>
+		</AppInfo>
+		<AppList>
+			<CommandButtons>
+				<AddApp_Caption>Adibir aplicazions</AddApp_Caption>
+				<AddApps_Caption>Adibir aplicazions</AddApps_Caption>
+				<AddApps_ToolTip>Faiga clic aquí ta adibir aplicazions en a suya LiberKey</AddApps_ToolTip>
+				<Browse_ToolTip>Ubrir carpeta d&apos;aplicazions</Browse_ToolTip>
+				<Cancel_Caption>Tancar</Cancel_Caption>
+				<Reinstall_Caption>Tornar á instalar</Reinstall_Caption>
+				<Reinstall_ToolTip>Tornar á instalar una aplicazión puede recreyar os azesos dreitos en os menús, recargar a informazión de l&apos;aplicazión e tornar á aplicar as asoziazions d&apos;archibos temporalmén.</Reinstall_ToolTip>
+				<Uninstall_Caption>Desinstalar</Uninstall_Caption>
+				<Uninstall_ToolTip>Faiga clic aquí ta desinstalar ista aplicazión d&apos;a suya LiberKey. Tot o relazionato con l&apos;aplicazión será eliminato: Menús, Informazión, Asoziazión temporal con archibos, o programa e toz os datos asoziatos.</Uninstall_ToolTip>
+			</CommandButtons>
+			<Labels>
+				<AppNameLabel_Caption>Nombre de l&apos;aplicazión</AppNameLabel_Caption>
+				<FolderSizeLabel_Caption>0 KB</FolderSizeLabel_Caption>
+				<Title_Caption>Almenistrar aplicazions portables</Title_Caption>
+			</Labels>
+			<Messages>
+				<Loading>Cargando lista...</Loading>
+			</Messages>
+		</AppList>
+		<AppProperties>
+			<AutoRunMode>
+				<Never>Nunca</Never>
+				<ShutDown>En apagar</ShutDown>
+				<ShutDownSingle>En apagar si no ye executando-se</ShutDownSingle>
+				<Startup>Siempre en iniziar</Startup>
+				<StartupSingle>En iniziar si no ye executando-se</StartupSingle>
+			</AutoRunMode>
+			<CommandButtons>
+				<AppGoToWebSite_Caption>Besitar puesto web</AppGoToWebSite_Caption>
+				<ApplyChanges_Caption>Aplicar</ApplyChanges_Caption>
+				<AppOpenLicenseFile_Caption>Beyer lizenzia</AppOpenLicenseFile_Caption>
+				<AppUninstall_Caption>Faiga clic aquí ta desinstalar ista aplicazión d&apos;a suya LiberKey</AppUninstall_Caption>
+				<AppUninstall_ToolTip>Faiga clic aquí ta desinstalar ista aplicazión d&apos;a suya LiberKey. Tot o relazionato con ista aplicazión será eliminato: Menús, Informazión, Asoziazions temporals d&apos;archibos, o programa e os datos asoziatos.</AppUninstall_ToolTip>
+				<AppUpdate_Caption>Autualizar...</AppUpdate_Caption>
+				<Cancel_Caption>Tancar</Cancel_Caption>
+			</CommandButtons>
+			<FileSources>Tipo de binclo</FileSources>
+			<Labels>
+				<AppDescriptionLabel_Caption>Descrizión de l&apos;aplicazión:</AppDescriptionLabel_Caption>
+				<AppEditorLabel_Caption>Editor:</AppEditorLabel_Caption>
+				<AppIconLabel_Caption>Icono presonalizato:</AppIconLabel_Caption>
+				<AppLicenseLabel_Caption>Lizenzia:</AppLicenseLabel_Caption>
+				<AppNameLabel_Caption>Nombre:</AppNameLabel_Caption>
+				<AppParamsLabel_Caption>Parametros de linia de comandos:</AppParamsLabel_Caption>
+				<AppPathLabel_Caption>Adreza enta o executable / carpeta / pachina web / decumento:</AppPathLabel_Caption>
+				<AppPlatformLabel_Caption>Plataforma:</AppPlatformLabel_Caption>
+				<AppVersionLabel_Caption>Bersión:</AppVersionLabel_Caption>
+				<AppWorkDirLabel_Caption>Carpeta de treballo:</AppWorkDirLabel_Caption>
+				<Title_Caption>Propiedaz de l&apos;aplicazión</Title_Caption>
+			</Labels>
+			<Messages>
+				<BrowseForExe>Trigue l&apos;archibo executable de l&apos;aplicazión</BrowseForExe>
+				<BrowseForFileToOpen>Trigue l&apos;archibo que cal ubrir</BrowseForFileToOpen>
+				<BrowseForLicense>Trigue l&apos;archibo de lizenzia d&apos;o programa</BrowseForLicense>
+				<ClearLisenseFile>Eliminar binclo enta archibo de lizenzia</ClearLisenseFile>
+				<ClearWebAddress>Eliminar binclo enta puesto web</ClearWebAddress>
+				<SelectAppWorkDir>Trigue carpeta de treballo de l&apos;aplicazión</SelectAppWorkDir>
+				<SetLicenseAddr>Fique l&apos;adreza d&apos;internet de l&apos;archibo de lizenzia d&apos;o programa:</SetLicenseAddr>
+				<SetWebSiteAddr>Fique l&apos;adreza d&apos;internet de l&apos;archibo d&apos;o editor:</SetWebSiteAddr>
+			</Messages>
+			<Tabs>
+				<Application>Aplicazión</Application>
+				<AppMore>Abanzato</AppMore>
+			</Tabs>
+			<WindowStartMode>
+				<Maximized>Finestras masimizatas</Maximized>
+				<Minimized>Finestras menimizatas</Minimized>
+				<Normal>Finestras normals</Normal>
+			</WindowStartMode>
+		</AppProperties>
+		<CategoryProps>
+			<CommandButtons>
+				<Apply_Caption>Azeutar</Apply_Caption>
+				<Cancel_Caption>Canzelar</Cancel_Caption>
+			</CommandButtons>
+			<CheckBoxs>
+				<EditLiberKeyCategory_Caption>Renombrar ista categoría de LiberKey</EditLiberKeyCategory_Caption>
+			</CheckBoxs>
+			<Labels>
+				<CategoryHotKey_Caption>Alcorze de teclau (menú flotán)</CategoryHotKey_Caption>
+				<CatIconLabel_Caption>Icono d&apos;a categoría:</CatIconLabel_Caption>
+				<CatNameLabel_Caption>Nombre d&apos;a categoría:</CatNameLabel_Caption>
+				<Title_Caption>Propiedaz d&apos;a categoría</Title_Caption>
+			</Labels>
+		</CategoryProps>
+		<Config>
+			<About>
+				<Version>bersión %ver%</Version>
+			</About>
+			<CommandButtons>
+				<ApplyChanges_Caption>Aplicar</ApplyChanges_Caption>
+				<AutoRunDown_ToolTip>Mober ta baxo</AutoRunDown_ToolTip>
+				<AutoRunLocate_ToolTip>Trobar l&apos;azeso dreito en o menú de LiberKey</AutoRunLocate_ToolTip>
+				<AutoRunProperties_ToolTip>Editar as propiedaz de l&apos;azeso dreito</AutoRunProperties_ToolTip>
+				<AutoRunRemove_ToolTip>Canzelar autoexecuzión ta iste azeso dreito</AutoRunRemove_ToolTip>
+				<AutoRunUp_ToolTip>Mober alto</AutoRunUp_ToolTip>
+				<Cancel_Caption>Tancar</Cancel_Caption>
+				<CopyTechnicalInfo_Caption>Copiar a informazión en o portapapels</CopyTechnicalInfo_Caption>
+				<CreateAccount_Caption>Faiga clic aquí ta creyar a suya cuenta gratuita !</CreateAccount_Caption>
+				<KBSCRemove_ToolTip>Eliminar l&apos;alcorze de teclau</KBSCRemove_ToolTip>
+				<SendTechnicalInfo_Caption>Nimbiar</SendTechnicalInfo_Caption>
+			</CommandButtons>
+			<CheckBoxs>
+				<AppHotKeysMemoPopup_Caption>Amostrar un recordatorio antis d&apos;iniziar una aplicazión</AppHotKeysMemoPopup_Caption>
+				<AutoCloseApps_Caption>Cuan se tanque o menú, tancar as aplicazions portables</AutoCloseApps_Caption>
+				<AutoCollapseOnHide_Caption>Cuando o menú s&apos;amague, ir dica ra categoría radiz</AutoCollapseOnHide_Caption>
+				<AutoHideMenuOnAppRun_Caption>Amagar o menú cuan s&apos;inizie bella aplicazión</AutoHideMenuOnAppRun_Caption>
+				<AutoRemoveDrive_Caption>Cuan o menú se tanque, desconeutar o despositibo estrayible</AutoRemoveDrive_Caption>
+				<AutoRunLiberKey_Caption>Iniziar LiberKey en iniziar sesión de Windows</AutoRunLiberKey_Caption>
+				<AutoShowAppInfo_Caption>Beyer informazión sobre as aplicazions</AutoShowAppInfo_Caption>
+				<ConfirmCategoryDeletion_Caption>Confirmar a eliminazión d&apos;as categorías</ConfirmCategoryDeletion_Caption>
+				<ConfirmShortcutDeletion_Caption>Confirmar a eliminazión d&apos;os azesos dreitos</ConfirmShortcutDeletion_Caption>
+				<CreateTempSendToShortcut_Caption>Azeso dreito temporal &quot;Nimbiar á / Os míos decumentos portables&quot;</CreateTempSendToShortcut_Caption>
+				<DisableAllEffects_Caption>Desautibar toz os efeutos d&apos;animazión</DisableAllEffects_Caption>
+				<DisableControlsEffects_Caption>Desautibar as animazions d&apos;os ochetos d&apos;a interfaz</DisableControlsEffects_Caption>
+				<DisableDialogsEffects_Caption>Desautibar as animazions d&apos;os dialogos</DisableDialogsEffects_Caption>
+				<DisableMenuEffects_Caption>Desautibar l&apos;animazión d&apos;os menús</DisableMenuEffects_Caption>
+				<DisplayClock_Caption>Amostrar reloch</DisplayClock_Caption>
+				<DontShowEmptyDesc_Caption>Menos cuan a descrizión ye bueita</DontShowEmptyDesc_Caption>
+				<EnableAppHotKeys_Caption>Autibar alcorzes de teclau ta iniziar aplicazions</EnableAppHotKeys_Caption>
+				<EnableAppsAutoStart_Caption>Autibar a execuzión automatica d&apos;aplicazions</EnableAppsAutoStart_Caption>
+				<HideClockSeconds_Caption>Amagar segundos</HideClockSeconds_Caption>
+				<HotKeyFloatMenu_Caption>Menú flotán :</HotKeyFloatMenu_Caption>
+				<HotKeyMain_Caption>Menú prenzipal :</HotKeyMain_Caption>
+				<SingleClicAppRun_Caption>Executar aplicazions con un solo clic</SingleClicAppRun_Caption>
+				<SingleClicCategoryExpand_Caption>Ubrir categorías con un solo clic</SingleClicCategoryExpand_Caption>
+				<ToolsAutoOpenLiberKeyNews_Caption>Ubrir automaticamén a finestra de notizias</ToolsAutoOpenLiberKeyNews_Caption>
+				<ToolsCheckAppUpdates_Caption>Berificar autualizazions d&apos;aplicazions portables</ToolsCheckAppUpdates_Caption>
+				<ToolsCheckLBKUpdates_Caption>Berificar autualizazions ta ra plataforma LiberKey</ToolsCheckLBKUpdates_Caption>
+				<ToolsCheckLiberKeyNews_Caption>Berificar notizias de LiberKey</ToolsCheckLiberKeyNews_Caption>
+				<ToolsDoOnlineChecks_Caption>Autibar comprebazions automaticas</ToolsDoOnlineChecks_Caption>
+				<ToolsQuitKFA_Caption>Desabilitar as asoziazions d&apos;archibo cuan o menú se tanque</ToolsQuitKFA_Caption>
+				<ToolsQuitPDS_Caption>Tirar os azesos dreitos portables cuan o menú se tanque</ToolsQuitPDS_Caption>
+				<ToolsStartKFA_Caption>Abilitar as asoziazions d&apos;archibos cuan o menú s&apos;inizie</ToolsStartKFA_Caption>
+				<ToolsStartPDS_Caption>Adibir os azesos dreitos portables cuan s&apos;inizie o menú</ToolsStartPDS_Caption>
+				<UseProxy_Caption>Azeder á Internet á trabiés d&apos;un serbidor proxy</UseProxy_Caption>
+				<VoiceOver_Caption>Autibar a leutura d&apos;o testo d&apos;os elementos en pasar con o zorz</VoiceOver_Caption>
+				<WindowZoom_Caption>Autibar o zum automatico de finestras</WindowZoom_Caption>
+				<ZoomMenuFont_Caption>Cambear a fuen d&apos;os menús flotans</ZoomMenuFont_Caption>
+				<ZoomMenuFontAntialias_Caption>Antialias</ZoomMenuFontAntialias_Caption>
+				<ZoomMenuFontBold_Caption>Negreta</ZoomMenuFontBold_Caption>
+			</CheckBoxs>
+			<Labels>
+				<AccessibilityInfo_Caption>Achustar ozions d&apos;azesibilidá</AccessibilityInfo_Caption>
+				<Animations_Caption>Animazions</Animations_Caption>
+				<AppHotKeysMemoPopupDuration_Caption>Amostrar durada d&apos;o recordatorio:</AppHotKeysMemoPopupDuration_Caption>
+				<AppSetupInfo_Caption>As ozions siguiens definen o comportamiento d&apos;o instalador de LiberKey</AppSetupInfo_Caption>
+				<AppUpdateInfo_Caption>As ozions siguiens li dixan trigar o comportamiento d&apos;o programa d&apos;autualizazions d&apos;a suya LiberKey.</AppUpdateInfo_Caption>
+				<AutoCheckOptions_Caption>Comprebazions automaticas</AutoCheckOptions_Caption>
+				<AutoRunDelay_Caption>Tiempo antis de l&apos;auto-execuzión (segundos)</AutoRunDelay_Caption>
+				<AutoRunEachDelay_Caption>Tiempo entre execuzions (segundos)</AutoRunEachDelay_Caption>
+				<AutorunInfo_Caption>Almenistrazión d&apos;as aplicazions execuntando-sen en iniziar e tancar o menú LiberKey :</AutorunInfo_Caption>
+				<ColorsInfo_Caption>Color primaria d&apos;o menú e as finestras</ColorsInfo_Caption>
+				<Confirmations_Caption>Confirmazions</Confirmations_Caption>
+				<CreateAccountLabel_Caption>Encara no ye rechistrato?</CreateAccountLabel_Caption>
+				<CustomBrightnessLabel_Caption>Brillo</CustomBrightnessLabel_Caption>
+				<CustomColorInfo_Caption>Bariazión de color presonalizata</CustomColorInfo_Caption>
+				<CustomHueRotationLabel_Caption>Matiz</CustomHueRotationLabel_Caption>
+				<CustomSaturationLabel_Caption>Saturazión</CustomSaturationLabel_Caption>
+				<DefaultEffectSet>Efeutos por defeuto</DefaultEffectSet>
+				<EffectSetLabel_Caption>Chuego d&apos;efeutos :</EffectSetLabel_Caption>
+				<FileAssocUpdatesOnlyInfo_Caption>Entre que se fan as autualizazions, as asoziazions d&apos;archibos no se modifican. Nomás se definen ta nuebas aplicazions.</FileAssocUpdatesOnlyInfo_Caption>
+				<Gadgets_Caption>Gadgets</Gadgets_Caption>
+				<KeyboardShortcutsInfo_Caption>Alcorzes de teclau usatos por o menú de LiberKey</KeyboardShortcutsInfo_Caption>
+				<KFAoptions_Caption>Asoziar archibos á ras aplicazions portables</KFAoptions_Caption>
+				<LangAuthorEmailLabel_Caption>Email :</LangAuthorEmailLabel_Caption>
+				<LangAuthorNameLabel_Caption>Autor :</LangAuthorNameLabel_Caption>
+				<LangAuthorWebsiteLabel_Caption>Puesto Web :</LangAuthorWebsiteLabel_Caption>
+				<LangContributors_Caption>Contribuyidors :</LangContributors_Caption>
+				<LangContributorsLabel_Caption>Contribuyidors :</LangContributorsLabel_Caption>
+				<LanguagesInfo_Caption>Trigue a luenga ta ra interfaz d&apos;usuario</LanguagesInfo_Caption>
+				<LangVersionLabel_Caption>Bersión :</LangVersionLabel_Caption>
+				<MaxRecentCount_Caption>Lumero masimo d&apos;execuzions reziens:</MaxRecentCount_Caption>
+				<MaxVisibleMostUsed_Caption>Lumero masimo d&apos;ochetos en &quot;más emplegatos&quot;</MaxVisibleMostUsed_Caption>
+				<MenuAccess_Caption>Azeso á o menú de LiberKey</MenuAccess_Caption>
+				<MenuDelay_Caption>Retardo d&apos;apertura d&apos;os menús :</MenuDelay_Caption>
+				<MenuDelayMS_Caption>milisegundos</MenuDelayMS_Caption>
+				<MenuIconActions_Caption>Icono d&apos;a barra d&apos;inizio :</MenuIconActions_Caption>
+				<MenuKeyboardShortcuts_Caption>Alcorzes de teclau :</MenuKeyboardShortcuts_Caption>
+				<Misc_Caption>Miszelania</Misc_Caption>
+				<Navigation_Caption>Nabateo</Navigation_Caption>
+				<NeverUpdateFileAssocInfo_Caption>As asoziazions d&apos;archibos no se modifican cuan s&apos;adiben u autualizan aplicazions.</NeverUpdateFileAssocInfo_Caption>
+				<NotificationsOptions_Caption>Notificazions</NotificationsOptions_Caption>
+				<Password_Caption>Contrasiñal :</Password_Caption>
+				<PDSoptions_Caption>Azesos dreitos portables en o escritorio</PDSoptions_Caption>
+				<PlatformVersionInfo_Caption>O equipo de suporte teunico d&apos;o foro de LiberKey puede pedir-le ista informazión. Faiga clic en &quot;Copiar a lista...&quot; ta poder apegar o testo en o suyo mensache.</PlatformVersionInfo_Caption>
+				<ProxyHost_Caption>Nombre de host u adreza IP :</ProxyHost_Caption>
+				<ProxyInfo_Caption>Si ameniste azeder á Internet a trabiés d&apos;un serbidor proxy, complete os siguiens cambos:</ProxyInfo_Caption>
+				<ProxyPassword_Caption>Contrasiñal :</ProxyPassword_Caption>
+				<ProxyPort_Caption>Puerto :</ProxyPort_Caption>
+				<ProxyUser_Caption>Nombre d&apos;usuario :</ProxyUser_Caption>
+				<QuitOptions_Caption>Tancamiento e desconisión automatica d&apos;aplicazions</QuitOptions_Caption>
+				<RecentAndMostUsed_Caption>Istorico d&apos;o uso d&apos;as aplicazions</RecentAndMostUsed_Caption>
+				<StartupWindowShowAlways_Caption>Siempre amostrar o menú</StartupWindowShowAlways_Caption>
+				<StartupWindowShowNever_Caption>Nunca amostrar o menú</StartupWindowShowNever_Caption>
+				<StartupWindowShowPrevious_Caption>Amostrar o menú si yera beyible a zaguera begata que s&apos;usó</StartupWindowShowPrevious_Caption>
+				<StartupWindowStateLabel_Caption>En iniziar :</StartupWindowStateLabel_Caption>
+				<Title_Caption>LiberKey - Confegurazión</Title_Caption>
+				<TrayLeftClickActionLabel_Caption>Clic cucho :</TrayLeftClickActionLabel_Caption>
+				<TrayRightClickActionLabel_Caption>Clic dreito :</TrayRightClickActionLabel_Caption>
+				<UpdateAutoStartInfo_Caption>As autualizazions prioritarias son instalatas sin interbenzión (modo automatico)</UpdateAutoStartInfo_Caption>
+				<UpdateFileAssocInfo_Caption>Cuan s&apos;adibe u autualiza una aplicación con o instalador, s&apos;asozia automaticamén con os archibos que puede editar.</UpdateFileAssocInfo_Caption>
+				<UpdateNoUserAlertInfo_Caption>Cuan s&apos;inizie LiberKey, no amostrar mensaches d&apos;as autualizazions. Continará notificando-se cuan inizie una aplicazión.</UpdateNoUserAlertInfo_Caption>
+				<UpdateUIAlertInfo_Caption>Allora podrá beyer a lista d&apos;autualizazions disponibles e trigar as que quiere aplicar.</UpdateUIAlertInfo_Caption>
+				<UserLoginInfo_Caption>Ya no cal a identificazión ta ras aplicazions autualizatas automaticamén. Manimenos, li recomendamos emplir os datos d&apos;usuario.</UserLoginInfo_Caption>
+				<UserName_Caption>Nombre d&apos;usuario :</UserName_Caption>
+				<ZoomMenuFontNameLabel_Caption>Fuen:</ZoomMenuFontNameLabel_Caption>
+				<ZoomMenuFontSizeLabel_Caption>Mida:</ZoomMenuFontSizeLabel_Caption>
+			</Labels>
+			<OptionButtons>
+				<optAlwaysUpdateFileAssoc_Caption>Siempre autualizar asoziazions d&apos;archibos</optAlwaysUpdateFileAssoc_Caption>
+				<optAutoRunAtStartup_Caption>Cuan o menú s&apos;inizie</optAutoRunAtStartup_Caption>
+				<optAutoRunOnQuit_Caption>Cuan o menú se tanque</optAutoRunOnQuit_Caption>
+				<optMenuDelayCustom_Caption>Presonalizato</optMenuDelayCustom_Caption>
+				<optMenuDelayDefault_Caption>Por defeuto</optMenuDelayDefault_Caption>
+				<optNeverUpdateFileAssoc_Caption>Nunca autualizar as asoziazions d&apos;archibos</optNeverUpdateFileAssoc_Caption>
+				<optUpdateAutoStart_Caption>Escargar e instalar as autualizazions automaticamén</optUpdateAutoStart_Caption>
+				<optUpdateFileAssocNewApps_Caption>Autibar asoziazions ta nuebas aplicazions</optUpdateFileAssocNewApps_Caption>
+				<optUpdateNoUserAlert_Caption>Abisar-me solo cuan s&apos;inizie o software</optUpdateNoUserAlert_Caption>
+				<optUpdateUIAlert_Caption>Amostrar un icono e un mensache de notificazión</optUpdateUIAlert_Caption>
+				<optUpdateUserAlert_Caption>Abisar-me si bi ha autualizazions prioritarias disponibles</optUpdateUserAlert_Caption>
+			</OptionButtons>
+			<Options>
+				<About>Sobre ...</About>
+				<Accessibility>Azesibilidá</Accessibility>
+				<Advanced>Ozions abanzatas</Advanced>
+				<AppSetup>Confegurazión d&apos;a instalazión d&apos;aplicazions</AppSetup>
+				<Autorun>Autoexecutar</Autorun>
+				<AutoUpdate>Confegurazión de l&apos;autualizazión d&apos;aplicazions</AutoUpdate>
+				<Colors>Colors</Colors>
+				<Effects>Interfaz d&apos;usuario</Effects>
+				<Help>Aduya</Help>
+				<KeyboardShortcuts>Alcorzes de teclau</KeyboardShortcuts>
+				<Language>Luenga</Language>
+				<LiberKeyTools>Ferramientas LiberKey</LiberKeyTools>
+				<Proxy>Proxy HTTP</Proxy>
+				<TechnicalInfo>Informazión teunica</TechnicalInfo>
+				<User>Usuario</User>
+			</Options>
+		</Config>
+		<FloatingMenu>
+			<AlwaysOnTop>Siempre alto</AlwaysOnTop>
+			<AutoCollapse>Tancar automaticamén</AutoCollapse>
+			<Close>Tancar</Close>
+			<FixedMode>Mantener ubierto</FixedMode>
+			<GoToParent>Cambear ta o menú pai</GoToParent>
+		</FloatingMenu>
+		<IconSelect>
+			<Labels>
+				<Title_Caption>Triga d&apos;icono</Title_Caption>
+			</Labels>
+		</IconSelect>
+		<Main>
+			<CommandButtons>
+				<AddApps_Caption>Instalazión</AddApps_Caption>
+				<AddApps_ToolTip>Adibir / eliminar aplicazions</AddApps_ToolTip>
+				<Close_ToolTip>Amagar o menú de LiberKey</Close_ToolTip>
+				<CloseSearch2_Caption>Tancar</CloseSearch2_Caption>
+				<Config_Caption>Ferr. LiberKey</Config_Caption>
+				<MyDocs_Caption>Decumentos</MyDocs_Caption>
+				<MyMusic_Caption>Mosica</MyMusic_Caption>
+				<MyPictures_Caption>Imáchens</MyPictures_Caption>
+				<Quit_ToolTip>Tancar o menú de LiberKey</Quit_ToolTip>
+				<TabsScrollLeft_ToolTip>Mober ta ra cucha</TabsScrollLeft_ToolTip>
+				<TabsScrollRight_ToolTip>Mober ta ra dreita</TabsScrollRight_ToolTip>
+				<UserMenus_ToolTip>Menús d&apos;usuario</UserMenus_ToolTip>
+				<ViewIcons_ToolTip>Iconos grans</ViewIcons_ToolTip>
+				<ViewTree_ToolTip>Árbol</ViewTree_ToolTip>
+			</CommandButtons>
+			<Labels>
+				<SearchInfoLabel_Caption>Trobatos %count% azesos dreitos</SearchInfoLabel_Caption>
+				<SearchInfoTitle_Caption>Buscar en a suya LiberKey</SearchInfoTitle_Caption>
+			</Labels>
+			<LiberKeyTools>
+				<AddApps>Desaminar o catalogo d&apos;aplicazions</AddApps>
+				<AddAppsTip>Iste asistén dentra en o puesto web www.liberkey.com ta recuperar a lista d&apos;aplicazions reziens en os nuestros serbidors. Isto li premitirá trobar fazilmén as aplicazions que puedan intresar-li en o catalogo online.</AddAppsTip>
+				<AddPortableShortcuts>Adibir azesos dreitos portables</AddPortableShortcuts>
+				<AddRemoveApps>Adibir / Eliminar programas</AddRemoveApps>
+				<AppsClose>Tancar as aplicazions</AppsClose>
+				<AppsCloseTip>LiberKey Apps Close tanca automaticamén todas as suyas aplicazions iniziatas dende a suya LiberKey. Os metodos emplegatos ta tancar as aplicazions son lumerosos e adautatos á cada programa. O tancamiento se fa correutamén; si un archibo yera estando editando-se (p.ex un decumento), li se preguntará si quiere alzar-lo.</AppsCloseTip>
+				<Configuration>Confegurazión</Configuration>
+				<ConfigurationTip>Confegurazión de LiberKey.\nToda ra confegurazión relazionata con l&apos;aspeuto e o comportamiento de LiberKey ye en ista finestra de confegurazión.</ConfigurationTip>
+				<DisableFileAssoc>Desautibar asoziazions d&apos;archibos</DisableFileAssoc>
+				<DisableFileAssocTip>Os archibos de l&apos;ordinador s&apos;asozian con as aplicazions d&apos;a suya LiberKey.\nFaiga clic aquí ta restaurar as asoziazions de fichers d&apos;o equipo local.</DisableFileAssocTip>
+				<EnableFileAssoc>Autibar asoziazions d&apos;archibos</EnableFileAssoc>
+				<EnableFileAssocTip>Abilitar asoziazions d&apos;archibos temporals (.avi, .jpg, .doc, ...) con as aplicazions d&apos;a suya LiberKey.</EnableFileAssocTip>
+				<FileAssoc>Asoziazions d&apos;archibos</FileAssoc>
+				<GoToWebSite>Besitar o puesto web de LiberKey</GoToWebSite>
+				<GoToWebSiteTip>Iste menú li premite azeder de traza senzilla á o puesto web de www.liberkey.com. Trobará tot tipo d&apos;informazión en LiberKey e en o foro ubierto á toz os usuarios.</GoToWebSiteTip>
+				<InstallAppSuite>Instalar un grupo d&apos;aplicazions</InstallAppSuite>
+				<InstallAppSuiteTip>Iste asistén li dixa instalar un grupo completo d&apos;aplicazions en una sola operazión</InstallAppSuiteTip>
+				<LiberKeyNews>Leyer notizias</LiberKeyNews>
+				<LiberKeyNewsTip>As Notizias de LiberKey li tienen informato.\nAs nuebas aplicazions en o catalogo online u cualsiquier informazión sobre LiberKey amanixerán en as Notizias.</LiberKeyNewsTip>
+				<ManageApps>Almenistrar as aplicazions</ManageApps>
+				<ManageAppsTip>Desinstale, instale u torne á instalar aplicazions. Istas ferramientas li premiten almenistrar a integrazión d&apos;as suyas aplicazions en o menú de LiberKey</ManageAppsTip>
+				<PortableShortcutsTip>L&apos;almenistrador d&apos;azesos dreitos en o escritorio premite almenistrar azesos dreitos d&apos;o escritorio ligatos á aplicazions portables.\nTamién alza ra posizión d&apos;os azesos dreitos.</PortableShortcutsTip>
+				<RemovePortableShortcuts>Eliminar os azesos dreitos portables</RemovePortableShortcuts>
+				<Title>Ferramientas LiberKey</Title>
+				<UpdateCheck>Comprebar autualizazions</UpdateCheck>
+				<UpdateCheckTip>Comprebar si bi ha una nueba bersión de LiberKey u autualizazions de software.\nSi en ye asinas, ye posible fer istas autualizazions dreitamén dende LiberKey.</UpdateCheckTip>
+				<UsbEject>Desconeutar a suya LiberKey</UsbEject>
+				<USBEjectTip>L&apos;estrautor d&apos;USB de LiberKey li premite desconeutar o despositibo USB (con o tancamiento automatico d&apos;as aplicazions).\n\nRECORDATORIO: Cualsiquier despositibo USB azeutará a desconisión sólo cuan o software asoziato siga estato tancato.</USBEjectTip>
+			</LiberKeyTools>
+			<Messages>
+				<About>Sobre LiberKey...</About>
+				<BrowseForNewFolder>Trigue ra carpeta que ubrirá l&apos;azeso dreito</BrowseForNewFolder>
+				<PatchDownload>Escargar autualizazión</PatchDownload>
+				<SearchResults>Resultatos d&apos;a busca</SearchResults>
+			</Messages>
+		</Main>
+		<Menu>
+			<LKHelp>Aduya de LiberKey</LKHelp>
+			<LKQuickLaunch>Execuzión rapeda de LiberKey</LKQuickLaunch>
+			<MostUsed>Más usatas</MostUsed>
+			<MyApps>As mías aplicazions portables</MyApps>
+			<MyDocs>Os míos decumentos</MyDocs>
+			<Recent>Rezién</Recent>
+		</Menu>
+		<MenuProperties>
+			<CommandButtons>
+				<Apply_Caption>Azeutar</Apply_Caption>
+				<Cancel_Caption>Canzelar</Cancel_Caption>
+			</CommandButtons>
+			<CheckBoxs>
+				<EditMode_Caption>Premitir cambeos</EditMode_Caption>
+				<NotInSystrayMenu_Caption>No amostrar en o menú flotán prenzipal</NotInSystrayMenu_Caption>
+				<ShowName_Caption>Amostrar nombre</ShowName_Caption>
+			</CheckBoxs>
+			<Labels>
+				<MenuIconLabel_Caption>Icono asoziato:</MenuIconLabel_Caption>
+				<MenuNameLabel_Caption>Nombre d&apos;o menú:</MenuNameLabel_Caption>
+				<Title_Caption>Propiedaz d&apos;o menú d&apos;usuario</Title_Caption>
+			</Labels>
+		</MenuProperties>
+		<Menus>
+			<AppCopy_Caption>&amp;Copiar</AppCopy_Caption>
+			<AppCut_Caption>&amp;Tallar</AppCut_Caption>
+			<AppDelApp_Caption>&amp;Eliminar</AppDelApp_Caption>
+			<AppEditProps_Caption>&amp;Propiedaz de l&apos;aplicazión...</AppEditProps_Caption>
+			<AppGoToWebSite_Caption>&amp;Besitar o puesto web</AppGoToWebSite_Caption>
+			<AppLaunch_Caption>&amp;Executar</AppLaunch_Caption>
+			<AppLocate_Caption>&amp;Trobar categoría</AppLocate_Caption>
+			<AppLocation-0_Caption>(nombre d&apos;a categoría)</AppLocation-0_Caption>
+			<AppLocations_Caption>&amp;Trobar categoría</AppLocations_Caption>
+			<AppOpenAppFolder_Caption>&amp;Ubrir a carpeta que contiene</AppOpenAppFolder_Caption>
+			<AppPaste_Caption>&amp;Apegar</AppPaste_Caption>
+			<AppRunAs_Caption>&amp;Executar como...</AppRunAs_Caption>
+			<AppRunAsAdmin_Caption>&amp;Executar como almenistrador</AppRunAsAdmin_Caption>
+			<AppSetup_Caption>In&amp;stalar ista aplicazión</AppSetup_Caption>
+			<AppShowInfo_Caption>&amp;Informazions</AppShowInfo_Caption>
+			<AppUpdate_Caption>Aut&amp;ualizar</AppUpdate_Caption>
+			<CatAdd_Caption>Nuebo azeso dreito</CatAdd_Caption>
+			<CatAddApp_Caption>Aplicazión / archibo</CatAddApp_Caption>
+			<CatAddFolder_Caption>Carpeta ...</CatAddFolder_Caption>
+			<CatAddWebPage_Caption>Pachina web ...</CatAddWebPage_Caption>
+			<CatCopy_Caption>&amp;Copiar</CatCopy_Caption>
+			<CatCut_Caption>&amp;Tallar</CatCut_Caption>
+			<CatDelCat_Caption>&amp;Eliminar</CatDelCat_Caption>
+			<CatEditProps_Caption>&amp;Propiedaz...</CatEditProps_Caption>
+			<CatListMode_Caption>Amostrar &amp;lista</CatListMode_Caption>
+			<CatNewCat_Caption>&amp;Nueba categoría</CatNewCat_Caption>
+			<CatPaste_Caption>&amp;Apegar</CatPaste_Caption>
+			<CatShowMenu_Caption>&amp;Menú flotán...</CatShowMenu_Caption>
+			<CatSort_Caption>&amp;Ordenar</CatSort_Caption>
+			<DoNothing_Caption>No fer cosa</DoNothing_Caption>
+			<FolderOpen_Caption>&amp;Ubrir carpeta</FolderOpen_Caption>
+			<InstallLKS_Caption>Instalar paquez LKS (LiberKey Setup)</InstallLKS_Caption>
+			<InstallLKS_Tip>Trigue uno u más archibos LKS (LiberKey Setup) ta instalar con un solo clic</InstallLKS_Tip>
+			<InstallsFromAppsFolder_Caption>D&apos;a carpeta &quot;Apps&quot;...</InstallsFromAppsFolder_Caption>
+			<InstallsFromAppsFolder_Tip>Iste asistén berificará automaticamén a carpeta &quot;Apps&quot; d&apos;a suya LiberKey ta beyer si bi ha nuebas aplicazions.\nPor exemplo puede copiar aplicazions d&apos;atra LiberKey e adibir-las con iste asistén</InstallsFromAppsFolder_Tip>
+			<InstallsFromMyApps_Caption>D&apos;a carpeta &quot;MyApps&quot;...</InstallsFromMyApps_Caption>
+			<InstallsFromMyApps_Tip>Si busté ha adibito manualmén aplicazions portables en o direutorio &quot;MyApps&quot; de LiberKey, iste asistén prebará de trobar-las e rechistrar-las en o menú.</InstallsFromMyApps_Tip>
+			<InternetOpen_Caption>&amp;Ubrir</InternetOpen_Caption>
+			<MenusCreate_Caption>&amp;Creyar un nuebo menú...</MenusCreate_Caption>
+			<MenusDelete_Caption>&amp;Eliminar o menú autual</MenusDelete_Caption>
+			<MenusEdit_Caption>&amp;Propiedaz d&apos;o menú autual</MenusEdit_Caption>
+			<MenusExport_Caption>E&amp;sportar o menú autual...</MenusExport_Caption>
+			<MenusHideNames_Caption>&amp;Amagar nombres</MenusHideNames_Caption>
+			<MenusImport_Caption>&amp;Importar menú...</MenusImport_Caption>
+			<MenusRecent_Caption>&amp;Rezién</MenusRecent_Caption>
+			<MenusShowNames_Caption>Amostrar &amp;nombres</MenusShowNames_Caption>
+			<MenusUser-0_Caption>Menú por defeuto</MenusUser-0_Caption>
+			<Open_Caption>&amp;Ubrir</Open_Caption>
+			<OpenActiveFloatMenu_Caption>Ubrir o menú flotán</OpenActiveFloatMenu_Caption>
+			<OpenMainWindow_Caption>Ubrir o menú prenzipal</OpenMainWindow_Caption>
+			<PatchCancelDownload_Caption>&amp;Canzelar escarga</PatchCancelDownload_Caption>
+			<Quit>Salir</Quit>
+			<RepairApps_Caption>Apañar as aplicazions dañatas</RepairApps_Caption>
+			<RepairApps_Tip>Iste asistén comprebará autumaticamén a carpeta &quot;Apps&quot; d&apos;a suya LiberKey en busca d&apos;aplicazions dañatas.\nSi una aplicazión d&apos;o catalogo de LiberKey ye dañata, li s&apos;ofrexerá tornar á instalar-la.</RepairApps_Tip>
+			<SendToPortableDocs>Os míos decumentos portables</SendToPortableDocs>
+			<SendToPortableDocsDescription>Copie os archibos trigatos en a carpeta &quot;Os míos Decumentos&quot;</SendToPortableDocsDescription>
+			<ShortcutEditProps_Caption>Propiedaz de l&apos;azeso dreito...</ShortcutEditProps_Caption>
+			<SuiteSetup>
+				<AppList>Lista d&apos;aplicazions</AppList>
+				<HideNewApps_Caption>Amagar nuebas aplicazions</HideNewApps_Caption>
+				<HideUpdates_Caption>Amagar autualizazions d&apos;aplicazions</HideUpdates_Caption>
+				<HideUpToDateApps_Caption>Amagar aplicazions autualizatas</HideUpToDateApps_Caption>
+				<SelectAll_Caption>Trigar tot</SelectAll_Caption>
+				<SelectNewApps_Caption>Trigar nuebas aplicazions</SelectNewApps_Caption>
+				<SelectPriority_Caption>Trigar autualizazions prioritarias</SelectPriority_Caption>
+				<SelectUpdates_Caption>Trigar autualizazions d&apos;as aplicazions</SelectUpdates_Caption>
+				<ShowNewApps_Caption>Amostrar nuebas autualizazions</ShowNewApps_Caption>
+				<ShowUpdates_Caption>Amostrar autualizazions d&apos;aplicazions</ShowUpdates_Caption>
+				<ShowUpToDateApps_Caption>Amostrar aplicazions autualizatas</ShowUpToDateApps_Caption>
+				<UnselectAll_Caption>Esfer a triga de tot</UnselectAll_Caption>
+				<UnselectNewApps_Caption>Esfer a triga de nuebas aplicazions</UnselectNewApps_Caption>
+				<UnselectPriority_Caption>Esfer a triga d&apos;autualizazions prioritarias</UnselectPriority_Caption>
+				<UnselectUpdates_Caption>Esfer a triga d&apos;autualizazions d&apos;aplicazions</UnselectUpdates_Caption>
+			</SuiteSetup>
+			<SynchronizeCatalog_Caption>D&apos;o catalogo online</SynchronizeCatalog_Caption>
+			<SynchronizeCatalog_Tip>Iste asistén li premitirá coneutar-se á os serbidors de LiberKey e trobar l&apos;aplicazión que ye buscando, e instalar-la en a suya LiberKey. </SynchronizeCatalog_Tip>
+			<UserMenuTabEditable_Caption>Premitir modificazions</UserMenuTabEditable_Caption>
+			<UserMenuTabFloatMenu_Caption>Menú &amp;flotán...</UserMenuTabFloatMenu_Caption>
+			<UserMenuTabHideName_Caption>&amp;Amagar menú</UserMenuTabHideName_Caption>
+			<UserMenuTabProperties_Caption>&amp;Propiedaz...</UserMenuTabProperties_Caption>
+			<UserMenuTabShowName_Caption>&amp;Amostrar nombre</UserMenuTabShowName_Caption>
+		</Menus>
+		<Messages>
+			<AllFilesSelection>Toz os archibos|*.*</AllFilesSelection>
+			<AppInstallation>Instalando l&apos;aplicazión %appname%...</AppInstallation>
+			<AppInstallDone>L&apos;aplicazión &apos;%appname%&apos; ye estata instalata en a suya LiberKey</AppInstallDone>
+			<AppInstalled>Aplicazión instalata : %appname%</AppInstalled>
+			<AppNotFound>Ista aplicazión no ye instalata en a suya LiberKey</AppNotFound>
+			<AppNotFoundTitle>Trobar una aplicazión</AppNotFoundTitle>
+			<AppRefCount>Azesos dreitos á ista aplicazión: %count%</AppRefCount>
+			<AppRegistered>L&apos;aplicazión agora ye rechistrata en a suya LiberKey.\n\nAgora puede creyar un azeso dreito.</AppRegistered>
+			<AppRunningCantUninst>L&apos;aplicazión ye executando-se en iste inte.\n\nNo se puede desinstalar encara.</AppRunningCantUninst>
+			<AppsInstallDone>%count% nuebas aplicazions son estatas instalatas en a suya LiberKey.</AppsInstallDone>
+			<AutoImportMenu>Encara no ha creyato dengún menú ta ras suyas aplicazions.\nDeseya importar l&apos;árbol d&apos;o menú antigo?</AutoImportMenu>
+			<BrokenAppFoundReinstall>Parixe que ista aplicazión ye dañata: %appname%\n\nDeseya tornar á instalar-la?</BrokenAppFoundReinstall>
+			<Browse>Desaminar...</Browse>
+			<ConfirmDeleteCategory>Ye seguro de querer eliminar a categoría &quot;%name&quot; e os azesos dreitos que en contiene?</ConfirmDeleteCategory>
+			<ConfirmDeleteSortcut>Ye seguro de querer eliminar l&apos;azeso dreito &quot;%name%&quot; ?</ConfirmDeleteSortcut>
+			<ConfirmDeletion>Confirmar eliminazión</ConfirmDeletion>
+			<ConfirmInstallApp>Instalar %app% en a suya LiberKey?</ConfirmInstallApp>
+			<ConfirmInstallMyApps>Deseya deteutar nuebas aplicazions en a carpeta &quot;MyApps&quot;?</ConfirmInstallMyApps>
+			<ConfirmInstallNewApps>Deseya deteutar nuebas aplicazions en a carpeta &quot;Apps&quot;?</ConfirmInstallNewApps>
+			<ConfirmUninstallApp>Ye seguro de querer eliminar ista aplicazión?\nIsta operazión no se puede esfer.</ConfirmUninstallApp>
+			<DateFormat>dd/mm/yyyy</DateFormat>
+			<DefaultIcon>(Icono por defeuto)</DefaultIcon>
+			<DeleteMenuConfirm>Eliminar o menú &quot;%menu%&quot;?</DeleteMenuConfirm>
+			<DownloadPatchNow>Escargar l&apos;autualizazión agora?</DownloadPatchNow>
+			<DropLKSLoadingInfos>Por fabor aspere entre que se recupera ra informazión d&apos;as aplicazions ...</DropLKSLoadingInfos>
+			<DropLKSToInstall>Suelte o botón d&apos;o zorz ta instalar l&apos;aplicazión en a suya LiberKey</DropLKSToInstall>
+			<Errors>
+				<AccessDenied>Azeso denegato</AccessDenied>
+				<AccessRightsError>Ta funzionar, LiberKey requiere pribilechios d&apos;escritura en a unidá do bi ye</AccessRightsError>
+				<AssocIncomplete>Asoziazión no balera u incompleta</AssocIncomplete>
+				<CantCreateTempFolder>No s&apos;ha puesto creyar a carpeta temporal</CantCreateTempFolder>
+				<CantDefineHotKey>S&apos;ha produzito una error en confegurar a tecla d&apos;azeso dreito ta l&apos;azeso dreito &quot;%name%&quot;:\n%err%</CantDefineHotKey>
+				<CantDefineHotKeys>S&apos;ha produzito una error en confegurar os alcorzes de teclau ta os azesos dreitos siguiens:\n%err%\n%namelist%</CantDefineHotKeys>
+				<CantStartOnRemoteDrive>No puede usar LiberKey dende una carpeta de rete</CantStartOnRemoteDrive>
+				<DDEBusy>DDE ocupato</DDEBusy>
+				<DDETimeout>Tiempo d&apos;aspera DDE</DDETimeout>
+				<DDETransacFailed>A transazión DDE ha feito burro falso</DDETransacFailed>
+				<DllNotFound>DLL no trobata</DllNotFound>
+				<ErrorTitle>Error</ErrorTitle>
+				<ErrShare>Ha ocurrito una biolazión en compartir</ErrShare>
+				<ExeBadFormat>Executable no balero u error en a imachen</ExeBadFormat>
+				<ExecError>Error en iniziar o programa</ExecError>
+				<FileNotFound>Archibo no trobato</FileNotFound>
+				<GetUpdateInfoError>Ha ocurrito una error en prebar d&apos;escargar a informazión d&apos;autualizazión:\nError %err%: %desc%</GetUpdateInfoError>
+				<HotKeyAlreadyUsedBy>Ya ye emplegando ista combinazión ta l&apos;azeso dreito &quot;%name%&quot;!</HotKeyAlreadyUsedBy>
+				<LKInstNotFound>No s&apos;ha trobato o instalador de LiberKey !</LKInstNotFound>
+				<LksDownloadFailed>Ha ocurrito una error en escargar o paquet d&apos;instalazión de %app% (%lks%).\n\nError %errnum%: %errdesc%</LksDownloadFailed>
+				<LogUploadFailed>Ha ocurrito una error entre que se nimbiaba ra informazión</LogUploadFailed>
+				<NewsFeedDownloadError>Ha ocurrito una error en escargar os datos d&apos;as notizias.\n%err%</NewsFeedDownloadError>
+				<NoAssoc>No bi ha asoziazions ta ista estensión d&apos;archibo</NoAssoc>
+				<OutOfMemory>No en queda de memoria libre</OutOfMemory>
+				<PathNotFound>Ruta d&apos;azeso no trobata</PathNotFound>
+				<SkinImageNotFound>Error cargando piel:\n\nArchibo %file% no trobato.</SkinImageNotFound>
+			</Errors>
+			<FileSize>
+				<Bytes>Bytes</Bytes>
+				<GB>GB</GB>
+				<KB>KB</KB>
+				<MB>MB</MB>
+			</FileSize>
+			<FreeSpace>Unidá %drive% (%filesys%)\n%volumename%\nCapazidá: %totalsize%\nEspazio utilizato: %usedsize%\nEspazio libre: %freesize% (%freesizepc%)</FreeSpace>
+			<HotKeyStartAppInfo>Empezipiando &quot;%name%&quot;...\nFaiga clic aquí ta canzelar</HotKeyStartAppInfo>
+			<IconFileSelection>Archibos suportatos |*.ico;*.exe;*.dll|Fichers d&apos;iconos (*.ico)|Fichers executables|*.exe;*.dll</IconFileSelection>
+			<IconSelection>
+				<AppIcons>Iconos de menú</AppIcons>
+				<IconSelectTitle>Trigue l&apos;archibo que contiene o icono</IconSelectTitle>
+				<IconSources>Iconos disponibles</IconSources>
+				<SkinIcons>Iconos &quot;Skin&quot;</SkinIcons>
+			</IconSelection>
+			<ImportASuiteMenu>Importar menú d&apos;Asuite...</ImportASuiteMenu>
+			<ImportMenuFormatError>Iste archibo no contiene un menú de LiberKey</ImportMenuFormatError>
+			<InternetAddress>Adreza d&apos;Internet...</InternetAddress>
+			<LastAppShortcutUninstall>No bi ha más azesos dreitos enta ista aplicazión en os suyos menús de LiberKey\nQuiere desinstalar-la d&apos;a suya LiberKey ?</LastAppShortcutUninstall>
+			<LinkedAppCount>Aplicazions ligatas: %count%</LinkedAppCount>
+			<LogUploadDone>A informazión teunica s&apos;ha nimbiato.\nGrazias por a suya partezipazión en o desarrollo de LiberKey !</LogUploadDone>
+			<MenuExportTitle>Esportar menú como archibo XML...</MenuExportTitle>
+			<MenuImportError>Ha ocurrito una error entre que se copiaba o menú en a suya LiberKey !</MenuImportError>
+			<MenuImportErrorTitle>No s&apos;ha puesto importar o menú</MenuImportErrorTitle>
+			<MenuImportNotFromProfile>No puede importar un menú que ya esiste en a suya LiberKey</MenuImportNotFromProfile>
+			<MenuImportTitle>Importar menú d&apos;un archibo XML</MenuImportTitle>
+			<MultipleFilesDrop>%count% archibos...</MultipleFilesDrop>
+			<MyMenu>O mío menú</MyMenu>
+			<NewCategory>Nueba categoría</NewCategory>
+			<NewMenu>Nuebo menú</NewMenu>
+			<NoBrokenAppFound>No s&apos;ha trobato denguna aplicazión dañata</NoBrokenAppFound>
+			<NoLogToSend>Ista ferramienta li premite nimbiar o rechistro d&apos;ebentos d&apos;o menú ta o equipo de LiberKey ta analizar os problemas.\n\nNo s&apos;ha trobato dengún ebento u suzeso ta nimbiar.</NoLogToSend>
+			<NoNewAppInstalled>No s&apos;han trobato nuebas aplicazions en a carpeta &quot;Apps&quot; d&apos;a suya LiberKey</NoNewAppInstalled>
+			<NoNewMyAppInstalled>No s&apos;ha trobato denguna aplicazión nueba en a carpeta &quot;MyApps&quot; d&apos;a suya LiberKey</NoNewMyAppInstalled>
+			<OpenWithLiberKey>Ubrir con LiberKey</OpenWithLiberKey>
+			<PatchAvailable>Bi ha una autualizazión disponible ta ra suya LiberKey.\n\nQuiere escargar-la agora?</PatchAvailable>
+			<SearchFieldInfo>Buscar en a suya LiberKey...</SearchFieldInfo>
+			<SearchingBrokenApps>Buscando aplicazions dañatas...</SearchingBrokenApps>
+			<SearchingUninstalledApps>Buscando aplicazions en a carpeta &quot;Apps&quot;...</SearchingUninstalledApps>
+			<SearchingUninstalledMyApps>Buscando aplicazions en a carpeta &quot;MyApps&quot;...</SearchingUninstalledMyApps>
+			<SelectFile>Trigue l&apos;archibo...</SelectFile>
+			<SendLogInfo>Ista ferramienta li premite trasmitir o rechistro d&apos;ebentos ta analizar errors.\n\nA informazión teunica e os zaguers 10 archibos cheneratos en o direutorio &quot;log&quot; d&apos;o menú suyo se nimbiarán á liberkey.com\n\nYe seguro?</SendLogInfo>
+			<SetupAutoRestart>O programa de %app% se tornará á iniziar preconfegurato ta LiberKey.</SetupAutoRestart>
+			<TrayIcon>
+				<AppUpdatesAvailable>Bi ha autualizazions disponibles ta ras suyas aplicazions.\nFaiga clic aqui ta instalar-las.</AppUpdatesAvailable>
+				<AppUpdatesAvailableTitle>Bi ha disponibles autualizazions d&apos;aplicazions de LiberKey</AppUpdatesAvailableTitle>
+				<LiberKeyAssocFailed>Ha ocurrito una error en prebar d&apos;autibar o protocolo LiberKey.\nBellas carauteristicas como a instalazión dende o catalogo online se troban desabilitatas.</LiberKeyAssocFailed>
+				<LiberKeyUpdateAvailable>Bi ha una autualizazión disponible ta ra suya LiberKey.\nFaiga clic aqui ta instalar-la.</LiberKeyUpdateAvailable>
+				<LiberKeyUpdateAvailableTitle>Autualizazión de LiberKey</LiberKeyUpdateAvailableTitle>
+				<NewAppDetected>S&apos;han deteutato una u más aplicazions nuebas en a carpeta &quot;MyApps&quot; d&apos;a suya LiberKey.\nFaiga clic aquí ta rechistrar nuebas aplicazions en o suyo menú.</NewAppDetected>
+				<NewsUpdateAvailable>Notizias LiberKey\nLeiga as zagueras notizias</NewsUpdateAvailable>
+			</TrayIcon>
+			<UpdatePlatformFirst>Primero cal que autualize a suya LiberKey !\nDeseya autualizar-la agora ?</UpdatePlatformFirst>
+			<XmlFileSelection>Archibos XML |*.xml|Toz os archibos|*.*</XmlFileSelection>
+		</Messages>
+		<NewAppList>
+			<CommandButtons>
+				<Cancel_Caption>Tancar</Cancel_Caption>
+				<InstallApp_ToolTip>Instalar ista aplicazión</InstallApp_ToolTip>
+				<InstallApps_ToolTip>Instalar as aplicazions trigatas</InstallApps_ToolTip>
+				<OpenFolder_ToolTip>Ubrir a ubicazión de l&apos;archibo</OpenFolder_ToolTip>
+				<Reload_ToolTip>Recargar lista</Reload_ToolTip>
+				<SelectApp_ToolTip>Trigar ista aplicazión</SelectApp_ToolTip>
+				<UnselectApp_ToolTip>Destrigar ista aplicazión</UnselectApp_ToolTip>
+			</CommandButtons>
+			<Labels>
+				<DestinationMenuLabel_Caption>Creyar azesos dreitos:</DestinationMenuLabel_Caption>
+				<Title_Caption>Nuebas aplicazions</Title_Caption>
+			</Labels>
+			<Messages>
+				<SelectExecutable>Trigue o programa que deseya adibir en o menú.</SelectExecutable>
+			</Messages>
+		</NewAppList>
+		<News>
+			<CommandButtons>
+				<CloseNews_Caption>Tancar</CloseNews_Caption>
+			</CommandButtons>
+			<CheckBoxs>
+				<HideReadNews_Caption>Amagar as notizias ya leyitas</HideReadNews_Caption>
+			</CheckBoxs>
+			<Labels>
+				<Title_Caption>Notizias de LiberKey</Title_Caption>
+			</Labels>
+			<Messages>
+				<NoNewsDescription>Autualmén no bi ha denguna notizia.\nSi se publica una nueba notizia, será abisato por o icono &quot;Notizias de LiberKey&quot; que aparixerá alto d&apos;o botón &quot;Ferramientas LiberKey&quot;</NoNewsDescription>
+				<NoNewsTile>Notizias de Liberkey - Sin notizias</NoNewsTile>
+				<NoNewsUpdateDescription>Autualmén bi ha %readcount% notizias amagatas (ya leyitas).\nTa beyer as notizias amagatas, esmarque &quot;Amagar as notizias ya leyitas&quot;.</NoNewsUpdateDescription>
+				<NoNewsUpdateTile>Notizias de LiberKey - No bi ha notizias nuebas</NoNewsUpdateTile>
+			</Messages>
+		</News>
+		<OnlineCatalog>
+			<CommandButtons>
+				<Cancel_Caption>Canzelar</Cancel_Caption>
+				<CopyURL_Caption>Copiar adreza en o portapapels</CopyURL_Caption>
+				<GoToWebsite_Caption>Azeder á o catalogo online %count%</GoToWebsite_Caption>
+				<NoSyncCatalog_Caption>Azeder á o catalogo online sin sincronizar a mía LiberKey</NoSyncCatalog_Caption>
+			</CommandButtons>
+			<Labels>
+				<AccessURL_Caption>Adreza ta azeder á o catalogo online sincronizato con a suya LiberKey:</AccessURL_Caption>
+				<AddPortableAppsLabel_Caption>Instalar nuebas aplicazions</AddPortableAppsLabel_Caption>
+				<Privacy_Caption>Nota: Os lumers de bersión nimbiatos ta o puesto web solo cubren aplicazions disponibles en o catalogo online. No se trasmitirá denguna informazión sobre as suyas aplicazions presonals en ista operazión.</Privacy_Caption>
+				<Title_Caption>Azeder á o catalogo online d&apos;aplicazions portables</Title_Caption>
+			</Labels>
+		</OnlineCatalog>
+		<Search>
+			<Applications>Aplicazions</Applications>
+			<InCatalog>Catalogo Online</InCatalog>
+			<InstalledApp>Aplicazions instalatas</InstalledApp>
+			<SearchCatalog>Buscar en o catalogo online</SearchCatalog>
+		</Search>
+		<SetupWizard>
+			<CommandButtons>
+				<CancelSetup_Caption>No instalar l&apos;aplicazión en a carpeta &quot;MyApps&quot;</CancelSetup_Caption>
+				<CancelSetup2_Caption>Canzelar instalazión</CancelSetup2_Caption>
+				<CantSetup_Caption>Tancar asistén (no se puede continar con a instalazión)</CantSetup_Caption>
+				<DoSetup_Caption>Instalar aplicazión en a mía LiberKey</DoSetup_Caption>
+				<ForceSetup_Caption>Instalar l&apos;aplicazión en &quot;MyApp&quot;</ForceSetup_Caption>
+				<OpenAppsFolder_Caption>Ubrir a carpeta &quot;Apps&quot; d&apos;a mía LiberKey</OpenAppsFolder_Caption>
+				<OpenMyAppsFolder_Caption>Ubrir a carpeta &quot;MyApps&quot; d&apos;a mía LiberKey</OpenMyAppsFolder_Caption>
+				<UpdateApp_Caption>Autualizar ista aplicazión</UpdateApp_Caption>
+			</CommandButtons>
+			<CheckBoxs>
+				<ApplyFilesAssocs_Caption>Asoziar l&apos;aplicazión con os archibos que puede ubrir</ApplyFilesAssocs_Caption>
+				<CreateDefaultShortcuts_Caption>Creyar azesos dreitos ta iniziar l&apos;aplicazión</CreateDefaultShortcuts_Caption>
+				<EditAppAfterSetup_Caption>Editar as propiedaz de l&apos;aplicazión dimpués d&apos;a instalazión</EditAppAfterSetup_Caption>
+				<FillAppInformations_Caption>Adibir a descrizión de l&apos;aplicazión</FillAppInformations_Caption>
+			</CheckBoxs>
+			<Labels>
+				<AppInfoDetailsTitle_Caption>Ista aplicazión s&apos;instaló orichinalmén dende un paquet LKS (LiberKey Setup).\nAs siguiens operazions se reyalizarán automaticamén:</AppInfoDetailsTitle_Caption>
+				<AppRegisterInfo_Caption>Ista aplicazión se rechistrará una atra begata en a suya LiberKey</AppRegisterInfo_Caption>
+				<DestinationMenuLabel_Caption>Creyar azesos dreitos en:</DestinationMenuLabel_Caption>
+				<IntroText_Caption>Iste asistén l&apos;aduyará á adibir aplicazions portables á ra suya LiberKey.</IntroText_Caption>
+				<LbkAppFolderInfo_Caption>Ista aplicazión no s&apos;autualizará automaticamén.\nDeberba mober-la á ra carpeta &quot;Apps&quot; e repetir a operazión.</LbkAppFolderInfo_Caption>
+				<LbkAppFolderMistake_Caption>As aplicazions portables d&apos;o catalogo online www.liberkey.com cal que sigan en a carpeta &quot;Apps&quot;</LbkAppFolderMistake_Caption>
+				<lblLbkAppInfoMissing_Caption>No s&apos;ha trobato informazión sobre ista aplicazión.\nNo s&apos;ha puesto alzar a informazión en a suya LiberKey</lblLbkAppInfoMissing_Caption>
+				<lblLbkAppInfoMissingMoveApp_Caption>Deberba tornar á instalar l&apos;aplicazión dende o catalogo online.\nTa usar-la en iste estato, mueba-la primeramén ta ra carpeta &quot;MyApp&quot;</lblLbkAppInfoMissingMoveApp_Caption>
+				<lblLbkAppInfoMissingUpdate_Caption>Ta rechistrar una aplicazión correutamén en a suya LiberKey, faiga l&apos;autualizazión. Ta usar-la en iste estato, mueba-la primeramén ta ra carpeta &quot;MyApp&quot;</lblLbkAppInfoMissingUpdate_Caption>
+				<lblUserAppFolderInfo>Ta alzar ista aplicazión en a suya LiberKey, deberba mober-la á ra carpeta &quot;MyApp&quot; e repetir a operazión.</lblUserAppFolderInfo>
+				<lblUserAppFolderMistake_Caption>As aplicazions portables que no son d&apos;o catalogo online www.liberkey.com cal que sigan en a carpeta &quot;MyApp&quot;</lblUserAppFolderMistake_Caption>
+				<NewApp_Caption>Nueba aplicazión portable</NewApp_Caption>
+				<NewAppRegisterInfo_Caption>Ista aplicazión no ye rechistrata en a suya LiberKey</NewAppRegisterInfo_Caption>
+				<PafInfoDetailsTitle_Caption>Ista aplicazión ye instalata orichinalmén dende un paquet de PAF (portableapps.com ™).\nSe reyalizarán as siguiens operazions:</PafInfoDetailsTitle_Caption>
+				<ReinstallApp_Caption>Tornar á instalar una aplicazión portable</ReinstallApp_Caption>
+				<Title_Caption>Adibindo asistén de l&apos;aplicazión</Title_Caption>
+				<UserAppInfoDetailsTitle_Caption>As aplicazions portables han á estar rechistratas en o menú de LiberKey. Allora podrá creyar azesos dreitos en os suyos menús ta executar-las:\nSe ban á reyalizar as siguiéns operazions:</UserAppInfoDetailsTitle_Caption>
+				<XSoftInfoDetailsTitle_Caption>Ista aplicazión ye instalata orichinalmén dende un paquet X-Software (winpenpack.com™).\nSe reyalizarán as siguiens operazions:</XSoftInfoDetailsTitle_Caption>
+			</Labels>
+		</SetupWizard>
+		<ShortcutProperties>
+			<CommandButtons>
+				<ApplyChanges_Caption>Aplicar</ApplyChanges_Caption>
+				<AppProps_Caption>Propiedaz de l&apos;aplicazión</AppProps_Caption>
+				<Cancel_Caption>Tancar</Cancel_Caption>
+				<ShortcutAppEdit_Caption>Iste azeso dreito siñala enta una aplicazión portable</ShortcutAppEdit_Caption>
+			</CommandButtons>
+			<CheckBoxs>
+				<AlwaysRunAsAdmin_Caption>Executar siempre como almenistrador</AlwaysRunAsAdmin_Caption>
+				<ShortcutHiddenInMenu_Caption>Amagar en menús flotans</ShortcutHiddenInMenu_Caption>
+				<ShortcutNoMostUsed_Caption>No adibir á o menú d&apos;aplicazions más emplegatas</ShortcutNoMostUsed_Caption>
+				<ShortcutNoRecent_Caption>No adibir á o menú d&apos;aplicazions reziens</ShortcutNoRecent_Caption>
+			</CheckBoxs>
+			<Labels>
+				<DescriptionLabel_Caption>Descrizión :</DescriptionLabel_Caption>
+				<ShortcutAutorunLabel_Caption>Auto-executar :</ShortcutAutorunLabel_Caption>
+				<ShortcutHotKey_Caption>Alcorze de teclau :</ShortcutHotKey_Caption>
+				<ShortcutIconLabel_Caption>Icono :</ShortcutIconLabel_Caption>
+				<ShortcutNameLabel_Caption>Nombre :</ShortcutNameLabel_Caption>
+				<ShortcutParamsLabel_Caption>Parametros de linia de comandos:</ShortcutParamsLabel_Caption>
+				<ShortcutPathLabel_Caption>Ruta d&apos;o executable / carpeta / pachina web / decumento :</ShortcutPathLabel_Caption>
+				<ShortcutWinStateLabel_Caption>En empezipiar : </ShortcutWinStateLabel_Caption>
+				<ShortcutWorkDirLabel_Caption>Carpeta de treballo :</ShortcutWorkDirLabel_Caption>
+				<Title_Caption>Propiedaz de l&apos;azeso dreito</Title_Caption>
+			</Labels>
+			<Tabs>
+				<Shortcut>Azeso dreito</Shortcut>
+				<ShortcutMore>Abanzato</ShortcutMore>
+			</Tabs>
+		</ShortcutProperties>
+		<SuiteDownload>
+			<CommandButtons>
+				<Cancel_Caption>Canzelar</Cancel_Caption>
+				<GetSuites_Caption>Escargar a lista de grupos disponibles</GetSuites_Caption>
+				<InstallSuite_Caption>Instalar todas as aplicazions en o grupo trigato</InstallSuite_Caption>
+			</CommandButtons>
+			<DownloadedAppsCountInfo>-   Escargato: %dldone%</DownloadedAppsCountInfo>
+			<DownloadSizeInfo>Escarga: %size%</DownloadSizeInfo>
+			<InstallSizeInfo>Espazio requerito en disco: %size%</InstallSizeInfo>
+			<Labels>
+				<DownloadInfo_Caption>Iste asistén li dixa instalar un grupo completo d&apos;aplicazions en una sola operazión.\n\nFaiga clic en &quot;Escargar a lista de grupos disponibles&quot; ta continar.</DownloadInfo_Caption>
+				<Title_Caption>Instalar un grupo d&apos;aplicazions</Title_Caption>
+				<TitleBig_Caption>Instalar un grupo d&apos;aplicazions</TitleBig_Caption>
+			</Labels>
+			<Messages>
+				<ConfirmKeepDownloads>Deseya mantener os paquez d&apos;instalazión ta usar-los más tardi?</ConfirmKeepDownloads>
+				<DownladAppIcons16>Escargando iconos d&apos;as aplicazions...</DownladAppIcons16>
+				<DownloadGraphics>Escargando logos d&apos;os grupos d&apos;aplicazions</DownloadGraphics>
+				<DownloadingSuitesInfo>Escargando informazión sobre os grupos d&apos;aplicazions...</DownloadingSuitesInfo>
+				<GetSuiteInfoFailed>Ha ocurrito una error entre que se recuperaba a lista de grupos disponible.\n\nError %errnum%: %errdesc%</GetSuiteInfoFailed>
+				<IncompleteSuiteSetup>Bellas aplicazions d&apos;iste grupo  no s&apos;han instalato correutamén.\nPuede reiniziar lugo iste asistén ta completar a instalazión.</IncompleteSuiteSetup>
+				<PartialSuiteSetupDone>A suya triga d&apos;aplicazions ye estata instalata.\nPuede reiniziar lugo iste asistén ta adibir más aplicazions.</PartialSuiteSetupDone>
+				<SetupDone>As aplicazions d&apos;o grupo &quot;%name%&quot; son agora instalatas en a suya LiberKey</SetupDone>
+				<SetupError>Ha ocurrito una error entre que s&apos;instalaba %app%!</SetupError>
+			</Messages>
+			<SuiteAppCountInfo>Aplicazions:</SuiteAppCountInfo>
+			<SuiteAppsDoneInfo>Nuebas: %newapps% - Instalatas: %installed%</SuiteAppsDoneInfo>
+		</SuiteDownload>
+		<UninstallWizard>
+			<CommandButtons>
+				<CancelSetup_Caption>Canzelar eliminazión</CancelSetup_Caption>
+				<CancelSetup2_Caption>Canzelar eliminazión</CancelSetup2_Caption>
+				<ConfirmUninstall_Caption>Confirmar eliminazión d&apos;ista aplicazión</ConfirmUninstall_Caption>
+				<DoUninstall_Caption>Reyalizar as eliminazions trigatas</DoUninstall_Caption>
+			</CommandButtons>
+			<CheckBoxs>
+				<RemoveAppFolder_Caption>Eliminar a carpeta de l&apos;aplicazión (incluyitos programa e datos asoziatos)</RemoveAppFolder_Caption>
+				<RemoveAppShortcuts_Caption>Eliminar os azesos dreitos que siñalan enta ista aplicazión</RemoveAppShortcuts_Caption>
+				<RemoveFilesAssocs_Caption>Eliminar as asoziazions d&apos;archibo emplegatas por ista aplicazión</RemoveFilesAssocs_Caption>
+				<UnregisterAppInfo_Caption>Desrechistrar ista aplicazión</UnregisterAppInfo_Caption>
+			</CheckBoxs>
+			<Labels>
+				<IntroText_Caption>Iste asistén ye ta aduyar-li á eliminar aplicazions portables d&apos;a suya LiberKey</IntroText_Caption>
+				<PreviewInfo_Caption>Ista ye a lista d&apos;operazions que se reyalizarán en desinstalar. En bels casos a eliminazión d&apos;una aplicazión puede orichinar atras perdas. Comprebe a lista antis de continar.</PreviewInfo_Caption>
+				<RemoveApp_Caption>Eliminar aplicazión portable</RemoveApp_Caption>
+				<RemoveAppInfo_Caption>Ista aplicazión ba á estar eliminata d&apos;a suya LiberKey</RemoveAppInfo_Caption>
+				<RemoveInfoDetailsTitle_Caption>As siguiens operazions se ferán entre que s&apos;elimina ista aplicazión. Desautibe as ozions correspondiens si quiere alzar bella informazión u datos de l&apos;aplicazión.</RemoveInfoDetailsTitle_Caption>
+				<Title_Caption>Asistén d&apos;eliminazión d&apos;aplicazions</Title_Caption>
+			</Labels>
+			<PreviewTree>
+				<AppDataSize>Amplaria de l&apos;aplicazión: %size%</AppDataSize>
+				<DeletedAssocs>Asoziazions d&apos;archibos eliminatas</DeletedAssocs>
+				<DeletedData>Datos d&apos;as aplicazions eliminatas</DeletedData>
+				<DeletedShortcuts>Eliminar azesos dreitos</DeletedShortcuts>
+				<FileType>Archibos &quot;.%type%&quot;</FileType>
+				<KFANotFound>A confegurazión d&apos;as asoziazions d&apos;archibos no s&apos;ha trobato.</KFANotFound>
+				<KFANotUsed>No bi ha asoziazión temporal ta ista aplicazión</KFANotUsed>
+				<KfaUsedForTypeIcon>Usato ta iste tipo d&apos;archibo d&apos;iconos</KfaUsedForTypeIcon>
+				<UnregisterApp>Aplicazions eliminatas</UnregisterApp>
+			</PreviewTree>
+		</UninstallWizard>
+		<UpdateInfo>
+			<CommandButtons>
+				<Cancel_Caption>Tancar</Cancel_Caption>
+				<DownloadPatch_Caption>Autualizar a mía LiberKey agora !</DownloadPatch_Caption>
+				<OpenCatalog_Caption>Ubrir o catalogo d&apos;aplicazions portables</OpenCatalog_Caption>
+				<UpdateApps_Caption>Autualizar as mías aplicazions portables de LiberKey</UpdateApps_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppsUpdateFound>Bi ha autualizazions disponibles ta ras suyas aplicazions.</AppsUpdateFound>
+				<AppsUpdateNotFound>No bi ha autualizazions disponibles ta ras suyas aplicazions.</AppsUpdateNotFound>
+				<NewAppsCount>Disponibles aplicazions adizionals : %count%</NewAppsCount>
+				<NewAppsFound>Bi ha aplicazions adizionals disponibles ta ra suya LiberKey en o catalogo online.</NewAppsFound>
+				<NewAppsNotFound>No s&apos;han trobato aplicazions adizionals ta ra suya LiberKey en o catalogo online</NewAppsNotFound>
+				<NoNewApp>Lo tien tot !</NoNewApp>
+				<PlatformUpdateFound>Bi ha una autualizazión disponible ta ra suya LiberKey</PlatformUpdateFound>
+				<PlatformUpdateNotFound>No bi ha autualizazions disponibles ta ra suya LiberKey</PlatformUpdateNotFound>
+				<Title_Caption>Autualizazions disponibles</Title_Caption>
+				<UpdatesCount>Autualizazions disponibles : %count%</UpdatesCount>
+			</Labels>
+		</UpdateInfo>
+		<Contributors>
+			<Contributor name="Santiago Bal" email="santiago_balp@yahoo.es"/>
+		</Contributors>
+	</an-ES-AR>
+</Languages>

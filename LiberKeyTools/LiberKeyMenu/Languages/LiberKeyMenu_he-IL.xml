@@ -1,0 +1,838 @@
+<Languages version="0.4">
+	<he-IL en_name="Hebrew" icon="il.png" date="2011-05-02" version="1.0" name="Hebrew">
+		<AppCategories>
+			<audio>אודיו</audio>
+			<audio:converter>המרה</audio:converter>
+			<audio:editor>עריכה</audio:editor>
+			<audio:ipod_manager>ניהול אייפוד</audio:ipod_manager>
+			<audio:player>הפעלה</audio:player>
+			<audio:radio>רדיו</audio:radio>
+			<audio:ripper>ריפינג</audio:ripper>
+			<audio:tagger>תיוג</audio:tagger>
+			<audio:text_to_speech>טקסט לדיבור</audio:text_to_speech>
+			<audio:tools>כלים</audio:tools>
+			<cd-dvd>תקליטור - די וי די</cd-dvd>
+			<cd-dvd:burning_tools>כלי צריבה</cd-dvd:burning_tools>
+			<cd-dvd:cover_printer>הדפסת עטיפות</cd-dvd:cover_printer>
+			<cd-dvd:image_tools>כלים דימות</cd-dvd:image_tools>
+			<education>למידה</education>
+			<education:astronomy>אסטרונומיה</education:astronomy>
+			<education:drawing>שרטוט</education:drawing>
+			<education:typing>הקלדה</education:typing>
+			<file_management>ניהול קבצים</file_management>
+			<file_management:backup>גיבוי</file_management:backup>
+			<file_management:cataloger>קיטלוג</file_management:cataloger>
+			<file_management:comparison>השוואה</file_management:comparison>
+			<file_management:compression>דחיסה</file_management:compression>
+			<file_management:copy>העתקה</file_management:copy>
+			<file_management:defragmenter>איחוי</file_management:defragmenter>
+			<file_management:directory_lister>רשימות קבצים</file_management:directory_lister>
+			<file_management:disk_space_tool>כלי ניהול הדיסק</file_management:disk_space_tool>
+			<file_management:duplicate_finder>איתור כפולים</file_management:duplicate_finder>
+			<file_management:manager>ניהול</file_management:manager>
+			<file_management:recovery>שחזור</file_management:recovery>
+			<file_management:renamer>שינוי שם</file_management:renamer>
+			<file_management:search>חיפוש</file_management:search>
+			<file_management:splitter>פיצול</file_management:splitter>
+			<file_management:synchronization>סנכרון</file_management:synchronization>
+			<file_management:tools>כלים</file_management:tools>
+			<file_management:universal_viewer>המציג האוניברסלי</file_management:universal_viewer>
+			<games>משחקים</games>
+			<games:action>פעולה</games:action>
+			<games:card>קלפים</games:card>
+			<games:puzzle>פזלים</games:puzzle>
+			<games:reflexion>מחשבה</games:reflexion>
+			<games:strategy>אסטרטגיה</games:strategy>
+			<graphics-photo>גרפיקה - תמונות</graphics-photo>
+			<graphics-photo:3d>תלת-ממד</graphics-photo:3d>
+			<graphics-photo:color_picker>בורר הצבעים</graphics-photo:color_picker>
+			<graphics-photo:editor>עריכה</graphics-photo:editor>
+			<graphics-photo:effect_and_filter>סינון ואפקטים</graphics-photo:effect_and_filter>
+			<graphics-photo:icon_editor>עריכת האייקונים</graphics-photo:icon_editor>
+			<graphics-photo:screen_capture>לכידת תמונות מסך</graphics-photo:screen_capture>
+			<graphics-photo:tools>כלים</graphics-photo:tools>
+			<graphics-photo:vector_converter>המרת וקטורים</graphics-photo:vector_converter>
+			<graphics-photo:viewer>הצגת תמונות</graphics-photo:viewer>
+			<internet>אינטרנט</internet>
+			<internet:bookmark_manager>ניהול סימניות</internet:bookmark_manager>
+			<internet:browser>דפדפן</internet:browser>
+			<internet:download>הורדות</internet:download>
+			<internet:email>דואל</internet:email>
+			<internet:ftp>העברת קבצים</internet:ftp>
+			<internet:instant_messenger>מסרים מידיים</internet:instant_messenger>
+			<internet:rss_reader>קריאת הזנות</internet:rss_reader>
+			<internet:website_authoring>הקמת אתרים</internet:website_authoring>
+			<internet:website_copier>העתקת אתרים</internet:website_copier>
+			<networking-server>רשתות ושרתים</networking-server>
+			<networking-server:bandwidth_monitor>ניטור רוחב הפס</networking-server:bandwidth_monitor>
+			<networking-server:configuration>הגדרות</networking-server:configuration>
+			<networking-server:network_analyzer>ניתוח הרשת</networking-server:network_analyzer>
+			<networking-server:remote_control>התחברות מרחוק</networking-server:remote_control>
+			<networking-server:scanner>סריקה</networking-server:scanner>
+			<networking-server:server>שרת</networking-server:server>
+			<networking-server:settings_manager>ניהול הגדרות</networking-server:settings_manager>
+			<networking-server:telnet-ssh_client>SSH-לקוח טלנט</networking-server:telnet-ssh_client>
+			<networking-server:tools>כלים</networking-server:tools>
+			<office>אופיס</office>
+			<office:calculator>מחשבון</office:calculator>
+			<office:calendar>לוח שנה</office:calendar>
+			<office:chrono>שעון עצר</office:chrono>
+			<office:desktop_tools>כלים לשולחן העבודה</office:desktop_tools>
+			<office:desktop_tools:application_launcher>הפעלת יישומים</office:desktop_tools:application_launcher>
+			<office:desktop_tools:automation>אוטומציה</office:desktop_tools:automation>
+			<office:desktop_tools:clipboard_manager>ניהול לוח הזיכרון</office:desktop_tools:clipboard_manager>
+			<office:desktop_tools:clock>שעון</office:desktop_tools:clock>
+			<office:desktop_tools:customization>התאמה אישית</office:desktop_tools:customization>
+			<office:desktop_tools:desktop_note>פתקים</office:desktop_tools:desktop_note>
+			<office:desktop_tools:keyboard-mouse>מקלדת ועכבר</office:desktop_tools:keyboard-mouse>
+			<office:desktop_tools:save_desktop_icon>שמירת אייקונים</office:desktop_tools:save_desktop_icon>
+			<office:desktop_tools:virtual_desktop>שולחן עבודה וירטואלי</office:desktop_tools:virtual_desktop>
+			<office:desktop_tools:zoom>זום</office:desktop_tools:zoom>
+			<office:diagram_editor>עריכת תרשימים</office:diagram_editor>
+			<office:finance_manager>ניהול פיננסי</office:finance_manager>
+			<office:font_manager>ניהול גופנים</office:font_manager>
+			<office:note_manager>ניהול פתקים</office:note_manager>
+			<office:office_suite>חבילת אופיס</office:office_suite>
+			<office:pdf>PDF כלי</office:pdf>
+			<office:presentation>מצגות</office:presentation>
+			<office:task_manager>ניהול משימות</office:task_manager>
+			<office:text_editor>עריכת טקסט</office:text_editor>
+			<office:tutorial_creator>יצירת מדריכים</office:tutorial_creator>
+			<office:unit_converter>המרת יחידות</office:unit_converter>
+			<office:universal_viewer>הצגה אוניברסלית</office:universal_viewer>
+			<security>אבטחה</security>
+			<security:anti_virus-spyware>אנטי-וירוס ורוגלה</security:anti_virus-spyware>
+			<security:encryption>הצפנה</security:encryption>
+			<security:integrity_checker>בדיקת שלמות</security:integrity_checker>
+			<security:password_manager>ניהול סיסמאות</security:password_manager>
+			<security:privacy_tool>פרטיות</security:privacy_tool>
+			<security:secure_deletion>מחיקה בטוחה</security:secure_deletion>
+			<security:tools>כלים</security:tools>
+			<system_utilities>תוכניות שירות</system_utilities>
+			<system_utilities:benchmark>הרצת בדיקות</system_utilities:benchmark>
+			<system_utilities:benchmark:hard_disk>הדיסק הקשיח</system_utilities:benchmark:hard_disk>
+			<system_utilities:benchmark:universal>כללי</system_utilities:benchmark:universal>
+			<system_utilities:cleaner-uninstaller>ניקוי והסרת תוכניות</system_utilities:cleaner-uninstaller>
+			<system_utilities:emulator>אמולציה</system_utilities:emulator>
+			<system_utilities:hex_editor>עריכה אקסדצימלית</system_utilities:hex_editor>
+			<system_utilities:information>מידע</system_utilities:information>
+			<system_utilities:information:file_monitoring>ניטור קבצים</system_utilities:information:file_monitoring>
+			<system_utilities:information:hardware_monitoring>ניטור חומרה</system_utilities:information:hardware_monitoring>
+			<system_utilities:information:inventory>רשימה כוללת</system_utilities:information:inventory>
+			<system_utilities:information:process>תהליך</system_utilities:information:process>
+			<system_utilities:information:processor>מעבד</system_utilities:information:processor>
+			<system_utilities:information:service>שירות</system_utilities:information:service>
+			<system_utilities:information:startup_manager>מנהל האתחול</system_utilities:information:startup_manager>
+			<system_utilities:information:usb_device>USB התקן</system_utilities:information:usb_device>
+			<system_utilities:information:video_card>כרטיס וידאו</system_utilities:information:video_card>
+			<system_utilities:registry>קובצי הרישום</system_utilities:registry>
+			<system_utilities:registry:backup>גיבוי</system_utilities:registry:backup>
+			<system_utilities:registry:comparison>השוואה</system_utilities:registry:comparison>
+			<system_utilities:registry:compression>דחיסה</system_utilities:registry:compression>
+			<system_utilities:registry:monitoring>ניטור</system_utilities:registry:monitoring>
+			<system_utilities:registry:repair>תיקון</system_utilities:registry:repair>
+			<system_utilities:registry:search>חיפוש</system_utilities:registry:search>
+			<system_utilities:repair>תיקון</system_utilities:repair>
+			<system_utilities:tests>בדיקות</system_utilities:tests>
+			<system_utilities:tests:burning_test>בדיקת צריבה</system_utilities:tests:burning_test>
+			<system_utilities:tests:hard_disk>הדיסק הקשיח</system_utilities:tests:hard_disk>
+			<system_utilities:tests:monitor>הצג</system_utilities:tests:monitor>
+			<system_utilities:tests:ram>הזיכרון</system_utilities:tests:ram>
+			<system_utilities:tools>כלים</system_utilities:tools>
+			<system_utilities:tweaker>כוונון</system_utilities:tweaker>
+			<system_utilities:update_checker>בדיקת עדכונים</system_utilities:update_checker>
+			<video>וידאו</video>
+			<video:authoring>יצירה</video:authoring>
+			<video:capture>לכידה</video:capture>
+			<video:cataloger>קיטלוג</video:cataloger>
+			<video:converter>המרה </video:converter>
+			<video:editor>עריכה</video:editor>
+			<video:player>הפעלה</video:player>
+			<video:repair>תיקון</video:repair>
+			<video:tools>כלים</video:tools>
+		</AppCategories>
+		<AppInfo>
+			<CheckBoxs>
+				<AutoShowInfo_Caption>הצג מידע זה באופן אוטומטי</AutoShowInfo_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<AppGoToWebSite_ToolTip>ביקור באתר של המוציא לאור</AppGoToWebSite_ToolTip>
+				<AppInstall_Caption>התקן עכשיו!</AppInstall_Caption>
+				<AppOpenLicenseFile_ToolTip>הצגת הרישיון</AppOpenLicenseFile_ToolTip>
+				<AppProperties_Caption>מאפיינים...</AppProperties_Caption>
+				<AppRun_Caption>הפעלה</AppRun_Caption>
+				<AppUpdate_Caption>עדכון עכשיו...</AppUpdate_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppEditorLabel_Caption>העורך:</AppEditorLabel_Caption>
+				<AppLicenseLabel_Caption>רישיון:</AppLicenseLabel_Caption>
+				<AppPlatformLabel_Caption>פלטפורמה:</AppPlatformLabel_Caption>
+			</Labels>
+		</AppInfo>
+		<AppList>
+			<CommandButtons>
+				<AddApp_Caption>הוספת יישומים</AddApp_Caption>
+				<AddApps_Caption>הוספת יישומים</AddApps_Caption>
+				<AddApps_ToolTip>לחץ כאן כדי להוסיף יישומים</AddApps_ToolTip>
+				<Browse_ToolTip>פתח את תיקיית היישום</Browse_ToolTip>
+				<Cancel_Caption>סגור</Cancel_Caption>
+				<Reinstall_Caption>התקנה מחדש</Reinstall_Caption>
+				<Reinstall_ToolTip>התקנה מחדש של יישום עשויה ליצור מחדש בתפריטים את קיצורי הדרך של ברירת המחדל, לטעון מחדש את המידע על היישום ולהחיל מחדש באופן זמני את השיוכים בין היישום לקבצים הרלוונטיים</Reinstall_ToolTip>
+				<Uninstall_Caption>הסרת ההתקנה</Uninstall_Caption>
+				<Uninstall_ToolTip>כדי להסיר את ההתקנה יש ללחוץ כאן. כל הפריטים השייכים ליישום יימחקו, ובהם התפריטים, המידע, השיוכים של הקבצים הזמניים, התוכנית והנתונים השייכים לה.</Uninstall_ToolTip>
+			</CommandButtons>
+			<Labels>
+				<AppNameLabel_Caption>שם היישום</AppNameLabel_Caption>
+				<FolderSizeLabel_Caption>0 ק&quot;ב</FolderSizeLabel_Caption>
+				<Title_Caption>ניהול היישומים הניידים</Title_Caption>
+			</Labels>
+			<Messages>
+				<Loading>טוען את הרשימה...</Loading>
+			</Messages>
+		</AppList>
+		<AppProperties>
+			<AutoRunMode>
+				<Never>לעולם לא</Never>
+				<ShutDown>בעת הכיבוי</ShutDown>
+				<ShutDownSingle>בעת הכיבוי אם אינו פועל עדיין</ShutDownSingle>
+				<Startup>תמיד בעת האתחול</Startup>
+				<StartupSingle>בעת האתחול אם אינו פועל עדיין</StartupSingle>
+			</AutoRunMode>
+			<CommandButtons>
+				<AppGoToWebSite_Caption>ביקור באתר</AppGoToWebSite_Caption>
+				<ApplyChanges_Caption>החל</ApplyChanges_Caption>
+				<AppOpenLicenseFile_Caption>עיון ברישיון</AppOpenLicenseFile_Caption>
+				<AppUninstall_Caption>לחץ כאן כדי להסיר את ההתקנה של יישום זה. </AppUninstall_Caption>
+				<AppUninstall_ToolTip>כדי להסיר את ההתקנה של יישום זה יש ללחוץ כאן. כל הפריטים השייכים ליישום יימחקו, ובהם התפריטים, המידע, השיוכים של הקבצים הזמניים, התוכנית והנתונים השייכים לה.</AppUninstall_ToolTip>
+				<AppUpdate_Caption>עדכון...</AppUpdate_Caption>
+				<Cancel_Caption>סגור</Cancel_Caption>
+			</CommandButtons>
+			<FileSources>סוג הקישור</FileSources>
+			<Labels>
+				<AppDescriptionLabel_Caption>תיאור היישום:</AppDescriptionLabel_Caption>
+				<AppEditorLabel_Caption>העורך:</AppEditorLabel_Caption>
+				<AppIconLabel_Caption>אייקון מותאם אישית:</AppIconLabel_Caption>
+				<AppLicenseLabel_Caption>הרישיון:</AppLicenseLabel_Caption>
+				<AppNameLabel_Caption>שם:</AppNameLabel_Caption>
+				<AppParamsLabel_Caption>פרמטרים</AppParamsLabel_Caption>
+				<AppPathLabel_Caption>המסמך או דף האינטרנט או התיקייה או הנתיב אל קובץ ההפעלה:</AppPathLabel_Caption>
+				<AppPlatformLabel_Caption>הפלטפורמה:</AppPlatformLabel_Caption>
+				<AppVersionLabel_Caption>הגירסה:</AppVersionLabel_Caption>
+				<AppWorkDirLabel_Caption>תיקיית העבודה:</AppWorkDirLabel_Caption>
+				<Title_Caption>מאפייני היישום</Title_Caption>
+			</Labels>
+			<Messages>
+				<BrowseForExe>בחר בקובץ ההפעלה של היישום</BrowseForExe>
+				<BrowseForFileToOpen>בחר בקובץ שיש לפתוח</BrowseForFileToOpen>
+				<BrowseForLicense>בחר בקובץ הרישיון</BrowseForLicense>
+				<ClearLisenseFile>מחק את הקישור אל קובץ הרישיון</ClearLisenseFile>
+				<ClearWebAddress>מחק את כתובת האינטרנט</ClearWebAddress>
+				<SelectAppWorkDir>בחר את תיקיית העבודה של היישום</SelectAppWorkDir>
+				<SetLicenseAddr>הזן את כתובת האינטרנט של קובץ הרישיון:</SetLicenseAddr>
+				<SetWebSiteAddr>הזן את כתובת האינטרנט של העורך:</SetWebSiteAddr>
+			</Messages>
+			<Tabs>
+				<Application>היישום</Application>
+				<AppMore>מתקדם</AppMore>
+			</Tabs>
+			<WindowStartMode>
+				<Maximized>חלונות מלאים</Maximized>
+				<Minimized>חלונות ממוזערים</Minimized>
+				<Normal>חלונות רגילים</Normal>
+			</WindowStartMode>
+		</AppProperties>
+		<CategoryProps>
+			<CheckBoxs>
+				<EditLiberKeyCategory_Caption>שינוי שם הקטגוריה</EditLiberKeyCategory_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Apply_Caption>אישור</Apply_Caption>
+				<Cancel_Caption>ביטול</Cancel_Caption>
+			</CommandButtons>
+			<Labels>
+				<CatIconLabel_Caption>סמל הקטגוריה:</CatIconLabel_Caption>
+				<CatNameLabel_Caption>שם הקטגוריה:</CatNameLabel_Caption>
+				<Title_Caption>מאפייני הקטגוריה</Title_Caption>
+			</Labels>
+		</CategoryProps>
+		<Config>
+			<About>
+				<Version>גירסה %ver%</Version>
+			</About>
+			<CheckBoxs>
+				<AppHotKeysMemoPopup_Caption>הצג תזכורת לפני הפעלת יישום</AppHotKeysMemoPopup_Caption>
+				<AutoCloseApps_Caption>סגור את היישומים הניידים עם סגירת התפריט</AutoCloseApps_Caption>
+				<AutoCollapseOnHide_Caption>כאשר התפריט מוסתר, חזור לקטגוריית הפתיחה</AutoCollapseOnHide_Caption>
+				<AutoHideMenuOnAppRun_Caption>סגור את התפריט עם הפעלת יישום</AutoHideMenuOnAppRun_Caption>
+				<AutoRemoveDrive_Caption>עם סגירת התפריט נתק את ההתקן הנייד</AutoRemoveDrive_Caption>
+				<AutoRunLiberKey_Caption>הפעל בעת האתחול של מערכת ההפעלה</AutoRunLiberKey_Caption>
+				<AutoShowAppInfo_Caption>הצג מידע על היישומים</AutoShowAppInfo_Caption>
+				<ConfirmCategoryDeletion_Caption>בקש אישור לפני מחיקת קטגוריות</ConfirmCategoryDeletion_Caption>
+				<ConfirmShortcutDeletion_Caption>בקש אישור לפני מחיקת קיצורי דרך</ConfirmShortcutDeletion_Caption>
+				<CreateTempSendToShortcut_Caption>קיצור דרך זמני &quot;שלח אל / המסמכים הניידים שלי&quot;</CreateTempSendToShortcut_Caption>
+				<DisableAllEffects_Caption>השבת אפקטים של אנימציה</DisableAllEffects_Caption>
+				<DisableControlsEffects_Caption>השבת אנימציה של פריטי הממשק</DisableControlsEffects_Caption>
+				<DisableDialogsEffects_Caption>השבת אנימציה של תיבות דו-שיח</DisableDialogsEffects_Caption>
+				<DisableMenuEffects_Caption>השבת אנימציה של תפריטים</DisableMenuEffects_Caption>
+				<DisplayClock_Caption>הצג שעון</DisplayClock_Caption>
+				<DontShowEmptyDesc_Caption>אל תציג תיאור ריק</DontShowEmptyDesc_Caption>
+				<EnableAppHotKeys_Caption>אפשר להפעיל יישומים באמצעות קיצורי מקשים</EnableAppHotKeys_Caption>
+				<EnableAppsAutoStart_Caption>אפשר הפעלה אוטומטית</EnableAppsAutoStart_Caption>
+				<HideClockSeconds_Caption>הסתר שניות</HideClockSeconds_Caption>
+				<HotKeyFloatMenu_Caption>תפריט צף:</HotKeyFloatMenu_Caption>
+				<HotKeyMain_Caption>תפריט ראשי:</HotKeyMain_Caption>
+				<SingleClicAppRun_Caption>הפעל יישומים בקליק אחד</SingleClicAppRun_Caption>
+				<SingleClicCategoryExpand_Caption>פתח קטגוריות בקליק אחד</SingleClicCategoryExpand_Caption>
+				<ToolsAutoOpenLiberKeyNews_Caption>פתח באופן אוטומטי את חלון החדשות</ToolsAutoOpenLiberKeyNews_Caption>
+				<ToolsCheckAppUpdates_Caption>עדכון היישומים</ToolsCheckAppUpdates_Caption>
+				<ToolsCheckLBKUpdates_Caption>עדכונים של יישום המעטפת</ToolsCheckLBKUpdates_Caption>
+				<ToolsCheckLiberKeyNews_Caption>חדשות</ToolsCheckLiberKeyNews_Caption>
+				<ToolsDoOnlineChecks_Caption>אפשר בדיקה אוטומטית</ToolsDoOnlineChecks_Caption>
+				<ToolsQuitKFA_Caption>השבת את שיוכי הקבצים עם סגירת התפריט</ToolsQuitKFA_Caption>
+				<ToolsQuitPDS_Caption>הסר את קיצורי הדרך הניידים עם סגירת התפריט</ToolsQuitPDS_Caption>
+				<ToolsStartKFA_Caption>אפשר את שיוכי הקבצים עם הפעלת התפריט</ToolsStartKFA_Caption>
+				<ToolsStartPDS_Caption>הוסף את קיצורי הדרך הניידים עם הפעלת התפריט</ToolsStartPDS_Caption>
+				<UseProxy_Caption>התחבר לאינטרנט דרך שרת פרוקסי</UseProxy_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<ApplyChanges_Caption>החל</ApplyChanges_Caption>
+				<AutoRunDown_ToolTip>גלול כלפי מטה</AutoRunDown_ToolTip>
+				<AutoRunLocate_ToolTip>אתר את התפריט של קיצור הדרך</AutoRunLocate_ToolTip>
+				<AutoRunProperties_ToolTip>שנה את המאפיינים של קיצור הדרך</AutoRunProperties_ToolTip>
+				<AutoRunRemove_ToolTip>בטל הפעלה אוטומטית עבור קיצור דרך זה</AutoRunRemove_ToolTip>
+				<AutoRunUp_ToolTip>גלול כלפי מעלה</AutoRunUp_ToolTip>
+				<Cancel_Caption>סגור</Cancel_Caption>
+				<CopyTechnicalInfo_Caption>העתק את הרשימה ללוח</CopyTechnicalInfo_Caption>
+				<CreateAccount_Caption>לחץ כאן כדי ליצור חשבון חינם !</CreateAccount_Caption>
+			</CommandButtons>
+			<Labels>
+				<Animations_Caption>אנימציות</Animations_Caption>
+				<AppHotKeys_Caption>מקשים חמים</AppHotKeys_Caption>
+				<AppHotKeysMemoPopupDuration_Caption>הצג תזכורת למשך:</AppHotKeysMemoPopupDuration_Caption>
+				<AppSetupInfo_Caption>האפשרויות שלהלן מגדירות את אופן הפעולה של תוכנית ההתקנה.</AppSetupInfo_Caption>
+				<AppUpdateInfo_Caption>באמצעות האפשרויות שלהלן ניתן לבחור את אופן הפעולה של מערכת עדכון התוכנות.</AppUpdateInfo_Caption>
+				<AutoCheckOptions_Caption>בדיקה אוטומטית</AutoCheckOptions_Caption>
+				<AutoRunDelay_Caption>משך ההמתנה (בשניות) לפני ההפעלה העצמית:</AutoRunDelay_Caption>
+				<AutoRunEachDelay_Caption>משך ההמתנה (בשניות) בין הפעלות:</AutoRunEachDelay_Caption>
+				<AutorunInfo_Caption>ניהול היישומים הפועלים עם ההפעלה ועם הסגירה של תפריט המערכת:</AutorunInfo_Caption>
+				<ColorsInfo_Caption>הצבע העיקרי של התפריט והחלונות</ColorsInfo_Caption>
+				<Confirmations_Caption>אישורים</Confirmations_Caption>
+				<CreateAccountLabel_Caption>עדיין לא רשום?</CreateAccountLabel_Caption>
+				<CustomBrightnessLabel_Caption>בהירות</CustomBrightnessLabel_Caption>
+				<CustomColorInfo_Caption>שינוי צבע מותאם אישית</CustomColorInfo_Caption>
+				<CustomHueRotationLabel_Caption>גוון</CustomHueRotationLabel_Caption>
+				<CustomSaturationLabel_Caption>רוויה</CustomSaturationLabel_Caption>
+				<DefaultEffectSet>אפקטי ברירת המחדל</DefaultEffectSet>
+				<EffectSetLabel_Caption>ערכת אפקטים</EffectSetLabel_Caption>
+				<FileAssocUpdatesOnlyInfo_Caption>במהלך העדכונים אין שינוי בשיוכי הקבצים והם מוגדרים רק עבור יישומים חדשים.</FileAssocUpdatesOnlyInfo_Caption>
+				<Gadgets_Caption>גאדג&apos;טים</Gadgets_Caption>
+				<KFAoptions_Caption>שיוך קבצים ליישומים הניידים</KFAoptions_Caption>
+				<LangAuthorEmailLabel_Caption>דואל:</LangAuthorEmailLabel_Caption>
+				<LangAuthorNameLabel_Caption>מאת:</LangAuthorNameLabel_Caption>
+				<LangAuthorWebsiteLabel_Caption>כתובת אתר</LangAuthorWebsiteLabel_Caption>
+				<LangContributors_Caption>לקחו חלק:</LangContributors_Caption>
+				<LangContributorsLabel_Caption>השתתפו</LangContributorsLabel_Caption>
+				<LanguagesInfo_Caption>בחר בשפה של ממשק המשתמש</LanguagesInfo_Caption>
+				<LangVersionLabel_Caption>גירסה:</LangVersionLabel_Caption>
+				<MaxRecentCount_Caption>מספר מרבי של הפעלות אחרונות:</MaxRecentCount_Caption>
+				<MaxVisibleMostUsed_Caption>מספר מרבי של פריטים בכרטיסייה &apos;שימוש תדיר&apos;</MaxVisibleMostUsed_Caption>
+				<MenuAccess_Caption>גישה לתפריט המעטפת</MenuAccess_Caption>
+				<MenuDelay_Caption>השהייה בפתיחת התפריט:</MenuDelay_Caption>
+				<MenuDelayMS_Caption>מילישניות</MenuDelayMS_Caption>
+				<MenuIconActions_Caption>הסמל במגש המערכת:</MenuIconActions_Caption>
+				<MenuKeyboardShortcuts_Caption>מקשים חמים:</MenuKeyboardShortcuts_Caption>
+				<Misc_Caption>שונות:</Misc_Caption>
+				<Navigation_Caption>ניווט</Navigation_Caption>
+				<NeverUpdateFileAssocInfo_Caption>שיוכי הקבצים אינם משתנים בעת הוספה או עדכון של יישומים.</NeverUpdateFileAssocInfo_Caption>
+				<NotificationsOptions_Caption>הודעות</NotificationsOptions_Caption>
+				<Password_Caption>סיסמה:</Password_Caption>
+				<PDSoptions_Caption>קיצורי דרך ניידים בשולחן העבודה</PDSoptions_Caption>
+				<PlatformVersionInfo_Caption>ייתכן שאנשי התמיכה הטכנית (הפורום) יבקשו לדעת את הפרטים הטכניים על פלטפורמת המעטפת. כדי שניתן יהיה להדביק את הפרטים הללו בתוך ההודעה, יש ללחוץ על &apos;העתק את הרשימה...&apos;.</PlatformVersionInfo_Caption>
+				<ProxyHost_Caption>שם המארח או כתובת אינטרנט:</ProxyHost_Caption>
+				<ProxyInfo_Caption>אם החיבור לאינטרנט מתבצע דרך שרת פרוקסי, יש למלא את השדות שלהלן:</ProxyInfo_Caption>
+				<ProxyPassword_Caption>סיסמה:</ProxyPassword_Caption>
+				<ProxyPort_Caption>יציאה:</ProxyPort_Caption>
+				<ProxyUser_Caption>שם משתמש:</ProxyUser_Caption>
+				<QuitOptions_Caption>סגירה וניתוק אוטומטיים</QuitOptions_Caption>
+				<RecentAndMostUsed_Caption>היסטוריית השימוש ביישומים</RecentAndMostUsed_Caption>
+				<StartupWindowShowAlways_Caption>הצג תמיד את התפריט</StartupWindowShowAlways_Caption>
+				<StartupWindowShowNever_Caption>לעולם אל תציג את התפריט</StartupWindowShowNever_Caption>
+				<StartupWindowShowPrevious_Caption>הצג את התפריט אם הוצג לאחרונה</StartupWindowShowPrevious_Caption>
+				<StartupWindowStateLabel_Caption>עם ההפעלה:</StartupWindowStateLabel_Caption>
+				<Title_Caption>תפריט המעטפת - הגדרות</Title_Caption>
+				<TrayLeftClickActionLabel_Caption>קליק שמאלי:</TrayLeftClickActionLabel_Caption>
+				<TrayRightClickActionLabel_Caption>קליק ימני:</TrayRightClickActionLabel_Caption>
+				<UpdateAutoStartInfo_Caption>עדכונים בעדיפות גבוהה מותקנים ללא התערבות (מצב אוטומטי)</UpdateAutoStartInfo_Caption>
+				<UpdateFileAssocInfo_Caption>בעת הוספה או עדכון של יישום, הוא משויך באופן אוטומטי לקבצים שאותם ניתן לשנות באמצעותו.</UpdateFileAssocInfo_Caption>
+				<UpdateNoUserAlertInfo_Caption>בעת הפעלת המעטפת, אל תציג הודעות על עדכונים. ההודעות יופיעו עם הפעלת היישומים.</UpdateNoUserAlertInfo_Caption>
+				<UpdateUIAlertInfo_Caption>בשלב זה ניתן יהיה להציג את רשימת העדכונים הקיימים ולבחור מתוכם את הרצויים.</UpdateUIAlertInfo_Caption>
+				<UserLoginInfo_Caption>אין עוד חובה להזדהות כדי לקבל את העדכונים האוטומטיים עבור היישומים. ניתן להשאיר את השדות שלהלן ריקים.</UserLoginInfo_Caption>
+				<UserName_Caption>שם משתמש:</UserName_Caption>
+			</Labels>
+			<OptionButtons>
+				<optAlwaysUpdateFileAssoc_Caption>עדכן תמיד את שיוכי הקבצים</optAlwaysUpdateFileAssoc_Caption>
+				<optAutoRunAtStartup_Caption>עם הפעלת התפריט</optAutoRunAtStartup_Caption>
+				<optAutoRunOnQuit_Caption>עם סגירת התפריט</optAutoRunOnQuit_Caption>
+				<optMenuDelayCustom_Caption>מותאם אישית</optMenuDelayCustom_Caption>
+				<optMenuDelayDefault_Caption>ברירת המחדל</optMenuDelayDefault_Caption>
+				<optNeverUpdateFileAssoc_Caption>לעולם אל תעדכן את שיוכי הקבצים</optNeverUpdateFileAssoc_Caption>
+				<optUpdateAutoStart_Caption>הורד עדכונים אלה והתקן אותם באופן אוטומטי</optUpdateAutoStart_Caption>
+				<optUpdateFileAssocNewApps_Caption>הגדר את השיוכים ליישומים החדשים</optUpdateFileAssocNewApps_Caption>
+				<optUpdateNoUserAlert_Caption>תן לי התראה רק עם הפעלת התוכנה</optUpdateNoUserAlert_Caption>
+				<optUpdateUIAlert_Caption>הצג אייקון והתראה</optUpdateUIAlert_Caption>
+				<optUpdateUserAlert_Caption>שלח לי התראה אם קיימים עדכונים בעדיפות גבוהה</optUpdateUserAlert_Caption>
+			</OptionButtons>
+			<Options>
+				<About>אודות</About>
+				<Advanced>מתקדם</Advanced>
+				<AppSetup>התקנת יישומים</AppSetup>
+				<Autorun>הפעלה אוטומטית</Autorun>
+				<AutoUpdate>עדכון יישומים</AutoUpdate>
+				<Colors>צבעים</Colors>
+				<Effects>אפקטים</Effects>
+				<Help>עזרה</Help>
+				<KeyboardShortcuts>מקשים חמים</KeyboardShortcuts>
+				<Language>שפה</Language>
+				<LiberKeyTools>כלי המעטפת</LiberKeyTools>
+				<Proxy>שרת פרוקסי</Proxy>
+				<TechnicalInfo>פרטים טכניים</TechnicalInfo>
+				<User>משתמש</User>
+			</Options>
+		</Config>
+		<Contributors>
+			<Contributor name="Abe C"/>
+		</Contributors>
+		<FloatingMenu>
+			<AlwaysOnTop>תמיד מעל</AlwaysOnTop>
+			<AutoCollapse>כיווץ אוטומטי</AutoCollapse>
+			<Close>סגור</Close>
+			<FixedMode>השאר פתוח</FixedMode>
+			<GoToParent>עבור לתפריט שמעל</GoToParent>
+		</FloatingMenu>
+		<IconSelect>
+			<Labels>
+				<Title_Caption>בחירת אייקון</Title_Caption>
+			</Labels>
+		</IconSelect>
+		<Main>
+			<CommandButtons>
+				<AddApps_Caption>התקנה</AddApps_Caption>
+				<AddApps_ToolTip>הוספה או הסרה של יישומים</AddApps_ToolTip>
+				<Close_ToolTip>הסתר את תפריט המעטפת</Close_ToolTip>
+				<CloseSearch2_Caption>סגור</CloseSearch2_Caption>
+				<Config_Caption>כלי המעטפת</Config_Caption>
+				<MyDocs_Caption>מסמכים</MyDocs_Caption>
+				<MyMusic_Caption>מוזיקה</MyMusic_Caption>
+				<MyPictures_Caption>תמונות</MyPictures_Caption>
+				<Quit_ToolTip>סגור את תפריט המעטפת</Quit_ToolTip>
+				<TabsScrollLeft_ToolTip>גלול שמאלה</TabsScrollLeft_ToolTip>
+				<TabsScrollRight_ToolTip>גלול ימינה</TabsScrollRight_ToolTip>
+				<UserMenus_ToolTip>תפריטי המשתמש</UserMenus_ToolTip>
+				<ViewIcons_ToolTip>אייקונים גדולים</ViewIcons_ToolTip>
+				<ViewTree_ToolTip>עץ</ViewTree_ToolTip>
+			</CommandButtons>
+			<Labels>
+				<SearchInfoLabel_Caption>נמצאו %count% קיצורי דרך</SearchInfoLabel_Caption>
+				<SearchInfoTitle_Caption>חיפוש בתוך המעטפת</SearchInfoTitle_Caption>
+			</Labels>
+			<LiberKeyTools>
+				<AddApps>עיון בקטלוג היישומים</AddApps>
+				<AddAppsTip>אשף זה מוביל לאתר האינטרנט של יישום המעטפת, כדי לאחזר את רשימת היישומים האחרונים, ובה ניתן לאתר את יישומים ספציפיים בקטלוג המקוון.</AddAppsTip>
+				<AddPortableShortcuts>הוספת קיצורי דרך ניידים</AddPortableShortcuts>
+				<AddRemoveApps>הוספה או הסרה של תוכניות</AddRemoveApps>
+				<AppsClose>סגירת יישומים</AppsClose>
+				<AppsCloseTip>סוגר היישומים של המעטפת סוגר באופן אוטומטי את כל היישומים שהופעלו דרכה. שיטות הסגירה של היישומים הן רבות ומגוונות והן מותאמות באופן ספציפי לכל תוכנה. הסגירה מתבצעת כראוי ואם במהלך העבודה נפתח קובץ (מסמך) לשינויים, יישום המעטפת ישלח בקשה לשמירת השינויים.</AppsCloseTip>
+				<Configuration>הגדרות</Configuration>
+				<ConfigurationTip>הגדרות יישום המעטפת.\nכל ההגדרות הקשורות למראה ולאופן הפעולה של המעטפת נמצאות בחלון זה.</ConfigurationTip>
+				<DisableFileAssoc>השבתת שיוכי הקבצים</DisableFileAssoc>
+				<DisableFileAssocTip>היישומים הניידים משויכים כעת לקבצים שאותם יש באפשרותם לנהל.\nהשבתת השיוכים הזמניים מאפשרת לחזור לשיוכים המקוריים.</DisableFileAssocTip>
+				<EnableFileAssoc>הפעלת שיוכי הקבצים</EnableFileAssoc>
+				<EnableFileAssocTip>הפעלה זמנית של שיוך קבצים מתבניות שונות ליישומים בתוך המעטפת.</EnableFileAssocTip>
+				<FileAssoc>שיוכי קבצים</FileAssoc>
+				<GoToWebSite>ביקור באתר האינטרנט של יישום המעטפת</GoToWebSite>
+				<GoToWebSiteTip>תפריט זה מאפשר כניסה מהירה לאתר האינטרנט של יישום המעטפת, שם ניתן למצוא מידע רב על היישום וכן פורום פתוח לכל המשתמשים.</GoToWebSiteTip>
+				<InstallAppSuite>התקנה של חבילת יישומים</InstallAppSuite>
+				<InstallAppSuiteTip>אשף זה מאפשר התקנה מהירה של חבילת יישומים מלאה.</InstallAppSuiteTip>
+				<LiberKeyNews>קריאת החדשות</LiberKeyNews>
+				<LiberKeyNewsTip>חדשות יישום המעטפת כוללות הודעות בעניין יישומים חדשים בקטלוג המקוון והודעות הקשורות ליישום המעטפת.</LiberKeyNewsTip>
+				<ManageApps>ניהול היישומים</ManageApps>
+				<ManageAppsTip>התקנה, הסרה והתקנה מחדש של יישומים. כלי זה מאפשר לשלב יישומים בתפריט המעטפת</ManageAppsTip>
+				<PortableShortcutsTip>מנהל את קיצורי הדרך בשולחן העבודה המקושרים ליישומים הניידים, וכן שומר את מיקומם.</PortableShortcutsTip>
+				<RemovePortableShortcuts>הסרת קיצורי הדרך הניידים</RemovePortableShortcuts>
+				<Title>כלי המעטפת</Title>
+				<UpdateCheck>בדיקת עדכונים</UpdateCheck>
+				<UpdateCheckTip>בודק אם קיימת גירסה חדשה למעטפת או אם קיימים עדכונים לתוכנות.\nאם יש עדכונים, ניתן לבצעם ישירות דרך אתר האינטרנט של יישום המעטפת.</UpdateCheckTip>
+				<UsbEject>ניתוק ההתקן הנייד</UsbEject>
+				<USBEjectTip>מאפשר ניתוק של ההתקן הנייד וסגירה אוטומטית של כל היישומים.\n\nתזכורת: אין לנתק התקן נייד אלא כאשר היישומים שבו נסגרו כיאות.</USBEjectTip>
+			</LiberKeyTools>
+			<Messages>
+				<About>אודות יישום המעטפת...</About>
+				<BrowseForNewFolder>בחר איזו תיקייה יפתח קיצור הדרך</BrowseForNewFolder>
+				<PatchDownload>הורדת עדכון...</PatchDownload>
+				<SearchResults>תוצאאות החיפוש</SearchResults>
+			</Messages>
+		</Main>
+		<Menu>
+			<LKHelp>עזרה של יישום המעטפת</LKHelp>
+			<LKQuickLaunch>הפעלה מהירה של יישום המעטפת</LKQuickLaunch>
+			<MostUsed>בשימוש תדיר</MostUsed>
+			<MyApps>היישומים הניידים שלי</MyApps>
+			<MyDocs>המסמכים שלי</MyDocs>
+			<Recent>אחרונים</Recent>
+		</Menu>
+		<MenuProperties>
+			<CheckBoxs>
+				<EditMode_Caption>אפשר שינויים</EditMode_Caption>
+				<NotInSystrayMenu_Caption>אל תציג בתפריט הצף הראשי</NotInSystrayMenu_Caption>
+				<ShowName_Caption>הצג שם</ShowName_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Apply_Caption>אישור</Apply_Caption>
+				<Cancel_Caption>ביטול</Cancel_Caption>
+			</CommandButtons>
+			<Labels>
+				<MenuIconLabel_Caption>האייקון המשויך:</MenuIconLabel_Caption>
+				<MenuNameLabel_Caption>שם התפריט:</MenuNameLabel_Caption>
+				<Title_Caption>מאפייני תפריט המשתמש</Title_Caption>
+			</Labels>
+		</MenuProperties>
+		<Menus>
+			<AppCopy_Caption>ה&amp;עתק</AppCopy_Caption>
+			<AppCut_Caption>ג&amp;זור</AppCut_Caption>
+			<AppDelApp_Caption>מ&amp;חק</AppDelApp_Caption>
+			<AppEditProps_Caption>מא&amp;פייני היישום</AppEditProps_Caption>
+			<AppGoToWebSite_Caption>&amp;ביקור באתר</AppGoToWebSite_Caption>
+			<AppLaunch_Caption>הפ&amp;עלה</AppLaunch_Caption>
+			<AppLocate_Caption>אתר ק&amp;טגוריה</AppLocate_Caption>
+			<AppLocation-0_Caption>(שם הקטגוריה)</AppLocation-0_Caption>
+			<AppLocations_Caption>אתר ק&amp;טגוריה</AppLocations_Caption>
+			<AppOpenAppFolder_Caption>פת&amp;ח את התיקייה המכילה</AppOpenAppFolder_Caption>
+			<AppPaste_Caption>ה&amp;דבק</AppPaste_Caption>
+			<AppRunAs_Caption>ה&amp;פעל בתור...</AppRunAs_Caption>
+			<AppRunAsAdmin_Caption>ה&amp;פעל כאדמיניסטרטור</AppRunAsAdmin_Caption>
+			<AppSetup_Caption>הת&amp;קן יישום זה</AppSetup_Caption>
+			<AppShowInfo_Caption>פ&amp;רטים</AppShowInfo_Caption>
+			<AppUpdate_Caption>עד&amp;כן</AppUpdate_Caption>
+			<CatAdd_Caption>קיצור חדש</CatAdd_Caption>
+			<CatAddApp_Caption>יישום או קובץ...</CatAddApp_Caption>
+			<CatAddFolder_Caption>תיקייה...</CatAddFolder_Caption>
+			<CatAddWebPage_Caption>דף אינטרנט...</CatAddWebPage_Caption>
+			<CatCopy_Caption>ה&amp;עתק</CatCopy_Caption>
+			<CatCut_Caption>ג&amp;זור</CatCut_Caption>
+			<CatDelCat_Caption>מ&amp;חק</CatDelCat_Caption>
+			<CatEditProps_Caption>מא&amp;פיינים...</CatEditProps_Caption>
+			<CatListMode_Caption>הצג &amp;רשימה</CatListMode_Caption>
+			<CatNewCat_Caption>ק&amp;טגוריה חדשה</CatNewCat_Caption>
+			<CatPaste_Caption>ה&amp;דבק</CatPaste_Caption>
+			<CatShowMenu_Caption>תפריט &amp;צף...</CatShowMenu_Caption>
+			<CatSort_Caption>מ&amp;יין</CatSort_Caption>
+			<DoNothing_Caption>אל תעשה דבר</DoNothing_Caption>
+			<FolderOpen_Caption>פת&amp;ח תיקייה</FolderOpen_Caption>
+			<InstallLKS_Caption>חבילות התקנה</InstallLKS_Caption>
+			<InstallLKS_Tip>בחר קובץ התקנה אחד או יותר כדי להתקינם בקליק אחד!</InstallLKS_Tip>
+			<InstallsFromAppsFolder_Tip>אשף זה יבדוק באופן אוטומטי אם קיימים יישומים חדשים בתיקיית היישומים.\nהאשף מאפשר, לדוגמה, להעתיק יישומים ממעטפת אחרת ולשמור אותם</InstallsFromAppsFolder_Tip>
+			<InstallsFromMyApps_Caption>מהתיקייה &apos;היישומים שלי&apos;...</InstallsFromMyApps_Caption>
+			<InternetOpen_Caption>פת&amp;ח</InternetOpen_Caption>
+			<MenusCreate_Caption>י&amp;צירת תפריט חדש...</MenusCreate_Caption>
+			<MenusDelete_Caption>מ&amp;חק תפריט נוכחי</MenusDelete_Caption>
+			<MenusEdit_Caption>מא&amp;פייני התפריט הנוכחי</MenusEdit_Caption>
+			<MenusExport_Caption>יי&amp;צוא התפריט הנוכחי</MenusExport_Caption>
+			<MenusHideNames_Caption>ה&amp;סתר שמות</MenusHideNames_Caption>
+			<MenusImport_Caption>יי&amp;בוא תפריט...</MenusImport_Caption>
+			<MenusRecent_Caption>אחרו&amp;נים</MenusRecent_Caption>
+			<MenusShowNames_Caption>הצג ש&amp;מות</MenusShowNames_Caption>
+			<MenusUser-0_Caption>תפריט ברירת המחדל</MenusUser-0_Caption>
+			<Open_Caption>פתי&amp;חה</Open_Caption>
+			<OpenActiveFloatMenu_Caption>פתח את התפריט הצף</OpenActiveFloatMenu_Caption>
+			<OpenMainWindow_Caption>פתח את התפריט הראשי</OpenMainWindow_Caption>
+			<PatchCancelDownload_Caption>ב&amp;טל את ההורדה</PatchCancelDownload_Caption>
+			<Quit>יציאה</Quit>
+			<SendToPortableDocs>המסמכים הניידים שלי</SendToPortableDocs>
+			<SendToPortableDocsDescription>העתק את הקבצים שנבחרו לתיקייה &apos;המסמכים שלי&apos; ביישום המעטפת</SendToPortableDocsDescription>
+			<ShortcutEditProps_Caption>מאפייני קיצור הדרך...</ShortcutEditProps_Caption>
+			<SynchronizeCatalog_Caption>מהקטלוג המקוון</SynchronizeCatalog_Caption>
+			<SynchronizeCatalog_Tip>אשף זה מקבל גישה לאתר האינטרנט של יישום המעטפת ומאחזר משם את רשימת היישומים החדשים בשרתים. ברשימה זו ניתן לאתר את היישום המבוקש מהקטלוג המקוון.</SynchronizeCatalog_Tip>
+			<UserMenuTabEditable_Caption>אפשר שינויים</UserMenuTabEditable_Caption>
+			<UserMenuTabFloatMenu_Caption>תפריט &amp;צף</UserMenuTabFloatMenu_Caption>
+			<UserMenuTabHideName_Caption>ה&amp;סתר שם</UserMenuTabHideName_Caption>
+			<UserMenuTabProperties_Caption>מא&amp;פיינים...</UserMenuTabProperties_Caption>
+			<UserMenuTabShowName_Caption>ה&amp;צג שם</UserMenuTabShowName_Caption>
+		</Menus>
+		<Messages>
+			<AllFilesSelection>כל הקבצים|*.*</AllFilesSelection>
+			<AppInstallDone>היישום &apos;%appname%&apos; הותקן בתוך המעטפת</AppInstallDone>
+			<AppInstalled>היישום שהותקן: %appname%</AppInstalled>
+			<AppNotFound>יישום זה אינו מותקן בתוך המעטפת</AppNotFound>
+			<AppNotFoundTitle>תרגום יישום</AppNotFoundTitle>
+			<AppRefCount>קיצור דרך ליישום: %count%</AppRefCount>
+			<AppRegistered>היישום נרשם כעת בתוך המעטפת.\nעתה ניתן ליצור קיצור דרך</AppRegistered>
+			<AppRunningCantUninst>היישום פועל כעת.\n\nלא ניתן עדיין להסיר אותו.</AppRunningCantUninst>
+			<AppsInstallDone>%count% יישומים חדשים הותקנו בתוך המעטפת.</AppsInstallDone>
+			<AutoImportMenu>עדיין לא יצרת תפריט להפעלת היישומים.\nהאם ברצונך לייבא את העץ מהתפריט הקודם?</AutoImportMenu>
+			<Browse>עיון...</Browse>
+			<ConfirmDeleteCategory>האם אתה בטוח שברצונך למחוק את הקטגוריה &quot;%name%&quot; ואת קיצורי הדרך שבתוכה?</ConfirmDeleteCategory>
+			<ConfirmDeleteSortcut>האם אתה בטוח שברצונך למחוק את קיצור הדרך &quot;%name%&quot;?</ConfirmDeleteSortcut>
+			<ConfirmDeletion>אשר את המחיקה</ConfirmDeletion>
+			<ConfirmUninstallApp>האם אתה בטוח שברצונך להסיר את היישום?\nפעולה זו היא בלתי הפיכה.</ConfirmUninstallApp>
+			<DateFormat>dd/mm/yyyy</DateFormat>
+			<DefaultIcon>(אייקון ברירת המחדל)</DefaultIcon>
+			<DeleteMenuConfirm>למחוק את התפריט &quot;%menu%&quot;?</DeleteMenuConfirm>
+			<DownloadPatchNow>להוריד את העדכון כעת?</DownloadPatchNow>
+			<DropLKSLoadingInfos>נא להמתין בעת האחזור של פרטי היישומים...</DropLKSLoadingInfos>
+			<DropLKSToInstall>כדי להתקין את היישום בתוך המעטפת יש לשחרר את לחצן העכבר</DropLKSToInstall>
+			<Errors>
+				<AccessDenied>הגישה נדחתה</AccessDenied>
+				<AccessRightsError>כדי לפעול יש להעניק ליישום המעטפת זכויות כתיבה לכונן</AccessRightsError>
+				<AssocIncomplete>שיוך הקובץ שגוי או חלקי</AssocIncomplete>
+				<CantCreateTempFolder>לא ניתן ליצור את התיקייה הזמנית</CantCreateTempFolder>
+				<CantDefineHotKey>אירעה שגיאה בעת הגדרת המקש החם של קיצור הדרך &quot;%name%&quot;:\n%err%</CantDefineHotKey>
+				<CantDefineHotKeys>אירעה שגיאה בעת הגדרת המקשים החמים של קיצורי הדרך הבאים:\n%err%\n%namelist%</CantDefineHotKeys>
+				<CantStartOnRemoteDrive>לא ניתן להשתמש ביישום המעטפת מתוך כונן רשת</CantStartOnRemoteDrive>
+				<DDEBusy> DDE busy</DDEBusy>
+				<DDETimeout>תם פסק הזמן</DDETimeout>
+				<DDETransacFailed>הטרנזאקציה נכשלה</DDETransacFailed>
+				<DllNotFound>קובץ ספרייה לא נמצא</DllNotFound>
+				<ErrorTitle>שגיאה</ErrorTitle>
+				<ErrShare>שגיאת שיתוף</ErrShare>
+				<ExeBadFormat>קובץ הפעלה לא חוקי או שגיאה בדמות קובץ ההפעלה</ExeBadFormat>
+				<ExecError>שגיאה בהפעלת התוכנית</ExecError>
+				<FileNotFound>הקובץ לא נמצא</FileNotFound>
+				<GetUpdateInfoError>אירעה שגיאה בעת ניסיון לאחזר את פרטי העדכון\nהשגיאה %err%: %desc%</GetUpdateInfoError>
+				<HotKeyAlreadyUsedBy>שילוב זה נמצא כבר בשימוש עבור קיצור הדרך &quot;%name%&quot;!</HotKeyAlreadyUsedBy>
+				<LKInstNotFound>תוכנית ההתקנה של יישום המעטפת לא נמצאה!</LKInstNotFound>
+				<LksDownloadFailed>אירעה שגיאה בעת הורדת חבילת ההתקנה של %app% (%lks%).\n\nהשגיאה %errnum%: %errdesc%</LksDownloadFailed>
+				<NewsFeedDownloadError>אירעה שגיאה בעת הורדת החדשות!\n%err%</NewsFeedDownloadError>
+				<NoAssoc>לא קיים שיוך עבור סיומת הקובץ</NoAssoc>
+				<OutOfMemory>אין די זיכרון</OutOfMemory>
+				<PathNotFound>הנתיב לא נמצא</PathNotFound>
+				<SkinImageNotFound>שגיאה בהורדה של ערכת העיצוב:\n\nהקובץ %file% לא נמצא.</SkinImageNotFound>
+			</Errors>
+			<FileSize>
+				<Bytes>בתים</Bytes>
+				<GB>ג&quot;ב</GB>
+				<KB>ק&quot;ב</KB>
+				<MB>מ&quot;ב</MB>
+			</FileSize>
+			<FreeSpace>כונן %drive% (%filesys%)\n%volumename%\nנפח: %totalsize%\nבשימוש: %usedsize%\nנותרו: %freesize% (%freesizepc%)</FreeSpace>
+			<HotKeyStartAppInfo>מפעיל את &quot;%name%&quot;...\nלחץ כאן כדי לבטל</HotKeyStartAppInfo>
+			<IconFileSelection>הקבצים הנתמכים|*.ico;*.exe;*.dll|קובצי אייקונים (*.ico)|*.ico|קובצי הפעלה|*.exe;*.dll</IconFileSelection>
+			<IconSelection>
+				<AppIcons>אייקונים של התפריט</AppIcons>
+				<IconSelectTitle>בחר בקובץ הכולל את האייקון</IconSelectTitle>
+				<IconSources>האייקונים הקיימים</IconSources>
+				<SkinIcons>אייקונים של ערכת העיצוב</SkinIcons>
+			</IconSelection>
+			<ImportASuiteMenu>יבוא של תפריט חבילה...</ImportASuiteMenu>
+			<ImportMenuFormatError>הקובץ אינו כולל תפריט של יישום המעטפת</ImportMenuFormatError>
+			<InternetAddress>כתובת אינטרנט...</InternetAddress>
+			<LastAppShortcutUninstall>בתפריטים של יישום המעטפת לא קיים עוד קיצור דרך ליישום זה\nהאם ברצונך להסיר אותו מן המעטפת?</LastAppShortcutUninstall>
+			<LinkedAppCount>היישומים המקושרים: %count%</LinkedAppCount>
+			<MenuExportTitle>יצוא התפריט בתבנית XML</MenuExportTitle>
+			<MenuImportError>אירעה שגיאה בהעתקת התפריט ליישום המעטפת </MenuImportError>
+			<MenuImportErrorTitle>לא ניתן לייבא את התפריט</MenuImportErrorTitle>
+			<MenuImportNotFromProfile>לא ניתן לייבא תפרייט הנמצא כבר במעטפת</MenuImportNotFromProfile>
+			<MenuImportTitle>יבוא תפריט מקובץ בתבנית XML</MenuImportTitle>
+			<MyMenu>התפריט שלי</MyMenu>
+			<NewCategory>קטגוריה חדשה</NewCategory>
+			<NewMenu>תפריט חדש</NewMenu>
+			<NoNewAppInstalled>לא נמצא אף יישום חדש בתיקייה &apos;יישומים&apos; של המעטפת</NoNewAppInstalled>
+			<OpenWithLiberKey>פתח באמצעות המעטפת</OpenWithLiberKey>
+			<PatchAvailable>קיים עדכון עבור המעטפת.\n\nהאם ברצונך להוריד אותו כעת?</PatchAvailable>
+			<SearchFieldInfo>חיפוש בתוך המעטפת...</SearchFieldInfo>
+			<SearchingUninstalledApps>מחפש יישומים בתיקייה &apos;יישומים&apos;...</SearchingUninstalledApps>
+			<SelectFile>בחירת קובץ...</SelectFile>
+			<TrayIcon>
+				<AppUpdatesAvailable>קיימים עדכונים עבור יישומים מסוימים.\nלחץ כאן כדי להתקינם.</AppUpdatesAvailable>
+				<AppUpdatesAvailableTitle>עדכון יישומי המעטפת</AppUpdatesAvailableTitle>
+				<LiberKeyAssocFailed>אירעה שגיאה בעת ניסיון להפעיל את פרוטוקול המעטפת.\nתכונות מסוימות, כגון התקנה מתוך הקטלוג המקוון, הושבתו.</LiberKeyAssocFailed>
+				<LiberKeyUpdateAvailable>קיים עדכון עבור יישום המעטפת.\nלחץ כאן כדי להתקינו.</LiberKeyUpdateAvailable>
+				<LiberKeyUpdateAvailableTitle>עדכון של יישום המעטפת</LiberKeyUpdateAvailableTitle>
+				<NewsUpdateAvailable>חדשות יישום המעטפת\nחדשות טריות</NewsUpdateAvailable>
+			</TrayIcon>
+			<UpdatePlatformFirst>יש לעדכן את יישום המעטפת!\nהאם ברצונך לעדכן כעת?</UpdatePlatformFirst>
+			<XmlFileSelection>קובצי XML|*.xml|כל הקבצים|*.*</XmlFileSelection>
+		</Messages>
+		<News>
+			<CheckBoxs>
+				<HideReadNews_Caption>הסתר חדשות שנקראו</HideReadNews_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<CloseNews_Caption>סגור</CloseNews_Caption>
+			</CommandButtons>
+			<Labels>
+				<Title_Caption>חדשות יישום המעטפת</Title_Caption>
+			</Labels>
+			<Messages>
+				<NoNewsDescription>אין כרגע חדשות טריות.\nעם פרסום החדשות תישלח אליך הודעה בצורת האייקון &apos;חדשות המעטפת&apos;, שיופיע מעל הלחצן &apos;כלי המעטפת&apos;.</NoNewsDescription>
+				<NoNewsTile>חדשות יישום המעטפת - אין פרסום חדש</NoNewsTile>
+				<NoNewsUpdateDescription>כרגע קיימות %readcount% חדשות נסתרות שנקראו.\nכדי להציג את החדשות הנסתרות יש ללחוץ להלן על &apos;הסתר חדשות שנקראו&apos;.</NoNewsUpdateDescription>
+				<NoNewsUpdateTile>חדשות יישום המעטפת - לא פורסמו חדשות</NoNewsUpdateTile>
+			</Messages>
+		</News>
+		<OnlineCatalog>
+			<CommandButtons>
+				<Cancel_Caption>ביטול</Cancel_Caption>
+				<CopyURL_Caption>העתק את הכתובת ללוח</CopyURL_Caption>
+				<GoToWebsite_Caption>עבור לקטלוג המקוון %count%</GoToWebsite_Caption>
+				<NoSyncCatalog_Caption>עבור לקטלוג המקוון מבלי לסנכרן את המעטפת שלי</NoSyncCatalog_Caption>
+			</CommandButtons>
+			<Labels>
+				<AccessURL_Caption>כתובת הגישה אל הקטלוג המקוון סונכרנה עם המעטפת:</AccessURL_Caption>
+				<AddPortableAppsLabel_Caption>הוסף יישומים ניידים</AddPortableAppsLabel_Caption>
+				<Privacy_Caption>הערה: מספרי הגירסאות הנשלחים אל אתר האינטרנט מתייחסים רק ליישומים הקיימים בקטלוג המקוון. במהלך פעולה זו לא נשלח כלל מידע על היישומים של המשתמש.</Privacy_Caption>
+				<Title_Caption>עבור אל הקטלוג המקוון של היישומים הניידים</Title_Caption>
+			</Labels>
+		</OnlineCatalog>
+		<Search>
+			<InCatalog>הקטלוג המקוון</InCatalog>
+			<InstalledApp>היישומים המותקנים</InstalledApp>
+			<SearchCatalog>חפש בקטלוג המקוון</SearchCatalog>
+		</Search>
+		<SetupWizard>
+			<CheckBoxs>
+				<ApplyFilesAssocs_Caption>משייך (זמנית) בין היישום לבין הקבצים שבהם הוא מטפל</ApplyFilesAssocs_Caption>
+				<CreateDefaultShortcuts_Caption>יוצר את תפריטי ההפעלה של היישום</CreateDefaultShortcuts_Caption>
+				<EditAppAfterSetup_Caption>לאחר ההתקנה ניתן לשנות את מאפייני היישום</EditAppAfterSetup_Caption>
+				<FillAppInformations_Caption>יוצר את תיאור היישום</FillAppInformations_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<CancelSetup_Caption>אין להתקין את היישום &apos;היישומים שלי&apos;</CancelSetup_Caption>
+				<CancelSetup2_Caption>בטל התקנה</CancelSetup2_Caption>
+				<CantSetup_Caption>סגור את האשף (אין אפשרות להמשיך)</CantSetup_Caption>
+				<DoSetup_Caption>רשום את היישום בתוך המעטפת</DoSetup_Caption>
+				<ForceSetup_Caption>התקן בכל זאת את היישום &apos;היישומים שלי&apos;</ForceSetup_Caption>
+				<OpenAppsFolder_Caption>פתח את התיקייה &apos;יישומים&apos; של המעטפת</OpenAppsFolder_Caption>
+				<OpenMyAppsFolder_Caption>פתח את התיקייה &apos;היישומים שלי&apos; של המעטפת</OpenMyAppsFolder_Caption>
+				<UpdateApp_Caption>בצע עדכון של יישום זה</UpdateApp_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppInfoDetailsTitle_Caption>יישום זה הותקן תחילה מחבילת התקנה של המעטפת.\nהפעולות הבאות יבוצעו באופן אוטומטי:</AppInfoDetailsTitle_Caption>
+				<AppRegisterInfo_Caption>יישום זה יירשם שוב במעטפת</AppRegisterInfo_Caption>
+				<IntroText_Caption>אשף זה נועד לסייע בהוספת יישומים ניידים למעטפת. מומלץ מאוד לנהוג לפיו!</IntroText_Caption>
+				<LbkAppFolderInfo_Caption>יישום זה לא יעודכן באופן אוטומטי.\nיש לעבור לתיקייה &apos;יישומים&apos; ולחזור על הפעולה.</LbkAppFolderInfo_Caption>
+				<LbkAppFolderMistake_Caption>את היישומים הניידים הבאים מן הקטלוג המקוון של המעטפת יש למקם בתיקייה &apos;יישומים&apos;</LbkAppFolderMistake_Caption>
+				<lblLbkAppInfoMissing_Caption>לא נמצאו פרטים על יישום זה.\nלא ניתן לשמור את היישום בתוך המעטפת</lblLbkAppInfoMissing_Caption>
+				<lblLbkAppInfoMissingMoveApp_Caption>יש להתקין אותו שוב מהקטלוג המקוון.\nתחילה יש לעבור לתיקייה &apos;היישומים שלי&apos;</lblLbkAppInfoMissingMoveApp_Caption>
+				<lblLbkAppInfoMissingUpdate_Caption>כדי לרשום כיאות את היישום, יש לבצע את העדכון. תחילה יש לעבור לתיקייה &apos;היישומים שלי&apos;.</lblLbkAppInfoMissingUpdate_Caption>
+				<lblUserAppFolderInfo>כדי לשמור את היישום במעטפת יש להעבירו לתיקייה &apos;היישומים שלי&apos; ולחזור על הפעולה.</lblUserAppFolderInfo>
+				<lblUserAppFolderMistake_Caption>יישומים ניידים שאינם מן הקטלוג המקוון באתר המעטפת יש למקם בתיקייה &apos;היישומים שלי&apos;</lblUserAppFolderMistake_Caption>
+				<NewApp_Caption>יישום נייד חדש</NewApp_Caption>
+				<NewAppRegisterInfo_Caption>יישום זה אינו רשום במעטפת</NewAppRegisterInfo_Caption>
+				<ReinstallApp_Caption>התקן מחדש יישום נייד </ReinstallApp_Caption>
+				<Title_Caption>מוסיף אשף יישום</Title_Caption>
+				<UserAppInfoDetailsTitle_Caption>את היישומים הניידים יש לרשום בתפריטי המעטפת. לאחר מכן ניתן ליצור בתפריטים קיצורי דרך להפעלה.\nכעת יבוצעו הפעולות הבאות:</UserAppInfoDetailsTitle_Caption>
+			</Labels>
+		</SetupWizard>
+		<ShortcutProperties>
+			<CheckBoxs>
+				<AlwaysRunAsAdmin_Caption>הפעל תמיד כאדמיניסטרטור</AlwaysRunAsAdmin_Caption>
+				<ShortcutHiddenInMenu_Caption>מוסתר בתפריטים הצפים</ShortcutHiddenInMenu_Caption>
+				<ShortcutNoMostUsed_Caption>אל תוסיף לכרטיסייה &apos;בשימוש תדיר&apos;</ShortcutNoMostUsed_Caption>
+				<ShortcutNoRecent_Caption>אל תוסיף לכרטיסייה &apos;יישומים אחרונים&apos;</ShortcutNoRecent_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<ApplyChanges_Caption>החל</ApplyChanges_Caption>
+				<AppProps_Caption>מאפייני היישום</AppProps_Caption>
+				<Cancel_Caption>סגור</Cancel_Caption>
+				<ShortcutAppEdit_Caption>קיצור דרך זה מקושר ליישום נייד</ShortcutAppEdit_Caption>
+			</CommandButtons>
+			<Labels>
+				<DescriptionLabel_Caption>תיאור:</DescriptionLabel_Caption>
+				<ShortcutAutorunLabel_Caption>הפעלה אוטומטית:</ShortcutAutorunLabel_Caption>
+				<ShortcutHotKey_Caption>מקש חם:</ShortcutHotKey_Caption>
+				<ShortcutIconLabel_Caption>אייקון:</ShortcutIconLabel_Caption>
+				<ShortcutNameLabel_Caption>שם:</ShortcutNameLabel_Caption>
+				<ShortcutParamsLabel_Caption>פרמטרים</ShortcutParamsLabel_Caption>
+				<ShortcutPathLabel_Caption>הנתיב/התיקייה/דף האינטרנט/המסמך להפעלה:</ShortcutPathLabel_Caption>
+				<ShortcutWinStateLabel_Caption>עם ההפעלה:</ShortcutWinStateLabel_Caption>
+				<ShortcutWorkDirLabel_Caption>תיקיית העבודה</ShortcutWorkDirLabel_Caption>
+				<Title_Caption>מאפייני קיצור הדרך</Title_Caption>
+			</Labels>
+			<Tabs>
+				<Shortcut>קיצור דרך</Shortcut>
+				<ShortcutMore>מתקדם</ShortcutMore>
+			</Tabs>
+		</ShortcutProperties>
+		<SuiteDownload>
+			<CommandButtons>
+				<Cancel_Caption>ביטול</Cancel_Caption>
+				<GetSuites_Caption>הורד את רשימת החבילות הקיימות</GetSuites_Caption>
+				<InstallSuite_Caption>התקן את כל היישומים של החבילה שנבחרה</InstallSuite_Caption>
+			</CommandButtons>
+			<DownloadedAppsCountInfo>-   התקדמות: %dldone%</DownloadedAppsCountInfo>
+			<DownloadSizeInfo>נפח ההורדה: %size%</DownloadSizeInfo>
+			<InstallSizeInfo>-   הנפח הדרוש בדיסק: %size%</InstallSizeInfo>
+			<Labels>
+				<DownloadInfo_Caption>אשף זה מסייע להתקין חבילת יישומים מלאה בפעולה אחת.\n\nכדי להמשיך יש ללחוץ על &apos;הורד את רשימת החבילות הקיימות&apos;</DownloadInfo_Caption>
+				<Title_Caption>התקן חבילת יישומים</Title_Caption>
+				<TitleBig_Caption>התקן חבילת יישומים</TitleBig_Caption>
+			</Labels>
+			<Messages>
+				<ConfirmKeepDownloads>האם ברצונך לשמור את חבילות ההתקנה של היישומים כדי לעשות בהן שימוש עתידי?</ConfirmKeepDownloads>
+				<DownladAppIcons16>מוריד את האייקונים של היישומים...</DownladAppIcons16>
+				<DownloadGraphics>מוריד את הסמלים של חבילות ההתקנה...</DownloadGraphics>
+				<DownloadingSuitesInfo>מוריד פרטים על חבילות ההתקנה...</DownloadingSuitesInfo>
+				<GetSuiteInfoFailed>אירעה שגיאה באחזור הרשימה של חבילות התקנה הקיימות.\n\nהשגיאה %errnum%: %errdesc%</GetSuiteInfoFailed>
+				<IncompleteSuiteSetup>מספר יישומים בחבילה לא הותקנו כראוי.\nניתן להפעיל מחדש את האשף במועד מאוחר יותר ולסיים את ההתקנה.</IncompleteSuiteSetup>
+				<PartialSuiteSetupDone>היישומים שנבחרו הותקנו.\nניתן להפעיל מחדש את האשף במועד מאוחר יותר ולהוסיף יישומים נוספים.</PartialSuiteSetupDone>
+				<SetupDone>יישומי החבילה &quot;%name%&quot; מותקנים כעת במעטפת</SetupDone>
+				<SetupError>אירעה שגיאה בהתקנת היישום %app%!</SetupError>
+			</Messages>
+			<SuiteAppCountInfo>היישומים:</SuiteAppCountInfo>
+			<SuiteAppsDoneInfo> -   חדשים: %newapps%   -   הותקנו: %installed%</SuiteAppsDoneInfo>
+		</SuiteDownload>
+		<UninstallWizard>
+			<CheckBoxs>
+				<RemoveAppFolder_Caption>הסר את תיקיית היישום (התוכנית והנתונים הקשורים אליה)</RemoveAppFolder_Caption>
+				<RemoveAppShortcuts_Caption>הסר את התפריטים הקשורים ליישום זה</RemoveAppShortcuts_Caption>
+				<RemoveFilesAssocs_Caption>הסר את השיוכים בין יישום זה לבין סוגי הקבצים</RemoveFilesAssocs_Caption>
+				<UnregisterAppInfo_Caption>בטל את הרישום של יישום זה</UnregisterAppInfo_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<CancelSetup_Caption>בטל את ההסרה</CancelSetup_Caption>
+				<CancelSetup2_Caption>בטל את ההסרה</CancelSetup2_Caption>
+				<ConfirmUninstall_Caption>אשר את הסרת ההישום</ConfirmUninstall_Caption>
+				<DoUninstall_Caption>בצע את המחיקות שנבחרו</DoUninstall_Caption>
+			</CommandButtons>
+			<Labels>
+				<IntroText_Caption>אשף זה נועד לסייע בהסרת יישומים ניידים מהמעטפת.</IntroText_Caption>
+				<PreviewInfo_Caption>להלן רשימת הפעולות שיבוצעו. במקרים מסוימים, הסרה של יישום כלשהו עלולה להוביל להסרת רכיבים נוספים, ולכן יש לבדוק בעיון את הרשימה שלהלן.</PreviewInfo_Caption>
+				<RemoveApp_Caption>הסר יישום נייד</RemoveApp_Caption>
+				<RemoveAppInfo_Caption>היישום יוסר מהמעטפת</RemoveAppInfo_Caption>
+				<RemoveInfoDetailsTitle_Caption>במהלך הסרת היישום יבוצעו הפעולות הבאות. יש לבטל את הפעולות הבלתי רצויות כדי לשמור את הפרטים והנתונים הקשורים ליישום.</RemoveInfoDetailsTitle_Caption>
+				<Title_Caption>אשף הסרת יישומים</Title_Caption>
+			</Labels>
+			<PreviewTree>
+				<AppDataSize>נפח הנתונים: %size%</AppDataSize>
+				<DeletedAssocs>השיוכים נמחקו</DeletedAssocs>
+				<DeletedData>נתוני היישום נמחקו</DeletedData>
+				<DeletedShortcuts>קיצורי הדרך נמחקו</DeletedShortcuts>
+				<FileType>קובצי &quot;.%type%&quot;</FileType>
+				<KFANotFound>קובץ ההגדרות של שיוכי הקבצים לא נמצא!</KFANotFound>
+				<KFANotUsed>לא קיים שיוך זמני עבור יישום זה</KFANotUsed>
+				<KfaUsedForTypeIcon>משמש עבור האייקון של סוג קובץ זה</KfaUsedForTypeIcon>
+				<UnregisterApp>היישומים נמחקו</UnregisterApp>
+			</PreviewTree>
+		</UninstallWizard>
+		<UpdateInfo>
+			<CommandButtons>
+				<Cancel_Caption>סגור</Cancel_Caption>
+				<DownloadPatch_Caption>עדכן את המעטפת שלי עכשיו!</DownloadPatch_Caption>
+				<OpenCatalog_Caption>פתח את קטלוג היישומים הניידים</OpenCatalog_Caption>
+				<UpdateApps_Caption>עדכן את היישומים הניידים שלי</UpdateApps_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppsUpdateFound>קיימים עדכונים עבור היישומים הניידים שלך</AppsUpdateFound>
+				<AppsUpdateNotFound>אין עדכונים עבור היישומים הניידים שלך</AppsUpdateNotFound>
+				<NewAppsCount>יישומים נוספים: %count%</NewAppsCount>
+				<NewAppsFound>בקטלוג המקוון קיימים יישומים נוספים עבור המעטפת</NewAppsFound>
+				<NewAppsNotFound>בקטלוג המקוון לא נמצאו יישומים נוספים עבור המעטפת</NewAppsNotFound>
+				<NoNewApp>המעטפת שלך מלאה!</NoNewApp>
+				<PlatformUpdateFound>קיים עדכון עבור המעטפת</PlatformUpdateFound>
+				<PlatformUpdateNotFound>לא נמצאו עדכונים עבור המעטפת</PlatformUpdateNotFound>
+				<Title_Caption>העדכונים הקיימים</Title_Caption>
+				<UpdatesCount>עדכונים: %count%</UpdatesCount>
+			</Labels>
+		</UpdateInfo>
+	</he-IL>
+</Languages>

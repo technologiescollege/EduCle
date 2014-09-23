@@ -1,0 +1,85 @@
+<Languages version="0.2">
+	<cs-CZ en_name="Czech" icon="cz.png" date="2010-10-10" name="Čeština">
+		<Main>
+			<Labels>
+				<AppName_Caption>Aplikace :</AppName_Caption>
+				<AppVersion_Caption>Verze :</AppVersion_Caption>
+				<AppDescription_Caption>Popis :</AppDescription_Caption>
+				<EditorName_Caption>Vydavatel :</EditorName_Caption>
+				<EditorWebSite_Caption>Webová stránka :</EditorWebSite_Caption>
+				<EditorEmail_Caption>Email :</EditorEmail_Caption>
+				<AppWebSite_Caption>Webová stránka :</AppWebSite_Caption>
+				<SupportURL_Caption>Podpora :</SupportURL_Caption>
+				<PackageLangs_Caption>Dostupné nastavení jazyků :</PackageLangs_Caption>
+				<PackageInfo_Caption>Informace o balíčku :</PackageInfo_Caption>
+				<Signature_Caption>Balíček navržen :</Signature_Caption>
+				<ValidationFailed_Caption>Varování : Tento balíček není ověřen!</ValidationFailed_Caption>
+			</Labels>
+			<Tabs>
+				<Application>Aplikace</Application>
+				<Editor>Vydavatel</Editor>
+				<Package>Informace o balíčku</Package>
+			</Tabs>
+			<CommandButtons>
+				<Cancel_Caption>&amp;Zrušit</Cancel_Caption>
+				<Install_Caption>Nainstalovat tuto aplikaci na můj LiberKey</Install_Caption>
+				<CancelOperation_Caption>&amp;Zrušit</CancelOperation_Caption>
+			</CommandButtons>
+		</Main>
+		<Messages>
+			<InvalidPackageFile>Vadný instalační balíček </InvalidPackageFile>
+			<Errors>
+				<ErrRenameAppDir>Při pokusu o přejmenování složky aplikace s vyskytla nějaká chyba. \nZkontrolujte, že aplikace není spuštěna a že ve složce aplikace není otevřen žádný soubor.</ErrRenameAppDir>
+				<ASuiteCloseFailed>Nemohu ukončit sadu.</ASuiteCloseFailed>
+				<AppsDirNotFound>Cílová složka nenalezena</AppsDirNotFound>
+				<ExtractErrorRestoreDone>Vyjímání dat selhalo.\nByla obnovena předchozí verze.</ExtractErrorRestoreDone>
+				<InstallerUpdateNeeded>Tento instalační balíček je novější než instalační průvodce. \nPro instalaci použijte poslední verzi průvodce.</InstallerUpdateNeeded>
+				<InstallError>Během instalace této aplikace se vyskytla nějaká chyba !</InstallError>
+				<AppDataNotFound>Data aplikace nenalezena</AppDataNotFound>
+				<InstErrorTitle>Chyba v průběhu instalace</InstErrorTitle>
+				<PackageValidationFailed>Varování, tento balíček nebyl ověřen</PackageValidationFailed>
+				<DataFileModified>Instalační balíček je porušen: \nDatový balíček byl změněn\n\n%name%</DataFileModified>
+				<OldPackageVersion>Tento instalační balíček není nadále podporovaný instalačním průvodcem. \nNení možné pokračovat s instalací. \n</OldPackageVersion>
+				<IncompleteSetup>Některé soubory nemohly být aktualizovány!\nNové verze těchto souborů byly uloženy v následujícím adresáři:\n\n%failedfolder%</IncompleteSetup>
+				<SetupDataDownloadCanceled>Stahování zrušeno</SetupDataDownloadCanceled>
+				<ExtractErrorRestoreNotDone>Vyjímání aplikace selhalo.\nPředchozí verze byla uchována v zálohovacím adresáři</ExtractErrorRestoreNotDone>
+				<SetupDataDownloadError>Chyba při stahování sestavy dat</SetupDataDownloadError>
+			</Errors>
+			<Installing>Instaluji...</Installing>
+			<VerifyingSetupPackage>Ověřování instalačního balíčku</VerifyingSetupPackage>
+			<VerifyingSetupDestination>Ověřování volného místa</VerifyingSetupDestination>
+			<SavingActualVersion>Ukládádání aktuální verze</SavingActualVersion>
+			<ExtractingAppFiles>Vyjímání aplikačních souborů</ExtractingAppFiles>
+			<RestoringPreviousConfig>Obnovení předchozího nastavení</RestoringPreviousConfig>
+			<DeletingBackup>Vymazávání zálohy</DeletingBackup>
+			<SetupDone>Instalace dokončena</SetupDone>
+			<ClosingASuite>Ukončení a sady</ClosingASuite>
+			<ReStartLBK>Restartuji LiberKey ...  </ReStartLBK>
+			<AppStillRunning>Aplikace stále běží.</AppStillRunning>
+			<UpdatingAppsMenu>Aktualizace menu LiberKey</UpdatingAppsMenu>
+			<RestartingMenu>Restartování menu...</RestartingMenu>
+			<ClosingApplication>Uzavírání aplikace...</ClosingApplication>
+			<ClosingKFA>Uzavírání přiřazení kličových souborů... </ClosingKFA>
+			<UpdatingFileAssocs>Aktualizace přidružení souborů</UpdatingFileAssocs>
+			<RestartingKFA>Restartování přidružení klíčových souborů... </RestartingKFA>
+			<RestartingApp>Restartování aplikace...</RestartingApp>
+			<PackageSignatureNotFound>(Tento balíček není podepsán)</PackageSignatureNotFound>
+			<LangMismatchWarning>Varování !\nChystáte se instalovat software v jazyce, který je odlišný od jazyka užívaného pro váš LiberKey.\nChcete pokračovat ?</LangMismatchWarning>
+			<AlreadyInstalled>Tento program je na vašem LiberKey již nainstalovaný. \nChcete ho nainstalovat znovu?</AlreadyInstalled>
+			<DowngradeWarning>Pozor ! \n \nNa vašem LiberKey je již nainstalována novější verze tohoto programu. \n \nAktuálně nainstalovaná verze: %current_version% \nMá být nainstalována verze: %setup_version% \n \nChcete nainstalovat starou verzi?</DowngradeWarning>
+			<DownloadingSetupData>Stahování instalačních souborů...\n%DONE%</DownloadingSetupData>
+			<SetupDataDownloadDone>Stahování dokončeno.</SetupDataDownloadDone>
+			<InstalledLangMismatchWarning>Varování ! \nTento software je na vašem LiberKey již nainstalován s odlišným jazykem. \n \nPředchozí nastavení bylo udělané v: &quot;%prevlang%&quot; \nToto nastavení bude dokončeno v: &quot;%newlang%&quot; \n \nChcete pokračovat ?</InstalledLangMismatchWarning>
+			<DeletingObsoleteFiles>Odstraňování zastaralých souborů</DeletingObsoleteFiles>
+		</Messages>
+		<Report>
+			<caption>Instalace dokončena !</caption>
+			<CommandButtons>
+				<Close_Caption>Zavřít</Close_Caption>
+			</CommandButtons>
+			<Labels>
+				<MenuInfo_Caption>Menu LiberKey bylo změněno!\n\nKe snadnému spuštění právě nainstalované aplikace použijte následující menu na vašem LiberKey:</MenuInfo_Caption>
+			</Labels>
+		</Report>
+	</cs-CZ>
+</Languages>

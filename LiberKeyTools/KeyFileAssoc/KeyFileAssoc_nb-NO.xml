@@ -1,0 +1,270 @@
+<Languages version="0.2">
+	<nb-NO en_name="Norwegian - Bokmål" icon="no.png" date="2011-04-04" version="1.2" name="Norsk">
+		<FileAssoc>
+			<CommandButtons>
+				<Apply_caption>&amp;Legg til</Apply_caption>
+				<Cancel_caption>&amp;Avslutt</Cancel_caption>
+				<Add_caption>&amp;Ny...</Add_caption>
+				<Delete_caption>&amp;Slett</Delete_caption>
+				<SelectApp_caption>Rediger...</SelectApp_caption>
+				<Advanced_caption>&amp;Avansert...</Advanced_caption>
+				<OK_caption>Ok</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<FrameCaption_caption>Detaljer om utvidelsen &apos;%1&apos;</FrameCaption_caption>
+				<OpenWithInfo_caption>Åpne med :</OpenWithInfo_caption>
+				<AssocListTitle_caption>Registrerte fil typer :</AssocListTitle_caption>
+				<ExtInfo>Filer type &apos;% 1&apos; er &apos;% 2&apos;. Hvis du vil endre portable applikasjoner knyttet til denne filen, klikker du på Avansert.</ExtInfo>
+				<FrameCaptionNoExt_caption>Detaljer for &apos;%1&apos; type</FrameCaptionNoExt_caption>
+				<ExtInfoNoExt>For å endre parametere som gjelder for &apos;% 1&apos; type element, klikker du på Avansert.</ExtInfoNoExt>
+			</Labels>
+			<Messages>
+				<ExtExists>Denne utvidelsen finnes allerede i &apos;%1&apos; filer</ExtExists>
+				<ExtExistsTitle>Fil typer</ExtExistsTitle>
+				<AppExeNotFound>Feil i banen til den valgte bærbar program</AppExeNotFound>
+				<DeleteConfirm>Hvis du fjerner en registrert filtype, vil det være umulig å åpne filer med denne filtypen gjennom et dobbeltklikk på ikoner.\n\n Vil du virkelig fjerne denne filtypen?</DeleteConfirm>
+				<DeleteConfirmTitle>Fil typer</DeleteConfirmTitle>
+			</Messages>
+			<caption>Filer typer assosiert til LiberKey portable applikasjoner</caption>
+		</FileAssoc>
+		<Messages>
+			<ApplyDone>LiberKey portable programmer er nå tilknyttet til filer.</ApplyDone>
+			<ApplyDoneTitle>LiberKey portable applikasjon tilhørigheter\n</ApplyDoneTitle>
+			<ApplyError>En feil oppstod når vi prøvde å aktivere LiberKey assosieringer</ApplyError>
+			<ApplyErrorTitle>Fil assosieringsfeil</ApplyErrorTitle>
+			<RestoreDone>Tilbakestillt filassosieringer</RestoreDone>
+			<RestoreDoneTitle>Assorieringer tilbakestillt</RestoreDoneTitle>
+			<RestoreError>Filer utvidelser kan ikke gjenopprettes.\n En feil oppstod under filer utvidelses restaurering</RestoreError>
+			<RestoreErrorTitle>Feil oppstod under filer utvidelses</RestoreErrorTitle>
+			<AutoRestoreDone>Fil extensions hadde ikke blitt gjenopprettet da de var i bruk sist.\n De har nettopp blitt oppdatert.</AutoRestoreDone>
+			<AutoRestoreDoneTitle>Filtilhørighet oppdatert</AutoRestoreDoneTitle>
+			<ASuiteConfMissing>Filen som inneholder listen over LiberKey portable applikasjoner ble ikke funnet!\n</ASuiteConfMissing>
+			<UpdateInfoError>En feil oppstod da vi prøvde å finne siste slipp dato info</UpdateInfoError>
+			<UpdateErrorTitle>Feil ved oppdatering</UpdateErrorTitle>
+			<UpdateTitle>Oppdater</UpdateTitle>
+			<NewVersionInfo>Slipp %versjon% på %versiondate% er nå tilgjengelig.\n\n %description%\n\n Vil du laste den ned nå?</NewVersionInfo>
+			<UpdateDownloadError>En feil oppstod under den siste utgivelsens nedlasting.\n\n %error%</UpdateDownloadError>
+			<UpdateAppStillRunning>Programvaren er fremdeles i gang.\n Ønsker du å prøve igjen?</UpdateAppStillRunning>
+			<UpdateDone>Oppdatert til versjon %version% ferdig.</UpdateDone>
+			<NoAppUpdate>Din %appname% er oppdatert.</NoAppUpdate>
+			<UpdateExeError>En feil oppstod ved oppdatering\n\n%error%</UpdateExeError>
+			<NewVersionAvailable>Ny filassosieringsfil er tilgjengelig</NewVersionAvailable>
+			<ExeSelection>Program|*.exe;*.bat;*.com|Alle files (*.*)|*.*</ExeSelection>
+		</Messages>
+		<NewType>
+			<caption>Lag en ny utvidelse</caption>
+			<CommandButtons>
+				<OK_caption>&amp;Ok</OK_caption>
+				<Cancel_caption>&amp;Avslutt</Cancel_caption>
+			</CommandButtons>
+			<Labels>
+				<Info_caption>Fil ending :</Info_caption>
+			</Labels>
+			<Messages>
+				<NoExt>Du må legge til en fil ending.</NoExt>
+				<NoExtTitle>Fil typer</NoExtTitle>
+			</Messages>
+		</NewType>
+		<AppSelect>
+			<caption>Velg et tilknyttet bærbart program</caption>
+			<Labels>
+				<Loading_caption>Laster tilgjengelig prgram liste...</Loading_caption>
+			</Labels>
+			<CommandButtons>
+				<Cancel_caption>&amp;Avslutt</Cancel_caption>
+				<OK_caption>&amp;Ok</OK_caption>
+			</CommandButtons>
+		</AppSelect>
+		<AssocAdvance>
+			<caption>Fil typer</caption>
+			<CommandButtons>
+				<OK_caption>&amp;Ok</OK_caption>
+				<Cancel_caption>&amp;Avslutt</Cancel_caption>
+				<Default_caption>&amp;Som standard</Default_caption>
+				<DelAction_caption>&amp;Fjern</DelAction_caption>
+				<EditAction_caption>&amp;Modifiser...</EditAction_caption>
+				<Add_caption>&amp;Ny...</Add_caption>
+				<ChangeIcon_caption>C&amp;Bytt Ikon...</ChangeIcon_caption>
+			</CommandButtons>
+			<Labels>
+				<Actions_caption>&amp;Velg :</Actions_caption>
+			</Labels>
+			<CheckBoxs>
+				<WinEdit_caption>Tillat endringer i &quot;Mappe egenskaper&quot;&quot;</WinEdit_caption>
+				<ReplaceWinEntry_caption>Erstatte nåværende tiltak for denne typen filer</ReplaceWinEntry_caption>
+			</CheckBoxs>
+			<Messages>
+				<ActionDeleteConfirm>Vil du virkelig fjerne dette tiltaket?</ActionDeleteConfirm>
+				<ActionDeleteConfirmTitle>Fil typer</ActionDeleteConfirmTitle>
+			</Messages>
+		</AssocAdvance>
+		<SelectIcon>
+			<caption>Bytt ikon</caption>
+			<CommandButtons>
+				<OK_caption>&amp;Ok</OK_caption>
+				<Cancel_caption>&amp;Avslutt</Cancel_caption>
+				<Browse_caption>&amp;Søk...</Browse_caption>
+			</CommandButtons>
+			<Labels>
+				<IconList_caption>&amp;Velg ett ikon fra listen under :</IconList_caption>
+				<IconPath_caption>&amp;Søk for ikoner i denne filen :</IconPath_caption>
+			</Labels>
+			<Messages>
+				<FilterIconFiles>Ikon filer</FilterIconFiles>
+				<FilterPrograms>Programmer</FilterPrograms>
+				<FilterLibraries>Biblioteker</FilterLibraries>
+				<FilterAllFiles>Alle filer</FilterAllFiles>
+				<OpenFileTitle>Bytt ikon</OpenFileTitle>
+				<FileNotFound>Fil ikke funnet : %1</FileNotFound>
+			</Messages>
+		</SelectIcon>
+		<AddAction>
+			<caption>Ny aksjon</caption>
+			<EditCaption>Endring gjort for : %typedesc%</EditCaption>
+			<CommandButtons>
+				<Browse_caption>Søk etter ...</Browse_caption>
+				<Cancel_caption>&amp;Avbryt</Cancel_caption>
+				<OK_caption>&amp;Ok</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<ActionArgs_caption>Kommando linje parametere :</ActionArgs_caption>
+				<ActionAppPath_caption>Program som brukes for å starte :</ActionAppPath_caption>
+				<Action_caption>&amp;Aksjon :</Action_caption>
+			</Labels>
+			<Messages>
+				<AppNotFound>Det spesifiserte program ble ikke funnet, sjekk om filnavn og sti er korrekte.</AppNotFound>
+				<AppNotFoundTitle>Legg til</AppNotFoundTitle>
+				<ActionIsEmpty>Du må spesifisere en bevegelse.</ActionIsEmpty>
+				<ActionIsEmptyTitle>Fil typer</ActionIsEmptyTitle>
+			</Messages>
+		</AddAction>
+		<Main>
+			<Menus>
+				<Options_caption>&amp;Valg...</Options_caption>
+				<Config_caption>Assosierings konfigurasjoner...</Config_caption>
+				<Web_caption>&amp;Besøk Filassosierings Websiden...</Web_caption>
+				<About_caption>&amp;Om</About_caption>
+				<Apply_caption>Legg til LiberKey</Apply_caption>
+				<Restore_caption>Tilbakestill filtype assosieringer</Restore_caption>
+				<Quit_caption>&amp;Avslutt</Quit_caption>
+				<Test_caption>teste</Test_caption>
+			</Menus>
+		</Main>
+		<General>
+			<AppActionPrefix>Åpne med</AppActionPrefix>
+			<AppActionSufix>(LiberKey)</AppActionSufix>
+			<DefaultTypeName>Filer %1</DefaultTypeName>
+		</General>
+		<Update>
+			<caption>Programvare oppdatering</caption>
+			<Labels>
+				<RunNewVersion_caption>Kjører nyere versjon</RunNewVersion_caption>
+				<ReplaceExe_caption>Oppdaterings programvare</ReplaceExe_caption>
+				<ClosingApp_caption>Stenger programmet</ClosingApp_caption>
+				<Title_caption>Oppdateringsinstallasjon</Title_caption>
+			</Labels>
+			<CommandButtons>
+				<Cancel_caption>&amp;Avslutt</Cancel_caption>
+			</CommandButtons>
+		</Update>
+		<Download>
+			<caption>Programvare oppdatering</caption>
+			<Labels>
+				<Title_caption>Laster ned programvareoppdatering...</Title_caption>
+			</Labels>
+			<CommandButtons>
+				<Cancel_caption>&amp;Avslutt</Cancel_caption>
+			</CommandButtons>
+		</Download>
+		<About>
+			<caption>Om</caption>
+			<CommandButtons>
+				<Update_caption>&amp;Sjekker for oppdatering...</Update_caption>
+				<OK_caption>&amp;Steng</OK_caption>
+				<History_caption>&amp;Historiske versjoner...</History_caption>
+			</CommandButtons>
+			<Labels>
+				<LiberKeyPartner_caption>KFA er utviklet av LiberKey.com</LiberKeyPartner_caption>
+				<LiberKeyExclu_caption>Denne programvaren kan kun brukes med LiberKey</LiberKeyExclu_caption>
+			</Labels>
+		</About>
+		<MergeAssocs>
+			<caption>Oppdater konfigurasjonen</caption>
+			<CommandButtons>
+				<SkipDefaultAssoc_caption>&amp;Ikke gjør forandringer i min konfigurasjon!</SkipDefaultAssoc_caption>
+				<MergeDefaultAssocs_caption>&amp;Legg til de valgte endringer</MergeDefaultAssocs_caption>
+				<Cancel_caption>&amp;Jeg vil se dette ved neste oppstart...</Cancel_caption>
+			</CommandButtons>
+			<Labels>
+				<Title_caption>Standard assosierings konfigurasjon</Title_caption>
+				<UpdateInfo_caption>I listen nedenfor, kan du se alle nye fil assosiasjoner som følger med denne nye utgivelsen. Røde fil assosiasjoner er allerede definert for deg. Alle valgte fil assosiasjoner i denne listen vil bli liggende i din nåværende konfigurasjon.</UpdateInfo_caption>
+			</Labels>
+		</MergeAssocs>
+		<Loading>
+			<Labels>
+				<Info_caption>Laster...</Info_caption>
+			</Labels>
+		</Loading>
+		<Options>
+			<caption>Fil assosierings konfigurasjon</caption>
+			<CommandButtons>
+				<Cancel_caption>&amp;Avslutt</Cancel_caption>
+				<OK_caption>&amp;Ok</OK_caption>
+				<DelAssocErrors_caption>Slett alle valgte assosieringer</DelAssocErrors_caption>
+			</CommandButtons>
+			<Labels>
+				<AppsErrorsTitle_caption>Programvare ikke funnet ( assosieringer frakoblet)</AppsErrorsTitle_caption>
+				<FastSwitchMode_caption>Med et dobbeltklikk på Systray ikonet:</FastSwitchMode_caption>
+				<Language_caption>Brukergrensesnitt språk :</Language_caption>
+			</Labels>
+			<OptionButtons>
+				<optSystrayFastSwitchOFF_caption>Åpne assosierings konfigurasjoner</optSystrayFastSwitchOFF_caption>
+				<optSystrayFastSwitchON_caption>Koble / Frakoble LiberKey assosieringsprogram</optSystrayFastSwitchON_caption>
+			</OptionButtons>
+			<CheckBoxs>
+				<AutoCheckVersionAtStart_caption>Sjekk for oppdateringer når programmet startes opp.</AutoCheckVersionAtStart_caption>
+				<ShowAssocToolTip_caption>Vis ett tips når assosieringer startes eller tilbakestilles</ShowAssocToolTip_caption>
+				<UseLbkProxySettings_caption>Bruk LiberKey sine proxy konfigurasjon</UseLbkProxySettings_caption>
+			</CheckBoxs>
+			<Tabs>
+				<Options>Valg</Options>
+				<ActionErrors>Ugyldig valg</ActionErrors>
+			</Tabs>
+			<Messages>
+				<NotFoundApp>( Fant ikke programmet)</NotFoundApp>
+				<AppCounters>Programmer knyttet til %objcount%  (%actioncount% feil)\n</AppCounters>
+				<ActionCount>(1 action/valg)</ActionCount>
+			</Messages>
+		</Options>
+		<History>
+			<caption>Fil assosiering  - Historikk</caption>
+			<CommandButtons>
+				<Close_caption>&amp;Avslutt</Close_caption>
+				<Download_caption>Nedlastingsversjon %ver%...</Download_caption>
+			</CommandButtons>
+			<Messages>
+				<AppVersion>Versjon %ver%</AppVersion>
+				<VersionDate>- %date%</VersionDate>
+				<NextVersion>(ny versjon...)</NextVersion>
+				<YourVersion>Din versjon</YourVersion>
+				<VersionAvailable>Oppdatering klar til nedlast</VersionAvailable>
+				<New>Ny</New>
+				<NoVersionInfo>Ingen versjonsinfo tilgjengelig</NoVersionInfo>
+			</Messages>
+		</History>
+		<AppWarning>
+			<caption>Fil Assosiering - Risiko for konflikt med et annet program\n</caption>
+			<CommandButtons>
+				<OK_caption>&amp;Ok</OK_caption>
+				<RemoveAssocs_caption>Deaktiver assosieringer nå</RemoveAssocs_caption>
+			</CommandButtons>
+			<Labels>
+				<Title_caption>Advarsel!</Title_caption>
+				<Message_caption>Fil assosierings programmet har oppdaget at et program som kan være problematiske. Det anbefales sterkt å deaktivere midlertidig fil assosiering før du gjør endringer i Windows-registret.\n</Message_caption>
+			</Labels>
+		</AppWarning>
+		<Contributors>
+			<Contributor name="Jack Terje Saltnæs" email="jack.saltnes@sonnico.no"/>
+		</Contributors>
+	</nb-NO>
+</Languages>

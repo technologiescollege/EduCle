@@ -1,0 +1,75 @@
+<Languages version="0.2">
+	<ru-RU en_name="Russian" date="2011-02-03" version="0.2" icon="ru.png" name="Русский">
+		<Messages>
+			<Errors>
+				<404>%appname% %appversion%\n\nФайл не найден на этом сервере!\nПожалуйста, повторите попытку позже.</404>
+				<Login>Произошла ошибка во время процесса идентификации!\nПожалуйста, попробуйте позже.</Login>
+				<Password>Неверное определение.\n\nИмя пользователя и / или пароль неверны</Password>
+				<403>Ошибка при  идентификации прокси сервера! Проверьте настройки прокси..</403>
+				<InvalidPwd>Неверное определение.\n\nНеверный пароль</InvalidPwd>
+				<DownloadError>Произошла ошибка во время загрузки обновлений!\nПопробуйте еще раз?</DownloadError>
+				<InvalidUser>Неверное определение.\n\nПользователь не найден</InvalidUser>
+				<DepositFolderError>Невозможно сохранить данные в каталог.\n%path%\n\nХотите, загрузить недостающие пакеты во временный каталог?</DepositFolderError>
+			</Errors>
+			<UpdateDone>Обновление приложения завершено</UpdateDone>
+			<DownloadingTip>Загрузка обновлений ...\nНажмите здесь для более подробной информации</DownloadingTip>
+			<DownloadingTipTitle>Обновления приложений LiberKey</DownloadingTipTitle>
+			<DownloadDone>Загрузка завершена.\nМеню LiberKey будет закрыто во время применения обновлений...</DownloadDone>
+			<ConfirmCancel>Загрузка обновлений в процессе.\nВы хотите отменить передачу и прервать обновление?</ConfirmCancel>
+			<HttpError>Произошла ошибка при попытке получения инфрмаци об обновлениях программ LiberKey.\nЕсть ли у вас доступ к сети Интернет на этом компьютере?</HttpError>
+			<UpToDate>Приложения вашего LiberKey уже обновлены</UpToDate>
+			<UpdatesAvailable>Доступны обновления для приложений.\nНажмите здесь, чтобы установить новые версии.</UpdatesAvailable>
+			<HighPriority>Важное</HighPriority>
+			<LowPriority>Рекомендуемое</LowPriority>
+			<LowPriorityInfoTitle>Рекомендуемое обновление</LowPriorityInfoTitle>
+			<LowPriorityInfo>Это обновление рекомендуется, если вы регулярно используете это приложение.\nМогут быть доступны новые возможности.</LowPriorityInfo>
+			<HighPriorityInfoTitle>Важное обновление</HighPriorityInfoTitle>
+			<HighPriorityInfo>Мы рекомендуем вам установить это обновление.\nОно содержит несколько важных исправлений, некоторые из них могут повлиять на безопасность</HighPriorityInfo>
+			<HideThisUpdate>Скрыть это обновление</HideThisUpdate>
+			<HideUpdateInfo>Скрытые обновления могут быть\nотображены снова, нажатием\n\n&quot;Показать скрытые обновления&quot;\n</HideUpdateInfo>
+			<AppAlreadyInstalled>%appname% %appversion% уже установлена на вашем LiberKey.\n\nВы хотите, повторно установить это приложение?\n</AppAlreadyInstalled>
+			<AppUpdateObsolete>Новая версия %appname% уже установлена на вашем LiberKey.\n\nВерсия встановленная:%appversion%\nВерсия устанавливается:%newversion%\n\nВы хотите установить более старую версию?</AppUpdateObsolete>
+			<InformationTitle>Информация</InformationTitle>
+			<DiskSpace>Требуемое место на диске: %needed% (доступно: %avail%)</DiskSpace>
+			<TempSpaceNeeded>Недостаточно свободного места для загрузки временных файлов установки.\n\nВам необходимо %downloadsize% свободного пространства на диске %drive% (Вам доступно %avail% на дикке %drive%)</TempSpaceNeeded>
+			<AppsDownloadDone>Загрузка в хранилище файлов завершена.\n=&gt; %downloadpath%\n\nХотите, начать установку обновлений?</AppsDownloadDone>
+			<KeepTempFiles>Вы хотите сохранить загруженные файлы для последующего использования?</KeepTempFiles>
+		</Messages>
+		<Main>
+			<CommandButtons>
+				<Download_Caption>Установить выбранные приложения</Download_Caption>
+				<Cancel_Caption>Отмена</Cancel_Caption>
+				<HideWindow_Caption>&amp;Скрыть это окно во время загрузки</HideWindow_Caption>
+			</CommandButtons>
+			<Labels>
+				<SelectNone_Caption>Снять все выделения</SelectNone_Caption>
+				<SelectAll_Caption>Выделить все</SelectAll_Caption>
+				<Info_Caption>Доступные обновления:</Info_Caption>
+				<SelectHighPriority_Caption>Выделить Важные</SelectHighPriority_Caption>
+				<ShowHiddenUpdates_Caption>Показать скрытые обновления (%count%)</ShowHiddenUpdates_Caption>
+				<RemoveHiddenUpdates_Caption>Удалить скрытые обновления (%count%)</RemoveHiddenUpdates_Caption>
+				<InstallTitle_Caption>Установка приложений</InstallTitle_Caption>
+				<Version_Caption>Версия: </Version_Caption>
+				<DownloadSize_Caption>Размер загрузки:</DownloadSize_Caption>
+				<InstalledSize_Caption>Необходимое дисковое пространство:</InstalledSize_Caption>
+				<bytes>bytes</bytes>
+				<Kb>Kb</Kb>
+				<Mb>Mb</Mb>
+				<Gb>Gb</Gb>
+			</Labels>
+			<CheckBoxs>
+				<Silent_Caption>Тихая установка приложений (автоматический режим)</Silent_Caption>
+			</CheckBoxs>
+		</Main>
+		<Info>
+			<UpdateIgnore>(отключено)</UpdateIgnore>
+			<UpdateLowPriority>(низкий приоритет)</UpdateLowPriority>
+		</Info>
+		<Contributors>
+			<Contributor name="mrBG" email="bg31688@mail.ru">
+			<Contributor name="Talyan" email="astrezh@list.ru"/>
+				</Contributors/>
+			</Contributor>
+		</Contributors>
+	</ru-RU>
+</Languages>

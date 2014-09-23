@@ -1,0 +1,34 @@
+<Languages version="0.2">
+	<pt-PT en_name="Portuguese" icon="pt.png" date="2010-09-28" version="1.0" name="Português">
+		<Main>
+			<CommandButtons>
+				<CloseApps_Caption>&amp;Fechar as aplicações portáteis</CloseApps_Caption>
+				<Close_Caption>C&amp;ancelar</Close_Caption>
+			</CommandButtons>
+		</Main>
+		<Messages>
+			<Closing>A fechar aplicações...</Closing>
+			<CloseFailed>A aplicação ainda está em execução.\nFeche-a manualmente ou force-a a encerrar.</CloseFailed>
+			<ForceFailed>Erro durante a tentativa de encerramento forçado</ForceFailed>
+			<AppsCloseCanceled>Encerramento das aplicações cancelado</AppsCloseCanceled>
+			<ContinueClose>Gostaria de continuar com o encerramento de outras aplicações?</ContinueClose>
+		</Messages>
+		<Closing>
+			<caption>A encerrar aplicações do LiberKey</caption>
+			<CommandButtons>
+				<Cancel_Caption>&amp;Cancelar</Cancel_Caption>
+				<Terminate_Caption>&amp;Forçar Encerramento</Terminate_Caption>
+				<Retry_Caption>&amp;Tentar Novamente</Retry_Caption>
+			</CommandButtons>
+		</Closing>
+		<Debug>
+			<caption>Informações sobre janelas de aplicativos detectados</caption>
+		</Debug>
+		<Message>
+			<KillWarning>Atenção!\n\nForçar o encerramento de um aplicativo pode afectar os seus dados.\nPor isso, é preferível deixar o aplicativo fechar normalmente.\n\nTem certeza de que deseja forçar o encerramento deste programa?</KillWarning>
+		</Message>
+		<Contributors>
+			<Contributor name="Ricardo Figueiredo" email="rfigueiredo@live.com.pt" website="rfigueiredo.webnode.pt"/>
+		</Contributors>
+	</pt-PT>
+</Languages>

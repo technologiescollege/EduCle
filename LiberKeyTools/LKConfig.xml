@@ -1,0 +1,21 @@
+<LKConfig version="0.1">
+	<Language file="LKConfig_lng.xml">fr</Language>
+	<PictFolder>images</PictFolder>
+	<LKUser>
+		<User/>
+	</LKUser>
+	<Proxy>
+		<Enabled>0</Enabled>
+		<Host>proxy</Host>
+		<Port>3128</Port>
+		<User>techno</User>
+		<Password>r9R6WgitpEoEV+usTYB+N4eAIabCwCLE</Password>
+	</Proxy>
+	<Setup>
+		<FileAssocSetupMode>always</FileAssocSetupMode>
+	</Setup>
+	<Update>
+		<AutoStart>0</AutoStart>
+		<BatchMode>1</BatchMode>
+	</Update>
+</LKConfig>

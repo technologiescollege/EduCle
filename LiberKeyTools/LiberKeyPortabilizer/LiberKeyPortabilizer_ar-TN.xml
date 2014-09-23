@@ -1,0 +1,94 @@
+<Languages version="0.2">
+	<ar-TN en_name="Arabic" icon="tn.png" date="2011-04-06" version="0.5" name="العربية">
+		<Messages>
+			<AppAlreadyRunning>.هو قيد التشغيل بالفعل. الرجاء إغلاق التطبيق الأخر قبل تشغيل هذا التطبيق %appname%</AppAlreadyRunning>
+			<DefaultTitle>%appname% LiberKey الإصدار المحمول</DefaultTitle>
+			<OtherInstanceStarted>!تحذير\n\n. في حين أن النسخة المحمولة قيد التشغيل %appname% لقد شغلت للتو \n.الرجاء إغلاق النسخة غير المحمولة قبل محاولة تشغيل النسخة المحمولة</OtherInstanceStarted>
+			<Errors>
+				<AppInfoFileNotFound>.ملف المعلومات الخاص بالتطبيق المحمول  مفقود</AppInfoFileNotFound>
+				<ExeNotFound>.لم يتم العثور على البرنامج التنفيذي</ExeNotFound>
+				<ApplyContextError>.تعذر إعداد سياق التنفيذ للتطبيق المحمول\n\n.الرجاء إغلاق كافة النوافذ المفتوحة و تشغيل التطبيق مرة أخرى</ApplyContextError>
+				<DependencyMissing>.%depend% لكي يعمل,هذا البرنامج بحاجة لتثبيت</DependencyMissing>
+				<InvalidRetoreData>.هي تالفة %appname% البيانات المستعادة ل\n.لا يمكن إستعادة برمجة هذا التطبيق</InvalidRetoreData>
+				<CrashRestore>. أثناء آخر تشغيل له Liberkey Portabilizer  لقد تم إيقاف</CrashRestore>
+				<CrashInfo>.كانت التطبيقات التالية قيد التشغيل\n. و برمجة جهازالكمبيوتر الخاص بك لا يمكن إستعادتها Liberkey لقد تعذر حفظ برمجتها في </CrashInfo>
+				<NeedUpdate>.لتشغيل هذا التطبيق Liberkey Portabilizer يجب أن يتم تحديث \nwww.liberkey.com بإمكانك تنزيله مجانا من\n\nالآن؟ www.liberkey.com هل تريد الذهاب إلى</NeedUpdate>
+				<NeedLbkUpdate>. لتشغيل هذا التطبيق Liberkeyيجب أن يتم تحديث ال  \n\n.Liberkeyبعد تطبيق أحدث تصحيح لل %app% يمكنك استخدام التطبيق</NeedLbkUpdate>
+				<CrashRestoreElevatedApps>. كمسؤول Liberkey Portabilizer تم تشغيل التطبيقات بصفة المسؤول كما لا يمكن أن تستعاد البرمجة .للقيام بذلك،يجب تشغيل   \nهل تريد استعادة هذه التطبيقات الآن؟</CrashRestoreElevatedApps>
+				<SingleUserApp>. تم إطلاقه من قبل مستخدم آخر &quot;%app_name%&quot; التطبيق\n\n&quot;%user%&quot;: المستعمل\n&quot;%session%&quot;: الدورة\n\n.لايمكن لنفس التطبيق أن يشغل من قبل مستخدمين إثنين في ان واحد</SingleUserApp>
+			</Errors>
+			<LbkPortabilizerInfo>.Liberkeyهذا البرنامج يمكن من جعل التطبيقات محمولة,وهو برنامج أساسي لكافة التطبيقات الموجودة في ال\n\nلمزيد من المعلومات، يرجى زيارة \nwww.liberkey.com</LbkPortabilizerInfo>
+			<RestoreNeedLBK>!تحذير\n\n.لم يتم العثور على واحد أو أكثر من التطبيقات\n\n\n.إيقاف&quot;:لن يتم إجراء أي عملية في هذا الوقت&quot;-\n\nتجاهل&quot;:سوف يتم إستعادة برمجة جهاز الكمبيوتر الخاص بك. لكن,قد تفقد &quot;-\n.برمجية البرامج المحمولة الخاصة بك\n\n.&quot;صله بالكمبيوتر وأنقر فوق &quot;إعادة المحاولة ,USBإعادة المحاولة&quot;:إذا كانت التطبيقات المحمولة الخاصة بك على قرص ال&quot;-\n</RestoreNeedLBK>
+			<SessionEndWarning>.التطبيقات المحمولة لا تزال مفتوحة\n.نوصي بإغلاق كافة التطبيقات المفتوحة قبل محاولة إيقاف أو تسجيل الخروج الكمبيوتر</SessionEndWarning>
+			<Yes>نعم</Yes>
+			<No>لا</No>
+		</Messages>
+		<Main>
+			<CommandButtons>
+				<OK_Caption>&amp;حسن</OK_Caption>
+			</CommandButtons>
+			<Labels>
+				<PortabilizerInfo_Caption>التطبيقات قيد التشغيل حاليا:</PortabilizerInfo_Caption>
+			</Labels>
+		</Main>
+		<CrashRestore>
+			<CommandButtons>
+				<Restore_Caption>استعادة البرمجة</Restore_Caption>
+			</CommandButtons>
+			<Labels>
+				<Info_Caption>.كانت التطبيقات التالية قيد التشغيل\n. ولا يمكن استعادة برمجة الكمبيوتر ,Liberkey لم يتسن حفظ برمجتها في</Info_Caption>
+				<Title_Caption>. انقطع فجأة عند آخر تشغيل له LiberKey Portabilizer</Title_Caption>
+			</Labels>
+		</CrashRestore>
+		<Warning>
+			<CommandButtons>
+				<Info_Caption>...معلومات</Info_Caption>
+				<OK_Caption>&amp;حسن</OK_Caption>
+			</CommandButtons>
+			<Status>
+				<UserName>المستخدم:</UserName>
+				<UserAdmin>المشرف:</UserAdmin>
+				<UserElevated>Elevated:</UserElevated>
+				<UserSession>دورة:</UserSession>
+			</Status>
+		</Warning>
+		<Cmds>
+			<OK>حسن</OK>
+			<Info>...معلومات</Info>
+		</Cmds>
+		<UpdateAvailable>
+			<caption>تحديث متاح</caption>
+			<CheckBoxs>
+				<NoMoreAlert_Caption>لا تظهر هذا التحديث</NoMoreAlert_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Cancel_Caption>&amp;بدء البرنامج من دون تحديثه</Cancel_Caption>
+				<Install_Caption>&amp;تنزيل وتثبيت التحديث</Install_Caption>
+			</CommandButtons>
+			<Labels>
+				<Version_Caption>%version%  إصدار</Version_Caption>
+				<AppUpdateAvailable_Caption>. الخاصة بك Liberkeyنسخة جديدة من هذا البرنامج هي متاحة لل</AppUpdateAvailable_Caption>
+			</Labels>
+		</UpdateAvailable>
+		<License>
+			<caption>%appname% ترخيص</caption>
+			<Labels>
+				<LicenseTitle_Caption>. الرجاء القراءة قبل المتابعة . %appname%  هذا الترخيص يحدد شروط استخدام</LicenseTitle_Caption>
+				<LicenseAgreeTitle_Caption>%appname% يجب عليك القبول بشروط الترخيص هذه قبل أن تتمكن من استخدام</LicenseAgreeTitle_Caption>
+				<License_Caption>ترخيص</License_Caption>
+				<AccetInformation_Caption>.هام : عن طريق التحقق من الاختيار أدناه والنقر على موافق، أنت تقبل بشروط الترخيص هذه و توافق على الالتزام بها والامتثال لها\n.انقر فوق &apos;السهم إلى الأسفل&apos; رمز لرؤية بقية الترخيص</AccetInformation_Caption>
+			</Labels>
+			<CommandButtons>
+				<Accept_Caption>موافق</Accept_Caption>
+				<Cancel_Caption>ألغي</Cancel_Caption>
+				<OK_Caption>حسن</OK_Caption>
+			</CommandButtons>
+			<CheckBoxs>
+				<Accept_Caption>أقبل وأوافق على الالتزام بشروط الترخيص</Accept_Caption>
+			</CheckBoxs>
+		</License>
+		<Contributors>
+			<Contributor name="Trabelsi Youssef" email="djoe.coool@gmail.com"/>
+		</Contributors>
+	</ar-TN>
+</Languages>

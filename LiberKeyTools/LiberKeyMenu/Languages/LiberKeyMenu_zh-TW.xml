@@ -1,0 +1,927 @@
+<Languages version="0.4">
+	<zh-TW en_name="Chinese Traditional" icon="tw.png" date="2012-05-19" version="0.14" name="中文繁體">
+		<AppCategories>
+			<accessibility>無障礙</accessibility>
+			<audio>音樂</audio>
+			<audio:converter>格式轉換</audio:converter>
+			<audio:editor>音頻編輯</audio:editor>
+			<audio:ipod_manager>iPod 管理</audio:ipod_manager>
+			<audio:player>音樂播放</audio:player>
+			<audio:radio>收音機</audio:radio>
+			<audio:ripper>音頻分割</audio:ripper>
+			<audio:tagger>標籤</audio:tagger>
+			<audio:text_to_speech>TTS文字轉語音</audio:text_to_speech>
+			<audio:tools>工具</audio:tools>
+			<audio-video>音樂 - 視頻</audio-video>
+			<cd-dvd>CD - DVD</cd-dvd>
+			<cd-dvd:burning_tools>刻錄工具</cd-dvd:burning_tools>
+			<cd-dvd:cover_printer>封面列印</cd-dvd:cover_printer>
+			<cd-dvd:image_tools>鏡像工具</cd-dvd:image_tools>
+			<development>開發</development>
+			<education>教育</education>
+			<education:astronomy>天文</education:astronomy>
+			<education:children>兒童</education:children>
+			<education:drawing>繪畫</education:drawing>
+			<education:geography>地理</education:geography>
+			<education:music>音樂</education:music>
+			<education:typing>打字</education:typing>
+			<file_management>檔案管理</file_management>
+			<file_management:backup>備份</file_management:backup>
+			<file_management:cataloger>檔案分類別</file_management:cataloger>
+			<file_management:comparison>比較</file_management:comparison>
+			<file_management:compression>壓縮</file_management:compression>
+			<file_management:copy>複製</file_management:copy>
+			<file_management:defragmenter>碎片整理</file_management:defragmenter>
+			<file_management:directory_lister>檔案清單</file_management:directory_lister>
+			<file_management:disk_space_tool>磁盤空間工具</file_management:disk_space_tool>
+			<file_management:duplicate_finder>重複檔案搜尋</file_management:duplicate_finder>
+			<file_management:manager>管理器</file_management:manager>
+			<file_management:recovery>檔案還原</file_management:recovery>
+			<file_management:renamer>重新命名工具</file_management:renamer>
+			<file_management:search>搜索</file_management:search>
+			<file_management:splitter>分割</file_management:splitter>
+			<file_management:synchronization>同步</file_management:synchronization>
+			<file_management:tools>工具</file_management:tools>
+			<file_management:universal_viewer>通用檢視器</file_management:universal_viewer>
+			<games>遊戲</games>
+			<games:action>動作</games:action>
+			<games:card>接龍</games:card>
+			<games:puzzle>益智</games:puzzle>
+			<games:reflexion>模擬</games:reflexion>
+			<games:strategy>策略</games:strategy>
+			<graphics-photo>圖形圖像</graphics-photo>
+			<graphics-photo:3d>3D</graphics-photo:3d>
+			<graphics-photo:color_picker>顏色選取</graphics-photo:color_picker>
+			<graphics-photo:editor>編輯</graphics-photo:editor>
+			<graphics-photo:effect_and_filter>特效和濾鏡</graphics-photo:effect_and_filter>
+			<graphics-photo:icon_editor>圖示編輯</graphics-photo:icon_editor>
+			<graphics-photo:screen_capture>截圖</graphics-photo:screen_capture>
+			<graphics-photo:tools>工具</graphics-photo:tools>
+			<graphics-photo:vector_converter>矢量轉換</graphics-photo:vector_converter>
+			<graphics-photo:viewer>圖片檢視</graphics-photo:viewer>
+			<internet>網路應用</internet>
+			<internet:bookmark_manager>書籤管理</internet:bookmark_manager>
+			<internet:browser>瀏覽器</internet:browser>
+			<internet:download>下載</internet:download>
+			<internet:email>郵件</internet:email>
+			<internet:ftp>FTP</internet:ftp>
+			<internet:instant_messenger>聊天</internet:instant_messenger>
+			<internet:rss_reader>RSS 閱讀器</internet:rss_reader>
+			<internet:website_authoring>網站製作</internet:website_authoring>
+			<internet:website_copier>網站下載</internet:website_copier>
+			<multimedia>多媒體</multimedia>
+			<networking-server>網路管理</networking-server>
+			<networking-server:bandwidth_monitor>資料流量監控</networking-server:bandwidth_monitor>
+			<networking-server:configuration>設定</networking-server:configuration>
+			<networking-server:network_analyzer>網路分析</networking-server:network_analyzer>
+			<networking-server:remote_control>遠端控制</networking-server:remote_control>
+			<networking-server:scanner>網路掃瞄</networking-server:scanner>
+			<networking-server:server>伺服器</networking-server:server>
+			<networking-server:settings_manager>設定管理</networking-server:settings_manager>
+			<networking-server:telnet-ssh_client>遠端-SSH client</networking-server:telnet-ssh_client>
+			<networking-server:tools>工具</networking-server:tools>
+			<office>辦公</office>
+			<office:calculator>小算盤</office:calculator>
+			<office:calendar>日程</office:calendar>
+			<office:chrono>計時器</office:chrono>
+			<office:desktop_tools>桌面工具</office:desktop_tools>
+			<office:desktop_tools:application_launcher>程式啟動</office:desktop_tools:application_launcher>
+			<office:desktop_tools:automation>自動控制</office:desktop_tools:automation>
+			<office:desktop_tools:clipboard_manager>剪貼簿管理</office:desktop_tools:clipboard_manager>
+			<office:desktop_tools:clock>時鐘</office:desktop_tools:clock>
+			<office:desktop_tools:customization>定制</office:desktop_tools:customization>
+			<office:desktop_tools:desktop_note>桌面自黏便箋</office:desktop_tools:desktop_note>
+			<office:desktop_tools:keyboard-mouse>鍵盤滑鼠</office:desktop_tools:keyboard-mouse>
+			<office:desktop_tools:save_desktop_icon>儲存桌面圖示</office:desktop_tools:save_desktop_icon>
+			<office:desktop_tools:virtual_desktop>虛擬桌面</office:desktop_tools:virtual_desktop>
+			<office:desktop_tools:zoom>縮放</office:desktop_tools:zoom>
+			<office:diagram_editor>圖表編輯</office:diagram_editor>
+			<office:finance_manager>財務管理</office:finance_manager>
+			<office:font_manager>字體管理</office:font_manager>
+			<office:note_manager>筆記管理</office:note_manager>
+			<office:office_suite>辦公套件</office:office_suite>
+			<office:pdf>PDF</office:pdf>
+			<office:presentation>投影片</office:presentation>
+			<office:task_manager>工作管理</office:task_manager>
+			<office:text_editor>文字編輯</office:text_editor>
+			<office:tutorial_creator>屏幕錄像</office:tutorial_creator>
+			<office:unit_converter>單位轉換</office:unit_converter>
+			<office:universal_viewer>通用檢視器</office:universal_viewer>
+			<security>安全</security>
+			<security:anti_virus-spyware>安全殺毒</security:anti_virus-spyware>
+			<security:encryption>加密</security:encryption>
+			<security:integrity_checker>檔案效驗</security:integrity_checker>
+			<security:password_manager>密碼管理</security:password_manager>
+			<security:privacy_tool>隱私工具</security:privacy_tool>
+			<security:secure_deletion>徹底刪除</security:secure_deletion>
+			<security:tools>工具</security:tools>
+			<system_utilities>系統工具</system_utilities>
+			<system_utilities:benchmark>性能評測</system_utilities:benchmark>
+			<system_utilities:benchmark:hard_disk>硬盤</system_utilities:benchmark:hard_disk>
+			<system_utilities:benchmark:universal>通用</system_utilities:benchmark:universal>
+			<system_utilities:cleaner-uninstaller>垃圾清理和移除</system_utilities:cleaner-uninstaller>
+			<system_utilities:emulator>虛擬機</system_utilities:emulator>
+			<system_utilities:hex_editor>16進位編輯</system_utilities:hex_editor>
+			<system_utilities:information>電腦偵測</system_utilities:information>
+			<system_utilities:information:file_monitoring>檔案監控</system_utilities:information:file_monitoring>
+			<system_utilities:information:hardware_monitoring>硬件監控</system_utilities:information:hardware_monitoring>
+			<system_utilities:information:inventory>硬件報告</system_utilities:information:inventory>
+			<system_utilities:information:process>進程</system_utilities:information:process>
+			<system_utilities:information:processor>處理器</system_utilities:information:processor>
+			<system_utilities:information:service>服務</system_utilities:information:service>
+			<system_utilities:information:startup_manager>啟動管理</system_utilities:information:startup_manager>
+			<system_utilities:information:usb_device>USB 設備</system_utilities:information:usb_device>
+			<system_utilities:information:video_card>顯卡</system_utilities:information:video_card>
+			<system_utilities:registry>註冊表</system_utilities:registry>
+			<system_utilities:registry:backup>備份</system_utilities:registry:backup>
+			<system_utilities:registry:comparison>比較</system_utilities:registry:comparison>
+			<system_utilities:registry:compression>壓縮</system_utilities:registry:compression>
+			<system_utilities:registry:monitoring>監控</system_utilities:registry:monitoring>
+			<system_utilities:registry:repair>修復</system_utilities:registry:repair>
+			<system_utilities:registry:search>搜索</system_utilities:registry:search>
+			<system_utilities:repair>分區修復</system_utilities:repair>
+			<system_utilities:tests>測試</system_utilities:tests>
+			<system_utilities:tests:burning_test>穩定測試</system_utilities:tests:burning_test>
+			<system_utilities:tests:hard_disk>硬盤</system_utilities:tests:hard_disk>
+			<system_utilities:tests:monitor>顯示器</system_utilities:tests:monitor>
+			<system_utilities:tests:ram>記憶體</system_utilities:tests:ram>
+			<system_utilities:tools>工具</system_utilities:tools>
+			<system_utilities:tweaker>系統調校</system_utilities:tweaker>
+			<system_utilities:update_checker>檢查更新</system_utilities:update_checker>
+			<video>視頻</video>
+			<video:authoring>創作</video:authoring>
+			<video:capture>採集</video:capture>
+			<video:cataloger>分類別</video:cataloger>
+			<video:converter>格式轉換</video:converter>
+			<video:editor>視頻編輯</video:editor>
+			<video:player>播放器</video:player>
+			<video:repair>修復</video:repair>
+			<video:tools>工具</video:tools>
+		</AppCategories>
+		<AppInfo>
+			<CheckBoxs>
+				<AutoShowInfo_Caption>自動顯示簡介</AutoShowInfo_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<AppGoToWebSite_ToolTip>檢視作者網站</AppGoToWebSite_ToolTip>
+				<AppInstall_Caption>立即安裝！</AppInstall_Caption>
+				<AppOpenLicenseFile_ToolTip>檢視軟體許可</AppOpenLicenseFile_ToolTip>
+				<AppProperties_Caption>屬性...</AppProperties_Caption>
+				<AppRun_Caption>執行</AppRun_Caption>
+				<AppUpdate_Caption>可以更新..</AppUpdate_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppEditorLabel_Caption>作者: </AppEditorLabel_Caption>
+				<AppLicenseLabel_Caption>許可:</AppLicenseLabel_Caption>
+				<AppPlatformLabel_Caption>平台: </AppPlatformLabel_Caption>
+			</Labels>
+		</AppInfo>
+		<AppList>
+			<CommandButtons>
+				<AddApp_Caption>新增應用程式</AddApp_Caption>
+				<AddApps_Caption>新增應用程式</AddApps_Caption>
+				<AddApps_ToolTip>點擊此處可以新增新應用程式到您的 LiberKey</AddApps_ToolTip>
+				<Browse_ToolTip>開啟應用程式資料夾</Browse_ToolTip>
+				<Cancel_Caption>關閉</Cancel_Caption>
+				<Reinstall_Caption>重新安裝</Reinstall_Caption>
+				<Reinstall_ToolTip>重新安裝應用程式可以重新建立LiberKey選單中的預設捷徑，重新載入應用程式的訊息，並重新申請臨時檔案關聯。</Reinstall_ToolTip>
+				<Uninstall_Caption>移除</Uninstall_Caption>
+				<Uninstall_ToolTip>點擊這裡將從您的LiberKey移除此應用程式。 任何有關此程式的訊息將被刪除，包括LiberKey選單圖示、簡介訊息、臨時檔案關聯、應用程式本身和其他相關資料。</Uninstall_ToolTip>
+			</CommandButtons>
+			<Labels>
+				<AppNameLabel_Caption>應用程式名稱</AppNameLabel_Caption>
+				<FolderSizeLabel_Caption>0 KB</FolderSizeLabel_Caption>
+				<Title_Caption>應用程式管理器</Title_Caption>
+			</Labels>
+			<Messages>
+				<Loading>讀取清單...</Loading>
+			</Messages>
+		</AppList>
+		<AppProperties>
+			<AutoRunMode>
+				<Never>從不</Never>
+				<ShutDown>結束LiberKey時總是執行</ShutDown>
+				<ShutDownSingle>結束LiberKey時（如果此程式沒有執行）</ShutDownSingle>
+				<Startup>啟動LiberKey時總是執行</Startup>
+				<StartupSingle>啟動LiberKey時（如果此程式沒有執行）</StartupSingle>
+			</AutoRunMode>
+			<CommandButtons>
+				<AppGoToWebSite_Caption>檢視網站</AppGoToWebSite_Caption>
+				<ApplyChanges_Caption>套用</ApplyChanges_Caption>
+				<AppOpenLicenseFile_Caption>瀏覽許可</AppOpenLicenseFile_Caption>
+				<AppUninstall_Caption>點擊這裡移除此應用程式</AppUninstall_Caption>
+				<AppUninstall_ToolTip>點擊這裡將從您的LiberKey移除此應用程式。 任何有關此程式的訊息將被刪除，包括LiberKey選單圖示、簡介訊息、臨時檔案關聯、應用程式本身和其他相關資料。</AppUninstall_ToolTip>
+				<AppUpdate_Caption>更新...</AppUpdate_Caption>
+				<Cancel_Caption>取消</Cancel_Caption>
+			</CommandButtons>
+			<FileSources>連結類型</FileSources>
+			<Labels>
+				<AppDescriptionLabel_Caption>應用簡介:</AppDescriptionLabel_Caption>
+				<AppEditorLabel_Caption>作者:</AppEditorLabel_Caption>
+				<AppIconLabel_Caption>自訂圖示:</AppIconLabel_Caption>
+				<AppLicenseLabel_Caption>許可:</AppLicenseLabel_Caption>
+				<AppNameLabel_Caption>名稱:</AppNameLabel_Caption>
+				<AppParamsLabel_Caption>命令列參數:</AppParamsLabel_Caption>
+				<AppPathLabel_Caption>檔案路徑 / 資料夾 / 網址 / 文件 :</AppPathLabel_Caption>
+				<AppPlatformLabel_Caption>平台:</AppPlatformLabel_Caption>
+				<AppVersionLabel_Caption>版本:</AppVersionLabel_Caption>
+				<AppWorkDirLabel_Caption>工作目錄:</AppWorkDirLabel_Caption>
+				<Title_Caption>軟體屬性</Title_Caption>
+			</Labels>
+			<Messages>
+				<BrowseForExe>選取應用程式的可執行檔案:</BrowseForExe>
+				<BrowseForFileToOpen>選取檔案開啟:</BrowseForFileToOpen>
+				<BrowseForLicense>選取改程式的許可檔案:</BrowseForLicense>
+				<ClearLisenseFile>刪除許可檔案連結</ClearLisenseFile>
+				<ClearWebAddress>刪除網站連結</ClearWebAddress>
+				<SelectAppWorkDir>選取應用程式的工作目錄</SelectAppWorkDir>
+				<SetLicenseAddr>進入檢視該應用程式的網上許可:</SetLicenseAddr>
+				<SetWebSiteAddr>進入該應用程式的網上編輯器:</SetWebSiteAddr>
+			</Messages>
+			<Tabs>
+				<Application>應用程式</Application>
+				<AppMore>進階</AppMore>
+			</Tabs>
+			<WindowStartMode>
+				<Maximized>最大化</Maximized>
+				<Minimized>最小化</Minimized>
+				<Normal>普通視窗</Normal>
+			</WindowStartMode>
+		</AppProperties>
+		<CategoryProps>
+			<CheckBoxs>
+				<EditLiberKeyCategory_Caption>重新命名 LiberKey 分類別</EditLiberKeyCategory_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Apply_Caption>確定</Apply_Caption>
+				<Cancel_Caption>取消</Cancel_Caption>
+			</CommandButtons>
+			<Labels>
+				<CategoryHotKey_Caption>便捷鍵 (浮動選單):</CategoryHotKey_Caption>
+				<CatIconLabel_Caption>分類別圖示:</CatIconLabel_Caption>
+				<CatNameLabel_Caption>分類別名稱:</CatNameLabel_Caption>
+				<Title_Caption>分類別屬性:</Title_Caption>
+			</Labels>
+		</CategoryProps>
+		<Config>
+			<About>
+				<Version>版本 %ver%</Version>
+			</About>
+			<CheckBoxs>
+				<AppHotKeysMemoPopup_Caption>啟動應用程式前顯示提醒</AppHotKeysMemoPopup_Caption>
+				<AutoCloseApps_Caption>關閉LiberKey選單時，自動關閉所有正在執行的軟體</AutoCloseApps_Caption>
+				<AutoCollapseOnHide_Caption>隱藏LiberKey選單時，自動返回到選單根目錄</AutoCollapseOnHide_Caption>
+				<AutoHideMenuOnAppRun_Caption>執行應用程式時自動隱藏LiberKey選單</AutoHideMenuOnAppRun_Caption>
+				<AutoRemoveDrive_Caption>關閉LiberKey選單時，自動中斷可移動設備（U盤）</AutoRemoveDrive_Caption>
+				<AutoRunLiberKey_Caption>開機自動執行 LiberKey</AutoRunLiberKey_Caption>
+				<AutoShowAppInfo_Caption>檢視應用程式訊息</AutoShowAppInfo_Caption>
+				<ConfirmCategoryDeletion_Caption>刪除軟體分類別時需確認</ConfirmCategoryDeletion_Caption>
+				<ConfirmShortcutDeletion_Caption>刪除捷徑時需確認</ConfirmShortcutDeletion_Caption>
+				<CreateTempSendToShortcut_Caption>建立 &quot;傳送到 / 我的可攜式文件&quot; 臨時捷徑</CreateTempSendToShortcut_Caption>
+				<DisableAllEffects_Caption>禁用所有動畫效果</DisableAllEffects_Caption>
+				<DisableControlsEffects_Caption>禁用介面動畫</DisableControlsEffects_Caption>
+				<DisableDialogsEffects_Caption>禁用對話方塊動畫</DisableDialogsEffects_Caption>
+				<DisableMenuEffects_Caption>禁用選單動畫</DisableMenuEffects_Caption>
+				<DisplayClock_Caption>顯示時鐘</DisplayClock_Caption>
+				<DontShowEmptyDesc_Caption>訊息是空的時不檢視</DontShowEmptyDesc_Caption>
+				<EnableAppHotKeys_Caption>使用鍵盤便捷鍵來啟動程式</EnableAppHotKeys_Caption>
+				<EnableAppsAutoStart_Caption>允許自動執行</EnableAppsAutoStart_Caption>
+				<HideClockSeconds_Caption>隱藏秒針</HideClockSeconds_Caption>
+				<HotKeyFloatMenu_Caption>浮動選單 :</HotKeyFloatMenu_Caption>
+				<HotKeyMain_Caption>主選單 :</HotKeyMain_Caption>
+				<SingleClicAppRun_Caption>點擊執行程式，否則需要雙擊</SingleClicAppRun_Caption>
+				<SingleClicCategoryExpand_Caption>點擊展開分類別，否則需要雙擊</SingleClicCategoryExpand_Caption>
+				<ToolsAutoOpenLiberKeyNews_Caption>收到最新訊息時自動開啟</ToolsAutoOpenLiberKeyNews_Caption>
+				<ToolsCheckAppUpdates_Caption>應用程式自動更新</ToolsCheckAppUpdates_Caption>
+				<ToolsCheckLBKUpdates_Caption>LiberKey 自動更新</ToolsCheckLBKUpdates_Caption>
+				<ToolsCheckLiberKeyNews_Caption>最新訊息（新聞）</ToolsCheckLiberKeyNews_Caption>
+				<ToolsDoOnlineChecks_Caption>啟用自動更新</ToolsDoOnlineChecks_Caption>
+				<ToolsQuitKFA_Caption>關閉LiberKey選單時自動禁用檔案關聯</ToolsQuitKFA_Caption>
+				<ToolsQuitPDS_Caption>關閉LiberKer選單時自動刪除可攜式捷徑</ToolsQuitPDS_Caption>
+				<ToolsStartKFA_Caption>啟動LiberKey選單時自動開啟檔案關聯</ToolsStartKFA_Caption>
+				<ToolsStartPDS_Caption>啟動LiberKey選單時自動新增可攜式捷徑</ToolsStartPDS_Caption>
+				<UseClearTypeFonts_Caption>使用 ClearType (字體平滑技術) 顯示螢幕字體</UseClearTypeFonts_Caption>
+				<UseMenuAppsAssoc_Caption>使用 LiberKey 關聯所有檔案</UseMenuAppsAssoc_Caption>
+				<UseProxy_Caption>使用代理伺服器來訪問 Internet:</UseProxy_Caption>
+				<VoiceOver_Caption>滑鼠懸停於文字上時自動朗讀</VoiceOver_Caption>
+				<WindowZoom_Caption>啟用自動放大視窗</WindowZoom_Caption>
+				<ZoomMenuFont_Caption>變更浮動選單字體</ZoomMenuFont_Caption>
+				<ZoomMenuFontAntialias_Caption>消除鋸齒</ZoomMenuFontAntialias_Caption>
+				<ZoomMenuFontBold_Caption>加粗</ZoomMenuFontBold_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<ApplyChanges_Caption>套用</ApplyChanges_Caption>
+				<AutoRunDown_ToolTip>下移</AutoRunDown_ToolTip>
+				<AutoRunLocate_ToolTip>在LiberKey選單中定位此捷徑</AutoRunLocate_ToolTip>
+				<AutoRunProperties_ToolTip>捷徑屬性</AutoRunProperties_ToolTip>
+				<AutoRunRemove_ToolTip>從自動執行清單裡移除</AutoRunRemove_ToolTip>
+				<AutoRunUp_ToolTip>上移</AutoRunUp_ToolTip>
+				<Cancel_Caption>關閉</Cancel_Caption>
+				<CopyTechnicalInfo_Caption>複製技術訊息到剪貼簿</CopyTechnicalInfo_Caption>
+				<CreateAccount_Caption>點擊此處免費建立帳號 !</CreateAccount_Caption>
+				<KBSCRemove_ToolTip>移除此便捷鍵</KBSCRemove_ToolTip>
+				<SendTechnicalInfo_Caption>傳送</SendTechnicalInfo_Caption>
+			</CommandButtons>
+			<Labels>
+				<AccessibilityInfo_Caption>調整輔助功能選項</AccessibilityInfo_Caption>
+				<Animations_Caption>動畫效果</Animations_Caption>
+				<AppHotKeysMemoPopupDuration_Caption>提醒展示時長 (秒):</AppHotKeysMemoPopupDuration_Caption>
+				<AppSetupInfo_Caption>設定 LiberKey 軟體安裝程式。</AppSetupInfo_Caption>
+				<AppUpdateInfo_Caption>設定 LiberKey 軟體更新系統。</AppUpdateInfo_Caption>
+				<AutoCheckOptions_Caption>自動檢查更新</AutoCheckOptions_Caption>
+				<AutoRunDelay_Caption>等待多長時間開始自動執行 (秒):</AutoRunDelay_Caption>
+				<AutoRunEachDelay_Caption>每次自動執行之間間隔時間 (秒):</AutoRunEachDelay_Caption>
+				<AutorunInfo_Caption>管理在LiberKey啟動或者關閉時自動執行的程式。</AutorunInfo_Caption>
+				<ClearTypeRestart_Caption>(需要重新啟動LiberKey選單)</ClearTypeRestart_Caption>
+				<ColorsInfo_Caption>選單和表單的主要顏色</ColorsInfo_Caption>
+				<Confirmations_Caption>確認設定</Confirmations_Caption>
+				<CreateAccountLabel_Caption>還沒有帳號嗎？</CreateAccountLabel_Caption>
+				<CustomBrightnessLabel_Caption>亮度</CustomBrightnessLabel_Caption>
+				<CustomColorInfo_Caption>自訂顏色外觀</CustomColorInfo_Caption>
+				<CustomHueRotationLabel_Caption>色調</CustomHueRotationLabel_Caption>
+				<CustomSaturationLabel_Caption>飽和度</CustomSaturationLabel_Caption>
+				<DefaultEffectSet>預設效果</DefaultEffectSet>
+				<EffectSetLabel_Caption>效果設定 :</EffectSetLabel_Caption>
+				<FileAssocUpdatesOnlyInfo_Caption>只適用於新安裝的應用程式，更新應用時不會修改檔案關聯。</FileAssocUpdatesOnlyInfo_Caption>
+				<Fonts_Caption>字體</Fonts_Caption>
+				<Gadgets_Caption>小工具</Gadgets_Caption>
+				<KeyboardShortcutsInfo_Caption>使用鍵盤便捷鍵啟動的的 LiberKey 應用清單</KeyboardShortcutsInfo_Caption>
+				<KFAoptions_Caption>為可攜式軟體設定檔案關聯</KFAoptions_Caption>
+				<LangAuthorEmailLabel_Caption>郵箱:</LangAuthorEmailLabel_Caption>
+				<LangAuthorNameLabel_Caption>作者:</LangAuthorNameLabel_Caption>
+				<LangAuthorWebsiteLabel_Caption>網站:</LangAuthorWebsiteLabel_Caption>
+				<LangContributors_Caption>貢獻者：</LangContributors_Caption>
+				<LangContributorsLabel_Caption>貢獻者：</LangContributorsLabel_Caption>
+				<LanguagesInfo_Caption>請選取語言:</LanguagesInfo_Caption>
+				<LangVersionLabel_Caption>版本:</LangVersionLabel_Caption>
+				<MaxRecentCount_Caption>儲存最近使用的軟體數量:</MaxRecentCount_Caption>
+				<MaxVisibleMostUsed_Caption>儲存 「常用軟體」 的數量:</MaxVisibleMostUsed_Caption>
+				<MenuAccess_Caption>LiberKey 選單開啟方式</MenuAccess_Caption>
+				<MenuDelay_Caption>展開選單的延遲時間 :</MenuDelay_Caption>
+				<MenuDelayMS_Caption>毫秒（1秒=1000毫秒）</MenuDelayMS_Caption>
+				<MenuIconActions_Caption>系統托盤圖示 :</MenuIconActions_Caption>
+				<MenuKeyboardShortcuts_Caption>鍵盤快速啟動 :</MenuKeyboardShortcuts_Caption>
+				<Misc_Caption>雜項</Misc_Caption>
+				<Navigation_Caption>導航</Navigation_Caption>
+				<NeverUpdateFileAssocInfo_Caption>安裝或更新應用程式時都不會修改檔案關聯。</NeverUpdateFileAssocInfo_Caption>
+				<NotificationsOptions_Caption>訊息提醒</NotificationsOptions_Caption>
+				<Password_Caption>密碼 :</Password_Caption>
+				<PDSoptions_Caption>可攜式桌面捷徑</PDSoptions_Caption>
+				<PlatformVersionInfo_Caption>LiberKey論壇的技術支援小組可能會需要此處的技術訊息，直接點擊下方的「複製技術訊息」按鈕進行複製。</PlatformVersionInfo_Caption>
+				<ProxyHost_Caption>主機名 / IP 位址:</ProxyHost_Caption>
+				<ProxyInfo_Caption>如果您需要通過代理伺服器訪問乙太網路，請在下方設定網路連接：</ProxyInfo_Caption>
+				<ProxyPassword_Caption>密碼 :</ProxyPassword_Caption>
+				<ProxyPort_Caption>通訊埠 :</ProxyPort_Caption>
+				<ProxyUser_Caption>使用者名 :</ProxyUser_Caption>
+				<QuitOptions_Caption>設定自動關閉應用程式和中斷USB設備</QuitOptions_Caption>
+				<RecentAndMostUsed_Caption>應用程式使用歷史:</RecentAndMostUsed_Caption>
+				<StartupWindowShowAlways_Caption>總是顯示 LiberKey 選單</StartupWindowShowAlways_Caption>
+				<StartupWindowShowNever_Caption>從不顯示 LiberKey 選單</StartupWindowShowNever_Caption>
+				<StartupWindowShowPrevious_Caption>根據上次使用LiberKey的情況自動判斷</StartupWindowShowPrevious_Caption>
+				<StartupWindowStateLabel_Caption>開啟軟體時 :</StartupWindowStateLabel_Caption>
+				<Title_Caption>LiberKey 選單 - 設定</Title_Caption>
+				<TrayLeftClickActionLabel_Caption>滑鼠左鍵 :</TrayLeftClickActionLabel_Caption>
+				<TrayRightClickActionLabel_Caption>滑鼠右鍵 :</TrayRightClickActionLabel_Caption>
+				<UpdateAllAppsInfo_Caption>可選和優先的更新都安裝，無需用戶操作(自動模式)。</UpdateAllAppsInfo_Caption>
+				<UpdateAutoStartInfo_Caption>安裝推薦的應用更新時無需使用者操作（自動模式）。</UpdateAutoStartInfo_Caption>
+				<UpdateFileAssocInfo_Caption>安裝或更新應用時會自動設定可用的檔案關聯。</UpdateFileAssocInfo_Caption>
+				<UpdateNoUserAlertInfo_Caption>開啟LiberKey時不自動提示更新應用程式，只有目前執行的應用程式有更新時才會提示更新。</UpdateNoUserAlertInfo_Caption>
+				<UpdateUIAlertInfo_Caption>您可以檢視可用更新的清單，並自由選取您想安裝的應用。</UpdateUIAlertInfo_Caption>
+				<UserLoginInfo_Caption>儘管下載您的應用程式的更新不再需要登陸了，但我們仍然建議您輸入使用者訊息。</UserLoginInfo_Caption>
+				<UserName_Caption>使用者名 :</UserName_Caption>
+				<ZoomMenuFontNameLabel_Caption>字體:</ZoomMenuFontNameLabel_Caption>
+				<ZoomMenuFontSizeLabel_Caption>大小:</ZoomMenuFontSizeLabel_Caption>
+			</Labels>
+			<OptionButtons>
+				<optAlwaysUpdateFileAssoc_Caption>總是更新檔案關聯</optAlwaysUpdateFileAssoc_Caption>
+				<optAutoRunAtStartup_Caption>啟動 LiberKey 時</optAutoRunAtStartup_Caption>
+				<optAutoRunOnQuit_Caption>關閉 LiberKey 時</optAutoRunOnQuit_Caption>
+				<optMenuDelayCustom_Caption>自訂</optMenuDelayCustom_Caption>
+				<optMenuDelayDefault_Caption>預設</optMenuDelayDefault_Caption>
+				<optNeverUpdateFileAssoc_Caption>從不更新檔案關聯</optNeverUpdateFileAssoc_Caption>
+				<optUpdateAllApps_Caption>自動安裝所有更新</optUpdateAllApps_Caption>
+				<optUpdateAutoStart_Caption>有更新時自動下載安裝</optUpdateAutoStart_Caption>
+				<optUpdateFileAssocNewApps_Caption>為新安裝的應用設定關聯</optUpdateFileAssocNewApps_Caption>
+				<optUpdateNoUserAlert_Caption>只有當我執行的應用程式有更新時才提示我</optUpdateNoUserAlert_Caption>
+				<optUpdateUIAlert_Caption>顯示應用圖示和提示訊息</optUpdateUIAlert_Caption>
+				<optUpdateUserAlert_Caption>如果推薦的應用有更新時提示我</optUpdateUserAlert_Caption>
+			</OptionButtons>
+			<Options>
+				<About>關於</About>
+				<Accessibility>輔助功能</Accessibility>
+				<Advanced>進階選項</Advanced>
+				<AppSetup>應用程式安裝設定</AppSetup>
+				<Autorun>自動執行</Autorun>
+				<AutoUpdate>應用程式更新設定</AutoUpdate>
+				<Colors>顏色外觀</Colors>
+				<Effects>使用者介面</Effects>
+				<Help>說明</Help>
+				<KeyboardShortcuts>便捷鍵</KeyboardShortcuts>
+				<Language>語言</Language>
+				<LiberKeyTools>LiberKey 工具</LiberKeyTools>
+				<Proxy>HTTP 代理</Proxy>
+				<TechnicalInfo>技術訊息</TechnicalInfo>
+				<User>使用者訊息</User>
+			</Options>
+		</Config>
+		<FloatingMenu>
+			<AlwaysOnTop>顯示在最前</AlwaysOnTop>
+			<AutoCollapse>自動隱藏</AutoCollapse>
+			<Close>關閉</Close>
+			<FixedMode>一直展開</FixedMode>
+			<GoToParent>切換到上一層選單</GoToParent>
+		</FloatingMenu>
+		<IconSelect>
+			<Labels>
+				<Title_Caption>圖示選取</Title_Caption>
+			</Labels>
+		</IconSelect>
+		<Main>
+			<CommandButtons>
+				<AddApps_Caption>安裝</AddApps_Caption>
+				<AddApps_ToolTip>新增/刪除應用程式</AddApps_ToolTip>
+				<Close_ToolTip>隱藏 LiberKey 選單</Close_ToolTip>
+				<CloseSearch2_Caption>關閉</CloseSearch2_Caption>
+				<Config_Caption>LiberKey 工具</Config_Caption>
+				<MyDocs_Caption>文件</MyDocs_Caption>
+				<MyMusic_Caption>音樂</MyMusic_Caption>
+				<MyPictures_Caption>圖片</MyPictures_Caption>
+				<Quit_ToolTip>關閉 LiberKey 選單</Quit_ToolTip>
+				<TabsScrollLeft_ToolTip>向左捲動</TabsScrollLeft_ToolTip>
+				<TabsScrollRight_ToolTip>向右捲動</TabsScrollRight_ToolTip>
+				<UserMenus_ToolTip>使用者選單</UserMenus_ToolTip>
+				<ViewIcons_ToolTip>大圖示</ViewIcons_ToolTip>
+				<ViewTree_ToolTip>樹狀清單</ViewTree_ToolTip>
+			</CommandButtons>
+			<Labels>
+				<SearchInfoLabel_Caption>找到 : %count% 個項目</SearchInfoLabel_Caption>
+				<SearchInfoTitle_Caption>在你的 LiberKey 中</SearchInfoTitle_Caption>
+			</Labels>
+			<LiberKeyTools>
+				<AddApps>同步到軟體寶庫</AddApps>
+				<AddAppsTip>此嚮導將允許您連接到LiberKey的伺服器搜尋您所需要的應用程式，並安裝到您的LiberKey。</AddAppsTip>
+				<AddPortableShortcuts>新增可攜式捷徑</AddPortableShortcuts>
+				<AddRemoveApps>新增 / 刪除 程式</AddRemoveApps>
+				<AppsClose>關閉程式</AppsClose>
+				<AppsCloseTip>LiberKey應用終結者可以自動關閉從LiberKey啟動的所有程式。每個程式都會用不同的方法以保證正常關閉。\n如果某個檔案正在編輯（文件、小畫家等），您正常關閉時將提示您儲存它。</AppsCloseTip>
+				<Configuration>設定</Configuration>
+				<ConfigurationTip>LiberKey設定。\n所有相關的外觀和功能都可以在此設定視窗進行設定。</ConfigurationTip>
+				<DisableFileAssoc>禁用檔案關聯</DisableFileAssoc>
+				<DisableFileAssocTip>這台計算機裡的檔案已經關聯到您的LiberKey應用程式。\n點此還原本機計算機的檔案關聯。</DisableFileAssocTip>
+				<EnableFileAssoc>啟用臨時檔案關聯</EnableFileAssoc>
+				<EnableFileAssocTip>為您的LiberKey應用程式啟用臨時檔案關聯（.avi、.jpg、.doc...），可用於安裝LiberKey的離線軟體包。</EnableFileAssocTip>
+				<FileAssoc>檔案關聯</FileAssoc>
+				<GoToWebSite>訪問 LiberKey 網站</GoToWebSite>
+				<GoToWebSiteTip>此選單允許您訪問LiberKey的官方網站。在這裡您可以找到所有關於LiberKey的訊息，官方論壇向所有使用者開放</GoToWebSiteTip>
+				<InstallAppSuite>安裝應用程式合集</InstallAppSuite>
+				<InstallAppSuiteTip>此嚮導將協助您一鍵安裝常用軟體合集。</InstallAppSuiteTip>
+				<LiberKeyNews>閱讀訊息</LiberKeyNews>
+				<LiberKeyNewsTip>LiberKey最新訊息讓你及時關注所有關於LiberKey的新聞和更新。軟體寶庫裡新上線的應用或者任何關於LiberKey的訊息都會在最新訊息裡發佈。</LiberKeyNewsTip>
+				<ManageApps>應用程式管理</ManageApps>
+				<ManageAppsTip>移除、安裝或重新安裝應用程式。此工具將協助您管理您在LiberKey中安裝的應用程式。</ManageAppsTip>
+				<PortableShortcutsTip>[可攜式桌面捷徑]允許您管理您的與LiberKey相關的可攜式桌面捷徑。您還可以儲存桌面捷徑的位置。</PortableShortcutsTip>
+				<RemovePortableShortcuts>移除可攜式捷徑</RemovePortableShortcuts>
+				<Title>LiberKey 工具</Title>
+				<UpdateCheck>檢查更新</UpdateCheck>
+				<UpdateCheckTip>檢查是否有更新的LiberKey或軟體新版本可用。\n如果有更新，它可以直接通過LiberKey.com安裝這些更新。</UpdateCheckTip>
+				<UsbEject>中斷您的 LiberKey</UsbEject>
+				<USBEjectTip>當LiberKey安裝在U盤時，LiberKey的USB彈出功能將協助您中斷USB設備，此時所有LiberKey的軟體將會自動關閉。\n注意：只有當所有LiberKey應用程式全部關閉時才能正常彈出USB設備。</USBEjectTip>
+			</LiberKeyTools>
+			<Messages>
+				<About>關於 LiberKey...</About>
+				<BrowseForNewFolder>選取的資料夾的捷徑會被開啟</BrowseForNewFolder>
+				<PatchDownload>下載更新中 ...</PatchDownload>
+				<SearchResults>搜索結果</SearchResults>
+			</Messages>
+		</Main>
+		<Menu>
+			<LKHelp>線上說明</LKHelp>
+			<LKQuickLaunch>LiberKey 快捷啟動</LKQuickLaunch>
+			<MostUsed>常用軟體</MostUsed>
+			<MyApps>我的可攜式應用程式</MyApps>
+			<MyDocs>我的文件</MyDocs>
+			<Recent>最近使用</Recent>
+		</Menu>
+		<MenuProperties>
+			<CheckBoxs>
+				<EditMode_Caption>允許自由拖拽</EditMode_Caption>
+				<NotInSystrayMenu_Caption>不顯示在浮動選單中</NotInSystrayMenu_Caption>
+				<ShowName_Caption>顯示名稱</ShowName_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Apply_Caption>確定</Apply_Caption>
+				<Cancel_Caption>取消</Cancel_Caption>
+			</CommandButtons>
+			<Labels>
+				<MenuIconLabel_Caption>相關圖示:</MenuIconLabel_Caption>
+				<MenuNameLabel_Caption>選單名稱:</MenuNameLabel_Caption>
+				<Title_Caption>使用者選單屬性</Title_Caption>
+			</Labels>
+		</MenuProperties>
+		<Menus>
+			<AppCopy_Caption>複製(&amp;C)</AppCopy_Caption>
+			<AppCut_Caption>剪下(&amp;C)</AppCut_Caption>
+			<AppDelApp_Caption>刪除(&amp;D)</AppDelApp_Caption>
+			<AppEditProps_Caption>軟體屬性(&amp;A) ...</AppEditProps_Caption>
+			<AppGoToWebSite_Caption>檢視網站(&amp;V)</AppGoToWebSite_Caption>
+			<AppLaunch_Caption>執行(&amp;R)</AppLaunch_Caption>
+			<AppLocate_Caption>在分類別中檢視(&amp;L)</AppLocate_Caption>
+			<AppLocation-0_Caption>(分類別名稱)</AppLocation-0_Caption>
+			<AppLocations_Caption>軟體分類別(&amp;L)</AppLocations_Caption>
+			<AppOpenAppFolder_Caption>開啟檔案位置(&amp;O)</AppOpenAppFolder_Caption>
+			<AppPaste_Caption>貼上(&amp;P)</AppPaste_Caption>
+			<AppRunAs_Caption>執行方式(&amp;R) ...</AppRunAs_Caption>
+			<AppRunAsAdmin_Caption>以管理員身份執行(&amp;R)</AppRunAsAdmin_Caption>
+			<AppSetup_Caption>安裝此應用程式(&amp;S)</AppSetup_Caption>
+			<AppShowInfo_Caption>顯示簡介(&amp;I)</AppShowInfo_Caption>
+			<AppUpdate_Caption>升級(&amp;U)</AppUpdate_Caption>
+			<CatAdd_Caption>新增捷徑</CatAdd_Caption>
+			<CatAddApp_Caption>應用程式 / 檔案...</CatAddApp_Caption>
+			<CatAddFolder_Caption>資料夾 ...</CatAddFolder_Caption>
+			<CatAddWebPage_Caption>網站連結 ...</CatAddWebPage_Caption>
+			<CatCopy_Caption>複製(&amp;C)</CatCopy_Caption>
+			<CatCut_Caption>剪下(&amp;C)</CatCut_Caption>
+			<CatDelCat_Caption>刪除(&amp;D)</CatDelCat_Caption>
+			<CatEditProps_Caption>屬性(&amp;P) ...</CatEditProps_Caption>
+			<CatListMode_Caption>以清單方式顯示(&amp;L)</CatListMode_Caption>
+			<CatNewCat_Caption>新增分類別(&amp;N)</CatNewCat_Caption>
+			<CatPaste_Caption>貼上(&amp;P)</CatPaste_Caption>
+			<CatShowMenu_Caption>浮動選單(&amp;F) ...</CatShowMenu_Caption>
+			<CatSort_Caption>排序(&amp;S)</CatSort_Caption>
+			<DoNothing_Caption>啥也不做</DoNothing_Caption>
+			<FolderOpen_Caption>開啟檔案夾(&amp;O)</FolderOpen_Caption>
+			<InstallLKS_Caption>安裝 LKS (LiberKey Setup) 程式包</InstallLKS_Caption>
+			<InstallLKS_Tip>選取一個或多個 LKS 檔案 (LiberKey Setup) 並一鍵安裝。</InstallLKS_Tip>
+			<InstallsFromAppsFolder_Caption>從 &quot;Apps&quot; 資料夾搜尋...</InstallsFromAppsFolder_Caption>
+			<InstallsFromAppsFolder_Tip>此嚮導會自動檢查您的LiberKey安裝目錄下「Apps」資料夾裡是否有新的程式存在。\n例如，你可以從另一個LiberKey裡複製一個新的應用程式到您的「Apps」資料夾裡，這個嚮導會自動找到並新增它們。</InstallsFromAppsFolder_Tip>
+			<InstallsFromMyApps_Caption>從 &quot;MyApps&quot; 資料夾搜尋...</InstallsFromMyApps_Caption>
+			<InstallsFromMyApps_Tip>如果您手動新增了一個可攜式軟體到「MyApps」資料夾，此嚮導將嘗試偵測並註冊到您的LiberKey選單。</InstallsFromMyApps_Tip>
+			<InternetOpen_Caption>開啟(&amp;O)</InternetOpen_Caption>
+			<MenusCreate_Caption>建立新選單(&amp;C)...</MenusCreate_Caption>
+			<MenusDelete_Caption>刪除目前選單(&amp;D)</MenusDelete_Caption>
+			<MenusEdit_Caption>目前選單屬性(&amp;P)...</MenusEdit_Caption>
+			<MenusExport_Caption>匯出目前選單(&amp;X)...</MenusExport_Caption>
+			<MenusHideNames_Caption>隱藏選單名稱(&amp;H)</MenusHideNames_Caption>
+			<MenusImport_Caption>匯入選單(&amp;I)...</MenusImport_Caption>
+			<MenusRecent_Caption>最近的(&amp;R)</MenusRecent_Caption>
+			<MenusShowNames_Caption>顯示選單名稱(&amp;N)</MenusShowNames_Caption>
+			<MenusUser-0_Caption>預設選單</MenusUser-0_Caption>
+			<Open_Caption>開啟(&amp;O)</Open_Caption>
+			<OpenActiveFloatMenu_Caption>開啟浮動選單</OpenActiveFloatMenu_Caption>
+			<OpenMainWindow_Caption>開啟主選單</OpenMainWindow_Caption>
+			<PatchCancelDownload_Caption>取消下載(&amp;C)</PatchCancelDownload_Caption>
+			<Quit>結束</Quit>
+			<RepairApps_Caption>修復受損的應用程式</RepairApps_Caption>
+			<RepairApps_Tip>此嚮導將自動檢查您的LiberKey安裝目錄下 「Apps「資料夾裡可能已損壞的應用程式。\n如果偵測到從LiberKey下載的安裝的應用程式已損壞，將會嘗試重新安裝。</RepairApps_Tip>
+			<SendToPortableDocs>我的可攜式文件</SendToPortableDocs>
+			<SendToPortableDocsDescription>複製選取檔案到LiberKey的 &quot;MyDocuments&quot; 資料夾</SendToPortableDocsDescription>
+			<ShortcutEditProps_Caption>捷徑屬性...</ShortcutEditProps_Caption>
+			<SuiteSetup>
+				<AppList>應用程式清單</AppList>
+				<HideNewApps_Caption>隱藏未安裝的應用</HideNewApps_Caption>
+				<HideUpdates_Caption>隱藏可更新的應用</HideUpdates_Caption>
+				<HideUpToDateApps_Caption>隱藏已安裝到最新的應用</HideUpToDateApps_Caption>
+				<SelectAll_Caption>全部選取</SelectAll_Caption>
+				<SelectNewApps_Caption>選取未安裝的應用</SelectNewApps_Caption>
+				<SelectPriority_Caption>選取推薦的應用更新</SelectPriority_Caption>
+				<SelectUpdates_Caption>選取可更新的應用</SelectUpdates_Caption>
+				<ShowNewApps_Caption>顯示未安裝的應用</ShowNewApps_Caption>
+				<ShowUpdates_Caption>顯示可更新的應用</ShowUpdates_Caption>
+				<ShowUpToDateApps_Caption>顯示已安裝到最新的應用</ShowUpToDateApps_Caption>
+				<UnselectAll_Caption>全部取消</UnselectAll_Caption>
+				<UnselectNewApps_Caption>取消未安裝的應用</UnselectNewApps_Caption>
+				<UnselectPriority_Caption>取消推薦的應用更新</UnselectPriority_Caption>
+				<UnselectUpdates_Caption>取消可更新的應用</UnselectUpdates_Caption>
+			</SuiteSetup>
+			<SynchronizeCatalog_Caption>從官方網站安裝</SynchronizeCatalog_Caption>
+			<SynchronizeCatalog_Tip>此嚮導將允許您連接到LiberKey的伺服器搜尋您所需要的應用程式，並安裝到您的LiberKey。（目前支援英語和法語）</SynchronizeCatalog_Tip>
+			<UserMenuTabEditable_Caption>允許自由拖拽</UserMenuTabEditable_Caption>
+			<UserMenuTabFloatMenu_Caption>浮動選單(&amp;F)...</UserMenuTabFloatMenu_Caption>
+			<UserMenuTabHideName_Caption>隱藏名稱(&amp;H)</UserMenuTabHideName_Caption>
+			<UserMenuTabProperties_Caption>屬性(&amp;P) ...</UserMenuTabProperties_Caption>
+			<UserMenuTabShowName_Caption>顯示名稱(&amp;D)</UserMenuTabShowName_Caption>
+		</Menus>
+		<Messages>
+			<AllFilesSelection>所有檔案|*.*</AllFilesSelection>
+			<AppInstallation>正在安裝應用程式 %appname%...</AppInstallation>
+			<AppInstallDone>應用程式 &apos;%appname%&quot; 已經安裝到您的LiberKey。</AppInstallDone>
+			<AppInstalled>應用程式安裝 : %appname%</AppInstalled>
+			<AppNotFound>此應用程式尚未安裝到您的LiberKey。</AppNotFound>
+			<AppNotFoundTitle>找到應用程式</AppNotFoundTitle>
+			<AppRefCount>定位該應用程式的捷徑: %count%</AppRefCount>
+			<AppRegistered>應用程式已經註冊到您的LiberKey。\n現在您可以建立捷徑。</AppRegistered>
+			<AppRunningCantUninst>應用程式正在執行。\n您暫時不能移除。</AppRunningCantUninst>
+			<AppsInstallDone>%count% 個新應用程式已經安裝到您的LiberKey。</AppsInstallDone>
+			<AutoImportMenu>您還沒有建立選單來執行啟動您的應用程式。\n現在想從舊的選單裡匯入嗎？</AutoImportMenu>
+			<BrokenAppFoundReinstall>此應用程式已損壞:%appname%\n\n您要重新安裝嗎?</BrokenAppFoundReinstall>
+			<Browse>瀏覽...</Browse>
+			<ConfirmDeleteCategory>您確定要刪除此分類別 &quot;%name%&quot; 和分類別下的所有捷徑嗎？</ConfirmDeleteCategory>
+			<ConfirmDeleteSortcut>您確定要刪除 &quot;%name%&quot; 的捷徑嗎?</ConfirmDeleteSortcut>
+			<ConfirmDeletion>確認刪除</ConfirmDeletion>
+			<ConfirmInstallApp>安裝 %app% 到您的LiberKey？</ConfirmInstallApp>
+			<ConfirmInstallExtension>您想在您的 LiberKey 中安裝此擴充功能嗎?\n\n%extname%</ConfirmInstallExtension>
+			<ConfirmInstallMyApps>您想偵測 「MyApps「 資料夾中的新應用程式嗎？</ConfirmInstallMyApps>
+			<ConfirmInstallNewApps>您想偵測 「Apps「 資料夾中的新應用程式嗎？</ConfirmInstallNewApps>
+			<ConfirmUninstallApp>您確定要刪除此應用程式嗎？\n此操作將無法還原。</ConfirmUninstallApp>
+			<DateFormat>yyyy/mm/dd</DateFormat>
+			<DefaultIcon>(預設圖示)</DefaultIcon>
+			<DeleteMenuConfirm>確定刪除選單 &quot;%menu%&quot; 嗎?</DeleteMenuConfirm>
+			<DownloadPatchNow>下載更新嗎?</DownloadPatchNow>
+			<DropLKSLoadingInfos>請稍候，正在檢索應用程式訊息 ...</DropLKSLoadingInfos>
+			<DropLKSToInstall>釋放滑鼠按鈕，安裝應用程式到您的LiberKey。</DropLKSToInstall>
+			<Errors>
+				<AccessDenied>訪問被拒絕</AccessDenied>
+				<AccessRightsError>LiberKey 需要寫訪問到所在的移動設備中。</AccessRightsError>
+				<AssocIncomplete>不完整或無效的檔案關聯。</AssocIncomplete>
+				<CantCreateTempFolder>無法建立臨時資料夾。</CantCreateTempFolder>
+				<CantDefineHotKey>為捷徑 &quot;%name%&quot; 設定便捷鍵時發生錯誤:\n%err%</CantDefineHotKey>
+				<CantDefineHotKeys>為以下捷徑設定便捷鍵時發生錯誤:\n%err%\n%namelist%</CantDefineHotKeys>
+				<CantStartOnRemoteDrive>您不能使用網路磁碟機上的LiberKey。</CantStartOnRemoteDrive>
+				<DDEBusy>DDE 忙碌。</DDEBusy>
+				<DDETimeout>DDE 逾時.</DDETimeout>
+				<DDETransacFailed>DDE 處理失敗。</DDETransacFailed>
+				<DllNotFound>未找到DLL檔案。</DllNotFound>
+				<ErrorTitle>錯誤</ErrorTitle>
+				<ErrShare>共用發生衝突。</ErrShare>
+				<ExeBadFormat>EXE檔案無效或EXE映像錯誤。</ExeBadFormat>
+				<ExecError>程式啟動錯誤。</ExecError>
+				<FileNotFound>檔案未找到。</FileNotFound>
+				<GetUpdateInfoError>嘗試獲取更新訊息時發生錯誤:\n錯誤 %err%: %desc%</GetUpdateInfoError>
+				<HotKeyAlreadyUsedBy>&quot;%name%&quot; 的便捷鍵組合已經被使用了！</HotKeyAlreadyUsedBy>
+				<InstallExtensionError>安裝擴充功能時發生錯誤!\n\n%extname%</InstallExtensionError>
+				<InvalidExtensionFile>擴充功能文件無效!</InvalidExtensionFile>
+				<LKInstNotFound>沒有找到LiberKey安裝器！</LKInstNotFound>
+				<LksDownloadFailed>下載應用程式安裝包 %app% (%lks%) 時發生錯誤。\n\n錯誤 %errnum%: %errdesc%</LksDownloadFailed>
+				<LogUploadFailed>傳送訊息時發生錯誤。</LogUploadFailed>
+				<NewsFeedDownloadError>接收最新訊息資料時發生錯誤。\n%err%</NewsFeedDownloadError>
+				<NoAssoc>沒有檔案副檔名關聯。</NoAssoc>
+				<OutOfMemory>記憶體不足。</OutOfMemory>
+				<PathNotFound>找不到路徑。</PathNotFound>
+				<SkinImageNotFound>載入皮膚錯誤：\n\n檔案 %file% 沒有找到</SkinImageNotFound>
+			</Errors>
+			<FileSize>
+				<Bytes>Bytes</Bytes>
+				<GB>GB</GB>
+				<KB>KB</KB>
+				<MB>MB</MB>
+			</FileSize>
+			<FreeSpace>磁盤 %drive% (%filesys%)\n%volumename%\n總容量: %totalsize%\n已使用: %usedsize%\n可用: %freesize% (%freesizepc%)</FreeSpace>
+			<HotKeyStartAppInfo>啟動 &quot;%name%&quot;...\n點擊這裡取消</HotKeyStartAppInfo>
+			<IconFileSelection>支援的檔案|*.ico;*.exe;*.dll|圖示檔案 (*.ico)|*.ico|可執行檔案|*.exe;*.dll</IconFileSelection>
+			<IconSelection>
+				<AppIcons>選單圖示</AppIcons>
+				<IconSelectTitle>選取包含圖示的檔案</IconSelectTitle>
+				<IconSources>可用圖示</IconSources>
+				<SkinIcons>皮膚圖示</SkinIcons>
+			</IconSelection>
+			<ImportASuiteMenu>匯入一組選單...</ImportASuiteMenu>
+			<ImportMenuFormatError>此檔案不包含在LiberKey選單中。</ImportMenuFormatError>
+			<InternetAddress>乙太網路位址...</InternetAddress>
+			<LastAppShortcutUninstall>LiberKey選單中已經沒有此應用程式的其它捷徑。\n您想從您的LiberKey中【移除】此應用程式嗎？</LastAppShortcutUninstall>
+			<LinkedAppCount>關聯的應用程式: %count%</LinkedAppCount>
+			<LogUploadDone>技術訊息已經傳送。\n感謝您參與到LiberKey的發展。</LogUploadDone>
+			<MenuExportTitle>匯出選單到 XML 檔案 ...</MenuExportTitle>
+			<MenuImportError>複製選單到您的 LiberKey 時發生錯誤。</MenuImportError>
+			<MenuImportErrorTitle>無法匯入選單</MenuImportErrorTitle>
+			<MenuImportNotFromProfile>此 LiberKey 選單已經存在，您不能重複匯入。</MenuImportNotFromProfile>
+			<MenuImportTitle>從 XML 檔案匯入選單</MenuImportTitle>
+			<MultipleFilesDrop>%count% 個檔案...</MultipleFilesDrop>
+			<MyMenu>我的應用</MyMenu>
+			<NewCategory>新分類別</NewCategory>
+			<NewMenu>新選單</NewMenu>
+			<NoAppAssocFound>未找到與此檔案類型關聯的 LiberKey 應用程式</NoAppAssocFound>
+			<NoBrokenAppFound>未找到損壞的應用程式</NoBrokenAppFound>
+			<NoLogToSend>此工具允許您傳送選單的事件日誌給LiberKey團隊用於分析問題。\n\n未找到事件日誌。</NoLogToSend>
+			<NoNewAppInstalled>在您的LiberKey &quot;Apps&quot; 資料夾裡未找到新的應用程式</NoNewAppInstalled>
+			<NoNewMyAppInstalled>在您的LiberKey的 「MyApps「 目錄中沒有發現新的應用程式</NoNewMyAppInstalled>
+			<OpenWithLiberKey>通過 LiberKey 開啟   </OpenWithLiberKey>
+			<PatchAvailable>LiberKey有可用更新。\n\n您要現在下載嗎？</PatchAvailable>
+			<SearchFieldInfo>搜索您的 LiberKey...</SearchFieldInfo>
+			<SearchingBrokenApps>搜索損壞的應用程式</SearchingBrokenApps>
+			<SearchingUninstalledApps>在 &quot;Apps&quot; 目錄中搜索應用程式 ..</SearchingUninstalledApps>
+			<SearchingUninstalledMyApps>正在搜索 &quot;MyApps&quot; 目錄下的應用程式 ..</SearchingUninstalledMyApps>
+			<SelectFile>選取檔案...</SelectFile>
+			<SendingScreenshot>發送截圖中...</SendingScreenshot>
+			<SendLogInfo>此工具允許您傳送選單的事件日誌給LiberKey團隊用於分析問題。\n\n技術訊息以及選單的 &quot;log&quot; 目錄中最近10次的記錄檔案將被傳送給 LiberKey 團隊。\n\n你確定要繼續嗎？</SendLogInfo>
+			<SetupAutoRestart>安裝 %app% 將重新啟動LiberKey的預設定。</SetupAutoRestart>
+			<TrayIcon>
+				<AppUpdatesAvailable>找到可用的應用程式更新。\n點擊這裡安裝。</AppUpdatesAvailable>
+				<AppUpdatesAvailableTitle>應用程式更新可用</AppUpdatesAvailableTitle>
+				<LiberKeyAssocFailed>啟動 LiberKey 協議時發生錯誤。\n某些功能被禁用。（如從網上軟體中心安裝程式）</LiberKeyAssocFailed>
+				<LiberKeyUpdateAvailable>LiberKey現在可以更新。\n點擊這裡安裝。</LiberKeyUpdateAvailable>
+				<LiberKeyUpdateAvailableTitle>LiberKey 更新</LiberKeyUpdateAvailableTitle>
+				<NewAppDetected>已經在您的LiberKey的「MyApps」資料夾裡發現一個或多個新的應用程式。\n點擊這裡將新應用程式註冊到您的LiberKey選單。</NewAppDetected>
+				<NewsUpdateAvailable>LiberKey 訊息\n閱讀最新的訊息</NewsUpdateAvailable>
+			</TrayIcon>
+			<UpdatePlatformFirst>您必須先更新您的LiberKey！\n您想現在更新嗎？</UpdatePlatformFirst>
+			<XmlFileSelection>XML 檔案|*.xml|所有檔案|*.*</XmlFileSelection>
+		</Messages>
+		<NewAppList>
+			<CommandButtons>
+				<Cancel_Caption>關閉</Cancel_Caption>
+				<InstallApp_ToolTip>安裝此應用程式</InstallApp_ToolTip>
+				<InstallApps_ToolTip>安裝選擇的應用程式</InstallApps_ToolTip>
+				<OpenFolder_ToolTip>開啟檔案位置</OpenFolder_ToolTip>
+				<Reload_ToolTip>更新清單</Reload_ToolTip>
+				<SelectApp_ToolTip>選取此應用</SelectApp_ToolTip>
+				<UnselectApp_ToolTip>取消選取此應用</UnselectApp_ToolTip>
+			</CommandButtons>
+			<Labels>
+				<DestinationMenuLabel_Caption>建立捷徑: </DestinationMenuLabel_Caption>
+				<Title_Caption>新應用程式</Title_Caption>
+			</Labels>
+			<Messages>
+				<SelectExecutable>選取您要新增到LiberKey選單的程式。</SelectExecutable>
+			</Messages>
+		</NewAppList>
+		<News>
+			<CheckBoxs>
+				<HideReadNews_Caption>隱藏已讀訊息</HideReadNews_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<CloseNews_Caption>關閉</CloseNews_Caption>
+			</CommandButtons>
+			<Labels>
+				<Title_Caption>LiberKey 最新訊息</Title_Caption>
+			</Labels>
+			<Messages>
+				<NoNewsDescription>目前暫時沒有最新訊息。\n如果訊息發佈後，會通過「最新訊息」圖示通知您，並且會出現在「LiberKey 工具」按鈕中。</NoNewsDescription>
+				<NoNewsTile>LiberKey 最新訊息 - 沒有最新訊息</NoNewsTile>
+				<NoNewsUpdateDescription>目前共有 %readcount% 條隱藏（已讀）的訊息。\n要檢視隱藏的訊息，請取消選取下面的「隱藏已讀訊息」。</NoNewsUpdateDescription>
+				<NoNewsUpdateTile>LiberKey 最新訊息 - 沒有最新訊息</NoNewsUpdateTile>
+			</Messages>
+		</News>
+		<OnlineCatalog>
+			<CommandButtons>
+				<Cancel_Caption>取消</Cancel_Caption>
+				<CopyURL_Caption>複製位址到剪貼簿</CopyURL_Caption>
+				<GoToWebsite_Caption>訪問線上軟體分類別 %count%</GoToWebsite_Caption>
+				<NoSyncCatalog_Caption>訪問線上分類別，但不與您的 LiberKey 同步</NoSyncCatalog_Caption>
+			</CommandButtons>
+			<Labels>
+				<AccessURL_Caption>訪問線上軟體寶庫並同步您的 LiberKey分類別的位址:</AccessURL_Caption>
+				<AddPortableAppsLabel_Caption>安裝新應用程式</AddPortableAppsLabel_Caption>
+				<Privacy_Caption>注意：傳送到網站的程式版本號和申請線上分類別的操作只涉及LiberKey現有的應用程式，不會傳輸您個人的應用程式訊息。</Privacy_Caption>
+				<Title_Caption>開啟網上軟體寶庫</Title_Caption>
+			</Labels>
+		</OnlineCatalog>
+		<Search>
+			<Applications>應用程式</Applications>
+			<InCatalog>線上軟體寶庫</InCatalog>
+			<InstalledApp>已安裝的應用程式</InstalledApp>
+			<SearchCatalog>在網上分類別中搜索</SearchCatalog>
+		</Search>
+		<SetupWizard>
+			<CheckBoxs>
+				<ApplyFilesAssocs_Caption>設定檔案關聯</ApplyFilesAssocs_Caption>
+				<CreateDefaultShortcuts_Caption>在LiberKey選單中建立捷徑</CreateDefaultShortcuts_Caption>
+				<EditAppAfterSetup_Caption>安裝完成後編輯應用程式屬性</EditAppAfterSetup_Caption>
+				<FillAppInformations_Caption>新增應用程式簡介</FillAppInformations_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<CancelSetup_Caption>不要安裝應用程式到 「MyApps「 資料夾</CancelSetup_Caption>
+				<CancelSetup2_Caption>取消安裝</CancelSetup2_Caption>
+				<CantSetup_Caption>關閉嚮導 (安裝將無法繼續)</CantSetup_Caption>
+				<DoSetup_Caption>安裝應用程式到我的LiberKey</DoSetup_Caption>
+				<ForceSetup_Caption>安裝應用程式到 &quot;MyApps&quot; 資料夾</ForceSetup_Caption>
+				<OpenAppsFolder_Caption>開啟LiberKey安裝目錄下的 &quot;Apps&quot; 資料夾</OpenAppsFolder_Caption>
+				<OpenMyAppsFolder_Caption>開啟LiberKey安裝目錄下的 &quot;MyApps&quot; 資料夾</OpenMyAppsFolder_Caption>
+				<UpdateApp_Caption>更新此應用程式</UpdateApp_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppInfoDetailsTitle_Caption>此應用程式是從一個LKS程式包（LiberKey安裝程式）首次安裝的。\n以下操作將被執行：</AppInfoDetailsTitle_Caption>
+				<AppRegisterInfo_Caption>此應用程式將重新在您的 LiberKey 中註冊。</AppRegisterInfo_Caption>
+				<DestinationMenuLabel_Caption>建立捷徑:</DestinationMenuLabel_Caption>
+				<IntroText_Caption>此嚮導將協助你新增應用程式到您的LiberKey中。</IntroText_Caption>
+				<LbkAppFolderInfo_Caption>此應用程式將不會自動更新。\n你應該移動此程式到「Apps「目錄中並重複以上操作。</LbkAppFolderInfo_Caption>
+				<LbkAppFolderMistake_Caption>從線上軟體分類別中安裝的應用程式必須放到 &quot;Apps&quot; 資料夾下。</LbkAppFolderMistake_Caption>
+				<lblLbkAppInfoMissing_Caption>沒有找到此應用程式的訊息。\n不能儲存訊息到您的LiberKey。</lblLbkAppInfoMissing_Caption>
+				<lblLbkAppInfoMissingMoveApp_Caption>您應該從網上軟體分類別重新安裝此應用。\n本機程式要先移動到 &quot;MyApps&quot; 資料夾。</lblLbkAppInfoMissingMoveApp_Caption>
+				<lblLbkAppInfoMissingUpdate_Caption>要正確註冊應用程式到您的LiberKey，請執行更新。\n本機程式要先移動到 &quot;MyApps&quot; 資料夾。</lblLbkAppInfoMissingUpdate_Caption>
+				<lblUserAppFolderInfo>要儲存應用程式到您的LiberKey，您需要先移動它到 &quot;MyApps&quot; 資料夾。</lblUserAppFolderInfo>
+				<lblUserAppFolderMistake_Caption>不是從網上軟體分類別安裝的可攜式應用必須放到 &quot;MyApps&quot; 資料夾。</lblUserAppFolderMistake_Caption>
+				<NewApp_Caption>新的可攜式應用程式</NewApp_Caption>
+				<NewAppRegisterInfo_Caption>此應用程式不能註冊到您的LiberKey</NewAppRegisterInfo_Caption>
+				<PafInfoDetailsTitle_Caption>這個應用程式是從 PAF 原始安裝包 (portableapps.com™) 安裝的。\n以下操作將被執行：</PafInfoDetailsTitle_Caption>
+				<ReinstallApp_Caption>重新安裝一個應用程式</ReinstallApp_Caption>
+				<Title_Caption>新增應用程式嚮導</Title_Caption>
+				<UserAppInfoDetailsTitle_Caption>可攜式應用程式必須先在LiberKey選單中註冊，然後才能建立捷徑和執行。\n以下操作將被執行：</UserAppInfoDetailsTitle_Caption>
+				<XSoftInfoDetailsTitle_Caption>這個應用程式是從 X-Software 原始安裝包 (winpenpack.com™) 安裝的。\n以下操作將被執行：</XSoftInfoDetailsTitle_Caption>
+			</Labels>
+		</SetupWizard>
+		<ShortcutProperties>
+			<CheckBoxs>
+				<AlwaysRunAsAdmin_Caption>以管理員身份執行此程式</AlwaysRunAsAdmin_Caption>
+				<ShortcutHiddenInMenu_Caption>不顯示在浮動選單中</ShortcutHiddenInMenu_Caption>
+				<ShortcutNoMostUsed_Caption>不自動新增到常用軟體選單</ShortcutNoMostUsed_Caption>
+				<ShortcutNoRecent_Caption>不自動新增到最近使用選單</ShortcutNoRecent_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<ApplyChanges_Caption>套用</ApplyChanges_Caption>
+				<AppProps_Caption>檢視軟體屬性</AppProps_Caption>
+				<Cancel_Caption>關閉</Cancel_Caption>
+				<ShortcutAppEdit_Caption>此捷徑指向一個可攜式應用程式</ShortcutAppEdit_Caption>
+			</CommandButtons>
+			<Labels>
+				<DescriptionLabel_Caption>簡介 :</DescriptionLabel_Caption>
+				<ShortcutAutorunLabel_Caption>自動執行 :</ShortcutAutorunLabel_Caption>
+				<ShortcutHotKey_Caption>便捷鍵 :</ShortcutHotKey_Caption>
+				<ShortcutIconLabel_Caption>圖示 :</ShortcutIconLabel_Caption>
+				<ShortcutNameLabel_Caption>名稱 :</ShortcutNameLabel_Caption>
+				<ShortcutParamsLabel_Caption>命令列參數:</ShortcutParamsLabel_Caption>
+				<ShortcutPathLabel_Caption>檔案路徑 / 資料夾 / 網址 / 文件 :</ShortcutPathLabel_Caption>
+				<ShortcutWinStateLabel_Caption>開啟時 :</ShortcutWinStateLabel_Caption>
+				<ShortcutWorkDirLabel_Caption>工作目錄</ShortcutWorkDirLabel_Caption>
+				<Title_Caption>捷徑屬性</Title_Caption>
+			</Labels>
+			<Tabs>
+				<Shortcut>捷徑</Shortcut>
+				<ShortcutMore>進階</ShortcutMore>
+			</Tabs>
+		</ShortcutProperties>
+		<SuiteDownload>
+			<CommandButtons>
+				<Cancel_Caption>取消</Cancel_Caption>
+				<GetSuites_Caption>下載可用軟體合集清單</GetSuites_Caption>
+				<InstallSuite_Caption>一鍵安裝軟體合集裡所有已選軟體</InstallSuite_Caption>
+			</CommandButtons>
+			<DownloadedAppsCountInfo>-   正在安裝: %dldone%</DownloadedAppsCountInfo>
+			<DownloadSizeInfo>下載大小: %size%</DownloadSizeInfo>
+			<InstallSizeInfo>-   所需磁盤空間: %size%</InstallSizeInfo>
+			<Labels>
+				<DownloadInfo_Caption>此嚮導將協助您一鍵安裝常用軟體合集。\n\n點擊 「下載可用軟體合集清單」 繼續</DownloadInfo_Caption>
+				<Title_Caption>安裝應用程式合集</Title_Caption>
+				<TitleBig_Caption>安裝應用程式合集</TitleBig_Caption>
+			</Labels>
+			<Messages>
+				<ConfirmKeepDownloads>你想保留軟體安裝包以便今後安裝嗎？</ConfirmKeepDownloads>
+				<DownladAppIcons16>下載軟體圖示...</DownladAppIcons16>
+				<DownloadGraphics>下載軟體合集圖示...</DownloadGraphics>
+				<DownloadingSuitesInfo>下載軟體合集訊息...</DownloadingSuitesInfo>
+				<GetSuiteInfoFailed>更新軟體合集清單錯誤。\n\n錯誤 %errnum%: %errdesc%</GetSuiteInfoFailed>
+				<IncompleteSuiteSetup>該軟體合集裡的一些軟體未能正確安裝。\n您可以稍後重新啟動該嚮導完成安裝。</IncompleteSuiteSetup>
+				<PartialSuiteSetupDone>所選應用程式已經安裝。\n您可以稍後重新啟動該嚮導新增更多的應用。</PartialSuiteSetupDone>
+				<SetupDone>應用程式合集 &quot;%name%&quot; 已成功安裝到您的 LiberKey 裡。</SetupDone>
+				<SetupError>安裝軟體 %app% 時錯誤！</SetupError>
+			</Messages>
+			<SuiteAppCountInfo>軟體總數：</SuiteAppCountInfo>
+			<SuiteAppsDoneInfo> -   已安裝: %installed%   -   待安裝: %newapps%</SuiteAppsDoneInfo>
+		</SuiteDownload>
+		<UninstallWizard>
+			<CheckBoxs>
+				<RemoveAppFolder_Caption>刪除應用程式資料夾 (包括程式和相關資料)</RemoveAppFolder_Caption>
+				<RemoveAppShortcuts_Caption>刪除所有此應用程式的捷徑</RemoveAppShortcuts_Caption>
+				<RemoveFilesAssocs_Caption>刪除此應用程式的檔案關聯</RemoveFilesAssocs_Caption>
+				<UnregisterAppInfo_Caption>註銷此應用程式</UnregisterAppInfo_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<CancelSetup_Caption>取消移除</CancelSetup_Caption>
+				<CancelSetup2_Caption>取消移除</CancelSetup2_Caption>
+				<ConfirmUninstall_Caption>確認刪除此應用程式</ConfirmUninstall_Caption>
+				<DoUninstall_Caption>刪除選取的部份</DoUninstall_Caption>
+			</CommandButtons>
+			<Labels>
+				<IntroText_Caption>此嚮導將協助您從 LiberKey 中移除應用程式。</IntroText_Caption>
+				<PreviewInfo_Caption>這是移除操作的清單， 您的LiberKey將根據此清單進行移除。在某些情況下，移除應用程式可能會導致其他損失。（如圖片無法開啟），移除前請您務必細節檢查此清單。</PreviewInfo_Caption>
+				<RemoveApp_Caption>移除/刪除應用程式</RemoveApp_Caption>
+				<RemoveAppInfo_Caption>此應用程式將從您的 LiberKey 中刪除</RemoveAppInfo_Caption>
+				<RemoveInfoDetailsTitle_Caption>應用程式移除過程中將執行以下操作，如果您想保留應用程式的相關訊息，請取消前面的核取方塊。</RemoveInfoDetailsTitle_Caption>
+				<Title_Caption>應用程式移除嚮導</Title_Caption>
+			</Labels>
+			<PreviewTree>
+				<AppDataSize>軟體大小: %size%</AppDataSize>
+				<DeletedAssocs>刪除檔案關聯</DeletedAssocs>
+				<DeletedData>刪除應用程式資料</DeletedData>
+				<DeletedShortcuts>刪除捷徑</DeletedShortcuts>
+				<FileType>檔案 &quot;.%type%&quot;</FileType>
+				<KFANotFound>檔案關聯設定檔案未找到。</KFANotFound>
+				<KFANotUsed>此應用程式沒有臨時的檔案關聯</KFANotUsed>
+				<KfaUsedForTypeIcon>用於這種類型的檔案圖示</KfaUsedForTypeIcon>
+				<UnregisterApp>刪除應用程式</UnregisterApp>
+			</PreviewTree>
+		</UninstallWizard>
+		<UpdateInfo>
+			<CommandButtons>
+				<Cancel_Caption>關閉</Cancel_Caption>
+				<DownloadPatch_Caption>更新 LiberKey</DownloadPatch_Caption>
+				<OpenCatalog_Caption>開啟並同步到軟體寶庫目錄</OpenCatalog_Caption>
+				<UpdateApps_Caption>更新 LiberKey 應用程式</UpdateApps_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppsUpdateFound>現在有可用的應用程式更新，您可以更新</AppsUpdateFound>
+				<AppsUpdateNotFound>沒有可用的應用程式更新</AppsUpdateNotFound>
+				<NewAppsCount>其他可安裝的應用程式: %count%</NewAppsCount>
+				<NewAppsFound>網上軟體寶庫中有其他可安裝的應用程式</NewAppsFound>
+				<NewAppsNotFound>網上軟體寶庫中沒有其他可安裝的應用程式</NewAppsNotFound>
+				<NoNewApp>你已經擁有了全部!</NoNewApp>
+				<PlatformUpdateFound>LiberKey 現在可以更新</PlatformUpdateFound>
+				<PlatformUpdateNotFound>您的 LiberKey 已經是最新版本</PlatformUpdateNotFound>
+				<Title_Caption>可用更新</Title_Caption>
+				<UpdatesCount>可以更新: %count%</UpdatesCount>
+			</Labels>
+		</UpdateInfo>
+		<Contributors>
+			<Contributor email="kyb3k@126.com" website="http://www.appsoku.com/" name="cudo"/>
+		</Contributors>
+	</zh-TW>
+</Languages>

@@ -1,0 +1,270 @@
+<Languages version="0.2">
+	<de name="Deutsch" icon="de.png" version="0.30" date="2011-11-05" en_name="German">
+		<About>
+			<caption>Über</caption>
+			<CommandButtons>
+				<History_caption>&amp;Versionshistorie...</History_caption>
+				<OK_caption>&amp;Schließen</OK_caption>
+				<Update_caption>&amp;Auf Update prüfen...</Update_caption>
+			</CommandButtons>
+			<Labels>
+				<LiberKeyExclu_caption>Dieses Programm kann nur in LiberKey verwendet werden</LiberKeyExclu_caption>
+				<LiberKeyPartner_caption>KFA wurde von LiberKey.com entwickelt</LiberKeyPartner_caption>
+			</Labels>
+		</About>
+		<AddAction>
+			<caption>Neue Aktion</caption>
+			<CommandButtons>
+				<Browse_caption>Suche..</Browse_caption>
+				<Cancel_caption>&amp;Abbrechen</Cancel_caption>
+				<OK_caption>&amp;OK</OK_caption>
+			</CommandButtons>
+			<EditCaption>Änderung der Aktion für den Typ: %typedesc%</EditCaption>
+			<Labels>
+				<Action_caption>&amp;Aktion:</Action_caption>
+				<ActionAppPath_caption>Programm zur Ausführung dieser Aktion:</ActionAppPath_caption>
+				<ActionArgs_caption>Befehlszeilenparameter:</ActionArgs_caption>
+			</Labels>
+			<Messages>
+				<ActionIsEmpty>Sie müssen eine Aktion angeben.</ActionIsEmpty>
+				<ActionIsEmptyTitle>Dateitypen</ActionIsEmptyTitle>
+				<AppNotFound>Das angegebene Programm wurde nicht gefunden. Prüfen Sie ob der Dateiname und Pfad korrekt sind.</AppNotFound>
+				<AppNotFoundTitle>Aktion hinzufügen</AppNotFoundTitle>
+			</Messages>
+		</AddAction>
+		<AppSelect>
+			<caption>Auswählen von zugeordneten portablen Programmen</caption>
+			<CommandButtons>
+				<Cancel_caption>&amp;Abbrechen</Cancel_caption>
+				<OK_caption>&amp;OK</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<Loading_caption>Laden Liste der verfügbaren Programme...</Loading_caption>
+			</Labels>
+		</AppSelect>
+		<AppWarning>
+			<caption>Key Files Assoc&apos; - Risiko eines Konflikt mit anderen Programmen</caption>
+			<CommandButtons>
+				<OK_caption>&amp;OK</OK_caption>
+				<RemoveAssocs_caption>Zuordnungen jetzt deaktivieren.</RemoveAssocs_caption>
+			</CommandButtons>
+			<Labels>
+				<Message_caption>KEY Files Assoc&apos; hat eine Ausführung eines Programms gefunden, die problematisch sein könnte. Es wird dringend empfohlen, die temporären Dateizuordnungen zu deaktivieren, bevor Sie Änderungen in der Windwos Registry vornehmen.</Message_caption>
+				<Title_caption>Warnung!</Title_caption>
+			</Labels>
+		</AppWarning>
+		<AssocAdvance>
+			<caption>Dateityp Bearbeitung</caption>
+			<CheckBoxs>
+				<ReplaceWinEntry_caption>Aktuelle Aktionen für diesen Dateityp ersetzen</ReplaceWinEntry_caption>
+				<WinEdit_caption>Änderungen in den &quot;Ordneroptionen&quot; erlauben</WinEdit_caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Add_caption>&amp;Neu...</Add_caption>
+				<Cancel_caption>&amp;Abbrechen</Cancel_caption>
+				<ChangeIcon_caption>&amp;Icon ändern...</ChangeIcon_caption>
+				<Default_caption>&amp;Standard</Default_caption>
+				<DelAction_caption>&amp;Entfernen</DelAction_caption>
+				<EditAction_caption>&amp;Einstellen...</EditAction_caption>
+				<OK_caption>&amp;OK</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<Actions_caption>&amp;Aktionen:</Actions_caption>
+			</Labels>
+			<Messages>
+				<ActionDeleteConfirm>Möchten Sie diese Aktion wirklich entfernen?</ActionDeleteConfirm>
+				<ActionDeleteConfirmTitle>Dateitypen</ActionDeleteConfirmTitle>
+			</Messages>
+		</AssocAdvance>
+		<Download>
+			<caption>Programm Update</caption>
+			<CommandButtons>
+				<Cancel_caption>&amp;Abbrechen</Cancel_caption>
+			</CommandButtons>
+			<Labels>
+				<Title_caption>Programm Update downloaden...</Title_caption>
+			</Labels>
+		</Download>
+		<FileAssoc>
+			<caption>Dateitypen, die den portablen Programmen zugeordnet sind</caption>
+			<CommandButtons>
+				<Add_caption>&amp;Neu...</Add_caption>
+				<Advanced_caption>&amp;Fortgeschritten</Advanced_caption>
+				<Apply_caption>&amp;Übernehmen</Apply_caption>
+				<Cancel_caption>&amp;Abbrechen</Cancel_caption>
+				<Delete_caption>&amp;Löschen</Delete_caption>
+				<OK_caption>OK</OK_caption>
+				<SelectApp_caption>Bearbeiten...</SelectApp_caption>
+			</CommandButtons>
+			<Labels>
+				<AssocListTitle_caption>Registrierte Dateitypen:</AssocListTitle_caption>
+				<ExtInfo>Dateityp &apos;%1&apos; ist &apos;%2&apos;. Um die portablen Programme, denen diese Dateien zugeordnet sind, zu verwalten, klicken Sie auf &quot;Fortgeschritten&quot;.</ExtInfo>
+				<ExtInfoNoExt>Um die Parameter, die für diesen Dateityp gelten, zu ändern, klicken Sie auf &quot;Fortgeschritten&quot;.</ExtInfoNoExt>
+				<FrameCaption_caption>Details über Erweiterung &apos;%1&apos; </FrameCaption_caption>
+				<FrameCaptionNoExt_caption>Details für &apos;%1&apos; Typ</FrameCaptionNoExt_caption>
+				<OpenWithInfo_caption>Öffnen mit:</OpenWithInfo_caption>
+			</Labels>
+			<Messages>
+				<AppExeNotFound>Fehler beim Abrufen des Pfads vom ausgewählten portablen Programm.</AppExeNotFound>
+				<DeleteConfirm>Wenn Sie eine registrierte Dateierweiterung entfernen, wird es nicht mehr möglich die Dateien mit dieser Erweiterung mit einem Doppelklick auf deren Icons zu öffnen.\n\nMöchten Sie diese Dateierweiterung wirklich entfernen?</DeleteConfirm>
+				<DeleteConfirmTitle>Dateitypen</DeleteConfirmTitle>
+				<ExtExists>Diese Erweiterung existiert bereits als &apos;%1&apos;.</ExtExists>
+				<ExtExistsTitle>Dateitypen</ExtExistsTitle>
+			</Messages>
+		</FileAssoc>
+		<General>
+			<AppActionPrefix>Öffnen mit </AppActionPrefix>
+			<AppActionSufix> (LiberKey)</AppActionSufix>
+			<DefaultTypeName>Dateien %1</DefaultTypeName>
+		</General>
+		<History>
+			<caption>Key Files Assoc&apos; - Versionshistorie</caption>
+			<CommandButtons>
+				<Close_caption>&amp;Schließen</Close_caption>
+				<Download_caption>Download Version %ver%...</Download_caption>
+			</CommandButtons>
+			<Messages>
+				<AppVersion>Version %ver%</AppVersion>
+				<New>Neu</New>
+				<NextVersion>(nächste Version...)</NextVersion>
+				<NoVersionInfo>Keine Version-Informationen verfügbar</NoVersionInfo>
+				<VersionAvailable>Update verfügbar</VersionAvailable>
+				<VersionDate>- %date%</VersionDate>
+				<YourVersion>Ihre Version</YourVersion>
+			</Messages>
+		</History>
+		<Loading>
+			<Labels>
+				<Info_caption>Laden...</Info_caption>
+			</Labels>
+		</Loading>
+		<Main>
+			<Menus>
+				<About_caption>&amp;Über...</About_caption>
+				<Apply_caption>LiberKey Zuordnungen aktivieren</Apply_caption>
+				<Config_caption>Zuordnungseinstellungen...</Config_caption>
+				<Options_caption>&amp;Optionen...</Options_caption>
+				<Quit_caption>&amp;Verlassen</Quit_caption>
+				<Restore_caption>Dateizuordnungen wiederherstellen</Restore_caption>
+				<Test_caption>Test</Test_caption>
+				<Web_caption>&amp;Die Webseite von Key Files Assoc&apos; besuchen...</Web_caption>
+			</Menus>
+		</Main>
+		<MergeAssocs>
+			<caption>Konfiguration Update</caption>
+			<CommandButtons>
+				<Cancel_caption>&amp;Ich werde das beim nächsten Start sehen...</Cancel_caption>
+				<MergeDefaultAssocs_caption>&amp;Ausgewählte Zuordnungen übernehmen</MergeDefaultAssocs_caption>
+				<SkipDefaultAssoc_caption>&amp;Meine Einstellungen nicht verändern!</SkipDefaultAssoc_caption>
+			</CommandButtons>
+			<Labels>
+				<Title_caption>Standard Zuordnungseinstellungen</Title_caption>
+				<UpdateInfo_caption>In der unteren Liste, können Sie alle neue Dateizuordnungen sehen, die mit der neuen Version geliefert wurden. Die roten Zuordnungen sind bereits in Ihren jetzigen Einstellungen definiert. Alle ausgewählten Zuordnungen in dieser Liste werden zu ihrer jetzigen Einstellung hinzugefügt.</UpdateInfo_caption>
+			</Labels>
+		</MergeAssocs>
+		<Messages>
+			<ApplyDone>Die Dateien sind nun den portablen Programmen in LiberKey zugeordnet.</ApplyDone>
+			<ApplyDoneTitle>LiberKey Dateizuordnungen für portable Programme</ApplyDoneTitle>
+			<ApplyError>Ein Fehler trat beim Versuch, die LiberKey Dateizuordnungen zu aktivieren, auf.</ApplyError>
+			<ApplyErrorTitle>Dateizuordnungen Fehler</ApplyErrorTitle>
+			<ASuiteConfMissing>Die Datei, die die Liste der portabler Programme enthält, wurde nicht gefunden.</ASuiteConfMissing>
+			<AutoRestoreDone>Dateierzuordnungen wurden bei der letzter Verwendung nicht wiederhergestellt.\nSie waren immer noch aktiv.</AutoRestoreDone>
+			<AutoRestoreDoneTitle>Dateizuordnungen wiederhergestellt</AutoRestoreDoneTitle>
+			<ExeSelection>Programm|*.exe;*.bat;*.com|Alle Dateien (*.*)|*.*</ExeSelection>
+			<NewVersionAvailable>Eine neue Key Files Assoc&apos; Version ist verfügbar.</NewVersionAvailable>
+			<NewVersionInfo>Version %version% vom %versiondate% ist verfügbar.\n\n%description%\n\nMöchten Sie es jetzt downloaden?</NewVersionInfo>
+			<NoAppUpdate>Ihre %appname% Version ist aktuell.</NoAppUpdate>
+			<RestoreDone>Dateizuordnungen wiederhergestellt</RestoreDone>
+			<RestoreDoneTitle>Dateizuordnungen wiederhergestellt</RestoreDoneTitle>
+			<RestoreError>Dateierweiterungen können nicht wiederhergestellt werden.\nEin Fehler trat bei der Wiederherstellung der Dateizuordnungen auf.</RestoreError>
+			<RestoreErrorTitle>Dateizuordnungen Fehler</RestoreErrorTitle>
+			<UpdateAppStillRunning>Das Programm läuft immer noch.\nMöchten Sie noch einmal versuchen?</UpdateAppStillRunning>
+			<UpdateDone>Update zur Version %version% beendet.</UpdateDone>
+			<UpdateDownloadError>Ein Fehler trat beim Download der letzten Version.\n\n%error%</UpdateDownloadError>
+			<UpdateErrorTitle>Fehler beim Update</UpdateErrorTitle>
+			<UpdateExeError>Ein Fehler trat während des Programm Updates auf.\n\n%error%</UpdateExeError>
+			<UpdateInfoError>Ein Fehler trat beim Versuch, die Informationen über die letzte Version zu bekommen, auf.</UpdateInfoError>
+			<UpdateTitle>Update</UpdateTitle>
+		</Messages>
+		<NewType>
+			<caption>Neue Erweiterung erstellen</caption>
+			<CommandButtons>
+				<Cancel_caption>&amp;Abbrechen</Cancel_caption>
+				<OK_caption>&amp;OK</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<Info_caption>Dateierweiterung:</Info_caption>
+			</Labels>
+			<Messages>
+				<NoExt>Sie müssen eine Erweiterung bestimmen.</NoExt>
+				<NoExtTitle>Dateitypen</NoExtTitle>
+			</Messages>
+		</NewType>
+		<Options>
+			<caption>Key Files Assoc&apos; Einstellungen</caption>
+			<CheckBoxs>
+				<AutoCheckVersionAtStart_caption>Beim Start auf Updates prüfen</AutoCheckVersionAtStart_caption>
+				<ShowAssocToolTip_caption>Sprechblase beim Aktivieren oder Wiederherstellen der Zuordnungen anzeigen</ShowAssocToolTip_caption>
+				<UseLbkProxySettings_caption>LiberKey Proxy-Einstellungen verwenden</UseLbkProxySettings_caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Cancel_caption>&amp;Abbrechen</Cancel_caption>
+				<DelAssocErrors_caption>Ausgewählte Zuordnungen entfernen</DelAssocErrors_caption>
+				<OK_caption>&amp;OK</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<AppsErrorsTitle_caption>Programm nicht gefunden (Zuordnungen deaktiviert)</AppsErrorsTitle_caption>
+				<FastSwitchMode_caption>Beim Doppelklick auf das Taskleistensymbol:</FastSwitchMode_caption>
+				<Language_caption>Sprache der Benutzeroberfläche:</Language_caption>
+			</Labels>
+			<Messages>
+				<ActionCount>(1 Aktion)</ActionCount>
+				<AppCounters>Dem Programm sind %objcount% Objekte zugeordnet. (%actioncount% Aktionen)</AppCounters>
+				<NotFoundApp> (Programm nicht gefunden)</NotFoundApp>
+			</Messages>
+			<OptionButtons>
+				<optSystrayFastSwitchOFF_caption>Öffnen der Zuordnungseinstellungen</optSystrayFastSwitchOFF_caption>
+				<optSystrayFastSwitchON_caption>Aktivieren / Wiederherstellen der LiberKey Programmzuordnungen</optSystrayFastSwitchON_caption>
+			</OptionButtons>
+			<Tabs>
+				<ActionErrors>Ungültige Aktionen</ActionErrors>
+				<Options>Optionen</Options>
+			</Tabs>
+		</Options>
+		<SelectIcon>
+			<caption>Icon ändern</caption>
+			<CommandButtons>
+				<Browse_caption>&amp;Suchen...</Browse_caption>
+				<Cancel_caption>&amp;Abbrechen</Cancel_caption>
+				<OK_caption>&amp;OK</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<IconList_caption>&amp;Suchen Sie einen Icon in der unteren Liste aus:</IconList_caption>
+				<IconPath_caption>&amp;Suchen Sie einen Icon in dieser Datei aus:</IconPath_caption>
+			</Labels>
+			<Messages>
+				<FileNotFound>Datei nicht gefunden: %1</FileNotFound>
+				<FilterAllFiles>Alle Dateien</FilterAllFiles>
+				<FilterIconFiles>Icon-Dateien</FilterIconFiles>
+				<FilterLibraries>Bibliotheken</FilterLibraries>
+				<FilterPrograms>Programme</FilterPrograms>
+				<OpenFileTitle>Icon ändern</OpenFileTitle>
+			</Messages>
+		</SelectIcon>
+		<Update>
+			<caption>Programm Update</caption>
+			<CommandButtons>
+				<Cancel_caption>&amp;Abbrechen</Cancel_caption>
+			</CommandButtons>
+			<Labels>
+				<ClosingApp_caption>Programm schließen</ClosingApp_caption>
+				<ReplaceExe_caption>Programm updaten</ReplaceExe_caption>
+				<RunNewVersion_caption>Neue Versioin starten</RunNewVersion_caption>
+				<Title_caption>Programm Update Installation</Title_caption>
+			</Labels>
+		</Update>
+		<Contributors>
+			<Contributor name="Paul Bichler" email="bichlepa@gmx.de"/>
+		</Contributors>
+	</de>
+</Languages>

@@ -1,0 +1,13 @@
+<Languages version="0.2">
+	<tr-TR en_name="Turkish" icon="tr.png" date="2010-05-14" version=" 5.7.0507" name="Türkçe">
+		<Messages>
+			<NoDesktopIconFound>Masaüstü&apos;nde kısayol bulunamadı...</NoDesktopIconFound>
+			<ConfirmEraseMany>Kayıtlı %count% kısayol silinsin mi ?</ConfirmEraseMany>
+			<ConfirmEraseOne>Kayıtlı kısayol silinsin mi ?</ConfirmEraseOne>
+			<NoQuickLaunchIconFound>Hızlı Başlat Çubuğu&apos;nda kısayol bulunamadı...</NoQuickLaunchIconFound>
+		</Messages>
+		<Contributors>
+			<Contributor name="Murat Pala" email="prozexis@hotmail.com" website="www.siteadi.com"/>
+		</Contributors>
+	</tr-TR>
+</Languages>

@@ -1,0 +1,30 @@
+<Languages>
+	<ko>
+		<Main>
+			<CommandButtons>
+				<CloseApps_Caption>휴대용 프로그램 종료(&amp;C)</CloseApps_Caption>
+				<Close_Caption>취소(&amp;A)</Close_Caption>
+			</CommandButtons>
+		</Main>
+		<Messages>
+			<Closing>프로그램 닫는중...</Closing>
+			<CloseFailed>프로그램이 아직 실행중입니다.\nw직접 프로그램을 닫거나, 강제 종료해야합니다.</CloseFailed>
+			<ForceFailed>강제종료를 시도하는중 에러!</ForceFailed>
+			<AppsCloseCanceled>취소된 프로그램 종료</AppsCloseCanceled>
+		</Messages>
+		<Closing>
+			<caption>LiberKey 프로그램 종료중... </caption>
+			<CommandButtons>
+				<Cancel_Caption>취소(&amp;C)</Cancel_Caption>
+				<Terminate_Caption>강제로 종료(&amp;F)</Terminate_Caption>
+				<Retry_Caption>다시 시도(&amp;R)</Retry_Caption>
+			</CommandButtons>
+		</Closing>
+		<Debug>
+			<caption>검색된 프로그램의 윈도우에 대한 정보</caption>
+		</Debug>
+		<Message>
+			<KillWarning>경고!\n\n프로그램의 강제 종료는 데이터에 영향을 줍니다.\n그러므로 프로그램을 그대로 두는것이 좋습니다.\n\n이 프로그램을 강제 종료하는것이 확실합니까?</KillWarning>
+		</Message>
+	</ko>
+</Languages>

@@ -1,0 +1,34 @@
+<Languages version="0.2">
+	<es-ES en_name="Spanish" icon="es.png" date="2010-09-18" version="0.31" name="Español">
+		<Main>
+			<CommandButtons>
+				<CloseApps_Caption>&amp;Cerrar aplicaciones portables</CloseApps_Caption>
+				<Close_Caption>C&amp;ancelar</Close_Caption>
+			</CommandButtons>
+		</Main>
+		<Messages>
+			<Closing>Cerrando aplicación...</Closing>
+			<CloseFailed>La aplicación aun se esta ejecutando.\nCierrela manualmente o fuerze el cierre.</CloseFailed>
+			<ForceFailed>¡Error mientras se forzaba el cierre!</ForceFailed>
+			<AppsCloseCanceled>Cancelado el cierre de aplicaciones</AppsCloseCanceled>
+			<ContinueClose>¿ Le gustaría continuar con el cierre del resto de aplicaciones ?</ContinueClose>
+		</Messages>
+		<Closing>
+			<caption>Cerrando aplicaciones de LiberKey</caption>
+			<CommandButtons>
+				<Cancel_Caption>&amp;Cancelar</Cancel_Caption>
+				<Terminate_Caption>&amp;Forzar el cerrado</Terminate_Caption>
+				<Retry_Caption>&amp;Reintentar</Retry_Caption>
+			</CommandButtons>
+		</Closing>
+		<Debug>
+			<caption>Informacion acerca de ventanas de \naplicaciones detectadas</caption>
+		</Debug>
+		<Message>
+			<KillWarning>¡Atención!\n\nForzar el cierre de una aplicación puede afectar a sus datos.\nEs preferible cerrar la aplicación de manera normal.\n\n¿ Esta seguro de querer forzar el cierre de este programa ?</KillWarning>
+		</Message>
+		<Contributors>
+			<Contributor name="Sergio López" email="sewave@gmail.com"/>
+		</Contributors>
+	</es-ES>
+</Languages>

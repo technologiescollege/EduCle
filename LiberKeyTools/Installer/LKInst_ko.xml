@@ -1,0 +1,85 @@
+<Languages version="0.2">
+	<ko en_name="Korean" name="한국어" date="2010-09-16" version="0.30" icon="kr.png">
+		<Main>
+			<Labels>
+				<AppName_Caption>프로그램 :</AppName_Caption>
+				<AppVersion_Caption>버전 :</AppVersion_Caption>
+				<AppDescription_Caption>설명 :</AppDescription_Caption>
+				<EditorName_Caption>개발자 :</EditorName_Caption>
+				<EditorWebSite_Caption>웹사이트 :</EditorWebSite_Caption>
+				<EditorEmail_Caption>이메일 :</EditorEmail_Caption>
+				<AppWebSite_Caption>웹사이트 :</AppWebSite_Caption>
+				<SupportURL_Caption>지원 :</SupportURL_Caption>
+				<PackageLangs_Caption>이용가능한 설치 언어 :</PackageLangs_Caption>
+				<PackageInfo_Caption>패키지 정보 :</PackageInfo_Caption>
+				<Signature_Caption>Package proposed by :</Signature_Caption>
+				<ValidationFailed_Caption>경고 : 이 패키지는 유효기간이 지났습니다. !</ValidationFailed_Caption>
+			</Labels>
+			<Tabs>
+				<Application>프로그램</Application>
+				<Editor>개발자</Editor>
+				<Package>패키지 정보</Package>
+			</Tabs>
+			<CommandButtons>
+				<Cancel_Caption>취소(&amp;C)</Cancel_Caption>
+				<Install_Caption>LiberKey에 이 프로그램 설치</Install_Caption>
+				<CancelOperation_Caption>취소(&amp;C)</CancelOperation_Caption>
+			</CommandButtons>
+		</Main>
+		<Messages>
+			<InvalidPackageFile>잘못된 설치 패키지</InvalidPackageFile>
+			<Errors>
+				<ErrRenameAppDir>프로그램 폴더이름 변경중 에러가 발생했습니다.\n프로그램이 실행중인지 그리고 프로그램폴더의 파일이 열려있는지 확인하세요.</ErrRenameAppDir>
+				<ASuiteCloseFailed>ASuite종료 불가능.</ASuiteCloseFailed>
+				<AppsDirNotFound>대상경로를 찾을 수 없음</AppsDirNotFound>
+				<ExtractErrorRestoreDone>데이터 추출 실패.\n이전 버전이 복구되었습니다.</ExtractErrorRestoreDone>
+				<InstallerUpdateNeeded>이 설치 패키지가 설치 마법사보다 더 최신입니다.\n이 마법사를 설치하여 최신버전을 사용하세요.</InstallerUpdateNeeded>
+				<InstallError>프로그램 설치중 에러가 발생했습니다 !</InstallError>
+				<AppDataNotFound>데이터 프로그램을 찾을 수 없음.</AppDataNotFound>
+				<InstErrorTitle>설치중 에러</InstErrorTitle>
+				<PackageValidationFailed>경고, 이 패키지는 유효하지 않음</PackageValidationFailed>
+				<DataFileModified>설치 패키지 파괴됨 :\n데이터 패키지가 수정된 적이 있습니다.\n\n%name%</DataFileModified>
+				<OldPackageVersion>이 설치 패키지는 설치마법사로 인해 더이상 지원하지 않습니다.\n설치를 계속하는것이 불가능합니다.</OldPackageVersion>
+				<IncompleteSetup>일부 파일은 업데이트 될 수 없습니다!\n이 파일들의 새로운 버전은 다음 경로에 저장되었습니다. :\n\n%failedfolder%</IncompleteSetup>
+				<SetupDataDownloadCanceled>다운로드 취소됨</SetupDataDownloadCanceled>
+			</Errors>
+			<Installing>설치중...</Installing>
+			<VerifyingSetupPackage>설치 패키지 확인중</VerifyingSetupPackage>
+			<VerifyingSetupDestination>대상의 빈공간 확인중</VerifyingSetupDestination>
+			<SavingActualVersion>실제 버전 저장중</SavingActualVersion>
+			<ExtractingAppFiles>프로그램 파일 추출중</ExtractingAppFiles>
+			<RestoringPreviousConfig>이전 설정 복원중</RestoringPreviousConfig>
+			<DeletingBackup>백업 삭제중</DeletingBackup>
+			<SetupDone>설치 완료</SetupDone>
+			<ClosingASuite>ASuite 닫는중...</ClosingASuite>
+			<ReStartLBK>LiberKey 재시작중...</ReStartLBK>
+			<AppStillRunning>프로그램이 아직 실행중입니다.</AppStillRunning>
+			<UpdatingAppsMenu>LiberKey 메뉴 업데이트</UpdatingAppsMenu>
+			<RestartingMenu>메뉴 재시작...</RestartingMenu>
+			<ClosingApplication>프로그램 닫는중...</ClosingApplication>
+			<ClosingKFA>키 파일 연결 닫는중...</ClosingKFA>
+			<UpdatingFileAssocs>파일 연결 업데이트</UpdatingFileAssocs>
+			<RestartingKFA>키파일 연결 재시작중...</RestartingKFA>
+			<RestartingApp>프로그램 재시작중...</RestartingApp>
+			<PackageSignatureNotFound>(이 패키지는 서명되지 않음)</PackageSignatureNotFound>
+			<LangMismatchWarning>경고 !\nLiberKey가 사용하는 언어와 다른 언어의 소프트웨어를 인스톨합니다.\n계속 하시겠습니까 ?</LangMismatchWarning>
+			<AlreadyInstalled>이 프로그램은 이미 LiberKey에 설치되어 있습니다.\n다시 설치 하시겠습니까?</AlreadyInstalled>
+			<DowngradeWarning>주의!\n\n이 프로그램의 새 버전이 이미 LiberKey에 설치되어 있습니다.\n\n이미 설치된 버전: %current_version%\n설치중인 버전: %setup_version%\n\n구버전을 인스톨 하시겠습니까?</DowngradeWarning>
+			<DownloadingSetupData>설치파일 다운로드...\n%DONE%</DownloadingSetupData>
+			<SetupDataDownloadDone>다운로드 완료.</SetupDataDownloadDone>
+			<InstalledLangMismatchWarning>경고 !\n이 프로그램은 다른 언어파일로 이미 LiberKey에 설치되어 있습니다.\n\n이전 설치의 언어: &quot;%prevlang%&quot;\n지금 설치중인 언어: &quot;%newlang%&quot;\n\n계속하시겠습니까 ?</InstalledLangMismatchWarning>
+		</Messages>
+		<Report>
+			<caption>설치 완료!</caption>
+			<CommandButtons>
+				<Close_Caption>닫기(&amp;C)</Close_Caption>
+			</CommandButtons>
+			<Labels>
+				<MenuInfo_Caption>LiberKey 메뉴가 변경되었습니다!\n\n설치한 프로그램을 쉽게 시작하시려면,\nLiberKey의 다음 메뉴를 이용하세요:</MenuInfo_Caption>
+			</Labels>
+		</Report>
+		<Contributors>
+			<Contributor name="Brad KIM" email="ksb0119596@naver.com"/>
+		</Contributors>
+	</ko>
+</Languages>

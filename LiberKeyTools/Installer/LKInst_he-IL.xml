@@ -1,0 +1,86 @@
+<Languages version="0.2">
+	<he-IL en_name="Hebrew" icon="il.png" date="2011-02-27" version="1.0" name="Hebrew Translation">
+		<Main>
+			<Labels>
+				<AppName_Caption>היישום:</AppName_Caption>
+				<AppVersion_Caption>גירסה:</AppVersion_Caption>
+				<AppDescription_Caption>תיאור:</AppDescription_Caption>
+				<EditorName_Caption>המוציא לאור:</EditorName_Caption>
+				<EditorWebSite_Caption>אתר האינטרנט:</EditorWebSite_Caption>
+				<EditorEmail_Caption>כתובת דואל:</EditorEmail_Caption>
+				<AppWebSite_Caption>כתובת אתר האינטרנט:</AppWebSite_Caption>
+				<SupportURL_Caption>תמיכה:</SupportURL_Caption>
+				<PackageLangs_Caption>שפות ההתקנה הקיימות:</PackageLangs_Caption>
+				<PackageInfo_Caption>פרטי החבילה:</PackageInfo_Caption>
+				<Signature_Caption>החבילה התקבלה מאת:</Signature_Caption>
+				<ValidationFailed_Caption>אזהרה: חבילה זו לא עברה תהליך אימות !</ValidationFailed_Caption>
+			</Labels>
+			<Tabs>
+				<Application>היישום</Application>
+				<Editor>המוציא לאור</Editor>
+				<Package>פרטי החבילה</Package>
+			</Tabs>
+			<CommandButtons>
+				<Cancel_Caption>בי&amp;טול</Cancel_Caption>
+				<Install_Caption>התקן יישום זה בתוך המעטפת</Install_Caption>
+				<CancelOperation_Caption>בי&amp;טול</CancelOperation_Caption>
+			</CommandButtons>
+		</Main>
+		<Messages>
+			<InvalidPackageFile>חבילת התקנה שגויה</InvalidPackageFile>
+			<Errors>
+				<ErrRenameAppDir>אירעה שגיאה בעת הניסיון לשנות את שמה של תיקיית היישום.\nיש לבדוק כי היישום אינו פועל וכי אין קבצים פתוחים בתיקיית היישום.</ErrRenameAppDir>
+				<ASuiteCloseFailed>לא ניתן לסגור את החבילה</ASuiteCloseFailed>
+				<AppsDirNotFound>תיקיית היעד לא נמצאה</AppsDirNotFound>
+				<ExtractErrorRestoreDone>חילוץ הנתונים נכשל.\nהגירסה הקודמת שוחזרה.</ExtractErrorRestoreDone>
+				<InstallerUpdateNeeded>חבילת ההתקנה הנוכחית חדשה יותר מאשר אשף ההתקנה.\nכדי לבצע את ההתקנה יש להשתמש בגירסה האחרונה של האשף.</InstallerUpdateNeeded>
+				<InstallError>אירעה שגיאה בעת התקנת היישום!</InstallError>
+				<AppDataNotFound>נתוני היישום לא נמצאו</AppDataNotFound>
+				<InstErrorTitle>אירעה שגיאה במהלך ההתקנה</InstErrorTitle>
+				<PackageValidationFailed>אזהרה: חבילה זו לא עברה תהליך אימות</PackageValidationFailed>
+				<DataFileModified>חבילת ההתקנה פגומה:\nנתוני החבילה השתנו\n\n%name%</DataFileModified>
+				<OldPackageVersion>אשף ההתקנה אינו תומך עוד בחבילת ההתקנה הנוכחית.\nלא ניתן להמשיך בהתקנה.</OldPackageVersion>
+				<IncompleteSetup>לא הייתה אפשרות לעדכן כמה מהקבצים!\nהגירסאות החדשות של הקבצים הללו נשמרו בתיקייה הבאה:\n\n%failedfolder%</IncompleteSetup>
+				<SetupDataDownloadCanceled>ההורדה בוטלה</SetupDataDownloadCanceled>
+				<ExtractErrorRestoreNotDone>חילוץ היישום נכשל.\nהגירסה הקודמת נשמרה בתיקיית הגיבוי.</ExtractErrorRestoreNotDone>
+			</Errors>
+			<Installing>מתקין...</Installing>
+			<VerifyingSetupPackage>מאמת את הפרטים של חבילת ההתקנה</VerifyingSetupPackage>
+			<VerifyingSetupDestination>בודק את הנפח הקיים ביעד</VerifyingSetupDestination>
+			<SavingActualVersion>שומר את הגירסה הנוכחית</SavingActualVersion>
+			<ExtractingAppFiles>מחלץ את קובצי היישום</ExtractingAppFiles>
+			<RestoringPreviousConfig>משחזר את התצורה הקודמת</RestoringPreviousConfig>
+			<DeletingBackup>מוחק את הגיבוי</DeletingBackup>
+			<SetupDone>ההתקנה הסתיימה</SetupDone>
+			<ClosingASuite>סוגר את החבילה...</ClosingASuite>
+			<ReStartLBK>מפעיל מחדש את יישום המעטפת</ReStartLBK>
+			<AppStillRunning>היישום עדיין פועל.</AppStillRunning>
+			<UpdatingAppsMenu>מעדכן את התפריט של יישום המעטפת</UpdatingAppsMenu>
+			<RestartingMenu>הפעלה מחדש של התפריט...</RestartingMenu>
+			<ClosingApplication>סוגר את היישום...</ClosingApplication>
+			<ClosingKFA>סוגר את שיוכי הקבצים...</ClosingKFA>
+			<UpdatingFileAssocs>מעדכן את שיוכי הקבצים...</UpdatingFileAssocs>
+			<RestartingKFA>מפעיל מחדש את שיוכי הקבצים...</RestartingKFA>
+			<RestartingApp>מפעיל מחדש את היישום...</RestartingApp>
+			<PackageSignatureNotFound>(החבילה אינה נושאת חתימה)</PackageSignatureNotFound>
+			<LangMismatchWarning>אזהרה!\nאתה עומד להתקין תוכנה בשפה שונה מזו המשמשת את יישום המעטפת.\nהאם ברצונך להמשיך?</LangMismatchWarning>
+			<AlreadyInstalled>יישום זה מותקן כבר בתוך יישום המעטפת.\nהאם ברצונך להתקינו שוב?</AlreadyInstalled>
+			<DowngradeWarning>זהירות!\n\nביישום המעטפת מותקנת כבר גירסה חדשה יותר של יישום זה.\n\nהגירסה המוקנת היא: %current_version%\nהגירסה שתותקן היא: %setup_version%\n\nהאם ברצונך להתקין את הגירסה הקודמת?</DowngradeWarning>
+			<DownloadingSetupData>מוריד את קובצי ההתקנה...\n%DONE%</DownloadingSetupData>
+			<SetupDataDownloadDone>ההורדה הסתיימה.</SetupDataDownloadDone>
+			<InstalledLangMismatchWarning>אזהרה!\nתוכנה זו מותקנת כבר ביישום המעטפת אך בשפה שונה.\n\nההתקנה הקודמת בוצעה בשפה: &quot;%prevlang%&quot;\nההתקנה הנוכחית תבוצע בשפה: &quot;%newlang%&quot;\n\nהאם ברצונך להמשיך?</InstalledLangMismatchWarning>
+		</Messages>
+		<Report>
+			<caption>ההתקנה הסתיימה!</caption>
+			<CommandButtons>
+				<Close_Caption>ס&amp;גור</Close_Caption>
+			</CommandButtons>
+			<Labels>
+				<MenuInfo_Caption>התפריט של יישום המעטפת השתנה!\n\nכדי להפעיל את היישום שהותקן זה עתה יש לעשות שימוש בתפריטים הבאים של יישום המעטפת:</MenuInfo_Caption>
+			</Labels>
+		</Report>
+		<Contributors>
+			<Contributor name="Abe C"/>
+		</Contributors>
+	</he-IL>
+</Languages>

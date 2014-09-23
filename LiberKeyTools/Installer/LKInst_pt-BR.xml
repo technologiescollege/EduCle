@@ -1,0 +1,88 @@
+<Languages version="0.2">
+	<pt-BR en_name="Portuguese Brazilian" icon="br.png" date="2012-01-16" name="Português do Brasil" version="1.0">
+		<Main>
+			<CommandButtons>
+				<Cancel_Caption>&amp;Cancelar</Cancel_Caption>
+				<CancelOperation_Caption>&amp;Cancelar</CancelOperation_Caption>
+				<Install_Caption>Instalar este aplicativo no meu LiberKey</Install_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppDescription_Caption>Descrição :</AppDescription_Caption>
+				<AppName_Caption>Aplicativo :</AppName_Caption>
+				<AppVersion_Caption>Versão :</AppVersion_Caption>
+				<AppWebSite_Caption>Endereço Internet :</AppWebSite_Caption>
+				<EditorEmail_Caption>Email :</EditorEmail_Caption>
+				<EditorName_Caption>Editor :</EditorName_Caption>
+				<EditorWebSite_Caption>Endereço Internet :</EditorWebSite_Caption>
+				<PackageInfo_Caption>Informação do pacote :</PackageInfo_Caption>
+				<PackageLangs_Caption>Idiomas disponíveis do setup:</PackageLangs_Caption>
+				<Signature_Caption>Pacote proposto por :</Signature_Caption>
+				<SupportURL_Caption>Suporte :</SupportURL_Caption>
+				<ValidationFailed_Caption>Aviso : Este pacote não está validado!</ValidationFailed_Caption>
+			</Labels>
+			<Tabs>
+				<Application>Aplicativo</Application>
+				<Editor>Editor</Editor>
+				<Package>Informação do Pacote</Package>
+			</Tabs>
+		</Main>
+		<Messages>
+			<AlreadyInstalled>Este aplicativo já está instalado no seu LiberKey.\nVocê quer instalá-lo novamente?</AlreadyInstalled>
+			<AppStillRunning>O aplicativo está em execução.</AppStillRunning>
+			<ClosingApplication>Fechando aplicativo...</ClosingApplication>
+			<ClosingASuite>Fechando ASuite...</ClosingASuite>
+			<ClosingKFA>Fechando Associação de Arquivos...</ClosingKFA>
+			<DeletingBackup>Excluindo o backup</DeletingBackup>
+			<DeletingObsoleteFiles>Removendo arquivos obsoletos</DeletingObsoleteFiles>
+			<DowngradeWarning>Atenção!\n\nUma nova versão deste aplicativo já está instalada no seu LiberKey.\n\nVersão já instalada: %current_version%\nVersão sendo instalada: %setup_version%\n\nVocê deseja instalar a versão mais antiga?</DowngradeWarning>
+			<DownloadingSetupData>Baixando arquivos de setup...\n%DONE%</DownloadingSetupData>
+			<Errors>
+				<AppDataNotFound>Dados de aplicativo não encontrados</AppDataNotFound>
+				<AppsDirNotFound>Pasta destino não encontrada</AppsDirNotFound>
+				<ASuiteCloseFailed>Não é possível fechar o ASuite.</ASuiteCloseFailed>
+				<DataFileModified>Pacote de instalação corrompido.\nPacote de dados foi modificado\n\n%name%</DataFileModified>
+				<ErrRenameAppDir>Um erro ocorreu enquanto tentava renomear a pasta do aplicativo.\nVerifique que o aplicativo não está em execução e que não há arquivos abertos em sua pasta.</ErrRenameAppDir>
+				<ExtractErrorRestoreDone>Extração de dados falhou.\nA versão anterior foi restaurada.</ExtractErrorRestoreDone>
+				<ExtractErrorRestoreNotDone>Extração do aplicativo falhou.\nA versão anterior foi mantida em uma pasta de backup.</ExtractErrorRestoreNotDone>
+				<IncompleteSetup>Alguns arquivos não puderam ser atualizados!\nNovas versões destes arquivos foram salvas na seguinte pasta:\n\n%failedfolder%</IncompleteSetup>
+				<InstallError>Um erro ocorreu durante a instalação deste aplicativo.</InstallError>
+				<InstallerUpdateNeeded>Este pacote de instação é mais recente do que o guia de instalação.\nUse a última versão do guia de instalação para instalar.</InstallerUpdateNeeded>
+				<InstErrorTitle>Erro durante a instalação</InstErrorTitle>
+				<OldPackageVersion>Este pacote de instalação não é mais suportado pelo guia de instalação.\nA instalação não pode continuar.</OldPackageVersion>
+				<PackageValidationFailed>Aviso, este pacote não foi validado.</PackageValidationFailed>
+				<SetupDataDownloadCanceled>Download cancelado</SetupDataDownloadCanceled>
+				<SetupDataDownloadError>Erro ao baixar os dados de setup</SetupDataDownloadError>
+			</Errors>
+			<ExtractingAppFiles>Extraindo os arquivos do aplicativo</ExtractingAppFiles>
+			<InstalledLangMismatchWarning>Aviso!\nEste aplicativo já está sendo executado no seu LiberKey em um idioma diferente.\n\nO setup anterior foi instalado em: %prevlang%&quot;\nEste setup será instalado em: &quot;%newlang%&quot;\n\nVocê deseja continuar?</InstalledLangMismatchWarning>
+			<Installing>Instalando...</Installing>
+			<InvalidPackageFile>Pacote de instalação inválido.</InvalidPackageFile>
+			<LangMismatchWarning>Aviso!\nVocê está prestes a instalar um programa cujo idioma é diferente do usado no seu LiberKey.\nVocê deseja continuar?</LangMismatchWarning>
+			<PackageSignatureNotFound>(Este pacote não está assinado)</PackageSignatureNotFound>
+			<RestartingApp>Reiniciando aplicativo...</RestartingApp>
+			<RestartingKFA>Reiniciando Associação de Arquivos...</RestartingKFA>
+			<RestartingMenu>Reiniciar o menu...</RestartingMenu>
+			<ReStartLBK>Reiniciando o LiberKey...</ReStartLBK>
+			<RestoringPreviousConfig>Restaurando a configuração anterior</RestoringPreviousConfig>
+			<SavingActualVersion>Salvando a versão atual</SavingActualVersion>
+			<SetupDataDownloadDone>Download completo.</SetupDataDownloadDone>
+			<SetupDone>Instalação completa</SetupDone>
+			<UpdatingAppsMenu>Atualizando o menu LiberKey...</UpdatingAppsMenu>
+			<UpdatingFileAssocs>Atualizando associações de arquivos...</UpdatingFileAssocs>
+			<VerifyingSetupDestination>Verificando o espaço do destino</VerifyingSetupDestination>
+			<VerifyingSetupPackage>Verificando o pacote de instalação</VerifyingSetupPackage>
+		</Messages>
+		<Report>
+			<caption>Instalação completa.</caption>
+			<CommandButtons>
+				<Close_Caption>&amp;Fechar</Close_Caption>
+			</CommandButtons>
+			<Labels>
+				<MenuInfo_Caption>O menu LiberKey foi modificado!\n\nPara iniciar o aplicativo que você acabou de instalar,\nuse os seguintes menus do seu LiberKey:</MenuInfo_Caption>
+			</Labels>
+		</Report>
+		<Contributors>
+			<Contributor name="Rafael Silva" email="mckusck@hotmail.com" website="www.twitter.com/mckusck"/>
+		</Contributors>
+	</pt-BR>
+</Languages>

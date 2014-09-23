@@ -1,0 +1,94 @@
+<Languages version="0.2">
+	<he-IL en_name="Hebrew" icon="il.png" date="2011-02-27" version="1.0" name="Hebrew Translation">
+		<Messages>
+			<AppAlreadyRunning>היישום %appname% פועל כבר. יש לסגור את המופע הקודם לפני פתיחת המופע הנוכחי !</AppAlreadyRunning>
+			<DefaultTitle>המהדורה הניידת של היישום %appname%</DefaultTitle>
+			<OtherInstanceStarted>אזהרה!\n\nזה עתה הופעל היישום %appname% בעוד גירסתו הניידת עדיין פועלת.\nתחילה יש לסגור את הגירסה הלא ניידת !</OtherInstanceStarted>
+			<Errors>
+				<AppInfoFileNotFound>קובץ הפרטים של היישום הנייד לא נמצא !</AppInfoFileNotFound>
+				<ExeNotFound>קובץ ההפעלה לא נמצא !</ExeNotFound>
+				<ApplyContextError>לא ניתן להכין את הדרוש עבור היישום הניד.\n\nתחילה יש לסגור את כל החלונות הפתוחים ולהפעיל מחדש את היישום הנייד.</ApplyContextError>
+				<DependencyMissing>כדי להפעיל תוכנית זו יש תחילה להתקין את %depend%</DependencyMissing>
+				<InvalidRetoreData>נתוני השחזור עבור היישום %appname% הם פגומים!\nלא ניתן לשחזר את תצורת היישום.</InvalidRetoreData>
+				<CrashRestore>יישום הניוד של המעטפת הופסק באופן פתאומי במהלך ההפעלה האחרונה.</CrashRestore>
+				<CrashInfo>היישומים הבאים היו בפעולה.\nלא הייתה אפשרות לשמוראת תצורתם בתוך יישום המעטפת, ולא ניתן היה לשחזר את תצורת המחשב.</CrashInfo>
+				<NeedUpdate>כדי להפעיל יישום זה יש תחילה לעדכן את יישום הניוד של המעטפת.\nניתן להוריד את העדכון בחינם מן הכתובת שלהלן:\nwww.liberkey.com\n\nהאם ברצונך לעבור לכתובת זו כעת?</NeedUpdate>
+				<NeedLbkUpdate>כדי להפעיל יישום זה יש תחילה לעדכן את יישום המעטפת.\n\nהפעל את בדיקת העדכונים של יישום המעטפת.\nהשימוש ביישום %app% יתאפשר מיד אחרי החלת הטלאי האחרון.</NeedLbkUpdate>
+				<CrashRestoreElevatedApps>היישומים הופעלו עם זכויות של אדמיניסטרטור ולא ניתן היה לשחזר את הגדרות התצורה. כדי לבצע זאת יש להפעיל את יישום הניוד של המעטפת עם זכויות של אדמיניסטרטור. האם ברצונך לשחזר כעת את היישומים?</CrashRestoreElevatedApps>
+				<SingleUserApp>היישום &quot;%app_name%&quot; הופעל על ידי משתמש אחר\n\nהמשתמש: &quot;%user%&quot;\nהפעלה: &quot;%session%&quot;\n\nלא ניתן להפעיל את היישום בו זמנית עבור מספר משתמשים.</SingleUserApp>
+			</Errors>
+			<LbkPortabilizerInfo>זהו מנוע &quot;הניוד&quot; המשמש את היישומים שבמעטפת.\n\n\nלקבלת פרטים נוספים יש לבקר באתר: \nwww.liberkey.com</LbkPortabilizerInfo>
+			<RestoreNeedLBK>אזהרה!\n\nיישום אחד או יותר לא נמצאו.\n\nלחיצה על &apos;הפסק&apos;: תבטל כל פעולה.\n\nלחיצה על &apos;התעלם&apos;: תשחזר את הגדרות המחשב, אולם פרטי התצורה של היישומים הניידים עלולים ללכת לאיבוד\n\nלחיצה על &apos;נסה שוב&apos;: אם היישומים הניידים היו בכונן יו אס בי, יש לחבר את הכונן וללחוץ על לחצן זה</RestoreNeedLBK>
+			<SessionEndWarning>כמה יישומים ניידים עדיין פועלים.\nלפני סגירת מערכת ההפעלה, עדיף לסגור את היישומים וכך להבטיח את שמירת הפרמטרים שלהם ואת שחזור הגדרות התצוגה של המחשב.</SessionEndWarning>
+			<Yes>כן</Yes>
+			<No>לא</No>
+		</Messages>
+		<Main>
+			<CommandButtons>
+				<OK_Caption>&amp;אישור</OK_Caption>
+			</CommandButtons>
+			<Labels>
+				<PortabilizerInfo_Caption>יישומים הפועלים כעת</PortabilizerInfo_Caption>
+			</Labels>
+		</Main>
+		<CrashRestore>
+			<CommandButtons>
+				<Restore_Caption>שחזר הכול עכשיו</Restore_Caption>
+			</CommandButtons>
+			<Labels>
+				<Info_Caption>היישומים הבאים היו בפעולה.\nלא הייתה אפשרות לשמור את תצורתם במעטפת ולא הייתה אפשרות לשחזר את תצורת המחשב.</Info_Caption>
+				<Title_Caption>יישום הניוד של המעטפת הופסק באופן פתאומי בהפעלתו האחרונה.</Title_Caption>
+			</Labels>
+		</CrashRestore>
+		<Warning>
+			<CommandButtons>
+				<Info_Caption>פרטים...</Info_Caption>
+				<OK_Caption>&amp;אישור</OK_Caption>
+			</CommandButtons>
+			<Status>
+				<UserName>משתמש:</UserName>
+				<UserAdmin>אדמיניסטרטור:</UserAdmin>
+				<UserElevated>משתמש בעל עדיפות:</UserElevated>
+				<UserSession>הפעלה:</UserSession>
+			</Status>
+		</Warning>
+		<Cmds>
+			<OK>אישור</OK>
+			<Info>פרטים...</Info>
+		</Cmds>
+		<UpdateAvailable>
+			<caption>קיים עדכון</caption>
+			<CheckBoxs>
+				<NoMoreAlert_Caption>אל תציג עדכון זה</NoMoreAlert_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Cancel_Caption>ה&amp;פעל את היישום מבלי לבצע את העדכון</Cancel_Caption>
+				<Install_Caption>הור&amp;ד והתקן את העדכון</Install_Caption>
+			</CommandButtons>
+			<Labels>
+				<Version_Caption>גירסה %version%</Version_Caption>
+				<AppUpdateAvailable_Caption>קיימת גירסה חדשה עבור יישום זה</AppUpdateAvailable_Caption>
+			</Labels>
+		</UpdateAvailable>
+		<License>
+			<caption>רישיון עבור היישום %appname%</caption>
+			<Labels>
+				<LicenseTitle_Caption>רישיון זה מגדיר את תנאי השימוש ביישום %appname%, ויש לעיין בו כדי להמשיך.</LicenseTitle_Caption>
+				<LicenseAgreeTitle_Caption>כדי להשתמש ביישום %appname%, יש תחילה להסכים לתנאי הרישיון</LicenseAgreeTitle_Caption>
+				<License_Caption>רישיון</License_Caption>
+				<AccetInformation_Caption>חשוב מאוד: סימון התיבה שלהלן ולחיצה על &apos;אני מסכים&apos; מעידים על הסכמתך לציית לתנאי הרישיון. כדי לעיין בתנאי הרישיון במלואם יש לעשות שימוש במקש &apos;חץ למטה&apos;.</AccetInformation_Caption>
+			</Labels>
+			<CommandButtons>
+				<Accept_Caption>אני מסכים</Accept_Caption>
+				<Cancel_Caption>ביטול</Cancel_Caption>
+				<OK_Caption>אישור</OK_Caption>
+			</CommandButtons>
+			<CheckBoxs>
+				<Accept_Caption>אני מסכים לציית לתנאי הרישיון</Accept_Caption>
+			</CheckBoxs>
+		</License>
+		<Contributors>
+			<Contributor name="Abe C"/>
+		</Contributors>
+	</he-IL>
+</Languages>

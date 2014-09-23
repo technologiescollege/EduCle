@@ -1,0 +1,94 @@
+<Languages version="0.2">
+	<tr-TR en_name="Turkish" icon="tr.png" version="5.7.0507" name="Türkçe" date="2012-05-14">
+		<Messages>
+			<AppAlreadyRunning>%appname% zaten çalışıyor. Bunu çalıştırmadan önce lütfen diğer sürümü kapatın !</AppAlreadyRunning>
+			<DefaultTitle>%appname% LiberKey Taşınabilir Sürüm</DefaultTitle>
+			<OtherInstanceStarted>Uyarı ! \n\nTaşınabilir sürüm çalışırken aynı anda %appname% başlattınız.\nLütfen taşınabilir olmayan sürümü kapatın !</OtherInstanceStarted>
+			<Errors>
+				<AppInfoFileNotFound>Taşınabilir uygulamanın bilgi dosyası kayıp!</AppInfoFileNotFound>
+				<ExeNotFound>Çalıştırılabilir dosya bulunamadı !</ExeNotFound>
+				<ApplyContextError>Taşınabilir uygulama için yürütme bağlamı hazırlanamadı.\n\nLütfen açık tüm pencereleri kapatın ve taşınabilir uygulamayı tekrar başlatın.</ApplyContextError>
+				<DependencyMissing>Bu programı çalıştırmak için, %depend% önceden kurulmuş olması gerekir.</DependencyMissing>
+				<InvalidRetoreData>%appname% için geri yükleme verisi bozulmuş !\nBu uygulamaya ait yapılandırma geri yüklenemedi.</InvalidRetoreData>
+				<CrashRestore>LiberKey Portabilizer, son yürütme esnasında şiddetli bir şekilde durduruldu.</CrashRestore>
+				<CrashInfo>Aşağıdaki uygulamalar çalışıyor.\nBunlara ait yapılandırmalar LiberKey&apos;e kaydedilemedi ve bilgisayarınızın yapılandırması geri yüklenemedi.</CrashInfo>
+				<NeedUpdate>Bu uygulamanın çalışması için LiberKey Portabilizer güncelleştirilmelidir.\nwww.liberkey.com adresinden ücretsiz olarak indirebilirsiniz.\n\nwww.liberkey.com sitesine şimdi gitmek ister misiniz?</NeedUpdate>
+				<NeedLbkUpdate>Bu uygulamanın çalışması için LiberKey güncelleştirilmelidir.\n\nLiberKey güncelleme konrtolünü başlat.\nEn son güncellemeyi uyguladıktan sonra %app% kullanabilirsiniz.</NeedLbkUpdate>
+				<CrashRestoreElevatedApps>Yönetici olarak çalıştırılan uygulamalar ve yapılandırmaları geri yüklenemedi. Bunu yapmak için, LiberKey Portabilizer yönetici olarak çalıştırılmalıdır. Bu uygulamaları şimdi geri yüklemek ister misiniz?</CrashRestoreElevatedApps>
+				<SingleUserApp>&quot;%app_name%&quot; uygulaması başka bir kullanıcı tarafından başlatıldı.\n\nKullanıcı: &quot;%user%&quot;\nOturum : &quot;%session%&quot;\n\nBu uygulama birden fazla kullanıcı için eş zamanlı olarak çalıştırılamaz.</SingleUserApp>
+			</Errors>
+			<LbkPortabilizerInfo>Bu program, LiberKey içerisinde sunulan uygulamalar için gerekli olan &quot;taşınabilirleştirme&quot; motorudur.\n\n\nDaha fazla bilgi için web sitesine gidin:\nwww.liberkey.com</LbkPortabilizerInfo>
+			<RestoreNeedLBK>Uyarı !\n\nBir veya daha fazla uygulama bulunamadı.\n\n- &quot;İptal&quot;: Şu anda hiçbir işlem yapılmayacak.\n\n- &quot;Yoksay&quot;: Bilgisayarınızın yapılandırması geri yüklenecektir, fakat taşınabilir \n    uygulamalarınız hakkındaki yapılandırma bilgilerini kaybedebilirsiniz.\n\n- &quot;Tekrar Dene&quot;: Taşınabilir uygulamalarınız bir USB sürücüsündeyse, sürücüyü takın ve &quot;Tekrar Dene&quot;yi tıklayın.</RestoreNeedLBK>
+			<SessionEndWarning>Taşınabilir uygulamalar hala çalışıyor.\nBunlara ait parametrelerin korunmasını sağlamak ve bilgisayar yapılandırmanızı geri yüklemek için, Windows Oturumunuzu kapatmadan önce bu uygulamaları kapatmanız daha iyidir.</SessionEndWarning>
+			<Yes>Evet</Yes>
+			<No>Hayır</No>
+		</Messages>
+		<Main>
+			<CommandButtons>
+				<OK_Caption>&amp;Tamam</OK_Caption>
+			</CommandButtons>
+			<Labels>
+				<PortabilizerInfo_Caption>Şu anda çalışan uygulamalar...</PortabilizerInfo_Caption>
+			</Labels>
+		</Main>
+		<CrashRestore>
+			<CommandButtons>
+				<Restore_Caption>Tümünü Şimdi Geri Yükle</Restore_Caption>
+			</CommandButtons>
+			<Labels>
+				<Info_Caption>Aşağıdaki uygulamalar çalışıyor.\nBunlara ait yapılandırmalar LiberKey&apos;e kaydedilemedi ve bilgisayarınızın yapılandırması geri yüklenemedi.</Info_Caption>
+				<Title_Caption>LiberKey Portabilizer, en son yürütme esnasında aniden durdu.</Title_Caption>
+			</Labels>
+		</CrashRestore>
+		<Warning>
+			<CommandButtons>
+				<Info_Caption>Bilgi...</Info_Caption>
+				<OK_Caption>&amp;Tamam</OK_Caption>
+			</CommandButtons>
+			<Status>
+				<UserName>Kullanıcı:</UserName>
+				<UserAdmin>Yönetici:</UserAdmin>
+				<UserElevated>Yükseltme:</UserElevated>
+				<UserSession>Oturum:</UserSession>
+			</Status>
+		</Warning>
+		<Cmds>
+			<OK>Tamam</OK>
+			<Info>Bilgi...</Info>
+		</Cmds>
+		<UpdateAvailable>
+			<caption>Güncelleme Mevcut</caption>
+			<CheckBoxs>
+				<NoMoreAlert_Caption>Bu güncellemeyi gösterme...</NoMoreAlert_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Cancel_Caption>&amp;Programı güncelleme yapmadan başlat.</Cancel_Caption>
+				<Install_Caption>&amp;Güncellemeyi indir ve kur ...</Install_Caption>
+			</CommandButtons>
+			<Labels>
+				<Version_Caption>Sürüm %version%</Version_Caption>
+				<AppUpdateAvailable_Caption>LiberKey&apos;iniz için bu programın yeni bir sürümü mevcut.</AppUpdateAvailable_Caption>
+			</Labels>
+		</UpdateAvailable>
+		<License>
+			<caption>%appname% Lisansı</caption>
+			<Labels>
+				<LicenseTitle_Caption>Bu lisans, %appname% için kullanım koşullarını tanımlar. Devam etmeden önce okuduğunuz için teşekkürler.</LicenseTitle_Caption>
+				<LicenseAgreeTitle_Caption>%appname% uygulamasını kullanabilmek için öncelikle lisans sözleşmesini kabul etmelisiniz.</LicenseAgreeTitle_Caption>
+				<License_Caption>Lisans</License_Caption>
+				<AccetInformation_Caption>ÖNEMLİ: Aşağıdaki kutucuğu işaretleyip &quot;Kabul&quot; düğmesini tıkladığınızda, bu lisans sözleşmesini ve bu sözleşmenin şartlarını kabul etmiş olursunuz. Lisansın geri kalanını görmek için &apos;aşağı ok&apos; simgesine tıklayın.</AccetInformation_Caption>
+			</Labels>
+			<CommandButtons>
+				<Accept_Caption>Kabul</Accept_Caption>
+				<Cancel_Caption>Kapat</Cancel_Caption>
+				<OK_Caption>Tamam</OK_Caption>
+			</CommandButtons>
+			<CheckBoxs>
+				<Accept_Caption>Lisans sözleşmesini ve şartlarını kabul ediyorum.</Accept_Caption>
+			</CheckBoxs>
+		</License>
+		<Contributors>
+			<Contributor name="Murat Pala" email="prozexis@hotmail.com" website="www.siteadi.com"/>
+		</Contributors>
+	</tr-TR>
+</Languages>

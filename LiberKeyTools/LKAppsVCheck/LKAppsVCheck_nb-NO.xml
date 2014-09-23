@@ -1,0 +1,72 @@
+<Languages version="0.2">
+	<nb-NO en_name="Norwegian - Bokmål" icon="no.png" date="2011-04-04" name="Norsk" version="1.2">
+		<Messages>
+			<Errors>
+				<404>%appname% %appversion%\n\n Filen ble ikke funnet på denne serveren!\n Vennligst prøv igjen senere</404>
+				<Login>En feil oppstod under login !\nPrøv igjen senere.</Login>
+				<Password>Ugyldig pålogging.\n\n Brukernavn og / eller passord er feil</Password>
+				<403>En feil oppstod under proxy-server identifiserings prosess!\n Kontroller proxy-konfigurasjonen.</403>
+				<InvalidPwd>Feil ved pålogging\n\nPassordet ditt er feil</InvalidPwd>
+				<DownloadError>Det oppstod en feil under oppdaterings nedlastingen!\n Prøv igjen?</DownloadError>
+				<InvalidUser>Feil ved pålogging\n\nBrukernavn ikke funnet</InvalidUser>
+				<DepositFolderError>Kan ikke lagre data i depotet katalogen.\n %path%\n\n Vil du laste ned de manglende pakkene i den midlertidige katalogen?</DepositFolderError>
+			</Errors>
+			<UpdateDone>Program oppdatering fullført</UpdateDone>
+			<DownloadingTip>Nedlasting av oppdateringer ...\n Klikk her for mer informasjon</DownloadingTip>
+			<DownloadingTipTitle>LiberKey program oppdatering</DownloadingTipTitle>
+			<DownloadDone>Nedlastingen er fullført.\nLiberkey menyen kommer til å være stengt mens oppdateringer pågår ...</DownloadDone>
+			<ConfirmCancel>Nedlasting av oppdateringer pågår.\n Vil du avbryte overføringen og avbryte oppdateringen?</ConfirmCancel>
+			<HttpError>En feil oppstod under forsøk på å gjenopprette LiberKey oppdaterings informasjon.\n Har du tilgang til internett på denne datamaskinen?</HttpError>
+			<UpToDate>Din LiberKey er nå oppdatert</UpToDate>
+			<UpdatesAvailable>Oppdateringer er tilgjengelig for dine applikasjoner.\n Klikk her for å installere nye versjoner.</UpdatesAvailable>
+			<HighPriority>Prioritet</HighPriority>
+			<LowPriority>Valgfritt</LowPriority>
+			<LowPriorityInfoTitle>Valgfrie oppdateringer</LowPriorityInfoTitle>
+			<LowPriorityInfo>Denne oppdateringen anbefales hvis du regelmessig bruker denne programvaren.\n Det kan bringe nye funksjoner.</LowPriorityInfo>
+			<HighPriorityInfoTitle>Prioriterte oppdateringer</HighPriorityInfoTitle>
+			<HighPriorityInfo>Vi oppfordrer deg til å bruke denne oppdateringen.\n Den inneholder flere viktige reparasjoner, kan enkelte påvirker sikkerheten</HighPriorityInfo>
+			<HideThisUpdate>Ikke vis denne oppdatering</HideThisUpdate>
+			<HideUpdateInfo>Oppdateringer kan vises igjen ved å klikke:\n\n &quot;Vis skjulte oppdateringer&quot;\n</HideUpdateInfo>
+			<AppAlreadyInstalled>%appname% %appversion% er allerede installert på din LiberKey.\n\n Ønsker du å re-installere dette programmet?</AppAlreadyInstalled>
+			<AppUpdateObsolete>En nyere versjon av %appname% er allerede installert på din LiberKey.\n\n Versjon allerede installert: %appversion%\n Versjon som er installert: %newversion%\n\n Ønsker du å installere den gamle versjonen?\n</AppUpdateObsolete>
+			<InformationTitle>Informasjon</InformationTitle>
+			<DiskSpace>Nødvendig diskplass: %needed% (tilgjengelig: %avail%)</DiskSpace>
+			<TempSpaceNeeded>Plassen for å laste ned midlertidige installasjonsfilene er utilstrekkelig.\n\nDitt valg krever %downloadsize%  av ledig plass på stasjon %drive% (det er foreløpig bare tilgjengelig %avail% på %drive%)</TempSpaceNeeded>
+			<AppsDownloadDone>Nedlasting til fillageret er fullført.\n =&gt; %downloadpath%\n\n Lyst til å begynne å installere oppdateringene nå?</AppsDownloadDone>
+			<KeepTempFiles>Vil du beholde nedlastede filer til senere bruk?</KeepTempFiles>
+		</Messages>
+		<Main>
+			<CommandButtons>
+				<Download_Caption>Installer valgte programmer</Download_Caption>
+				<Cancel_Caption>Avbryt</Cancel_Caption>
+				<HideWindow_Caption>&amp;Steng dette vindu mens du laster ned</HideWindow_Caption>
+			</CommandButtons>
+			<Labels>
+				<SelectNone_Caption>Fjern alle</SelectNone_Caption>
+				<SelectAll_Caption>Velg alle</SelectAll_Caption>
+				<Info_Caption>Tilgjengelige oppdateringer :</Info_Caption>
+				<SelectHighPriority_Caption>Velg prioriterte oppdateringer</SelectHighPriority_Caption>
+				<ShowHiddenUpdates_Caption>Vis skulte oppdateringer (%count%)</ShowHiddenUpdates_Caption>
+				<RemoveHiddenUpdates_Caption>Slett ikke valgte oppdateringer (%count%)</RemoveHiddenUpdates_Caption>
+				<InstallTitle_Caption>Installer programmer</InstallTitle_Caption>
+				<Version_Caption>Versjon :</Version_Caption>
+				<DownloadSize_Caption>Størrelse på nedlastningen :</DownloadSize_Caption>
+				<InstalledSize_Caption>Trenger diskplass :</InstalledSize_Caption>
+				<bytes>Bytes</bytes>
+				<Kb>kB</Kb>
+				<Mb>mB</Mb>
+				<Gb>gB</Gb>
+			</Labels>
+			<CheckBoxs>
+				<Silent_Caption>Installer program uten tilstedeværelse ( automatisk modus)</Silent_Caption>
+			</CheckBoxs>
+		</Main>
+		<Info>
+			<UpdateIgnore>(deaktivert)</UpdateIgnore>
+			<UpdateLowPriority>(lav prioritet)</UpdateLowPriority>
+		</Info>
+		<Contributors>
+			<Contributor name="Jack Terje Saltnæs" email="jack.saltnes@sonnico.no"/>
+		</Contributors>
+	</nb-NO>
+</Languages>

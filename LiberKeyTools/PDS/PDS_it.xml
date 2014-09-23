@@ -1,0 +1,14 @@
+<Languages version="0.2">
+	<it name="Italian" en_name="Italian" date="2012-01-27" version="5.6.0124" icon="it.png">
+		<Messages>
+			<NoDesktopIconFound>Nessun collegamento trovato sul desktop</NoDesktopIconFound>
+			<ConfirmEraseMany>Eliminare i %count% collegamenti selezionati ?</ConfirmEraseMany>
+			<ConfirmEraseOne>Eliminare il collegamento salvato?</ConfirmEraseOne>
+			<NoQuickLaunchIconFound>Nessun collegamento è stato trovato nella barra di avvio rapido.</NoQuickLaunchIconFound>
+		</Messages>
+		<Contributors>
+			<Contributor name="Alessandro Stella" email="mail@alessandrostella.it" website="http://www.alessandrostella.it/"/>
+			<Contributor name="Maurizio Ballo" email="xmaurizio.13@hotmail.com"/>
+		</Contributors>
+	</it>
+</Languages>

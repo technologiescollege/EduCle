@@ -1,0 +1,72 @@
+<Languages version="0.2">
+	<ko en_name="Korean" date="2010-09-16" version="0.30" icon="kr.png">
+		<Contributors>
+			<Contributor name="Brad KIM" email="ksb0119596@naver.com"/>
+		</Contributors>
+		<Messages>
+			<Errors>
+				<404>%appname% %appversion%\n\n서버에서 파일을 찾을 수 없습니다 !\n다음에 다시 시도하세요.</404>
+				<Login>사용자 확인중 에러가 발생했습니다 !\n다음에 다시 시도하세요.</Login>
+				<Password>사용자 확인 실패.\n\n사용자 이름 혹은 비밀번호가 틀립니다.</Password>
+				<403>프록시서버 사용자 확인중 에러가 발생했습니다. !\n프록시 환경설정을 확인하세요.</403>
+				<InvalidPwd>사용자 확인 실패.\n\n비밀번호가 틀립니다.</InvalidPwd>
+				<DownloadError>업데이트 다운로드중 에러가 발생했습니다 !\n다시 시도하시겠습니까 ?</DownloadError>
+				<InvalidUser>사용자 확인 실패.\n\n사용자명이 존재하지 않습니다.</InvalidUser>
+				<DepositFolderError>저장소 경로에 데이타를 저장할 수 없습니다.\n%path%\n\n제외된 팩키지를 임시폴더에 다운로드 하시겠습니까?</DepositFolderError>
+			</Errors>
+			<UpdateDone>프로그램 업데이트 완료</UpdateDone>
+			<DownloadingTip>업데이트 다운로드중...\n자세한 정보는 여기를 클릭하세요.</DownloadingTip>
+			<DownloadingTipTitle>LiberKey 프로그램 업데이트</DownloadingTipTitle>
+			<DownloadDone>다운로드가 완료되었습니다.\nLiberkey 메뉴가 업데이트중 종료될 것입니다...</DownloadDone>
+			<ConfirmCancel>업데이트 다운로드가 진행중입니다.\n전송을 취소하거나 업데이트를 중단하시겠습니까?</ConfirmCancel>
+			<HttpError>LiverKey 프로그램 정보 업데이트를 복구하는중 에러가 발생해습니다.\n컴퓨터가 인터넷에 연결되어 있습니까 ?</HttpError>
+			<UpToDate>LiberKey 프로그램이 최신버전입니다.</UpToDate>
+			<UpdatesAvailable>프로그램에 새 버전이 존재합니다.\n새 버전을 설치하시려면 여기를 클릭하세요.</UpdatesAvailable>
+			<HighPriority>우선순위</HighPriority>
+			<LowPriority>선택사항</LowPriority>
+			<LowPriorityInfoTitle>선택적 업데이트</LowPriorityInfoTitle>
+			<LowPriorityInfo>사용자가 자주 사용한다면 이 업데이트를 강력히 추천합니다.\n새로운 기능이 포함될 수 있습니다.</LowPriorityInfo>
+			<HighPriorityInfoTitle>업데이트 우선순위</HighPriorityInfoTitle>
+			<HighPriorityInfo>이 업데이트를 적용할 것을 권장합니다..\n프로그램에 대한 중요한 수정이 포함되어 있고, 몇가지 보안에 영향이 있습니다.</HighPriorityInfo>
+			<HideThisUpdate>이 업데이트 보이기</HideThisUpdate>
+			<HideUpdateInfo>가능한 업데이트 비활성\n다시 클릭하시면 표시합니다.\n\n&quot;숨겨진 업데이트 보기&quot;</HideUpdateInfo>
+			<AppAlreadyInstalled>%appname% %appversion% 는 이미 LiberKey에 설치되어 있습니다.\n\n프로그램을 다시 설치하시겠습니까 ?</AppAlreadyInstalled>
+			<AppUpdateObsolete>%appname%의 최신 버전이 이미 LiberKey에 설치되어 있습니다.\n\n설치된 버전: %appversion%\n설치될 버전: %newversion%\n\n오래된 버전을 설치하시겠습니까?</AppUpdateObsolete>
+			<InformationTitle>정보</InformationTitle>
+			<DiskSpace>필요한 디스크 공간: %needed% (이용가능한 공간: %avail%)</DiskSpace>
+			<TempSpaceNeeded>임시 설치 파일을 다운로드하는데 디스크 공간이 부족합니다.\n\n선택된 프로그램은 %drive%에  %downloadsize%  만큼이 필요합니다. (현재 %drive%에 %avail% 만큼만 사용가능합니다. )</TempSpaceNeeded>
+			<AppsDownloadDone>파일저장소에 다운로드를 완료했습니다.\n=&gt; %downloadpath%\n\n지금 업데이트 설치를 시작하시겠습니까 ?</AppsDownloadDone>
+			<KeepTempFiles>다운로드된 파일을 다음 사용을 위해 남겨두시겠습니까 ?</KeepTempFiles>
+		</Messages>
+		<Main>
+			<CommandButtons>
+				<Download_Caption>선택된 프로그램 설치</Download_Caption>
+				<Cancel_Caption>취소</Cancel_Caption>
+				<HideWindow_Caption>다운로드중 이 창을 숨김(&amp;H)</HideWindow_Caption>
+			</CommandButtons>
+			<Labels>
+				<SelectNone_Caption>모두 선택 해제</SelectNone_Caption>
+				<SelectAll_Caption>모두 선택</SelectAll_Caption>
+				<Info_Caption>이용가능한 업데이트 :</Info_Caption>
+				<SelectHighPriority_Caption>업데이트 우선순위 선택</SelectHighPriority_Caption>
+				<ShowHiddenUpdates_Caption>숨겨진 업데이트 보기 (%count%)</ShowHiddenUpdates_Caption>
+				<RemoveHiddenUpdates_Caption>비활성된 업데이트 제거 (%count%)</RemoveHiddenUpdates_Caption>
+				<InstallTitle_Caption>프로그램 설치중</InstallTitle_Caption>
+				<Version_Caption>버전 : </Version_Caption>
+				<DownloadSize_Caption>다운로드 크기 :</DownloadSize_Caption>
+				<InstalledSize_Caption>필요한 디스크 공간 :</InstalledSize_Caption>
+				<bytes>bytes</bytes>
+				<Kb>Kb</Kb>
+				<Mb>Mb</Mb>
+				<Gb>Gb</Gb>
+			</Labels>
+			<CheckBoxs>
+				<Silent_Caption>설정없이 프로그램 설치 (자동설치 모드)</Silent_Caption>
+			</CheckBoxs>
+		</Main>
+		<Info>
+			<UpdateIgnore>(비활성)</UpdateIgnore>
+			<UpdateLowPriority>(낮은 우선순위)</UpdateLowPriority>
+		</Info>
+	</ko>
+</Languages>

@@ -1,0 +1,921 @@
+<Languages version="0.4">
+	<pt-BR en_name="Portuguese Brazilian" icon="br.png" date="2012-01-16" name="Português do Brasil" version="1.0">
+		<AppCategories>
+			<accessibility>Acessibilidade</accessibility>
+			<audio>Áudio</audio>
+			<audio:converter>Conversor</audio:converter>
+			<audio:editor>Editor</audio:editor>
+			<audio:ipod_manager>Gerenciador de iPod</audio:ipod_manager>
+			<audio:player>Tocador</audio:player>
+			<audio:radio>Rádio</audio:radio>
+			<audio:ripper>Ripador</audio:ripper>
+			<audio:tagger>Marcador de Tags</audio:tagger>
+			<audio:text_to_speech>Texto para Fala</audio:text_to_speech>
+			<audio:tools>Ferramentas</audio:tools>
+			<audio-video>Áudio - Vídeo</audio-video>
+			<cd-dvd>CD - DVD</cd-dvd>
+			<cd-dvd:burning_tools>Ferramentas de Gravação</cd-dvd:burning_tools>
+			<cd-dvd:cover_printer>Impressão de Capa</cd-dvd:cover_printer>
+			<cd-dvd:image_tools>Ferramentas de Imagem</cd-dvd:image_tools>
+			<development>Desenvolvimento</development>
+			<education>Educacional</education>
+			<education:astronomy>Astronomia</education:astronomy>
+			<education:children>Infantil</education:children>
+			<education:drawing>Desenho</education:drawing>
+			<education:geography>Geografia</education:geography>
+			<education:music>Música</education:music>
+			<education:typing>Digitação</education:typing>
+			<file_management>Gerenciador de Arquivos</file_management>
+			<file_management:backup>Backup</file_management:backup>
+			<file_management:cataloger>Catalogador</file_management:cataloger>
+			<file_management:comparison>Comparação</file_management:comparison>
+			<file_management:compression>Compressão</file_management:compression>
+			<file_management:copy>Cópia</file_management:copy>
+			<file_management:defragmenter>Desfragmentador</file_management:defragmenter>
+			<file_management:directory_lister>Listagem de Diretórios</file_management:directory_lister>
+			<file_management:disk_space_tool>Ferramenta de Espaço em Disco</file_management:disk_space_tool>
+			<file_management:duplicate_finder>Localizador de Duplicatas</file_management:duplicate_finder>
+			<file_management:manager>Gerenciador</file_management:manager>
+			<file_management:recovery>Recuperação</file_management:recovery>
+			<file_management:renamer>Renomeador</file_management:renamer>
+			<file_management:search>Localizar</file_management:search>
+			<file_management:splitter>Dividir</file_management:splitter>
+			<file_management:synchronization>Sincronização</file_management:synchronization>
+			<file_management:tools>Ferramentas</file_management:tools>
+			<file_management:universal_viewer>Visualizador Universal</file_management:universal_viewer>
+			<games>Jogos</games>
+			<games:action>Ação</games:action>
+			<games:card>Cartas</games:card>
+			<games:puzzle>Charadas</games:puzzle>
+			<games:reflexion>Reflexão</games:reflexion>
+			<games:strategy>Estratégia</games:strategy>
+			<graphics-photo>Gráficos - Foto</graphics-photo>
+			<graphics-photo:3d>3D</graphics-photo:3d>
+			<graphics-photo:color_picker>Obtenção de Cor</graphics-photo:color_picker>
+			<graphics-photo:editor>Editor</graphics-photo:editor>
+			<graphics-photo:effect_and_filter>Efeito e Filtro</graphics-photo:effect_and_filter>
+			<graphics-photo:icon_editor>Editor de Ícone</graphics-photo:icon_editor>
+			<graphics-photo:screen_capture>Captura de Tela</graphics-photo:screen_capture>
+			<graphics-photo:tools>Ferramentas</graphics-photo:tools>
+			<graphics-photo:vector_converter>Conversor de Vetor</graphics-photo:vector_converter>
+			<graphics-photo:viewer>Visualizador</graphics-photo:viewer>
+			<internet>Internet</internet>
+			<internet:bookmark_manager>Gerenciador de Favoritos</internet:bookmark_manager>
+			<internet:browser>Navegador</internet:browser>
+			<internet:download>Download</internet:download>
+			<internet:email>Email</internet:email>
+			<internet:ftp>FTP</internet:ftp>
+			<internet:instant_messenger>Comunicador Instantâneo</internet:instant_messenger>
+			<internet:rss_reader>Leitor de RSS</internet:rss_reader>
+			<internet:website_authoring>Autoria de Website</internet:website_authoring>
+			<internet:website_copier>Copiador de Website</internet:website_copier>
+			<multimedia>Multimídia</multimedia>
+			<networking-server>Rede - Servidor</networking-server>
+			<networking-server:bandwidth_monitor>Monitor de Tráfego</networking-server:bandwidth_monitor>
+			<networking-server:configuration>Configuração</networking-server:configuration>
+			<networking-server:network_analyzer>Analizador de Tráfego</networking-server:network_analyzer>
+			<networking-server:remote_control>Controle Remoto</networking-server:remote_control>
+			<networking-server:scanner>Escaneador</networking-server:scanner>
+			<networking-server:server>Servidor</networking-server:server>
+			<networking-server:settings_manager>Gerenciador de Configuração</networking-server:settings_manager>
+			<networking-server:telnet-ssh_client>Telnet-Cliente SSH</networking-server:telnet-ssh_client>
+			<networking-server:tools>Ferramentas</networking-server:tools>
+			<office>Escritório</office>
+			<office:calculator>Calculadora</office:calculator>
+			<office:calendar>Calendário</office:calendar>
+			<office:chrono>Tempo</office:chrono>
+			<office:desktop_tools>Ferramentas de Área de Trabalho</office:desktop_tools>
+			<office:desktop_tools:application_launcher>Lançador de Aplicativos</office:desktop_tools:application_launcher>
+			<office:desktop_tools:automation>Automação</office:desktop_tools:automation>
+			<office:desktop_tools:clipboard_manager>Gerenciador de Área de Transferência</office:desktop_tools:clipboard_manager>
+			<office:desktop_tools:clock>Relógio</office:desktop_tools:clock>
+			<office:desktop_tools:customization>Customização</office:desktop_tools:customization>
+			<office:desktop_tools:desktop_note>Notas na Área de Trabalho</office:desktop_tools:desktop_note>
+			<office:desktop_tools:keyboard-mouse>Teclado - Mouse</office:desktop_tools:keyboard-mouse>
+			<office:desktop_tools:save_desktop_icon>Salvar Ícone da Área de Trabalho</office:desktop_tools:save_desktop_icon>
+			<office:desktop_tools:virtual_desktop>Área de Trabalho Virtual</office:desktop_tools:virtual_desktop>
+			<office:desktop_tools:zoom>Ampliação</office:desktop_tools:zoom>
+			<office:diagram_editor>Editor de Diagrama</office:diagram_editor>
+			<office:finance_manager>Gerenciador Financeiro</office:finance_manager>
+			<office:font_manager>Gerenciador de Fontes</office:font_manager>
+			<office:note_manager>Gerenciador de Anotações</office:note_manager>
+			<office:office_suite>Suíte de Escritório</office:office_suite>
+			<office:pdf>PDF</office:pdf>
+			<office:presentation>Apresentação</office:presentation>
+			<office:task_manager>Gerenciador de Tarefas</office:task_manager>
+			<office:text_editor>Editor de Texto</office:text_editor>
+			<office:tutorial_creator>Criador de Tutorial</office:tutorial_creator>
+			<office:unit_converter>Conversor de Unidades</office:unit_converter>
+			<office:universal_viewer>Visualizador Universal</office:universal_viewer>
+			<security>Segurança</security>
+			<security:anti_virus-spyware>Anti vírus-spyware</security:anti_virus-spyware>
+			<security:encryption>Encriptação</security:encryption>
+			<security:integrity_checker>Verificador de Integridade</security:integrity_checker>
+			<security:password_manager>Gerenciador de Senhas</security:password_manager>
+			<security:privacy_tool>Ferramenta de Privacidade</security:privacy_tool>
+			<security:secure_deletion>Limpeza Segura</security:secure_deletion>
+			<security:tools>Ferramentas</security:tools>
+			<system_utilities>Utilitários de Sistema</system_utilities>
+			<system_utilities:benchmark>Comparação</system_utilities:benchmark>
+			<system_utilities:benchmark:hard_disk>Disco Rígido</system_utilities:benchmark:hard_disk>
+			<system_utilities:benchmark:universal>Universal</system_utilities:benchmark:universal>
+			<system_utilities:cleaner-uninstaller>Limpador - Desinstalador</system_utilities:cleaner-uninstaller>
+			<system_utilities:emulator>Emulador</system_utilities:emulator>
+			<system_utilities:hex_editor>Editor Hex</system_utilities:hex_editor>
+			<system_utilities:information>Informação</system_utilities:information>
+			<system_utilities:information:file_monitoring>Monitoramento de Arquivo</system_utilities:information:file_monitoring>
+			<system_utilities:information:hardware_monitoring>Monitoramento de Hardware</system_utilities:information:hardware_monitoring>
+			<system_utilities:information:inventory>Inventário</system_utilities:information:inventory>
+			<system_utilities:information:process>Processo</system_utilities:information:process>
+			<system_utilities:information:processor>Processador</system_utilities:information:processor>
+			<system_utilities:information:service>Serviço</system_utilities:information:service>
+			<system_utilities:information:startup_manager>Gerenciador de Inicialização</system_utilities:information:startup_manager>
+			<system_utilities:information:usb_device>Dispositivo USB</system_utilities:information:usb_device>
+			<system_utilities:information:video_card>Placa de Vídeo</system_utilities:information:video_card>
+			<system_utilities:registry>Registro</system_utilities:registry>
+			<system_utilities:registry:backup>Backup</system_utilities:registry:backup>
+			<system_utilities:registry:comparison>Comparação</system_utilities:registry:comparison>
+			<system_utilities:registry:compression>Compressão</system_utilities:registry:compression>
+			<system_utilities:registry:monitoring>Monitoramento</system_utilities:registry:monitoring>
+			<system_utilities:registry:repair>Reparador</system_utilities:registry:repair>
+			<system_utilities:registry:search>Localizar</system_utilities:registry:search>
+			<system_utilities:repair>Reparador</system_utilities:repair>
+			<system_utilities:tests>Testes</system_utilities:tests>
+			<system_utilities:tests:burning_test>Teste de Gravação</system_utilities:tests:burning_test>
+			<system_utilities:tests:hard_disk>Disco Rígido</system_utilities:tests:hard_disk>
+			<system_utilities:tests:monitor>Monitor</system_utilities:tests:monitor>
+			<system_utilities:tests:ram>Memória RAM</system_utilities:tests:ram>
+			<system_utilities:tools>Ferramentas</system_utilities:tools>
+			<system_utilities:tweaker>Otimizador</system_utilities:tweaker>
+			<system_utilities:update_checker>Verificador de Atualizações</system_utilities:update_checker>
+			<video>Vídeo</video>
+			<video:authoring>Autoria</video:authoring>
+			<video:capture>Captura</video:capture>
+			<video:cataloger>Catalogador</video:cataloger>
+			<video:converter>Conversor</video:converter>
+			<video:editor>Editor</video:editor>
+			<video:player>Tocador</video:player>
+			<video:repair>Reparador</video:repair>
+			<video:tools>Ferramentas</video:tools>
+		</AppCategories>
+		<AppInfo>
+			<CheckBoxs>
+				<AutoShowInfo_Caption>Mostrar esta informação automaticamente</AutoShowInfo_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<AppGoToWebSite_ToolTip>Visitar a página do editor</AppGoToWebSite_ToolTip>
+				<AppInstall_Caption>Instalar agora !</AppInstall_Caption>
+				<AppOpenLicenseFile_ToolTip>Ver licença</AppOpenLicenseFile_ToolTip>
+				<AppProperties_Caption>Propriedades...</AppProperties_Caption>
+				<AppRun_Caption>Iniciar</AppRun_Caption>
+				<AppUpdate_Caption>Atualizar agora..</AppUpdate_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppEditorLabel_Caption>Editor:</AppEditorLabel_Caption>
+				<AppLicenseLabel_Caption>Licença:</AppLicenseLabel_Caption>
+				<AppPlatformLabel_Caption>Plataforma(s):</AppPlatformLabel_Caption>
+			</Labels>
+		</AppInfo>
+		<AppList>
+			<CommandButtons>
+				<AddApp_Caption>Adicionar aplicativos</AddApp_Caption>
+				<AddApps_Caption>Adicionar aplicativos</AddApps_Caption>
+				<AddApps_ToolTip>Clique aqui para adicionar aplicativos no seu LiberKey</AddApps_ToolTip>
+				<Browse_ToolTip>Abrir pasta do aplicativo</Browse_ToolTip>
+				<Cancel_Caption>Fechar</Cancel_Caption>
+				<Reinstall_Caption>Reinstalar</Reinstall_Caption>
+				<Reinstall_ToolTip>Reinstalar um aplicativo pode recriar os atalhos padrões no menu do Liberkey, atualizar informações no aplicativo e reaplicar as associações de arquivos temporárias.</Reinstall_ToolTip>
+				<Uninstall_Caption>Desinstalar</Uninstall_Caption>
+				<Uninstall_ToolTip>Clique aqui para desinstalar este aplicativo do seu LiberKey. Tudo o que este aplicativo utiliza será apagado: Menus, informações, associações de arquivos temporária, o aplicativo em si e outros dados associados.</Uninstall_ToolTip>
+			</CommandButtons>
+			<Labels>
+				<AppNameLabel_Caption>Nome do aplicativo</AppNameLabel_Caption>
+				<FolderSizeLabel_Caption>0 KB</FolderSizeLabel_Caption>
+				<Title_Caption>Gerenciar aplicativos portáteis</Title_Caption>
+			</Labels>
+			<Messages>
+				<Loading>Carregando lista...</Loading>
+			</Messages>
+		</AppList>
+		<AppProperties>
+			<AutoRunMode>
+				<Never>Nunca</Never>
+				<ShutDown>Ao desligar</ShutDown>
+				<ShutDownSingle>Ao desligar se não estiver em execução</ShutDownSingle>
+				<Startup>Sempre ao iniciar</Startup>
+				<StartupSingle>Ao iniciar se não estiver em execução</StartupSingle>
+			</AutoRunMode>
+			<CommandButtons>
+				<AppGoToWebSite_Caption>Visitar website</AppGoToWebSite_Caption>
+				<ApplyChanges_Caption>Aplicar</ApplyChanges_Caption>
+				<AppOpenLicenseFile_Caption>Visualizar licença</AppOpenLicenseFile_Caption>
+				<AppUninstall_Caption>Clique aqui para desinstalar este aplicativo do seu LiberKey</AppUninstall_Caption>
+				<AppUninstall_ToolTip>Clique aqui para desinstalar este aplicativo do seu LiberKey. Tudo o que este aplicativo utiliza será apagado: Menus, informações, associações de arquivos temporária, o aplicativo em si e outros dados associados.</AppUninstall_ToolTip>
+				<AppUpdate_Caption>Atualizar...</AppUpdate_Caption>
+				<Cancel_Caption>Fechar</Cancel_Caption>
+			</CommandButtons>
+			<FileSources>Tipo de atalho</FileSources>
+			<Labels>
+				<AppDescriptionLabel_Caption>Descrição do aplicativo:</AppDescriptionLabel_Caption>
+				<AppEditorLabel_Caption>Editor:</AppEditorLabel_Caption>
+				<AppIconLabel_Caption>Ícone Personalizado:</AppIconLabel_Caption>
+				<AppLicenseLabel_Caption>Licença:</AppLicenseLabel_Caption>
+				<AppNameLabel_Caption>Nome:</AppNameLabel_Caption>
+				<AppParamsLabel_Caption>Parâmetros de linha de comando:</AppParamsLabel_Caption>
+				<AppPathLabel_Caption>Caminho / pasta / página web / documento executável:</AppPathLabel_Caption>
+				<AppPlatformLabel_Caption>Plataforma:</AppPlatformLabel_Caption>
+				<AppVersionLabel_Caption>Versão:</AppVersionLabel_Caption>
+				<AppWorkDirLabel_Caption>Diretório em funcionamento:</AppWorkDirLabel_Caption>
+				<Title_Caption>Propriedades do Aplicativo</Title_Caption>
+			</Labels>
+			<Messages>
+				<BrowseForExe>Selecione o arquivo executável do aplicativo:</BrowseForExe>
+				<BrowseForFileToOpen>Selecione o arquivo para abrir:</BrowseForFileToOpen>
+				<BrowseForLicense>Selecione o arquivo de licença do programa:</BrowseForLicense>
+				<ClearLisenseFile>Excluir o atalho para a licença</ClearLisenseFile>
+				<ClearWebAddress>Excluir o atalho para o website</ClearWebAddress>
+				<SelectAppWorkDir>Selecione o diretório de trabalho do aplicativo</SelectAppWorkDir>
+				<SetLicenseAddr>Inserir o endereço de internet da licença do programa:</SetLicenseAddr>
+				<SetWebSiteAddr>Inserir o endereço de internet do editor do programa:</SetWebSiteAddr>
+			</Messages>
+			<Tabs>
+				<Application>Aplicativo</Application>
+				<AppMore>Avançado</AppMore>
+			</Tabs>
+			<WindowStartMode>
+				<Maximized>Maximizado</Maximized>
+				<Minimized>Minimizado</Minimized>
+				<Normal>Normal</Normal>
+			</WindowStartMode>
+		</AppProperties>
+		<CategoryProps>
+			<CheckBoxs>
+				<EditLiberKeyCategory_Caption>Renomear esta categoria do Liberkey</EditLiberKeyCategory_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Apply_Caption>OK</Apply_Caption>
+				<Cancel_Caption>Cancelar</Cancel_Caption>
+			</CommandButtons>
+			<Labels>
+				<CategoryHotKey_Caption>Atalho do teclado (menu suspenso):</CategoryHotKey_Caption>
+				<CatIconLabel_Caption>Categoria do ícone:</CatIconLabel_Caption>
+				<CatNameLabel_Caption>Nome da categoria:</CatNameLabel_Caption>
+				<Title_Caption>Propriedades da categoria:</Title_Caption>
+			</Labels>
+		</CategoryProps>
+		<Config>
+			<About>
+				<Version>versão %ver%</Version>
+			</About>
+			<CheckBoxs>
+				<AppHotKeysMemoPopup_Caption>Mostrar um lembrete antes de iniciar um aplicativo</AppHotKeysMemoPopup_Caption>
+				<AutoCloseApps_Caption>Quando o menu fechar, encerrar quaisquer aplicativos em execução</AutoCloseApps_Caption>
+				<AutoCollapseOnHide_Caption>Quando o menu estiver escondido, voltar para categoria raiz</AutoCollapseOnHide_Caption>
+				<AutoHideMenuOnAppRun_Caption>Esconder o menu quando um aplicativo é inicializado</AutoHideMenuOnAppRun_Caption>
+				<AutoRemoveDrive_Caption>Quando o menu fecha, desconectar o dispositivo removível</AutoRemoveDrive_Caption>
+				<AutoRunLiberKey_Caption>Iniciar o Liberkey na inicialização do Windows</AutoRunLiberKey_Caption>
+				<AutoShowAppInfo_Caption>Ver informações sobre aplicativos</AutoShowAppInfo_Caption>
+				<ConfirmCategoryDeletion_Caption>Confirmar exclusão de categoria</ConfirmCategoryDeletion_Caption>
+				<ConfirmShortcutDeletion_Caption>Confirmar exclusão de atalho</ConfirmShortcutDeletion_Caption>
+				<CreateTempSendToShortcut_Caption>Criar o atalho temporário &quot;Enviar para / Meus documentos portáteis&quot;</CreateTempSendToShortcut_Caption>
+				<DisableAllEffects_Caption>Desabilitar todas as animações</DisableAllEffects_Caption>
+				<DisableControlsEffects_Caption>Desabilitar a animação da interface</DisableControlsEffects_Caption>
+				<DisableDialogsEffects_Caption>Desabilitar a animação de diálogo</DisableDialogsEffects_Caption>
+				<DisableMenuEffects_Caption>Desabilitar a animação do menu</DisableMenuEffects_Caption>
+				<DisplayClock_Caption>Mostrar relógio</DisplayClock_Caption>
+				<DontShowEmptyDesc_Caption>Exceto quando a descrição estiver vazia</DontShowEmptyDesc_Caption>
+				<EnableAppHotKeys_Caption>Habilitar os atalhos de teclado para inicializar aplicativos</EnableAppHotKeys_Caption>
+				<EnableAppsAutoStart_Caption>Habilitar inicializador automático</EnableAppsAutoStart_Caption>
+				<HideClockSeconds_Caption>Esconder os segundos</HideClockSeconds_Caption>
+				<HotKeyFloatMenu_Caption>Menu suspenso :</HotKeyFloatMenu_Caption>
+				<HotKeyMain_Caption>Menu principal :</HotKeyMain_Caption>
+				<SingleClicAppRun_Caption>Inicializar aplicativos com clique único</SingleClicAppRun_Caption>
+				<SingleClicCategoryExpand_Caption>Abrir categorias com clique único</SingleClicCategoryExpand_Caption>
+				<ToolsAutoOpenLiberKeyNews_Caption>Abrir janela de notícias automaticamente</ToolsAutoOpenLiberKeyNews_Caption>
+				<ToolsCheckAppUpdates_Caption>Atualização de aplicativos</ToolsCheckAppUpdates_Caption>
+				<ToolsCheckLBKUpdates_Caption>Atualizações da Plataforma LiberKey</ToolsCheckLBKUpdates_Caption>
+				<ToolsCheckLiberKeyNews_Caption>Notícias</ToolsCheckLiberKeyNews_Caption>
+				<ToolsDoOnlineChecks_Caption>Habilitar verificações automáticas</ToolsDoOnlineChecks_Caption>
+				<ToolsQuitKFA_Caption>Desabilitar associações de arquivos quando o menu for fechado</ToolsQuitKFA_Caption>
+				<ToolsQuitPDS_Caption>Remover atalhos portáteis quando o menu for fechado</ToolsQuitPDS_Caption>
+				<ToolsStartKFA_Caption>Habilitar associações de arquivo quando o menu for inicializado</ToolsStartKFA_Caption>
+				<ToolsStartPDS_Caption>Adicionar atalhos portáteis quando o menu for inicializado</ToolsStartPDS_Caption>
+				<UseMenuAppsAssoc_Caption>Associar LiberKey a todos os arquivos</UseMenuAppsAssoc_Caption>
+				<UseProxy_Caption>Utilizar um servidor proxy para acessar a Internet:</UseProxy_Caption>
+				<VoiceOver_Caption>Habilitar a leitura dos elementos de texto ao posicionar o mouse sobre eles</VoiceOver_Caption>
+				<WindowZoom_Caption>Habilitar o zoom automático de janelas</WindowZoom_Caption>
+				<ZoomMenuFont_Caption>Alterar a fonte dos menus suspensos</ZoomMenuFont_Caption>
+				<ZoomMenuFontAntialias_Caption>Anti serrilhamento</ZoomMenuFontAntialias_Caption>
+				<ZoomMenuFontBold_Caption>Negrito</ZoomMenuFontBold_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<ApplyChanges_Caption>Aplicar</ApplyChanges_Caption>
+				<AutoRunDown_ToolTip>Rolar para baixo</AutoRunDown_ToolTip>
+				<AutoRunLocate_ToolTip>Encontre este atalho no menu LiberKey</AutoRunLocate_ToolTip>
+				<AutoRunProperties_ToolTip>Propriedades do atalho</AutoRunProperties_ToolTip>
+				<AutoRunRemove_ToolTip>Remover da lista de inicialização automática</AutoRunRemove_ToolTip>
+				<AutoRunUp_ToolTip>Rolar para cima</AutoRunUp_ToolTip>
+				<Cancel_Caption>Fechar</Cancel_Caption>
+				<CopyTechnicalInfo_Caption>Copiar esta informação para a área de transferência</CopyTechnicalInfo_Caption>
+				<CreateAccount_Caption>Clique aqui para criar sua conta grátis!</CreateAccount_Caption>
+				<KBSCRemove_ToolTip>Remover o atalho do teclado</KBSCRemove_ToolTip>
+				<SendTechnicalInfo_Caption>Enviar</SendTechnicalInfo_Caption>
+			</CommandButtons>
+			<Labels>
+				<AccessibilityInfo_Caption>Ajustando opções de acessibilidade</AccessibilityInfo_Caption>
+				<Animations_Caption>Animações</Animations_Caption>
+				<AppHotKeysMemoPopupDuration_Caption>Mostrar duração do lembrete:</AppHotKeysMemoPopupDuration_Caption>
+				<AppSetupInfo_Caption>Configurar o instalador de aplicativos do LiberKey</AppSetupInfo_Caption>
+				<AppUpdateInfo_Caption>Configurar o sistema de atualização de programas do seu LiberKey.</AppUpdateInfo_Caption>
+				<AutoCheckOptions_Caption>Verificações automáticas</AutoCheckOptions_Caption>
+				<AutoRunDelay_Caption>Tempo antes de auto-executar (segundos):</AutoRunDelay_Caption>
+				<AutoRunEachDelay_Caption>Tempo entre cada execução (segundos):</AutoRunEachDelay_Caption>
+				<AutorunInfo_Caption>Gerenciar os aplicativos que executam na inicialização e encerramento do menu LiberKey</AutorunInfo_Caption>
+				<ColorsInfo_Caption>Cor primária do menu e das janelas</ColorsInfo_Caption>
+				<Confirmations_Caption>Confirmações</Confirmations_Caption>
+				<CreateAccountLabel_Caption>Não possui uma conta?</CreateAccountLabel_Caption>
+				<CustomBrightnessLabel_Caption>Brilho</CustomBrightnessLabel_Caption>
+				<CustomColorInfo_Caption>Variação de cor personalizada</CustomColorInfo_Caption>
+				<CustomHueRotationLabel_Caption>Matiz</CustomHueRotationLabel_Caption>
+				<CustomSaturationLabel_Caption>Saturação</CustomSaturationLabel_Caption>
+				<DefaultEffectSet>Efeitos padrões</DefaultEffectSet>
+				<EffectSetLabel_Caption>Efeitos ativados:</EffectSetLabel_Caption>
+				<FileAssocUpdatesOnlyInfo_Caption>Durante as atualizações, as associações de arquivos não são modificadas. Elas são definidas apenas para novos aplicativos.</FileAssocUpdatesOnlyInfo_Caption>
+				<Gadgets_Caption>Gadgets</Gadgets_Caption>
+				<KeyboardShortcutsInfo_Caption>Atalhos de teclado utilizados pelo menu LiberKey</KeyboardShortcutsInfo_Caption>
+				<KFAoptions_Caption>Associar arquivos a aplicativos portáteis</KFAoptions_Caption>
+				<LangAuthorEmailLabel_Caption>Email:</LangAuthorEmailLabel_Caption>
+				<LangAuthorNameLabel_Caption>Autor:</LangAuthorNameLabel_Caption>
+				<LangAuthorWebsiteLabel_Caption>Endereço na Internet:</LangAuthorWebsiteLabel_Caption>
+				<LangContributors_Caption>Colaboradores :</LangContributors_Caption>
+				<LangContributorsLabel_Caption>Colaboradores :</LangContributorsLabel_Caption>
+				<LanguagesInfo_Caption>Selecione o idioma da interface de usuário</LanguagesInfo_Caption>
+				<LangVersionLabel_Caption>Versão:</LangVersionLabel_Caption>
+				<MaxRecentCount_Caption>Número máximo de itens em inicializações recentes:</MaxRecentCount_Caption>
+				<MaxVisibleMostUsed_Caption>Número máximo de itens em &quot;mais usados&quot;:</MaxVisibleMostUsed_Caption>
+				<MenuAccess_Caption>Acesso ao menu LiberKey</MenuAccess_Caption>
+				<MenuDelay_Caption>Atraso para abrir o menu :</MenuDelay_Caption>
+				<MenuDelayMS_Caption>milisegundos</MenuDelayMS_Caption>
+				<MenuIconActions_Caption>Ícone da bandeja do sistema :</MenuIconActions_Caption>
+				<MenuKeyboardShortcuts_Caption>Atalhos de teclado :</MenuKeyboardShortcuts_Caption>
+				<Misc_Caption>Misc</Misc_Caption>
+				<Navigation_Caption>Navegação</Navigation_Caption>
+				<NeverUpdateFileAssocInfo_Caption>Associações de arquivo permanecem inalteradas quando aplicativos são adicionados ou atualizados.</NeverUpdateFileAssocInfo_Caption>
+				<NotificationsOptions_Caption>Notificações</NotificationsOptions_Caption>
+				<Password_Caption>Senha :</Password_Caption>
+				<PDSoptions_Caption>Atalhos portáteis no Desktop</PDSoptions_Caption>
+				<PlatformVersionInfo_Caption>A equipe de suporte técnico do fórum LiberKey pode solicitar esta informação. Para copiar esta lista, clique no botão &quot;Copiar esta informação&quot; abaixo.</PlatformVersionInfo_Caption>
+				<ProxyHost_Caption>Nome do Computador / Endereço IP:</ProxyHost_Caption>
+				<ProxyInfo_Caption>Se você precisa utilizar um servidor proxy para acessar a internet, complete os campos abaixo:</ProxyInfo_Caption>
+				<ProxyPassword_Caption>Senha :</ProxyPassword_Caption>
+				<ProxyPort_Caption>Porta :</ProxyPort_Caption>
+				<ProxyUser_Caption>Nome de usuário :</ProxyUser_Caption>
+				<QuitOptions_Caption>Fechamento automático de aplicativo e desconexão do pendrive</QuitOptions_Caption>
+				<RecentAndMostUsed_Caption>Histórico de utilização de aplicativo:</RecentAndMostUsed_Caption>
+				<StartupWindowShowAlways_Caption>Sempre exibir o menu LiberKey</StartupWindowShowAlways_Caption>
+				<StartupWindowShowNever_Caption>Nunca exibir o menu LiberKey</StartupWindowShowNever_Caption>
+				<StartupWindowShowPrevious_Caption>Exibir o menu apenas se esteve visível da última vez</StartupWindowShowPrevious_Caption>
+				<StartupWindowStateLabel_Caption>Na inicialização :</StartupWindowStateLabel_Caption>
+				<Title_Caption>Menu LiberKey - Configuração</Title_Caption>
+				<TrayLeftClickActionLabel_Caption>Clique botão esquerdo :</TrayLeftClickActionLabel_Caption>
+				<TrayRightClickActionLabel_Caption>Clique botão direito :</TrayRightClickActionLabel_Caption>
+				<UpdateAutoStartInfo_Caption>Atualizações prioritárias são instaladas sem interferência do usuário (modo automático)</UpdateAutoStartInfo_Caption>
+				<UpdateFileAssocInfo_Caption>Quando um aplicativo é adicionado ou atualizado com o instalador, ele é automaticamente associado aos arquivos que pode editar.</UpdateFileAssocInfo_Caption>
+				<UpdateNoUserAlertInfo_Caption>Quando o LiberKey iniciar, não exibir nenhuma mensagem sobre atualização de aplicativo. Você será notificado quando abrir um aplicativo cuja atualização estiver disponível.</UpdateNoUserAlertInfo_Caption>
+				<UpdateUIAlertInfo_Caption>Você pode então visualizar a lista de atualizações disponíveis e escolher aqueles que quiser atualizar.</UpdateUIAlertInfo_Caption>
+				<UserLoginInfo_Caption>O login não é mais necessário para poder atualizar aplicativos. No entanto, nós recomendamos que insira seus dados de usuário.</UserLoginInfo_Caption>
+				<UserName_Caption>Nome de usuário :</UserName_Caption>
+				<ZoomMenuFontNameLabel_Caption>Fonte:</ZoomMenuFontNameLabel_Caption>
+				<ZoomMenuFontSizeLabel_Caption>Tamanho:</ZoomMenuFontSizeLabel_Caption>
+			</Labels>
+			<OptionButtons>
+				<optAlwaysUpdateFileAssoc_Caption>Sempre atualizar as associações de arquivos</optAlwaysUpdateFileAssoc_Caption>
+				<optAutoRunAtStartup_Caption>Ao abrir o LiberKey</optAutoRunAtStartup_Caption>
+				<optAutoRunOnQuit_Caption>Ao fechar o LiberKey</optAutoRunOnQuit_Caption>
+				<optMenuDelayCustom_Caption>Personalizar</optMenuDelayCustom_Caption>
+				<optMenuDelayDefault_Caption>Padrão</optMenuDelayDefault_Caption>
+				<optNeverUpdateFileAssoc_Caption>Nunca atualizar associações de arquivos</optNeverUpdateFileAssoc_Caption>
+				<optUpdateAutoStart_Caption>Baixar atualizações e instalá-las automaticamente</optUpdateAutoStart_Caption>
+				<optUpdateFileAssocNewApps_Caption>Definir associações de novos aplicativos</optUpdateFileAssocNewApps_Caption>
+				<optUpdateNoUserAlert_Caption>Avise-me apenas quando o aplicativo for aberto</optUpdateNoUserAlert_Caption>
+				<optUpdateUIAlert_Caption>Exibir um ícone e uma mensagem de notificação</optUpdateUIAlert_Caption>
+				<optUpdateUserAlert_Caption>Avise-me se atualizações prioritárias estiverem disponíveis</optUpdateUserAlert_Caption>
+			</OptionButtons>
+			<Options>
+				<About>Sobre</About>
+				<Accessibility>Acessibilidade</Accessibility>
+				<Advanced>Opções avançadas</Advanced>
+				<AppSetup>Configurações de instalação de aplicativos</AppSetup>
+				<Autorun>Iniciar automaticamente</Autorun>
+				<AutoUpdate>Configuração de atualização de aplicativo</AutoUpdate>
+				<Colors>Cor</Colors>
+				<Effects>Interface de Usuário</Effects>
+				<Help>Ajuda</Help>
+				<KeyboardShortcuts>Atalhos de teclado</KeyboardShortcuts>
+				<Language>Idioma</Language>
+				<LiberKeyTools>Ferramentas do LiberKey</LiberKeyTools>
+				<Proxy>Proxy HTTP</Proxy>
+				<TechnicalInfo>Informação técnica</TechnicalInfo>
+				<User>Informação do Usuário</User>
+			</Options>
+		</Config>
+		<FloatingMenu>
+			<AlwaysOnTop>Sempre visível</AlwaysOnTop>
+			<AutoCollapse>Ocultar automaticamente</AutoCollapse>
+			<Close>Fechar</Close>
+			<FixedMode>Manter aberto</FixedMode>
+			<GoToParent>Trocar para o menu alternativo</GoToParent>
+		</FloatingMenu>
+		<IconSelect>
+			<Labels>
+				<Title_Caption>Seleção de ícone</Title_Caption>
+			</Labels>
+		</IconSelect>
+		<Main>
+			<CommandButtons>
+				<AddApps_Caption>Instalação</AddApps_Caption>
+				<AddApps_ToolTip>Adição / remoção de aplicativos</AddApps_ToolTip>
+				<Close_ToolTip>Ocultar o menu LiberKey</Close_ToolTip>
+				<CloseSearch2_Caption>Fechar</CloseSearch2_Caption>
+				<Config_Caption>Ferramentas do LiberKey</Config_Caption>
+				<MyDocs_Caption>Documentos</MyDocs_Caption>
+				<MyMusic_Caption>Música</MyMusic_Caption>
+				<MyPictures_Caption>Figuras</MyPictures_Caption>
+				<Quit_ToolTip>Fechar o menu LiberKey</Quit_ToolTip>
+				<TabsScrollLeft_ToolTip>Rolar para esquerda</TabsScrollLeft_ToolTip>
+				<TabsScrollRight_ToolTip>Rolar para direita</TabsScrollRight_ToolTip>
+				<UserMenus_ToolTip>Menus do usuário</UserMenus_ToolTip>
+				<ViewIcons_ToolTip>Ícones grandes</ViewIcons_ToolTip>
+				<ViewTree_ToolTip>Árvore</ViewTree_ToolTip>
+			</CommandButtons>
+			<Labels>
+				<SearchInfoLabel_Caption>Encontrado : %count% atalhos</SearchInfoLabel_Caption>
+				<SearchInfoTitle_Caption>Localizar no seu LiberKey</SearchInfoTitle_Caption>
+			</Labels>
+			<LiberKeyTools>
+				<AddApps>Abrir o catálogo de aplicativos</AddApps>
+				<AddAppsTip>Este guia ira permitir que conecte aos servidores do LiberKey e encontre o aplicativo que você está procurando, e instalá-lo no seu LiberKey.</AddAppsTip>
+				<AddPortableShortcuts>Adicionar atalhos portáteis</AddPortableShortcuts>
+				<AddRemoveApps>Adicionar / Remover aplicativos</AddRemoveApps>
+				<AppsClose>Fechar aplicativos</AppsClose>
+				<AppsCloseTip>O Encerrador de Aplicativos LiberKey automaticamente fecha todos os seus aplicativos do LiberKey. Os métodos usados para fechar os aplicativos são inúmeros e adaptados a cada um. O encerramento é feito apropriadamente, se um arquivo estiver sendo editado (ex: um documento), você será solicitado a salvá-lo.</AppsCloseTip>
+				<Configuration>Configuração</Configuration>
+				<ConfigurationTip>Configuração do LiberKey.\nTodas as configurações relacionadas à aparência e comportamento do LiberKey estão nesta janela.</ConfigurationTip>
+				<DisableFileAssoc>Desabilitar associação de arquivos</DisableFileAssoc>
+				<DisableFileAssocTip>Os arquivos no computador estão atualmente associados aos aplicativos do LiberKey.\nClique aqui para restaurar as associações de arquivos do computador local.</DisableFileAssocTip>
+				<EnableFileAssoc>Habilitar associação de arquivos</EnableFileAssoc>
+				<EnableFileAssocTip>Habilitar associações temporárias de arquivos (.avi, .jpg, .doc, ...) para os aplicativos do seu LiberKey.</EnableFileAssocTip>
+				<FileAssoc>Associações de arquivo</FileAssoc>
+				<GoToWebSite>Visitar a página do LiberKey</GoToWebSite>
+				<GoToWebSiteTip>Este menu permite que você acesse a página do LiberKey. Você encontrará todo tipo de informação e o fórum aberto a todos os usuários.</GoToWebSiteTip>
+				<InstallAppSuite>Instalar uma suíte de aplicativos</InstallAppSuite>
+				<InstallAppSuiteTip>Este guia permite que você instale uma suíte completa de aplicativos.</InstallAppSuiteTip>
+				<LiberKeyNews>Ver as novidades</LiberKeyNews>
+				<LiberKeyNewsTip>As Novidades do LiberKey mantém você informado de quaisquer desenvolviemtno relacionados ao LiberKey.\nNovos aplicativos no catálogo online ou qualquer informação relacionada ao LiberKey será mostrada aqui.</LiberKeyNewsTip>
+				<ManageApps>Gerenciar aplicativos</ManageApps>
+				<ManageAppsTip>Desinstalar, instalar ou reinstalar aplicativos. Este conjunto de ferramentas irá ajudá-lo a gerenciar os aplicativos instalados no seu LiberKey.</ManageAppsTip>
+				<PortableShortcutsTip>Os Atalhos Portáteis de Desktop permite você gerenciar seus atalhos relacionados ao seu LiberKey.\nVocê pode salvar a localização dos atalhos na área de trabalho também.</PortableShortcutsTip>
+				<RemovePortableShortcuts>Remover atalhos portáteis</RemovePortableShortcuts>
+				<Title>Ferramentas do LiberKey</Title>
+				<UpdateCheck>Procurar atualizações</UpdateCheck>
+				<UpdateCheckTip>Verificar se há atualizações disponíveis do LiberKey ou de aplicativos.\nSe houver, é possível aplicar atualizações direto do LiberKey.com.</UpdateCheckTip>
+				<UsbEject>Desconectar seu LiberKey</UsbEject>
+				<USBEjectTip>O Ejetor do Liberkey permite você desconectar seu dispositivo USB contendo seu LiberKey (com o fechamento automático de todos os aplicativos).\n\nLEMBRETE: seu dispositivo USB só poderá ser ejetado se todos os aplicativos do LiberKey estiverem fechados.</USBEjectTip>
+			</LiberKeyTools>
+			<Messages>
+				<About>Sobre o LiberKey...</About>
+				<BrowseForNewFolder>Selecionar a pasta onde o atalho irá abrir</BrowseForNewFolder>
+				<PatchDownload>Baixar atualização...</PatchDownload>
+				<SearchResults>Resultados da procura</SearchResults>
+			</Messages>
+		</Main>
+		<Menu>
+			<LKHelp>Ajuda LiberKey</LKHelp>
+			<LKQuickLaunch>Inicialização rápida do LiberKey</LKQuickLaunch>
+			<MostUsed>Mais usados</MostUsed>
+			<MyApps>Meus aplicativos portáteis</MyApps>
+			<MyDocs>Meus documentos</MyDocs>
+			<Recent>Recente</Recent>
+		</Menu>
+		<MenuProperties>
+			<CheckBoxs>
+				<EditMode_Caption>Permitir alterações</EditMode_Caption>
+				<NotInSystrayMenu_Caption>Não exibir no menu suspenso</NotInSystrayMenu_Caption>
+				<ShowName_Caption>Exibir Nome</ShowName_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Apply_Caption>OK</Apply_Caption>
+				<Cancel_Caption>Cancelar</Cancel_Caption>
+			</CommandButtons>
+			<Labels>
+				<MenuIconLabel_Caption>Ícone associado:</MenuIconLabel_Caption>
+				<MenuNameLabel_Caption>Nome do menu:</MenuNameLabel_Caption>
+				<Title_Caption>Menu de propriedades do usuário\n</Title_Caption>
+			</Labels>
+		</MenuProperties>
+		<Menus>
+			<AppCopy_Caption>&amp;Copiar</AppCopy_Caption>
+			<AppCut_Caption>&amp;Recortar</AppCut_Caption>
+			<AppDelApp_Caption>&amp;Excluir</AppDelApp_Caption>
+			<AppEditProps_Caption>&amp;Propriedades de aplicativo...</AppEditProps_Caption>
+			<AppGoToWebSite_Caption>&amp;Visitar página da web</AppGoToWebSite_Caption>
+			<AppLaunch_Caption>&amp;Executar</AppLaunch_Caption>
+			<AppLocate_Caption>&amp;Localizar categoria</AppLocate_Caption>
+			<AppLocation-0_Caption>(nome da categoria)</AppLocation-0_Caption>
+			<AppLocations_Caption>&amp;Localizar categoria</AppLocations_Caption>
+			<AppOpenAppFolder_Caption>&amp;Abrir a pasta contendo</AppOpenAppFolder_Caption>
+			<AppPaste_Caption>&amp;Colar</AppPaste_Caption>
+			<AppRunAs_Caption>&amp;Executar como...</AppRunAs_Caption>
+			<AppRunAsAdmin_Caption>&amp;Executar como administrador</AppRunAsAdmin_Caption>
+			<AppSetup_Caption>In&amp;stalar este aplicativo</AppSetup_Caption>
+			<AppShowInfo_Caption>&amp;Informações</AppShowInfo_Caption>
+			<AppUpdate_Caption>&amp;Atualizar</AppUpdate_Caption>
+			<CatAdd_Caption>Novo atalho</CatAdd_Caption>
+			<CatAddApp_Caption>Aplicação / arquivo...</CatAddApp_Caption>
+			<CatAddFolder_Caption>Pasta...</CatAddFolder_Caption>
+			<CatAddWebPage_Caption>Página da internet...</CatAddWebPage_Caption>
+			<CatCopy_Caption>&amp;Copiar</CatCopy_Caption>
+			<CatCut_Caption>&amp;Recortar</CatCut_Caption>
+			<CatDelCat_Caption>&amp;Excluir</CatDelCat_Caption>
+			<CatEditProps_Caption>&amp;Propriedades...</CatEditProps_Caption>
+			<CatListMode_Caption>Exibir &amp;lista</CatListMode_Caption>
+			<CatNewCat_Caption>&amp;Nova categoria</CatNewCat_Caption>
+			<CatPaste_Caption>&amp;Colar</CatPaste_Caption>
+			<CatShowMenu_Caption>&amp;Menu Suspenso...</CatShowMenu_Caption>
+			<CatSort_Caption>&amp;Classificar</CatSort_Caption>
+			<DoNothing_Caption>Fazer nada</DoNothing_Caption>
+			<FolderOpen_Caption>&amp;Abrir pasta</FolderOpen_Caption>
+			<InstallLKS_Caption>Instalar pacotes LKS (Liberkey Setup)</InstallLKS_Caption>
+			<InstallLKS_Tip>Selecione um ou mais arquivos LKS (Liberkey Setup) para instalar em um clique.</InstallLKS_Tip>
+			<InstallsFromAppsFolder_Caption>Da pasta &quot;Aplicativos&quot;...</InstallsFromAppsFolder_Caption>
+			<InstallsFromAppsFolder_Tip>Este guia irá verificar automaticamente a pasta de aplicativos do seu LiberKey se novos aplicativos estiverem presentes.\nPor exemplo, você pode copiar aplicativos de outro LiberKey e colocá-los na pasta de aplicativos do LiberKey, e este guia irá detectá-los.</InstallsFromAppsFolder_Tip>
+			<InstallsFromMyApps_Caption>Da pasta &quot;MyApps&quot;...</InstallsFromMyApps_Caption>
+			<InstallsFromMyApps_Tip>Se você adicionou manualmente aplicativos portáteis na pasta &quot;MyApps&quot; do seu LiberKey, este guia tentará encontrá-los e registrá-los no menu.</InstallsFromMyApps_Tip>
+			<InternetOpen_Caption>&amp;Abrir</InternetOpen_Caption>
+			<MenusCreate_Caption>&amp;Criar um novo menu...</MenusCreate_Caption>
+			<MenusDelete_Caption>&amp;Excluir o menu atual</MenusDelete_Caption>
+			<MenusEdit_Caption>&amp;Propriedades do menu atual...</MenusEdit_Caption>
+			<MenusExport_Caption>E&amp;xportar o menu atual...</MenusExport_Caption>
+			<MenusHideNames_Caption>&amp;Esconder nomes</MenusHideNames_Caption>
+			<MenusImport_Caption>&amp;Importar menu...</MenusImport_Caption>
+			<MenusRecent_Caption>&amp;Recente</MenusRecent_Caption>
+			<MenusShowNames_Caption>Exibir &amp;nomes</MenusShowNames_Caption>
+			<MenusUser-0_Caption>Menu padrão</MenusUser-0_Caption>
+			<Open_Caption>&amp;Abrir</Open_Caption>
+			<OpenActiveFloatMenu_Caption>Abrir o menu suspenso</OpenActiveFloatMenu_Caption>
+			<OpenMainWindow_Caption>Abrir o menu principal</OpenMainWindow_Caption>
+			<PatchCancelDownload_Caption>&amp;Cancelar download</PatchCancelDownload_Caption>
+			<Quit>Sair</Quit>
+			<RepairApps_Caption>Reparar aplicativos danificados</RepairApps_Caption>
+			<RepairApps_Tip>Este guia irá checar automaticamente a pasta &quot;Apps&quot; do LiberKey se seus aplicativos estiverem danificados.\nSe um aplicativo vindo do catálogo do LiberKey estiver danificado o guia oferecerá para reinstalá-lo.</RepairApps_Tip>
+			<SendToPortableDocs>Meus documentos portáteis</SendToPortableDocs>
+			<SendToPortableDocsDescription>Copiar os arquivos selecionados para a pasta &quot;MyDocuments&quot; do LiberKey</SendToPortableDocsDescription>
+			<ShortcutEditProps_Caption>Propriedades do atalho...</ShortcutEditProps_Caption>
+			<SuiteSetup>
+				<AppList>Lista de aplicativos</AppList>
+				<HideNewApps_Caption>Ocultar novos aplicativos</HideNewApps_Caption>
+				<HideUpdates_Caption>Ocultar atualizações de aplicativos</HideUpdates_Caption>
+				<HideUpToDateApps_Caption>Ocultar aplicativos atualizados</HideUpToDateApps_Caption>
+				<SelectAll_Caption>Selecionar tudo</SelectAll_Caption>
+				<SelectNewApps_Caption>Selecionar novos aplicativos</SelectNewApps_Caption>
+				<SelectPriority_Caption>Selecionar atualizações prioritárias</SelectPriority_Caption>
+				<SelectUpdates_Caption>Selecionar atualizações de aplicativos</SelectUpdates_Caption>
+				<ShowNewApps_Caption>Exibir novos aplicativos</ShowNewApps_Caption>
+				<ShowUpdates_Caption>Exibir atualizações de aplicativos</ShowUpdates_Caption>
+				<ShowUpToDateApps_Caption>Exibir aplicativos atualizados</ShowUpToDateApps_Caption>
+				<UnselectAll_Caption>Desmarcar todos</UnselectAll_Caption>
+				<UnselectNewApps_Caption>Desmarcar novos aplicativos</UnselectNewApps_Caption>
+				<UnselectPriority_Caption>Desmarcar atualizações prioritárias</UnselectPriority_Caption>
+				<UnselectUpdates_Caption>Desmarcar atualizações de aplicativos</UnselectUpdates_Caption>
+			</SuiteSetup>
+			<SynchronizeCatalog_Caption>Do catálogo online</SynchronizeCatalog_Caption>
+			<SynchronizeCatalog_Tip>Este guia irá permitir conectar aos servidores do LiberKey e encontrar o aplicativo que você está procurando, e instalá-lo no seu LiberKey.</SynchronizeCatalog_Tip>
+			<UserMenuTabEditable_Caption>Permitir modificações</UserMenuTabEditable_Caption>
+			<UserMenuTabFloatMenu_Caption>&amp;Menu suspenso...</UserMenuTabFloatMenu_Caption>
+			<UserMenuTabHideName_Caption>&amp;Ocultar nome</UserMenuTabHideName_Caption>
+			<UserMenuTabProperties_Caption>&amp;Propriedades...</UserMenuTabProperties_Caption>
+			<UserMenuTabShowName_Caption>&amp;Exibir nome</UserMenuTabShowName_Caption>
+		</Menus>
+		<Messages>
+			<AllFilesSelection>Todos os arquivos | *.*</AllFilesSelection>
+			<AppInstallation>Instalando o aplicativo %appname% ...</AppInstallation>
+			<AppInstallDone>O aplicativo &quot;%appname%&quot; foi instalado no seu LiberKey.</AppInstallDone>
+			<AppInstalled>Aplicativo instalado: %appname%</AppInstalled>
+			<AppNotFound>Este aplicativo não está instalado no seu LiberKey.</AppNotFound>
+			<AppNotFoundTitle>Localizar um aplicativo</AppNotFoundTitle>
+			<AppRefCount>Atalho para este aplicativo: %count%</AppRefCount>
+			<AppRegistered>O aplicativo está agora registrado no seu LiberKey.\n\nVocê pode agora criar o atalho.</AppRegistered>
+			<AppRunningCantUninst>O aplicativo está em execução no momento.\n\nVocê não pode desinstalar um aplicativo enquanto ele estiver em execução.</AppRunningCantUninst>
+			<AppsInstallDone>%count% novos aplicativos foram instalados no seu LiberKey.</AppsInstallDone>
+			<AutoImportMenu>Você ainda não criou um menu para abrir seus aplicativos.\nVocê gostaria de importar a estrutura do menu antigo ?</AutoImportMenu>
+			<BrokenAppFoundReinstall>Este aplicativo parece estar danificado: %appname%\n\nVocê gostaria de reinstalá-lo?</BrokenAppFoundReinstall>
+			<Browse>Procurar...</Browse>
+			<ConfirmDeleteCategory>Você tem certeza de que deseja excluir a categoria &quot;%name%&quot; e os atalhos contidos nela?</ConfirmDeleteCategory>
+			<ConfirmDeleteSortcut>Você tem certeza que deseja excluir o atalho &quot;%name%&quot;?</ConfirmDeleteSortcut>
+			<ConfirmDeletion>Confirmar Exclusão</ConfirmDeletion>
+			<ConfirmInstallApp>Instalar %app% no seu LiberKey?</ConfirmInstallApp>
+			<ConfirmInstallExtension>Você quer instalar esta extensão no seu LiberKey?\n\n%extname%</ConfirmInstallExtension>
+			<ConfirmInstallMyApps>Você quer detectar novos aplicativos na pasta &quot;MyApps&quot;?</ConfirmInstallMyApps>
+			<ConfirmInstallNewApps>Você quer detectar novos aplicativos na pasta &quot;Apps&quot;?</ConfirmInstallNewApps>
+			<ConfirmUninstallApp>Você tem certeza que deseja remover este aplicativo?\nEsta ação não pode ser desfeita.</ConfirmUninstallApp>
+			<DateFormat>dd/mm/yyyy</DateFormat>
+			<DefaultIcon>(Ícone Padrão)</DefaultIcon>
+			<DeleteMenuConfirm>Excluir o menu &quot;%menu%&quot; ?</DeleteMenuConfirm>
+			<DownloadPatchNow>Baixar a atualização agora?</DownloadPatchNow>
+			<DropLKSLoadingInfos>Por favor espere enquanto a informação do aplicativo é obtida...</DropLKSLoadingInfos>
+			<DropLKSToInstall>Soltar o botão do mouse para instalar o aplicativo no seu LiberKey.</DropLKSToInstall>
+			<Errors>
+				<AccessDenied>Acesso negado</AccessDenied>
+				<AccessRightsError>LiberKey requer acesso de escrita ao dispositivo portátil que está inserido.</AccessRightsError>
+				<AssocIncomplete>Associação inválida ou incompleta.</AssocIncomplete>
+				<CantCreateTempFolder>Incapaz de criar a pasta temporária.</CantCreateTempFolder>
+				<CantDefineHotKey>Um erro ocorreu enquanto definindo a tecla de atalho do atalho &quot;%name%&quot;:\n%err%</CantDefineHotKey>
+				<CantDefineHotKeys>Um erro ocorreu enquanto definindo as teclas de atalho para os seguintes atalhos:\n%err%\n%namelist%</CantDefineHotKeys>
+				<CantStartOnRemoteDrive>Você não pode utilizar o LiberKey em um drive de rede.</CantStartOnRemoteDrive>
+				<DDEBusy>DDE ocupado.</DDEBusy>
+				<DDETimeout>DDE tempo expirado.</DDETimeout>
+				<DDETransacFailed>Transação DDE falhou.</DDETransacFailed>
+				<DllNotFound>DLL não encontrada.</DllNotFound>
+				<ErrorTitle>Erro</ErrorTitle>
+				<ErrShare>Ocorreu uma violação de compartilhamento.</ErrShare>
+				<ExeBadFormat>Arquivo EXE inválido ou erro na imagem EXE.</ExeBadFormat>
+				<ExecError>Erro na inicialização do programa.</ExecError>
+				<FileNotFound>Arquivo não encontrado.</FileNotFound>
+				<GetUpdateInfoError>Um erro ocorreu enquanto tentava obter uma informação de atualização:\nErro %err%: %desc%</GetUpdateInfoError>
+				<HotKeyAlreadyUsedBy>Você já utiliza esta combinação para o atalho &quot;%name%&quot;!</HotKeyAlreadyUsedBy>
+				<InstallExtensionError>Um erro ocorreu durante a instalação desta extensão!\n\n%extname%</InstallExtensionError>
+				<InvalidExtensionFile>Extensão inválida de arquivo!</InvalidExtensionFile>
+				<LKInstNotFound>O Instalador LiberKey não foi encontrado!</LKInstNotFound>
+				<LksDownloadFailed>Um erro ocorreu enquanto baixando o pacote de instalação de %app% (%lks%).\n\nErro %errnum%: %errdesc%</LksDownloadFailed>
+				<LogUploadFailed>Um erro ocorreu enquanto enviando a informação.</LogUploadFailed>
+				<NewsFeedDownloadError>Um erro ocorreu enquanto baixando as notícias. \n%err%</NewsFeedDownloadError>
+				<NoAssoc>Não há associação para a extensão do arquivo.</NoAssoc>
+				<OutOfMemory>Sem memória suficiente.</OutOfMemory>
+				<PathNotFound>Caminho não encontrado.</PathNotFound>
+				<SkinImageNotFound>Erro ao carregar o tema:\n\nArquivo %file% não encontrado.</SkinImageNotFound>
+			</Errors>
+			<FileSize>
+				<Bytes>Bytes</Bytes>
+				<GB>GB</GB>
+				<KB>KB</KB>
+				<MB>MB</MB>
+			</FileSize>
+			<FreeSpace>Drive %drive% (%filesys%)\n%volumename%\nCapacidade: %totalsize%\nUsado: %usedsize%\nLivre: %freesize% (%freesizepc%)</FreeSpace>
+			<HotKeyStartAppInfo>Iniciando &quot;%name%&quot;...\nClique aqui para cancelar</HotKeyStartAppInfo>
+			<IconFileSelection>Arquivos suportados|*.ico;*.exe;*.dll|Arquivos ícone (*.ico)|*.ico|Arquivos executáveis|*.exe;*.dll</IconFileSelection>
+			<IconSelection>
+				<AppIcons>Ícones do menu</AppIcons>
+				<IconSelectTitle>Selecione o arquivo contendo o ícone</IconSelectTitle>
+				<IconSources>Ícones disponíveis</IconSources>
+				<SkinIcons>Temas de ícones</SkinIcons>
+			</IconSelection>
+			<ImportASuiteMenu>Importar do menu Asuite...</ImportASuiteMenu>
+			<ImportMenuFormatError>Este arquivo não contém um menu LiberKey.</ImportMenuFormatError>
+			<InternetAddress>Endereço de internet...</InternetAddress>
+			<LastAppShortcutUninstall>Não há mais atalhos para este aplicativo no menu do seu LiberKey.\nVocê quer desinstalá-lo do seu LiberKey?</LastAppShortcutUninstall>
+			<LinkedAppCount>Aplicativos interligados: %count%</LinkedAppCount>
+			<LogUploadDone>A informação foi enviada.\nObrigado por sua participação no desenvolvimento do LiberKey!</LogUploadDone>
+			<MenuExportTitle>Exportar o menu em um arquivo XML...</MenuExportTitle>
+			<MenuImportError>Um erro ocorreu enquanto copiando o menu para seu LiberKey.</MenuImportError>
+			<MenuImportErrorTitle>Não é possível importar o menu</MenuImportErrorTitle>
+			<MenuImportNotFromProfile>Você não pode importar um menu que já está no seu LiberKey.</MenuImportNotFromProfile>
+			<MenuImportTitle>Importar um menu de um arquivo XML</MenuImportTitle>
+			<MultipleFilesDrop>%count% arquivos...</MultipleFilesDrop>
+			<MyMenu>Meu menu</MyMenu>
+			<NewCategory>Nova categoria</NewCategory>
+			<NewMenu>Novo menu</NewMenu>
+			<NoAppAssocFound>Nenhum aplicativo do LiberKey está associado a este tipo de arquivo</NoAppAssocFound>
+			<NoBrokenAppFound>Nenhum aplicativo danificado foi encontrado</NoBrokenAppFound>
+			<NoLogToSend>Esta ferramenta permite você enviar o log de eventos do menu para a equipe do LiberKey para analisar os problemas.\n\nNenhum log de evento foi encontrado.</NoLogToSend>
+			<NoNewAppInstalled>Nenhum aplicativo novo encontrado na pasta &quot;Apps&quot; do seu LiberKey</NoNewAppInstalled>
+			<NoNewMyAppInstalled>Nenhum aplicativo novo encontrado na pasta &quot;MyApps&quot; do seu LiberKey</NoNewMyAppInstalled>
+			<OpenWithLiberKey>Abrir com o LiberKey</OpenWithLiberKey>
+			<PatchAvailable>Uma atualização está disponível para seu LiberKey.\n\nVocê quer baixá-la agora?</PatchAvailable>
+			<SearchFieldInfo>Localizar em seu LiberKey...</SearchFieldInfo>
+			<SearchingBrokenApps>Localizar aplicativos danificados...</SearchingBrokenApps>
+			<SearchingUninstalledApps>Localizando aplicativos na pasta &quot;Apps&quot;...</SearchingUninstalledApps>
+			<SearchingUninstalledMyApps>Localizando aplicativos na pasta &quot;MyApps&quot;...</SearchingUninstalledMyApps>
+			<SelectFile>Selecionar arquivo...</SelectFile>
+			<SendLogInfo>Esta ferramenta permite que você envie um log de evento do menu para a equipe do LiberKey analizar os problemas.\n\nA informação técnica e os 10 últimos arquivos gerados na pasta &quot;log&quot; do seu menu será enviada para a equipe do LiberKey.\n\nVocê tem certeza que quer proceder?</SendLogInfo>
+			<SetupAutoRestart>Setup de %app% irá reiniciar pré-configurado para o LiberKey.</SetupAutoRestart>
+			<TrayIcon>
+				<AppUpdatesAvailable>Atualizações estão disponíveis para seus aplicativos.\nClique aqui para instalar.</AppUpdatesAvailable>
+				<AppUpdatesAvailableTitle>Atualizações de aplicativos estão disponíveis</AppUpdatesAvailableTitle>
+				<LiberKeyAssocFailed>Um erro ocorreu enquanto tentava ativar o protocolo do LiberKey.\nAlgumas funções como a instalação do catálogo online estão desabilitadas.</LiberKeyAssocFailed>
+				<LiberKeyUpdateAvailable>Uma atualização está disponível para seu LiberKey.\nClique aqui para instalar.</LiberKeyUpdateAvailable>
+				<LiberKeyUpdateAvailableTitle>Atualização do LiberKey</LiberKeyUpdateAvailableTitle>
+				<NewAppDetected>Um ou mais aplicativos foram detectados na pasta &quot;MyApps&quot; no seu LiberKey.\nClique aqui para registrar os novos aplicativos no seu menu.</NewAppDetected>
+				<NewsUpdateAvailable>Notícias LiberKey\nLeia as últimas notícias</NewsUpdateAvailable>
+			</TrayIcon>
+			<UpdatePlatformFirst>Você deve atualizar seu LiberKey primeiro!\nGostaria de aplicar esta atualização agora?</UpdatePlatformFirst>
+			<XmlFileSelection>Arquivos XML|*.xml|Todos os arquivos|*.*</XmlFileSelection>
+		</Messages>
+		<NewAppList>
+			<CommandButtons>
+				<Cancel_Caption>Fechar</Cancel_Caption>
+				<InstallApp_ToolTip>Instalar este aplicativo</InstallApp_ToolTip>
+				<InstallApps_ToolTip>Instalar aplicativos selecionados</InstallApps_ToolTip>
+				<OpenFolder_ToolTip>Abrir o local do arquivo</OpenFolder_ToolTip>
+				<Reload_ToolTip>Atualizar lista</Reload_ToolTip>
+				<SelectApp_ToolTip>Marcar este aplicativo</SelectApp_ToolTip>
+				<UnselectApp_ToolTip>Desmarcar este aplicativo</UnselectApp_ToolTip>
+			</CommandButtons>
+			<Labels>
+				<DestinationMenuLabel_Caption>Criar atalhos em:</DestinationMenuLabel_Caption>
+				<Title_Caption>Novos aplicativos</Title_Caption>
+			</Labels>
+			<Messages>
+				<SelectExecutable>Selecione o aplicativo que você quer adicionar no menu.</SelectExecutable>
+			</Messages>
+		</NewAppList>
+		<News>
+			<CheckBoxs>
+				<HideReadNews_Caption>Ocultar notícias já lidas</HideReadNews_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<CloseNews_Caption>Fechar</CloseNews_Caption>
+			</CommandButtons>
+			<Labels>
+				<Title_Caption>Novidades LiberKey</Title_Caption>
+			</Labels>
+			<Messages>
+				<NoNewsDescription>Não há novidades no momento.\nSe notícias forem publicadas, você será notificado pelo ícone &quot;Novidades LiberKey&quot; que aparecerá acima do botão &quot;Ferramentas do LiberKey&quot;</NoNewsDescription>
+				<NoNewsTile>Notícias LiberKey - Sem notícias</NoNewsTile>
+				<NoNewsUpdateDescription>Há no momento %readcount% notícias ocultas.\nPara ver as notícias ocultas, desmarque &quot;Ocular as notícias já lidas&quot; abaixo.</NoNewsUpdateDescription>
+				<NoNewsUpdateTile>Notícias LiberKey - Sem notícias disponíveis</NoNewsUpdateTile>
+			</Messages>
+		</News>
+		<OnlineCatalog>
+			<CommandButtons>
+				<Cancel_Caption>Cancelar</Cancel_Caption>
+				<CopyURL_Caption>Copiar endereço para a área de transferência</CopyURL_Caption>
+				<GoToWebsite_Caption>Acessar o catálogo online %count%</GoToWebsite_Caption>
+				<NoSyncCatalog_Caption>Acessar o catálogo online sem sincronizar com meu LiberKey</NoSyncCatalog_Caption>
+			</CommandButtons>
+			<Labels>
+				<AccessURL_Caption>Endereço para acessar o catálogo online sincronizado com seu LiberKey:</AccessURL_Caption>
+				<AddPortableAppsLabel_Caption>Instalar novos aplicativos</AddPortableAppsLabel_Caption>
+				<Privacy_Caption>Nota: Os números de versão enviados para o website cobrem apenas os aplicativos disponíveis no catálogo online. Nenhuma informação sobre seus aplicativos pessoais é transmitida durante esta operação.</Privacy_Caption>
+				<Title_Caption>Abrir o catálogo online</Title_Caption>
+			</Labels>
+		</OnlineCatalog>
+		<Search>
+			<Applications>Aplicativos</Applications>
+			<InCatalog>Catálogo online</InCatalog>
+			<InstalledApp>Aplicativos instalados</InstalledApp>
+			<SearchCatalog>Procurar no catálogo online</SearchCatalog>
+		</Search>
+		<SetupWizard>
+			<CheckBoxs>
+				<ApplyFilesAssocs_Caption>Associar o aplicativo aos arquivos que ele pode abrir</ApplyFilesAssocs_Caption>
+				<CreateDefaultShortcuts_Caption>Criar atalhos para iniciar o aplicativo</CreateDefaultShortcuts_Caption>
+				<EditAppAfterSetup_Caption>Editar as propriedades do aplicativo após a instalação</EditAppAfterSetup_Caption>
+				<FillAppInformations_Caption>Adicionar a descrição do aplicativo</FillAppInformations_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<CancelSetup_Caption>Não instalar o aplicativo na pasta &quot;MyApps&quot;</CancelSetup_Caption>
+				<CancelSetup2_Caption>Cancelar instalação</CancelSetup2_Caption>
+				<CantSetup_Caption>Fechar o guia (instalação não vai continuar)</CantSetup_Caption>
+				<DoSetup_Caption>Instalar o aplicativo no meu LiberKey</DoSetup_Caption>
+				<ForceSetup_Caption>Instalar o aplicativo em &quot;MyApps&quot;</ForceSetup_Caption>
+				<OpenAppsFolder_Caption>Abrir a pasta &quot;Apps&quot; do meu LiberKey</OpenAppsFolder_Caption>
+				<OpenMyAppsFolder_Caption>Abrir a pasta &quot;MyApps&quot; do meu LiberKey</OpenMyAppsFolder_Caption>
+				<UpdateApp_Caption>Atualizar este aplicativo</UpdateApp_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppInfoDetailsTitle_Caption>Este aplicativo foi originalmente instalado de um pacote LKS (Setup LiberKey).\nAs seguintes ações serão executadas:</AppInfoDetailsTitle_Caption>
+				<AppRegisterInfo_Caption>Este aplicativo será registrado novamente no seu LiberKey</AppRegisterInfo_Caption>
+				<DestinationMenuLabel_Caption>Criar atalhos em:</DestinationMenuLabel_Caption>
+				<IntroText_Caption>Este guia está aqui para ajudá-lo a adicionar aplicativos no seu LiberKey.</IntroText_Caption>
+				<LbkAppFolderInfo_Caption>Este aplicativo não vai atualizar automaticamente.\nVocê deveria mover o aplicativo para a pasta &quot;Apps&quot; e repetir a operação.</LbkAppFolderInfo_Caption>
+				<LbkAppFolderMistake_Caption>Aplicativos portáteis do catálogo online devem ser colocados na pasta &quot;Apps&quot;.</LbkAppFolderMistake_Caption>
+				<lblLbkAppInfoMissing_Caption>Não foi encontrada informações sobre este aplicativo.\nNão é possível salvar a informação para seu LiberKey.</lblLbkAppInfoMissing_Caption>
+				<lblLbkAppInfoMissingMoveApp_Caption>Você deve reinstalar o aplicativo do catálogo online.\nPara uso no estado, primeiramente mova o aplicativo para a pasta &quot;MyApps&quot;.</lblLbkAppInfoMissingMoveApp_Caption>
+				<lblLbkAppInfoMissingUpdate_Caption>Para registrar propriamente o aplicativo no seu LiberKey, execute a atualização. Para uso neste estado, primeiramente mova o aplicativo para a pasta &quot;MyApps&quot;.</lblLbkAppInfoMissingUpdate_Caption>
+				<lblUserAppFolderInfo>Para salvar este aplicativo no seu LiberKey, você deve movê-lo para a pasta &quot;MyApps&quot; e repetir a ação.</lblUserAppFolderInfo>
+				<lblUserAppFolderMistake_Caption>Aplicativos portáteis que não estão no catálogo online devem ser colocados na pasta &quot;MyApps&quot;.</lblUserAppFolderMistake_Caption>
+				<NewApp_Caption>Novo aplicativo portátil</NewApp_Caption>
+				<NewAppRegisterInfo_Caption>Este aplicativo não está registrado no seu LiberKey</NewAppRegisterInfo_Caption>
+				<PafInfoDetailsTitle_Caption>Este aplicativo foi originalmente instalado de um pacote PAF (portableapps.com™).\nAs seguintes operações serão executadas:</PafInfoDetailsTitle_Caption>
+				<ReinstallApp_Caption>Reinstalar um aplicativo portátil</ReinstallApp_Caption>
+				<Title_Caption>Guia para adicionar aplicativo</Title_Caption>
+				<UserAppInfoDetailsTitle_Caption>Arquivos portáteis devem ser registrados no menu LiberKey. Você pode criar atalhos no menu para iniciá-los.\nAs seguintes ações serão executadas:</UserAppInfoDetailsTitle_Caption>
+				<XSoftInfoDetailsTitle_Caption>Este aplicativo foi originalmente instalado de um pacote X-Software (winpenpack.com™).\nAs seguintes operações serão executadas:</XSoftInfoDetailsTitle_Caption>
+			</Labels>
+		</SetupWizard>
+		<ShortcutProperties>
+			<CheckBoxs>
+				<AlwaysRunAsAdmin_Caption>Sempre executar como administrador</AlwaysRunAsAdmin_Caption>
+				<ShortcutHiddenInMenu_Caption>Oculto em menus suspensos</ShortcutHiddenInMenu_Caption>
+				<ShortcutNoMostUsed_Caption>Não adicionar aos aplicativos mais usados</ShortcutNoMostUsed_Caption>
+				<ShortcutNoRecent_Caption>Não adicionar ao menu de aplicativos usados recentemente</ShortcutNoRecent_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<ApplyChanges_Caption>Aplicar</ApplyChanges_Caption>
+				<AppProps_Caption>Propriedades do aplicativo</AppProps_Caption>
+				<Cancel_Caption>Fechar</Cancel_Caption>
+				<ShortcutAppEdit_Caption>Esta atalho aponta para um aplicativo portátil</ShortcutAppEdit_Caption>
+			</CommandButtons>
+			<Labels>
+				<DescriptionLabel_Caption>Descrição :</DescriptionLabel_Caption>
+				<ShortcutAutorunLabel_Caption>Auto executar :</ShortcutAutorunLabel_Caption>
+				<ShortcutHotKey_Caption>Atalho do teclado :</ShortcutHotKey_Caption>
+				<ShortcutIconLabel_Caption>Ícone :</ShortcutIconLabel_Caption>
+				<ShortcutNameLabel_Caption>Nome :</ShortcutNameLabel_Caption>
+				<ShortcutParamsLabel_Caption>Parâmetros linha de comando:</ShortcutParamsLabel_Caption>
+				<ShortcutPathLabel_Caption>Caminho / pasta / página / documento executável :</ShortcutPathLabel_Caption>
+				<ShortcutWinStateLabel_Caption>Na inicialização :</ShortcutWinStateLabel_Caption>
+				<ShortcutWorkDirLabel_Caption>Pasta de trabalho</ShortcutWorkDirLabel_Caption>
+				<Title_Caption>Propriedades do atalho</Title_Caption>
+			</Labels>
+			<Tabs>
+				<Shortcut>Atalho</Shortcut>
+				<ShortcutMore>Avançado</ShortcutMore>
+			</Tabs>
+		</ShortcutProperties>
+		<SuiteDownload>
+			<CommandButtons>
+				<Cancel_Caption>Cancelar</Cancel_Caption>
+				<GetSuites_Caption>Baixar a lista de suítes disponíveis</GetSuites_Caption>
+				<InstallSuite_Caption>Instalar todos os aplicativos da suíte selecionada</InstallSuite_Caption>
+			</CommandButtons>
+			<DownloadedAppsCountInfo>Baixado: %dldone%</DownloadedAppsCountInfo>
+			<DownloadSizeInfo>Download: %size%</DownloadSizeInfo>
+			<InstallSizeInfo>Espaço em disco requerido: %size%</InstallSizeInfo>
+			<Labels>
+				<DownloadInfo_Caption>Este guia permite que você instale uma suíte completa de aplicativos.\n\nClique em &quot;Baixar a lista de aplicativos disponíveis&quot; para continuar.</DownloadInfo_Caption>
+				<Title_Caption>Instalar uma suíte de aplicativos</Title_Caption>
+				<TitleBig_Caption>Instalar uma suíte de aplicativos</TitleBig_Caption>
+			</Labels>
+			<Messages>
+				<ConfirmKeepDownloads>Você gostaria de manter os pacotes de aplicativos para uma futura instalação?</ConfirmKeepDownloads>
+				<DownladAppIcons16>Baixando ícones de aplicativos...</DownladAppIcons16>
+				<DownloadGraphics>Baixando logotipos de suítes de aplicativos...</DownloadGraphics>
+				<DownloadingSuitesInfo>Baixando informação sobre suítes de aplicativos...</DownloadingSuitesInfo>
+				<GetSuiteInfoFailed>Um erro ocorreu enquanto obtia a lista de suítes disponíveis.\n\nErro %errnum%: %errdesc%</GetSuiteInfoFailed>
+				<IncompleteSuiteSetup>Alguns aplicativos da suíte selecionada não foram instalados corretamente.\nVocê pode reiniciar este guia posteriormente para completar a instalação.</IncompleteSuiteSetup>
+				<PartialSuiteSetupDone>Os aplicativos selecionados foram instalados.\nVocê pode reiniciar este guia posteriormente para adicionar mais aplicativos.</PartialSuiteSetupDone>
+				<SetupDone>Os aplicativos da suíte &quot;%name%&quot; estão agora instalados no seu LiberKey.</SetupDone>
+				<SetupError>Um erro ocorreu enquanto instalava %app%!</SetupError>
+			</Messages>
+			<SuiteAppCountInfo>Aplicativos:</SuiteAppCountInfo>
+			<SuiteAppsDoneInfo>-  Novo: %newapps%  -  Instalados: %installed%</SuiteAppsDoneInfo>
+		</SuiteDownload>
+		<UninstallWizard>
+			<CheckBoxs>
+				<RemoveAppFolder_Caption>Remover pasta do aplicativo (incluindo o programa e dados associados)</RemoveAppFolder_Caption>
+				<RemoveAppShortcuts_Caption>Remover quaisquer atalhos que apontam para este aplicativo</RemoveAppShortcuts_Caption>
+				<RemoveFilesAssocs_Caption>Remover as associações de arquivos usadas por este programa</RemoveFilesAssocs_Caption>
+				<UnregisterAppInfo_Caption>Desregistrar este aplicativo</UnregisterAppInfo_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<CancelSetup_Caption>Cancelar desinstalação.</CancelSetup_Caption>
+				<CancelSetup2_Caption>Cancelar desinstalação.</CancelSetup2_Caption>
+				<ConfirmUninstall_Caption>Confirmar remoção deste aplicativo</ConfirmUninstall_Caption>
+				<DoUninstall_Caption>Executar as exclusões selecionadas</DoUninstall_Caption>
+			</CommandButtons>
+			<Labels>
+				<IntroText_Caption>Este guia irá ajudá-lo a desinstalar aplicativos do seu LiberKey.</IntroText_Caption>
+				<PreviewInfo_Caption>Aqui está uma lista de ações que seu LiberKey irá executar na desinstalação. Em alguns casos a remoção de um aplicativo pode levar a outras perdas. Tenha certeza de verificar esta lista antes de desinstalar.</PreviewInfo_Caption>
+				<RemoveApp_Caption>Remover o aplicativo</RemoveApp_Caption>
+				<RemoveAppInfo_Caption>Este aplicativo será removido do seu LiberKey</RemoveAppInfo_Caption>
+				<RemoveInfoDetailsTitle_Caption>As seguintes ações serão executadas enquanto desinstala o programa. Desmarque opções das quais você deseja manter informações do aplicativo.</RemoveInfoDetailsTitle_Caption>
+				<Title_Caption>Guia de desinstalação de aplicativo</Title_Caption>
+			</Labels>
+			<PreviewTree>
+				<AppDataSize>Tamanho do aplicativo: %size%</AppDataSize>
+				<DeletedAssocs>Excluir associações de arquivo</DeletedAssocs>
+				<DeletedData>Excluir dados de aplicativo</DeletedData>
+				<DeletedShortcuts>Excluir atalhos</DeletedShortcuts>
+				<FileType>ARquivos &quot;.%type%&quot;</FileType>
+				<KFANotFound>Configuração de associação de arquivos não encontrada.</KFANotFound>
+				<KFANotUsed>Não há associação temporária para este aplicativo</KFANotUsed>
+				<KfaUsedForTypeIcon>Usado para este tipo de arquivo de ícone</KfaUsedForTypeIcon>
+				<UnregisterApp>Aplicativos excluídos</UnregisterApp>
+			</PreviewTree>
+		</UninstallWizard>
+		<UpdateInfo>
+			<CommandButtons>
+				<Cancel_Caption>Fechar</Cancel_Caption>
+				<DownloadPatch_Caption>Atualizar meu LiberKey</DownloadPatch_Caption>
+				<OpenCatalog_Caption>Abrir o catálogo de aplicativos portáteis</OpenCatalog_Caption>
+				<UpdateApps_Caption>Atualizar os aplicativos do meu LiberKey</UpdateApps_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppsUpdateFound>Atualizações estão disponíveis para seus aplicativos.</AppsUpdateFound>
+				<AppsUpdateNotFound>Não há atualizações disponíveis para seus aplicativos.</AppsUpdateNotFound>
+				<NewAppsCount>Aplicativos adicionais disponíveis: %count%</NewAppsCount>
+				<NewAppsFound>Aplicativos adicionais estão disponíveis para seu LiberKey no catálogo online.</NewAppsFound>
+				<NewAppsNotFound>Não foram encontrados aplicativos adicionais para seu LiberKey no catálogo online</NewAppsNotFound>
+				<NoNewApp>Você já tem tudo!</NoNewApp>
+				<PlatformUpdateFound>Uma atualização está disponível para seu LiberKey</PlatformUpdateFound>
+				<PlatformUpdateNotFound>Não foi encontrada atualização para a Plataforma LiberKey</PlatformUpdateNotFound>
+				<Title_Caption>Atualizações disponíveis</Title_Caption>
+				<UpdatesCount>Atualizações disponíveis: %count%</UpdatesCount>
+			</Labels>
+		</UpdateInfo>
+		<Contributors>
+			<Contributor name="Rafael Silva" email="mckusck@hotmail.com" website="www.twitter.com/mckusck"/>
+		</Contributors>
+	</pt-BR>
+</Languages>

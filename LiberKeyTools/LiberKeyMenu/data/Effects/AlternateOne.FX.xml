@@ -1,0 +1,79 @@
+<Effects name="Alternate One">
+	<Menus>
+		<MenuAppear effect="Fade" duration="180" ease="Out" func="Expo"/>
+		<MenuClose effect="Fade" duration="180" ease="In" func="Sine"/>
+		<MiniMenuSwap effect="Fade" duration="200" ease="InOut" func="Sine"/>
+		<SubMenuAppear effect="Fade" duration="140" ease="Out" func="Expo"/>
+		<MenuSwap effect="Fade" duration="220" ease="InOut" func="Sine"/>
+		<SubMenuSwap effect="Fade" duration="150" ease="InOut" func="Sine"/>
+		<LockedMenuClose effect="Fade" duration="150" ease="In" func="Sine"/>
+	</Menus>
+	<Dialogs>
+		<Main>
+			<Appear effect="Faded" duration="400" ease="Out" func="Exp"/>
+			<Close effect="Faded" duration="400" ease="In" func="Exp"/>
+			<Tabs effect="Faded" duration="380" ease="InOut" func="Sine" reverse="yes"/>
+			<ListView>
+				<Open duration="450" ease="InOut" func="Exp"/>
+				<GoBack duration="450" ease="InOut" func="Exp"/>
+			</ListView>
+			<Search effect="Zoom" duration="500" ease="InOut" func="Sine"/>
+			<VueSwap effect="RotateVertical" duration="400" ease="InOut" func="Exp"/>
+			<Tree>
+				<Collapse duration="300" ease="Out" func="Exp" param="6"/>
+				<Expand duration="300" ease="Out" func="Exp"/>
+			</Tree>
+			<QuickLaunch>
+				<Open duration="450" ease="InOut" func="Sine"/>
+				<GoBack duration="450" ease="InOut" func="Sine"/>
+			</QuickLaunch>
+		</Main>
+		<Config>
+			<Appear effect="Fade" duration="300" ease="Out" func="Expo"/>
+			<MainVue effect="Fade" duration="350" ease="InOut" func="Quad"/>
+			<Close effect="Fade" duration="300" ease="In" func="Sine"/>
+			<VersionTree>
+				<Expand duration="300" ease="Out" func="Sine"/>
+				<Collapse duration="300" ease="Out" func="Pow" param="6"/>
+			</VersionTree>
+		</Config>
+		<UpdateInfo>
+			<Appear effect="Fade" duration="300" ease="Out" func="Expo"/>
+			<Close effect="Fade" duration="300" ease="In" func="Sine"/>
+		</UpdateInfo>
+		<MenuProperties>
+			<Appear effect="Fade" duration="300" ease="Out" func="Expo"/>
+			<Close effect="Fade" duration="300" ease="In" func="Sine"/>
+		</MenuProperties>
+		<OnlineCatalog>
+			<Appear effect="Fade" duration="300" ease="Out" func="Expo"/>
+			<Close effect="Fade" duration="300" ease="In" func="Sine"/>
+		</OnlineCatalog>
+		<AppList>
+			<Appear effect="Fade" duration="300" ease="Out" func="Expo"/>
+			<Close effect="Fade" duration="300" ease="In" func="Sine"/>
+		</AppList>
+		<AppProperties>
+			<Appear effect="Fade" duration="300" ease="Out" func="Expo"/>
+			<Close effect="Fade" duration="300" ease="In" func="Sine"/>
+		</AppProperties>
+		<SetupWizard>
+			<Appear effect="Fade" duration="300" ease="Out" func="Expo"/>
+			<Close effect="Fade" duration="300" ease="In" func="Sine"/>
+		</SetupWizard>
+		<UninstallWizard>
+			<Appear effect="Fade" duration="300" ease="Out" func="Expo"/>
+			<Close effect="Fade" duration="300" ease="In" func="Sine"/>
+		</UninstallWizard>
+	</Dialogs>
+	<ToolTip delay="750">
+		<Appear duration="600" ease="Out" func="Expo"/>
+		<Move duration="400" ease="InOut" func="Expo"/>
+		<Close duration="400" ease="Out" func="Expo"/>
+	</ToolTip>
+	<InfoBox>
+		<Appear duration="500" ease="InOut" func="Circ"/>
+		<Close duration="250" ease="InOut" func="Circ"/>
+		<Open duration="250" ease="InOut" func="Circ"/>
+	</InfoBox>
+</Effects>

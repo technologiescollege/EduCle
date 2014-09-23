@@ -1,0 +1,13 @@
+<Languages version="0.2">
+	<da-DK en_name="Danish" icon="dk.png" date="2011-02-07" version="0.1" name="Dansk">
+		<Messages>
+			<NoDesktopIconFound>Der blev ikke fundet nogen genvej på &quot;Skrivebordet&quot;</NoDesktopIconFound>
+			<ConfirmEraseMany>Slet de %count% gemte genveje?</ConfirmEraseMany>
+			<ConfirmEraseOne>Slet den gemte genvej?</ConfirmEraseOne>
+			<NoQuickLaunchIconFound>Der blev ikke fundet nogen genvej på værktøjslinjen &quot;Hurtig start&quot;</NoQuickLaunchIconFound>
+		</Messages>
+		<Contributors>
+			<Contributor name="Peter Bech-Lutzka" email="peterbechlutzka@gmail.com" website="www.bech-lutzka.com"/>
+		</Contributors>
+	</da-DK>
+</Languages>
