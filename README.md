@@ -14,5 +14,8 @@ télécharger le fichier d'installation sur le site officiel ;
 exécuter le pour qu'il se décompresse sur votre disque dur et/ou clé USB ;
 vous pouvez y créer un compte si vous voulez synchroniser plus facilement votre application avec ce qui est affiché sur le site officiel ;
 une fois installé, dans les "Outils Liberkey" faîtes la mise à jour de la plateforme Liberkey ;
-ne pas installer de suite (il vous propose encore), ça viendra ;
+ne pas installer tout de suite (il vous propose encore), ça viendra ;
+installer la synchro avec notre site d'aaplications en suivant la démarche de cete page : [http://www.pedagogie.ac-nantes.fr/1377981980636/0/fiche___article/&RH=1160222729156](http://www.pedagogie.ac-nantes.fr/1377981980636/0/fiche___article/&RH=1160222729156)
+maintenant on s'occupe de MyApps en téléchargeant le ZIP de cet espace Github par "Download ZIP" sur la droite ;
+le décompresser et écraser les parties la Lib
 
