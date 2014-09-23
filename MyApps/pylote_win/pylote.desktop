@@ -1,0 +1,19 @@
+[Desktop Entry]
+Comment[fr]=
+Comment=
+Exec=/home/pascal/Documents/Programmation/pylote/pylote/pylote.pyw
+GenericName[fr]=
+GenericName=
+Icon=/home/pascal/Documents/Programmation/pylote/pylote/images/icon.png
+MimeType=
+Name[fr]=pylote
+Name=pylote
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

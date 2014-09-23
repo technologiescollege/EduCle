@@ -1,0 +1,91 @@
+% pylote
+
+To draw on the screen and to handle the instruments of geometry there.
+
+Presentation:
+============
+
+**pylote** is a software making it possible to draw on the screen of the computer, like handling various instruments of geometry.
+
+It is a software **multiplateforme**, **free** (license GNU GPL), made in **Python** (computer programming language) and **PyQt4** for the graphical interface.
+
+
+### An image:
+
+![alt text](images/interface.jpeg "Title")
+
+### Principle:
+
+The software functions on a screenshot of the computer.
+
+On this image, one can draw, write and handle instruments of geometry.
+
+One can also charge various backgrounds.
+
+And many other things…
+
+
+### The toolbox:
+
+![alt text](images/boite_outils.jpeg "Title")
+
+### Use of the instruments:
+
+One moves them with the left mouse button.
+
+The right button makes it possible to rotate them.
+
+The middle button (serrated roller used as button) makes it possible to scale them.
+
+**Whiteboard Mode:** by the toolbox, one can modify the behavior of the left mouse button, which allows a use with a mouse only one button (a stylet with infra-red for example).
+All the tools are thus accessible.
+
+
+### To do :
+
+* a complete and clear help file
+ 
+* a translation of this page, comments of the code and help file (that which is not made yet) in English, because it is necessary to internationalize a software.
+
+
+
+
+
+
+
+### Installation:
+
+#### For Linux:
+
+Python is inevitably already installed. If PyQt4 is not it, it is available in your distribution (for Ubuntu, it is the package “python-qt4”).
+
+#### For Windows:
+
+* **First solution:**
+
+> Sylvain Bignon ([http://cdpmaths.free.fr->http://cdpmaths.free.fr]) which helped me much to improve this program compiles a version installable for Windows. You will find it here:
+> [http://cdpmaths.free.fr/pylote/->http://cdpmaths.free.fr/pylote/]
+
+* **Second solution:**
+
+> You will have to initially install [Python](http://www.python.org/download/) by choosing "Python 2.6.1 Windows installer" (or more recent).
+
+> then [PyQt4](http://www.riverbankcomputing.co.uk/software/pyqt/download) by choosing "PyQt-Py2.6-gpl-4.4.4-2.exe" (or more recent) in the "Binary Packages".
+
+
+#### For Mac:
+
+> It is necessary to install since the same pages as indicated for Windows, and that would interest me to have returns.
+
+#### And then for all:
+
+> It is necessary to decompress the file then to below launch the file “pylote.pyw”.
+
+> It is python, therefore is while clicking above if the files py and pyw are associated with python, that is to say in console:
+
+> > python pylote.pyw
+
+
+
+
+

@@ -1,0 +1,120 @@
+
+
+
+######################################
+mise à jour de la traduction :
+######################################
+cd /home/pascal/Documents/Programmation/pylote/pylote
+pylupdate4 pylote.pro
+
+ouverture et modifs des fichiers ./translations/*.ts avec Qt Linguist,
+puis "File > Release" pour générer les fichiers ./translations/*.qm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cd /home/pascal/Documents/Programmation/jemesouviens/translations
+ts2po --pot JeMeSouviens.ts JeMeSouviens.pot
+ts2po JeMeSouviens_fr.ts JeMeSouviens_fr.po
+
+######################################
+arranger les en-têtes :
+######################################
+
+######################################
+en-tête de JeMeSouviens_fr.po :
+######################################
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: JeMeSouviens 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-02-28 12:19+0200\n"
+"PO-Revision-Date: 2008-02-28 12:25+0100\n"
+"Last-Translator: Pascal Peter <pascal.peter@free.fr>\n"
+"Language-Team: French <pascal.peter@free.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.0.1\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+######################################
+en-tête de JeMeSouviens.pot :
+######################################
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-05-03 17:24-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+
+
+#############################
+vérification des fichiers :
+#############################
+
+msgfmt -c JeMeSouviens.pot
+msgfmt -c JeMeSouviens_fr.po
+
+
+
+#############################
+dans l'autre sens (récupérés de Launchpad) :
+#############################
+Il y a un bug si les chaînes sont vides (passages à la ligne qui foirent).
+Faire ceci :
+
+Ouvrir les fichiers pavages-xx.po avec Kate, et remplacer les "" par "123456789".
+po2ts pavages-xx.po pavages_xx.ts
+Ouvrir les fichiers pavages-xx.ts avec Kate, et remplacer les "123456789" par "".
+Vérifier que "LanguageName" a bien été traduit, sinon le faire.
+Ouvrir les fichiers pavages-xx.ts avec Qt Linguist, puis "File > Release" pour générer les fichiers ./translations/*.qm
+
+
+
+
+
+
+
+#############################
+Pb + TODO repérés :
+#############################
+
+
+
+
+
+
+
+
+

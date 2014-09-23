@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pdfsam config-version="2">
+  <settings>
+    <laf current-laf="5" current-theme="14"/>
+    <thumbpoolsize value="3"/>
+    <loglevel value="10000"/>
+    <i18n value="en_GB"/>
+    <default_working_path value=""/>
+    <thumbnails_creator class="org.pdfsam.guiclient.business.thumbnails.creators.JPodThumbnailCreator"/>
+    <default_environment value=""/>
+    <plugs_absolute_path value=""/>
+    <checkupdates value="true"/>
+    <playsounds value="true"/>
+    <overwrite_confirmation value="false"/>
+    <high_quality_thumbs value="true"/>
+    <thumbnails_size value="270"/>    
+  </settings>
+</pdfsam>

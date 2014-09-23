@@ -1,0 +1,13 @@
+     =========================
+       JE TIENS À REMERCIER :
+     =========================
+
+ ---------------------------------------------------------------------------
+ - Sylvain Bignon      http://cdpmaths.free.fr
+
+    qui m'a beaucoup aidé à  améliorer ce programme via le forum Ubuntu-fr
+    a réalisé plusieurs images utilisées par pylote
+    est l'auteur d'une bonne partie des fonds d'écran
+    compile la version installable pour windows
+ ---------------------------------------------------------------------------
+ 
