@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" 
+        xmlns:ub="http://uniboard.mnemis.com/widgets" 
+        id="{9d032193-7421-493e-ac86-f06352aa0a9c}.swf" 
+        version="1.0"
+        width="1024"
+        height="768" 
+        ub:resizable="true" >   
+  <name>{9d032193-7421-493e-ac86-f06352aa0a9c}</name>
+  <content src="index.htm"/> 
+  <access network="true"/>
+</widget>
