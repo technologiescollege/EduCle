@@ -1,0 +1,21 @@
+﻿Contrat de licence
+================================================
+MERCI DE LIRE ATTENTIVEMENT CE CONTRAT DE LICENCE UTILISATEUR FINAL («CLUF») AVANT D'UTILISER CE LOGICIEL. EN UTILISANT CE LOGICIEL, VOUS ACCEPTEZ D'ETRE LIE PAR LES TERMES DE CETTE LICENCE. SI VOUS N'AVEZ PAS ACCEPTE CES CONDITONS, CESSEZ IMMEDIATEMENT TOUTE INSTALLATION OU UTILISATION DE CE LOGICIEL.
+
+1 - DROITS DE PROPRIÉTÉ
+Ce produit logiciel est protégé par les lois et traités internationaux de copyright. Tous les droits qui ne sont pas actuellement reconnus dans le présent contrat de licence sont réservés exclusivement à Captel. Le présent accord ne vous confère aucun droit aux brevets, copyrights, secrets commerciaux, les noms commerciaux, marques ou tous autres droits, fonctions ou des licences à l'égard du logiciel.
+
+2 - LICENCE
+LiberKey est un Freeware (logiciel gratuit). Le terme Liberkey regroupe un ensemble de logiciels développés par la société Captel. Vous êtes libre d'utiliser et de distribuer ce programme en respectant les recommandations du chapitre "3 - DISTRIBUTION - DEPLOIEMENT".
+
+3 - DISTRIBUTION - DEPLOIEMENT
+La LiberKey peut être distribuée conformément aux conditions suivantes:
+- Le fichier d’installation LiberKey peut être proposé en téléchargement sur d'autres sites internet sous la condition expresse qu’il reste inchangé (identique à celui disponible sur le site www.LiberKey.com)
+- Toutes les autres formes de distribution et de déploiement nécessitent l’accord préalable de la société Captel (contact@liberkey.com)
+- Il est strictement interdit de vendre ou de demander une contribution pour la LiberKey sans l’accord préalable de la société Captel.
+
+4 - RESPONSABILITÉ
+Nous essayons de maintenir notre logiciel sans aucun bogue. Mais c'est une règle générale selon laquelle aucun logiciel n'est jamais exempt d'erreurs, et le nombre d'erreurs augmente avec la complexité du programme. Ainsi, Captel ne peut être tenu responsable des dommages de toute nature, directs ou indirects, résultant de l'utilisation de la LiberKey.
+
+5 - ABROGATION
+Cette licence prendra fin immédiatement, automatiquement et sans préavis si le Licencié ne se conforme pas aux dispositions du présent Accord.

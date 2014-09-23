@@ -1,0 +1,17 @@
+﻿                          LiberKey
+		
+LiberKey est une plate-forme d'applications portables avec des fonctions évoluées comme:
+- Menu pour lancer et gérer facilement vos applications
+- Module de mise à jour intégré (mise à jour de la plate-forme et des applications)
+- La technologie LiberKey Portabilizer (le moteur qui gère la portabilité de toutes les applications)
+- La gestion des associations de fichiers avec KeyFileAssoc
+et bien plus encore...
+
+Vous pouvez ajouter facilement de nombreuses applications sur votre LiberKey simplement et directement à partir du Catalogue LiberKey (accessible depuis le menu LiberKey). Plus de 300 applications sont déjà disponibles!
+
+Pour plus d'information, rendez-vous sur :
+http://www.LiberKey.com
+
+La LiberKey est compatible Windows XP/Vista/7
+
+Cette version Educ a été réalisée par Sébastien Canet, accord avec les créateurs de la Liberkey qui m'a généreusement mis à disposition une plate forme pro afin de synchroniser nos clés avec une suite "TechnoNantes" : http://ac-nantes.pro.liberkey.com/
