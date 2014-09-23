@@ -9,7 +9,9 @@ Le site officiel de la Liberkey : [http://www.liberkey.com/fr.html](http://www.l
 Dans la démarche, nous utilisons cette clé en fournissant notre compilation sélectionnée aux élèves sur leur clé USB mais cette compilation est aussi cele déposée sur les ordinateurs des salles afin qu'il y ait une continuité de pratique entre le temps de classe, le temps hors-classe et le temps chez soi.
 
 ## La démarche :
-_0. ne tenez pas compte des pop-ups vers le site officiel si vous en avez 1 ou 2, ni de l'installation de 'suites' ;_
+_ne tenez pas compte des pop-ups vers le site officiel si vous en avez une ou deux qui s'ouvrent vers leur site, ni de l'installation de 'suites' ;_
+
+
 1. télécharger le fichier d'installation sur le site officiel ;
 2. exécuter le pour qu'il se décompresse sur votre disque dur et/ou clé USB ;
 3. vous pouvez y créer un compte si vous voulez synchroniser plus facilement votre application avec ce qui est affiché sur le site officiel ;
