@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appplugin>
+  <application>
+    <name>spybotsd</name>
+    <guid>B4092C6D-E886-4CB2-BA68-FE5A88D31DE6</guid>
+    <displayname>Spybot - Search &amp; Destroy</displayname>
+    <purpose>Malware detection and removal.</purpose>
+    <dependencies>
+      <dependency>dummy</dependency>
+    </dependencies>
+  </application>
+  <files>
+    <required>advcheck.dll</required>
+    <optional>aports.dll</optional>
+    <required>blindman.exe</required>
+    <optional>Default configuration.ini</optional>
+    <required>DelZip179.dll</required>
+    <optional>DelZip190.dll</optional>
+    <required>messages.zres</required>
+    <optional>OptOut.ini</optional>
+    <optional group="Resident">SDHelper.dll</optional>
+    <optional group="Resident">SDMain.exe</optional>
+    <optional menuitem="Secure Shredder" group="Shredder">SDShred.exe</optional>
+    <required menuitem="Spybot-S&amp;D Update">SDUpdate.exe</required>
+    <optional group="Resident">SDWinSec.exe</optional>
+    <required menuitem="Spybot-S&amp;D">SpybotSD.exe</required>
+    <optional group="Resident">TeaTimer.exe</optional>
+    <required>tools.dll</required>
+    <required>sqlite3.dll</required>
+    <required>Update.exe</required>
+    <required>Dummies\*.*</required>
+    <optional>Help\*.chm</optional>
+    <optional>Help\*.txt</optional>
+    <required>Includes\*.sbi</required>
+    <required>Includes\*.uti</required>
+    <required>Includes\*.sbs</required>
+    <optional>Includes\*.nfo</optional>
+    <optional>Includes\*.tnfo</optional>
+    <required>Languages\*.sbl</required>
+    <optional>Plugins\*.dll</optional>
+    <optional>Skins\*.ini</optional>
+    <optional>Skins\*.jpg</optional>
+  </files>
+  <filegroups>
+     <filegroup id="Shredder">Secure Shredder as an external application.</filegroup>
+     <filegroup id="Resident">Files for resident protection, useless on PE.</filegroup>
+  </filegroups>
+  <registry>
+    <value method="copy">HKEY_CURRENT_USER\Software\Safer Networking Limited\SpybotSnD\Language</value>
+    <value method="set" type="REG_SZ" data="[$DESTDIR]">HKEY_CURRENT_USER\Software\Safer Networking Limited\SpybotSnD\Path</value>
+  </registry>
+  <menu>
+     <group>Security</group>
+  </menu>
+  <detectors>
+    <detector type="regpath">HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{B4092C6D-E886-4CB2-BA68-FE5A88D31DE6}_is1\InstallLocation</detector>
+    <detector type="regpathbyfile">HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{B4092C6D-E886-4CB2-BA68-FE5A88D31DE6}_is1\DisplayIcon</detector>
+    <detector type="filesys">[$PROGRAMFILES]\Spybot - Search &amp; Destroy\</detector>
+  </detectors>
+</appplugin>

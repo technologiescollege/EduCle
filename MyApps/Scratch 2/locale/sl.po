@@ -1,0 +1,1765 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-05-02 00:56+0200\n"
+"PO-Revision-Date: 2013-04-28 00:35+0200\n"
+"Last-Translator: Ziga <ziga@deisinger.si>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3);\n"
+"X-Generator: Pootle 2.1.6\n"
+
+# The language name as it will appear in the language menu
+msgid "Language-Name"
+msgstr "Slovenščina"
+
+msgid "%b and %b"
+msgstr "%b in %b"
+
+msgid "%b or %b"
+msgstr "%b ali %b"
+
+msgid "%m.attribute of %m.spriteOrStage"
+msgstr "%m.attribute od %m.spriteOrStage"
+
+msgid "%m.list contains %s"
+msgstr "%m.list vsebuje %s"
+
+msgid "%m.mathOp of %n"
+msgstr "%m.mathOp od %n"
+
+msgid "%m.sensor sensor value"
+msgstr "vrednost tipala %m.sensor"
+
+msgid "%n mod %n"
+msgstr "ostanek %n z %n"
+
+msgid "add %s to %m.list"
+msgstr "dodaj %s v %m.list"
+
+msgid "answer"
+msgstr "odgovor"
+
+msgid "ask %s and wait"
+msgstr "vprašaj %s in počakaj"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop #"
+msgstr "ozadje #"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop name"
+msgstr "Ime ozadja"
+
+msgid "broadcast %m.broadcast"
+msgstr "objavi %m.broadcast"
+
+msgid "broadcast %m.broadcast and wait"
+msgstr "objavi %m.broadcast in počakaj"
+
+msgid "change %m.effect effect by %n"
+msgstr "spremeni učinek %m.effect za %n"
+
+msgid "change %m.var by %n"
+msgstr "spremeni %m.var za %n"
+
+msgid "change pen color by %n"
+msgstr "spremeni barvo svinčnika v %n"
+
+msgid "change pen shade by %n"
+msgstr "spremeni senco svinčnika v %n"
+
+msgid "change pen size by %n"
+msgstr "spremeni velikost svinčnika na %n"
+
+msgid "change size by %n"
+msgstr "spremeni velikost na %n"
+
+msgid "change tempo by %n"
+msgstr "spremeni tempo za %n"
+
+msgid "change volume by %n"
+msgstr "spremeni nivo zvoka za %n"
+
+msgid "change x by %n"
+msgstr "spremeni x za %n"
+
+msgid "change y by %n"
+msgstr "spremeni y za %n"
+
+msgid "clear"
+msgstr "izbriši"
+
+msgid "clear graphic effects"
+msgstr "izbriši slikovne učinke"
+
+msgid "color %c is touching %c?"
+msgstr "barva %c se dotika %c?"
+
+msgid "Control"
+msgstr "krmiljenje"
+
+msgid "costume #"
+msgstr "videz #"
+
+msgid "create clone of %m.spriteOnly"
+msgstr "naredi klon %m.spriteOnly"
+
+msgid "current %m.timeAndDate"
+msgstr "trenutni %m.timeAndDate"
+
+msgid "Data"
+msgstr "Podatki"
+
+msgid "days since 2000"
+msgstr "Dnevi od leta 2000"
+
+msgid "define"
+msgstr "definiraj"
+
+msgid "delete %d.listDeleteItem of %m.list"
+msgstr "odstrani %d.listDeleteItem iz %m.list"
+
+msgid "delete this clone"
+msgstr "zbriši ta klon"
+
+msgid "direction"
+msgstr "smer"
+
+msgid "distance"
+msgstr "razdalja"
+
+msgid "distance to %m.spriteOrMouse"
+msgstr "razdalja do %m.spriteOrMouse"
+
+msgid "else"
+msgstr "sicer"
+
+msgid "Events"
+msgstr "Dogodki"
+
+msgid "forever"
+msgstr "ponavljaj"
+
+msgid "glide %n secs to x:%n y:%n"
+msgstr "drsi %n sekund do x:%n y:%n"
+
+msgid "go back %n layers"
+msgstr "postavi za %n plasti nazaj"
+
+msgid "go to %m.spriteOrMouse"
+msgstr "pojdi na mesto %m.spriteOrMouse"
+
+msgid "go to front"
+msgstr "postavi v ospredje"
+
+msgid "go to x:%n y:%n"
+msgstr "pojdi na x:%n y:%n"
+
+msgid "hide"
+msgstr "skrij"
+
+msgid "hide list %m.list"
+msgstr "skrij list %m.list"
+
+msgid "hide variable %m.var"
+msgstr "skrij %m.var"
+
+msgid "if %b then"
+msgstr "če je %b potem"
+
+msgid "if on edge, bounce"
+msgstr "odbij se, če si na robu"
+
+msgid "insert %s at %d.listItem of %m.list"
+msgstr "vstavi %s pri %d.listItem v %m.list"
+
+msgid "item %d.listItem of %m.list"
+msgstr "%d.listItem -ti člen iz %m.list"
+
+msgid "join %s %s"
+msgstr "stakni %s %s"
+
+msgid "key %m.key pressed?"
+msgstr "ali je tipka %m.key pritisnjena?"
+
+msgid "length of %m.list"
+msgstr "dolžina %m.list"
+
+msgid "length of %s"
+msgstr "dolžina %s"
+
+msgid "letter %n of %s"
+msgstr "%n -ta črka v %s"
+
+msgid "Looks"
+msgstr "izgled"
+
+msgid "loudness"
+msgstr "glasnost"
+
+msgid "More Blocks"
+msgstr "Več kock"
+
+msgid "Motion"
+msgstr "premikanje"
+
+msgid "mouse down?"
+msgstr "miška pritisnjena?"
+
+msgid "mouse x"
+msgstr "miška x"
+
+msgid "mouse y"
+msgstr "miška y"
+
+msgid "move %n steps"
+msgstr "pojdi %n korakov"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "next backdrop"
+msgstr "naslednje ozadje"
+
+msgid "next costume"
+msgstr "naslednji videz"
+
+msgid "not %b"
+msgstr "ne %b"
+
+msgid "Operators"
+msgstr "operacije"
+
+msgid "Pen"
+msgstr "svinčnik"
+
+msgid "pen down"
+msgstr "spusti svinčnik"
+
+msgid "pen up"
+msgstr "dvigni svinčnik"
+
+msgid "pick random %n to %n"
+msgstr "izberi naključno med %n in %n"
+
+msgid "play drum %d.drum for %n beats"
+msgstr "po %d.drum %n udarcev "
+
+# 83%
+msgid "play note %d.note for %n beats"
+msgstr "zaigraj noto %d.note  %n udarcev"
+
+msgid "play sound %m.sound"
+msgstr "predvajaj zvok %m.sound"
+
+msgid "play sound %m.sound until done"
+msgstr "predvajaj zvok %m.sound do konca"
+
+msgid "point in direction %d.direction"
+msgstr "obrni se v smer %d.direction"
+
+msgid "point towards %m.spriteOrMouse"
+msgstr "obrni se proti %m.spriteOrMouse"
+
+msgid "repeat %n"
+msgstr "ponovi %n"
+
+msgid "repeat until %b"
+msgstr "ponovljaj dokler %b"
+
+msgid "replace item %d.listItem of %m.list with %s"
+msgstr "zamenjaj %d.listItem -ti člen v %m.list z %s"
+
+msgid "reset timer"
+msgstr "ponastavi štoparico"
+
+msgid "rest for %n beats"
+msgstr "počivaj %n udarcev"
+
+msgid "round %n"
+msgstr "zaokroži %n"
+
+msgid "say %s"
+msgstr "povej %s"
+
+msgid "say %s for %n secs"
+msgstr "povej %s za %n sekund"
+
+msgid "Sensing"
+msgstr "zaznavanje"
+
+msgid "sensor %m.booleanSensor?"
+msgstr "tipalo %m.booleanSensor?"
+
+msgid "set %m.effect effect to %n"
+msgstr "postavi učinek %m.effect na %n"
+
+msgid "set %m.var to %s"
+msgstr "postavi %m.var na %n"
+
+msgid "set instrument to %d.instrument"
+msgstr "postavi glasbilo na %d.instrument"
+
+# 89%
+msgid "set motor direction %m.motorDirection"
+msgstr "smer motorja %m.motorDirection"
+
+# 77%
+msgid "set motor power %n"
+msgstr "moč motorja %n"
+
+msgid "set pen color to %c"
+msgstr "postavi barvo svinčnika na %c"
+
+msgid "set pen color to %n"
+msgstr "postavi barvo svinčnika na %c"
+
+msgid "set pen shade to %n"
+msgstr "postavi senco svinčnika na %n"
+
+msgid "set pen size to %n"
+msgstr "postavi velikost svinčnika na %n"
+
+msgid "set rotation style %m.rotationStyle"
+msgstr "nastavi smer %m.rotationStyle"
+
+msgid "set size to %n%"
+msgstr "postavi velikost na %n%"
+
+msgid "set tempo to %n bpm"
+msgstr "postavi tempo na %n udarcev na minuto"
+
+msgid "set video transparency to %n%"
+msgstr "Nastavi svetlost videa na %n%"
+
+msgid "set volume to %n%"
+msgstr "postavi glasnost na %n%"
+
+msgid "set x to %n"
+msgstr "postavi x na %n"
+
+msgid "set y to %n"
+msgstr "postavi y na %n"
+
+msgid "show"
+msgstr "pokaži"
+
+msgid "show list %m.list"
+msgstr "pokaži list %m.list"
+
+msgid "show variable %m.var"
+msgstr "pokaži %m.var"
+
+msgid "size"
+msgstr "velikost"
+
+msgid "Sound"
+msgstr "zvok"
+
+msgid "stamp"
+msgstr "žig"
+
+msgid "stop %m.stop"
+msgstr "stop %m.stop"
+
+msgid "stop all sounds"
+msgstr "prekini vse zvoke"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop"
+msgstr "zamenjaj ozadje na %m.backdrop"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop and wait"
+msgstr "spremeni ozadje na %m.backdrop in počakaj"
+
+msgid "switch costume to %m.costume"
+msgstr "zamenjaj kostum na %m.costume"
+
+msgid "tempo"
+msgstr "tempo"
+
+msgid "think %s"
+msgstr "pomisli %s"
+
+msgid "think %s for %n secs"
+msgstr "pomisli %s za %n sekund"
+
+msgid "tilt"
+msgstr "naklon"
+
+msgid "timer"
+msgstr "štoparica"
+
+msgid "touching %m.touching?"
+msgstr "se dotika %m.touching?"
+
+msgid "touching color %c?"
+msgstr "se dotika barve %c?"
+
+msgid "turn @turnLeft %n degrees"
+msgstr "obrni se za @turnLeft %n stopinj"
+
+msgid "turn @turnRight %n degrees"
+msgstr "obrni se za @turnLeft %n stopinj"
+
+msgid "turn motor off"
+msgstr "ugasni motor"
+
+msgid "turn motor on"
+msgstr "prižgi motor"
+
+# 80%
+msgid "turn motor on for %n secs"
+msgstr "vključi motor za %n sekund"
+
+msgid "turn video %m.videoState"
+msgstr "prižgi video %m.videoState"
+
+# 88%
+#, fuzzy
+msgid "username"
+msgstr "ime uporabnika"
+
+msgid "video %m.videoMotionType on %m.stageOrThis"
+msgstr "video %m.videoMotionType on %m.stageOrThis"
+
+msgid "volume"
+msgstr "glasnost"
+
+msgid "wait %n secs"
+msgstr "počakaj %n sekund"
+
+msgid "wait until %b"
+msgstr "počakaj dokler %b"
+
+# 75%
+msgid "when %m.booleanSensor"
+msgstr "ko %m.booleanSensor?"
+
+msgid "when %m.key key pressed"
+msgstr "ko je pritisnjena tipka %m.key"
+
+msgid "when %m.triggerSensor > %n"
+msgstr "ko %m.triggerSensor > %n"
+
+msgid "when @greenFlag clicked"
+msgstr "ko je kliknjena @greenFlag"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "when backdrop switches to %m.backdrop"
+msgstr "ko je ozadje na %m.backdrop"
+
+msgid "when distance < %n"
+msgstr "ko je razdalja  < %n"
+
+msgid "when I receive %m.broadcast"
+msgstr "ko prejmem %m.broadcast"
+
+msgid "when I start as a clone"
+msgstr "ko štartam kot klon"
+
+msgid "when this sprite clicked"
+msgstr "ko je ta sprite kliknjen"
+
+msgid "when tilt = %n"
+msgstr "ko je naklon %n"
+
+msgid "x position"
+msgstr "mesto x"
+
+msgid "y position"
+msgstr "mesto y"
+
+#~ msgid "user name"
+#~ msgstr "ime uporabnika"
+
+#~ msgid "forever if %b"
+#~ msgstr "ponavljaj, če %b"
+
+#~ msgid "if %b"
+#~ msgstr "če %b"
+
+#~ msgid "motor direction %m.motorDirection"
+#~ msgstr "smer motorja %m.motorDirection"
+
+#~ msgid "motor off"
+#~ msgstr "izključi motor"
+
+#~ msgid "motor on"
+#~ msgstr "vključi motor"
+
+#~ msgid "motor on for %n secs"
+#~ msgstr "vključi motor za %n sekund"
+
+#~ msgid "motor power %n"
+#~ msgstr "moč motorja %n"
+
+#~ msgid "play note %n for %n beats"
+#~ msgstr "zaigraj noto %d.note  %n udarcev"
+
+##################
+# User Interface #
+##################
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-19 20:55+0200\n"
+"PO-Revision-Date: 2013-04-28 00:18+0200\n"
+"Last-Translator: Ziga <ziga@deisinger.si>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3);\n"
+"X-Generator: Pootle 2.1.6\n"
+
+msgid "10 ^"
+msgstr "10 ^"
+
+msgid "<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only numbers are supported<br>Chat rooms are not allowed, and will be removed<br>For more info, <a href="/help/faq/#clouddata" target="_blank">see the cloud data FAQ!</a>"
+msgstr ""
+
+msgid "A connected"
+msgstr "A se je pridružil"
+
+msgid "a copy of the project file on your computer."
+msgstr ""
+
+msgid "abs"
+msgstr "abs"
+
+msgid "Account settings"
+msgstr "Nastavitve računa"
+
+msgid "acos"
+msgstr "acos"
+
+msgid "Add boolean input:"
+msgstr ""
+
+msgid "add comment"
+msgstr "dodaj komentar"
+
+msgid "Add label text:"
+msgstr ""
+
+msgid "Add number input:"
+msgstr "Dodaj število:"
+
+msgid "Add string input:"
+msgstr ""
+
+msgid "All"
+msgstr "Vse"
+
+msgid "all"
+msgstr "vse"
+
+msgid "all around"
+msgstr "vse okoli"
+
+msgid "Animal"
+msgstr "Žival"
+
+msgid "Animals"
+msgstr "Živali"
+
+msgid "asin"
+msgstr ""
+
+msgid "assets loaded"
+msgstr ""
+
+msgid "atan"
+msgstr ""
+
+msgid "B connected"
+msgstr "B se je pridružil"
+
+msgid "Back a layer"
+msgstr ""
+
+msgid "Backdrop"
+msgstr "Ozadje"
+
+msgid "backdrop"
+msgstr "ozadje"
+
+msgid "backdrop #"
+msgstr "Ozadje številka #"
+
+msgid "Backdrop Library"
+msgstr "Knjižnica ozadij"
+
+msgid "backdrop name"
+msgstr "Ime ozadja"
+
+msgid "backdrop1"
+msgstr "Ozadje1"
+
+msgid "backdrops"
+msgstr "Ozadja"
+
+msgid "Backdrops"
+msgstr "Ozadja"
+
+msgid "Backpack"
+msgstr "Nahrbtnik"
+
+msgid "Bass"
+msgstr "Bas"
+
+msgid "Bass Drum"
+msgstr "Bobni bas"
+
+msgid "Bassoon"
+msgstr "Fagot"
+
+msgid "Because you have a new Scratch account, any changes to cloud data won't be saved yet. Keep participating on the site you'll be able to use cloud data soon!"
+msgstr ""
+
+msgid "Bitmap"
+msgstr "Bitmap"
+
+msgid "Bitmap Mode"
+msgstr "Bitmap Način"
+
+msgid "Block help"
+msgstr "Pomoč"
+
+msgid "Bongo"
+msgstr "Bongo"
+
+msgid "brightness"
+msgstr "svetlost"
+
+msgid "Bring to front"
+msgstr "Pošlji naprej"
+
+msgid "Broadcast"
+msgstr "Povej"
+
+msgid "Brush"
+msgstr "Krtača"
+
+msgid "button pressed"
+msgstr "gumb je pritisnjen"
+
+msgid "by"
+msgstr "od"
+
+msgid "bytes loaded"
+msgstr "naloženih bitov"
+
+msgid "C connected"
+msgstr "C se je pridružil"
+
+msgid "Cabasa"
+msgstr "Ropotulja (cabasa)"
+
+msgid "Camera"
+msgstr "Kamera"
+
+msgid "can drag in player:"
+msgstr ""
+
+msgid "Cancel"
+msgstr "Prekliči"
+
+msgid "Cannot Delete"
+msgstr "Nemorem zbrisati"
+
+msgid "Can’t find network connection or reach server."
+msgstr ""
+
+msgid "Castle"
+msgstr ""
+
+msgid "Category"
+msgstr ""
+
+msgid "ceiling"
+msgstr ""
+
+msgid "Cello"
+msgstr "Čelo"
+
+msgid "Choir"
+msgstr ""
+
+msgid "Choose backdrop from library"
+msgstr ""
+
+msgid "Choose costume from library"
+msgstr ""
+
+msgid "Choose sound from library"
+msgstr ""
+
+msgid "Choose sprite from library"
+msgstr ""
+
+msgid "Circle"
+msgstr ""
+
+msgid "City"
+msgstr ""
+
+msgid "Clarinet"
+msgstr "Klarinet"
+
+msgid "Claves"
+msgstr "Palice (claves)"
+
+msgid "cleanup"
+msgstr ""
+
+msgid "Clear"
+msgstr ""
+
+msgid "clear senders/receivers"
+msgstr ""
+
+msgid "Click "Save now" to try again or "Download" to save"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Closed Hi-Hat"
+msgstr "Zaprta činela"
+
+msgid "Cloud"
+msgstr ""
+
+msgid "Cloud data"
+msgstr ""
+
+msgid "color"
+msgstr "barva"
+
+msgid "Color a shape"
+msgstr ""
+
+msgid "Conga"
+msgstr ""
+
+msgid "Connecting to Cloud data server..."
+msgstr ""
+
+msgid "Convert to bitmap"
+msgstr ""
+
+msgid "Convert to vector"
+msgstr ""
+
+msgid "Converting mp3..."
+msgstr ""
+
+msgid "copy"
+msgstr "Nov izvod"
+
+msgid "Copying..."
+msgstr ""
+
+# 75%
+#, fuzzy
+msgid "cos"
+msgstr "acos"
+
+msgid "Costume"
+msgstr ""
+
+msgid "costume #"
+msgstr ""
+
+msgid "Costume Library"
+msgstr ""
+
+msgid "costume name"
+msgstr ""
+
+msgid "costume1"
+msgstr ""
+
+msgid "costume2"
+msgstr ""
+
+msgid "Costumes"
+msgstr ""
+
+msgid "Costumes > 1"
+msgstr ""
+
+msgid "Costumes:"
+msgstr ""
+
+msgid "Cowbell"
+msgstr "Kravji zvonec"
+
+msgid "Crash Cymbal"
+msgstr ""
+
+msgid "Creating..."
+msgstr ""
+
+msgid "Currently, only numbers can be stored in Cloud variables."
+msgstr ""
+
+msgid "cut"
+msgstr ""
+
+# 90%
+#, fuzzy
+msgid "D connected"
+msgstr "A se je pridružil"
+
+msgid "date"
+msgstr ""
+
+msgid "day of week"
+msgstr ""
+
+# 83%
+#, fuzzy
+msgid "Delete"
+msgstr "odstrani"
+
+msgid "delete"
+msgstr "odstrani"
+
+msgid "delete variable"
+msgstr ""
+
+msgid "direction"
+msgstr ""
+
+msgid "direction:"
+msgstr ""
+
+msgid "don't rotate"
+msgstr ""
+
+msgid "down"
+msgstr "dol"
+
+msgid "down arrow"
+msgstr "tipka dol"
+
+msgid "Download"
+msgstr ""
+
+msgid "Download to your computer"
+msgstr ""
+
+msgid "duplicate"
+msgstr "podvoji"
+
+msgid "Duplicate"
+msgstr "podvoji"
+
+msgid "e ^"
+msgstr ""
+
+msgid "edge"
+msgstr "rob"
+
+msgid "edit"
+msgstr "Uredi"
+
+msgid "Edit"
+msgstr "Uredi"
+
+msgid "Edit Block"
+msgstr ""
+
+msgid "Effects"
+msgstr ""
+
+msgid "Electric Guitar"
+msgstr ""
+
+msgid "Electric Piano"
+msgstr ""
+
+msgid "Electronic"
+msgstr ""
+
+msgid "Ellipse"
+msgstr ""
+
+msgid "Erase"
+msgstr ""
+
+msgid "Eraser width"
+msgstr ""
+
+msgid "Error!"
+msgstr ""
+
+msgid "export"
+msgstr ""
+
+msgid "fade in"
+msgstr ""
+
+msgid "fade out"
+msgstr ""
+
+msgid "Fantasy"
+msgstr ""
+
+msgid "Features"
+msgstr ""
+
+msgid "File"
+msgstr ""
+
+msgid "Fill with color"
+msgstr ""
+
+msgid "fisheye"
+msgstr "ribje oko"
+
+msgid "Flip left-right"
+msgstr ""
+
+msgid "Flip up-down"
+msgstr ""
+
+msgid "floor"
+msgstr ""
+
+msgid "Flute"
+msgstr "Flavta"
+
+msgid "Flying"
+msgstr ""
+
+msgid "Font:"
+msgstr ""
+
+msgid "For all sprites"
+msgstr ""
+
+msgid "For this sprite only"
+msgstr ""
+
+msgid "Forward a layer"
+msgstr ""
+
+msgid "ghost"
+msgstr "duh"
+
+msgid "Go to My Stuff"
+msgstr ""
+
+msgid "Group"
+msgstr ""
+
+msgid "Grow"
+msgstr ""
+
+msgid "Guiro"
+msgstr ""
+
+msgid "Guitar"
+msgstr ""
+
+msgid "Hand Clap"
+msgstr "Plosk"
+
+msgid "hide"
+msgstr ""
+
+msgid "High C"
+msgstr ""
+
+msgid "hour"
+msgstr ""
+
+msgid "Human"
+msgstr ""
+
+# 83%
+#, fuzzy
+msgid "import"
+msgstr "uvozi"
+
+msgid "Import"
+msgstr "uvozi"
+
+msgid "Importing sound..."
+msgstr ""
+
+msgid "Indoors"
+msgstr ""
+
+msgid "Installing..."
+msgstr ""
+
+msgid "Instruments"
+msgstr ""
+
+msgid "large readout"
+msgstr ""
+
+msgid "last"
+msgstr "zadnji"
+
+msgid "left"
+msgstr "levo"
+
+msgid "left arrow"
+msgstr "tipka levo"
+
+msgid "left-right"
+msgstr ""
+
+msgid "length"
+msgstr ""
+
+msgid "Library"
+msgstr ""
+
+msgid "light"
+msgstr "nepovdarjeno"
+
+msgid "limit reached"
+msgstr ""
+
+msgid "Line"
+msgstr ""
+
+msgid "Line width"
+msgstr ""
+
+# 75%
+#, fuzzy
+msgid "list"
+msgstr "zadnji"
+
+msgid "List name"
+msgstr ""
+
+msgid "ln"
+msgstr ""
+
+msgid "Loading project..."
+msgstr ""
+
+msgid "log"
+msgstr ""
+
+msgid "louder"
+msgstr ""
+
+msgid "loudness"
+msgstr ""
+
+msgid "Low C"
+msgstr ""
+
+msgid "Make a Block"
+msgstr ""
+
+msgid "Make a List"
+msgstr ""
+
+msgid "Make a Variable"
+msgstr ""
+
+msgid "Marimba"
+msgstr "Marimba"
+
+msgid "Max"
+msgstr ""
+
+msgid "meow"
+msgstr ""
+
+msgid "Message Name"
+msgstr ""
+
+msgid "message1"
+msgstr ""
+
+msgid "Microphone Volume:"
+msgstr ""
+
+msgid "Middle C"
+msgstr ""
+
+msgid "Min"
+msgstr ""
+
+msgid "minute"
+msgstr ""
+
+msgid "month"
+msgstr ""
+
+msgid "mosaic"
+msgstr "mozaik"
+
+msgid "motion"
+msgstr ""
+
+msgid "mouse-pointer"
+msgstr "kazalec miške"
+
+msgid "Multiple"
+msgstr ""
+
+msgid "Music and Dance"
+msgstr ""
+
+msgid "Music Box"
+msgstr "Glasbena skrinjica"
+
+msgid "Music Loops"
+msgstr ""
+
+msgid "My Stuff"
+msgstr ""
+
+msgid "myself"
+msgstr ""
+
+msgid "Nature"
+msgstr ""
+
+#, fuzzy
+msgid "New"
+msgstr "Nouveau"
+
+msgid "New backdrop from camera"
+msgstr ""
+
+msgid "New backdrop:"
+msgstr ""
+
+msgid "New costume from camera"
+msgstr ""
+
+msgid "New costume:"
+msgstr ""
+
+msgid "New List"
+msgstr ""
+
+msgid "new message..."
+msgstr ""
+
+msgid "New name"
+msgstr ""
+
+msgid "New sound:"
+msgstr ""
+
+msgid "New sprite from camera"
+msgstr ""
+
+msgid "New sprite:"
+msgstr "Nova sličica:"
+
+msgid "New Variable"
+msgstr ""
+
+msgid "No motion blocks"
+msgstr ""
+
+msgid "normal readout"
+msgstr ""
+
+msgid "Not saved; network or server problem."
+msgstr ""
+
+msgid "Not saved; project did not load."
+msgstr ""
+
+msgid "of"
+msgstr ""
+
+msgid "off"
+msgstr "Izključeno"
+
+msgid "Offline Editor"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "on"
+msgstr "Vključeno"
+
+msgid "on-flipped"
+msgstr ""
+
+msgid "Open Cuica"
+msgstr "Odprta Cuica"
+
+msgid "Open Hi-Hat"
+msgstr "Odprta činela"
+
+msgid "Options"
+msgstr ""
+
+msgid "Organ"
+msgstr ""
+
+msgid "Other"
+msgstr ""
+
+msgid "other scripts in sprite"
+msgstr ""
+
+msgid "Outdoors"
+msgstr ""
+
+msgid "Paint new backdrop"
+msgstr ""
+
+msgid "Paint new costume"
+msgstr ""
+
+msgid "Paint new sprite"
+msgstr ""
+
+msgid "paste"
+msgstr ""
+
+msgid "Pencil"
+msgstr ""
+
+msgid "People"
+msgstr ""
+
+msgid "Percussion"
+msgstr ""
+
+msgid "photo1"
+msgstr ""
+
+msgid "Piano"
+msgstr ""
+
+msgid "Pick up color"
+msgstr ""
+
+msgid "pixelate"
+msgstr "potočkaj"
+
+msgid "Pizzicato"
+msgstr ""
+
+msgid "pop"
+msgstr "poberi s sklada"
+
+msgid "Profile"
+msgstr ""
+
+msgid "Project did not load."
+msgstr ""
+
+msgid "Project not saved!"
+msgstr ""
+
+msgid "random"
+msgstr ""
+
+msgid "Record"
+msgstr "snemaj"
+
+msgid "Record new sound"
+msgstr ""
+
+msgid "recording1"
+msgstr ""
+
+msgid "Rectangle"
+msgstr ""
+
+# 75%
+#, fuzzy
+msgid "Redo"
+msgstr "Obnovi"
+
+msgid "redo"
+msgstr "Obnovi"
+
+msgid "Remix"
+msgstr ""
+
+msgid "Remixing..."
+msgstr ""
+
+msgid "Rename"
+msgstr ""
+
+msgid "rename variable"
+msgstr ""
+
+msgid "requires sign in"
+msgstr ""
+
+msgid "Reshape"
+msgstr ""
+
+msgid "resistance-A"
+msgstr ""
+
+msgid "resistance-B"
+msgstr ""
+
+msgid "resistance-C"
+msgstr ""
+
+msgid "resistance-D"
+msgstr ""
+
+msgid "reverse"
+msgstr "obrni"
+
+msgid "Revert"
+msgstr ""
+
+msgid "Reverting..."
+msgstr ""
+
+msgid "right"
+msgstr "desno"
+
+msgid "right arrow"
+msgstr "tipka desno"
+
+msgid "rotation style:"
+msgstr ""
+
+msgid "Run without screen refresh"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Save as a copy"
+msgstr ""
+
+msgid "Save now"
+msgstr ""
+
+msgid "save to local file"
+msgstr ""
+
+msgid "Saved"
+msgstr ""
+
+msgid "Saving changes..."
+msgstr ""
+
+msgid "Saving..."
+msgstr ""
+
+msgid "Saxophone"
+msgstr ""
+
+msgid "Script"
+msgstr ""
+
+msgid "Scripts"
+msgstr ""
+
+msgid "Scripts:"
+msgstr ""
+
+msgid "second"
+msgstr ""
+
+msgid "See project page"
+msgstr ""
+
+msgid "Select"
+msgstr ""
+
+msgid "select all"
+msgstr ""
+
+msgid "Select and duplicate"
+msgstr ""
+
+msgid "Send to back"
+msgstr ""
+
+msgid "Set costume center"
+msgstr ""
+
+msgid "Set Costume Center"
+msgstr ""
+
+msgid "set slider min and max"
+msgstr ""
+
+msgid "Share"
+msgstr ""
+
+msgid "shared"
+msgstr ""
+
+msgid "Shift:"
+msgstr ""
+
+msgid "show"
+msgstr ""
+
+msgid "show receivers"
+msgstr ""
+
+msgid "show senders"
+msgstr ""
+
+msgid "show:"
+msgstr ""
+
+msgid "Shrink"
+msgstr ""
+
+msgid "Side Stick"
+msgstr "Palica ob strani"
+
+msgid "Sign in"
+msgstr ""
+
+msgid "Sign in to save"
+msgstr ""
+
+msgid "Sign out"
+msgstr ""
+
+msgid "silence"
+msgstr ""
+
+msgid "sin"
+msgstr ""
+
+msgid "size"
+msgstr ""
+
+msgid "slider"
+msgstr "drsnik"
+
+msgid "Slider Range"
+msgstr ""
+
+msgid "Small stage layout"
+msgstr ""
+
+msgid "Smooth"
+msgstr ""
+
+msgid "Snare Drum"
+msgstr ""
+
+msgid "softer"
+msgstr ""
+
+msgid "sound"
+msgstr ""
+
+msgid "Sound"
+msgstr ""
+
+msgid "Sound Library"
+msgstr ""
+
+msgid "Sounds"
+msgstr ""
+
+msgid "space"
+msgstr "presledek"
+
+# 80%
+#, fuzzy
+msgid "Space"
+msgstr "presledek"
+
+msgid "Sports"
+msgstr ""
+
+# 85%
+#, fuzzy
+msgid "Sprite"
+msgstr "Sličice"
+
+msgid "Sprite Library"
+msgstr ""
+
+# 85%
+#, fuzzy
+msgid "Sprite1"
+msgstr "Sličice"
+
+msgid "Sprites"
+msgstr "Sličice"
+
+msgid "sqrt"
+msgstr "koren"
+
+msgid "Square"
+msgstr ""
+
+msgid "Stage"
+msgstr "Prizorišče"
+
+msgid "Stage selected:"
+msgstr ""
+
+msgid "Steel Drum"
+msgstr ""
+
+msgid "stored on server"
+msgstr ""
+
+msgid "Synth Lead"
+msgstr ""
+
+msgid "Synth Pad"
+msgstr ""
+
+msgid "Tambourine"
+msgstr "Tamburin"
+
+msgid "tan"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "that way"
+msgstr "proti urinem kazalcu "
+
+msgid "Theme"
+msgstr ""
+
+msgid "Things"
+msgstr ""
+
+msgid "This project can detect who is using it, through the “username” block. To hide your identity, sign out before using the project."
+msgstr ""
+
+msgid "This project uses Cloud data ‒ a feature that is available only to signed in users."
+msgstr ""
+
+msgid "this script"
+msgstr ""
+
+msgid "this sprite"
+msgstr ""
+
+msgid "this way"
+msgstr "z urinim kazalcem"
+
+msgid "Throw away all changes since opening this project?"
+msgstr ""
+
+msgid "timer"
+msgstr ""
+
+msgid "Tips"
+msgstr ""
+
+msgid "To delete a block definition, first remove all uses of the block."
+msgstr ""
+
+msgid "Transportation"
+msgstr ""
+
+msgid "Triangle"
+msgstr ""
+
+msgid "Trombone"
+msgstr "Trombon"
+
+msgid "Turbo mode"
+msgstr ""
+
+msgid "Turbo Mode"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+# 75%
+#, fuzzy
+msgid "Undelete"
+msgstr "odstrani"
+
+msgid "Underwater"
+msgstr ""
+
+# 75%
+#, fuzzy
+msgid "Undo"
+msgstr "Prekliči ukaz"
+
+msgid "undo"
+msgstr "Prekliči ukaz"
+
+msgid "Undo Revert"
+msgstr ""
+
+msgid "Ungroup"
+msgstr ""
+
+msgid "unshared"
+msgstr ""
+
+msgid "up"
+msgstr "gor"
+
+msgid "up arrow"
+msgstr "tipka gor"
+
+msgid "Upload backdrop from file"
+msgstr ""
+
+msgid "Upload costume from file"
+msgstr ""
+
+msgid "Upload from your computer"
+msgstr ""
+
+msgid "Upload sound from file"
+msgstr ""
+
+msgid "Upload sprite from file"
+msgstr ""
+
+msgid "Uploading image..."
+msgstr ""
+
+msgid "Uploading sound..."
+msgstr ""
+
+msgid "Uploading sprite..."
+msgstr ""
+
+msgid "variable"
+msgstr ""
+
+msgid "Variable name"
+msgstr ""
+
+msgid "Vector"
+msgstr ""
+
+msgid "Vector Mode"
+msgstr ""
+
+msgid "Vibraphone"
+msgstr "Vibrafon"
+
+msgid "Vibraslap"
+msgstr "Udarec na vibrafon"
+
+msgid "video motion"
+msgstr ""
+
+msgid "Video on:"
+msgstr ""
+
+msgid "Vocals"
+msgstr ""
+
+msgid "volume"
+msgstr ""
+
+msgid "Walking"
+msgstr ""
+
+msgid "Want to save? Click remix"
+msgstr ""
+
+msgid "Which column do you want to import"
+msgstr ""
+
+msgid "whirl"
+msgstr "vrtinec"
+
+msgid "Wood Block"
+msgstr ""
+
+msgid "Wooden Flute"
+msgstr ""
+
+msgid "x position"
+msgstr ""
+
+msgid "y position"
+msgstr ""
+
+msgid "year"
+msgstr ""
+
+msgid "You cannot edit cloud data in someone else's project.<br>Any change that you make in the editor will be temporary and not persistent."
+msgstr ""
+
+msgid "Eraser width:"
+msgstr ""
+
+msgid "Line width:"
+msgstr ""
+
+# 90%
+#, fuzzy
+#~ msgid "New sprite"
+#~ msgstr "Nova sličica:"
+
+#~ msgid "Paint"
+#~ msgstr "Risar"
+
+#~ msgid "any"
+#~ msgstr "katerikoli"
+
+#~ msgid "High Tom"
+#~ msgstr "Visoki Tom"
+
+#~ msgid "Long Guiro"
+#~ msgstr "Dolgi guiro"
+
+#~ msgid "Low Bongo"
+#~ msgstr "Nizki bongo"
+
+#~ msgid "Low Conga"
+#~ msgstr "Nizka konga"
+
+#~ msgid "Low Tom"
+#~ msgstr "Nizki Tom"
+
+#~ msgid "Low Wood Block"
+#~ msgstr "Nizki leseni kvader"
+
+#~ msgid "Maracas"
+#~ msgstr "Marakas"
+
+#~ msgid "More"
+#~ msgstr "več"
+
+#~ msgid "Mute Triangle"
+#~ msgstr "Nemi triangel"
+
+#~ msgid "Open Triangle"
+#~ msgstr "Odprt Triangel"
+
+#~ msgid "Pedal Hi-Hat"
+#~ msgstr "Činele s pedalom"
+
+#~ msgid "Short Guiro"
+#~ msgstr "Kratek Guiro"

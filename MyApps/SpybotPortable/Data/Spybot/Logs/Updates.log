@@ -1,0 +1,44 @@
+[+]	14-08-18 12:45:40	THttpUpdateDaemon	Background Updating Service got started...
+[i]	14-08-18 12:45:40	THttpUpdateDaemon	Listening on port 21321
+[i]	14-08-18 12:45:40	THttpUpdateDaemon	Successfully started listening on port 21321.
+SDUpdate.exe [2014-08-18 12:45:56] [+] Updating Service is active.
+SDUpdate.exe [2014-08-18 12:45:56] [.] Trying to retrieve update info file from http://updates2.safer-networking.org/spybotsd2.uid...
+SDUpdate.exe [2014-08-18 12:45:56] [+] Retrieved update info file.
+SDUpdate.exe [2014-08-18 12:45:56] [.] Info file part done.
+SDUpdate.exe [2014-08-18 12:45:56] [.] Testing which updates apply to this version...
+SDUpdate.exe [2014-08-18 12:45:56] [+] Trojans-C.sbi (version 20140716) needs to be updated (to version 20140813).
+SDUpdate.exe [2014-08-18 12:45:56] [+] spybotsd2-translation-esx.exe is missing and will be installed (version 20140731).
+SDUpdate.exe [2014-08-18 12:45:56] [+] PUPS-C.sbi (version 20140716) needs to be updated (to version 20140730).
+SDUpdate.exe [2014-08-18 12:45:56] [+] Malware-C.sbi (version 20140709) needs to be updated (to version 20140813).
+SDUpdate.exe [2014-08-18 12:45:56] [+] Adware-C.sbi (version 20140716) needs to be updated (to version 20140813).
+SDUpdate.exe [2014-08-18 12:45:56] [.] Downloading updates...
+SDUpdate.exe [2014-08-18 12:45:56] [+] File "Adware-C.sbi" needs to be downloaded.
+SDUpdate.exe [2014-08-18 12:45:57] [+] Downloaded archive "Adware-C.sbi-20140813.cab" from http://ftp.234.cz/data/spybot/spybot2/.
+SDUpdate.exe [2014-08-18 12:45:57] [+] Extracted "Adware-C.sbi-20140813.cab"!
+SDUpdate.exe [2014-08-18 12:45:57] [+] Installed "Adware-C.sbi".
+SDUpdate.exe [2014-08-18 12:45:57] [+] File "Malware-C.sbi" needs to be downloaded.
+SDUpdate.exe [2014-08-18 12:45:57] [+] Downloaded archive "Malware-C.sbi-20140813.cab" from http://updates4.safer-networking.org/spybot2/.
+SDUpdate.exe [2014-08-18 12:45:57] [+] Extracted "Malware-C.sbi-20140813.cab"!
+SDUpdate.exe [2014-08-18 12:45:57] [+] Installed "Malware-C.sbi".
+SDUpdate.exe [2014-08-18 12:45:57] [+] File "PUPS-C.sbi" needs to be downloaded.
+SDUpdate.exe [2014-08-18 12:45:57] [+] Downloaded archive "PUPS-C.sbi-20140730.cab" from http://updates4.safer-networking.org/spybot2/.
+SDUpdate.exe [2014-08-18 12:45:57] [+] Extracted "PUPS-C.sbi-20140730.cab"!
+SDUpdate.exe [2014-08-18 12:45:57] [+] Installed "PUPS-C.sbi".
+SDUpdate.exe [2014-08-18 12:45:57] [+] File "spybotsd2-translation-esx.exe" needs to be downloaded.
+SDUpdate.exe [2014-08-18 12:45:58] [+] Downloaded archive "spybotsd2-translation-esx.exe-20140731.lzs" from http://www.antispyware-downloadserver.com/updates/spybot2/.
+SDUpdate.exe [2014-08-18 12:45:58] [+] Extracted "spybotsd2-translation-esx.exe-20140731.lzs"!
+SDUpdate.exe [2014-08-18 12:45:58] [+] Installed "spybotsd2-translation-esx.exe".
+SDUpdate.exe [2014-08-18 12:45:58] [+] File "Trojans-C.sbi" needs to be downloaded.
+SDUpdate.exe [2014-08-18 12:45:59] [+] Downloaded archive "Trojans-C.sbi-20140813.cab" from http://filehorse.spybot-updates.com/updates/spybot2/.
+SDUpdate.exe [2014-08-18 12:45:59] [+] Extracted "Trojans-C.sbi-20140813.cab"!
+SDUpdate.exe [2014-08-18 12:45:59] [+] Installed "Trojans-C.sbi".
+SDUpdate.exe [2014-08-18 12:45:59] [+] All files have been processed.
+SDUpdate.exe [2014-08-18 12:45:59] +++
+SDUpdate.exe [2014-08-18 12:46:19] [+] Updating Service is active.
+SDUpdate.exe [2014-08-18 12:46:19] [.] Trying to retrieve update info file from http://updates3.safer-networking.org/spybotsd2.uid...
+SDUpdate.exe [2014-08-18 12:46:19] [+] Retrieved update info file.
+SDUpdate.exe [2014-08-18 12:46:20] [.] Info file part done.
+SDUpdate.exe [2014-08-18 12:46:20] [.] Testing which updates apply to this version...
+SDUpdate.exe [2014-08-18 12:46:20] [+] No updates required.
+SDUpdate.exe [2014-08-18 12:46:20] +++
+[i]	14-08-18 12:46:32	THttpUpdateDaemon	HTTP daemon on port 21321 closed.

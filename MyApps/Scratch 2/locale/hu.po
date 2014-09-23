@@ -1,0 +1,1783 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-05-02 00:56+0200\n"
+"PO-Revision-Date: 2013-06-01 10:49+0200\n"
+"Last-Translator: rudolfwg <rudolf.wg@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.1.6\n"
+
+# The language name as it will appear in the language menu
+msgid "Language-Name"
+msgstr "Magyar"
+
+msgid "%b and %b"
+msgstr "%b és %b"
+
+msgid "%b or %b"
+msgstr "%b vagy %b"
+
+msgid "%m.attribute of %m.spriteOrStage"
+msgstr "%m.spriteOrStage %m.attribute értéke"
+
+msgid "%m.list contains %s"
+msgstr "%m.list tartalmazza: %s"
+
+msgid "%m.mathOp of %n"
+msgstr "%m.mathOp%n"
+
+msgid "%m.sensor sensor value"
+msgstr "%m.sensor szenzor értéke"
+
+msgid "%n mod %n"
+msgstr "%n mod %n"
+
+msgid "add %s to %m.list"
+msgstr "add %2$m.list listához: %1$s"
+
+msgid "answer"
+msgstr "válasz"
+
+msgid "ask %s and wait"
+msgstr "kérdezd meg: %s és várj"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop #"
+msgstr "háttér sorszáma"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop name"
+msgstr "háttér neve"
+
+msgid "broadcast %m.broadcast"
+msgstr "küldj üzenetet: %m.broadcast"
+
+msgid "broadcast %m.broadcast and wait"
+msgstr "küldj üzenetet: %m.broadcast és várj"
+
+msgid "change %m.effect effect by %n"
+msgstr "%m.effect hatás változzon %n"
+
+msgid "change %m.var by %n"
+msgstr "%m.var változzon %n"
+
+msgid "change pen color by %n"
+msgstr "tollszín változzon %n"
+
+msgid "change pen shade by %n"
+msgstr "tollárnyalat változzon %n"
+
+msgid "change pen size by %n"
+msgstr "tollméret változzon %n"
+
+msgid "change size by %n"
+msgstr "méret változzon %n"
+
+msgid "change tempo by %n"
+msgstr "tempó változzon %n"
+
+msgid "change volume by %n"
+msgstr "hangerő változzon %n"
+
+msgid "change x by %n"
+msgstr "x változzon %n"
+
+msgid "change y by %n"
+msgstr "y változzon %n"
+
+msgid "clear"
+msgstr "töröld a rajzokat"
+
+msgid "clear graphic effects"
+msgstr "töröld a hatásokat"
+
+msgid "color %c is touching %c?"
+msgstr "%c érint %c színt?"
+
+msgid "Control"
+msgstr "Vezérlés"
+
+msgid "costume #"
+msgstr "jelmez sorszáma"
+
+msgid "create clone of %m.spriteOnly"
+msgstr "%m.spriteOnly klónozása"
+
+msgid "current %m.timeAndDate"
+msgstr "jelenlegi %m.timeAndDate"
+
+msgid "Data"
+msgstr "Adatok"
+
+msgid "days since 2000"
+msgstr "napok 2000 óta"
+
+msgid "define"
+msgstr "legyen"
+
+msgid "delete %d.listDeleteItem of %m.list"
+msgstr "töröld %2$m.list %1$d.listDeleteItem elemét"
+
+msgid "delete this clone"
+msgstr "ez a klón törlődjön"
+
+msgid "direction"
+msgstr "irány"
+
+msgid "distance"
+msgstr "távolság"
+
+msgid "distance to %m.spriteOrMouse"
+msgstr "távolság: %m.spriteOrMouse"
+
+msgid "else"
+msgstr "különben"
+
+msgid "Events"
+msgstr "Események"
+
+msgid "forever"
+msgstr "mindig"
+
+msgid "glide %n secs to x:%n y:%n"
+msgstr "csússz %n mp-ig x:%n y:%n"
+
+msgid "go back %n layers"
+msgstr "kerülj %n szinttel hátrébb"
+
+msgid "go to %m.spriteOrMouse"
+msgstr "ugorj %m.spriteOrMouse helyére"
+
+msgid "go to front"
+msgstr "kerülj legelőre"
+
+msgid "go to x:%n y:%n"
+msgstr "ugorj x:%n y:%n"
+
+msgid "hide"
+msgstr "tűnj el"
+
+msgid "hide list %m.list"
+msgstr "%m.list tűnjön el"
+
+msgid "hide variable %m.var"
+msgstr "%m.var tűnjön el"
+
+msgid "if %b then"
+msgstr "ha %b akkor"
+
+msgid "if on edge, bounce"
+msgstr "ha szélen vagy, pattanj vissza"
+
+msgid "insert %s at %d.listItem of %m.list"
+msgstr "szúrd be %3$m.list %2$d.listItem helyére: %1$s"
+
+msgid "item %d.listItem of %m.list"
+msgstr "%2$m.list %1$d.listItem eleme"
+
+msgid "join %s %s"
+msgstr "%s %s együtt"
+
+msgid "key %m.key pressed?"
+msgstr "%m.key lenyomva?"
+
+msgid "length of %m.list"
+msgstr "%m.list hossza"
+
+msgid "length of %s"
+msgstr "%s hossza"
+
+msgid "letter %n of %s"
+msgstr "%2$s %1$n betűje"
+
+msgid "Looks"
+msgstr "Kinézet"
+
+msgid "loudness"
+msgstr "hangerő"
+
+msgid "More Blocks"
+msgstr "Egyebek"
+
+msgid "Motion"
+msgstr "Mozgás"
+
+msgid "mouse down?"
+msgstr "egér lenyomva?"
+
+msgid "mouse x"
+msgstr "egér x"
+
+msgid "mouse y"
+msgstr "egér y"
+
+msgid "move %n steps"
+msgstr "menj %n lépést"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "next backdrop"
+msgstr "következő háttér"
+
+msgid "next costume"
+msgstr "válts jelmezt"
+
+msgid "not %b"
+msgstr "nem %b"
+
+msgid "Operators"
+msgstr "Műveletek"
+
+msgid "Pen"
+msgstr "Toll"
+
+msgid "pen down"
+msgstr "tollat tedd le"
+
+msgid "pen up"
+msgstr "tollat emeld fel"
+
+msgid "pick random %n to %n"
+msgstr "véletlen %n és %n között"
+
+msgid "play drum %d.drum for %n beats"
+msgstr "dobolj %d.drum%n ütemig"
+
+# 83%
+msgid "play note %d.note for %n beats"
+msgstr "%d.note szóljon %n ütemig"
+
+msgid "play sound %m.sound"
+msgstr "játszd le: %m.sound"
+
+msgid "play sound %m.sound until done"
+msgstr "játszd le: %m.sound és várd meg"
+
+msgid "point in direction %d.direction"
+msgstr "nézz %d.direction fokos irányba"
+
+msgid "point towards %m.spriteOrMouse"
+msgstr "nézz %m.spriteOrMouse irányába"
+
+msgid "repeat %n"
+msgstr "ismételd %n"
+
+msgid "repeat until %b"
+msgstr "ismételd eddig: %b"
+
+msgid "replace item %d.listItem of %m.list with %s"
+msgstr "cseréld le %2$m.list %1$d.listItem elemét: %3$s"
+
+msgid "reset timer"
+msgstr "nullázd az órát"
+
+msgid "rest for %n beats"
+msgstr "szünetelj %n ütemig"
+
+msgid "round %n"
+msgstr "%n kerekítve"
+
+msgid "say %s"
+msgstr "mondd: %s"
+
+msgid "say %s for %n secs"
+msgstr "mondd: %s%n mp-ig"
+
+msgid "Sensing"
+msgstr "Érzékelés"
+
+msgid "sensor %m.booleanSensor?"
+msgstr "szenzoron %m.booleanSensor?"
+
+msgid "set %m.effect effect to %n"
+msgstr "%m.effect hatás legyen %n"
+
+msgid "set %m.var to %s"
+msgstr "%m.var legyen %s"
+
+msgid "set instrument to %d.instrument"
+msgstr "hangszer legyen %d.instrument"
+
+# 89%
+msgid "set motor direction %m.motorDirection"
+msgstr "motor iránya legyen %m.motorDirection"
+
+# 77%
+msgid "set motor power %n"
+msgstr "motor teljesítmény legyen %n"
+
+msgid "set pen color to %c"
+msgstr "tollszín legyen %c"
+
+msgid "set pen color to %n"
+msgstr "tollszín legyen %n"
+
+msgid "set pen shade to %n"
+msgstr "tollárnyalat legyen %n"
+
+msgid "set pen size to %n"
+msgstr "tollméret legyen %n"
+
+msgid "set rotation style %m.rotationStyle"
+msgstr "forgási stílus legyen %m.rotationStyle"
+
+msgid "set size to %n%"
+msgstr "méret legyen %n%"
+
+msgid "set tempo to %n bpm"
+msgstr "tempó legyen %n ütem/perc"
+
+msgid "set video transparency to %n%"
+msgstr "videó áttetszősége legyen %n%"
+
+msgid "set volume to %n%"
+msgstr "hangerő legyen %n%"
+
+msgid "set x to %n"
+msgstr "x legyen %n"
+
+msgid "set y to %n"
+msgstr "y legyen %n"
+
+msgid "show"
+msgstr "jelenj meg"
+
+msgid "show list %m.list"
+msgstr "%m.list látsszon"
+
+msgid "show variable %m.var"
+msgstr "%m.var látsszon"
+
+msgid "size"
+msgstr "méret"
+
+msgid "Sound"
+msgstr "Hang"
+
+msgid "stamp"
+msgstr "készíts lenyomatot"
+
+msgid "stop %m.stop"
+msgstr "%m.stop álljon le"
+
+msgid "stop all sounds"
+msgstr "minden hangot állíts le"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop"
+msgstr "a háttér legyen %m.backdrop"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+#, fuzzy
+msgid "switch backdrop to %m.backdrop and wait"
+msgstr "a háttér legyen %m.backdrop, várd meg"
+
+msgid "switch costume to %m.costume"
+msgstr "jelmez legyen %m.costume"
+
+msgid "tempo"
+msgstr "tempó"
+
+msgid "think %s"
+msgstr "gondold: %s"
+
+msgid "think %s for %n secs"
+msgstr "gondold: %s%n mp-ig"
+
+msgid "tilt"
+msgstr "dőlés"
+
+msgid "timer"
+msgstr "óra"
+
+msgid "touching %m.touching?"
+msgstr "érinted: %m.touching?"
+
+msgid "touching color %c?"
+msgstr "érintesz %c színt?"
+
+msgid "turn @turnLeft %n degrees"
+msgstr "fordulj @turnLeft %n fokot"
+
+msgid "turn @turnRight %n degrees"
+msgstr "fordulj @turnRight %n fokot"
+
+msgid "turn motor off"
+msgstr "motor kikapcsolása"
+
+msgid "turn motor on"
+msgstr "motor bekapcsolása"
+
+# 80%
+#, fuzzy
+msgid "turn motor on for %n secs"
+msgstr "motor be %n mp-ig"
+
+msgid "turn video %m.videoState"
+msgstr "videót kapcsold %m.videoState"
+
+msgid "username"
+msgstr "felhasználónév"
+
+msgid "video %m.videoMotionType on %m.stageOrThis"
+msgstr ""
+
+msgid "volume"
+msgstr "hangerő"
+
+msgid "wait %n secs"
+msgstr "várj %n mp-et"
+
+msgid "wait until %b"
+msgstr "várj eddig: %b"
+
+# 75%
+msgid "when %m.booleanSensor"
+msgstr "amikor %m.booleanSensor"
+
+msgid "when %m.key key pressed"
+msgstr "%m.key lenyomásakor"
+
+msgid "when %m.triggerSensor > %n"
+msgstr "amikor %m.triggerSensor > %n"
+
+msgid "when @greenFlag clicked"
+msgstr "@greenFlag kattintásakor"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "when backdrop switches to %m.backdrop"
+msgstr "amikor a háttér erre vált: %m.backdrop"
+
+msgid "when distance < %n"
+msgstr "amikor távolság < %n"
+
+msgid "when I receive %m.broadcast"
+msgstr "amikor %m.broadcast-t kapok"
+
+msgid "when I start as a clone"
+msgstr "amikor klónként indulok"
+
+msgid "when this sprite clicked"
+msgstr "amikor e szereplőre kattintanak"
+
+msgid "when tilt = %n"
+msgstr "amikor dőlés = %n"
+
+msgid "x position"
+msgstr "x hely"
+
+msgid "y position"
+msgstr "y hely"
+
+#~ msgid "forever if %b"
+#~ msgstr "mindig ha %b"
+
+#~ msgid "if %b"
+#~ msgstr "ha %b"
+
+#~ msgid "motor direction %m.motorDirection"
+#~ msgstr "motort irányba %m.motorDirection"
+
+#~ msgid "motor off"
+#~ msgstr "motor ki"
+
+#~ msgid "motor on"
+#~ msgstr "motor be"
+
+#~ msgid "motor on for %n secs"
+#~ msgstr "motor be %n mp-ig"
+
+#~ msgid "motor power %n"
+#~ msgstr "motor teljesítmény %n"
+
+#~ msgid "play note %n for %n beats"
+#~ msgstr "szóljon %d.note%n ütemig"
+
+##################
+# User Interface #
+##################
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-19 20:52+0200\n"
+"PO-Revision-Date: 2013-06-08 12:59+0200\n"
+"Last-Translator: rudolfwg <rudolf.wg@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.1.6\n"
+
+msgid "10 ^"
+msgstr "10 ^"
+
+msgid "<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only numbers are supported<br>Chat rooms are not allowed, and will be removed<br>For more info, <a href="/help/faq/#clouddata" target="_blank">see the cloud data FAQ!</a>"
+msgstr ""
+"<b>Felhőváltozókat illető információk</b><br>&nbsp;<br>Jelenleg csak számok "
+"vannak támogatva<br>Chat szobák létrehozása szigorúan tilos<br>További "
+"információkért <a href= target=>lásd a felhőadat GYIK-et.</a>"
+
+msgid "A connected"
+msgstr ""
+
+msgid "a copy of the project file on your computer."
+msgstr ""
+
+msgid "abs"
+msgstr "abszolút érték"
+
+msgid "Account settings"
+msgstr "Fiókbeállítások"
+
+msgid "acos"
+msgstr "arccos"
+
+msgid "Add boolean input:"
+msgstr "Új logikai bemenet:"
+
+msgid "add comment"
+msgstr "megjegyzés hozzáadása"
+
+msgid "Add label text:"
+msgstr "Új szöveges címke:"
+
+msgid "Add number input:"
+msgstr "Új számérték bemenet:"
+
+msgid "Add string input:"
+msgstr "Új szövegbemenet:"
+
+msgid "All"
+msgstr "Összes"
+
+msgid "all"
+msgstr "minden"
+
+msgid "all around"
+msgstr "körbefordítható"
+
+msgid "Animal"
+msgstr "Állat"
+
+msgid "Animals"
+msgstr "Állatok"
+
+msgid "asin"
+msgstr "arcsin"
+
+msgid "assets loaded"
+msgstr ""
+
+msgid "atan"
+msgstr "arctg"
+
+msgid "B connected"
+msgstr ""
+
+msgid "Back a layer"
+msgstr ""
+
+msgid "Backdrop"
+msgstr "Háttér"
+
+# 88%
+#, fuzzy
+msgid "backdrop"
+msgstr "háttér1"
+
+msgid "backdrop #"
+msgstr "háttér sorszáma"
+
+msgid "Backdrop Library"
+msgstr "Háttérkönyvtár"
+
+msgid "backdrop name"
+msgstr "háttér neve"
+
+msgid "backdrop1"
+msgstr "háttér1"
+
+# Egyes számban, mert "<db> háttér" alakban jelenik meg.
+msgid "backdrops"
+msgstr "háttér"
+
+msgid "Backdrops"
+msgstr "Hátterek"
+
+msgid "Backpack"
+msgstr "Hátizsák"
+
+msgid "Bass"
+msgstr "Basszus"
+
+msgid "Bass Drum"
+msgstr "Basszusdob"
+
+msgid "Bassoon"
+msgstr "Fagott"
+
+msgid "Because you have a new Scratch account, any changes to cloud data won't be saved yet. Keep participating on the site you'll be able to use cloud data soon!"
+msgstr ""
+
+msgid "Bitmap"
+msgstr "Raszter"
+
+msgid "Bitmap Mode"
+msgstr "Raszterkép mód"
+
+msgid "Block help"
+msgstr "Kocka súgó"
+
+msgid "Bongo"
+msgstr ""
+
+msgid "brightness"
+msgstr "fényerő"
+
+msgid "Bring to front"
+msgstr ""
+
+msgid "Broadcast"
+msgstr ""
+
+msgid "Brush"
+msgstr "Ecset"
+
+msgid "button pressed"
+msgstr "gomb lenyomva"
+
+msgid "by"
+msgstr "készítette:"
+
+msgid "bytes loaded"
+msgstr ""
+
+msgid "C connected"
+msgstr ""
+
+msgid "Cabasa"
+msgstr "Cabasa"
+
+msgid "Camera"
+msgstr "Kamera"
+
+msgid "can drag in player:"
+msgstr ""
+
+msgid "Cancel"
+msgstr "Mégse"
+
+msgid "Cannot Delete"
+msgstr ""
+
+msgid "Can’t find network connection or reach server."
+msgstr "A hálózat vagy a szerver nem elérhető."
+
+msgid "Castle"
+msgstr "Kastély"
+
+msgid "Category"
+msgstr "Kategória"
+
+msgid "ceiling"
+msgstr "felkerekítve"
+
+msgid "Cello"
+msgstr "Cselló"
+
+msgid "Choir"
+msgstr "Kórus"
+
+msgid "Choose backdrop from library"
+msgstr "Háttér kiválasztása a könyvtárból"
+
+msgid "Choose costume from library"
+msgstr "Jelmez kiválasztása a könyvtárból"
+
+msgid "Choose sound from library"
+msgstr "Hang kiválasztása a könyvtárból"
+
+msgid "Choose sprite from library"
+msgstr "Szereplő kiválasztása a könyvtárból"
+
+msgid "Circle"
+msgstr "Kör"
+
+msgid "City"
+msgstr "Város"
+
+msgid "Clarinet"
+msgstr "Klarinét"
+
+msgid "Claves"
+msgstr "Claves"
+
+msgid "cleanup"
+msgstr ""
+
+msgid "Clear"
+msgstr "Törlés"
+
+msgid "clear senders/receivers"
+msgstr ""
+
+msgid "Click "Save now" to try again or "Download" to save"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Closed Hi-Hat"
+msgstr "Zárt cin"
+
+msgid "Cloud"
+msgstr "Felhő"
+
+#, fuzzy
+msgid "Cloud data"
+msgstr "Felhő adat"
+
+msgid "color"
+msgstr "szín"
+
+msgid "Color a shape"
+msgstr ""
+
+#, fuzzy
+msgid "Conga"
+msgstr "Konga"
+
+msgid "Connecting to Cloud data server..."
+msgstr ""
+
+msgid "Convert to bitmap"
+msgstr "Raszterképpé alakítás"
+
+msgid "Convert to vector"
+msgstr "Vektorképpé alakítás"
+
+msgid "Converting mp3..."
+msgstr ""
+
+msgid "copy"
+msgstr "másolás"
+
+msgid "Copying..."
+msgstr ""
+
+# 75%
+#, fuzzy
+msgid "cos"
+msgstr "arccos"
+
+msgid "Costume"
+msgstr "Jelmez"
+
+msgid "costume #"
+msgstr "jelmez sorszáma"
+
+msgid "Costume Library"
+msgstr "Jelmezkönyvtár"
+
+msgid "costume name"
+msgstr ""
+
+# 77%
+#, fuzzy
+msgid "costume1"
+msgstr "jelmez sorszáma"
+
+# 77%
+#, fuzzy
+msgid "costume2"
+msgstr "jelmez sorszáma"
+
+msgid "Costumes"
+msgstr "Jelmezek"
+
+msgid "Costumes > 1"
+msgstr ""
+
+# 88%
+#, fuzzy
+msgid "Costumes:"
+msgstr "Jelmezek"
+
+msgid "Cowbell"
+msgstr "Kolomp"
+
+msgid "Crash Cymbal"
+msgstr ""
+
+msgid "Creating..."
+msgstr ""
+
+msgid "Currently, only numbers can be stored in Cloud variables."
+msgstr "Jelenleg a felhőváltozók csak számokat tárolhatnak."
+
+msgid "cut"
+msgstr "kivágás"
+
+msgid "D connected"
+msgstr ""
+
+msgid "date"
+msgstr "dátum"
+
+msgid "day of week"
+msgstr "hét napja"
+
+# 83%
+msgid "Delete"
+msgstr "Törlés"
+
+msgid "delete"
+msgstr "törlés"
+
+msgid "delete variable"
+msgstr "változó törlése"
+
+msgid "direction"
+msgstr "irány"
+
+msgid "direction:"
+msgstr "irány:"
+
+msgid "don't rotate"
+msgstr "forgathatatlan"
+
+msgid "down"
+msgstr "le"
+
+msgid "down arrow"
+msgstr "le gomb"
+
+msgid "Download"
+msgstr ""
+
+msgid "Download to your computer"
+msgstr "Letöltés saját gépre"
+
+msgid "duplicate"
+msgstr "másolás"
+
+msgid "Duplicate"
+msgstr "Másolás"
+
+msgid "e ^"
+msgstr "e ^"
+
+msgid "edge"
+msgstr "játéktér széle"
+
+msgid "edit"
+msgstr "módosítás"
+
+msgid "Edit"
+msgstr "Módosítás"
+
+msgid "Edit Block"
+msgstr ""
+
+msgid "Effects"
+msgstr "Hatások"
+
+msgid "Electric Guitar"
+msgstr "Elektromos gitár"
+
+msgid "Electric Piano"
+msgstr ""
+
+msgid "Electronic"
+msgstr "Elektromos"
+
+msgid "Ellipse"
+msgstr "Ellipszis"
+
+msgid "Erase"
+msgstr "Radír"
+
+# 92%
+#, fuzzy
+msgid "Eraser width"
+msgstr "Radír vastagsága:"
+
+msgid "Error!"
+msgstr ""
+
+msgid "export"
+msgstr ""
+
+msgid "fade in"
+msgstr ""
+
+msgid "fade out"
+msgstr ""
+
+#, fuzzy
+msgid "Fantasy"
+msgstr "Fantasy"
+
+msgid "Features"
+msgstr ""
+
+msgid "File"
+msgstr "Fájl"
+
+msgid "Fill with color"
+msgstr "Feltöltés egy színnel"
+
+msgid "fisheye"
+msgstr "halszem"
+
+msgid "Flip left-right"
+msgstr "Jobb-bal tükrözés"
+
+msgid "Flip up-down"
+msgstr "Fel-le tükrözés"
+
+msgid "floor"
+msgstr "lekerekítve"
+
+msgid "Flute"
+msgstr "Fuvola"
+
+msgid "Flying"
+msgstr "Repülés"
+
+msgid "Font:"
+msgstr ""
+
+msgid "For all sprites"
+msgstr "Minden szereplőnek"
+
+msgid "For this sprite only"
+msgstr "Csak ennek a szereplőnek"
+
+msgid "Forward a layer"
+msgstr ""
+
+msgid "ghost"
+msgstr "szellem"
+
+msgid "Go to My Stuff"
+msgstr ""
+
+msgid "Group"
+msgstr ""
+
+msgid "Grow"
+msgstr "Nagyítás"
+
+msgid "Guiro"
+msgstr ""
+
+msgid "Guitar"
+msgstr "Gitár"
+
+msgid "Hand Clap"
+msgstr "Taps"
+
+msgid "hide"
+msgstr ""
+
+msgid "High C"
+msgstr ""
+
+msgid "hour"
+msgstr "óra"
+
+msgid "Human"
+msgstr "Emberi"
+
+# 83%
+#, fuzzy
+msgid "import"
+msgstr "betöltés"
+
+msgid "Import"
+msgstr "betöltés"
+
+msgid "Importing sound..."
+msgstr ""
+
+msgid "Indoors"
+msgstr "Benti"
+
+msgid "Installing..."
+msgstr ""
+
+msgid "Instruments"
+msgstr "Hangszerek"
+
+msgid "large readout"
+msgstr ""
+
+msgid "last"
+msgstr "utolsó"
+
+msgid "left"
+msgstr "balra"
+
+msgid "left arrow"
+msgstr "balra gomb"
+
+msgid "left-right"
+msgstr "jobbra-balra"
+
+msgid "length"
+msgstr ""
+
+msgid "Library"
+msgstr "Könyvtár"
+
+msgid "light"
+msgstr "fény"
+
+msgid "limit reached"
+msgstr ""
+
+msgid "Line"
+msgstr "Vonal"
+
+# 90%
+#, fuzzy
+msgid "Line width"
+msgstr "Vonalvastagság:"
+
+# 75%
+#, fuzzy
+msgid "list"
+msgstr "utolsó"
+
+msgid "List name"
+msgstr "Lista neve"
+
+msgid "ln"
+msgstr "ln"
+
+msgid "Loading project..."
+msgstr ""
+
+msgid "log"
+msgstr "log"
+
+msgid "louder"
+msgstr "hangosabb"
+
+msgid "loudness"
+msgstr "hangerő"
+
+msgid "Low C"
+msgstr ""
+
+#, fuzzy
+msgid "Make a Block"
+msgstr "Kocka létrehozása"
+
+msgid "Make a List"
+msgstr "Lista létrehozása"
+
+msgid "Make a Variable"
+msgstr "Változó létrehozása"
+
+msgid "Marimba"
+msgstr "Marimba"
+
+msgid "Max"
+msgstr ""
+
+msgid "meow"
+msgstr ""
+
+msgid "Message Name"
+msgstr ""
+
+msgid "message1"
+msgstr ""
+
+msgid "Microphone Volume:"
+msgstr ""
+
+msgid "Middle C"
+msgstr ""
+
+msgid "Min"
+msgstr ""
+
+msgid "minute"
+msgstr "perc"
+
+msgid "month"
+msgstr "hónap"
+
+msgid "mosaic"
+msgstr "mozaik"
+
+msgid "motion"
+msgstr "mozgás"
+
+msgid "mouse-pointer"
+msgstr "egérmutató"
+
+msgid "Multiple"
+msgstr ""
+
+msgid "Music and Dance"
+msgstr "Zene és tánc"
+
+msgid "Music Box"
+msgstr "Zenedoboz"
+
+msgid "Music Loops"
+msgstr ""
+
+msgid "My Stuff"
+msgstr "Saját cuccok"
+
+msgid "myself"
+msgstr "önmagam"
+
+msgid "Nature"
+msgstr "Természet"
+
+msgid "New"
+msgstr "Új"
+
+msgid "New backdrop from camera"
+msgstr "Új háttér a kameráról"
+
+msgid "New backdrop:"
+msgstr "Új háttér:"
+
+msgid "New costume from camera"
+msgstr "Új jelmez a kameráról"
+
+msgid "New costume:"
+msgstr "Új jelmez:"
+
+msgid "New List"
+msgstr "Új lista"
+
+msgid "new message..."
+msgstr ""
+
+msgid "New name"
+msgstr ""
+
+msgid "New sound:"
+msgstr "Új hang:"
+
+msgid "New sprite from camera"
+msgstr "Új szereplő a kameráról"
+
+msgid "New sprite:"
+msgstr "Új szereplő:"
+
+msgid "New Variable"
+msgstr "Új változó"
+
+msgid "No motion blocks"
+msgstr ""
+
+msgid "normal readout"
+msgstr ""
+
+msgid "Not saved; network or server problem."
+msgstr ""
+
+msgid "Not saved; project did not load."
+msgstr ""
+
+msgid "of"
+msgstr ""
+
+msgid "off"
+msgstr "ki"
+
+msgid "Offline Editor"
+msgstr ""
+
+msgid "OK"
+msgstr "OK"
+
+msgid "on"
+msgstr "be"
+
+msgid "on-flipped"
+msgstr "be, tükrözve"
+
+msgid "Open Cuica"
+msgstr "Nyitott cuica"
+
+msgid "Open Hi-Hat"
+msgstr "Nyitott cin"
+
+msgid "Options"
+msgstr "Beállítások"
+
+msgid "Organ"
+msgstr "Orgona"
+
+msgid "Other"
+msgstr "Egyéb"
+
+msgid "other scripts in sprite"
+msgstr ""
+
+msgid "Outdoors"
+msgstr "Kinti"
+
+msgid "Paint new backdrop"
+msgstr "Új háttér rajzolása"
+
+msgid "Paint new costume"
+msgstr "Új jelmez rajzolása"
+
+msgid "Paint new sprite"
+msgstr "Új szereplő rajzolása"
+
+msgid "paste"
+msgstr "beillesztés"
+
+msgid "Pencil"
+msgstr "Ceruza"
+
+msgid "People"
+msgstr "Emberek"
+
+msgid "Percussion"
+msgstr "Ütőhangszerek"
+
+msgid "photo1"
+msgstr ""
+
+msgid "Piano"
+msgstr "Zongora"
+
+msgid "Pick up color"
+msgstr ""
+
+msgid "pixelate"
+msgstr "képpont"
+
+msgid "Pizzicato"
+msgstr ""
+
+msgid "pop"
+msgstr "pukk"
+
+msgid "Profile"
+msgstr ""
+
+msgid "Project did not load."
+msgstr ""
+
+msgid "Project not saved!"
+msgstr ""
+
+msgid "random"
+msgstr ""
+
+msgid "Record"
+msgstr "Felvétel"
+
+msgid "Record new sound"
+msgstr "Új hang felvétele"
+
+msgid "recording1"
+msgstr ""
+
+msgid "Rectangle"
+msgstr "Téglalap"
+
+# 75%
+msgid "Redo"
+msgstr "Mégis"
+
+msgid "redo"
+msgstr "mégis"
+
+msgid "Remix"
+msgstr ""
+
+msgid "Remixing..."
+msgstr ""
+
+msgid "Rename"
+msgstr "Átnevezés"
+
+msgid "rename variable"
+msgstr "változó átnevezése"
+
+msgid "requires sign in"
+msgstr ""
+
+msgid "Reshape"
+msgstr ""
+
+msgid "resistance-A"
+msgstr ""
+
+msgid "resistance-B"
+msgstr ""
+
+msgid "resistance-C"
+msgstr ""
+
+msgid "resistance-D"
+msgstr ""
+
+# This string is used in two separate places (motor and sound), and I'd rather give two separate translations! :(
+#
+#, fuzzy
+msgid "reverse"
+msgstr "hátra"
+
+msgid "Revert"
+msgstr ""
+
+msgid "Reverting..."
+msgstr ""
+
+msgid "right"
+msgstr "jobbra"
+
+msgid "right arrow"
+msgstr "jobbra gomb"
+
+msgid "rotation style:"
+msgstr ""
+
+msgid "Run without screen refresh"
+msgstr ""
+
+# 80%
+#, fuzzy
+msgid "Save"
+msgstr "Mentve"
+
+msgid "Save as a copy"
+msgstr "Mentés másolatként"
+
+msgid "Save now"
+msgstr "Mentés most"
+
+msgid "save to local file"
+msgstr ""
+
+msgid "Saved"
+msgstr "Mentve"
+
+msgid "Saving changes..."
+msgstr "Mentés folyamatban..."
+
+msgid "Saving..."
+msgstr "Mentés folyamatban..."
+
+msgid "Saxophone"
+msgstr "Szakszofon"
+
+msgid "Script"
+msgstr ""
+
+msgid "Scripts"
+msgstr ""
+
+msgid "Scripts:"
+msgstr ""
+
+msgid "second"
+msgstr "másodperc"
+
+msgid "See project page"
+msgstr ""
+
+msgid "Select"
+msgstr "Kijelölés"
+
+msgid "select all"
+msgstr "minden kiválasztása"
+
+msgid "Select and duplicate"
+msgstr ""
+
+msgid "Send to back"
+msgstr ""
+
+msgid "Set costume center"
+msgstr "Jelmez közepének beállítása"
+
+# 88%
+#, fuzzy
+msgid "Set Costume Center"
+msgstr "Jelmez közepének beállítása"
+
+msgid "set slider min and max"
+msgstr ""
+
+msgid "Share"
+msgstr "Megosztás"
+
+# 75%
+#, fuzzy
+msgid "shared"
+msgstr "megosztatlan"
+
+msgid "Shift:"
+msgstr "Shift:"
+
+msgid "show"
+msgstr ""
+
+msgid "show receivers"
+msgstr ""
+
+msgid "show senders"
+msgstr ""
+
+msgid "show:"
+msgstr ""
+
+msgid "Shrink"
+msgstr "Kicsinyítés"
+
+msgid "Side Stick"
+msgstr "Dobverő"
+
+msgid "Sign in"
+msgstr "Bejelentkezés"
+
+msgid "Sign in to save"
+msgstr ""
+
+msgid "Sign out"
+msgstr "Kijelentkezés"
+
+msgid "silence"
+msgstr "csend"
+
+# 75%
+#, fuzzy
+msgid "sin"
+msgstr "arcsin"
+
+msgid "size"
+msgstr "méret"
+
+msgid "slider"
+msgstr "csúszka"
+
+msgid "Slider Range"
+msgstr ""
+
+msgid "Small stage layout"
+msgstr ""
+
+msgid "Smooth"
+msgstr ""
+
+msgid "Snare Drum"
+msgstr "Pergődob"
+
+msgid "softer"
+msgstr "halkabb"
+
+msgid "sound"
+msgstr "hang"
+
+# 83%
+#, fuzzy
+msgid "Sound"
+msgstr "Hangok"
+
+msgid "Sound Library"
+msgstr "Hangkönyvtár"
+
+msgid "Sounds"
+msgstr "Hangok"
+
+msgid "space"
+msgstr "szóköz"
+
+# 80%
+msgid "Space"
+msgstr "Űr"
+
+msgid "Sports"
+msgstr "Sport"
+
+# 85%
+msgid "Sprite"
+msgstr "Szereplők"
+
+msgid "Sprite Library"
+msgstr "Szereplőkönyvtár"
+
+# 85%
+msgid "Sprite1"
+msgstr "Szereplő1"
+
+msgid "Sprites"
+msgstr "Szereplők"
+
+msgid "sqrt"
+msgstr "gyök"
+
+msgid "Square"
+msgstr "Négyzet"
+
+msgid "Stage"
+msgstr "Játéktér"
+
+msgid "Stage selected:"
+msgstr ""
+
+msgid "Steel Drum"
+msgstr ""
+
+msgid "stored on server"
+msgstr "szerveren tárolt"
+
+msgid "Synth Lead"
+msgstr ""
+
+msgid "Synth Pad"
+msgstr ""
+
+msgid "Tambourine"
+msgstr "Tamburin"
+
+msgid "tan"
+msgstr "tg"
+
+msgid "Text"
+msgstr "Szöveg"
+
+msgid "that way"
+msgstr "arra"
+
+msgid "Theme"
+msgstr "Téma"
+
+msgid "Things"
+msgstr ""
+
+msgid "This project can detect who is using it, through the “username” block. To hide your identity, sign out before using the project."
+msgstr ""
+
+msgid "This project uses Cloud data ‒ a feature that is available only to signed in users."
+msgstr ""
+
+msgid "this script"
+msgstr ""
+
+msgid "this sprite"
+msgstr "aktuális szereplő"
+
+msgid "this way"
+msgstr "erre"
+
+msgid "Throw away all changes since opening this project?"
+msgstr ""
+
+msgid "timer"
+msgstr ""
+
+msgid "Tips"
+msgstr "Tippek"
+
+msgid "To delete a block definition, first remove all uses of the block."
+msgstr ""
+
+msgid "Transportation"
+msgstr "Szállítás"
+
+msgid "Triangle"
+msgstr "Triangulum"
+
+msgid "Trombone"
+msgstr "Harsona"
+
+msgid "Turbo mode"
+msgstr "Turbo mód"
+
+msgid "Turbo Mode"
+msgstr "Turbo mód"
+
+msgid "Type"
+msgstr "Típus"
+
+# 75%
+msgid "Undelete"
+msgstr "Törlés visszavonása"
+
+msgid "Underwater"
+msgstr "Vízalatti"
+
+# 75%
+msgid "Undo"
+msgstr "Mégse"
+
+msgid "undo"
+msgstr "mégse"
+
+msgid "Undo Revert"
+msgstr ""
+
+msgid "Ungroup"
+msgstr ""
+
+msgid "unshared"
+msgstr "megosztatlan"
+
+msgid "up"
+msgstr "fel"
+
+msgid "up arrow"
+msgstr "fel gomb"
+
+msgid "Upload backdrop from file"
+msgstr "Háttér feltöltése"
+
+msgid "Upload costume from file"
+msgstr "Jelmez feltöltése"
+
+msgid "Upload from your computer"
+msgstr "Feltöltés saját gépről"
+
+msgid "Upload sound from file"
+msgstr "Hang feltöltése"
+
+msgid "Upload sprite from file"
+msgstr "Szereplő feltöltése"
+
+msgid "Uploading image..."
+msgstr "Kép feltöltése folyamatban..."
+
+msgid "Uploading sound..."
+msgstr "Hang feltöltése folyamatban..."
+
+msgid "Uploading sprite..."
+msgstr "Szereplő feltöltése folyamatban..."
+
+msgid "variable"
+msgstr "változó"
+
+msgid "Variable name"
+msgstr "Változónév"
+
+msgid "Vector"
+msgstr "Vektor"
+
+msgid "Vector Mode"
+msgstr "Vektorkép mód"
+
+msgid "Vibraphone"
+msgstr "Vibrafon"
+
+msgid "Vibraslap"
+msgstr "Vibraslap"
+
+msgid "video motion"
+msgstr ""
+
+msgid "Video on:"
+msgstr ""
+
+msgid "Vocals"
+msgstr ""
+
+msgid "volume"
+msgstr "hangerő"
+
+msgid "Walking"
+msgstr "Gyalog"
+
+msgid "Want to save? Click remix"
+msgstr ""
+
+msgid "Which column do you want to import"
+msgstr ""
+
+msgid "whirl"
+msgstr "örvény"
+
+msgid "Wood Block"
+msgstr ""
+
+msgid "Wooden Flute"
+msgstr ""
+
+msgid "x position"
+msgstr ""
+
+msgid "y position"
+msgstr ""
+
+msgid "year"
+msgstr "év"
+
+msgid "You cannot edit cloud data in someone else's project.<br>Any change that you make in the editor will be temporary and not persistent."
+msgstr ""
+
+msgid "Eraser width:"
+msgstr "Radír vastagsága:"
+
+msgid "Line width:"
+msgstr "Vonalvastagság:"
+
+# 90%
+#, fuzzy
+#~ msgid "New sprite"
+#~ msgstr "Új szereplő:"
+
+#~ msgid "Paint"
+#~ msgstr "Festés"
+
+#~ msgid "any"
+#~ msgstr "egyik"
+
+#~ msgid "High Tom"
+#~ msgstr "Magas tom"
+
+#~ msgid "Long Guiro"
+#~ msgstr "Hosszú güiro"
+
+#~ msgid "Low Bongo"
+#~ msgstr "Mély bongo"
+
+#~ msgid "Low Conga"
+#~ msgstr "Mély konga"
+
+#~ msgid "Low Tom"
+#~ msgstr "Mély tom"
+
+#~ msgid "Low Wood Block"
+#~ msgstr "Mély fadob"
+
+#~ msgid "Maracas"
+#~ msgstr "Maracas (rumbatök)"
+
+#~ msgid "More"
+#~ msgstr "tovább"
+
+#~ msgid "Mute Triangle"
+#~ msgstr "Lefogott triangulum"
+
+#~ msgid "Open Triangle"
+#~ msgstr "Kitartott triangulum"
+
+#~ msgid "Pedal Hi-Hat"
+#~ msgstr "Lábcin"
+
+#~ msgid "Short Guiro"
+#~ msgstr "Rövid güiro"

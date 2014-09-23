@@ -1,0 +1,1754 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-05-02 00:56+0200\n"
+"PO-Revision-Date: 2013-06-06 06:21+0200\n"
+"Last-Translator: adlogi <adlogi@media.mit.edu>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.1.6\n"
+
+# The language name as it will appear in the language menu
+msgid "Language-Name"
+msgstr "Bahasa Indonesia"
+
+msgid "%b and %b"
+msgstr "%b dan %b"
+
+msgid "%b or %b"
+msgstr "%b atau %b"
+
+msgid "%m.attribute of %m.spriteOrStage"
+msgstr "%m.attribute dari %m.spriteOrStage"
+
+msgid "%m.list contains %s"
+msgstr "%m.list berisi %s"
+
+msgid "%m.mathOp of %n"
+msgstr "%m.mathOp dari %n"
+
+msgid "%m.sensor sensor value"
+msgstr "nilai sensor %m.sensor"
+
+msgid "%n mod %n"
+msgstr "%n mod %n"
+
+msgid "add %s to %m.list"
+msgstr "tambahkan %s ke %m.list"
+
+msgid "answer"
+msgstr "jawaban"
+
+msgid "ask %s and wait"
+msgstr "tanya %s dan tunggu"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop #"
+msgstr "latar belakang #"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop name"
+msgstr "nama latar belakang"
+
+msgid "broadcast %m.broadcast"
+msgstr "siarkan pesan %m.broadcast"
+
+msgid "broadcast %m.broadcast and wait"
+msgstr "siarkan pesan %m.broadcast dan tunggu"
+
+msgid "change %m.effect effect by %n"
+msgstr "ubah efek %m.effect sebesar %n"
+
+msgid "change %m.var by %n"
+msgstr "ubah %m.var sebesar %n"
+
+msgid "change pen color by %n"
+msgstr "ubah warna pena sebesar %n"
+
+msgid "change pen shade by %n"
+msgstr "ubah bayangan pena sebesar %n"
+
+msgid "change pen size by %n"
+msgstr "ubah ukuran pena sebesar %n"
+
+msgid "change size by %n"
+msgstr "ubah ukuran sebesar %n"
+
+msgid "change tempo by %n"
+msgstr "ubah tempo sebesar %n"
+
+msgid "change volume by %n"
+msgstr "ubah volume sebesar %n"
+
+msgid "change x by %n"
+msgstr "ubah x sebesar %n"
+
+msgid "change y by %n"
+msgstr "ubah y sebesar %n"
+
+msgid "clear"
+msgstr "bersihkan"
+
+msgid "clear graphic effects"
+msgstr "bersihkan semua efek grafik"
+
+msgid "color %c is touching %c?"
+msgstr "warna %c menyentuh %c?"
+
+msgid "Control"
+msgstr "kontrol"
+
+msgid "costume #"
+msgstr "kostum #"
+
+msgid "create clone of %m.spriteOnly"
+msgstr "buat kloning dari %m.spriteOnly"
+
+msgid "current %m.timeAndDate"
+msgstr "saat ini %m.timeAndDate"
+
+msgid "Data"
+msgstr "data"
+
+msgid "days since 2000"
+msgstr "hari sejak 2000"
+
+msgid "define"
+msgstr "definisikan"
+
+msgid "delete %d.listDeleteItem of %m.list"
+msgstr "hapus %d.listDeleteItem dari %m.list"
+
+msgid "delete this clone"
+msgstr "hapus kloning ini"
+
+msgid "direction"
+msgstr "arah"
+
+msgid "distance"
+msgstr "jarak"
+
+msgid "distance to %m.spriteOrMouse"
+msgstr "jarak ke %m.spriteOrMouse"
+
+msgid "else"
+msgstr "selain itu"
+
+msgid "Events"
+msgstr "kejadian"
+
+msgid "forever"
+msgstr "selamanya"
+
+msgid "glide %n secs to x:%n y:%n"
+msgstr "meluncur %n detik ke x:%n y:%n"
+
+msgid "go back %n layers"
+msgstr "mundur %n lapisan"
+
+msgid "go to %m.spriteOrMouse"
+msgstr "pergi ke %m.spriteOrMouse"
+
+msgid "go to front"
+msgstr "maju ke depan"
+
+msgid "go to x:%n y:%n"
+msgstr "pergi ke x:%n y:%n"
+
+msgid "hide"
+msgstr "sembunyikan"
+
+msgid "hide list %m.list"
+msgstr "sembunyikan daftar %m.list"
+
+msgid "hide variable %m.var"
+msgstr "sembunyikan variable %m.var"
+
+msgid "if %b then"
+msgstr "jika %b kemudian"
+
+msgid "if on edge, bounce"
+msgstr "jika di pinggir, pantulkan"
+
+msgid "insert %s at %d.listItem of %m.list"
+msgstr "sisipkan %s pada %d.listItem dari %m.list"
+
+msgid "item %d.listItem of %m.list"
+msgstr "item %d.listItem dari %m.list"
+
+msgid "join %s %s"
+msgstr "gabungkan %s %s"
+
+msgid "key %m.key pressed?"
+msgstr "tombol %m.key ditekan?"
+
+msgid "length of %m.list"
+msgstr "panjang dari %m.list"
+
+msgid "length of %s"
+msgstr "panjang dari %s"
+
+msgid "letter %n of %s"
+msgstr "huruf %n dari %s"
+
+msgid "Looks"
+msgstr "tampilan"
+
+msgid "loudness"
+msgstr "volume suara"
+
+msgid "More Blocks"
+msgstr "Lebih banyak Blok"
+
+msgid "Motion"
+msgstr "gerakan"
+
+msgid "mouse down?"
+msgstr "mouse ditekan?"
+
+msgid "mouse x"
+msgstr "mouse x"
+
+msgid "mouse y"
+msgstr "mouse y"
+
+msgid "move %n steps"
+msgstr "pindah %n langkah"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "next backdrop"
+msgstr "latar belakang berikutnya"
+
+msgid "next costume"
+msgstr "kostum berikutnya"
+
+msgid "not %b"
+msgstr "bukan %b"
+
+msgid "Operators"
+msgstr "operator"
+
+msgid "Pen"
+msgstr "pena"
+
+msgid "pen down"
+msgstr "turunkan pena"
+
+msgid "pen up"
+msgstr "angkat pena"
+
+msgid "pick random %n to %n"
+msgstr "pilih acak %n hingga %n"
+
+msgid "play drum %d.drum for %n beats"
+msgstr "mainkan drum %d.drum sebanyak %n ketukan"
+
+# 83%
+msgid "play note %d.note for %n beats"
+msgstr "mainkan nada %d.note sebanyak %n ketukan"
+
+msgid "play sound %m.sound"
+msgstr "mainkan suara %m.sound"
+
+msgid "play sound %m.sound until done"
+msgstr "mainkan suara %m.sound sampai selesai"
+
+msgid "point in direction %d.direction"
+msgstr "menghadap arah %d.direction"
+
+msgid "point towards %m.spriteOrMouse"
+msgstr "menghadap ke %m.spriteOrMouse"
+
+msgid "repeat %n"
+msgstr "ulangi %n"
+
+msgid "repeat until %b"
+msgstr "ulangi sampai %b"
+
+msgid "replace item %d.listItem of %m.list with %s"
+msgstr "ganti item %d.listItem dari %m.list dengan %s"
+
+msgid "reset timer"
+msgstr "reset timer"
+
+msgid "rest for %n beats"
+msgstr "diam selama %n ketukan"
+
+msgid "round %n"
+msgstr "bulatkan %n"
+
+msgid "say %s"
+msgstr "katakan %s"
+
+msgid "say %s for %n secs"
+msgstr "katakan %s selama %n detik"
+
+msgid "Sensing"
+msgstr "sensor"
+
+msgid "sensor %m.booleanSensor?"
+msgstr "sensor %m.booleanSensor?"
+
+msgid "set %m.effect effect to %n"
+msgstr "set efek %m.effect ke %n"
+
+msgid "set %m.var to %s"
+msgstr "set %m.var ke %s"
+
+msgid "set instrument to %d.instrument"
+msgstr "set alat musik ke %d.instrument"
+
+# 89%
+msgid "set motor direction %m.motorDirection"
+msgstr "atur arah motor %m.motorDirection"
+
+# 77%
+msgid "set motor power %n"
+msgstr "atur daya motor %n"
+
+msgid "set pen color to %c"
+msgstr "set warna pena ke %c"
+
+msgid "set pen color to %n"
+msgstr "set warna pena ke %n"
+
+msgid "set pen shade to %n"
+msgstr "set bayangan pena ke %n"
+
+msgid "set pen size to %n"
+msgstr "set ukuran pena ke %n"
+
+msgid "set rotation style %m.rotationStyle"
+msgstr "atur gaya rotasi %m.rotationStyle"
+
+msgid "set size to %n%"
+msgstr "set ukuran ke %n%"
+
+msgid "set tempo to %n bpm"
+msgstr "set tempo ke %n ketukan per menit"
+
+msgid "set video transparency to %n%"
+msgstr "atur transparansi video ke %n%"
+
+msgid "set volume to %n%"
+msgstr "set volume ke %n%"
+
+msgid "set x to %n"
+msgstr "set x ke %n"
+
+msgid "set y to %n"
+msgstr "set y ke %n"
+
+msgid "show"
+msgstr "tampilkan"
+
+msgid "show list %m.list"
+msgstr "tunjukkan daftar %m.list"
+
+msgid "show variable %m.var"
+msgstr "tunjukkan variabel %m.var"
+
+msgid "size"
+msgstr "ukuran"
+
+msgid "Sound"
+msgstr "suara"
+
+msgid "stamp"
+msgstr "cap"
+
+msgid "stop %m.stop"
+msgstr "berhenti %m.stop"
+
+msgid "stop all sounds"
+msgstr "hentikan semua suara"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop"
+msgstr "ganti latar blakang ke %m.backdrop"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop and wait"
+msgstr "ganti latar belakang ke %m.backdrop dan tunggu"
+
+msgid "switch costume to %m.costume"
+msgstr "ganti pakaian ke %m.costume"
+
+msgid "tempo"
+msgstr "tempo"
+
+msgid "think %s"
+msgstr "berpikir %s"
+
+msgid "think %s for %n secs"
+msgstr "berpikir %s selama %n detik"
+
+msgid "tilt"
+msgstr "miringkan"
+
+msgid "timer"
+msgstr "timer"
+
+msgid "touching %m.touching?"
+msgstr "menyentuh %m.touching?"
+
+msgid "touching color %c?"
+msgstr "menyentuh warna %c?"
+
+msgid "turn @turnLeft %n degrees"
+msgstr "putar @turnLeft %n derajad"
+
+msgid "turn @turnRight %n degrees"
+msgstr "putar @turnRight %n derajad"
+
+msgid "turn motor off"
+msgstr "matikan motor"
+
+msgid "turn motor on"
+msgstr "hidupkan motor"
+
+# 80%
+msgid "turn motor on for %n secs"
+msgstr "hidupkan motor selama %n detik"
+
+msgid "turn video %m.videoState"
+msgstr "putar video %m.videoState"
+
+msgid "username"
+msgstr ""
+
+msgid "video %m.videoMotionType on %m.stageOrThis"
+msgstr "video %m.videoMotionType pada %m.stageOrThis"
+
+msgid "volume"
+msgstr "volume"
+
+msgid "wait %n secs"
+msgstr "tunggu %n detik"
+
+msgid "wait until %b"
+msgstr "tunggu sampai %b"
+
+# 75%
+msgid "when %m.booleanSensor"
+msgstr "ketika %m.booleanSensor?"
+
+msgid "when %m.key key pressed"
+msgstr "bila tombol %m.key ditekan"
+
+msgid "when %m.triggerSensor > %n"
+msgstr "ketika %m.triggerSensor > %n"
+
+msgid "when @greenFlag clicked"
+msgstr "bila @greenFlag diklik"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "when backdrop switches to %m.backdrop"
+msgstr "ketika latar belakang diganti menjadi %m.backdrop"
+
+msgid "when distance < %n"
+msgstr ""
+
+msgid "when I receive %m.broadcast"
+msgstr ""
+
+msgid "when I start as a clone"
+msgstr ""
+
+msgid "when this sprite clicked"
+msgstr ""
+
+msgid "when tilt = %n"
+msgstr ""
+
+msgid "x position"
+msgstr "posisi x"
+
+msgid "y position"
+msgstr "posisi y"
+
+#~ msgid "forever if %b"
+#~ msgstr "selamanya jika %b"
+
+#~ msgid "if %b"
+#~ msgstr "jika %b"
+
+#~ msgid "motor direction %m.motorDirection"
+#~ msgstr "arah motor %m.motorDirection"
+
+#~ msgid "motor off"
+#~ msgstr "matikan motor"
+
+#~ msgid "motor on"
+#~ msgstr "hidupkan motor"
+
+#~ msgid "motor on for %n secs"
+#~ msgstr "hidupkan motor selama %n detik"
+
+#~ msgid "motor power %n"
+#~ msgstr "daya motor %n"
+
+#~ msgid "play note %n for %n beats"
+#~ msgstr "mainkan nada %d.note sebanyak %n ketukan"
+
+##################
+# User Interface #
+##################
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-19 20:53+0200\n"
+"PO-Revision-Date: 2013-07-19 20:53+0200\n"
+"Last-Translator: Anonymous Pootle User\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.1.6\n"
+
+msgid "10 ^"
+msgstr ""
+
+msgid "<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only numbers are supported<br>Chat rooms are not allowed, and will be removed<br>For more info, <a href="/help/faq/#clouddata" target="_blank">see the cloud data FAQ!</a>"
+msgstr ""
+
+msgid "A connected"
+msgstr ""
+
+msgid "a copy of the project file on your computer."
+msgstr ""
+
+msgid "abs"
+msgstr "abs"
+
+msgid "Account settings"
+msgstr ""
+
+msgid "acos"
+msgstr ""
+
+msgid "Add boolean input:"
+msgstr ""
+
+msgid "add comment"
+msgstr ""
+
+msgid "Add label text:"
+msgstr ""
+
+msgid "Add number input:"
+msgstr ""
+
+msgid "Add string input:"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "all"
+msgstr "semua"
+
+msgid "all around"
+msgstr ""
+
+msgid "Animal"
+msgstr ""
+
+msgid "Animals"
+msgstr ""
+
+msgid "asin"
+msgstr ""
+
+msgid "assets loaded"
+msgstr ""
+
+msgid "atan"
+msgstr ""
+
+msgid "B connected"
+msgstr ""
+
+msgid "Back a layer"
+msgstr ""
+
+msgid "Backdrop"
+msgstr ""
+
+msgid "backdrop"
+msgstr ""
+
+msgid "backdrop #"
+msgstr ""
+
+msgid "Backdrop Library"
+msgstr ""
+
+msgid "backdrop name"
+msgstr ""
+
+msgid "backdrop1"
+msgstr ""
+
+msgid "backdrops"
+msgstr ""
+
+msgid "Backdrops"
+msgstr ""
+
+msgid "Backpack"
+msgstr ""
+
+msgid "Bass"
+msgstr ""
+
+msgid "Bass Drum"
+msgstr ""
+
+msgid "Bassoon"
+msgstr "Serunai Kayu"
+
+msgid "Because you have a new Scratch account, any changes to cloud data won't be saved yet. Keep participating on the site you'll be able to use cloud data soon!"
+msgstr ""
+
+msgid "Bitmap"
+msgstr ""
+
+msgid "Bitmap Mode"
+msgstr ""
+
+msgid "Block help"
+msgstr ""
+
+msgid "Bongo"
+msgstr ""
+
+msgid "brightness"
+msgstr "kecerahan"
+
+msgid "Bring to front"
+msgstr ""
+
+msgid "Broadcast"
+msgstr ""
+
+msgid "Brush"
+msgstr ""
+
+msgid "button pressed"
+msgstr "tombol ditekan"
+
+msgid "by"
+msgstr ""
+
+msgid "bytes loaded"
+msgstr ""
+
+msgid "C connected"
+msgstr ""
+
+msgid "Cabasa"
+msgstr "Cabasa"
+
+msgid "Camera"
+msgstr "Kamera"
+
+msgid "can drag in player:"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Cannot Delete"
+msgstr ""
+
+msgid "Can’t find network connection or reach server."
+msgstr ""
+
+msgid "Castle"
+msgstr ""
+
+msgid "Category"
+msgstr ""
+
+msgid "ceiling"
+msgstr ""
+
+msgid "Cello"
+msgstr "Biola Cello"
+
+msgid "Choir"
+msgstr ""
+
+msgid "Choose backdrop from library"
+msgstr ""
+
+msgid "Choose costume from library"
+msgstr ""
+
+msgid "Choose sound from library"
+msgstr ""
+
+msgid "Choose sprite from library"
+msgstr ""
+
+msgid "Circle"
+msgstr ""
+
+msgid "City"
+msgstr ""
+
+msgid "Clarinet"
+msgstr "Klarinet"
+
+msgid "Claves"
+msgstr "Claves"
+
+msgid "cleanup"
+msgstr ""
+
+msgid "Clear"
+msgstr ""
+
+msgid "clear senders/receivers"
+msgstr ""
+
+msgid "Click "Save now" to try again or "Download" to save"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Closed Hi-Hat"
+msgstr "Closed hi-hat"
+
+msgid "Cloud"
+msgstr ""
+
+msgid "Cloud data"
+msgstr ""
+
+msgid "color"
+msgstr "warna"
+
+msgid "Color a shape"
+msgstr ""
+
+msgid "Conga"
+msgstr ""
+
+msgid "Connecting to Cloud data server..."
+msgstr ""
+
+msgid "Convert to bitmap"
+msgstr ""
+
+msgid "Convert to vector"
+msgstr ""
+
+msgid "Converting mp3..."
+msgstr ""
+
+msgid "copy"
+msgstr "Salin"
+
+msgid "Copying..."
+msgstr ""
+
+msgid "cos"
+msgstr ""
+
+msgid "Costume"
+msgstr ""
+
+msgid "costume #"
+msgstr ""
+
+msgid "Costume Library"
+msgstr ""
+
+msgid "costume name"
+msgstr ""
+
+msgid "costume1"
+msgstr ""
+
+msgid "costume2"
+msgstr ""
+
+msgid "Costumes"
+msgstr ""
+
+msgid "Costumes > 1"
+msgstr ""
+
+msgid "Costumes:"
+msgstr ""
+
+msgid "Cowbell"
+msgstr "Lonceng Sapi"
+
+msgid "Crash Cymbal"
+msgstr ""
+
+msgid "Creating..."
+msgstr ""
+
+msgid "Currently, only numbers can be stored in Cloud variables."
+msgstr ""
+
+msgid "cut"
+msgstr ""
+
+msgid "D connected"
+msgstr ""
+
+msgid "date"
+msgstr ""
+
+msgid "day of week"
+msgstr ""
+
+# 83%
+#, fuzzy
+msgid "Delete"
+msgstr "hapus"
+
+msgid "delete"
+msgstr "hapus"
+
+msgid "delete variable"
+msgstr ""
+
+msgid "direction"
+msgstr ""
+
+msgid "direction:"
+msgstr ""
+
+msgid "don't rotate"
+msgstr ""
+
+msgid "down"
+msgstr "bawah"
+
+msgid "down arrow"
+msgstr "panah bawah"
+
+msgid "Download"
+msgstr ""
+
+msgid "Download to your computer"
+msgstr ""
+
+msgid "duplicate"
+msgstr "gandakan"
+
+msgid "Duplicate"
+msgstr "gandakan"
+
+msgid "e ^"
+msgstr ""
+
+msgid "edge"
+msgstr "pinggir"
+
+msgid "edit"
+msgstr "Edit"
+
+msgid "Edit"
+msgstr "Edit"
+
+msgid "Edit Block"
+msgstr ""
+
+msgid "Effects"
+msgstr ""
+
+msgid "Electric Guitar"
+msgstr ""
+
+msgid "Electric Piano"
+msgstr ""
+
+msgid "Electronic"
+msgstr ""
+
+msgid "Ellipse"
+msgstr ""
+
+msgid "Erase"
+msgstr ""
+
+msgid "Eraser width"
+msgstr ""
+
+msgid "Error!"
+msgstr ""
+
+msgid "export"
+msgstr ""
+
+msgid "fade in"
+msgstr ""
+
+msgid "fade out"
+msgstr ""
+
+msgid "Fantasy"
+msgstr ""
+
+msgid "Features"
+msgstr ""
+
+msgid "File"
+msgstr ""
+
+msgid "Fill with color"
+msgstr ""
+
+msgid "fisheye"
+msgstr "lensa mata ikan"
+
+msgid "Flip left-right"
+msgstr ""
+
+msgid "Flip up-down"
+msgstr ""
+
+msgid "floor"
+msgstr ""
+
+msgid "Flute"
+msgstr "Seruling"
+
+msgid "Flying"
+msgstr ""
+
+msgid "Font:"
+msgstr ""
+
+msgid "For all sprites"
+msgstr ""
+
+msgid "For this sprite only"
+msgstr ""
+
+msgid "Forward a layer"
+msgstr ""
+
+msgid "ghost"
+msgstr "hantu"
+
+msgid "Go to My Stuff"
+msgstr ""
+
+msgid "Group"
+msgstr ""
+
+msgid "Grow"
+msgstr ""
+
+msgid "Guiro"
+msgstr ""
+
+msgid "Guitar"
+msgstr ""
+
+msgid "Hand Clap"
+msgstr "Suara Tepuk Tangan"
+
+msgid "hide"
+msgstr ""
+
+msgid "High C"
+msgstr ""
+
+msgid "hour"
+msgstr ""
+
+msgid "Human"
+msgstr ""
+
+# 83%
+#, fuzzy
+msgid "import"
+msgstr "impor"
+
+msgid "Import"
+msgstr "impor"
+
+msgid "Importing sound..."
+msgstr ""
+
+msgid "Indoors"
+msgstr ""
+
+msgid "Installing..."
+msgstr ""
+
+msgid "Instruments"
+msgstr ""
+
+msgid "large readout"
+msgstr ""
+
+msgid "last"
+msgstr "terakhir"
+
+msgid "left"
+msgstr "kiri"
+
+msgid "left arrow"
+msgstr "panah kiri"
+
+msgid "left-right"
+msgstr ""
+
+msgid "length"
+msgstr ""
+
+msgid "Library"
+msgstr ""
+
+msgid "light"
+msgstr "cahaya"
+
+msgid "limit reached"
+msgstr ""
+
+msgid "Line"
+msgstr ""
+
+msgid "Line width"
+msgstr ""
+
+# 75%
+#, fuzzy
+msgid "list"
+msgstr "terakhir"
+
+msgid "List name"
+msgstr ""
+
+msgid "ln"
+msgstr ""
+
+msgid "Loading project..."
+msgstr ""
+
+msgid "log"
+msgstr ""
+
+msgid "louder"
+msgstr ""
+
+msgid "loudness"
+msgstr ""
+
+msgid "Low C"
+msgstr ""
+
+msgid "Make a Block"
+msgstr ""
+
+msgid "Make a List"
+msgstr ""
+
+msgid "Make a Variable"
+msgstr ""
+
+msgid "Marimba"
+msgstr "Marimba"
+
+msgid "Max"
+msgstr ""
+
+msgid "meow"
+msgstr ""
+
+msgid "Message Name"
+msgstr ""
+
+msgid "message1"
+msgstr ""
+
+msgid "Microphone Volume:"
+msgstr ""
+
+msgid "Middle C"
+msgstr ""
+
+msgid "Min"
+msgstr ""
+
+msgid "minute"
+msgstr ""
+
+msgid "month"
+msgstr ""
+
+msgid "mosaic"
+msgstr "mosaik"
+
+msgid "motion"
+msgstr ""
+
+msgid "mouse-pointer"
+msgstr "pointer-mouse"
+
+msgid "Multiple"
+msgstr ""
+
+msgid "Music and Dance"
+msgstr ""
+
+msgid "Music Box"
+msgstr "Kotak Musik"
+
+msgid "Music Loops"
+msgstr ""
+
+msgid "My Stuff"
+msgstr ""
+
+msgid "myself"
+msgstr ""
+
+msgid "Nature"
+msgstr ""
+
+#, fuzzy
+msgid "New"
+msgstr "Nouveau"
+
+msgid "New backdrop from camera"
+msgstr ""
+
+msgid "New backdrop:"
+msgstr ""
+
+msgid "New costume from camera"
+msgstr ""
+
+msgid "New costume:"
+msgstr ""
+
+msgid "New List"
+msgstr ""
+
+msgid "new message..."
+msgstr ""
+
+msgid "New name"
+msgstr ""
+
+msgid "New sound:"
+msgstr ""
+
+msgid "New sprite from camera"
+msgstr ""
+
+msgid "New sprite:"
+msgstr "Sprite baru:"
+
+msgid "New Variable"
+msgstr ""
+
+msgid "No motion blocks"
+msgstr ""
+
+msgid "normal readout"
+msgstr ""
+
+msgid "Not saved; network or server problem."
+msgstr ""
+
+msgid "Not saved; project did not load."
+msgstr ""
+
+msgid "of"
+msgstr ""
+
+msgid "off"
+msgstr "Mati"
+
+msgid "Offline Editor"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "on"
+msgstr "Hidup"
+
+msgid "on-flipped"
+msgstr ""
+
+msgid "Open Cuica"
+msgstr "Cuica Terbuka"
+
+msgid "Open Hi-Hat"
+msgstr "Hi-Hat Terbuka"
+
+msgid "Options"
+msgstr ""
+
+msgid "Organ"
+msgstr ""
+
+msgid "Other"
+msgstr ""
+
+msgid "other scripts in sprite"
+msgstr ""
+
+msgid "Outdoors"
+msgstr ""
+
+msgid "Paint new backdrop"
+msgstr ""
+
+msgid "Paint new costume"
+msgstr ""
+
+msgid "Paint new sprite"
+msgstr ""
+
+msgid "paste"
+msgstr ""
+
+msgid "Pencil"
+msgstr ""
+
+msgid "People"
+msgstr ""
+
+msgid "Percussion"
+msgstr ""
+
+msgid "photo1"
+msgstr ""
+
+msgid "Piano"
+msgstr ""
+
+msgid "Pick up color"
+msgstr ""
+
+msgid "pixelate"
+msgstr "pixelate"
+
+msgid "Pizzicato"
+msgstr ""
+
+msgid "pop"
+msgstr "pop"
+
+msgid "Profile"
+msgstr ""
+
+msgid "Project did not load."
+msgstr ""
+
+msgid "Project not saved!"
+msgstr ""
+
+msgid "random"
+msgstr ""
+
+msgid "Record"
+msgstr "rekam"
+
+msgid "Record new sound"
+msgstr ""
+
+msgid "recording1"
+msgstr ""
+
+msgid "Rectangle"
+msgstr ""
+
+# 75%
+#, fuzzy
+msgid "Redo"
+msgstr "Ulangi"
+
+msgid "redo"
+msgstr "Ulangi"
+
+msgid "Remix"
+msgstr ""
+
+msgid "Remixing..."
+msgstr ""
+
+msgid "Rename"
+msgstr ""
+
+msgid "rename variable"
+msgstr ""
+
+msgid "requires sign in"
+msgstr ""
+
+msgid "Reshape"
+msgstr ""
+
+msgid "resistance-A"
+msgstr ""
+
+msgid "resistance-B"
+msgstr ""
+
+msgid "resistance-C"
+msgstr ""
+
+msgid "resistance-D"
+msgstr ""
+
+msgid "reverse"
+msgstr "balikkan arah"
+
+msgid "Revert"
+msgstr ""
+
+msgid "Reverting..."
+msgstr ""
+
+msgid "right"
+msgstr "kanan"
+
+msgid "right arrow"
+msgstr "panah kanan"
+
+msgid "rotation style:"
+msgstr ""
+
+msgid "Run without screen refresh"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Save as a copy"
+msgstr ""
+
+msgid "Save now"
+msgstr ""
+
+msgid "save to local file"
+msgstr ""
+
+msgid "Saved"
+msgstr ""
+
+msgid "Saving changes..."
+msgstr ""
+
+msgid "Saving..."
+msgstr ""
+
+msgid "Saxophone"
+msgstr ""
+
+msgid "Script"
+msgstr ""
+
+msgid "Scripts"
+msgstr ""
+
+msgid "Scripts:"
+msgstr ""
+
+msgid "second"
+msgstr ""
+
+msgid "See project page"
+msgstr ""
+
+msgid "Select"
+msgstr ""
+
+msgid "select all"
+msgstr ""
+
+msgid "Select and duplicate"
+msgstr ""
+
+msgid "Send to back"
+msgstr ""
+
+msgid "Set costume center"
+msgstr ""
+
+msgid "Set Costume Center"
+msgstr ""
+
+msgid "set slider min and max"
+msgstr ""
+
+msgid "Share"
+msgstr ""
+
+msgid "shared"
+msgstr ""
+
+msgid "Shift:"
+msgstr ""
+
+msgid "show"
+msgstr ""
+
+msgid "show receivers"
+msgstr ""
+
+msgid "show senders"
+msgstr ""
+
+msgid "show:"
+msgstr ""
+
+msgid "Shrink"
+msgstr ""
+
+msgid "Side Stick"
+msgstr "Tongkat Samping"
+
+msgid "Sign in"
+msgstr ""
+
+msgid "Sign in to save"
+msgstr ""
+
+msgid "Sign out"
+msgstr ""
+
+msgid "silence"
+msgstr ""
+
+msgid "sin"
+msgstr ""
+
+msgid "size"
+msgstr ""
+
+msgid "slider"
+msgstr "slider"
+
+msgid "Slider Range"
+msgstr ""
+
+msgid "Small stage layout"
+msgstr ""
+
+msgid "Smooth"
+msgstr ""
+
+msgid "Snare Drum"
+msgstr ""
+
+msgid "softer"
+msgstr ""
+
+msgid "sound"
+msgstr ""
+
+msgid "Sound"
+msgstr ""
+
+msgid "Sound Library"
+msgstr ""
+
+msgid "Sounds"
+msgstr ""
+
+msgid "space"
+msgstr "spasi"
+
+# 80%
+#, fuzzy
+msgid "Space"
+msgstr "spasi"
+
+msgid "Sports"
+msgstr ""
+
+# 85%
+#, fuzzy
+msgid "Sprite"
+msgstr "Sprite"
+
+msgid "Sprite Library"
+msgstr ""
+
+# 85%
+#, fuzzy
+msgid "Sprite1"
+msgstr "Sprite"
+
+msgid "Sprites"
+msgstr "Sprite"
+
+msgid "sqrt"
+msgstr "akar kuadrat"
+
+msgid "Square"
+msgstr ""
+
+msgid "Stage"
+msgstr "Panggung"
+
+msgid "Stage selected:"
+msgstr ""
+
+msgid "Steel Drum"
+msgstr ""
+
+msgid "stored on server"
+msgstr ""
+
+msgid "Synth Lead"
+msgstr ""
+
+msgid "Synth Pad"
+msgstr ""
+
+msgid "Tambourine"
+msgstr "Rebana"
+
+msgid "tan"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "that way"
+msgstr "ke arah sana"
+
+msgid "Theme"
+msgstr ""
+
+msgid "Things"
+msgstr ""
+
+msgid "This project can detect who is using it, through the “username” block. To hide your identity, sign out before using the project."
+msgstr ""
+
+msgid "This project uses Cloud data ‒ a feature that is available only to signed in users."
+msgstr ""
+
+msgid "this script"
+msgstr ""
+
+msgid "this sprite"
+msgstr ""
+
+msgid "this way"
+msgstr "ke arah sini"
+
+msgid "Throw away all changes since opening this project?"
+msgstr ""
+
+msgid "timer"
+msgstr ""
+
+msgid "Tips"
+msgstr ""
+
+msgid "To delete a block definition, first remove all uses of the block."
+msgstr ""
+
+msgid "Transportation"
+msgstr ""
+
+msgid "Triangle"
+msgstr ""
+
+msgid "Trombone"
+msgstr "Trombon"
+
+msgid "Turbo mode"
+msgstr ""
+
+msgid "Turbo Mode"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+# 75%
+#, fuzzy
+msgid "Undelete"
+msgstr "hapus"
+
+msgid "Underwater"
+msgstr ""
+
+# 75%
+#, fuzzy
+msgid "Undo"
+msgstr "Batalkan"
+
+msgid "undo"
+msgstr "Batalkan"
+
+msgid "Undo Revert"
+msgstr ""
+
+msgid "Ungroup"
+msgstr ""
+
+msgid "unshared"
+msgstr ""
+
+msgid "up"
+msgstr "atas"
+
+msgid "up arrow"
+msgstr "panah atas"
+
+msgid "Upload backdrop from file"
+msgstr ""
+
+msgid "Upload costume from file"
+msgstr ""
+
+msgid "Upload from your computer"
+msgstr ""
+
+msgid "Upload sound from file"
+msgstr ""
+
+msgid "Upload sprite from file"
+msgstr ""
+
+msgid "Uploading image..."
+msgstr ""
+
+msgid "Uploading sound..."
+msgstr ""
+
+msgid "Uploading sprite..."
+msgstr ""
+
+msgid "variable"
+msgstr ""
+
+msgid "Variable name"
+msgstr ""
+
+msgid "Vector"
+msgstr ""
+
+msgid "Vector Mode"
+msgstr ""
+
+msgid "Vibraphone"
+msgstr "Vibrafon"
+
+msgid "Vibraslap"
+msgstr "Vibraslap"
+
+msgid "video motion"
+msgstr ""
+
+msgid "Video on:"
+msgstr ""
+
+msgid "Vocals"
+msgstr ""
+
+msgid "volume"
+msgstr ""
+
+msgid "Walking"
+msgstr ""
+
+msgid "Want to save? Click remix"
+msgstr ""
+
+msgid "Which column do you want to import"
+msgstr ""
+
+msgid "whirl"
+msgstr "pusaran"
+
+msgid "Wood Block"
+msgstr ""
+
+msgid "Wooden Flute"
+msgstr ""
+
+msgid "x position"
+msgstr ""
+
+msgid "y position"
+msgstr ""
+
+msgid "year"
+msgstr ""
+
+msgid "You cannot edit cloud data in someone else's project.<br>Any change that you make in the editor will be temporary and not persistent."
+msgstr ""
+
+msgid "Eraser width:"
+msgstr ""
+
+msgid "Line width:"
+msgstr ""
+
+# 90%
+#, fuzzy
+#~ msgid "New sprite"
+#~ msgstr "Sprite baru:"
+
+#~ msgid "Paint"
+#~ msgstr "Lukis"
+
+#~ msgid "any"
+#~ msgstr "sembarang"
+
+#~ msgid "High Tom"
+#~ msgstr "Tom Tinggi"
+
+#~ msgid "Long Guiro"
+#~ msgstr "Guiro Panjang"
+
+#~ msgid "Low Bongo"
+#~ msgstr "Bongo Rendah"
+
+#~ msgid "Low Conga"
+#~ msgstr "Konga Rendah"
+
+#~ msgid "Low Tom"
+#~ msgstr "Tom Rendah"
+
+#~ msgid "Low Wood Block"
+#~ msgstr "Bilah Kayu Rendah"
+
+#~ msgid "Maracas"
+#~ msgstr "Marakas"
+
+#~ msgid "More"
+#~ msgstr "lainnya"
+
+#~ msgid "Mute Triangle"
+#~ msgstr "Segitiga Teredam"
+
+#~ msgid "Open Triangle"
+#~ msgstr "Segitiga Terbuka"
+
+#~ msgid "Pedal Hi-Hat"
+#~ msgstr "Pedal Hi-Hat"
+
+#~ msgid "Short Guiro"
+#~ msgstr "Guiro Pendek"
