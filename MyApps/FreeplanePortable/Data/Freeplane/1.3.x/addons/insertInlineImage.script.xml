@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon name="insertInlineImage" version="v0.9.9" latestVersion="" freeplaneVersionFrom="1.2.10" homepage="http://freeplane.sourceforge.net/addons/insertInlineImage" author="Volker B&#xf6;rchers, Rickenbroc" active="true">
+    <description><![CDATA[This add-on is a convenient mean to add images on the fly in your maps. The images can come from :
+- a file from your computer,
+- the clipboard (copy),
+- an url from the internet
+
+You can resize the display (with a preview pane) and put it in :
+- node core
+- node details
+- note
+- node extension
+
+You can even decorate the image inserted with a link which point wherever you would want.]]></description>
+    <license><![CDATA[This add-on is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.]]></license>
+    <preferences.xml/>
+    <translations>
+        <locale name="en">
+            <entry key="addons.insertInlineImage"><![CDATA[Insert Inline Image]]></entry>
+            <entry key="addons.insertInlineImage.url.invalid"><![CDATA[Invalid URL]]></entry>
+        </locale>
+        <locale name="de">
+            <entry key="addons.insertInlineImage"><![CDATA[Inline-Grafik einf\u00FCgen]]></entry>
+            <entry key="addons.insertInlineImage.url.invalid"><![CDATA[Ung\u00FCltige URL]]></entry>
+        </locale>
+        <locale name="fr">
+            <entry key="addons.insertInlineImage"><![CDATA[Image \u00E0 la vol\u00E9e]]></entry>
+            <entry key="addons.insertInlineImage.url.invalid"><![CDATA[URL invalide]]></entry>
+        </locale>
+    </translations>
+    <default.properties/>
+    <images>
+        <image name="${name}.png"/>
+        <image name="${name}-icon.png"/>
+        <image name="${name}-screenshot-1.png"/>
+    </images>
+    <deinstall>
+        <delete><![CDATA[${installationbase}/addons/insertInlineImage.script.xml]]></delete>
+        <delete><![CDATA[${installationbase}/scripts/insertInlineImage.groovy]]></delete>
+        <delete><![CDATA[${installationbase}/resources/images/insertInlineImage.png]]></delete>
+        <delete><![CDATA[${installationbase}/resources/images/insertInlineImage-icon.png]]></delete>
+        <delete><![CDATA[${installationbase}/resources/images/insertInlineImage-screenshot-1.png]]></delete>
+    </deinstall>
+    <scripts>
+        <script name="insertInlineImage.groovy" menuTitleKey="addons.insertInlineImage" menuLocation="/menu_bar/edit/menu_extensions" executionMode="ON_SINGLE_NODE" execute_scripts_without_asking="true" execute_scripts_without_file_restriction="true" execute_scripts_without_write_restriction="true" execute_scripts_without_exec_restriction="false" execute_scripts_without_network_restriction="false" signed_script_are_trusted="false"/>
+    </scripts>
+    <libs/>
+</addon>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon name="packAndGo" version="v0.4" latestVersion="" freeplaneVersionFrom="1.2.11" homepage="http://freeplane.sourceforge.net/addons/packAndGo" author="Volker B&#xf6;rchers" active="true">
+    <description><![CDATA[Pack and Go provides a function to pack a map with all its dependencies into one zip file.]]></description>
+    <license><![CDATA[
+This add-on is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+]]></license>
+    <preferences.xml/>
+    <translations>
+        <locale name="en">
+            <entry key="addons.packAndGo"><![CDATA[Pack & Go]]></entry>
+        </locale>
+        <locale name="de">
+            <entry key="addons.packAndGo"><![CDATA[Pack & Go]]></entry>
+        </locale>
+    </translations>
+    <default.properties/>
+    <images>
+        <image name="packAndGo-icon.png"/>
+        <image name="packAndGo-screenshot-1.png"/>
+    </images>
+    <deinstall>
+        <delete><![CDATA[${installationbase}/addons/packAndGo.script.xml]]></delete>
+        <delete><![CDATA[${installationbase}/scripts/packAndGo.groovy]]></delete>
+    </deinstall>
+    <scripts>
+        <script name="packAndGo.groovy" menuTitleKey="addons.packAndGo" menuLocation="/menu_bar/file" executionMode="ON_SINGLE_NODE" execute_scripts_without_asking="true" execute_scripts_without_file_restriction="true" execute_scripts_without_write_restriction="true" execute_scripts_without_exec_restriction="false" execute_scripts_without_network_restriction="false" signed_script_are_trusted="false"/>
+    </scripts>
+    <libs/>
+</addon>

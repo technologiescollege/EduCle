@@ -1,0 +1,177 @@
+ <article>                                                   
+        <header>                                                               
+          <h2>Paramètres de publication</h2>                                                               
+          <p>Lorsque vous appuyez sur le bouton « Générer l'animation interactive » (en raccourci ctrl + entrée), vous êtes invité(e) à choisir le nom et l'emplacement d'un fichier portant l'extension .swf.                                                              
+          </p>  			                                 
+          <p>Ce fichier représente  une petite application autonome au format flash qui contient tous les contenus (images, textes, sons) que vous avez créés et leur ajoute de l'interactivité.                                                             
+          </p>  			                                 
+          <p>  La création de ce fichier swf prend quelques instants. Il s'agit d'une étape de compilation (transformation d'un ensemble de ressources comme du code informatique, des images ou des sons en une application).                                 
+          </p>  			                                 
+          <p>L'avantage de cette étape est que, une fois votre image active compilée, vous avez la certitude qu'elle aura une apparence et un comportement identiques quels que soient l'ordinateur et le navigateur de l'utilisateur.                                                          
+          </p>			                                 
+          <p>Un fichier swf ne peut pas être modifié par l'utilisateur même en utilisant le logiciel Images Actives. Pour modifier une image active, il faut disposer du fichier source (le fichier .xia).                                                        
+          </p> 		                                                                             
+        </header>                                                     
+        <ol>                                                                    
+          <li>                                                                      
+          <h3 id="dimensions-animation">Dimensions de l'animation</h3>                                                                      
+          <p>Même si elle peut être zoomée dans un navigateur web, votre animation flash possède, à l'instar d'une image numérique, une dimension propre (largeur - hauteur). Une fois le fichier swf créé, ces dimensions sont fixées. Pour les modifier, il faut le générer à nouveau.                                                                  
+          </p>                                                                 
+          <p> En cliquant sur l'onglet « Image », vous accédez à un des contrôles vous permettant de fixer les dimensions de votre image active. Il ne s'agit pas simplement de la largeur et de la hauteur de la zone dévolue à l'image mais des dimensions de l'ensemble de l'animation flash, incluant ses marges, les zones de textes (titre, accordéon), la barre d'outils, le volet de métadonnées.		                                              
+          </p>    		                                   
+          <figure>			                                       
+            <img src="views/menu_dimensions_standard.png" 				alt="Le menu des dimensions" />			                                       
+            <figcaption>Le menu des dimensions                                       
+            </figcaption>		                                   
+          </figure>  		                                   
+          <p> Le menu déroulant vous propose un ensemble de dimensions prédéfinies correspondant aux résolutions d'écran les plus courantes. Si votre image active est destinée à être utilisée en mode plein écran, et si vous connaissez la résolution d'écran (par exemple, celle de votre tableau numérique interactif, ou celle d'un modèle de tablette utilisé par vos élèves), vous avez intérêt à choisir une entrée de ce menu.		                                              
+          </p>   		                                   
+          <p> Vous pouvez également fixer des dimensions arbitraires en modifiant les champs « largeur » et « hauteur ». Si vous souhaitez insérer l'image active dans un emplacement de la maquette d'une page web, cette solution convient. 		                                              
+          </p>   		                                   
+          <p> Le choix le plus pertinent consiste à cocher la case « dimensions optimisées ». Lorsque vous modifierez une dimension (largeur ou hauteur), l'autre dimension sera recalculée de manière à ce que les marges intérieures de votre image actives soient harmonieuses et à ce qu'il ne subsiste aucun vide.		                                              
+          </p>  			                                 
+          <p>	  La première fois que vous cochez cette case, c'est la largeur qui sera recalculée en fonction de la hauteur.                                            
+          </p>  		                                                                                            
+          </li>                                                                    
+          <li>                                                                      
+          <h3 id="animation_prechargement">Publication web : l'animation de préchargement</h3>                                                                      
+          <p>Lorsque l'utilisateur se connecte à une page web contenant une image active, celle-ci n'est pas immédiatement disponible : elle doit d'abord être chargée depuis le serveur. Plus l'image active contient des ressources – images, sons – de poids élevé, plus ce chargement durera longtemps (cas particulier, si vous n'embarquez pas les ressources, voir ci-dessous :                                        
+            <a href="#embarquement_ou_chargement">Publication web : embarquement ou chargement des ressources</a>).                                                                
+          </p>         			                                 
+          <p>			Pour simplifier la mise en ligne de vos animations, lorsque vous créez un fichier swf, Images actives génère une « enveloppe » web comportant une animation de préchargement. Cette animation s'activera automatiquement jusqu'à ce que le fichier swf soit entièrement chargé, puis disparaîtra. Cela permettra à l'utilisateur de comprendre qu'il doit patienter jusqu'au chargement complet de la ressource. 			                                 
+          </p>			                                 
+          <p>			Pour une publication standard sur le web, vérifier que les cases « Désactiver le préchargement pour une utilisation en local » et « Ne pas embarquer images et sons dans l'animation » ne sont pas cochées. Ainsi, votre animation sera constituée d'un fichier swf contenant toutes ses images et ses éventuels sons.  			                                 
+          </p>			                                 
+          <figure>			                                       
+            <img src="views/options_parametres_publication_000.png" 				alt="Une publication standard sur le web" />			                                       
+            <figcaption>Une publication standard sur le web                                       
+            </figcaption>		                                   
+          </figure>  		                                   
+          <p>			Pour mettre en ligne, copiez simplement sur le serveur, dans un répertoire spécifique, les quatre fichiers suivants qui ont été générés dans le répertoire où vous avez exporté le fichier swf :</p>  				                                       
+            <ul>					                                             
+              <li>votre fichier swf                                             
+              </li>					                                             
+              <li>swfobject.js                                             
+              </li>					                                             
+              <li>loading.gif                                             
+              </li>					                                             
+              <li>index.html                                             
+              </li>				                                       
+            </ul>			                                 
+                                                                                                  
+          </li>                                                                    
+          <li>                                     
+          <h3 id="embarquement_ou_chargement">Publication web : embarquement ou chargement des ressources</h3>                                                                      
+          <p>Dans certains cas, votre image active risque de peser très lourd :   		</p>    			                                       
+            <ul>					                                             
+              <li>si vous avez choisi le mode audio ;                                            
+              </li>					                                             
+              <li>si vous avez une image de fond en haute définition ;                                             
+              </li>					                                             
+              <li>si vous avez détouré vos détails dans un outil tiers comme Gimp, Photofiltre ou Photoshop.                                             
+              </li>				                                       
+            </ul>		                                              
+          		                                 
+          <p>                                           Dans ce cas, le mécanisme de préchargement standard (voir                                        
+            <a href="#animation_prechargement">ci-dessus</a>) ne convient pas. En effet, l'animation de préchargement standard risque de tourner pendant longtemps et l'utilisateur se demandera s'il n'a pas affaire à un dysfonctionnement.                                                    
+          </p>  			                                 
+          <p>                                           Heureusement, Image actives vous propose un second mécanisme de préchargement, complémentaire du premier : pour l'activer, il vous suffit de cocher la case « Ne pas embarquer images et sons dans l'animation » dans le panneau « Paramètres ». 			                                 
+          </p>  						 		                                   
+          <figure>			                                       
+            <img src="views/options_parametres_publication_001.png" 				alt="Une publication en mode « ressources non embarquées »" />			                                       
+            <figcaption>Une publication en mode « ressources non embarquées »                                       
+            </figcaption>		                                   
+          </figure>  			                                 
+          <p>                                         Ainsi, votre fichier swf sera d'un poids beaucoup plus faible. L'animation de préchargement durera peu de temps ; lorsque le fichier swf sera chargé, vous verrez s'afficher une barre de progression vous informant du déroulement du chargement pour chaque image et chaque son.  				 			                                 
+          </p> 		   			                                 
+          <p>			Attention, si vous avez opté pour ce mode de publication, vous devrez copier-coller beaucoup plus de fichiers sur le serveur : 	</p>  			                                       
+            <ul>					                                             
+              <li>votre fichier swf                                             
+              </li>					                                             
+              <li>swfobject.js                                             
+              </li>					                                             
+              <li>loading.gif                                             
+              </li>					                                             
+              <li>index.html                                             
+              </li>					                                             
+              <li>tous les fichiers images apparu dans le répertoire d'export                                             
+              </li>					                                             
+              <li>en mode audio, le répertoire « sounds » apparu dans le répertoire d'export                                             
+              </li>				                                       
+            </ul>			                                 
+                                                                                   
+          </li>                                                                    
+          <li>                                     
+          <h3 id="publication_hors_web">Publication hors-web </h3>                                                                      
+          <p>Dans certains cas, vous ne souhaitez pas mettre en ligne votre image active mais la diffuser comme un fichier (par exemple, pour la mettre dans un répertoire partagé avec les élèves sur le réseau de votre établissement, ou pour que vos élèves la copient sur clé USB).                                                                
+          </p>  			                                 
+          <p>Pour cela, vous devez embarquer les images et les sons mais désactiver le mécanisme de préchargement. Le mécanisme de préchargement ne convient pas à l'utilisation de l'image active depuis un disque dur, une clé USB ou un réseau local : en vertu de certains mécanismes de sécurité, votre image active ne pourra tout simplement pas être visionnée.                                                              
+          </p> 		                                    
+          <figure>			                                       
+            <img src="views/options_parametres_publication_010.png" 				alt="Publier l'image active comme un fichier" />			                                       
+            <figcaption>Publier l'image active comme un fichier                                       
+            </figcaption>		                                   
+          </figure> 	 		                                 
+          <p>Pour diffuser votre image active, contentez-vous de distribuer le fichier swf sans aucun autre fichier pour l'accompagner.                                                             
+          </p>		                                                                             
+          </li> 
+          <li>
+          <h3 id="publication_html5"> Publier en HTML5</h3>
+          <p>Lorsque que vous choisissez le modèle tablette numérique, l'option « Fichier unique » est cochée par défaut pour créer un fichier contenant tous les éléments pour l'exportation. Ce fichier est une page html qui peut être directement lue par un navigateur et mise en ligne.
+          </p>
+          <p>Vous pouvez également choisir d'exporter en plusieurs fichiers en cochant l'option « Page web ».
+          </p>
+          <figure>			                                       
+            <img src="views/publication_html5.png" 				alt="Publier en HTML5" />			                                       
+            <figcaption>Publier en HTML5                                       
+            </figcaption>		                                   
+          </figure>
+          </li>
+          <li>
+          <h3 id="creer_widget_ibooks">Créer un widget pour iBooks Author</h3>
+          <p>Pour exporter votre image active en widget pour le logiciel iBooks Author, assurez-vous que le modèle tablette numérique est sélectionné dans le panneau « Modèles ». Cochez ensuite l'option « Widget iBooks Author ». Vous pouvez ensuite insérer votre widget dans le logiciel iBooks Author et regarder votre image active par le biais de l'application iBooks sur iPad.
+          </p>
+          <figure>			                                       
+            <img src="views/creer_widget_ibooks.png" 				alt="Créer un widget pour le logiciel iBooks Author" />			                                       
+            <figcaption>Créer un widget pour le logiciel iBooks Author                                       
+            </figcaption>		                                   
+          </figure>
+          </li>  			                                 
+          <li>                                     
+          <h3 id="creer_projection">Créer une projection </h3>                                                                      
+          <p>Lorsque vous diffusez votre image active comme un fichier .swf, les utilisateurs ne savent pas forcément avec quelle application le visionner. S'ils double-cliquent sur le fichier, il peut arriver qu'il s'ouvre dans une application qui ne convient pas comme un lecteur vidéo. S'ils l'ouvrent avec un navigateur, il se peut que celui-ci ne dispose pas d'un lecteur Flash. En outre, quand le fichier swf est ouvert directement dans un navigateur, sans être enveloppé dans une page html, le bouton écran ne fonctionnera pas.                                                            
+          </p>     		                                   
+          <p>Pour toutes ces raisons, vous pouvez avoir intérêt à convertir votre fichier swf en projection. Une projection est une application autonome portant une extension propre au système d'exploitation (.exe sous Windows, .app sous Mac).                                 
+          </p>			                                 
+          <p>Lorsque l'utilisateur double-cliquera sur la projection, elle s'ouvrira toujours correctement et il profitera de toutes les fonctionnalités de l'image active.                                 
+          </p>			                                 
+          <p>Pour créer une projection, 	</p>  			                                       
+            <ul>				                                             
+              <li>Téléchargez un lecteur Flash autonome correspondant à votre système d'exploitation                                              
+              <a href="http://www.adobe.com/support/flashplayer/downloads.html">depuis le site d'Adobe</a>. Choisissez pour votre système d'exploitation le dernier lien « Flash Player x.xx Projector »                                             
+              </li>				                                             
+              <li>Faites un clic droit (ou ctrl + clic) sur votre fichier swf, « Ouvrir avec » et choisissez le lecteur Flash autonome que vous avez téléchargé.                                             
+              </li>				                                             
+              <li>Dans le lecteur Flash, choisissez « fichier » « créer une projection ».                                             
+              </li>				                                       
+            </ul>			                                 
+         	                                   
+          <figure>			                                       
+            <img src="views/menu_creer_projection.png" 				alt="Créer une projection avec un lecteur Flash autonome" />			                                       
+            <figcaption>Créer une projection avec un lecteur Flash autonome                                       
+            </figcaption>		                                   
+          </figure> 	                                         
+          <p>                                      Ce mode de diffusion comporte toutefois des inconvénients : </p>   			                                       
+            <ul>				                                             
+              <li>Votre image active devient beaucoup plus lourde car elle embarque un lecteur flash.                                             
+              </li>				                                             
+              <li>Vous ne pouvez pas créer une projection pour un système d'exploitation différent du votre (une projection créée sous Windows ne fonctionnera que sous Windows).                                             
+              </li>				                                             
+              <li>Votre fichier risque de se heurter à certaines barrières de sécurité qui protègent les ordinateurs contre la diffusion d'exécutables potentiellement malveillants.                                             
+              </li>				                                       
+            </ul>                                           
+                      		                                              
+          </li>  		                                      
+        </ol>                                         
+      </article>  	                     
+      

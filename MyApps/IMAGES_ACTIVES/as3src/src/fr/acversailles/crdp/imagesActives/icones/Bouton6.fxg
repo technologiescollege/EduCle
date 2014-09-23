@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Graphic version="1.0" viewHeight="17.584" viewWidth="17.6675" ai:appVersion="14.0.0.367" d:id="1" xmlns="http://ns.adobe.com/fxg/2008" xmlns:ai="http://ns.adobe.com/ai/2008" xmlns:d="http://ns.adobe.com/fxg/2008/dt">
+  <Group x="3.06885" y="1.44727" d:id="2" d:type="layer" d:userLabel="Calque 1">
+    <Group ai:knockout="0">
+      <Path winding="nonZero" ai:knockout="0" data="M12 11.3486C12 13.0596 10.6035 14.4551 8.8916 14.4551L3.12549 14.4551C1.39551 14.4551 0 13.0596 0 11.3662L0 3.0874C0 1.39502 1.39551 0 3.10596 0L10.2695 0C10.751 0 11.2002 0.408691 11.2002 0.929688 11.2002 1.45117 10.751 1.85986 10.2695
+ 1.85986L3.10596 1.85986C2.41846 1.85986 1.87939 2.41797 1.87939 3.0874L1.87939 6.13916 8.8916 6.13916C10.6035 6.13916 12 7.51563 12 9.24512L12 11.3486ZM10.1396 9.24512C10.1396 8.55859 9.56152 7.99902 8.8916 7.99902L1.87939 7.99902 1.87939 11.3662
+C1.87939 12.0352 2.43652 12.5947 3.12549 12.5947L8.8916 12.5947C9.56152 12.5947 10.1396 12.0176 10.1396 11.3486L10.1396 9.24512Z" >
+        <fill>
+          <SolidColor color="#ffffff"/>
+        </fill>
+      </Path>
+    </Group>
+  </Group>
+  <Private>
+    <ai:PrivateElement d:ref="#1">
+      <ai:SaveOptions>
+        <ai:Dictionary>
+          <ai:DictEntry name="clipToActiveArtboard" value="1" valueType="Boolean"/>
+          <ai:DictEntry name="preserveGradientPolicy" value="3" valueType="Integer"/>
+          <ai:DictEntry name="downsampleLinkedImages" value="0" valueType="Boolean"/>
+          <ai:DictEntry name="preserveTextPolicy" value="3" valueType="Integer"/>
+          <ai:DictEntry name="rasterizeResolution" value="72" valueType="Integer"/>
+          <ai:DictEntry name="preserveFilterPolicy" value="3" valueType="Integer"/>
+          <ai:DictEntry name="includeSymbol" value="0" valueType="Boolean"/>
+          <ai:DictEntry name="writeImages" value="1" valueType="Boolean"/>
+          <ai:DictEntry name="aiEditCap" value="1" valueType="Boolean"/>
+          <ai:DictEntry name="versionKey" value="1" valueType="Integer"/>
+          <ai:DictEntry name="includeXMP" value="0" valueType="Boolean"/>
+        </ai:Dictionary>
+      </ai:SaveOptions>
+      <ai:DocData base="Bouton6.assets/images"/>
+      <ai:Artboards originOffsetH="-9" originOffsetV="8.792" rulerCanvasDiffH="-0.167" rulerCanvasDiffV="-0" zoom="24">
+        <ai:Artboard active="1" bottom="-8.792" index="0" left="-9" right="8.667" top="8.792"/>
+        <ai:ArtboardsParam all="0" range="" type="0"/>
+      </ai:Artboards>
+    </ai:PrivateElement>
+    <ai:PrivateElement d:ref="#2">
+      <ai:LayerOptions colorType="ThreeColor">
+        <ai:ThreeColor blue="257" green="128.502" red="79.31"/>
+      </ai:LayerOptions>
+    </ai:PrivateElement>
+  </Private>
+</Graphic>

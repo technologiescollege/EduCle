@@ -1,0 +1,66 @@
+<article>                                
+  <header>                                <h2>The sound</h2>                                     
+  </header>                                  
+  <ol>                                                 
+    <li>                                                   
+    <h3 id="enregistrer-dans-images-actives">To record in Images-Actives</h3>                                                   
+    <p>To record comments, questions or answers in the software, choose the "Audio" model and activate the computer microphone.               
+    </p>    
+        <p class="attention">By default, the audio mode is not active because of patents on MP3 format. A file, that is not provided during installation, must be added to Images-Actives.<br/>
+          Refer to <a href="http://images-actives.crdp-versailles.fr/spip.php?article2">the section "Download and install" on Images-Actives site</a> to install this file.                                                   
+          </p>                    
+    <p>The Images-Actives recording Toolbar includes :               
+    </p>		                 
+    <ul>                               
+      <li>a "Record" button                     
+      </li>                               
+      <li>a button "Play" to listen to its recording                     
+      </li>                               
+      <li>a button "Stop" to stop recording or play                     
+      </li>                               
+      <li>a "time bar" representing the progress of recording or play                     
+      </li>                               
+      <li>a button to import sound file that opens a browser window allowing to search for it (.wav file)                     
+      </li>		                       
+    </ul>       
+    <figure>			                                                    
+  <img src="views/controle-enregistrement.png" 				alt="Les contrôles d'enregistrement" />			                                                    
+  <figcaption>Controls recording                                              
+  </figcaption>		                                              
+</figure>                                                       
+    <p>Discovery-Audio mode :                           
+    </p>		                             
+    <ul>                                                   
+      <li>enter the image active title (it is literally on the image active)                                 
+      </li>                                                   
+      <li>record the "General Description"                                
+      </li>                                                   
+      <li>record the "detail description" for each detail (the detail title does not appear on the image active )                                 
+      </li>				                                 
+    </ul>                                                               
+    <p>Audio-Quiz mode :                                   
+    </p>		                                     
+    <ul>                                                           
+      <li>enter the image active title (it is literally on the image active)                                         
+      </li>                                                           
+      <li>record the "order" (it starts by clicking the first button in the upper right of the image active)                                         
+      </li>                                                           
+      <li>a code to lock the answers can be entered : see                                          
+      <a href="#questions-reponses-et-verrouillage">Questions-answers and locking</a> ;                                         
+      </li>                                                           
+      <li>record the "Question on the detail" (it starts by selecting the detail)                                         
+      </li>                                                           
+      <li>record the "Answer to the question" (it starts by clicking the "Response" button)                                         
+      </li>				                                     
+    </ul>                                                                                       
+       
+    <p class="attention">When in Audio mode, you can not export your image active as long you have not recorded a general description and a legend (or a question and its answer) to every detail                         
+          </p>                                                             
+
+    </li>    
+                                              
+    <li>                                                   
+    <h3 id="enregistrer-dans-application-externe">To record to an external application (coming soon)</h3>  	
+	</li>
+  </ol>                      
+</article>

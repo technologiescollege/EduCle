@@ -1,0 +1,29 @@
+:Base masher.hlp>Main
+:Title Masher Help
+1 Contents
+2 What is the Masher?=WhatIsTheMasher
+2 Basic operations
+3 Choosing files to include in your unit=ChoosingFilesToIncludeInYourUnit
+3 Setting up the sequence of files=SettingUpTheSequenceOfFiles
+3 Setting other options=SettingOtherOptions
+3 Building a unit=BuildingAUnit
+3 Saving Masher files=SavingMasherFiles
+3 Uploading files to hotpotatoes.net=UploadingFilesToHotpotatoesnet
+2 Advanced operations
+3 Building several units at once=BuildingSeveralUnits
+3 Saving Masher batch files=SavingMasherBatchFiles
+3 Making a blank Web page=MakingABlankWebPage 
+3 Creating an external stylesheet=CreatingAnExternalStylesheet 
+2 Screens and tabs
+3 The main screen: Files=TheMainScreenFiles
+3 The main screen: Appearance=TheMainScreenColours
+3 The main screen: User strings=TheMainScreenUserStrings
+3 The main screen: Buttons=TheMainScreenButtons
+3 The main screen: Source=TheMainScreenSource
+3 The main screen: Index=TheMainScreenIndex 
+3 The file export settings screen=TheFileExportSettingsScreen
+3 The batch processing screen=TheBatchProcessingScreen
+3 Translating the interface=InterfaceTranslation
+2 Registration
+3 Registration=Registration
+3 Registration=Registration

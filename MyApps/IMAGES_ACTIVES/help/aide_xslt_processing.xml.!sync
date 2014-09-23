@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="Construction des pgaes html de l'aide" default="build_language_files" basedir=".">
+	<description>
+	</description>
+	
+	<target name="build_language_files" >
+		<antcall target="processing">
+		
+			<param name="langue" value="fr" />
+		</antcall>
+		<antcall target="processing">
+			<param name="langue" value="en" />
+		</antcall>
+	</target>
+	
+	
+	<target name="processing" >
+		<delete file="index_${langue}.html" />
+		<xslt force="true"  in="index.xml" out="index_${langue}.html" style="${basedir}/help.xsl">
+			<param name="langue" expression="${langue}"/>
+		</xslt>
+	</target>
+</project>
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<packages>
+	<updater checksum="da7f588c58d343c6291edfb461a362130c70e9b4" type="specific" version="1.0.0.1" />
+	<html5export checksum="ca5741b0eaa60bc4b562f4b42dd08cbf564e75bb" type="specific" version="1.0.0.0" />
+    <flashexport checksum="3c7866abd72a99f3773def5faa2d9bd503c600c6" type="specific" version="1.2.0.0" />
+	<gui checksum="567cb56ee30aaba176e9d13a06bb5c08c07f2e9b" type="specific" version="1.2.0.0" />
+	<sdk checksum="f4eaef991c4578ec8dbbd38c8e77e023cb12a64f" type="common" version="4.5.1.0" />
+</packages>

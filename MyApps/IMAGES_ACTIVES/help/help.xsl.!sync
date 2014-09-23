@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0"
+	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	<xsl:param name="langue"/>
+	<xsl:output method="html" doctype-system="about:legacy-compat" />
+  
+  <!--Début de traitement -->
+  
+  <xsl:template match="root">
+    <html>
+    
+      <!--head -->
+      
+      
+      
+      
+        <!--header-->
+        <head>
+		<meta charset="UTF-8" />
+		<title> </title>
+		<link href="styles.css" rel="stylesheet" />
+		</head>
+<body>
+                 
+<header>
+          <h1 id="retour-accueil">Images Actives - guide de l'utilisateur</h1>
+		 
+</header> 
+<xsl:variable name="urlchapeau" select="concat('chapeau_', $langue,'.html')" />
+<xsl:variable name="contenuchapeau" select="document($urlchapeau)" />
+<xsl:copy-of select="$contenuchapeau" />
+							
+							
+ <nav role="navigation">
+				<ol>
+				<xsl:for-each select="/root/article">
+					<xsl:variable name="article" select="./@id"/>
+					<xsl:variable name="url" select="concat($article, '_', $langue,'.html')" />
+					<xsl:variable name="contenuarticle" select="document($url)/article" />
+					<xsl:variable name="ancre1" select="$article"/>
+					<li><a href="#{$ancre1}">
+						<xsl:copy-of select="$contenuarticle/header/h2/text()" >
+							<xsl:value-of select="$contenuarticle/header/h2" />
+								<xsl:apply-templates select="*"/>
+							
+						</xsl:copy-of>
+						</a>
+						<ol>	
+							<xsl:for-each select="$contenuarticle/ol/li">
+							<xsl:variable name="ancre2" select="./h3/@id"/>
+								<li>
+								<a href="#{$ancre2}">
+									<xsl:copy-of select="./h3/text()" >
+										<xsl:apply-templates select="*"/>
+									</xsl:copy-of>
+									</a>
+								</li>								
+							</xsl:for-each>						
+						</ol>
+					</li>
+              </xsl:for-each>
+			  </ol>
+          </nav>
+		  <section>
+				<xsl:for-each select="/root/article">
+					<xsl:variable name="article" select="./@id"/>
+					<xsl:variable name="url" select="concat($article, '_', $langue,'.html')" />
+					<xsl:variable name="contenuarticle" select="document($url)"/>
+					<xsl:variable name="numero" select="position()" />
+					<article>
+					<header>
+							<h2 id="{$article}">
+								<xsl:value-of select="$numero" />   
+								<xsl:text>. </xsl:text>
+								<xsl:value-of select="$contenuarticle/article/header/h2/text()" />
+							</h2>
+							<xsl:for-each select="$contenuarticle/article/header/p">
+							<xsl:copy-of select="." >
+										<xsl:apply-templates select="*"/>
+							</xsl:copy-of>
+							</xsl:for-each>
+						</header>
+					</article>
+					<xsl:copy-of select="$contenuarticle/article/ol" >
+						<xsl:apply-templates select="*"/>
+					</xsl:copy-of>
+              </xsl:for-each>
+		  
+		  </section>
+		   </body>
+		   </html>
+        </xsl:template>
+  
+</xsl:stylesheet>

@@ -1,0 +1,97 @@
+/**************************************************************************
+ * Created by: leslie zhou; 
+ Modified by Richard Mangum.
+ Completely destroyed, fixed, altered, and attempted by Wil Monte
+ **************************************************************************/
+
+/* All elements */
+a.foot:link { font-size: 90%; }
+
+a.foot:visited { font-size: 90%; }
+
+a.foot:hover { font-size: 90%; }
+
+a.navtext:link { font-size: 90%; }
+
+a.navtext:visited { font-size: 90%; }
+
+a.navtext:hover { font-size: 90%; }
+
+a.homelink:link { font-size: 100%; }
+
+a.homelink:visited { font-size: 100%; }
+
+a.homelink:hover { font-size: 100%; }
+
+a.homelink2:link { font-size: 95%; }
+
+a.homelink2:visited { font-size: 95%; }
+
+a.homelink2:hover { font-size: 95%; }
+
+
+a.indexlink:link { font-size: 110%; }
+
+a.indexlink:visited { font-size: 110%; }
+
+a.indexlink:hover { font-size: 110%; }
+
+BODY{ MARGIN: 0%; PADDING: 0%; font-size: 80%; }
+
+CAPTION{ FONT-SIZE: 100%; }
+
+H1{ FONT-SIZE: 160%; }
+
+H2{ FONT-SIZE: 130%; }
+
+H3{ FONT-SIZE: 120%; }
+
+H4{ FONT-SIZE: 80%; }
+
+TH{ FONT-SIZE: 100%; }
+
+TR{ FONT-SIZE: 80%; }
+
+LI{ FONT-SIZE: 100%; }
+
+UL { FONT-SIZE: 100%; }
+
+P { FONT-SIZE: 100%; }
+
+a  { FONT-SIZE: 90%; }
+
+a:link  { FONT-SIZE: 90%; }
+
+a:hover { FONT-SIZE: 90%; }
+
+/**************************************************************************/
+
+
+.acthead { font-size: 200%;}
+	
+.heading { font-size: 200%; }
+
+.text { font-size: 80%; }
+
+.textHeading { font-size: 80%; }
+
+/**************************************************************************/
+#actname {
+		top : 20px; 
+}
+
+#sectdetail {
+		top : 29px; 
+}
+
+* html #actname {
+		top : 33px; 
+}
+
+* html #sectdetail {
+		top : 41px; 
+}
+
+
+
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Checking for Hot Potatoes updates</title>
+<style type="text/css">
+body{
+	color: #000000;
+	background-color: #ffffff;
+	font-family: Arial,helvetica,sans-serif;
+}
+
+h2{
+	text-align: center;
+	padding: 5px;
+	color: #ffffff;
+	background-color: #660000;
+}
+
+p, td{
+	padding: 5px;
+}
+
+a:link {
+	text-decoration: underline; 
+	color: #990000;
+}
+
+a:visited {
+	text-decoration: underline;
+	color: #660000;
+}
+
+a:hover {
+	text-decoration: underline; 
+	color: #ff0000;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h2>Is a newer version of Hot Potatoes available?</h2>
+
+<table summary="Table" style="margin: auto;">
+<tr>
+<td>Your version is: </td><td><h3>[strInstalledVersion]</h3></td>
+</tr>
+<tr>
+<td>The current version is: </td><td>
+<iframe frameborder="0" style="width: 25.0em; height: 4.0em; overflow: hidden; border-width: 0px;" src="http://web.uvic.ca/hrd/hotpot/curr_win_version.htm">
+</iframe>
+</td>
+</tr>
+</table>
+
+</body>
+</html>

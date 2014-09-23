@@ -1,0 +1,43 @@
+﻿ENGLISH VERSION OF THE LICENSE BELOW
+
+-------   CONTRAT DE LICENCE POUR DIDAPAGES   -------
+Ce Contrat de Licence Logiciel (ci-après désigné sous le nom de "CONTRAT") est un contrat légal entre vous et Carlos Guedes (ci-après désigné sous le nom de "AUTEUR") pour le programme d'ordinateur intitulé "DIDAPAGES" (ci-après désigné sous le nom de "LOGICIEL"). Ce CONTRAT établit les termes et conditions selon lesquels l'AUTEUR propose la licence du LOGICIEL. En installant et utilisant ce LOGICIEL, vous acceptez d'être lié aux termes et conditions de ce CONTRAT. 
+
+1. LICENCE
+Pour une utilisation PERSONNELLE ET NON COMMERCIALE, l'AUTEUR vous accorde une licence gratuite, incessible et non exclusive d'utilisation du LOGICIEL. L'usage commercial du LOGICIEL est autorisé si vous avez obtenu ce droit auprès de l'AUTEUR ou de la société Didasystem. La vente de vos oeuvres, ou la vente de droits d'accès, de vente ou de distribution de vos oeuvres crées avec le LOGICIEL sont des usages commerciaux. Didapages peut être installé librement dans les établissements scolaires.
+
+2. COPYRIGHT
+Les titre, droits de propriété et propriété intellectuelle concernant le LOGICIEL restent à l'AUTEUR. Vous n'avez aucun droit de propriété sur le LOGICIEL. Vous ne pouvez pas supprimer de notices de droits d'auteur ou de propriétés dans le LOGICIEL. Il vous est interdit d’entreprendre ou de permettre la modification, la création de travaux dérivés, la rétroingénierie, la décompilation, le désassemblage ou le piratage du LOGICIEL. Il vous est interdit de vendre, louer ou prêter le logiciel.
+
+3. EXCLUSION DE GARANTIE
+Le Logiciel est fourni "TEL QUEL", sans garantie d'aucune sorte, explicite ou implicite. En aucun cas l'AUTEUR ne pourra être exposé à une quelconque réclamation, dommages ou autre responsabilité, en relation avec le Logiciel ou son utilisation. Même si le Logiciel devait être déclaré défectueux, vous assumerez le coût total de tout service et réparation.
+
+4. LIMITATION DE RESPONSABILITE
+Vous acceptez que l'AUTEUR n'assume aucune responsabilité concernant votre utilisation du LOGICIEL. L'auteur ne pourra en aucun cas être tenu pour responsable des dommages indirects, accessoires, spéciaux ou immatériels découlant de l'utilisation du LOGICIEL ou de l'impossibilité de l'utiliser,  même si l'auteur a été informé de l'éventualité de tels dommages.
+
+5. EXPIRATION
+La licence prendra fin automatiquement si vous ne vous conformez pas aux termes de ce contrat. Vous pouvez également mettre un terme à cette licence à tout moment. En cas de terminaison du contrat, vous devez détruire toutes les copies du Logiciel.
+
+6. DISPOSITIONS GENERALES
+Le CONTRAT sera administré par les lois Françaises. Toute action en justice liée au présent contrat sera soumise à la compétence exclusive des tribunaux français.
+
+-------   LICENSE AGREEMENT FOR DIDAPAGES   -------
+This Software License Agreement (hereinafter referred to as "AGREEMENT") is a legal agreement between you and Carlos Guedes (hereinafter referred to as "AUTHOR") for the computer program entitled "DIDAPAGES" (hereinafter referred to as "SOFTWARE"). This AGREEMENT states the terms and conditions upon which AUTHOR offers to license the SOFTWARE. By installing and using this SOFTWARE, you agree to be bound by the terms and conditions of this AGREEMENT.
+
+1. LICENSE
+For PERSONAL AND NON-COMMERCIAL use, the AUTHOR grants you a free of charge, non-assignable and non-exclusive license to use the SOFTWARE. Commercial use of the SOFTWARE is allowed if you obtained that right from the AUTHOR or company Didasystem. The sale of your works, or the sale of the rights to access, sell or distribute your works created with the SOFTWARE are commercial uses. Didapages can be installed freely in schools.
+
+2. COPYRIGHT
+Title, ownership rights, and intellectual property rights in the Software remain to the AUTHOR. You have no property rights over the SOFTWARE. You may not remove any copyright or proprietary notices from the SOFTWARE. You will not undertake or permit the modification, creation of derivative works,reverse engineering, decompiling, disassembling or hacking of the SOFTWARE. You will not sell, rent or lend the SOFTWARE.
+
+3. DISCLAIMER OF WARRANTY
+This SOFTWARE is provided "AS IS", without warranty of any kind, express or implied. In no event shall the AUTHOR be liable for any claim, damages or other liability, in connection with the SOFTWARE or the use or of the Software. Should the SOFTAWRE prove defective, you assume the entire cost of any service and repair. 
+
+4. LIMITATION OF LIABILITY
+You agree that the AUTHOR will have no liability in connection with your use of the SOFTWARE. In no event shall the AUTHOR be liable for any indirect, incidental, special or consequential damages arising out of the use or inability to use the Software, even if the AUTHOR has been advised of the possibility of such damages.
+
+5. TERMINATION
+The license will terminate automatically if you fail to comply with the limitations described here. You can also terminate this license at any time. On termination, you must destroy all copies of the Software and Documentation.
+
+6. GENERAL PROVISIONS
+This AGREEMENT shall be governed by French laws. Any legal proceedings arising out of or relating to this Agreement will be subject to the exclusive jurisdiction of the courts of France.

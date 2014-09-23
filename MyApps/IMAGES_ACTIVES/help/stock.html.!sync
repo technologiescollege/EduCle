@@ -1,0 +1,68 @@
+   <article>                       
+        <header>                             
+          <h2>The text</h2>                             
+        </header>                         
+        <ol>                                  
+          <li>                                    
+          <h3 id="metadonnees">Metadata</h3>                                
+          <p>To respect intellectual property, metadata must be attached to the selected image for achieving the image active.
+          </p>    
+                   
+          <p>Five metadata (from the "Dublin Core" international standard for describing digital documents) must be entered in the "Image" tab : "Image Title", "Author of the picture", "Date of image", "image copyright", "Image source".                               
+          </p>             
+          <figure>			                                                    
+  <img src="views/champs-metadonnees.png" 				alt="Les cinq champs de saisie des métadonnées" />			                                                    
+  <figcaption>The five metadata input fields                                              
+  </figcaption>		                                              
+</figure>     
+          <p>When viewing, they appear in the metadata pane at the bottom of the image active.
+          </p>                                                                                                                         
+          </li>                                  
+          <li>                                    
+          <h3 id="mise-en-forme-des-textes">Formatting text</h3>                                    
+          <p>Place the cursor in the text field to format. Above the title of the image active, choose the font, size and color of the text.                                
+          </p>  <figure>			                                                    
+  <img src="views/mise-en-forme-texte.png" 				alt="Mise en forme du champs 'description générale'" />			                                                    
+  <figcaption> Formatting the 'general description' field                                              
+  </figcaption>		                                              
+</figure>                 
+<p class="attention">The formatting necessarily apply to all the selected text box.<br/>For our software, it is not possible right now to apply a special formatting to a text passage.                                
+          </p>                                               
+          </li>                                  
+          <li>          
+          <h3 id="importer-des-polices">Import fonts</h3>                                    
+          <p>Above the title of the image active, next to the selection font menu, click on the "import a font" button.
+          </p>   <figure>			                                                    
+  <img src="views/bouton-importer-police.png" 				alt="Le bouton 'importer une police'" />			                                                    
+  <figcaption>The "import a font" button                                             
+  </figcaption>		                                              
+</figure>              
+          <p>A window opens to browse and import the desired font in format ".ttf"..
+          </p>          
+          <p>It is then available in the font selection menu. It is embedded with the ".xia" file.                               
+          </p>        
+          <p class="attention">If, following the addition of a new font, you can export your animations anymore, this is because this font is not supported by the fonts managers provided by default.<br/>
+          If you want to use any font, refer to <a href="http://images-actives.crdp-versailles.fr/spip.php?article2">}the section "Download and install" in Images Actives Site</a>  to install the additional parts of the Flex compiler.                         
+          </p>                                      
+          </li>                                  
+          <li>    
+          <h3 id="questions-reponses-et-verrouillage">Questions-answers & lock</h3>                                    
+          <p>In the "Quiz" mode, enter questions in the "Create details" tab when creating detail.
+          </p>          
+          <p>Enter the answers in the "Comments" tab.
+          </p>                                
+          <p>To lock the answers, tick "Code Access Answers" and enter a code (one to six digits).
+          </p>  <figure>			                                                    
+  <img src="views/code-acces-quiz.png" 				alt="Saisie d'un code d'accès aux réponses" />			                                                    
+  <figcaption>Entering a code to access answers                                          
+  </figcaption>		                                              
+</figure>                 
+          <p>When viewing, the code is asked at the first question, it unlocks all the other issues, it is reactivated each reopening of the image active.
+          </p> 
+          <p class="attention">Beware ! When in full screen mode, the flash drive no longer has access to keyboard.
+          Exit full screen just the time to unlock the animation.
+          If you have problems entering the numbers, try the number keys on the right of your keyboard.
+          </p>                                           
+          </li>                         
+        </ol>                   
+      </article>         

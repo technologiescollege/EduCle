@@ -1,0 +1,99 @@
+﻿<article>                             
+  <header>                                       
+    <h2 id="image-active">The 'image active'</h2>                                   
+  </header>                               
+  <ol>                                            
+    <li>                                              
+    <h3 id="comportement-détails">Details comportment</h3>                                              
+    <p>On mouse over : detail reacts according to the chosen parameters (Settings / Mouse over / enlighten) : choice of color and clarity.          
+    </p>                       
+    <p>On selection mode : the detail reacts according to the chosen parameters :            
+    </p>              
+    <ul>                       
+      <li>Outline (Settings / Selection / Outline): choice of color, transparency, strength and thickness of the outline.            
+      </li>                         
+      <li>Blur (Settings / Selection / Blur): choice of blurring the rest of the image (color and transparency).            
+      </li>                         
+      <li>The text (comment or question and answer) will appear or sound recording starts.            
+      </li>         
+    </ul>                                      
+    <p>Zoom : the detail is zoomed (at its maximum resolution) at the first click after selection if "Detailed zoomable" was ticked in the tab "Create the details": 
+    </p>                             
+    <ul>
+      <li>Time (Settings / Zoom / Time) : rate of appearance and disappearance of the zoom.              
+      </li>                           
+      <li>Blur (Settings / Zoom / Blur) : choice of blurring the rest of the image (color and transparency) during zooming.              
+      </li>                                                                            
+    </ul>                                                                              
+    </li>                                            
+    <li>                                              
+    <h3 id="barre-boutons">Buttons bar</h3>                                              
+    <p>The buttons bar at the top right of the image active, contains four buttons, except  when in "Accordion" mode it only contains three while the "general description" is found in the first section of the accordion. Except this, for all modes, it includes :      
+    </p>                                           
+    <ul>          
+      <li>"General Description" : This button contains the title and general comments associated with the image active (filled in the "Comments" tab).                
+      </li>                          
+      <li>"Display all details" click retained on this button will display all the image details.                
+      </li>                          
+      <li>About "Images-Actives" : this button opens a window about the software rights.                
+      </li>                          
+      <li>"Full Screen": this button opens the image active in full screen. We leave full screen mode by clicking at the same place on a new button, "Exit Full Screen".                
+      </li>              
+    </ul>                                                                                             
+    </li>                                            
+    <li>                    
+    <h3 id="volet-des-metadonnees">Metadata section</h3>                                              
+    <p>Le volet des métadonnées, situé en bas de l'image active, est dédié aux mentions concernant les droits d'utilisation de l'image sur laquelle se base l'image active et aux mentions concernant les droits d'utilisation de l'image active elle-même.The metadata section, located at the bottom of the image active, is dedicated to the mentions concerning the rights of use of the image on which is based on the image active and mentions concerning the rights of use of the image active itself. see               
+      <a href="#metadonnees">Métadata</a>.          
+    </p>                                                               
+    </li>                                            
+    <li>              
+    <h3 id="utilisation-audio">Audio mode using</h3>                                              
+    <p>When viewing the image active in audio mode, the sound starts as soon as the detail is selected. A sound control bar is available, it offers :                          
+      <ul>          
+        <li>a button "Play / Pause" to control the flow of comment, question or response                
+        </li>                          
+        <li>a button "disable / enable the sound"                
+        </li>                           
+        <li>a button "back to beginning" to listen again the comment, the question or the answer                
+        </li>                           
+        <li>a volume control                
+        </li>              
+      </ul>           
+    </p>                                                           
+    </li>                    
+    <li>
+    <h3 id="Utilisation en mode Tablette numerique">Digital tablet mode using</h3>
+    <p>The image active appearance in the digital tablet mode is different because the uses are different. The image active is adapted to a touch use, there is therefore no Mouse over of details. A finger touch selects the detail, the second one starts zooming if the detail is zoomable and a third one deselects detail.</p>
+    <p>There are two toolbars that you can make come and go at any time by clicking the drop-down menu. These toolbars comprise :
+    </p>
+    	<ul>
+    		<li>Top toolbars : the four buttons found in all other modes. Only the button "View all details" adopt a different behavior since it no longer reacts to rollover but remains active until a second touch or selecting a detail put it off. If the title you chose is too long, the scrolling arrows
+appear to scroll the text.
+    		</li>
+    		<li>Bottom toolbars : several buttons numbered according to the number of your details. You can navigate to a detail without going through the image. You choose the order details from the list of details. See <a href="#detourer-details">Cutout details</a>
+    		</li>
+    	</ul>
+    <p>The modifiable parameters to customize this mode are reduced to accommodate the largest number of devices. The modifiable parameters are :
+    </p>
+    	<ul> 
+    		<li>Blur (Settings / Select / Blur): choice of the blurring of the rest of the image (color and transparency) while selecting and zooming in and displaying all the details.
+    		</li> 
+    		<li>Zoom (Settings / Zoom / Blur): choice of the blurring of the rest of the image (color and transparency) during zooming, adjusting the zoom speed (this function can not be guaranteed because it depends on the performance of the display device).
+    		</li>
+    	</ul>                 
+    </li>     
+	<li>                    
+    <h3 id="utilisation-quiz">Quiz mode using</h3>                                              
+    <p>Quiz mode exists for all modes : Accordion, Bubbles, Buttons and Audio. 
+    </p>                                    
+    <ul>           
+      <li>The question appears when a detail is selected. The answer is unmasked by clicking the "Answer" button.                
+      </li>                                    
+      <li>When the quiz is locked, the first click on a detail makes the first question appear, and as well a field where to enter the unlock code (specified when creating the questions / answers). Once the code is validated, the "Answer" button is available for this detail and all others. The code is applied for only the first response, it unlocks all the other answers and it is reactivated on each reopening of the image active. See                 
+      <a href="#questions-reponses-et-verrouillage">Frequently Asked Questions and locking</a>.                
+      </li>              
+    </ul>                                                                       
+    </li>                               
+  </ol>                     
+</article>

@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Graphic version="1.0" viewHeight="12.041" viewWidth="264.708" ai:appVersion="14.0.0.367" d:id="1" xmlns="http://ns.adobe.com/fxg/2008" xmlns:ai="http://ns.adobe.com/ai/2008" xmlns:d="http://ns.adobe.com/fxg/2008/dt">
+  <Group x="0.0151367" y="0.0410156" d:id="2" d:type="layer" d:userLabel="Calque 1">
+    <Group ai:knockout="0">
+      <Rect x="141.172" y="0.5" width="8.61523" height="11" ai:knockout="0">
+        <fill>
+          <SolidColor color="#ff9000"/>
+        </fill>
+        <stroke>
+          <SolidColorStroke caps="none" weight="1" joints="miter" miterLimit="4"/>
+        </stroke>
+      </Rect>
+      <Rect x="150.024" y="0.5" width="8.61621" height="11" ai:knockout="0">
+        <fill>
+          <SolidColor color="#ff9000"/>
+        </fill>
+        <stroke>
+          <SolidColorStroke caps="none" weight="1" joints="miter" miterLimit="4"/>
+        </stroke>
+      </Rect>
+      <Rect x="158.878" y="0.5" width="8.61523" height="11" ai:knockout="0">
+        <fill>
+          <SolidColor color="#ff9000"/>
+        </fill>
+        <stroke>
+          <SolidColorStroke caps="none" weight="1" joints="miter" miterLimit="4"/>
+        </stroke>
+      </Rect>
+      <Rect x="167.73" y="0.5" width="8.61621" height="11" ai:knockout="0">
+        <fill>
+          <SolidColor color="#ff9000"/>
+        </fill>
+        <stroke>
+          <SolidColorStroke caps="none" weight="1" joints="miter" miterLimit="4"/>
+        </stroke>
+      </Rect>
+      <Rect x="176.456" y="0.5" width="8.61523" height="11" ai:knockout="0">
+        <fill>
+          <SolidColor color="#ff9000"/>
+        </fill>
+        <stroke>
+          <SolidColorStroke caps="none" weight="1" joints="miter" miterLimit="4"/>
+        </stroke>
+      </Rect>
+      <Rect x="185.269" y="0.5" width="8.61621" height="11" ai:knockout="0">
+        <fill>
+          <SolidColor color="#ff9000"/>
+        </fill>
+        <stroke>
+          <SolidColorStroke caps="none" weight="1" joints="miter" miterLimit="4"/>
+        </stroke>
+      </Rect>
+      <Rect x="194.08" y="0.5" width="8.61621" height="11" ai:knockout="0">
+        <fill>
+          <SolidColor color="#ff9000"/>
+        </fill>
+        <stroke>
+          <SolidColorStroke caps="none" weight="1" joints="miter" miterLimit="4"/>
+        </stroke>
+      </Rect>
+      <Rect x="202.892" y="0.5" width="8.61621" height="11" ai:knockout="0">
+        <fill>
+          <SolidColor color="#ff9000"/>
+        </fill>
+        <stroke>
+          <SolidColorStroke caps="none" weight="1" joints="miter" miterLimit="4"/>
+        </stroke>
+      </Rect>
+      <Rect x="211.508" y="0.5" width="8.61523" height="11" ai:knockout="0">
+        <fill>
+          <SolidColor color="#ff9000"/>
+        </fill>
+        <stroke>
+          <SolidColorStroke caps="none" weight="1" joints="miter" miterLimit="4"/>
+        </stroke>
+      </Rect>
+      <Rect x="220.36" y="0.5" width="8.61621" height="11" ai:knockout="0">
+        <fill>
+          <SolidColor color="#ff9000"/>
+        </fill>
+        <stroke>
+          <SolidColorStroke caps="none" weight="1" joints="miter" miterLimit="4"/>
+        </stroke>
+      </Rect>
+      <Rect x="229.214" y="0.5" width="8.61523" height="11" ai:knockout="0">
+        <fill>
+          <SolidColor color="#ff9000"/>
+        </fill>
+        <stroke>
+          <SolidColorStroke caps="none" weight="1" joints="miter" miterLimit="4"/>
+        </stroke>
+      </Rect>
+      <Rect x="238.066" y="0.5" width="8.61621" height="11" ai:knockout="0">
+        <fill>
+          <SolidColor color="#ff9000"/>
+        </fill>
+        <stroke>
+          <SolidColorStroke caps="none" weight="1" joints="miter" miterLimit="4"/>
+        </stroke>
+      </Rect>
+      <Rect x="246.792" y="0.5" width="8.61523" height="11" ai:knockout="0">
+        <fill>
+          <SolidColor color="#ff9000"/>
+        </fill>
+        <stroke>
+          <SolidColorStroke caps="none" weight="1" joints="miter" miterLimit="4"/>
+        </stroke>
+      </Rect>
+      <Rect x="255.604" y="0.5" width="8.61328" height="11" ai:knockout="0">
+        <fill>
+          <SolidColor color="#ff9000"/>
+        </fill>
+        <stroke>
+          <SolidColorStroke caps="none" weight="1" joints="miter" miterLimit="4"/>
+        </stroke>
+      </Rect>
+      <Group>
+        <Rect x="0.5" y="0.5" width="8.61621" height="11" ai:knockout="0">
+          <fill>
+            <SolidColor color="#ff9000"/>
+          </fill>
+          <stroke>
+            <SolidColorStroke caps="none" weight="1" joints="miter" miterLimit="4"/>
+          </stroke>
+        </Rect>
+        <Rect x="9.35254" y="0.5" width="8.61621" height="11" ai:knockout="0">
+          <fill>
+            <SolidColor color="#ff9000"/>
+          </fill>
+          <stroke>
+            <SolidColorStroke caps="none" weight="1" joints="miter" miterLimit="4"/>
+          </stroke>
+        </Rect>
+        <Rect x="18.2061" y="0.5" width="8.61523" height="11" ai:knockout="0">
+          <fill>
+            <SolidColor color="#ff9000"/>
+          </fill>
+          <stroke>
+            <SolidColorStroke caps="none" weight="1" joints="miter" miterLimit="4"/>
+          </stroke>
+        </Rect>
+        <Rect x="27.0586" y="0.5" width="8.61621" height="11" ai:knockout="0">
+          <fill>
+            <SolidColor color="#ff9000"/>
+          </fill>
+          <stroke>
+            <SolidColorStroke caps="none" weight="1" joints="miter" miterLimit="4"/>
+          </stroke>
+        </Rect>
+        <Rect x="35.7842" y="0.5" width="8.61523" height="11" ai:knockout="0">
+          <fill>
+            <SolidColor color="#ff9000"/>
+          </fill>
+          <stroke>
+            <SolidColorStroke caps="none" weight="1" joints="miter" miterLimit="4"/>
+          </stroke>
+        </Rect>
+        <Rect x="44.5967" y="0.5" width="8.61621" height="11" ai:knockout="0">
+          <fill>
+            <SolidColor color="#ff9000"/>
+          </fill>
+          <stroke>
+            <SolidColorStroke caps="none" weight="1" joints="miter" miterLimit="4"/>
+          </stroke>
+        </Rect>
+        <Rect x="53.4082" y="0.5" width="8.61621" height="11" ai:knockout="0">
+          <fill>
+            <SolidColor color="#ff9000"/>
+          </fill>
+          <stroke>
+            <SolidColorStroke caps="none" weight="1" joints="miter" miterLimit="4"/>
+          </stroke>
+        </Rect>
+        <Rect x="62.2197" y="0.5" width="8.61621" height="11" ai:knockout="0">
+          <fill>
+            <SolidColor color="#ff9000"/>
+          </fill>
+          <stroke>
+            <SolidColorStroke caps="none" weight="1" joints="miter" miterLimit="4"/>
+          </stroke>
+        </Rect>
+        <Rect x="70.8359" y="0.5" width="8.61523" height="11" ai:knockout="0">
+          <fill>
+            <SolidColor color="#ff9000"/>
+          </fill>
+          <stroke>
+            <SolidColorStroke caps="none" weight="1" joints="miter" miterLimit="4"/>
+          </stroke>
+        </Rect>
+        <Rect x="79.6885" y="0.5" width="8.61621" height="11" ai:knockout="0">
+          <fill>
+            <SolidColor color="#ff9000"/>
+          </fill>
+          <stroke>
+            <SolidColorStroke caps="none" weight="1" joints="miter" miterLimit="4"/>
+          </stroke>
+        </Rect>
+        <Rect x="88.542" y="0.5" width="8.61523" height="11" ai:knockout="0">
+          <fill>
+            <SolidColor color="#ff9000"/>
+          </fill>
+          <stroke>
+            <SolidColorStroke caps="none" weight="1" joints="miter" miterLimit="4"/>
+          </stroke>
+        </Rect>
+        <Rect x="97.3945" y="0.5" width="8.61621" height="11" ai:knockout="0">
+          <fill>
+            <SolidColor color="#ff9000"/>
+          </fill>
+          <stroke>
+            <SolidColorStroke caps="none" weight="1" joints="miter" miterLimit="4"/>
+          </stroke>
+        </Rect>
+        <Rect x="106.12" y="0.5" width="8.61523" height="11" ai:knockout="0">
+          <fill>
+            <SolidColor color="#ff9000"/>
+          </fill>
+          <stroke>
+            <SolidColorStroke caps="none" weight="1" joints="miter" miterLimit="4"/>
+          </stroke>
+        </Rect>
+        <Rect x="114.933" y="0.5" width="8.61621" height="11" ai:knockout="0">
+          <fill>
+            <SolidColor color="#ff9000"/>
+          </fill>
+          <stroke>
+            <SolidColorStroke caps="none" weight="1" joints="miter" miterLimit="4"/>
+          </stroke>
+        </Rect>
+        <Rect x="123.744" y="0.5" width="8.61621" height="11" ai:knockout="0">
+          <fill>
+            <SolidColor color="#ff9000"/>
+          </fill>
+          <stroke>
+            <SolidColorStroke caps="none" weight="1" joints="miter" miterLimit="4"/>
+          </stroke>
+        </Rect>
+        <Rect x="132.556" y="0.5" width="8.61572" height="11" ai:knockout="0">
+          <fill>
+            <SolidColor color="#ff9000"/>
+          </fill>
+          <stroke>
+            <SolidColorStroke caps="none" weight="1" joints="miter" miterLimit="4"/>
+          </stroke>
+        </Rect>
+      </Group>
+    </Group>
+    <Path alpha="0.25" winding="nonZero" ai:knockout="0" data="M4.15674 1.01074L8.60449 1.01074 8.60449 10.9795 6.61426 10.9795C6.61426 10.9795 4.14453 10.9326 4.15674 1.01074Z" >
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Path>
+    <Path alpha="0.25" winding="nonZero" ai:knockout="0" data="M13.0317 1.01563L17.4795 1.01563 17.4795 10.9844 15.4893 10.9844C15.4893 10.9844 13.0195 10.9375 13.0317 1.01563Z" >
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Path>
+    <Path alpha="0.25" winding="nonZero" ai:knockout="0" data="M21.8442 1.01074L26.292 1.01074 26.292 10.9795 24.3018 10.9795C24.3018 10.9795 21.832 10.9326 21.8442 1.01074Z" >
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Path>
+    <Path alpha="0.25" winding="nonZero" ai:knockout="0" data="M30.7192 1.01563L35.167 1.01563 35.167 10.9844 33.1768 10.9844C33.1768 10.9844 30.707 10.9375 30.7192 1.01563Z" >
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Path>
+    <Path alpha="0.25" winding="nonZero" ai:knockout="0" data="M39.4067 0.948242L43.8545 0.948242 43.8545 10.917 41.8643 10.917C41.8643 10.917 39.3945 10.8701 39.4067 0.948242Z" >
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Path>
+    <Path alpha="0.25" winding="nonZero" ai:knockout="0" data="M48.2817 0.953125L52.7295 0.953125 52.7295 10.9219 50.7393 10.9219C50.7393 10.9219 48.2695 10.875 48.2817 0.953125Z" >
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Path>
+    <Path alpha="0.25" winding="nonZero" ai:knockout="0" data="M57.0317 1.01563L61.4795 1.01563 61.4795 10.9844 59.4893 10.9844C59.4893 10.9844 57.0195 10.9375 57.0317 1.01563Z" >
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Path>
+    <Path alpha="0.25" winding="nonZero" ai:knockout="0" data="M65.8442 1.01563L70.292 1.01563 70.292 10.9844 68.3018 10.9844C68.3018 10.9844 65.832 10.9375 65.8442 1.01563Z" >
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Path>
+    <Path alpha="0.25" winding="nonZero" ai:knockout="0" data="M74.4116 1.04492L78.8594 1.04492 78.8594 11.0137 76.8691 11.0137C76.8691 11.0137 74.3994 10.9668 74.4116 1.04492Z" >
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Path>
+    <Path alpha="0.25" winding="nonZero" ai:knockout="0" data="M83.2866 1.0498L87.7344 1.0498 87.7344 11.0186 85.7441 11.0186C85.7441 11.0186 83.2744 10.9717 83.2866 1.0498Z" >
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Path>
+    <Path alpha="0.25" winding="nonZero" ai:knockout="0" data="M92.0991 1.04492L96.5469 1.04492 96.5469 11.0137 94.5566 11.0137C94.5566 11.0137 92.0869 10.9668 92.0991 1.04492Z" >
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Path>
+    <Path alpha="0.25" winding="nonZero" ai:knockout="0" data="M100.974 1.0498L105.422 1.0498 105.422 11.0186 103.432 11.0186C103.432 11.0186 100.962 10.9717 100.974 1.0498Z" >
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Path>
+    <Path alpha="0.25" winding="nonZero" ai:knockout="0" data="M109.662 0.982422L114.109 0.982422 114.109 10.9512 112.119 10.9512C112.119 10.9512 109.649 10.9043 109.662 0.982422Z" >
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Path>
+    <Path alpha="0.25" winding="nonZero" ai:knockout="0" data="M118.537 0.987305L122.984 0.987305 122.984 10.9561 120.994 10.9561C120.994 10.9561 118.524 10.9092 118.537 0.987305Z" >
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Path>
+    <Path alpha="0.25" winding="nonZero" ai:knockout="0" data="M127.349 0.982422L131.797 0.982422 131.797 10.9512 129.807 10.9512C129.807 10.9512 127.337 10.9043 127.349 0.982422Z" >
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Path>
+    <Path alpha="0.25" winding="nonZero" ai:knockout="0" data="M136.225 0.987305L140.672 0.987305 140.672 10.9561 138.682 10.9561C138.682 10.9561 136.212 10.9092 136.225 0.987305Z" >
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Path>
+    <Path alpha="0.25" winding="nonZero" ai:knockout="0" data="M144.804 1.01563L149.251 1.01563 149.251 10.9844 147.261 10.9844C147.261 10.9844 144.791 10.9375 144.804 1.01563Z" >
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Path>
+    <Path alpha="0.25" winding="nonZero" ai:knockout="0" data="M153.699 0.989258L158.146 0.989258 158.146 10.958 156.156 10.958C156.156 10.958 153.687 10.9111 153.699 0.989258Z" >
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Path>
+    <Path alpha="0.25" winding="nonZero" ai:knockout="0" data="M162.548 1.01563L166.995 1.01563 166.995 10.9844 165.005 10.9844C165.005 10.9844 162.535 10.9375 162.548 1.01563Z" >
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Path>
+    <Path alpha="0.25" winding="nonZero" ai:knockout="0" data="M171.387 1.01563L175.834 1.01563 175.834 10.9844 173.844 10.9844C173.844 10.9844 171.374 10.9375 171.387 1.01563Z" >
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Path>
+    <Path alpha="0.25" winding="nonZero" ai:knockout="0" data="M180.095 1.01563L184.542 1.01563 184.542 10.9844 182.552 10.9844C182.552 10.9844 180.082 10.9375 180.095 1.01563Z" >
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Path>
+    <Path alpha="0.25" winding="nonZero" ai:knockout="0" data="M188.923 1.00977L193.37 1.00977 193.37 10.9785 191.38 10.9785C191.38 10.9785 188.91 10.9316 188.923 1.00977Z" >
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Path>
+    <Path alpha="0.25" winding="nonZero" ai:knockout="0" data="M197.724 1.00977L202.172 1.00977 202.172 10.9785 200.182 10.9785C200.182 10.9785 197.712 10.9316 197.724 1.00977Z" >
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Path>
+    <Path alpha="0.25" winding="nonZero" ai:knockout="0" data="M206.506 1.00977L210.954 1.00977 210.954 10.9785 208.964 10.9785C208.964 10.9785 206.494 10.9316 206.506 1.00977Z" >
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Path>
+    <Path alpha="0.25" winding="nonZero" ai:knockout="0" data="M215.161 1.00977L219.609 1.00977 219.609 10.9785 217.619 10.9785C217.619 10.9785 215.149 10.9316 215.161 1.00977Z" >
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Path>
+    <Path alpha="0.25" winding="nonZero" ai:knockout="0" data="M224.036 1.00977L228.484 1.00977 228.484 10.9785 226.494 10.9785C226.494 10.9785 224.024 10.9316 224.036 1.00977Z" >
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Path>
+    <Path alpha="0.25" winding="nonZero" ai:knockout="0" data="M232.859 1.01563L237.308 1.01563 237.308 10.9844 235.317 10.9844C235.317 10.9844 232.848 10.9375 232.859 1.01563Z" >
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Path>
+    <Path alpha="0.25" winding="nonZero" ai:knockout="0" data="M241.745 1.01563L246.193 1.01563 246.193 10.9844 244.203 10.9844C244.203 10.9844 241.733 10.9375 241.745 1.01563Z" >
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Path>
+    <Path alpha="0.25" winding="nonZero" ai:knockout="0" data="M250.432 1.01563L254.88 1.01563 254.88 10.9844 252.89 10.9844C252.89 10.9844 250.42 10.9375 250.432 1.01563Z" >
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Path>
+    <Path alpha="0.25" winding="nonZero" ai:knockout="0" data="M259.235 1.01563L263.683 1.01563 263.683 10.9844 261.692 10.9844C261.692 10.9844 259.223 10.9375 259.235 1.01563Z" >
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Path>
+    <Ellipse x="5.71387" y="2.10449" alpha="0.4" width="2.1875" height="3.82813" ai:knockout="0">
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Ellipse>
+    <Ellipse x="14.6724" y="2.0625" alpha="0.4" width="2.1875" height="3.82813" ai:knockout="0">
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Ellipse>
+    <Ellipse x="23.2974" y="2.0625" alpha="0.4" width="2.1875" height="3.82813" ai:knockout="0">
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Ellipse>
+    <Ellipse x="32.2559" y="2.02051" alpha="0.4" width="2.1875" height="3.82813" ai:knockout="0">
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Ellipse>
+    <Ellipse x="40.7139" y="2.06299" alpha="0.4" width="2.1875" height="3.82813" ai:knockout="0">
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Ellipse>
+    <Ellipse x="49.6724" y="2.021" alpha="0.4" width="2.1875" height="3.82813" ai:knockout="0">
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Ellipse>
+    <Ellipse x="58.2974" y="2.021" alpha="0.4" width="2.1875" height="3.82813" ai:knockout="0">
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Ellipse>
+    <Ellipse x="67.2559" y="1.979" alpha="0.4" width="2.1875" height="3.82813" ai:knockout="0">
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Ellipse>
+    <Ellipse x="75.7817" y="2.14502" alpha="0.4" width="2.1875" height="3.82813" ai:knockout="0">
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Ellipse>
+    <Ellipse x="84.7402" y="2.104" alpha="0.4" width="2.1875" height="3.82813" ai:knockout="0">
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Ellipse>
+    <Ellipse x="93.3652" y="2.104" alpha="0.4" width="2.1875" height="3.82813" ai:knockout="0">
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Ellipse>
+    <Ellipse x="102.324" y="2.06104" alpha="0.4" width="2.1875" height="3.82813" ai:knockout="0">
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Ellipse>
+    <Ellipse x="110.782" y="2.104" alpha="0.4" width="2.1875" height="3.82813" ai:knockout="0">
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Ellipse>
+    <Ellipse x="119.74" y="2.06201" alpha="0.4" width="2.1875" height="3.82813" ai:knockout="0">
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Ellipse>
+    <Ellipse x="128.365" y="2.06201" alpha="0.4" width="2.1875" height="3.82813" ai:knockout="0">
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Ellipse>
+    <Ellipse x="137.323" y="2.02002" alpha="0.4" width="2.1875" height="3.82813" ai:knockout="0">
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Ellipse>
+    <Ellipse x="146.095" y="2.14502" alpha="0.4" width="2.1875" height="3.82813" ai:knockout="0">
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Ellipse>
+    <Ellipse x="155.053" y="2.104" alpha="0.4" width="2.1875" height="3.82813" ai:knockout="0">
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Ellipse>
+    <Ellipse x="163.678" y="2.104" alpha="0.4" width="2.1875" height="3.82813" ai:knockout="0">
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Ellipse>
+    <Ellipse x="172.636" y="2.06104" alpha="0.4" width="2.1875" height="3.82813" ai:knockout="0">
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Ellipse>
+    <Ellipse x="181.095" y="2.104" alpha="0.4" width="2.1875" height="3.82813" ai:knockout="0">
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Ellipse>
+    <Ellipse x="190.053" y="2.06201" alpha="0.4" width="2.1875" height="3.82813" ai:knockout="0">
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Ellipse>
+    <Ellipse x="198.678" y="2.06201" alpha="0.4" width="2.1875" height="3.82813" ai:knockout="0">
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Ellipse>
+    <Ellipse x="207.636" y="2.02002" alpha="0.4" width="2.1875" height="3.82813" ai:knockout="0">
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Ellipse>
+    <Ellipse x="216.407" y="2.20752" alpha="0.4" width="2.1875" height="3.82813" ai:knockout="0">
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Ellipse>
+    <Ellipse x="225.365" y="2.1665" alpha="0.4" width="2.1875" height="3.82813" ai:knockout="0">
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Ellipse>
+    <Ellipse x="233.99" y="2.1665" alpha="0.4" width="2.1875" height="3.82813" ai:knockout="0">
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Ellipse>
+    <Ellipse x="242.948" y="2.12354" alpha="0.4" width="2.1875" height="3.82813" ai:knockout="0">
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Ellipse>
+    <Ellipse x="251.407" y="2.1665" alpha="0.4" width="2.1875" height="3.82813" ai:knockout="0">
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Ellipse>
+    <Ellipse x="260.365" y="2.12451" alpha="0.4" width="2.1875" height="3.82813" ai:knockout="0">
+      <fill>
+        <SolidColor color="#f9f4ed"/>
+      </fill>
+    </Ellipse>
+    <Path alpha="0.05" winding="nonZero" ai:knockout="0" data="M0.5 11.5L264.218 11.5 264.218 10.4395C264.218 10.4395 196.328 7.41504 132.339 7.3125 68.3496 7.20898 0.5 9.40625 0.5 9.40625L0.5 11.5Z" >
+      <fill>
+        <SolidColor/>
+      </fill>
+    </Path>
+  </Group>
+  <Private>
+    <ai:PrivateElement d:ref="#1">
+      <ai:SaveOptions>
+        <ai:Dictionary>
+          <ai:DictEntry name="writeImages" value="1" valueType="Boolean"/>
+          <ai:DictEntry name="includeXMP" value="0" valueType="Boolean"/>
+          <ai:DictEntry name="includeSymbol" value="0" valueType="Boolean"/>
+          <ai:DictEntry name="aiEditCap" value="1" valueType="Boolean"/>
+          <ai:DictEntry name="versionKey" value="1" valueType="Integer"/>
+          <ai:DictEntry name="preserveTextPolicy" value="3" valueType="Integer"/>
+          <ai:DictEntry name="clipToActiveArtboard" value="1" valueType="Boolean"/>
+          <ai:DictEntry name="downsampleLinkedImages" value="0" valueType="Boolean"/>
+          <ai:DictEntry name="preserveFilterPolicy" value="3" valueType="Integer"/>
+          <ai:DictEntry name="preserveGradientPolicy" value="3" valueType="Integer"/>
+          <ai:DictEntry name="rasterizeResolution" value="72" valueType="Integer"/>
+        </ai:Dictionary>
+      </ai:SaveOptions>
+      <ai:DocData base="BarrePreLoader.assets/images"/>
+      <ai:Artboards originOffsetH="-132.375" originOffsetV="6.041" rulerCanvasDiffH="-0.021" rulerCanvasDiffV="-0.021" zoom="4">
+        <ai:Artboard active="1" bottom="-6" index="0" left="-132.375" right="132.333" top="6.041"/>
+        <ai:ArtboardsParam all="0" range="" type="0"/>
+      </ai:Artboards>
+    </ai:PrivateElement>
+    <ai:PrivateElement d:ref="#2">
+      <ai:LayerOptions colorType="ThreeColor">
+        <ai:ThreeColor blue="257" green="128.502" red="79.31"/>
+      </ai:LayerOptions>
+    </ai:PrivateElement>
+  </Private>
+</Graphic>

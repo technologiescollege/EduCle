@@ -1,0 +1,80 @@
+<article>                        
+        <header>                              
+          <h2>Prise en main rapide </h2>                              
+          <p>L'application est divisée en une succession de panneaux. Dans la plupart des cas, lorsque vous créez une image active, vous parcourez ces panneaux successivement de gauche à droite selon l'avancement de votre travail.                               
+          </p>                                            
+        </header>                          
+        <ol>                                   
+          <li>                                     
+          <h3 id="importer-image">Importer une image</h3>                                     
+          <p>Dans le panneau « Image », cliquer sur le bouton « Importer une image » (équivalent : raccourci clavier ctrl ou cmd + i).                                 
+          </p>     
+                    <figure>			                                                    
+  <img src="views/importer_une_image.png" 				alt="Importer une image" />			                                                    
+  <figcaption>Importer une image                                                 
+  </figcaption>		                                              
+</figure>  	                           
+          <p> Choisissez sur le disque de votre ordinateur un fichier image au format jpeg, png, gif ou tiff. L'image apparaît maintenant dans le logiciel Images actives. Vous pouvez ensuite choisir sa dimension selon la résolution de votre écran (voir 
+            <a href="#dimensions-animation">dimensions de l'animation</a>).                                 
+          </p>    
+<p class="attention">Lorsque vous choisissez l’image sur laquelle vous souhaitez travailler, si vous comptez en faire un usage public, assurez-vous que vous avez bien le droit de l’utiliser, sans quoi vous pouvez vous exposer à des poursuites judiciaires de la part des ayants droit (les personnes, physiques ou morales, qui disposent des droits sur l’image : l’auteur, ses héritiers, un musée…).
+</p>		  
+          </li>                                   
+          <li>                                     
+          <h3 id="detourer-details">Détourer les détails</h3>                                     
+          <p> Dans le panneau « Créer les détails », un détail est créé par défaut. Double-cliquez sur « Titre du détail » pour pouvoir écrire votre titre de détail, appuyer sur Entrée pour valider votre sélection.           Vous pouvez ensuite créer un détail en choisissant l'outil selon votre détail à détourer.            Voir 
+            <a href="#details">Les détails</a> pour plus de renseignements sur les outils de détourage.     
+ </p>       
+  <figure>			                                                    
+  <img src="views/outils-de-detourage.png" 				alt="Les outils de détourage" />			                                                    
+  <figcaption>Les outils de détourage                                                
+  </figcaption>		                                              
+</figure>     			
+            <p>Vous pouvez ordonner vos détails en les sélectionnant et en cliquant sur les flèches haut ou bas pour monter ou descendre les détails dans la liste.
+            </p> <figure>			                                                    
+  <img src="views/liste-details.png" 				alt="La liste des détails" />			                                                    
+  <figcaption>La liste des détails                                                
+  </figcaption>		                                              
+</figure>            
+            <p>Pour supprimer un détail, cliquer sur le bouton avec la croix rouge situé en dessous de la liste des détails.           
+            </p>          
+            <p>Voir 
+              <a href="#detourer-application-externe">Détourer dans une application externe</a> pour savoir comment importer vos détails.
+            </p>          
+            <p>Voir 
+              <a href="#gestion-zoom">Gestion du zoom</a> pour plus de renseignements sur l'outil de zoom.
+            </p>                                 
+            </li>                                   
+            <li>               
+            <h3 id="saisir-commentaires">Saisir les commentaires</h3>                                     
+            <p>Dans l'onglet « Commentaires », taper le titre de l'image active puis le titre de la description de l'image. Taper dans le champ suivant le texte correspondant à la description générale de l'image. Vous pouvez insérer des liens hypertextes dans la description en sélectionnant le texte à mettre en lien et en cliquant sur le bouton de lien.                                 
+            </p>            
+            <p> Choisissez dans la liste le détail sur lequel vous souhaitez travailler.
+              <br />         Si vous êtes dans le mode Quiz, vous pouvez attribuer un code d'accès aux réponses (voir 
+              <a href="#questions-reponses-et-verrouillage">Questions - réponses et verrouillage</a>).
+              <br />         Tapez votre texte dans le champ « Description du détail ». Vous pouvez insérer des liens hypertextes dans la description en sélectionnant le texte à mettre en lien et en cliquant sur le bouton de lien.           
+            </p>    
+            <figure>			                                                    
+  <img src="views/ajouter-lien.png" 				alt="Ajouter un lien hypertexte" />			                                                    
+  <figcaption>Ajouter un lien hypertexte                                                
+  </figcaption>		                                              
+</figure>                             
+            </li>                                   
+            <li>               
+            <h3 id="exporter-animation">Exporter l'animation</h3>                                     
+            <p>Pour générer votre image active, cliquez sur le bouton vert dans la barre des tâches. Une fenêtre d'enregistrement s'ouvre. Sélectionnez le répertoire dans lequel vous voulez enregistrer votre fichier swf et cliquez sur Enregistrer. 
+			<p class="attention">Si vous ne parvenez pas à exporter votre image, ou que vous ne visualisez pas le résultat dans le panneau prévisualisation, il manque peut-être des éléments sur votre ordinateur. Reportez-vous à la <a href="http://images-actives.crdp-versailles.fr/spip.php?article4">FAQ du site</a>. 
+</p>
+             <br />          Dans l'onglet « Paramètres », vous pouvez choisir des configurations pour l'exportation (voir 
+              <a href="#animation_prechargement">Publication web : l'animation de préchargement</a>).                                   
+            </p>   
+            <figure>			                                                    
+  <img src="views/bouton-exporter.png" 				alt="Le bouton 'exporter l'animation'" />			                                                    
+  <figcaption>Le bouton<br />"exporter l'animation"                                              
+  </figcaption>		                                              
+</figure>         
+<p class="attention">Si vous avez l'intention de mettre votre image active en ligne, nous vous conseillons de ne pas exporter plusieurs images actives dans le même répertoire, sans quoi certains fichiers complémentaires vont s'effacer les uns les autres.                         
+          </p>                                       
+            </li>                          
+        </ol>                    
+      </article>       

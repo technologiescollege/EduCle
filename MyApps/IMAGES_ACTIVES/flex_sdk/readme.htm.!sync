@@ -1,0 +1,405 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML lang=en xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>Welcome to Adobe&reg; Flex&reg; 4.5 SDK</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1"
+xhtml1-strict.dtd? DTD xhtml1 TR www.w3.org http:>
+<STYLE type=text/css media=screen>A {
+	COLOR: navy; TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+BODY {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.head {
+	COLOR: #ff0000
+}
+HR {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN-LEFT: 0px; COLOR: #888888; HEIGHT: 2px; BACKGROUND-COLOR: #888888; BORDER-RIGHT-WIDTH: 0px
+}
+TD.left_col {
+	WIDTH: 250px
+}
+.indent {
+	FONT-SIZE: 0.9em; MARGIN-LEFT: 24px
+}
+.legal {
+	FONT-SIZE: 0.8em
+}
+.backlink {
+	MARGIN-TOP: 24px; FONT-SIZE: 0.8em; PADDING-TOP: 24px
+}
+UL {
+	LIST-STYLE-TYPE: square
+}
+UL.contents {
+	LIST-STYLE-TYPE: none
+}
+LI.contents {
+	MARGIN-TOP: 6px; FONT-WEIGHT: bold
+}
+UL.plain {
+	LIST-STYLE-TYPE: none
+}
+LI {
+	MARGIN-TOP: 6px
+}
+TABLE {
+	BORDER-LEFT-COLOR: #aaaaaa; BORDER-BOTTOM-COLOR: #aaaaaa; BORDER-TOP-COLOR: #aaaaaa; BORDER-RIGHT-COLOR: #aaaaaa
+}
+.comment {
+	FONT-WEIGHT: bold; FONT-SIZE: larger; COLOR: green
+}
+.changebar {
+	PADDING-LEFT: 12px; BORDER-LEFT-COLOR: green; BORDER-LEFT-STYLE: solid
+}
+</STYLE>
+
+<META content="MSHTML 6.00.2900.5921" name=GENERATOR></HEAD>
+<BODY>
+<H1>Adobe® Flex® 4.5 SDK </H1>
+<H2 class=head>Readme</H2>
+<H4>April 2011</H4>
+<P class=legal>© 2011 Adobe Systems Incorporated. All rights reserved.</P>
+<P class=legal>This file contains important information including a link to
+release notes that were not available when the product documentation was
+written. Review this information before using this version of Adobe Flex
+SDK.</P>
+<HR>
+
+<P>Welcome to Adobe<SUP>®</SUP> Flex® SDK.</P>
+<H3 class=head><A name=contents></A>Contents</H3>
+<DIV class=indent>
+<UL class=contents>
+  <LI class=contents><A
+  href="#Getting_Started">Getting
+  Started</A>
+  <LI class=contents><A
+  href="#docs">Flex
+  Documentation</A>
+  <LI class=contents><A
+  href="#Samples">Flex
+  Samples</A>
+  <LI class=contents><A
+  href="#Community">Community
+  and Resources</A>
+  <LI class=contents><A
+  href="#Licenses">License</A>
+  </LI></UL></DIV>
+<P class=backlink></P>
+<HR>
+
+<H3 class=head><A name=Getting_Started></A>Getting Started</H3>
+<DIV class=indent>
+<P>For information on getting started with the Flex SDK explore the new feature
+descriptions, documentation, and samples available at the <A
+href="http://www.adobe.com/devnet/flex">Flex Developer Center</A> and review the
+<A href="http://www.adobe.com/go/flex45_sdk_releasenotes">Flex SDK Release
+Notes.</A></P></DIV>
+<P class=backlink><A
+href="#contents">Back
+to contents</A></P>
+<HR>
+
+<H3 class=head><A name=docs></A>Flex Documentation</H3>
+<DIV class=indent>
+<P>Flex documentation, including Release Notes, is available from the <A
+href="http://www.adobe.com/support/flex">Flex Help and Support page</A> and the
+<A href="http://www.adobe.com/devnet/flex/?view=documentation">Flex Developer
+Center</A>. </P>
+<TABLE cellSpacing=0 cellPadding=8 width="85%" border=1>
+  <TBODY>
+  <TR>
+    <TD>Using <EM>Adobe Flex 4.5</EM></TD>
+    <TD>Describes application development basics, such as MXML and ActionScript syntax, creating applications, using Flex components, the Flex data model, error handling, and Flex Advanced Data Visualization Components. Also contains information on custom component creation, data visualization tools, Flex charting components, automation, and application deployment.</TD></TR>
+  <TR>
+    <TD><EM>Accessing Data with Adobe Flex</EM></TD>
+    <TD>Provides information on using Flash Builder data wizards to create
+      data-centric Flex applications. Also includes information on accessing
+      data using RPC services and web services.</TD></TR>
+  <TR>
+    <TD><EM>Using Flash Bulider 4.5</EM></TD>
+    <TD>Provides information on using Adobe Flash Builder 4.5 to create Flex
+      applications.</TD>
+  </TR>
+  <TR>
+    <TD><p><em>Developing Mobile Applications with Flex </em></p></TD>
+    <TD><p>Provides information on using Flex to build standalone mobile applications running on Adobe AIR. Additionally, provides information on using Adobe Flash Builder 4.5 to develop, debug and deploy mobile applications. </p></TD></TR>
+  <TR>
+    <TD><p><em>Tutorials on data access with Flash Builder </em></p></TD>
+    <TD>Provides tutorials and samples on accessing data with Flash Builder 4.5 including how to define data services and manage accessing data. </TD>
+  </TR>
+  <TR>
+    <TD><EM>ActionScript 3.0 Reference for the Adobe Flash Platform</EM></TD>
+    <TD>Describes the MXML and ActionScript 3.0 programming interfaces,
+      including the API reference for core ActionScript language elements
+      (HTML-only).</TD></TR></TBODY></TABLE></DIV>
+<P class=backlink><A
+href="#contents">Back
+to contents</A></P>
+<HR>
+
+<H3 class=head><A name=Samples></A>Flex Samples</H3>
+<DIV class=indent>
+<P>Download Flex samples from the <A href="http://www.adobe.com/devnet/flex/samples.html">Flex Developer
+Center</A>.</P></DIV>
+<P class=backlink><A
+href="#contents">Back
+to contents</A></P>
+<HR>
+
+<H3 class=head><A name=Community></A>Community Resources</H3>
+<DIV class=indent>
+<P>You can access the Flex community and online resources from the following
+pages: </P>
+<UL>
+  <LI><A href="http://www.adobe.com/go/flex3_product">Flex Product Home Page</A>
+  <LI><A href="http://www.adobe.com/go/flex_devcenter">Flex Developer Center</A>
+
+  <LI><A href="http://www.adobe.com/go/flex_support">Flex Help and Support
+  Center </A>
+  <LI><A href="http://www.adobe.com/go/flex_forums">Flex Forums</A>
+</UL></DIV>
+<P class=backlink><A
+href="#contents">Back
+to contents</A></P>
+<HR>
+
+<H3 class=head><A name=Licenses></A>License</H3>
+<DIV class=indent>
+<P><U>Adobe Flex SDK License Agreement</U>:</P>
+<P class=indent>All files contained in this Adobe Flex SDK directory are subject
+to and governed by the Adobe Flex SDK License Agreement specified here: <a href="license-adobesdk.htm">Adobe
+Flex SDK License Agreement</A>, EXCEPT those files specifically identified below
+as "Mozilla Public License Files".</P>
+<P class=indent>By downloading, modifying, distributing, using and/or accessing
+any files in this directory, you agree to the terms and conditions of the
+applicable end user license agreement. </P>
+<P class=indent>In addition to the Adobe license terms, you also agree to be
+bound by the third-party terms specified here: <A
+href="http://www.adobe.com/go/thirdparty" target="_blank">Third Party Software Notices</A>.
+Adobe recommends that you review these third-party terms.</P>
+<P><U>Mozilla Public License Files</U>:</P>
+<P class=indent>The files located in the following directory locations of the
+Adobe Flex SDK are governed by the "Mozilla Public License Version 1.1" found
+below. </P>
+<P
+class=indent>ant<BR>asdoc<BR>frameworks/javascript<BR>frameworks/locale<BR>frameworks/projects<BR>frameworks/themes</P>
+<P class=indent>The contents of such above files are subject to the Mozilla
+Public License Version 1.1 (the "License"); you may not use these files except
+in compliance with the License. You may obtain a copy of the License here: <A
+href="license-mpl.htm">Mozilla
+Public License Version 1.1</A> or <A
+href="http://www.mozilla.org/MPL/" target="_blank">http://www.mozilla.org/MPL/</A>.</P>
+<P class=indent>Software distributed under the License is distributed on an "AS
+IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the
+License for the specific language governing rights and limitations under the
+License.</P>
+<P class=indent>The Original Code consists of the files listed above.</P>
+<P class=indent>The Initial Developer of the Original Code is Adobe Systems
+Incorporated.<BR>By downloading, modifying, distributing, using and/or accessing
+any files in this directory, you agree to the terms and conditions of the
+applicable end user license agreement.</P>
+<P><STRONG>NOTICES RELATED TO CERTAIN THIRD PARTY MATERIALS</STRONG>:</P>
+<P><U>Apache 1.1 Licensed Products</U>: </P>
+<P class=indent>This product includes software listed below that were developed
+by the Apache Software Foundation (<A
+href="http://www.apache.org/" target="_blank">http://www.apache.org/</A>). Such software is
+licensed under the Apache Software License, Version 1.1; you may obtain a copy
+of such license at <A
+href="http://apache.org/licenses/LICENSE-1.1" target="_blank">http://apache.org/licenses/LICENSE-1.1</A>.</P>
+<P class=indent>Apache Commons Collections 2.1<BR>Apache Commons Discovery
+0.2<BR>
+</P>
+<P><U>Apache 2.0 Licensed Products</U>: </P>
+<P class=indent>This product includes software listed below that were licensed
+under the Apache License, Version 2.0 (the "License"); you may not use this file
+except in compliance with the License. You may obtain a copy of the License at
+<A
+href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">http://www.apache.org/licenses/LICENSE-2.0</A>.
+Unless required by applicable law or agreed to in writing, software distributed
+under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+CONDITIONS OF ANY KIND, either express or implied. See the License for the
+specific language governing permissions and limitations under the License.</P>
+<P class=indent>Apache Batik SVG Toolkit 1.6, © 2005, Apache Software
+Foundation<BR>Apache Commons Logging 1.0.4, © 2004, Apache Software
+Foundation<BR>Apache Velocity 1.4, © 2004, Apache Software Foundation<BR>Apache
+Xalan 2.6.0, © 2004, Apache Software Foundation<br>
+Apache Xerces 2.9.1, &copy; 1999-2007, Apache Software Foundation<BR>
+  Apache Regexp 1.2, © 2000,
+  Apache Software Foundation<BR>Apache bcel 5.1, © 2007, Apache Software
+  Foundation </P>
+<P><U>BSD Licensed Products</U>:</P>
+<P class=indent>Easing Equations © 2001-2003, Robert Penner<BR>All rights
+reserved.</P>
+<P class=indent>Redistribution and use in source and binary forms, with or
+without modification, are permitted provided that the following conditions are
+met:</P>
+<UL>
+  <LI class=indent>Redistributions of source code must retain the above
+  copyright notice, this list of conditions and the following disclaimer.
+  <LI class=indent>Redistributions in binary form must reproduce the above
+  copyright notice, this list of conditions and the following disclaimer in the
+  documentation and/or other materials provided with the distribution.
+  <LI class=indent>Neither the name of the &lt;ORGANIZATION&gt; nor the names of
+  its contributors may be used to endorse or promote products derived from this
+  software without specific prior written permission. </LI></UL>
+<P class=indent>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND
+CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
+OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY
+OF SUCH DAMAGE.</P>
+<P><U>Netscape Public License Products</U>:</P>
+<P class=indent>The contents of this file are subject to the Netscape Public
+License Version 1.1 (the "License"); you may not use this file except in
+compliance with the License. You may obtain a copy of the License at <A
+href="http://www.mozilla.org/NPL/" target="_blank">http://www.mozilla.org/NPL/</A>.</P>
+<P class=indent>Software distributed under the License is distributed on an "AS
+IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the
+License for the specific language governing rights and limitations under the
+License.</P>
+<P class=indent>The Original Code is Mozilla Communicator client code, released
+March 31, 1998.</P>
+<P class=indent>The Initial Developer of the Original Code is Netscape
+Communications Corporation. Portions created by Netscape are Copyright (C)
+1998-1999 Netscape Communications Corporation. All Rights Reserved.</P>
+<P class=indent>The following software is listed under the Netscape Public
+License, Version 1:</P>
+<P class=indent>Spidermonkey Javascript Test Suite,© 1998, Netscape
+Communications Corporation</P>
+<P><STRONG>Apache Software Foundation</STRONG></P>
+<P class=indent align=left>The Apache Software License, Version 1.1. </P>
+<P class=indent align=left>Copyright (c) 1998-2000 The Apache Software
+Foundation. All rights reserved. </P>
+<P class=indent align=left>Redistribution and use in source and binary forms,
+with or without modification, are permitted provided that the following
+conditions are met: </P>
+<P class=indent align=left>1. Redistributions of source code must retain the
+above copyright notice, this list of conditions and the following disclaimer.
+</P>
+<P class=indent align=left>2. Redistributions in binary form must reproduce the
+above copyright notice, this list of conditions and the following disclaimer in
+the documentation and/or other materials provided with the distribution. </P>
+<P class=indent align=left>3. The end-user documentation included with the
+redistribution, if any, must include the following acknowledgement: "This
+product includes software developed by the Apache Software Foundation
+(<a href="http://www.apache.org/" target="_blank">http://www.apache.org/</a>)." Alternately, this acknowledgement may appear in the
+software itself, if and wherever such third-party acknowledgements normally
+appear. </P>
+<P class=indent align=left>4. The names "Xerces" and "Apache Software
+Foundation" must not be used to endorse or promote products derived from this
+software without prior written permission. For written permission, please
+contact <a href="mailto:apache@apache.org">apache@apache.org</a>. </P>
+<P class=indent align=left>5. Products derived from this software may not be
+called "Apache" nor may "Apache" appear in their names without prior written
+permission of the Apache Group. </P>
+<P class=indent align=left>THIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESSED
+OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT
+SHALL THE APACHE SOFTWARE FOUNDATION OR ITS CONTRIBUTORS BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </P>
+<P class=indent align=left>This software consists of voluntary contributions
+made by many individuals on behalf of the Apache Software Foundation. For more
+information on the Apache Software Foundation, please see
+  <a href="http://www.apache.org/" target="_blank">http://www.apache.org/</a>. </P>
+<p class="indent">The Apache Software License, Version 2.0.</p>
+<p class="indent">Version 2.0, January 2004</p>
+<p class="indent"><a href="http://www.apache.org/licenses/" target="_blank">http://www.apache.org/licenses/</a></p>
+<p class="indent">TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION</p>
+<p class="indent">1. Definitions.</p>
+<p class="indent">"License" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.</p>
+<p class="indent">"Licensor" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.</p>
+<p class="indent">"Legal Entity" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, "control" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.</p>
+<p class="indent">"You" (or "Your") shall mean an individual or Legal Entity exercising permissions granted by this License.</p>
+<p class="indent">"Source" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.</p>
+<p class="indent">"Object" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.</p>
+<p class="indent">"Work" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).</p>
+<p class="indent">"Derivative Works" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.</p>
+<p class="indent">"Contribution" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, "submitted" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as "Not a Contribution.</p>
+<p class="indent">"Contributor" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work.</p>
+<p class="indent">2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.</p>
+<p class="indent">3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.</p>
+<p class="indent">4. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:</p>
+<ol>
+  <li class="indent">You must give any other recipients of the Work or Derivative Works a copy of this License; and</li>
+  <li class="indent">You must cause any modified files to carry prominent notices stating that You changed the files; and</li>
+  <li class="indent">You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and</li>
+  <li class="indent">If the Work includes a "NOTICE" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License. You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License.</li>
+</ol>
+<p class="indent">5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.</p>
+<p class="indent">6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.</p>
+<p class="indent">7. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.</p>
+<p class="indent">8. Limitation of Liability. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.</p>
+<p class="indent">9. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.</p>
+<p class="indent">END OF TERMS AND CONDITIONS</p>
+<P><STRONG>Scott Hudson, Frank Flannery, C. Scott Ananian</STRONG></P>
+<P class=indent align=left>CUP Parser Generator Copyright Notice, License, and
+Disclaimer </P>
+<P class=indent align=left>Copyright 1996-1999 by Scott Hudson, Frank Flannery,
+C. Scott Ananian </P>
+<P class=indent align=left>Permission to use, copy, modify, and distribute this
+software and its documentation for any purpose and without fee is hereby
+granted, provided that the above copyright notice appear in all copies and that
+both the copyright notice and this permission notice and warranty disclaimer
+appear in supporting documentation, and that the names of the authors or their
+employers not be used in advertising or publicity pertaining to distribution of
+the software without specific, written prior permission. </P>
+<P class=indent align=left>The authors and their employers disclaim all
+warranties with regard to this software, including all implied warranties of
+merchantability and fitness. In no event shall the authors or their employers be
+liable for any special, indirect or consequential damages or any damages
+whatsoever resulting from loss of use, data or profits, whether in an action of
+contract, negligence or other tortious action, arising out of or in connection
+with the use or performance of this software. </P>
+<P><STRONG>Unicode, Inc. </STRONG></P>
+<P class=indent align=left>Copyright © 1991-2005 Unicode, Inc. All rights
+reserved. Distributed under the Terms of Use in
+  <a href="http://www.unicode.org/copyright.html" target="_blank">http://www.unicode.org/copyright.html</a>. </P>
+<P class=indent align=left>Permission is hereby granted, free of charge, to any
+person obtaining a copy of the Unicode data files and associated documentation
+(the "Data Files") or Unicode software and associated documentation (the
+"Software") to deal in the Data Files or Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish, distribute,
+and/or sell copies of the Data Files or Software, and to permit persons to whom
+the Data Files or Software are furnished to do so, provided that (a) the above
+copyright notice(s) and this permission notice appear in all copies of the Data
+Files or Software, (b) both the above copyright notice(s) and this permission
+notice appear in associated documentation, and (c) there is clear notice in each
+modified Data File or in the Software as well as in the documentation associated
+with the Data File(s) or Software that the data or software has been modified.
+</P>
+<P class=indent align=left>THE DATA FILES AND SOFTWARE ARE PROVIDED "AS IS",
+WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT OF THIRD PARTY RIGHTS. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR
+HOLDERS INCLUDED IN THIS NOTICE BE LIABLE FOR ANY CLAIM, OR ANY SPECIAL INDIRECT
+OR CONSEQUENTIAL DAMAGES, OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,
+DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS
+ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THE DATA
+FILES OR SOFTWARE. </P>
+<P class=indent align=left>Except as contained in this notice, the name of a
+copyright holder shall not be used in advertising or otherwise to promote the
+sale, use or other dealings in these Data Files or Software without prior
+written authorization of the copyright holder. Unicode and the Unicode logo are
+trademarks of Unicode, Inc., and may be registered in some jurisdictions. All
+other trademarks and registered trademarks mentioned herein are the property of
+their respective owners.</P>
+<P class=indent align=left>&nbsp;</P></DIV>
+<P class=backlink><A
+href="#contents">Back
+to contents</A></P>
+<HR>
+
+<P class=legal>© 2010 Adobe Systems Incorporated. All rights
+reserved.</P></BODY></HTML>

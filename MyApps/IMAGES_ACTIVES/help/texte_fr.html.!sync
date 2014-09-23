@@ -1,0 +1,68 @@
+   <article>                       
+        <header>                             
+          <h2>Le texte</h2>                             
+        </header>                         
+        <ol>                                  
+          <li>                                    
+          <h3 id="metadonnees">Métadonnées</h3>                                
+          <p>Pour le respect de la Propriété intellectuelle, des métadonnées doivent être attachées à l'image choisie comme base pour réaliser l'image active.
+          </p>    
+                   
+          <p>Cinq métadonnées (issues du « Dublin Core », norme internationale pour la description des documents numériques) sont à renseigner dans l'onglet « Image » : « Titre de l'image », « Auteur de l'image », « Date de l'image », « Droits sur l'image », « Source de l'image ».                               
+          </p>             
+          <figure>			                                                    
+  <img src="views/champs-metadonnees.png" 				alt="Les cinq champs de saisie des métadonnées" />			                                                    
+  <figcaption>Les cinq champs de saisie des métadonnées                                              
+  </figcaption>		                                              
+</figure>     
+          <p>Lors de la visualisation, elles apparaissent dans le volet de métadonnées situé en bas de l'image active.
+          </p>                                                                                                                         
+          </li>                                  
+          <li>                                    
+          <h3 id="mise-en-forme-des-textes">Mise en forme des textes</h3>                                    
+          <p>Placer le curseur dans le champ du texte à mettre en forme. Au-dessus du titre de l’image active, choisir la police, le corps et la couleur du texte.                                
+          </p>  <figure>			                                                    
+  <img src="views/mise-en-forme-texte.png" 				alt="Mise en forme du champs 'description générale'" />			                                                    
+  <figcaption>Mise en forme du champs 'description générale'                                              
+  </figcaption>		                                              
+</figure>                 
+<p class="attention">Le formatage s'appliquera forcément à l'ensemble de la zone de texte sélectionnée. <br/>En l'état actuel d'Images Actives, il n'est pas possible d'appliquer un formatage particulier à un passage du texte.                                
+          </p>                                               
+          </li>                                  
+          <li>          
+          <h3 id="importer-des-polices">Importer des polices</h3>                                    
+          <p>Au-dessus du titre de l’image active, à côté du menu de choix de police, cliquer sur le bouton d’import de police.
+          </p>   <figure>			                                                    
+  <img src="views/bouton-importer-police.png" 				alt="Le bouton 'importer une police'" />			                                                    
+  <figcaption>Le bouton 'importer une police'                                             
+  </figcaption>		                                              
+</figure>              
+          <p>Une fenêtre s’ouvre pour parcourir et importer la police souhaitée en format « .ttf ».
+          </p>          
+          <p>Elle est ensuite disponible dans le menu de choix de police. Elle est embarquée avec le fichier « .xia ».                                
+          </p>        
+          <p class="attention">Si, suite à l'ajout d'une nouvelle police, vous ne parvenez plus à exporter vos animations, c'est que cette police n'est pas prise en charge par les gestionnaires de police fournis par défaut. <br/>
+          Si vous souhaitez pourvoir utiliser n'importe quelle police, référez-vous à <a href="http://images-actives.crdp-versailles.fr/spip.php?article2">la rubrique "Télécharger et installer" du site Images Actives</a> pour installer les parties complémentaires du compilateur Flex.                          
+          </p>                                      
+          </li>                                  
+          <li>    
+          <h3 id="questions-reponses-et-verrouillage">Questions-réponses et verrouillage</h3>                                    
+          <p>En mode « Quiz », saisir les questions dans l’onglet « Créer les détails », lors de la création du détail.
+          </p>          
+          <p>Saisir les réponses dans l’onglet « Commentaires ».
+          </p>                                
+          <p>Pour verrouiller les réponses, cocher « Code d'accès aux réponses » et entrer un code (de un à six chiffres).
+          </p>  <figure>			                                                    
+  <img src="views/code-acces-quiz.png" 				alt="Saisie d'un code d'accès aux réponses" />			                                                    
+  <figcaption>Saisie d'un code d'accès aux réponses                                          
+  </figcaption>		                                              
+</figure>                 
+          <p>Lors de la visualisation, le code est demandé à la première question, il déverrouille toutes les autres questions, il est réactivé à chaque réouverture de l'image active.
+          </p> 
+          <p class="attention">Attention ! lorsque vous êtes en mode plein écran, le lecteur flash n'a plus accès au clavier.
+          Quittez le plein écran le temps de déverrouiller l'animation.
+          Si vous avez des problèmes pour la saisie des nombres, essayez le pavé numérique de votre clavier.
+          </p>                                           
+          </li>                         
+        </ol>                   
+      </article>         

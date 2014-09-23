@@ -1,0 +1,34 @@
+<article>               
+        <header>                   
+          <h2>the models</h2>                   
+          <p>You can choose between two comportment modes and four disposition modes modifiable at any time.                    
+          </p>                   
+               
+        </header>                 
+        <ol>                        
+          <li>                          
+          <h3 id="modeles-de-comportement">Comportment modes</h3>                          
+          <p>Two modes are available to create your images actives : Discovery and Quiz. Each mode offers a choice of four dispositions (see <a href="#modeles-de-disposition">}Disposition modes available</a>).</p> 
+<p>Discovery mode is recommended for knowledge acquisition, image decoding and any other work on details</p>
+<p>Quiz mode is available for questions-answers sessions or knowledge checkout.</p>
+<p>Quiz mode can be locked by a code. The teacher can freely allow students to access to the answers (see <a href="#utilisation-quiz">Using Quiz</a>).
+          </p>
+          <p>At any time, you can change your mode choice in the tab "Models".                
+          </p>                          
+                     
+                      
+          </li>                        
+          <li>                          
+          <h3 id="modeles-de-disposition">Disposition modes</h3>                          
+          <p>Accordion mode is recommended for tabs navigation and images in portrait (high up). Comments may be long.</p>
+<p>Bubbles mode is recommended for image detail browsing and involves short comments. The picture display mode (portrait or landscape) is indifferent.</p>
+<p>Buttons mode is recommended for horizontal image landscape display mode). The buttons are placed at the top of the image, they are numbered. Comments may be long.</p>
+<p>Audio mode allows you to record audio legends. This mode is ideal for work on languages ​​for example (see <a href="#audio">Sound</a>).</p>
+<p>The digital tablet mode allows you to export the image active in a HTML5 single file readable on digital tablet, smartphone and on your compatible web browser. It can also export the image active as a widget for the software Author iBooks.</p>
+              <p class="attention">It is not enough to click on a model block in the list to change the mode : the box must be ticked.                         
+          </p>                      
+          </li>                                        
+        </ol>             
+      </article> 
+
+

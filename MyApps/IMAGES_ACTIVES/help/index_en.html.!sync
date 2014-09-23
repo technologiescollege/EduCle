@@ -1,0 +1,1267 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title></title>
+<link href="styles.css" rel="stylesheet">
+</head>
+<body>
+<header>
+<h1 id="retour-accueil">Images Actives - guide de l'utilisateur</h1>
+</header>
+<p>As a supplement to this user guide, please join the 
+ <a href="http://images-actives.crdp-versailles.fr/spip.php?article7">forum</a>
+ and
+ <a href="http://images-actives.crdp-versailles.fr/spip.php?article4&amp;lang=en">FAQ</a>
+ pages on the <a href="http://images-actives.crdp-versailles.fr?lang=en">"Images Actives" website</a>.
+</p>
+<nav role="navigation">
+<ol>
+<li>
+<a href="#prise-en-main">Quick getting started</a>
+<ol>
+<li>
+<a href="#importer-image">Import an image</a>
+</li>
+<li>
+<a href="#detourer-details">Cut out details</a>
+</li>
+<li>
+<a href="#saisir-commentaires">Enter comments</a>
+</li>
+<li>
+<a href="#exporter-animation">Export animation</a>
+</li>
+</ol>
+</li>
+<li>
+<a href="#texte">The text</a>
+<ol>
+<li>
+<a href="#metadonnees">Metadata</a>
+</li>
+<li>
+<a href="#mise-en-forme-des-textes">Formatting text</a>
+</li>
+<li>
+<a href="#importer-des-polices">Import fonts</a>
+</li>
+<li>
+<a href="#questions-reponses-et-verrouillage">Questions-answers and lock</a>
+</li>
+</ol>
+</li>
+<li>
+<a href="#details">Details</a>
+<ol>
+<li>
+<a href="#outils-detourage">Trimming tools</a>
+</li>
+<li>
+<a href="#detourer-application-externe">Trimming in an external application</a>
+</li>
+<li>
+<a href="#gestion-zoom">Zoom management </a>
+</li>
+<li>
+<a href="#puces">Use of chips</a>
+</li>
+</ol>
+</li>
+<li>
+<a href="#modeles">the models</a>
+<ol>
+<li>
+<a href="#modeles-de-comportement">Comportment modes</a>
+</li>
+<li>
+<a href="#modeles-de-disposition">Disposition modes</a>
+</li>
+</ol>
+</li>
+<li>
+<a href="#parametres-apparence">Customize the look</a>
+<ol>
+<li>
+<a href="#charte-couleurs">Color pattern</a>
+</li>
+<li>
+<a href="#effets-graphiques">Graphic effects</a>
+</li>
+<li>
+<a href="#proportions">The proportions</a>
+</li>
+</ol>
+</li>
+<li>
+<a href="#audio">The sound</a>
+<ol>
+<li>
+<a href="#enregistrer-dans-images-actives">To record in Images-Actives</a>
+</li>
+<li>
+<a href="#enregistrer-dans-application-externe">To record to an external application (coming soon)</a>
+</li>
+</ol>
+</li>
+<li>
+<a href="#image-active">The 'image active'</a>
+<ol>
+<li>
+<a href="#comportement-d%C3%A9tails">Details comportment</a>
+</li>
+<li>
+<a href="#barre-boutons">Buttons bar</a>
+</li>
+<li>
+<a href="#volet-des-metadonnees">Metadata section</a>
+</li>
+<li>
+<a href="#utilisation-audio">Audio mode using</a>
+</li>
+<li>
+<a href="#Utilisation en mode Tablette numerique">Digital tablet mode using</a>
+</li>
+<li>
+<a href="#utilisation-quiz">Quiz mode using</a>
+</li>
+</ol>
+</li>
+<li>
+<a href="#parametres-de-publication">Publication Settings</a>
+<ol>
+<li>
+<a href="#dimensions-animation">Dimensions of the animation</a>
+</li>
+<li>
+<a href="#animation_prechargement">Web publication : preloading animation</a>
+</li>
+<li>
+<a href="#embarquement_ou_chargement">Web Publication : boarding or loading resources</a>
+</li>
+<li>
+<a href="#publication_hors_web">Local publication</a>
+</li>
+<li>
+<a href="#publication_html5">Publish HTML5</a>
+</li>
+<li>
+<a href="#creer_widget_ibooks">Create a widget for iBooks-Author software</a>
+</li>
+<li>
+<a href="#creer_projection">Create a projection</a>
+</li>
+</ol>
+</li>
+<li>
+<a href="#divers">Miscellaneous</a>
+<ol>
+<li>
+<a href="#raccourcis-clavier">keyboard shortcuts</a>
+</li>
+<li>
+<a href="#changer-langue">Change the application language</a>
+</li>
+</ol>
+</li>
+</ol>
+</nav>
+<section>
+<article>
+<header>
+<h2 id="prise-en-main">1. Quick getting started</h2>
+<p>The application is divided into a series of panels. In most cases, when you create an image active, you go through these panels successively from left to right according to the progress of your work.                                
+          </p>
+</header>
+</article>
+<ol>                                   
+          
+<li>                                     
+          
+<h3 id="importer-image">Import an image</h3>                                     
+          
+<p>In the panel "Image", click on "Import an image" (keyboard shortcut cmd or ctrl + i).                                 
+          </p>     
+                    
+<figure>			                                                    
+  
+<img src="views/importer_une_image.png" alt="Importer une image">			                                                    
+  <figcaption>Import an image                                                 
+  </figcaption>		                                              
+
+</figure>  	                           
+          
+<p>Choose in the disk of your computer an image file in jpeg, png, gif or tiff. The image now appears in the Images Actives software. You can then choose its size depending on your screen resolution (see 
+            <a href="#dimensions-animation">dimensions of the animation</a>).                                 
+          </p>    
+
+<p class="attention">When you select the image you want to work on, if you plan to make public use, make sure you have the right to use it, otherwise you may expose you to lawsuits from the owners right (people or corporation who have the  image rights : the author, his heirs, museum ...).
+</p>		  
+          
+</li>                                   
+          
+<li>                                     
+          
+<h3 id="detourer-details">Cut out details</h3>                                     
+          
+<p>In the panel "Create details," a detail is created by default. Double-click on "Detail title" to be able to write your detail title, press Enter to confirm your selection. You can then create a detail by selecting the tool according your specific cut out to do. see  
+            <a href="#details">Les d&eacute;tails</a> for more information on trimming tools.     
+ </p>       
+  
+<figure>			                                                    
+  
+<img src="views/outils-de-detourage.png" alt="Les outils de d&eacute;tourage">			                                                    
+  <figcaption> Trimming tools                                                
+  </figcaption>		                                              
+
+</figure>     			
+            
+<p>You can order your details by selecting them and clicking on arrows (up or down) to up or down the details in the list.
+            </p> 
+<figure>			                                                    
+  
+<img src="views/liste-details.png" alt="La liste des d&eacute;tails">			                                                    
+  <figcaption> List of details                                                
+  </figcaption>		                                              
+
+</figure>            
+            
+<p>To delete a detail, click on the "red cross" button located below the list of details.           
+            </p>          
+            
+<p>See 
+              <a href="#detourer-application-externe">Cut out in an external application</a> to know how to import your details.
+            </p>          
+            
+<p>Voir 
+              <a href="#gestion-zoom">Zoom management</a> for more information on zoom tool.
+            </p>                                 
+            
+</li>                                   
+            
+<li>               
+            
+<h3 id="saisir-commentaires">Enter comments</h3>                                     
+            
+<p>In the "Comments" tab, type the title of the image active and the title of its description. Typing in the box below the text for the general description of the image. You can insert hyperlinks in the description by selecting the text you want to link and click on the link button.                                 
+            </p>            
+            
+<p>Choose from the list the details you want to work on.
+              <br>If you are in the Quiz mode, you can assign a password to the answers (see 
+              <a href="#questions-reponses-et-verrouillage">}Questions - answers and lock</a>).
+              <br>Type your text in the "Detail description". You can insert hyperlinks in the description by selecting the text you want to link and click on the link button.           
+            </p>    
+            
+<figure>			                                                    
+  
+<img src="views/ajouter-lien.png" alt="Ajouter un lien hypertexte">			                                                    
+  <figcaption>Add a hyperlink                                                
+  </figcaption>		                                              
+
+</figure>                             
+            
+</li>                                   
+            
+<li>               
+            
+<h3 id="exporter-animation">Export animation</h3>                                     
+            
+<p>To generate your image active, click the green button in the taskbar. A saving window opens. Select the directory where you want to save your swf file and click on "save" button. 
+			<p class="attention">If you can not export your image, or you do not see the result in the preview pane, it may be missing components in your computer. See the <a href="http://images-actives.crdp-versailles.fr/spip.php?article4">FAQ site</a>. 
+</p>
+             
+<br>In the "Settings" tab, you can choose to export configurations (see 
+              <a href="#animation_prechargement">Web publication : the preloading animation</a>).                                   
+            </p>   
+            
+<figure>			                                                    
+  
+<img src="views/bouton-exporter.png" alt="Le bouton 'exporter l'animation'">			                                                    
+  <figcaption>The button<br>"export animation"                                              
+  </figcaption>		                                              
+
+</figure>         
+
+<p class="attention">If you intend to put your image active online, we advise you not to export many  images actives in the same directory, otherwise some complementary files will overwrite each other.                         
+          </p>                                       
+            
+</li>                          
+        
+</ol>
+<article>
+<header>
+<h2 id="texte">2. The text</h2>
+</header>
+</article>
+<ol>                                             
+    
+<li>                                               
+    
+<h3 id="metadonnees">Metadata</h3>                                           
+    
+<p>To respect intellectual property, metadata must be attached to the selected image for achieving the image active.           
+    </p>                                   
+    
+<p>Five metadata (from the "Dublin Core" international standard for describing digital documents) must be entered in the "Image" tab : "Image Title", "Author of the picture", "Date of image", "image copyright", "Image source".                                          
+    </p>                        
+    
+<figure>			                                                       
+      
+<img src="views/champs-metadonnees.png" alt="Les cinq champs de saisie des m&eacute;tadonn&eacute;es">			                                                       
+      <figcaption>The five metadata input fields                                                 
+      </figcaption>		                                               
+    
+</figure>                
+    
+<p>When viewing, they appear in the metadata pane at the bottom of the image active.           
+    </p>                                                                                                                                    
+    
+</li>                                             
+    
+<li>                                               
+    
+<h3 id="mise-en-forme-des-textes">Formatting text</h3>                                               
+    
+<p>Place the cursor in the text field to format. Above the title of the image active, choose the font, size and color of the text.                                           
+    </p>  
+    
+<figure>			                                                       
+      
+<img src="views/mise-en-forme-texte.png" alt="Mise en forme du champs 'description g&eacute;n&eacute;rale'">			                                                       
+      <figcaption> Formatting the 'general description' field                                                 
+      </figcaption>		                                               
+    
+</figure>                  
+    
+<p class="attention">The formatting necessarily apply to all the selected text box.
+      <br>For our software, it is not possible right now to apply a special formatting to a text passage.                                           
+    </p>                                                          
+    
+</li>                                             
+    
+<li>                     
+    
+<h3 id="importer-des-polices">Import fonts</h3>                                               
+    
+<p>Above the title of the image active, next to the selection font menu, click on the "import a font" button.           
+    </p>   
+    
+<figure>			                                                       
+      
+<img src="views/bouton-importer-police.png" alt="Le bouton 'importer une police'">			                                                       
+      <figcaption>The "import a font" button                                                
+      </figcaption>		                                               
+    
+</figure>                         
+    
+<p>A window opens to browse and import the desired font in format ".ttf"..           
+    </p>                     
+    
+<p>It is then available in the font selection menu. It is embedded with the ".xia" file.                                          
+    </p>                   
+    
+<p class="attention">If, following the addition of a new font, you can export your animations anymore, this is because this font is not supported by the fonts managers provided by default.
+      <br>          If you want to use any font, refer to 
+      <a href="http://images-actives.crdp-versailles.fr/spip.php?article2">the section "Download and install" in Images Actives Site</a>  to install the additional parts of the Flex compiler.                                    
+    </p>                                                 
+    
+</li>                                             
+    
+<li>               
+    
+<h3 id="questions-reponses-et-verrouillage">Questions-answers and lock</h3>                                               
+    
+<p>In the "Quiz" mode, enter questions in the "Create details" tab when creating detail.           
+    </p>                     
+    
+<p>Enter the answers in the "Comments" tab.           
+    </p>                                           
+    
+<p>To lock the answers, tick "Code Access Answers" and enter a code (one to six digits).           
+    </p>  
+    
+<figure>			                                                       
+      
+<img src="views/code-acces-quiz.png" alt="Saisie d'un code d'acc&egrave;s aux r&eacute;ponses">			                                                       
+      <figcaption>Entering a code to access answers                                             
+      </figcaption>		                                               
+    
+</figure>                            
+    
+<p>When viewing, the code is asked at the first question, it unlocks all the other issues, it is reactivated each reopening of the image active.           
+    </p>            
+    
+<p class="attention">Beware ! When in full screen mode, the flash drive no longer has access to keyboard.           Exit full screen just the time to unlock the animation.           If you have problems entering the numbers, try the number keys on the right of your keyboard.           
+    </p>                                                      
+    
+</li>                                  
+  
+</ol>
+<article>
+<header>
+<h2 id="details">3. Details</h2>
+<p>Trimming and managing options of details to enhance in your image active.                               
+          </p>
+</header>
+</article>
+<ol>                                   
+          
+<li>                                     
+          
+<h3 id="outils-detourage">Trimming tools</h3>                                     
+          
+<p>Several tools are available to help you make the most of your details trimming. The tools are :           
+            <ul>          
+              
+<li>lasso: it allows to do a precise trimming
+              </li>          
+              
+<li>polygonal lasso: allows to do a clipping point by clicking to create points. Double click to close your track
+              </li>          
+              
+<li>rectangular selection : create a square or rectangular detail
+              </li>          
+              
+<li>elliptical selection : create an elliptical or round detail
+              </li>          
+              
+<li>highlighter : set the size and shape of your highlighter with the cursor
+              </li>         
+ 
+<li>			  you can delete your selection line by clicking on the red cross button next to your trimming tools</li>    
+            
+</ul>                              
+          
+</p>     
+          
+<figure>			                                                    
+  
+<img src="views/outils-de-detourage.png" alt="Les outils de d&eacute;tourage">			                                                    
+  <figcaption>Trimming tools                                                
+  </figcaption>		                                              
+
+</figure>                                                                  
+          
+</li>                                   
+          
+<li>                                     
+          
+<h3 id="detourer-application-externe">Trimming in an external application</h3>                                     
+          
+<p>If you want to achieve more accurate outlines, you can do it with a software image processing. Details must be saved in a format supporting transparency: png or gif.
+           <br>         To import details, go to the tab "Create the details" and click on the button "IMG +" located below the list of details. Then manage your imported detail as normal detail using details functions. Moreover, you can move these details in your image by selecting and dragging them with your mouse.           
+          </p>         
+          
+<p class="attention">We recommend that you achieve your details by clearing unused image portions without cropping the original image. The details will have the same dimensions as the background but will be transparent on most part of their surface.<br>
+          Thus, you spare yourself the job of having to reposition your details on its exact location in frame.                         
+          </p>                                  
+          
+</li>                                   
+          
+<li>               
+          
+<h3 id="gestion-zoom">Zoom management </h3>                                     
+          
+<p>You can choose a detail, either zoomable or not by ticking / unticking the "Detail zoomable" located below the list of details. A magnifying glass icon appears in front of the titles of the zoomable details.           
+          </p>      
+<figure>			                                                    
+  
+<img src="views/case-detail-zoomable.png" alt="La case 'd&eacute;tail zoomable'">			                                                    
+  <figcaption> Tickbox 'detail zoomable'                                             
+  </figcaption>		                                              
+
+</figure>      
+
+<p class="attention">A detail will never be zoomed beyond its own definition which would give a pixelated appearance.<br>
+          Therefore, if your image is not big enough, turn off the zoom on the details: it would have no effect or could even reduce the size of the detail instead of zooming it !                         
+          </p>                                 
+          
+</li>                                   
+          
+<li>               
+          
+<h3 id="puces">Use of chips</h3>                                     
+          
+<p>The chips allow you to provide additional information that may not be associated with a specific detail. The chips are below the list of details. You can put in place as many chips as you like. Choose best suited chips for your image and then move them in the picture.
+           <br>         The chips are not zoomable but you can order them as you want and combine comments.                                
+          </p>        
+<figure>			                                                    
+  
+<img src="views/menu-acces-puces.png" alt="Menu d'acc&egrave;s aux puces">			                                                    
+  <figcaption>Chips access menu                                            
+  </figcaption>		                                              
+
+</figure>      
+
+<p class="attention">When in mode "buttons" or "accordion", the chips are not visible but they give birth to a button or an additional accordion panel which is not linked to any detail of the image.                         
+          </p>                                     
+          
+</li>                          
+        
+</ol>
+<article>
+<header>
+<h2 id="modeles">4. the models</h2>
+<p>You can choose between two comportment modes and four disposition modes modifiable at any time.                    
+          </p>
+</header>
+</article>
+<ol>                        
+          
+<li>                          
+          
+<h3 id="modeles-de-comportement">Comportment modes</h3>                          
+          
+<p>Two modes are available to create your images actives : Discovery and Quiz. Each mode offers a choice of four dispositions (see <a href="#modeles-de-disposition">}Disposition modes available</a>).</p> 
+
+<p>Discovery mode is recommended for knowledge acquisition, image decoding and any other work on details</p>
+
+<p>Quiz mode is available for questions-answers sessions or knowledge checkout.</p>
+
+<p>Quiz mode can be locked by a code. The teacher can freely allow students to access to the answers (see <a href="#utilisation-quiz">Using Quiz</a>).
+          </p>
+          
+<p>At any time, you can change your mode choice in the tab "Models".                
+          </p>                          
+                     
+                      
+          
+</li>                        
+          
+<li>                          
+          
+<h3 id="modeles-de-disposition">Disposition modes</h3>                          
+          
+<p>Accordion mode is recommended for tabs navigation and images in portrait (high up). Comments may be long.</p>
+
+<p>Bubbles mode is recommended for image detail browsing and involves short comments. The picture display mode (portrait or landscape) is indifferent.</p>
+
+<p>Buttons mode is recommended for horizontal image landscape display mode). The buttons are placed at the top of the image, they are numbered. Comments may be long.</p>
+
+<p>Audio mode allows you to record audio legends. This mode is ideal for work on languages ​​for example (see <a href="#audio">Sound</a>).</p>
+
+<p>The digital tablet mode allows you to export the image active in a HTML5 single file readable on digital tablet, smartphone and on your compatible web browser. It can also export the image active as a widget for the software Author iBooks.</p>
+              
+<p class="attention">It is not enough to click on a model block in the list to change the mode : the box must be ticked.                         
+          </p>                      
+          
+</li>                                        
+        
+</ol>
+<article>
+<header>
+<h2 id="parametres-apparence">5. Customize the look</h2>
+<p>Modify the default settings to customize your image active.                                    
+    </p>
+</header>
+</article>
+<ol>                                        
+    
+<li>                                          
+    
+<h3 id="charte-couleurs">Color pattern</h3>                                           
+    
+<p>In the "Settings" tab, an instrument panel is available to adjust the elements of color, graphics and image proportions. Choose from the left column the function to change and following your choice, the elements of the other columns are activating according to the possibilities of change.      
+    </p>               
+    
+<p>The colors displayed in the "Settings" tab are the default colors, they can be changed. A diagram, available for each model, enables you to easily link a color to its location.     
+    </p>               
+    
+<p>Pour modifier les couleurs, vous avez deux possibilit&eacute;s : soit en cliquant directement sur les points de couleur num&eacute;rot&eacute;s (une palette de couleurs s'affiche), soit par le tableau de bord en modifiant les couleurs li&eacute;es aux diff&eacute;rents &eacute;l&eacute;ments de l'image active.To change colors, you have two possibilities: either by clicking on the numbered colored dots (a color pattern) or by the instrument panel by changing the colors associated with different elements of the image active. These elements are :     
+    </p>                  
+    
+<ul>                 
+      
+<li>background : background color       
+      </li>                 
+      
+<li>cartouches : background color and outline color       
+      </li>                 
+      
+<li>legends : background color of the legend       
+      </li>                 
+      
+<li>hover : brightness and color of the hover bubble       
+      </li>                 
+      
+<li>selection : outline color and background color during the selection of a detail       
+      </li>                 
+      
+<li>zoom : background color during the zoom of a detail       
+      </li>                               
+    
+</ul>                                                                       
+    
+</li>                                        
+    
+<li>                                          
+    
+<h3 id="effets-graphiques">Graphic effects</h3>                                          
+    
+<p>In the "Settings" tab, an instrument panel is available to adjust the elements of color, graphics and image proportions. Choose from the left column the function to change and following your choice, the elements of the other columns are activating according to the possibilities of change.      
+    </p>               
+    
+<p>The instrument panel of the "Settings" tab allows you to change some of the effects of the generated animation. These effects are :     
+    </p>               
+         
+<ul>                 
+      
+<li>hover of the details : to light: brightness of detail       
+      </li>                 
+      
+<li>selection : outline : transparency, force (radiance) and thickness of the outline       
+      </li>                 
+      
+<li>selection : blur : background transparency during the selection       
+      </li>                 
+      
+<li>zoom : blur : background transparency during the selection       
+      </li>                 
+      
+<li>zoom : time : zoom speed</li>                     
+    
+</ul>                                                           
+    
+</li>                                                      
+    
+<li>                                          
+    
+<h3 id="proportions">The proportions</h3>                                          
+    
+<p>In the "Settings" tab, an instrument panel is available to adjust the elements of color, graphics and image proportions. Choose from the left column the function to change and following your choice, the elements of the other columns are activating according to the possibilities of change.      
+    </p>    
+               
+    
+<p>You can adjust the proportion image/text, it means, the importance you want to give the image. This function is accessed by clicking on "Layout" in the left column and then "Image / Text", you can increase or reduce the report to the arrows.                
+    </p>                                 
+    
+</li>           
+  
+</ol>
+<article>
+<header>
+<h2 id="audio">6. The sound</h2>
+</header>
+</article>
+<ol>                                                 
+    
+<li>                                                   
+    
+<h3 id="enregistrer-dans-images-actives">To record in Images-Actives</h3>                                                   
+    
+<p>To record comments, questions or answers in the software, choose the "Audio" model and activate the computer microphone.               
+    </p>    
+        
+<p class="attention">By default, the audio mode is not active because of patents on MP3 format. A file, that is not provided during installation, must be added to Images-Actives.<br>
+          Refer to <a href="http://images-actives.crdp-versailles.fr/spip.php?article2">the section "Download and install" on Images-Actives site</a> to install this file.                                                   
+          </p>                    
+    
+<p>The Images-Actives recording Toolbar includes :               
+    </p>		                 
+    
+<ul>                               
+      
+<li>a "Record" button                     
+      </li>                               
+      
+<li>a button "Play" to listen to its recording                     
+      </li>                               
+      
+<li>a button "Stop" to stop recording or play                     
+      </li>                               
+      
+<li>a "time bar" representing the progress of recording or play                     
+      </li>                               
+      
+<li>a button to import sound file that opens a browser window allowing to search for it (.wav file)                     
+      </li>		                       
+    
+</ul>       
+    
+<figure>			                                                    
+  
+<img src="views/controle-enregistrement.png" alt="Les contr&ocirc;les d'enregistrement">			                                                    
+  <figcaption>Controls recording                                              
+  </figcaption>		                                              
+
+</figure>                                                       
+    
+<p>Discovery-Audio mode :                           
+    </p>		                             
+    
+<ul>                                                   
+      
+<li>enter the image active title (it is literally on the image active)                                 
+      </li>                                                   
+      
+<li>record the "General Description"                                
+      </li>                                                   
+      
+<li>record the "detail description" for each detail (the detail title does not appear on the image active )                                 
+      </li>				                                 
+    
+</ul>                                                               
+    
+<p>Audio-Quiz mode :                                   
+    </p>		                                     
+    
+<ul>                                                           
+      
+<li>enter the image active title (it is literally on the image active)                                         
+      </li>                                                           
+      
+<li>record the "order" (it starts by clicking the first button in the upper right of the image active)                                         
+      </li>                                                           
+      
+<li>a code to lock the answers can be entered : see                                          
+      <a href="#questions-reponses-et-verrouillage">Questions-answers and locking</a> ;                                         
+      </li>                                                           
+      
+<li>record the "Question on the detail" (it starts by selecting the detail)                                         
+      </li>                                                           
+      
+<li>record the "Answer to the question" (it starts by clicking the "Response" button)                                         
+      </li>				                                     
+    
+</ul>                                                                                       
+       
+    
+<p class="attention">When in Audio mode, you can not export your image active as long you have not recorded a general description and a legend (or a question and its answer) to every detail                         
+          </p>                                                             
+
+    
+</li>    
+                                              
+    
+<li>                                                   
+    
+<h3 id="enregistrer-dans-application-externe">To record to an external application (coming soon)</h3>  	
+	
+</li>
+  
+</ol>
+<article>
+<header>
+<h2 id="image-active">7. The 'image active'</h2>
+</header>
+</article>
+<ol>                                            
+    
+<li>                                              
+    
+<h3 id="comportement-d&eacute;tails">Details comportment</h3>                                              
+    
+<p>On mouse over : detail reacts according to the chosen parameters (Settings / Mouse over / enlighten) : choice of color and clarity.          
+    </p>                       
+    
+<p>On selection mode : the detail reacts according to the chosen parameters :            
+    </p>              
+    
+<ul>                       
+      
+<li>Outline (Settings / Selection / Outline): choice of color, transparency, strength and thickness of the outline.            
+      </li>                         
+      
+<li>Blur (Settings / Selection / Blur): choice of blurring the rest of the image (color and transparency).            
+      </li>                         
+      
+<li>The text (comment or question and answer) will appear or sound recording starts.            
+      </li>         
+    
+</ul>                                      
+    
+<p>Zoom : the detail is zoomed (at its maximum resolution) at the first click after selection if "Detailed zoomable" was ticked in the tab "Create the details": 
+    </p>                             
+    
+<ul>
+      
+<li>Time (Settings / Zoom / Time) : rate of appearance and disappearance of the zoom.              
+      </li>                           
+      
+<li>Blur (Settings / Zoom / Blur) : choice of blurring the rest of the image (color and transparency) during zooming.              
+      </li>                                                                            
+    
+</ul>                                                                              
+    
+</li>                                            
+    
+<li>                                              
+    
+<h3 id="barre-boutons">Buttons bar</h3>                                              
+    
+<p>The buttons bar at the top right of the image active, contains four buttons, except  when in "Accordion" mode it only contains three while the "general description" is found in the first section of the accordion. Except this, for all modes, it includes :      
+    </p>                                           
+    
+<ul>          
+      
+<li>"General Description" : This button contains the title and general comments associated with the image active (filled in the "Comments" tab).                
+      </li>                          
+      
+<li>"Display all details" click retained on this button will display all the image details.                
+      </li>                          
+      
+<li>About "Images-Actives" : this button opens a window about the software rights.                
+      </li>                          
+      
+<li>"Full Screen": this button opens the image active in full screen. We leave full screen mode by clicking at the same place on a new button, "Exit Full Screen".                
+      </li>              
+    
+</ul>                                                                                             
+    
+</li>                                            
+    
+<li>                    
+    
+<h3 id="volet-des-metadonnees">Metadata section</h3>                                              
+    
+<p>Le volet des m&eacute;tadonn&eacute;es, situ&eacute; en bas de l'image active, est d&eacute;di&eacute; aux mentions concernant les droits d'utilisation de l'image sur laquelle se base l'image active et aux mentions concernant les droits d'utilisation de l'image active elle-m&ecirc;me.The metadata section, located at the bottom of the image active, is dedicated to the mentions concerning the rights of use of the image on which is based on the image active and mentions concerning the rights of use of the image active itself. see               
+      <a href="#metadonnees">M&eacute;tadata</a>.          
+    </p>                                                               
+    
+</li>                                            
+    
+<li>              
+    
+<h3 id="utilisation-audio">Audio mode using</h3>                                              
+    
+<p>When viewing the image active in audio mode, the sound starts as soon as the detail is selected. A sound control bar is available, it offers :                          
+      <ul>          
+        
+<li>a button "Play / Pause" to control the flow of comment, question or response                
+        </li>                          
+        
+<li>a button "disable / enable the sound"                
+        </li>                           
+        
+<li>a button "back to beginning" to listen again the comment, the question or the answer                
+        </li>                           
+        
+<li>a volume control                
+        </li>              
+      
+</ul>           
+    
+</p>                                                           
+    
+</li>                    
+    
+<li>
+    
+<h3 id="Utilisation en mode Tablette numerique">Digital tablet mode using</h3>
+    
+<p>The image active appearance in the digital tablet mode is different because the uses are different. The image active is adapted to a touch use, there is therefore no Mouse over of details. A finger touch selects the detail, the second one starts zooming if the detail is zoomable and a third one deselects detail.</p>
+    
+<p>There are two toolbars that you can make come and go at any time by clicking the drop-down menu. These toolbars comprise :
+    </p>
+    	
+<ul>
+    		
+<li>Top toolbars : the four buttons found in all other modes. Only the button "View all details" adopt a different behavior since it no longer reacts to rollover but remains active until a second touch or selecting a detail put it off. If the title you chose is too long, the scrolling arrows
+appear to scroll the text.
+    		</li>
+    		
+<li>Bottom toolbars : several buttons numbered according to the number of your details. You can navigate to a detail without going through the image. You choose the order details from the list of details. See <a href="#detourer-details">Cutout details</a>
+    		
+</li>
+    	
+</ul>
+    
+<p>The modifiable parameters to customize this mode are reduced to accommodate the largest number of devices. The modifiable parameters are :
+    </p>
+    	
+<ul> 
+    		
+<li>Blur (Settings / Select / Blur): choice of the blurring of the rest of the image (color and transparency) while selecting and zooming in and displaying all the details.
+    		</li> 
+    		
+<li>Zoom (Settings / Zoom / Blur): choice of the blurring of the rest of the image (color and transparency) during zooming, adjusting the zoom speed (this function can not be guaranteed because it depends on the performance of the display device).
+    		</li>
+    	
+</ul>                 
+    
+</li>     
+	
+<li>                    
+    
+<h3 id="utilisation-quiz">Quiz mode using</h3>                                              
+    
+<p>Quiz mode exists for all modes : Accordion, Bubbles, Buttons and Audio. 
+    </p>                                    
+    
+<ul>           
+      
+<li>The question appears when a detail is selected. The answer is unmasked by clicking the "Answer" button.                
+      </li>                                    
+      
+<li>When the quiz is locked, the first click on a detail makes the first question appear, and as well a field where to enter the unlock code (specified when creating the questions / answers). Once the code is validated, the "Answer" button is available for this detail and all others. The code is applied for only the first response, it unlocks all the other answers and it is reactivated on each reopening of the image active. See                 
+      <a href="#questions-reponses-et-verrouillage">Frequently Asked Questions and locking</a>.                
+      </li>              
+    
+</ul>                                                                       
+    
+</li>                               
+  
+</ol>
+<article>
+<header>
+<h2 id="parametres-de-publication">8. Publication Settings</h2>
+<p>When you click on the "Generate interactive animation" button (shortened to ctrl + enter), you are asked to choose the name and location of a file with the extension .swf.                                                              
+          </p>
+<p>This file is a small standalone application in Flash format that contains all the contents (images, texts, sounds) that you created and add to them interactivity.                                                             
+          </p>
+<p>This is a compilation step (transformation of a set of resources such as computer code, images or sounds into an application).                                 
+          </p>
+<p>The advantage of this step is that once your image active compiled, you can be sure it will look and behave the same way regardless of the computer and the user's browser.                                                          
+          </p>
+<p>A swf file can not be changed by the user even when using the Images Actives software. To change an image active, you need the source file (the xia file).                                                         
+          </p>
+</header>
+</article>
+<ol>                                                                    
+          
+<li>                                                                      
+          
+<h3 id="dimensions-animation">Dimensions of the animation</h3>                                                                      
+          
+<p>Even if it can be zoomed in a web browser, flash animation features, like a digital image, a specific dimension (width - height). Once the swf file created, its dimensions are determined. To modify them, the swf file must generated again.                                                                  
+          </p>                                                                 
+          
+<p>By clicking on the "Image" tab, you access a control that allows you to set the image active dimensions. It's not just the width and height of the image area but the size of all the flash animation, including its margins, text fields (title, accordion), the toolbar, the metadata panel.		                                              
+          </p>    		                                   
+          
+<figure>			                                       
+            
+<img src="views/menu_dimensions_standard.png" alt="Le menu des dimensions">			                                       
+            <figcaption>Dimensions menu                                       
+            </figcaption>		                                   
+          
+</figure>  		                                   
+          
+<p>The menu offers a set of predefined dimensions corresponding to most common screen resolutions. If your image active is intended to be used in full screen mode, and if you know the screen resolution (for example, the one of your interactive whiteboard, or the one of a tablet used by your students), you have an interest to choose an entry from this menu.		                                              
+          </p>   		                                   
+          
+<p>You can also set arbitrary dimensions by changing the field "width" and "height". If you want to insert the active image in a model of a web page, this solution is appropriate. 		                                              
+          </p>   		                                   
+          
+<p>The most appropriate choice is to tick the "optimized dimensions". When you modify a dimension (width or height), the other dimension will be recalculated so that the margins of your image active are harmonious and that there is no empty space left.		                                              
+          </p>  			                                 
+          
+<p>The first time you tick this box, the width will be recalculated depending on the height.                                            
+          </p>  		                                                                                            
+          
+</li>                                                                    
+          
+<li>                                                                      
+          
+<h3 id="animation_prechargement">Web publication : preloading animation</h3>                                                                      
+          
+<p>When the user connects to a web page containing an image active, it is not available right now : it must first be loaded from the server. More the image active contains heavy files resources (images, sounds), the longer time the load will last (particular case, if you does not carry the resources, see below :                                        
+            <a href="#embarquement_ou_chargement">Web Publication : boarding or loading resources</a>).                                                                
+          </p>         			                                 
+          
+<p>To simplify the posting of your animations, when you create a swf file,  Images Actives generates an "envelope" with a web animation preload. This animation will start automatically until the swf file is fully loaded, and then disappear. This will allow the user to understand that he must wait until the full load of the resource. 			                                 
+          </p>			                                 
+          
+<p>For a standard publication on the web, check the boxes "Disable preloading for use in local" and "Do not embed images and sounds in the animation" are not ticked. So, your animation will consist of a swf file containing all its images and its possible sounds.  			                                 
+          </p>			                                 
+          
+<figure>			                                       
+            
+<img src="views/options_parametres_publication_000.png" alt="Une publication standard sur le web">			                                       
+            <figcaption> A standard publication on the web                                       
+            </figcaption>		                                   
+          
+</figure>  		                                   
+          
+<p>To upload, simply copy on the server in a specific directory, the following four files that were generated in the directory where you exported the swf file :</p>  				                                       
+            
+<ul>					                                             
+              
+<li>your swf file                                             
+              </li>					                                             
+              
+<li>swfobject.js                                             
+              </li>					                                             
+              
+<li>loading.gif                                             
+              </li>					                                             
+              
+<li>index.html                                             
+              </li>				                                       
+            
+</ul>			                                 
+                                                                                                  
+          
+</li>                                                                    
+          
+<li>                                     
+          
+<h3 id="embarquement_ou_chargement">Web Publication : boarding or loading resources</h3>                                                                      
+          
+<p>In some cases, your image active may weigh heavily :</p>    			                                       
+            
+<ul>					                                             
+              
+<li>if you have selected the audio mode                                            
+              </li>					                                             
+              
+<li>if you have a high definition background image                                             
+              </li>					                                             
+              
+<li>if you have cutted out your details in an external software tool such as Gimp, Photoshop or Photofiltre                                             
+              </li>				                                       
+            
+</ul>		                                              
+          		                                 
+          
+<p>                                           In this case, the mechanism of pre-loading standard (see                                        
+            <a href="#animation_prechargement">above</a>)  is not appropriate. Indeed, the standard pre-loading animation may run for a long time and the user will be wondering if he is not dealing with a bug.                                                    
+          </p>  			                                 
+          
+<p>Fortunately, Images Active offers a second  preload mechanism, complementary to the first: to enable it, simply tick the box "Do not embed images and sounds in the animation" in the panel "Settings". 			                                 
+          </p>  						 		                                   
+          
+<figure>			                                       
+            
+<img src="views/options_parametres_publication_001.png" alt="Une publication en mode &laquo; ressources non embarqu&eacute;es &raquo;">			                                       
+            <figcaption>A publication in "not embed resources" mode                                       
+            </figcaption>		                                   
+          
+</figure>  			                                 
+          
+<p>So your swf file will be of much lower weight. The animation of preloading will last a short time. When the swf file is loaded, you will see a progress bar informing you of the progress of loading for each image and sound.  				 			                                 
+          </p> 		   			                                 
+          
+<p>Beware, if you opted for this mode of publication, you must copy and paste a lot more files on the server :</p>  			                                       
+            
+<ul>					                                             
+              
+<li>your swf file                                             
+              </li>					                                             
+              
+<li>swfobject.js                                             
+              </li>					                                             
+              
+<li>loading.gif                                             
+              </li>					                                             
+              
+<li>index.html                                             
+              </li>					                                             
+              
+<li>all image files in the export directory                                             
+              </li>					                                             
+              
+<li>in audio mode, the folder "sounds" in the export directory                                             
+              </li>				                                       
+            
+</ul>			                                 
+                                                                                   
+          
+</li>                                                                    
+          
+<li>                                     
+          
+<h3 id="publication_hors_web">Local publication</h3>                                                                      
+          
+<p>In some cases, you do not want to upload your image active on web, but to broadcast it as a file (for example, to put it in a shared directory with the students on your business network, or for your students to copy it on their USB keys).                                                                
+          </p>  			                                 
+          
+<p>To do this, you must embed the images and sounds, and disable the preload  mechanism. The preloading mechanism is not suitable for the use of the image active from a hard disk, USB key or a local network : because of safeguards mechanism, your image active will simply not be viewed.                                                              
+          </p> 		                                    
+          
+<figure>			                                       
+            
+<img src="views/options_parametres_publication_010.png" alt="Publier l'image active comme un fichier">			                                       
+            <figcaption> Post the image active as a file                                       
+            </figcaption>		                                   
+          
+</figure> 	 		                                 
+          
+<p>To broadcast your image active, just distribute the swf file without any other file with.                                                             
+          </p>		                                                                             
+          
+</li>   			                                 
+          
+<li>
+          
+<h3 id="publication_html5">Publish HTML5</h3>
+          
+<p>When you choose the digital tablet mode, the option "Single file" is ticked by default to create a file containing all the elements for export. This file is an html page that can be directly read by a browser and put online.
+          </p>
+          
+<p>You can also choose to export into several files by selecting the option "Web Page".
+          </p>
+          
+<figure>			                                       
+            
+<img src="views/publication_html5.png" alt="Publier en HTML5">			                                       
+            <figcaption>Publish HTML5                                       
+            </figcaption>		                                   
+          
+</figure>
+          
+</li>
+          
+<li>
+          
+<h3 id="creer_widget_ibooks">Create a widget for iBooks-Author software</h3>
+          
+<p>To export your image active as a widget for iBooks-Author software, make sure that the digital tablet mode is selected in the panel "Models". Then tick the option "Widget iBooks-Author." You can then insert your widget into the software iBooks-Author and watch your image active through the application iBooks on iPad.
+          </p>
+          
+<figure>			                                       
+            
+<img src="views/creer_widget_ibooks.png" alt="Cr&eacute;er un widget pour le logiciel iBooks Author">			                                       
+            <figcaption>Create a widget for iBooks-Author software                                       
+            </figcaption>		                                   
+          
+</figure>
+          
+</li>
+		  
+<li>                                     
+          
+<h3 id="creer_projection">Create a projection</h3>                                                                      
+          
+<p>When you post your image active as a swf file, users may not know which software to use to view it. If they double-click on the file, they could open it in an application that is not suitable as a video player. If they open a browser, it may not have a Flash player. Moreover, when the swf file is opened directly in a browser, without being wrapped in an HTML page, the screen button will not work.                                                            
+          </p>     		                                   
+          
+<p>For these reasons, you may better convert your swf file as a projection. A projection is a standalone application with extensions specific to the operating system (".exe" on Windows, ".app" on Mac).                                
+          </p>			                                 
+          
+<p>When the user double-clicks on the projection, it will always open it properly and he will use all the features of the image active.                                 
+          </p>			                                 
+          
+<p>To create a projection,</p>  			                                       
+            
+<ul>				                                             
+              
+<li>Download a standalone Flash player for your operating system                                              
+              <a href="http://www.adobe.com/support/flashplayer/downloads.html">}from the Adobe website</a>. Choose for your operating system for the latest link "Flash Player Projector x.xx"                                            
+              </li>				                                             
+              
+<li>Right click (or ctrl + click) on your swf file, "Open with" and choose the standalone Flash player that you have downloaded.                                            
+              </li>				                                             
+              
+<li>In the Flash player, choose "file", then "create a projection."                                             
+              </li>				                                       
+            
+</ul>			                                 
+         	                                   
+          
+<figure>			                                       
+            
+<img src="views/menu_creer_projection.png" alt="Cr&eacute;er une projection avec un lecteur Flash autonome">			                                       
+            <figcaption>Create a projection with a standalone Flash Player                                       
+            </figcaption>		                                   
+          
+</figure> 	                                         
+          
+<p>This broadcast method has drawbacks, however :</p>   			                                       
+            
+<ul>				                                             
+              
+<li>Your image active becomes much heavier because it embeds a flash drive.                                             
+              </li>				                                             
+              
+<li>You can not create a projection for a different operating system of your's (a projection created on Windows will only work on Windows).                                             
+              </li>				                                             
+              
+<li>Your file is likely to face some safety barriers that protect computers against the spread of potentially malicious executables.                                             
+              </li>				                                       
+            
+</ul>                                           
+                      		                                              
+          
+</li>  		                                      
+        
+</ol>
+<article>
+<header>
+<h2 id="divers">9. Miscellaneous</h2>
+</header>
+</article>
+<ol>                                                                                   
+          
+<li>                                                                                     
+          
+<h3 id="raccourcis-clavier">keyboard shortcuts</h3>                                                                                           
+          
+<p>Experienced user can use several keyboard shortcuts to quicken its work.                                   
+          </p> 	                                                  
+          
+<figure>			                                  		                                                            
+            
+<figcaption>Keyboard shortcuts :                                
+            </figcaption>		                                     
+            
+<table>                                     
+              
+<tr>                                          
+                
+<th>Keys combination                                  
+                </th>                                          
+                <th>Effect                                  
+                </th>                                      
+                <th>Comment                                  
+                </th>                                     
+              
+</tr>                                            
+              
+<tr>                  
+<td>Ctrl (ou Cmd) + s</td>       <td>Save</td>    <td>Only if the xia file has already been saved for the first time.</td>                                     
+              
+</tr>                             
+              
+<tr>                  
+<td>Ctrl (ou Cmd) + shift + s</td>       <td>Save as</td>                                     
+              
+</tr>                                  
+              
+<tr>                  
+<td>Ctrl (ou Cmd) + o</td>       <td>Open Images-Actives Project (xia file)</td>                                     
+              
+</tr>                               
+              
+<tr>                  
+<td>Ctrl (ou Cmd) + Entr&eacute;e</td>       <td>Export</td>  <td>If you press 'Enter' key again, you overwrite the previous swf file.</td>                                     
+              
+</tr>                               
+              
+<tr>                  
+<td>Ctrl (ou Cmd) + i</td>       <td>Import an image</td>  <td></td>                                     
+              
+</tr>                               
+              
+<tr>                  
+<td>Ctrl (ou Cmd) + n</td>       <td>New project</td>  <td></td>                                     
+              
+</tr>                            
+            
+</table>                                                    
+          
+</figure>  		              		                                 
+          
+<p>                     
+          
+</p>                                                                                                             
+          
+</li>                                            
+          
+<li>                                                                                     
+          
+<h3 id="changer-langue">Change the application language</h3>                                                                                           
+          
+<p>Images-Actives is available in multiple languages ​​and adapts automatically to your operating system language.                                     
+          </p> 	                                    	            
+          
+<p>Thus, the only way to change the language of Images-Actives software is to change the active language of your operating system.                                     
+          </p>                                                                                                             
+          
+</li> 		                                               
+        
+</ol>
+</section>
+</body>
+</html>

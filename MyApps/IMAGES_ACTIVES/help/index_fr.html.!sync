@@ -1,0 +1,1262 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title></title>
+<link href="styles.css" rel="stylesheet">
+</head>
+<body>
+<header>
+<h1 id="retour-accueil">Images Actives - guide de l'utilisateur</h1>
+</header>
+<p>En compl&eacute;ment de ce guide, n'h&eacute;sitez pas &agrave; vous r&eacute;f&eacute;rer au <a href="http://images-actives.crdp-versailles.fr/spip.php?article7">forum</a>
+ et &agrave; la <a href="http://images-actives.crdp-versailles.fr/spip.php?article4">foire aux questions</a>
+ sur le <a href="http://images-actives.crdp-versailles.fr/">site Images Actives</a>.
+ </p>
+<nav role="navigation">
+<ol>
+<li>
+<a href="#prise-en-main">Prise en main rapide </a>
+<ol>
+<li>
+<a href="#importer-image">Importer une image</a>
+</li>
+<li>
+<a href="#detourer-details">D&eacute;tourer les d&eacute;tails</a>
+</li>
+<li>
+<a href="#saisir-commentaires">Saisir les commentaires</a>
+</li>
+<li>
+<a href="#exporter-animation">Exporter l'animation</a>
+</li>
+</ol>
+</li>
+<li>
+<a href="#texte">Le texte</a>
+<ol>
+<li>
+<a href="#metadonnees">M&eacute;tadonn&eacute;es</a>
+</li>
+<li>
+<a href="#mise-en-forme-des-textes">Mise en forme des textes</a>
+</li>
+<li>
+<a href="#importer-des-polices">Importer des polices</a>
+</li>
+<li>
+<a href="#questions-reponses-et-verrouillage">Questions-r&eacute;ponses et verrouillage</a>
+</li>
+</ol>
+</li>
+<li>
+<a href="#details">Les d&eacute;tails </a>
+<ol>
+<li>
+<a href="#outils-detourage">Outils de d&eacute;tourage</a>
+</li>
+<li>
+<a href="#detourer-application-externe">D&eacute;tourer dans une application externe</a>
+</li>
+<li>
+<a href="#gestion-zoom">Gestion du zoom</a>
+</li>
+<li>
+<a href="#puces">Utilisation des puces</a>
+</li>
+</ol>
+</li>
+<li>
+<a href="#modeles">Les mod&egrave;les </a>
+<ol>
+<li>
+<a href="#modeles-de-comportement">Mod&egrave;les de comportements</a>
+</li>
+<li>
+<a href="#modeles-de-disposition">Mod&egrave;les de dispositions</a>
+</li>
+</ol>
+</li>
+<li>
+<a href="#parametres-apparence">Personnaliser l'apparence </a>
+<ol>
+<li>
+<a href="#charte-couleurs">La charte de couleurs</a>
+</li>
+<li>
+<a href="#effets-graphiques">Les effets graphiques</a>
+</li>
+<li>
+<a href="#proportions">Les proportions</a>
+</li>
+</ol>
+</li>
+<li>
+<a href="#audio">Le son</a>
+<ol>
+<li>
+<a href="#enregistrer-dans-images-actives">Enregistrer dans Images actives</a>
+</li>
+<li>
+<a href="#enregistrer-dans-application-externe">Enregistrer dans une application externe (&agrave; venir)</a>
+</li>
+</ol>
+</li>
+<li>
+<a href="#image-active">L'image active</a>
+<ol>
+<li>
+<a href="#comportement-d%C3%A9tails">Le comportement des d&eacute;tails</a>
+</li>
+<li>
+<a href="#barre-boutons">La barre de boutons</a>
+</li>
+<li>
+<a href="#volet-des-metadonnees">Le volet des m&eacute;tadonn&eacute;es</a>
+</li>
+<li>
+<a href="#utilisation-audio">Utilisation en mode Audio</a>
+</li>
+<li>
+<a href="#Utilisation en mode Tablette numerique">Utilisation en mode Tablette num&eacute;rique</a>
+</li>
+<li>
+<a href="#utilisation-quiz">Utilisation en mode Quiz</a>
+</li>
+</ol>
+</li>
+<li>
+<a href="#parametres-de-publication">Param&egrave;tres de publication</a>
+<ol>
+<li>
+<a href="#dimensions-animation">Dimensions de l'animation</a>
+</li>
+<li>
+<a href="#animation_prechargement">Publication web : l'animation de pr&eacute;chargement</a>
+</li>
+<li>
+<a href="#embarquement_ou_chargement">Publication web : embarquement ou chargement des ressources</a>
+</li>
+<li>
+<a href="#publication_hors_web">Publication hors-web </a>
+</li>
+<li>
+<a href="#publication_html5"> Publier en HTML5</a>
+</li>
+<li>
+<a href="#creer_widget_ibooks">Cr&eacute;er un widget pour iBooks Author</a>
+</li>
+<li>
+<a href="#creer_projection">Cr&eacute;er une projection </a>
+</li>
+</ol>
+</li>
+<li>
+<a href="#divers">Divers </a>
+<ol>
+<li>
+<a href="#raccourcis-clavier">Raccourcis clavier</a>
+</li>
+<li>
+<a href="#changer-langue">Changer la langue de l'application</a>
+</li>
+</ol>
+</li>
+</ol>
+</nav>
+<section>
+<article>
+<header>
+<h2 id="prise-en-main">1. Prise en main rapide </h2>
+<p>L'application est divis&eacute;e en une succession de panneaux. Dans la plupart des cas, lorsque vous cr&eacute;ez une image active, vous parcourez ces panneaux successivement de gauche &agrave; droite selon l'avancement de votre travail.                               
+          </p>
+</header>
+</article>
+<ol>                                   
+          
+<li>                                     
+          
+<h3 id="importer-image">Importer une image</h3>                                     
+          
+<p>Dans le panneau &laquo; Image &raquo;, cliquer sur le bouton &laquo; Importer une image &raquo; (&eacute;quivalent : raccourci clavier ctrl ou cmd + i).                                 
+          </p>     
+                    
+<figure>			                                                    
+  
+<img src="views/importer_une_image.png" alt="Importer une image">			                                                    
+  <figcaption>Importer une image                                                 
+  </figcaption>		                                              
+
+</figure>  	                           
+          
+<p> Choisissez sur le disque de votre ordinateur un fichier image au format jpeg, png, gif ou tiff. L'image appara&icirc;t maintenant dans le logiciel Images actives. Vous pouvez ensuite choisir sa dimension selon la r&eacute;solution de votre &eacute;cran (voir 
+            <a href="#dimensions-animation">dimensions de l'animation</a>).                                 
+          </p>    
+
+<p class="attention">Lorsque vous choisissez l&rsquo;image sur laquelle vous souhaitez travailler, si vous comptez en faire un usage public, assurez-vous que vous avez bien le droit de l&rsquo;utiliser, sans quoi vous pouvez vous exposer &agrave; des poursuites judiciaires de la part des ayants droit (les personnes, physiques ou morales, qui disposent des droits sur l&rsquo;image : l&rsquo;auteur, ses h&eacute;ritiers, un mus&eacute;e&hellip;).
+</p>		  
+          
+</li>                                   
+          
+<li>                                     
+          
+<h3 id="detourer-details">D&eacute;tourer les d&eacute;tails</h3>                                     
+          
+<p> Dans le panneau &laquo; Cr&eacute;er les d&eacute;tails &raquo;, un d&eacute;tail est cr&eacute;&eacute; par d&eacute;faut. Double-cliquez sur &laquo; Titre du d&eacute;tail &raquo; pour pouvoir &eacute;crire votre titre de d&eacute;tail, appuyer sur Entr&eacute;e pour valider votre s&eacute;lection.           Vous pouvez ensuite cr&eacute;er un d&eacute;tail en choisissant l'outil selon votre d&eacute;tail &agrave; d&eacute;tourer.            Voir 
+            <a href="#details">Les d&eacute;tails</a> pour plus de renseignements sur les outils de d&eacute;tourage.     
+ </p>       
+  
+<figure>			                                                    
+  
+<img src="views/outils-de-detourage.png" alt="Les outils de d&eacute;tourage">			                                                    
+  <figcaption>Les outils de d&eacute;tourage                                                
+  </figcaption>		                                              
+
+</figure>     			
+            
+<p>Vous pouvez ordonner vos d&eacute;tails en les s&eacute;lectionnant et en cliquant sur les fl&egrave;ches haut ou bas pour monter ou descendre les d&eacute;tails dans la liste.
+            </p> 
+<figure>			                                                    
+  
+<img src="views/liste-details.png" alt="La liste des d&eacute;tails">			                                                    
+  <figcaption>La liste des d&eacute;tails                                                
+  </figcaption>		                                              
+
+</figure>            
+            
+<p>Pour supprimer un d&eacute;tail, cliquer sur le bouton avec la croix rouge situ&eacute; en dessous de la liste des d&eacute;tails.           
+            </p>          
+            
+<p>Voir 
+              <a href="#detourer-application-externe">D&eacute;tourer dans une application externe</a> pour savoir comment importer vos d&eacute;tails.
+            </p>          
+            
+<p>Voir 
+              <a href="#gestion-zoom">Gestion du zoom</a> pour plus de renseignements sur l'outil de zoom.
+            </p>                                 
+            
+</li>                                   
+            
+<li>               
+            
+<h3 id="saisir-commentaires">Saisir les commentaires</h3>                                     
+            
+<p>Dans l'onglet &laquo; Commentaires &raquo;, taper le titre de l'image active puis le titre de la description de l'image. Taper dans le champ suivant le texte correspondant &agrave; la description g&eacute;n&eacute;rale de l'image. Vous pouvez ins&eacute;rer des liens hypertextes dans la description en s&eacute;lectionnant le texte &agrave; mettre en lien et en cliquant sur le bouton de lien.                                 
+            </p>            
+            
+<p> Choisissez dans la liste le d&eacute;tail sur lequel vous souhaitez travailler.
+              <br>         Si vous &ecirc;tes dans le mode Quiz, vous pouvez attribuer un code d'acc&egrave;s aux r&eacute;ponses (voir 
+              <a href="#questions-reponses-et-verrouillage">Questions - r&eacute;ponses et verrouillage</a>).
+              <br>         Tapez votre texte dans le champ &laquo; Description du d&eacute;tail &raquo;. Vous pouvez ins&eacute;rer des liens hypertextes dans la description en s&eacute;lectionnant le texte &agrave; mettre en lien et en cliquant sur le bouton de lien.           
+            </p>    
+            
+<figure>			                                                    
+  
+<img src="views/ajouter-lien.png" alt="Ajouter un lien hypertexte">			                                                    
+  <figcaption>Ajouter un lien hypertexte                                                
+  </figcaption>		                                              
+
+</figure>                             
+            
+</li>                                   
+            
+<li>               
+            
+<h3 id="exporter-animation">Exporter l'animation</h3>                                     
+            
+<p>Pour g&eacute;n&eacute;rer votre image active, cliquez sur le bouton vert dans la barre des t&acirc;ches. Une fen&ecirc;tre d'enregistrement s'ouvre. S&eacute;lectionnez le r&eacute;pertoire dans lequel vous voulez enregistrer votre fichier swf et cliquez sur Enregistrer. 
+			<p class="attention">Si vous ne parvenez pas &agrave; exporter votre image, ou que vous ne visualisez pas le r&eacute;sultat dans le panneau pr&eacute;visualisation, il manque peut-&ecirc;tre des &eacute;l&eacute;ments sur votre ordinateur. Reportez-vous &agrave; la <a href="http://images-actives.crdp-versailles.fr/spip.php?article4">FAQ du site</a>. 
+</p>
+             
+<br>          Dans l'onglet &laquo; Param&egrave;tres &raquo;, vous pouvez choisir des configurations pour l'exportation (voir 
+              <a href="#animation_prechargement">Publication web : l'animation de pr&eacute;chargement</a>).                                   
+            </p>   
+            
+<figure>			                                                    
+  
+<img src="views/bouton-exporter.png" alt="Le bouton 'exporter l'animation'">			                                                    
+  <figcaption>Le bouton<br>"exporter l'animation"                                              
+  </figcaption>		                                              
+
+</figure>         
+
+<p class="attention">Si vous avez l'intention de mettre votre image active en ligne, nous vous conseillons de ne pas exporter plusieurs images actives dans le m&ecirc;me r&eacute;pertoire, sans quoi certains fichiers compl&eacute;mentaires vont s'effacer les uns les autres.                         
+          </p>                                       
+            
+</li>                          
+        
+</ol>
+<article>
+<header>
+<h2 id="texte">2. Le texte</h2>
+</header>
+</article>
+<ol>                                  
+          
+<li>                                    
+          
+<h3 id="metadonnees">M&eacute;tadonn&eacute;es</h3>                                
+          
+<p>Pour le respect de la Propri&eacute;t&eacute; intellectuelle, des m&eacute;tadonn&eacute;es doivent &ecirc;tre attach&eacute;es &agrave; l'image choisie comme base pour r&eacute;aliser l'image active.
+          </p>    
+                   
+          
+<p>Cinq m&eacute;tadonn&eacute;es (issues du &laquo; Dublin Core &raquo;, norme internationale pour la description des documents num&eacute;riques) sont &agrave; renseigner dans l'onglet &laquo; Image &raquo; : &laquo; Titre de l'image &raquo;, &laquo; Auteur de l'image &raquo;, &laquo; Date de l'image &raquo;, &laquo; Droits sur l'image &raquo;, &laquo; Source de l'image &raquo;.                               
+          </p>             
+          
+<figure>			                                                    
+  
+<img src="views/champs-metadonnees.png" alt="Les cinq champs de saisie des m&eacute;tadonn&eacute;es">			                                                    
+  <figcaption>Les cinq champs de saisie des m&eacute;tadonn&eacute;es                                              
+  </figcaption>		                                              
+
+</figure>     
+          
+<p>Lors de la visualisation, elles apparaissent dans le volet de m&eacute;tadonn&eacute;es situ&eacute; en bas de l'image active.
+          </p>                                                                                                                         
+          
+</li>                                  
+          
+<li>                                    
+          
+<h3 id="mise-en-forme-des-textes">Mise en forme des textes</h3>                                    
+          
+<p>Placer le curseur dans le champ du texte &agrave; mettre en forme. Au-dessus du titre de l&rsquo;image active, choisir la police, le corps et la couleur du texte.                                
+          </p>  
+<figure>			                                                    
+  
+<img src="views/mise-en-forme-texte.png" alt="Mise en forme du champs 'description g&eacute;n&eacute;rale'">			                                                    
+  <figcaption>Mise en forme du champs 'description g&eacute;n&eacute;rale'                                              
+  </figcaption>		                                              
+
+</figure>                 
+
+<p class="attention">Le formatage s'appliquera forc&eacute;ment &agrave; l'ensemble de la zone de texte s&eacute;lectionn&eacute;e. <br>En l'&eacute;tat actuel d'Images Actives, il n'est pas possible d'appliquer un formatage particulier &agrave; un passage du texte.                                
+          </p>                                               
+          
+</li>                                  
+          
+<li>          
+          
+<h3 id="importer-des-polices">Importer des polices</h3>                                    
+          
+<p>Au-dessus du titre de l&rsquo;image active, &agrave; c&ocirc;t&eacute; du menu de choix de police, cliquer sur le bouton d&rsquo;import de police.
+          </p>   
+<figure>			                                                    
+  
+<img src="views/bouton-importer-police.png" alt="Le bouton 'importer une police'">			                                                    
+  <figcaption>Le bouton 'importer une police'                                             
+  </figcaption>		                                              
+
+</figure>              
+          
+<p>Une fen&ecirc;tre s&rsquo;ouvre pour parcourir et importer la police souhait&eacute;e en format &laquo; .ttf &raquo;.
+          </p>          
+          
+<p>Elle est ensuite disponible dans le menu de choix de police. Elle est embarqu&eacute;e avec le fichier &laquo; .xia &raquo;.                                
+          </p>        
+          
+<p class="attention">Si, suite &agrave; l'ajout d'une nouvelle police, vous ne parvenez plus &agrave; exporter vos animations, c'est que cette police n'est pas prise en charge par les gestionnaires de police fournis par d&eacute;faut. <br>
+          Si vous souhaitez pourvoir utiliser n'importe quelle police, r&eacute;f&eacute;rez-vous &agrave; <a href="http://images-actives.crdp-versailles.fr/spip.php?article2">la rubrique "T&eacute;l&eacute;charger et installer" du site Images Actives</a> pour installer les parties compl&eacute;mentaires du compilateur Flex.                          
+          </p>                                      
+          
+</li>                                  
+          
+<li>    
+          
+<h3 id="questions-reponses-et-verrouillage">Questions-r&eacute;ponses et verrouillage</h3>                                    
+          
+<p>En mode &laquo; Quiz &raquo;, saisir les questions dans l&rsquo;onglet &laquo; Cr&eacute;er les d&eacute;tails &raquo;, lors de la cr&eacute;ation du d&eacute;tail.
+          </p>          
+          
+<p>Saisir les r&eacute;ponses dans l&rsquo;onglet &laquo; Commentaires &raquo;.
+          </p>                                
+          
+<p>Pour verrouiller les r&eacute;ponses, cocher &laquo; Code d'acc&egrave;s aux r&eacute;ponses &raquo; et entrer un code (de un &agrave; six chiffres).
+          </p>  
+<figure>			                                                    
+  
+<img src="views/code-acces-quiz.png" alt="Saisie d'un code d'acc&egrave;s aux r&eacute;ponses">			                                                    
+  <figcaption>Saisie d'un code d'acc&egrave;s aux r&eacute;ponses                                          
+  </figcaption>		                                              
+
+</figure>                 
+          
+<p>Lors de la visualisation, le code est demand&eacute; &agrave; la premi&egrave;re question, il d&eacute;verrouille toutes les autres questions, il est r&eacute;activ&eacute; &agrave; chaque r&eacute;ouverture de l'image active.
+          </p> 
+          
+<p class="attention">Attention ! lorsque vous &ecirc;tes en mode plein &eacute;cran, le lecteur flash n'a plus acc&egrave;s au clavier.
+          Quittez le plein &eacute;cran le temps de d&eacute;verrouiller l'animation.
+          Si vous avez des probl&egrave;mes pour la saisie des nombres, essayez le pav&eacute; num&eacute;rique de votre clavier.
+          </p>                                           
+          
+</li>                         
+        
+</ol>
+<article>
+<header>
+<h2 id="details">3. Les d&eacute;tails </h2>
+<p>D&eacute;tourer et g&eacute;rer les options des d&eacute;tails &agrave; mettre en valeur dans votre image active.                               
+          </p>
+</header>
+</article>
+<ol>                                   
+          
+<li>                                     
+          
+<h3 id="outils-detourage">Outils de d&eacute;tourage</h3>                                     
+          
+<p>Plusieurs outils sont disponibles pour vous aider &agrave; r&eacute;aliser au mieux vos d&eacute;tourages de d&eacute;tails. Les outils sont les suivants :           
+            <ul>          
+              
+<li>le lasso : il permet de faire un d&eacute;tourage pr&eacute;cis ;
+              </li>          
+              
+<li>le lasso polygonal : permet un d&eacute;tourage par point en cliquant pour cr&eacute;er des points. Double-cliquez pour fermer votre trac&eacute; ;
+              </li>          
+              
+<li>la s&eacute;lection rectangulaire : permet de cr&eacute;er un d&eacute;tail carr&eacute; ou rectangulaire ;
+              </li>          
+              
+<li>la s&eacute;lection elliptique : permet de cr&eacute;er un d&eacute;tail elliptique ou rond ;
+              </li>          
+              
+<li>le surligneur : r&eacute;glez la taille et la forme de votre surligneur gr&acirc;ce au curseur.
+              </li>         
+ 
+<li>			  Vous pouvez supprimer votre trac&eacute; en cliquant sur le bouton avec une croix rouge situ&eacute; &agrave; c&ocirc;t&eacute; de vos outils de d&eacute;tourage. </li>    
+            
+</ul>                              
+          
+</p>     
+          
+<figure>			                                                    
+  
+<img src="views/outils-de-detourage.png" alt="Les outils de d&eacute;tourage">			                                                    
+  <figcaption>Les outils de d&eacute;tourage                                                
+  </figcaption>		                                              
+
+</figure>                                                                  
+          
+</li>                                   
+          
+<li>                                     
+          
+<h3 id="detourer-application-externe">D&eacute;tourer dans une application externe</h3>                                     
+          
+<p>Si vous d&eacute;sirez r&eacute;aliser des d&eacute;tourages plus pr&eacute;cis, vous pouvez les faire gr&acirc;ce &agrave; un logiciel de traitement d'image. Les d&eacute;tails cr&eacute;&eacute;s doivent &ecirc;tre enregistr&eacute;s dans un format supportant la transparence : png ou gif .
+           <br>         Pour les importer, allez sur l'onglet "Cr&eacute;er les d&eacute;tails" et cliquez sur l'ic&ocirc;ne "IMG +" situ&eacute;e en dessous de la liste des d&eacute;tails. Traitez ensuite vos d&eacute;tails import&eacute;s comme des d&eacute;tails normaux en utilisant les fonctions des d&eacute;tails. De plus, vous avez la possibilit&eacute; de d&eacute;placer ces d&eacute;tails dans votre image en les s&eacute;lectionnant et en les d&eacute;pla&ccedil;ant avec votre souris.           
+          </p>         
+          
+<p class="attention">Nous vous conseillons de r&eacute;aliser vos d&eacute;tails en effa&ccedil;ant les parties inutilis&eacute;es de l'image mais sans recadrer l'image d'origine. Les d&eacute;tails auront ainsi les m&ecirc;mes dimensions que le fond mais seront transparents sur la majeure partie de leur surface.<br>
+          Ainsi, vous vous &eacute;pargnerez le travail de devoir repositionner vos d&eacute;tails  &agrave; leur emplacement exact dans Images Actives.                         
+          </p>                                  
+          
+</li>                                   
+          
+<li>               
+          
+<h3 id="gestion-zoom">Gestion du zoom</h3>                                     
+          
+<p>Vous pouvez d&eacute;cider qu'un d&eacute;tail soit zoomable ou non en cochant/d&eacute;cochant la case &laquo; D&eacute;tail zoomable &raquo; situ&eacute;e en dessous de la liste des d&eacute;tails. Une ic&ocirc;ne loupe appara&icirc;t en face des titres des d&eacute;tails qui seront zoomables.           
+          </p>      
+<figure>			                                                    
+  
+<img src="views/case-detail-zoomable.png" alt="La case 'd&eacute;tail zoomable'">			                                                    
+  <figcaption>La case 'd&eacute;tail zoomable'                                             
+  </figcaption>		                                              
+
+</figure>      
+
+<p class="attention">Un d&eacute;tail ne sera jamais zoom&eacute; au del&agrave; de sa propre d&eacute;finition ce qui lui donnerait une apparence pixelis&eacute;e.<br>
+          Par cons&eacute;quent, si votre image n'est pas tr&egrave;s grande &agrave; l'origine, d&eacute;sactivez le zoom sur les d&eacute;tails : il n'aurait aucun effet voire r&eacute;duirait la taille du d&eacute;tail au lieu de le zoomer !                         
+          </p>                                 
+          
+</li>                                   
+          
+<li>               
+          
+<h3 id="puces">Utilisation des puces</h3>                                     
+          
+<p>Les puces vous permettent de donner une information suppl&eacute;mentaire qui ne peut &ecirc;tre associ&eacute;e &agrave; un d&eacute;tail en particulier. Les puces se situent en dessous de la liste des d&eacute;tails. Vous pouvez en placer autant que vous le souhaitez. Choisissez les puces qui conviennent le mieux &agrave; votre image et d&eacute;placez-les ensuite sur l'image.
+           <br>         Les puces ne sont pas zoomables mais vous pouvez les ordonner comme vous le voulez et leur associer des commentaires.                                
+          </p>        
+<figure>			                                                    
+  
+<img src="views/menu-acces-puces.png" alt="Menu d'acc&egrave;s aux puces">			                                                    
+  <figcaption>Menu d'acc&egrave;s aux puces                                            
+  </figcaption>		                                              
+
+</figure>      
+
+<p class="attention">En mode "boutons" ou "accord&eacute;on", les puces ne sont pas visibles mais elles donnent naissance &agrave; un bouton ou un volet d'accord&eacute;on suppl&eacute;mentaire qui n'est pas li&eacute; &agrave; un d&eacute;tail de l'image.                         
+          </p>                                     
+          
+</li>                          
+        
+</ol>
+<article>
+<header>
+<h2 id="modeles">4. Les mod&egrave;les </h2>
+<p>Deux comportements et quatre dispositions &agrave; choisir et modifiables &agrave; tout moment.                    
+          </p>
+</header>
+</article>
+<ol>                        
+          
+<li>                          
+          
+<h3 id="modeles-de-comportement">Mod&egrave;les de comportements</h3>                          
+          
+<p> Deux modes sont propos&eacute;s pour cr&eacute;er vos images actives : D&eacute;couverte et Quiz. Chaque mode offre un choix de quatre dispositions (voir <a href="#modeles-de-disposition">Mod&egrave;les de disposition</a>).</p> 
+
+<p>Le mode D&eacute;couverte est recommand&eacute; pour l&rsquo;acquisition du savoir, le d&eacute;cryptage de l&rsquo;image et tout autre travail sur les d&eacute;tails.</p>
+
+<p>Le mode Quiz est propos&eacute; pour les s&eacute;ances de questions-r&eacute;ponses ou de rendus de connaissances.</p>
+
+<p>Le mode Quiz peut &ecirc;tre verrouill&eacute; par un code. L&rsquo;enseignant peut &agrave; loisir permettre &agrave; l&rsquo;&eacute;l&egrave;ve l&rsquo;acc&egrave;s aux r&eacute;ponses (voir <a href="#utilisation-quiz">Utilisation Quiz</a>).
+          </p>
+          
+<p>&Agrave; tout moment, vous pouvez revenir sur votre choix de comportements dans l'onglet "Mod&egrave;les".                
+          </p>                          
+                     
+                      
+          
+</li>                        
+          
+<li>                          
+          
+<h3 id="modeles-de-disposition">Mod&egrave;les de dispositions</h3>                          
+          
+<p>Le mode Accord&eacute;on est recommand&eacute; pour une navigation par les onglets et pour les images en portrait (en hauteur). Les commentaires peuvent &ecirc;tre longs.</p>
+
+<p>Le mode Bulles est recommand&eacute; pour une navigation par les d&eacute;tails de l&rsquo;image et suppose des commentaires courts. Le format de l&rsquo;image, portrait ou paysage, est indiff&eacute;rent.</p>
+
+<p>Le mode Boutons est recommand&eacute; pour une image en largeur. Les boutons sont dispos&eacute;s en haut de l&rsquo;image, ils sont num&eacute;rot&eacute;s. Les commentaires peuvent &ecirc;tre longs.</p>
+
+<p>Le mode Audio permet d'enregistrer des l&eacute;gendes audio. Ce mode est id&eacute;al pour un travail sur les langues par exemple (voir <a href="#audio">Le son</a>).</p>
+
+<p>Le mode Tablette num&eacute;rique permet d'exporter l'image active en fichier unique HTML5 lisible sur tablette num&eacute;rique, smartphone et sur votre navigateur internet compatible. Il permet aussi d'exporter l'image active sous forme de widget pour le logiciel iBooks Author.</p>
+              
+<p class="attention">Il ne suffit pas de cliquer sur un pav&eacute; de la liste pour changer de mod&egrave;le : il faut cocher la case qui s'y trouve.                         
+          </p>                      
+          
+</li>                                        
+        
+</ol>
+<article>
+<header>
+<h2 id="parametres-apparence">5. Personnaliser l'apparence </h2>
+<p>Modifier les r&eacute;glages par d&eacute;faut de l'animation pour personnaliser votre image active.                                    
+    </p>
+</header>
+</article>
+<ol>                                        
+    
+<li>                                          
+    
+<h3 id="charte-couleurs">La charte de couleurs</h3>                                           
+    
+<p>Dans l'onglet &laquo; Param&egrave;tres &raquo;, un tableau de bord est &agrave; votre disposition pour r&eacute;gler les &eacute;l&eacute;ments de couleur, de graphismes et de proportions d'image. Choisissez dans la colonne de gauche la fonction &agrave; modifier et selon votre choix, les &eacute;l&eacute;ments des autres colonnes s'activent en fonction des possibilit&eacute;s de modification.      
+    </p>               
+    
+<p>Les couleurs affich&eacute;es dans l'onglet &laquo; Param&egrave;tres &raquo; sont des couleurs par d&eacute;faut, elles peuvent &ecirc;tre modifi&eacute;es. Un sch&eacute;ma disponible pour chaque mod&egrave;le vous permet d'associer facilement une couleur &agrave; son emplacement.     
+    </p>               
+    
+<p>Pour modifier les couleurs, vous avez deux possibilit&eacute;s : soit en cliquant directement sur les points de couleur num&eacute;rot&eacute;s (une palette de couleurs s'affiche), soit par le tableau de bord en modifiant les couleurs li&eacute;es aux diff&eacute;rents &eacute;l&eacute;ments de l'image active. Ces &eacute;l&eacute;ments sont :     
+    </p>                  
+    
+<ul>                 
+      
+<li>arri&egrave;re-plan : couleur de fond ;       
+      </li>                 
+      
+<li>aux cartouches : couleur de fond et couleur du contour ;       
+      </li>                 
+      
+<li>aux l&eacute;gendes : couleur de fond de la l&eacute;gende ;       
+      </li>                 
+      
+<li>au survol : clart&eacute; et couleur de la bulle de survol ;       
+      </li>                 
+      
+<li>&agrave; la s&eacute;lection : couleur du contour et couleur du fond pendant la s&eacute;lection d'un d&eacute;tail ;       
+      </li>                 
+      
+<li>au zoom : couleur du fond pendant le zoom d'un d&eacute;tail.       
+      </li>                               
+    
+</ul>                                                                       
+    
+</li>                                        
+    
+<li>                                          
+    
+<h3 id="effets-graphiques">Les effets graphiques</h3>                                          
+    
+<p>Dans l'onglet &laquo; Param&egrave;tres &raquo;, un tableau de bord est &agrave; votre disposition pour r&eacute;gler les &eacute;l&eacute;ments de couleur, de graphismes et de proportions d'image. Choisissez dans la colonne de gauche la fonction &agrave; modifier et selon votre choix, les &eacute;l&eacute;ments des autres colonnes s'activent en fonction des possibilit&eacute;s de modification.      
+    </p>               
+    
+<p>Le tableau de bord de l'onglet &laquo; Param&egrave;tres &raquo; vous permet de modifier certains effets de l'animation g&eacute;n&eacute;r&eacute;e. Ces effets sont :     
+    </p>               
+         
+<ul>                 
+      
+<li>survol des d&eacute;tails : &eacute;clairer : clart&eacute; des d&eacute;tails ;       
+      </li>                 
+      
+<li>s&eacute;lection : contour : transparence, force (rayonnement) et &eacute;paisseur du contour ;       
+      </li>                 
+      
+<li>s&eacute;lection : estomper : transparence du fond pendant la s&eacute;lection ;       
+      </li>                 
+      
+<li>zoom : estomper : transparence du fond pendant la s&eacute;lection ;       
+      </li>                 
+      
+<li>zoom : dur&eacute;e : vitesse du zoom.  </li>                     
+    
+</ul>                                                           
+    
+</li>                                                      
+    
+<li>                                          
+    
+<h3 id="proportions">Les proportions</h3>                                          
+    
+<p>Dans l'onglet &laquo; Param&egrave;tres &raquo;, un tableau de bord est &agrave; votre disposition pour r&eacute;gler les &eacute;l&eacute;ments de couleur, de graphismes et de proportions d'image. Choisissez dans la colonne de gauche la fonction &agrave; modifier et selon votre choix, les &eacute;l&eacute;ments des autres colonnes s'activent en fonction des possibilit&eacute;s de modification.      
+    </p>    
+               
+    
+<p>Vous pouvez r&eacute;gler la proportion qu'&agrave; l'image par rapport au texte, c'est-&agrave;-dire, l'importance que vous souhaitez donner &agrave; l'image. Cette fonction se trouve en cliquant sur &laquo; Disposition &raquo; dans la colonne de gauche puis &laquo; Image / texte &raquo;, vous pouvez augmenter ou r&eacute;duire ce rapport &agrave; l'aide des fl&egrave;ches.                
+    </p>                                 
+    
+</li>           
+  
+</ol>
+<article>
+<header>
+<h2 id="audio">6. Le son</h2>
+</header>
+</article>
+<ol>                                                 
+    
+<li>                                                   
+    
+<h3 id="enregistrer-dans-images-actives">Enregistrer dans Images actives</h3>                                                   
+    
+<p>Pour enregistrer ses commentaires, questions ou r&eacute;ponses dans le logiciel, choisir le mod&egrave;le &laquo; Audio &raquo; et activer le micro de l'ordinateur.               
+    </p>    
+        
+<p class="attention">Par d&eacute;faut, le mode audio n'est pas actif en raison des brevets sur le format MP3. Il faut ajouter &agrave; Images Actives un &eacute;l&eacute;ment qui n'est pas fourni lors de l'installation.<br>
+          R&eacute;f&eacute;rez-vous &agrave; <a href="http://images-actives.crdp-versailles.fr/spip.php?article2">la rubrique "T&eacute;l&eacute;charger et installer" du site Images Actives</a> pour installer cet &eacute;l&eacute;ment.                                                   
+          </p>                    
+    
+<p>La barre d'enregistrement du logiciel comporte :               
+    </p>		                 
+    
+<ul>                               
+      
+<li>un bouton &laquo; Enregistrement &raquo; ;                     
+      </li>                               
+      
+<li>un bouton &laquo; Lecture &raquo; pour r&eacute;&eacute;couter son enregistrement ;                     
+      </li>                               
+      
+<li>un bouton &laquo; Arr&ecirc;t &raquo; pour stopper l'enregistrement ou la lecture ;                     
+      </li>                               
+      
+<li>une &laquo; barre de temps &raquo; qui repr&eacute;sente l'avanc&eacute;e de l'enregistrement ou de la lecture ;                     
+      </li>                               
+      
+<li>un bouton d'importation de fichiers sons qui ouvre une fen&ecirc;tre de navigation permettant leur recherche (fichiers en .wav).                     
+      </li>		                       
+    
+</ul>       
+    
+<figure>			                                                    
+  
+<img src="views/controle-enregistrement.png" alt="Les contr&ocirc;les d'enregistrement">			                                                    
+  <figcaption>Les contr&ocirc;les d'enregistrement                                              
+  </figcaption>		                                              
+
+</figure>                                                       
+    
+<p>En mode D&eacute;couverte Audio :                           
+    </p>		                             
+    
+<ul>                                                   
+      
+<li>saisir le titre de l'image active (il appara&icirc;t textuellement sur l'image active) ;                                 
+      </li>                                                   
+      
+<li>enregistrer la &laquo; Description g&eacute;n&eacute;rale &raquo; ;                                 
+      </li>                                                   
+      
+<li>enregistrer la &laquo; Description du d&eacute;tail &raquo; pour chaque d&eacute;tail (le titre du d&eacute;tail n'appara&icirc;t pas sur l'image active).                                 
+      </li>				                                 
+    
+</ul>                                                               
+    
+<p>En mode Quiz Audio :                                   
+    </p>		                                     
+    
+<ul>                                                           
+      
+<li>saisir le titre de l'image active (il appara&icirc;t textuellement sur l'image active) ;                                         
+      </li>                                                           
+      
+<li>enregistrer la &laquo; Consigne &raquo; (elle se d&eacute;clenche en cliquant sur le premier bouton en haut &agrave; droite de l'image active) ;                                         
+      </li>                                                           
+      
+<li>un code pour verrouiller les r&eacute;ponses peut &ecirc;tre saisi : voir                                          
+      <a href="#questions-reponses-et-verrouillage">Questions-r&eacute;ponses et verrouillage</a> ;                                         
+      </li>                                                           
+      
+<li>enregistrer la &laquo; Question sur le d&eacute;tail &raquo; (elle se d&eacute;clenche en s&eacute;lectionnant le d&eacute;tail) ;                                         
+      </li>                                                           
+      
+<li>enregistrer la &laquo; R&eacute;ponse &agrave; la question &raquo; (elle se d&eacute;clenche en cliquant le bouton &laquo; R&eacute;ponse &raquo;).                                         
+      </li>				                                     
+    
+</ul>                                                                                       
+       
+    
+<p class="attention">En mode Audio, vous ne pouvez pas exporter votre image active tant que vous n'avez pas enregistr&eacute; une description g&eacute;n&eacute;rale et une l&eacute;gende (ou une question r&eacute;ponse) pour chaque d&eacute;tail.                         
+          </p>                                                             
+
+    
+</li>    
+                                              
+    
+<li>                                                   
+    
+<h3 id="enregistrer-dans-application-externe">Enregistrer dans une application externe (&agrave; venir)</h3>  	
+	
+</li>
+  
+</ol>
+<article>
+<header>
+<h2 id="image-active">7. L'image active</h2>
+</header>
+</article>
+<ol>                                            
+    
+<li>                                              
+    
+<h3 id="comportement-d&eacute;tails">Le comportement des d&eacute;tails</h3>                                              
+    
+<p>Au survol : le d&eacute;tail r&eacute;agit suivant les param&egrave;tres choisis (Param&egrave;tres / Survol / &Eacute;clairer) : choix de couleur et de clart&eacute;.          
+    </p>                       
+    
+<p>&Agrave; la s&eacute;lection : le d&eacute;tail r&eacute;agit suivant les param&egrave;tres choisis :            
+    </p>              
+    
+<ul>                       
+      
+<li>Contour (Param&egrave;tres / S&eacute;lection / Contour) : choix de la couleur, de la transparence, de la force et de l'&eacute;paisseur du contour.            
+      </li>                         
+      
+<li>Estomper (Param&egrave;tres / S&eacute;lection / Estomper) : choix de l'estompage du reste de l'image (couleur et transparence).            
+      </li>                         
+      
+<li>Le texte (commentaire ou question-r&eacute;ponse) appara&icirc;t ou l'enregistrement se d&eacute;clenche.            
+      </li>         
+    
+</ul>                                      
+    
+<p>Zoom : le d&eacute;tail est zoom&eacute; (au maximum de sa r&eacute;solution) au premier clic apr&egrave;s la s&eacute;lection si &laquo; D&eacute;tail zoomable &raquo; a &eacute;t&eacute; coch&eacute; dans l'onglet &laquo; Cr&eacute;er les d&eacute;tails &raquo; : 
+    </p>                             
+    
+<ul>
+      
+<li>Dur&eacute;e (Param&egrave;tres / Zoom / Dur&eacute;e) : vitesse d'apparition et de disparition du zoom.              
+      </li>                           
+      
+<li>Estomper (Param&egrave;tres / Zoom / Estomper) : choix de l'estompage du reste de l'image (couleur et transparence) pendant le zoom.              
+      </li>                                                                            
+    
+</ul>                                                                              
+    
+</li>                                            
+    
+<li>                                              
+    
+<h3 id="barre-boutons">La barre de boutons</h3>                                              
+    
+<p>La barre de boutons, en haut &agrave; droite de l'image active, comprend quatre boutons, except&eacute; en mode &laquo; Accord&eacute;on &raquo; o&ugrave; elle n'en comporte que trois, la &laquo;  description g&eacute;n&eacute;rale &raquo; se retrouvant dans le premier volet de l'accord&eacute;on. Sinon pour tous les modes, elle comporte :      
+    </p>                                           
+    
+<ul>          
+      
+<li>&laquo; Description g&eacute;n&eacute;rale &raquo; : ce bouton contient le titre et le commentaire g&eacute;nr&eacute;raux associ&eacute;s &agrave; l'image active (saisis dans l'onglet &laquo; Commentaires &raquo;)                
+      </li>                          
+      
+<li>&laquo; Afficher tous les d&eacute;tails &raquo; : le maintien du clic sur ce bouton permet d'afficher tous les d&eacute;tails pr&eacute;sents sur l'image.                
+      </li>                          
+      
+<li>&laquo; &Agrave; propos d'Images actives &raquo; : ce bouton ouvre une fen&ecirc;tre concernant les droits du logiciel.                
+      </li>                          
+      
+<li>&laquo; Plein &eacute;cran &raquo; : ce bouton ouvre l'image active en plein &eacute;cran. On quitte le mode plein &eacute;cran en cliquant, au m&ecirc;me endroit, sur un nouveau bouton, &laquo; Quitter le plein &eacute;cran &raquo;.                
+      </li>              
+    
+</ul>                                                                                             
+    
+</li>                                            
+    
+<li>                    
+    
+<h3 id="volet-des-metadonnees">Le volet des m&eacute;tadonn&eacute;es</h3>                                              
+    
+<p>Le volet des m&eacute;tadonn&eacute;es, situ&eacute; en bas de l'image active, est d&eacute;di&eacute; aux mentions concernant les droits d'utilisation de l'image sur laquelle se base l'image active et aux mentions concernant les droits d'utilisation de l'image active elle-m&ecirc;me. Voir               
+      <a href="#metadonnees">M&eacute;tadonn&eacute;es</a>.          
+    </p>                                                               
+    
+</li>                                            
+    
+<li>              
+    
+<h3 id="utilisation-audio">Utilisation en mode Audio</h3>                                              
+    
+<p>Lors du visionnage de l'image active en mode audio, le son d&eacute;marre &agrave; la s&eacute;lection du d&eacute;tail. Une barre de contr&ocirc;le du son est alors disponible, elle propose :                          
+      <ul>          
+        
+<li>un bouton &laquo; pause/lecture &raquo; : pour contr&ocirc;ler le flux du commentaire, de la question ou de la r&eacute;ponse ;                
+        </li>                          
+        
+<li>un bouton &laquo; d&eacute;sactivation/activation du son &raquo; ;                
+        </li>                           
+        
+<li>un bouton &laquo; retour au d&eacute;but &raquo; : pour relancer l'&eacute;coute du commentaire, de la question ou de la r&eacute;ponse ;                
+        </li>                           
+        
+<li>un contr&ocirc;le du volume sonore.                
+        </li>              
+      
+</ul>           
+    
+</p>                                                           
+    
+</li>  
+    
+<li>
+    
+<h3 id="Utilisation en mode Tablette numerique">Utilisation en mode Tablette num&eacute;rique</h3>
+    
+<p>L'apparence de l'image active dans le mod&egrave;le Tablette num&eacute;rique est diff&eacute;rente car les usages sont diff&eacute;rents. L'image active est adapt&eacute;e pour un usage tactile, il n'y a donc pas de survol des d&eacute;tails. Un toucher du doigt s&eacute;lectionne le d&eacute;tail, un deuxi&egrave;me lance le zoom si le d&eacute;tail est zoomable et un troisi&egrave;me toucher d&eacute;selectionne le d&eacute;tail.</p>
+    
+<p>Il y a deux barres de boutons que vous pouvez faire appara&icirc;tre et dispara&icirc;tre &agrave; tout moment en touchant les poign&eacute;es. Ces barres de boutons se composent  :
+    </p>
+    	
+<ul>
+    		
+<li>en haut : des quatre boutons pr&eacute;sents dans tous les autres modes. Seul le bouton &laquo; Afficher tous les d&eacute;tails &raquo; adopte un autre comportement puisqu'il ne r&eacute;agit plus au survol mais reste activ&eacute; jusqu'&agrave; ce qu'un second toucher ou la s&eacute;lection d'un d&eacute;tail le d&eacute;sactive. Si le titre que vous avez choisi est trop long, des fl&egrave;ches de d&eacute;filement apparaissent pour faire d&eacute;filer le texte.
+    		</li>
+    		
+<li>en bas : plusieurs boutons num&eacute;rot&eacute;s selon le nombre de vos d&eacute;tails. Vous pouvez ainsi naviguer d'un d&eacute;tail sans passer par l'image. Vous choisissez l'ordre des d&eacute;tails &agrave; partir de la liste des d&eacute;tails. Voir <a href="#detourer-details">D&eacute;tourer les d&eacute;tails</a>
+    		
+</li>
+    	
+</ul>
+    
+<p>Les param&egrave;tres modifiables pour personnaliser ce mode sont r&eacute;duits pour s'adapter au plus grand nombre de p&eacute;riph&eacute;rique. Les param&egrave;tres modifiables sont :
+    </p>
+    	
+<ul> 
+    		
+<li>Estomper (Param&egrave;tres / S&eacute;lection / Estomper) : choix de l'estompage du reste de l'image (couleur et transparence) pendant la s&eacute;lection et le zoom et lors de l'affichage de tous les d&eacute;tails.
+    		</li> 
+    		
+<li>Zoom (Param&egrave;tres / Zoom / Estomper) : choix de l'estompage du reste de l'image (couleur et transparence) pendant le zoom, r&eacute;glage de la vitesse du zoom (cette fonction ne peut &ecirc;tre garantie car elle d&eacute;pend des performances de l'appareil d'affichage).
+    		</li>
+    	
+</ul>  
+	
+</li>		
+    
+<li>   	
+    
+<h3 id="utilisation-quiz">Utilisation en mode Quiz</h3>                                              
+    
+<p>Le mode Quiz existe pour tous les mod&egrave;les : Accord&eacute;on, Bulles, Boutons et Audio. 
+    </p>                                    
+    
+<ul>           
+      
+<li>La question appara&icirc;t &agrave; la s&eacute;lection d'un d&eacute;tail. La r&eacute;ponse est d&eacute;masqu&eacute;e en cliquant sur le bouton &laquo; R&eacute;ponse &raquo;.                
+      </li>                                    
+      
+<li>Lorsque le quiz est verrouill&eacute;, la premi&egrave;re s&eacute;lection d'un d&eacute;tail fait appara&icirc;tre la premi&egrave;re question, ainsi qu'un champ o&ugrave; saisir le code de d&eacute;verrouillage (choisi lors de cr&eacute;ation des questions/r&eacute;ponses). Une fois le code valid&eacute;, le bouton &laquo; R&eacute;ponse &raquo; est disponible pour ce d&eacute;tail et tous les autres. Le code n'est demand&eacute; que pour la premi&egrave;re r&eacute;ponse, il d&eacute;verrouille toutes les autres r&eacute;ponses, il est r&eacute;activ&eacute; &agrave; chaque r&eacute;ouverture de l'image active. Voir                 
+      <a href="#questions-reponses-et-verrouillage">Questions-r&eacute;ponses et verrouillage</a>.                
+      </li>              
+    
+</ul>                                                                       
+    
+</li>                               
+  
+</ol>
+<article>
+<header>
+<h2 id="parametres-de-publication">8. Param&egrave;tres de publication</h2>
+<p>Lorsque vous appuyez sur le bouton &laquo; G&eacute;n&eacute;rer l'animation interactive &raquo; (en raccourci ctrl + entr&eacute;e), vous &ecirc;tes invit&eacute;(e) &agrave; choisir le nom et l'emplacement d'un fichier portant l'extension .swf.                                                              
+          </p>
+<p>Ce fichier repr&eacute;sente  une petite application autonome au format flash qui contient tous les contenus (images, textes, sons) que vous avez cr&eacute;&eacute;s et leur ajoute de l'interactivit&eacute;.                                                             
+          </p>
+<p>  La cr&eacute;ation de ce fichier swf prend quelques instants. Il s'agit d'une &eacute;tape de compilation (transformation d'un ensemble de ressources comme du code informatique, des images ou des sons en une application).                                 
+          </p>
+<p>L'avantage de cette &eacute;tape est que, une fois votre image active compil&eacute;e, vous avez la certitude qu'elle aura une apparence et un comportement identiques quels que soient l'ordinateur et le navigateur de l'utilisateur.                                                          
+          </p>
+<p>Un fichier swf ne peut pas &ecirc;tre modifi&eacute; par l'utilisateur m&ecirc;me en utilisant le logiciel Images Actives. Pour modifier une image active, il faut disposer du fichier source (le fichier .xia).                                                        
+          </p>
+</header>
+</article>
+<ol>                                                                    
+          
+<li>                                                                      
+          
+<h3 id="dimensions-animation">Dimensions de l'animation</h3>                                                                      
+          
+<p>M&ecirc;me si elle peut &ecirc;tre zoom&eacute;e dans un navigateur web, votre animation flash poss&egrave;de, &agrave; l'instar d'une image num&eacute;rique, une dimension propre (largeur - hauteur). Une fois le fichier swf cr&eacute;&eacute;, ces dimensions sont fix&eacute;es. Pour les modifier, il faut le g&eacute;n&eacute;rer &agrave; nouveau.                                                                  
+          </p>                                                                 
+          
+<p> En cliquant sur l'onglet &laquo; Image &raquo;, vous acc&eacute;dez &agrave; un des contr&ocirc;les vous permettant de fixer les dimensions de votre image active. Il ne s'agit pas simplement de la largeur et de la hauteur de la zone d&eacute;volue &agrave; l'image mais des dimensions de l'ensemble de l'animation flash, incluant ses marges, les zones de textes (titre, accord&eacute;on), la barre d'outils, le volet de m&eacute;tadonn&eacute;es.		                                              
+          </p>    		                                   
+          
+<figure>			                                       
+            
+<img src="views/menu_dimensions_standard.png" alt="Le menu des dimensions">			                                       
+            <figcaption>Le menu des dimensions                                       
+            </figcaption>		                                   
+          
+</figure>  		                                   
+          
+<p> Le menu d&eacute;roulant vous propose un ensemble de dimensions pr&eacute;d&eacute;finies correspondant aux r&eacute;solutions d'&eacute;cran les plus courantes. Si votre image active est destin&eacute;e &agrave; &ecirc;tre utilis&eacute;e en mode plein &eacute;cran, et si vous connaissez la r&eacute;solution d'&eacute;cran (par exemple, celle de votre tableau num&eacute;rique interactif, ou celle d'un mod&egrave;le de tablette utilis&eacute; par vos &eacute;l&egrave;ves), vous avez int&eacute;r&ecirc;t &agrave; choisir une entr&eacute;e de ce menu.		                                              
+          </p>   		                                   
+          
+<p> Vous pouvez &eacute;galement fixer des dimensions arbitraires en modifiant les champs &laquo; largeur &raquo; et &laquo; hauteur &raquo;. Si vous souhaitez ins&eacute;rer l'image active dans un emplacement de la maquette d'une page web, cette solution convient. 		                                              
+          </p>   		                                   
+          
+<p> Le choix le plus pertinent consiste &agrave; cocher la case &laquo; dimensions optimis&eacute;es &raquo;. Lorsque vous modifierez une dimension (largeur ou hauteur), l'autre dimension sera recalcul&eacute;e de mani&egrave;re &agrave; ce que les marges int&eacute;rieures de votre image actives soient harmonieuses et &agrave; ce qu'il ne subsiste aucun vide.		                                              
+          </p>  			                                 
+          
+<p>	  La premi&egrave;re fois que vous cochez cette case, c'est la largeur qui sera recalcul&eacute;e en fonction de la hauteur.                                            
+          </p>  		                                                                                            
+          
+</li>                                                                    
+          
+<li>                                                                      
+          
+<h3 id="animation_prechargement">Publication web : l'animation de pr&eacute;chargement</h3>                                                                      
+          
+<p>Lorsque l'utilisateur se connecte &agrave; une page web contenant une image active, celle-ci n'est pas imm&eacute;diatement disponible : elle doit d'abord &ecirc;tre charg&eacute;e depuis le serveur. Plus l'image active contient des ressources &ndash; images, sons &ndash; de poids &eacute;lev&eacute;, plus ce chargement durera longtemps (cas particulier, si vous n'embarquez pas les ressources, voir ci-dessous :                                        
+            <a href="#embarquement_ou_chargement">Publication web : embarquement ou chargement des ressources</a>).                                                                
+          </p>         			                                 
+          
+<p>			Pour simplifier la mise en ligne de vos animations, lorsque vous cr&eacute;ez un fichier swf, Images actives g&eacute;n&egrave;re une &laquo; enveloppe &raquo; web comportant une animation de pr&eacute;chargement. Cette animation s'activera automatiquement jusqu'&agrave; ce que le fichier swf soit enti&egrave;rement charg&eacute;, puis dispara&icirc;tra. Cela permettra &agrave; l'utilisateur de comprendre qu'il doit patienter jusqu'au chargement complet de la ressource. 			                                 
+          </p>			                                 
+          
+<p>			Pour une publication standard sur le web, v&eacute;rifier que les cases &laquo; D&eacute;sactiver le pr&eacute;chargement pour une utilisation en local &raquo; et &laquo; Ne pas embarquer images et sons dans l'animation &raquo; ne sont pas coch&eacute;es. Ainsi, votre animation sera constitu&eacute;e d'un fichier swf contenant toutes ses images et ses &eacute;ventuels sons.  			                                 
+          </p>			                                 
+          
+<figure>			                                       
+            
+<img src="views/options_parametres_publication_000.png" alt="Une publication standard sur le web">			                                       
+            <figcaption>Une publication standard sur le web                                       
+            </figcaption>		                                   
+          
+</figure>  		                                   
+          
+<p>			Pour mettre en ligne, copiez simplement sur le serveur, dans un r&eacute;pertoire sp&eacute;cifique, les quatre fichiers suivants qui ont &eacute;t&eacute; g&eacute;n&eacute;r&eacute;s dans le r&eacute;pertoire o&ugrave; vous avez export&eacute; le fichier swf :</p>  				                                       
+            
+<ul>					                                             
+              
+<li>votre fichier swf                                             
+              </li>					                                             
+              
+<li>swfobject.js                                             
+              </li>					                                             
+              
+<li>loading.gif                                             
+              </li>					                                             
+              
+<li>index.html                                             
+              </li>				                                       
+            
+</ul>			                                 
+                                                                                                  
+          
+</li>                                                                    
+          
+<li>                                     
+          
+<h3 id="embarquement_ou_chargement">Publication web : embarquement ou chargement des ressources</h3>                                                                      
+          
+<p>Dans certains cas, votre image active risque de peser tr&egrave;s lourd :   		</p>    			                                       
+            
+<ul>					                                             
+              
+<li>si vous avez choisi le mode audio ;                                            
+              </li>					                                             
+              
+<li>si vous avez une image de fond en haute d&eacute;finition ;                                             
+              </li>					                                             
+              
+<li>si vous avez d&eacute;tour&eacute; vos d&eacute;tails dans un outil tiers comme Gimp, Photofiltre ou Photoshop.                                             
+              </li>				                                       
+            
+</ul>		                                              
+          		                                 
+          
+<p>                                           Dans ce cas, le m&eacute;canisme de pr&eacute;chargement standard (voir                                        
+            <a href="#animation_prechargement">ci-dessus</a>) ne convient pas. En effet, l'animation de pr&eacute;chargement standard risque de tourner pendant longtemps et l'utilisateur se demandera s'il n'a pas affaire &agrave; un dysfonctionnement.                                                    
+          </p>  			                                 
+          
+<p>                                           Heureusement, Image actives vous propose un second m&eacute;canisme de pr&eacute;chargement, compl&eacute;mentaire du premier : pour l'activer, il vous suffit de cocher la case &laquo; Ne pas embarquer images et sons dans l'animation &raquo; dans le panneau &laquo; Param&egrave;tres &raquo;. 			                                 
+          </p>  						 		                                   
+          
+<figure>			                                       
+            
+<img src="views/options_parametres_publication_001.png" alt="Une publication en mode &laquo; ressources non embarqu&eacute;es &raquo;">			                                       
+            <figcaption>Une publication en mode &laquo; ressources non embarqu&eacute;es &raquo;                                       
+            </figcaption>		                                   
+          
+</figure>  			                                 
+          
+<p>                                         Ainsi, votre fichier swf sera d'un poids beaucoup plus faible. L'animation de pr&eacute;chargement durera peu de temps ; lorsque le fichier swf sera charg&eacute;, vous verrez s'afficher une barre de progression vous informant du d&eacute;roulement du chargement pour chaque image et chaque son.  				 			                                 
+          </p> 		   			                                 
+          
+<p>			Attention, si vous avez opt&eacute; pour ce mode de publication, vous devrez copier-coller beaucoup plus de fichiers sur le serveur : 	</p>  			                                       
+            
+<ul>					                                             
+              
+<li>votre fichier swf                                             
+              </li>					                                             
+              
+<li>swfobject.js                                             
+              </li>					                                             
+              
+<li>loading.gif                                             
+              </li>					                                             
+              
+<li>index.html                                             
+              </li>					                                             
+              
+<li>tous les fichiers images apparu dans le r&eacute;pertoire d'export                                             
+              </li>					                                             
+              
+<li>en mode audio, le r&eacute;pertoire &laquo; sounds &raquo; apparu dans le r&eacute;pertoire d'export                                             
+              </li>				                                       
+            
+</ul>			                                 
+                                                                                   
+          
+</li>                                                                    
+          
+<li>                                     
+          
+<h3 id="publication_hors_web">Publication hors-web </h3>                                                                      
+          
+<p>Dans certains cas, vous ne souhaitez pas mettre en ligne votre image active mais la diffuser comme un fichier (par exemple, pour la mettre dans un r&eacute;pertoire partag&eacute; avec les &eacute;l&egrave;ves sur le r&eacute;seau de votre &eacute;tablissement, ou pour que vos &eacute;l&egrave;ves la copient sur cl&eacute; USB).                                                                
+          </p>  			                                 
+          
+<p>Pour cela, vous devez embarquer les images et les sons mais d&eacute;sactiver le m&eacute;canisme de pr&eacute;chargement. Le m&eacute;canisme de pr&eacute;chargement ne convient pas &agrave; l'utilisation de l'image active depuis un disque dur, une cl&eacute; USB ou un r&eacute;seau local : en vertu de certains m&eacute;canismes de s&eacute;curit&eacute;, votre image active ne pourra tout simplement pas &ecirc;tre visionn&eacute;e.                                                              
+          </p> 		                                    
+          
+<figure>			                                       
+            
+<img src="views/options_parametres_publication_010.png" alt="Publier l'image active comme un fichier">			                                       
+            <figcaption>Publier l'image active comme un fichier                                       
+            </figcaption>		                                   
+          
+</figure> 	 		                                 
+          
+<p>Pour diffuser votre image active, contentez-vous de distribuer le fichier swf sans aucun autre fichier pour l'accompagner.                                                             
+          </p>		                                                                             
+          
+</li> 
+          
+<li>
+          
+<h3 id="publication_html5"> Publier en HTML5</h3>
+          
+<p>Lorsque que vous choisissez le mod&egrave;le tablette num&eacute;rique, l'option &laquo; Fichier unique &raquo; est coch&eacute;e par d&eacute;faut pour cr&eacute;er un fichier contenant tous les &eacute;l&eacute;ments pour l'exportation. Ce fichier est une page html qui peut &ecirc;tre directement lue par un navigateur et mise en ligne.
+          </p>
+          
+<p>Vous pouvez &eacute;galement choisir d'exporter en plusieurs fichiers en cochant l'option &laquo; Page web &raquo;.
+          </p>
+          
+<figure>			                                       
+            
+<img src="views/publication_html5.png" alt="Publier en HTML5">			                                       
+            <figcaption>Publier en HTML5                                       
+            </figcaption>		                                   
+          
+</figure>
+          
+</li>
+          
+<li>
+          
+<h3 id="creer_widget_ibooks">Cr&eacute;er un widget pour iBooks Author</h3>
+          
+<p>Pour exporter votre image active en widget pour le logiciel iBooks Author, assurez-vous que le mod&egrave;le tablette num&eacute;rique est s&eacute;lectionn&eacute; dans le panneau &laquo; Mod&egrave;les &raquo;. Cochez ensuite l'option &laquo; Widget iBooks Author &raquo;. Vous pouvez ensuite ins&eacute;rer votre widget dans le logiciel iBooks Author et regarder votre image active par le biais de l'application iBooks sur iPad.
+          </p>
+          
+<figure>			                                       
+            
+<img src="views/creer_widget_ibooks.png" alt="Cr&eacute;er un widget pour le logiciel iBooks Author">			                                       
+            <figcaption>Cr&eacute;er un widget pour le logiciel iBooks Author                                       
+            </figcaption>		                                   
+          
+</figure>
+          
+</li>  			                                 
+          
+<li>                                     
+          
+<h3 id="creer_projection">Cr&eacute;er une projection </h3>                                                                      
+          
+<p>Lorsque vous diffusez votre image active comme un fichier .swf, les utilisateurs ne savent pas forc&eacute;ment avec quelle application le visionner. S'ils double-cliquent sur le fichier, il peut arriver qu'il s'ouvre dans une application qui ne convient pas comme un lecteur vid&eacute;o. S'ils l'ouvrent avec un navigateur, il se peut que celui-ci ne dispose pas d'un lecteur Flash. En outre, quand le fichier swf est ouvert directement dans un navigateur, sans &ecirc;tre envelopp&eacute; dans une page html, le bouton &eacute;cran ne fonctionnera pas.                                                            
+          </p>     		                                   
+          
+<p>Pour toutes ces raisons, vous pouvez avoir int&eacute;r&ecirc;t &agrave; convertir votre fichier swf en projection. Une projection est une application autonome portant une extension propre au syst&egrave;me d'exploitation (.exe sous Windows, .app sous Mac).                                 
+          </p>			                                 
+          
+<p>Lorsque l'utilisateur double-cliquera sur la projection, elle s'ouvrira toujours correctement et il profitera de toutes les fonctionnalit&eacute;s de l'image active.                                 
+          </p>			                                 
+          
+<p>Pour cr&eacute;er une projection, 	</p>  			                                       
+            
+<ul>				                                             
+              
+<li>T&eacute;l&eacute;chargez un lecteur Flash autonome correspondant &agrave; votre syst&egrave;me d'exploitation                                              
+              <a href="http://www.adobe.com/support/flashplayer/downloads.html">depuis le site d'Adobe</a>. Choisissez pour votre syst&egrave;me d'exploitation le dernier lien &laquo; Flash Player x.xx Projector &raquo;                                             
+              </li>				                                             
+              
+<li>Faites un clic droit (ou ctrl + clic) sur votre fichier swf, &laquo; Ouvrir avec &raquo; et choisissez le lecteur Flash autonome que vous avez t&eacute;l&eacute;charg&eacute;.                                             
+              </li>				                                             
+              
+<li>Dans le lecteur Flash, choisissez &laquo; fichier &raquo; &laquo; cr&eacute;er une projection &raquo;.                                             
+              </li>				                                       
+            
+</ul>			                                 
+         	                                   
+          
+<figure>			                                       
+            
+<img src="views/menu_creer_projection.png" alt="Cr&eacute;er une projection avec un lecteur Flash autonome">			                                       
+            <figcaption>Cr&eacute;er une projection avec un lecteur Flash autonome                                       
+            </figcaption>		                                   
+          
+</figure> 	                                         
+          
+<p>                                      Ce mode de diffusion comporte toutefois des inconv&eacute;nients : </p>   			                                       
+            
+<ul>				                                             
+              
+<li>Votre image active devient beaucoup plus lourde car elle embarque un lecteur flash.                                             
+              </li>				                                             
+              
+<li>Vous ne pouvez pas cr&eacute;er une projection pour un syst&egrave;me d'exploitation diff&eacute;rent du votre (une projection cr&eacute;&eacute;e sous Windows ne fonctionnera que sous Windows).                                             
+              </li>				                                             
+              
+<li>Votre fichier risque de se heurter &agrave; certaines barri&egrave;res de s&eacute;curit&eacute; qui prot&egrave;gent les ordinateurs contre la diffusion d'ex&eacute;cutables potentiellement malveillants.                                             
+              </li>				                                       
+            
+</ul>                                           
+                      		                                              
+          
+</li>  		                                      
+        
+</ol>
+<article>
+<header>
+<h2 id="divers">9. Divers </h2>
+</header>
+</article>
+<ol>                                                                                   
+          
+<li>                                                                                     
+          
+<h3 id="raccourcis-clavier">Raccourcis clavier</h3>                                                                                           
+          
+<p>Plusieurs raccourcis clavier  permettent &agrave; l'utilisateur exp&eacute;riment&eacute; d'acc&eacute;l&eacute;rer son travail.                                   
+          </p> 	                                                  
+          
+<figure>			                                  		                                                            
+            
+<figcaption>Les raccourcis clavier :                                
+            </figcaption>		                                     
+            
+<table>                                     
+              
+<tr>                                          
+                
+<th>Combinaison de touches                                  
+                </th>                                          
+                <th>Effet                                  
+                </th>                                      
+                <th>Commentaire                                  
+                </th>                                     
+              
+</tr>                                            
+              
+<tr>                  
+<td>Ctrl (ou Cmd) + s</td>       <td>Enregistrer</td>    <td>Seulement si le fichier .xia a d&eacute;j&agrave; &eacute;t&eacute; enregistr&eacute; une premi&egrave;re fois.</td>                                     
+              
+</tr>                             
+              
+<tr>                  
+<td>Ctrl (ou Cmd) + shift + s</td>       <td>Enregistrer sous</td>                                     
+              
+</tr>                                  
+              
+<tr>                  
+<td>Ctrl (ou Cmd) + o</td>       <td>Ouvrir un projet Images actives (fichier .xia)</td>                                     
+              
+</tr>                               
+              
+<tr>                  
+<td>Ctrl (ou Cmd) + Entr&eacute;e</td>       <td>Exporter</td>  <td>Si vous appuyez &agrave; nouveau sur entr&eacute;e, vous &eacute;crasez le swf pr&eacute;c&eacute;dent. </td>                                     
+              
+</tr>                               
+              
+<tr>                  
+<td>Ctrl (ou Cmd) + i</td>       <td>Importer une image</td>  <td></td>                                     
+              
+</tr>                               
+              
+<tr>                  
+<td>Ctrl (ou Cmd) + n</td>       <td>Nouveau projet</td>  <td></td>                                     
+              
+</tr>                            
+            
+</table>                                                    
+          
+</figure>  		              		                                 
+          
+<p>                     
+          
+</p>                                                                                                             
+          
+</li>                                            
+          
+<li>                                                                                     
+          
+<h3 id="changer-langue">Changer la langue de l'application</h3>                                                                                           
+          
+<p>Images actives est disponible en plusieurs langues et s'adapte automatiquement &agrave; la langue de votre syst&egrave;me d'exploitation.                                     
+          </p> 	                                    	            
+          
+<p>De ce fait, la seule fa&ccedil;on de changer la langue d'Images actives est de changer la langue de votre syst&egrave;me d'exploitation.                                     
+          </p>                                                                                                             
+          
+</li> 		                                               
+        
+</ol>
+</section>
+</body>
+</html>
