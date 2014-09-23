@@ -1,9 +1,0 @@
-La licence de 7-Zip est disponible dans ces fichiers :
-7z - copying.txt
-7z - License.txt
-
-Le code source est disponible à l'adresse suivante (LiberKey.com) :
-http://download.liberkey.com/sources/7-Zip
-
-Le code source est disponible à l'adresse suivante (adresse originale) :
-http://sourceforge.net/projects/sevenzip/files/

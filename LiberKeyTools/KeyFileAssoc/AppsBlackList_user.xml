@@ -1,3 +1,0 @@
-<AppsBlackList>
-  <App exe="registry_edit_application.exe" product="Product Name Filter" company="Company name filter" warn="no"/>
-</AppsBlackList>
