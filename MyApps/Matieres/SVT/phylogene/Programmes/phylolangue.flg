@@ -1,0 +1,2270 @@
+//FormPrinc//Caption - variable : C_FormPrinc
+Phylogène 
+//FormPrinc/LabelCopyright/Caption - variable : C_FormPrincLabelCopyright
+Copyright INRP - Reproduction des documents et copie interdites
+//FormPrinc/Label1/Caption - variable : C_FormPrincLabel1
+date limite
+//FormPrinc/Label2/Caption - variable : C_FormPrincLabel2
+Phylogène est  distribué gratuitement pour des  usages scolaires. Sa rediffusion est interdite
+//FormPrinc/Imprimer/Hint - variable : H_FormPrincImprimer
+Imprimer...
+//FormPrinc/Imprimer/Caption - variable : C_FormPrincImprimer
+Imprimer
+//FormPrinc/BoutonCopier/Hint - variable : H_FormPrincBoutonCopier
+Copier
+//FormPrinc/BEnregistrer/Hint - variable : H_FormPrincBEnregistrer
+Enregistrer
+//FormPrinc/BOuvrir/Hint - variable : H_FormPrincBOuvrir
+Ouvrir
+//FormPrinc/BChoix/Hint - variable : H_FormPrincBChoix
+Options
+//FormPrinc/ComboChoixGroupe/Hint - variable : H_FormPrincComboChoixGroupe
+Choix du groupe d'images
+//FormPrinc/OKgroupe/Hint - variable : H_FormPrincOKgroupe
+Validation du choix d'une sous-collection
+//FormPrinc/OKgroupe/Caption - variable : C_FormPrincOKgroupe
+OK
+//FormPrinc/Label3/Caption - variable : C_FormPrincLabel3
+Sélectionner une collection
+//FormPrinc/Fichier1/Caption - variable : C_FormPrincFichier1
+Fichier
+//FormPrinc/Tableaudemolcules1/Caption - variable : C_FormPrincTableaudemolcules1
+Fichier de molécules
+//FormPrinc/Fichierdexercice1/Caption - variable : C_FormPrincFichierdexercice1
+Fichier d'exercice
+//FormPrinc/Fichiercph1/Caption - variable : C_FormPrincFichiercph1
+Charger une configuration
+//FormPrinc/Enregistreruneconfiguration/Caption - variable : C_FormPrincEnregistreruneconfiguration
+Enregistrer une configuration
+//FormPrinc/Planche1/Caption - variable : C_FormPrincPlanche1
+Voir la planche des espèces
+//FormPrinc/Toutfermer1/Caption - variable : C_FormPrincToutfermer1
+Tout fermer
+//FormPrinc/Quitter1/Caption - variable : C_FormPrincQuitter1
+Quitter
+//FormPrinc/Collectionslectionne1/Caption - variable : C_FormPrincCollectionslectionne1
+Collection sélectionnée : 
+//FormPrinc/CreerUneNouvelleCollection/Caption - variable : C_FormPrincCreerUneNouvelleCollection
+Construire une nouvelle collection
+//FormPrinc/Construireetclasserlesbotes1/Caption - variable : C_FormPrincConstruireetclasserlesbotes1
+Construire et classer les boîtes
+//FormPrinc/Organiser/Caption - variable : C_FormPrincOrganiser
+Organiser
+//FormPrinc/Aide1/Caption - variable : C_FormPrincAide1
+Aide
+//FormPrinc/Glossaire1/Caption - variable : C_FormPrincGlossaire1
+Glossaire
+//FormPrinc/Informations1/Caption - variable : C_FormPrincInformations1
+Informations
+//FormPrinc/TableauCode/Caption - variable : C_FormPrincTableauCode
+Tableau codé
+//FormPrinc/Tableauducode1/Caption - variable : C_FormPrincTableauducode1
+Tableau du code
+//FormPrinc/FichetechniquedePhylogne1/Caption - variable : C_FormPrincFichetechniquedePhylogne1
+Fiche technique de Phylogène
+//FormPrinc/Apropos1/Caption - variable : C_FormPrincApropos1
+A propos
+//FormPrinc/Aide2/Caption - variable : C_FormPrincAide2
+Aide de Phylogène
+//FormPrinc/Aideenligne1/Caption - variable : C_FormPrincAideenligne1
+Site de Phylogène
+//FormPrinc/SitePhylogneprofesseur/Caption - variable : C_FormPrincSitePhylogneprofesseur
+Site Phylogène professeur
+//FormPrinc/Configuration/Caption - variable : C_FormPrincConfiguration
+Configuration
+//FormPrinc/MCollections/Caption - variable : C_FormPrincMCollections
+Collections
+//FormPrinc/MColCollege/Caption - variable : C_FormPrincMColCollege
+Collège
+//FormPrinc/MColLycee/Caption - variable : C_FormPrincMColLycee
+Lycée
+//FormPrinc/MToutesCol/Caption - variable : C_FormPrincMToutesCol
+Toutes
+//FormPrinc/MDocuments/Caption - variable : C_FormPrincMDocuments
+Documents
+//FormPrinc/OuvreCollection/Caption - variable : C_FormPrincOuvreCollection
+Sélectionner collection
+//FormPrinc/OuvrirTableau/Caption - variable : C_FormPrincOuvrirTableau
+Tableau de caractères
+//FormPrinc/OuvrirTableau/Hint - variable : H_FormPrincOuvrirTableau
+Ouvrir un tableau de caractères
+//FormPrinc/OuvrirUnArbre/Caption - variable : C_FormPrincOuvrirUnArbre
+Fichier d'arbre
+//FormPrinc/OuvrirUnArbre/Hint - variable : H_FormPrincOuvrirUnArbre
+Ouvrir un fichier  d'arbre 
+//FormPrinc/Observer/Caption - variable : C_FormPrincObserver
+Observer
+//FormPrinc/Comparer/Caption - variable : C_FormPrincComparer
+Comparer
+//FormPrinc/Construire/Caption - variable : C_FormPrincConstruire
+Construire
+//FormPrinc/Construire/Hint - variable : H_FormPrincConstruire
+Construire une matrice
+//FormPrinc/Grouper/Caption - variable : C_FormPrincGrouper
+Grouper
+//FormPrinc/AClasser/Caption - variable : C_FormPrincAClasser
+Classer
+//FormPrinc/Arbre/Caption - variable : C_FormPrincArbre
+Établir des parentés
+//FormPrinc/OuvreMolecule/Caption - variable : C_FormPrincOuvreMolecule
+Étude moléculaire
+//FormPrinc/EnregistrerTableau/Caption - variable : C_FormPrincEnregistrerTableau
+Enregistrer le tableau
+//FormPrinc/EnregistrerTableau/Hint - variable : H_FormPrincEnregistrerTableau
+Enregistrer le tableau courant
+//FormPrinc/EnregistrerArbre/Caption - variable : C_FormPrincEnregistrerArbre
+Enregistrer l'arbre
+//FormPrinc/EnregistrerBoites/Caption - variable : C_FormPrincEnregistrerBoites
+Enregistrer un groupement emboîté
+//FormPrinc/OuvrirBoites/Caption - variable : C_FormPrincOuvrirBoites
+Fichier de groupement emboîté
+//FormPrinc/OuvrirBoites/Hint - variable : H_FormPrincOuvrirBoites
+Ouvrir un fichier de groupements emboîtés
+//FormPrinc/MontrMasqArbre/Caption - variable : C_FormPrincMontrMasqArbre
+Masquer l'arbre
+//FormPrinc/MontrMasqArbre/Hint - variable : H_FormPrincMontrMasqArbre
+Montrer/Masquer l'arbre
+//FormPrinc/ChTabRef/Caption - variable : C_FormPrincChTabRef
+Charger le tableau de référence
+//FormPrinc/ChTabRef/Hint - variable : H_FormPrincChTabRef
+Tableau de référence
+//FormPrinc/Coder/Caption - variable : C_FormPrincCoder
+Polariser
+//FormPrinc/Coder/Hint - variable : H_FormPrincCoder
+Polariser et Coder les états de caractères de la matrice
+//FormPrinc/Rechercher/Caption - variable : C_FormPrincRechercher
+Rechercher
+//FormPrinc/Rechercher/Hint - variable : H_FormPrincRechercher
+Recherche de Taxons sur un ou plusieurs critères
+//FormPrinc/ImprimerFenetre/Caption - variable : C_FormPrincImprimerFenetre
+Imprimer la fenêtre
+//FormPrinc/ImprimerArbre/Caption - variable : C_FormPrincImprimerArbre
+Imprimer l'arbre ...
+//FormPrinc/telquel2/Caption - variable : C_FormPrinctelquel2
+... tel quel
+//FormPrinc/colorier1/Caption - variable : C_FormPrinccolorier1
+... à colorier
+//FormPrinc/ImprimerTableau/Caption - variable : C_FormPrincImprimerTableau
+Imprimer le tableau
+//FormPrinc/ImprimerImage/Caption - variable : C_FormPrincImprimerImage
+Imprimer le document cliqué
+//FormPrinc/CopierFenetre/Caption - variable : C_FormPrincCopierFenetre
+Copier la fenêtre
+//FormPrinc/CopierArbre/Caption - variable : C_FormPrincCopierArbre
+Copier l'arbre ...
+//FormPrinc/colorer1/Caption - variable : C_FormPrinccolorer1
+...à colorier
+//FormPrinc/CopierTableau/Caption - variable : C_FormPrincCopierTableau
+Copier le tableau ...
+//FormPrinc/commeimage1/Caption - variable : C_FormPrinccommeimage1
+... comme image
+//FormPrinc/commetexte1/Caption - variable : C_FormPrinccommetexte1
+... comme texte
+//FormPrinc/versOpenOffice/Caption - variable : C_FormPrincversOpenOffice
+...vers OpenOffice
+//FormPrinc/CopierImage/Caption - variable : C_FormPrincCopierImage
+Copier le document cliqué
+//FormPrinc/AfficherRejouer/Caption - variable : C_FormPrincAfficherRejouer
+Afficher Rejouer
+//FormPrinc/ActiverledplacementTabGrid/Caption - variable : C_FormPrincActiverledplacementTabGrid
+Activer le déplacement des colonnes et des lignes
+//FormPrinc/ActiverlaslectionCaractres/Caption - variable : C_FormPrincActiverlaslectionCaractres
+Activer la sélection des caractères pour construire les boîtes
+//FormPrinc/ActiverAffichageDocs/Caption - variable : C_FormPrincActiverAffichageDocs
+Activer l'affichage des documents
+//FormPrinc/corriger1/Caption - variable : C_FormPrinccorriger1
+Vérifier
+//FormPrinc/Editerlarbre1/Caption - variable : C_FormPrincEditerlarbre1
+Editer l'arbre
+//FormPrinc/Explorerlarbre1/Caption - variable : C_FormPrincExplorerlarbre1
+Explorer l'arbre
+//FormPrinc/Explorerlarbre1/Hint - variable : H_FormPrincExplorerlarbre1
+Affichage des caractères des ancêtres
+//FormPrinc/ConserverArbre/Caption - variable : C_FormPrincConserverArbre
+Conserver l'arbre
+//FormPrinc/Activites/Caption - variable : C_FormPrincActivites
+Activités
+//FormPrinc/OpenDialogExercice/Filter - variable : Filt_FormPrincOpenDialogExercice
+Tous|*.*|tableau|*.ntb|arbre|*.nar|boîtes|*.nbo|molécules|*.aln
+//FormPrinc/OpenDialogExercice/Title - variable : Tit_FormPrincOpenDialogExercice
+Ouverture d'un exercice
+//FormPrinc/OpenDialogTheme/Filter - variable : Filt_FormPrincOpenDialogTheme
+Fichier de molécules|*.aln,*.alp,*.edi|Fichier de configuration|*.cph|Fichier de tableau|*.ntb|Fichier de groupement emboîté|*.nbo|Fichier d'arbre|*.nar|Tous|*.*
+//M_sgDonneeAbsente
+Donnée non disponible
+//M_resolution
+Ce programme ne peut fonctionner qu'avec une résolution minimum de 800x600.
+//L_Phylogene
+Phylogène
+//L_Repertoire
+Le répertoire
+//L_Repertoire2
+ne contient pas de collection
+//L_CollSelect
+ - Collection sélectionnée : 
+//M_TrouvePasCol
+Le programme ne trouve pas le répertoire des collections : il ne peut fonctionner
+//L_AfficherArbre
+Afficher l'arbre
+//L_Fichier
+Le Fichier
+//L_NexistePas
+ n'existe pas
+//M_SauvTab
+Voulez-vous sauvegarder le tableau courant ?
+//C_FormPrincImprimerImage_2
+Imprimer l'image sélectionnée
+//C_FormPrincCopierImage_2
+Copier l'image sélectionnée
+//C_FormPrincImprimerImage
+Imprimer l'image
+//C_FormPrincCopierImage
+Copier l'image
+//C_FormRechercheSelectionner
+Sélectionner les taxons de la liste
+//M_GroupeImNonTrouve
+Le groupe d'images correspondant à ce fichier n'a pas été trouvé
+//M_GroupeImages
+groupe d'images
+//M_NonTrouve
+ non trouvé
+//M_CollNonTrouvee
+La collection correspondant à ce fichier n'a pas été trouvée
+//M_ChargerCol
+Charger la collection
+//L_CaracPresent
+caractère présent
+//L_ChezTaxon
+chez le taxon
+//L_Etat
+état
+//L_EtatDerive
+état dérivé
+//L_Caractere
+du caractère
+//C_FormPrincImprimerImage_3
+Imprimer le diagramme (tri)
+//C_FormPrincCopierImage_3
+Copier le diagramme (tri)
+//M_AbandonCod
+Abandonner le codage ?
+//C_FormRechercheSelectionner_2
+Colorer ces taxons dans l'arbre
+//M_AumoinsUnCarac
+Il faut au moins un caractère pour construire un arbre de manière raisonnée
+//M_AumoinsTroisEsp
+Il faut au moins trois espèces pour construire un arbre de manière raisonnée
+//M_Quitter
+Voulez-vous quitter Phylogène ?
+//M_FichierNonTrouve
+Fichier non trouvé
+//M_FichierAideNonTrouve
+Fichier d'aide non trouvé
+//C_FormPrincOuvrirBoites_2
+Fichier de séquence d'emboîtement
+//H_FormPrincOuvrirBoites_2
+Ouvrir un fichier de séquence d'emboîtement
+//C_FormPrincEnregistrerBoites_2
+Enregistrer une séquence d'emboîtement
+//M_CollectIncomplete
+La collection est incomplète : il manque le dossier 
+//M_NouvelleCol
+Nouvelle collection sélectionnée :
+//M_ChangeColl
+Changer de collection fermera tous les fichiers ouverts  :  continuer ?
+//M_Attention
+Attention !
+//M_Tableau_EspClas
+Tableau des espèces à classer ?
+//M_Charge
+ chargé
+//L_Afficher
+Afficher
+//L_Arbre
+ l'arbre
+//L_MasquerArbre
+Masquer l'arbre
+//L_Masquer
+Masquer
+//M_DefTaxClass
+Voulez-vous définir des Taxons à classer ?
+//T_FormPrincSaveDialog1_2
+Sauvegarde d'un fichier de configuration
+//L_FicConfig
+Fichiers de configuration
+//T_FormPrincOpenDialog1_2
+Chargement d'un fichier de configuration
+//L_EnrSeqEmb
+Enregistrement de la séquence d'emboîtement
+//L_Boites
+Boîtes
+//C_FormPrincImprimerImage_4
+Imprimer le diagramme (boîtes)
+//C_FormPrincCopierImage_4
+Copier le diagramme (boîtes)
+//L_OuvSeqEmb
+Ouverture d'une séquence d'emboîtement;
+//M_CollPasDansRep
+La collection référencée par le fichier n'est pas dans le répertoire Collections de Phylogène
+//L_FicheTechnique
+Fiche_technique_Phylogene.pdf
+//FormAffArbre//Caption - variable : C_FormAffArbre
+Arbre cladistique
+//FormAffArbre/BChoix/Caption - variable : C_FormAffArbreBChoix
+Choix
+//FormAffArbre/Label3/Caption - variable : C_FormAffArbreLabel3
+totale
+//FormAffArbre/LPartielle/Caption - variable : C_FormAffArbreLPartielle
+partielle
+//FormAffArbre/LongTot/Text - variable : C_FormAffArbreLongTot
+0
+//FormAffArbre/Panel1/Caption - variable : C_FormAffArbrePanel1
+Longueur de l'arbre
+//FormAffArbre/AfficherTaxons/Caption - variable : C_FormAffArbreAfficherTaxons
+Afficher les taxons
+//FormAffArbre/AfficherBoitesArbre/Caption - variable : C_FormAffArbreAfficherBoitesArbre
+Afficher les boîtes de l'arbre
+//FormAffArbre/AfficherGroupes/Caption - variable : C_FormAffArbreAfficherGroupes
+Afficher les noms de groupe
+//FormAffArbre/EditerArbre/Caption - variable : C_FormAffArbreEditerArbre
+éditer l'arbre
+//FormAffArbre/ExplorerArbre/Caption - variable : C_FormAffArbreExplorerArbre
+explorer l'arbre
+//FormAffArbre/AfficherLongueurArbre/Caption - variable : C_FormAffArbreAfficherLongueurArbre
+Afficher la longueur de l'arbre
+//FormAffArbre/InterditRevert/Caption - variable : C_FormAffArbreInterditRevert
+Interdire les réversions
+//FormAffArbre/ChangerNom/Caption - variable : C_FormAffArbreChangerNom
+Modifier le nom de l'arbre
+//FormAffArbre/Fermer/Caption - variable : C_FormAffArbreFermer
+Fermer
+//M_Caractres
+Caractères
+//M_Nomdelarbrearbre
+Nom de l'arbre ?
+//M_Arbre
+Arbre
+//AffTabCod//Caption - variable : C_AffTabCod
+Tableau de codage
+//AffTabCod/Label2/Caption - variable : C_AffTabCodLabel2
+Couleurs à utiliser pour les cases cliquées
+//AffTabCod/CouleurTexte/Caption - variable : C_AffTabCodCouleurTexte
+couleur du texte
+//AffTabCod/Label3/Caption - variable : C_AffTabCodLabel3
+Style de remplissage
+//AffTabCod/StyleFond/Text - variable : C_AffTabCodStyleFond
+plein
+//AffTabCod/ModeColor/Text - variable : C_AffTabCodModeColor
+Colorer de la même manière les états de même rang
+//AffTabCod/AnnuleCouleur/Hint - variable : H_AffTabCodAnnuleCouleur
+Annuler tous les codages
+//AffTabCod/AnnuleCouleur/Caption - variable : C_AffTabCodAnnuleCouleur
+Annuler
+//AffTabCod/Valider/Hint - variable : H_AffTabCodValider
+Vérifier et valider le codage
+//AffTabCod/Valider/Caption - variable : C_AffTabCodValider
+Valider
+//AffTabCod/commetexte1/Caption - variable : C_AffTabCodcommetexte1
+comme texte
+//AffTabCod/commeimage1/Caption - variable : C_AffTabCodcommeimage1
+comme image
+//AffTabCod/Editer1/Caption - variable : C_AffTabCodEditer1
+Editer
+//AffTabCod/Modifier1/Caption - variable : C_AffTabCodModifier1
+Modifier le codage
+//AffTabCod/Mettreencouleurs1/Caption - variable : C_AffTabCodMettreencouleurs1
+Mettre en couleurs
+//AffTabCod/Reveniraucodagedorigine1/Caption - variable : C_AffTabCodReveniraucodagedorigine1
+Revenir au codage d'origine
+//M_Lecodagesemblecohr
+Le codage semble cohérent
+//M_numrodecodetropleve
+numéro de code trop élevé pour l'état 
+//M_duCaractere
+ du caractère 
+//M_numrodecodeendouble
+numéro de code en double pour l'état 
+//M_numrodecodeillisib
+numéro de code illisible pour l'état 
+//M_LacasedeltatColorS
+La case de l'état
+//M_pascoloree
+ n'est pas colorée 
+//M_Deuxtatducaractre
+Deux état du caractère 
+//M_ontlammecouleur
+ ont la même couleur
+//AffTabCode/Fermer1/Caption - variable : C_AffTabCodeFermer1
+Fermer
+//AffTabCode/commetexte1/Caption - variable : C_AffTabCodecommetexte1
+comme texte
+//AffTabCode/commeimage1/Caption - variable : C_AffTabCodecommeimage1
+comme image
+//BarreCaract/ComboTypes/Text - variable : T_BarreCaractComboTypes
+Type de données
+//M_Diverses
+Diverses
+//M_Morphologiques
+Morphologiques 
+//M_DonneesDispo
+Données disponibles
+//M_Donnees
+Données
+//M_ChoisirTypeDonnees
+Choisir un type de données
+//ChangeNom//Caption - variable : C_ChangeNom
+Ce taxon n'a pas été trouvé...
+//ChangeNom/Supprimer/Caption - variable : C_ChangeNomSupprimer
+Supprimer cette ligne du tableau tab
+//C_ChangeNomLabel11
+Choisir le vrai nom du taxon
+//C_ChangeNomLabel12
+dans la boîte à onglets
+//C_ChangeNomLabel1
+puis cliquer sur OK
+//FormChoixFicArbre//Caption - variable : C_FormChoixFicArbre
+Choix  concernant les arbres pour en faire un exercice
+//FormChoixFicArbre/Label4/Caption - variable : C_FormChoixFicArbreLabel4
+Option active seulement si la résolution est la même
+//FormChoixFicArbre/BChercher2/Caption - variable : C_FormChoixFicArbreBChercher2
+Chercher
+//FormChoixFicArbre/BEffacer2/Caption - variable : C_FormChoixFicArbreBEffacer2
+effacer
+//FormChoixFicArbre/Label3/Caption - variable : C_FormChoixFicArbreLabel3_1
+Documents à rendre
+//FormChoixFicArbre/Label3/Caption - variable : C_FormChoixFicArbreLabel3
+disponibles (option)
+//FormChoixFicArbre/NePasDater/Caption - variable : C_FormChoixFicArbreNePasDater
+Interdire la datation
+//FormChoixFicArbre/ConserverDispo/Caption - variable : C_FormChoixFicArbreConserverDispo
+Conserver la disposition d'écran
+//FormChoixFicArbre/InterdireTableau/Caption - variable : C_FormChoixFicArbreInterdireTableau
+interdire tableau complet
+//FormChoixAffCell//Caption - variable : C_FormChoixAffCell
+Représentation
+//FormChoixAffCell/Label8/Caption - variable : C_FormChoixAffCellLabel8
+Couleurs à utiliser
+//FormChoixAffCell/CouleurTexte/Hint - variable : H_FormChoixAffCellCouleurTexte_1
+Cliquer pour modifier
+//FormChoixAffCell/CouleurTexte/Hint - variable : H_FormChoixAffCellCouleurTexte
+la couleur du texte
+//FormChoixAffCell/Label1/Caption - variable : C_FormChoixAffCellLabel1_1
+couleur
+//FormChoixAffCell/Label1/Caption - variable : C_FormChoixAffCellLabel1
+du contour
+//FormChoixAffCell/ColorStringGrid/Hint - variable : H_FormChoixAffCellColorStringGrid
+la couleur du fond
+//S_FormChoixAffCellStyleFond_0
+plein
+//S_FormChoixAffCellStyleFond_1
+rayures obliques 1
+//S_FormChoixAffCellStyleFond_2
+rayures obliques 2
+//S_FormChoixAffCellStyleFond_3
+rayures horizontales
+//S_FormChoixAffCellStyleFond_4
+rayures verticales
+//S_FormChoixAffCellStyleFond_5
+quadrillage vertical
+//S_FormChoixAffCellStyleFond_6
+quadrillage oblique
+//ChCoul//Caption - variable : C_ChCoul
+Choix des couleurs
+//ChCoul/BCoulAnCC/Caption - variable : C_ChCoulBCoulAnCC
+Ancêtre hors groupe
+//ChCoul/BCoulClic/Caption - variable : C_ChCoulBCoulClic
+Ancêtre cliqué
+//ChCoul/BCoulAncGr/Caption - variable : C_ChCoulBCoulAncGr
+Ancêtre dans le groupe
+//ChCoul/Button1/Caption - variable : C_ChCoulButton1
+Couleur de mise en évidence
+//ChoixCouleursGroupes//Caption - variable : C_ChoixCouleursGroupes
+Choix des couleurs des séquences dans l'arbre
+//ChoixCouleursGroupes/RAZ/Caption - variable : C_ChoixCouleursGroupesRAZ
+Supprimer toutes les couleurs
+//ChoixCouleursGroupes/Label1/Caption - variable : C_ChoixCouleursGroupesLabel11
+Cliquer sur la case couleur pour accéder au choix.
+//ChoixCouleursGroupes/Label1/Caption - variable : C_ChoixCouleursGroupesLabel12
+Reclasser éventuellement les lignes :
+//ChoixCouleursGroupes/Label1/Caption - variable : C_ChoixCouleursGroupesLabel13
+Si une séquence appartient à 2 groupes
+//ChoixCouleursGroupes/Label1/Caption - variable : C_ChoixCouleursGroupesLabel1
+sa couleur correspondra à celle du premier groupe du tableau.
+//ChoixCouleursGroupes/TabGrid1/Cell - variable : C_ChoixCouleursTabGrid11
+"Groupe"
+//ChoixCouleursGroupes/TabGrid1/Cell - variable : C_ChoixCouleursTabGrid12
+Couleur
+//DialogChxCPH//Caption - variable : C_DialogChxCPH
+Choix des taxons et des caractères à utiliser
+//DialogChxCPH/CancelBtn/Caption - variable : C_DialogChxCPHCancelBtn
+Annuler
+//DialogChxCPH/Label5/Caption - variable : C_DialogChxCPHLabel5
+Nom de la configuration :
+//DialogChxCPH/TaxEtCarD/Caption - variable : C_DialogChxCPHTaxEtCarD
+Taxons et Caractères
+//DialogChxCPH/Label3/Caption - variable : C_DialogChxCPHLabel3
+Choisir les taxons en les cochant dans la liste :
+//DialogChxCPH/Label2/Caption - variable : C_DialogChxCPHLabel21
+Cocher types de caractères :
+//DialogChxCPH/Label2/Caption - variable : C_DialogChxCPHLabel2
+(pour Observer et comparer)
+//DialogChxCPH/Label6/Caption - variable : C_DialogChxCPHLabel6
+Attention à ne pas exclure toute activité !
+//DialogChxCPH/CommencerPar/Caption - variable : C_DialogChxCPHCommencerPar
+Lancer directement l'activité 
+//DialogChxCPH/GroupBox1/Caption - variable : C_DialogChxCPHGroupBox1
+ Exclure les activités 
+//DialogChxCPH/ExcluA/Caption - variable : C_DialogChxCPHExcluA
+Établir les parentés - Arbre
+//DialogChxCPH/ExcluT/Caption - variable : C_DialogChxCPHExcluT
+Tableau
+//DialogChxCPH/ExcluD/Caption - variable : C_DialogChxCPHExcluD
+Dater
+//DialogChxCPH/UtilClasser6/Caption - variable : C_DialogChxCPHUtilClasser6
+Utiliser l'activité Classer 6e (avec manipulation des boîtes)
+//DialogChxCPH/FmodeCollege/Caption - variable : C_DialogChxCPHFmodeCollege
+Configurer en mode collège
+//DialogChxCPH/DejaDate/Caption - variable : C_DialogChxCPHDejaDate
+Ajustement  automatique des dates (activité Dater)
+//DialogChxCPH/axons1/Caption - variable : C_DialogChxCPHaxons1
+Taxons
+//DialogChxCPH/toutcocher1/Caption - variable : C_DialogChxCPHtoutcocher1
+Tout cocher
+//DialogChxCPH/Toutdecocher1/Caption - variable : C_DialogChxCPHToutdecocher1
+Tout décocher
+//DialogChxCPH/Caracteres1/Caption - variable : C_DialogChxCPHCaracteres1
+Caractères
+//DialogChxCPH/CaracteresD/Caption - variable : C_DialogChxCPHCaracteresD
+Caractères détaillés
+//M_Pasassezdetaxonsou
+Pas assez de taxons ou de caractères sélectionnés
+//M_Sitoutestexcluilny
+Si tout est exclu, il n'y a plus rien à faire !
+//M_Letableauderfrence
+Le tableau de référence est introuvable
+//choixCPHG//Caption - variable : C_choixCPHG
+Choisir le fichier Cph ou le fichier phg
+//DialogNom//Caption - variable : C_DialogNom
+Nom de l'arbre ?
+//FormChxTaxonsAClasser//Caption - variable : C_FormChxTaxonsAClasser
+Choix des Taxons à classer
+//FormChxTaxonsAClasser/Label3/Caption - variable : C_FormChxTaxonsAClasserLabel3
+Choisir les taxons à classer en les cochant dans la liste :
+//FormChxTaxonsAClasser/AjLigne/Caption - variable : C_FormChxTaxonsAClasserAjLigne
+Ajouter une ligne
+//FormChxTaxonsAClasser/CancelBtn/Caption - variable : C_FormChxTaxonsAClasserCancelBtn
+Annuler
+//FormChxTaxonsAClasser/SuprLigne/Caption - variable : C_FormChxTaxonsAClasserSuprLigne
+Supprimer la ligne sélectionnée
+//FDNom//Caption - variable : C_FDNom
+Ajout d'une espèce
+//FDNom/Label1/Caption - variable : C_FDNomLabel1
+Nom de l'espèce
+//FdemMotCle//Caption - variable : C_FdemMotCle
+Gestion des mots-clés
+//FdemMotCle/Label1/Caption - variable : C_FdemMotCleLabel1
+Écrire le nouveau mot-clé ou choisir son nom dans la liste
+//FdemMotCle/Button3/Caption - variable : C_FdemMotCleButton3
+Supprimer
+//FdemMotCle/Label4/Caption - variable : C_FdemMotCleLabel41
+Validation
+//FdemMotCle/Label4/Caption - variable : C_FdemMotCleLabel4
+finale
+//FdemMotCle/SrcLabel/Caption - variable : C_FdemMotCleSrcLabel
+Séquences disponibles :
+//FdemMotCle/DstLabel/Caption - variable : C_FdemMotCleDstLabel
+Séquences associées au mot-clé :
+//FdemMotCle/Label3/Caption - variable : C_FdemMotCleLabel3
+Choix des séquences associées au mot-clé
+//C_FdemMotCleButton1
+Ajouter
+//ChxNomCol//Caption - variable : C_ChxNomCol
+Nom de la collection
+//ChxNomCol/Label1/Caption - variable : C_ChxNomColLabel1
+Nom du dossier
+//ChxNomCol/Label3/Caption - variable : C_ChxNomColLabel3
+Nom complet
+//ChxNomCol/Label2/Caption - variable : C_ChxNomColLabel21
+Le nom du dossier de la collection
+//ChxNomCol/Label2/Caption - variable : C_ChxNomColLabel2
+ne doit comporter ni accent ni espace
+//FormModifcaracD//Caption - variable : C_FormModifcaracD
+Décomposer le caractère 
+//FormModifcaracD/Label5/Caption - variable : C_FormModifcaracDLabel5
+Nom de l'état de réversion :
+//FormModifcaracD/Label6/Caption - variable : C_FormModifcaracDLabel61
+Cocher les Taxons 
+//FormModifcaracD/Label6/Caption - variable : C_FormModifcaracDLabel6
+ayant l'état de réversion
+//FormModifcaracD/NvEtat/Text - variable : C_FormModifcaracDNvEtat
+Disparu
+//FormModifcaracD/Label2/Caption - variable : C_FormModifcaracDLabel2
+Nouveaux Caractères
+//FormModifcaracD/Label7/Caption - variable : C_FormModifcaracDLabel7
+Caractère 1
+//FormModifcaracD/Label8/Caption - variable : C_FormModifcaracDLabel8
+Caractère 2
+//FormModifcaracD/LinstrL3/Caption - variable : C_FormModifcaracDLinstrL3
+est à l'état dérivé : 
+//FormModifcaracD/Label4/Caption - variable : C_FormModifcaracDLabel4
+Indiquez les noms des nouveaux caractères
+//FormModifcaracD/LinstrL2/Caption - variable : C_FormModifcaracDLinstrL2
+et cocher les taxons où
+//FormModifcaracD/Label3/Caption - variable : C_FormModifcaracDLabel3
+Choisir le cas à traiter :
+//FormModifcaracD/ComboChoix/Text - variable : C_FormModifcaracDComboChoix
+Analogie supposée : scinder le caractère
+//FormModifcaracD/Ajouteruncaractre1/Caption - variable : C_FormModifcaracDAjouteruncaractre1
+Ajouter un caractère
+//FormModifcaracD/Retireruncaractre1/Caption - variable : C_FormModifcaracDRetireruncaractre1
+Retirer un caractère
+//FormCodCoul//Caption - variable : C_FormCodCoul
+Codes de couleur des séquences
+//FormCodCoul/Label10/Caption - variable : C_FormCodCoulLabel101
+à cette position
+//FormCodCoul/Label10/Caption - variable : C_FormCodCoulLabel102
+toutes les séquences
+//FormCodCoul/Label10/Caption - variable : C_FormCodCoulLabel10
+ont le même résidu
+//FormCodCoul/Label6/Caption - variable : C_FormCodCoulLabel61
+D : Aspartate
+//FormCodCoul/Label6/Caption - variable : C_FormCodCoulLabel6
+E : Glutamate
+//FormCodCoul/Label7/Caption - variable : C_FormCodCoulLabel71
+R : Arginine
+//FormCodCoul/Label7/Caption - variable : C_FormCodCoulLabel72
+H : Histidine
+//FormCodCoul/Label7/Caption - variable : C_FormCodCoulLabel7
+K : Lysine
+//FormCodCoul/Panel2/Caption - variable : C_FormCodCoulPanel2
+Séquences d'acides nucléiques
+//FormCodCoul/LBA/Caption - variable : C_FormCodCoulLBA
+A : Adénine
+//FormCodCoul/LBG/Caption - variable : C_FormCodCoulLBG
+G : Guanine
+//FormCodCoul/LBTU/Caption - variable : C_FormCodCoulLBTU1
+T : Thymine
+//FormCodCoul/LBTU/Caption - variable : C_FormCodCoulLBTU
+U : Uracile
+//FormCodCoul/LBC/Caption - variable : C_FormCodCoulLBC
+C : Cytosine
+//FormCodCoul/Panel8/Caption - variable : C_FormCodCoulPanel8
+Séquences d'acides aminés
+//FormCodCoul/Label2/Caption - variable : C_FormCodCoulLabel2
+ont la même base
+//FormCodCoul/Label5/Caption1 - variable : C_FormCodCoulLabel501
+S : Sérine
+//FormCodCoul/Label5/Caption2 - variable : C_FormCodCoulLabel502
+T : Thréonine
+//FormCodCoul/Label5/Caption3 - variable : C_FormCodCoulLabel503
+Y : Tyrosine
+//FormCodCoul/Label5/Caption4 - variable : C_FormCodCoulLabel504
+C : Cystéine
+//FormCodCoul/Label5/Caption5 - variable : C_FormCodCoulLabel505
+N : Asparagine
+//FormCodCoul/Label5/Caption6 - variable : C_FormCodCoulLabel506
+G : Glycine
+//FormCodCoul/Label5/Caption7 - variable : C_FormCodCoulLabel507
+Q : Glutamine
+//FormCodCoul/Label9/Caption1 - variable : C_FormCodCoulLabel91
+Couleur définie par la comparaison globale
+//FormCodCoul/Label9/Caption1 - variable : C_FormCodCoulLabel92
+des séquences à la position de la case colorée
+//FormCodCoul/Label4/Caption1 - variable : C_FormCodCoulLabel41
+A : Alanine
+//FormCodCoul/Label4/Caption2 - variable : C_FormCodCoulLabel42
+V : Valine
+//FormCodCoul/Label4/Caption3 - variable : C_FormCodCoulLabel43
+F : Phénylalanine
+//FormCodCoul/Label4/Caption4 - variable : C_FormCodCoulLabel44
+P : Proline
+//FormCodCoul/Label4/Caption5 - variable : C_FormCodCoulLabel45
+M : Methionine
+//FormCodCoul/Label4/Caption6 - variable : C_FormCodCoulLabel46
+I : Isoleucine
+//FormCodCoul/Label4/Caption7 - variable : C_FormCodCoulLabel47
+L : Leucine
+//FormCodCoul/Label4/Caption8 - variable : C_FormCodCoulLabel48
+W : Tryptophane
+//FormCodCoul/Panel16/Caption - variable : C_FormCodCoulPanel16
+à cette position, il y a des résidus différents, la couleur correspond au résidu
+//FormCodCoul/Panel29/Caption - variable : C_FormCodCoulPanel29
+à cette position, il y a des bases différentes, la couleur correspond à la base
+//FicheCarAncetre/Label1/Caption - variable : C_FicheCarAncetreLabel1
+ Caractères de l'ancêtre situé au noeud cliqué
+//FicheCarAncetre/LegDExcl/Caption - variable : C_FicheCarAncetreLegDExcl
+Caractère commun exclusif du groupe
+//FicheCarAncetre/LegD/Caption - variable : C_FicheCarAncetreLegD
+Caractère commun
+//FicheCarAncetre/LegPrim/Caption - variable : C_FicheCarAncetreLegPrim
+Caractère absent
+//FicheCarAncetre/Classer1/Caption - variable : C_FicheCarAncetreClasser1
+Ordonner
+//FicheCarAncetre/Copier1/Caption - variable : C_FicheCarAncetreCopier1
+Copier...
+//FicheCarAncetre/commeimage1/Caption - variable : C_FicheCarAncetrecommeimage1
+...comme image
+//FicheCarAncetre/commetexte1/Caption - variable : C_FicheCarAncetrecommetexte1
+...comme texte
+//FicheCarAncetre/GroupeCarac/Caption - variable : C_FicheCarAncetreGroupeCarac
+Groupe
+//FicheEssai//Caption - variable : C_FicheEssai
+Correction
+//FicheEssai/Label1/Caption - variable : C_FicheEssaiLabel1
+Ordre logique
+//FicheEssai/Label2/Caption - variable : C_FicheEssaiLabel2
+Ordre peu logique par rapport à l'ensemble
+//FicheEssai/Label3/Caption - variable : C_FicheEssaiLabel3
+Désélection
+//FicheEssai/Label4/Caption - variable : C_FicheEssaiLabel4
+Impossible
+//FicheEssai/Afficher/Caption - variable : C_FicheEssaiAfficher
+Masquer le code
+//FicNouvCar//Caption - variable : C_FicNouvCar
+Définition provisoire d'un nouveau caractère
+//FicNouvCar/Label1/Caption - variable : C_FicNouvCarLabel1
+Nom du caractère
+//FicNouvCar/Label2/Caption - variable : C_FicNouvCarLabel2
+nombre d'états
+//FicNouvCar/Label3/Caption - variable : C_FicNouvCarLabel3
+désignation
+//FicNouvCar/Label4/Caption - variable : C_FicNouvCarLabel4
+Couleur
+//FicNouvCar/Panel3/Caption - variable : C_FicNouvCarPanel3
+Etat 1
+//FicNouvCar/Panel6/Caption - variable : C_FicNouvCarPanel6
+Etat 5
+//FicNouvCar/Panel9/Caption - variable : C_FicNouvCarPanel9
+Etat 4
+//FicNouvCar/Panel12/Caption - variable : C_FicNouvCarPanel12
+Etat 3
+//FicNouvCar/Panel15/Caption - variable : C_FicNouvCarPanel15
+Etat 2
+//M_Ilyadescases
+Il y a des cases non remplies
+//ConfigProf//Caption - variable : C_ConfigProf
+Configuration (pour tester avant d'enregistrer)
+//ConfigProf/CommencerPar/Caption - variable : C_ConfigProfCommencerPar
+Lancer directement l'activité 
+//ConfigProf/GroupBox1/Caption - variable : C_ConfigProfGroupBox1
+ Exclure les activités 
+//ConfigProf/ExcluA/Caption - variable : C_ConfigProfExcluA
+Établir les parentés (Arbre)
+//ConfigProf/ExcluT/Caption - variable : C_ConfigProfExcluT
+Tableau
+//ConfigProf/ExcluD/Caption - variable : C_ConfigProfExcluD
+Dater
+//ConfigProf/FmodeCollege/Caption - variable : C_ConfigProfFmodeCollege
+Configurer en mode collège (ou mode seconde)
+//ConfigProf/Label2/Caption - variable : C_ConfigProfLabel2
+Attention, tout travail antérieur sera perdu.
+//ConfigProf/DejaDate/Caption - variable : C_ConfigProfDejaDate
+Ajustement  automatique des dates (activité Dater)
+//C_ConfigProfCommencerPar3
+Tableau (rempli);
+//C_ConfigProfCommencerPar7
+aucune
+//C_ConfigProfAccesArbre
+Accès à l'arbre à partir de Classer (mode seconde)
+//ConfigProf/Label1/Caption - variable : C_ConfigProfLabel1
+Choisir les activités à interdire et éventuellement une activité
+//ConfigProf/Label1/Caption_2 - variable : C_ConfigProfLabel1_2
+à lancer automatiquement.
+//ConfigProf/Label1/Caption_3 - variable : C_ConfigProfLabel1_3
+Pour conserver cette configuration, il faudra l'enregistrer
+//ConfigProf/Label1/Caption_4 - variable : C_ConfigProfLabel1_4
+(menu Fichier/Enregistrer une configuration)
+//gestimp//Caption - variable : C_gestimp
+Choix de l'impression
+//gestimp/GroupBox1/Caption - variable : C_gestimpGroupBox1
+ Alignement 
+//gestimp/Label1/Caption - variable : C_gestimpLabel1
+marge du haut
+//gestimp/Label2/Caption - variable : C_gestimpLabel2
+mm
+//gestimp/Label3/Caption - variable : C_gestimpLabel3
+marge du bas
+//gestimp/Label5/Caption - variable : C_gestimpLabel5
+marge gauche
+//gestimp/Label7/Caption - variable : C_gestimpLabel7
+marge droite
+//gestimp/centrevert/Caption - variable : C_gestimpcentrevert
+Centrer verticalement
+//gestimp/CentreHrz/Caption - variable : C_gestimpCentreHrz
+Centrer horizontalement
+//gestimp/RAZ/Caption - variable : C_gestimpRAZ
+RAZ
+//gestimp/orientation/Caption - variable : C_gestimporientation
+ orientation de la page 
+//gestimp/formatpage/Caption - variable : C_gestimpformatpage
+ Format de la page 
+//gestimp/imprimante/Text - variable : C_gestimpimprimante
+imprimante
+//gestimp/Label11/Caption - variable : C_gestimpLabel111
+nombre de
+//gestimp/Label11/Caption - variable : C_gestimpLabel11
+lignes
+//gestimp/Label12/Caption - variable : C_gestimpLabel12
+colonnes
+//gestimp/Label13/Caption - variable : C_gestimpLabel13
+espaces
+//gestimp/Label10/Caption - variable : C_gestimpLabel10
+nombre de copies
+//gestimp/Label15/Caption - variable : C_gestimpLabel15
+taille de l'image (mm) :
+//gestimp/Label16/Caption - variable : C_gestimpLabel161
+Image trop petite.
+//gestimp/Label16/Caption - variable : C_gestimpLabel16
+Ajustez les valeurs
+//gestimp/Couleur/Caption - variable : C_gestimpCouleur
+ Couleur 
+//M_Ledocumentesttropp
+Le document est trop petit
+//FInfoVersion//Caption - variable : C_FInfoVersion
+Informations concernant la nouvelle version disponible
+//FInfoVersion/Label1/Caption - variable : C_FInfoVersionLabel1
+Essayer de la mise à jour en ligne de Phylogène ?
+//FormGroupe//Caption - variable : C_FormGroupe
+Nommer le groupe
+//FormGroupe/Label2/Caption - variable : C_FormGroupeLabel2
+Caractéristiques du groupe sélectionné
+//FormGroupe/Label3/Caption - variable : C_FormGroupeLabel3
+Liste des groupes de la collection :
+//M_Cenestpaslebongrou
+Ce n'est pas le bon groupe
+//OptionForm/Arbres/Caption - variable : C_OptionFormArbres
+Arbres
+//OptionForm/RadioGroup1/Caption - variable : C_OptionFormRadioGroup1
+Type d'arbre construit
+//OptionForm/RadUPGMA/Caption - variable : C_OptionFormRadUPGMA
+Arbre UPGMA
+//OptionForm/RadNJ/Caption - variable : C_OptionFormRadNJ
+Arbre NJ
+//OptionForm/RadCL/Caption - variable : C_OptionFormRadCL
+Arbre Clade
+//OptionForm/TabSheet1/Caption - variable : C_OptionFormTabSheet1
+Distances
+//OptionForm/GroupBox1/Caption - variable : C_OptionFormGroupBox1
+Format
+//OptionForm/RadAbsolu/Caption - variable : C_OptionFormRadAbsolu
+absolu
+//OptionForm/Radpropor/Caption - variable : C_OptionFormRadpropor
+proportionnel
+//OptionForm/radpoucent/Caption - variable : C_OptionFormradpoucent
+pourcentage
+//OptionForm/GroupBox2/Caption - variable : C_OptionFormGroupBox2
+Délétions
+//OptionForm/Radcompt/Caption - variable : C_OptionFormRadcompt
+comptées
+//OptionForm/Radignopaire/Caption - variable : C_OptionFormRadignopaire
+ignorées dans une paire
+//OptionForm/Radignoall/Caption - variable : C_OptionFormRadignoall
+ignorées pour l'ensemble
+//OptionForm/TabSheet2/Caption - variable : C_OptionFormTabSheet2
+Calculs
+//OptionForm/GroupBox3/Caption - variable : C_OptionFormGroupBox3
+Mode de calcul
+//OptionForm/RadioDistObs/Caption - variable : C_OptionFormRadioDistObs
+distances observées
+//OptionForm/RaddistPoi/Caption - variable : C_OptionFormRaddistPoi
+distances corrigées (Poisson)
+//OptionForm/RadDistKim/Caption - variable : C_OptionFormRadDistKim
+Distances corrigées (Kimura)
+//AboutBox/Version/Caption - variable : C_AboutBoxVersion
+© Version 1.1  (Janvier 2001)
+//AboutBox/Label2/Caption - variable : C_AboutBoxLabel2
+Graphisme : Gabriel Boghossian
+//AboutBox/Label3/Caption - variable : C_AboutBoxLabel3
+© Version 1.3  (Juin 2003)
+//AboutBox/Label4/Caption - variable : C_AboutBoxLabel4
+© Version 1.2  (Juin 2002)
+//AboutBox/Label5/Caption - variable : C_AboutBoxLabel5
+© Version 2.2  (Août 2008)
+//AboutBox/Label7/Caption - variable : C_AboutBoxLabel7
+© Version 2.7.2.0  (Sept 2011)
+//FormBig//Caption - variable : C_FormBig
+Délimiter la zone à copier ou à imprimer
+//FormBig/Label2/Caption - variable : C_FormBigLabel2
+Zoom
+//FormBig/EnrImage/Caption - variable : C_FormBigEnrImage
+Enregistrer la sélection dans un fichier d'image
+//FormBig/SelTout/Caption - variable : C_FormBigSelTout
+Tout sélectionner
+//FormBig/Button2/Caption - variable : C_FormBigButton2
+Rotation 90°
+//FormBig/SaveDialog/Filter - variable : Filt_FormBigSaveDialog
+image Jpeg|*.jpg|image Bmp|*.bmp
+//FormBig/SaveDialog/Title - variable : Tit_FormBigSaveDialog
+Enregistrement de l'image
+//FormChoisir/BMEtats/Caption - variable : C_FormChoisirBMEtats
+Montrer les états
+//FormChoisir/SpeedButton1/Hint - variable : H_FormChoisirSpeedButton1
+Annuler la dernière mise en couleur
+//FormChoisir/AnnuleCouleur/Caption - variable : C_FormChoisirAnnuleCouleur
+Tout annuler
+//FormChoisir/Panel7/Caption - variable : C_FormChoisirPanel7
+Codage
+//FormChoisir/BAnnulerCaracteres/Caption - variable : C_FormChoisirBAnnulerCaracteres
+Annuler l'édition des caractères
+//FormChoisir/Label9/Caption - variable : C_FormChoisirLabel9
+Choisir un taxon extragroupe
+//FormChoisir/Panel9/Caption - variable : C_FormChoisirPanel9
+  1 - Trouver et coder les états primitifs
+//FormChoisir/Label6/Caption - variable : C_FormChoisirLabel6
+Représentation
+//FormChoisir/LColorerPrim/Caption - variable : C_FormChoisirLColorerPrim1
+Colorer les états primitifs
+//FormChoisir/LColorerPrim/Caption - variable : C_FormChoisirLColorerPrim
+suivant l'extragroupe
+//FormChoisir/ColorStringGridPrim/Hint - variable : H_FormChoisirColorStringGridPrim
+Cliquer pour modifier
+//FormChoisir/Label8/Caption - variable : C_FormChoisirLabel8
+Couleurs à utiliser pour les cellules cliquées
+//FormChoisir/CouleurTexte/Hint - variable : H_FormChoisirCouleurTexte
+la couleur du texte
+//FormChoisir/Panel14/Caption - variable : C_FormChoisirPanel14
+  2 - Coder les états dérivés en colorant les cellules
+//FormChoisir/ColorStringGrid/Hint - variable : H_FormChoisirColorStringGrid
+la couleur du fond
+//FormChoisir/ModeColor/Text - variable : C_FormChoisirModeColor
+Colorer case par case
+//FormChoisir/Annulerladerniremodification1/Caption - variable : C_FormChoisirAnnulerladerniremodification1
+Annuler la dernière modification
+//FormChoisir/OuvreTableau/Filter - variable : Filt_FormChoisirOuvreTableau
+Nouveau Tableau Phylogène|*.NTB|Tableau Phylogène|*.tab
+//FormChoisir/OuvreTableau/Title - variable : Tit_FormChoisirOuvreTableau
+Chargement d'un tableau de Phylogène
+//FormChoisir/SaveTableau/Filter - variable : Filt_FormChoisirSaveTableau
+Nouveau Tableau Phylogène|*.NTB
+//FormChoisir/SaveTableau/Title - variable : Tit_FormChoisirSaveTableau
+Sauvegarde d'un tableau
+//FormChoisir/Label1/Caption_1- variable : C_FormChoisirLabel1_1
+Cliquer sur la cellule ou sur le texte ci-dessus
+//FormChoisir/Label1/Caption_2- variable : C_FormChoisirLabel1_2
+pour choisir les couleurs
+//FormChoisir/ModeColor/Item_1- variable : Item1_FormChoisirModeColor 
+Colorer de la même manière les états identiques
+//FormChoisir/StyleFond/Item_0- variable : Item0_FormChoisirStyleFond
+plein
+//FormChoisir/StyleFond/Item_1- variable : Item1_FormChoisirStyleFond
+rayures obliques 1
+//FormChoisir/StyleFond/Item_2- variable : Item2_FormChoisirStyleFond
+rayures obliques 2
+//FormChoisir/StyleFond/Item_3- variable : Item3_FormChoisirStyleFond
+rayures horizontales
+//FormChoisir/StyleFond/Item_4- variable : Item4_FormChoisirStyleFond
+rayures verticales
+//FormChoisir/StyleFond/Item_5- variable : Item5_FormChoisirStyleFond
+quadrillage vertical
+//FormChoisir/StyleFond/Item_6- variable : Item6_FormChoisirStyleFond
+quadrillage oblique
+//M_Primitif
+ Primitif
+//M_Caractreinitial
+Caractère initial
+//M_Nouveaucaractre
+Nouveau caractère 1
+//M_Nouveaucaractre_1
+Nouveau caractère 2
+//M_Voulezvousmarquer
+Voulez-vous marquer 
+//M_commeextragroupe
+ comme extragroupe
+//M_Voulezvouseffacerl
+Voulez-vous effacer la case ?
+//M_Letableaunestpasco
+Le tableau n'est pas complètement rempli. vérifier tout de même ?
+//M_Tableauderfrenceno
+Tableau de référence non disponible
+//M_Caractre_2
+Caractère 
+//M_erreurdanslecodage
+ : erreur dans le codage de la collection
+//M_Letableauestcorrec
+Le tableau est correct
+//M_erreur_1
+1 erreur
+//M_erreurs
+ erreurs
+//M_Voulezvousvraiment
+Voulez-vous vraiment effacer tout le tableau ?
+//M_Aucunextragroupena
+Aucun extragroupe n'a été désigné
+//M_Touslestatsdelextragroupe
+Tous les états de l'extragroupe ne sont pas codés de la même manière
+//M_parexemplecaractre
+ par exemple, caractère 
+//M_Touslestatsprimiti
+Tous les états primitifs ne sont pas codés de la même manière
+//M_Untatdrivestcodcom
+Un état dérivé est codé comme un état primitif
+//M_Lacouleurduntatdri
+La couleur d'un état dérivé est la même
+//M_quelecadredestatsp
+que le cadre des états primitifs
+//M_Touslestatsdrivsid
+Tous les états dérivés identiques doivent être codés de la même manière.
+//M_Erreuraucaractre
+Erreur au caractère 
+//M_Touslestatsdrivsdo
+Tous les états dérivés doivent être colorés
+//M_nelestpas
+ ne l'est pas
+//M_Touslestrecodsdela
+Tous les "?" doivent être codés de la même manière
+//M_Lesnedoiventpastre
+Les "?" ne doivent pas être codés comme un état dérivé
+//M_Lecodagesemblecorr
+Le codage semble correct
+//M_Annulertoutlecodag
+Annuler tout le codage ?
+//FormClasser6//Caption - variable : C_FormClasser6
+Classer 6e  (cases emboîtées)
+//FormClasser6/Bdepla/Hint - variable : H_FormClasser6Bdepla
+Déplacer lignes et colonnes
+//FormClasser6/Bboites/Hint - variable : H_FormClasser6Bboites
+Tracer les boîtes
+//FormClasser6/BDocs/Hint - variable : H_FormClasser6BDocs
+Afficher les documents
+//FormClasser6/ToutAfficher/Hint - variable : H_FormClasser6ToutAfficher
+Afficher toutes les boîtes
+//FormClasser6/BRaz/Hint - variable : H_FormClasser6BRaz
+Remise à zéro
+//FormClasser6/BClasser/Hint - variable : H_FormClasser6BClasser
+classer les espèces supplémentaires
+//FormClasser6/BAjoutTax/Hint - variable : H_FormClasser6BAjoutTax
+Ajouter des espèces à classer
+//FormClasser6/BVerifier/Hint - variable : H_FormClasser6BVerifier1
+Vérifier l'ordre choisi
+//FormClasser6/BVerifier/Hint - variable : H_FormClasser6BVerifier2
+pour construire les 
+//FormClasser6/Label2/Caption - variable : C_FormClasser6Label21
+Ajouter des
+//FormClasser6/Label2/Caption - variable : C_FormClasser6Label2
+espèces à classer
+//FormClasser6/BD/Caption - variable : C_FormClasser6BD
+D
+//FormClasser6/TextDepla/Caption - variable : C_FormClasser6TextDepla
+le tableau
+//FormClasser6/TextBoites/Caption - variable : C_FormClasser6TextBoites
+les boîtes
+//FormClasser6/TextDocs/Caption - variable : C_FormClasser6TextDocs1
+Afficher les
+//FormClasser6/TextAjout/Caption - variable : C_FormClasser6TextAjout
+espèces
+//FormClasser6/Textclasser/Caption - variable : C_FormClasser6Textclasser1
+Classer les
+//FormClasser6/ActiverSelectionCaract/Caption - variable : C_FormClasser6ActiverSelectionCaract
+Activer la sélection des caractères
+//FormClasser6/AfficherLaBoite/Caption - variable : C_FormClasser6AfficherLaBoite
+Afficher la boîte
+//FormClasser6/IllustrerCaractere/Caption - variable : C_FormClasser6IllustrerCaractere
+Illustrer le caractère
+//FormClasser6/MenufusionColonne/Caption - variable : C_FormClasser6MenufusionColonne
+Fusionner avec...
+//FormClasser6/AjouterColonne/Caption - variable : C_FormClasser6AjouterColonne
+Ajouter la colonne...
+//FormClasser6/SeparerCar/Caption - variable : C_FormClasser6SeparerCar
+Séparer le caractère...
+//FormClasser6/SaveBoites6/Filter - variable : Filt_FormClasser6SaveBoites6
+fichier de groupement emboîté|*.nbo
+//FormClasser6/SaveBoites6/Title - variable : Tit_FormClasser6SaveBoites6
+Sauvegarde d'un groupement emboîté
+//FormClasser6/OuvreBoites6/Title - variable : Tit_FormClasser6OuvreBoites6
+Chargement d'un fichier de groupements emboîtés
+//M_Caractere
+Caractère 
+//M_Masquerlabote
+Masquer la boîte
+//M_Fusionner
+Fusionner 
+//M_avec
+ avec ...
+//M_cescaractresnesont
+ces caractères ne sont jamais présents
+//M_lescolonnesnepeuve
+les colonnes ne peuvent être valablement comparées
+//M_larpartitiondescar
+la répartition des caractères est différente
+//M_lescolonnesnepeuve_1
+les colonnes ne peuvent être fusionnées
+//M_Effacementdutablea
+Effacement du tableau des espèces supplémentaires. Continuer ?
+//M_Attentioncelafaitp
+Attention, cela fait perdre le travail. Continuer ?
+//M_Ilnyapasdebote
+Il n'y a pas de boîte
+//M_Ilyaaumoinsuneautr
+Il y a au moins une autre fusion possible.
+//M_Classerlescolonnes
+Classer les colonnes et comparer
+//M_Lesfusionssontbien
+Les fusions sont bien faites
+//M_Lesnouvellesespces
+Les nouvelles espèces obligent à séparer 
+//M_et
+ et 
+//M_Letravailsemblecor
+Le travail semble correct
+//M_Ilyaaumoinsunautre
+Il y a au moins un autre emboîtement possible.
+//M_Comparezbienlesbot
+Comparez bien les boîtes
+//M_Ilrestedesbotesaff
+Il reste des boîtes à afficher
+//M_Touteslestiquettes
+Toutes les étiquettes d'espèces ne sont pas bien placées
+//M_Touteslestiquettes_1
+Toutes les étiquettes d'espèces n'ont pas été activées
+//M_Ajoutdune
+Ajout d'une espèce
+//M_Crerdesespcesclass
+Créer des espèces à classer.
+//M_Ajouterune
+Ajouter une
+//M_Crerdesespcesclass_1
+Créer des espèces à classer.
+//M_Cliquersurlenomdun
+Cliquer sur le nom d'une espèce à classer puis placer l'étiquette dans la bonne boîte.
+//FormComp//Caption - variable : C_FormComp
+FormComp
+//FormConfig/Label2/Caption - variable : C_FormConfigLabel2
+Code :
+//FormConfig/ChoixMode/Caption - variable : C_FormConfigChoixMode
+ Mode de fonctionnement 
+//FormConfig/ChoixMode/Item1 - variable: I_FormConfigChoixMode_1
+Seconde
+//FormConfig/ChoixMode/Item2 - variable: I_FormConfigChoixMode_2
+Terminale
+//FormConfig/Label1/Caption - variable : C_FormConfigLabel1
+Répertoire des collections
+//FormDater/BVerifier/Hint - variable : H_FormDaterBVerifier1
+Vérifier l'ordre choisi
+//FormDater/BVerifier/Hint - variable : H_FormDaterBVerifier2
+pour construire les 
+//FormDater/Bdepla/Hint - variable : H_FormDaterBdepla
+Déplacer lignes et colonnes
+//FormDater/TextDocs/Caption - variable : C_FormDaterTextDocs1
+Afficher les
+//FormDater/BDocs/Hint - variable : H_FormDaterBDocs
+Afficher les documents
+//FormDater/Label2/Caption - variable : C_FormDaterLabel2
+Ma
+//FormDater/ValAgeMax/Hint - variable : H_FormDaterValAgeMax
+Valeur de l'âge le plus ancien (en Ma)
+//FormDater/Fermer1/Caption - variable : C_FormDaterFermer1
+&Fermer
+//FormDater/Copier1/Caption - variable : C_FormDaterCopier1
+&Copier
+//FormDater/CopierArbre/Caption - variable : C_FormDaterCopierArbre
+l'&arbre
+//FormDater/CopierTableau/Caption - variable : C_FormDaterCopierTableau
+le &tableau
+//FormDater/commeimage1/Caption - variable : C_FormDatercommeimage1
+...comme image
+//FormDater/commetexte1/Caption - variable : C_FormDatercommetexte1
+...comme texte
+//FormDater/Imprimer1/Caption - variable : C_FormDaterImprimer1
+&Imprimer
+//FormDater/MConseil/Caption - variable : C_FormDaterMConseil
+Conseil
+//FormDater/AfficherEpoques/Caption - variable : C_FormDaterAfficherEpoques
+Afficher les époques
+//FormDater/AfficherPeriodes/Caption - variable : C_FormDaterAfficherPeriodes
+Afficher les périodes
+//FormDater/AfficherEres/Caption - variable : C_FormDaterAfficherEres
+Afficher les ères
+//FormDater/AfficherCrises/Caption - variable : C_FormDaterAfficherCrises
+Afficher les crises
+//FormDater/ChoixMaxiAge/Caption - variable : C_FormDaterChoixMaxiAge
+Choix du maximum de l'échelle
+//FormDater/AfficherTaxons/Caption - variable : C_FormDaterAfficherTaxons
+Afficher les noms des espèces
+//FormDater/AfficherGroupes/Caption - variable : C_FormDaterAfficherGroupes
+Afficher les noms de groupes
+//M_Dplacerlesanctrese
+Déplacer les ancêtres et les espèces, avec la souris, pour les placer correctement sur l'échelle du temps
+//M_Dplacerlesanctresn
+Déplacer les ancêtres (noeuds) et les taxons, avec la souris, pour les placer correctement sur l'échelle du temps
+//M_Ledbutestcorrectvo
+Le début est correct, voulez-vous terminer automatiquement ?
+//M_Effacercompltement
+Effacer complètement l'ancien arbre avant d'ouvrir
+//M_De_2
+De
+//M_lactuel
+l'actuel
+//M_Certainsnoueudsout
+Certains noueuds ou taxons vont se trouver hors échelle
+//M_Poursuivretoutdemm
+Poursuivre tout de même ?
+//FormDaterObs//Caption - variable : C_FormDaterObs
+Organiser des données paléontologiques
+//FormDaterObs/BTaxCar/Hint - variable : H_FormDaterObsBTaxCar
+Tracer les boîtes
+//FormDaterObs/TextTaxons/Caption - variable : C_FormDaterObsTextTaxons1
+Choisir
+//FormDaterObs/TextTaxons/Caption - variable : C_FormDaterObsTextTaxons
+les taxons
+//FormDaterObs/CopierArbre/Caption - variable : C_FormDaterObsCopierArbre
+le graphique
+//FormDaterObs/EnvoyerversOpenOffice1/Caption - variable : C_FormDaterObsEnvoyerversOpenOffice1
+...Envoyer vers OpenOffice
+//FormDaterObs/Illustrer/Caption - variable : C_FormDaterObsIllustrer
+Données
+//FormDaterObs/Nouveau1/Caption - variable : C_FormDaterObsNouveau1
+Nouveau
+//FormDaterObs/Supprimer/Caption - variable : C_FormDaterObsSupprimer
+Supprimer
+//FormDaterObs/rier1/Caption - variable : C_FormDaterObsrier1
+Tri
+//FormDaterObs/alphabtique1/Caption - variable : C_FormDaterObsalphabtique1
+alphabétique
+//FormDaterObs/AlphaCroissant/Caption - variable : C_FormDaterObsAlphaCroissant
+croissant
+//FormDaterObs/AlphaDecroissant/Caption - variable : C_FormDaterObsAlphaDecroissant
+décroissant
+//FormDaterObs/pargedapparition1/Caption - variable : C_FormDaterObspargedapparition1
+par âge d'apparition
+//FormDaterObs/pargededisparition1/Caption - variable : C_FormDaterObspargededisparition1
+par âge de disparition
+//FormDefinition//Caption - variable : C_FormDefinition
+Définition
+//M_Espceillustre
+Espèce illustrée : 
+//M_Espce_1
+Espèce 
+//M_voirladescriptions
+ - voir la description sommaire
+//M_Cliquersurlesespce
+Cliquer sur les espèces pour les faire apparaître puis déplacer les traits correspondants en accord avec les données du tableau.
+//M_Lesespcessontbienp
+Les espèces sont bien positionnées
+//M_Remplirtoutelacolo
+Remplir toute la colonne avec le même état
+//FormMol//Caption - variable : C_FormMol
+Établissement de liens de parenté à partir d'études moléculaires
+//FormMol/Patience/Caption - variable : C_FormMolPatience
+Patience, calcul en cours.
+//FormMol/Panel7/Caption - variable : C_FormMolPanel7
+Légende
+//FormMol/BoiteLongueur/Caption - variable : C_FormMolBoiteLongueur
+Longueurs de l'arbre
+//FormMol/Label3/Caption - variable : C_FormMolLabel3
+Longueur totale
+//FormMol/Label4/Caption - variable : C_FormMolLabel4
+Longueur partielle
+//FormMol/zoomplus/Hint - variable : H_FormMolzoomplus
+Augmenter la taille de l'arbre
+//FormMol/annuler/Hint - variable : H_FormMolannuler
+Annuler la dernière action
+//FormMol/zoommoins/Hint - variable : H_FormMolzoommoins
+Réduire la taille de l'arbre
+//FormMol/Enraciner/Hint - variable : H_FormMolEnraciner
+Enraciner
+//FormMol/pivoter/Hint - variable : H_FormMolpivoter
+Pivoter
+//FormMol/alerte_arbre/Caption - variable : C_FormMolalerte_arbre
+Pour tracer un arbre, sélectionner au moins deux taxons
+//FormMol/Button1/Caption - variable : C_FormMolButton1
+Tout désélectionner
+//FormMol/Button2/Caption - variable : C_FormMolButton2
+Tout sélectionner
+//FormMol/OpenDialog2/Filter - variable : Filt_FormMolOpenDialog2
+Molécules (*.adn; *.pro; *.mol)|*.mol;*.pro;*.adn
+//FormMol/EnregistrerSequenceSelectionnees/Caption - variable : C_FormMolEnregistrerSequenceSelectionnees
+Enregistrer les séquences sélectionnées
+//FormMol/Edition1/Caption - variable : C_FormMolEdition1
+Edition
+//FormMol/larbre1/Caption - variable : C_FormMollarbre1
+l'arbre
+//FormMol/lamatricedesdistances1/Caption - variable : C_FormMollamatricedesdistances1
+la matrice des distances
+//FormMol/commeimage1/Caption - variable : C_FormMolcommeimage1
+...comme image
+//FormMol/commetexte1/Caption - variable : C_FormMolcommetexte1
+...comme texte
+//FormMol/dansunfichierOpenOffice1/Caption - variable : C_FormMoldansunfichierOpenOffice1
+...envoyer vers Open Office
+//FormMol/SupprimerSequencesNonSelectionnees/Caption - variable : C_FormMolSupprimerSequencesNonSelectionnees
+Supprimer les séquences Non sélectionnées
+//FormMol/Ajouterunesquence1/Caption - variable : C_FormMolAjouterunesquence1
+Ajouter une séquence
+//FormMol/Selection1/Caption - variable : C_FormMolSelection1
+Selection
+//FormMol/Selectionner/Caption - variable : C_FormMolSelectionner
+Sélectionner
+//FormMol/Action1/Caption - variable : C_FormMolAction1
+Action
+//FormMol/Motscls1/Caption - variable : C_FormMolMotscls1
+Mots-clés
+//FormMol/MColorSeq/Caption - variable : C_FormMolMColorSeq
+Colorer les séquences
+//FormMol/NePasColorer/Caption - variable : C_FormMolNePasColorer
+ne pas colorer
+//FormMol/ParResidu/Caption - variable : C_FormMolParResidu
+colorer par résidu
+//FormMol/ColorerDifferences/Caption - variable : C_FormMolColorerDifferences
+colorer les différences
+//FormMol/MCouleur/Caption - variable : C_FormMolMCouleur
+Colorer les noms de séquences
+//FormMol/CodeCouleursSequences/Caption - variable : C_FormMolCodeCouleursSequences
+Code de couleurs des séquences
+//FormMol/AjouterMol/Caption - variable : C_FormMolAjouterMol
+Ajouter des molécules
+//FormMol/Aligner/Caption - variable : C_FormMolAligner
+Aligner
+//FormMol/AffMatrice/Caption - variable : C_FormMolAffMatrice
+Matrice des distances
+//FormMol/SaveDialog1/Title - variable : Tit_FormMolSaveDialog1
+Sauvegarde de séquences alignées
+//FormMol/SaveDialog2/Filter - variable : Filt_FormMolSaveDialog2
+Fichier ADN|*.adn|Fichier protéine |*.pro
+//M_Squencesalignessta
+Séquences alignées standard (.aln)|*.aln|Séquence alignée annotées de Phylogène|*.alp
+//M_Squencesalignessta_1
+Séquences alignées standard (.aln)|*.aln
+//FormRecherche//Caption - variable : C_FormRecherche
+Recherche de taxons
+//FormRecherche/Couleur/Caption - variable : C_FormRechercheCouleur
+Changer
+//FormRecherche/AjouterSel/Caption - variable : C_FormRechercheAjouterSel
+Ajouter à la sélection
+//FormRecherche/Label5/Caption - variable : C_FormRechercheLabel5
+le caractère
+//FormRecherche/Label6/Caption - variable : C_FormRechercheLabel6
+à l'état
+//FormRecherche/est4/Caption - variable : C_FormRechercheest4
+est
+//FormRecherche/RadioButton8/Caption - variable : C_FormRechercheRadioButton8
+n'est pas
+//FormRecherche/Et3/Caption - variable : C_FormRechercheEt3
+et
+//FormRecherche/RadioButton10/Caption - variable : C_FormRechercheRadioButton10
+ou
+//FormRecherche/Voir4/Caption - variable : C_FormRechercheVoir4
+Voir
+//FormRecherche/Panelhaut/Caption - variable : C_FormRecherchePanelhaut
+Rechercher les taxons dont 
+//FormRecherche/Label9/Caption - variable : C_FormRechercheLabel9
+Choisir un des groupes prédéfinis
+//FormRecherche/Label10/Caption - variable : C_FormRechercheLabel10
+Caractéristiques du groupe
+//FormRecherche/Ajouter/Caption - variable : C_FormRechercheAjouter
+Ajouter un critère
+//FormRecherche/Supprimer/Caption - variable : C_FormRechercheSupprimer
+Supprimer un critère
+//FormRecherche/ToutCocher/Hint - variable : H_FormRechercheToutCocher
+Cocher tous les taxons de la liste
+//FormRecherche/Decocher/Hint - variable : H_FormRechercheDecocher
+Déocher tous les taxons de la liste
+//FormOrganiserObs//Caption - variable : C_FormOrganiserObs
+Organiser des données
+//FormOrganiserObs/Fermer1/Caption - variable : C_FormOrganiserObsFermer1
+&Fermer
+//FormOrganiserObs/Copier1/Caption - variable : C_FormOrganiserObsCopier1
+&Copier
+//FormOrganiserObs/CopierTableau/Caption - variable : C_FormOrganiserObsCopierTableau
+le &tableau
+//FormOrganiserObs/EnvoyerversOpenOffice1/Caption - variable : C_FormOrganiserObsEnvoyerversOpenOffice1
+...Envoyer vers OpenOffice
+//FormOrganiserObs/Imprimer1/Caption - variable : C_FormOrganiserObsImprimer1
+&Imprimer
+//FormOrganiserObs/MConseil/Caption - variable : C_FormOrganiserObsMConseil
+Conseil
+//FormOrganiserObs/Illustrer/Caption - variable : C_FormOrganiserObsIllustrer
+Données
+//FormOrganiserObs/Nouveau1/Caption - variable : C_FormOrganiserObsNouveau1
+Nouveau
+//FormOrganiserObs/Supprimer/Caption - variable : C_FormOrganiserObsSupprimer
+Supprimer
+//FormOrganiserObs/Ajouteruneespce1/Caption - variable : C_FormOrganiserObsAjouteruneespce1
+Ajouter une espèce
+//M_Dfinirlescaractres
+Définir les caractères en vous aidant des données et remplir le tableau
+//M_Ajoutd
+Ajout d'une espèce
+//M_Correctiondunomdel
+Correction du nom de l'espèce
+//M_Ilyadjuneespcedemm
+Il y a déjà une espèce de même nom
+//FormParente/CopieBBoite/Hint - variable : H_FormParenteCopieBBoite
+Tracer les boîtes
+//FormParente/Bdepla/Hint - variable : H_FormParenteBdepla
+Déplacer lignes et colonnes
+//FormParente/BDocs/Hint - variable : H_FormParenteBDocs
+Afficher les documents
+//FormParente/BRej/Hint - variable : H_FormParenteBRej
+Rejouer
+//FormParente/BVerifier/Hint - variable : H_FormParenteBVerifier1
+Vérifier l'ordre choisi
+//FormParente/BVerifier/Hint - variable : H_FormParenteBVerifier2
+pour construire les 
+//FormParente/TextDepla/Caption - variable : C_FormParenteTextDepla
+le tableau
+//FormParente/TextBoites/Caption - variable : C_FormParenteTextBoites
+les boîtes
+//FormParente/TextDocs/Caption - variable : C_FormParenteTextDocs1
+Afficher les
+//FormParente/TextRej/Caption - variable : C_FormParenteTextRej
+Revoir
+//FormParente/TextRaz/Caption - variable : C_FormParenteTextRaz1
+Remettre
+//FormParente/TextRaz/Caption - variable : C_FormParenteTextRaz
+à zéro
+//FormParente/ActiverSelectionCaract/Caption - variable : C_FormParenteActiverSelectionCaract
+Activer la sélection des caractères
+//FormParente/AfficherTaxons/Caption - variable : C_FormParenteAfficherTaxons
+Afficher les noms des espèces
+//FormParente/ArbreModifiable/Caption - variable : C_FormParenteArbreModifiable
+Arbre modifiable
+//M_Ordrelogiqueparrap
+Ordre logique par rapport au précédent
+//M_Ordrepeulogiquepar
+Ordre peu logique par rapport au précédent
+//M_Crationd
+Création d'une nouvelle boîte impossible : le caractère est absent chez toutes les espèces
+//M_Crationdunenouvell
+Création d'une nouvelle boîte impossible car tous les taxons présentent l'état primitif du caractère
+//M_Crationdunenouvell_1
+Création d'une nouvelle boîte impossible : les espèces qu'elle contiendrait appartiennent déjà à des boîtes différentes
+//M_Crationdunenouvell_2
+Création d'une nouvelle boîte impossible car les taxons qu'elle contiendrait appartiennent déjà à des boîtes différentes
+//M_prsent
+présent
+//M_ActiverlafonctionA
+Activer la fonction Arbre
+//M_Nommerlegroupecorr
+Nommer le groupe correspondant à la boîte ?
+//M_Nomdugroupe
+Nom du groupe ?
+//M_Ilnyapasfos
+Il n'y a pas de fossile dans le tableau,
+//M_ladatationdemandeu
+la datation demande une documentation externe.
+//M_Poursuivre
+Poursuivre ?
+//FormParenteLyc//Caption - variable : C_FormParenteLyc
+établir des parentés au lycée
+//FormParenteLyc/BArbres/Caption - variable : C_FormParenteLycBArbres
+Arbres
+//FormParenteLyc/LabNom/Caption - variable : C_FormParenteLycLabNom
+ Arbre 1 
+//FormParenteLyc/Label5/Caption - variable : C_FormParenteLycLabel51
+noeud correspondant à un caractère 
+//FormParenteLyc/Label5/Caption - variable : C_FormParenteLycLabel5
+dérivé exclusif partagé
+//FormParenteLyc/Label6/Caption - variable : C_FormParenteLycLabel6
+autre noeud
+//FormParenteLyc/RadioMode/Caption - variable : C_FormParenteLycRadioMode
+ Mode 
+//FormParenteLyc/TextBoites/Caption - variable : C_FormParenteLycTextBoites1
+Choisir
+//FormParenteLyc/TextBoites/Caption - variable : C_FormParenteLycTextBoites
+les taxons
+//FormParenteLyc/CopierArbre/Caption - variable : C_FormParenteLycCopierArbre
+Copier l'état actuel
+//FormParenteLyc/NommerArbreFenetre/Caption - variable : C_FormParenteLycNommerArbreFenetre
+Renommer l'arbre principal
+//FormParenteLyc/AfficherNom/Caption - variable : C_FormParenteLycAfficherNom
+Afficher le nom de l'arbre principal
+//FormParenteLyc/ChoisirArbreFentrEdition/Caption - variable : C_FormParenteLycChoisirArbreFentrEdition
+Choisir l'arbre de la fenêtre d'édition
+//FormParenteLyc/MTabDist/Caption - variable : C_FormParenteLycMTabDist
+Afficher le tableau des distances (méthode phénétique)
+//FormParenteLyc/CodageRef/Caption - variable : C_FormParenteLycCodageRef
+Codage de référence
+//FormParenteLyc/CodagePerso/Caption - variable : C_FormParenteLycCodagePerso
+Codage personnel
+//FormParenteLyc/ActivDepTab/Caption - variable : C_FormParenteLycActivDepTab
+Activer le déplacement des colonnes et des lignes du tableau
+//FormParenteLyc/ActivChoixTax/Caption - variable : C_FormParenteLycActivChoixTax
+Activer le choix des taxons
+//FormParenteLyc/SauveArbre/Filter - variable : Filt_FormParenteLycSauveArbre
+fichier d'arbre|*.nar
+//FormParenteLyc/SauveArbre/Title - variable : Tit_FormParenteLycSauveArbre
+Sauvegarde d'un fichier d'arbre(s)
+//FormParenteLyc/OuvreArbre/Filter - variable : Filt_FormParenteLycOuvreArbre
+fichier d'arbre|*.nar|fichier de boîtes|*.nbo
+//FormParenteLyc/OuvreArbre/Title - variable : Tit_FormParenteLycOuvreArbre
+Chargement d'un fichier d'arbre(s)
+//FormParenteLyc/MToutSupprimer/Caption - variable : C_FormParenteLycMToutSupprimer
+ToutSupprimer
+//FormParenteLyc/RAZComplet/Caption - variable : C_FormParenteLycRAZComplet
+Effacer complètement l'arbre
+//FormParenteLyc/EffacerNomGroupe/Caption - variable : C_FormParenteLycEffacerNomGroupe
+Effacer les noms de groupe
+//FormParenteLyc/LTitre/Caption - variable : C_FormParenteLycLTitre
+Établissement
+//FormParenteLyc/LTitre/Caption1 - variable : C_FormParenteLycLTitre1
+des liens de parenté
+//FormParenteLyc/LTitre/Caption2 - variable : C_FormParenteLycLTitre2
+par la construction
+//FormParenteLyc/LTitre/Caption3 - variable : C_FormParenteLycLTitre3
+d'un arbre cladistique
+//FormParenteLyc/RadioMode/Item1 - variable : I1_FormParenteLycRadioMode
+Édition
+//FormParenteLyc/RadioMode/Item2 - variable : I2_FormParenteLycRadioMode
+Exploration
+//FormParenteLyc/Label2/Caption1 - variable : C1_FormParenteLycLabel2
+- Faire apparaître les taxons un par un
+//FormParenteLyc/Label2/Caption2 - variable : C2_FormParenteLycLabel2
+  en cliquant sur  leur nom dans le tableau
+//FormParenteLyc/Label2/Caption3 - variable : C3_FormParenteLycLabel2
+- Les placer sur l'arbre un par un avec
+//FormParenteLyc/Label2/Caption4 - variable : C4_FormParenteLycLabel2
+  la souris en les branchant sur ou avec les
+//FormParenteLyc/Label2/Caption5 - variable : C5_FormParenteLycLabel2
+  taxons dont ils partagent un caractère
+//FormParenteLyc/Label2/Caption6 - variable : C6_FormParenteLycLabel2
+  dérivé exclusif.
+//M_Fixerletaxonsurlar
+Fixer le taxon sur l'arbre avec la souris, en tenant compte des caractères dérivés partagés avec les autres, puis sélectionner un autre taxon...
+//M_ANCETRERACINE
+ANCETRE RACINE
+//M_tatprimitif
+(état primitif)
+//M_tatdriv
+(état dérivé
+//M_Sauvegarderlesarbr
+Sauvegarder les arbres de comparaison ?
+//M_Unoudautresarbress
+Un ou d'autres arbres sont disponibles avec le bouton "Arbres"
+//M_Cetteoprationferap
+Cette opération fera perdre toute la structure construite, poursuivre ?
+//M_Arbre_1
+Arbre 
+//M_Remplacerlepremier
+Remplacer le premier arbre affiché
+//M_Supprimerlafentre
+Supprimer la fenêtre 
+//M_Supprimertoutesles
+Supprimer toutes les fenêtres de comparaison d'arbres ?
+//M_Oui
+Oui
+//M_Non_1
+Non
+//M_tesvoussrdevouloir
+êtes-vous sûr de vouloir effacer l'arbre ?
+//M_Iln_1
+Il n'y a pas de fossile dans le tableau,
+//M_tesvoussrdevouloir_1
+êtes-vous sûr de vouloir effacer tous les noms ?
+//FormPlanche/Tous/Caption - variable : C_FormPlancheTous
+Tous
+//FormPlanche/PanelAvert/Caption - variable : C_FormPlanchePanelAvert
+Cliquer sur une espèce pour commencer à Observer ou choisir une autre activité
+//M_fossile
+fossile
+//M_extragroupe
+extragroupe
+//FormTri//Caption - variable : C_FormTri
+Tri (Grouper)
+//FormTri/ModeCol/Caption - variable : C_FormTriModeCol
+Colonnes
+//FormTri/Bgroupes/Hint - variable : H_FormTriBgroupes
+Regrouper suivant les caractères
+//M_Utiliserlegroupeme
+Utiliser le groupement pour construire l'arbre ?
+//M_ligne
+ligne 
+//M_colonne
+  colonne 
+//M_Anctre
+Ancêtre
+//M_AnctreRacine
+Ancêtre Racine
+//M_Anctre_4
+Ancêtre 
+//M_Groupenonnomm
+Groupe non nommé
+//M_racine
+ racine
+//M_des
+ des 
+//M_Anctredes
+Ancêtre des 
+//M_Erreur
+Erreur
+//M_TempsMa
+Temps(Ma)
+//M_Tempsannes
+Temps(années)
+//M_Temps_4
+Temps 
+//M_Ma
+(Ma)
+//M_annes
+(années)
+//M_surlediagrammede
+ - sur le diagramme : de 
+//M_surlarbrede
+ - sur l'arbre : de 
+//M_l
+l'
+//M_dansletableaude
+ - dans le tableau : de 
+//M_datesurlediagramme
+ - date : - sur le diagramme : 
+//M_datesurlarbre
+ - date : - sur l'arbre : 
+//M_dansletableau_2
+ - dans le tableau : 
+//M_dateestimesurledia
+ - date estimée (sur le diagramme) : 
+//M_dateestimesurlarbr
+ - date estimée (sur l'arbre) : 
+//M_Erreur_2
+Erreur 1
+//M_Crise
+Crise
+//M_PcEspece
+ % d''espèces ont disparu
+//M_PcGenre
+ % de genres,
+//M_PcFamille
+ % de familles, 
+//M_De
+ : de 
+//M_NoeudAncetre
+Noeud de l''ancêtre des 
+//M_Noeud
+Noeud : 
+//M_Branchede
+Branche de 
+//M_Branchedelanctrede
+Branche de l'ancêtre des 
+//M_Lediagrammeestcomp
+Le diagramme est compatible avec les données
+//M_Larbreestcompatibl
+L'arbre est compatible avec les données
+//M_Surlediagrammelged
+Sur le diagramme, l'âge de disparition de 
+//M_necorrespondpascel
+ ne correspond pas à celui du tableau
+//M_Surlarbrelgededisp
+Sur l'arbre, l'âge de disparition de 
+//M_SurleDiagrammelged
+Sur le Diagramme, l'âge d'apparition de 
+//M_Surlarbrelgedappar
+Sur l'arbre, l'âge d'apparition de 
+//M_Surlediagrammelged_2
+Sur le diagramme, l'âge de 
+//M_Surlarbrelgede_2
+Sur l'arbre, l'âge de 
+//M_nepeuttreplusjeune
+ ne peut être plus jeune que son descendant 
+//M_contrairementlapos
+ contrairement à la position choisie sur le diagramme
+//M_contrairementlapos_2
+ contrairement à la position choisie sur l'arbre
+//M_ajuster
+à ajuster
+//M_actuel
+actuel
+//M_Ma_2
+ Ma
+//M_ans
+ ans
+//M_Erreur_4
+Erreur 2
+//M_onrepriodepoquetag
+éon,ère,période,époque,étage
+//M_crises
+crises
+//M_Anctredugroupede
+Ancêtre du groupe de 
+//M_Taxon
+Taxon
+//M_AAccent
+ à 
+//M_Base
+Base : 
+//M_Aamin
+A. aminé : 
+//M_Attentionsivouscop
+Attention, si vous copiez l'exercice
+//M_noubliezpasdecopie
+n'oubliez pas de copier le fichier et le dossier associé
+//M_tats
+états
+//M_Groupehtrogne
+Groupe hétérogène
+//M_gefossile
+âge fossile
+//M_Molculesnonalignes
+Molécules non alignées
+//M_Lespcenappartientp
+L'espèce n'appartient pas à cette boîte
+//M_Lespceappartientau
+L'espèce appartient aussi à une plus petite boîte
+//M_Ilyaunproblmeavecl
+Il y a un problème avec les caractères de cette espèce. Vérifier
+//M_Finirdeclasserlest
+Finir de classer les étiquettes des espèces
+//M_avantdedplacerlesb
+avant de déplacer les boîtes
+//M_Ilyaaumoinsunebote
+Il y a au moins une boîte vide, elle ne peut être classée
+//M_Labotedplacenestpa
+La boîte déplacée n'est pas contenue dans la boite d'accueil
+//M_Labotedaccueilneco
+La boîte d'accueil ne contient pas toutes les espèces de la boîte déplacée
+//M_Lefichier
+Le fichier 
+//M_Letableaunepourrat
+Le tableau ne pourra être corrigé
+//M_Ma_4
+ Ma)
+//M_Les_4
+Les 
+//M_sontdfinispar
+ sont définis par :
+//M_critrenonapplicabl
+    (critère non applicable certains fossiles)
+//M_fossilesdelacollec
+fossiles de la collection :
+//M_connudepuis
+ connu depuis -
+//M_Erreurdelectureduf
+Erreur de lecture du fichier 
+//M_Erreurdcrituredufi
+Erreur d'écriture du fichier
+//M_TaxonMaj
+TAXON 
+//M_Erreurlacrationduf
+Erreur à la création du fichier
+//M_Silefichierexisted
+(Si le fichier existe déjà,
+//M_ilestpeuttreenlect
+ il est peut-être en "lecture seule")
+//ConstructionCollection//Caption - variable : C_ConstructionCollection
+Contruction de la nouvelle collection : 
+//ConstructionCollection/DocsTaxons/Caption - variable : C_ConstructionCollectionDocsTaxons
+Documents d'illustration des taxons (.phg)
+//ConstructionCollection/EtatsTaxons/Caption - variable : C_ConstructionCollectionEtatsTaxons
+Etats des caractères des taxons (.tab)
+//ConstructionCollection/Label5/Caption - variable : C_ConstructionCollectionLabel51
+Icône 
+//ConstructionCollection/Label5/Caption - variable : C_ConstructionCollectionLabel5
+du taxon
+//ConstructionCollection/Label3/Caption - variable : C_ConstructionCollectionLabel32
+de la 
+//ConstructionCollection/Label3/Caption - variable : C_ConstructionCollectionLabel3
+collection
+//ConstructionCollection/Label9/Caption - variable : C_ConstructionCollectionLabel91
+premier
+//ConstructionCollection/Label9/Caption - variable : C_ConstructionCollectionLabel9
+onglet
+//ConstructionCollection/Label10/Caption - variable : C_ConstructionCollectionLabel101
+2e
+//ConstructionCollection/Label12/Caption - variable : C_ConstructionCollectionLabel12
+à gauche
+//ConstructionCollection/Label11/Caption - variable : C_ConstructionCollectionLabel11
+sélection
+//ConstructionCollection/Label8/Caption - variable : C_ConstructionCollectionLabel8
+Donnée
+//ConstructionCollection/Label13/Caption - variable : C_ConstructionCollectionLabel13
+préfixe :
+//ConstructionCollection/Label17/Caption - variable : C_ConstructionCollectionLabel17
+nom du fichier
+//ConstructionCollection/Label15/Caption - variable : C_ConstructionCollectionLabel15
+nom condensé
+//ConstructionCollection/Button1/Caption - variable : C_ConstructionCollectionButton1
+RAZ Erreurs
+//ConstructionCollection/TabImCollection/Caption - variable : C_ConstructionCollectionTabImCollection
+Collection
+//ConstructionCollection/TabImCarTexte/Caption - variable : C_ConstructionCollectionTabImCarTexte
+Donnée texte
+//ConstructionCollection/TabImCarImage/Caption - variable : C_ConstructionCollectionTabImCarImage
+Donnée image
+//ConstructionCollection/TabImCarImageBig/Caption - variable : C_ConstructionCollectionTabImCarImageBig
+Grande image
+//ConstructionCollection/TabErreurs/Hint - variable : H_ConstructionCollectionTabErreurs
+Erreurs de construction
+//ConstructionCollection/TabErreurs/Caption - variable : C_ConstructionCollectionTabErreurs
+Erreurs
+//ConstructionCollection/Label6/Caption - variable : C_ConstructionCollectionLabel6
+Nom complet de la collection
+//ConstructionCollection/CommencerPar/Caption - variable : C_ConstructionCollectionCommencerPar
+ Commencer par l'activité 
+//ConstructionCollection/GroupBox1/Caption - variable : C_ConstructionCollectionGroupBox1
+ Exclure les activités 
+//ConstructionCollection/InactivArbre/Caption - variable : C_ConstructionCollectionInactivArbre
+Inactiver Montrer l'arbre
+//ConstructionCollection/ExcluP/Caption - variable : C_ConstructionCollectionExcluP
+Coder
+//ConstructionCollection/ExcluT/Caption - variable : C_ConstructionCollectionExcluT
+Tableau Ref
+//ConstructionCollection/Label14/Caption - variable : C_ConstructionCollectionLabel14
+Nom du dossier de la collection
+//ConstructionCollection/ColComplete/Caption - variable : C_ConstructionCollectionColComplete
+Collection complète
+//ConstructionCollection/SousCollection/Caption - variable : C_ConstructionCollectionSousCollection
+Sous-collection
+//ConstructionCollection/RepertTaxons/Caption - variable : C_ConstructionCollectionRepertTaxons
+Créer des répertoires pour les taxons 
+//ConstructionCollection/UtilClasser6/Caption - variable : C_ConstructionCollectionUtilClasser6
+Utiliser l'activité Classer 6e
+//ConstructionCollection/RemplisAuto/Caption - variable : C_ConstructionCollectionRemplisAuto
+AutoPHG
+//ConstructionCollection/Button2/Caption - variable : C_ConstructionCollectionButton2
+Remplissage automatique du tableau PHG
+//ConstructionCollection/Button3/Caption - variable : C_ConstructionCollectionButton3
+Charger les noms de taxons et de  caractères
+//ConstructionCollection/Button4/Caption - variable : C_ConstructionCollectionButton4
+proposer des abréviations
+//ConstructionCollection/UnSeulTaxon/Caption - variable : C_ConstructionCollectionUnSeulTaxon
+uniquement pour le taxon sélectionné
+//ConstructionCollection/AjouterCarD/Caption - variable : C_ConstructionCollectionAjouterCarD
+Ajouter caractère
+//ConstructionCollection/SupprimerLigne/Caption - variable : C_ConstructionCollectionSupprimerLigne
+Supprimer ligne
+//ConstructionCollection/AjoutCol/Caption - variable : C_ConstructionCollectionAjoutCol
+Ajouter un état
+//ConstructionCollection/SupprimCol/Caption - variable : C_ConstructionCollectionSupprimCol
+Supprimer un état
+//ConstructionCollection/BOKCarD/Hint - variable : H_ConstructionCollectionBOKCarD
+Transfère les caractères dans le tableau .phg
+//ConstructionCollection/Label4/Caption - variable : C_ConstructionCollectionLabel4
+Liste des caractères détaillés (pour le remplissage du tableau)
+//ConstructionCollection/Label1/Caption - variable : C_ConstructionCollectionLabel101
+Liste des données
+//ConstructionCollection/Label1/Caption - variable : C_ConstructionCollectionLabel1
+(pour Observer et comparer)
+//ConstructionCollection/Label2/Caption - variable : C_ConstructionCollectionLabel21
+Liste des types de données :
+//ConstructionCollection/RetirerCar/Hint - variable : H_ConstructionCollectionRetirerCar
+Supprimer le caractère sélectionné
+//ConstructionCollection/RetirerCar/Caption - variable : C_ConstructionCollectionRetirerCar
+Retirer
+//ConstructionCollection/AjouterCar/Hint - variable : H_ConstructionCollectionAjouterCar
+Ajouter un caractère
+//ConstructionCollection/AjouterType/Hint - variable : H_ConstructionCollectionAjouterType
+Ajouter un type de caractère
+//ConstructionCollection/TabType1/Caption - variable : C_ConstructionCollectionTabType1
+Type 1
+//ConstructionCollection/TabType2/Caption - variable : C_ConstructionCollectionTabType2
+Type 2
+//ConstructionCollection/TabType3/Caption - variable : C_ConstructionCollectionTabType3
+Type 3
+//ConstructionCollection/TabType4/Caption - variable : C_ConstructionCollectionTabType4
+Type 4
+//ConstructionCollection/TabType5/Caption - variable : C_ConstructionCollectionTabType5
+Type 5
+//ConstructionCollection/ModifCar/Hint - variable : H_ConstructionCollectionModifCar
+Modifier le nom du caractère cliqué
+//ConstructionCollection/ModifCar/Caption - variable : C_ConstructionCollectionModifCar
+Modifier
+//ConstructionCollection/Charger1/Caption - variable : C_ConstructionCollectionCharger1
+Charger
+//ConstructionCollection/Nouvelle1/Caption - variable : C_ConstructionCollectionNouvelle1
+Nouvelle
+//ConstructionCollection/Ajouteruntaxon1/Caption - variable : C_ConstructionCollectionAjouteruntaxon1
+Ajouter un taxon
+//ConstructionCollection/alafindelaliste1/Caption - variable : C_ConstructionCollectionalafindelaliste1
+ à la fin de la liste
+//ConstructionCollection/auniveauslectionn1/Caption - variable : C_ConstructionCollectionauniveauslectionn1
+au niveau sélectionné
+//ConstructionCollection/Retirerlestaxonsslectionns1/Caption - variable : C_ConstructionCollectionRetirerlestaxonsslectionns1
+Retirer le taxon sélectionné
+//ConstructionCollection/vrifierphg1/Caption - variable : C_ConstructionCollectionvrifierphg1
+vérifier phg
+//ConstructionCollection/corrigerphg1/Caption - variable : C_ConstructionCollectioncorrigerphg1
+corriger phg
+//ConstructionCollection/vrifiertableauderfrence1/Caption - variable : C_ConstructionCollectionvrifiertableauderfrence1
+vérifier le tableau de référence
+//ConstructionCollection/Corrigerletableauderfrence1/Caption - variable : C_ConstructionCollectionCorrigerletableauderfrence1
+Corriger le tableau de référence
+//ConstructionCollection/EditerCar/Caption - variable : C_ConstructionCollectionEditerCar
+Editer
+//M_Choixconcernantles
+Choix concernant les arbres pour en faire un exercice
+//M_Choixdesdocumentsa
+Choix des documents à associer au fichier
+//M_Effacerlaliste
+Effacer la liste ?
+//M_Sauvegarder_1
+Sauvegarder
+//M_ditable
+Éditable
+//M_caractre
+caractère
+//M_carillust
+car illust
+//M_type
+type
+//M_Abrv
+Abrév.
+//M_prfixes
+préfixes
+//M_tat_3
+état 1 (0)
+//M_Imtat
+Im_état 1
+//M_tat_5
+état 2 (1)
+//M_Imetat
+Im_etat 2
+//M_Groupe_4
+Groupe 2
+//M_AgePremkA
+AgePrem (kA)
+//M_AgeDernkA
+AgeDern (kA)
+//M_FImTaxon
+F_Im_Taxon
+//M_Enregistrerlesdonn
+Enregistrer les données avant de quitter
+//M_sinonlesdonnessero
+sinon les données seront perdues
+//M_Pasplusdetypes
+Pas plus de 5 types
+//M_Valideraveclebouto
+Valider avec le bouton OK lorsque toutes les modifications sont faites
+//M_Lescaractrescorres
+Les caractères correspondants seront supprimés
+//M_Type1
+Type 
+//M_Remplirtoutelacolo_1
+Remplir toute la colonne avec le même état ?
+//M_Remplirtoutelacolo_3
+Remplir toute la colonne avec 
+//M_Remplacer_1
+Remplacer 
+//M_par_1
+ par 
+//M_danstoutelacolonne
+ dans toute la colonne ?
+//M_Tailledelicnedecol
+Taille de l'icône de collection : 90x70
+//M_Chargementdelicned
+Chargement de l'icône de la collection
+//M_imagebmp
+image bmp|*
+//M_Enregistrerlicneda
+Enregistrer l'icône dans le bon répertoire ?
+//M_Latailledevraittre
+La taille devrait être 
+//M_Ouvrirlimagedansun
+Ouvrir l'image dans un éditeur d'images ?
+//M_Tailledelimagedudo
+Taille de l'image du document : 
+//M_Chargementdelicned_2
+Chargement de l'icône du taxon 
+//M_Enregistrerlimage
+Enregistrer l'image
+//M_danslebonrpertoire
+ dans le bon répertoire ?
+//M_craserlefichierprc
+écraser le fichier précédent ?
+//M_Tailledelimagedudo_2
+Taille de l'image du document : 320x200
+//M_Chargementdelimage
+Chargement de l'image du taxon 
+//M_Chargementdelimage_2
+Chargement de l'image du document 
+//M_pourletaxon
+ pour le taxon 
+//M_imagejpeg
+image jpeg|*
+//M_Tailledelimagedeco
+Taille de l'image de collection : 450x290
+//M_Chargementdelimage_4
+Chargement de l'image de la collection
+//M_Enregistrerlimaged
+Enregistrer l'image dans le bon répertoire ?
+//M_aulieude
+ au lieu de 
+//M_Taxoninconnu
+Taxon inconnu
+//M_CaractreDinconnu
+CaractèreD inconnu
+//M_Cecaractrenapasttr
+Ce caractère n'a pas été trouvé...
+//M_colonne_1
+colonne 
+//M_tatinconnu
+ état inconnu
+//M_Deserreursdansleta
+Des erreurs dans le tableau
+//M_Pasderreurdansleta
+Pas d'erreur dans le tableau
+//M_Vrificationdelastr
+Vérification de la structure Phg
+//M_Ilyatropdetaxonsda
+Il y a trop de taxons dans le Phg
+//M_Touslestaxonsneson
+Tous les taxons ne sont pas dans le Phg
+//M_Ilyatropdecolonnes
+Il y a trop de colonnes de données dans le Phg
+//M_touteslesdonnesnes
+toutes les données ne sont pas dans le Phg
+//M_LeTaxon
+Le Taxon 
+//M_nestpasdfini
+ n'est pas défini
+//M_image_4
+ image: 
+//M_Modifier
+Modifier ?
+//M_ABSENT
+ABSENT
+//M_Donne
+ Donnée 
+//M_absente
+ absente
+//M_Donnee
+ Donnee: 
+//M_document
+ document 
+//M_trophaute
+ trop haute
+//M_troplarge
+ trop large
+//M_petitehauteur
+ petite hauteur
+//M_petitelargeur
+ petite largeur
+//M_detaillestandard
+ de taille standard
+//M_depetitetaille
+ de petite taille
+//M_tropgrande
+ trop grande
+//M_imagedecollection
+image de collection
+//M_icnedecollection
+icône de collection
+//M_LecaractreD
+Le caractèreD 
+//M_napasdtats
+ n'a pas d'états
+//M_naque
+ n'a que 
+//M_tat_9
+ état
+//M_napasdecaractrepar
+ n'a pas de caractère parent
+//M_Remarque
+Remarque :
+//M_FIm_2
+F_Im_
+//M_etat
+etat 
+//M_Groupe_6
+Groupe 
+//M_Lesdonnesdecettepa
+Les données de cette page seront perdues
+//M_Recherchedelacolle
+Recherche de la collection à modifier
+//M_imagedelacollectio
+image de la collection|*.jpg|configuration|*.cph|icône de la collection|*.bmp|ancienne sous-collection|*.phg
+//M_NouvCollections
+\NouvCollections
+//M_Pouruneplusgrandec
+Pour une plus grande compatibilité,
+//M_lesnomsdedossierne
+les noms de dossier ne doivent pas comporter de lettre accentuée...
+//M_Renommerlesdossier
+Renommer les dossiers et les fichiers
+//M_Editiondelacollect
+Edition de la collection : 
+//M_Choixdufichierphg
+Choix du fichier phg
+//M_Deserreurs_2
+Des erreurs
+//M_Pasderreurdtecte
+Pas d'erreur détectée
+//M_Ilfautattribuerunn
+Il faut attribuer un nom à la collection
+//M_Nomtxt
+Nom.txt
+//M_Gnrales
+Générales
+//M_tat_11
+état 
+//M_Imetat_2
+Im_etat 
+//M_Types
+Types
+//M_Complterletableaud
+Compléter le tableau des taxons (2) puis les caractères détaillés (3)
+//M_Remplirletableaude
+Remplir le tableau de référence
+//M_Tableaubienconstru
+Tableau bien construit mais ajuster les états des nouveaux caractères
+//M_IcneduTaxon
+Icône du Taxon 
+//M_licnedutaxon
+l'icône du taxon 
+//M_manque
+ manque
+//M_ImageduCaractre
+Image du Caractère 
+//M_ImageBduCaractre
+ImageB du Caractère 
+//M_structurephgOK
+structure .phg OK
+//M_Tailledelimagedudo_4
+Taille de l'image du document : 320x400
+//M_craserlefichierprc_2
+écraser le fichier précédent ?
+//M_Sauvegardedesfichi
+Sauvegarde des fichiers de structure d'une collection
+//M_Ilmanquelefichierd
+Il manque le fichier d'image de la collection
+//M_Ilmanquelefichierd_2
+Il manque le fichier d'icone de la collection
+//M_Enregistrerseuleme
+Enregistrer seulement le fichier .cph ?
+//M_optionobligatoirep
+option obligatoire pour une sous-collection
+//M_Ecraserlancienneve
+Ecraser l'ancienne version de 
+//M_fichier
+fichier 
+//M_nonenregistr
+ non enregistré
+//M_Deserreursonttdtec
+Des erreurs ont été détectées
+//M_Aucuneerreurnatdte
+Aucune erreur n'a été détectée
+//M_Enregistrerlefichi
+Enregistrer le fichier Cph malgré les erreurs ?
+//M_TaxonabsentdeNvTax
+ : Taxon absent de NvTaxons
+//M_Mettretouslestypes
+Mettre tous les types à 1
+//M_Choisirlefichierim
+Choisir le fichier image de la collection
+//M_Choisirlefichiercp
+Choisir le fichier cph de la collection
+//M_Choisirlefichieric
+Choisir le fichier icône de la collection
+//M_Choisirlefichierph
+Choisir le fichier phg la collection
+//M_IlfautdonnerunNom
+Il faut donner un Nom
+//M_Nomdelasouscollect
+Nom de la sous-collection
+//M_Nomdufichiercph
+Nom du fichier cph
+//M_Unepartiedutableau
+Une partie du tableau Phg sera modifié
+//M_ledocumentducaract
+le document du caractère 
+//M_dutaxon
+ du taxon 
+//M_doitiltrelimagedut
+doit-il être l'image du taxon ?
+//M_necomportequuneext
+ ne comporte qu'une extension
+//M_Nouveaucaractre_2
+Nouveau caractère 
+//M_Etatsmultiplesnono
+Etats multiples non ordonnés : scinder le caractère
+//M_crirelesnomsdesnou
+écrire les noms des nouveaux caractères
+//M_etdonnerlacorrespo
+et donner la correspondance avec les anciens états
+//M_Casderversionnomme
+Cas de réversion : nommer l'état de réversion
+//M_etcocherlestaxonsp
+et cocher les taxons possédant cet état
+//M_Simpleanalogiescin
+Simple analogie : scinder le caractère
+//M_etcocherlestaxonso
+et cocher les taxons où 
+//M_estltatdriv
+est à l'état dérivé : 
+//M_ilmanquelenomdunno
+il manque le nom d'un nouveau caractère
+//M_Unnomchoisipourunn
+Un nom choisi pour un nouveau caractère est déjà utilisé
+//M_autretatdriv
+autre état dérivé
+//M_tatdrivcommunexclu
+état dérivé commun exclusif du groupe
+//M_tatprimitif_1
+état primitif
+//M_Attentionlenoeud
+Attention : le noeud
+//M_nestpasjustifipar
+n'est pas justifié par
+//M_untatdrivcommunexc
+un état dérivé commun exclusif
+//M_Groupeincertain
+Groupe incertain
+//M_Lenoeud
+Le noeud
+//M_nestjustifipar
+n'est justifié par
+//M_aucuntatdrivcommun
+aucun état dérivé commun
+//M_Caractresdanslordr
+Caractères (dans l'ordre choisi)
+//M_Nombredetaxons
+Nombre de taxons
+//M_Suggestion
+Suggestion
+//M_Aficherlecode
+Aficher le code
+//M_Ilnyapasdegroupepr
+Il n'y a pas de groupe prédéfini dans cette collection
+//M_Groupes
+Groupes
+//Erreur de format de fichier
+Format du fichier de molécules non valide
+// Plusieurs types mol arrêt
+le fichier contient plusieurs types de molécules, arrêt du chargement
+//MERR_CreeFichier1
+Erreur à la création du fichier
+//MERR_CreeFichier2
+(Si le fichier existe déjà, il est peut-être en "lecture seule")
+//M_ChoixAlign
+Choix du programme pour aligner
+//M_ChoixFicAln
+Nom du fichier aligné
+//M_ChoixFicAln2
+Entrez le nom du fichier aligné (sans suffixe)
+//Bouton Afficher les légendes 
+Afficher les légendes
+//Bouton Masquer les légendes 
+Masquer les légendes
+//L_ADN
+ADN
+//L_ARN
+ARN
+//L_Pro
+Protéine
+//Ajout dans FormMol M_desinfos
+des informations sur les séquences
+//Dans FInfoSeqMol C_InfoSeqMol
+Informations concernant les séquences
+//L_TabInfoS0
+Séquence
+//L_TabInfoS1
+Nature
+//L_TabInfoS2
+Espèce
+//L_TabInfoS3
+Informations
+//L_TabInfoS4
+Circulaire
+//L_TabInfoS5
+Mitochondrial
+//L_TabInfoS6
+Code gi
+//L_TabInfoS7
+Autre Code
+//C_AccesArbre
+Autoriser l'accès à l'arbre
+//C_SauveVide
+Sauvegarder des boîtes vides
+//M_RemplirCaracTax
+Remplir complètement les caractères avant de classer l'espèce
+//M_CaracTaxIncomplets
+Compléter les états de caractères avant d'ajouter une espèce.
+//C_FExplicit
+Explication des caractères

@@ -1,0 +1,143 @@
+Créer un exercice simple
+____________________
+
+Description : texte à reconstituer à gauche, image ou vidéo à droite
+
+-> Exercice -> Créer : donner le nom et l'emplacemenrt de l'exercice
+-> Outils -> Insérer Image : sélectionne l'image à insérer
+Il est possible d'insérer un fichier son en plus de l'image :
+-> Outils -> Insérer Son (on peut indexer la partie du fichier son qui sera proposée à l'élève, cf. infra : indexation de la vidéo)
+OU
+-> Outils -> Insérer Vidéo : sélectionne la vidéo (dans ce cas sélectionnner *.avi comme type de fichier)
+Si l'on utilise une vidéo, il est possible :
+- d'indexer le passage à proposer aux élèves (flèche bas : début de la vidéo ; flèche haut : fin de la vidéo ; double flèche : vérifier la sélection ; double flèche barrée : supprimer  l'indexation)
+- de rendre la vidéo muette l'indexation (clic sur oeil  : vidéo muette / sur oreille : rétablir son)
+
+Entrer ou importer (-> Outils -> Importer texte) le texte à reconstituer.
+
+Entrer la consigne.
+
+Créer des aides :
+-> sélectionner à la souris (double clic pour un mot ou mouvement de la souris pour une partie de mot ou plusieurs mots) le passage donnant lieu à aide
+-> cliquer sur Aide et entrer le texte de l'aide
+-> cliquer en dehors de la fenêtre d'aide pour la refermer
+-> répéter l'opération autant de fois que nécessaire
+
+Créer des explications (informations auxquelles l'élève accédera après avoir demandé l'affichage de la solution) :
+-> sélection du passage (cf. aide)
+-> cliquer sur Explication et entrer le texte de l'explication
+-> cliquer en dehors de la fenêtre
+-> répéter l'opération autant de fois que nécessaire
+
+NB : Outils -> Voir Aide ou Outils -> Voir Explications, permet de voir l'ensemble des aides et des explications et de les modifier)
+
+Enregistrer l'exercice. Il est possible de tester immédiatement l'exercice :
+-> Exercice -> Exécuter
+On revient au mode auteur par :
+-> Exercice -> Quitter
+
+Créer Diaporama simple
+___________________
+
+Description : texte à reconstituer à gauche, 2 à 9 images défilant à droite + éventuellement un fichier son ; le texte et le fichier son ne changent pas en fonction des images affichées
+
+-> Exercice -> Créer
+-> Outils -> Créer Diaporama -> Diaporama simple
+
+Entrer le texte à reconstituer.
+Insérer éventuellement un fichier son.
+Insérer 1ère image et valider (bouton V).
+Insérer écran suivant : bouton photo + lettre puis Outils -> Insérer Image et valider (bouton V)
+Déplacement entre les écrans (flèches).
+Suppression d'un écran (= d'une image : lettre déchirée).
+Tout nouvel écran s'insère derrière l'écran affiché.
+Aide, Explications : cf. supra.
+
+Enregistrer / Exécuter.
+
+Créer Diaporama avec texte synchronisé
+________________________________
+Description : texte à reconstituer à gauche variant avec les images affichées à droite ; possibilité d'insérer un fichier son (mais qui sera le même pour tous les écrans)
+
+-> Exercice -> Créer
+-> Outils -> Créer Diaporama -> Diaporama texte synchronisé
+
+Insérer 1ère image 
+Entrer le texte à reconstituer correspondant à la première image.
+Aide, Explications : cf. supra. 
+Valider  l'écran (bouton V) : indispensable après toute modification (image, aide, explications, texte) avant passage à l'écran suivant.
+Insérer écran suivant : bouton photo + lettre puis Outils : renouveler opérations précédentes et valider.
+Déplacement entre les écrans (flèches).
+Suppression d'un écran (= d'une image : lettre déchirée).
+Tout nouvel écran s'insère derrière l'écran affiché.
+
+Enregistrer / Exécuter.
+
+Créer un diaporama avec son synchronisé
+_________________________________
+
+Description : texte unique à reconstituer à gauche (ne varie pas avec les images) ; son variant en fonction des images
+
+NB : pour tous les diaporamas suivants, deux zones de boutons sont disponibles sous la zone de saisie du texte :
+- boutons de gestion des écrans (valider, supprimer l'écran, passer à l'écran précédent ou uivant) en haut
+- boutons de gestion du son (indexation, vérification, suppression) en bas
+
+-> Exercice -> Créer
+-> Outils -> Créer Diaporama -> Diaporama son synchronisé
+
+Le logiciel demande immédiatement de sélectionner le fichier son unique (qui sera ensuite indexé écran par écran)
+Entrer le texte à reconstituer.
+Insérer 1ère image 
+Aide, Explications : cf. supra. 
+Indexer le  son correspondant à l'écran.
+Valider  l'écran (bouton V) : indispensable après toute modification (image, aide, explications, texte, indexation du son) avant passage à l'écran suivant.
+Insérer écran suivant : bouton photo + lettre puis Outils : renouveler opérations précédentes et valider.
+Déplacement entre les écrans (flèches).
+Suppression d'un écran (lettre déchirée).
+Tout nouvel écran s'insère derrière l'écran affiché.
+
+Créer un diaporama avec texte et son synchronisés
+_________________________________________
+
+Description : texte unique à reconstituer à gauche (ne varie pas avec les images) ; son variant en fonction des images
+
+-> Exercice -> Créer
+-> Outils -> Créer Diaporama -> Diaporama son synchronisé
+
+Le logiciel demande immédiatement de sélectionner le fichier son unique (qui sera ensuite indexé écran par écran)
+Entrer le texte à reconstituer.
+Insérer 1ère image 
+Aide, Explications : cf. supra. 
+Indexer le son correspondant à l'écran..
+Valider  l'écran (bouton V) : indispensable après toute modification (image, aide, explications, texte, indexation du son) avant passage à l'écran suivant.
+Insérer écran suivant : bouton photo + lettre puis Outils : renouveler opérations précédentes et valider.
+Déplacement entre les écrans (flèches).
+Suppression d'un écran (lettre déchirée).
+Tout nouvel écran s'insère derrière l'écran affiché.
+
+Créer Diaporama avec texte et son synchronisés
+______________________________________
+
+Description : texte à reconstituer à gauche variant avec les images ; son variant avec les images
+-> Exercice -> Créer
+-> Outils -> Créer Diaporama -> Diaporama texte et son synchorinés
+
+Le logiciel demande immédiatement de sélectionner le fichier son unique (qui sera ensuite indexé écran par écran)
+Entrer le texte à reconstituer du premier écran.
+Insérer 1ère image 
+Aide, Explications du premier écran : cf. supra.
+Indexer le son correspondant à lécran (cf. supra). 
+Valider  l'écran (bouton V) : indispensable après toute modification (image, aide, explications, texte, indexation du son) avant passage à l'écran suivant.
+Insérer écran suivant : bouton photo + lettre puis Outils : renouveler opérations précédentes et valider.
+Déplacement entre les écrans (flèches).
+Suppression d'un écran (lettre déchirée).
+Tout nouvel écran s'insère derrière l'écran affiché.
+
+
+
+NB :
+- les différentes opérations (insertion d'image, de son, de texte, d'aide d'explications) peuvent se faire dans n'importe quel ordre à l'intérieur d'un écran
+- dans le cas des diaporamas, le passage à un écran déjà existant provoque une demande de validation de l'écran actif si des modifications ont été apportées.
+
+
+

@@ -1,0 +1,54 @@
+vertebres_college
+Vertébrés 6ème
+<Exclusions:GADN><ModeCollege>
+Chat,,0,0,Chat,GenCha,HabCha,AlimCha,TempMam,SocCha,RepCha,TegMam,MembreCha,EmbMam,CraMam,SqeCha,SqeCha
+Crapaud,,0,0,Crapaud,GenCra,HabCra,AlimCra,TempPoi,SocCra,RepCra,TegGre,MembreCra,EmbGre,CraAmp,SqeAmp,SqeAmp
+Crocodile,,0,0,Crocodil,GenCro,HabCro,AlimCro,TempCro,SocCro,ReproCro,TegCro,MembreCro,EmbCro,CraCro,SqeCro,SqeCro
+Gorille,,0,0,Gori,GenGori,HabGori,AlimGori,TempMam,SocGori,RepGori,TegMam,MembreGori,EmbHom,CraGori,SqeGori,SqeGori
+Homme,,0,0,Homme,GenHom,HabHom,AlimHom,TempMam,SocHom,RepHom,TegMam,MembreHom,EmbHom,CraHom,SqeHom,SqeHom
+Lamproie,,0,0,Lamproie,GenLam,HabLam,AlimLam,TempPoi,SocLam,RepLam,TegAgn,MembreAgn,EmbAgn,CraAgn,SqeAgn,SqeAgn
+Lézard,,0,0,Lezard,GenLez,HabLez,AlimLez,TempLez,SocLez,RepLez,TegCro,MembreLez,EmbCro,CraLez,SqeLez,SqeLez
+Mésange,,0,0,Mesange,GenMes,HabMes,AlimMes,TempMes,SocMes,RepMes,TegMes,MembreMes,EmbOis,CraOis,SqeOis,SqeOis
+Pigeon,,0,0,Pigeon,GenPigeo,HabPigeo,AlimPigeo,TempMes,SocPigeo,RepPigeo,TegMes,MembreMes,EmbOis,CraOis,SqeOis,SqeOis
+Oreillard,X,0,0,Oreillard,GenOre,HabOre,AlimOre,Tempmam,SocOre,RepOre,TegMam,MembreOre,Embmam,sqeore,Sqeore,Sqeore
+Requin,,0,0,Requin,GenReq,HabReq,AlimReq,TempPoi,SocReq,RepReq,TegSel,MembreSel,EmbSel,CraSel,SqeReq,SqeReq
+Rorqual,X,0,0,Rorqual,GenRor,HabRor,AlimRor,Tempmam,SocRor,RepRor,Tegmam,MembreRor,Embmam,CraRor,SqeRor,couRor
+Sardine,,0,0,Sardine,GenSar,HabSar,AlimSar,TempPoi,SocSar,RepSar,TegSar,MembreSar,EmbTel,CraTel,SqeTel,SqeTel
+Anguille,X,0,0,Anguill,Genang,Habang,AlimAng,TempPoi,Socang,Repang,TegSar,MembreSar,EmbTel,Cratel,,
+Raie,X,0,0,raie,GenRai,HabRai,AlimRai,TempPoi,Socrai,Reprai,Tegsel,MembreSel,Embsel,Crasel,SqeSel,SqeSel
+Triton,X,0,0,triton,Gentri,Habtri,Alimtri,TempPoi,Soctri,Reptri,Teggre,MembreCra,EmbGre,Craamp,Sqetri,Sqetri
+Manchot,X,0,0,manchot,Genman,Habman,Alimman,Tempmes,Socman,Repman,TegMes,MembreMes,EmbOis,Craois,SqeOis,SqeOis
+<Caractères V2>
+Générales,Biologiques,Anatomiques
+3
+1,5,6
+Générales,"Milieu de vie","Régime alimentaire","Régulation de la température","Structure sociale",Reproduction,Tégument,"Membre antérieur","Annexes embryonnaires",Crâne,Squelette,Cou
+Mamelles,Reproduction,1,Absentes,,,Présentes,,Mammifères
+Mâchoires,Crâne,1,Absentes,SqeAgn,,Présentes,CraSel,"Vertébrés à mâchoires"
+"Squelette osseux",Squelette,1,Absent,,,Présent,,"Vertébrés à squelette ossifié"
+Doigts,"Membre antérieur",1,Absents,MembreSar,,Présents,MembreCra,Tétrapodes
+Poils,Tégument,1,Absents,TegCro,,Présents,TegMam,Mammifères
+Amnios,"Annexes embryonnaires",1,Absent,EmbTel,,Présent,EmbCro,Amniotes
+Bréchet,Squelette,1,Absent,SqeCha,,Présent,SqeOis,Oiseaux
+Plumes,Tégument,1,Absentes,TegCro,,Présentes,TegMes,Oiseaux
+"Crâne et vertèbres",Squelette,1,Absents,,,Présents,CraSel,Vertébrés
+Cou,Cou,1,Absent,SqeTel,,Présent,SqeLez,Tétrapodes
+<Tableau Ref>
+MamellesMâchoiresSquelette osseuxDoigtsPoilsAmniosBréchetPlumesCrâne et vertèbresCou
+ChatPrésentesPrésentesPrésentPrésentsPrésentsPrésentAbsentAbsentesPrésentsPrésent
+CrapaudAbsentesPrésentesPrésentPrésentsAbsentsAbsentAbsentAbsentesPrésentsPrésent
+CrocodileAbsentesPrésentesPrésentPrésentsAbsentsPrésentAbsentAbsentesPrésentsPrésent
+GorillePrésentesPrésentesPrésentPrésentsPrésentsPrésentAbsentAbsentesPrésentsPrésent
+HommePrésentesPrésentesPrésentPrésentsPrésentsPrésentAbsentAbsentesPrésentsPrésent
+LamproieAbsentesAbsentesAbsentAbsentsAbsentsAbsentAbsentAbsentesPrésentsAbsent
+LézardAbsentesPrésentesPrésentPrésentsAbsentsPrésentAbsentAbsentesPrésentsPrésent
+MésangeAbsentesPrésentesPrésentPrésentsAbsentsPrésentPrésentPrésentesPrésentsPrésent
+PigeonAbsentesPrésentesPrésentPrésentsAbsentsPrésentPrésentPrésentesPrésentsPrésent
+OreillardPrésentesPrésentesPrésentPrésentsPrésentsPrésentAbsentAbsentesPrésentsPrésent
+RequinAbsentesPrésentesAbsentAbsentsAbsentsAbsentAbsentAbsentesPrésentsAbsent
+RorqualPrésentesPrésentesPrésentPrésentsPrésentsPrésentAbsentAbsentesPrésentsPrésent
+SardineAbsentesPrésentesPrésentAbsentsAbsentsAbsentAbsentAbsentesPrésentsAbsent
+AnguilleAbsentesPrésentesPrésentAbsentsAbsentsAbsentAbsentAbsentesPrésentsAbsent
+RaieAbsentesPrésentesAbsentAbsentsAbsentsAbsentAbsentAbsentesPrésentsAbsent
+TritonAbsentesPrésentesPrésentPrésentsAbsentsAbsentAbsentAbsentesPrésentsPrésent
+ManchotAbsentesPrésentesPrésentPrésentsAbsentsPrésentPrésentPrésentesPrésentsPrésent

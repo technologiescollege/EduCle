@@ -1,0 +1,41 @@
+Questionnaire sur les bases de la langue  anglaise
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+
+Copyright © 2003-2004 Thomas et Mathieu DUBAËLE
+http://www.atlence.com/qr/quiz.php - contact@atlence.com
+
+
+Ce questionnaire a été créé avec Questions-Réponses 1.4f. Pour plus d'informations sur ce programme gratuit pour une utilisation personnelle ou dans un établissement scolaire, visitez le site http://www.atlence.com/qr
+
+
+Licence d'utilisation et de distribution
+----------------------------------------
+
+* Ce questionnaire est gratuit pour une utilisation personnelle ou dans un établissement scolaire. Pour une autre utilisation, vous devez contacter les auteurs avant de l'utiliser ou de le distribuer.
+
+* Il a entièrement été réalisé avec Questions-Réponses, un logiciel (gratuit pour une utilisation personnelle ou dans un établissement scolaire) pour créer rapidement des questionnaires et jeux interactifs. Pour plus d'informations : http://www.atlence.com/qr.
+
+* Il doit être distribué LIBREMENT et GRATUITEMENT.
+
+
+-> Pour toutes informations supplémentaires, contactez-nous à l'adresse contact@atlence.com.
+
+-> D'autres questionnaires sont également disponibles sur http://www.atlence.com/qr/quiz.php.
+
+
+Nouveautés
+----------
+
+Version 1.1c - 03/07/2004
+	- Mise à jour des modules de réparation et de mise à jour
+	- Mise à jour du programme d'installation
+
+Version 1.1 - 09/05/2004
+	- Mise à jour des adresses du site et courriel
+	- Ajout d'un thème comprenant plus de 30 phrases audio à retrouver
+	- Ajout d'un module de réparation et du module de mise à jour
+	- Amélioration du programme d'installation
+	- Mise à jour de l'aide en ligne
+
+Version 1.0 - 09/03/2003
+	- Première sortie officielle du programme !

@@ -1,0 +1,45 @@
+vertebres_college
+Vertébrés collège
+<Exclusions:GD><ModeCollege>
+Chat,,0,0,Chat,GenCha,HabCha,AlimCha,TempMam,SocCha,RepCha,TegMam,membreCha,EmbMam,CraMam,SqeCha,CouCha
+Crapaud,,0,0,Crapaud,GenCra,HabCra,AlimCra,TempPoi,SocCra,RepCra,TegGre,membreCra,EmbGre,CraAmp,SqeAmp,couAmp
+Crocodile,,0,0,Crocodil,GenCro,HabCro,AlimCro,TempCro,SocCro,ReproCro,TegCro,membreCro,EmbCro,CraCro,SqeCro,CouCro
+Gorille,,0,0,Gori,GenGori,HabGori,AlimGori,TempMam,SocGori,RepGori,TegMam,membreGori,EmbHom,CraGori,SqeGori,CouGori
+Homme,,0,0,Homme,GenHom,HabHom,AlimHom,TempMam,SocHom,RepHom,TegMam,membreHom,EmbHom,CraHom,SqeHom,CouHom
+Lamproie,,0,0,Lamproie,GenLam,HabLam,AlimLam,TempPoi,SocLam,RepLam,TegAgn,membreAgn,EmbAgn,CraAgn,SqeAgn,CouLam
+Lézard,,0,0,Lezard,GenLez,HabLez,AlimLez,TempLez,SocLez,RepLez,TegCro,membreLez,EmbCro,CraLez,SqeLez,CouLez
+Mésange,,0,0,Mesange,GenMes,HabMes,AlimMes,TempMes,SocMes,RepMes,TegMes,membreMes,EmbOis,CraOis,SqeOis,CouOis
+Pigeon,,0,0,Pigeon,GenPigeo,HabPigeo,AlimPigeo,TempMes,SocPigeo,RepPigeo,TegMes,membreMes,EmbOis,CraOis,SqeOis,CouOis
+Requin,,0,0,Requin,GenReq,HabReq,AlimReq,TempPoi,SocReq,RepReq,TegSel,membreSel,EmbSel,CraSel,SqeReq,CouReq
+Sardine,,0,0,Sardine,GenSar,HabSar,AlimSar,TempPoi,SocSar,RepSar,TegSar,membreSar,EmbTel,CraTel,SqeTel,CouTel
+<Caractères V2>
+Générales,Biologiques,Anatomiques
+3
+1,5,6
+Générales,"Milieu de vie","Régime alimentaire","Régulation de la température","Structure sociale",Reproduction,Tégument,"Membre antérieur","Annexes embryonnaires",Crâne,Squelette,Cou
+Mamelles,Reproduction,1,Absentes,,,Présentes,,Mammifères
+Mâchoires,Crâne,1,Absentes,SqeAgn,,Présentes,CraSel,"Vertébrés à mâchoires_Gnathostomes"
+"Mâchoire un seul os",Crâne,1,Absente,CraOis,,Présente,CraHom,Mammifères
+"Squelette osseux",Squelette,1,Absent,,,Présent,,"Vertébrés à squelette osssifié"
+Doigts,"Membre antérieur",1,Absents,membreSar,,Présents,membreGre,Tétrapodes
+Poils,Tégument,1,Absents,TegCro,,Présents,TegMam,Mammifères
+Amnios,"Annexes embryonnaires",1,Absent,EmbTel,,Présent,EmbCro,Amniotes
+"Fenêtre mandibulaire",Crâne,1,Absente,CraHom,,Présente,CraCro,Archosaures
+Bréchet,Squelette,1,Absent,SqeCha,,Présent,SqeOis,Oiseaux
+Plumes,Tégument,1,Absentes,TegCro,,Présentes,TegMes,Oiseaux
+"Crâne et vertèbres",Squelette,1,Absents,,,Présents,CraSel,Vertébrés
+Cou,Cou,1,Absent,SqeTel,,Présent,SqeLez,Tétrapodes
+"Plus de 3 vertèbres cervicales",Cou,1,Absentes,SqeAmp,,Présentes,SqeLez,Amniotes
+<Tableau Ref>
+MamellesMâchoiresMâchoire un seul osSquelette osseuxDoigtsPoilsAmniosFenêtre mandibulaireBréchetPlumesCrâne et vertèbresCouPlus de 3 vertèbres cervicales
+ChatPrésentesPrésentesPrésentePrésentPrésentsPrésentsPrésentAbsenteAbsentAbsentesPrésentsPrésentPrésentes
+CrapaudAbsentesPrésentesAbsentePrésentPrésentsAbsentsAbsentAbsenteAbsentAbsentesPrésentsPrésentAbsentes
+CrocodileAbsentesPrésentesAbsentePrésentPrésentsAbsentsPrésentPrésenteAbsentAbsentesPrésentsPrésentPrésentes
+GorillePrésentesPrésentesPrésentePrésentPrésentsPrésentsPrésentAbsenteAbsentAbsentesPrésentsPrésentPrésentes
+HommePrésentesPrésentesPrésentePrésentPrésentsPrésentsPrésentAbsenteAbsentAbsentesPrésentsPrésentPrésentes
+LamproieAbsentesAbsentesAbsenteAbsentAbsentsAbsentsAbsentAbsenteAbsentAbsentesPrésentsAbsentAbsentes
+LézardAbsentesPrésentesAbsentePrésentPrésentsAbsentsPrésentAbsenteAbsentAbsentesPrésentsPrésentPrésentes
+MésangeAbsentesPrésentesAbsentePrésentPrésentsAbsentsPrésentPrésentePrésentPrésentesPrésentsPrésentPrésentes
+PigeonAbsentesPrésentesAbsentePrésentPrésentsAbsentsPrésentPrésentePrésentPrésentesPrésentsPrésentPrésentes
+RequinAbsentesPrésentesAbsenteAbsentAbsentsAbsentsAbsentAbsenteAbsentAbsentesPrésentsAbsentAbsentes
+SardineAbsentesPrésentesAbsentePrésentAbsentsAbsentsAbsentAbsenteAbsentAbsentesPrésentsAbsentAbsentes
