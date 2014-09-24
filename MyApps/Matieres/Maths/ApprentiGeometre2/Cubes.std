@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Formes_Standard>
+  <Famille Nom="Cubes">
+    <Couleur Rouge="255" Vert="128" Bleu="0" />
+    <Forme Nom="CubeOrtho" />
+    <Forme Nom="CubeCav" />
+    <Forme Nom="Transparent" />
+  </Famille>
+</Formes_Standard>

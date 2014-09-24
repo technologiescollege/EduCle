@@ -1,0 +1,112 @@
+﻿<Formes_Standard>
+<Famille Nom="Pentaminos">
+	<Couleur Rouge="255" Vert="0" Bleu="255"/>
+	<Forme  Nom="I">
+		<Arete Longueur="1" Angle="0"/>
+		<Arete Longueur="5" Angle="90"/>
+		<Arete Longueur="1" Angle="90"/>
+	</Forme>
+	<Forme  Nom="L">
+		<Arete Longueur="2" Angle="0"/>
+		<Arete Longueur="1" Angle="90"/>
+		<Arete Longueur="1" Angle="90"/>
+		<Arete Longueur="3" Angle="-90"/>
+		<Arete Longueur="1" Angle="90"/>
+	</Forme>
+	<Forme  Nom="Y">
+		<Arete Longueur="1" Angle="0"/>
+		<Arete Longueur="4" Angle="90"/>
+		<Arete Longueur="1" Angle="90"/>
+		<Arete Longueur="1" Angle="90"/>
+		<Arete Longueur="1" Angle="-90"/>
+		<Arete Longueur="1" Angle="90"/>
+		<Arete Longueur="1" Angle="90"/>
+	</Forme>
+	<Forme  Nom="U">
+		<Arete Longueur="3" Angle="0"/>
+		<Arete Longueur="2" Angle="90"/>
+		<Arete Longueur="1" Angle="90"/>
+		<Arete Longueur="1" Angle="90"/>
+		<Arete Longueur="1" Angle="-90"/>
+		<Arete Longueur="1" Angle="-90"/>
+		<Arete Longueur="1" Angle="90"/>
+	</Forme>
+	<Forme  Nom="Z">
+		<Arete Longueur="2" Angle="0"/>
+		<Arete Longueur="1" Angle="90"/>
+		<Arete Longueur="1" Angle="90"/>
+		<Arete Longueur="2" Angle="-90"/>
+		<Arete Longueur="2" Angle="90"/>
+		<Arete Longueur="1" Angle="90"/>
+		<Arete Longueur="1" Angle="90"/>
+	</Forme>
+	<Forme  Nom="F">
+		<Arete Longueur="1" Angle="0"/>
+		<Arete Longueur="2" Angle="90"/>
+		<Arete Longueur="1" Angle="-90"/>
+		<Arete Longueur="1" Angle="90"/>
+		<Arete Longueur="2" Angle="90"/>
+		<Arete Longueur="1" Angle="90"/>
+		<Arete Longueur="1" Angle="-90"/>
+		<Arete Longueur="1" Angle="90"/>
+		<Arete Longueur="1" Angle="90"/>
+	</Forme>
+	<Forme  Nom="X">
+		<Arete Longueur="1" Angle="0"/>
+		<Arete Longueur="1" Angle="90"/>
+		<Arete Longueur="1" Angle="-90"/>
+		<Arete Longueur="1" Angle="90"/>
+		<Arete Longueur="1" Angle="90"/>
+		<Arete Longueur="1" Angle="-90"/>
+		<Arete Longueur="1" Angle="90"/>
+		<Arete Longueur="1" Angle="90"/>
+		<Arete Longueur="1" Angle="-90"/>
+		<Arete Longueur="1" Angle="90"/>
+		<Arete Longueur="1" Angle="90"/>
+	</Forme>
+	<Forme  Nom="N">
+		<Arete Longueur="1" Angle="0"/>
+		<Arete Longueur="3" Angle="90"/>
+		<Arete Longueur="1" Angle="90"/>
+		<Arete Longueur="1" Angle="-90"/>
+		<Arete Longueur="1" Angle="90"/>
+		<Arete Longueur="2" Angle="90"/>
+		<Arete Longueur="1" Angle="90"/>
+		
+	</Forme>
+	<Forme  Nom="V">
+		<Arete Longueur="3" Angle="0"/>
+		<Arete Longueur="1" Angle="90"/>
+		<Arete Longueur="2" Angle="90"/>
+		<Arete Longueur="2" Angle="-90"/>
+		<Arete Longueur="1" Angle="90"/>
+	</Forme>
+	<Forme  Nom="T">
+		<Arete Longueur="1" Angle="0"/>
+		<Arete Longueur="2" Angle="90"/>
+		<Arete Longueur="1" Angle="-90"/>
+		<Arete Longueur="1" Angle="90"/>
+		<Arete Longueur="3" Angle="90"/>
+		<Arete Longueur="1" Angle="90"/>
+		<Arete Longueur="1" Angle="90"/>
+	</Forme>
+	<Forme  Nom="P">
+		<Arete Longueur="1" Angle="0"/>
+		<Arete Longueur="1" Angle="90"/>
+		<Arete Longueur="1" Angle="-90"/>
+		<Arete Longueur="2" Angle="90"/>
+		<Arete Longueur="2" Angle="90"/>
+	</Forme>
+	<Forme  Nom="W">
+		<Arete Longueur="1" Angle="0"/>
+		<Arete Longueur="2" Angle="90"/>
+		<Arete Longueur="1" Angle="90"/>
+		<Arete Longueur="1" Angle="-90"/>
+		<Arete Longueur="2" Angle="90"/>
+		<Arete Longueur="1" Angle="90"/>
+		<Arete Longueur="1" Angle="90"/>
+		<Arete Longueur="1" Angle="-90"/>
+		<Arete Longueur="1" Angle="90"/>
+	</Forme>
+</Famille>
+</Formes_Standard>

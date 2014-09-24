@@ -1,0 +1,42 @@
+﻿<Formes_Standard>
+<Famille Nom="Tetraminos">
+	<Couleur Rouge="255" Vert="255" Bleu="0"/>
+	<Forme  Nom="Regle">
+		<Arete Angle="0" Longueur="4" />
+		<Arete Angle="90" Longueur="1" />
+		<Arete Angle="90" Longueur="4" />
+	</Forme>
+	<Forme  Nom="Equerre">
+		<Arete Angle="0" Longueur="3" />
+		<Arete Angle="90" Longueur="2" />
+		<Arete Angle="90" Longueur="1" />
+		<Arete Angle="90" Longueur="1" />
+		<Arete Angle="-90" Longueur="2" />
+	</Forme>
+	<Forme  Nom="T">
+		<Arete Angle="0" Longueur="3" />
+		<Arete Angle="90" Longueur="1" />
+		<Arete Angle="90" Longueur="1" />
+		<Arete Angle="-90" Longueur="1" />
+		<Arete Angle="90" Longueur="1" />
+		<Arete Angle="90" Longueur="1" />
+		<Arete Angle="-90" Longueur="1" />
+	</Forme>
+	<Forme  Nom="Carre">
+		<Arete Angle="0" Longueur="2" />
+		<Arete Angle="90" Longueur="2" />
+		<Arete Angle="90" Longueur="2" />
+	</Forme>
+	<Forme  Nom="Z">
+		<Arete Angle="0" Longueur="2" />
+		<Arete Angle="90" Longueur="1" />
+		<Arete Angle="90" Longueur="1" />
+		<Arete Angle="-90" Longueur="1" />
+		<Arete Angle="90" Longueur="2" />
+		<Arete Angle="90" Longueur="1" />
+		<Arete Angle="90" Longueur="1" />
+	</Forme>
+
+
+</Famille>
+</Formes_Standard>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<Undo/>
+	<Redo/>
+	<Selection/>
+	<Selectall/>
+	<Delete/>
+	<Link/>
+	<ColTsp/>
+	<ColBorder/>
+	<ColFill/>
+	<ColStdFam/>
+	<Hide/>
+	<Grid/>
+	<Histo/>
+	<AVPlan/>
+	<Divide/>
+	<Cut/>
+	<Merge/>
+	<Cloner/>
+	<CreateCenter/>
+	<StdForms/>
+	<Traj/>
+     <DistanceMagnetisme Value="8"/>
+	<Pointer/>
+	<Biface/>
+	<Ajuster/>
+	<View/>
+	<Visit/>
+	<About/>
+	<Notes/>
+	<StdForms/>
+	<StdFile Name="Jeu_de_base.std"/>
+	<TailleFormesStandard Value="1"/>
+	<Slide/>
+	<Turn/>
+	<Return/>
+	<Zoom/>
+</Configuration>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration><Undo/><Redo/><Copy/><Paste/><Selection/><Reselect/>
+<Selectall/><Delete/><Link/><ColTsp/><ColBorder/><ColFill/>
+<ColStdFam/><Thickness/><Rigid/><Hide/><Grid/><Histo/><AVPlan/>
+<Label/><Trace/><Divide/><Cut/><Merge/><Cloner/><Prolonger/>
+<CreateCenter/><Macros/><Transformations/><Translation/><Rotation/><Rot90D/>
+<Rot90G/>
+<SymCentrale/>
+<SymOrtho/>
+<HideTsf/>
+<StdForms/>
+<Flecher/>
+<Traj/>
+<Pointer/>
+<Biface/>
+<Ajuster/>
+<DistanceMagnetisme Value="8"/>
+<View/>
+<Visit/>
+<About/><Notes/><StdForms/><StdFile Name="Jeu_de_base.std"/>
+<TailleFormesStandard Value="1"/><FreeForms/><Fam1 Vis="0"/>
+<Fam1 Vis="1"/><Fam1 Vis="2"/><Fam2 Vis="0"/><Fam2 Vis="1"/>
+<Fam2 Vis="2"/><Fam2 Vis="3"/><Fam2 Vis="4"/><Fam3 Vis="0"/>
+<Fam3 Vis="1"/><Fam3 Vis="2"/><Fam3 Vis="3"/><Fam3 Vis="4"/>
+<Fam3 Vis="5"/><Fam3 Vis="6"/><Fam3 Vis="7"/><Fam4 Vis="0"/>
+<Fam4 Vis="1"/><Fam4 Vis="2"/><Fam4 Vis="3"/><Fam4 Vis="4"/>
+<Fam4 Vis="5"/><Fam4 Vis="6"/><Fam4 Vis="9"/><Fam4 Vis="10"/>
+<Fam5 Vis="0"/><Fam5 Vis="1"/><Fam6 Vis="0"/><Fam6 Vis="1"/>
+<Fam6 Vis="2"/><Fam6 Vis="3"/><Fam6 Vis="4"/><Fam6 Vis="5"/>
+<Fam6 Vis="6"/><Fam6 Vis="7"/><Fam6 Vis="8"/><Fam6 Vis="9"/>
+<Modify/><Slide/><Turn/><Return/><Zoom/></Configuration>

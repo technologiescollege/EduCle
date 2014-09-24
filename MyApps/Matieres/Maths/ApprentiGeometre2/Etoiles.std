@@ -1,0 +1,43 @@
+﻿<Formes_Standard>
+<Famille Nom="Etoiles">
+	<Couleur Rouge="0" Vert="255" Bleu="255"/>
+	<Forme  Nom="Etoile_4">
+                           <Arete Longueur="0.577350269" Angle="-30"/>
+                           <Arete Longueur="0.577350269" Angle="-60"/>
+                           <Arete Longueur="0.577350269" Angle="150"/>
+                           <Arete Longueur="0.577350269" Angle="-60"/>
+	        <Arete Longueur="0.577350269" Angle="150"/>
+                           <Arete Longueur="0.577350269" Angle="-60"/>
+	        <Arete Longueur="0.577350269" Angle="150"/>
+                     </Forme>
+                     <Forme  Nom="Etoile_5">
+                           <Arete Longueur="1.618033989" Angle="-36"/>
+                           <Arete Longueur="1.618033989" Angle="144"/>
+                           <Arete Longueur="1.618033989" Angle="144"/>
+                           <Arete Longueur="1.618033989" Angle="144"/>
+                     </Forme>
+	 <Forme  Nom="Etoile_6">
+                           <Arete Longueur="0.333333333" Angle="0"/>
+                           <Arete Longueur="0.333333333" Angle="60"/>
+                           <Arete Longueur="0.333333333" Angle="-120"/>
+                           <Arete Longueur="0.333333333" Angle="60"/>
+                           <Arete Longueur="0.333333333" Angle="-120"/>
+                           <Arete Longueur="0.333333333" Angle="60"/>
+                           <Arete Longueur="0.333333333" Angle="-120"/>
+                           <Arete Longueur="0.333333333" Angle="60"/>
+                           <Arete Longueur="0.333333333" Angle="-120"/>
+                           <Arete Longueur="0.333333333" Angle="60"/>
+                           <Arete Longueur="0.333333333" Angle="-120"/>
+                     </Forme>
+	 <Forme  Nom="Etoile_8">
+                           <Arete Longueur="2.41421356" Angle="45"/>
+                           <Arete Longueur="2.41421356" Angle="135"/>
+	        <Arete Longueur="2.41421356" Angle="135"/>
+	        <Arete Longueur="2.41421356" Angle="135"/>
+	        <Arete Longueur="2.41421356" Angle="135"/>
+	        <Arete Longueur="2.41421356" Angle="135"/>
+	        <Arete Longueur="2.41421356" Angle="135"/>
+                      </Forme>
+	
+</Famille>
+</Formes_Standard>

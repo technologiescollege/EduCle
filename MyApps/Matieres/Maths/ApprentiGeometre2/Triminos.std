@@ -1,0 +1,17 @@
+﻿<Formes_Standard>
+<Famille Nom="Triminos">
+	<Couleur Rouge="255" Vert="255" Bleu="0"/>
+	<Forme  Nom="Regle">
+		<Arete Longueur="3" Angle="0"/>
+		<Arete Longueur="1" Angle="90"/>
+		<Arete Longueur="3" Angle="90"/>
+	</Forme>
+	<Forme  Nom="Equerre">
+		<Arete Longueur="2" Angle="0"/>
+		<Arete Longueur="2" Angle="90"/>
+		<Arete Longueur="1" Angle="90"/>
+		<Arete Longueur="1" Angle="90"/>
+		<Arete Longueur="1" Angle="-90"/>
+	</Forme>
+</Famille>
+</Formes_Standard>

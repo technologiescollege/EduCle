@@ -1,0 +1,27 @@
+﻿<Formes_Standard>
+<Famille Nom="Penrose1">
+	<Couleur Rouge="128"  Vert = "128" Bleu="255"/>
+	<Forme  Nom="PentaReg">
+		<Arete Longueur="1" Angle="0"/>
+		<Arete Longueur="1" Angle="72"/>
+		<Arete Longueur="1" Angle="72"/>
+		<Arete Longueur="1" Angle="72"/>
+	</Forme>
+	<Forme  Nom="PLosan">
+		<Arete Longueur="1" Angle="0"/>
+		<Arete Longueur="1" Angle="36"/>
+		<Arete Longueur="1" Angle="144"/>
+	</Forme>
+	<Forme  Nom="Etoile">
+                           <Arete Angle="72" Longueur="1" />
+	           <Arete Angle="-144" Longueur="1" />
+	           <Arete Angle="72" Longueur="1" />
+	           <Arete Angle="-144" Longueur="1" />
+                           <Arete Angle="72" Longueur="1" />
+	           <Arete Angle="-144" Longueur="1" />
+                           <Arete Angle="72" Longueur="1" />
+	           <Arete Angle="-144" Longueur="1" />
+                           <Arete Angle="72" Longueur="1" />
+	 </Forme>
+</Famille>
+</Formes_Standard>
