@@ -1,0 +1,251 @@
+Lis le groupe nominal, puis remplace les ..... par le nom d'un métier au masculin ou au féminin.
+
+masculin
+un antiquaire
+une .....
+une antiquaire
+
+masculin
+un arbitre
+un .....
+une arbitre
+
+masculin
+un archéologue
+une .....
+une archéologue
+
+masculin
+un architecte
+une .....
+une architecte
+
+masculin
+un astronome
+une .....
+une astronome
+
+masculin
+un astronaute
+une .....
+une astronaute
+
+masculin
+un bibliothécaire
+une .....
+une bibliothécaire
+
+masculin
+un botaniste
+une .....
+une botaniste
+
+masculin
+un chauffagiste
+une .....
+une chauffagiste
+
+masculin
+un chorégraphe
+une .....
+une chorégraphe
+
+masculin
+un comptable
+une .....
+une comptable
+
+masculin
+un dentiste
+une .....
+une dentiste
+
+masculin
+un diplomate
+une .....
+une diplomate
+
+masculin
+un documentaliste
+une .....
+une documentaliste
+
+masculin
+un ébéniste
+une .....
+une ébéniste
+
+masculin
+un fleuriste
+une .....
+une fleuriste
+
+masculin
+un géologue
+une .....
+une géologue
+
+masculin
+un géomètre
+une .....
+une géomètre
+
+masculin
+un interprète
+une .....
+une interprète
+
+masculin
+un journaliste
+une .....
+une journaliste
+
+masculin
+un juge
+une .....
+une juge
+
+masculin
+un libraire
+une .....
+une libraire
+
+masculin
+un notaire
+une .....
+une notaire
+
+masculin
+un orthophoniste
+une .....
+une orthophoniste
+
+masculin
+un peintre
+une .....
+une peintre
+
+masculin
+un photographe
+une .....
+une photographe
+
+masculin
+un pilote
+une .....
+une pilote
+
+masculin
+un pompiste
+une .....
+une pompiste
+
+masculin
+un professeur
+une .....
+une professeur
+
+masculin
+un psychiatre
+une .....
+une psychiatre
+
+masculin
+un psychologue
+une .....
+une psychologue
+
+masculin
+un secrétaire
+une .....
+une secrétaire
+
+masculin
+un vétérinaire
+une .....
+une vétérinaire
+
+masculin
+un aide-soignant
+une .....
+une aide-soignante
+
+masculin
+un assistant dentaire
+une .....
+une assistante dentaire
+
+masculin
+un assistant social
+une .....
+une assistante sociale
+
+masculin
+un avocat
+une .....
+une avocate
+
+masculin
+un commerçant
+une .....
+une commerçante
+
+masculin
+un consultant
+une .....
+une consultante
+
+masculin
+un employé
+une .....
+une employée
+
+masculin
+un enseignant
+une .....
+une enseignante
+
+féminin
+une enseignante
+un .....
+un enseignant
+
+féminin
+une employée
+un .....
+un employé
+
+féminin
+une commerçante
+un .....
+un commerçant
+
+féminin
+une aide-soignante
+un .....
+un aide-soignant
+
+féminin
+une consultante
+un .....
+une consultant
+
+masculin
+un secrétaire
+une .....
+une secrétaire
+
+féminin
+une comptable
+un .....
+un comptable
+
+féminin
+une photographe
+un .....
+un photographe
+
+féminin
+une libraire
+un .....
+un libraire

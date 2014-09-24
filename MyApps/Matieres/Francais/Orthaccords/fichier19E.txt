@@ -1,0 +1,301 @@
+Dans chaque phrase, remplace les ..... par la phrase transformée au genre et au nombre indiqué.
+
+masculin singulier
+féminin pluriel
+Ce garçon semble malheureux.
+..... .
+Ces filles semblent malheureuses.
+
+féminin singulier
+masculin pluriel
+La chèvre est blanche.
+..... .
+Les boucs sont blancs.
+
+masculin singulier
+féminin singulier
+Mon boulanger est gentil.
+..... .
+Ma boulangère est gentille.
+
+masculin singulier
+masculin pluriel
+Ce journal n'est pas trop cher.
+..... .
+Ces journaux ne sont pas trop chers.
+
+féminin pluriel
+masculin singulier
+Ces ânesses sont têtues.
+..... .
+Cet âne est têtu.
+
+masculin singulier
+féminin pluriel
+Cet infirmier est courageux.
+..... .
+Ces infirmières sont courageuses.
+
+féminin singulier
+masculin pluriel
+Cette musicienne est hongroise.
+..... .
+Ces musiciens sont hongrois.
+
+masculin singulier
+féminin pluriel
+Le petit chien est endormi.
+..... .
+Les petites chiennes sont endormies.
+
+masculin singulier
+masculin pluriel
+Ce manteau est très chaud.
+..... .
+Ces manteaux sont très chauds.
+
+masculin singulier
+masculin pluriel
+Ce landau est marron.
+..... .
+Ces landaus sont marron.
+
+féminin pluriel
+masculin singulier
+Ces animatrices sont sportives.
+..... .
+Cet animateur est sportif.
+
+masculin singulier
+féminin singulier
+Notre instituteur est blond.
+..... .
+Notre institutrice est blonde.
+
+masculin singulier
+masculin pluriel
+Ce travail est tout à fait répétitif.
+..... .
+Ces travaux sont tout à fait répétitifs.
+
+masculin singulier
+féminin pluriel
+Cet homme est grec.
+..... .
+Ces femmes sont grecques.
+
+masculin singulier
+féminin pluriel
+Mon voisin est turc.
+..... .
+Mes voisines sont turques.
+
+masculin pluriel
+féminin singulier
+Ces agriculteurs sont allemands.
+..... .
+Cette agriculturice est allemande.
+
+masculin singulier
+masculin pluriel
+Le tapis est bien sale.
+..... .
+Les tapis sont bien sales.
+
+masculin singulier
+masculin pluriel
+Ce gâteau semble délicieux.
+..... .
+Ces gâteaux semblent délicieux.
+
+masculin singulier
+masculin pluriel
+Ton bijou est resplendissant.
+..... .
+Tes bijoux sont resplendissants.
+
+masculin singulier
+masculin pluriel
+Ce récital a été très long.
+..... .
+Ces récitals ont été très longs.
+
+masculin singulier
+masculin pluriel
+Le signal est lumineux et sonore.
+..... .
+Les signaux sont lumineux et sonores.
+
+masculin singulier
+féminin pluriel
+Le lièvre est très rapide.
+..... .
+Les hases sont très rapides.
+
+masculin singulier
+féminin pluriel
+Le loup est gris.
+..... .
+Les louves sont grises.
+
+masculin pluriel
+féminin pluriel
+Les tigres sont rayés.
+..... .
+Les tigresses sont rayées.
+
+masculin singulier
+féminin singulier
+Le lapin est couché.
+..... .
+La lapine est couchée.
+
+masculin pluriel
+féminin pluriel
+Les cerfs sont attentifs.
+..... .
+Les biches sont attentives.
+
+masculin pluriel
+féminin pluriel
+Mes oncles sont sympathiques.
+..... .
+Mes tantes sont sympathiques.
+
+féminin pluriel
+masculin singulier
+Ses filles sont prudentes.
+..... .
+Son fils est prudent.
+
+masculin singulier
+féminin singulier
+Ton coiffeur n'est pas très bavard.
+..... .
+Ta coiffeuse n'est pas très bavarde.
+
+masculin singulier
+féminin pluriel
+Ce dessinateur est célèbre.
+..... .
+Ces dessinatrices sont célèbres.
+
+masculin singulier
+féminin pluriel
+Ce comédien a l'air plutôt comique.
+..... .
+Ces comédiennes ont l'air plutôt comiques.
+
+féminin singulier
+masculin pluriel
+La pâtissière est gourmande.
+..... .
+Les pâtissiers sont gourmands.
+
+masculin singulier
+féminin singulier
+Ce cuisinier est très soigneux.
+..... .
+Cette cuisinière est très soigneuse.
+
+masculin singulier
+féminin pluriel
+Ce cheval blanc est étonnant.
+..... .
+Ces juments blanches sont étonnantes.
+
+féminin pluriel
+masculin pluriel
+Les laies peuvent être dangereuses.
+..... .
+Les sangliers peuvent être dangereux.
+
+masculin singulier
+masculin pluriel
+Ce joli vitrail est multicolore.
+..... .
+Ces jolis vitraux sont multicolores.
+
+masculin singulier
+masculin pluriel
+Mon éventail est très efficace.
+..... .
+Mes éventails sont très efficaces.
+
+masculin singulier
+masculin pluriel
+Le meilleur joueur de rugby est français.
+..... .
+Les meilleurs joueurs de rugby sont français.
+
+féminin singulier
+féminin pluriel
+Cette tentative est audacieuse et risquée.
+..... .
+Ces tentatives sont audacieuses et risquées.
+
+féminin singulier
+masculin pluriel
+La nouvelle bijoutière est minutieuse.
+..... .
+Les nouveaux bijoutiers sont minutieux.
+
+masculin pluriel
+masculin singulier
+Ces exercices d'orthographe sont facultatifs.
+..... .
+Cet exercice d'orthographe est facultatif.
+
+masculin singulier
+masculin pluriel
+L'entraînement sera intensif.
+..... .
+Les entraînements seront intensifs.
+
+féminin singulier
+féminin pluriel
+Cette jolie pensée est jaune canari.
+..... .
+Ces jolies pensées sont jaune canari.
+
+féminin singulier
+féminin pluriel
+Cette feuille de chêne est marron foncé.
+..... .
+Ces feuilles de chêne sont marron foncé.
+
+féminin singulier
+féminin pluriel
+La mandarine mûre est orange.
+..... .
+Les mandarines mûres sont orange.
+
+masculin singulier
+masculin pluriel
+Ce délicieux caramel est plutôt mou.
+..... .
+Ces délicieux caramels sont plutôt mous.
+
+masculin singulier
+féminin pluriel
+Mon voisin est vraiment très discret.
+..... .
+Mes voisines sont vraiment très discrètes.
+
+masculin singulier
+féminin pluriel
+Mon petit frère est douillet.
+..... .
+Mes petites soeurs sont douillettes.
+
+masculin singulier
+féminin pluriel
+Ce jeune garçon semble sot.
+..... .
+Ces jeunes filles semblent sottes.
+
+masculin singulier
+féminin pluriel
+Le lion est carnassier.
+..... .
+Les lionnes sont carnassières.

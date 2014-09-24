@@ -1,0 +1,251 @@
+Lis le groupe nominal, puis remplace les ..... par le nom d'animal sauvage au masculin ou au féminin.
+
+masculin
+un cerf
+une .....
+une biche
+
+masculin
+un chameau
+une .....
+une chamelle
+
+masculin
+un chevreuil
+une .....
+une chevrette
+
+masculin
+un daim
+une .....
+une daine
+
+masculin
+un éléphant
+une .....
+une éléphante
+
+masculin
+le faisan
+la .....
+la faisane
+
+masculin
+le lièvre
+la .....
+la hase
+
+masculin
+un lion
+une .....
+une lionne
+
+masculin
+un loup
+une .....
+une louve
+
+masculin
+un merle
+une .....
+une merlette
+
+masculin
+un ours
+une .....
+une ourse
+
+masculin
+un paon
+une .....
+une paonne
+
+masculin
+un renard
+une .....
+une renarde
+
+masculin
+un sanglier
+une .....
+une laie
+
+masculin
+un singe
+une .....
+une guenon
+
+masculin
+un tigre
+une .....
+une tigresse
+
+féminin
+une biche
+un .....
+un cerf
+
+féminin
+une chamelle
+un .....
+un chameau
+
+féminin
+une chevrette
+un .....
+un chevreuil
+
+féminin
+une daine
+un .....
+un daim
+
+féminin
+une éléphante
+un .....
+un éléphant
+
+féminin
+la faisane
+le .....
+le faisan
+
+féminin
+une hase
+un .....
+un lièvre
+
+féminin
+la lionne
+le .....
+le lion
+
+féminin
+la louve
+le .....
+le loup
+
+féminin
+la merlette
+le .....
+le merle
+
+féminin
+une ourse
+un .....
+un ours
+
+féminin
+la paonne
+le .....
+le paon
+
+féminin
+une renarde
+un .....
+un renard
+
+féminin
+cette laie
+ce .....
+ce sanglier
+
+féminin
+la guenon
+le .....
+le singe
+
+féminin
+la tigresse
+le .....
+le tigre
+
+masculin
+un cerf
+une .....
+une biche
+
+masculin
+un chevreuil
+une .....
+une chevrette
+
+féminin
+une daine
+un .....
+un daim
+
+masculin
+un lion
+une .....
+une lionne
+
+masculin
+un lièvre
+une .....
+une hase
+
+féminin
+une louve
+un .....
+un loup
+
+masculin
+un merle
+une .....
+une merlette
+
+féminin
+cette paonne
+ce .....
+ce paon
+
+féminin
+cette renarde
+ce .....
+ce renard
+
+féminin
+la guenon
+le .....
+le singe
+
+masculin
+le sanglier
+la .....
+la laie
+
+masculin
+le tigre
+la .....
+la tigresse
+
+féminin
+une faisane
+un .....
+un faisan
+
+féminin
+une éléphante
+un .....
+un éléphant
+
+féminin
+une chamelle
+un .....
+un chameau
+
+masculin
+un chevreuil
+une .....
+une chevrette
+
+féminin
+la biche
+le .....
+le cerf
+
+masculin
+un loup
+une .....
+une louve

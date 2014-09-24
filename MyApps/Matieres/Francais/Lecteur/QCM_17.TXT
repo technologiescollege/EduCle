@@ -1,0 +1,40 @@
+Le roi a plusieurs filles.
+Le roi n'a qu'une fille.
+On ne sait pas combien il a de filles.
+1
+La fille du roi perd un ballon en or.
+La fille du roi perd une balle en or.
+La fille du roi perd une bille en or.
+2
+Elle promet des diamants à la grenouille.
+Elle promet sa couronne à la grenouille.
+Elle promet à la grenouille d'être sa compagne.
+3
+La fille du roi attend la grenouille.
+La fille du roi part en courant.
+L'histoire ne dit pas ce qu'elle fait.
+2
+La grenouille monte sur les genoux du roi.
+La grenouille monte sur les genoux de la princesse.
+La grenouille monte sur la table.
+3
+La grenouille mange avec la fourchette de la princesse.
+La grenouille mange avec la cuillère de la princesse.
+L'histoire ne précise pas ce détail.
+3
+Le roi rappelle que la grenouille a aidé la princesse dans le besoin.
+Le roi rappelle que la grenouille a aidé la princesse dans le chagrin.
+Le roi rappelle que la grenouille a aidé la princesse dans le malheur.
+2
+La princesse pose la grenouille dans un coin de la chambre.
+La princesse pose la grenouille au milieu de la chambre.
+La princesse pose la grenouille sur le lit.
+1
+Une méchante fée avait jeté un sort au prince.
+Une méchante sorcière avait jeté un sort au prince.
+On ne sait pas exactement qui avait jeté un sort au prince.
+2
+Les époux partent avec un attelage de quatre chevaux blancs.
+Les époux partent avec un attelage de quatre chevaux noirs.
+Les époux partent avec un attelage de huit chevaux blancs.
+3

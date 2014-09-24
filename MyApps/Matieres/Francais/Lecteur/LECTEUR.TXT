@@ -1,0 +1,53 @@
+LECTEUR.EXE de Gérard LE DU   
+
+Comme son nom l'indique, LECTEUR.EXE est un logiciel 
+de lecture, destiné à la fois au formateur qui
+l'utilisera pour évaluer les performances de 
+lecture d'apprenants, et au particulier soucieux
+d'apprécier ses performances dans ce domaine.
+
+La version 2.0 de LECTEUR.EXE, compilée en 32 bits, ne 
+fonctionne pas sous Windows 3.1.
+
+La partie paramétrage est masquée à l'élève ; 
+on y accède lorsque l'on a affiché la boîte de dialogue 
+A Propos : il suffit alors d'appuyer sur la touche de 
+fonction F12. 
+
+Sur le disque après installation vous devez trouver les 
+fichiers suivants :
+
+- LECTEUR.EXE (le moteur de l'application) 
+- LICENCE.TXT (contrat de licence freeware)
+- LECTEUR.TXT (fichier d'explication)
+- LECT_AIDE.CHM (fichier d'information)
+- LECT.SCO (fichier d'enregistrement des scores)
+- LECT.DAT (fichier d'enregistrement des paramètres)
+- LECT.PWD (fichier d'enregistrement du mot de passe : PROF par défaut)
+- LECT_XX.TXT (fichiers de textes à lire)
+- QCM_XX.TXT (fichiers correspondant de questions)
+
+Ces deux derniers types de fichiers peuvent être édités et modifiés 
+en fonction des besoins du lecteur.
+Si vous modifiez le texte LECT_12.TXT correspondant au niveau 12
+du logiciel, vous modifierez également QCM_12.TXT correspondant
+aux questions. Ces deux types de fichiers étant au format texte,
+un simple éditeur de texte comme NotePad suffit.
+
+Pour fonctionner, ces fichiers doivent se trouver dans 
+le même répertoire, celui choisi au moment de l'installation.
+
+Ce logiciel est distribuée en Freeware ; autrement dit, 
+c'est un graticiel que vous pouvez communiquer librement
+à vos relations. 
+S'il vous convient, envoyez-moi un e-mail à l'adresse ci-dessous, 
+ça me ferait plaisir.
+
+Je vous demande simplement de ne pas dissocier ces fichiers. 
+Merci de me faire part de vos remarques et suggestions 
+d'améliorations, ou simplement d'entrer en contact à 
+l'adresse suivante :
+
+                        gerard.ledu@free.fr
+
+Cordialement.

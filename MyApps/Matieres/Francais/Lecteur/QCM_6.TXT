@@ -1,0 +1,40 @@
+C'est un conte français.
+C'est un conte irlandais.
+C'est un conte allemand.
+2
+Le renard est vieux.
+Le renard est jeune.
+On ne sait rien sur son âge.
+1
+La poule a un bonnet.
+La poule a une robe.
+La poule a un tablier.
+3
+La poule sort pour ramasser du bois.
+La poule sort pour ramsser des copeaux.
+La poule sort pour ramasser de l'herbe.
+2
+Le renard se cache dans la cheminée.
+Le renard se cache derrière la porte.
+Le renard se cache dans l'horloge.
+2
+La poule vole sur l'armoire.
+La poule vole sur la cheminée.
+On ne sait pas où vole la poule.
+1
+La poule tombe car elle est fatiguée.
+La poule tombe car elle est malade.
+La poule tombe car elle est étourdie.
+3
+La poule ouvre le sac avec son couteau.
+La poule ouvre le sac avec ses ciseaux.
+La poule ouvre le sac avec son bec.
+2
+La poule met une pierre dans le sac.
+La poule met une bûche dans le sac.
+La poule recoud le sac.
+1
+La poule quitta le pays.
+La poule resta dans le pays.
+On ne sait pas ce que fit la poule.
+2

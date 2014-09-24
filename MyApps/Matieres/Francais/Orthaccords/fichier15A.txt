@@ -1,0 +1,251 @@
+Dans chaque groupe nominal, remplace les ..... par le nom et l'adjectif qualificatif correspondants au singulier ou au pluriel
+
+singulier
+un roman passionnant
+des ..... .....
+des romans passionnants
+
+singulier
+une étoile filante
+des ..... .....
+des étoiles filantes
+
+singulier
+une vache normande
+des ..... .....
+des vaches normandes
+
+singulier
+un pain croustillant
+des ..... .....
+des pains croustillants
+
+singulier
+un poulet rôti
+des ..... .....
+des poulets rôtis
+
+singulier
+un petit chat
+des ..... .....
+des petits chats
+
+singulier
+un canard sauvage
+des ..... .....
+des canards sauvages
+
+singulier
+une fleur artificielle
+des ..... .....
+des fleurs artificielles
+
+singulier
+une orange juteuse
+des ..... .....
+des oranges juteuses
+
+singulier
+une trousse vide
+des ..... .....
+des trousses vides
+
+singulier
+un singe agile
+des ..... .....
+des singes agiles
+
+singulier
+un enfant africain
+des ..... .....
+des enfants africains
+
+singulier
+une histoire amusante
+des ..... .....
+des histoires amusantes
+
+singulier
+un drap blanc
+des ..... .....
+des draps blancs
+
+singulier
+une chanteuse célèbre
+des ..... .....
+des chanteuses célèbres
+
+singulier
+une couleur claire
+des ..... .....
+des couleurs claires
+
+singulier
+un personnage connu
+des ..... .....
+des personnages connus
+
+singulier
+un exercice correct
+des ..... .....
+des exercices corrects
+
+singulier
+un problème difficile
+des ..... .....
+des problèmes difficiles
+
+singulier
+une plaie douloureuse
+des ..... .....
+des plaies douloureuses
+
+singulier
+un citron entier
+des ..... .....
+des citrons entiers
+
+singulier
+un ruban étroit
+des ..... .....
+des rubans étroits
+
+singulier
+un spectacle fantastique
+des ..... .....
+des spectacles fantastiques
+
+singulier
+un lion féroce
+des ..... .....
+des lions féroces
+
+singulier
+une colle forte
+des ..... .....
+des colles fortes
+
+singulier
+un lac gelé
+des ..... .....
+des lacs gelés
+
+singulier
+une fille gourmande
+des ..... .....
+des filles gourmandes
+
+singulier
+une route glissante
+des ..... .....
+des routes glissantes
+
+singulier
+un grand arbre
+des ..... .....
+des grands arbres
+
+singulier
+une chose incroyable
+des ..... .....
+des choses incroyables
+
+singulier
+un terrain incultivable
+des ..... .....
+des terrains incultivables
+
+singulier
+une réponse juste
+des ..... .....
+des réponses justes
+
+singulier
+une surface lisse
+des ..... .....
+des surfaces lisses
+
+singulier
+un long chemin
+des ..... .....
+des longs chemins
+
+singulier
+un garçon malade
+des ..... .....
+des garçons malades
+
+singulier
+un caramel mou
+des ..... .....
+des caramels mous
+
+singulier
+une pomme mûre
+des ..... .....
+des pommes mûres
+
+singulier
+une voiture neuve
+des ..... .....
+des voitures neuves
+
+singulier
+une oeuvre originale
+des ..... .....
+des oeuvres originales
+
+singulier
+un ballon ovale
+des ..... .....
+des ballons ovales
+
+singulier
+un livre ouvert
+des ..... .....
+des livres ouverts
+
+singulier
+un nombre pair
+des ..... .....
+des nombres pairs
+
+singulier
+une lumière pâle
+des ..... .....
+des lumières pâles
+
+singulier
+un crayon pointu
+des ..... .....
+des crayons pointus
+
+singulier
+une carte postale
+des ..... .....
+des cartes postales
+
+singulier
+un arbre fruitier
+des ..... .....
+des arbres fruitiers
+
+singulier
+une tige rigide
+des ..... .....
+des tiges rigides
+
+singulier
+un renard rusé
+des ..... .....
+des renards rusés
+
+singulier
+une chaleur torride
+des ..... .....
+des chaleurs torrides
+
+singulier
+une réponse urgente
+des ..... .....
+des réponses urgentes

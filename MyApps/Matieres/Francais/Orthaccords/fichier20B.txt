@@ -1,0 +1,251 @@
+Dans chaque phrase, remplace les ..... par le groupe nominal avec nom composé au pluriel.
+
+singulier
+une eau de Javel
+.....
+des eaux de Javel
+
+singulier
+un en-avant
+.....
+des en-avant
+
+singulier
+l'en-tête
+.....
+les en-têtes
+
+singulier
+un entre-deux
+.....
+des entre-deux
+
+singulier
+un essuie-glace
+.....
+des essuie-glaces
+
+singulier
+l'essuie-mains
+.....
+les essuie-mains
+
+singulier
+une étoile-d'argent
+.....
+des étoiles-d'argent
+
+singulier
+le fait-tout
+.....
+les fait-tout
+
+singulier
+un faux-filet
+.....
+des faux-filets
+
+singulier
+une foire-exposition
+.....
+des foires-expositions
+
+singulier
+le garde-boue
+.....
+les garde-boue
+
+singulier
+une garde-robe
+.....
+des garde-robes
+
+singulier
+le garde-pêche
+.....
+les gardes-pêche
+
+singulier
+mon grand-père
+.....
+mes grands-pères
+
+singulier
+ce gratte-ciel
+.....
+ces gratte-ciel
+
+singulier
+le grille-pain
+.....
+les grille-pain
+
+singulier
+un haut-parleur
+.....
+des hauts-parleurs
+
+singulier
+le hors d'oeuvre
+.....
+les hors d'oeuvre
+
+singulier
+un hors-jeu
+.....
+des hors-jeu
+
+singulier
+une idée-force
+.....
+des idées-forces
+
+singulier
+l'ingénieur-conseil
+.....
+les ingénieurs-conseils
+
+singulier
+un juke-box
+.....
+des juke-box
+
+singulier
+ma jupe-culotte
+.....
+mes jupes-culottes
+
+singulier
+un jumbo-jet
+.....
+des jumbo-jets
+
+singulier
+un knock-down
+.....
+des knock-down
+
+singulier
+son K-way
+.....
+ses K-ways
+
+singulier
+le lance-pierre
+.....
+les lance-pierres
+
+singulier
+une langue-de-boeuf
+.....
+des langues-de boeuf
+
+singulier
+une langue-de-chat
+.....
+des langues-de chat
+
+singulier
+le lave-glace
+.....
+les lave-glaces
+
+singulier
+un lave-linge
+.....
+des lave-linge
+
+singulier
+notre lave-vaisselle
+.....
+nos lave-vaisselle
+
+singulier
+un libre-service
+.....
+des libres-services
+
+singulier
+ce lieu-dit
+.....
+ces lieux-dits
+
+singulier
+une longue-vue
+.....
+des longues-vues
+
+singulier
+la machine-outil
+.....
+les machines-outils
+
+singulier
+la main d'oeuvre
+.....
+les mains d'oeuvre
+
+singulier
+notre maître-nageur
+.....
+nos maîtres-nageurs
+
+singulier
+un mange-tout
+.....
+des mange-tout
+
+singulier
+un martin-chasseur
+.....
+des martins-chasseurs
+
+singulier
+le martin-pêcheur
+.....
+les martins-pêcheurs
+
+singulier
+une mi-temps
+.....
+des mi-temps
+
+singulier
+un micro-cravate
+.....
+des micros-cravates
+
+singulier
+un micro-ondes
+.....
+des micro-ondes
+
+singulier
+le mille-feuille
+.....
+les mille-feuilles
+
+singulier
+un mille-pattes
+.....
+des mille-papes
+
+singulier
+la moissonneuse-batteuse
+.....
+les moissonneuses-batteuses
+
+singulier
+une monnaie-du-pape
+.....
+des monnaies-du-pape
+
+singulier
+ce monte-plats
+.....
+ces monte-plats
+
+singulier
+un mot-clé
+.....
+des mots-clés

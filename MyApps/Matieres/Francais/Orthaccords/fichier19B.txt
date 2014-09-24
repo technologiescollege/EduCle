@@ -1,0 +1,251 @@
+Dans chaque phrase, remplace les ..... par l'adjectif qualificatif correspondant au singulier ou au pluriel.
+
+féminin singulier
+Cette fleur est vraiment magnifique.
+Ces fleurs sont vraiment ..... .
+Ces fleurs sont vraiment magnifiques.
+
+féminin singulier
+Maintenant, la tulipe est épanouie.
+Maintenant, les tulipes sont ..... .
+Maintenant, les tulipes sont épanouies
+
+féminin singulier
+La pelouse est bien tondue.
+Les pelouses sont bien ..... .
+Les pelouses sont bien tondues.
+
+masculin singulier
+Le livre de géographie est ouvert.
+Les livres de géographie sont ..... .
+Les livres de géographie sont ouverts.
+
+masculin singulier
+Le musicien de cet orchestre est anglais.
+Les musiciens de cet orcherstre sont ..... .
+Les musiciens de cet orchestre sont anglais.
+
+masculin singulier
+Ce danseur est hongrois.
+Ces danseurs sont ..... .
+Ces danseurs sont hongrois.
+
+féminin singulier
+Cette indication semble très précise.
+Ces indications semblent très ..... .
+Ces indications semblent très précises.
+
+masculin singulier
+Ce virage parait dangereux.
+Ces virages paraissent ..... .
+Ces virages paraissent dangereux.
+
+masculin singulier
+Ce grain de raisin est très juteux.
+Ces grains de raisin sont très ..... .
+Ces grains de raisin sont très juteux.
+
+masculin singulier
+Le dernier concurrent a été malchanceux.
+Les derniers concurrents ont été ..... .
+Les derniers concurrents ont été malchanceux.
+
+féminin singulier
+Cette fille a l'air paresseuse.
+Ces filles ont l'air ..... .
+Ces filles ont l'air paresseuses.
+
+masculin singulier
+Ce bouquet est vraiment très beau.
+Ces bouquets sont vraiment très ..... .
+Ces bouquets sont vraiment très beaux.
+
+masculin singulier
+Le maillot de ce joueur est bleu.
+Les maillots de ces joueurs sont ..... .
+Les maillots de ces joueurs sont bleus.
+
+masculin singulier
+Le vêtement que tu portes est tout neuf.
+Les vêtements que tu portes sont tout ..... .
+Les vêtements que tu portes sont tout neufs.
+
+masculin singulier
+Son geste est tout à fait amical.
+Ses gestes sont tout à fait ..... .
+Ses gestes sont tout à fait amicaux.
+
+masculin singulier
+Ce tabouret a l'air bancal.
+Ces tabourets ont l'air ..... .
+Ces tabourets ont l'air bancals.
+
+masculin singulier
+Le point rouge est central.
+Les points rouges sont ..... .
+Les points rouges sont centraux.
+
+masculin singulier
+Le nombre que je vous dicte est décimal.
+Les nombres que je vous dicte sont ..... .
+Les nombres que je vous dicte sont décimaux.
+
+féminin singulier
+Cette route est départementale.
+Ces routes sont ..... .
+Ces routes sont départementales.
+
+masculin singulier
+Ce sentiment est général.
+Ces sentiments sont ..... .
+Ces sentiments sont généraux.
+
+féminin singulier
+Cette température est hivernale.
+Ces températures sont ..... .
+Ces températures sont hivernales.
+
+masculin singulier
+Le trait vert est horizontal.
+Les traits verts sont ..... .
+Les traits verts sont horizontaux.
+
+masculin singulier
+Votre résultat semble normal.
+Vos résultats semblent ..... .
+Vos résultats semblent normaux.
+
+masculin singulier
+Le paysage que tu me montre est provençal.
+Les paysages que tu me montres sont ..... .
+Les paysages que tu me montres sont provençaux.
+
+féminin singulier
+Cette table est acajou.
+Ces tables sont ..... .
+Ces tables sont acajou.
+
+masculin singulier
+Le pain que nous mangeons est assez mou.
+Les pains que nous mangeons sont assez ..... .
+Les pains que nous mangeons sont assez mous.
+
+masculin singulier
+Ce cliché paraît flou.
+Ces clichés paraissent ..... .
+Ces clichés paraissent flous.
+
+masculin singulier
+Le pétale de la jonquille est jaune.
+Les pétales de la jonquille sont ..... .
+Les pétales de la jonquille sont jaunes.
+
+féminin singulier
+Dans mon jardin, la rose est rouge.
+Dans mon jardin, les roses sont ..... .
+Dans mon jardin, les roses sont rouges.
+
+masculin singulier
+Ici, le mur est blanc.
+Ici, les murs sont ..... .
+Ici, les murs sont blancs.
+
+masculin singulier
+Ce protège-cahier est orange.
+Ces protège-cahiers sont ..... .
+Ces protège-cahiers sont orange.
+
+masculin singulier
+Le pull-over est cerise.
+Les pull-overs sont ..... .
+Les pull-overs sont cerise.
+
+féminin singulier
+La chemise de papa est bordeaux.
+Les chemises de papa sont ..... .
+Les chemises de papa sont bordeaux.
+
+masculin singulier
+Le pantalon de ma soeur est marron.
+Les pantalons de ma soeur sont ..... .
+Les pantalons de ma soeur sont marron.
+
+féminin singulier
+Cette voiture est sable.
+Ces voitures sont ..... .
+Ces voitures sont sable.
+
+féminin singulier
+Cette feuille de papier est bleu ciel.
+Ces feuilles de papier sont ..... .
+Ces feuilles de papier sont bleu ciel.
+
+féminin singulier
+La robe de maman est bleu marine.
+Les robes de maman sont ..... .
+Les robes de maman sont bleu marine.
+
+masculin singulier
+Le pétale de la jonquille est jaune citron.
+Les pétales de la jonquille sont ..... .
+Les pétales de la jonquille sont jaune citron.
+
+masculin singulier
+Cette fleur de géranium est rouge sang.
+Ces fleurs de géranium sont ..... .
+Ces fleurs de géranium sont rouge sang.
+
+féminin singulier
+La jeune feuille est vert clair.
+Les jeunes feuilles sont ..... .
+Les jeunes feuilles sont vert clair.
+
+féminin singulier
+Cette serviette est bleu clair.
+Ces serviettes sont ..... .
+Ces serviettes sont bleu clair.
+
+masculin singulier
+Ce torchon est blanc crème.
+Ces torchons sont ..... .
+Ces torchons sont blanc crème.
+
+masculin singulier
+Ce rideau est rose pâle.
+Ces rideaux sont ..... .
+Ces rideaux sont rose pâle.
+
+féminin singulier
+Cette fille est vraiment jalouse.
+Ces filles sont vraiment ..... .
+Ces filles sont vraiment jalouses.
+
+masculin singulier
+Ton résultat semble faux.
+Tes résultats semblent ..... .
+Tes résultats semblent faux.
+
+masculin singulier
+Notre gâteau est très réussi.
+Nos gâteaux sont très ..... .
+Nos gâteaux sont très réussis.
+
+masculin singulier
+Ce véhicule est nouveau.
+Ces véhicules sont ..... .
+Ces véhicules sont nouveaux..
+
+masculin singulier
+Ce geste était brutal.
+Ces gestes étaient ..... .
+Ces gestes étaient brutaux.
+
+masculin singulier
+Ce bâtiment est colossal.
+Ces bâtiments sont ..... .
+Ces bâtiments sont colossaux.
+
+masculin singulier
+Ce rendez-vous sera dominical.
+Ces rendez-vous seront ..... .
+Ces rendez-vous seront dominicaux.

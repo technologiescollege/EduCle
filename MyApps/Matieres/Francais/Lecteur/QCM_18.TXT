@@ -1,0 +1,40 @@
+Mme Anserre faisait des vers et des romans.
+Mme Anserre faisait des vers et des contes.
+Mme Anserre faisait des vers et des nouvelles.
+3
+On la compare à une étoile.
+On la compare à une comète.
+On la compare à un soleil.
+2
+Les jours de réception on sert une tarte.
+Les jours de réception on sert une brioche.
+Les jours de réception on sert une galette.
+2
+Les amis de Madame se réunissent dans une galerie.
+Les amis de Monsieur se réunissent dans une galerie.
+On ne sait pas où ils se réunissent.
+1
+Monsieur avait étudié superficiellement l'agriculture.
+Monsieur avait étudié profondément l'agriculture.
+On ne précise pas comment Monsieur avait étudié.
+2
+Au début, la brioche était découpé par Monsieur.
+Au début, la brioche était découpé par des "laboureurs".
+Au début, la brioche était découpé par des membres de "l'Académie".
+3
+Couper la brioche était un symbole.
+Couper la brioche ne signifiait rien.
+L'histoire n'en parle pas.
+1
+On se moque du néophyte qui coupe la brioche.
+On est jaloux du néophyte qui coupe la brioche.
+On marque de la considération pour le néophyte qui coupe la brioche.
+3
+Le jeune homme consulte le mari à propos d'agriculture.
+Le jeune homme consulte le mari à propos de poésie.
+Le jeune homme consulte le mari à propos de politique.
+1
+C'est Baptiste qui désormais coupera la brioche.
+C'est Madame Anserre qui désormais coupera la brioche.
+L'histoire ne dit pas qui désormais coupera la brioche.
+3

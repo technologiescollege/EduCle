@@ -1,0 +1,251 @@
+Lis le groupe nominal, puis remplace les ..... par le GN au singulier ou au pluriel.
+
+singulier
+ma bille
+..... .....
+mes billes
+
+singulier
+cette rose
+.....  .....
+ces roses
+
+singulier
+un canard
+..... .....
+des canards
+
+singulier
+la souris
+..... .....
+les souris
+
+singulier
+la voix
+..... .....
+les voix
+
+singulier
+le houx
+..... .....
+les houx
+
+singulier
+un gaz
+..... .....
+des gaz
+
+singulier
+la perdrix
+..... .....
+les perdrix
+
+singulier
+ton manteau
+..... .....
+tes manteaux
+
+singulier
+ce landau
+..... .....
+ces landaus
+
+singulier
+un marteau
+..... .....
+des marteaux
+
+singulier
+ce tuyau
+..... .....
+ces tuyaux
+
+singulier
+le trou
+..... .....
+les trous
+
+singulier
+un caillou
+..... .....
+des cailloux
+
+singulier
+son bijou
+..... .....
+ses bijoux
+
+singulier
+le clou
+..... .....
+les clous
+
+singulier
+un pou
+..... .....
+des poux
+
+singulier
+cet écrou
+..... .....
+ces écrous
+
+singulier
+ton genou
+..... .....
+tes genoux
+
+singulier
+leur jeu
+..... .....
+leurs jeux
+
+singulier
+un bleu
+..... .....
+des bleus
+
+singulier
+le neveu
+..... .....
+les neveux
+
+singulier
+l'émeu
+..... .....
+les émeus
+
+singulier
+votre cheveu
+..... .....
+vos cheveux
+
+singulier
+le pneu
+..... .....
+les pneus
+
+singulier
+le milieu
+..... .....
+les milieux
+
+singulier
+un canal
+..... .....
+des canaux
+
+singulier
+le bal
+..... .....
+les bals
+
+singulier
+notre animal
+..... .....
+nos animaux
+
+singulier
+ce chacal
+..... .....
+ces chacals
+
+singulier
+le journal
+..... .....
+les journaux
+
+singulier
+le soupirail
+..... .....
+les soupiraux
+
+singulier
+un rail
+..... .....
+des rails
+
+singulier
+l'éventail
+..... .....
+les éventails
+
+singulier
+mon travail
+..... .....
+mes travaux
+
+singulier
+cet épouvantail
+..... .....
+ces épouvantails
+
+singulier
+le vitrail
+..... .....
+les vitraux
+
+pluriel
+ces émaux
+..... .....
+cet émail
+
+pluriel
+nos tuyaux
+..... .....
+notre tuyau
+
+pluriel
+ses journaux
+..... .....
+son journal
+
+pluriel
+les carnavals
+..... .....
+le carnaval
+
+pluriel
+vos gâteaux
+..... .....
+votre gâteau
+
+pluriel
+les vitraux
+..... .....
+le vitrail
+
+pluriel
+leurs signaux
+..... .....
+leur signal
+
+pluriel
+les noyaux
+..... .....
+le noyau
+
+pluriel
+des soupiraux
+..... .....
+un soupirail
+
+pluriel
+ces gouvernails
+..... ......
+ce gouvernail
+
+pluriel
+ces cristaux
+..... .....
+ce cristal
+
+pluriel
+les métaux
+..... .....
+le métal
+
+pluriel
+des souris
+..... .....
+une souris

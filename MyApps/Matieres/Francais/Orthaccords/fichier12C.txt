@@ -1,0 +1,251 @@
+Lis le groupe nominal, puis remplace les ..... par le nom d'animal au masculin ou au féminin.
+
+masculin
+un âne
+une .....
+une ânesse
+
+masculin
+un bélier
+une .....
+une brebis
+
+masculin
+un bouc
+une .....
+une chèvre
+
+masculin
+un canard
+une .....
+une cane
+
+masculin
+un cerf
+une .....
+une biche
+
+masculin
+le chameau
+la .....
+la chamelle
+
+masculin
+le chat
+la .....
+la chatte
+
+masculin
+un cheval
+une .....
+une jument
+
+masculin
+un chevreuil
+une .....
+une chevrette
+
+masculin
+un chien
+une .....
+une chienne
+
+masculin
+un coq
+une .....
+une poule
+
+masculin
+un daim
+une .....
+une daine
+
+masculin
+un dindon
+une .....
+une dinde
+
+masculin
+un éléphant
+une .....
+une éléphante
+
+masculin
+un ours
+une .....
+une ourse
+
+masculin
+un faisan
+une .....
+une faisane
+
+masculin
+un jars
+une .....
+une oie
+
+masculin
+un lapin
+une .....
+une lapine
+
+masculin
+un lièvre
+une .....
+une hase
+
+masculin
+un lion
+une .....
+une lionne
+
+masculin
+un loup
+une .....
+une louve
+
+masculin
+le merle
+la .....
+la merlette
+
+masculin
+un singe
+une .....
+une guenon
+
+masculin
+un paon
+une .....
+une paonne
+
+masculin
+le pigeon
+la .....
+la pigeonne
+
+masculin
+un porc
+une .....
+une truie
+
+masculin
+un renard
+une .....
+une renarde
+
+masculin
+le sanglier
+la .....
+la laie
+
+masculin
+un taureau
+une .....
+une vache
+
+masculin
+ce tigre
+cette .....
+cette tigresse
+
+féminin
+cette ânesse
+cet .....
+cet âne
+
+féminin
+la brebis
+le. .....
+le bélier
+
+féminin
+la chèvre
+le .....
+le bouc
+
+féminin
+une cane
+un .....
+un canard
+
+féminin
+une biche
+un .....
+un cerf
+
+féminin
+une chamelle
+un .....
+un chameau
+
+féminin
+une chatte
+un .....
+un chat
+
+féminin
+une jument
+un .....
+un cheval
+
+féminin
+une chevrette
+un .....
+un chevreuil
+
+féminin
+cette chienne
+ce .....
+ce chien
+
+féminin
+une poule
+un .....
+un coq
+
+féminin
+la daine
+le .....
+le daim
+
+féminin
+la dinde
+le .....
+le dindon
+
+féminin
+la laie
+le .....
+le sanglier
+
+féminin
+une oie
+un .....
+un jars
+
+féminin
+une lapine
+un .....
+un lapin
+
+féminin
+une hase
+un ......
+un lièvre
+
+féminin
+une lionne
+un .....
+un lion
+
+féminin
+la louve
+le .....
+le loup
+
+féminin
+une truie
+un .....
+un porc

@@ -1,0 +1,40 @@
+Il s'agit d'un conte indien.
+Il s'agit d'un conte australien.
+Il s'agit d'un conte créole.
+3
+Compère Lapin épie derrière un rocher.
+Compère Lapin épie derrière un buisson.
+Compère Lapin épie derrière un arbre.
+2
+L'Éléphant fait une proposition à la Baleine.
+La Baleine fait une proposition à l'Éléphant.
+On ne nous dit pas lequel lance le premier une proposition.
+2
+Le lapin a un gros tambour.
+Le lapin a un petit tambour.
+Le lapin a un tambour de taille indéfinie.
+1
+Le lapin va d'abord trouver l'Éléphant.
+Le lapin va d'abord trouver la Baleine.
+On ne sait pas lequel il va voir en premier.
+2
+La corde est attachée autour des cornes de la vache.
+La corde est attachée autour de la queue de l'Éléphant.
+La corde est attachée autour de la trompe de l'Éléphant.
+3
+L'Éléphant pense pouvoir tirer une vache enfoncée jusqu'aux cornes.
+L'Éléphant pense pouvoir tirer dix vaches.
+L'Éléphant pense pouvoir tirer vingt vaches.
+3
+L'Éléphant amène la Baleine au bord du rivage.
+La Baleine amène l'Éléphant au bord du rivage.
+La Baleine amène l'Éléphant au fond de l'eau.
+2
+La Baleine mugit.
+La Baleine rugit.
+La Baleine trompette.
+1
+La corde se détacha.
+La corde cassa.
+La corde s'allongea.
+2

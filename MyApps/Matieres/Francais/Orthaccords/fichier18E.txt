@@ -1,0 +1,251 @@
+Dans chaque groupe nominal, remplace les ..... par l'adjectif qualificatif correspondant au féminin
+
+masculin
+un légume amer
+une endive .....
+une endive amère
+
+masculin
+un péage autoroutier
+une voie .....
+une voie autoroutière
+
+masculin
+l'avant-dernier jour
+l'..... journée
+l'avant-dernière journée
+
+masculin
+un tigre carnassier
+une panthère .....
+une panthère carnassière
+
+masculin
+un aliment cher
+une viande .....
+une viande chère
+
+masculin
+un chemin côtier
+une route .....
+une route côtière
+
+masculin
+un homme dépensier
+une femme .....
+une femme dépensière
+
+masculin
+le dernier train
+la ..... locomotive
+la dernière locomotive
+
+masculin
+un garçon droitier
+une fille .....
+une fille droitière
+
+masculin
+un abricot entier
+une pomme .....
+une pomme entière
+
+masculin
+un touriste étranger
+une touriste .....
+une touriste étrangère
+
+masculin
+un patron fier
+une patronne .....
+une patronne fière
+
+masculin
+un chemin forestier
+une allée .....
+une allée forestière
+
+masculin
+un village frontalier
+une ville .....
+une ville frontalière
+
+masculin
+un boulanger gaucher
+une boulangère .....
+une boulangère gauchère
+
+masculin
+un geste grossier
+une attitude .....
+une attitude grossière
+
+masculin
+un travail journalier
+une tâche .....
+une tâche journalière
+
+masculin
+un produit laitier
+une production .....
+une production laitière
+
+masculin
+un papier léger
+une feuille .....
+une feuille légère
+
+masculin
+un pays minier
+une région .....
+une région minière
+
+masculin
+le terrain nourricier
+une terre .....
+une terre nourricière
+
+masculin
+un combat ouvrier
+une lutte .....
+une lutte ouvrière
+
+masculin
+un problème particulier
+une difficulté .....
+une difficulté particulière
+
+masculin
+un ennui passager
+une contrariété .....
+une contrariété passagère
+
+masculin
+le premier candidat
+la ..... candidate
+la première candidate
+
+masculin
+un costume princier
+une tenue .....
+une tenue princière
+
+masculin
+un vent printanier
+une brise .....
+une brise printanière
+
+masculin
+un trafic régulier
+une circulation .....
+une circulation régulière
+
+masculin
+un métier saisonnier
+une activité .....
+une activité saisonnière
+
+masculin
+un vin clair
+une eau .....
+une eau claire
+
+masculin
+un nombre impair
+une valeur .....
+une valeur impaire
+
+masculin
+un chat noir
+une chatte .....
+une chatte noire
+
+masculin
+un gilet saphir
+une chemise .....
+une chemise saphir
+
+masculin
+un membre antérieur
+une patte .....
+une patte antérieure
+
+masculin
+un orage dévastateur
+une tempête .....
+une tempête dévastatrice
+
+masculin
+un plan directeur
+une idée .....
+une idée directrice
+
+masculin
+un travail créateur
+une profession .....
+une profession créatrice
+
+masculin
+l'air extérieur
+la température .....
+la température extérieure
+
+masculin
+un enfant menteur
+une enfant .....
+une enfant menteuse
+
+masculin
+un panneau indicateur
+une pancarte .....
+une pancarte indicatrice
+
+masculin
+un meilleur potage
+une ..... soupe
+une meilleure soupe
+
+masculin
+un résultat prometteur
+une conclusion .....
+une conclusion prometteuse
+
+masculin
+un étui protecteur
+une enveloppe .....
+une enveloppe protectrice
+
+masculin
+le niveau supérieur
+la hauteur .....
+la hauteur supérieure
+
+masculin
+un écolier rêveur
+une écolière .....
+une écolière rêveuse
+
+masculin
+un oiseau migrateur
+une oie .....
+une oie migratrice
+
+masculin
+un garçon travailleur
+une fille .....
+une fille travailleuse
+
+masculin
+un ennui majeur
+une inquiétude .....
+une inquiétude majeure
+
+masculin
+un air trompeur
+une attitude .....
+une attitude trompeuse
+
+masculin
+un pigeon voyageur
+une grue .....
+une grue voyageuse

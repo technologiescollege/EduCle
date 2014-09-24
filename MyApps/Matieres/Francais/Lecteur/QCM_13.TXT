@@ -1,0 +1,40 @@
+Le chat va cacher un pot de confiture.
+Le chat va cacher un pot de saindoux.
+Le chat va cacher un pot de miel.
+2
+Ils cachent le pot dans le confessional de l'église.
+Ils cachent le pot sous l'autel de l'église.
+L'histoire ne dit pas où est caché le pot dans l'église.
+2
+Le premier filleul dont parle le chat est blanc avec des taches noires.
+Le premier filleul dont parle le chat est blanc avec des taches rousses.
+Le premier filleul dont parle le chat est blanc avec des taches marron.
+3
+Volemiettes est le nom des filleuls du chat.
+Volemiettes est le nom des filleuls de la souris.
+Volemiettes est le nom des parents du chat.
+2
+Le prénom du premier filleul est "Miparti".
+Le prénom du deuxième filleul est "Miparti".
+Le prénom du troisième filleul est "Miparti".
+2
+La souris a une robe gris foncé.
+La souris a une robe gris clair.
+On ne connait pas la couleur de la robe.
+1
+La souris fait la vaisselle.
+La souris fait les lits.
+La souris fait le ménage.
+3
+Les prénoms inventés par le chat font rire la souris.
+Les prénoms inventés par le chat attristent la souris.
+Les prénoms inventés par le chat inquiètent la souris.
+3
+Dans l'église, le pot avait disparu.
+Dans l'église, le pot était vide.
+Dans l'église, le pot n'était plus à sa place.
+2
+A la fin, le chat dévore la souris.
+A la fin, le chat offre un nouveau pot à la souris.
+A la fin, le chat quitte la souris.
+1

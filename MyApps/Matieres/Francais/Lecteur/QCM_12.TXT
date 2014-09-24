@@ -1,0 +1,40 @@
+Une cigogne a emporté l'enfant en haut d'un arbre.
+Un oiseau de proie a emporté l'enfant en haut d'un arbre.
+On ne sait pas qui a placé l'enfant en haut d'un arbre.
+2
+L'enfant est découvert par un chasseur.
+L'enfant est découvert par un bûcheron.
+L'enfant est découvert par un garde forestier.
+3
+Madelon et Dénichet s'aiment très fort.
+Madelon et Dénichet s'aiment un peu.
+Madelon et Dénichet ne s'aiment guère.
+1
+La vieille Suzon va une fois au puits avec deux seaux.
+La vieille Suzon va deux fois au puits avec un seau.
+La vieille Suzon va plusieurs fois au puits avec deux seaux.
+3
+Dénichet promet à Madelon qu'il l'aimera toujours.
+Dénichet promet à Madelon qu'il ne la quittera jamais.
+Dénichet promet à Madelon qu'il lui obéira toujours.
+2
+Madelon était très belle.
+Madelon n'était pas très belle.
+L'histoire ne dit pas si Madelon était belle.
+3
+Dénichet est transformé en rosier.
+Madelon est transformé en rosier.
+Dénichet est transformé en rose.
+1
+La vieille Suzon est une sorcière.
+La vieille Suzon est une méchante fée.
+On ne sait rien de précis sur la vieille Suzon.
+3
+Dénichet est transformé en canard.
+Madelon est transformé en canard.
+La vieille Suzon est transformé en canard.
+2
+Cette histoire est un conte de Grimm.
+Cette histoire est un conte de Perrault.
+Cette histoire est un conte de Maupassant.
+1

@@ -1,0 +1,251 @@
+Dans chaque phrase, remplace les ..... par la fin de la phrase au pluriel.
+
+masculin singulier
+Ce virage semble très dangereux.
+Ces ..... .
+Ces virages semblent très dangereux.
+
+masculin singulier
+Ton résultat est plutôt passable.
+Tes ..... .
+Tes résultats sont plutôt passables.
+
+féminin singulier
+Cette vache est blanche.
+Ces ..... .
+Ces vaches sont blanches.
+
+masculin singulier
+Ce journal n'est pas cher.
+Ces ..... .
+Ces journaux ne sont pas chers.
+
+masculin singulier
+Ce tapis est marron.
+Ces ..... .
+Ces tapis sont marron.
+
+féminin singulier
+La noix est comestible.
+Les ..... .
+Les noix sont comestibles.
+
+masculin singulier
+Ce gaz est inodore.
+Ces ..... .
+Ces gaz sont inodores.
+
+masculin singulier
+Mon voisin n'est pas très attentif.
+Mes ..... .
+Mes voisins ne sont pas très attentifs.
+
+masculin singulier
+Le noyau est très dur.
+Les  ..... .
+Les noyaux sont très durs.
+
+masculin singulier
+Ce gâteau est délicieux.
+Ces ..... .
+Ces gâteaux sont délicieux.
+
+masculin singulier
+Le landau est bleu marine.
+Les ..... .
+Les landaus sont bleu marine.
+
+masculin singulier
+Ce bateau semble vraiment spacieux.
+Ces ..... .
+Ces bateaux semblent vraiment spacieux.
+
+masculin singulier
+Le chou est bien vert.
+Les ..... .
+Les choux sont bien verts.
+
+masculin singulier
+Ce clou est très pointu.
+Ces ..... .
+Ces clous sont très pointus.
+
+masculin singulier
+Mon genou est blessé.
+Mes ..... .
+Mes genoux sont blessés.
+
+masculin singulier
+Le verrou paraît fermé.
+Les ..... .
+Les verrous paraissent fermés.
+
+masculin singulier
+Le jour, le hibou est endormi.
+Le jour, les ..... .
+Le jour, les hiboux sont endormis.
+
+masculin singulier
+Ce mur est parfaitement vertical.
+Ces ..... .
+Ces murs sont parfaitement verticaux.
+
+masculin singulier
+Le bureau est bancal.
+Les ..... .
+Les bureaux sont bancals.
+
+féminn singulier
+La température est estivale.
+Les ..... .
+Les températures sont estivales.
+
+masculin singulier
+Le travail est enfin terminé.
+Les ..... .
+Les travaux sont enfin terminés.
+
+masculin singulier
+Ce texte est tout à fait général.
+Ces ..... .
+Ces textes sont tout à fait généraux.
+
+masculin singulier
+Ton cousin est matinal.
+Tes ..... .
+Tes cousins sont matinaux.
+
+masculin singulier
+Ce tabouret est bancal.
+Ces..... .
+Ces tabourets sont bancals.
+
+féminin singulier
+Cette table est acajou.
+Ces ..... .
+Ces tables sont acajou.
+
+masculin singulier
+Votre chocolat est mou.
+Vos ..... .
+Vos chocolats sont mous.
+
+féminin singulier
+Cette robe est vert clair.
+Ces ..... .
+Ces robes sont vert clair.
+
+masculin singulier
+Ce pneu a l'air crevé.
+Ces ..... .
+Ces pneus ont l'air crevés.
+
+masculin singulier
+Mon oeil est fermé.
+Mes ..... .
+Mes yeux sont fermés.
+
+masculin singulier
+Son bleu est douloureux.
+Ses ..... .
+Ses bleus sont douloureux.
+
+masculin singulier
+Ce lieu m'était inconnu.
+Ces ..... .
+Ces lieux m'étaient inconnus.
+
+masculin singulier
+Le lieu noir est délicieux.
+Les ..... .
+Les lieus noirs sont délicieux.
+
+masculin singulier
+Ce détail semble peu important.
+Ces ..... .
+Ces détails semblent peu importants.
+
+masculin singulier
+Le vitrail est magnifique.
+Les ..... .
+Les vitraux sont magnifiques.
+
+masculin singulier
+Notre portail est ouvert.
+Nos ..... .
+Nos portails sont ouverts.
+
+masculin singulier
+Le cristal est transparent.
+Les ..... .
+Les cristaux sont transparents.
+
+masculin singulier
+Le petit chat gris reste endormi.
+Les ..... .
+Les petits chats gris restent endormis.
+
+masculin singulier
+Le récital était très varié.
+Les ..... .
+Les récitals étaient très variés.
+
+masculin singulier
+Ce plan est horizontal.
+Ces ..... .
+Ces plans sont horizontaux.
+
+masculin singulier
+Votre résultat est normal.
+Vos ..... .
+Vos résultats sont normaux.
+
+féminin singulier
+Cette paroi est presque verticale.
+Ces ..... .
+Ces parois sont presque verticales.
+
+féminin singulier
+La blouse est bleue.
+Les ..... .
+Les blouses sont bleues.
+
+masculin singulier
+Mon gilet est bleu foncé.
+Mes..... .
+Mes gilets sont bleu foncé.
+
+féminin singulier
+Cette fleur est jaune citron.
+Ces ..... .
+Ces fleurs sont jaune citron.
+
+masculin singulier
+Ce journal est régional.
+Ces ..... .
+Ces journaux sont régionaux.
+
+masculin singulier
+Ton exercice paraît faux.
+Tes ..... .
+Tes exercices paraissent faux.
+
+masculin singulier
+Ce concurrent est trop chanceux.
+Ces ..... .
+Ces concurrents sont trop chanceux.
+
+féminin singulier
+Cette fille semble heureuse.
+Ces ..... .
+Ces filles semblent heureuses.
+
+féminin singulier
+Ma demande est très précise.
+Mes ..... .
+Mes demandes sont très précises.
+
+masculin singulier
+Ce vent reste froid.
+Ces ..... .
+Ces vents restent froids.

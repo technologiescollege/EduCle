@@ -1,0 +1,251 @@
+Dans chaque groupe nominal, remplace les ..... par l'adjectif qualificatif correspondant au féminin
+
+masculin
+un ouragan affreux
+une tempête .....
+une tempête affreuse
+
+masculin
+un garçon amoureux
+une fille .....
+une fille amoureuse
+
+masculin
+un homme anxieux
+une femme .....
+une femme anxieuse
+
+masculin
+un champ boueux
+une prairie .....
+une prairie boueuse
+
+masculin
+un ciel brumeux
+une atmosphère .....
+une atmosphère brumeuse
+
+masculin
+un chemin caillouteux
+une route .....
+une route caillouteuse
+
+masculin
+un rassemblement chaleureux
+une réunion .....
+une réunion chaleureuse
+
+masculin
+un élève consciencieux
+une élève .....
+une élève consciencieuse
+
+masculin
+un agriculteur courageux
+une agricultrice .....
+une agricultrice courageuse
+
+masculin
+un repas copieux
+une nourriture .....
+une nourriture copieuse
+
+masculin
+un vieux cheval
+une vieille .....
+une vieille jument
+
+masculin
+un hiver doux
+une saison .....
+une saison douce
+
+masculin
+un outil dangereux
+une machine .....
+une machine dangereuse
+
+masculin
+un moka délicieux
+une religieuse .....
+une religieuse délicieuse
+
+masculin
+un bras douloureux
+une jambe .....
+une jambe douloureuse
+
+masculin
+un torchon doux
+une serviette .....
+une serviette douce
+
+masculin
+un arbre roux
+une feuille .....
+une feuille rousse
+
+masculin
+un spectacle ennuyeux
+une représentation .....
+une représentation ennuyeuse
+
+masculin
+un résultat faux
+une solution .....
+une solution fausse
+
+masculin
+un liquide gazeux
+une eau .....
+une eau gazeuse
+
+masculin
+un arrangement harmonieux
+une orchestration .....
+une orchestration hamonieuse
+
+masculin
+un garçon jaloux
+une fille .....
+une fille jalouse
+
+masculin
+un bureau lumineux
+une chambre .....
+une chambre lumineuse
+
+masculin
+un palais luxueux
+une demeure .....
+une demeure luxueuse
+
+masculin
+un endroit mystérieux
+une île .....
+une île mystérieuse
+
+masculin
+un vin mousseux
+une bière .....
+une bière mousseuse
+
+masculin
+de nombreux flocons
+de ..... gouttes
+de nombreuses gouttes
+
+masculin
+des garçons paresseux
+des filles .....
+des filles paresseuses
+
+masculin
+des chiens peureux
+des chiennes .....
+des chiennes peureuses
+
+masculin
+des cheveux roux
+des chevelures .....
+des chevelures rousses
+
+masculin
+des gâteux savoureux
+des tartes .....
+des tartes savoureuses
+
+masculin
+un tissu soyeux
+une étoffe .....
+une étoffe soyeuse
+
+masculin
+des vieux arbres
+des ...... plantations
+des vieilles plantations
+
+masculin
+un athlète victorieux
+une athlète .....
+une athlète victorieuse
+
+masculin
+un colis volumineux
+une lettre .....
+une lettre volumineuse
+
+masculin
+des étangs poissonneux
+des rivières .....
+des rivières poissonneuses
+
+masculin
+des terrains marécageux
+des terres .....
+des terres marécageuses
+
+masculin
+des airs langoureux
+des musiques .....
+des musiques langoureuses
+
+masculin
+un citron juteux
+une orange .....
+une orange juteuse
+
+masculin
+des buissons épineux
+des haies .....
+des haies épineuses
+
+masculin
+des récits faux
+des histoires .....
+des histoires fausses
+
+masculin
+des endroits dangereux
+des régions .....
+des régions dangereuses
+
+masculin
+des joueurs chanceux
+des joueuses .....
+des joueuses chanceuses
+
+masculin
+un gamin capricieux
+une gamine .....
+une gamine capricieuse
+
+masculin
+des dompteurs courageux
+des dompteuses .....
+des dompteuses courageuses
+
+masculin
+des hivers très doux
+des saisons très .....
+des saisons très douces
+
+masculin
+des pelages roux
+des fourrures .....
+des fourrures rousses
+
+masculin
+des chercheurs curieux
+des chercheuses .....
+des chercheuses curieuses
+
+masculin
+un touriste heureux
+une touriste .....
+une touriste heureuse
+
+masculin
+des lions majestueux
+des lionnes .....
+des lionnes majestueuses

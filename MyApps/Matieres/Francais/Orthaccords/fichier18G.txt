@@ -1,0 +1,251 @@
+Dans chaque groupe nominal, remplace les ..... par l'adjectif qualificatif correspondant au féminin
+
+masculin
+un mets délicat
+une cuisine .....
+une cuisine délicate
+
+masculin
+un départ immédiat
+une arrivée .....
+une arrivée immédiate
+
+masculin
+un teint mat
+une peau .....
+une peau mate
+
+masculin
+un pays plat
+une région .....
+une région plate
+
+masculin
+un pantalon chocolat
+une jupe .....
+une jupe chocolat
+
+masculin
+un stade complet
+une salle .....
+une salle complète
+
+masculin
+un résultat concret
+une solution .....
+une solution concrète
+
+masculin
+un garçon discret
+une fille .....
+une fille discrète
+
+masculin
+un cousin douillet
+une cousine .....
+une cousine douillette
+
+masculin
+un wagon incomplet
+une voiture .....
+une voiture incomplète
+
+masculin
+un homme muet
+une femme .....
+une femme muette
+
+masculin
+un bord net
+une bordure .....
+une bordure nette
+
+masculin
+un renseignement secret
+une information .....
+une information secrète
+
+masculin
+un chemisier violet
+une chemise .....
+une chemise violette
+
+masculin
+un joueur adroit
+une joueuse .....
+une joueuse adroite
+
+masculin
+un rôti bien cuit
+une brochette bien .....
+une brochette bien cuite
+
+masculin
+un élève distrait
+une élève .....
+une élève distraite
+
+masculin
+un trait droit
+une ligne .....
+une ligne droite
+
+masculin
+un billet gratuit
+une entrée .....
+une entrée gratuite
+
+masculin
+un lanceur maladroit
+une lanceuse .....
+une lanceuse maladroite
+
+masculin
+un courrier manuscrit
+une lettre .....
+une lettre manuscrite
+
+masculin
+un concours parfait
+une course .....
+une course parfaite
+
+masculin
+un petit chat
+une ..... chatte
+une petite chatte
+
+masculin
+un immeuble très haut
+une tour très .....
+une tour très haute
+
+masculin
+un cache-col abricot
+une écharpe .....
+une écharpe abricot
+
+masculin
+un visage pâlot
+une figure .....
+une figure pâlotte
+
+masculin
+un frère idiot
+une soeur .....
+une soeur idiote
+
+masculin
+un garçonnet sot
+une fillette .....
+une fillette sotte
+
+masculin
+un maître absent
+une maîtresse .....
+une maîtresse absente
+
+masculin
+un gâteau alléchant
+une pâtisserie .....
+une pâtisserie alléchante
+
+masculin
+un acteur amusant
+une actrice .....
+une actrice amusante
+
+masculin
+un commentaire blessant
+une remarque .....
+une remarque blessante
+
+masculin
+un liquide bouillant
+une eau .....
+une eau bouillante
+
+masculin
+un orage violent
+une tempête .....
+une tempête violente
+
+masculin
+un moteur bruyant
+une machine .....
+une machine bruyante
+
+masculin
+un garçon charmant
+une fille .....
+une fille charmante
+
+masculin
+un séjour bien trop court
+une pause bien trop .....
+une pause bien trop courte
+
+masculin
+un joueur de tennis très fort
+une joueuse de tennis très .....
+une joueuse de tennis très forte
+
+masculin
+un portail ouvert
+une porte .....
+une porte ouverte
+
+masculin
+un message secret
+une lettre .....
+une lettre secrète
+
+masculin
+un gazon bien vert
+une pelouse bien .....
+une pelouse bien verte
+
+masculin
+un haricot grimpant
+une plante .....
+une plante grimpante
+
+masculin
+un travail insuffisant
+une énergie .....
+une énergie insuffisante
+
+masculin
+un enfant intelligent
+une enfant .....
+une enfant intelligente
+
+masculin
+un pas très lent
+une allure très .....
+une allure très lente
+
+masculin
+un air menaçant
+une attitude .....
+une attitude menaçante
+
+masculin
+un roman passionnant
+une nouvelle .....
+une nouvelle passionnante
+
+masculin
+un fauteuil pliant
+une chaise .....
+une chaise pliante
+
+masculin
+un conducteur prudent
+une conductrice .....
+une conductrice prudente
+
+masculin
+l'exercice suivant
+l'activité .....
+l'activité suivante

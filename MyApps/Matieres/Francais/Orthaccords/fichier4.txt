@@ -1,0 +1,251 @@
+Lis le groupe nominal, puis remplace les ..... par le nom commun au pluriel.
+
+singulier
+une souris
+des .....
+des souris
+
+singulier
+un palais
+des .....
+des palais
+
+singulier
+le tas
+les .....
+les tas
+
+singulier
+ma jambe
+mes .....
+mes jambes
+
+singulier
+le bois
+les .....
+les bois
+
+singulier
+un marais
+des .....
+des marais
+
+singulier
+un talus
+des .....
+des talus
+
+singulier
+la noix
+les .....
+les noix
+
+singulier
+un lynx
+des .....
+des lynx
+
+singulier
+une feuille
+des .....
+des feuilles
+
+singulier
+une voix
+des .....
+des voix
+
+singulier
+la fille
+les .....
+les filles
+
+singulier
+un choix
+des .....
+des choix
+
+singulier
+une tomate
+des .....
+des tomates
+
+singulier
+le creux
+les .....
+les creux
+
+singulier
+un index
+des .....
+des index
+
+singulier
+ton silex
+tes .....
+tes silex
+
+singulier
+une perdrix
+des .....
+des perdrix
+
+singulier
+un gaz
+des .....
+des gaz
+
+singulier
+le nez
+les .....
+les nez
+
+singulier
+sa voiture
+ses .....
+ses voitures
+
+singulier
+un iris
+des .....
+des iris
+
+singulier
+le mois
+les .....
+les mois
+
+singulier
+un chien
+des .....
+des chiens
+
+singulier
+un colis
+des .....
+des colis
+
+singulier
+un semis
+des .....
+des semis
+
+singulier
+le tapis
+les .....
+les tapis
+
+singulier
+un bonus
+des .....
+des bonus
+
+singulier
+mon rébus
+mes .....
+mes rébus
+
+singulier
+un refus
+des .....
+des refus
+
+singulier
+le virus
+les .....
+les virus
+
+singulier
+ta veste
+tes .....
+tes vestes
+
+singulier
+le cactus
+les .....
+les cactus
+
+singulier
+une brebis
+des .....
+des brebis
+
+singulier
+un putois
+des .....
+des putois
+
+singulier
+un chamois
+des .....
+des chamois
+
+singulier
+le prix
+les .....
+les prix
+
+singulier
+la carte
+les .....
+les cartes
+
+singulier
+un radis
+des .....
+des radis
+
+singulier
+un vernis
+des .....
+des vernis
+
+singulier
+un anchois
+des .....
+des anchois
+
+singulier
+un poisson
+des .....
+des poissons
+
+singulier
+un cadenas
+des .....
+des cadenas
+
+singulier
+le taillis
+les .....
+les taillis
+
+singulier
+un myosotis
+des .....
+des myosotis
+
+singulier
+un crocus
+des .....
+des crocus
+
+singulier
+une orange
+des .....
+des oranges
+
+singulier
+l'autobus
+les .....
+les autobus
+
+singulier
+le dos
+les .....
+les dos
+
+singulier
+un héros
+des .....
+des héros

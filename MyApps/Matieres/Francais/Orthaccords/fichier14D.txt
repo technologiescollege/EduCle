@@ -1,0 +1,251 @@
+Lis le groupe nominal, puis remplace les ..... par le nom d'un métier au masculin ou au féminin.
+
+masculin
+un antiquaire
+une .....
+une antiquaire
+
+masculin
+un chanteur
+un .....
+une chanteuse
+
+masculin
+un boulanger
+une .....
+une boulangère
+
+masculin
+un caissier
+une ..... 
+une caissière
+
+masculin
+un arbitre
+une .....
+une arbitre
+
+masculin
+un coiffeur
+une .....
+une coiffeuse
+
+masculin
+un chocolatier
+une .....
+une chocolatière
+
+masculin
+un architecte
+une .....
+une architecte
+
+masculin
+un danseur
+une .....
+une danseuse
+
+masculin
+un charcutier
+une .....
+une charcutière
+
+masculin
+un botaniste
+une .....
+une botaniste
+
+masculin
+un maquilleur
+une .....
+une maquilleuse
+
+masculin
+un fromager
+une .....
+une fromagère
+
+masculin
+un comptable
+une .....
+une comptable
+
+masculin
+un serveur
+une .....
+une serveuse
+
+masculin
+un infirmier
+une .....
+une infirmière
+
+masculin
+un dentiste
+une .....
+une dentiste
+
+masculin
+un menuisier
+une .....
+une menuisière
+
+masculin
+un agriculteur
+une .....
+une agricultrice
+
+masculin
+un pâtissier
+une .....
+une pâtissière
+
+masculin
+un fleuriste
+une .....
+une fleuriste
+
+masculin
+un animateur
+une .....
+une animatrice
+
+masculin
+un ouvrier
+une .....
+une ouvrière
+
+masculin
+un journaliste
+une .....
+une journaliste
+
+masculin
+un aviateur
+une .....
+une aviatrice
+
+masculin
+un bûcheron
+une .....
+une bûcheronne
+
+masculin
+un juge
+une .....
+une juge
+
+masculin
+un décorateur
+une .....
+une décoratrice
+
+masculin
+un libraire
+une .....
+une libraire
+
+masculin
+un électricien
+une .....
+une électricienne
+
+masculin
+un dessinateur
+une .....
+une dessinatrice
+
+masculin
+un orthophoniste
+une .....
+une orthophoniste
+
+masculin
+un musicien
+une .....
+une musicienne
+
+masculin
+un directeur
+une .....
+une directrice
+
+féminin
+une technicienne
+un .....
+un technicien
+
+féminin
+une photographe
+un .....
+un photographe
+
+féminin
+une éducatrice
+un .....
+un éducateur
+
+féminin
+une musicienne
+un .....
+un musicien
+
+féminin
+une psychologue
+un .....
+un psychologue
+
+féminin
+une factrice
+un .....
+un facteur
+
+féminin
+une tapissière
+un .....
+un tapissier
+
+féminin
+une ouvrière
+un .....
+un ouvrier
+
+féminin
+une secrétaire
+un .....
+un secrétaire
+
+féminin
+une cuisinière
+un .....
+un cuisinier
+
+féminin
+une inspectrice
+un .....
+un inspecteur
+
+féminin
+une infirmière
+un .....
+un infirmier
+
+féminin
+une vétérinaire
+un .....
+un vétérinaire
+
+féminin
+une institutrice
+un .....
+un instituteur
+
+féminin
+une traductrice
+un .....
+un traducteur
+
+féminin
+une bijoutière
+un .....
+un bijoutier

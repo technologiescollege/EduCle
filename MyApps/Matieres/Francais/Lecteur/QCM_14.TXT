@@ -1,0 +1,40 @@
+Le cordonnier habite une ville d'Autriche.
+Le cordonnier habite une ville d'Allemagne.
+Le cordonnier habite une ville d'Alsace.
+2
+Le cordonnier a de moins en moins de clients.
+Le cordonnier a de plus en plus de clients.
+Le cordonnier a toujours autant de clients.
+1
+Le cordonnier a un costume rouge.
+Le cordonnier a un costume vert.
+On ne connaît pas la couleur du costume du cordonnier.
+3
+Le cordonnier est trop fatigué pour finir les chaussures.
+Le cordonnier a trop faim pour pouvoir finir les chaussures.
+Il est trop tard pour qu'il puisse finir les chaussures.
+3
+Il vend la belle paire de chaussures cinq pièces d'or.
+Il vend la belle paire de chaussures trois pièces d'or.
+On ne sait pas exactement combien il vend cette paire.
+1
+Il vend facilement les chaussures car elles sont très souples.
+Il vend facilement les chaussures car elles sont très belles.
+Il vend facilement les chaussures car elles sont à la mode.
+2
+Désormais, toute la ville porte ses chaussures.
+Désormais, les trois quart de la ville porte ses chaussures.
+Désormais, la moitié de la ville porte ses chaussures.
+3
+Le cordonnier et sa femme se cachent derrière l'armoire.
+Le cordonnier et sa femme se cachent derrière la porte.
+On ne sait pas où ils se cachent.
+1
+La femme fait des sous-vêtements de laine pour les nains.
+La femme fait des sous-vêtements de lin pour les nains.
+La femme fait des sous-vêtements de coton pour les nains.
+2
+Les nains sortent de derrière la fenêtre.
+Les nains sortent de derrière la plinthe.
+Les nains sortent de derrière la porte.
+2

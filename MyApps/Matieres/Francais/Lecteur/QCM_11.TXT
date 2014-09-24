@@ -1,0 +1,40 @@
+Dick et Joe sont dans un pays humide.
+Dick et Joe sont dans un pays froid.
+Dick et Joe sont dans un pays aride.
+3
+Dick manie adroitement une arme à feu.
+Joe manie adroitement une arme à feu.
+Le texte ne dit rien à ce sujet.
+2
+Près d'une mare se trouve une dizaine de girafes.
+Près d'une mare se trouve une dizaine d'antilopes.
+Près d'une mare se trouve une dizaine de buffles.
+2
+Dick est le chasseur.
+Joe est le chasseur.
+Samuel est le chasseur.
+1
+L'animal tué est bleu pâle.
+L'animal tué est vert pâle.
+L'animal tué est gris vert.
+1
+Joe découpe un jambon.
+Joe découpe les oreilles.
+Joe découpe des côtelettes.
+3
+Le ballon est fixé avec des pierres.
+Le ballon est fixé avec une ancre.
+On ne sait pas comment est fixé le ballon.
+2
+Dick aime bien les suppositions de Joe.
+Dick n'apprécie guère les suppositions de Joe.
+On ne sait pas ce qu'en pense Dick.
+2
+Dick et Joe entendent un coup tiré par un fusil.
+Dick et Joe entendent un coup tiré par un pistolet.
+Dick et Joe entendent un coup tiré par une carabine.
+3
+Samuel tire sur des lions.
+Samuel tire sur des éléphants.
+On ne sait pas sur quoi tire Samuel.
+3

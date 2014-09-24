@@ -1,0 +1,251 @@
+Dans chaque groupe nominal, remplace les ..... par l'adjectif qualificatif correspondant au féminin
+
+masculin
+un niveau bas
+une surface .....
+une surface basse
+
+masculin
+un jars gras
+une oie .....
+une oie grasse
+
+masculin
+un garçon las
+une fille .....
+une fille lasse
+
+masculin
+un polo lilas
+une chemise .....
+une chemise lilas
+
+masculin
+un gazon ras
+une pelouse .....
+une pelouse rase
+
+masculin
+un résumé acquis
+une leçon .....
+une leçon acquise
+
+masculin
+un candidat admis
+une candidate .....
+une candidate admise
+
+masculin
+un lecteur assis
+une lectrice .....
+une lectrice assise
+
+masculin
+un pantalon chamois
+une jupe .....
+une jupe chamois
+
+masculin
+un texte compris
+une poésie .....
+une poésie comprise
+
+masculin
+un paragraphe concis
+une phrase .....
+une phrase concise
+
+masculin
+un libraire courtois
+une libraire .....
+une libraire courtoise
+
+masculin
+un livre épais
+une brochure .....
+une brochure épaisse
+
+masculin
+un gâteau exquis
+une tarte .....
+une tarte exquise
+
+masculin
+un jus de fruit frais
+une boisson .....
+une boisson fraîche
+
+masculin
+un rafistolage imprécis
+une réparation .....
+une réparation imprécise
+
+masculin
+un débat indécis
+une discussion .....
+une discussion indécise
+
+masculin
+un cheval insoumis
+une jument .....
+une jument insoumise
+
+masculin
+un chapitre incompris
+une page .....
+une page incomprise
+
+masculin
+un mauvais chemin
+une ..... route
+une mauvaise route
+
+masculin
+un garçon métis
+une fille .....
+une fille métisse
+
+masculin
+un air narquois
+une attitude .....
+une attitude narquoise
+
+masculin
+un boulanger niais
+une boulangère .....
+une boulangère niaise
+
+masculin
+un passage précis
+une phrase .....
+une phrase précise
+
+masculin
+un pain rassis
+une baguette .....
+une baguette rassise
+
+masculin
+un paquet repris
+une lettre .....
+une lettre reprise
+
+masculin
+un élève sournois
+une élève .....
+une élève sournoise
+
+masculin
+un homme dispos
+une femme .....
+une femme dispose
+
+masculin
+un gros dictionnaire
+une grosse .....
+une grosse encyclopédie
+
+masculin
+un commentaire confus
+une explication .....
+une explication confuse
+
+masculin
+un soir frais
+une soirée .....
+une soirée fraîche
+
+masculin
+un tissu épais
+une étoffe .....
+une étoffe épaisse
+
+masculin
+un bouillon gras
+une soupe .....
+une soupe grasse
+
+masculin
+un chat gris
+une chatte .....
+une chatte grise
+
+masculin
+un mauvais résultat
+une ..... utilisation
+une mauvaise utilisation
+
+masculin
+un gros caillou
+une grosse .....
+une grosse pierre
+
+masculin
+un cours bien compris
+une leçon bien .....
+une leçon bien comprise
+
+masculin
+un jus trop gras
+une sauce trop .....
+une sauce trop grasse
+
+masculin
+un son très bas
+une note très .....
+une note très basse
+
+masculin
+un touriste métis
+une touriste .....
+une touriste métisse
+
+masculin
+un graphique inclus
+une carte .....
+une carte incluse
+
+masculin
+un foulard lilas
+une écharpe .....
+une écharpe lilas
+
+masculin
+un auteur suédois
+une auteure .....
+une auteure suédoise
+
+masculin
+un restaurateur marseillais
+une restauratrice .....
+une restauratrice marseillaise
+
+masculin
+un plat niçois
+une ratatouille .....
+une ratatouille niçoise
+
+masculin
+un touriste japonais
+une touriste .....
+une touriste japonaise
+
+masculin
+un village anglais
+une ville .....
+une ville anglaise
+
+masculin
+un match indécis
+une rencontre .....
+une rencontre indécise
+
+masculin
+un taureau charolais
+une vache .....
+une vache charolaise
+
+masculin
+un musicien français
+une musicienne .....
+une musicienne française

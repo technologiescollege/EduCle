@@ -1,0 +1,40 @@
+La petite souris vit dans un champ de blé doré.
+La petite souris vit dans un champ de blé noir.
+On ne sait pas quelle est la couleur du blé.
+2
+Elle aperçoit une noisette dans l'herbe.
+Elle aperçoit une noisette sur la terre.
+Elle aperçoit une noisette dans les feuilles sèches.
+3
+La noisette roule sous des racines.
+La noisette roule sous une pierre.
+On ne sait pas où roule la noisette.
+1
+Souricette arrive dans la chambre d'un nain.
+Souricette arrive dans la cuisine d'un nain.
+Souricette n'arrive pas à entrer chez le nain.
+1
+Le nain a de petits souliers rouges.
+Le nain a un bonnet rouge.
+Le nain a une culotte rouge.
+2
+Le nain achète la noisette.
+Le nain vole la noisette.
+Le nain rend la noisette à Souricette.
+2
+Le nain donne à manger à Souricette.
+Le nain ne lui donne pas à manger.
+L'histoire ne dit rien sur les repas de Souricette.
+3
+Souricette trouve la noisette dans un tiroir.
+Souricette trouve la noisette dans un placard.
+On ne sait pas où est la noisette.
+2
+Souricette met la noisette dans sa poche.
+Souricette met la noisette dans son petit sac.
+Souricette met la noisette dans sa bouche.
+3
+La noisette contenait un collier.
+La noisette contenait une bague.
+La noisette contenait une broche.
+1

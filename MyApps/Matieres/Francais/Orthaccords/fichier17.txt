@@ -1,0 +1,251 @@
+Dans chaque groupe nominal, remplace les ..... par le nom et l'adjectif qualificatif correspondants au pluriel.
+
+singulier
+un drap blanc
+des ..... .....
+des draps blancs
+
+singulier
+une feuille bleu foncé
+des ..... ..... .....
+des feuilles bleu foncé
+
+singulier
+un mur beige
+des ..... .....
+des murs beiges
+
+singulier
+un cheveu blond
+des ..... .....
+des cheveux blonds
+
+singulier
+un tissu bordeaux
+des ..... .....
+des tissus bordeaux
+
+singulier
+un manteau chocolat
+des ..... .....
+des manteaux chocolat
+
+singulier
+un pantalon marron
+des ..... .....
+des pantalons marron
+
+singulier
+un vêtement gris clair
+des ..... ..... .....
+des vêtements gris clair
+
+singulier
+une fleur jaune
+des ..... .....
+des fleurs jaunes
+
+singulier
+un soulier noir
+des ..... .....
+des souliers noirs
+
+singulier
+un oeil noisette
+des ..... .....
+des yeux noisette
+
+singulier
+un crayon orange
+des ..... .....
+des crayons orange
+
+singulier
+un stylo rouge
+des ..... .....
+des stylos rouges
+
+singulier
+un trait rouge sang
+des ..... ..... .....
+des traits rouge sang
+
+singulier
+un bonnet rouge vif
+des ..... ..... .....
+des bonnets rouge vif
+
+singulier
+un écureuil roux
+des ..... .....
+des écureuils roux
+
+singulier
+un pré vert
+des ..... .....
+des prés verts
+
+singulier
+une voiture vert foncé
+des ..... ..... .....
+des voitures vert foncé
+
+singulier
+une robe bleu ciel
+des ..... ..... .....
+des robes bleu ciel
+
+singulier
+un pétale mauve
+des ..... .....
+des pétales mauves
+
+singulier
+un bouchon jaune citron
+des ..... ..... .....
+des bouchons jaune citron
+
+singulier
+un gant pourpre
+des ..... .....
+des gants pourpres
+
+singulier
+une page vert pâle
+des ..... ..... .....
+des pages vert pâle
+
+singulier
+un foulard lilas
+des ..... .....
+des foulards lilas
+
+singulier
+un gilet gris ardoise
+des ..... ..... .....
+des gilets gris ardoise
+
+singulier
+un ruban doré
+des ..... .....
+des rubans dorés
+
+singulier
+le vase émeraude
+les ..... .....
+les vases émeraude
+
+singulier
+une trousse marron
+des ..... .....
+des trousses marron
+
+singulier
+une cravate cerise
+des ..... .....
+des cravates cerise
+
+singulier
+une écharpe caramel
+des ..... .....
+des écharpes caramel
+
+singulier
+un pantalon bleu marine
+des ..... ..... .....
+des pantalons bleu marine
+
+singulier
+une couverture bleu clair
+des ..... ..... .....
+des couvertures bleu clair
+
+singulier
+une ceinture noire
+des ..... .....
+des ceintures noires
+
+singulier
+une chaussette beige
+des ..... .....
+des chaussettes beiges
+
+singulier
+un tablier bleu foncé
+des ..... ..... .....
+des tabliers bleu foncé
+
+singulier
+une automobile grise
+des ..... .....
+des automobiles grises
+
+singulier
+une chaise jaune paille
+des ..... ..... .....
+des chaises jaune paille
+
+singulier
+un uniforme kaki
+des ..... .....
+des uniformes kaki
+
+singulier
+un chat tigré
+des ..... .....
+des chats tigrés
+
+singulier
+une jupe vert bouteille
+des ..... ..... .....
+des jupes vert bouteille
+
+singulier
+un pull violet
+des ..... .....
+des pulls violets
+
+singulier
+un feutre vert
+des ..... .....
+des feutres verts
+
+singulier
+un pomme rouge
+des ..... .....
+des pommes rouges
+
+singulier
+une robe saumon
+des ..... .....
+des robes saumon
+
+singulier
+un fruit orange
+des ..... .....
+des fruits orange
+
+singulier
+un cheval gris
+des ..... .....
+des chevaux gris
+
+singulier
+un habit marron
+des ..... .....
+des habits marron
+
+singulier
+une serviette abricot
+des ..... .....
+des serviettes abricot
+
+singulier
+un oiseau blanc
+des ..... .....
+des oiseaux blancs
+
+singulier
+le cheveu châtain
+les ..... .....
+les cheveux châtains

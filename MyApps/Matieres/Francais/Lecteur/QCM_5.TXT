@@ -1,0 +1,41 @@
+Candide est le fils du baron.
+Candide est le fils de la soeur de Monsieur le Baron.
+Candide est le fils de la soeur de Madame la Baronne.
+2
+Candide avait l'esprit simple.
+Candide avait l'esprit pur.
+On ne sait rien sur l'esprit de Candide.
+1
+Le baron était un seigneur du Palatinat.
+Le baron était un seigneur autrichien.
+Le baron était un seigneur de Westphalie.
+3
+Madame la baronne était très grande.
+Madame la baronne était petite.
+On ne sait rien de la taille de la baronne.
+3
+La fille du baron s'appelle Cunégonde.
+La fille du baron s'appelle Artémise.
+On ne connaît pas le prénom de la fille.
+1
+Le fils du baron a dix-sept ans.
+On ne connaît pas l'âge du fils du baron.
+Le baron n'a pas de fils.
+2
+Pangloss est le nom du précepteur.
+Candide n'écoute pas le précepteur.
+Candide n'a pas affaire au précepteur.
+1
+Pour Pangloss le château pourrait être plus beau.
+Pour Pangloss la baronne est une mauvaise femme.
+Pour Pangloss le monde est le meilleur possible.
+3
+Pangloss était plutôt vieux.
+Pangloss était plutôt jeune.
+On ne sait pas l'âge de Pangloss.
+3
+Pangloss enseignait que le nez est fait pour se moucher.
+Pangloss enseignait que le nez est un organe décoratif.
+Pangloss enseignait que le nez est fait pour porter des lunettes.
+3
+

@@ -1,0 +1,40 @@
+L'aîné était brimé par le cadet.
+Le cadet était le plus fort.
+Le cadet était brimé par son aîné.
+3
+A la mort du père, ils partagèrent l'héritage.
+A la mort du père, l'aîné prit tout l'héritage.
+A la mort du père, le cadet prit tout l'héritage.
+2
+Le cadet demande un peu de riz à l'aîné.
+Le cadet demande un peu d'argent à l'aîné.
+Le cadet n'a besoin de rien.
+1
+Le cadet part à la chasse.
+Le cadet part à la pêche.
+Le cadet va faire des courses.
+2
+Le cadet achète une meule.
+Le cadet va faire moudre du grain.
+Le cadet trouve une meule.
+3
+La meule moud ce que l'on veut.
+La meule moud du sel.
+On ne sait pas ce qu'elle moud.
+2
+Le cadet donne un coup de pied pour arrêter la meule.
+Il ne sait pas arrêter la meule.
+Il la retourne pour l'arrêter.
+3
+La meule apporte la richesse dans la maison du cadet.
+La meule en fait n'apporte rien au cadet.
+On ne sait pas si la meule lui est utile.
+1
+L'aîné vole la meule.
+L'aîné emprunte la meule.
+L'aîné se moque de la meule.
+2
+L'ainé donne un coup de pied pour arrêter la meule.
+Il casse la meule pour l'arrêter.
+Il la jette dans l'eau.
+3

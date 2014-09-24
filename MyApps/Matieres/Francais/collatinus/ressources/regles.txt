@@ -1,0 +1,65 @@
+!
+!                          regles.txt 
+!
+!  This file is part of COLLATINUS
+!                                                                               
+!  COLLATINUS is free software; you can redistribute it and/or modify
+!  it under the terms of the GNU General Public License as published by
+!  the Free Software Foundation; either version 2 of the License, or
+!  (at your option) any later version.
+!                                                                            
+!  COLLATINUS is distributed in the hope that it will be useful,
+!  but WITHOUT ANY WARRANTY; without even the implied warranty of
+!  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+!  GNU General Public License for more details.
+!                                                                            
+!  You should have received a copy of the GNU General Public License
+!  along with COLLATINUS; if not, write to the Free Software
+!  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+!
+!
+^di$;dī
+^do$;dō
+^no$;nō
+^sto$;stō
+^pro$;prō
+^quo$;quō
+! ramismes
+(^|[aāăeēĕoōŏ]|^in|^ad|^per)i([aāăeēĕiīĭoōŏuŭū]);\1j\2
+(^|[aāăeēĕiīĭoōŏ]|[io]n|ad|per)u([aāăeēĕiīĭoōŏuŭū]);\1v\2
+(j[uŭū])u([aaāăeēĕiīĭoōŏ]);\1v\2
+(^|[\\w]+r)u([aeiou]);\1v\2
+^u[aāăeēĕiīĭoōŏ]+;v
+iv;īv
+! POSITION
+a([aāăiīĭoōŏ]);ă\1
+e([aāăiīĭoōŏ]);ĕ\1
+o([aaāăiīĭoōŏ]);ŏ\1
+([^q])u([aāăeēĕiīĭoōŏ]);\1ŭ\2
+a(h[aāăiīĭoōŏ]);ă\1
+e(h[aāăoōŏ]);ĕ\1
+i(h[aāăeēĕiīĭoōŏ]);ĭ\1
+o(h[aāăiīĭoōŏ]);ŏ\1
+u(h[aāăeēĕiīĭoōŏ]);ŭ\1
+a(bb|cc|dd|ff|gg|ll|mm|nn|pp|rr|ss|tt);ā\1
+e(bb|cc|dd|ff|gg|ll|mm|nn|pp|rr|ss|tt);ē\1
+i(bb|cc|dd|ff|gg|ll|mm|nn|pp|rr|ss|tt);ī\1
+o(bb|cc|dd|ff|gg|ll|mm|nn|pp|rr|ss|tt);ō\1
+u(bb|cc|dd|ff|gg|ll|mm|nn|pp|rr|ss|tt);ū\1
+a([bcdfgklmnprst][bcdfgkmnpqstv]);ā\1
+e([bcdfgklmnprst][bcdfgkmnpqstv]);ē\1
+i([bcdfgklmnprst][bcdfgkmnpqstv]);ī\1
+o([bcdfgklmnprst][bcdfgkmnpqstv]);ō\1
+u([bcdfgklmnprst][bcdfgkmnpqst]);ū\1
+a([jzx]);ā\1
+e([jzx]);ē\1
+i([jzx]);ī\1
+o([jzx]);ō\1
+u([jzx]);ū\1
+e[eēĕ];ē
+! DIPHTONGUES
+[aāă][eēĕ];āe
+[aāă][uūŭ];āu
+[oōŏ][eēĕ];ōe
+[eēĕ][iīĭ];ēi
+[eēĕ][uūŭ];ēu

@@ -1,0 +1,251 @@
+Lis le groupe nominal, puis remplace les ..... par le nom commun au pluriel.
+
+singulier
+un seau
+des .....
+des seaux
+
+singulier
+un veau
+des .....
+des veaux
+
+singulier
+un étau
+des .....
+des étaux
+
+singulier
+le badaud
+les .....
+les badauds
+
+singulier
+le landau
+les .....
+les landaus
+
+singulier
+un boyau
+des .....
+des boyaux
+
+singulier
+un noyau
+des .....
+des noyaux
+
+singulier
+le pot
+les .....
+les pots
+
+singulier
+un tuyau
+des .....
+des tuyaux
+
+singulier
+un agneau
+des .....
+des agneaux
+
+singulier
+un anneau
+des .....
+des anneaux
+
+singulier
+le bateau
+les .....
+les bateaux
+
+singulier
+un bureau
+des .....
+des bureaux
+
+singulier
+un ciseau
+des .....
+des ciseaux
+
+singulier
+le gâteau
+les .....
+les gâteaux
+
+singulier
+un unau
+des .....
+des unaus
+
+singulier
+un museau
+des .....
+des museaux
+
+singulier
+un niveau
+des .....
+des niveaux
+
+singulier
+un oiseau
+des .....
+des oiseaux
+
+singulier
+une moto
+des .....
+des motos
+
+singulier
+son râteau
+ses .....
+ses râteaux
+
+singulier
+un rideau
+des .....
+des rideaux
+
+singulier
+le bandeau
+les .....
+les bandeaux
+
+singulier
+un barreau
+des .....
+des barreaux
+
+singulier
+un bouleau
+des .....
+des bouleaux
+
+singulier
+un boulot
+des .....
+des boulots
+
+singulier
+le carreau
+les .....
+les carreaux
+
+singulier
+un chameau
+des .....
+des chameaux
+
+singulier
+mon chapeau
+mes .....
+mes chapeaux
+
+singulier
+le château
+les .....
+les châteaux
+
+singulier
+le corbeau
+les .....
+les corbeaux
+
+singulier
+ton couteau
+tes .....
+tes couteaux
+
+singulier
+le plot
+les .....
+les plots
+
+singulier
+un canot
+des .....
+des canots
+
+singulier
+un gigot
+des .....
+des gigots
+
+singulier
+un manteau
+des .....
+des manteaux
+
+singulier
+le marteau
+les .....
+les marteaux
+
+singulier
+le moineau
+les .....
+les moineaux
+
+singulier
+un morceau
+des .....
+des morceaux
+
+singulier
+un panneau
+des .....
+des panneaux
+
+singulier
+son pinceau
+ses .....
+ses pinceaux
+
+singulier
+un plateau
+des .....
+des plateaux
+
+singulier
+un poireau
+des .....
+des poireaux
+
+singulier
+le rouleau
+les .....
+les rouleaux
+
+singulier
+un tableau
+des .....
+des tableaux
+
+singulier
+un tonneau
+des .....
+des tonneaux
+
+singulier
+un caniveau
+des .....
+des caniveaux
+
+singulier
+l'esquimau
+les .....
+les esquimaux
+
+singulier
+le troupeau
+les .....
+les troupeaux
+
+singulier
+un chalumeau
+des .....
+des chamumeaux

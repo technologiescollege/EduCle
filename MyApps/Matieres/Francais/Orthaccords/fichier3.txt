@@ -1,0 +1,251 @@
+Lis le groupe nominal, puis remplace les ..... par le nom commun correspondant.
+
+singulier
+une fleur
+des .....
+des fleurs
+
+singulier
+un bégonia
+des .....
+des bégonias
+
+singulier
+une tulipe
+des .....
+des tulipes
+
+singulier
+ma jambe
+mes .....
+mes jambes
+
+singulier
+la bille
+les .....
+les billes
+
+singulier
+ta cheville
+tes .....
+tes chevilles
+
+singulier
+une poupée
+des .....
+des poupées
+
+singulier
+le camion
+les .....
+les camions
+
+pluriel
+ses oreilles
+son .....
+son oreille
+
+pluriel
+des feuilles
+une .....
+une feuille
+
+pluriel
+les fleurs
+la .....
+la fleur
+
+pluriel
+des jonquilles
+une .....
+une jonquille
+
+pluriel
+des légumes
+un .....
+un légume
+
+singulier
+une tomate
+des .....
+des tomates
+
+singulier
+la pomme
+les .....
+les pommes
+
+pluriel
+mes stylos
+mon .....
+mon stylo
+
+singulier
+ton cahier
+tes .....
+tes cahiers
+
+pluriel
+des vaches
+une .....
+une vache
+
+singulier
+un canard
+des .....
+des canards
+
+singulier
+cette voiture
+ces .....
+ces voitures
+
+singulier
+sa voiture
+ses .....
+ses voitures
+
+pluriel
+des roses
+une .....
+une rose
+
+singulier
+le jardin
+les .....
+les jardins
+
+singulier
+un chien
+des .....
+des chiens
+
+singulier
+le lapin
+les .....
+les lapins
+
+singulier
+une nouille
+des .....
+des nouilles
+
+singulier
+le coude
+les .....
+les coudes
+
+singulier
+ma main
+mes .....
+mes mains
+
+singulier
+ton pied
+tes .....
+tes pieds
+
+singulier
+un oeuf
+des .....
+des oeufs
+
+pluriel
+les oies
+l'.....
+l'oie
+
+singulier
+ta robe
+tes .....
+tes robes
+
+singulier
+le soulier
+les .....
+les souliers
+
+singulier
+ma chaussure
+mes .....
+mes chaussures
+
+singulier
+sa trousse
+ses .....
+ses trousses
+
+singulier
+un crayon
+des .....
+des crayons
+
+singulier
+une carte
+des .....
+des cartes
+
+pluriel
+deux dominos
+un .....
+un domino
+
+singulier
+ma pantoufle
+mes .....
+mes pantoufles
+
+singulier
+ta botte
+tes .....
+tes bottes
+
+singulier
+un abricot
+des .....
+des abricots
+
+pluriel
+des poissons
+un .....
+un poisson
+
+singulier
+un poison
+des .....
+des poisons
+
+singulier
+la boisson
+les .....
+les boissons
+
+singulier
+une bouteille
+des .....
+des bouteilles
+
+pluriel
+les tartes
+la .....
+la tarte
+
+singulier
+une orange
+des .....
+des oranges
+
+singulier
+la classe
+les .....
+les classes
+
+singulier
+une chaise
+des .....
+des chaises
+
+singulier
+notre livre
+nos .....
+nos livres

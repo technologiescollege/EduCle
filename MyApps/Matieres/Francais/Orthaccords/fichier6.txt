@@ -1,0 +1,251 @@
+Lis le groupe nominal, puis remplace les ..... par le nom commun au pluriel.
+
+singulier
+un cou
+des .....
+des cous
+
+singulier
+un fou
+des .....
+des fous
+
+singulier
+un bijou
+des .....
+des bijoux
+
+singulier
+le clou
+les .....
+les clous
+
+singulier
+le filou
+les .....
+les filous
+
+singulier
+un trou
+des .....
+des trous
+
+singulier
+un caillou
+des .....
+des cailloux
+
+singulier
+le bisou
+les .....
+les bisous
+
+singulier
+un écrou
+des .....
+des écrous
+
+singulier
+un matou
+des.....
+des matous
+
+singulier
+un chou
+des .....
+des choux
+
+singulier
+le mérou
+les .....
+les mérous
+
+singulier
+un tabou
+des .....
+des tabous
+
+singulier
+un tatou
+des .....
+des tatous
+
+singulier
+le genou
+les .....
+les genoux
+
+singulier
+un voyou
+des .....
+des voyous
+
+singulier
+un acajou
+des .....
+des acajous
+
+singulier
+un bambou
+des .....
+des bambous
+
+singulier
+un hibou
+des .....
+des hiboux
+
+singulier
+un biniou
+des .....
+des binious
+
+singulier
+un coucou
+des .....
+des coucous
+
+singulier
+un nandou
+des .....
+des nandous
+
+singulier
+le joujou
+les .....
+les joujoux
+
+singulier
+un verrou
+des .....
+des verrous
+
+singulier
+un caribou
+des .....
+des cariboux
+
+singulier
+un sapajou
+des .....
+des sapajous
+
+singulier
+le pou
+les .....
+les poux
+
+singulier
+un chouchou
+des .....
+des chouchous
+
+singulier
+un chabichou
+des .....
+des chabichous
+
+singulier
+le kangourou
+les .....
+les kangourous
+
+singulier
+le roudoudou
+les .....
+les roudoudous
+
+singulier
+ton bijou
+tes .....
+tes bijoux
+
+singulier
+le cou
+les .....
+les cous
+
+singulier
+un coup
+des .....
+des coups
+
+singulier
+un loup
+des .....
+des loups
+
+singulier
+un caillou
+des .....
+des cailloux
+
+singulier
+le clou
+les .....
+les clous
+
+singulier
+le chou
+les .....
+les choux
+
+singulier
+un trou
+des .....
+des trous
+
+singulier
+le genou
+les .....
+les genoux
+
+singulier
+le minou
+les .....
+les minous
+
+singulier
+un hibou
+des .....
+des hiboux
+
+singulier
+un tatou
+des .....
+des tatous
+
+singulier
+le joujou
+les .....
+les joujoux
+
+singulier
+un bout
+des .....
+des bouts
+
+singulier
+un pou
+des .....
+des poux
+
+singulier
+un bijou
+des .....
+des bijoux
+
+singulier
+le caillou
+les .....
+les cailloux
+
+singulier
+le chou
+les .....
+les choux
+
+singulier
+mon genou
+mes .....
+mes genoux

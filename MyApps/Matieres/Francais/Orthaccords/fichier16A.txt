@@ -1,0 +1,251 @@
+Dans chaque groupe nominal, remplace les ..... par le nom et l'adjectif qualificatif correspondants au singulier ou au pluriel
+
+singulier
+un garçon curieux
+des ..... .....
+des garçons curieux
+
+singulier
+un hiver doux
+des ..... .....
+des hivers doux
+
+singulier
+un lait crémeux
+des ..... .....
+des laits crémeux
+
+singulier
+un faux numéro
+des ..... .....
+des faux numéros
+
+singulier
+un fruit juteux
+des ..... .....
+des fruits juteux
+
+singulier
+un bijou précieux
+des ..... .....
+des bijoux précieux
+
+singulier
+un temps affreux
+des ..... .....
+des temps affreux
+
+singulier
+un gâteau anglais
+des ..... .....
+des gâteaux anglais
+
+singulier
+un chapeau chinois
+des ..... .....
+des chapeaux chinois
+
+singulier
+un chou cabus
+des ..... .....
+des choux cabus
+
+singulier
+un livre épais
+des ..... .....
+des livres épais
+
+singulier
+un fromage frais
+des ..... .....
+des fromage frais
+
+singulier
+une plat gras
+des ..... .....
+des plats gras
+
+singulier
+un drapeau français
+des ..... .....
+des drapeaux français
+
+singulier
+un mauvais point
+des ..... .....
+des mauvais points
+
+singulier
+un angle obtus
+des ..... .....
+des angles obtus
+
+singulier
+un mot précis
+des ..... .....
+des mots précis
+
+singulier
+un pain rassis
+des ..... .....
+des pains rassis
+
+singulier
+un dessert exquis
+des ..... .....
+des desserts exquis
+
+singulier
+un bel arbre
+des ..... .....
+des beaux arbres
+
+singulier
+un beau dessin
+des ..... .....
+des beaux dessins
+
+pluriel
+les beaux arbres
+le ..... .....
+le bel arbre
+
+pluriel
+les beaux spectacles
+le ..... .....
+le beau spectacle
+
+singulier
+un nouveau cadeau
+des ..... .....
+des nouveaux cadeaux
+
+singulier
+un nouvel avion
+des ..... .....
+des nouveaux avions
+
+pluriel
+des nouveaux desserts
+un ..... .....
+un nouveau dessert
+
+pluriel
+les nouveaux habits
+le ..... .....
+le nouvel habit
+
+singulier
+un oiseau bleu
+des ..... .....
+des oiseaux bleus
+
+singulier
+un coq gaulois
+des ..... .....
+des coqs gaulois
+
+singulier
+un musicien hongrois
+des ..... .....
+des musiciens hongrois
+
+pluriel
+des départements français
+un ..... .....
+un département français
+
+pluriel
+des bois rugueux
+un ..... .....
+un bois rugueux
+
+pluriel
+des hommes jaloux
+un ..... .....
+un homme jaloux
+
+pluriel
+des paquets volumineux
+un ..... .....
+un paquet volumineux
+
+singulier
+un écureuil roux
+des ..... .....
+des écureuils roux
+
+singulier
+un terrain marécageux
+des ..... .....
+des terrains marécageux
+
+singulier
+un vieux meuble
+des ..... .....
+des vieux meubles
+
+pluriel
+des vieux amis
+un ..... .....
+un vieil ami
+
+singulier
+un conte merveilleux
+des ..... .....
+des contes merveilleux
+
+pluriel
+des poissons osseux
+un ..... .....
+un poisson osseux
+
+singulier
+un animal peureux
+des ..... .....
+des animaux peureux
+
+singulier
+un cygne majestueux
+des ..... .....
+des cygnes majestueux
+
+singulier
+un air joyeux
+des ..... .....
+des airs joyeux
+
+singulier
+un oeil bleu
+des ..... .....
+des yeux bleus
+
+singulier
+un joueur marseillais
+des ..... .....
+des joueurs marseillais
+
+singulier
+un cavalier irlandais
+des ..... .....
+des cavaliers irlandais
+
+singulier
+un petit âne gris
+des ..... ..... .....
+des petits ânes gris
+
+singulier
+un roman mystérieux
+des ..... .....
+des romans mystérieux
+
+singulier
+un texte concis
+des ..... .....
+des textes concis
+
+singulier
+un marin hollandais
+des ..... .....
+des marins hollandais

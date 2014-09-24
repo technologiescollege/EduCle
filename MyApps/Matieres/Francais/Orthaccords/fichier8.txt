@@ -1,0 +1,251 @@
+Lis le groupe nominal, puis remplace les ..... par le nom commun au pluriel.
+
+singulier
+un bocal
+des .....
+des bocaux
+
+singulier
+un canal
+des .....
+des canaux
+
+singulier
+un bal
+des .....
+des bals
+
+singulier
+un local
+des .....
+des locaux
+
+singulier
+un métal
+des .....
+des métaux
+
+singulier
+un total
+des .....
+des totaux
+
+singulier
+un étal
+des .....
+des étals
+
+singulier
+un amiral
+des .....
+des amiraux
+
+singulier
+un animal
+des .....
+des animaux
+
+singulier
+un cheval
+des .....
+des chevaux
+
+singulier
+un signal
+des .....
+des signaux
+
+singulier
+un régal
+des .....
+des régals
+
+singulier
+un capital
+des .....
+des capitaux
+
+singulier
+un caporal
+des .....
+des caporaux
+
+singulier
+un cristal
+des .....
+des cristaux
+
+singulier
+un général
+des .....
+des généraux
+
+singulier
+un hôpital
+des .....
+des hôpitaux
+
+singulier
+un journal
+des .....
+des journaux
+
+singulier
+un chacal
+des .....
+des chacals
+
+singulier
+un minéral
+des .....
+des minéraux
+
+singulier
+un quintal
+des .....
+des quintaux
+
+singulier
+un radical
+des .....
+des radicaux
+
+singulier
+un végétal
+des .....
+des végétaux
+
+singulier
+un littoral
+des .....
+des littoraux
+
+singulier
+un maréchal
+des .....
+des maréchaux
+
+singulier
+un narval
+des .....
+des narvals
+
+singulier
+un original
+des .....
+des originaux
+
+singulier
+un terminal
+des .....
+des terminaux
+
+singulier
+un tribunal
+des .....
+des tribunaux
+
+singulier
+le principal
+les .....
+les principaux
+
+singulier
+le commercial
+les .....
+les commerciaux
+
+singulier
+un éditorial
+des .....
+des éditoriaux
+
+singulier
+le central
+les .....
+les centraux
+
+singulier
+un mistral
+des .....
+des mistrals
+
+singulier
+un récital
+des .....
+des récitals
+
+singulier
+un mal
+des .....
+des maux
+
+singulier
+le cheval
+les .....
+les chevaux
+
+singulier
+son animal
+ses .....
+ses animaux
+
+singulier
+un carnaval
+des .....
+des carnavals
+
+singulier
+le festival
+les .....
+les festivals
+
+singulier
+le rorqual
+les .....
+les rorquals
+
+singulier
+un signal
+des .....
+des signaux
+
+singulier
+un métal
+des .....
+des métaux
+
+singulier
+le total
+les .....
+les totaux
+
+singulier
+un bal
+des .....
+des bals
+
+singulier
+un carnaval
+des .....
+des carnavals
+
+singulier
+un régal
+des .....
+des régals
+
+singulier
+le chacal
+les .....
+les chacals
+
+singulier
+le bocal
+les .....
+les bocaux
+
+singulier
+le cristal
+les .....
+les cristaux

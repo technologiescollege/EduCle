@@ -1,0 +1,251 @@
+Lis le groupe nominal, puis remplace les ..... par le déterminant correspondant.
+
+singulier
+une rose
+..... roses
+des roses
+
+singulier
+la maison
+..... maisons
+les maisons
+
+singulier
+ma bille
+..... billes
+mes billes
+
+singulier
+une bille
+..... billes
+des billes
+
+singulier
+la bille
+..... billes
+les billes
+
+singulier
+ta bille
+..... billes
+tes billes
+
+singulier
+une poupée
+..... poupées
+des poupées
+
+singulier
+la poupée
+..... poupées
+les poupées
+
+singulier
+sa poupée
+..... poupées
+ses poupées
+
+singulier
+notre chien
+..... chiens
+nos chiens
+
+singulier
+votre chat
+..... chats
+vos chats
+
+singulier
+leur fille
+..... filles
+leurs filles
+
+singulier
+l'élève
+..... élèves
+les élèves
+
+singulier
+l'éléphant
+..... éléphants
+les éléphants
+
+singulier
+ce camion
+..... camions
+ces camions
+
+singulier
+mon stylo
+..... stylos
+mes stylos
+
+singulier
+ton cahier
+..... cahiers
+tes cahiers
+
+singulier
+ton amie
+..... amies
+tes amies
+
+singulier
+son cheval
+..... chevaux
+ses chevaux
+
+singulier
+cette voiture
+..... voitures
+ces voitures
+
+singulier
+sa voiture
+..... voitures
+ses voitures
+
+singulier
+quelle jolie fleur !
+..... jolies fleurs !
+quelles jolies fleurs !
+
+singulier
+quel beau jardin !
+..... beaux jardins !
+quels beaux jardins !
+
+singulier
+une souris grise
+..... souris grises
+des souris grises
+
+singulier
+le lapin de garenne
+..... lapins de garenne
+les lapins de garenne
+
+singulier
+un éventail
+..... éventails
+des éventails
+
+singulier
+le genou
+..... genoux
+les genoux
+
+singulier
+mon genou
+..... genoux
+mes genoux
+
+singulier
+une croix verte
+..... croix vertes
+des croix vertes
+
+singulier
+un oeuf à la coque
+..... oeufs à la coque
+des oeufs à la coque
+
+singulier
+le manteau
+..... manteaux
+les manteaux
+
+singulier
+ton manteau
+..... manteaux
+tes manteaux
+
+singulier
+le château d'eau
+..... châteaux d'eau
+les châteaux d'eau
+
+singulier
+ce petit oiseau
+..... petits oiseaux
+ces petits oiseaux
+
+singulier
+cet animal
+..... animaux
+ces animaux
+
+singulier
+son animal favori
+..... animaux favoris
+ses animaux favoris
+
+singulier
+notre chambre
+..... chambres
+nos chambres
+
+singulier
+la chambre
+..... chambres
+les chambres
+
+singulier
+un chou à la crème
+..... choux à la crème
+des choux à la crème
+
+singulier
+l'abricot
+..... abricots
+les abricots
+
+singulier
+un abricot
+..... abricots
+des abricots
+
+singulier
+une feuille verte
+..... feuilles vertes
+des feuilles vertes
+
+singulier
+un bal
+..... bals
+des bals
+
+singulier
+ta balle
+..... balles
+tes balles
+
+singulier
+un gâteau sec
+..... gâteaux secs
+des gâteaux secs
+
+singulier
+le gâteau sec
+..... gâteaux secs
+les gâteaux secs
+
+singulier
+mon gâteau sec
+..... gâteaux secs
+mes gâteaux secs
+
+singulier
+ce gâteau sec
+..... gâteaux secs
+ces gâteaux secs
+
+singulier
+son gâteau sec
+..... gâteaux secs
+ses gâteaux secs
+
+singulier
+leur livre de maths
+..... livres de maths
+leurs livres de maths

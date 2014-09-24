@@ -1,0 +1,40 @@
+L'histoire se passe près du Rhône.
+L'histoire se passe près de la Saône.
+On ne sait pas où ça se passe.
+2
+Un homme de la bande est placé à l'intérieur de la maison.
+Ils sont tous à l'extérieur de la maison.
+On ne sait rien sur ce sujet.
+1
+Les individus sont des mariniers.
+Ce ne sont pas des mariniers.
+On ne sait pas si ce sont des mariniers.
+2
+Ils guettent une femme.
+Ils guettent un homme.
+Ils guettent un enfant.
+1
+La personne guettée est seule.
+Elle est accompagnée par un homme.
+Elle est accompagnée par une femme.
+2
+Les malfaiteurs ont des couteaux.
+Les malfaiteurs ont des pistolets.
+Les malfaiteurs ont des gourdins.
+3
+Le bedeau est jeune.
+Le bedeau est vieux.
+On ne sait rien sur son âge.
+2
+Les malfaiteurs ont des surnoms.
+Les malfaiteurs détestent les surnoms.
+L'histoire ne dit rien à ce sujet.
+1
+Les malfaiteurs ne s'entendent pas du tout.
+Les malfaiteurs sont bon camarades.
+On ne sait rien sur leurs relations.
+2
+L'histoire s'interrompt au petit matin.
+L'histoire s'interrompt l'après-midi.
+L'histoire s'interrompt dans la soirée.
+3

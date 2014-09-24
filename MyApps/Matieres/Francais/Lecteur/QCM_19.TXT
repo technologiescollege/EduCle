@@ -1,0 +1,40 @@
+Les deux princesses sont nées dix ans après Riquet à la Houppe.
+Les deux princesses sont nées huit ans après Riquet à la Houppe.
+Les deux princesses sont nées six ans après Riquet à la Houppe.
+2
+L'aînée qui est très belle est très maladroite.
+La cadette qui est très laide est très maladroite.
+Aucune des deux n'est très maladroite.
+1
+Riquet à la Houppe rencontre par hasard la belle princesse.
+Riquet à la Houppe cherchait à rencontrer la belle princesse.
+On ne sait pas si Riquet à la Houppe cherchait à la voir.
+2
+D'après le prince, plus on a d'esprit plus on pense en avoir.
+D'après le prince, plus on a d'esprit plus on pense en manquer.
+D'après le prince, moins on a d'esprit plus on pense en avoir.
+2
+La cadette se réjouit que sa soeur ait de l'esprit.
+La cadette est indifférente au fait que sa soeur ait de l'esprit.
+La cadette n'est pas bien aise que sa soeur ait de l'esprit.
+3
+Plus on a d'esprit et plus on a de peine à choisir un époux.
+Plus on a d'esprit et plus il est aisé à choisir un époux.
+Moins on a d'esprit et plus on a de peine à choisir un époux.
+1
+Les rôtisseurs ont une queue de loup sur l'oreille.
+Les rôtisseurs ont une queue de pie sur l'oreille.
+Les rôtisseurs ont une queue de renard sur l'oreille.
+3
+La princesse dit à Riquet qu'il a eu raison de lui donner de l'esprit.
+La princesse dit à Riquet qu'il a eu tort de lui donner de l'esprit.
+La princesse ne parle pas de cela.
+2
+Riquet convainc la princesse en lui expliquant le don de la fée.
+Riquet convainc la princesse en lui disant son amour.
+Riquet ne convainc pas la princesse.
+1
+La cadette va épouser un très beau prince.
+La cadette reste vieille fille.
+L'histoire ne dit rien sur l'avenir de la cadette.
+3

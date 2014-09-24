@@ -1,0 +1,40 @@
+La reine est heureuse après la naissance de son enfant.
+La reine se lamente après la naissance de son enfant.
+L'histoire ne dit pas ce que pense la reine.
+2
+L'âne veut apprendre le violon.
+L'âne veut apprendre le clavecin.
+L'âne veut apprendre le luth.
+3
+L'âne s'en va après une dispute.
+L'âne s'en va après avoir vu son visage.
+On ne sait pas pourquoi l'âne s'en va.
+2
+L'âne part avec un compagnon.
+L'âne part tout seul.
+On ne sait pas s'il a un compagnon.
+1
+Il arrive chez un vieux roi et une vieille reine.
+Il arrive chez un vieux roi et un prince.
+Il arrive chez un vieux roi et un princesse.
+3
+L'âne veut manger avec les gens de service.
+L'âne veut manger avec les soldats.
+L'âne veut manger avec le roi.
+3
+L'âne mange et boit salement.
+L'âne mange et boit proprement.
+L'histoire ne dit pas comment il mange et boit.
+2
+L'âne est triste et ne veut pas la moitié du royaume.
+L'âne est triste et ne veut pas la main de la princesse.
+On ne sait pas pourquoi l'âne est triste.
+1
+A la lueur d'une chandelle, le roi voit un jeune homme dans le lit.
+A la lueur du feu, le roi voit un jeune homme dans le lit.
+A la lueur de la lune, le roi voit un jeune homme dans le lit.
+3
+Le roi enterre la peau d'âne.
+Le roi brûle la peau d'âne.
+Le roi vend la peau d'âne.
+2
