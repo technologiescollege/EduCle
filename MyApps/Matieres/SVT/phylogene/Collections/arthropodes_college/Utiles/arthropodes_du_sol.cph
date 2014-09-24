@@ -1,0 +1,46 @@
+arthropodes_college
+Arthropodes du sol
+<Exclusions:GD><ModeCollege>
+Acarien,,0,0,Acarien,GenAcarien,ZoomtAcarien,ZoomcAcarien
+Collembole,,0,0,Collembole,GenCollembole,Zoomtcollembole,ZoomcCollembole
+Cloporte,,0,0,Cloporte,GenCloporte,ZoomtCloporte,ZoomcCloporte
+Faucheux,,0,0,Faucheux,GenFaucheux,ZoomtFaucheux,ZoomcFaucheux
+Fourmi,,0,0,Fourmi,GenFourmi,ZoomtFourmi,ZoomcFourmi
+Gloméris,,0,0,Glomeris,GenGlomeris,ZoomtGlomeris,ZoomcGlomeris
+Grillon,,0,0,Grillon,GenGrillon,ZoomtGrillon,ZoomcGrillon
+Hanneton,,0,0,Hanneton,GenHanneton,ZoomtHanneton,ZoomcHanneton
+Staphylin,,0,0,Staphylin,GenStaphylin,ZoomtStaphylin,ZoomcStaphylin
+Iule,,0,0,Iule,GenIule,ZoomtIule,ZoomcIule
+"Poisson d'argent",,0,0,Poissondargent,GenPoissondargent,ZoomtPoissondargent,ZoomcPoissondargent
+Pseudoscorpion,,0,0,Pseudoscorpion,GenPseudoscorpion,ZoomtPseudoscorpion,ZoomcPseudoscorpion
+Scolopendre,,0,0,Scolopendre,GenScolopendre,ZoomtScolopendre,ZoomcScolopendre
+<Caractères V2>
+Générales,Anatomiques
+2
+1,2
+Générales,"Zoom tête","Zoom corps"
+Chélicères,"Zoom tête",1,Absentes,,,Présentes,,,?,,
+"3 paires de pattes","Zoom corps",1,Non,,,Oui,,,?,,
+"Ailes membraneuses","Zoom corps",1,Non,,,Oui,,,?,,
+"Développement complet larve_nymphe_adulte",Générales,1,Non,,,Oui,,,?,,
+"Elytres en bouclier","Zoom corps",1,Non,,,Oui,,,?,,
+"4 paires de pattes","Zoom corps",1,Non,,,Oui,,,?,,
+"7 paires de pattes","Zoom corps",1,Non,,,Oui,,,?,,
+Antennes,"Zoom tête",1,Absentes,,,Présentes,,,?,,
+"8 paires de pattes ou plus","Zoom corps",1,Non,,,Oui,,,?,,
+"Membres articulés","Zoom corps",1,Non,,,Oui,,,?,,
+<Tableau Ref>
+Chélicères3 paires de pattesAiles membraneusesDéveloppement complet larve_nymphe_adulteElytres en bouclier4 paires de pattes7 paires de pattesAntennes8 paires de pattes ou plusMembres articulés
+AcarienPrésentesNonNonNonNonOuiNonAbsentesNonOui
+CollemboleAbsentesOuiNonNonNonNonNonPrésentesNonOui
+CloporteAbsentesNonNonNonNonNonOuiPrésentesNonOui
+FaucheuxPrésentesNonNonNonNonOuiNonAbsentesNonOui
+FourmiAbsentesOuiOuiOuiNonNonNonPrésentesNonOui
+GlomérisAbsentesNonNonNonNonNonNonPrésentesOuiOui
+GrillonAbsentesOuiOuiNonNonNonNonPrésentesNonOui
+HannetonAbsentesOuiOuiOuiOuiNonNonPrésentesNonOui
+StaphylinAbsentesOuiOuiOuiOuiNonNonPrésentesNonOui
+IuleAbsentesNonNonNonNonNonNonPrésentesOuiOui
+Poisson d'argentAbsentesOuiNonNonNonNonNonPrésentesNonOui
+PseudoscorpionPrésentesNonNonNonNonOuiNonAbsentesNonOui
+ScolopendreAbsentesNonNonNonNonNonNonPrésentesOuiOui

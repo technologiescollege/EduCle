@@ -1,0 +1,41 @@
+arthropodes_college
+Arthropodes maison-jardin
+<Exclusions:GD><ModeCollege>
+Abeille,,0,0,Abeille,GenAbeille,ZoomtAbeille,ZoomcAbeille
+Collembole,,0,0,Collembole,GenCollembole,ZoomtCollembole,ZoomcCollembole
+Cloporte,,0,0,Cloporte,GenCloporte,ZoomtCloporte,ZoomcCloporte
+Epeire,,0,0,Epeire,GenEpeire,ZoomtEpeire,ZoomcEpeire
+Mouche,,0,0,Mouche,GenMouche,ZoomtMouche,ZoomcMouche
+Moustique,,0,0,Moustique,GenMoustique,ZoomtMoustique,ZoomcMoustique
+"Poisson d'argent",,0,0,Poissondargent,GenPoissondargent,ZoomtPoissondargent,ZoomcPoissondargent
+Taon,,0,0,Taon,GenTaon,ZoomtTaon,ZoomcTaon
+Tégénaire,,0,0,Tegenaire,GenTegenaire,ZoomtTegenaire,ZoomcTegenaire
+Gloméris,,0,0,Glomeris,GenGlomeris,ZoomtGlomeris,ZoomcGlomeris
+<Caractères V2>
+Générales,Anatomiques
+2
+1,2
+Générales,"Zoom tête","Zoom corps"
+Chélicères,"Zoom tête",1,Absent,,,Présent,,,?,,
+"3 paires de pattes","Zoom corps",1,Non,,,Oui,,,?,,
+"Ailes membraneuses","Zoom corps",1,Non,,,Oui,,,?,,
+"Membres articulés","Zoom corps",1,Non,,,Oui,,,?,,
+"7 paires de pattes","Zoom corps",1,Non,,,Oui,,,?,,
+Antennes,"Zoom tête",1,Absentes,,,Présentes,,,?,,
+Trompe,"Zoom tête",1,Absente,,,Présente,,,?,,
+"8 paires de pattes ou plus","Zoom corps",1,Non,,,Oui,,,?,,
+"2 paires d'antennes","Zoom tête",1,Non,,,Oui,,,?,,
+"Filières sur l'abdomen","Zoom corps",1,Non,,,Oui,,,?,,
+Furca,"Zoom corps",1,Non,,,Oui,,,?,,
+<Tableau Ref>
+Chélicères3 paires de pattesAiles membraneusesMembres articulés7 paires de pattesAntennesTrompe8 paires de pattes ou plus2 paires d'antennesFilières sur l'abdomenFurca
+AbeilleAbsentOuiOuiOuiNonPrésentesAbsenteNonNonNonNon
+CollemboleAbsentOuiNonOuiNonPrésentesAbsenteNonNonNonOui
+CloporteAbsentNonNonOuiOuiPrésentesAbsenteNonOuiNonNon
+EpeirePrésentNonNonOuiNonAbsentesAbsenteNonNonOuiNon
+MoucheAbsentOuiOuiOuiNonPrésentesPrésenteNonNonNonNon
+MoustiqueAbsentOuiOuiOuiNonPrésentesPrésenteNonNonNonNon
+Poisson d'argentAbsentOuiNonOuiNonPrésentesAbsenteNonNonNonNon
+TaonAbsentOuiOuiOuiNonPrésentesPrésenteNonNonNonNon
+TégénairePrésentNonNonOuiNonAbsentesAbsenteNonNonOuiNon
+GlomérisAbsentNonNonOuiNonPrésentesAbsenteOuiNonNonNon

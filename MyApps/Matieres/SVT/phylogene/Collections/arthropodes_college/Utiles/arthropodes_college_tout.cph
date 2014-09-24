@@ -1,0 +1,146 @@
+arthropodes_college
+Arthropodes Collège ref
+<Exclusions:GD><ModeCollege>
+Abeille,,0,0,Abeille,GenAbeille,ZoomtAbeille,ZoomcAbeille
+Acarien,,0,0,Acarien,GenAcarien,ZoomtAcarien,ZoomcAcarien
+Argyronète,,0,0,Argyronete,GenArgyronete,ZoomtArgyronete,ZoomcArgyronete
+Bouquet,,0,0,Bouquet,GenBouquet,ZoomtBouquet,ZoomcBouquet
+Bourdon,,0,0,Bourdon,GenBourdon,ZoomtBourdon,ZoomcBourdon
+Cicindèle,,0,0,Cicindele,GenCicindele,ZoomtCicindele,ZoomcCicindele
+Coccinelle,,0,0,Coccinelle,GenCoccinelle,ZoomtCoccinelle,ZoomcCoccinelle
+Collembole,,0,0,Collembole,GenCollembole,Zoomtcollembole,ZoomcCollembole
+Cigale,,0,0,Cigale,GenCigale,ZoomtCigale,ZoomcCigale
+Cloporte,,0,0,Cloporte,GenCloporte,ZoomtCloporte,ZoomcCloporte
+Criquet,,0,0,Criquet,GenCriquet,ZoomtCriquet,ZoomcCriquet
+Demoiselle,,0,0,Demoiselle,GenDemoiselle,ZoomtDemoiselle,ZoomcDemoiselle
+Dolomède,,0,0,Dolomede,GenDolomede,ZoomtDolomede,ZoomcDolomede
+Dytique,,0,0,Dytique,GenDytique,ZoomtDytique,ZoomcDytique
+Ecrevisse,,0,0,Ecrevisse,GenEcrevisse,ZoomtEcrevisse,ZoomcEcrevisse
+Epeire,,0,0,Epeire,GenEpeire,ZoomtEpeire,ZoomcEpeire
+Ephémère,,0,0,Ephemere,GenEphemere,ZoomtEphemere,ZoomcEphemere
+Etrille,,0,0,Etrille,GenEtrille,ZoomtEtrille,ZoomcEtrille
+Faucheux,,0,0,Faucheux,GenFaucheux,ZoomtFaucheux,ZoomcFaucheux
+Fourmi,,0,0,Fourmi,GenFourmi,ZoomtFourmi,ZoomcFourmi
+Fourmilion,,0,0,Fourmilion,GenFourmilion,ZoomtFourmilion,ZoomcFourmilion
+Gerris,,0,0,Gerris,GenGerris,ZoomtGerris,ZoomcGerris
+Gloméris,,0,0,Glomeris,GenGlomeris,ZoomtGlomeris,ZoomcGlomeris
+Grillon,,0,0,Grillon,GenGrillon,ZoomtGrillon,ZoomcGrillon
+Guêpe,,0,0,Guepe,GenGuepe,ZoomtGuepe,ZoomcGuepe
+Hanneton,,0,0,Hanneton,GenHanneton,ZoomtHanneton,ZoomcHanneton
+Iule,,0,0,Iule,GenIule,ZoomtIule,ZoomcIule
+Libellule,,0,0,Libellule,GenLibellule,ZoomtLibellule,ZoomcLibellule
+Ligie,,0,0,Ligie,GenLigie,ZoomtLigie,ZoomcLigie
+Limule,,0,0,Limule,GenLimule,ZoomtLimule,ZoomcLimule
+Lucane,,0,0,Lucane,GenLucane,ZoomtLucane,ZoomcLucane
+Machaon,,0,0,Machaon,GenMachaon,ZoomtMachaon,ZoomcMachaon
+Mouche,,0,0,Mouche,GenMouche,ZoomtMouche,ZoomcMouche
+Moustique,,0,0,Moustique,GenMoustique,ZoomtMoustique,ZoomcMoustique
+Phryne,,0,0,Phryne,GenPhryne,ZoomtPhryne,ZoomcPhryne
+Piéride,,0,0,Pieride,GenPieride,ZoomtPieride,ZoomcPieride
+"Poisson d'argent",,0,0,Poissondargent,GenPoissondargent,ZoomtPoissondargent,ZoomcPoissondargent
+Pseudoscorpion,,0,0,Pseudoscorpion,GenPseudoscorpion,ZoomtPseudoscorpion,ZoomcPseudoscorpion
+Pterygotus,,0,0,Pterygotus,GenPterygotus,ZoomtPterygotus,ZoomcPterygotus
+Puceron,,0,0,Puceron,GenPuceron,ZoomtPuceron,ZoomcPuceron
+Punaise,,0,0,Punaise,GenPunaise,ZoomtPunaise,ZoomcPunaise
+Sauterelle,,0,0,Sauterelle,GenSauterelle,ZoomtSauterelle,ZoomcSauterelle
+Scolopendre,,0,0,Scolopendre,GenScolopendre,ZoomtScolopendre,ZoomcScolopendre
+Scorpion,,0,0,Scorpion,GenScorpion,ZoomtScorpion,ZoomcScorpion
+Solifuge,,0,0,Solifuge,GenSolifuge,ZoomtSolifuge,ZoomcSolifuge
+Sphinx,,0,0,Sphinx,GenSphinx,ZoomtSphinx,ZoomcSphinx
+Taon,,0,0,Taon,GenTaon,ZoomtTaon,ZoomcTaon
+Tégénaire,,0,0,Tegenaire,GenTegenaire,ZoomtTegenaire,ZoomcTegenaire
+Tourteau,,0,0,Tourteau,GenTourteau,ZoomtTourteau,ZoomcTourteau
+Vinaigrier,,0,0,Vinaigrier,GenVinaigrier,ZoomtVinaigrier,ZoomcVinaigrier
+<Caractères V2>
+Générales,Anatomiques
+2
+1,2
+Générales,"Zoom tête","Zoom corps"
+Chélicères,"Zoom tête",1,Absent,,,Présent,,,?,,
+"Chélicères en rostre","Zoom tête",1,Absent,,,Présent,,,?,,
+"Exosquelette calcaire",Générales,1,Absent,,,Présent,,,?,,
+"3 paires de pattes","Zoom corps",1,Non,,,Oui,,,?,,
+"Ailes membraneuses","Zoom corps",1,Non,,,Oui,,,?,,
+"Mue chez adulte ailé",Générales,1,Absente,,,Présente,,,?,,
+"Ailes repliables","Zoom corps",1,Non,,,Oui,,,?,,
+"Pattes sauteuses","Zoom corps",1,Non,,,Oui,,,?,,
+"Développement complet larve_nymphe_adulte",Générales,1,Non,,,Oui,,,?,,
+"Elytres en bouclier","Zoom corps",1,Non,,,Oui,,,?,,
+"Trompe enroulée","Zoom tête",1,Absente,,,Présente,,,?,,
+"Glande à venin abdominale","Zoom corps",0,Absent,,,Présent,,,?,,
+Corbeilles,"Zoom corps",1,Absentes,,,Présentes,,,?,,
+"Yeux sur tourelles","Zoom tête",1,Non,,,Oui,,,?,,
+"4 paires de pattes","Zoom corps",1,Non,,,Oui,,,?,,
+Exosquelette,Générales,1,Absent,,,Présent,,,?,,
+"Pièces buccales articulées","Zoom tête",1,Non,,,Oui,,,?,,
+"Membres articulés","Zoom corps",1,Non,,,Oui,,,?,,
+"7 paires de pattes","Zoom corps",1,Non,,,Oui,,,?,,
+Mandibules,"Zoom tête",1,Absentes,,,Présentes,,,?,,
+Antennes,"Zoom tête",1,Absentes,,,Présentes,,,?,,
+"Accouplement en coeur",Générales,1,Non,,,Oui,,,?,,
+"Mandibules en rostre","Zoom tête",1,Non,,,Oui,,,?,,
+"Ailes écailleuses","Zoom corps",1,Non,,,Oui,,,?,,
+Trompe,"Zoom tête",1,Absente,,,Présente,,,?,,
+"Taille échancrée","Zoom corps",1,Absente,,,Présente,,,?,,
+"Ouvrières sans ailes",Générales,1,Non,,,Oui,,,?,,
+"Yeux échancrés","Zoom tête",1,Non,,,Oui,,,?,,
+"Vie sociale à reine et ouvrières",Générales,1,Non,,,Oui,,,?,,
+"Crochets sur ailes postérieures","Zoom corps",1,Absents,,,Présents,,,?,,
+"8 paires de pattes ou plus","Zoom corps",1,Non,,,Oui,,,?,,
+"5 paires de pattes","Zoom corps",1,Non,,,Oui,,,?,,
+"2 paires d'antennes","Zoom tête",1,Non,,,Oui,,,?,,
+"Filières sur l'abdomen","Zoom corps",1,Non,,,Oui,,,?,,
+Balanciers,"Zoom corps",1,Non,,,Oui,,,?,,
+Furca,"Zoom corps",1,Non,,,Oui,,,?,,
+<Tableau Ref>
+ChélicèresChélicères en rostreExosquelette calcaire3 paires de pattesAiles membraneusesMue chez adulte ailéAiles repliablesPattes sauteusesDéveloppement complet larve_nymphe_adulteElytres en bouclierTrompe enrouléeGlande à venin abdominaleCorbeillesYeux sur tourelles4 paires de pattesExosquelettePièces buccales articuléesMembres articulés7 paires de pattesMandibulesAntennesAccouplement en coeurMandibules en rostreAiles écailleusesTrompeTaille échancréeOuvrières sans ailesYeux échancrésVie sociale à reine et ouvrièresCrochets sur ailes postérieures8 paires de pattes ou plus5 paires de pattes2 paires d'antennesFilières sur l'abdomenBalanciersFurca
+AbeilleAbsentAbsentAbsentOuiOuiAbsenteOuiNonOuiNonAbsentePrésentPrésentesNonNonPrésentOuiOuiNonPrésentesPrésentesNonNonNonAbsenteAbsenteNonNonOuiPrésentsNonNonNonNonNonNon
+AcarienPrésentPrésentAbsentNonNonAbsenteNonNonNonNonAbsenteAbsentAbsentesNonOuiPrésentOuiOuiNonAbsentesAbsentesNonNonNonAbsenteAbsenteNonNonNonAbsentsNonNonNonNonNonNon
+ArgyronètePrésentAbsentAbsentNonNonAbsenteNonNonNonNonAbsenteAbsentAbsentesNonOuiPrésentOuiOuiNonAbsentesAbsentesNonNonNonAbsenteAbsenteNonNonNonAbsentsNonNonNonOuiNonNon
+BouquetAbsentAbsentPrésentNonNonAbsenteNonNonNonNonAbsenteAbsentAbsentesNonNonPrésentOuiOuiNonPrésentesPrésentesNonNonNonAbsenteAbsenteNonNonNonAbsentsNonOuiOuiNonNonNon
+BourdonAbsentAbsentAbsentOuiOuiAbsenteOuiNonOuiNonAbsentePrésentPrésentesNonNonPrésentOuiOuiNonPrésentesPrésentesNonNonNonAbsenteAbsenteNonNonOuiPrésentsNonNonNonNonNonNon
+CicindèleAbsentAbsentAbsentOuiOuiAbsenteOuiNonOuiOuiAbsenteAbsentAbsentesNonNonPrésentOuiOuiNonPrésentesPrésentesNonNonNonAbsenteAbsenteNonNonNonAbsentsNonNonNonNonNonNon
+CoccinelleAbsentAbsentAbsentOuiOuiAbsenteOuiNonOuiOuiAbsenteAbsentAbsentesNonNonPrésentOuiOuiNonPrésentesPrésentesNonNonNonAbsenteAbsenteNonNonNonAbsentsNonNonNonNonNonNon
+CollemboleAbsentAbsentAbsentOuiNonAbsenteNonNonNonNonAbsenteAbsentAbsentesNonNonPrésentOuiOuiNonPrésentesPrésentesNonNonNonAbsenteAbsenteNonNonNonAbsentsNonNonNonNonNonOui
+CigaleAbsentAbsentAbsentOuiOuiAbsenteOuiNonNonNonAbsenteAbsentAbsentesNonNonPrésentOuiOuiNonPrésentesPrésentesNonOuiNonAbsenteAbsenteNonNonNonAbsentsNonNonNonNonNonNon
+CloporteAbsentAbsentPrésentNonNonAbsenteNonNonNonNonAbsenteAbsentAbsentesNonNonPrésentOuiOuiOuiPrésentesPrésentesNonNonNonAbsenteAbsenteNonNonNonAbsentsNonNonOuiNonNonNon
+CriquetAbsentAbsentAbsentOuiOuiAbsenteOuiOuiNonNonAbsenteAbsentAbsentesNonNonPrésentOuiOuiNonPrésentesPrésentesNonNonNonAbsenteAbsenteNonNonNonAbsentsNonNonNonNonNonNon
+DemoiselleAbsentAbsentAbsentOuiOuiAbsenteNonNonNonNonAbsenteAbsentAbsentesNonNonPrésentOuiOuiNonPrésentesPrésentesOuiNonNonAbsenteAbsenteNonNonNonAbsentsNonNonNonNonNonNon
+DolomèdePrésentAbsentAbsentNonNonAbsenteNonNonNonNonAbsenteAbsentAbsentesNonOuiPrésentOuiOuiNonAbsentesAbsentesNonNonNonAbsenteAbsenteNonNonNonAbsentsNonNonNonOuiNonNon
+DytiqueAbsentAbsentAbsentOuiOuiAbsenteOuiNonOuiOuiAbsenteAbsentAbsentesNonNonPrésentOuiOuiNonPrésentesPrésentesNonNonNonAbsenteAbsenteNonNonNonAbsentsNonNonNonNonNonNon
+EcrevisseAbsentAbsentPrésentNonNonAbsenteNonNonNonNonAbsenteAbsentAbsentesNonNonPrésentOuiOuiNonPrésentesPrésentesNonNonNonAbsenteAbsenteNonNonNonAbsentsNonOuiOuiNonNonNon
+EpeirePrésentAbsentAbsentNonNonAbsenteNonNonNonNonAbsenteAbsentAbsentesNonOuiPrésentOuiOuiNonAbsentesAbsentesNonNonNonAbsenteAbsenteNonNonNonAbsentsNonNonNonOuiNonNon
+EphémèreAbsentAbsentAbsentOuiOuiPrésenteNonNonNonNonAbsenteAbsentAbsentesNonNonPrésentOuiOuiNonPrésentesPrésentesNonNonNonAbsenteAbsenteNonNonNonAbsentsNonNonNonNonNonNon
+EtrilleAbsentAbsentPrésentNonNonAbsenteNonNonNonNonAbsenteAbsentAbsentesNonNonPrésentOuiOuiNonPrésentesPrésentesNonNonNonAbsenteAbsenteNonNonNonAbsentsNonOuiOuiNonNonNon
+FaucheuxPrésentAbsentAbsentNonNonAbsenteNonNonNonNonAbsenteAbsentAbsentesOuiOuiPrésentOuiOuiNonAbsentesAbsentesNonNonNonAbsenteAbsenteNonNonNonAbsentsNonNonNonNonNonNon
+FourmiAbsentAbsentAbsentOuiOuiAbsenteOuiNonOuiNonAbsentePrésentAbsentesNonNonPrésentOuiOuiNonPrésentesPrésentesNonNonNonAbsentePrésenteOuiNonOuiPrésentsNonNonNonNonNonNon
+FourmilionAbsentAbsentAbsentOuiOuiAbsenteOuiNonOuiNonAbsenteAbsentAbsentesNonNonPrésentOuiOuiNonPrésentesPrésentesNonNonNonAbsenteAbsenteNonNonNonAbsentsNonNonNonNonNonNon
+GerrisAbsentAbsentAbsentOuiOuiAbsenteOuiNonNonNonAbsenteAbsentAbsentesNonNonPrésentOuiOuiNonPrésentesPrésentesNonOuiNonAbsenteAbsenteNonNonNonAbsentsNonNonNonNonNonNon
+GlomérisAbsentAbsentAbsentNonNonAbsenteNonNonNonNonAbsenteAbsentAbsentesNonNonPrésentOuiOuiNonPrésentesPrésentesNonNonNonAbsenteAbsenteNonNonNonAbsentsOuiNonNonNonNonNon
+GrillonAbsentAbsentAbsentOuiOuiAbsenteOuiOuiNonNonAbsenteAbsentAbsentesNonNonPrésentOuiOuiNonPrésentesPrésentesNonNonNonAbsenteAbsenteNonNonNonAbsentsNonNonNonNonNonNon
+GuêpeAbsentAbsentAbsentOuiOuiAbsenteOuiNonOuiNonAbsentePrésentAbsentesNonNonPrésentOuiOuiNonPrésentesPrésentesNonNonNonAbsentePrésenteNonOuiOuiPrésentsNonNonNonNonNonNon
+HannetonAbsentAbsentAbsentOuiOuiAbsenteOuiNonOuiOuiAbsenteAbsentAbsentesNonNonPrésentOuiOuiNonPrésentesPrésentesNonNonNonAbsenteAbsenteNonNonNonAbsentsNonNonNonNonNonNon
+IuleAbsentAbsentAbsentNonNonAbsenteNonNonNonNonAbsenteAbsentAbsentesNonNonPrésentOuiOuiNonPrésentesPrésentesNonNonNonAbsenteAbsenteNonNonNonAbsentsOuiNonNonNonNonNon
+LibelluleAbsentAbsentAbsentOuiOuiAbsenteNonNonNonNonAbsenteAbsentAbsentesNonNonPrésentOuiOuiNonPrésentesPrésentesOuiNonNonAbsenteAbsenteNonNonNonAbsentsNonNonNonNonNonNon
+LigieAbsentAbsentPrésentNonNonAbsenteNonNonNonNonAbsenteAbsentAbsentesNonNonPrésentOuiOuiOuiPrésentesPrésentesNonNonNonAbsenteAbsenteNonNonNonAbsentsNonNonOuiNonNonNon
+LimulePrésentAbsentAbsentNonNonAbsenteNonNonNonNonAbsenteAbsentAbsentesNonNonPrésentOuiOuiNonAbsentesAbsentesNonNonNonAbsenteAbsenteNonNonNonAbsentsNonOuiNonNonNonNon
+LucaneAbsentAbsentAbsentOuiOuiAbsenteOuiNonOuiOuiAbsenteAbsentAbsentesNonNonPrésentOuiOuiNonPrésentesPrésentesNonNonNonAbsenteAbsenteNonNonNonAbsentsNonNonNonNonNonNon
+MachaonAbsentAbsentAbsentOuiOuiAbsenteOuiNonOuiNonPrésenteAbsentAbsentesNonNonPrésentOuiOuiNonPrésentesPrésentesNonNonOuiPrésenteAbsenteNonNonNonAbsentsNonNonNonNonNonNon
+MoucheAbsentAbsentAbsentOuiOuiAbsenteOuiNonOuiNonAbsenteAbsentAbsentesNonNonPrésentOuiOuiNonPrésentesPrésentesNonNonNonPrésenteAbsenteNonNonNonAbsentsNonNonNonNonOuiNon
+MoustiqueAbsentAbsentAbsentOuiOuiAbsenteOuiNonOuiNonAbsenteAbsentAbsentesNonNonPrésentOuiOuiNonPrésentesPrésentesNonNonNonPrésenteAbsenteNonNonNonAbsentsNonNonNonNonOuiNon
+PhrynePrésentAbsentAbsentNonNonAbsenteNonNonNonNonAbsenteAbsentAbsentesNonOuiPrésentOuiOuiNonAbsentesAbsentesNonNonNonAbsenteAbsenteNonNonNonAbsentsNonNonNonNonNonNon
+PiérideAbsentAbsentAbsentOuiOuiAbsenteOuiNonOuiNonPrésenteAbsentAbsentesNonNonPrésentOuiOuiNonPrésentesPrésentesNonNonOuiPrésenteAbsenteNonNonNonAbsentsNonNonNonNonNonNon
+Poisson d'argentAbsentAbsentAbsentOuiNonAbsenteNonNonNonNonAbsenteAbsentAbsentesNonNonPrésentOuiOuiNonPrésentesPrésentesNonNonNonAbsenteAbsenteNonNonNonAbsentsNonNonNonNonNonNon
+PseudoscorpionPrésentAbsentAbsentNonNonAbsenteNonNonNonNonAbsenteAbsentAbsentesNonOuiPrésentOuiOuiNonAbsentesAbsentesNonNonNonAbsenteAbsenteNonNonNonAbsentsNonNonNonNonNonNon
+PterygotusPrésentAbsent?NonNonAbsenteNonNon?NonAbsente?AbsentesNonNonPrésentOuiOuiNonAbsentesAbsentes?NonNonAbsenteAbsenteNonNon?AbsentsNonOuiNonNonNonNon
+PuceronAbsentAbsentAbsentOuiOuiAbsenteOuiNonNonNonAbsenteAbsentAbsentesNonNonPrésentOuiOuiNonPrésentesPrésentesNonOuiNonAbsenteAbsenteNonNonNonAbsentsNonNonNonNonNonNon
+PunaiseAbsentAbsentAbsentOuiOuiAbsenteOuiNonNonNonAbsenteAbsentAbsentesNonNonPrésentOuiOuiNonPrésentesPrésentesNonOuiNonAbsenteAbsenteNonNonNonAbsentsNonNonNonNonNonNon
+SauterelleAbsentAbsentAbsentOuiOuiAbsenteOuiOuiNonNonAbsenteAbsentAbsentesNonNonPrésentOuiOuiNonPrésentesPrésentesNonNonNonAbsenteAbsenteNonNonNonAbsentsNonNonNonNonNonNon
+ScolopendreAbsentAbsentAbsentNonNonAbsenteNonNonNonNonAbsenteAbsentAbsentesNonNonPrésentOuiOuiNonPrésentesPrésentesNonNonNonAbsenteAbsenteNonNonNonAbsentsOuiNonNonNonNonNon
+ScorpionPrésentAbsentAbsentNonNonAbsenteNonNonNonNonAbsentePrésentAbsentesNonOuiPrésentOuiOuiNonAbsentesAbsentesNonNonNonAbsenteAbsenteNonNonNonAbsentsNonNonNonNonNonNon
+SolifugePrésentAbsentAbsentNonNonAbsenteNonNonNonNonAbsenteAbsentAbsentesNonOuiPrésentOuiOuiNonAbsentesAbsentesNonNonNonAbsenteAbsenteNonNonNonAbsentsNonNonNonNonNonNon
+SphinxAbsentAbsentAbsentOuiOuiAbsenteOuiNonOuiNonPrésenteAbsentAbsentesNonNonPrésentOuiOuiNonPrésentesPrésentesNonNonOuiPrésenteAbsenteNonNonNonAbsentsNonNonNonNonNonNon
+TaonAbsentAbsentAbsentOuiOuiAbsenteOuiNonOuiNonAbsenteAbsentAbsentesNonNonPrésentOuiOuiNonPrésentesPrésentesNonNonNonPrésenteAbsenteNonNonNonAbsentsNonNonNonNonOuiNon
+TégénairePrésentAbsentAbsentNonNonAbsenteNonNonNonNonAbsenteAbsentAbsentesNonOuiPrésentOuiOuiNonAbsentesAbsentesNonNonNonAbsenteAbsenteNonNonNonAbsentsNonNonNonOuiNonNon
+TourteauAbsentAbsentPrésentNonNonAbsenteNonNonNonNonAbsenteAbsentAbsentesNonNonPrésentOuiOuiNonPrésentesPrésentesNonNonNonAbsenteAbsenteNonNonNonAbsentsNonOuiOuiNonNonNon
+VinaigrierPrésentAbsentAbsentNonNonAbsenteNonNonNonNonAbsenteAbsentAbsentesNonOuiPrésentOuiOuiNonAbsentesAbsentesNonNonNonAbsenteAbsenteNonNonNonAbsentsNonNonNonNonNonNon

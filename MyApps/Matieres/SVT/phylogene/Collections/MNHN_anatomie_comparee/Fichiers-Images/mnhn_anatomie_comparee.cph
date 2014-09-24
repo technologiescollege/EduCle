@@ -1,0 +1,33 @@
+MNHN_anatomie_comparee
+MNHN Anatomie comparée
+<Exclusions:GN>
+Grenouille,,0,0,Grenouille,vertebGrenouille,clavicGrenouille,marcheGrenouille,oridoiGrenouille,mandibGrenouille,vervenGrenouille,dentsGrenouille
+Loup,,0,0,Loup,vertebLoup,clavicLoup,marcheLoup,oridoiLoup,mandibLoup,vervenLoup,dentsLoup
+Homme,,0,0,Homme,vertebHomme,clavicHomme,marcheHomme,oridoiHomme,mandibHomme,vervenHomme,dentsHomme
+Varan,,0,0,Varan,vertebVaran,clavicVaran,marcheVaran,oridoiVaran,mandibVaran,vervenVaran,dentsVaran
+Gavial,,0,0,Gavial,vertebGavial,clavicGavial,marcheGavial,oridoiGavial,mandibGavial,vervenGavial,dentsGavial
+Tetras,,0,0,Tetras,vertebTetras,clavicTetras,marcheTetras,oridoiTetras,mandibTetras,vervenTetras,dentsTetras
+Archaeopteryx,F,156000,150000,Archaeopteryx,vertebArchaeopteryx,clavicArchaeopteryx,marcheArchaeopteryx,oridoiArchaeopteryx,mandibArchaeopteryx,vervenArchaeopteryx,dentsArchaeopteryx
+Dromaeosaurus,F,72000,67000,Dromaeosaurus,vertebDromaeosaurus,clavicDromaeosaurus,marcheDromaeosaurus,oridoiDromaeosaurus,mandibDromaeosaurus,vervenDromaeosaurus,dentsDromaeosaurus
+<Caractères V2>
+Anatomiques
+1
+7
+"Nombre de vertèbres cervicales","Forme des clavicules","Doigts supportant la marche","Orientation des doigts","Conformation de la mandibule","Face ventrale des vertèbres cervicales","Type de dents"
+"Nombre de vertèbres cervicales","Nombre de vertèbres cervicales",1,Une,vertebGrenouille,,Plusieurs,vertebGavial,Amniotes,?,,
+"Forme des clavicules","Forme des clavicules",1,Séparées,clavicHomme,,Réunies,clavicTetras,Oiseaux,?,,
+"Doigts supportant la marche","Doigts supportant la marche",1,"Plus ou moins de 3",marcheHomme,,"3 doigts",oridoiDromaeosaurus,Théropodes,?,,
+"Orientation des doigts","Orientation des doigts",1,"Même orientation",oridoiVaran,,"Doigt opposable",oridoiHomme,Primates,?,,
+"Conformation de la mandibule","Conformation de la mandibule",1,Pleine,mandibLoup,,Percée,mandibGavial,Archosauriens,?,,
+"Face ventrale des vertèbres cervicales","Face ventrale des vertèbres cervicales",1,Lisse,vervenHomme,,Quille,vervenDromaeosaurus,Sauropsides,?,,
+"Type de dents","Type de dents",1,Un,dentsGavial,,Plusieurs,dentsLoup,Mammifères,Absence,dentsTetras,,?,,
+<Tableau Ref>
+Nombre de vertèbres cervicalesForme des claviculesDoigts supportant la marcheOrientation des doigtsConformation de la mandibuleFace ventrale des vertèbres cervicalesType de dents
+GrenouilleUneSéparéesPlus ou moins de 3Même orientationPleineLisseUn
+LoupPlusieursSéparéesPlus ou moins de 3Même orientationPleineLissePlusieurs
+HommePlusieursSéparéesPlus ou moins de 3Doigt opposablePleineLissePlusieurs
+VaranPlusieursSéparéesPlus ou moins de 3Même orientationPleineQuilleUn
+GavialPlusieursSéparéesPlus ou moins de 3Même orientationPercéeQuilleUn
+TetrasPlusieursRéunies3 doigtsMême orientationPercéeQuilleAbsence
+ArchaeopteryxPlusieursRéunies3 doigtsMême orientation??Un
+DromaeosaurusPlusieursSéparées3 doigtsMême orientationPercéeQuilleUn

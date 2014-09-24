@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<collection id="0" nom="collection N°1 (Au collège)">
+	<espece nom="chat" taille="env. 50cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="absent" couleur="0xFFFF00">1</attribut>
+		<attribut id="4" intitule="4 membres" etat="présent" couleur="0xFF0000">1</attribut>
+		<attribut id="7" intitule="poils" etat="présent" couleur="0xFF9966">1</attribut>
+		<attribut id="8" intitule="plumes" etat="absent" couleur="0x999900">0</attribut>
+		<attribut id="10" intitule="6 pattes" etat="absent" couleur="0xFF33CC">1</attribut>
+		<attribut id="3" intitule="8 pattes et chélicères" etat="absent" couleur="0xCC0000">0</attribut>
+	</espece>
+	<espece nom="épeire fasciée" taille="env. 5cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="présent" couleur="0xFFFF00">1</attribut>
+		<attribut id="4" intitule="4 membres" etat="absent" couleur="0xFF0000">1</attribut>
+		<attribut id="7" intitule="poils" etat="absent" couleur="0xFF9966">1</attribut>
+		<attribut id="8" intitule="plumes" etat="absent" couleur="0x999900">0</attribut>
+		<attribut id="10" intitule="6 pattes" etat="absent" couleur="0xFF33CC">1</attribut>
+		<attribut id="3" intitule="8 pattes et chélicères" etat="présent" couleur="0xCC0000">0</attribut>
+	</espece>
+	<espece nom="guêpe" taille="env. 2cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="présent" couleur="0xFFFF00">1</attribut>
+		<attribut id="4" intitule="4 membres" etat="absent" couleur="0xFF0000">1</attribut>
+		<attribut id="7" intitule="poils" etat="absent" couleur="0xFF9966">1</attribut>
+		<attribut id="8" intitule="plumes" etat="absent" couleur="0x999900">0</attribut>
+		<attribut id="10" intitule="6 pattes" etat="présent" couleur="0xFF33CC">1</attribut>
+		<attribut id="3" intitule="8 pattes et chélicères" etat="absent" couleur="0xCC0000">0</attribut>
+	</espece>
+	<espece nom="lézard des murailles" taille="env. 15cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="absent" couleur="0xFFFF00">1</attribut>
+		<attribut id="4" intitule="4 membres" etat="présent" couleur="0xFF0000">1</attribut>
+		<attribut id="7" intitule="poils" etat="absent" couleur="0xFF9966">1</attribut>
+		<attribut id="8" intitule="plumes" etat="absent" couleur="0x999900">0</attribut>
+		<attribut id="10" intitule="6 pattes" etat="absent" couleur="0xFF33CC">1</attribut>
+		<attribut id="3" intitule="8 pattes et chélicères" etat="absent" couleur="0xCC0000">0</attribut>
+	</espece>
+	<espece nom="mésange charbonnière" taille="env. 15cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="absent" couleur="0xFFFF00">1</attribut>
+		<attribut id="4" intitule="4 membres" etat="présent" couleur="0xFF0000">1</attribut>
+		<attribut id="7" intitule="poils" etat="absent" couleur="0xFF9966">1</attribut>
+		<attribut id="8" intitule="plumes" etat="présent" couleur="0x999900">0</attribut>
+		<attribut id="10" intitule="6 pattes" etat="absent" couleur="0xFF33CC">1</attribut>
+		<attribut id="3" intitule="8 pattes et chélicères" etat="absent" couleur="0xCC0000">0</attribut>
+	</espece>
+	<espece nom="pyrrhocore" taille="env. 1cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="présent" couleur="0xFFFF00">1</attribut>
+		<attribut id="4" intitule="4 membres" etat="absent" couleur="0xFF0000">1</attribut>
+		<attribut id="7" intitule="poils" etat="absent" couleur="0xFF9966">1</attribut>
+		<attribut id="8" intitule="plumes" etat="absent" couleur="0x999900">0</attribut>
+		<attribut id="10" intitule="6 pattes" etat="présent" couleur="0xFF33CC">1</attribut>
+		<attribut id="3" intitule="8 pattes et chélicères" etat="absent" couleur="0xCC0000">0</attribut>
+	</espece>
+	
+	
+</collection>
+<collection id="1" nom="collection N°2 (Polynésie)">
+	<espece nom="balliste picasso" taille="env. 20cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="absent" couleur="0xFFFF00">1</attribut>
+		<attribut id="3" intitule="squellette interne" etat="présent" couleur="0x99CC66">1</attribut>
+		<attribut id="4" intitule="4 membres" etat="absent" couleur="0xFF0000">1</attribut>
+		<attribut id="5" intitule="nageoires rayonnées" etat="présent" couleur="0x00FFFF">0</attribut>
+		<attribut id="7" intitule="poils" etat="absent" couleur="0xFF9966">1</attribut>
+		<attribut id="8" intitule="plumes" etat="absent" couleur="0x999900">0</attribut>
+		<attribut id="9" intitule="nombreuses parties identiques ayant des pattes" etat="absent" couleur="0x9966FF">1</attribut>
+		<attribut id="10" intitule="6 pattes" etat="absent" couleur="0xFF33CC">1</attribut>
+	</espece>
+	<espece nom="blatte" taille="4 à 8cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="présent" couleur="0xFFFF00">1</attribut>
+		<attribut id="3" intitule="squellette interne" etat="absent" couleur="0x99CC66">1</attribut>
+		<attribut id="4" intitule="4 membres" etat="absent" couleur="0xFF0000">1</attribut>
+		<attribut id="5" intitule="nageoires rayonnées" etat="absent" couleur="0x00FFFF">0</attribut>
+		<attribut id="7" intitule="poils" etat="absent" couleur="0xFF9966">1</attribut>
+		<attribut id="8" intitule="plumes" etat="absent" couleur="0x999900">0</attribut>
+		<attribut id="9" intitule="nombreuses parties identiques ayant des pattes" etat="absent" couleur="0x9966FF">1</attribut>
+		<attribut id="10" intitule="6 pattes" etat="présent" couleur="0xFF33CC">1</attribut>
+	</espece>
+	<espece nom="chien" taille="env. 80cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="absent" couleur="0xFFFF00">1</attribut>
+		<attribut id="3" intitule="squellette interne" etat="présent" couleur="0x99CC66">1</attribut>
+		<attribut id="4" intitule="4 membres" etat="présent" couleur="0xFF0000">1</attribut>
+		<attribut id="5" intitule="nageoires rayonnées" etat="absent" couleur="0x00FFFF">0</attribut>
+		<attribut id="7" intitule="poils" etat="présent" couleur="0xFF9966">1</attribut>
+		<attribut id="8" intitule="plumes" etat="absent" couleur="0x999900">0</attribut>
+		<attribut id="9" intitule="nombreuses parties identiques ayant des pattes" etat="absent" couleur="0x9966FF">1</attribut>
+		<attribut id="10" intitule="6 pattes" etat="absent" couleur="0xFF33CC">1</attribut>
+	</espece>
+	<espece nom="gecko" taille="env. 15cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="absent" couleur="0xFFFF00">1</attribut>
+		<attribut id="3" intitule="squellette interne" etat="présent" couleur="0x99CC66">1</attribut>
+		<attribut id="4" intitule="4 membres" etat="présent" couleur="0xFF0000">1</attribut>
+		<attribut id="5" intitule="nageoires rayonnées" etat="absent" couleur="0x00FFFF">0</attribut>
+		<attribut id="7" intitule="poils" etat="absent" couleur="0xFF9966">1</attribut>
+		<attribut id="8" intitule="plumes" etat="absent" couleur="0x999900">0</attribut>
+		<attribut id="9" intitule="nombreuses parties identiques ayant des pattes" etat="absent" couleur="0x9966FF">1</attribut>
+		<attribut id="10" intitule="6 pattes" etat="absent" couleur="0xFF33CC">1</attribut>
+	</espece>
+	<espece nom="moustique" taille="env. 0.5 à 1cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="présent" couleur="0xFFFF00">1</attribut>
+		<attribut id="3" intitule="squellette interne" etat="absent" couleur="0x99CC66">1</attribut>
+		<attribut id="4" intitule="4 membres" etat="absent" couleur="0xFF0000">1</attribut>
+		<attribut id="5" intitule="nageoires rayonnées" etat="absent" couleur="0x00FFFF">0</attribut>
+		<attribut id="7" intitule="poils" etat="absent" couleur="0xFF9966">1</attribut>
+		<attribut id="8" intitule="plumes" etat="absent" couleur="0x999900">0</attribut>
+		<attribut id="9" intitule="nombreuses parties identiques ayant des pattes" etat="absent" couleur="0x9966FF">1</attribut>
+		<attribut id="10" intitule="6 pattes" etat="présent" couleur="0xFF33CC">1</attribut>
+	</espece>
+	<espece nom="poule" taille="env. 30cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="absent" couleur="0xFFFF00">1</attribut>
+		<attribut id="3" intitule="squellette interne" etat="présent" couleur="0x99CC66">1</attribut>
+		<attribut id="4" intitule="4 membres" etat="présent" couleur="0xFF0000">1</attribut>
+		<attribut id="5" intitule="nageoires rayonnées" etat="absent" couleur="0x00FFFF">0</attribut>
+		<attribut id="7" intitule="poils" etat="absent" couleur="0xFF9966">1</attribut>
+		<attribut id="8" intitule="plumes" etat="présent" couleur="0x999900">0</attribut>
+		<attribut id="9" intitule="nombreuses parties identiques ayant des pattes" etat="absent" couleur="0x9966FF">1</attribut>
+		<attribut id="10" intitule="6 pattes" etat="absent" couleur="0xFF33CC">1</attribut>
+	</espece>
+	<espece nom="scolopendre" taille="10 à 20cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="présent" couleur="0xFFFF00">1</attribut>
+		<attribut id="3" intitule="squellette interne" etat="absent" couleur="0x99CC66">1</attribut>
+		<attribut id="4" intitule="4 membres" etat="absent" couleur="0xFF0000">1</attribut>
+		<attribut id="5" intitule="nageoires rayonnées" etat="absent" couleur="0x00FFFF">0</attribut>
+		<attribut id="7" intitule="poils" etat="absent" couleur="0xFF9966">1</attribut>
+		<attribut id="8" intitule="plumes" etat="absent" couleur="0x999900">0</attribut>
+		<attribut id="9" intitule="nombreuses parties identiques ayant des pattes" etat="présent" couleur="0x9966FF">1</attribut>
+		<attribut id="10" intitule="6 pattes" etat="absent" couleur="0xFF33CC">1</attribut>
+	</espece>
+</collection>
+
+<collection id="2" nom="collection N°3 (Bord de mer)">
+	<espece nom="fou de bassan" taille="env. 50cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="absent" couleur="0xFFFF00">1</attribut>		        <attribut id="3" intitule="squellette interne" etat="présent" couleur="0x99CC66">1</attribut>
+		<attribut id="4" intitule="4 membres" etat="présent" couleur="0xFF0000">1</attribut>
+		<attribut id="5" intitule="nageoires rayonnées" etat="absent" couleur="0x00FFFF">0</attribut>
+		<attribut id="6" intitule="corps porte ou contient une coquille" etat="absent" couleur="0xFF9900">1</attribut>
+		<attribut id="7" intitule="coquille enroulée" etat="absent" couleur="0xCC66CC">1</attribut>
+		<attribut id="8" intitule="coquille en deux parties" etat="absent" couleur="0xFF3399">1</attribut>
+		<attribut id="9" intitule="tentacules" etat="absent" couleur="0x009999">1</attribut>
+	</espece>
+	<espece nom="grand cormoran" taille="env. 60cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="absent" couleur="0xFFFF00">1</attribut>		        <attribut id="3" intitule="squellette interne" etat="présent" couleur="0x99CC66">1</attribut>
+		<attribut id="4" intitule="4 membres" etat="présent" couleur="0xFF0000">1</attribut>
+		<attribut id="5" intitule="nageoires rayonnées" etat="absent" couleur="0x00FFFF">0</attribut>
+		<attribut id="6" intitule="corps porte ou contient une coquille" etat="absent" couleur="0xFF9900">1</attribut>
+		<attribut id="7" intitule="coquille enroulée" etat="absent" couleur="0xCC66CC">1</attribut>
+		<attribut id="8" intitule="coquille en deux parties" etat="absent" couleur="0xFF3399">1</attribut>
+		<attribut id="9" intitule="tentacules" etat="absent" couleur="0x009999">1</attribut>
+	</espece>
+	<espece nom="langouste" taille="env. 25cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="présent" couleur="0xFFFF00">1</attribut>		        <attribut id="3" intitule="squellette interne" etat="absent" couleur="0x99CC66">1</attribut>
+		<attribut id="4" intitule="4 membres" etat="absent" couleur="0xFF0000">1</attribut>
+		<attribut id="5" intitule="nageoires rayonnées" etat="absent" couleur="0x00FFFF">0</attribut>
+		<attribut id="6" intitule="corps porte ou contient une coquille" etat="absent" couleur="0xFF9900">1</attribut>
+		<attribut id="7" intitule="coquille enroulée" etat="absent" couleur="0xCC66CC">1</attribut>
+		<attribut id="8" intitule="coquille en deux parties" etat="absent" couleur="0xFF3399">1</attribut>
+		<attribut id="9" intitule="tentacules" etat="absent" couleur="0x009999">1</attribut>
+	</espece>
+	<espece nom="littorine" taille="0.5 à 1cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="absent" couleur="0xFFFF00">1</attribut>		        <attribut id="3" intitule="squellette interne" etat="absent" couleur="0x99CC66">1</attribut>
+		<attribut id="4" intitule="4 membres" etat="absent" couleur="0xFF0000">1</attribut>
+		<attribut id="5" intitule="nageoires rayonnées" etat="absent" couleur="0x00FFFF">0</attribut>
+		<attribut id="6" intitule="corps porte ou contient une coquille" etat="présent" couleur="0xFF9900">1</attribut>
+		<attribut id="7" intitule="coquille enroulée" etat="présent" couleur="0xCC66CC">1</attribut>
+		<attribut id="8" intitule="coquille en deux parties" etat="absent" couleur="0xFF3399">1</attribut>
+		<attribut id="9" intitule="tentacules" etat="absent" couleur="0x009999">1</attribut>
+	</espece>
+	<espece nom="mérou" taille="30 à 50cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="absent" couleur="0xFFFF00">1</attribut>		        <attribut id="3" intitule="squellette interne" etat="présent" couleur="0x99CC66">1</attribut>
+		<attribut id="4" intitule="4 membres" etat="absent" couleur="0xFF0000">1</attribut>
+		<attribut id="5" intitule="nageoires rayonnées" etat="présent" couleur="0x00FFFF">0</attribut>
+		<attribut id="6" intitule="corps porte ou contient une coquille" etat="absent" couleur="0xFF9900">1</attribut>
+		<attribut id="7" intitule="coquille enroulée" etat="absent" couleur="0xCC66CC">1</attribut>
+		<attribut id="8" intitule="coquille en deux parties" etat="absent" couleur="0xFF3399">1</attribut>
+		<attribut id="9" intitule="tentacules" etat="absent" couleur="0x009999">1</attribut>
+	</espece>
+	<espece nom="moule" taille="3 à 7cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="absent" couleur="0xFFFF00">1</attribut>		        <attribut id="3" intitule="squellette interne" etat="absent" couleur="0x99CC66">1</attribut>
+		<attribut id="4" intitule="4 membres" etat="absent" couleur="0xFF0000">1</attribut>
+		<attribut id="5" intitule="nageoires rayonnées" etat="absent" couleur="0x00FFFF">0</attribut>
+		<attribut id="6" intitule="corps porte ou contient une coquille" etat="présent" couleur="0xFF9900">1</attribut>
+		<attribut id="7" intitule="coquille enroulée" etat="absent" couleur="0xCC66CC">1</attribut>
+		<attribut id="8" intitule="coquille en deux parties" etat="présent" couleur="0xFF3399">1</attribut>
+		<attribut id="9" intitule="tentacules" etat="absent" couleur="0x009999">1</attribut>
+	</espece>
+	<espece nom="palourde" taille="2 à 3cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="absent" couleur="0xFFFF00">1</attribut>		        <attribut id="3" intitule="squellette interne" etat="absent" couleur="0x99CC66">1</attribut>
+		<attribut id="4" intitule="4 membres" etat="absent" couleur="0xFF0000">1</attribut>
+		<attribut id="5" intitule="nageoires rayonnées" etat="absent" couleur="0x00FFFF">0</attribut>
+		<attribut id="6" intitule="corps porte ou contient une coquille" etat="présent" couleur="0xFF9900">1</attribut>
+		<attribut id="7" intitule="coquille enroulée" etat="absent" couleur="0xCC66CC">1</attribut>
+		<attribut id="8" intitule="coquille en deux parties" etat="présent" couleur="0xFF3399">1</attribut>
+		<attribut id="9" intitule="tentacules" etat="absent" couleur="0x009999">1</attribut>
+	</espece>
+	<espece nom="seiche" taille="env. 20cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="absent" couleur="0xFFFF00">1</attribut>		        <attribut id="3" intitule="squellette interne" etat="absent" couleur="0x99CC66">1</attribut>
+		<attribut id="4" intitule="4 membres" etat="absent" couleur="0xFF0000">1</attribut>
+		<attribut id="5" intitule="nageoires rayonnées" etat="absent" couleur="0x00FFFF">0</attribut>
+		<attribut id="6" intitule="corps porte ou contient une coquille" etat="présent" couleur="0xFF9900">1</attribut>
+		<attribut id="7" intitule="coquille enroulée" etat="absent" couleur="0xCC66CC">1</attribut>
+		<attribut id="8" intitule="coquille en deux parties" etat="absent" couleur="0xFF3399">1</attribut>
+		<attribut id="9" intitule="tentacules" etat="présent" couleur="0x009999">1</attribut>
+	</espece>
+	<espece nom="tourteau" taille="env. 20cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="présent" couleur="0xFFFF00">1</attribut>		        <attribut id="3" intitule="squellette interne" etat="absent" couleur="0x99CC66">1</attribut>
+		<attribut id="4" intitule="4 membres" etat="absent" couleur="0xFF0000">1</attribut>
+		<attribut id="5" intitule="nageoires rayonnées" etat="absent" couleur="0x00FFFF">0</attribut>
+		<attribut id="6" intitule="corps porte ou contient une coquille" etat="absent" couleur="0xFF9900">1</attribut>
+		<attribut id="7" intitule="coquille enroulée" etat="absent" couleur="0xCC66CC">1</attribut>
+		<attribut id="8" intitule="coquille en deux parties" etat="absent" couleur="0xFF3399">1</attribut>
+		<attribut id="9" intitule="tentacules" etat="absent" couleur="0x009999">1</attribut>
+	</espece>
+</collection>
+<collection id="3" nom="collection N°4 (Campagne)">
+	<espece nom="aeshne" taille="4 à 8cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="présent" couleur="0xFFFF00">1</attribut>		        
+		<attribut id="4" intitule="4 membres" etat="absent" couleur="0xFF0000">1</attribut>
+		<attribut id="5" intitule="amnios" etat="absent" couleur="0x66FF00">1</attribut>
+		<attribut id="6" intitule="4 doigts" etat="absent" couleur="0x0000FF">1</attribut>
+		<attribut id="7" intitule="poils" etat="absent" couleur="0xFF9966">1</attribut>
+		<attribut id="8" intitule="plumes" etat="absent" couleur="0x999900">0</attribut>
+		<attribut id="9" intitule="8 pattes et chélicères" etat="absent" couleur="0xCC0000">0</attribut>
+		<attribut id="10" intitule="6 pattes" etat="présent" couleur="0xFF33CC">1</attribut>
+		
+	</espece>
+	<espece nom="alyte accoucheur" taille="4 à 10cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="absent" couleur="0xFFFF00">1</attribut>		        
+		<attribut id="4" intitule="4 membres" etat="présent" couleur="0xFF0000">1</attribut>
+		<attribut id="5" intitule="amnios" etat="absent" couleur="0x66FF00">1</attribut>
+		<attribut id="6" intitule="4 doigts" etat="présent" couleur="0x0000FF">1</attribut>
+		<attribut id="7" intitule="poils" etat="absent" couleur="0xFF9966">1</attribut>
+		<attribut id="8" intitule="plumes" etat="absent" couleur="0x999900">0</attribut>
+		<attribut id="9" intitule="8 pattes et chélicères" etat="absent" couleur="0xCC0000">0</attribut>
+		<attribut id="10" intitule="6 pattes" etat="absent" couleur="0xFF33CC">1</attribut>
+	</espece>
+	<espece nom="araignée loup" taille="4 à 8cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="présent" couleur="0xFFFF00">1</attribut>		        
+		<attribut id="4" intitule="4 membres" etat="absent" couleur="0xFF0000">1</attribut>
+		<attribut id="5" intitule="amnios" etat="absent" couleur="0x66FF00">1</attribut>
+		<attribut id="6" intitule="4 doigts" etat="absent" couleur="0x0000FF">1</attribut>
+		<attribut id="7" intitule="poils" etat="absent" couleur="0xFF9966">1</attribut>
+		<attribut id="8" intitule="plumes" etat="absent" couleur="0x999900">0</attribut>
+		<attribut id="9" intitule="8 pattes et chélicères" etat="présent" couleur="0xCC0000">0</attribut>
+		<attribut id="10" intitule="6 pattes" etat="absent" couleur="0xFF33CC">1</attribut>
+	</espece>
+	<espece nom="coccinelle" taille="0.5 à 1cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="présent" couleur="0xFFFF00">1</attribut>		        
+		<attribut id="4" intitule="4 membres" etat="absent" couleur="0xFF0000">1</attribut>
+		<attribut id="5" intitule="amnios" etat="absent" couleur="0x66FF00">1</attribut>
+		<attribut id="6" intitule="4 doigts" etat="absent" couleur="0x0000FF">1</attribut>
+		<attribut id="7" intitule="poils" etat="absent" couleur="0xFF9966">1</attribut>
+		<attribut id="8" intitule="plumes" etat="absent" couleur="0x999900">0</attribut>
+		<attribut id="9" intitule="8 pattes et chélicères" etat="absent" couleur="0xCC0000">0</attribut>
+		<attribut id="10" intitule="6 pattes" etat="présent" couleur="0xFF33CC">1</attribut>
+	</espece>
+	<espece nom="lézard vivipare" taille="env. 10 cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="absent" couleur="0xFFFF00">1</attribut>		        
+		<attribut id="4" intitule="4 membres" etat="présent" couleur="0xFF0000">1</attribut>
+		<attribut id="5" intitule="amnios" etat="présent" couleur="0x66FF00">1</attribut>
+		<attribut id="6" intitule="4 doigts" etat="absent" couleur="0x0000FF">1</attribut>
+		<attribut id="7" intitule="poils" etat="absent" couleur="0xFF9966">1</attribut>
+		<attribut id="8" intitule="plumes" etat="absent" couleur="0x999900">0</attribut>
+		<attribut id="9" intitule="8 pattes et chélicères" etat="absent" couleur="0xCC0000">0</attribut>
+		<attribut id="10" intitule="6 pattes" etat="absent" couleur="0xFF33CC">1</attribut>
+	</espece>
+	<espece nom="pinson des arbres" taille="env. 10cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="absent" couleur="0xFFFF00">1</attribut>		        
+		<attribut id="4" intitule="4 membres" etat="présent" couleur="0xFF0000">1</attribut>
+		<attribut id="5" intitule="amnios" etat="présent" couleur="0x66FF00">1</attribut>
+		<attribut id="6" intitule="4 doigts" etat="absent" couleur="0x0000FF">1</attribut>
+		<attribut id="7" intitule="poils" etat="absent" couleur="0xFF9966">1</attribut>
+		<attribut id="8" intitule="plumes" etat="présent" couleur="0x999900">0</attribut>
+		<attribut id="9" intitule="8 pattes et chélicères" etat="absent" couleur="0xCC0000">0</attribut>
+		<attribut id="10" intitule="6 pattes" etat="absent" couleur="0xFF33CC">1</attribut>
+	</espece>
+	<espece nom="renard roux" taille="env. 100cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="absent" couleur="0xFFFF00">1</attribut>		        
+		<attribut id="4" intitule="4 membres" etat="présent" couleur="0xFF0000">1</attribut>
+		<attribut id="5" intitule="amnios" etat="présent" couleur="0x66FF00">1</attribut>
+		<attribut id="6" intitule="4 doigts" etat="absent" couleur="0x0000FF">1</attribut>
+		<attribut id="7" intitule="poils" etat="présent" couleur="0xFF9966">1</attribut>
+		<attribut id="8" intitule="plumes" etat="absent" couleur="0x999900">0</attribut>
+		<attribut id="9" intitule="8 pattes et chélicères" etat="absent" couleur="0xCC0000">0</attribut>
+		<attribut id="10" intitule="6 pattes" etat="absent" couleur="0xFF33CC">1</attribut>
+	</espece>
+	<espece nom="salamandre tachetée" taille="env. 10cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="absent" couleur="0xFFFF00">1</attribut>		        
+		<attribut id="4" intitule="4 membres" etat="présent" couleur="0xFF0000">1</attribut>
+		<attribut id="5" intitule="amnios" etat="absent" couleur="0x66FF00">1</attribut>
+		<attribut id="6" intitule="4 doigts" etat="présent" couleur="0x0000FF">1</attribut>
+		<attribut id="7" intitule="poils" etat="absent" couleur="0xFF9966">1</attribut>
+		<attribut id="8" intitule="plumes" etat="absent" couleur="0x999900">0</attribut>
+		<attribut id="9" intitule="8 pattes et chélicères" etat="absent" couleur="0xCC0000">0</attribut>
+		<attribut id="10" intitule="6 pattes" etat="absent" couleur="0xFF33CC">1</attribut>
+	</espece>
+	<espece nom="tégénaire" taille="4 à 8cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="présent" couleur="0xFFFF00">1</attribut>		        
+		<attribut id="4" intitule="4 membres" etat="absent" couleur="0xFF0000">1</attribut>
+		<attribut id="5" intitule="amnios" etat="absent" couleur="0x66FF00">1</attribut>
+		<attribut id="6" intitule="4 doigts" etat="absent" couleur="0x0000FF">1</attribut>
+		<attribut id="7" intitule="poils" etat="absent" couleur="0xFF9966">1</attribut>
+		<attribut id="8" intitule="plumes" etat="absent" couleur="0x999900">0</attribut>
+		<attribut id="9" intitule="8 pattes et chélicères" etat="présent" couleur="0xCC0000">0</attribut>
+		<attribut id="10" intitule="6 pattes" etat="absent" couleur="0xFF33CC">1</attribut>
+	</espece>
+</collection>
+
+<collection id="4" nom="collection N°5 (Sol)">
+	<espece nom="cloporte" taille="1 à 2 cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="présent" couleur="0xFFFF00">1</attribut>		        
+		<attribut id="3" intitule="8 pattes et chélicères" etat="absent" couleur="0xCC0000">0</attribut>
+		<attribut id="4" intitule="antennes et mandibules" etat="présent" couleur="0xCCFF00">1</attribut>
+		<attribut id="5" intitule="nombreuses parties identiques ayant des pattes" etat="absent" couleur="0x9966FF">1</attribut>
+		<attribut id="6" intitule="tête soudée au thorax" etat="présent" couleur="0xCCCCFF">1</attribut>
+		<attribut id="7" intitule="6 pattes" etat="absent" couleur="0xFF33CC">1</attribut>
+		<attribut id="8" intitule="coquille enroulée" etat="absent" couleur="0xCC66CC">1</attribut>
+		<attribut id="8" intitule="corps fait d'anneaux" etat="absent" couleur="0xCC9900">1</attribut>
+	</espece>
+	<espece nom="escargot bourgogne" taille="4 à 8 cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="absent" couleur="0xFFFF00">1</attribut>		        
+		<attribut id="3" intitule="8 pattes et chélicères" etat="absent" couleur="0xCC0000">0</attribut>
+		<attribut id="4" intitule="antennes et mandibules" etat="absent" couleur="0xCCFF00">1</attribut>
+		<attribut id="5" intitule="nombreuses parties identiques ayant des pattes" etat="absent" couleur="0x9966FF">1</attribut>
+		<attribut id="6" intitule="tête soudée au thorax" etat="absent" couleur="0xCCCCFF">1</attribut>
+		<attribut id="7" intitule="6 pattes" etat="absent" couleur="0xFF33CC">1</attribut>
+		<attribut id="8" intitule="coquille enroulée" etat="présent" couleur="0xCC66CC">1</attribut>
+		<attribut id="8" intitule="corps fait d'anneaux" etat="absent" couleur="0xCC9900">1</attribut>
+	</espece>
+	<espece nom="fourmi rouge" taille="0.5 à 1 cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="présent" couleur="0xFFFF00">1</attribut>		        
+		<attribut id="3" intitule="8 pattes et chélicères" etat="absent" couleur="0xCC0000">0</attribut>
+		<attribut id="4" intitule="antennes et mandibules" etat="présent" couleur="0xCCFF00">1</attribut>
+		<attribut id="5" intitule="nombreuses parties identiques ayant des pattes" etat="absent" couleur="0x9966FF">1</attribut>
+		<attribut id="6" intitule="tête soudée au thorax" etat="absent" couleur="0xCCCCFF">1</attribut>
+		<attribut id="7" intitule="6 pattes" etat="présent" couleur="0xFF33CC">1</attribut>
+		<attribut id="8" intitule="coquille enroulée" etat="absent" couleur="0xCC66CC">1</attribut>
+		<attribut id="8" intitule="corps fait d'anneaux" etat="absent" couleur="0xCC9900">1</attribut>
+	</espece>
+	<espece nom="géophile" taille="1.5 à 5 cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="présent" couleur="0xFFFF00">1</attribut>		        
+		<attribut id="3" intitule="8 pattes et chélicères" etat="absent" couleur="0xCC0000">0</attribut>
+		<attribut id="4" intitule="antennes et mandibules" etat="présent" couleur="0xCCFF00">1</attribut>
+		<attribut id="5" intitule="nombreuses parties identiques ayant des pattes" etat="présent" couleur="0x9966FF">1</attribut>
+		<attribut id="6" intitule="tête soudée au thorax" etat="absent" couleur="0xCCCCFF">1</attribut>
+		<attribut id="7" intitule="6 pattes" etat="absent" couleur="0xFF33CC">1</attribut>
+		<attribut id="8" intitule="coquille enroulée" etat="absent" couleur="0xCC66CC">1</attribut>
+		<attribut id="8" intitule="corps fait d'anneaux" etat="absent" couleur="0xCC9900">1</attribut>
+	</espece>
+	<espece nom="iule" taille="3 à 5 cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="présent" couleur="0xFFFF00">1</attribut>		        
+		<attribut id="3" intitule="8 pattes et chélicères" etat="absent" couleur="0xCC0000">0</attribut>
+		<attribut id="4" intitule="antennes et mandibules" etat="présent" couleur="0xCCFF00">1</attribut>
+		<attribut id="5" intitule="nombreuses parties identiques ayant des pattes" etat="présent" couleur="0x9966FF">1</attribut>
+		<attribut id="6" intitule="tête soudée au thorax" etat="absent" couleur="0xCCCCFF">1</attribut>
+		<attribut id="7" intitule="6 pattes" etat="absent" couleur="0xFF33CC">1</attribut>
+		<attribut id="8" intitule="coquille enroulée" etat="absent" couleur="0xCC66CC">1</attribut>
+		<attribut id="8" intitule="corps fait d'anneaux" etat="absent" couleur="0xCC9900">1</attribut>
+	</espece>
+	<espece nom="lithobie" taille="1 à 3 cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="présent" couleur="0xFFFF00">1</attribut>		        
+		<attribut id="3" intitule="8 pattes et chélicères" etat="absent" couleur="0xCC0000">0</attribut>
+		<attribut id="4" intitule="antennes et mandibules" etat="présent" couleur="0xCCFF00">1</attribut>
+		<attribut id="5" intitule="nombreuses parties identiques ayant des pattes" etat="présent" couleur="0x9966FF">1</attribut>
+		<attribut id="6" intitule="tête soudée au thorax" etat="absent" couleur="0xCCCCFF">1</attribut>
+		<attribut id="7" intitule="6 pattes" etat="absent" couleur="0xFF33CC">1</attribut>
+		<attribut id="8" intitule="coquille enroulée" etat="absent" couleur="0xCC66CC">1</attribut>
+		<attribut id="8" intitule="corps fait d'anneaux" etat="absent" couleur="0xCC9900">1</attribut>
+	</espece>
+	<espece nom="lombric" taille="7 à 20 cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="absent" couleur="0xFFFF00">1</attribut>		        
+		<attribut id="3" intitule="8 pattes et chélicères" etat="absent" couleur="0xCC0000">0</attribut>
+		<attribut id="4" intitule="antennes et mandibules" etat="absent" couleur="0xCCFF00">1</attribut>
+		<attribut id="5" intitule="nombreuses parties identiques ayant des pattes" etat="absent" couleur="0x9966FF">1</attribut>
+		<attribut id="6" intitule="tête soudée au thorax" etat="absent" couleur="0xCCCCFF">1</attribut>
+		<attribut id="7" intitule="6 pattes" etat="absent" couleur="0xFF33CC">1</attribut>
+		<attribut id="8" intitule="coquille enroulée" etat="absent" couleur="0xCC66CC">1</attribut>
+		<attribut id="8" intitule="corps fait d'anneaux" etat="présent" couleur="0xCC9900">1</attribut>
+	</espece>
+	<espece nom="polydesme" taille="2 à 3 cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="présent" couleur="0xFFFF00">1</attribut>		        
+		<attribut id="3" intitule="8 pattes et chélicères" etat="absent" couleur="0xCC0000">0</attribut>
+		<attribut id="4" intitule="antennes et mandibules" etat="présent" couleur="0xCCFF00">1</attribut>
+		<attribut id="5" intitule="nombreuses parties identiques ayant des pattes" etat="présent" couleur="0x9966FF">1</attribut>
+		<attribut id="6" intitule="tête soudée au thorax" etat="absent" couleur="0xCCCCFF">1</attribut>
+		<attribut id="7" intitule="6 pattes" etat="absent" couleur="0xFF33CC">1</attribut>
+		<attribut id="8" intitule="coquille enroulée" etat="absent" couleur="0xCC66CC">1</attribut>
+		<attribut id="8" intitule="corps fait d'anneaux" etat="absent" couleur="0xCC9900">1</attribut>
+	</espece>
+	<espece nom="trombidion" taille="0.1 à 0.2 cm">
+		<attribut id="1" intitule="yeux,bouche" etat="présent" couleur="0xFFCC00">1</attribut>
+		<attribut id="2" intitule="carapace articulée" etat="présent" couleur="0xFFFF00">1</attribut>		        
+		<attribut id="3" intitule="8 pattes et chélicères" etat="présent" couleur="0xCC0000">0</attribut>
+		<attribut id="4" intitule="antennes et mandibules" etat="absent" couleur="0xCCFF00">1</attribut>
+		<attribut id="5" intitule="nombreuses parties identiques ayant des pattes" etat="absent" couleur="0x9966FF">1</attribut>
+		<attribut id="6" intitule="tête soudée au thorax" etat="absent" couleur="0xCCCCFF">1</attribut>
+		<attribut id="7" intitule="6 pattes" etat="absent" couleur="0xFF33CC">1</attribut>
+		<attribut id="8" intitule="coquille enroulée" etat="absent" couleur="0xCC66CC">1</attribut>
+		<attribut id="8" intitule="corps fait d'anneaux" etat="absent" couleur="0xCC9900">1</attribut>
+	</espece>
+</collection>
+<collection id="5" nom="collection N°6 (Végétaux)">
+	<espece nom="cerisier" taille="20 mètres">
+		<attribut id="1" intitule="pigment vert" etat="présent" couleur="0x00CC00">1</attribut>
+		<attribut id="1" intitule="tige" etat="présent" couleur="0xCC9900">1</attribut>
+		<attribut id="1" intitule="feuilles nervurées" etat="présent" couleur="0x3366FF">1</attribut>
+		<attribut id="1" intitule="feuilles composées en fronde" etat="absent" couleur="0xCCFF00">1</attribut>
+		<attribut id="1" intitule="graines" etat="présent" couleur="0x999900">1</attribut>
+		<attribut id="1" intitule="fleurs" etat="présent" couleur="0xFF33CC">1</attribut>
+		<attribut id="1" intitule="feuilles en aiguilles" etat="absent" couleur="0x9900CC">1</attribut>
+	</espece>	
+	<espece nom="épicéa" taille="40 à 50 mètres">
+		<attribut id="1" intitule="pigment vert" etat="présent" couleur="0x00CC00">1</attribut>
+		<attribut id="1" intitule="tige" etat="présent" couleur="0xCC9900">1</attribut>
+		<attribut id="1" intitule="feuilles nervurées" etat="présent" couleur="0x3366FF">1</attribut>
+		<attribut id="1" intitule="feuilles composées en fronde" etat="absent" couleur="0xCCFF00">1</attribut>
+		<attribut id="1" intitule="graines" etat="présent" couleur="0x999900">1</attribut>
+		<attribut id="1" intitule="fleurs" etat="absent" couleur="0xFF33CC">1</attribut>
+		<attribut id="1" intitule="feuilles en aiguilles" etat="présent" couleur="0x9900CC">1</attribut>
+	</espece>
+	<espece nom="fougère aigle" taille="en moyenne 50cm">
+		<attribut id="1" intitule="pigment vert" etat="présent" couleur="0x00CC00">1</attribut>
+		<attribut id="1" intitule="tige" etat="présent" couleur="0xCC9900">1</attribut>
+		<attribut id="1" intitule="feuilles nervurées" etat="présent" couleur="0x3366FF">1</attribut>
+		<attribut id="1" intitule="feuilles composées en fronde" etat="présent" couleur="0xCCFF00">1</attribut>
+		<attribut id="1" intitule="graines" etat="absent" couleur="0x999900">1</attribut>
+		<attribut id="1" intitule="fleurs" etat="absent" couleur="0xFF33CC">1</attribut>
+		<attribut id="1" intitule="feuilles en aiguilles" etat="absent" couleur="0x9900CC">1</attribut>
+	</espece>
+	<espece nom="chêne pédonculé" taille="10 à 30 mètres">
+		<attribut id="1" intitule="pigment vert" etat="présent" couleur="0x00CC00">1</attribut>
+		<attribut id="1" intitule="tige" etat="présent" couleur="0xCC9900">1</attribut>
+		<attribut id="1" intitule="feuilles nervurées" etat="présent" couleur="0x3366FF">1</attribut>
+		<attribut id="1" intitule="feuilles composées en fronde" etat="absent" couleur="0xCCFF00">1</attribut>
+		<attribut id="1" intitule="graines" etat="présent" couleur="0x999900">1</attribut>
+		<attribut id="1" intitule="fleurs" etat="présent" couleur="0xFF33CC">1</attribut>
+		<attribut id="1" intitule="feuilles en aiguilles" etat="absent" couleur="0x9900CC">1</attribut>
+	</espece>
+	<espece nom="pin sylvestre" taille="35 à 40 mètres">
+		<attribut id="1" intitule="pigment vert" etat="présent" couleur="0x00CC00">1</attribut>
+		<attribut id="1" intitule="tige" etat="présent" couleur="0xCC9900">1</attribut>
+		<attribut id="1" intitule="feuilles nervurées" etat="présent" couleur="0x3366FF">1</attribut>
+		<attribut id="1" intitule="feuilles composées en fronde" etat="absent" couleur="0xCCFF00">1</attribut>
+		<attribut id="1" intitule="graines" etat="présent" couleur="0x999900">1</attribut>
+		<attribut id="1" intitule="fleurs" etat="absent" couleur="0xFF33CC">1</attribut>
+		<attribut id="1" intitule="feuilles en aiguilles" etat="présent" couleur="0x9900CC">1</attribut>
+	</espece>
+	<espece nom="pissenlit" taille="10 à 60cm">
+		<attribut id="1" intitule="pigment vert" etat="présent" couleur="0x00CC00">1</attribut>
+		<attribut id="1" intitule="tige" etat="présent" couleur="0xCC9900">1</attribut>
+		<attribut id="1" intitule="feuilles nervurées" etat="présent" couleur="0x3366FF">1</attribut>
+		<attribut id="1" intitule="feuilles composées en fronde" etat="absent" couleur="0xCCFF00">1</attribut>
+		<attribut id="1" intitule="graines" etat="présent" couleur="0x999900">1</attribut>
+		<attribut id="1" intitule="fleurs" etat="présent" couleur="0xFF33CC">1</attribut>
+		<attribut id="1" intitule="feuilles en aiguilles" etat="absent" couleur="0x9900CC">1</attribut>
+	</espece>
+	<espece nom="polypode commun" taille="jusqu'à 50cm">
+		<attribut id="1" intitule="pigment vert" etat="présent" couleur="0x00CC00">1</attribut>
+		<attribut id="1" intitule="tige" etat="présent" couleur="0xCC9900">1</attribut>
+		<attribut id="1" intitule="feuilles nervurées" etat="présent" couleur="0x3366FF">1</attribut>
+		<attribut id="1" intitule="feuilles composées en fronde" etat="présent" couleur="0xCCFF00">1</attribut>
+		<attribut id="1" intitule="graines" etat="absent" couleur="0x999900">1</attribut>
+		<attribut id="1" intitule="fleurs" etat="absent" couleur="0xFF33CC">1</attribut>
+		<attribut id="1" intitule="feuilles en aiguilles" etat="absent" couleur="0x9900CC">1</attribut>
+	</espece>
+	<espece nom="polytric" taille="5 à 10cm">
+		<attribut id="1" intitule="pigment vert" etat="présent" couleur="0x00CC00">1</attribut>
+		<attribut id="1" intitule="tige" etat="présent" couleur="0xCC9900">1</attribut>
+		<attribut id="1" intitule="feuilles nervurées" etat="absent" couleur="0x3366FF">1</attribut>
+		<attribut id="1" intitule="feuilles composées en fronde" etat="absent" couleur="0xCCFF00">1</attribut>
+		<attribut id="1" intitule="graines" etat="absent" couleur="0x999900">1</attribut>
+		<attribut id="1" intitule="fleurs" etat="absent" couleur="0xFF33CC">1</attribut>
+		<attribut id="1" intitule="feuilles en aiguilles" etat="absent" couleur="0x9900CC">1</attribut>
+	</espece>
+	<espece nom="ulve" taille="env 20 cm">
+		<attribut id="1" intitule="pigment vert" etat="présent" couleur="0x00CC00">1</attribut>
+		<attribut id="1" intitule="tige" etat="absent" couleur="0xCC9900">1</attribut>
+		<attribut id="1" intitule="feuilles nervurées" etat="absent" couleur="0x3366FF">1</attribut>
+		<attribut id="1" intitule="feuilles composées en fronde" etat="absent" couleur="0xCCFF00">1</attribut>
+		<attribut id="1" intitule="graines" etat="absent" couleur="0x999900">1</attribut>
+		<attribut id="1" intitule="fleurs" etat="absent" couleur="0xFF33CC">1</attribut>
+		<attribut id="1" intitule="feuilles en aiguilles" etat="absent" couleur="0x9900CC">1</attribut>
+	</espece>
+</collection>

@@ -1,0 +1,56 @@
+faune_jardin_etang
+Faune jardin
+<Exclusions:GD><ModeCollege>
+"Abeille domestique",,0,0,abeilledomestique,genabeilledomestique,zoomabeilledomestique
+"Crapaud commun",,0,0,crapaudcommun,gencrapaudcommun,zoomcrapaudcommun
+"Escargot des bois",,0,0,escargotdesbois,genescargotdesbois,zoomescargotdesbois
+"Fourmi rousse",,0,0,fourmirousse,genfourmirousse,zoomfourmirousse
+Hérisson,,0,0,herisson,genherisson,zoomherisson
+"Lézard des murailles",,0,0,lezarddesmurailles,genlezarddesmurailles,zoomlezarddesmurailles
+Lombric,,0,0,lombric,genlombric,zoomlombric
+"Mulot gris",,0,0,mulotgris,genmulotgris,zoommulotgris
+Opilion,,0,0,opilion,genopilion,zoomopilion
+"Pie bavarde",,0,0,piebavarde,genpiebavarde,zoompiebavarde
+"Rouge gorge",,0,0,rougegorge,genrougegorge,zoomrougegorge
+"Souris grise",,0,0,sourisgrise,gensourisgrise,zoomsourisgrise
+Tégénaire,,0,0,tegenaire,gentegenaire,zoomtegenaire
+<Caractères V2>
+Générales,Anatomiques
+2
+1,1
+Générales,Anatomiques
+Yeux,Générales,1,Absent,gensangsue,,Présent,genmulotgris,
+"Squelette interne",Anatomiques,1,Absent,,,Présent,,Vertébrés
+Crâne,Anatomiques,1,Absent,,,Présent,,Vertébrés
+"Squelette externe",Générales,1,Absent,gengrenouillerousse,,Présent,genecrevisse,Arthropodes
+"Pattes articulées",Générales,1,Absent,gengrenouillerousse,,Présent,gendolomede,Arthropodes
+Coquille,Générales,1,Absent,genecrevisse,,Présent,genescargotdesbois,Mollusques
+"Corps annelé",Générales,1,Absent,gentegenaire,,Présent,gensangsue,Annélides
+"Squelette d'os",Anatomiques,1,Absent,,,Présent,,
+"4 membres",Générales,1,Absent,genfourmirousse,,Présent,genlezarddesmurailles,Tétrapodes
+Plumes,Anatomiques,1,Absent,genabeilledomestique,,Présent,genpiebavarde,Oiseaux
+"Poils sur la peau",Anatomiques,1,Absent,genabeilledomestique,,Présent,genratmusque,Mammifères
+Mamelles,Anatomiques,1,Absent,,,Présent,,Mammifères
+"Tentacules sur la tête",Générales,1,Absent,genabeilledomestique,,Présent,genescargotdesbois,Mollusques
+"Ecailles soudées",Anatomiques,1,Absent,,,Présent,,
+"6 pattes",Générales,1,Absent,genargyronete,,Présent,genfourmirousse,Insectes
+"2 antennes",Générales,1,Absent,genecrevisse,,Présent,genabeilledomestique,
+"8 pattes",Générales,1,Absent,genabeilledomestique,,Présent,gentegenaire,Arachnides
+Chélicères,Générales,1,Absent,zoomfourmirousse,,Présent,zoomtegenaire,Arachnides
+"Main à 4 doigts",Anatomiques,1,Absent,,,Présent,zoomgrenouillerousse,Batraciens
+"Bouche et anus",Générales,1,Absent,,,Présent,,"Animaux "
+<Tableau Ref>
+YeuxSquelette interneCrâneSquelette externePattes articuléesCoquilleCorps anneléSquelette d'os4 membresPlumesPoils sur la peauMamellesTentacules sur la têteEcailles soudées6 pattes2 antennes8 pattesChélicèresMain à 4 doigtsBouche et anus
+Abeille domestiquePrésentAbsentAbsentPrésentPrésentAbsentAbsentAbsentAbsentAbsentAbsentAbsentAbsentAbsentPrésentPrésentAbsentAbsentAbsentPrésent
+Crapaud communPrésentPrésentPrésentAbsentAbsentAbsentAbsentPrésentPrésentAbsentAbsentAbsentAbsentAbsentAbsentAbsentAbsentAbsentPrésentPrésent
+Escargot des boisPrésentAbsentAbsentAbsentAbsentPrésentAbsentAbsentAbsentAbsentAbsentAbsentPrésentAbsentAbsentAbsentAbsentAbsentAbsentPrésent
+Fourmi roussePrésentAbsentAbsentPrésentPrésentAbsentAbsentAbsentAbsentAbsentAbsentAbsentAbsentAbsentPrésentPrésentAbsentAbsentAbsentPrésent
+HérissonPrésentPrésentPrésentAbsentAbsentAbsentAbsentPrésentPrésentAbsentPrésentPrésentAbsentAbsentAbsentAbsentAbsentAbsentAbsentPrésent
+Lézard des muraillesPrésentPrésentPrésentAbsentAbsentAbsentAbsentPrésentPrésentAbsentAbsentAbsentAbsentPrésentAbsentAbsentAbsentAbsentAbsentPrésent
+LombricAbsentAbsentAbsentAbsentAbsentAbsentPrésentAbsentAbsentAbsentAbsentAbsentAbsentAbsentAbsentAbsentAbsentAbsentAbsentPrésent
+Mulot grisPrésentPrésentPrésentAbsentAbsentAbsentAbsentPrésentPrésentAbsentPrésentPrésentAbsentAbsentAbsentAbsentAbsentAbsentAbsentPrésent
+OpilionPrésentAbsentAbsentPrésentPrésentAbsentAbsentAbsentAbsentAbsentAbsentAbsentAbsentAbsentAbsentAbsentPrésentPrésentAbsentPrésent
+Pie bavardePrésentPrésentPrésentAbsentAbsentAbsentAbsentPrésentPrésentPrésentAbsentAbsentAbsentPrésentAbsentAbsentAbsentAbsentAbsentPrésent
+Rouge gorgePrésentPrésentPrésentAbsentAbsentAbsentAbsentPrésentPrésentPrésentAbsentAbsentAbsentPrésentAbsentAbsentAbsentAbsentAbsentPrésent
+Souris grisePrésentPrésentPrésentAbsentAbsentAbsentAbsentPrésentPrésentAbsentPrésentPrésentAbsentAbsentAbsentAbsentAbsentAbsentAbsentPrésent
+TégénairePrésentAbsentAbsentPrésentPrésentAbsentAbsentAbsentAbsentAbsentAbsentAbsentAbsentAbsentAbsentAbsentPrésentPrésentAbsentPrésent

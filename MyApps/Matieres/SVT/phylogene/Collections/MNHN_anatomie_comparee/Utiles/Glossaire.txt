@@ -1,0 +1,127 @@
+<Sac vitellin
+Annexe embryonnaire contenant les réserves nutritives (vitellus) utilisées au cours du développement et de la croissance de l'embryon
+<Cytochrome oxydase (CO)
+Un des 4 complexes protéiques de la chaîne respiratoire localisé dans la membrane interne  des mitochondries
+<Globines
+Chaînes polypeptidiques (a, ß, ?, d, e, ?, µ,t)  constituant les molécules d'hémoglobines des globules rouges , dont le rôle est la fixation du dioxyène et son transport sanguin
+<Involucrine
+Protéine permettant la constitution de l'enveloppe cornée (formation épidermique)
+<Protamine
+Protéine régulatrice exprimée au cours de la phase finale de la spermatogenèse (au niveau des spermatides)
+<Prion
+Protéine dont la forme anormale,résistante aux bioenzymes naturelles, peut être responsable de certaines maladies
+<Opsines
+Protéines présentes dans les cellules photoréceptrices de la rétine de l'oeil et dont les maximum d'absorption sont spécifiques (opsine bleue  absobant à 437 nm, verte à 533 nm et rouge à  564 nm)
+<CDC2
+Gène contrôlant l'entrée en mitose du cycle cellulaire
+<Caséines
+Phosphoprotéines très largement présentes dans le lait
+<LH (hormone lutéinisante)
+Hormone hypophysaire stimulant certaines cellules des gonades (ovaires, testicules)
+<FSH (hormone folliculo-stimulante)
+Hormone hypophysaire stimulant certaines cellules des gonades (ovaires, testicules)
+<GH (hormone de croissance)
+Hormone hypophysaire stimulant la synthèse protéique des cellules de nombreux organes 
+<HCG (gonadotrophine chorionique)
+Hormone hypophysaire stimulant  des cellules ovariennes
+<TSH (hormone de stimulation de la thyroïde)
+Hormone hypophysaire stimulant des cellules thyroïdiennes
+<HPRL (prolactine)
+Hormone hypophysaire stimulant la synthèse protéique dans les cellules des glandes mammaires
+<HLP (hormone lactogène placentaire)
+Hormone hypophysaire stimulant la synthèse protéique dans le cellules des glandes mamaires
+<Astragale
+Os de la cheville qui permet l’articulation du pied sur la jambe. Il joue un rôle fondamental dans les possibilités de mouvements du pied par rapport à la jambe.A double poulie, l’articulation devient extrêmement souple car totalement mobile à ses deux extrémités et facilite grandement l’aptitude à la course. Le fait qu’un Mammifère fossile amphibie comme Rhodocetus  possède ce type d’astragale informe sur sa parenté avec certains Ongulés.
+<Vertébré, vertébrés
+Les Vertébrés constituent un embranchement du phyllum des Cordés. Les Vertébrés se distinguent des autre Cordés par leur tube neural dilaté antérieurement en encéphale (constitué de 5 vésicules), la présence d'une colonne vertébréale, un pharynx percé de fentes branchiales s'ouvrant directement à l'extérieur (au moins chez l'embryon), un appareil circulatoire clos avec une aorte ventrale différenciée en coeur contractile, une reproduction uniquement sexuée, l'organisation du corps en 3 parties (tête, tronc et queue), et un squelette typiquement interne.
+<Rut
+Le rut est l'état physiologique d'un Mammifère qui le pousse à rechercher l'accouplement. Pendant le rut, la femelle est réceptive. C'est au moment du rut que l'on va assister aux combats des mâles et aux parades nuptiales.
+<Placenta
+Le placenta des Mammifères est une annexe embryonnaire qui résulte de l'association des villosités du chorion du foetus avec la muqueuse utérine maternelle. C'est un organe d'échanges entre la mère et le foetus.
+<Kératine, kératinisées
+La kératine est une protéine fibrillaire qui provoque la mort des cellules qu'elle imprègne; il se forme ainsi une couche cornée, constituée de cellules mortes kératinisées. Cette couche cornée est imperméable et limite donc les pertes d'eau au niveau du tégument.
+<Amnios, amniotique
+L'amnios est un sac ectodermique formé autour de l'embryon, délimitant une cavité amniotique remplie d'un liquide amniotique qui protège l'embryon contre la déshydratation.
+<Endotherme, endothermes, endothermie
+Un animal endotherme est un animal dont la température corporelle reste constante et élevée, même si la température du milieu extétieur varie.
+<Ectotherme, ectothermes, ectothermie
+Un animal ectotherme est un animal dont la température corporelle varie en fonction de la température de son milieu de vie.
+<Hémipénis
+Chez les lézards et les serpents, le cloaque porte des tubercules génitaux qui jouent le rôle de pénis (ici, il y a deux "demi-pénis", ou hémipénis, qui se regroupent), mais qui ne sont pas perforés. Ces hémipénis guident le passage du sperme.
+<Choane, choanes
+Les choanes sont des narines internes. Les fossettes olfactives (narines externes) s'ouvrent ventralement et entrent en communication avec la cavité buccale par les choanes. L'air est inspiré au niveau des narines externes qui ont alors un double rôle, repiratoire et olfactif.           
+<Copépodes
+Les copépodes sont des crustacés de très petite taille, qui sont très abondants dans le plancton.
+<Krill
+Le krill est un banc de crustacés microscopiques.
+<Incubation
+L'incubation est la période au cours de laquelle l'embryon se développe à l'intérieur des enveloppes de l'oeuf.
+<Gestation
+La gestation est la période pendant laquelle l'embryon, puis le foetus, se développe dans l'utérus de la femelle.
+<Spermatophore
+Le spermatophore est un organe contenant les spermatozoïdes, que le mâle peut libérer à l'intention de la femelle.
+<Métamorphose
+La métamorphose est l'ensemble des processus, ayant lieu au cours du développement post-embryonnaire, qui aboutissent au passage d'un plan d'organisation et de fonctionnement à un autre. La métamorphose permet le passage du stade larvaire au stade adulte.
+<Civelle
+jeune anguille; ce nom lui est donné lorsqu'elle en est à un stade de développement qui correspond au moment où elle remonte les cours d'eau
+<Laitance
+On appelle laitance le sperme des poissons.
+<Vitellus
+Le vitellus est l'ensemble des substances de réserves contenues dans la vésicule vitelline.
+<Céphalopode, céphalopodes
+Les céphalopodes sont des mollusques marins dont la tête porte des tentacules munis de ventouse, et qui se propulse par réaction en explusant l'eau par un siphon (exemple : seiche, calmar, pieuvre,...)
+<Allantoïde
+L'allantoide est une annexe embryonnaire formée à partir d'un diverticule de l'intestin; elle forme, avec le chorion, l'allanto-chorion, membrane richement vascularisée qui constitue l'enveloppe la plus externe, directement appliquée contre les membranes coquillières. Elle permet surtout la respiration de l'embryon à travers la coquille.
+<Echolocation
+L'écholocation est un mode particulier d'orientation de certains animaux, fondé sur le principe de l'écho.
+<Plancton
+Ensemble des êtres vivants microscopiques (aniamux ou végétaux)en suspension dans la mer ou dans l'eau douce.
+<Régulation_neuro_hormonale
+Ce mode de régulation fait intervenir à la fois des mécanismes nerveux et des mécanismes hormonaux.
+<Poche-marsupiale
+Il s'agit d'une poche cutanée abdominale, permanente et ouverte sur l'avant, qui protège les mamelons. Le nouveau-né y achèvera son développement après sa naissance.
+<Membre-chiridien
+Le membre chiridien est un membre qui se termine par des doigts.
+<Pièce-basale
+Il s'agit d'une pièce osseuse permettant l'articulation avec la ceinture.
+<Microphage
+Qualifie un animal qui se nourrit d'êtres vivants microscopiques (plancton notamment).
+<Zoophage
+Qualifie un animal qui ne se nourrit que d'aliments d'origine animale.
+<Phytophage
+Qualifie un animal qui ne se nourrit que d'aliments d'origine végétale.
+<Omnivore
+Qualifie un animal qui se nourrit aussi bien d'aliments d'origine végétale que d'aliments d'origine animale.
+<Ovipare
+Qualifie un animal qui se reproduit en pondant des oeufs.
+<Vivipare
+Qualifie un animal qui se reproduit en mettant au monde des larves ou des jeunes (donc en accouchant).
+<Ovovivipare
+Qualifie un animal qui se reproduit en produisant des oeufs qui ne sont pas pondus, mais qui se développent dans les voies génitales de la femelle.
+<Mucus
+Sécrétion visqueuse produite par certaines muqueuses (exemple : c'est le mucus produit par leur peau qui rend les poissons si gluants et glissants).
+<Formations_épidermiques
+Formations cutanées qui se forment à partir des productions des cellules de l'épiderme; les poils, les plumes, les écailles des Reptiles sont des formations d'origine épidermiques.
+<Formations_dermiques
+Formations cutanées qui se forment à partir des productions des cellules du derme; les écailles des Poissons sont des formations dermiques.
+<Mâchoire
+La mâchoire est formée de deux pièces articulées : la mâchoire supérieure et la mâchoire inférieure ou mandibule. Ce sont les mâchoires qui portent les dents.
+<Mandibule
+La mandibule est la mâchoire inférieure.
+<Fenêtre_mandibulaire
+Il s'agit d'une perforation latérale de la mandibule
+<Grégaire
+Qualifie une espèce dont les individus vivent en groupes
+<Annexes_embryonnaires
+Ce sont des organes provisoires, situés en-dehors du corps de l'embryon, qui n'interviennent pas dans la formation de ses organes, mais qui assurent sa protection et sa nutrition. Elles sont abandonnées à la naissance, ou sont résorbées petit à petit.
+<Formations_cutanées
+Les formations cutanées sont les éléments qui recouvrent la peau des animaux (poils, écailles,....)
+<Organe_locomoteur
+C'est l'organe qui permet le déplacement de l'animal (nageoires, pattes,.....)
+<Amphibie
+Se dit d'un animal qui partage sa vie entre le milieu aquatique et le milieu terrestre
+<Rhinarium
+Le rhinarium correspond à la truffe, c'est à dire à un museau humide avec des vibrisses
+<Nez
+Le nez, par opposition au rhinarium, est sec et possède des poils et non des rangées de vibrisses
+

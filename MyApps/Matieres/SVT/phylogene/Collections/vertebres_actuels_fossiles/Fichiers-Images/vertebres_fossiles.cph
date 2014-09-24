@@ -1,0 +1,48 @@
+vertebres_actuels_fossiles
+Vertébrés fossiles
+<Exclusions:GN><ModeCollege>
+Andreolepis,F,420000,420000,Andreolepis,GenAndreolepis,HabAndreolepis,genAndreolepis,genAndreolepis,sqeAndreolepis,AutreAndreolepis,autreAndreolepis,craAndreolepis,Repfos,TegAndreolepis
+Arandaspis,F,490000,490000,Arandaspis,Genaran,Habaran,alimaran,genaran,sqearan,MembreAran,sqearan,sqearan,Repfos,TegAran
+Archeopteryx,F,165000,165000,Archeopteryx,GenArcheo,HabArcheo,alimArcheo,Repfos,sqeArcheo,MembreArcheo,CouArcheo,craArcheo,Repfos,TegArcheo
+Caudipteryx,F,127000,127000,Caudipteryx,GenCaudi,HabFos,alimFos,Repfos,sqeCaudi,membreCaudi,couCaudi,craCaudi,Repfos,TegFos
+Coelophysis,F,230000,205000,Coelophysis,GenCoelo,HabFos,alimFos,Repfos,sqeCoelo,membreCoelo,couCoelo,craCoelo,Repfos,TegFos
+Compsognathus,F,155000,150000,Compsognathus,GenCom,HabFos,alimFos,Repfos,sqeCom,membreCom,couCom,craCom,Repfos,TegFos
+Eusthenopteron,F,385000,385000,Eusthenopteron,GenEusthen,HabEusthen,alimEusthen,Repfos,sqeEusthen,MembreEusthen,CouEusthen,craEusthen,Repfos,TegEusthen
+Hylonomus,F,315000,315000,Hylonomus,Genhylon,Habhylon,alimhylon,Repfos,sqeHylon,MembreHylon,sqeHylon,craHylon,Repfos,TegHylon
+Ichtyostega,F,365000,365000,Ichtyostega,GenIchtyo,HabIchtyo,alimIchtyo,Repfos,sqeIchtyo,MembreIchtyo,couIchtyo,craIchtyo,Repfos,TegIchtyo
+Megazostrodon,F,220000,220000,Megazostrodon,Genmeg,Habmeg,alimmeg,Repfos,sqeMeg,MembreMeg,CraMeg,craMeg,Repfos,TegMeg
+Placoderme,F,440000,360000,Placoderme,genplaco,Habplaco,alimplaco,RepPlaco,sqePlaco,MembrePlaco,sqePlaco,craPlaco,Repfos,TegPlaco
+Tiktaalik,F,375000,375000,Tiktaalik,GenTiktaalik,GenTiktaalik,GenTiktaalik,Repfos,sqeTiktaalik,MembreTiktaalik,CouTiktaalik,craTiktaalik,Repfos,TegTiktaalik
+<Caractères V2>
+Générales,Biologiques,Anatomiques
+3
+1,3,6
+Générales,"Milieu de vie","Régime alimentaire",Reproduction,Squelette,"Membre antérieur",Cou,Crâne,"Annexes embryonnaires",Tégument
+Choanes,Crâne,1,Absentes,,,Présentes,,Sarcoptérygiens
+"Appendices pairs",Squelette,1,Absents,,,Présents,,"Vertébrés à mâchoires"
+"Articulation ceinture 1 seul os","Membre antérieur",1,Absente,,,Présente,,Sarcoptérygiens
+"Squelette osseux",Squelette,1,Absent,,,Présent,,"Vertébrés à squelette ossifié"
+Mâchoires,Crâne,1,Absentes,,,Présentes,,"Vertébrés à mâchoires"
+Doigts,"Membre antérieur",1,Absents,,,Présents,,Tétrapodes
+Ailes,"Membre antérieur",1,Absentes,,,Présentes,,Oiseaux
+Plumes,Tégument,1,Absentes,,,Présentes,,Oiseaux
+"Crâne et vertèbres",Cou,1,Absents,,,Présents,,Vertébrés
+Cou,Cou,1,Absent,,,Présent,,Tétrapodes
+"Plus de 3 vertèbres cervicales",Cou,1,Absent,,,Présent,,Amniotes
+"Mâchoire inférieure 1 seul os",Crâne,1,Absente,,,Présente,,Mammifères
+"Fenêtre mandibulaire",Crâne,1,Absente,,,Présente,,Archosauriens
+"3 doigts sur le sol",Squelette,1,Absents,,,Présents,,Theropodes
+<Tableau Ref>
+ChoanesAppendices pairsArticulation ceinture 1 seul osSquelette osseuxMâchoiresDoigtsAilesPlumesCrâne et vertèbresCouPlus de 3 vertèbres cervicalesMâchoire inférieure 1 seul osFenêtre mandibulaire3 doigts sur le sol
+AndreolepisAbsentesPrésentsAbsentePrésentPrésentesAbsentsAbsentesAbsentesPrésentsAbsentAbsentAbsenteAbsenteAbsents
+ArandaspisAbsentesAbsentsAbsenteAbsentAbsentesAbsentsAbsentesAbsentesPrésentsAbsentAbsentAbsenteAbsenteAbsents
+ArcheopteryxPrésentesPrésentsPrésentePrésentPrésentesPrésentsPrésentesPrésentesPrésentsPrésentPrésentAbsentePrésentePrésents
+CaudipteryxPrésentesPrésentsPrésentePrésentPrésentesPrésentsAbsentesPrésentesPrésentsPrésentPrésentAbsentePrésentePrésents
+CoelophysisPrésentesPrésentsPrésentePrésentPrésentesPrésentsAbsentesAbsentesPrésentsPrésentPrésentAbsentePrésentePrésents
+CompsognathusPrésentesPrésentsPrésentePrésentPrésentesPrésentsAbsentesAbsentesPrésentsPrésentPrésentAbsentePrésentePrésents
+EusthenopteronPrésentesPrésentsPrésentePrésentPrésentesAbsentsAbsentesAbsentesPrésentsAbsentAbsentAbsenteAbsenteAbsents
+HylonomusPrésentesPrésentsPrésentePrésentPrésentesPrésentsAbsentesAbsentesPrésentsPrésentPrésentAbsenteAbsenteAbsents
+IchtyostegaPrésentesPrésentsPrésentePrésentPrésentesPrésentsAbsentesAbsentesPrésentsPrésentAbsentAbsenteAbsenteAbsents
+MegazostrodonPrésentesPrésentsPrésentePrésentPrésentesPrésentsAbsentesAbsentesPrésentsPrésentPrésentPrésenteAbsenteAbsents
+PlacodermeAbsentesPrésentsAbsenteAbsentPrésentesAbsentsAbsentesAbsentesPrésentsAbsentAbsentAbsenteAbsenteAbsents
+TiktaalikPrésentesPrésentsPrésentePrésentPrésentesAbsentsAbsentesAbsentesPrésentsPrésentAbsentAbsenteAbsenteAbsents

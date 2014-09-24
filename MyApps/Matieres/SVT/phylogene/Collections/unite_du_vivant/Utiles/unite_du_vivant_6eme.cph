@@ -1,0 +1,31 @@
+unite_du_vivant
+Unité du vivant 6ème
+<Exclusions:GDA><ModeCollege>
+Bactérie,,0,0,Bacterie,Bacterie,CellulesBacterie,Bacterie,Bacterie,Bacterie,Bacterie,ReproductionBacterie
+Criquet,,0,0,Criquet,CarapaceCriquet,CellulesCriquet,Criquet,SNCriquet,Criquet,ChloroCriquet,ReproductionCriquet
+Ecrevisse,,0,0,Ecrevisse,CarapaceEcrevisse,CellulesCriquet,Ecrevisse,SNEcrevisse,Ecrevisse,Ecrevisse,ReproductionEcrevisse
+Fougère,,0,0,Fougere,Fougere,CelluleFougere,Fougere,Fougere,Fougere,ChloroFoug,ReproductionFougere
+Grenouille,,0,0,Grenouille,Grenouille,NoyauGren,Grenouille,SNDGrenouille,VertebresGrenouille,Grenouille,ReproductionGrenouille
+Homme,,0,0,Homme,Homme,NoyauHomme,Homme,SNDHomme,VertebresHomme,Homme,ReproductionHomme
+Mousse,,0,0,Mousse,Mousse,ChloroMousse,Mousse,Mousse,Mousse,ChlorophylleMousse,ReproductionMousse
+<Caractères V2>
+"Formes et structures",Molécules,Reproduction
+3
+5,1,1
+Carapace,Cellules,"Polarité avant-arrière","Système nerveux",Vertèbres,Chlorophylle,"Reproduction sexuée"
+Carapace,Carapace,1,Absente,,,Présente,,
+Cellules,Cellules,1,Absentes,,,Présentes,,
+Chlorophylle,Chlorophylle,1,Absente,,,Présente,,
+"Polarité avant-arrière","Polarité avant-arrière",1,Absente,,,Présente,,
+"Reproduction sexuée","Reproduction sexuée",1,Absente,,,Présente,,
+"Système nerveux","Système nerveux",1,Absent,,,Présent,,
+Vertèbres,Vertèbres,1,Absentes,,,Présentes,,
+<Tableau Ref>
+CarapaceCellulesChlorophyllePolarité avant-arrièreReproduction sexuéeSystème nerveuxVertèbres
+BactérieAbsentePrésentesAbsenteAbsenteAbsenteAbsentAbsentes
+CriquetPrésentePrésentesAbsentePrésentePrésentePrésentAbsentes
+EcrevissePrésentePrésentesAbsentePrésentePrésentePrésentAbsentes
+FougèreAbsentePrésentesPrésenteAbsentePrésenteAbsentAbsentes
+GrenouilleAbsentePrésentesAbsentePrésentePrésentePrésentPrésentes
+HommeAbsentePrésentesAbsentePrésentePrésentePrésentPrésentes
+MousseAbsentePrésentesPrésenteAbsentePrésenteAbsentAbsentes
