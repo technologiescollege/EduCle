@@ -1,0 +1,138 @@
+<html>
+	<head>
+		<title>Pepakura Designer3 Help</title>
+		<meta http-equiv="Content-Type" content="text/html">
+		<LINK rel="stylesheet" href="../basic.css" type="text/css">
+	</head>
+	<body bgcolor="#ffffff" text="#000000">
+		<p></p>
+		<table>
+			<tr>
+				<td colspan="2" class="menutop">[BothWindows]
+				</td>
+			</tr>
+			<tr> 
+				<th>Use Materials for Faces</th>
+				<td class="menuitem">Switches between showing & hiding textures or colors on the models faces. Deselect this option for making a white model.
+				</td>
+			</tr>
+			<tr> 
+				<th>Undo</th>
+				<td class="menuitem">
+				Undo the previous operation. 
+* Unfold and undo-Unfolding resets the undo history. 	</td>
+			</tr>
+			<tr> 
+				<th>Redo</th>
+				<td class="menuitem">
+				Redo the previous undone operation.
+				</td>
+			</tr>
+			<tr>
+				<th>
+					Unfold<br>
+					(<a href="#unfold">-&gt; detail</a>)</th>
+				<td class="menuitem">Unfolds the current 3D model and generates the 2D development.
+				</td>
+			</tr>
+			<tr>
+				<th>
+					Undo Unfolding
+					<br>
+					(<a href="#fold">-&gt; detail</a>)</th>
+				<td class="menuitem">Discards the current unfolded pattern and reforms the 3D model 
+					and returns the user back to&nbsp;3D model editing and edge selection.
+				</td>
+			</tr>
+		</table>
+		<br>
+		<hr>
+		<br>
+					<a name="unfold">
+					<table class="item_detail">
+						<tr class="item_detail">
+							<td class="itemtop" colspan="2" valign="bottom">
+								Unfold
+							</td>
+						</tr>
+						<tr class="item_detail">
+							<td class="item_detail"><img src="../img/ref2/ref03_both/ref03_01.png"></td>
+							<td class="item_detail">
+								When the [Auto] box is checked, the 2D pattern is generated and arranged 
+								automatically so that all parts are placed in one sheet.
+								<br>
+								When not checked, the following dialog appears.
+							</td>
+						</tr>
+						<tr class="item_detail">
+							<td class="item_detail"><img src="../img/ref2/ref03_both/ref03_02.png"></td>
+							<td class="item_detail">
+									<b>Development Layout Method </b>
+									<br>
+									<br>
+									<b>[Auto]</b><br>
+									The size of the development is automatically adjusted to fit paper size.
+									<br>
+									This is same as when the [Auto] check box on toolbar is checked.
+									<br>
+									<br>
+									<b>[Manual]</b><br>
+									Specify the assembled size or scale relative to the values in model.<br>
+									<br>
+									<b>[Assembled Size]</b><br>
+									Specifies the assembled size in cm.
+									<br>
+									When this value is changed, the value of the [Scale] also changes.
+									<br>
+									<br>
+									<b>[Scale]</b><br>
+									Specifies the scale relative to the values in the model file. If you want to 
+									merge multiple .pdo files to build a large model, specify the same value.<br>
+									When this value is changed, the value of the [Assembled Size] also changes.
+									<br>
+									<br>
+									<b>[Spacing of Parts Layout]</b><br>
+									Specifies the gap between parts in mm. The size of a flap is not counted for 
+									gap calculation.
+									<br>
+									<br>
+									<b>[Place Parts so avoiding Page Borders]</b><br>
+									When a development stretches across multiple pages, this function&nbsp;aligns 
+									it not to cross the page borders. However, if there is a part which can't fit 
+									onto one page, this part will cross page border.
+									<br>
+							</td>
+						</tr>
+					</table>
+					<br>
+					<hr>
+					<br>
+					<a name="fold">
+						<table class="item_detail">
+							<tr class="item_detail">
+								<td class="itemtop" colspan="2" valign="bottom">
+									Undo Unfolding
+								</td>
+							</tr>
+							<tr class="item_detail">
+								<td class="item_detail"><img src="../img/ref2/ref03_both/ref03_03.png"></td>
+								<td class="item_detail">
+									This menu item is same as [Unfold Undo] button on toolbar.<br>
+									<br>
+									<b>[Reuse texts at next unfolding ]</b>
+									<br>
+									When there are texts in 2D window, stores the custom text in the 
+									2D&nbsp;window&nbsp;and reuses them when the 3D model is unfolded again.
+									<br>
+									<br>
+									<b>[Apply open edge info to 3D model]</b><br>
+									The current open edge information is applied to the&nbsp;3D model.
+									<br>
+									When this option is off, the open edge information is removed.
+									<br>
+								</td>
+							</tr>
+						</table>
+					</a>
+	</body>
+</html>

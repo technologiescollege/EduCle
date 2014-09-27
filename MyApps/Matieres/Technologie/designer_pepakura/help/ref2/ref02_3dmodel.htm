@@ -1,0 +1,340 @@
+<html>
+	<head>
+		<title>Pepakura Designer3 Help</title>
+		<meta http-equiv="Content-Type" content="text/html">
+		<LINK rel="stylesheet" href="../basic.css" type="text/css">
+	</head>
+	<body bgcolor="#ffffff" text="#000000">
+		<p></p>
+		<table>
+			<tr>
+				<td colspan="2" class="menutop">[3DModelWindow]
+				</td>
+			</tr>
+			<tr> 
+				<th>Edit Mode/<br>Pick Open Edge</th>
+				<td class="menuitem">Specify the edge to open when unfolding.<br>
+				The way of selecting changes depending on [Edge Pick Mode].
+				</td>
+			</tr>
+			<tr> 
+				<th>Edit Mode/<br>Divide Edges and Make Them Smooth<br>(<a href="#smooth">-&gt; detail</a>)</th>
+				<td class="menuitem">Make the surface of 3D model smooth by dividing specified edges.
+				</td>
+			</tr>
+			<tr> 
+				<th>Edit Mode/<br>Edit Model<br>(<a href="#model_edit">-&gt; detail</a>)</th>
+				<td class="menuitem">Edit model. Simple commands are provided.
+				</td>
+			</tr>
+			<tr> 
+				<th>Edge Pick Mode/<br>Pick Single Edge</th>
+				<td class="menuitem">Pick edges one by one by clicking on them. The selected edges are colored in orange. If you click again, the edge is deselected. </td>
+			</tr>
+			<tr> 
+				<th>Edge Pick Mode/<br>Specify Shortest Path between Two Points</th>
+				<td class="menuitem">Pick two vertices and the edges on the shortest path between them become selected.</td>
+			</tr>
+
+			<tr>
+				<th>
+					Pick Symmetrical Edge
+				</th>
+				<td class="menuitem">
+					When this option is on, the edge located on the symmetrical position 
+					of&nbsp;selected edge is selected at the same time.
+				</td>
+			</tr>
+			<tr>
+				<th>
+					Reset Edge Type
+				</th>
+				<td class="menuitem">Resets status of the edge&nbsp;that the&nbsp;user specified to 
+					open.</td>
+			</tr>
+			<tr>
+				<th>
+					Turn On Light
+				</th>
+				<td class="menuitem">
+					Turns on a virtual light in the&nbsp;3D window. The model is rendered as being 
+					lit and it becomes easy to recognize the 3D model.
+					<br>
+				</td>
+			</tr>
+			<tr>
+				<th>
+					Show Faces</th>
+				<td class="menuitem">Shows the faces on the&nbsp;3D model. When this option is off, 
+					the model is rendered as a wire frame model.<br>
+					* Usually&nbsp;turn this option on.</td>
+			</tr>
+			<tr>
+				<th>
+					Show Edges
+				</th>
+				<td class="menuitem">Shows the edges of the 3D model.<br>
+					* Usually&nbsp;turn this option on.</td>
+			</tr>
+			<tr>
+				<th>
+					Reset Model View
+				</th>
+				<td class="menuitem">Resets position, direction, and zoom of the 3D model to the 
+					default model&nbsp;state.
+				</td>
+			</tr>
+			<tr> 
+				<th>Display Setting<br>(<a href="#disp_setting">-&gt; detail</a>)</th>
+				<td class="menuitem">Set the configurations of 3D model window.</td>
+			</tr>
+			<tr>
+				<th>
+					Show Object List
+					<br>
+					(<a href="#objects">-&gt; detail</a>)</th>
+				<td class="menuitem">Opens a dialog which shows an object name list of the 
+					objects&nbsp;included in the model. You can switch between showing and hiding 
+					each object.<br>
+					Only objects shown are involved in the creation of the development.
+				</td>
+			</tr>
+			<tr> 
+				<th>Change Coordinates/<br>Change Model Coordinates<br>(<a href="#coodinates">-&gt; detail</a>)</th>
+				<td class="menuitem">Change coordinates of 3D model by 4 steps.
+				</td>
+			</tr>
+			<tr> 
+				<th>Change Coordinates/<br>Flip U-coordinate of Texture</th>
+				<td class="menuitem">Flip U-coordinate of Texture.
+				</td>
+			</tr>
+			<tr> 
+				<th>Change Coordinates/<br>Flip V-coordinate of Texture</th>
+				<td class="menuitem">Flip V-coordinate of Texture.
+				</td>
+			</tr>
+			<tr> 
+				<th>Change Coordinates/Flip Faces</th>
+				<td class="menuitem">Invert the direction of faces.
+				</td>
+			</tr>
+			<tr>
+				<th>
+					Change Coordinates<br>
+					(<a href="#coodinates">-&gt; detail</a>)</th>
+				<td class="menuitem">Starts&nbsp;the wizard for adjusting the model's coordinates.
+				</td>
+			</tr>
+			<tr>
+				<th>
+					Join Adjacent Isolated Edges</th>
+				<td class="menuitem">
+					Joins all the adjacent isolated edges.<br>
+					The development might become separated, because, sometimes&nbsp;a 3D model's 
+					faces look connected, but in fact they aren't joined. When there are such 
+					faces, this feature allows you to connect all the adjacent isolated edges and 
+					to join all the adjacent faces. The faces to be connected need to be included 
+					in the same object.
+				</td>
+			</tr>
+		</table>
+		<br>
+		<hr>
+		<br>
+		<a name="smooth">
+			<table class="item_detail">
+				<tr class="item_detail">
+					<td class="itemtop" colspan="2" valign="bottom">
+						Edit Mode / Divide Edges and Make Them Smooth
+					</td>
+				</tr>
+				<tr class="item_detail">
+					<td class="item_detail"><img src="../img/ref2/ref02_3dmodel/ref02_01.png"></td>
+					<td class="item_detail">
+						<b>[Go]</b><br>
+						After selecting edges, push the [Go] button to divide the edges and make them 
+						smooth.
+						<br>
+						(Click edges again or select [3DModelWindow]-[ Reset Edge Type] to reset the 
+						selected edges. The selected edges have to be connected. An isolated edge does 
+						not generate any changes.)
+						<br>
+						<br>
+						<b>[Close]</b><br>
+						Closes the dialog.
+						<br>
+						<br>
+						<b>[Import open edges]</b><br>
+						Import edges specified to open for division of edges.<br>
+						<br>
+						<b>[Details]</b><br>
+						Shows detailed options.
+						<br>
+						<br>
+						<b>[Divide limit]</b><br>
+						The value of minimal length of the division of edges relative to model size. 
+						When the value is smaller, edges are divided into smaller edges.
+						<br>
+						<br>
+						<b>[Smooth limit]</b><br>
+						The value of the limit angle for the edge-swap operation.
+						<br>
+						Smooth operation swaps the&nbsp;edges so that the model becomes smooth, but 
+						when an angle of a edge is smaller than this, the edge swap is not applied.
+						<br>
+						Usually specify between 90-100 degrees.
+						<br>
+						<br>
+						* The left image is a dialog showing the detailed options.
+					</td>
+				</tr>
+			</table>
+			<a name="model_edit">
+			<table class="item_detail">
+				<tr class="item_detail">
+					<td class="itemtop" colspan="2" valign="bottom">
+						Edit Mode / Model Edit
+					</td>
+				</tr>
+				<tr class="item_detail">
+					<td class="item_detail"><img src="../img/ref2/ref02_3dmodel/ref02_02.png"></td>
+					<td class="item_detail">
+						<b>[Move Vertex]</b><br>
+						Moves vertices and edits the&nbsp;figure of the model.
+						<br>
+						Drag&nbsp;the top of the red, blue and green arrows that appear to move the 
+						selected vertex.<br>
+						<br>
+						<b>[Swap Edge]</b><br>
+						Swaps edges by selecting them.
+						<br>
+						<img src="../img/ref2/ref02_3dmodel/ref02_02picup.png" width="64" height="27"><br>
+						<br>
+						<b>[Delete Edge]</b><br>
+						Deletes edges by selecting them. As the result, associated faces are also 
+						removed.
+						<br>
+						(Only deletable edges can be selected)
+						<br>
+						<br>
+						<b>[Divide Edge]</b><br>
+						Divides edges by selecting them. One edge is divided into two at the center of 
+						the edge. As the result, associated faces are also divided.
+						<br>
+						<br>
+						<b>[Split Quad]</b><br>
+						Splits a quad polygon into two triangles by selecting them.
+					</td>
+				</tr>
+			</table>
+			<br>
+			<hr>
+			<br>
+			
+			<a name="disp_setting"></a>
+			<table class="item_detail">
+				<tr class="item_detail"> 
+					<td class="itemtop" colspan="2" valign="bottom">
+						Display Setting
+					</td>
+				</tr>
+				<tr class="item_detail"> 
+					<td class="item_detail"><img src="../img/ref2/ref02_3dmodel/ref02_03.png"></td>
+					<td class="item_detail"> 
+						<b>[Face]</b><br>
+						Set the way of rendering of faces. Normally [Color & Texture] is selected.<br>
+						[White] renders faces with white color. <br>
+						<br>
+						<b>[Edge]</b><br>
+						Set the way of rendering of edges. [Color] option sets different colors to edges according to the type; mountain, valley, and cut.<br>
+						<br>
+						<b>[Light]</b><br>
+						Render the model with light.
+						<br>
+						<br>
+						<b>[Size of Opening(after fold)]</b><br>
+						Specify the degree of opening of 3D model.
+						<br>
+						<br>
+						<b>[View Angle]</b><br>
+						Sets the degree of perspective.
+						<br>
+						<br>
+						<b>[Reset]</b><br>
+						Resets the options of this dialog.		
+					</td>
+				</tr>
+			</table>
+							<a name="objects">
+								<table class="item_detail">
+									<tr class="item_detail">
+										<td class="itemtop" colspan="2" valign="bottom">
+											Show Object List
+										</td>
+									</tr>
+									<tr class="item_detail">
+										<td class="item_detail"><img src="../img/ref2/ref02_3dmodel/ref02_04.png"></td>
+										<td class="item_detail">
+											<b>[Object List]</b><br>
+											List of all object's file names.<br>
+											Switch between&nbsp;show/hide by clicking the name. Only selected objects 
+											become targets for unfolding.
+											<br>
+											<br>
+											<b>[Select All]</b><br>
+											Selects all objects in the list.
+											<br>
+											<br>
+											<b>[Clear]</b><br>
+											Deselects all objects in the list.
+										</td>
+									</tr>
+								</table>
+								<br>
+								<hr>
+								<br>
+									<a name="coodinates">
+										<table class="item_detail">
+											<tr class="item_detail">
+												<td class="itemtop" colspan="2" valign="bottom">
+													Change Coordinates
+												</td>
+											</tr>
+											<tr class="item_detail">
+												<td class="item_detail"><img src="../img/ref2/ref01_file/ref01_02.png"></td>
+												<td class="item_detail">
+													[Step1]<br>
+													Define the normal direction of the faces.<br>
+													[Close] end this wizard.
+												</td>
+											</tr>
+											<tr class="item_detail">
+												<td class="item_detail"><img src="../img/ref2/ref01_file/ref01_03.png"></td>
+												<td class="item_detail">
+													[Step2]<br>
+													Define the front by selecting the appropriate color button.
+												</td>
+											</tr>
+											<tr class="item_detail">
+												<td class="item_detail"><img src="../img/ref2/ref01_file/ref01_04.png"></td>
+												<td class="item_detail">
+													[Step3]<br>
+													Define the bottom by selecting the appropriate color button.
+												</td>
+											</tr>
+											<tr class="item_detail">
+												<td class="item_detail"><img src="../img/ref2/ref01_file/ref01_05.png"></td>
+												<td class="item_detail">
+													[Step4]<br>
+													Specify whether or not to invert the model.
+													<br>
+													This wizard can be called whenever you want&nbsp;by selecting 
+													[3DModelWindow]-[Change Coordinates].
+												</td>
+												</TD>
+											</tr>
+										</table>
+									</a>
+	</body>
+</html>

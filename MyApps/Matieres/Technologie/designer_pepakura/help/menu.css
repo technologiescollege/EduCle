@@ -1,0 +1,193 @@
+<STYLE>
+BODY
+{
+    BACKGROUND-COLOR: #ffffff;
+    FONT-FAMILY: "‚l‚r ‚oƒSƒVƒbƒN",Osaka,sans-serif;
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    BORDER-RIGHT: 0px;
+    BORDER-LEFT: 0px;
+    FONT-SIZE: 80%;
+    COLOR: #222222;
+    LINE-HEIGHT: 150%; 
+}
+H1
+{
+	WIDTH: 400px;
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: #000077 1px solid;
+    BORDER-RIGHT: #000077 1px solid;
+    BORDER-LEFT: #000077 15px solid;
+    BORDER-BOTTOM: #000077 4px solid;
+    PADDING-RIGHT: 5px;
+    PADDING-LEFT:  10px;
+    PADDING-BOTTOM: 2px;
+    PADDING-TOP:    2px;
+    FONT-SIZE: 130%;
+    COLOR: black;
+    BACKGROUND-COLOR: #EEEEEE;
+    MARGIN-LEFT: 20px;
+    MARGIN-RIGHT: 20px;
+}
+H2
+{
+	WIDTH: 180px;
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: #0000AA 3px solid;
+    BORDER-BOTTOM: #0000AA 3px solid;
+    PADDING-LEFT: 10px;
+    FONT-SIZE: 90%;
+    BORDER-LEFT: 0px;
+    COLOR: #222222;
+    PADDING-TOP: 3px;
+    PADDING-BOTTOM: 3px;
+/*    BACKGROUND-COLOR: #FFFFFF;*/
+    TEXT-ALIGN: left;
+    MARGIN-LEFT: 0px;
+    MARGIN-RIGHT: 0px;
+    MARGIN-BOTTOM: 5px;
+}
+H2.notice{
+    BORDER-TOP: 0px;
+    BORDER-LEFT: #AA0000 10px solid;
+    BORDER-BOTTOM: #AA0000 3px solid;
+}
+H3
+{
+	MARGIN-TOP: 10px;
+    PADDING-TOP: 20px;
+    PADDING-BOTTOM: 2px;
+    COLOR: #000000;
+    BORDER-BOTTOM: 1px dashed;
+    FONT-SIZE: 1em;
+}
+DIV
+{  
+	WIDTH: 180px;
+	COLOR: #222222;
+    BACKGROUND-COLOR: transparent;
+}
+DIV.main
+{
+    LINE-HEIGHT: 150%;
+    FONT-SIZE: 80%;
+    MARGIN-LEFT: 20px;
+    MARGIN-RIGHT: 20px;  
+}
+DIV.footer
+{
+    LINE-HEIGHT: 150%;
+    FONT-SIZE: 60%;
+    MARGIN-TOP: 20px;
+    MARGIN-LEFT: 0px;
+    MARGIN-RIGHT: 0px;  
+    TEXT-ALIGN: right;
+    COLOR: #444444;
+    BORDER-TOP: #444444 1px solid;
+}
+DIV.back
+{
+    FONT-SIZE: 80%;
+    MARGIN-TOP: 20px;
+    MARGIN-LEFT: 20px;
+    MARGIN-RIGHT: 20px;  
+    COLOR: #888888;
+    TEXT-ALIGN: right;
+}
+
+STRONG
+{
+	font-weight: normal;
+	COLOR: brown;
+}
+P
+{
+    LINE-HEIGHT: 150%;
+    MARGIN-LEFT: 2em;
+    /*	TEXT-INDENT: 1em;*/
+}
+A:link
+{
+    COLOR: #0033cc;
+    TEXT-DECORATION: none
+}
+A:visited
+{
+    COLOR: #0033cc;
+    TEXT-DECORATION: none
+}
+A:hover
+{
+    COLOR: #0033cc;
+	BACKGROUND-COLOR: #87cefa
+}
+A:active
+{
+    COLOR: #0033cc;
+    TEXT-DECORATION: underline
+}
+UL
+{
+	PADDING-LEFT: 0px;
+	MARGIN-LEFT: 0px;
+	MARGIN-TOP: 0px;
+}
+LI
+{
+	list-style-type: none;
+	PADDING-LEFT: 0px;
+	MARGIN-TOP: 0px;
+	MARGIN-LEFT: 0px;
+	FONT-SIZE: 80%;
+}
+LI.sub
+{
+	list-style-type: circle;
+	PADDING-LEFT: 0px;
+	MARGIN-TOP: 0px;
+	MARGIN-LEFT: 25px;
+	FONT-SIZE: 90%;
+}
+TABLE
+{
+    PADDING-RIGHT: 0.2em;
+    PADDING-LEFT: 0.2em;
+    FONT-SIZE: 1em;
+    PADDING-BOTTOM: 0.2em;
+/*    MARGIN: 2em;*/
+    WIDTH: auto;
+    COLOR: #000;
+    LINE-HEIGHT: 150%;
+    PADDING-TOP: 0.2em;
+    TEXT-ALIGN: left;
+    BORDER: 0px;
+}
+TH
+{
+    BORDER-RIGHT: gray 1px solid;
+    BORDER-TOP: gray 1px solid;
+    BORDER-LEFT: gray 1px solid;
+    COLOR: #000050;
+    BORDER-BOTTOM: gray 1px solid;
+    FONT-FAMILY: "MS UI Gothic",Osaka;
+    BACKGROUND-COLOR: #faf8fe;
+	TEXT-DECORATION: none;
+	FONT-WEIGHT: normal;
+}
+TR
+{
+    BORDER-RIGHT: #9999ff 1px solid;
+    BORDER-TOP: #9999ff 1px solid;
+    BORDER-LEFT: #9999ff 1px solid;
+    COLOR: teal;
+    BORDER-BOTTOM: #9999ff 1px solid
+}
+TD
+{
+    BORDER-RIGHT: gray 1px solid;
+    BORDER-TOP: gray 1px solid;
+    BORDER-LEFT: gray 1px solid;
+    COLOR: #000066;
+    BORDER-BOTTOM: gray 1px solid
+}
+</STYLE>
