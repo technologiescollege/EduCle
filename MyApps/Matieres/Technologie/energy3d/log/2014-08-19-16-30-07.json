@@ -1,0 +1,24 @@
+{
+"Activities": [
+{"Timestamp": "2014-08-19 16:31:24",   "File": "BostonStreet.ng3",   "Latitude": 42,   "RoomTemperature": 20,   "WallUFactor": "0.25 (masonry)",   "WindowUFactor": "1.20 (single pane)",   "DoorUFactor": "0.50 (wood)",   "RoofUFactor": "0.29 (old house)",   "SolarPanelYield": "10.0",   "SHGC": "50.0",   "Time": "8/19:16",   "Camera": {"Position": {"x": 0, "y": -120, "z": 50}, "Direction": {"x": 0, "y": 0,923, "z": -0,385}}},
+{"Timestamp": "2014-08-19 16:31:25",   "File": "BostonStreet.ng3",   "Axes": false,   "Camera": {"Position": {"x": -17,57, "y": -125,755, "z": 31,777}, "Direction": {"x": 0,05, "y": 0,997, "z": 0,05}}},
+{"Timestamp": "2014-08-19 16:31:26",   "File": "BostonStreet.ng3",   "Axes": false},
+{"Timestamp": "2014-08-19 16:31:27",   "File": "BostonStreet.ng3",   "Axes": false,   "Time": "8/7:18"},
+{"Timestamp": "2014-08-19 16:31:28",   "File": "BostonStreet.ng3",   "Axes": false,   "Camera": {"Position": {"x": -9,758, "y": -123,069, "z": 66,245}, "Direction": {"x": -0,01, "y": 0,977, "z": -0,213}}},
+{"Timestamp": "2014-08-19 16:31:29",   "File": "BostonStreet.ng3",   "Axes": false,   "Camera": {"Position": {"x": 111,082, "y": -67,696, "z": 64,159}, "Direction": {"x": -0,846, "y": 0,502, "z": -0,179}}},
+{"Timestamp": "2014-08-19 16:31:30",   "File": "BostonStreet.ng3",   "Axes": false,   "Camera": {"Position": {"x": 145,307, "y": -88,017, "z": 71,394}, "Direction": {"x": -0,846, "y": 0,502, "z": -0,179}}},
+{"Timestamp": "2014-08-19 16:31:31",   "File": "BostonStreet.ng3",   "Axes": false,   "Camera": {"Position": {"x": 224,509, "y": -135,041, "z": 88,135}, "Direction": {"x": -0,846, "y": 0,502, "z": -0,179}}},
+{"Timestamp": "2014-08-19 16:31:32",   "File": "BostonStreet.ng3",   "Axes": false,   "Camera": {"Position": {"x": 293,614, "y": -176,071, "z": 102,742}, "Direction": {"x": -0,846, "y": 0,502, "z": -0,179}}},
+{"Timestamp": "2014-08-19 16:31:33",   "File": "BostonStreet.ng3",   "Axes": false,   "Camera": {"Position": {"x": -111,689, "y": -307,054, "z": 182,872}, "Direction": {"x": 0,288, "y": 0,869, "z": -0,403}}},
+{"Timestamp": "2014-08-19 16:31:34",   "File": "BostonStreet.ng3",   "Axes": false,   "Camera": {"Position": {"x": -0,519, "y": -327,056, "z": 174,649}, "Direction": {"x": -0,023, "y": 0,925, "z": -0,38}}},
+{"Timestamp": "2014-08-19 16:31:35",   "File": "BostonStreet.ng3",   "Axes": false,   "Camera": {"Position": {"x": 22,514, "y": -324,988, "z": 176,301}, "Direction": {"x": -0,088, "y": 0,919, "z": -0,385}}},
+{"Timestamp": "2014-08-19 16:31:36",   "File": "BostonStreet.ng3",   "Axes": false},
+{"Timestamp": "2014-08-19 16:31:37",   "File": "BostonStreet.ng3",   "Shadow": true,   "Axes": false},
+{"Timestamp": "2014-08-19 16:31:39",   "File": "BostonStreet.ng3",   "Heliodon": true,   "Shadow": true,   "Axes": false},
+{"Timestamp": "2014-08-19 16:31:40",   "File": "BostonStreet.ng3",   "Heliodon": true,   "Shadow": true,   "Axes": false,   "SunAnimation": true},
+{"Timestamp": "2014-08-19 16:31:48",   "File": "BostonStreet.ng3",   "Heliodon": true,   "Shadow": true,   "Axes": false,   "Time": "8/7:9"},
+{"Timestamp": "2014-08-19 16:31:49",   "File": "BostonStreet.ng3",   "Heliodon": true,   "Shadow": true,   "Axes": false},
+{"Timestamp": "2014-08-19 16:31:51",   "File": "BostonStreet.ng3",   "Heliodon": true,   "Axes": false},
+{"Timestamp": "2014-08-19 16:31:52",   "File": "BostonStreet.ng3",   "Heliodon": true,   "Axes": false,   "Camera": {"Position": {"x": -0,031, "y": -1162,263, "z": 310,477}, "Direction": {"x": 0, "y": 1, "z": 0}}},
+{"Timestamp": "2014-08-19 16:31:53",   "File": "BostonStreet.ng3",   "Heliodon": true,   "Axes": false}]
+}

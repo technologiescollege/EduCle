@@ -1,0 +1,1 @@
+javaw -jar energy3d.jar
