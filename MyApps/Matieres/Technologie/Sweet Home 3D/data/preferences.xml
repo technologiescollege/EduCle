@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Portable user preferences 3.0</comment>
+<entry key="ignoredActionTip#1">CREATE_LABELS</entry>
+<entry key="roomFloorColoredOrTextured">true</entry>
+<entry key="wallPattern">hatchUp</entry>
+<entry key="autoCompletionProperty#2">RoomName</entry>
+<entry key="autoCompletionProperty#1">LevelName</entry>
+<entry key="newWallPattern">hatchUp</entry>
+<entry key="autoSaveDelayForRecovery">600000</entry>
+<entry key="newHomeWallHeight">250.0</entry>
+<entry key="autoCompletionStrings#2">Salle de bain,Chambre,Cuisine,Salon,Salle à manger,Entrée</entry>
+<entry key="autoCompletionStrings#1">Sous-sol,Rez-de-chaussée,1er étage,2ème étage,3ème étage</entry>
+<entry key="aerialViewCenteredOnSelectionEnabled">true</entry>
+<entry key="navigationPanelVisible">true</entry>
+<entry key="magnetismEnabled">false</entry>
+<entry key="recentHomes#4">F:\Synchro\Cours_college\5èmes\SEGPA\travaux_eleves\ma future maison dervill 340 ou a marsaille13 - Copie.sh3d</entry>
+<entry key="recentHomes#3">C:\Users\babas\Desktop\travaux_eleves\elcin_ismailov_5°2..sh3dboss.sh3d</entry>
+<entry key="recentHomes#2">C:\Users\babas\Desktop\travaux_eleves\ma future maison dervill 340 ou a marsaille13 - Copie.sh3d</entry>
+<entry key="newFloorThickness">12.0</entry>
+<entry key="extensibleUnit">CENTIMETER</entry>
+<entry key="recentHomes#1">C:\Users\babas\Desktop\travaux_eleves\nene souma ma maison en 3d.sh3d</entry>
+<entry key="gridVisible">true</entry>
+<entry key="checkUpdatesEnabled">true</entry>
+<entry key="language">fr</entry>
+<entry key="rulersVisible">true</entry>
+<entry key="recentColors"/>
+<entry key="furnitureViewedFromTop">true</entry>
+<entry key="furnitureCatalogViewedInTree">true</entry>
+<entry key="ignoredActionTip#4">CREATE_ROOMS</entry>
+<entry key="ignoredActionTip#3">CREATE_WALLS</entry>
+<entry key="newWallThickness">7.5</entry>
+<entry key="ignoredActionTip#2">CREATE_DIMENSION_LINES</entry>
+</properties>
