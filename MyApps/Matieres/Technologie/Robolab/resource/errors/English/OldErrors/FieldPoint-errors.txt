@@ -1,0 +1,735 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="-34245">
+FieldPoint:  The name of the configuration file path exceeds the maximum length. Names of configuration file paths must not exceed 250 characters in length.
+</nierror>
+<nierror code="-34244">
+FieldPoint:  Unable to delete a nonexistent or empty object.
+</nierror>
+<nierror code="-34243">
+FieldPoint:  Specified file path is empty.
+</nierror>
+<nierror code="-34241">
+FieldPoint:  A non-null pointer was encountered where a null was expected. The pointer is to be used for new memory allocation, but may have already been allocated.
+</nierror>
+<nierror code="-34240">
+FieldPoint:  An unrecoverable error was encountered during the construction of this object.
+</nierror>
+<nierror code="-34239">
+FieldPoint:  Error parsing the .xml file for channel name configuration. The file may be corrupt or incomplete.
+</nierror>
+<nierror code="-34238">
+FieldPoint:  Incomplete object state. Some of the information in a configuration file is not in the proper format. The necessary data to create a comm resource, device, or item either was not present or could not be interpreted. The configuration file may be corrupt.
+</nierror>
+<nierror code="-34237">
+FieldPoint:  Client code used to initialize FieldPoint server is invalid. Use one of the predefined codes.
+</nierror>
+<nierror code="-34235">
+FieldPoint:  The current resource store is empty. Possible cause: The configuration file in use either is empty or has invalid data.
+</nierror>
+<nierror code="-34234">
+FieldPoint:  An invalid or unexpected switch or IF statement result has been encountered. This code should never be seen by an end user! 
+</nierror>
+<nierror code="-34233">
+FieldPoint:  The configuration data is not of the proper format to download to the embedded device.
+</nierror>
+<nierror code="-34232">
+FieldPoint:  The requested list is not present in the configuration file in the proper format.
+</nierror>
+<nierror code="-34231">
+FieldPoint:  A file operation has failed.
+</nierror>
+<nierror code="-34230">
+FieldPoint:  Unable to access configuration data. Possible cause: The configuration (IAK) file may be corrupt.
+</nierror>
+<nierror code="-34229">
+FieldPoint:  The configuration data could not be converted to IAK file format.
+</nierror>
+<nierror code="-34228">
+FieldPoint:  FieldPoint server is in an unexpected or invalid (and possibly unrecoverable) state.
+</nierror>
+<nierror code="-34227">
+FieldPoint:  Unable to access some configuration data due to improper naming usage in the configuration file. Possible cause: The file has been corrupted.
+</nierror>
+<nierror code="-34226">
+FieldPoint:  The IAK file format is not correct. Unable to open/parse file.
+</nierror>
+<nierror code="-34225">
+FieldPoint:  Some of the configuration data could not be formatted for Save operation.
+</nierror>
+<nierror code="-34224">
+FieldPoint:  The configuration data could not be formatted for Save operation.
+</nierror>
+<nierror code="-34223">
+FieldPoint:  Unable to save configuration data. Possible cause: The specified file may be in use.
+</nierror>
+<nierror code="-34222">
+FieldPoint:  The referenced object has no parent.
+</nierror>
+<nierror code="-34221">
+FieldPoint:  The called function is not supported or is not yet implemented. Possible cause: The function was called for an object that does not support it or (for development phase only) the function is not yet implemented.
+</nierror>
+<nierror code="-34220">
+FieldPoint:  The current configuration file is read-only. You can view and use the file but cannot save any changes to it.
+</nierror>
+<nierror code="-34219">
+FieldPoint:  Failed to open/read the configuration file. Verify that the specified path name is correct and that you have access privileges to the file.
+</nierror>
+<nierror code="-34218">
+FieldPoint:  Error closing a file. Possible cause: The file was not opened successfully or it has already been closed.
+</nierror>
+<nierror code="-34217">
+FieldPoint:  Error creating the configuration file. Possible cause:  Another file with the same name already exists or the system is out of disk space or you do not have privileges to create a file.
+</nierror>
+<nierror code="-34216">
+FieldPoint:  Error opening a configuration file. Possible cause: The file does not exist or you do not have access to it.
+</nierror>
+<nierror code="-34215">
+FieldPoint:  The internal state of the object is invalid.  The object is either not properly initialized or has been corrupted.
+</nierror>
+<nierror code="-34214">
+FieldPoint:  Failed to create module information file for an FP-TB-10 module. The required dual-channel module information is either nonexistent or corrupt.
+</nierror>
+<nierror code="-34213">
+FieldPoint:  Error accessing module information. The corresponding file either cannot be found or cannot be opened.
+</nierror>
+<nierror code="-34212">
+FieldPoint:  Error closing Windows registry. Possible cause: The key does not exist or has not been opened.
+</nierror>
+<nierror code="-34211">
+FieldPoint:  Error creating Windows registry key. Possible cause: The key already exists or the user does not have access to modify the registry.
+</nierror>
+<nierror code="-34210">
+FieldPoint:  Error opening Windows registry. Possible cause: The key does not exist or the user does not have access to the registry with the ACCESS parameters specified by the open call.
+</nierror>
+<nierror code="-34209">
+FieldPoint:  Could not write to Windows registry key. Possible cause: The key is opened in read-only mode or the user does not have access to modify the registry.
+</nierror>
+<nierror code="-34208">
+FieldPoint:  Failed to read Windows registry. Possible causes: The required key does not exist or the user does not have read access to the registry.
+</nierror>
+<nierror code="-34207">
+FieldPoint:  Evaluation/beta version of the FieldPoint software has timed out.
+</nierror>
+<nierror code="-34205">
+FieldPoint:  The smart (shared/weak) pointer is pointing to a null object.
+</nierror>
+<nierror code="-34204">
+FieldPoint:  A null pointer has been passed to a method that expects a valid pointer value.
+</nierror>
+<nierror code="-34203">
+FieldPoint:  Invalid object attribute.  The attribute is either unknown or not a property of the specified object.
+</nierror>
+<nierror code="-34202">
+FieldPoint:  Set operation on the object attribute is not supported.  
+</nierror>
+<nierror code="-34201">
+FieldPoint:  Memory allocation has failed. Possible cause: The system is out of memory. Close some other applications to free memory.
+</nierror>
+<nierror code="-34200">
+FieldPoint:  An unknown internal condition has occured. Possible cause: unrecoverable operating system error.
+</nierror>
+<nierror code="-34118">
+FieldPoint:  Unable to reference cached value. The FieldPoint server is unable to access the FieldPoint data. A possible solution is to restart your application. You may also need to reboot your computer.
+</nierror>
+<nierror code="-34117">
+FieldPoint:  Attempt to publish data of incorrect type for specified item. The value wired into the input value terminal of the FP Publish Data VI does not match the data type of the existing item.
+</nierror>
+<nierror code="-34116">
+FieldPoint:  Desired value is outside the configured range for some channels.
+</nierror>
+<nierror code="-34115">
+FieldPoint:  The tag handle passed to a FieldPoint VI is invalid or unknown.
+</nierror>
+<nierror code="-34114">
+FieldPoint:  Invalid IO Control string. The string value of the FieldPoint IO Control Node could not be parsed into constituent configuration file path name, comm resource, device, and item.
+</nierror>
+<nierror code="-34113">
+FieldPoint:  A LabVIEW occurrence object used for synchronizing I/O operations is not valid.
+</nierror>
+<nierror code="-34112">
+FieldPoint:  The specified .iak file path is not valid for the configuration alias provided. The server name must match the alias assigned to the provided configuration file path.
+</nierror>
+<nierror code="-34111">
+FieldPoint:  The data in one or more of the comm resources in the current configuration could not be made available. The server may not be accessible or the configuration data may be corrupt.
+</nierror>
+<nierror code="-34110">
+FieldPoint:  The requested new configuration file short name is already associated with a different configuration path.
+</nierror>
+<nierror code="-34109">
+FieldPoint:  The database that associates short names with configuration paths is unavailable. Most likely the file could not be opened. Make sure you have read privileges for the directory where FieldPoint is installed.
+</nierror>
+<nierror code="-34108">
+FieldPoint:  The specified name is not associated with a configuration file path. The requested action cannot be taken using the name provided.
+</nierror>
+<nierror code="-34107">
+FieldPoint:  Unable to load the FieldPoint server .dll. Possible cause: The .dll does not support the required interface.
+</nierror>
+<nierror code="-34106">
+FieldPoint:  The registered path for the FieldPoint server is invalid. Make sure the FieldPoint software is properly installed and registered.
+</nierror>
+<nierror code="-34105">
+FieldPoint:  Unable to get address of an exported function from the loaded .dll.  Win32's GetProcAddress call failed. Possible causes: The .dll no longer supports this function or the signature used for the function has changed.
+</nierror>
+<nierror code="-34104">
+FieldPoint:  A required .dll failed to load properly. The .dll path may be invalid or the dll may not exist on this machine.
+</nierror>
+<nierror code="-34103">
+FieldPoint:  Invalid parameter. At least one of the parameters passed to this function/VI has an invalid or unsupported value.
+</nierror>
+<nierror code="-34102">
+FieldPoint:  Invalid Custom Create Tag VI. Custom Create Tag VIs must be in the vi.lib\FieldPoint\Custom Create Tag directory.
+</nierror>
+<nierror code="-34101">
+FieldPoint:  Desired value is outside the configured range.
+</nierror>
+<nierror code="-34100">
+FieldPoint:  Unknown application error/warning.
+</nierror>
+<nierror code="-33818">
+FieldPoint:  The desired IP address is already in use by a different FieldPoint network module.
+</nierror>
+<nierror code="-33817">
+FieldPoint:  Unable to use the COM port. Another comm resource in this configuration is already using this COM port.
+</nierror>
+<nierror code="-33816">
+FieldPoint:  Unexpected character received from Optomux response.
+</nierror>
+<nierror code="-33815">
+FieldPoint:  Communication error on USB bus.
+</nierror>
+<nierror code="-33814">
+FieldPoint:  Fatal error while attempting to communicate with USB bus.
+</nierror>
+<nierror code="-33812">
+FieldPoint:  Unable to use the COM port. The COM port is already in use by a different FieldPoint communciation resource with different baudrate settings.
+</nierror>
+<nierror code="-33811">
+FieldPoint:  Unable to bind to the COM port. Another application is already using the COM port.
+</nierror>
+<nierror code="-33810">
+FieldPoint:  The message from the serial port has a checksum different from the one calculated by the host application.
+</nierror>
+<nierror code="-33809">
+FieldPoint:  The specified COM port does not exist on your machine. Check your system devices to make sure your COM port(s) is present and has required system resources
+</nierror>
+<nierror code="-33808">
+FieldPoint:  The desired baudrate is not supported by the underlying network bus.
+</nierror>
+<nierror code="-33807">
+FieldPoint:  The IP address is invalid. The given IP address does not follow the IP address syntax required by the Ethernet protocol.
+</nierror>
+<nierror code="-33806">
+FieldPoint:  The required network connection was not found. Possible cause: A network resource specified in a Create Tag call was not available when the tag was created.
+</nierror>
+<nierror code="-33805">
+FieldPoint:  The server received an invalid termination character from Serial communication.
+</nierror>
+<nierror code="-33804">
+FieldPoint:  Ethernet communication has failed. Possible cause: missing or disconnected network card or network card drivers.
+</nierror>
+<nierror code="-33803">
+FieldPoint:  The channel has not yet been subscribed to.
+</nierror>
+<nierror code="-33802">
+FieldPoint:  The host has read-only access to this device.
+</nierror>
+<nierror code="-33801">
+FieldPoint:  The host does not have access to this device.
+</nierror>
+<nierror code="-33800">
+FieldPoint:  Unknown communication error/warning.
+</nierror>
+<nierror code="-33192">
+FieldPoint:  Deadbanding is not supported for the selected channel. Deadbanding is supported only for analog input and count input channels on FieldPoint Ethernet banks. Older versions of the FP-1600 firmware (older than 3.0) also do not support deadbanding.
+</nierror>
+<nierror code="-33191">
+FieldPoint:  The desired range is not supported by this I/O module. Refer to the I/O module documentation for a list of supported ranges and corresponding range IDs.
+</nierror>
+<nierror code="-33190">
+FieldPoint:  The IP pattern used to configure FieldPoint Access Control is not valid. Valid combinations are: *, [num].*, [num].[num].*, [num].[num].[num].* (where [num] can be any integer from 0-255).
+</nierror>
+<nierror code="-33189">
+FieldPoint:  A module of different type already exists at the specified address in the currently loaded configuration.
+</nierror>
+<nierror code="-33188">
+FieldPoint:  Unable to communicate with FieldPoint I/O module on BlueBus.
+</nierror>
+<nierror code="-33187">
+FieldPoint:  Unable to acquire module semaphore.
+</nierror>
+<nierror code="-33186">
+FieldPoint:  Invalid attribute value. The specified attribute(s) does not support the desired attribute setting. Check the operating instructions to make sure this setting is valid for the I/O module you are using.
+</nierror>
+<nierror code="-33185">
+FieldPoint:  Invalid channel attribute. The specified attribute is not supported by the addressed channel(s).
+</nierror>
+<nierror code="-33184">
+FieldPoint:  Invalid deadband value.
+</nierror>
+<nierror code="-33183">
+FieldPoint:  Unable to create an I/O item for this device. The device does not support I/O items..
+</nierror>
+<nierror code="-33182">
+FieldPoint:  Error parsing module information sheet. Possible cause: corrupt or invalid MIS file/buffer.
+</nierror>
+<nierror code="-33181">
+FieldPoint:  Invalid password. The password provided to change network security settings is invalid or incorrect.
+</nierror>
+<nierror code="-33180">
+FieldPoint:  The amount of data provided does not match the number of data items required or the number of channels to be addressed.
+</nierror>
+<nierror code="-33165">
+FieldPoint:  The item addressed does not exist. Possible cause: The device is not connected or the item address is invalid.
+</nierror>
+<nierror code="-33160">
+FieldPoint:  The requested feature is not supported by this type of network or I/O module.
+</nierror>
+<nierror code="-33159">
+FieldPoint:  The firmware on the network module does not support the requested feature. Upgrade the firmware to the latest released version (download from ni.com\support\fieldpoint) and try again.
+</nierror>
+<nierror code="-33157">
+FieldPoint:  The I/O module at this address has been hotswapped by a module of an incompatible type. Replace with a module of the original type for proper operation.
+</nierror>
+<nierror code="-33156">
+FieldPoint:  The device is offline. Make sure the device is connected and its power is on.
+</nierror>
+<nierror code="-33155">
+FieldPoint:  Module information not available for any FieldPoint module.  You may have accidently deleted the module information files or corrupted your registry. Rerun the FieldPoint installer to repair your FieldPoint installation.
+</nierror>
+<nierror code="-33154">
+FieldPoint:  The module addressed is not of the selected type.
+</nierror>
+<nierror code="-33153">
+FieldPoint:  Error identifying module. Possible causes: (1) The module information is not available on your system, or (2) the module is returning an invalid module ID.  For (1),  the module may be newly released and it must be online for the software to configure it the first time,  OR  you may have accidentally deleted the module information file(s) and/or corrupted your registry.  Rerun the FieldPoint installer to repair your FieldPoint installation.  For (2), module may not be correctly plugged in or the EEPROM on the module may be corrupted.
+</nierror>
+<nierror code="-33036">
+FieldPoint:  Unknown error. An unidentifiable error condition has occurred.
+</nierror>
+<nierror code="-33035">
+FieldPoint:  Hardware error on instrument. An irrecoverable fault has occurred.
+</nierror>
+<nierror code="-33034">
+FieldPoint:  The response to the last command is unavailable.
+</nierror>
+<nierror code="-33033">
+FieldPoint:  The module addressed by the "Resend Last Response" is not the same module that was addressed by the previous command.
+</nierror>
+<nierror code="-33032">
+FieldPoint:  The module has been hotswapped since it was last sent a command. This response is sent only if the network module is enabled to report hotswaps, and if the hotswap occurred after hotswap reporting mode was enabled. The command was ignored. This error number can be sent in response to a standard command if you have enabled hotswap reporting for the bank.
+</nierror>
+<nierror code="-33030">
+FieldPoint:  One or more attributes specified either do not exist or do not support the setting specified.  The command was ignored.
+</nierror>
+<nierror code="-33029">
+FieldPoint:  One or more ranges specified in the command either do not exist or do not support the setting specified. The command was ignored.
+</nierror>
+<nierror code="-33028">
+FieldPoint:  One or more channels specified in the command either do not exist or do not support the operation specified. The command was ignored.
+</nierror>
+<nierror code="-33027">
+FieldPoint:  The module or item addressed does not exist.
+</nierror>
+<nierror code="-33026">
+FieldPoint:  The FieldPoint network module detected a serial framing error in the command. The command was ignored.
+</nierror>
+<nierror code="-33025">
+FieldPoint:  The command is valid but is not supported by the addressed module.
+</nierror>
+<nierror code="-33024">
+FieldPoint:  One or more characters sent in the command could not be correctly converted to a digit (hex or decimal).
+</nierror>
+<nierror code="-32903">
+FieldPoint:  The specified limits are invalid for the command. This includes notification that an invalid digit (hex or decimal) was received.
+</nierror>
+<nierror code="-32902">
+FieldPoint:  Communications link network watchdog timed out. The command was ignored.
+</nierror>
+<nierror code="-32901">
+FieldPoint:  Not enough characters received. The module received an insufficient or incorrect number of characters for the specified command.
+</nierror>
+<nierror code="-32900">
+FieldPoint:  An unprintable ASCII character was received by the module. Only characters from ASCII value 33 to 127 are permitted within commands. The command was ignored.
+</nierror>
+<nierror code="-32899">
+FieldPoint:  Input buffer overrun. The received command was too long. The command was ignored.
+</nierror>
+<nierror code="-32898">
+FieldPoint:  The checksum does not match the sum of command characters. The checksum in the command does not match the calculated checksum of the characters in the command. The command was ignored.
+</nierror>
+<nierror code="-32897">
+FieldPoint:  Undefined or invalid command. The command character was not a legal command character, or the addressed module does not support this command. The command was ignored.
+</nierror>
+<nierror code="-32896">
+FieldPoint:  Power-up clear expected. The FieldPoint bank has power cycled since the last communication was sent. The command was ignored.
+</nierror>
+<nierror code="-32834">
+FieldPoint:  An advise operation on the selected item has already been started. You must stop the current operation before starting a new one.
+</nierror>
+<nierror code="-32833">
+FieldPoint:  Failed to get IP address for the host machine.
+</nierror>
+<nierror code="-32831">
+FieldPoint:  The selected comm resource has no network or I/O modules associated with it. Make sure the FieldPoint bank is online and you have access to the network module. An empty Ethernet comm resource, if saved, can create an invalid .iak file.
+</nierror>
+<nierror code="-32825">
+FieldPoint:  The specified .iak resource store name is already defined.
+</nierror>
+<nierror code="-32824">
+FieldPoint:  The specified item name is already defined.
+</nierror>
+<nierror code="-32823">
+FieldPoint:  The specified device name is already defined.
+</nierror>
+<nierror code="-32822">
+FieldPoint:  The specified comm resource name is already defined.
+</nierror>
+<nierror code="-32819">
+FieldPoint:  The specified item is not present in the currently loaded configuration file.
+</nierror>
+<nierror code="-32818">
+FieldPoint:  The specified resource store is not present in the currently active server configuration.
+</nierror>
+<nierror code="-32817">
+FieldPoint:  The specified device is not present in the currently loaded configuration file.
+</nierror>
+<nierror code="-32816">
+FieldPoint:  The specified comm resource is not present in the currently loaded configuration file.
+</nierror>
+<nierror code="-32815">
+FieldPoint:  The task completion being checked for deletion is in use.
+</nierror>
+<nierror code="-32814">
+FieldPoint:  The object (item, device, or comm resource) being checked for deletion is in use by some thread.
+</nierror>
+<nierror code="-32813">
+FieldPoint:  The specified tag has already been defined.
+</nierror>
+<nierror code="-32811">
+FieldPoint:  The FieldPoint server failed either to destroy some of its active objects or to terminate some service(s).
+</nierror>
+<nierror code="-32810">
+FieldPoint:  The FieldPoint server initialization failed. Possible causes: 1. Missing or corrupt configuration file; 2. Failed to create callbacks.
+</nierror>
+<nierror code="-32809">
+FieldPoint:  The FieldPoint server has already been initialized.
+</nierror>
+<nierror code="-32808">
+FieldPoint:  The FieldPoint server has not been initialized.
+</nierror>
+<nierror code="-32807">
+FieldPoint:  A task buffer overflow occurred.
+</nierror>
+<nierror code="-32806">
+FieldPoint:  Tag name too long. Possible cause: Tag name exceeds the character limit (31 characters) set by the configuration file.
+</nierror>
+<nierror code="-32805">
+FieldPoint:  The tag name contains illegal characters. Possible cause: The name of a channel, block, device, or comm resource includes a line feed or a carriage return.
+</nierror>
+<nierror code="-32802">
+FieldPoint:  An invalid completion was specified.
+</nierror>
+<nierror code="-32800">
+FieldPoint:  Unknown server error/warning.
+</nierror>
+<nierror code="0">
+FieldPoint:  Success
+</nierror>
+<nierror code="32768">
+FieldPoint:  The task is terminated. Most likely the FP Close was called before this task was finished.
+</nierror>
+<nierror code="32769">
+FieldPoint:  The task is pending.
+</nierror>
+<nierror code="32800">
+FieldPoint:  Unknown server error/warning.
+</nierror>
+<nierror code="32803">
+FieldPoint:  An invalid task ID was specified. The task ID used when calling FP_ReadCache or FP_Stop is invalid. Verify that the task ID used matches the task ID returned by FP_Advise.
+</nierror>
+<nierror code="32804">
+FieldPoint:  An invalid IAHandle was specified. Verify that the configuration file is valid and the IAHandle used matches the IAHandle returned by FP_Open.
+</nierror>
+<nierror code="32811">
+FieldPoint:  The FieldPoint server denied the client's request to terminate. Another client may still be using the server. The server will shut down when the last connected client requests a terminate operation.
+</nierror>
+<nierror code="32812">
+FieldPoint:  The specified tag name was not found.
+</nierror>
+<nierror code="32816">
+FieldPoint:  The specified comm resource is not present in the currently loaded configuration file.
+</nierror>
+<nierror code="32817">
+FieldPoint:  The specified device is not present in the currently loaded configuration file.
+</nierror>
+<nierror code="32818">
+FieldPoint:  The specified resource store is not present in the currently active server configuration.
+</nierror>
+<nierror code="32819">
+FieldPoint:  The specified item is not present in the currently loaded configuration file.
+</nierror>
+<nierror code="32820">
+FieldPoint:  The item is read only.
+</nierror>
+<nierror code="32821">
+FieldPoint:  The item is write only.
+</nierror>
+<nierror code="32822">
+FieldPoint:  The specified comm resource name is already defined.
+</nierror>
+<nierror code="32823">
+FieldPoint:  The specified device name is already defined.
+</nierror>
+<nierror code="32824">
+FieldPoint:  The specified item name is already defined.
+</nierror>
+<nierror code="32825">
+FieldPoint:  The specified .iak resource store name is already defined.
+</nierror>
+<nierror code="32826">
+FieldPoint:  Failed to create or initialize at least one of the objects in the configuration file. Your next save will save only the objects that were successfully created.
+</nierror>
+<nierror code="32828">
+FieldPoint:  The connection to a remote device timed out.
+</nierror>
+<nierror code="32832">
+FieldPoint:  Initialization of default channel name database failed. Any new item created by "Find Devices" will be named "Channel." Make sure your FieldPoint software is installed and registered properly.
+</nierror>
+<nierror code="32896">
+FieldPoint:  Power-up clear expected. The FieldPoint bank has power cycled since the last communication was sent. The command was ignored.
+</nierror>
+<nierror code="32897">
+FieldPoint:  Undefined or invalid command. The command character was not a legal command character, or the addressed module does not support this command. The command was ignored.
+</nierror>
+<nierror code="32898">
+FieldPoint:  The checksum does not match the sum of command characters. The checksum in the command does not match the calculated checksum of the characters in the command. The command was ignored.
+</nierror>
+<nierror code="32899">
+FieldPoint:  Input buffer overrun. The received command was too long. The command was ignored.
+</nierror>
+<nierror code="32900">
+FieldPoint:  An unprintable ASCII character was received by the module. Only characters from ASCII value 33 to 127 are permitted within commands. The command was ignored.
+</nierror>
+<nierror code="32901">
+FieldPoint:  Not enough characters received. The module received an insufficient or incorrect number of characters for the specified command.
+</nierror>
+<nierror code="32902">
+FieldPoint:  Communications link network watchdog timed out. The command was ignored.
+</nierror>
+<nierror code="32903">
+FieldPoint:  The specified limits are invalid for the command. This includes notification that an invalid digit (hex or decimal) was received.
+</nierror>
+<nierror code="33024">
+FieldPoint:  One or more characters sent in the command could not be correctly converted to a digit (hex or decimal).
+</nierror>
+<nierror code="33025">
+FieldPoint:  The command is valid but is not supported by the addressed module.
+</nierror>
+<nierror code="33026">
+FieldPoint:  The FieldPoint network module detected a serial framing error in the command. The command was ignored.
+</nierror>
+<nierror code="33027">
+FieldPoint:  The module or item addressed does not exist.
+</nierror>
+<nierror code="33028">
+FieldPoint:  One or more channels specified in the command either do not exist or do not support the operation specified. The command was ignored.
+</nierror>
+<nierror code="33029">
+FieldPoint:  One or more ranges specified in the command either do not exist or do not support the setting specified. The command was ignored.
+</nierror>
+<nierror code="33030">
+FieldPoint:  One or more attributes specified either do not exist or do not support the setting specified.  The command was ignored.
+</nierror>
+<nierror code="33032">
+FieldPoint:  The module has been hotswapped since it was last sent a command. This response is sent only if the network module is enabled to report hotswaps, and if the hotswap occurred after hotswap reporting mode was enabled. The command was ignored. This error number can be sent in response to a standard command if you have enabled hotswap reporting for the bank.
+</nierror>
+<nierror code="33033">
+FieldPoint:  The module addressed by the "Resend Last Response" is not the same module that was addressed by the previous command.
+</nierror>
+<nierror code="33034">
+FieldPoint:  The response to the last command is unavailable.
+</nierror>
+<nierror code="33035">
+FieldPoint:  Hardware error on instrument. An irrecoverable fault has occurred.
+</nierror>
+<nierror code="33036">
+FieldPoint:  Unknown error. An unidentifiable error condition has occurred.
+</nierror>
+<nierror code="33153">
+FieldPoint:  Error identifying module. Possible causes: (1) The module information is not available on your system, or (2) the module is returning an invalid module ID.  For (1),  the module may be newly released and it must be online for the software to configure it the first time,  OR  you may have accidentally deleted the module information file(s) and/or corrupted your registry.  Rerun the FieldPoint installer to repair your FieldPoint installation.  For (2), module may not be correctly plugged in or the EEPROM on the module may be corrupted.
+</nierror>
+<nierror code="33154">
+FieldPoint:  The module addressed is not of the selected type.
+</nierror>
+<nierror code="33156">
+FieldPoint:  The device is offline. Make sure the device is connected and its power is on.
+</nierror>
+<nierror code="33157">
+FieldPoint:  The I/O module at this address has been hotswapped by a module of an incompatible type. Replace with a module of the original type for proper operation.
+</nierror>
+<nierror code="33158">
+FieldPoint:  The I/O module at this address has been hotswapped by a different module of compatible type. No action necessary.
+</nierror>
+<nierror code="33161">
+FieldPoint:  The write operation failed to change the value on the FieldPoint bank. The connection may be broken. 
+</nierror>
+<nierror code="33162">
+FieldPoint:  Unable to connect to the data item on the module. Possible causes: (1) A connection is broken, or (2) the network module is not powered on.
+</nierror>
+<nierror code="33163">
+FieldPoint:  The connection to the module has been broken. Check cabling, power, etc.
+</nierror>
+<nierror code="33183">
+FieldPoint:  The desired configuration value was out of range. It has been coerced to the nearest valid number.
+</nierror>
+<nierror code="33185">
+FieldPoint:  Invalid channel attribute. The specified attribute is not supported by the addressed channel(s).
+</nierror>
+<nierror code="33186">
+FieldPoint:  Invalid attribute value. The specified attribute(s) does not support the desired attribute setting. Check the operating instructions to make sure this setting is valid for the I/O module you are using.
+</nierror>
+<nierror code="33191">
+FieldPoint:  The desired range is not supported by this I/O module. Refer to the I/O module documentation for a list of supported ranges and corresponding range IDs.
+</nierror>
+<nierror code="33436">
+FieldPoint:  Bad channel status reported by module. The module is in one of the following states: Unconfigured, Bad Status "A", Bad Status "B".
+</nierror>
+<nierror code="33437">
+FieldPoint:  The specified serial network module was sent a Power-Up Clear command.
+</nierror>
+<nierror code="33438">
+FieldPoint:  Bad channel status "A" reported for all contained channels. A channel-specific error has occurred. Check module documentation for more details.
+</nierror>
+<nierror code="33439">
+FieldPoint:  Bad channel status "B" reported for all contained channels. A channel-specific error has occurred. Check module documentation for more details.
+</nierror>
+<nierror code="33440">
+FieldPoint:  Bad channel status "Unconfigured" reported for all contained channels. All channels are in the "unconfigured" state. This error can occur if the network module is unable to configure the module because of a hardware failure.
+</nierror>
+<nierror code="33441">
+FieldPoint:  None of the contained channels exists.
+</nierror>
+<nierror code="33442">
+FieldPoint:  An unknown warning was returned by the optomux-based serial hardware. Possible cause: recoverable fault.
+</nierror>
+<nierror code="33443">
+FieldPoint:  Bad channel status reported by several channels. At least one channel is in one of the following states: Unconfigured, Bad Status "A", Bad Status "B"
+</nierror>
+<nierror code="33445">
+FieldPoint:  Bad channel status "B" reported for several contained channels. A channel-specific error has occurred. Check module documentation for more details.
+</nierror>
+<nierror code="33446">
+FieldPoint:  Bad channel status "Unconfigured" reported for several contained channels. Some channels are in "unconfigured" state. This error can occur if the network module is unable to configure a module because of a hardware failure.
+</nierror>
+<nierror code="33447">
+FieldPoint:  Several contained channels do not exist.
+</nierror>
+<nierror code="33448">
+FieldPoint:  Bad channel status reported for all contained channels. All channels are in one of the following states: Unconfigured, Bad Status "A", Bad Status "B".
+</nierror>
+<nierror code="33449">
+FieldPoint:  Application specific error.
+</nierror>
+<nierror code="33487">
+FieldPoint:  Out of range. The input signal you are measuring has gone out of the specified measurement range. Check the signal and, if necessary, change the range the channel is using.
+</nierror>
+<nierror code="33488">
+FieldPoint:  Open current loop. Check wire connections for possible breakage or disconnection.
+</nierror>
+<nierror code="33489">
+FieldPoint:  Open thermocouple. The thermocouple module did not detect a thermocouple connection on the channel. Check connections for possible breakage or disconnection.
+</nierror>
+<nierror code="33490">
+FieldPoint:  Open RTD detected. The RTD module did not detected an RTD on the channel. Check connections for possible breakage or disconnection.
+</nierror>
+<nierror code="33491">
+FieldPoint:  Count overflowed since last read. The counter module has reached its maximum count value. No action required.
+</nierror>
+<nierror code="33492">
+FieldPoint:  The channel is sourcing the maximum current allowed. The device attached to the channel is drawing the maximum current from the channel. Check for possible shorts or external device failure.
+</nierror>
+<nierror code="33493">
+FieldPoint:  The channel is in overcurrent protection mode. The device attached to the channel is passing more current than is allowed through the channel. Check for possible shorts or external device failure.
+</nierror>
+<nierror code="33494">
+FieldPoint:  Empty base or slot. The specified module cannot be detected by the network module or the FP-TB-10 base. Make sure the module is firmly fitted into the base and that the POWER and READY LEDs are lit.
+</nierror>
+<nierror code="33495">
+FieldPoint:  Bad data from channel. The data is corrupted and cannot be displayed correctly.
+</nierror>
+<nierror code="33496">
+FieldPoint:  The channel exceeded the specified terminal count.
+</nierror>
+<nierror code="33587">
+FieldPoint:  Some channels out of range. More than one of the input signals that you are measuring has gone out of the specified measurement range. Check the signals and, if necessary, change the range the module is using.
+</nierror>
+<nierror code="33588">
+FieldPoint:  Open current loop on some channels. One or more channels of the module has detected an open current loop. Check wire connections for possible breakage or disconnection.
+</nierror>
+<nierror code="33589">
+FieldPoint:  Open thermocouple on some channels. More than one channel on the thermocouple module has failed to detect a thermocouple connection. Check connections for possible breakage or disconnection.
+</nierror>
+<nierror code="33590">
+FieldPoint:  Open RTD on some channels. More than one channel on the RTD module has failed to detect an RTD. Check connections for possible breakage or disconnection.
+</nierror>
+<nierror code="33591">
+FieldPoint:  Count overflowed since last read for some channels. Some channels on the counter module have reached their maximum count value. No action required.
+</nierror>
+<nierror code="33592">
+FieldPoint:  More than one channel is sourcing the maximum current allowed. The device attached to the channel is drawing the maximum current from the channel. Check for possible shorts or external device failure.
+</nierror>
+<nierror code="33593">
+FieldPoint:  Some channels are in overcurrent protection mode. The device attached to the channel is passing more current than is allowed through the channel. Check for possible shorts or external device failure.
+</nierror>
+<nierror code="33594">
+FieldPoint:  Empty base or slot. The specified module cannot be detected by the network module or the FP-TB-10 base. Make sure the module is firmly fitted into the base and that the POWER and READY LEDs are lit.
+</nierror>
+<nierror code="33595">
+FieldPoint:  Bad data from channel(s). The data is corrupted and cannot be displayed correctly.
+</nierror>
+<nierror code="33800">
+FieldPoint:  Unknown communication error/warning.
+</nierror>
+<nierror code="33813">
+FieldPoint:  The timeout parameter is ignored for current communication settings. The serial port is already in use by a different FieldPoint communication resource with different timeout settings. No action is needed. The timeout for this resource will be saved in the configuration file.
+</nierror>
+<nierror code="33818">
+FieldPoint:  The desired IP address is already in use by a different FieldPoint comm resource.
+</nierror>
+<nierror code="34100">
+FieldPoint:  Unknown application error/warning.
+</nierror>
+<nierror code="34200">
+FieldPoint:  An unknown internal condition has occured. Possible cause: unrecoverable operating system error.
+</nierror>
+<nierror code="34206">
+FieldPoint:  An invalid status code was specified. The status code received does not match the predefined list of error codes returned by the FieldPoint software.
+</nierror>
+<nierror code="34208">
+FieldPoint:  Failed to read Windows registry.  Possible causes:  The required key does not exist or the user does not have read access to the registry.
+</nierror>
+<nierror code="34212">
+FieldPoint:  Error closing Windows registry. Possible cause: The key does not exist or has not been opened.
+</nierror>
+<nierror code="34213">
+FieldPoint:  Error accessing module information. The corresponding file either cannot be found or cannot be opened.
+</nierror>
+<nierror code="34218">
+FieldPoint:  Error closing a file. Possible cause: The file was not opened successfully or it has already been closed.
+</nierror>
+<nierror code="34220">
+FieldPoint:  The current configuration file is read-only. You can view and use the file but cannot save any changes to it.
+</nierror>
+<nierror code="34236">
+FieldPoint:  The referenced or returned item is the last to be obtained from this container (array, list, etc.).
+</nierror>
+<nierror code="34238">
+FieldPoint:  Incomplete object state. Some of the information in a configuration file is not in the proper format. The necessary data to create a comm resource, device, or item either was not present or could not be interpreted. The file configuration may be corrupt.
+</nierror>
+<nierror code="34242">
+FieldPoint:  There is no primary alias for the supplied configuration file path. A new alias may become the primary alias for the path.
+</nierror>
+</nidocument>

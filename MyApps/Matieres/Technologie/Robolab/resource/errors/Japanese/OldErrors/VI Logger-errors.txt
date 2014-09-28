@@ -1,0 +1,312 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="4501">
+VI Logger:  VI Loggerﾀｽｸは既に実行されています。このﾀｽｸを以前に実行した時にｸﾗｯｼｭした場合、ﾀｽｸをﾘｾｯﾄしてすべてのﾚｼﾞｽﾀを消去してください。
+</nierror>
+<nierror code="4502">
+VI Logger:  このVI Loggerﾀｽｸは存在しません。
+</nierror>
+<nierror code="4503">
+VI Logger:  有効な開始状態を待機する間、ﾀｽｸはﾕｰｻﾞによって中止されました。
+</nierror>
+<nierror code="4504">
+VI Logger:  VI Logger ｴﾝｼﾞﾝは要求された速度ではﾃﾞｰﾀをﾛｸﾞできません。CPU時間を開放するには、以下のことができます。-1: ﾛｸﾞしている間はﾃﾞｰﾀを表示しない。 -2: DataSocketのﾊﾟﾌﾞﾘｯｼｭをｵﾌにする。-3: Measurement & Automation ｴｸｽﾌﾟﾛｰﾗの上級設定のﾊﾞｯﾌｧｻｲｽﾞと読み取るﾎﾟｲﾝﾄ数を増やす。-4: ｲﾍﾞﾝﾄ検出やｲﾍﾞﾝﾄ動作を停止する。-5: ﾛｸﾞの速度を遅くする。-6: LabVIEWからﾃﾞｰﾀをﾛｸﾞし、ﾃﾞｰﾀを表示したり読み取ったりしない。
+</nierror>
+<nierror code="4505">
+VI Logger:  VI LoggerはWindowsﾚｼﾞｽﾄﾘからﾃﾞﾌｫﾙﾄﾊﾟﾗﾒｰﾀを読むことができませんでした。
+</nierror>
+<nierror code="4506">
+VI Logger:  VI Logger Engineがシャットダウンしています。タスクまたはアナログトリガタイムアウトで特定の停止時間が設定されていた可能性があります。
+</nierror>
+<nierror code="4507">
+VI Logger:  上位ﾚﾍﾞﾙVIがｴﾝｼﾞﾝにﾛｸﾞされているﾃﾞｰﾀのﾚｰﾄを維持することができません。VI Logger Set Output VI中のGet All Dataｵﾌﾟｼｮﾝをｵﾌにしてください。
+</nierror>
+<nierror code="4508">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4508">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4509">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4509">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4510">
+VI Logger:  VI Loggerはﾃﾞｰﾀﾍﾞｰｽへのﾊﾟｽを見つけることができませんでした。Measurement & Automationｴｸｽﾌﾟﾛｰﾗの履歴ﾃﾞｰﾀｶﾃｺﾞﾘにﾃﾞﾌｫﾙﾄのCitadel HS ﾃﾞｰﾀﾍﾞｰｽが作成されているかどうかを確認してください。
+</nierror>
+<nierror code="4511">
+VI Logger:  データをログするのに、十分なディスクスペースがありません。
+</nierror>
+<nierror code="4512">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4513">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4514">
+VI Logger:  トリガは発生しませんでした。ユーザによりキャンセルされました。
+</nierror>
+<nierror code="4515">
+VI Logger:  イベントログファイルへ書き込むことはできません。
+</nierror>
+<nierror code="4516">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4517">
+VI Logger:  アナログトリガタイムアウトです。
+</nierror>
+<nierror code="4518">
+VI Logger:  現在のバッファでは、アナログプリトリガ条件を満たしません。集録レートを増加するか、「読み取るスキャン数」を手動で増加するか、プリトリガスキャン数を減少してください。
+</nierror>
+<nierror code="4519">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4520">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4521">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4522">
+VI Logger:  Citadelデータベースへの書き込みアクセスが拒否されました。
+</nierror>
+<nierror code="4523">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4524">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4525">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4526">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4527">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4528">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4529">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4530">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4531">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4532">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4533">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4534">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4535">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4536">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4537">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4538">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4539">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4540">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4541">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4542">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4543">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4544">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4545">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4546">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4547">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4548">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4549">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4550">
+VI Logger:  Start Time (開始時間)がStop Time (停止時間）よりも大きいです。
+</nierror>
+<nierror code="4551">
+VI Logger:  誤った時間ｴﾝﾄﾘ｡
+</nierror>
+<nierror code="4552">
+VI Logger:  誤った時間ｴﾝﾄﾘ｡ Stop Time(停止時間）は範囲外です。
+</nierror>
+<nierror code="4553">
+VI Logger:  ﾁｬﾈﾙ名が無効か、あるいは複製されたﾁｬﾈﾙが要求されたかもしれません。
+</nierror>
+<nierror code="4554">
+VI Logger:  Number of scans input(ｽｷｬﾝ数）に0以上の値を入力する必要があります。
+</nierror>
+<nierror code="4555">
+VI Logger:  Start scan input(ｽｷｬﾝ入力開始)に0以上の値を入力する必要があります。
+</nierror>
+<nierror code="4556">
+VI Logger:  一度にすべてのﾃﾞｰﾀを見るだけの利用可能なﾒﾓﾘがありません。ﾃﾞｰﾀの量を減らすか、その他のｱﾌﾟﾘｹｰｼｮﾝを閉じてください。
+</nierror>
+<nierror code="4557">
+VI Logger:  実行名が無効です
+</nierror>
+<nierror code="4558">
+VI Logger:  Start Scanは、範囲外です。
+</nierror>
+<nierror code="4559">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4560">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4561">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4562">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4563">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4564">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4565">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4566">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4567">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4568">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4569">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4570">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4571">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4572">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4573">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4574">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4575">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4576">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4577">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4578">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4579">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4580">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4581">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4582">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4583">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4584">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4585">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4586">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4587">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4588">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4589">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4590">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4591">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4592">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4593">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4594">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4595">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4596">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4597">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4598">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4599">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+<nierror code="4600">
+VI Logger:  このｴﾗｰｺｰﾄﾞは予約されています
+</nierror>
+</nidocument>

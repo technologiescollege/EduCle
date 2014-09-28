@@ -1,0 +1,529 @@
+_______Too many tasks______!!2
+OK
+Cancel
+PROGRAMMING ERROR:  You cannot have more than 10 tasks (you have %d).  The first 10 will be downloaded - and will work.  The rest will be ignored.
+_______rotation init______!!2
+OK
+Cancel
+PROGRAMMING ERROR:  You need to initialize the rotation sensor on port %d before you have the rotation sensor fork or while loop.
+_______Sensor alloc______!!4
+OK
+Cancel
+PROGRAMMING ERROR:  Your program has two different sensors allocated for sensor port %d.  
+
+The sensor port is configured as both %s.  
+
+Check all the places you use a sensor.  Watch out for default settings on some of the sensors.
+_______Download Firmware______!!1
+Download
+Skip It
+This will download the firmware and 5 built-in programs to the RCX. 
+
+Downloading will take approximately 4 minutes.  Make sure your RCX is on and near the IR Transmitter.
+_______retry rcx______!!1
+Try Again
+Skip It
+Any changes you might have made were not communicated to the RCX - do you want to try again?
+_______See movie______!!0
+OK
+Cancel
+To  see the video again, please:
+
+1.  Quit ROBOLAB
+
+2.  Insert the ROBOLAB CD 
+
+3.  Double-click on the shortcut or alias to the video that was created when you first installed ROBOLAB.
+_______Save Program______!!1
+Save
+Don't Save
+Do you want to save changes?
+_______Timer Fork init______!!2
+OK
+Cancel
+PROGRAMMING ERROR: You must initialize Timer %d before you have the timer fork.
+_______Overwrite file?______!!1
+Replace
+Cancel
+This file already exists - do you want to replace it?
+_______Pilot 3 file______!!0
+OK
+Cancel
+This is a Pilot-3 file... 
+Close Pilot-4 and open Pilot-3, then load your file.
+_______Not Pilot file______!!0
+OK
+Cancel
+This is not a valid Pilot file.
+_______Pilot 4 file______!!0
+OK
+Cancel
+This is a Pilot-4 file... 
+Close Pilot-3 and open Pilot-4, then load your file.
+_______Theme exists______!!0
+OK
+Cancel
+Theme already exists - try another.
+_______Not Existing theme______!!0
+OK
+Cancel
+This theme does not exist - try again.
+_______Locked theme______!!0
+OK
+Cancel
+You cannot erase this theme.
+_______Bad File - Main Menu______!!0
+OK
+Cancel
+No file selected (or non-existent)
+_______Delete? - MM______!!6
+Delete
+Cancel
+Do you really want to delete %s?
+_______Locked File - MM______!!0
+OK
+Cancel
+Sorry, this is a locked folder - you cannot delete files in this folder.
+_______No Jump______!!3
+OK
+Cancel
+PROGRAMMING ERROR: You have a %s Land without a Jump.  Make sure the Jump is in the same Task.
+_______No Land______!!3
+OK
+Cancel
+PROGRAMMING ERROR: You have a %s Jump without a Land.  Make sure the Land (or loop) is in the same Task.
+_______One Land/jump______!!0
+OK
+Cancel
+PROGRAMMING ERROR:  You can only have one Land per Jump.
+_______bad theme name______!!3
+OK
+Cancel
+Your theme name, %s, is illegal
+_______bad if/then______!!0
+OK
+Cancel
+PROGRAMMING ERROR:  Both wires from a Fork must come together at the same Merge.  Check all of your fork structures.  Make sure that both strings leaving one fork go to the same merge.
+_______bad for/next______!!0
+OK
+Cancel
+PROGRAMMING ERROR:  Every Start Loop must have an End Loop.
+_______Merge tasks______!!0
+OK
+Cancel
+PROGRAMMING ERROR: You cannot merge two different Tasks.  Each Task should have its own End (Stop Light).  See the programs in the Examples Folder for demonstrations.
+_______Cant move vault______!!0
+OK
+Cancel
+There was an error in trying to move the Program Vault - does a Program Vault already exist at that location?
+_______Missing Indicator______!!0
+OK
+Cancel
+PROGRAMMING ERROR: For some reason you have already downloaded that task.  You have more Stop signs than Task Splits (and Begin light).
+_______Timer Wait Init______!!2
+OK
+Cancel
+PROGRAMMING ERROR: You must initialize Timer %d before you wait for the timer.
+_______Direct Only______!!3
+OK
+Cancel
+DIRECT MODE ERROR: You must be in direct mode to run "%s".
+_______Remote Only______!!3
+OK
+Cancel
+PROGRAMMING ERROR: You can only use "%s" in remote mode.
+_______Success______!!0
+OK
+Cancel
+Communication Successful
+_______Delete Pilot Step?______!!1
+Delete
+Cancel
+Do you really want to delete this step?
+_______New Vault?______!!1
+OK
+Cancel
+Do you want to select this as the default Program Vault?
+_______Bad Beep Input______!!0
+OK
+Cancel
+The Play Sound command only works with numerical inputs from 1 to 6. (for instance, you cannot use the mail modifier)
+_______Subroutine Exists______!!0
+OK
+Cancel
+Sorry - this subroutine name is already taken.
+_______Beethoven______!!1
+Yes
+No
+You found the secret song - do you want to download?
+_______In text mode______!!0
+OK
+Cancel
+You are in text mode - switch to one of the communications ports.
+_______bad vaults______!!6
+Yes
+No
+The Vault [%s] does not exist - do you want to revert to the default one in your ROBOLAB folder?
+_______No Template______!!3
+OK
+NA
+%s
+_______Delete pg?______!!1
+OK
+Cancel
+Are you sure you want to delete this page?
+_______Ex- Bad source______!!3
+OK
+NA
+You are using an incorrect source for logging.   Check your blue modifier on %s.
+_______Ex-Bad pad______!!3
+OK
+NA
+You have already initialized the %s data set.  Remember that unwired data set icons will default to the red data set.
+_______Undefined Pad______!!3
+OK
+NA
+The %s data set has not yet been defined.
+_______Error Saving______!!3
+OK
+NA
+Error in saving the project [%s]
+_______Sets Uploaded______!!2
+OK
+NA
+Successfully loaded %d data sets
+_______Templates Loaded______!!4
+OK
+NA
+Loaded %d new template(s) [%s]
+_______Cant play snd______!!0
+OK
+NA
+PROGRAMMING ERROR: You can only wire a number into the Play Sound vi.
+_______Cant view______!!0
+OK
+NA
+PROGRAMMING ERROR: You can only wire a number into the View RCX vi.
+_______Updated Default.prf______!!0
+OK
+NA
+Updated Default.prf file
+_______Web page?______!!1
+Create
+Cancel
+This creates a folder of web pages out of your project and puts it in your HTML folder in the ROBOLAB directory.  This takes a while.
+_______Project Exists______!!0
+OK
+NA
+Sorry that project already exists.  Please choose another name.
+_______Curve Fit Error______!!2
+OK
+NA
+PROGRAMMING ERROR: There was an error in calculating the curve fit for line %d.  Check that you have a sufficient number of points in the curve fit and that there are no points at the origin (0,0) for the exponential fit.
+_______Bad file______!!0
+OK
+NA
+This is not a JPEG file.  If you are using a PC, please make sure it has the .jpg extension.  Mac users should make sure the image was saved as a JPEG.
+_______Locked Prj______!!0
+OK
+NA
+This is a locked project, you will not be able to save any changes - although you can use the Save As.. option from the File Menu to save it under a new name.
+_______Mark pg______!!1
+OK
+No
+Do you want to mark this page as the top page of your project?  This means it will be the one that comes up first when you open up the project.
+_______Bad Bin______!!0
+OK
+NA
+PROGRAMMING ERROR: You cannot put plots into the this bin.
+_______Extras______!!0
+OK
+NA
+Error in installing extras.  Not all files are in their proper location. Re-install ROBOLAB or move files using the operating system.  (Move Piano Player and Interrogate RCX from the Extras:Files folder to the Projects folder.  Replace the Inventor 4 folder in the Menus folder with the one in Extras:Files.)
+_______Sampling too fast______!!4
+OK
+NA
+SAMPLING ERROR: The RCX could not maintain your sampling rate.  Instead it took a data point approximately every %.4f sec for the data on your %s Data Set - you need to sample more slowly.  Further help can be found at the website: http://www.lego.com/dacta/robolab/.
+_______Exported______!!0
+OK
+NA
+Your Templates have been successfully added to your project.  Now if you give someone else your project file, they will have your template files as well.
+_______Export Error______!!0
+OK
+NA
+There was an error in adding the Templates to your project. Check that you have enough disk space.
+_______Prj Open err______!!3
+OK
+NA
+This was a problem with opening project %s.  The file could be corrupt.
+_______Container Error______!!2
+OK
+NA
+PROGRAMMING ERROR: Container %d does not exist.  You can only use numbers from 0 to 20.
+_______Averaging error______!!0
+OK
+NA
+PROGRAMMING ERROR: Your plots have different X Axes.  Lines will be averaged point by point.
+_______Locked Prj 2______!!0
+OK
+NA
+FILE OPEN ERROR: Cannot generate a new Level 4/5 program.  This results from either the project is locked or there is not enough disk space.  Use the Save As... option in the File Menu to save this project as something new.
+_______Cant move themes______!!0
+OK
+NA
+There was an error in trying to move the Investigator Themes - does an Investigator Themes folder already exist at that location?
+_______New Themes?______!!1
+OK
+Cancel
+Do you want to select this as the default Investigator Themes Folder?
+_______bad data set______!!3
+OK
+NA
+You need to have a start data logging for the %s data set.
+_______wrapped______!!1
+Fix
+Don't Fix
+TIMER OVERFLOW ERROR: The acquisition time exceeded 3,726.7 sec.  This causes the RCX timer to start counting again at zero.  Would you like to fix the data? (Note: this is only an issue when using free sampling with time stamp).
+_______No end log______!!0
+OK
+NA
+WARNING:  You have a begin log and no end log, therefore nothing will stop the logging process.
+_______Reset Bins______!!1
+Reset
+Don't Reset
+Do you want to reset all bin titles and associated sensor types?
+_______Resume error______!!0
+OK
+NA
+ERROR: You are resuming logging data before the datalog has been started.
+_______Logging type?______!!0
+OK
+NA
+ERROR: You have started logging without defining a sensor type. You must first initialize the sensor.
+_______No stop log?______!!0
+OK
+NA
+ERROR: You are resuming logging data for a data set that has not been stopped.
+_______No start log______!!0
+OK
+NA
+WARNING:  You are missing a start log command.
+_______Only Number (music)______!!0
+OK
+NA
+ERROR: You can only wire in a number for the sound duration.
+_______Only Number (clock)______!!0
+OK
+NA
+ERROR: You can only wire in a number for the clock time.
+_______Number Only (Run RCX)______!!0
+OK
+NA
+PROGRAMMING ERROR: You can only wire a number into Run Program On RCX.
+_______Number Only (powerdown
+)______!!0
+OK
+NA
+PROGRAMMING ERROR: You can only wire a number into Set RCX Powerdown time.
+_______Rand # not allowed______!!0
+OK
+NA
+The program Read Value cannot read a random number.
+_______Max Loops error______!!0
+OK
+NA
+PROGRAMMING ERROR: You cannot loop more than 15 times.
+_______Internet init error______!!0
+OK
+NA
+ERROR: ROBOLAB cannot seem to talk to the remote server.  Make sure you have the right internet address and that the remote server is running properly (use the test button to test the communication).
+_______No Sensors Folder______!!3
+OK
+NA
+ERROR: I cannot find any sensor definition files at %s.  Please re-install ROBOLAB.
+_______Bad Event Source______!!0
+Ok
+NA
+ERROR: Bad Event Source.  You can only define events from the three inputs, the four timers, the mail, or the first three containers.
+_______Bad LASM Cmd______!!3
+Ok
+NA
+PROGRAMMING ERROR: Bad LASM Command.  The Command "%s" does not exist.
+_______Not an RCX Cmd______!!3
+Ok
+NA
+PROGRAMMING ERROR:  "%s" is not a valid RCX Command.
+_______Not a Scout Cmd______!!3
+Ok
+NA
+PROGRAMMING ERROR:  "%s" is not a valid Scout Command.
+_______Not a CLI Command______!!3
+Ok
+NA
+PROGRAMMING ERROR:  "%s" is not a valid CLI Command.
+_______Bad Scout Sensor______!!0
+Ok
+NA
+PROGRAMMING ERROR: The Scout can only use a touch sensor.
+_______Replace Firmware______!!6
+Download
+Skip it
+Your RCX currently has old firmware (%s).  This will download the latest firmware and 5 built-in programs to the RCX. 
+
+Downloading will take approximately 4 minutes.  Make sure your RCX is on and near the IR Transmitter.
+_______Replace Scroll?______!!6
+Ok
+Cancel
+WARNING: This will replace the current song on the %s scroll.  Is this what you want to do?
+_______Locked Prgm Error______!!1
+Ok
+Cancel
+WARNING: Program slots 1 and 2 are locked - you cannot load a program into these slots.  Do you want to load the program into program slot 3?
+_______Event Type Missing______!!3
+Ok
+NA
+PROGRAMMING ERROR: You must define the event type for the %s event before defining thresholds or beginning event monitoring.
+
+_______CLI-Bad Port______!!0
+Ok
+NA
+PROGRAMMING ERROR: You cannot use text mode or autodetect with the CLI.
+_______CLI-No Communication______!!2
+Ok
+NA
+SERIAL ERROR: The computer cannot talk to the CLI on port %d.  Initialization failed.  Check the port and try again.
+_______DLErr______!!1
+Yes
+No
+Too Little Memory.  Shall I clear the program slot?  You will have to download your program again after clearing.
+_______LogzERR______!!0
+Ok
+NA
+Too Little Data Logging Memory: Either decrease the number of points you are taking or delete all programs.
+_______BadPilotLevel______!!2
+Ok
+NA
+UPLOAD ERROR: The RCX currently seems to have a Pilot %d level program in it (rather than the level you are in).  Try changing to a different pilot level.
+_______ReversePilot______!!1
+Yes
+No
+This button will allow you to reconfigure the Pilot to the program currently resident on your RCX.  Would you like to proceed?
+_______Ends on Fork______!!0
+Ok
+NA
+PROGRAMMING ERROR: All forks must come back together in a merge.  You have a fork splitting and going to separate stop signs (End) - merge them back together.  They should be in the same task.
+_______Range Error______!!0
+Ok
+NA
+PROGRAMMING ERROR:  One of your modifiers is out of range for the vi.
+_______Bad Piano Scroll______!!0
+Ok
+NA
+PIANO ERROR: This is not a piano file.  Please try another.
+_______Out of Range______!!3
+Ok
+NA
+PROGRAMMING ERROR: Your modifier into %s is out of the allowable range.
+_______Start Pad Twice______!!3
+Ok
+NA
+PROGRAMMING ERROR: You are starting to log the %s data pad twice
+_______Invalid Path______!!0
+Ok
+NA
+ERROR: You have entered a path to something other than a ROBOLAB program.
+_______BadStack______!!3
+Ok
+NA
+CreateStack Error: For some reason you cannot create a Ghost Stack [%s]: please call LEGO help or go to http://www.lego.com/dacta.
+_______Reset Scrolls______!!1
+Ok
+No
+Are you sure that you want to reset your scrolls?  This will erase any songs you have currently stored on them.
+_______WebPage Prob______!!3
+Ok
+NA
+ROBOLAB could not open %s.
+Try opening the URL directly from your browser.
+_______Internet Error______!!6
+Try Again
+Abort
+ROBOLAB never heard back from the server at IP address %s. Would you like to try waiting longer?
+_______SubinSub______!!0
+Ok
+NA
+You cannot call a subroutine from within a subroutine.
+_______NoEvent Land______!!0
+Ok
+NA
+You start monitoring for an event but do not define an event land location using Event Landing.
+_______Many Event Lands______!!0
+Ok
+NA
+You can only have one event land in a task.
+_______BMP save error______!!0
+Ok
+NA
+There was an error in saving the image file.  Check your path and try again.
+_______Roboserver Err______!!0
+Ok
+NA
+ROBOLAB could not initiate TCP Access.  Are you sure you are connected up to the internet?
+_______No Parentheses______!!0
+Ok
+NA
+FORMULA NODE ERROR: The formula node does not support parentheses.
+_______Ilegal formula______!!3
+Ok
+NA
+FORMULA NODE ERROR: The formula node cannot interpret the formula:
+ %s
+_______Bad c#______!!4
+Ok
+NA
+FORMULA NODE ERROR: Can only use containers 0-48 (lower 32 are global and upper 16 are task specific) - there is no container number c%d in the formula %s.
+_______Bad t#______!!4
+Ok
+NA
+FORMULA NODE ERROR: There are only 4 timers (1,2,3,4) - there is no timer t%d in the formula %s.
+_______Bad s#______!!4
+Ok
+NA
+FORMULA NODE ERROR: There are only 3 sensors (s1, s2, and s3) - there is no sensor s%d in the formula %s.
+_______Bad r#______!!4
+Ok
+NA
+FORMULA NODE ERROR: You can only have random numbers from 1 to 32,000 - you cannot use r%d in the formula %s.
+_______2 triggers/1 event______!!0
+Ok
+NA
+PROGRAMMING ERROR: You have defined two different ways of triggering the same event.  Each event can only have one trigger (mail, change in lighting, etc).
+_______generic ctr______!!0
+Ok
+NA
+PROGRAMMING ERROR: You can only wire a constant (or Value of a Container) into the Generic Container modifier.  The easiest method is to use "Create a Constant" on the bottom of the modifier.
+_______NoPermission______!!0
+Ok
+NA
+ROBOLAB cannot save the preference file (probably you do not have the necessary permissions).  Everything should work fine - it just means that any settings you choose (such as COM port) will not be there next time you run ROBOLAB.
+_______OS10.1______!!0
+Ok
+NA
+Sorry.  You will need OS10.2 or later to run ROBOLAB.
+_______New Data Folder______!!0
+Ok
+NA
+You do not have a folder for ROBOLAB Data- I am saving one in your Documents folder.  
+
+This folder will contain all of your ROBOLAB programs, songs, and pictures.
+_______IMAQ Error______!!3
+Ok
+NA
+There was an error in processing the image.  The error occured at: %s.  
+_______ErrorInDataCopy______!!0
+Ok
+NA
+ I cannot create the ROBOLAB Data folder in your documents - please :
+1. Quit Robolab
+2. Copy ROBOLAB Data from your ROBOLAB Folder to your Documents folder
+3. restart ROBOLAB 

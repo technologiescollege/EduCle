@@ -1,0 +1,606 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="-2147483638">
+LabVIEW DSC:  (Hex 0x0x8000000A) この操作を完了するのに、必要なデータが利用できません。
+</nierror>
+<nierror code="-2147467263">
+LabVIEW DSC:  (Hex 0x0x80004001) 導入されていません。
+</nierror>
+<nierror code="-2147467262">
+LabVIEW DSC:  (Hex 0x0x80004002) このようなインタフェースはサポートされていません。
+</nierror>
+<nierror code="-2147467261">
+LabVIEW DSC:  (Hex 0x0x80004003) 無効なポインタ
+</nierror>
+<nierror code="-2147467260">
+LabVIEW DSC:  (Hex 0x0x80004004) 操作が中断されました。
+</nierror>
+<nierror code="-2147467259">
+LabVIEW DSC:  (Hex 0x0x80004005) 不特定なエラー
+</nierror>
+<nierror code="-2147418113">
+LabVIEW DSC:  (Hex 0x0x8000FFFF) 突発故障
+</nierror>
+<nierror code="-2147286928">
+LabVIEW DSC:  (Hex 0x0x80030070) ディスクが一杯です。
+</nierror>
+<nierror code="-2147024891">
+LabVIEW DSC:  (Hex 0x0x80070005) アクセスが拒否されました。
+</nierror>
+<nierror code="-2147024890">
+LabVIEW DSC:  (Hex 0x0x80070006) 無効なハンドル
+</nierror>
+<nierror code="-2147024882">
+LabVIEW DSC:  (Hex 0x0x8007000E) メモリが足りません。
+</nierror>
+<nierror code="-2147024809">
+LabVIEW DSC:  (Hex 0x0x80070057) 1つ以上の引き数が無効です。
+</nierror>
+<nierror code="-1967390719">
+LabVIEW DSC:  (Hex 0x0x8ABC0001) パケットが短すぎるか、または長すぎます。
+</nierror>
+<nierror code="-1967390717">
+LabVIEW DSC:  (Hex 0x0x8ABC0003) この特定のコンテキストでは、コマンドは許可されていません。
+</nierror>
+<nierror code="-1967390716">
+LabVIEW DSC:  (Hex 0x0x8ABC0004) 複製の項目がすでに存在します。
+</nierror>
+<nierror code="-1967390715">
+LabVIEW DSC:  (Hex 0x0x8ABC0005) 項目が見つかりませんでした。
+</nierror>
+<nierror code="-1967390714">
+LabVIEW DSC:  (Hex 0x0x8ABC0006) インタフェースのオブジェクトは無効です。
+</nierror>
+<nierror code="-1967390713">
+LabVIEW DSC:  (Hex 0x0x8ABC0007) Target of Modify()に、すでに入力の接続があります。
+</nierror>
+<nierror code="-1967390712">
+LabVIEW DSC:  (Hex 0x0x8ABC0008) ネットワークアドレスへの名前を解決することができませんでした。
+</nierror>
+<nierror code="-1967390711">
+LabVIEW DSC:  (Hex 0x0x8ABC0009) ネットワーク操作タイムアウト。
+</nierror>
+<nierror code="-1967390704">
+LabVIEW DSC:  (Hex 0x0x8ABC0010) Socketはピア（peer）によって、接続が解除されました。
+</nierror>
+<nierror code="-1967390703">
+LabVIEW DSC:  (Hex 0x0x8ABC0011) サービス（Service）は、ポートアドレス（port address）を解決できませんでした。
+</nierror>
+<nierror code="-1967390702">
+LabVIEW DSC:  (Hex 0x0x8ABC0012) ピア（peer）に接続しようとして、Socketがタイムアウトしました。
+</nierror>
+<nierror code="-1967390701">
+LabVIEW DSC:  (Hex 0x0x8ABC0013) Socketの開始(WSAStartup)に失敗しました。
+</nierror>
+<nierror code="-1967390699">
+LabVIEW DSC:  (Hex 0x0x8ABC0015) 指定された時間は無効です。
+</nierror>
+<nierror code="-1967390698">
+LabVIEW DSC:  (Hex 0x0x8ABC0016) SetInfoは、競合により、トレースの名前を変更することはできません。
+</nierror>
+<nierror code="-1967390697">
+LabVIEW DSC:  (Hex 0x0x8ABC0017) FindOptimumが、一致するポイントを見つけませんでした。
+</nierror>
+<nierror code="-1967390696">
+LabVIEW DSC:  (Hex 0x0x8ABC0018) このトレースに、すでにwriter（ライタ）が存在します。
+</nierror>
+<nierror code="-1967390695">
+LabVIEW DSC:  (Hex 0x0x8ABC0019) ネットワークエリアが指定されていません。
+</nierror>
+<nierror code="-1967390694">
+LabVIEW DSC:  (Hex 0x0x8ABC001A) キャッシュオーバーフロー
+</nierror>
+<nierror code="-1967390693">
+LabVIEW DSC:  (Hex 0x0x8ABC001B) このクエリから、これ以上返されるデータポイントありません。
+</nierror>
+<nierror code="-1967390692">
+LabVIEW DSC:  (Hex 0x0x8ABC001C) ネットワークから回収されたデータは、正しくありません。
+</nierror>
+<nierror code="-1967390691">
+LabVIEW DSC:  (Hex 0x0x8ABC001D) トレースにアクセスする前に、LogosTraceStartupを呼び出すのに失敗しました。
+</nierror>
+<nierror code="-1967390690">
+LabVIEW DSC:  (Hex 0x0x8ABC001E) データベースのトレースに、サブスクライブしようとしました。
+</nierror>
+<nierror code="-1967390689">
+LabVIEW DSC:  (Hex 0x0x8ABC001F) 一杯になっているバッファにログしようとしました。
+</nierror>
+<nierror code="-1967390688">
+LabVIEW DSC:  (Hex 0x0x8ABC0020) ユーザが書き込みアクセスできないデータベースに書き込もうとしました。
+</nierror>
+<nierror code="-1967390687">
+LabVIEW DSC:  (Hex 0x0x8ABC0021) URLは、最小限の情報を含むのに、短すぎるかあるいは、ポインタが無効です。
+</nierror>
+<nierror code="-1967390686">
+LabVIEW DSC:  (Hex 0x0x8ABC0022) コンピュータの名前が、URLに存在しません。
+</nierror>
+<nierror code="-1967390685">
+LabVIEW DSC:  (Hex 0x0x8ABC0023) コンピュータの名前が、英字ではない文字で始まっています。
+</nierror>
+<nierror code="-1967390684">
+LabVIEW DSC:  (Hex 0x0x8ABC0024) コンピュータの名前に、無効な文字が含まれています。
+</nierror>
+<nierror code="-1967390683">
+LabVIEW DSC:  (Hex 0x0x8ABC0025) 処理(process) の名前が、URLに存在しません。
+</nierror>
+<nierror code="-1967390682">
+LabVIEW DSC:  (Hex 0x0x8ABC0026) 処理(process) の名前に、無効な文字が含まれています。
+</nierror>
+<nierror code="-1967390681">
+LabVIEW DSC:  (Hex 0x0x8ABC0027) ポイント(point) またはタグ(tag) の名前が、URLに存在しません。
+</nierror>
+<nierror code="-1967390680">
+LabVIEW DSC:  (Hex 0x0x8ABC0028) ポイント(point) またはタグ(tag) の名前に、無効な文字が含まれています。
+</nierror>
+<nierror code="-1967390679">
+LabVIEW DSC:  (Hex 0x0x8ABC0029) URLの形式が適切ではありません: 先頭の'\'文字が不足しています。
+</nierror>
+<nierror code="-1967390672">
+LabVIEW DSC:  (Hex 0x0x8ABC0030) ポイントまたはタグ名に空のコンポーネントがあります。
+</nierror>
+<nierror code="-1967390671">
+LabVIEW DSC:  (Hex 0x0x8ABC0031) 無効なアップデートレート
+</nierror>
+<nierror code="-1967390670">
+LabVIEW DSC:  (Hex 0x0x8ABC0032) 無効なデッドバンド
+</nierror>
+<nierror code="-1967390669">
+LabVIEW DSC:  (Hex 0x0x8ABC0033) 挿入時の割り当てコレクションのキー競合
+</nierror>
+<nierror code="-1967390668">
+LabVIEW DSC:  (Hex 0x0x8ABC0034) スレッドの初期化に失敗しました。
+</nierror>
+<nierror code="-1967390667">
+LabVIEW DSC:  (Hex 0x0x8ABC0035) Process manager server （プロセスマネージャサーバ）はダウンしています。
+</nierror>
+<nierror code="-1967390666">
+LabVIEW DSC:  (Hex 0x0x8ABC0036) RealTimeTQのタイムスタンプの準備はできていません。
+</nierror>
+<nierror code="-1967390655">
+LabVIEW DSC:  (Hex 0x0x8ABC0041) Object environment server （オブジェクト環境サーバ）は、すでにシャットダウンされました。
+</nierror>
+<nierror code="-1967390638">
+LabVIEW DSC:  (Hex 0x0x8ABC0052) 項目が見つかりませんでした。
+</nierror>
+<nierror code="-1967390623">
+LabVIEW DSC:  (Hex 0x0x8ABC0061) 不完全なURLタイプを解決しようとしました。
+</nierror>
+<nierror code="-1967390622">
+LabVIEW DSC:  (Hex 0x0x8ABC0062) 認識されていないURLタイプを解決しようとしました。
+</nierror>
+<nierror code="-1967390621">
+LabVIEW DSC:  (Hex 0x0x8ABC0063) Process server （プロセスサーバ）はすでにシャットダウンしています。
+</nierror>
+<nierror code="-1967390620">
+LabVIEW DSC:  (Hex 0x0x8ABC0064) 要求されたアクセスが拒絶されました。
+</nierror>
+<nierror code="-1967390607">
+LabVIEW DSC:  (Hex 0x0x8ABC0071) アラームの機能が無効なときに、アラームを作動しようとしました。
+</nierror>
+<nierror code="-1967390591">
+LabVIEW DSC:  (Hex 0x0x8ABC0081) ホスト名を解決することができませんでした。
+</nierror>
+<nierror code="-1967390590">
+LabVIEW DSC:  (Hex 0x0x8ABC0082) gethostbyname()から返されたIPアドレスを、解決することができませんでした。
+</nierror>
+<nierror code="-1967390575">
+LabVIEW DSC:  (Hex 0x0x8ABC0091) 認識されていない属性名
+</nierror>
+<nierror code="-1967390574">
+LabVIEW DSC:  (Hex 0x0x8ABC0092) 無効な属性値
+</nierror>
+<nierror code="-1967390573">
+LabVIEW DSC:  (Hex 0x0x8ABC0093) 属性の取得または設定に失敗しました。
+</nierror>
+<nierror code="-1967390558">
+LabVIEW DSC:  (Hex 0x0x8ABC00A2) 無効なユーザアカウント名
+</nierror>
+<nierror code="-1967390557">
+LabVIEW DSC:  (Hex 0x0x8ABC00A3) 無効なパスワード
+</nierror>
+<nierror code="-1967390556">
+LabVIEW DSC:  (Hex 0x0x8ABC00A4) 無効なグループ名
+</nierror>
+<nierror code="-1967390555">
+LabVIEW DSC:  (Hex 0x0x8ABC00A5) セキュリティドメインが見つかりませんでした。
+</nierror>
+<nierror code="-1967390554">
+LabVIEW DSC:  (Hex 0x0x8ABC00A6) ユーザアカウントが見つかりませんでした。
+</nierror>
+<nierror code="-1967390553">
+LabVIEW DSC:  (Hex 0x0x8ABC00A7) ユーザグループが見つかりませんでした。
+</nierror>
+<nierror code="-1967390552">
+LabVIEW DSC:  (Hex 0x0x8ABC00A8) ドメインが見つかりませんでした。
+</nierror>
+<nierror code="-1967390551">
+LabVIEW DSC:  (Hex 0x0x8ABC00A9) ディスクスペースが足りません。
+</nierror>
+<nierror code="-1967390550">
+LabVIEW DSC:  (Hex 0x0x8ABC00AA) セキュリティエラーの読み取りエラー。
+</nierror>
+<nierror code="-1967390549">
+LabVIEW DSC:  (Hex 0x0x8ABC00AB) セキュリティエラーの書き込みエラー。
+</nierror>
+<nierror code="-1967390548">
+LabVIEW DSC:  (Hex 0x0x8ABC00AC) 無効なセキュリティコード
+</nierror>
+<nierror code="-1967390547">
+LabVIEW DSC:  (Hex 0x0x8ABC00AD) 重複しているユーザアカウント名
+</nierror>
+<nierror code="-1967390546">
+LabVIEW DSC:  (Hex 0x0x8ABC00AE) 重複しているグループ名
+</nierror>
+<nierror code="-1967390545">
+LabVIEW DSC:  (Hex 0x0x8ABC00AF) セキュリティデータファイルが見つかりませんでした。
+</nierror>
+<nierror code="-1967390544">
+LabVIEW DSC:  (Hex 0x0x8ABC00B0) ビルトインユーザアカウントを削除できません。
+</nierror>
+<nierror code="-1967390543">
+LabVIEW DSC:  (Hex 0x0x8ABC00B1) ビルトイングループを削除できません。
+</nierror>
+<nierror code="-1967390542">
+LabVIEW DSC:  (Hex 0x0x8ABC00B3) ユーザのアカウントは無効です。
+</nierror>
+<nierror code="-1967390541">
+LabVIEW DSC:  (Hex 0x0x8ABC00B3) パスワードの有効期限が切れました。
+</nierror>
+<nierror code="-1967390540">
+LabVIEW DSC:  (Hex 0x0x8ABC00B4) 新しいパスワードが古いパスワードと一致しません。
+</nierror>
+<nierror code="-1967390464">
+LabVIEW DSC:  (Hex 0x0x8ABC0100) URLは2つ以上のスラッシュ（/）で、始まりません。
+</nierror>
+<nierror code="-1967390463">
+LabVIEW DSC:  (Hex 0x0x8ABC0101) URLは2つ以上のスラッシュ（/）で、始まります。
+</nierror>
+<nierror code="-1967390462">
+LabVIEW DSC:  (Hex 0x0x8ABC0102) URLは2つの連続したデリメタを含んでいます。
+</nierror>
+<nierror code="-1967390461">
+LabVIEW DSC:  (Hex 0x0x8ABC0103) URLは無効なマシン名を含んでいます。
+</nierror>
+<nierror code="-1967390460">
+LabVIEW DSC:  (Hex 0x0x8ABC0104) 引用符がURLでバランスがとれていません。
+</nierror>
+<nierror code="-1967390432">
+LabVIEW DSC:  (Hex 0x0x8ABC0120) 非同期のテキストクエリはサポートされていません。
+</nierror>
+<nierror code="-1967390368">
+LabVIEW DSC:  (Hex 0x0x8ABC0160) データベースを開くことができません。
+</nierror>
+<nierror code="-1967390367">
+LabVIEW DSC:  (Hex 0x0x8ABC0161) 現在のデータベースと同じアーカイブデータベース。
+</nierror>
+<nierror code="-1967390366">
+LabVIEW DSC:  (Hex 0x0x8ABC0162) 他のアプリケーションから使用しているため、データベースを削除することができませんでした。
+</nierror>
+<nierror code="-1967390365">
+LabVIEW DSC:  (Hex 0x0x8ABC0163) トレースを移動するのに失敗しました。
+</nierror>
+<nierror code="-1967390364">
+LabVIEW DSC:  (Hex 0x0x8ABC0164) データベースからトレースの統計を回収するのに失敗しました。
+</nierror>
+<nierror code="-1967390352">
+LabVIEW DSC:  (Hex 0x0x8ABC0170) データベースパスは無効です。
+</nierror>
+<nierror code="-1967374336">
+LabVIEW DSC:  (Hex 0x0x8ABC4000) セキュリティシステムが初期化されていません。
+</nierror>
+<nierror code="-1967374335">
+LabVIEW DSC:  (Hex 0x0x8ABC4001) 最大の同時セッションカウントが範囲を超えました。
+</nierror>
+<nierror code="-1967374334">
+LabVIEW DSC:  (Hex 0x0x8ABC4002) 無効なユーザトークン。
+</nierror>
+<nierror code="-1967374333">
+LabVIEW DSC:  (Hex 0x0x8ABC4003) 無効なユーザタイプ。
+</nierror>
+<nierror code="-1967353856">
+LabVIEW DSC:  (Hex 0x0x8ABC9000) オカーレンス値が無効です。
+</nierror>
+<nierror code="-1967353855">
+LabVIEW DSC:  (Hex 0x0x8ABC9001) データベース構成は有効ではありません。
+</nierror>
+<nierror code="-1967353854">
+LabVIEW DSC:  (Hex 0x0x8ABC9002) データベースからタグ名を一致できません。
+</nierror>
+<nierror code="-1967353853">
+LabVIEW DSC:  (Hex 0x0x8ABC9003) 無効なデータベースバージョン。
+</nierror>
+<nierror code="-180121626">
+LabVIEW DSC:  (Hex 0x8ABC701A) バッファがアンダーフローです。
+</nierror>
+<nierror code="-7999">
+LabVIEW DSC:  関数は利用不可、または適用されていません。
+</nierror>
+<nierror code="-7998">
+LabVIEW DSC:  ログスレッドのキューを割り当てられませんでした。
+</nierror>
+<nierror code="-7997">
+LabVIEW DSC:  スレッド情報のバッファを割り当てられませんでした。
+</nierror>
+<nierror code="-7995">
+LabVIEW DSC:  空のタグリストでタグ情報を取得しようとしました。
+</nierror>
+<nierror code="-7994">
+LabVIEW DSC:  タグリストへ書き込もうとしましたが、空ではありませんでした。
+</nierror>
+<nierror code="-7993">
+LabVIEW DSC:  空でないリストへ情報を挿入しようとしました。
+</nierror>
+<nierror code="-7992">
+LabVIEW DSC:  ワークスレッドを強制終了しました。
+</nierror>
+<nierror code="-7991">
+LabVIEW DSC:  未定義のワークスレッドを生成しようとしました。
+</nierror>
+<nierror code="-7988">
+LabVIEW DSC:  データイベントハンドルが無効です。
+</nierror>
+<nierror code="-7987">
+LabVIEW DSC:  ロギングスレッドは既に開始されています。
+</nierror>
+<nierror code="-7986">
+LabVIEW DSC:  ロギングスレッドが開始されていません。
+</nierror>
+<nierror code="-7985">
+LabVIEW DSC:  ロギングのためにスレッドが開かれていません。
+</nierror>
+<nierror code="-7979">
+LabVIEW DSC:  先端データ点のタイムスタンプが利用不可能です。
+</nierror>
+<nierror code="-7978">
+LabVIEW DSC:  最終データ点のタイムスタンプが利用不可能です。
+</nierror>
+<nierror code="-7977">
+LabVIEW DSC:  データタイプが利用不可能です。
+</nierror>
+<nierror code="-7976">
+LabVIEW DSC:  Citadelのバージョンを取得できませんでした。
+</nierror>
+<nierror code="-7975">
+LabVIEW DSC:  データベースが開かれていません。
+</nierror>
+<nierror code="-7974">
+LabVIEW DSC:  スレッドデータベースの例外処理。詳細は不明です。
+</nierror>
+<nierror code="-7973">
+LabVIEW DSC:  OTDB構造体が無効です。
+</nierror>
+<nierror code="-7972">
+LabVIEW DSC:  スレッド式データベースファイルのパスを検出または作成できません。
+</nierror>
+<nierror code="-7971">
+LabVIEW DSC:  スレッド式データベースファイルを検出または作成できません。
+</nierror>
+<nierror code="-7970">
+LabVIEW DSC:  スレッド式データベースファイルを読み取れません。
+</nierror>
+<nierror code="-7969">
+LabVIEW DSC:  データベースをフラッシュ（Flush)できません。
+</nierror>
+<nierror code="-7968">
+LabVIEW DSC:  スレッド式データベースハンドルが無効です。
+</nierror>
+<nierror code="-7967">
+LabVIEW DSC:  Citadelのﾊﾞｰｼﾞｮﾝが違います。
+</nierror>
+<nierror code="-7966">
+LabVIEW DSC:  スレッド式データベースへ書き込めません。
+</nierror>
+<nierror code="-7965">
+LabVIEW DSC:  タイムアウト内にTDBMutexを取得できません。
+</nierror>
+<nierror code="-7964">
+LabVIEW DSC:  RPCサーバと通信ができません。
+</nierror>
+<nierror code="-7963">
+LabVIEW DSC:  別のデータベースパスが既に開かれています。
+</nierror>
+<nierror code="-7962">
+LabVIEW DSC:  FlushThreadDatabaseのﾊﾟﾗﾒｰﾀが無効です。
+</nierror>
+<nierror code="-7961">
+LabVIEW DSC:  データベースは既に読み取り/書き込みモードで開かれています。
+</nierror>
+<nierror code="-7960">
+LabVIEW DSC:  データベースを読み取り/書き込みモードで開く必要があります。
+</nierror>
+<nierror code="-7959">
+LabVIEW DSC:  履歴ロギングで<無効なパス>は無効です。
+</nierror>
+<nierror code="-7958">
+LabVIEW DSC:  履歴ロギングでは相対パスは無効です。
+</nierror>
+<nierror code="-7957">
+LabVIEW DSC:  履歴ロギングでは空のパスは無効です。
+</nierror>
+<nierror code="-7956">
+LabVIEW DSC:  指定された履歴データベースのディレクトリはファイルです。
+</nierror>
+<nierror code="-7955">
+LabVIEW DSC:  履歴データベースのディレクトリが存在しません。
+</nierror>
+<nierror code="-7954">
+LabVIEW DSC:  Citadelﾃﾞｰﾀﾍﾞｰｽのﾃﾞｰﾀの先端以前を検索しようとしました。
+</nierror>
+<nierror code="-7953">
+LabVIEW DSC:  Citadelﾃﾞｰﾀﾍﾞｰｽのﾃﾞｰﾀの終わり以降を検索しようとしました。
+</nierror>
+<nierror code="-7950">
+LabVIEW DSC:  スレッドの例外エラー；詳細は不明です。
+</nierror>
+<nierror code="-7949">
+LabVIEW DSC:  OTHREAD構造体が無効です。
+</nierror>
+<nierror code="-7948">
+LabVIEW DSC:  データベースハンドルを検出または作成できません。
+</nierror>
+<nierror code="-7947">
+LabVIEW DSC:  データベーススレッドを読み取れません。
+</nierror>
+<nierror code="-7946">
+LabVIEW DSC:  データベーススレッドへ書き込めません。
+</nierror>
+<nierror code="-7945">
+LabVIEW DSC:  ﾃﾞｰﾀﾍﾞｰｽｽﾚｯﾄﾞﾊﾝﾄﾞﾙが無効です。
+</nierror>
+<nierror code="-7944">
+LabVIEW DSC:  データベースのスレッド名が見つかりませんでした。
+</nierror>
+<nierror code="-7943">
+LabVIEW DSC:  データベースエントリのロギングに失敗しました。
+</nierror>
+<nierror code="-7942">
+LabVIEW DSC:  OpenThreadへ、空のスレッド名が送られました。
+</nierror>
+<nierror code="-7941">
+LabVIEW DSC:  未定義のﾃﾞｰﾀﾀｲﾌﾟです。
+</nierror>
+<nierror code="-7940">
+LabVIEW DSC:  列挙体ﾊﾝﾄﾞﾙが無効です。
+</nierror>
+<nierror code="-7935">
+LabVIEW DSC:  スレッドファイルの例外エラー；詳細は不明です。
+</nierror>
+<nierror code="-7934">
+LabVIEW DSC:  スレッドファイルを検出または作成できません。
+</nierror>
+<nierror code="-7933">
+LabVIEW DSC:  スレッドファイルを読み取れません。
+</nierror>
+<nierror code="-7932">
+LabVIEW DSC:  スレッドファイルへ書き込めません。
+</nierror>
+<nierror code="-7931">
+LabVIEW DSC:  バージョンには互換性がありません。
+</nierror>
+<nierror code="-7925">
+LabVIEW DSC:  スレッドクエリの例外エラー；詳細は不明です。
+</nierror>
+<nierror code="-7924">
+LabVIEW DSC:  OTHREAD構造体が無効です。
+</nierror>
+<nierror code="-7923">
+LabVIEW DSC:  バッファサイズ < ページサイズ
+</nierror>
+<nierror code="-7922">
+LabVIEW DSC:  ｽﾚｯﾄﾞｸｴﾘｰﾊﾝﾄﾞﾙが無効です。
+</nierror>
+<nierror code="-7912">
+LabVIEW DSC:  Read Historical Trends.viに空のﾀｸﾞﾘｽﾄが送られました。
+</nierror>
+<nierror code="-7911">
+LabVIEW DSC:  ﾄﾚﾝﾄﾞｻｲｽﾞが無効です（0）。
+</nierror>
+<nierror code="-7910">
+LabVIEW DSC:  サンプリング間隔は0.00以上である必要があります。
+</nierror>
+<nierror code="-7900">
+LabVIEW DSC:  ロギングキューがオーバーフローしました。
+</nierror>
+<nierror code="-7899">
+LabVIEW DSC:  メモリの割り当てに失敗しました。
+</nierror>
+<nierror code="-7898">
+LabVIEW DSC:  メモリブロックを開放できませんでした。
+</nierror>
+<nierror code="-7897">
+LabVIEW DSC:  メモリブロックをロックできませんでした。
+</nierror>
+<nierror code="-7896">
+LabVIEW DSC:  メモリブロックを解除できませんでした。
+</nierror>
+<nierror code="-7895">
+LabVIEW DSC:  CreateThreadが失敗しました。
+</nierror>
+<nierror code="-7894">
+LabVIEW DSC:  CreateEventが失敗しました。
+</nierror>
+<nierror code="-7893">
+LabVIEW DSC:  ハンドルを終了できませんでした。。
+</nierror>
+<nierror code="-7892">
+LabVIEW DSC:  スレッドの終了コードを取得できませんでした。
+</nierror>
+<nierror code="-7891">
+LabVIEW DSC:  イベントを設定できませんでした。
+</nierror>
+<nierror code="-7890">
+LabVIEW DSC:  スレッドを終了できませんでした。
+</nierror>
+<nierror code="-7889">
+LabVIEW DSC:  現在のスレッドIDを取得できませんでした。
+</nierror>
+<nierror code="-7888">
+LabVIEW DSC:  Windowsのhookを外すことができませんでした。
+</nierror>
+<nierror code="-7887">
+LabVIEW DSC:  Windowsのhookを外すことができませんでした。
+</nierror>
+<nierror code="-7563">
+LabVIEW DSC:  他のBVｴﾝｼﾞﾝへ接続するときにｱｸｾｽが拒否されました。
+</nierror>
+<nierror code="-7203">
+LabVIEW DSC:  ｻﾎﾟｰﾄされていないｻｰﾊﾞﾀｲﾌﾟです。
+</nierror>
+<nierror code="-7202">
+LabVIEW DSC:  ｻｰﾊﾞ名が無効です。
+</nierror>
+<nierror code="-7201">
+LabVIEW DSC:  キューがオーバーフローしました。
+</nierror>
+<nierror code="-7113">
+LabVIEW DSC:  ｸﾞﾙｰﾌﾟ名が定義されていません。
+</nierror>
+<nierror code="-7112">
+LabVIEW DSC:  ﾀｸﾞのｱｸｾｽ権限が無効です。
+</nierror>
+<nierror code="-7111">
+LabVIEW DSC:  ﾒﾓﾘにﾀｸﾞがありません。
+</nierror>
+<nierror code="-7110">
+LabVIEW DSC:  ﾀｸﾞのﾃﾞｰﾀﾀｲﾌﾟが無効です。
+</nierror>
+<nierror code="-7109">
+LabVIEW DSC:  タグのアラームリミットが無効です。
+</nierror>
+<nierror code="-7108">
+LabVIEW DSC:  エンジンが停止しています。
+</nierror>
+<nierror code="-7107">
+LabVIEW DSC:  印刷のﾀｸﾞが構成されていません。
+</nierror>
+<nierror code="-7106">
+LabVIEW DSC:  履歴ﾃﾞｰﾀﾛｷﾞﾝｸﾞのﾀｸﾞが構成されていません。
+</nierror>
+<nierror code="-7105">
+LabVIEW DSC:  ｲﾍﾞﾝﾄﾛｷﾞﾝｸﾞのﾀｸﾞが構成されていません。
+</nierror>
+<nierror code="-7104">
+LabVIEW DSC:  印刷に無効なプリンタポートが構成されています。
+</nierror>
+<nierror code="-7103">
+LabVIEW DSC:  履歴データロギングに無効なディレクトリのパスが構成されています。
+</nierror>
+<nierror code="-7102">
+LabVIEW DSC:  イベントロギングに無効なディレクトリのパスが構成されています。
+</nierror>
+<nierror code="-7101">
+LabVIEW DSC:  指定されたﾀｸﾞ名は定義されていません。
+</nierror>
+<nierror code="180092949">
+LabVIEW DSC:  (Hex 0x0x0ABC0015) アイテムは見つかりませんでしたが、サブスクライブには成功しました。
+</nierror>
+<nierror code="180093009">
+LabVIEW DSC:  (Hex 0x0x0ABC0051) アイテムは見つかりませんでしたが、サブスクライブには成功しました。
+</nierror>
+<nierror code="180129794">
+LabVIEW DSC:  (Hex 0x0x0ABC9002) すべてのタグ名を一致できません。
+</nierror>
+</nidocument>

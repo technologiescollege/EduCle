@@ -1,0 +1,54 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="-22015">
+NI-Watchdog:  (Hex 0xFFFFAA03) Unable to return a value because it would exceed the width of the return data type.
+</nierror>
+<nierror code="-22014">
+NI-Watchdog:  (Hex 0xFFFFAA04) This watchdog has had kNIWatchdogHardwareLock enabled.  No further changes can be made to its configuration until a reboot.
+</nierror>
+<nierror code="-22013">
+NI-Watchdog:  (Hex 0xFFFFAA04) The kernel portion of the watchdog driver is not present, or failed to load correctly.
+</nierror>
+<nierror code="-22012">
+NI-Watchdog:  (Hex 0xFFFFAA05) This watchdog cannot drive the specified trigger line in the requested manner.  Not all watchdog hardware can drive triggers in all possible ways.
+</nierror>
+<nierror code="-22011">
+NI-Watchdog:  (Hex 0xFFFFAA06) The watchdog hardware you requested is already in use, or has been permanently locked.
+</nierror>
+<nierror code="-22010">
+NI-Watchdog:  (Hex 0xFFFFAA06) The trigger line specified cannot be driven by this watchdog.  Not all Watchdog hardware can assert on all, if any, trigger lines.
+</nierror>
+<nierror code="-22009">
+NI-Watchdog:  (Hex 0xFFFFAA07) A memory allocation attempted by the watchdog driver has failed.
+</nierror>
+<nierror code="-22008">
+NI-Watchdog:  (Hex 0xFFFFAA08) The session handle or object pointer for this watchdog is either invalid or illegal.
+</nierror>
+<nierror code="-22007">
+NI-Watchdog:  (Hex 0xFFFFAA09) The specified action cannot be added to the watchdog.  Some actions can only be added once, and others have a maximum number that can be added.
+</nierror>
+<nierror code="-22006">
+NI-Watchdog:  (Hex 0xFFFFAA0A) The watchdog driver has experienced an unexpected, low-level error.
+</nierror>
+<nierror code="-22005">
+NI-Watchdog:  (Hex 0xFFFFAA0B) The watchdog hardware you requested is either not in the system, or has not been registered with the driver.
+</nierror>
+<nierror code="-22004">
+NI-Watchdog:  (Hex 0xFFFFAA0C) The specified watchdog action is not supported by this Watchdog hardware.
+</nierror>
+<nierror code="-22003">
+NI-Watchdog:  (Hex 0xFFFFAA0D) The specified attribute is read-only for this watchdog, and cannot be changed.
+</nierror>
+<nierror code="-22002">
+NI-Watchdog:  (Hex 0xFFFFAA0E) The specified attribute is not recognized by this watchdog hardware.
+</nierror>
+<nierror code="-22001">
+NI-Watchdog:  (Hex 0xFFFFAA0F) The specified method or attribute is not supported by this watchdog hardware.
+</nierror>
+<nierror code="-22000">
+NI-Watchdog:  (Hex 0xFFFFAA10) A general error has occurred with the watchdog hardware on this system.
+</nierror>
+</nidocument>

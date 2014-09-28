@@ -1,0 +1,516 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="-31629">
+ComponentWorks:  Visaエラー
+</nierror>
+<nierror code="-31628">
+ComponentWorks:  指定されている出力モードの拡張が有効ではありません。
+</nierror>
+<nierror code="-31627">
+ComponentWorks:  指定されているシーケンスは現在のコレクションの中にはありません。
+</nierror>
+<nierror code="-31626">
+ComponentWorks:  指定されたシーケンス項目は、現在のコレクションの中には存在しません。
+</nierror>
+<nierror code="-31625">
+ComponentWorks:  現在のコレクションの中には、指定されている波形は存在しません。
+</nierror>
+<nierror code="-31624">
+ComponentWorks:  現在のコレクションの中には、指定されているチャネルは存在しません。
+</nierror>
+<nierror code="-31623">
+ComponentWorks:  現在のコレクションの中に、指定されている構成は存在しません。
+</nierror>
+<nierror code="-31622">
+ComponentWorks:  波形が見つかりませんでした。
+</nierror>
+<nierror code="-31621">
+ComponentWorks:  出力モードの拡張が確認されていません。
+</nierror>
+<nierror code="-31620">
+ComponentWorks:  チャネルが見つかりませんでした。
+</nierror>
+<nierror code="-31619">
+ComponentWorks:  セッションマネージャ:
+</nierror>
+<nierror code="-31618">
+ComponentWorks:  無効な割り当てです。オブジェクトは、この制御器には所属しません。
+</nierror>
+<nierror code="-31617">
+ComponentWorks:  指定されているチャネルは、計測器に有効ではありません。
+</nierror>
+<nierror code="-31616">
+ComponentWorks:  無効なシーケンス。
+</nierror>
+<nierror code="-31615">
+ComponentWorks:  要求されているポイント数は、実際のデータの量の範囲を超えています。
+</nierror>
+<nierror code="-31614">
+ComponentWorks:  指定されている論理名が存在しないか、あるいはこの計測器のクラスでは無効です。
+</nierror>
+<nierror code="-31613">
+ComponentWorks:  無効な波形。
+</nierror>
+<nierror code="-31612">
+ComponentWorks:  この計測器のセッションはすでに初期化されています。
+</nierror>
+<nierror code="-31611">
+ComponentWorks:  指定されているコレクションの指標は無効です。
+</nierror>
+<nierror code="-31610">
+ComponentWorks:  IVIの特定のドライバが、適切なバージョンのIVIのclass specificationで書かれていません。
+</nierror>
+<nierror code="-31609">
+ComponentWorks:  Measurement Studio IVI configuration file (.cwc)は、この制御器では有効なケー式ではありません。
+</nierror>
+<nierror code="-31608">
+ComponentWorks:  このプロパティを設定するには、制御器はdesign modeでなければなりません。
+</nierror>
+<nierror code="-31607">
+ComponentWorks:  ファイルをアクセス中にエラーが発生したか、あるいはファイルが存在しません。
+</nierror>
+<nierror code="-31606">
+ComponentWorks:  ファイルが見つかりませんでした。
+</nierror>
+<nierror code="-31605">
+ComponentWorks:  適切にロードできなかったか、あるいは要求されているDLLにアクセスできませんでした。
+</nierror>
+<nierror code="-31604">
+ComponentWorks:  要求されているIVIの属性、または関連するタイプが、不明またはサポートされていません。
+</nierror>
+<nierror code="-31603">
+ComponentWorks:  セッションハンドルが無効、またはサポートされていないIVI class driverのセッションを参照しています。
+</nierror>
+<nierror code="-31602">
+ComponentWorks:  現在他の操作が実行中です。
+</nierror>
+<nierror code="-31601">
+ComponentWorks:  このプロパティまたはメソッドにアクセスするには、最初にConfigureメソッドを呼び出して、デバイスを構成しなければなりません。
+</nierror>
+<nierror code="-31600">
+ComponentWorks:  このプロパティまたはメソッドにアクセスするには、最初にInitメソッドを呼び出して、デバイスを初期化しなければなりません。
+</nierror>
+<nierror code="-30450">
+ComponentWorks:  ネットワークバッファが有効ではありません。
+</nierror>
+<nierror code="-30421">
+ComponentWorks:  URL構文を認識できませんでした。
+</nierror>
+<nierror code="-30420">
+ComponentWorks:  URL接頭語 (http:,ftp:,fileなど) は認識されていません。
+</nierror>
+<nierror code="-30405">
+ComponentWorks:  現在の値はﾍﾞｸﾄﾙでもｸﾗｽﾀでもないので、索引できません。
+</nierror>
+<nierror code="-30404">
+ComponentWorks:  範囲外の要素索引を使用しています。
+</nierror>
+<nierror code="-30403">
+ComponentWorks:  作成を試行する配列には次元が多すぎます。
+</nierror>
+<nierror code="-30402">
+ComponentWorks:  初期化を試行するｸﾗｽﾀの要素数が多すぎます。
+</nierror>
+<nierror code="-30401">
+ComponentWorks:  読み取られたデータが破損しているか、認識できない形式です。
+</nierror>
+<nierror code="-30400">
+ComponentWorks:  CWﾃﾞｰﾀｵﾌﾞｼﾞｪｸﾄは読み取り専用なので値、あるいは属性を設定できません。
+</nierror>
+<nierror code="-30350">
+ComponentWorks:  GPIB ﾘｽﾆﾝｸﾞ表に問題があります。
+</nierror>
+<nierror code="-30346">
+ComponentWorks:  SRQ ﾗｲﾝはｱｻｰﾄされたままです。
+</nierror>
+<nierror code="-30345">
+ComponentWorks:  ｼﾘｱﾙﾎﾟｰﾙｵｰﾊﾞｰﾌﾛｰ: 受け取ったｽﾃｰﾀｽﾊﾞｲﾄが多すぎます。
+</nierror>
+<nierror code="-30344">
+ComponentWorks:  GPIBﾊﾞｽ上のｴﾗｰ
+</nierror>
+<nierror code="-30342">
+ComponentWorks:  ﾌｧｲﾙｼｽﾃﾑｴﾗｰ
+</nierror>
+<nierror code="-30341">
+ComponentWorks:  GPIB ﾎﾞｰﾄﾞまたはﾃﾞﾊﾞｲｽは要求された操作を実行できません。
+</nierror>
+<nierror code="-30340">
+ComponentWorks:  I/Oが進行中。
+</nierror>
+<nierror code="-30338">
+ComponentWorks:  GPIB DMA ｴﾗｰ。
+</nierror>
+<nierror code="-30337">
+ComponentWorks:  無効な GPIB IO ｱﾄﾞﾚｽ
+</nierror>
+<nierror code="-30336">
+ComponentWorks:  I/O操作ﾀｲﾑｱｳﾄ
+</nierror>
+<nierror code="-30335">
+ComponentWorks:  GPIB ﾎﾞｰﾄﾞはｼｽﾃﾑｺﾝﾄﾛｰﾗではありません。
+</nierror>
+<nierror code="-30334">
+ComponentWorks:  無効なﾊﾟﾗﾒｰﾀ
+</nierror>
+<nierror code="-30333">
+ComponentWorks:  GPIB ﾎﾞｰﾄﾞは正しくｱﾄﾞﾚｽを指定していません。
+</nierror>
+<nierror code="-30332">
+ComponentWorks:  GPIBでﾘｽﾅがｱﾄﾞﾚｽ指定されていません。
+</nierror>
+<nierror code="-30331">
+ComponentWorks:  GPIB ﾎﾞｰﾄﾞは ｺﾝﾄﾛｰﾗｲﾝﾁｬｰｼﾞ(CIC)ではありません。
+</nierror>
+<nierror code="-30330">
+ComponentWorks:  無効な GPIB ﾎﾞｰﾄﾞ数
+</nierror>
+<nierror code="-30325">
+ComponentWorks:  ﾌｧｲﾙを開くことができません。 ｱｸｾｽが拒否されました。
+</nierror>
+<nierror code="-30324">
+ComponentWorks:  ﾌｧｲﾙを開くことができません。 開いているﾌｧｲﾙが多すぎます。
+</nierror>
+<nierror code="-30322">
+ComponentWorks:  ﾌｧｲﾙは見つかりませんでした。
+</nierror>
+<nierror code="-30317">
+ComponentWorks:  指定したﾃﾞﾊﾞｲｽが開いていません。
+</nierror>
+<nierror code="-30316">
+ComponentWorks:  指定されたﾃﾞﾊﾞｲｽは構成されていません。
+</nierror>
+<nierror code="-30315">
+ComponentWorks:  ｱｸｾｽが拒否されました。指定されたﾘｿｰｽは既に使用されています。
+</nierror>
+<nierror code="-30312">
+ComponentWorks:  無効な COM ﾎﾟｰﾄ
+</nierror>
+<nierror code="-30308">
+ComponentWorks:  VISA DLLをﾛｰﾄﾞできません。  VISAﾄﾞﾗｲﾊﾞが正しくｲﾝｽﾄｰﾙされているが確認してください。
+</nierror>
+<nierror code="-30307">
+ComponentWorks:  GPIB DLLをﾛｰﾄﾞできません。  GPIB ﾄﾞﾗｲﾊﾞが正しくｲﾝｽﾄｰﾙされているが確認してください。
+</nierror>
+<nierror code="-30305">
+ComponentWorks:  ﾄｰｸﾝを非ﾕｰｻﾞ定義のﾊﾟﾀｰﾝに追加できません。
+</nierror>
+<nierror code="-30304">
+ComponentWorks:  IO操作進行中
+</nierror>
+<nierror code="-30303">
+ComponentWorks:  文字をﾊﾟｰｽできませんでした。
+</nierror>
+<nierror code="-30302">
+ComponentWorks:  ﾃﾞｰﾀなし
+</nierror>
+<nierror code="-30301">
+ComponentWorks:  操作ﾀｲﾑｱｳﾄ
+</nierror>
+<nierror code="-30239">
+ComponentWorks:  無効な信号ソースまたは無効な信号ラインが入力されました。
+</nierror>
+<nierror code="-30238">
+ComponentWorks:  Border particleを拒絶するには、particle reportを使用して、作成したイメージを入力しなければなりません。
+</nierror>
+<nierror code="-30237">
+ComponentWorks:  直接display mapping rangeを設定できません。MapGivenRangeまたはMapGivenPercentRangeを使用してください。
+</nierror>
+<nierror code="-30236">
+ComponentWorks:  Rotateは提供されている補間方法をサポートしていません。
+</nierror>
+<nierror code="-30235">
+ComponentWorks:  この操作では無効な、regions collectionが供給されました。
+</nierror>
+<nierror code="-30234">
+ComponentWorks:  DrawLineはユーザが入力した値をサポートしていません。
+</nierror>
+<nierror code="-30233">
+ComponentWorks:  提供されたtemplate imageにはrotation-invariant matchingに、MatchPatternが必要とするデータを含んでいません。
+</nierror>
+<nierror code="-30232">
+ComponentWorks:  提供されたtemplate imageにはshift-invariant matchingに、MatchPatternが必要とするデータを含んでいません。
+</nierror>
+<nierror code="-30231">
+ComponentWorks:  Meter領域に平行なラインを指定できません。
+</nierror>
+<nierror code="-30230">
+ComponentWorks:  Interpolate1Dは入力された補間メソッドをサポートしません。
+</nierror>
+<nierror code="-30229">
+ComponentWorks:  CreateFromRegionsに、2つのラインを含む領域のコレクションを提供しなければなりません。
+</nierror>
+<nierror code="-30228">
+ComponentWorks:  ｵｰﾄｽﾚｯﾄﾞ用のｸﾗｽ数は有効な範囲(0-255)外にあります。.
+</nierror>
+<nierror code="-30227">
+ComponentWorks:  IMAQ Visionの新しいﾊﾞｰｼﾞｮﾝが必要です。
+</nierror>
+<nierror code="-30226">
+ComponentWorks:  信号はパルス生成のセットアップ用ですが、パルスオブジェクトが関連していません。SetPulseを呼び出さなければなりません。
+</nierror>
+<nierror code="-30225">
+ComponentWorks:  領域は現在対話形式で更新されており、ﾌﾟﾛｸﾞﾗﾑ形式で変更することはできません。
+</nierror>
+<nierror code="-30224">
+ComponentWorks:  領域収集は現在対話形式で更新されており、ﾌﾟﾛｸﾞﾗﾑ形式で変更できません。
+</nierror>
+<nierror code="-30223">
+ComponentWorks:  画像収集には少なくとも1つの画像が必要です。
+</nierror>
+<nierror code="-30222">
+ComponentWorks:  NI-IMAQの新しいﾊﾞｰｼﾞｮﾝが必要です。
+</nierror>
+<nierror code="-30221">
+ComponentWorks:  集録ﾀｲﾑｱｳﾄ。
+</nierror>
+<nierror code="-30220">
+ComponentWorks:  指定されたﾃﾞﾊﾞｲｽに対する無効なﾌﾚｰﾑﾌｨｰﾙﾄﾞﾓｰﾄﾞ。
+</nierror>
+<nierror code="-30219">
+ComponentWorks:  指定されたﾃﾞﾊﾞｲｽに対する無効なｶﾗｰﾓｰﾄﾞ。
+</nierror>
+<nierror code="-30218">
+ComponentWorks:  現在選択されたｶﾗｰﾓｰﾄﾞは、指定されたﾃﾞﾊﾞｲｽによってｻﾎﾟｰﾄされていません。
+</nierror>
+<nierror code="-30217">
+ComponentWorks:  指定されたﾃﾞﾊﾞｲｽは既に、別のCWIMAQ制御によって使用されています。
+</nierror>
+<nierror code="-30216">
+ComponentWorks:  使用中のﾃﾞﾊﾞｲｽの数が最大数を超えています。
+</nierror>
+<nierror code="-30215">
+ComponentWorks:  指定した関数はﾄﾞﾗｲﾊﾞにありません。
+</nierror>
+<nierror code="-30214">
+ComponentWorks:  IMAQ DLLをﾛｰﾄﾞできません。 IMAQ ﾄﾞﾗｲﾊﾞが正しくｲﾝｽﾄｰﾙされていることを確認してください。
+</nierror>
+<nierror code="-30213">
+ComponentWorks:  IMAQ Vision DLLをﾛｰﾄﾞできません。
+</nierror>
+<nierror code="-30212">
+ComponentWorks:  RTSI ﾗｲﾝの最大数が既に使用されています。
+</nierror>
+<nierror code="-30211">
+ComponentWorks:  IMAQ操作が動作中です。
+</nierror>
+<nierror code="-30210">
+ComponentWorks:  ｵﾌﾞｼﾞｪｸﾄは進行中の集録によってﾛｯｸされており、変更できません。
+</nierror>
+<nierror code="-30209">
+ComponentWorks:  ﾄﾘｶﾞされた非同期式集録にはNI-IMAQ のﾊﾞｰｼﾞｮﾝ2.0、またはそれ以降が必要です。
+</nierror>
+<nierror code="-30208">
+ComponentWorks:  StillColorが有効な状態では、トリガされた非同期集録はサポートされていません。
+</nierror>
+<nierror code="-30207">
+ComponentWorks:  IMAQ操作は構成されていないか、または現在ｱｸﾃｨﾌﾞでないため、開始することができません。
+</nierror>
+<nierror code="-30206">
+ComponentWorks:  IMAQ操作はｱｸﾃｨﾌﾞではありません。
+</nierror>
+<nierror code="-30205">
+ComponentWorks:  IMAQ操作は構成されていません。
+</nierror>
+<nierror code="-30204">
+ComponentWorks:  <IMG_WRN_BRST>  colorburstの品質が良くありません。
+</nierror>
+<nierror code="-30203">
+ComponentWorks:  <IMG_WRN_BLKG> blankingリファレンスが不安定です。
+</nierror>
+<nierror code="-30202">
+ComponentWorks:  <IMG_WRN_ILCK> インタフェースがまたロックされています。
+</nierror>
+<nierror code="-30201">
+ComponentWorks:  <IMG_WRN_CONF> 変更するには、再構成が有効でなければなりません。
+</nierror>
+<nierror code="-30200">
+ComponentWorks:  <IMG_WRN_BCAM> 破損したカメラファイルが検出されました。
+</nierror>
+<nierror code="-30105">
+ComponentWorks:  NonLinearFitCallbackのﾘﾀｰﾝﾊﾟﾗﾒｰﾀは、ｽｶﾗ値を指定する必要があります。
+</nierror>
+<nierror code="-30104">
+ComponentWorks:  入力ﾊﾟﾗﾒｰﾀはすべて同じﾃﾞｰﾀﾀｲﾌﾟである必要があります。
+</nierror>
+<nierror code="-30103">
+ComponentWorks:  引数は配列ではありません。
+</nierror>
+<nierror code="-30102">
+ComponentWorks:  配列はｱﾝﾛｯｸできません。
+</nierror>
+<nierror code="-30101">
+ComponentWorks:  配列はﾛｯｸできません。
+</nierror>
+<nierror code="-30100">
+ComponentWorks:  ﾃﾞｰﾀﾀｲﾌﾟが正しくありません。
+</nierror>
+<nierror code="-30081">
+ComponentWorks:  無効にする前に、ブレークポイント（breakpoint）または収集（capture）は有効でなければなりません。
+</nierror>
+<nierror code="-30080">
+ComponentWorks:  ブレークポイントを移動（move breakpoint）を有効にして、移動しているときのみに収集できます。
+</nierror>
+<nierror code="-30079">
+ComponentWorks:  ブレークポイント（breakpoint）または収集（capture）で、Enableメソッドを呼び出す前に、Startメソッドを呼び出さなければなりません。
+</nierror>
+<nierror code="-30078">
+ComponentWorks:  単一の軸の移動のみに、PositionModeプロパティをModulus Position onlyに設定することができます。
+</nierror>
+<nierror code="-30077">
+ComponentWorks:  ブレークポイント（breakpoint）のPositionsプロパティは空の配列です。ブレークポイントを有効にする前に、プロパティに位置の配列を指定する必要があります。
+</nierror>
+<nierror code="-30076">
+ComponentWorks:  ProressIntervalが、0よりも大きく、TotalPoints以下でなければなりません。
+</nierror>
+<nierror code="-30075">
+ComponentWorks:  AppendContourDataメソッドが呼び出されている間に、contour moveが実行されていなければなりません。AppendPositionsメソッドを呼び出す前に、Breakpoint objectが有効である必要があります。
+</nierror>
+<nierror code="-30074">
+ComponentWorks:  BreakpointまたはCapture objectのAxisNameプロパティが無効です。AxisNameはAxes collectionの要素のNameプロパティと一致しなければなりません。
+</nierror>
+<nierror code="-30073">
+ComponentWorks:  NewDataは有効なバックログよりも大きいです。
+</nierror>
+<nierror code="-30072">
+ComponentWorks:  ReuseDataのプロパティがTrueのときに、NewDataに書き込みできません。
+</nierror>
+<nierror code="-30071">
+ComponentWorks:  Move typeはタスクタイプでは無効です。 Velocity movesはvelocity taskの中になければなりません。Contour movesはcomplete movesのタスクの中になければなりません。
+</nierror>
+<nierror code="-30070">
+ComponentWorks:  Moveが実行中、コレクションから項目を追加または削除することはできません。コレクションを編集する前に、motionを停止してください。
+</nierror>
+<nierror code="-30069">
+ComponentWorks:  Velocityタスクが適切に構成されていません。Velocityタスクは1つのvelocity moveそして1つのaxisを含まなければなりません。
+</nierror>
+<nierror code="-30068">
+ComponentWorks:  指定されたAxisまたはVector Space numberはすでに使用されています。
+</nierror>
+<nierror code="-30067">
+ComponentWorks:  Contour moveのContourDataプロパティは、空の配列です。Contour moveを開始する前に、プロパティに位置の配列を指定する必要があります。
+</nierror>
+<nierror code="-30066">
+ComponentWorks:  Breakpoint、capture、またはcontour moveはTotalPointsにとって、無効な値です。TotalPointsは0よりも大きくなければなりません。
+</nierror>
+<nierror code="-30065">
+ComponentWorks:  選択されたmotion controllerでは、RTSIは使用できません。
+</nierror>
+<nierror code="-30064">
+ComponentWorks:  Capture上の1つのプロパティが無効です。
+</nierror>
+<nierror code="-30063">
+ComponentWorks:  Breakpoint上の1つのプロパティが無効です。
+</nierror>
+<nierror code="-30062">
+ComponentWorks:  Moveに指定されたcontour intervalは無効です。
+</nierror>
+<nierror code="-30061">
+ComponentWorks:  Move上の1つのプロパティが無効です。
+</nierror>
+<nierror code="-30060">
+ComponentWorks:  Movesのコレクションは最低1つのmoveを含んでいなければなりません。
+</nierror>
+<nierror code="-30059">
+ComponentWorks:  指定されたAxis numberは選択されているモーションコントローラでは無効です。
+</nierror>
+<nierror code="-30058">
+ComponentWorks:  Axesのコレクションは最低1つのaxisを含んでいなければなりません。
+</nierror>
+<nierror code="-30057">
+ComponentWorks:  タスクは3つ以上の軸を持つことができません。
+</nierror>
+<nierror code="-30056">
+ComponentWorks:  Iterationsプロパティでは、0は無効な値です。
+</nierror>
+<nierror code="-30055">
+ComponentWorks:  Tasksのコレクションでは最低1つのタスクを含まなければなりません。
+</nierror>
+<nierror code="-30054">
+ComponentWorks:  Configureメソッドが呼び出されなければなりません。
+</nierror>
+<nierror code="-30053">
+ComponentWorks:  最新のFlexMotionドライバが必要です。
+</nierror>
+<nierror code="-30052">
+ComponentWorks:  指定された関数がドライバにはありません。
+</nierror>
+<nierror code="-30051">
+ComponentWorks:  FlexMotion driver DLLをロードできません。
+</nierror>
+<nierror code="-30050">
+ComponentWorks:  ランタイム（run-time）で例外が発生しました。GetLastErrorを呼び出して、エラーコードを検索してください。
+</nierror>
+<nierror code="-30023">
+ComponentWorks:  CWCounterﾊﾞｯﾌｧ読み込みは無効な状態を返しました。
+</nierror>
+<nierror code="-30022">
+ComponentWorks:  CWAO.ProgressInterval はCWAO.NUpdatesに平等に分割される必要があります。
+</nierror>
+<nierror code="-30021">
+ComponentWorks:  DAQ 操作は構成されていません。
+</nierror>
+<nierror code="-30020">
+ComponentWorks:  DAQ 操作はｱｸﾃｨﾌﾞではありません。
+</nierror>
+<nierror code="-30019">
+ComponentWorks:  現在のﾊﾟﾙｽﾀｲﾌﾟを再構成することができません。
+</nierror>
+<nierror code="-30018">
+ComponentWorks:  無効なﾄﾘｶﾞｿｰｽ。
+</nierror>
+<nierror code="-30017">
+ComponentWorks:  ProgressInterval はNPatternsに平等に分割される必要があります。
+</nierror>
+<nierror code="-30016">
+ComponentWorks:  CWAI.NScans はCWAI.NScansPerBufferに平等に分割される必要があります。
+</nierror>
+<nierror code="-30015">
+ComponentWorks:  CWAI.ProgressInterval はCWAI.NScansに平等に分割される必要があります。
+</nierror>
+<nierror code="-30014">
+ComponentWorks:  無効なReturnDataType (ﾘﾀｰﾝﾃﾞｰﾀﾀｲﾌﾟ)ﾌﾟﾛﾊﾟﾃｨ。 ｽｹｰﾙされたﾃﾞｰﾀが返されます。
+</nierror>
+<nierror code="-30013">
+ComponentWorks:  新しいﾊﾞｰｼﾞｮﾝのNI-DAQが必要です。
+</nierror>
+<nierror code="-30011">
+ComponentWorks:  ﾃﾞﾊﾞｲｽのﾀｲﾌﾟﾀｲﾏは要求された操作を実行できません。
+</nierror>
+<nierror code="-30010">
+ComponentWorks:  DAQ 操作は構成されていないか、または現在ｱｸﾃｨﾌﾞでないので開始できません。
+</nierror>
+<nierror code="-30009">
+ComponentWorks:  ﾊﾟﾙｽﾀｲﾌﾟが変更されると、再構成することができません。
+</nierror>
+<nierror code="-30008">
+ComponentWorks:  ﾗｲｾﾝｽの権利を持っていないMeasurement Studio製品を必要とする関数、または方法を呼び出しました。 例えば、ﾍﾞｰｽ（またはｽﾀﾝﾀﾞｰﾄﾞ）解析ﾊﾟｯｹｰｼﾞでｻﾎﾟｰﾄされていない方法を使用しているかもしれません。製品をｱｯﾌﾟｸﾞﾚｰﾄﾞするには、ﾅｼｮﾅﾙｲﾝｽﾂﾙﾒﾝﾂまでお問い合わせください。
+</nierror>
+<nierror code="-30007">
+ComponentWorks:  ﾒﾓﾘ不足です。
+</nierror>
+<nierror code="-30006">
+ComponentWorks:  ｵｰﾊﾞｰﾌﾛｰｴﾗｰが発生しました。
+</nierror>
+<nierror code="-30005">
+ComponentWorks:  計算の結果は虚数です。
+</nierror>
+<nierror code="-30004">
+ComponentWorks:  0での割り算でｴﾗｰが発生しました。
+</nierror>
+<nierror code="-30003">
+ComponentWorks:  無効なﾀｲﾌﾟをVARIANTﾀｲﾌﾟのﾊﾟﾗﾒｰﾀに渡しました。
+</nierror>
+<nierror code="-30002">
+ComponentWorks:  ﾊﾟﾗﾒｰﾀの1つに対する無効な値を関数、方法、またはﾌﾟﾛﾊﾟﾃｨに渡しました。
+</nierror>
+<nierror code="-30001">
+ComponentWorks:  このDAQﾃﾞﾊﾞｲｽ用に構成される制御器の数が多すぎます。 このﾃﾞﾊﾞｲｽ用の制御器をこれ以上構成する前に、このﾃﾞﾊﾞｲｽ用に構成されたその他の制御器の1つをﾘｾｯﾄしてください。
+</nierror>
+<nierror code="-30000">
+ComponentWorks:  予期せぬｴﾗｰが発生しました。
+</nierror>
+</nidocument>

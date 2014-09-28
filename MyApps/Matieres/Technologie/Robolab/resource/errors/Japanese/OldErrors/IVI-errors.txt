@@ -1,0 +1,258 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="-1074135040">
+IVI:  (Hex 0xBFFA0000) IVIエンジンをロードできません。
+</nierror>
+<nierror code="-1074135039">
+IVI:  (Hex 0xBFFA0001) 計測器エラー。計測器ドライバPREFIX_error_query関数をコールしてください。
+</nierror>
+<nierror code="-1074135038">
+IVI:  (Hex 0xBFFA0002) ファイルを開けません。
+</nierror>
+<nierror code="-1074135037">
+IVI:  (Hex 0xBFFA0003) ファイル読み込み中にエラーが発生しました。
+</nierror>
+<nierror code="-1074135036">
+IVI:  (Hex 0xBFFA0004) ファイル書き込み中にエラーが発生しました。
+</nierror>
+<nierror code="-1074135035">
+IVI:  (Hex 0xBFFA0005) ドライバモジュールファイルが見つかりません。
+</nierror>
+<nierror code="-1074135034">
+IVI:  (Hex 0xBFFA0006) 読み込むためのドライバモジュールファイルを開けません。
+</nierror>
+<nierror code="-1074135033">
+IVI:  (Hex 0xBFFA0007) ドライバモジュールは無効なファイル形式か無効なデータを含んでいます。
+</nierror>
+<nierror code="-1074135032">
+IVI:  (Hex 0xBFFA0008) ドライバモジュールに未定義のリファレンスが含まれています。
+</nierror>
+<nierror code="-1074135031">
+IVI:  (Hex 0xBFFA0009) ドライバモジュールに関数がありません。
+</nierror>
+<nierror code="-1074135030">
+IVI:  (Hex 0xBFFA000A) ドライバモジュールのロードに失敗しました。
+</nierror>
+<nierror code="-1074135029">
+IVI:  (Hex 0xBFFA000B) パス名が無効です。
+</nierror>
+<nierror code="-1074135028">
+IVI:  (Hex 0xBFFA000C) 属性が無効です。
+</nierror>
+<nierror code="-1074135027">
+IVI:  (Hex 0xBFFA000D) 属性を書き込めません。
+</nierror>
+<nierror code="-1074135026">
+IVI:  (Hex 0xBFFA000E) 属性を読み込めません。
+</nierror>
+<nierror code="-1074135025">
+IVI:  (Hex 0xBFFA000F) パラメータが無効です。
+</nierror>
+<nierror code="-1074135024">
+IVI:  (Hex 0xBFFA0010) 値が無効です。
+</nierror>
+<nierror code="-1074135023">
+IVI:  (Hex 0xBFFA0011) 関数はサポートされていません。
+</nierror>
+<nierror code="-1074135022">
+IVI:  (Hex 0xBFFA0012) 属性はサポートされていません。
+</nierror>
+<nierror code="-1074135021">
+IVI:  (Hex 0xBFFA0013) 値はサポートされていません。
+</nierror>
+<nierror code="-1074135020">
+IVI:  (Hex 0xBFFA0014) タイプが無効です。
+</nierror>
+<nierror code="-1074135019">
+IVI:  (Hex 0xBFFA0015) タイプが一致しません。
+</nierror>
+<nierror code="-1074135018">
+IVI:  (Hex 0xBFFA0016) 指定された属性は既に更新する値が設定されています。
+</nierror>
+<nierror code="-1074135017">
+IVI:  (Hex 0xBFFA0017) 指定されたｱｲﾃﾑは既に存在します。
+</nierror>
+<nierror code="-1074135016">
+IVI:  (Hex 0xBFFA0018) 構成は無効です。
+</nierror>
+<nierror code="-1074135015">
+IVI:  (Hex 0xBFFA0019) ﾘｸｴｽﾄされたｱｲﾃﾑまたは値は存在していないか、ｱｸｾｽできません。
+</nierror>
+<nierror code="-1074135014">
+IVI:  (Hex 0xBFFA001A) ﾘｸｴｽﾄされた属性値は不明なため認識できません。
+</nierror>
+<nierror code="-1074135013">
+IVI:  (Hex 0xBFFA001B) この属性にﾚﾝｼﾞ表が設定されていません。
+</nierror>
+<nierror code="-1074135012">
+IVI:  (Hex 0xBFFA001C) ﾚﾝｼﾞ表が無効です。
+</nierror>
+<nierror code="-1074135011">
+IVI:  (Hex 0xBFFA001D) ｵﾌﾞｼﾞｪｸﾄまたはｱｲﾃﾑは初期化されていません。
+</nierror>
+<nierror code="-1074135010">
+IVI:  (Hex 0xBFFA001E) この計測器ﾄﾞﾗｲﾊﾞｸﾗｽは構成要素の設定不足により、互換性は制限されます。
+</nierror>
+<nierror code="-1074135009">
+IVI:  (Hex 0xBFFA001F) このｾｯｼｮﾝにﾁｬﾈﾙ表が作成されていません。計測器ﾄﾞﾗｲﾊﾞはIvi_BuildChannelTableをIviInit関数内に呼び出す必要があります。
+</nierror>
+<nierror code="-1074135008">
+IVI:  (Hex 0xBFFA0020) 指定されたﾁｬﾈﾙ名はこの計測器では無効です。
+</nierror>
+<nierror code="-1074135007">
+IVI:  (Hex 0xBFFA0021) ｼｽﾃﾑのﾘｿｰｽを割り当てられません。
+</nierror>
+<nierror code="-1074135006">
+IVI:  (Hex 0xBFFA0022) ﾌｧｲﾙへのｱｸｾｽが拒否されました。
+</nierror>
+<nierror code="-1074135005">
+IVI:  (Hex 0xBFFA0023) 開かれているﾌｧｲﾙが多すぎます。
+</nierror>
+<nierror code="-1074135004">
+IVI:  (Hex 0xBFFA0024) ﾀｰｹﾞｯﾄﾃﾞｨﾚｸﾄﾘに一時ﾌｧｲﾙを作成できませんでした。
+</nierror>
+<nierror code="-1074135003">
+IVI:  (Hex 0xBFFA0025) 一時ﾌｧｲﾙ名は全てﾀｰｹﾞｯﾄﾃﾞｨﾚｸﾄﾘで使用されています。
+</nierror>
+<nierror code="-1074135002">
+IVI:  (Hex 0xBFFA0026) ﾃﾞｨｽｸが一杯です。
+</nierror>
+<nierror code="-1074135001">
+IVI:  (Hex 0xBFFA0027) 構成ﾌｧｲﾙが見つかりませんでした。
+</nierror>
+<nierror code="-1074135000">
+IVI:  (Hex 0xBFFA0028) 構成ﾌｧｲﾙを開けませんでした。
+</nierror>
+<nierror code="-1074134999">
+IVI:  (Hex 0xBFFA0029) 構成ﾌｧｲﾙの読み込みにｴﾗｰが発生しました。
+</nierror>
+<nierror code="-1074134998">
+IVI:  (Hex 0xBFFA002A) 構成ﾌｧｲﾙに無効なViInt32値があります。
+</nierror>
+<nierror code="-1074134997">
+IVI:  (Hex 0xBFFA002B) 構成ﾌｧｲﾙに無効なViReal64値があります。
+</nierror>
+<nierror code="-1074134996">
+IVI:  (Hex 0xBFFA002C) 構成ﾌｧｲﾙに無効なViBoolean値があります。
+</nierror>
+<nierror code="-1074134995">
+IVI:  (Hex 0xBFFA002D) 構成ﾌｧｲﾙにｴﾝﾄﾘが不足しています。
+</nierror>
+<nierror code="-1074134994">
+IVI:  (Hex 0xBFFA002E) ﾄﾞﾗｲﾊﾞDLLの初期化に失敗しました。
+</nierror>
+<nierror code="-1074134993">
+IVI:  (Hex 0xBFFA002F) 未解決の外部ﾘﾌｧﾚﾝｽにより、ﾄﾞﾗｲﾊﾞﾓｼﾞｭｰﾙをﾛｰﾄﾞできませんでした。
+</nierror>
+<nierror code="-1074134992">
+IVI:  (Hex 0xBFFA0030) CVIﾗﾝﾀｲﾑ　ｴﾝｼﾞﾝ(RTE)が見つかりません。
+</nierror>
+<nierror code="-1074134991">
+IVI:  (Hex 0xBFFA0031) CVIﾗﾝﾀｲﾑ　ｴﾝｼﾞﾝ(RTE)を開けません。
+</nierror>
+<nierror code="-1074134990">
+IVI:  (Hex 0xBFFA0032) CVIﾗﾝﾀｲﾑ　ｴﾝｼﾞﾝ(RTE)のﾌｫｰﾏｯﾄが無効です。
+</nierror>
+<nierror code="-1074134989">
+IVI:  (Hex 0xBFFA0033) CVIﾗﾝﾀｲﾑ　ｴﾝｼﾞﾝ(RTE)にいくつかの必要な関数が見つかりません。
+</nierror>
+<nierror code="-1074134988">
+IVI:  (Hex 0xBFFA0034) CVI Run-Time Engineの初期化に失敗しました。(
+</nierror>
+<nierror code="-1074134987">
+IVI:  (Hex 0xBFFA0035) 未解決の外部ﾘﾌｧﾚﾝｽにより、CVIﾗﾝﾀｲﾑ　ｴﾝｼﾞﾝ(RTE)をﾛｰﾄﾞできませんでした。
+</nierror>
+<nierror code="-1074134986">
+IVI:  (Hex 0xBFFA0036) CVIﾗﾝﾀｲﾑ　ｴﾝｼﾞﾝ(RTE)のﾛｰﾄﾞに失敗しました。
+</nierror>
+<nierror code="-1074134985">
+IVI:  (Hex 0xBFFA0037) ｴｸｽﾎﾟｰﾄを読み込むDLLを開けません。
+</nierror>
+<nierror code="-1074134984">
+IVI:  (Hex 0xBFFA0038) DLLﾌｧｲﾙが破損しています。
+</nierror>
+<nierror code="-1074134983">
+IVI:  (Hex 0xBFFA0039) DLLにｴｸｽﾎﾟｰﾄﾃｰﾌﾞﾙがありません。
+</nierror>
+<nierror code="-1074134982">
+IVI:  (Hex 0xBFFA003A) 構成ﾌｧｲﾙのﾃﾞﾌｫﾙﾄ設定に不明な属性名があります。
+</nierror>
+<nierror code="-1074134981">
+IVI:  (Hex 0xBFFA003B) 構成ﾌｧｲﾙのﾃﾞﾌｫﾙﾄ設定に無効な属性値があります。
+</nierror>
+<nierror code="-1074134980">
+IVI:  (Hex 0xBFFA003C) 指定されたﾒﾓﾘﾎﾟｲﾝﾀは不明です。
+</nierror>
+<nierror code="-1074134979">
+IVI:  (Hex 0xBFFA003D) Ivi_BuildChannelTableはﾁｬﾈﾙ文字列を検出できませんでした。
+</nierror>
+<nierror code="-1074134978">
+IVI:  (Hex 0xBFFA003E) Ivi_BuildChannelTableが使用しているﾁｬﾈﾙﾘｽﾄに同じﾁｬﾈﾙ名が2度使用されています。
+</nierror>
+<nierror code="-1074134977">
+IVI:  (Hex 0xBFFA003F) 構成ﾌｧｲﾙのVirtualChannelNamesｱｲﾃﾑに複製のﾊﾞｰﾁｬﾙﾁｬﾈﾙ名が存在しています。
+</nierror>
+<nierror code="-1074134976">
+IVI:  (Hex 0xBFFA0040) 構成ﾌｧｲﾙのVirtualChannelNamesｱｲﾃﾑにﾊﾞｰﾁｬﾙﾁｬﾈﾙ名が設定されていないﾁｬﾈﾙがあります('='の前が空)。
+</nierror>
+<nierror code="-1074134975">
+IVI:  (Hex 0xBFFA0041) 構成ﾌｧｲﾙのVirtualChannelNamesｱｲﾃﾑに無効なﾊﾞｰﾁｬﾙﾁｬﾈﾙ名があります(ﾁｬﾈﾙ名の先頭に数値を使用している、等)。
+</nierror>
+<nierror code="-1074134974">
+IVI:  (Hex 0xBFFA0042) 構成ﾌｧｲﾙのVirutalChannelNamesｱｲﾃﾑにﾁｬﾈﾙ文字列が設定されていないﾁｬﾈﾙがあります('='の後が空)。
+</nierror>
+<nierror code="-1074134973">
+IVI:  (Hex 0xBFFA0043) 構成ﾌｧｲﾙのVirtualChannelNamesｱｲﾃﾑに無効または不明なﾁｬﾈﾙ文字列が割り当てられたﾊﾞｰﾁｬﾙﾁｬﾈﾙ名があります。
+</nierror>
+<nierror code="-1074134972">
+IVI:  (Hex 0xBFFA0044) ﾁｬﾈﾙﾍﾞｰｽの属性を指定するときは有効なﾁｬﾈﾙ名を渡す必要があります。
+</nierror>
+<nierror code="-1074134971">
+IVI:  (Hex 0xBFFA0045) ﾁｬﾈﾙﾍﾞｰｽではない属性を指定するときは空文字列またはVI_NULLをﾁｬﾈﾙ名を渡す必要があります。
+</nierror>
+<nierror code="-1074134970">
+IVI:  (Hex 0xBFFA0046) この属性は指定されたﾁｬﾈﾙでは無効です。
+</nierror>
+<nierror code="-1074134969">
+IVI:  (Hex 0xBFFA0047) この操作を行うにはﾁｬﾈﾙﾍﾞｰｽ属性が必要です。指定された属性はﾁｬﾈﾙﾍﾞｰｽではありません。
+</nierror>
+<nierror code="-1074134968">
+IVI:  (Hex 0xBFFA0048) このﾁｬﾈﾙは既に指定された属性から外され、再度含めることはできません。
+</nierror>
+<nierror code="-1074134967">
+IVI:  (Hex 0xBFFA0049) optionsStringﾊﾟﾗﾒｰﾀに名称未設定のｴﾝﾄﾘがあります。('='の前が空)
+</nierror>
+<nierror code="-1074134966">
+IVI:  (Hex 0xBFFA004A) optionsStringﾊﾟﾗﾒｰﾀに値が未設定のｴﾝﾄﾘがあります。('='の後が空)
+</nierror>
+<nierror code="-1074134965">
+IVI:  (Hex 0xBFFA004B) optionsStringﾊﾟﾗﾒｰﾀに不明なｵﾌﾟｼｮﾝ名が含まれています。
+</nierror>
+<nierror code="-1074134964">
+IVI:  (Hex 0xBFFA004C) optionsStringﾊﾟﾗﾒｰﾀに不明なｵﾌﾟｼｮﾝ値が含まれています。
+</nierror>
+<nierror code="-1074134963">
+IVI:  (Hex 0xBFFA004D) この操作はクラスドライバにより作成されたセッションのみ有効です。
+</nierror>
+<nierror code="-1074134962">
+IVI:  (Hex 0xBFFA004E) """ivi.ini""のﾌｧｲﾙ名は特別ﾌｧｲﾙ名として確保されています。同名のﾌｧｲﾙは作成できません。"
+</nierror>
+<nierror code="-1074134961">
+IVI:  (Hex 0xBFFA004F) ﾗﾝﾀｲﾑ構成に同じ名前のｴﾝﾄﾘが既に存在します。
+</nierror>
+<nierror code="-1074134960">
+IVI:  (Hex 0xBFFA0050) 指標ﾊﾟﾗﾒｰﾀは1ﾍﾞｰｽです(指標番号は1から開始)。1以上の値を渡す必要があります。
+</nierror>
+<nierror code="-1074134959">
+IVI:  (Hex 0xBFFA0051) 指標番号は有効なｱｲﾃﾑ数を超えています。
+</nierror>
+<nierror code="-1074134958">
+IVI:  (Hex 0xBFFA0052) IVI_VAL_NEVER_CACHEﾌﾗｸﾞがある属性にｷｬｯｼｭを設定できません。
+</nierror>
+<nierror code="-1074134957">
+IVI:  (Hex 0xBFFA0053) ｴﾝﾄﾞﾕｰｻﾞにViAddrの属性をｴｸｽﾎﾟｰﾄできません。
+</nierror>
+</nidocument>

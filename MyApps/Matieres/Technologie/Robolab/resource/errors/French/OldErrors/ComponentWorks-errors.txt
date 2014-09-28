@@ -1,0 +1,516 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="-31629">
+ComponentWorks:  Erreur Visa.
+</nierror>
+<nierror code="-31628">
+ComponentWorks:  L'extension pour le mode de sortie spécifié n'est pas activée.
+</nierror>
+<nierror code="-31627">
+ComponentWorks:  La séquence spécifiée n'existe pas dans la collection en cours.
+</nierror>
+<nierror code="-31626">
+ComponentWorks:  L'élément de séquence spécifié n'existe pas dans la collection en cours.
+</nierror>
+<nierror code="-31625">
+ComponentWorks:  Le signal spécifié n'existe pas dans la collection en cours.
+</nierror>
+<nierror code="-31624">
+ComponentWorks:  La voie spécifiée n'existe pas dans la collection en cours.
+</nierror>
+<nierror code="-31623">
+ComponentWorks:  La configuration spécifiée n'existe pas dans la collection en cours.
+</nierror>
+<nierror code="-31622">
+ComponentWorks:  Aucun signal détecté.
+</nierror>
+<nierror code="-31621">
+ComponentWorks:  Aucune extension de mode de sortie n'a été vérifiée.
+</nierror>
+<nierror code="-31620">
+ComponentWorks:  Aucune voie trouvée.
+</nierror>
+<nierror code="-31619">
+ComponentWorks:  Session Manager :
+</nierror>
+<nierror code="-31618">
+ComponentWorks:  Attribution invalide. L'objet n'appartient pas à ce contrôle.
+</nierror>
+<nierror code="-31617">
+ComponentWorks:  Le nom de voie spécifié est invalide pour l'instrument.
+</nierror>
+<nierror code="-31616">
+ComponentWorks:  Séquence invalide.
+</nierror>
+<nierror code="-31615">
+ComponentWorks:  Le nombre de points requis excède la quantité de données disponibles.
+</nierror>
+<nierror code="-31614">
+ComponentWorks:  Le nom logique spécifié n'existe pas ou est invalide pour cette classe d'instruments.
+</nierror>
+<nierror code="-31613">
+ComponentWorks:  Waveform ou signal invalide.
+</nierror>
+<nierror code="-31612">
+ComponentWorks:  La session instrument est déjà initialisée.
+</nierror>
+<nierror code="-31611">
+ComponentWorks:  L'indice de collection spécifié est invalide.
+</nierror>
+<nierror code="-31610">
+ComponentWorks:  Le driver spécifique IVI n'est pas écrit conformément à la version appropriée de la spécification de classe IVI.
+</nierror>
+<nierror code="-31609">
+ComponentWorks:  Le fichier de configuration Measurement Studio IVI (.cwc) n'est pas d'un format valide pour ce contrôle.
+</nierror>
+<nierror code="-31608">
+ComponentWorks:  Le contrôle doit être en mode Design to définir cette propriété.
+</nierror>
+<nierror code="-31607">
+ComponentWorks:  Erreurs lors de l'accès au fichier ou fichier non existant.
+</nierror>
+<nierror code="-31606">
+ComponentWorks:  Fichier introuvable.
+</nierror>
+<nierror code="-31605">
+ComponentWorks:  Impossible de charger ou d'accéder à la DLL.
+</nierror>
+<nierror code="-31604">
+ComponentWorks:  L'attribut IVI requis ou son type associé est inconnu ou non supporté.
+</nierror>
+<nierror code="-31603">
+ComponentWorks:  Le handle de la session est invalide ou se réfère à une session ne faisant pas partie d'un driver de classe IVI supporté.
+</nierror>
+<nierror code="-31602">
+ComponentWorks:  Une autre opération est en cours.
+</nierror>
+<nierror code="-31601">
+ComponentWorks:  Pour accéder à cette propriété ou méthode, vous devez d'abord configurer le périphérique en appelant la méthode Configure.
+</nierror>
+<nierror code="-31600">
+ComponentWorks:  Pour accéder à cette propriété ou méthode, vous devez d'abord initialiser le périphérique en appelant la méthode Init.
+</nierror>
+<nierror code="-30450">
+ComponentWorks:  Plus de buffers de réseau disponibles.
+</nierror>
+<nierror code="-30421">
+ComponentWorks:  La syntaxe de l'URL n'a pas été reconnue.
+</nierror>
+<nierror code="-30420">
+ComponentWorks:  Le préfixe de l'URL (http:, ftp:, etc...) n'est pas reconnu.
+</nierror>
+<nierror code="-30405">
+ComponentWorks:  Vous ne pouvez pas indexer la valeur en cours car il ne s'agit pas d'un vecteur ou d'un cluster.
+</nierror>
+<nierror code="-30404">
+ComponentWorks:  Vous utilisez un indice hors gamme.
+</nierror>
+<nierror code="-30403">
+ComponentWorks:  Vous tentez de créer un tableau contenant trop de dimensions.
+</nierror>
+<nierror code="-30402">
+ComponentWorks:  Vous initialisez trop d'éléments de clusters.
+</nierror>
+<nierror code="-30401">
+ComponentWorks:  La donnée lue est corrompue ou dans un format non reconnu.
+</nierror>
+<nierror code="-30400">
+ComponentWorks:  La valeur ou l'attribut n'a pas pu être défini car l'objet CWData est en lecture seule.
+</nierror>
+<nierror code="-30350">
+ComponentWorks:  Problème au niveau de la table des auditeurs GPIB.
+</nierror>
+<nierror code="-30346">
+ComponentWorks:  La ligne SRQ est bloquée par une tentative d'activation.
+</nierror>
+<nierror code="-30345">
+ComponentWorks:  Débordement du Serial Poll :  trop d'octets d'état recus.
+</nierror>
+<nierror code="-30344">
+ComponentWorks:  Erreur au niveau du bus GPIB.
+</nierror>
+<nierror code="-30342">
+ComponentWorks:  Erreur système sur fichier.
+</nierror>
+<nierror code="-30341">
+ComponentWorks:  La carte ou le périphérique GPIB n'ont pas la capacité de réaliser l'opération demandée.
+</nierror>
+<nierror code="-30340">
+ComponentWorks:  E/S en cours
+</nierror>
+<nierror code="-30338">
+ComponentWorks:  Erreur de DMA sur le bus GPIB.
+</nierror>
+<nierror code="-30337">
+ComponentWorks:  Adresse d'E/S GPIB invalide.
+</nierror>
+<nierror code="-30336">
+ComponentWorks:  Opération d'E/S en time-out.
+</nierror>
+<nierror code="-30335">
+ComponentWorks:  La carte GPIB n'est pas le contrôleur système.
+</nierror>
+<nierror code="-30334">
+ComponentWorks:  Paramètre invalide.
+</nierror>
+<nierror code="-30333">
+ComponentWorks:  La carte GPIB ne s'adresse pas elle-même correctement.
+</nierror>
+<nierror code="-30332">
+ComponentWorks:  Aucun auditeur n'est adressé sur le bus.
+</nierror>
+<nierror code="-30331">
+ComponentWorks:  La carte GPIB n'est pas le contrôleur en charge (CIC).
+</nierror>
+<nierror code="-30330">
+ComponentWorks:  Numéro de carte GPIB invalide.
+</nierror>
+<nierror code="-30325">
+ComponentWorks:  Impossible d'ouvrir le fichier : accès refusé.
+</nierror>
+<nierror code="-30324">
+ComponentWorks:  Impossible d'ouvrir le fichier : trop de fichiers ouverts.
+</nierror>
+<nierror code="-30322">
+ComponentWorks:  Fichier introuvable
+</nierror>
+<nierror code="-30317">
+ComponentWorks:  Le périphérique spécifié n'est pas ouvert.
+</nierror>
+<nierror code="-30316">
+ComponentWorks:  Le périphérique spécifié n'est pas configuré.
+</nierror>
+<nierror code="-30315">
+ComponentWorks:  Accès refusé : la ressource est déjà en cours d'utilisation.
+</nierror>
+<nierror code="-30312">
+ComponentWorks:  Port COM invalide
+</nierror>
+<nierror code="-30308">
+ComponentWorks:  Impossible de charger la DLL VISA. Veuillez vous assurer que le driver GPIB est correctement installé.
+</nierror>
+<nierror code="-30307">
+ComponentWorks:  Impossible de charger la DLL GPIB. Veuillez vous assurer que le driver GPIB est correctement installé.
+</nierror>
+<nierror code="-30305">
+ComponentWorks:  Impossible d'ajouter un Token à un motif non défini par l'utilisateur
+</nierror>
+<nierror code="-30304">
+ComponentWorks:  Opération d'E/S en cours.
+</nierror>
+<nierror code="-30303">
+ComponentWorks:  Erreur d'analyse du caractère.
+</nierror>
+<nierror code="-30302">
+ComponentWorks:  Plus aucune donnée.
+</nierror>
+<nierror code="-30301">
+ComponentWorks:  L'opération s'est terminée en time-out.
+</nierror>
+<nierror code="-30239">
+ComponentWorks:  Vous avez fourni une source ou une ligne de signal invalide.
+</nierror>
+<nierror code="-30238">
+ComponentWorks:  Vous devez fournir l'image avec laquelle vous avez créé le rapport de particules si vous voulez rejeter les particules de contour.
+</nierror>
+<nierror code="-30237">
+ComponentWorks:  Vous ne pouvez pas définir directement la gamme de conversion d'affichage (mapping range). Utilisez à la place les focntions MapGivenRange ou MapGivenPercentRange.
+</nierror>
+<nierror code="-30236">
+ComponentWorks:  Rotate ne supporte pas la méthode d'interpolation choisie.
+</nierror>
+<nierror code="-30235">
+ComponentWorks:  Vous avez fourni une collection de régions invalide pour cette opération.
+</nierror>
+<nierror code="-30234">
+ComponentWorks:  Drawline ne supporte pas la valeur de mode de tracé fournie.
+</nierror>
+<nierror code="-30233">
+ComponentWorks:  Le motif (template image) que vous avez fourni ne contient pas les données dont MatchPattern a besoin pour la reconnaissance de motif invariante par rotation.
+</nierror>
+<nierror code="-30232">
+ComponentWorks:  Le motif (template image) que vous avez fourni ne contient pas les données dont MatchPattern a besoin pour la reconnaissance de motif invariante par décalage.
+</nierror>
+<nierror code="-30231">
+ComponentWorks:  Vous ne pouvez pas spécifier des lignes parallèles pour les regions "Meter".
+</nierror>
+<nierror code="-30230">
+ComponentWorks:  Interpolate1D ne supporte pas la méthode d'interpolation fournie.
+</nierror>
+<nierror code="-30229">
+ComponentWorks:  Vous devez fournir une collection de régions faites de 2 lignes pour pouvoir utiliser CreateFromRegions.
+</nierror>
+<nierror code="-30228">
+ComponentWorks:  Le nombre de classes pour l'autoseuillage n'est pas dans la gamme valide (0-255).
+</nierror>
+<nierror code="-30227">
+ComponentWorks:  Version plus récente d'IMAQ Vision requise.
+</nierror>
+<nierror code="-30226">
+ComponentWorks:  Le signal est défini pour une génération d'impulsions, mais il n'a aucun objet d'impulsion associé. Vous devez appeler la fonction SetPulse.
+</nierror>
+<nierror code="-30225">
+ComponentWorks:  La région est en cours de modification interactive et ne peut pas être modifiée par programme.
+</nierror>
+<nierror code="-30224">
+ComponentWorks:  La collection des régions est en cours de modification interactive et ne peut être modifiée par programme.
+</nierror>
+<nierror code="-30223">
+ComponentWorks:  La collection des images doit contenir au moins une image.
+</nierror>
+<nierror code="-30222">
+ComponentWorks:  Version plus récente de NI-IMAQ requise.
+</nierror>
+<nierror code="-30221">
+ComponentWorks:  L'acquisition s'est terminée par un time-out.
+</nierror>
+<nierror code="-30220">
+ComponentWorks:  FrameFieldMode invalide pour le périphérique spécifié.
+</nierror>
+<nierror code="-30219">
+ComponentWorks:  ColorMode invalide pour le périphérique spécifié.
+</nierror>
+<nierror code="-30218">
+ComponentWorks:  Le mode color sélectionné n'est pas supporté par le périphérique spécifié.
+</nierror>
+<nierror code="-30217">
+ComponentWorks:  Le périphérique spécifié est déjà en cours d'utilisation par un autre contrôle CWIMAQ.
+</nierror>
+<nierror code="-30216">
+ComponentWorks:  Le nombre maximum de périphériques en cours d'utilisation est dépassé.
+</nierror>
+<nierror code="-30215">
+ComponentWorks:  La fonction spécifiée ne se trouve pas dans le driver.
+</nierror>
+<nierror code="-30214">
+ComponentWorks:  Impossible de charger la DLL IMAQ. Assurez-vous que le driver IMAQ est correctement installé.
+</nierror>
+<nierror code="-30213">
+ComponentWorks:  Impossible de charger la DLL IMAQ Vision.
+</nierror>
+<nierror code="-30212">
+ComponentWorks:  Toutes les lignes RTSI sont déjà en cours d'utilisation.
+</nierror>
+<nierror code="-30211">
+ComponentWorks:  Opération IMAQ activée.
+</nierror>
+<nierror code="-30210">
+ComponentWorks:  L'objet a été verrouillé par une acquisition en cours et ne peut pas être modifié.
+</nierror>
+<nierror code="-30209">
+ComponentWorks:  Une acquisition déclenchée asynchrone requiert NI-IMAQ version 2.0 ou ultérieure.
+</nierror>
+<nierror code="-30208">
+ComponentWorks:  Des acquisition déclenchées asynchrones ne sont pas supportées si "StillColor" est activé.
+</nierror>
+<nierror code="-30207">
+ComponentWorks:  L'opération IMAQ ne peut pas démarrer car elle n'est pas configurée ou parce qu'elle est en cours.
+</nierror>
+<nierror code="-30206">
+ComponentWorks:  Opération IMAQ non active.
+</nierror>
+<nierror code="-30205">
+ComponentWorks:  Opération IMAQ non configurée.
+</nierror>
+<nierror code="-30204">
+ComponentWorks:  <IMG_WRN_BRST> "Colorburst" de mauvaise qualité.
+</nierror>
+<nierror code="-30203">
+ComponentWorks:  <IMG_WRN_BLKG> Référence de "blanking" instable.
+</nierror>
+<nierror code="-30202">
+ComponentWorks:  <IMG_WRN_ILCK> Interface toujours verrouillée.
+</nierror>
+<nierror code="-30201">
+ComponentWorks:  <IMG_WRN_CONF> Une modification requiert une reconfiguration pour prendre effet.
+</nierror>
+<nierror code="-30200">
+ComponentWorks:  <IMG_WRN_BCAM> Détection d'un fichier de support de caméra corrompu
+</nierror>
+<nierror code="-30105">
+ComponentWorks:  Le paramètre de retour dans NonLinearFitCallback doit être une valeur scalaire.
+</nierror>
+<nierror code="-30104">
+ComponentWorks:  Les paramètres d'entrée doivent tous contenir le même type de données
+</nierror>
+<nierror code="-30103">
+ComponentWorks:  L'argument n'est pas un tableau.
+</nierror>
+<nierror code="-30102">
+ComponentWorks:  Le tableau ne peut pas être déverrouillé.
+</nierror>
+<nierror code="-30101">
+ComponentWorks:  Le tableau ne peut pas être verrouillé.
+</nierror>
+<nierror code="-30100">
+ComponentWorks:  Le type de données est incorrect.
+</nierror>
+<nierror code="-30081">
+ComponentWorks:  Le point d'arrêt ou la capture doit être actif avant de pouvoir être désactivé.
+</nierror>
+<nierror code="-30080">
+ComponentWorks:  Vous ne pouvez activer des points d'arrêt de déplacement que sur une opération de déplacement.
+</nierror>
+<nierror code="-30079">
+ComponentWorks:  Vous devez appeler la méthode Start avant que la méthode Enable ne soit appelée lors d'un point d'arrêt ou d'une capture.
+</nierror>
+<nierror code="-30078">
+ComponentWorks:  Vous ne pouvez définir la propriété PositionMode en Modulus Position que pour les déplacements sur un seul axe.
+</nierror>
+<nierror code="-30077">
+ComponentWorks:  La propriété Positions d'un point d'arrêt est un tableau vide. Vous devez transmettre un tableau de positions à la propriété avant d'activer le point d'arrêt.
+</nierror>
+<nierror code="-30076">
+ComponentWorks:  Le ProgressInterval doit être >0 et =< TotalPoints.
+</nierror>
+<nierror code="-30075">
+ComponentWorks:  Un déplacement sur contour doit être en cours d'exécution lorsque la méthode AppendContourData est appelée. Un objet Breakpoint (point d'arrêt) doit être activé avant de pouvoir appeler la méthode AppendPositions.
+</nierror>
+<nierror code="-30074">
+ComponentWorks:  La propriété AxisName d'un objet de point d'arrêt ou de capture est invalide. AxisName doit correspondre à la propriété Name d'un élément dans la collection Axes
+</nierror>
+<nierror code="-30073">
+ComponentWorks:  NewData est plus large que le backlog disponible.
+</nierror>
+<nierror code="-30072">
+ComponentWorks:  NewData ne peut pas être écrit quand la propriété Reusedata est vraie.
+</nierror>
+<nierror code="-30071">
+ComponentWorks:  Un type de déplacement n'est pas valable pour le type de tâche. Des déplacements de vélocité doivent être compris dans une tâche de vélocité. Des déplacements de contour doivent être compris dans une tâche de déplacements complets.
+</nierror>
+<nierror code="-30070">
+ComponentWorks:  Des éléments ne peuvent pas être ajoutés ou retirés à partir de collections au cours d'un déplacement. Arrêtez le mouvement avant d'éditer la collection.
+</nierror>
+<nierror code="-30069">
+ComponentWorks:  Une tâche de vélocité n'est pas bien configurée.  Une tâche de vélocité doit contenir un déplacement et un axe.
+</nierror>
+<nierror code="-30068">
+ComponentWorks:  Un numéro d'axe ou de vecteur d'espace est déjà utilisé.
+</nierror>
+<nierror code="-30067">
+ComponentWorks:  La propriété ContourData d'un déplacement de contour est un tableau vide.  Vous devez assigner un tableau de positions à cette propriété avant de commencer le déplacement de contour.
+</nierror>
+<nierror code="-30066">
+ComponentWorks:  Un point d'arrêt, une capture ou un déplacement de contour possède une valeur invalide pour TotalPoints. La valeur de TotalPoints doit être supérieure à zéro.
+</nierror>
+<nierror code="-30065">
+ComponentWorks:  RTSI n'est pas disponible sur le contrôleur d'axe sélectionné.
+</nierror>
+<nierror code="-30064">
+ComponentWorks:  Une des propriétés sur une capture est invalide.
+</nierror>
+<nierror code="-30063">
+ComponentWorks:  Une des propriétés sur un point d'arrêt est invalide.
+</nierror>
+<nierror code="-30062">
+ComponentWorks:  L'intervalle de contour spécifié pour un déplacement est invalide.
+</nierror>
+<nierror code="-30061">
+ComponentWorks:  Une des propriétés sur un déplacement est invalide.
+</nierror>
+<nierror code="-30060">
+ComponentWorks:  La collection de déplacements doit contenir au moins un déplacement.
+</nierror>
+<nierror code="-30059">
+ComponentWorks:  Un numéro d'axe spécifié n'est pas valable pour le contrôleur d'axe sélectionné.
+</nierror>
+<nierror code="-30058">
+ComponentWorks:  La collection d'axes doit contenir au moins un axe.
+</nierror>
+<nierror code="-30057">
+ComponentWorks:  Une tâche ne peut pas comprendre plus de trois axes.
+</nierror>
+<nierror code="-30056">
+ComponentWorks:  La valeur zéro n'est pas valable pour la propriété Iterations.
+</nierror>
+<nierror code="-30055">
+ComponentWorks:  La collection de tâches doit contenir au moins une tâche.
+</nierror>
+<nierror code="-30054">
+ComponentWorks:  Vous devez appeler la méthode Configure
+</nierror>
+<nierror code="-30053">
+ComponentWorks:  Une nouvelle version du driver FlexMotion est requise.
+</nierror>
+<nierror code="-30052">
+ComponentWorks:  La fonction spécifiée ne se trouve pas dans le driver.
+</nierror>
+<nierror code="-30051">
+ComponentWorks:  La DLL du driver Flexmotion n'a pas pu être chargée.
+</nierror>
+<nierror code="-30050">
+ComponentWorks:  Une erreur de run time a été générée.  Appelez GetLastError pour retrouver le code d'erreur.
+</nierror>
+<nierror code="-30023">
+ComponentWorks:  CWCounter buffer read a renvoyé un état invalide.
+</nierror>
+<nierror code="-30022">
+ComponentWorks:  CWAO.ProgressInterval doit se diviser de façon égalde dans CWAO.NUpdates.
+</nierror>
+<nierror code="-30021">
+ComponentWorks:  Opération DAQ non configurée.
+</nierror>
+<nierror code="-30020">
+ComponentWorks:  Opération DAQ non active.
+</nierror>
+<nierror code="-30019">
+ComponentWorks:  Le PulseType en cours ne peut pas être reconfiguré.
+</nierror>
+<nierror code="-30018">
+ComponentWorks:  Source de déclenchement invalide.
+</nierror>
+<nierror code="-30017">
+ComponentWorks:  ProgressInterval doit se diviser de façon égale dans les NPatterns.
+</nierror>
+<nierror code="-30016">
+ComponentWorks:  CWAI.NScans doit se diviser de façon égale dans les WAI.NScansPerBuffer.
+</nierror>
+<nierror code="-30015">
+ComponentWorks:  CWAI.ProgressInterval doit se diviser de façon égale dans les CWAI.NScans.
+</nierror>
+<nierror code="-30014">
+ComponentWorks:  Propriété ReturnDataType invalide. Des données mises à l'échelle seront renvoyées.
+</nierror>
+<nierror code="-30013">
+ComponentWorks:  Version plus récente de NI-DAQ requise.
+</nierror>
+<nierror code="-30011">
+ComponentWorks:  Le type de timer sur le périphérique ne peut pas réaliser cette opération.
+</nierror>
+<nierror code="-30010">
+ComponentWorks:  L'opération DAQ ne peut pas démarrer car elle n'est pas configurée ou parce qu'elle est en cours.
+</nierror>
+<nierror code="-30009">
+ComponentWorks:  Impossible de reconfigurer car PulseType a changé.
+</nierror>
+<nierror code="-30008">
+ComponentWorks:  Vous avez appelé une fonction ou une méthode nécessitant un produit Measurement Studio dont vous n'avez pas la licence. Par exemple, vous êtes peut-être en train d'utiliser une méthode non supportée dans le package de base (ou standard) d'analyse. Pour mettre votre produit à jour, contactez National Instruments.
+</nierror>
+<nierror code="-30007">
+ComponentWorks:  Mémoire insuffisante.
+</nierror>
+<nierror code="-30006">
+ComponentWorks:  Erreur de dépassement.
+</nierror>
+<nierror code="-30005">
+ComponentWorks:  Le résultat d'un calcul est un nombre complexe.
+</nierror>
+<nierror code="-30004">
+ComponentWorks:  Une erreur de division par zéro s'est produite.
+</nierror>
+<nierror code="-30003">
+ComponentWorks:  Vous avez passé un type invalide dans un paramètre de type Variant.
+</nierror>
+<nierror code="-30002">
+ComponentWorks:  Vous avez passé une valeur invalide à un des paramètres d'une fonction, méthode ou propriété.
+</nierror>
+<nierror code="-30001">
+ComponentWorks:  Trop de contrôles sont configurés pour ce périphérique DAQ. Réinitialisez un des autres contrôles configurés pour ce périphérique avant de configurer de nouveaux contrôles.
+</nierror>
+<nierror code="-30000">
+ComponentWorks:  Une erreur innatendue a eu lieu.
+</nierror>
+</nidocument>

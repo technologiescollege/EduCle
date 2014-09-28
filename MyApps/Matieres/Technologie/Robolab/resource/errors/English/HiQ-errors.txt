@@ -1,0 +1,51 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="-40014">
+HiQ:  Print error
+</nierror>
+<nierror code="-40013">
+HiQ:  Unable to save notebook
+</nierror>
+<nierror code="-40012">
+HiQ:  Internal error
+</nierror>
+<nierror code="-40011">
+HiQ:  Unspecified exception
+</nierror>
+<nierror code="-40010">
+HiQ:  Data conversion error
+</nierror>
+<nierror code="-40009">
+HiQ:  Insufficient memory for operation
+</nierror>
+<nierror code="-40008">
+HiQ:  Array is empty
+</nierror>
+<nierror code="-40007">
+HiQ:  Script runtime error	
+</nierror>
+<nierror code="-40006">
+HiQ:  Script compile error
+</nierror>
+<nierror code="-40005">
+HiQ:  Operation unsupported
+</nierror>
+<nierror code="-40004">
+HiQ:  Data type mismatch
+</nierror>
+<nierror code="-40003">
+HiQ:  Data type is locked and cannot be modified
+</nierror>
+<nierror code="-40002">
+HiQ:  Object does not exist
+</nierror>
+<nierror code="-40001">
+HiQ:  Object is locked and cannot be modified
+</nierror>
+<nierror code="-40000">
+HiQ:  Unable to open notebook
+</nierror>
+</nidocument>

@@ -1,0 +1,735 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="-34245">
+FieldPoint:  The name of the configuration file path exceeds the maximum length. Names of configuration file paths must not exceed 250 characters in length.
+</nierror>
+<nierror code="-34244">
+FieldPoint:  存在しないまたは空のオブジェクトを削除することはできません。
+</nierror>
+<nierror code="-34243">
+FieldPoint:  指定されたファイルパスは空です。
+</nierror>
+<nierror code="-34241">
+FieldPoint:  ヌルが予想されている場所にヌルでないポインタに遭遇しました。ポインタが新しいメモリ割り当てに使用されますが、すでに割り当てられているかもしれません。
+</nierror>
+<nierror code="-34240">
+FieldPoint:  このオブジェクトを作成中に復旧不可能なエラーが生じました。
+</nierror>
+<nierror code="-34239">
+FieldPoint:  チャネル名構成のためのXMLファイルの構文解析エラー。ファイルは破損しているかまたは不完全です。
+</nierror>
+<nierror code="-34238">
+FieldPoint:  不完全なオブジェクト状態。構成ファイル中のいくつかの情報は、適切なフォーマットではありません。commリソース、デバイス、または項目を作成するために必要なデータがないかまたは解釈できませんでした。構成ファイルが破損しているかもしれません。
+</nierror>
+<nierror code="-34237">
+FieldPoint:  FieldPointサーバを初期化するのに使用されるクライアントコードが無効です。すでに定義されているコードの1つを使用してください。
+</nierror>
+<nierror code="-34235">
+FieldPoint:  現在のリソース格納は空です。考えられる原因: 使用中の構成ファイルは、空か無効なデータを含んでいるかのどちらかです。
+</nierror>
+<nierror code="-34234">
+FieldPoint:  無効または予期しないスイッチまたはIFステートメント結果が生じました。このコードはエンドユーザに見せるべきものではありません。
+</nierror>
+<nierror code="-34233">
+FieldPoint:  構成データは組み込み式デバイスにダウンロードするのに適切な形式ではありません。
+</nierror>
+<nierror code="-34232">
+FieldPoint:  要求されたリストは構成ファイル中に適切な形式で存在しません。
+</nierror>
+<nierror code="-34231">
+FieldPoint:  ファイル操作は失敗しました。
+</nierror>
+<nierror code="-34230">
+FieldPoint:  構成データをアクセスできませんでした。考えられる原因: 構成（IAK）ファイルが破損しているかもしれません。
+</nierror>
+<nierror code="-34229">
+FieldPoint:  構成データはIAKファイル形式に変換できません。
+</nierror>
+<nierror code="-34228">
+FieldPoint:  FieldPointサーバが予期しない/無効状態（および多分復旧できない状態）です。
+</nierror>
+<nierror code="-34227">
+FieldPoint:  構成ファイル中の名前が不適切なため、ある構成データにアクセスできません。考えられる原因: ファイルは破損しています。
+</nierror>
+<nierror code="-34226">
+FieldPoint:  IAKファイル形式は正しくありません。ファイルを開く/構文解析できません。
+</nierror>
+<nierror code="-34225">
+FieldPoint:  いくつかの構成データは保存オプション用にフォーマットされません。
+</nierror>
+<nierror code="-34224">
+FieldPoint:  構成データは保存オプション用にフォーマットされません。
+</nierror>
+<nierror code="-34223">
+FieldPoint:  構成データを保存できませんでした。考えられる原因: 指定されたファイルは使用中かもしれません。
+</nierror>
+<nierror code="-34222">
+FieldPoint:  参照したオブジェクトには親がありません。
+</nierror>
+<nierror code="-34221">
+FieldPoint:  呼び出された関数は、サポートされていないか、適用されていません。オブジェクトのために関数が呼び出されましたが、オブジェクトがその関数をサポートしていないか、その関数がまだ適用されていない（開発フェースでのみ）可能性があります。
+</nierror>
+<nierror code="-34220">
+FieldPoint:  現在の構成ファイルは読み取り専用です。ファイルを見たり使用することはできますが、変更を保存できません。
+</nierror>
+<nierror code="-34219">
+FieldPoint:  構成ファイルを開くこと/読み取りに失敗しました。指定されたパス名が正しいかどうかとファイルにアクセスする権限があるかどうかを確認してください。
+</nierror>
+<nierror code="-34218">
+FieldPoint:  ファイルを閉じようとして発生したエラーです。考えられる原因: ファイルがうまく開かなかったか、またはすでに閉じられたかもしれません。
+</nierror>
+<nierror code="-34217">
+FieldPoint:  構成ファイルを作成中のエラー。考えられる原因: 同じ名前のついた他のファイルが存在する、システムにディスク空き容量がない、またはユーザにファイルをアクセスする権限がありません。
+</nierror>
+<nierror code="-34216">
+FieldPoint:  構成ファイルを開くことに関するエラーです。考えられる原因: ファイルが存在しないか、またはアクセス権がありません。
+</nierror>
+<nierror code="-34215">
+FieldPoint:  オブジェクトの内部状態が無効です。オブジェクトは適切に初期化されていないか、または破損しています。
+</nierror>
+<nierror code="-34214">
+FieldPoint:  TB-10モジュールのためのモジュール情報ファイルを作成するのに失敗しました。必要なデュアルポイントモジュール情報は存在しないか、または破損しているかのどちらかです。
+</nierror>
+<nierror code="-34213">
+FieldPoint:  モジュール情報をアクセス中のエラー。対応するファイルが見つからなかったかまたは開くことができません。
+</nierror>
+<nierror code="-34212">
+FieldPoint:  Windowsのレジストリを閉じようとして発生したエラーです。キーが存在しないまたは開いていませんでした。
+</nierror>
+<nierror code="-34211">
+FieldPoint:  Windowsのレジストリキー作成エラーです。このキーは既に存在するか、ユーザにレジストリを修正するためのアクセス権がありません。
+</nierror>
+<nierror code="-34210">
+FieldPoint:  Windowsのレジストリを開こうとして発生したエラーです。キーが存在しないか、オープンコールに指定のACCESSパラメータを伴うレジストリに対するアクセス権がユーザにありません。
+</nierror>
+<nierror code="-34209">
+FieldPoint:  レジストリキーへ書き込むことができませんでした。キーは読み取り専用か、ユーザにレジストリへのアクセス権がありません。
+</nierror>
+<nierror code="-34208">
+FieldPoint:  Windowsレジストリの読み取りに失敗しました。考えられる原因: 必要なキーが存在しないか、ユーザにレジストリへの読み取りアクセスがない可能性があります。
+</nierror>
+<nierror code="-34207">
+FieldPoint:  FieldPointの評価版/ベータバージョンソフトウェアには、タイムアウト機能が備えられています。
+</nierror>
+<nierror code="-34205">
+FieldPoint:  スマート（共有/weak？）ポインタはヌルオブジェクトを指しています。
+</nierror>
+<nierror code="-34204">
+FieldPoint:  ヌルポインタを通過し、有効なポインタ値を予期するメソッドへ送られました。
+</nierror>
+<nierror code="-34203">
+FieldPoint:  オブジェクト属性が無効です。この属性は不明か、指定されたオブジェクトのプロパティでないかのいずれかです。
+</nierror>
+<nierror code="-34202">
+FieldPoint:  オブジェクト上での操作設定？はサポートされていません。
+</nierror>
+<nierror code="-34201">
+FieldPoint:  メモリの割り当てに失敗しました。システムのメモリ不足している可能性があります。他のアプリケーションを閉じてメモリを解放してください。
+</nierror>
+<nierror code="-34200">
+FieldPoint:  内部状態が不明（致命的なOSエラー等）となりました。
+</nierror>
+<nierror code="-34118">
+FieldPoint:  キャッシュされている値を参照できません。
+</nierror>
+<nierror code="-34117">
+FieldPoint:  指定された項目に正しくないタイプのデータがパブリッシュされようとしました。
+</nierror>
+<nierror code="-34116">
+FieldPoint:  要求された値は他のチャネルの構成された範囲の外にあります。
+</nierror>
+<nierror code="-34115">
+FieldPoint:  FieldPoint VIに渡そうとしたタグハンドルは無効か、または不明です。
+</nierror>
+<nierror code="-34114">
+FieldPoint:  無効なI/O操作文字列です。FieldPoint I/Oコントロールノードの文字列値は構成ファイルパス名、commリソース、デバイス、および項目にパーズできません。
+</nierror>
+<nierror code="-34113">
+FieldPoint:  I/O操作の同期に使用されたLabVIEWオカーレンスオブジェクトは有効ではありません。
+</nierror>
+<nierror code="-34112">
+FieldPoint:  指定された.iakファイルパスは、提供された構成エイリアスに有効ではありません。サーバ名は提供された構成ファイルパスに指定されたエイリアスと一致しなければなりません。
+</nierror>
+<nierror code="-34111">
+FieldPoint:  現在の構成中の1つまたは複数のcommリソース中のデータを利用できません。サーバにアクセスできないか、または構成データが破損しているかもしれません。
+</nierror>
+<nierror code="-34110">
+FieldPoint:  要求された新規構成ファイルの短い名前は他の構成パスと関連付けられています。
+</nierror>
+<nierror code="-34109">
+FieldPoint:  短い名前と構成パスを関連させるデータベースを利用できません。たぶん指定されたファイルを開くことができませんでした。FieldPointがインストールされたディレクトリに読み取りする権限があるかどうかを確認してください。
+</nierror>
+<nierror code="-34108">
+FieldPoint:  指定された名前は構成ファイルパスと関連ありません。提供された名前を使用して、要求された動作を行うことはできません。
+</nierror>
+<nierror code="-34107">
+FieldPoint:  FieldPointサーバの.dllをロードできません。考えられる原因: .dllが必要なインタフェースをサポートしません。
+</nierror>
+<nierror code="-34106">
+FieldPoint:  FieldPointサーバ用の登録されたパスは無効です。FieldPointソフトウェアがちゃんとインストールおよび登録されているかを確認してください。
+</nierror>
+<nierror code="-34105">
+FieldPoint:  ロードされた.dllからエクスポートされた関数のアドレスを取得できません。Win32のGetProcAddressの呼び出しに失敗しました。考えられる原因: .dllがこの関数をサポートしないか、または関数に使用された署名が変更されました。
+</nierror>
+<nierror code="-34104">
+FieldPoint:  要求された.dllは適切にロードするのに失敗しました。dllパスは無効かまたはこのマシンに存在しません。
+</nierror>
+<nierror code="-34103">
+FieldPoint:  パラメータが無効です。この関数/VIへ通過したパラメータのうち少なくとも1つは、無効なまたはサポートされていない値です。
+</nierror>
+<nierror code="-34102">
+FieldPoint:  タグVIが無効です。カスタム作成されたタグVIは、vi.lib\FieldPoint\Custom のCreate Tag ディレクトリになければなりません。
+</nierror>
+<nierror code="-34101">
+FieldPoint:  目標値は構成された範囲外にあります。
+</nierror>
+<nierror code="-34100">
+FieldPoint:  不明なアプリケーションエラー/警告です。
+</nierror>
+<nierror code="-33818">
+FieldPoint:  The desired IP address is already in use by a different FieldPoint network module.
+</nierror>
+<nierror code="-33817">
+FieldPoint:  COMMポートを使用できませんでした。この構成中の他のcommリソースはすでにこのCOMポートを使用しています。
+</nierror>
+<nierror code="-33816">
+FieldPoint:  Optomux応答から予期しない文字を受け取りました。
+</nierror>
+<nierror code="-33815">
+FieldPoint:  USBバス上の通信エラー。
+</nierror>
+<nierror code="-33814">
+FieldPoint:  USBバスを使用して通信しようとして致命的エラーが発生しました。
+</nierror>
+<nierror code="-33812">
+FieldPoint:  COMMポートを使用できませんでした。COMポートはすでに違うボーレート設定の別のFieldPointの通信リソースで使用されています。
+</nierror>
+<nierror code="-33811">
+FieldPoint:  COMMポートと接続できませんでした。他のアプリケーションがすでにCOMポートを使用しています。
+</nierror>
+<nierror code="-33810">
+FieldPoint:  シリアルポートからのメッセージには、ホストアプリケーションにより計算されていないchecksumがあります。
+</nierror>
+<nierror code="-33809">
+FieldPoint:  指定されたCOMポートはこのコンピュータに存在しません。COMポートが存在するかどうかと必要なシステムリソースがあるかを確認するために、システムデバイスをチェックする必要があります。
+</nierror>
+<nierror code="-33808">
+FieldPoint:  このネットワークバスでは、選択されたボーレートはサポートされていません。
+</nierror>
+<nierror code="-33807">
+FieldPoint:  IPアドレスが無効です。与えられたIPアドレスはイーサネットプロトコルで必要なIPアドレスの構文に従っていません。
+</nierror>
+<nierror code="-33806">
+FieldPoint:  必要なネットワーク接続を見つけることができませんでした。考えられる原因: タグが作成されたとき、「Create Tag （タグを作成）」で指定されたネットワークリソースは存在しませんでした。
+</nierror>
+<nierror code="-33805">
+FieldPoint:  サーバはシリアル通信から無効な終了文字を受信しました。
+</nierror>
+<nierror code="-33804">
+FieldPoint:  イーサネット通信に失敗しました。ネットワークカードまたはネットワークカードドライバが存在しないまたは接続されていない可能性があります。
+</nierror>
+<nierror code="-33803">
+FieldPoint:  チャネルはまだサブスクライブされていません。
+</nierror>
+<nierror code="-33802">
+FieldPoint:  ホストには、このデバイスへの読み取り専用アクセスがあります。
+</nierror>
+<nierror code="-33801">
+FieldPoint:  ホストは、このデバイスへのアクセス権がありません。
+</nierror>
+<nierror code="-33800">
+FieldPoint:  不明な通信エラー/警告です
+</nierror>
+<nierror code="-33192">
+FieldPoint:  選択されているチャネルではDeadbandingは受け入れられていません。
+</nierror>
+<nierror code="-33191">
+FieldPoint:  このI/Oモジュールでは、要求された範囲はサポートされていません。サポートされている範囲と対応する範囲のIDのリストを取得するには、モジュールの関連文書を参照してください。
+</nierror>
+<nierror code="-33190">
+FieldPoint:  FieldPoint ネットワークセキュリティを構成するのに使用されるIPパターンは有効ではありません。有効な組み合わせ: 1.  * ,  2.  [num].* , 3.  [num].[num].*, 4. [num].[num].[num].*、（numは0から255までの整数）
+</nierror>
+<nierror code="-33189">
+FieldPoint:  現在ロードされている構成の指定されたアドレスで、違うタイプのモジュールがすでに存在します。
+</nierror>
+<nierror code="-33188">
+FieldPoint:  Blueバス上のFieldPoint I/Oモジュールと通信できません。
+</nierror>
+<nierror code="-33187">
+FieldPoint:  モジュールのセマフォを集録できません。
+</nierror>
+<nierror code="-33186">
+FieldPoint:  属性値が無効です。指定された属性は要求された属性設定をサポートしません。使用されているI/Oモジュールにこの設定が有効かどうかを確認するのに、操作手順をチェックしてください。
+</nierror>
+<nierror code="-33185">
+FieldPoint:  チャネル属性が無効です。指定された属性はアドレス指定されているチャネルでサポートされていません。
+</nierror>
+<nierror code="-33184">
+FieldPoint:  デッドバンド値が無効です。
+</nierror>
+<nierror code="-33183">
+FieldPoint:  このデバイスにI/O項目を作成できません。デバイスはI/O項目をサポートしません。
+</nierror>
+<nierror code="-33182">
+FieldPoint:  モジュール情報シートの構文解析エラーです。MISファイル/バッファが破壊されたか、無効です。
+</nierror>
+<nierror code="-33181">
+FieldPoint:  パスワードが無効です。ネットワークセキュリティ設定を変更するために提供されたパスワードが無効か、またはただしくありません。
+</nierror>
+<nierror code="-33180">
+FieldPoint:  与えられたデータ量と必要なデータ項目数またはアドレス指定されているチャネル数が一致しません。
+</nierror>
+<nierror code="-33165">
+FieldPoint:  The item addressed does not exist. Possible cause: The device is not connected or the item address is invalid.
+</nierror>
+<nierror code="-33160">
+FieldPoint:  要求された機能はこのタイプのネットワークまたはI/Oモジュールではサポートされていません。
+</nierror>
+<nierror code="-33159">
+FieldPoint:  ネットワークモジュールのファームウェアは要求された機能をサポートしません。最新バージョンのファームウェア（ni.com\support\fieldpointからダウンロード）にアップグレードして、再試行してください。
+</nierror>
+<nierror code="-33157">
+FieldPoint:  このアドレスのI/Oモジュールは互換性のないモジュールによって、ホットスワップされました。適切な動作を行うために元と同じタイプのモジュールと置き換えます。
+</nierror>
+<nierror code="-33156">
+FieldPoint:  デバイスはオフラインです。デバイスが接続されていて、電源が入っているかどうかを確認する必要があります。
+</nierror>
+<nierror code="-33155">
+FieldPoint:  FieldPointモジュール用にモジュール情報はありません。誤ってモジュール情報ファイルを削除したか、またはレジストリが破損しているかもしれません。FieldPointのインストールを修復するのに、FieldPointインストーラを再実行する必要があります。
+</nierror>
+<nierror code="-33154">
+FieldPoint:  アドレス指定されたモジュールは選択されたタイプではありません。
+</nierror>
+<nierror code="-33153">
+FieldPoint:  モジュールの識別エラーです。考えられる原因: （1）モジュール情報がシステムにないか、（2）モジュールが無効なモジュールIDを返している可能性があります。（1）の場合、モジュールは新しく解放されて、初めて構成するのにソフトウェアはオンラインでなければなりません。またはモジュール情報およびまたは破損したレジストリが誤って削除された可能性があります。FieldPointのインストールを修復するのに、FieldPointインストーラを再実行する必要があります。（2）の場合、モジュールがちゃんと接続されていないか、モジュール上のEEPROMが破損しているかもしれません。
+</nierror>
+<nierror code="-33036">
+FieldPoint:  不明なエラー。認識不可能なエラー情態が発生しました。
+</nierror>
+<nierror code="-33035">
+FieldPoint:  計測器よりハードウェアエラー。修復不可能な故障が発生しました。
+</nierror>
+<nierror code="-33034">
+FieldPoint:  最後のコマンドに対する応答は利用できません。
+</nierror>
+<nierror code="-33033">
+FieldPoint:  再送信コマンドでアドレス指定されているモジュールは、以前のコマンドでアドレス指定されたモジュールと違います。
+</nierror>
+<nierror code="-33032">
+FieldPoint:  最後にコマンドが送信されてから、モジュールはホットスワップされました。この応答は、ネットワークモジュールがホットスワップをレポートするために有効になっている場合と、ホットスワップレポートモードが有効になった後にホットスワップが発生した場合のみに送信されます。コマンドは無視されました。このエラー番号は、bankに対してのホットスワップレポートが有効になっている場合に標準コマンドに対する応答として、送信されます。
+</nierror>
+<nierror code="-33030">
+FieldPoint:  指定された1つまたは複数の属性が存在しないか、または指定された設定をサポートしません。コマンドは無視されました。
+</nierror>
+<nierror code="-33029">
+FieldPoint:  コマンドで指定された1つまたは複数の範囲が存在しないか、または指定された設定をサポートしません。コマンドは無視されました。
+</nierror>
+<nierror code="-33028">
+FieldPoint:  コマンドで指定された1つまたは複数のチャネルが存在しないか、または指定された操作をサポートしません。コマンドは無視されました。
+</nierror>
+<nierror code="-33027">
+FieldPoint:  アドレスで指定されたモジュールは存在しません。
+</nierror>
+<nierror code="-33026">
+FieldPoint:  FieldPointネットワークモジュールはコマンド中にシリアルフレーミングエラーを検出しました。コマンドは無視されました。
+</nierror>
+<nierror code="-33025">
+FieldPoint:  コマンドは有効ですが、アドレス指定されたモジュールではサポートされていません。
+</nierror>
+<nierror code="-33024">
+FieldPoint:  コマンドに送信された1つまたは複数の文字が正しく数字（16進数または10進数）に変換できませんでした。
+</nierror>
+<nierror code="-32903">
+FieldPoint:  コマンドに対して、指定された制限は無効です。これは無効な数字（16進数または10進数）を受信したという通知を含みます。
+</nierror>
+<nierror code="-32902">
+FieldPoint:  通信リンクネットワークウォッチドッグタイムアウト。コマンドは無視されました。
+</nierror>
+<nierror code="-32901">
+FieldPoint:  受信する文字数が不足しています。受信したモジュールが不十分か、または指定されたコマンドの文字数が正しくないかもしれません。
+</nierror>
+<nierror code="-32900">
+FieldPoint:  サーバは印刷不可能なASCLL文字を受信しました。ASCII値が33から127の文字のみがコマンド内で許可されています。コマンドは無視されました。
+</nierror>
+<nierror code="-32899">
+FieldPoint:  入力バッファが上書きされました。受信したコマンドが長すぎます。コマンドは無視されました。
+</nierror>
+<nierror code="-32898">
+FieldPoint:  コマンドの文字数とChecksumが一致しません。コマンド中のChecksumがコマンド中の文字中の計算されたChecksumと一致しません。コマンドは無視されました。
+</nierror>
+<nierror code="-32897">
+FieldPoint:  未定義または無効なコマンドです。コマンド文字が認められたコマンド文字ではないか、またはアドレス指定されたモジュールがこのコマンドをサポートしません。コマンドは無視されました。
+</nierror>
+<nierror code="-32896">
+FieldPoint:  Power-up Clear（電源導入によるクリア）が必要です。FieldPoint bankは、最後の通信が送信されてから、電源スイッチを切ってすぐに入れ直されました。コマンドは無視されました。
+</nierror>
+<nierror code="-32834">
+FieldPoint:  選択された項目のアドバイス操作はすでに開始されています。新しい操作を始める前に現在の操作を停止しなければなりません。
+</nierror>
+<nierror code="-32833">
+FieldPoint:  ホストマシンにIPアドレスを取得するのを失敗しました。
+</nierror>
+<nierror code="-32831">
+FieldPoint:  選択されたcommリソースは関連しているネットワークまたはI/Oモジュールがありません。FieldPointバンクがオンラインになっているかどうかとネットワークモジュールにアクセスがあるかどうかを確認してください。空のEthernet commリソースは、保存された場合、無効な.iakファイルを作成するかもしれません。
+</nierror>
+<nierror code="-32825">
+FieldPoint:  指定されたIAKリソースストア名はすでに定義されています。
+</nierror>
+<nierror code="-32824">
+FieldPoint:  指定された項目名はすでに定義されています。
+</nierror>
+<nierror code="-32823">
+FieldPoint:  指定されたデバイス名はすでに定義されています。
+</nierror>
+<nierror code="-32822">
+FieldPoint:  指定されたcommリソース名はすでに定義されています。
+</nierror>
+<nierror code="-32819">
+FieldPoint:  指定された項目は現在ロードされている構成ファイルの中にありません。
+</nierror>
+<nierror code="-32818">
+FieldPoint:  指定されたリソース格納は現在アクティブなサーバ構成の中にありません。
+</nierror>
+<nierror code="-32817">
+FieldPoint:  指定されたデバイスは現在ロードされている構成ファイルの中にありません。
+</nierror>
+<nierror code="-32816">
+FieldPoint:  指定されたcommリソースは現在ロードされている構成ファイルの中にありません。
+</nierror>
+<nierror code="-32815">
+FieldPoint:  削除するためにチェックマークを付けたコンプリーションは、現在使用中です。
+</nierror>
+<nierror code="-32814">
+FieldPoint:  削除のチェックボックスにチェックマークが付いているオブジェクト（項目、デバイス、COMMリソース）は、スレッドが使用しています。
+</nierror>
+<nierror code="-32813">
+FieldPoint:  指定されたタグは既に定義されています。
+</nierror>
+<nierror code="-32811">
+FieldPoint:  FieldPointサーバはいくつかのアクティブオブジェクトの破壊に失敗したか、またはあるサービスを終了できませんでした。
+</nierror>
+<nierror code="-32810">
+FieldPoint:  FieldPointサーバの初期化に失敗しました。構成ファイルが存在しないか、破損している可能性があります。また、コールバックの作成に失敗した可能性があります。
+</nierror>
+<nierror code="-32809">
+FieldPoint:  FieldPointサーバは既に初期化されています。
+</nierror>
+<nierror code="-32808">
+FieldPoint:  FieldPointサーバが初期化されていません。
+</nierror>
+<nierror code="-32807">
+FieldPoint:  タスクバッファのオーバーフローが発生しました。
+</nierror>
+<nierror code="-32806">
+FieldPoint:  タグ名が長すぎます。構成ファイルにより設定された文字制限を超過している可能性があります（iakファイルでの制限は31文字）。
+</nierror>
+<nierror code="-32805">
+FieldPoint:  タグ名に不正文字が含まれています。チャネル/ブロック/デバイス/COMM名には、名前にラインフィードまたはキャリッジリターンがある可能性があります。
+</nierror>
+<nierror code="-32802">
+FieldPoint:  指定したコンプリーションは無効です。
+</nierror>
+<nierror code="-32800">
+FieldPoint:  不明なサーバエラー/警告です。
+</nierror>
+<nierror code="0">
+FieldPoint:  IAK操作は正常に完了しました。FieldPoint Serverは.iakファイルのロード、そしてFieldPointシステムの接続に成功しました。
+</nierror>
+<nierror code="32768">
+FieldPoint:  タスクは強制終了されました。タスクが終了する前にFP Closeが呼び出された可能性があります。
+</nierror>
+<nierror code="32769">
+FieldPoint:  タスクは未解決です。
+</nierror>
+<nierror code="32800">
+FieldPoint:  不明なサーバエラー/警告です。
+</nierror>
+<nierror code="32803">
+FieldPoint:  指定されたタスクIDは無効です。FP_ReadCacheまたはFP_Stopを呼び出すときに使用されたタスクIDは無効です。使用されたタスクIDとFP_Adviseによって返されたタスクIDが一致していることを確認してください。
+</nierror>
+<nierror code="32804">
+FieldPoint:  指定されたIAHandleは無効です。使用されたIAHandleとFP_Openによって返されるIAHandleが一致していることを確認してください。
+</nierror>
+<nierror code="32811">
+FieldPoint:  FieldPointサーバはクライアントの要求している終了を拒否しました。他のクライアントがサーバをまだ使用しているかもしれません。最後のクライアントが終了操作を要求するときに、サーバはシャットダウンします。
+</nierror>
+<nierror code="32812">
+FieldPoint:  指定されたタグ名を見つけることができませんでした。
+</nierror>
+<nierror code="32816">
+FieldPoint:  指定されたcommリソースは現在ロードされている構成ファイルの中にありません。
+</nierror>
+<nierror code="32817">
+FieldPoint:  指定されたデバイスは現在ロードされている構成ファイルの中にありません。
+</nierror>
+<nierror code="32818">
+FieldPoint:  指定されたリソース格納は現在アクティブなサーバ構成の中にありません。
+</nierror>
+<nierror code="32819">
+FieldPoint:  指定された項目は現在ロードされている構成ファイルの中にありません。
+</nierror>
+<nierror code="32820">
+FieldPoint:  アイテムは読み取り専用です。
+</nierror>
+<nierror code="32821">
+FieldPoint:  アイテムは書き込み専用です。
+</nierror>
+<nierror code="32822">
+FieldPoint:  指定されたcommリソース名はすでに定義されています。
+</nierror>
+<nierror code="32823">
+FieldPoint:  指定されたデバイス名はすでに定義されています。
+</nierror>
+<nierror code="32824">
+FieldPoint:  指定された項目名はすでに定義されています。
+</nierror>
+<nierror code="32825">
+FieldPoint:  指定されたIAKリソースストア名はすでに定義されています。
+</nierror>
+<nierror code="32826">
+FieldPoint:  構成ファイル中のオブジェクトの少なくとも1つの作成/初期化に失敗しました。次の保存はうまく作成されたオブジェクトのみを保存します。
+</nierror>
+<nierror code="32828">
+FieldPoint:  リモートデバイスへの接続のタイムアウト期限が切れました。
+</nierror>
+<nierror code="32832">
+FieldPoint:  デフォルトのチャネル名データベースの初期化に失敗しました。「FindDevices」で作成された新しい項目は「チャネル」をデフォルト項目名として使用します。FieldPointソフトウェアがちゃんとインストールおよび登録されているかを確認してください。
+</nierror>
+<nierror code="32896">
+FieldPoint:  Power-up Clear（電源導入によるクリア）が必要です。FieldPoint bankは、最後の通信が送信されてから、電源スイッチを切ってすぐに入れ直されました。コマンドは無視されました。
+</nierror>
+<nierror code="32897">
+FieldPoint:  未定義または無効なコマンドです。コマンド文字が認められたコマンド文字ではないか、またはアドレス指定されたモジュールがこのコマンドをサポートしません。コマンドは無視されました。
+</nierror>
+<nierror code="32898">
+FieldPoint:  コマンドの文字数とChecksumが一致しません。コマンド中のChecksumがコマンド中の文字中の計算されたChecksumと一致しません。コマンドは無視されました。
+</nierror>
+<nierror code="32899">
+FieldPoint:  入力バッファが上書きされました。受信したコマンドが長すぎます。コマンドは無視されました。
+</nierror>
+<nierror code="32900">
+FieldPoint:  サーバは印刷不可能なASCLL文字を受信しました。ASCII値が33から127の文字のみがコマンド内で許可されています。コマンドは無視されました。
+</nierror>
+<nierror code="32901">
+FieldPoint:  受信する文字数が不足しています。受信したモジュールが不十分か、または指定されたコマンドの文字数が正しくないかもしれません。
+</nierror>
+<nierror code="32902">
+FieldPoint:  通信リンクネットワークウォッチドッグタイムアウト。コマンドは無視されました。
+</nierror>
+<nierror code="32903">
+FieldPoint:  コマンドに対して、指定された制限は無効です。これは無効な数字（16進数または10進数）を受信したという通知を含みます。
+</nierror>
+<nierror code="33024">
+FieldPoint:  コマンドに送信された1つまたは複数の文字が正しく数字（16進数または10進数）に変換できませんでした。
+</nierror>
+<nierror code="33025">
+FieldPoint:  コマンドは有効ですが、アドレス指定されたモジュールではサポートされていません。
+</nierror>
+<nierror code="33026">
+FieldPoint:  FieldPointネットワークモジュールはコマンド中にシリアルフレーミングエラーを検出しました。コマンドは無視されました。
+</nierror>
+<nierror code="33027">
+FieldPoint:  アドレスで指定されたモジュールは存在しません。
+</nierror>
+<nierror code="33028">
+FieldPoint:  コマンドで指定された1つまたは複数のチャネルが存在しないか、または指定された操作をサポートしません。コマンドは無視されました。
+</nierror>
+<nierror code="33029">
+FieldPoint:  コマンドで指定された1つまたは複数の範囲が存在しないか、または指定された設定をサポートしません。コマンドは無視されました。
+</nierror>
+<nierror code="33030">
+FieldPoint:  指定された1つまたは複数の属性が存在しないか、または指定された設定をサポートしません。コマンドは無視されました。
+</nierror>
+<nierror code="33032">
+FieldPoint:  最後にコマンドが送信されてから、モジュールはホットスワップされました。この応答は、ネットワークモジュールがホットスワップをレポートするために有効になっている場合と、ホットスワップレポートモードが有効になった後にホットスワップが発生した場合のみに送信されます。コマンドは無視されました。このエラー番号は、bankに対してのホットスワップレポートが有効になっている場合に標準コマンドに対する応答として、送信されます。
+</nierror>
+<nierror code="33033">
+FieldPoint:  再送信コマンドでアドレス指定されているモジュールは、以前のコマンドでアドレス指定されたモジュールと違います。
+</nierror>
+<nierror code="33034">
+FieldPoint:  最後のコマンドに対する応答は利用できません。
+</nierror>
+<nierror code="33035">
+FieldPoint:  計測器のハードウェアエラー。修復不可能な故障が発生しました。
+</nierror>
+<nierror code="33036">
+FieldPoint:  不明なエラー。認識不可能なエラー情態が発生しました。
+</nierror>
+<nierror code="33153">
+FieldPoint:  モジュールの識別エラーです。考えられる原因: （1）モジュール情報がシステムにないか、（2）モジュールが無効なモジュールIDを返している可能性があります。（1）の場合、モジュールは新しく解放されて、初めて構成するのにソフトウェアはオンラインでなければなりません。またはモジュール情報およびまたは破損したレジストリが誤って削除された可能性があります。FieldPointのインストールを修復するのに、FieldPointインストーラを再実行する必要があります。（2）の場合、モジュールがちゃんと接続されていないか、モジュール上のEEPROMが破損しているかもしれません。
+</nierror>
+<nierror code="33154">
+FieldPoint:  アドレス指定されたモジュールは選択されたタイプではありません。
+</nierror>
+<nierror code="33156">
+FieldPoint:  デバイスはオフラインです。デバイスが接続されていて、電源が入っているかどうかを確認する必要があります。
+</nierror>
+<nierror code="33157">
+FieldPoint:  このアドレスのI/Oモジュールは互換性のないモジュールによって、ホットスワップされました。適切な動作を行うために元と同じタイプのモジュールと置き換えます。
+</nierror>
+<nierror code="33158">
+FieldPoint:  このアドレスのI/Oモジュールは互換性のある違うモジュールによって、ホットスワップされました。何もする必要はありません。
+</nierror>
+<nierror code="33161">
+FieldPoint:  書込み操作が、FieldPointのバンクの値の変更に失敗しました。接続が外れている可能性があります。
+</nierror>
+<nierror code="33162">
+FieldPoint:  モジュールにデータ項目を接続できませんでした。接続が外れているか、ネットワークモジュールの電源が投入されていない可能性があります。
+</nierror>
+<nierror code="33163">
+FieldPoint:  モジュールへの接続が解除されました。接続が外れている箇所がある可能性があります。ケーブル接続、電源等をチェックしてください。
+</nierror>
+<nierror code="33183">
+FieldPoint:  要求された構成値は範囲外です。最も近い有効値に強制変換されました。
+</nierror>
+<nierror code="33185">
+FieldPoint:  チャネル属性が無効です。指定された属性はアドレス指定されているチャネルでサポートされていません。
+</nierror>
+<nierror code="33186">
+FieldPoint:  属性値が無効です。指定された属性は要求された属性設定をサポートしません。使用されているI/Oモジュールにこの設定が有効かどうかを確認するのに、操作手順をチェックしてください。
+</nierror>
+<nierror code="33191">
+FieldPoint:  このI/Oモジュールでは、要求された範囲はサポートされていません。サポートされている範囲と対応する範囲のIDのリストを取得するには、モジュールの関連文書を参照してください。
+</nierror>
+<nierror code="33436">
+FieldPoint:  モジュールより不良チャネルが検出されました。すべてのチャネルは以下の1つの状態にあります。: 未構成、不良ステータス「A」、不良ステータス「B」。
+</nierror>
+<nierror code="33437">
+FieldPoint:  指定されたシリアルネットワークモジュールにPowerUp Clear(電源導入によるクリア)コマンドが送信されました。
+</nierror>
+<nierror code="33438">
+FieldPoint:  すべての含まれているチャネルから不良チャネルステータス「A」を戻しました。チャネル特有のエラーが発生しました。詳細についてはモジュールの関連文書を参照してください。
+</nierror>
+<nierror code="33439">
+FieldPoint:  すべての含まれているチャネルから不良チャネルステータス「B」を戻しました。チャネル特有のエラーが発生しました。詳細についてはモジュールの関連文書を参照してください。
+</nierror>
+<nierror code="33440">
+FieldPoint:  すべての含まれているチャネルから不良チャネルステータス「未構成」を戻しました。すべてのチャネルは構成されていない状態です。ハードウェアの故障によりネットワークモジュールがモジュールを構成できない場合、このエラーが発生します。
+</nierror>
+<nierror code="33441">
+FieldPoint:  含まれたチャネルは存在しません。
+</nierror>
+<nierror code="33442">
+FieldPoint:  Optomuxベースのシリアルハードウェアにより不明な警告が戻されました。考えられる原因: 復旧可能な障害。
+</nierror>
+<nierror code="33443">
+FieldPoint:  いくつかのチャネルから不良チャネルが検出されました。少なくとも1つのチャネルは以下の1つの状態にあります。:未構成、不良ステータス「A」、不良ステータス「B」
+</nierror>
+<nierror code="33445">
+FieldPoint:  いくつかの含まれているチャネルから不良チャネルステータス「B」を戻しました。チャネル特有のエラーが発生しました。詳細についてはモジュールの関連文書を参照してください。
+</nierror>
+<nierror code="33446">
+FieldPoint:  いくつかの含まれているチャネルから不良チャネルステータス「未構成」を戻しました。あるチャネルは構成されていない状態です。ハードウェアの故障によりネットワークモジュールがモジュールを構成できない場合、このエラーが発生します。
+</nierror>
+<nierror code="33447">
+FieldPoint:  いくつかのチャネルが存在しません。
+</nierror>
+<nierror code="33448">
+FieldPoint:  含まれているチャネル全てから不良チャネルステータスを戻しました。すべてのチャネルは以下の1つの状態にあります。: 未構成、不良ステータス「A」、不良ステータス「B」。
+</nierror>
+<nierror code="33449">
+FieldPoint:  Application specific error.
+</nierror>
+<nierror code="33487">
+FieldPoint:  範囲外です。測定している入力信号は指定されている測定範囲外です。信号をチェックして、必要があればチャネルが使用している測定範囲を変更してください。
+</nierror>
+<nierror code="33488">
+FieldPoint:  オープンカレントループが検出されました。破損または接続が解除されていないかどうか、配線の接続をチェックしてください。
+</nierror>
+<nierror code="33489">
+FieldPoint:  熱電対がオープンと認識されました。熱電対モジュールはチャネル上に熱電対を検出しませんでした。破損または接続が解除されていないかどうか、接続をチェックしてください。
+</nierror>
+<nierror code="33490">
+FieldPoint:  RTDがオープンと認識されました。RTDモジュールはチャネル上にRTDを検出しませんでした。破損または接続が解除されていないかどうか、接続をチェックしてください。
+</nierror>
+<nierror code="33491">
+FieldPoint:  最後に読み取られてから、カウントがオーバーフローしています。カウントモジュールは最大のカウント値に達しました。何もする必要はありません。
+</nierror>
+<nierror code="33492">
+FieldPoint:  チャネルは許容されている最大電流を流しています。チャネルに接続されているデバイスは、許容している範囲以上の最大電流をチャネルから引出しています。短絡または外部デバイスが故障しているかどうかを確認してください。
+</nierror>
+<nierror code="33493">
+FieldPoint:  チャネルは過電流のプロテクトモードです。チャネルに接続されているデバイスはチャネルが許容している範囲以上の電流を流しています。短絡または外部デバイスが故障しているかどうかを確認してください。
+</nierror>
+<nierror code="33494">
+FieldPoint:  空のベースまたはスロットです。指定されたモジュールはネットワークモジュールまたはTB-10ベースで検出できません。モジュールがベースにちゃんと差し込まれているかどうかとPOWERとREADYのLEDが点灯しているかどうかを確認してください。
+</nierror>
+<nierror code="33495">
+FieldPoint:  チャネルからの不良データ。データは破損していて、正しく表示できません。
+</nierror>
+<nierror code="33496">
+FieldPoint:  指定されたターミナルカウントで、チャネルを超えました。
+</nierror>
+<nierror code="33587">
+FieldPoint:  ある複数のチャネルが範囲外です。計測中の１つまたは複数の入力信号は指定された計測範囲の外にあります。信号をチェックして、必要があればモジュールが使用している計測範囲を変更してください。
+</nierror>
+<nierror code="33588">
+FieldPoint:  あるチャネルでオープンカレントループが検出されました。モジュールの１つまたは複数のチャネルでオープンカレントループが検出されました。破損または接続が解除されていないかどうか、配線の接続をチェックしてください。
+</nierror>
+<nierror code="33589">
+FieldPoint:  あるチャネルで熱電対がオープンと認識されました。熱電対モジュール上の1つまたは複数のチャネルで熱電対の接続を検出できませんでした。破損または接続が解除されていないかどうか、接続をチェックしてください。
+</nierror>
+<nierror code="33590">
+FieldPoint:  あるチャネルでRTDがオープンと認識されました。RTDモジュール上の1つまたは複数のチャネルでRTDを検出できませんでした。破損または接続が解除されていないかどうか、接続をチェックしてください。
+</nierror>
+<nierror code="33591">
+FieldPoint:  Count overflowed since last read for some channels. Some channels on the counter module have reached their maximum count value. No action required.
+</nierror>
+<nierror code="33592">
+FieldPoint:  More than one channel is sourcing the maximum current allowed. The device attached to the channel is drawing the maximum current from the channel. Check for possible shorts or external device failure.
+</nierror>
+<nierror code="33593">
+FieldPoint:  Some channels are in overcurrent protection mode. The device attached to the channel is passing more current than is allowed through the channel. Check for possible shorts or external device failure.
+</nierror>
+<nierror code="33594">
+FieldPoint:  Empty base or slot. The specified module cannot be detected by the network module or the FP-TB-10 base. Make sure the module is firmly fitted into the base and that the POWER and READY LEDs are lit.
+</nierror>
+<nierror code="33595">
+FieldPoint:  Bad data from channel(s). The data is corrupted and cannot be displayed correctly.
+</nierror>
+<nierror code="33800">
+FieldPoint:  不明な通信エラー/警告です。
+</nierror>
+<nierror code="33813">
+FieldPoint:  現在の通信設定ではタイムアウトパラメータは無視されています。シリアルポートはすでに違うタイムアウト設定の別のFieldPointの通信リソースで使用されています。何もする必要はありません。このリソースのタイムアウトは構成ファイルに保存されます。
+</nierror>
+<nierror code="33818">
+FieldPoint:  The desired IP address is already in use by a different FieldPoint comm resource.
+</nierror>
+<nierror code="34100">
+FieldPoint:  不明なアプリケーションエラー/警告
+</nierror>
+<nierror code="34200">
+FieldPoint:  内部状態が不明（致命的なOSエラー等）となりました。
+</nierror>
+<nierror code="34206">
+FieldPoint:  指定されたステータスコードは無効です。受信されたステータスコードは、FieldPoint ソフトウェアによって返された、あらかじめ定義されたエラーコードリストと一致しません。
+</nierror>
+<nierror code="34208">
+FieldPoint:  レジストリの読み取りに失敗しました。必要なキーが存在しないか、ユーザにレジストリへの読み取りアクセスがない可能性があります。
+</nierror>
+<nierror code="34212">
+FieldPoint:  Windowsレジストリを閉じている最中にエラーが発生しました。考えられる原因: キーコードが存在しないか、または開かれていません。
+</nierror>
+<nierror code="34213">
+FieldPoint:  モジュール情報をアクセス中のエラー。対応するファイルが見つからなかったかまたは開くことができません。
+</nierror>
+<nierror code="34218">
+FieldPoint:  ファイルを閉じようとして発生したエラーです。考えられる原因: ファイルがうまく開かなかったか、またはすでに閉じられたかもしれません。
+</nierror>
+<nierror code="34220">
+FieldPoint:  現在の構成ファイルは読み取り専用です。ファイルを見たり使用することはできますが、変更を保存できません。
+</nierror>
+<nierror code="34236">
+FieldPoint:  参照項目または復帰項目は、このコンテナ（配列、リスト等）から最後に取得されました。
+</nierror>
+<nierror code="34238">
+FieldPoint:  不完全なオブジェクト状態。構成ファイル中のいくつかの情報は、適切なフォーマットではありません。commリソース、デバイス、または項目を作成するために必要なデータがないかまたは解釈できませんでした。ファイル構成が破損しているかもしれません。
+</nierror>
+<nierror code="34242">
+FieldPoint:  供給された構成ファイルパスのプライマリエイリアスは存在しません。新しいエイリアスがパスのプライマリエイリアスになるかもしれません。
+</nierror>
+</nidocument>

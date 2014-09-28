@@ -1,0 +1,54 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="-22015">
+NI-Watchdog:  (Hex 0xFFFFAA03) 返されるデータタイプの幅を超えているため、値を返すことができません。
+</nierror>
+<nierror code="-22014">
+NI-Watchdog:  (Hex 0xFFFFAA04) このwatchdogはkNIWatchdogHardwareLockを有効にしました。再起動するまで、構成に変更を加えることはできません。
+</nierror>
+<nierror code="-22013">
+NI-Watchdog:  (Hex 0xFFFFAA04) Watchdogドライバのカーネル部分が存在しないか、または正しくロードできませんでした。
+</nierror>
+<nierror code="-22012">
+NI-Watchdog:  (Hex 0xFFFFAA05) このwatchdogは要求された方法で指定されたトリガラインを推進できません。すべてのwatchdogハードウェアがすべての可能な方法でトリガを推進できません。
+</nierror>
+<nierror code="-22011">
+NI-Watchdog:  (Hex 0xFFFFAA06) 要求されたwatchdogハードウェアはすでに使用されているか、または永久的にロックされています。
+</nierror>
+<nierror code="-22010">
+NI-Watchdog:  (Hex 0xFFFFAA06) 指定されたトリガラインはこのwatchdogでは推進できません。すべてのWatchdogハードウェアを存在する場合、すべてのトリガラインをアサートできません。
+</nierror>
+<nierror code="-22009">
+NI-Watchdog:  (Hex 0xFFFFAA07) Watchdogドライバが行ったメモリ割り当ては失敗に終わりました。
+</nierror>
+<nierror code="-22008">
+NI-Watchdog:  (Hex 0xFFFFAA08) このwatchdogのセッションハンドルまたはオブジェクトポインタは無効か、または違法です。
+</nierror>
+<nierror code="-22007">
+NI-Watchdog:  (Hex 0xFFFFAA09) 指定された動作をwatchdogに追加できません。ある動作は一度のみ追加され、その他は何回でも追加できます。
+</nierror>
+<nierror code="-22006">
+NI-Watchdog:  (Hex 0xFFFFAA0A) Watchdogドライバは予期しない下位レベルエラーを経験しました。
+</nierror>
+<nierror code="-22005">
+NI-Watchdog:  (Hex 0xFFFFAA0B) 要求されたwatchdogハードウェアはシステムに存在しないか、またはドライバと一緒に登録されていません。
+</nierror>
+<nierror code="-22004">
+NI-Watchdog:  (Hex 0xFFFFAA0C) 指定されたwatchdog動作はこのWatchdogハードウェアではサポートされていません。
+</nierror>
+<nierror code="-22003">
+NI-Watchdog:  (Hex 0xFFFFAA0D) 指定された属性はこのwatchdogでは読取専用であり、変更できません。
+</nierror>
+<nierror code="-22002">
+NI-Watchdog:  (Hex 0xFFFFAA0E) 指定された属性はこのwatchdogハードウェアでは認識されません。
+</nierror>
+<nierror code="-22001">
+NI-Watchdog:  (Hex 0xFFFFAA0F) 指定されたメソッドまたは属性はこのwatchdogハードウェアではサポートされていません。
+</nierror>
+<nierror code="-22000">
+NI-Watchdog:  (Hex 0xFFFFAA10) このシステムのWatchdogハードウェアで一般エラーが発生しました。
+</nierror>
+</nidocument>

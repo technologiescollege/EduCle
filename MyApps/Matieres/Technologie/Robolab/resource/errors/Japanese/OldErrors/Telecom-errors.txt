@@ -1,0 +1,21 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="-1074395136">
+Telecom:  (Hex 0xbff60800) Telecom ｴﾗｰの開始のためのﾌﾟﾚｰｽﾎﾙﾀﾞ
+</nierror>
+<nierror code="-1074393089">
+Telecom:  (Hex 0xbff60fff) Telecom ｴﾗｰの終了のためのﾌﾟﾚｰｽﾎﾙﾀﾞ
+</nierror>
+<nierror code="1073088512">
+Telecom:  (Hex 0x3ff60800) Telecom 警告の開始のためのﾌﾟﾚｰｽﾎﾙﾀﾞ
+</nierror>
+<nierror code="1073089025">
+Telecom:  (Hex 0x3FF60A01) 測定は自動測距です。返された測定値はまだ有効ではありません。測定値は表示されますが、自動ﾃｽﾄ用に使用できません。自動ﾃｽﾄ用の有効な測定値を得るには、成功が返されるまで測定機能を呼び出します。
+</nierror>
+<nierror code="1073090559">
+Telecom:  (Hex 0xbff60fff) Telecom 警告の終了のためのﾌﾟﾚｰｽﾎﾙﾀﾞ
+</nierror>
+</nidocument>

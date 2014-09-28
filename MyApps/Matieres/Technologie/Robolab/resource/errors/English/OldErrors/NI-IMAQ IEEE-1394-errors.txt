@@ -1,0 +1,171 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="-1074364416">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68000) Not enough memory
+</nierror>
+<nierror code="-1074364415">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68001) Cannot load the driver
+</nierror>
+<nierror code="-1074364414">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68002) Time out
+</nierror>
+<nierror code="-1074364413">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68003) Function not implemented yet
+</nierror>
+<nierror code="-1074364412">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68004) Internal error
+</nierror>
+<nierror code="-1074364411">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68005) Bad mode
+</nierror>
+<nierror code="-1074364410">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68006) Session not initialized
+</nierror>
+<nierror code="-1074364409">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68007) Bad attribute
+</nierror>
+<nierror code="-1074364408">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68008) Feature not present in the camera
+</nierror>
+<nierror code="-1074364407">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68009) System error
+</nierror>
+<nierror code="-1074364406">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF6800A) Allocation error
+</nierror>
+<nierror code="-1074364405">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF6800B) Allocator is not initialized
+</nierror>
+<nierror code="-1074364404">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF6800C) Value is out of range
+</nierror>
+<nierror code="-1074364403">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF6800D) Bad camera file
+</nierror>
+<nierror code="-1074364402">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF6800E) Invalid Session ID
+</nierror>
+<nierror code="-1074364401">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF6800F) Attribute not supported by the camera
+</nierror>
+<nierror code="-1074364400">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68010) Format is invalid
+</nierror>
+<nierror code="-1074364399">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68011) Mode is invalid
+</nierror>
+<nierror code="-1074364398">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68012) Frame rate is invalid
+</nierror>
+<nierror code="-1074364397">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68013) Color ID is invalid
+</nierror>
+<nierror code="-1074364396">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68014) No acquisition in progress
+</nierror>
+<nierror code="-1074364395">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68015) Acquisition is already in progress
+</nierror>
+<nierror code="-1074364394">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68016) Insufficient resources available for the required video mode
+</nierror>
+<nierror code="-1074364393">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68017) Too many buffers used
+</nierror>
+<nierror code="-1074364392">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68018) Invalid parameter
+</nierror>
+<nierror code="-1074364391">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68019) Non-writable attribute
+</nierror>
+<nierror code="-1074364390">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF6801A) Non-readable attribute
+</nierror>
+<nierror code="-1074364389">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF6801B) Camera not found
+</nierror>
+<nierror code="-1074364388">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF6801C) Camera has been removed
+</nierror>
+<nierror code="-1074364387">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF6801D) Buffer not ready
+</nierror>
+<nierror code="-1074364386">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF6801E) A bus reset occured in the middle of a transaction
+</nierror>
+<nierror code="-1074364385">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF6801F) No license for IMAQ Vision or IMAQ Vision Builder
+</nierror>
+<nierror code="-1074364384">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68020) CVI only error. DLL could not be found      
+</nierror>
+<nierror code="-1074364383">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68021) CVI only error. Function not found in DLL
+</nierror>
+<nierror code="-1074364382">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68022) CVI only error. No resource available
+</nierror>
+<nierror code="-1074364381">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68023) Session not configured
+</nierror>
+<nierror code="-1074364380">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68024) I/O error
+</nierror>
+<nierror code="-1074364379">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68025) Camera is already in use
+</nierror>
+<nierror code="-1074364378">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68026) Bad pointer. The pointer may be NULL when it should be non-NULL, or it may be non-NULL when it should be NULL.
+</nierror>
+<nierror code="-1074364377">
+NI-IMAQ IEEE-1394:  An exception has occured. Check the NI-PAL debug log for more information.
+</nierror>
+<nierror code="-1074364376">
+NI-IMAQ IEEE-1394:  The type of device is invalid. Unable to create an instance.
+</nierror>
+<nierror code="-1074364375">
+NI-IMAQ IEEE-1394:  Unable to perform asychronous register read. The device may be busy or broken.
+</nierror>
+<nierror code="-1074364374">
+NI-IMAQ IEEE-1394:  Unable to perform asychronous register write. The device may be busy or broken.
+</nierror>
+<nierror code="-1074364373">
+NI-IMAQ IEEE-1394:  The combination of video format, mode, and rate is not supported for this camera. Please consult your camera documentation.
+</nierror>
+<nierror code="-1074364372">
+NI-IMAQ IEEE-1394:  The index into the buffer list is incorrect. Reconfigure and try again.
+</nierror>
+<nierror code="-1074364371">
+NI-IMAQ IEEE-1394:  The camera cannot acquire the user ROI. Resize and try again.
+</nierror>
+<nierror code="-1074364370">
+NI-IMAQ IEEE-1394:  The buffer list is already locked. Reconfigure the acquisition and try again.
+</nierror>
+<nierror code="-1074364369">
+NI-IMAQ IEEE-1394:  There is no buffer list. Reconfigure the aquisition and try again.
+</nierror>
+<nierror code="-1074364368">
+NI-IMAQ IEEE-1394:  The isochronous resources have already been allocated. Reconfigure the acquisition and try again.
+</nierror>
+<nierror code="-1074364367">
+NI-IMAQ IEEE-1394:  The buffer list is empty. Add at least one buffer.
+</nierror>
+<nierror code="-1074364366">
+NI-IMAQ IEEE-1394:  For format 7: The combination of speed, image position, image size, and color coding is incorrect.
+</nierror>
+<nierror code="-1074364365">
+NI-IMAQ IEEE-1394:  The requested buffer is unavailable. The contents of the current buffer has been overwritten by the acquistion.
+</nierror>
+<nierror code="-1074364364">
+NI-IMAQ IEEE-1394:  The requested image representation is not supported for the current color coding.
+</nierror>
+<nierror code="-1074364363">
+NI-IMAQ IEEE-1394:  The given occurrence is not valid. Unable to complete image acquistion.
+</nierror>
+<nierror code="-1074364362">
+NI-IMAQ IEEE-1394:  The message queue was not initialized correctly. Unable to perform asynchronous operations.
+</nierror>
+</nidocument>

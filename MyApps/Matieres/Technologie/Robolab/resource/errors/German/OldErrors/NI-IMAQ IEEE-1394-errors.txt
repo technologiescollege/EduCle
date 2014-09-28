@@ -1,0 +1,171 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="-1074364416">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68000) nicht genügend Speicher
+</nierror>
+<nierror code="-1074364415">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68001) kann den Treiber nicht laden
+</nierror>
+<nierror code="-1074364414">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68002) Zeitüberschreitung
+</nierror>
+<nierror code="-1074364413">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68003) Funktion ist noch nicht implementiert
+</nierror>
+<nierror code="-1074364412">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68004) interner Fehler
+</nierror>
+<nierror code="-1074364411">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68005) Falscher Modus
+</nierror>
+<nierror code="-1074364410">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68006) Session ist nicht initialisiert
+</nierror>
+<nierror code="-1074364409">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68007) Ungültige Eigenschaft
+</nierror>
+<nierror code="-1074364408">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68008) Kamera enthält das erforderliche Feature nicht
+</nierror>
+<nierror code="-1074364407">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68009) System-Fehler
+</nierror>
+<nierror code="-1074364406">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF6800A) Zuweisungsfehler
+</nierror>
+<nierror code="-1074364405">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF6800B) Verteiler ist nicht initialisiert
+</nierror>
+<nierror code="-1074364404">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF6800C) Wert liegt ausserhalb des Bereichs
+</nierror>
+<nierror code="-1074364403">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF6800D) Fehlerhafte Kamera-Datei
+</nierror>
+<nierror code="-1074364402">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF6800E) Ungültige Session-Id
+</nierror>
+<nierror code="-1074364401">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF6800F) Eigenschaft wird von der Kamera nicht unterstützt
+</nierror>
+<nierror code="-1074364400">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68010) Format ist ungültig
+</nierror>
+<nierror code="-1074364399">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68011) Modus ist ungültig
+</nierror>
+<nierror code="-1074364398">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68012) Bildrate ist ungültig
+</nierror>
+<nierror code="-1074364397">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68013) Farb-ID ist ungültig
+</nierror>
+<nierror code="-1074364396">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68014) Es läuft zur Zeit keine Aufnahme
+</nierror>
+<nierror code="-1074364395">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68015) Aufnahme läuft bereits
+</nierror>
+<nierror code="-1074364394">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68016) Es sind nicht genügend Ressourcen für den erforderlichen Video-Modus vorhanden
+</nierror>
+<nierror code="-1074364393">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68017) Zu viele Puffer werden benutzt
+</nierror>
+<nierror code="-1074364392">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68018) Ungültiger Parameter
+</nierror>
+<nierror code="-1074364391">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68019) Nicht-schreibbare Eigenschaft
+</nierror>
+<nierror code="-1074364390">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF6801A) Nicht-lesbare Eigenschaft
+</nierror>
+<nierror code="-1074364389">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF6801B) Kamera nicht gefunden
+</nierror>
+<nierror code="-1074364388">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF6801C) Kamera wurde entfernt
+</nierror>
+<nierror code="-1074364387">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF6801D) Puffer nicht bereit
+</nierror>
+<nierror code="-1074364386">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF6801E) Während einer Transaktion trat ein Bus-Reset auf
+</nierror>
+<nierror code="-1074364385">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF6801F) Keine Lizenz für IMAQ Vision oder IMAQ Vision Builder
+</nierror>
+<nierror code="-1074364384">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68020) Fehler (nur CVI), DLL konnte nicht gefunden werden
+</nierror>
+<nierror code="-1074364383">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68021) Fehler (nur CVI), Funktion in DLL nicht gefunden
+</nierror>
+<nierror code="-1074364382">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68022) Fehler (nur CVI), keine Ressouce verfügbar
+</nierror>
+<nierror code="-1074364381">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68023) Session nicht konfiguriert
+</nierror>
+<nierror code="-1074364380">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68024) I/O-Fehler, Fehlfunktion bei Kamera oder 1394-Adapter
+</nierror>
+<nierror code="-1074364379">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68025) Kamera wird bereits durch eine aktive Session benutzt
+</nierror>
+<nierror code="-1074364378">
+NI-IMAQ IEEE-1394:  (Hex 0x0xBFF68026) Der Zeiger ist ungültig.  Er ist möglicherweise NULL, wenn er diesen Wert nicht enthalten sollte oder nicht NULL, wenn er ihn enthalten sollte.
+</nierror>
+<nierror code="-1074364377">
+NI-IMAQ IEEE-1394:  Ein Ausnahmefehler ist aufgetreten. Überprüfen Sie das NI-PAL-Debuglog für weitere Informationen
+</nierror>
+<nierror code="-1074364376">
+NI-IMAQ IEEE-1394:  Der Gerätetyp ist ungültig - Instanz kann nicht erstellt werden.
+</nierror>
+<nierror code="-1074364375">
+NI-IMAQ IEEE-1394:  Asynchrone Leseoperation kann auf Register nicht ausgeführt werden. Das Gerät ist entweder beschäftigt oder beschädigt.
+</nierror>
+<nierror code="-1074364374">
+NI-IMAQ IEEE-1394:  Asynchrone Schreiboperation kann auf Register nicht ausgeführt werden. Das Gerät ist entweder beschäftigt oder beschädigt.
+</nierror>
+<nierror code="-1074364373">
+NI-IMAQ IEEE-1394:  Die Kombination von Video-Format, Modus und Rate wird für diese Kamera nicht unterstützt. Weitere Informationen entnehmen Sie bitte der Kamera-Dokumentation.
+</nierror>
+<nierror code="-1074364372">
+NI-IMAQ IEEE-1394:  Der Index zur Pufferliste ist fehlerhaft - heben Sie den Fehler auf und versuchen Sie es erneut
+</nierror>
+<nierror code="-1074364371">
+NI-IMAQ IEEE-1394:  Die Kamera kann die Benutzer-ROI nicht erfassen, bitte ändern Sie die Größe und versuchen Sie es erneut.
+</nierror>
+<nierror code="-1074364370">
+NI-IMAQ IEEE-1394:  Die Pufferliste ist bereits gesperrt. Heben Sie die Konfiguration auf, bevor Sie es erneut versuchen
+</nierror>
+<nierror code="-1074364369">
+NI-IMAQ IEEE-1394:  Keine Pufferliste vorhanden. Konfigurieren Sie die Erfassung und versuchen Sie es erneut.
+</nierror>
+<nierror code="-1074364368">
+NI-IMAQ IEEE-1394:  Die isochronen Ressourcen wurden bereits reserviert, Rekonfigurieren Sie die Erfassung und versuchen Sie es erneut.
+</nierror>
+<nierror code="-1074364367">
+NI-IMAQ IEEE-1394:  Die Pufferliste ist leer. Fügen Sie mindestens einen Puffer hinzu.
+</nierror>
+<nierror code="-1074364366">
+NI-IMAQ IEEE-1394:  Für Format 7: Die Kombination von Geschwindigkeit, Bildposition, Bildgröße und Farbkodierung ist nicht korrekt.
+</nierror>
+<nierror code="-1074364365">
+NI-IMAQ IEEE-1394:  Angegebener Puffer ist nicht verfügbar. Der Inhalt des aktuellen Puffers wurde durch die Datenerfassung überschrieben.
+</nierror>
+<nierror code="-1074364364">
+NI-IMAQ IEEE-1394:  Die angeforderte Bilddarstellung wird für die aktuelle Farbkodierung nicht unterstützt.
+</nierror>
+<nierror code="-1074364363">
+NI-IMAQ IEEE-1394:  Die gegebene Occurence ist nicht gültig. Bilddatenerfassung konnte nicht beendet werden.
+</nierror>
+<nierror code="-1074364362">
+NI-IMAQ IEEE-1394:  Dieses Nachrichten-Queue wurde nicht ordnungsgemäß initialisiert. Asynchrone Operationen können nicht ausgeführt werden.
+</nierror>
+</nidocument>

@@ -1,0 +1,27 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="-41005">
+NI-Reports:  無効な余白設定
+</nierror>
+<nierror code="-41004">
+NI-Reports:  印刷ｴﾗｰ
+</nierror>
+<nierror code="-41003">
+NI-Reports:  ﾌｧｲﾙを開くときにｴﾗｰが発生しました。
+</nierror>
+<nierror code="-41002">
+NI-Reports:  無効なﾌﾟﾘﾝﾀ名です。
+</nierror>
+<nierror code="-41001">
+NI-Reports:  ﾒﾓﾘが不足しています。
+</nierror>
+<nierror code="-41000">
+NI-Reports:  不明なｴﾗｰ
+</nierror>
+<nierror code="41000">
+NI-Reports:  (Hex 0xA028) 現在のレポートタイプでは、この関数は有効ではありません。
+</nierror>
+</nidocument>

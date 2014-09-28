@@ -1,0 +1,21 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="-2101">
+Measure:  Une chaîne de caractères de voies de sortie analogique contient plusieurs voies. Measure impose que chaque chaîne de caractères ne contienne qu'une seule voie de sortie analogique.
+</nierror>
+<nierror code="-2004">
+Measure:  Excel est à cours de mémoire. Utilisez une gamme plus petite.
+</nierror>
+<nierror code="-2003">
+Measure:  La gamme spécifiée dans la configuration de tâche n'est pas valide.
+</nierror>
+<nierror code="-2002">
+Measure:  La feuille de calcul spécifiée dans la configuration de tâche n'existe pas.
+</nierror>
+<nierror code="-2001">
+Measure:  Impossible de trouver la tâche. 
+</nierror>
+</nidocument>

@@ -1,0 +1,258 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="-1074135040">
+IVI:  (Hex 0xBFFA0000) Cannot load IVI engine.
+</nierror>
+<nierror code="-1074135039">
+IVI:  (Hex 0xBFFA0001) Instrument error.  Call the instrument driver PREFIX_error_query function.
+</nierror>
+<nierror code="-1074135038">
+IVI:  (Hex 0xBFFA0002) Cannot open file.
+</nierror>
+<nierror code="-1074135037">
+IVI:  (Hex 0xBFFA0003) Error reading from file.
+</nierror>
+<nierror code="-1074135036">
+IVI:  (Hex 0xBFFA0004) Error writing to file.
+</nierror>
+<nierror code="-1074135035">
+IVI:  (Hex 0xBFFA0005) Driver module file not found.
+</nierror>
+<nierror code="-1074135034">
+IVI:  (Hex 0xBFFA0006) Cannot open driver module file for reading.
+</nierror>
+<nierror code="-1074135033">
+IVI:  (Hex 0xBFFA0007) Driver module has invalid file format or contains invalid data.
+</nierror>
+<nierror code="-1074135032">
+IVI:  (Hex 0xBFFA0008) Driver module contains undefined references.
+</nierror>
+<nierror code="-1074135031">
+IVI:  (Hex 0xBFFA0009) Cannot find function in driver module.
+</nierror>
+<nierror code="-1074135030">
+IVI:  (Hex 0xBFFA000A) Failure loading driver module.
+</nierror>
+<nierror code="-1074135029">
+IVI:  (Hex 0xBFFA000B) Invalid path name.
+</nierror>
+<nierror code="-1074135028">
+IVI:  (Hex 0xBFFA000C) Invalid attribute.
+</nierror>
+<nierror code="-1074135027">
+IVI:  (Hex 0xBFFA000D) Attribute is not writable.
+</nierror>
+<nierror code="-1074135026">
+IVI:  (Hex 0xBFFA000E) Attribute is not readable.
+</nierror>
+<nierror code="-1074135025">
+IVI:  (Hex 0xBFFA000F) Invalid parameter.
+</nierror>
+<nierror code="-1074135024">
+IVI:  (Hex 0xBFFA0010) Invalid value.
+</nierror>
+<nierror code="-1074135023">
+IVI:  (Hex 0xBFFA0011) Function not supported.
+</nierror>
+<nierror code="-1074135022">
+IVI:  (Hex 0xBFFA0012) Attribute not supported.
+</nierror>
+<nierror code="-1074135021">
+IVI:  (Hex 0xBFFA0013) Value not supported.
+</nierror>
+<nierror code="-1074135020">
+IVI:  (Hex 0xBFFA0014) Invalid Type.
+</nierror>
+<nierror code="-1074135019">
+IVI:  (Hex 0xBFFA0015) Types do not match.
+</nierror>
+<nierror code="-1074135018">
+IVI:  (Hex 0xBFFA0016) The specified attribute already has a value waiting to be updated.
+</nierror>
+<nierror code="-1074135017">
+IVI:  (Hex 0xBFFA0017) The specified item already exists.
+</nierror>
+<nierror code="-1074135016">
+IVI:  (Hex 0xBFFA0018) Not a valid configuration.
+</nierror>
+<nierror code="-1074135015">
+IVI:  (Hex 0xBFFA0019) The requested item or value does not exist or is not available.
+</nierror>
+<nierror code="-1074135014">
+IVI:  (Hex 0xBFFA001A) The requested attribute value not known and cannot be determined.
+</nierror>
+<nierror code="-1074135013">
+IVI:  (Hex 0xBFFA001B) There is no range table for this attribute.
+</nierror>
+<nierror code="-1074135012">
+IVI:  (Hex 0xBFFA001C) The range table is invalid.
+</nierror>
+<nierror code="-1074135011">
+IVI:  (Hex 0xBFFA001D) Object or item is not initialized.
+</nierror>
+<nierror code="-1074135010">
+IVI:  (Hex 0xBFFA001E) The class instrument driver has encountered underspecified instrument configurations that limit interchangeability.
+</nierror>
+<nierror code="-1074135009">
+IVI:  (Hex 0xBFFA001F) No channel table has been built for the session.   The instrument driver must call Ivi_BuildChannelTable in its IviInit function.
+</nierror>
+<nierror code="-1074135008">
+IVI:  (Hex 0xBFFA0020) Channel name specified is not valid for the instrument.
+</nierror>
+<nierror code="-1074135007">
+IVI:  (Hex 0xBFFA0021) Unable to allocate system resource.
+</nierror>
+<nierror code="-1074135006">
+IVI:  (Hex 0xBFFA0022) Permission to access file was denied.
+</nierror>
+<nierror code="-1074135005">
+IVI:  (Hex 0xBFFA0023) Too many files are already open.
+</nierror>
+<nierror code="-1074135004">
+IVI:  (Hex 0xBFFA0024) Unable to create temporary file in target directory.
+</nierror>
+<nierror code="-1074135003">
+IVI:  (Hex 0xBFFA0025) All temporary filenames already used in target directory.
+</nierror>
+<nierror code="-1074135002">
+IVI:  (Hex 0xBFFA0026) Disk is full.
+</nierror>
+<nierror code="-1074135001">
+IVI:  (Hex 0xBFFA0027) Configuration file was not found on disk.
+</nierror>
+<nierror code="-1074135000">
+IVI:  (Hex 0xBFFA0028) Cannot open configuration file.
+</nierror>
+<nierror code="-1074134999">
+IVI:  (Hex 0xBFFA0029) Error reading configuration file.
+</nierror>
+<nierror code="-1074134998">
+IVI:  (Hex 0xBFFA002A) Invalid ViInt32 value in configuration file.
+</nierror>
+<nierror code="-1074134997">
+IVI:  (Hex 0xBFFA002B) Invalid ViReal64 value in configuration file.
+</nierror>
+<nierror code="-1074134996">
+IVI:  (Hex 0xBFFA002C) Invalid ViBoolean value in configuration file.
+</nierror>
+<nierror code="-1074134995">
+IVI:  (Hex 0xBFFA002D) Entry missing from configuration file.
+</nierror>
+<nierror code="-1074134994">
+IVI:  (Hex 0xBFFA002E) Initialization failed in driver DLL.
+</nierror>
+<nierror code="-1074134993">
+IVI:  (Hex 0xBFFA002F) Driver module could not be loaded because of an unresolved external reference.
+</nierror>
+<nierror code="-1074134992">
+IVI:  (Hex 0xBFFA0030) Cannot find CVI Run-Time Engine.
+</nierror>
+<nierror code="-1074134991">
+IVI:  (Hex 0xBFFA0031) Cannot open CVI Run-Time Engine.
+</nierror>
+<nierror code="-1074134990">
+IVI:  (Hex 0xBFFA0032) CVI Run-Time Engine has invalid format.
+</nierror>
+<nierror code="-1074134989">
+IVI:  (Hex 0xBFFA0033) CVI Run-Time Engine is missing one or more required functions.
+</nierror>
+<nierror code="-1074134988">
+IVI:  (Hex 0xBFFA0034) CVI Run-Time Engine initialization failed, probably because of insufficient memory.
+</nierror>
+<nierror code="-1074134987">
+IVI:  (Hex 0xBFFA0035) CVI Run-Time Engine could not be loaded because of an unresolved external reference.
+</nierror>
+<nierror code="-1074134986">
+IVI:  (Hex 0xBFFA0036) Failure loading CVI Run-Time Engine.
+</nierror>
+<nierror code="-1074134985">
+IVI:  (Hex 0xBFFA0037) Cannot open DLL to read exports.
+</nierror>
+<nierror code="-1074134984">
+IVI:  (Hex 0xBFFA0038) DLL file is corrupt.
+</nierror>
+<nierror code="-1074134983">
+IVI:  (Hex 0xBFFA0039) No export table in DLL.
+</nierror>
+<nierror code="-1074134982">
+IVI:  (Hex 0xBFFA003A) Unknown attribute name in default setup section in configuration file.
+</nierror>
+<nierror code="-1074134981">
+IVI:  (Hex 0xBFFA003B) Invalid attribute value in default setup section in configuration file.
+</nierror>
+<nierror code="-1074134980">
+IVI:  (Hex 0xBFFA003C) Memory pointer specified is not known.
+</nierror>
+<nierror code="-1074134979">
+IVI:  (Hex 0xBFFA003D) Ivi_BuildChannelTable was unable to find any channel strings.
+</nierror>
+<nierror code="-1074134978">
+IVI:  (Hex 0xBFFA003E) The channel list used by Ivi_BuildChannelTable contains the same channel string twice.
+</nierror>
+<nierror code="-1074134977">
+IVI:  (Hex 0xBFFA003F) The VirtualChannelNames item in the configuration file contains a duplicate virtual channel name.
+</nierror>
+<nierror code="-1074134976">
+IVI:  (Hex 0xBFFA0040) The VirtualChannelNames item in the configuration file contains an entry without a virtual channel name (nothing before the '=').
+</nierror>
+<nierror code="-1074134975">
+IVI:  (Hex 0xBFFA0041) The VirtualChannelNames item in the configuration file contains an invalid virtual channel name (must not start with a numeric).
+</nierror>
+<nierror code="-1074134974">
+IVI:  (Hex 0xBFFA0042) The VirtualChannelNames item in the configuration file contains a virtual channel name without an assigned channel string (i.e., nothing after '=').
+</nierror>
+<nierror code="-1074134973">
+IVI:  (Hex 0xBFFA0043) The VirtualChannelNames item in the configuration file contains a virtual channel name that is assigned to an unknown or invalid channel string.
+</nierror>
+<nierror code="-1074134972">
+IVI:  (Hex 0xBFFA0044) You must pass a valid channel name when you specify a channel-based attribute.
+</nierror>
+<nierror code="-1074134971">
+IVI:  (Hex 0xBFFA0045) You must pass VI_NULL or an empty string for the channel name when you specify an attribute that is not channel-based.
+</nierror>
+<nierror code="-1074134970">
+IVI:  (Hex 0xBFFA0046) The attribute is not valid for the specified channel.
+</nierror>
+<nierror code="-1074134969">
+IVI:  (Hex 0xBFFA0047) This operation requires a channel-based attribute.  The specified attribute is not channel-based.
+</nierror>
+<nierror code="-1074134968">
+IVI:  (Hex 0xBFFA0048) The channel has already been excluded for the specified attribute and cannot be re-included.
+</nierror>
+<nierror code="-1074134967">
+IVI:  (Hex 0xBFFA0049) The optionsString parameter contains an entry without a name (nothing before the '=').
+</nierror>
+<nierror code="-1074134966">
+IVI:  (Hex 0xBFFA004A) The optionsString parameter contains an entry without a value (nothing after the '=').
+</nierror>
+<nierror code="-1074134965">
+IVI:  (Hex 0xBFFA004B) The optionsString parameter contains an entry with an unknown option name.
+</nierror>
+<nierror code="-1074134964">
+IVI:  (Hex 0xBFFA004C) The optionsString parameter contains an entry with an unknown option value.
+</nierror>
+<nierror code="-1074134963">
+IVI:  (Hex 0xBFFA004D) This operation is valid only on a session created by a class driver.
+</nierror>
+<nierror code="-1074134962">
+IVI:  (Hex 0xBFFA004E) You cannot create a configuration file named "ivi.ini".  That filename is reserved.
+</nierror>
+<nierror code="-1074134961">
+IVI:  (Hex 0xBFFA004F) There already is an entry of the same name in the run-time configuration.
+</nierror>
+<nierror code="-1074134960">
+IVI:  (Hex 0xBFFA0050) The index parameter is one-based.  You must pass a number greater than or equal to 1.
+</nierror>
+<nierror code="-1074134959">
+IVI:  (Hex 0xBFFA0051) The index exceeds the number of items available.
+</nierror>
+<nierror code="-1074134958">
+IVI:  (Hex 0xBFFA0052) You cannot set the cache for an attribute that has the IVI_VAL_NEVER_CACHE flag.
+</nierror>
+<nierror code="-1074134957">
+IVI:  (Hex 0xBFFA0053) You cannot export a ViAddr attribute to the end-user. 
+</nierror>
+</nidocument>

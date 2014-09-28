@@ -1,0 +1,1014 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="0">
+IA Servers:  (Hex 0x0) L'opération IAK s'est déroulée avec succès.
+</nierror>
+<nierror code="32768">
+IA Servers:  (Hex 0x8000) La tâche est terminée
+</nierror>
+<nierror code="32769">
+IA Servers:  (Hex 0x8001) La tâche est en cours.
+</nierror>
+<nierror code="32800">
+IA Servers:  (Hex 0x8020) Erreur de serveur générale.
+</nierror>
+<nierror code="32801">
+IA Servers:  (Hex 0x8021) Un élément invalide a été spécifié.
+</nierror>
+<nierror code="32802">
+IA Servers:  (Hex 0x8022) Un achèvement invalide a été spécifié.
+</nierror>
+<nierror code="32803">
+IA Servers:  (Hex 0x8023) Un TaskID invalide a été spécifié.
+</nierror>
+<nierror code="32804">
+IA Servers:  (Hex 0x8024) Un IAHandle invalide a été spécifié.
+</nierror>
+<nierror code="32805">
+IA Servers:  (Hex 0x8025) Un code d'état invalide a été spécifié.
+</nierror>
+<nierror code="32806">
+IA Servers:  (Hex 0x8026) Un IAType inconnu a été spécifié.
+</nierror>
+<nierror code="32807">
+IA Servers:  (Hex 0x8027) Un débordement du buffer de tâches a eu lieu.
+</nierror>
+<nierror code="32808">
+IA Servers:  (Hex 0x8028) Le serveur IAK n'a pas été initialisé.
+</nierror>
+<nierror code="32809">
+IA Servers:  (Hex 0x8029) Le serveur IAK a déjà été initialisé.
+</nierror>
+<nierror code="32810">
+IA Servers:  (Hex 0x802A) L'initialisation du serveur IAK a échoué.
+</nierror>
+<nierror code="32811">
+IA Servers:  (Hex 0x802B) Le serveur IAK est fermé.
+</nierror>
+<nierror code="32812">
+IA Servers:  (Hex 0x802C) Le nom de tag spécifié n'a pas été trouvé.
+</nierror>
+<nierror code="32813">
+IA Servers:  (Hex 0x802D) Le tag spécifié a déjà été défini.
+</nierror>
+<nierror code="32814">
+IA Servers:  (Hex 0x802E) L'élément est en cours d'utilisation.
+</nierror>
+<nierror code="32815">
+IA Servers:  (Hex 0x802F) La méthode de complétion est en cours d'utilisation
+</nierror>
+<nierror code="32816">
+IA Servers:  (Hex 0x8030) La tâche est toujours en cours.
+</nierror>
+<nierror code="32817">
+IA Servers:  (Hex 0x8031) L'attribut spécifié est inconnu.
+</nierror>
+<nierror code="32818">
+IA Servers:  (Hex 0x8032) L'attribut n'est pas une propriété de l'objet spécifié.
+</nierror>
+<nierror code="32819">
+IA Servers:  (Hex 0x8033) La chaîne de définition de l'élément n'est pas valide.
+</nierror>
+<nierror code="32820">
+IA Servers:  (Hex 0x8034) L'élément est en lecture seule.
+</nierror>
+<nierror code="32821">
+IA Servers:  (Hex 0x8035) L'élément est en écriture seule.
+</nierror>
+<nierror code="32822">
+IA Servers:  (Hex 0x8036) La conversion de type n'est pas supportée pour l'élément spécifié.
+</nierror>
+<nierror code="32823">
+IA Servers:  (Hex 0x8037) L'opération d'E/S a échoué.
+</nierror>
+<nierror code="32824">
+IA Servers:  (Hex 0x8038) L'élément spécifié est trop grand.
+</nierror>
+<nierror code="32825">
+IA Servers:  (Hex 0x8039) La conversion de type a échoué.
+</nierror>
+<nierror code="32826">
+IA Servers:  (Hex 0x803A) Le périphérique est en faute.
+</nierror>
+<nierror code="32827">
+IA Servers:  (Hex 0x803B) Le périphérique est hors ligne.
+</nierror>
+<nierror code="32828">
+IA Servers:  (Hex 0x803C) La période de timeout arrive à expiration.
+</nierror>
+<nierror code="32829">
+IA Servers:  (Hex 0x803D) La communication réseau a échoué.
+</nierror>
+<nierror code="32830">
+IA Servers:  (Hex 0x803E) Impossible de se connecter au port com.
+</nierror>
+<nierror code="32831">
+IA Servers:  (Hex 0x803F) La base de données de configuration commune (CCDB) n'a pas été trouvée.
+</nierror>
+<nierror code="32832">
+IA Servers:  (Hex 0x8040) Echec de l'initialisation de la CCDB.
+</nierror>
+<nierror code="32833">
+IA Servers:  (Hex 0x8041) Le serveur n'a pas été configuré ou n'a pas pu être trouvé.
+</nierror>
+<nierror code="32834">
+IA Servers:  (Hex 0x8042) Il n'y a pas de périphériques configurés pour le serveur.
+</nierror>
+<nierror code="32835">
+IA Servers:  (Hex 0x8043) L'allocation de mémoire a échoué.
+</nierror>
+<nierror code="32836">
+IA Servers:  (Hex 0x8044) Une erreur non récupérable du système d'exploitation s'est produite.
+</nierror>
+<nierror code="32837">
+IA Servers:  (Hex 0x8045) L'opération IAK n'est pas implémentée.
+</nierror>
+<nierror code="32838">
+IA Servers:  (Hex 0x8046) Une erreur interne non récupérable du serveur IAK s'est produite.
+</nierror>
+<nierror code="32839">
+IA Servers:  (Hex 0x8047) Une condition d'erreur inconnue s'est produite.
+</nierror>
+<nierror code="32841">
+IA Servers:  (Hex 0x8049) La version d'évaluation du serveur arrive à expiration.
+</nierror>
+<nierror code="32896">
+IA Servers:  (Hex 0x8080) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32897">
+IA Servers:  (Hex 0x8081) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32898">
+IA Servers:  (Hex 0x8082) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32899">
+IA Servers:  (Hex 0x8082) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32900">
+IA Servers:  (Hex 0x8084) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32901">
+IA Servers:  (Hex 0x8085) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32902">
+IA Servers:  (Hex 0x8086) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32903">
+IA Servers:  (Hex 0x8087) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32904">
+IA Servers:  (Hex 0x8088) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32905">
+IA Servers:  (Hex 0x8089) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32906">
+IA Servers:  (Hex 0x808A) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32907">
+IA Servers:  (Hex 0x808B) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32908">
+IA Servers:  (Hex 0x808C) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32909">
+IA Servers:  (Hex 0x808D) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32910">
+IA Servers:  (Hex 0x808E) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32911">
+IA Servers:  (Hex 0x808F) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32912">
+IA Servers:  (Hex 0x8090) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32913">
+IA Servers:  (Hex 0x8091) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32914">
+IA Servers:  (Hex 0x8092) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32915">
+IA Servers:  (Hex 0x8093) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32916">
+IA Servers:  (Hex 0x8094) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32917">
+IA Servers:  (Hex 0x8095) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32918">
+IA Servers:  (Hex 0x8096) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32919">
+IA Servers:  (Hex 0x8097) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32920">
+IA Servers:  (Hex 0x8098) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32921">
+IA Servers:  (Hex 0x8099) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32922">
+IA Servers:  (Hex 0x809A) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32923">
+IA Servers:  (Hex 0x809B) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32924">
+IA Servers:  (Hex 0x809C) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32925">
+IA Servers:  (Hex 0x809D) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32926">
+IA Servers:  (Hex 0x809E) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32927">
+IA Servers:  (Hex 0x809F) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32928">
+IA Servers:  (Hex 0x80A0) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32929">
+IA Servers:  (Hex 0x80A1) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32930">
+IA Servers:  (Hex 0x80A2) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32931">
+IA Servers:  (Hex 0x80A3) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32932">
+IA Servers:  (Hex 0x80A4) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32933">
+IA Servers:  (Hex 0x80A5) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32934">
+IA Servers:  (Hex 0x80A6) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32935">
+IA Servers:  (Hex 0x80A7) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32936">
+IA Servers:  (Hex 0x80A8) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32937">
+IA Servers:  (Hex 0x80A9) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32938">
+IA Servers:  (Hex 0x80AA) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32939">
+IA Servers:  (Hex 0x80AB) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32940">
+IA Servers:  (Hex 0x80AC) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32941">
+IA Servers:  (Hex 0x80AD) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32942">
+IA Servers:  (Hex 0x80AE) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32943">
+IA Servers:  (Hex 0x80AF) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32944">
+IA Servers:  (Hex 0x80B0) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32945">
+IA Servers:  (Hex 0x80B1) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32946">
+IA Servers:  (Hex 0x80B2) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32947">
+IA Servers:  (Hex 0x80B3) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32948">
+IA Servers:  (Hex 0x80B4) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32949">
+IA Servers:  (Hex 0x80B5) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32950">
+IA Servers:  (Hex 0x80B6) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32951">
+IA Servers:  (Hex 0x80B7) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32952">
+IA Servers:  (Hex 0x80B8) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32953">
+IA Servers:  (Hex 0x80B9) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32954">
+IA Servers:  (Hex 0x80BA) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32955">
+IA Servers:  (Hex 0x80BB) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32956">
+IA Servers:  (Hex 0x80BC) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32957">
+IA Servers:  (Hex 0x80BD) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32958">
+IA Servers:  (Hex 0x80BE) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32959">
+IA Servers:  (Hex 0x80BF) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32960">
+IA Servers:  (Hex 0x80C0) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32961">
+IA Servers:  (Hex 0x80C1) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32962">
+IA Servers:  (Hex 0x80C2) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32963">
+IA Servers:  (Hex 0x80C3) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32964">
+IA Servers:  (Hex 0x80C4) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32965">
+IA Servers:  (Hex 0x80C5) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32966">
+IA Servers:  (Hex 0x80C6) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32967">
+IA Servers:  (Hex 0x80C7) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32968">
+IA Servers:  (Hex 0x80C8) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32969">
+IA Servers:  (Hex 0x80C9) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32970">
+IA Servers:  (Hex 0x80CA) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32971">
+IA Servers:  (Hex 0x80CB) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32972">
+IA Servers:  (Hex 0x80CC) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32973">
+IA Servers:  (Hex 0x80CD) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32974">
+IA Servers:  (Hex 0x80CE) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32975">
+IA Servers:  (Hex 0x80CF) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32976">
+IA Servers:  (Hex 0x80D0) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32977">
+IA Servers:  (Hex 0x80D1) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32978">
+IA Servers:  (Hex 0x80D2) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32979">
+IA Servers:  (Hex 0x80D3) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32980">
+IA Servers:  (Hex 0x80D4) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32981">
+IA Servers:  (Hex 0x80D5) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32982">
+IA Servers:  (Hex 0x80D6) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32983">
+IA Servers:  (Hex 0x80D7) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32984">
+IA Servers:  (Hex 0x80D8) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32985">
+IA Servers:  (Hex 0x80D9) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32986">
+IA Servers:  (Hex 0x80DA) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32987">
+IA Servers:  (Hex 0x80DB) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32988">
+IA Servers:  (Hex 0x80DC) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32989">
+IA Servers:  (Hex 0x80DD) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32990">
+IA Servers:  (Hex 0x80DE) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32991">
+IA Servers:  (Hex 0x80DF) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32992">
+IA Servers:  (Hex 0x80E0) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32993">
+IA Servers:  (Hex 0x80E1) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32994">
+IA Servers:  (Hex 0x80E2) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32995">
+IA Servers:  (Hex 0x80E3) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32996">
+IA Servers:  (Hex 0x80E4) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32997">
+IA Servers:  (Hex 0x80E5) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32998">
+IA Servers:  (Hex 0x80E6) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="32999">
+IA Servers:  (Hex 0x80E7) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33000">
+IA Servers:  (Hex 0x80E8) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33001">
+IA Servers:  (Hex 0x80E9) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33002">
+IA Servers:  (Hex 0x80EA) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33003">
+IA Servers:  (Hex 0x80EB) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33004">
+IA Servers:  (Hex 0x80EC) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33005">
+IA Servers:  (Hex 0x80ED) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33006">
+IA Servers:  (Hex 0x80EE) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33007">
+IA Servers:  (Hex 0x80EF) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33008">
+IA Servers:  (Hex 0x80F0) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33009">
+IA Servers:  (Hex 0x80F1) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33010">
+IA Servers:  (Hex 0x80F2) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33011">
+IA Servers:  (Hex 0x80F3) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33012">
+IA Servers:  (Hex 0x80F4) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33013">
+IA Servers:  (Hex 0x80F5) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33014">
+IA Servers:  (Hex 0x80F6) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33015">
+IA Servers:  (Hex 0x80F7) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33016">
+IA Servers:  (Hex 0x80F8) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33017">
+IA Servers:  (Hex 0x80F9) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33018">
+IA Servers:  (Hex 0x80FA) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33019">
+IA Servers:  (Hex 0x80FB) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33020">
+IA Servers:  (Hex 0x80FC) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33021">
+IA Servers:  (Hex 0x80FD) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33022">
+IA Servers:  (Hex 0x80FE) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33023">
+IA Servers:  (Hex 0x80FF) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33024">
+IA Servers:  (Hex 0x8100) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33025">
+IA Servers:  (Hex 0x8101) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33026">
+IA Servers:  (Hex 0x8102) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33027">
+IA Servers:  (Hex 0x8103) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33028">
+IA Servers:  (Hex 0x8104) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33029">
+IA Servers:  (Hex 0x8105) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33030">
+IA Servers:  (Hex 0x8106) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33031">
+IA Servers:  (Hex 0x8107) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33032">
+IA Servers:  (Hex 0x8108) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33033">
+IA Servers:  (Hex 0x8109) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33034">
+IA Servers:  (Hex 0x810A) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33035">
+IA Servers:  (Hex 0x810B) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33036">
+IA Servers:  (Hex 0x810C) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33037">
+IA Servers:  (Hex 0x810D) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33038">
+IA Servers:  (Hex 0x810E) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33039">
+IA Servers:  (Hex 0x810F) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33040">
+IA Servers:  (Hex 0x8110) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33041">
+IA Servers:  (Hex 0x8111) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33042">
+IA Servers:  (Hex 0x8112) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33043">
+IA Servers:  (Hex 0x8113) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33044">
+IA Servers:  (Hex 0x8114) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33045">
+IA Servers:  (Hex 0x8115) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33046">
+IA Servers:  (Hex 0x8116) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33047">
+IA Servers:  (Hex 0x8117) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33048">
+IA Servers:  (Hex 0x8118) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33049">
+IA Servers:  (Hex 0x8119) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33050">
+IA Servers:  (Hex 0x811A) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33051">
+IA Servers:  (Hex 0x811B) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33052">
+IA Servers:  (Hex 0x811C) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33053">
+IA Servers:  (Hex 0x811D) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33054">
+IA Servers:  (Hex 0x811E) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33055">
+IA Servers:  (Hex 0x811F) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33056">
+IA Servers:  (Hex 0x8120) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33057">
+IA Servers:  (Hex 0x8121) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33058">
+IA Servers:  (Hex 0x8122) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33059">
+IA Servers:  (Hex 0x8123) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33060">
+IA Servers:  (Hex 0x8124) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33061">
+IA Servers:  (Hex 0x8125) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33062">
+IA Servers:  (Hex 0x8126) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33063">
+IA Servers:  (Hex 0x8127) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33064">
+IA Servers:  (Hex 0x8128) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33065">
+IA Servers:  (Hex 0x8129) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33066">
+IA Servers:  (Hex 0x812A) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33067">
+IA Servers:  (Hex 0x812B) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33068">
+IA Servers:  (Hex 0x812C) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33069">
+IA Servers:  (Hex 0x812D) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33070">
+IA Servers:  (Hex 0x812E) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33071">
+IA Servers:  (Hex 0x812F) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33072">
+IA Servers:  (Hex 0x8130) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33073">
+IA Servers:  (Hex 0x8131) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33074">
+IA Servers:  (Hex 0x8132) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33075">
+IA Servers:  (Hex 0x8133) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33076">
+IA Servers:  (Hex 0x8134) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33077">
+IA Servers:  (Hex 0x8135) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33078">
+IA Servers:  (Hex 0x8136) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33079">
+IA Servers:  (Hex 0x8137) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33080">
+IA Servers:  (Hex 0x8138) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33081">
+IA Servers:  (Hex 0x8139) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33082">
+IA Servers:  (Hex 0x813A) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33083">
+IA Servers:  (Hex 0x813B) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33084">
+IA Servers:  (Hex 0x813C) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33085">
+IA Servers:  (Hex 0x813D) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33086">
+IA Servers:  (Hex 0x813E) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33087">
+IA Servers:  (Hex 0x813F) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33088">
+IA Servers:  (Hex 0x8140) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33089">
+IA Servers:  (Hex 0x8141) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33090">
+IA Servers:  (Hex 0x8142) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33091">
+IA Servers:  (Hex 0x8143) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33092">
+IA Servers:  (Hex 0x8144) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33093">
+IA Servers:  (Hex 0x8145) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33094">
+IA Servers:  (Hex 0x8146) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33095">
+IA Servers:  (Hex 0x8147) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33096">
+IA Servers:  (Hex 0x8148) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33097">
+IA Servers:  (Hex 0x8149) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33098">
+IA Servers:  (Hex 0x814A) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33099">
+IA Servers:  (Hex 0x814B) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33100">
+IA Servers:  (Hex 0x814C) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33101">
+IA Servers:  (Hex 0x814D) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33102">
+IA Servers:  (Hex 0x814E) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33103">
+IA Servers:  (Hex 0x814F) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33104">
+IA Servers:  (Hex 0x8150) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33105">
+IA Servers:  (Hex 0x8151) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33106">
+IA Servers:  (Hex 0x8152) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33107">
+IA Servers:  (Hex 0x8153) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33108">
+IA Servers:  (Hex 0x8154) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33109">
+IA Servers:  (Hex 0x8155) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33110">
+IA Servers:  (Hex 0x8156) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33111">
+IA Servers:  (Hex 0x8157) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33112">
+IA Servers:  (Hex 0x8158) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33113">
+IA Servers:  (Hex 0x8159) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33114">
+IA Servers:  (Hex 0x815A) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33115">
+IA Servers:  (Hex 0x815B) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33116">
+IA Servers:  (Hex 0x815C) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33117">
+IA Servers:  (Hex 0x815D) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33118">
+IA Servers:  (Hex 0x815E) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33119">
+IA Servers:  (Hex 0x815F) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33120">
+IA Servers:  (Hex 0x8160) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33121">
+IA Servers:  (Hex 0x8161) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33122">
+IA Servers:  (Hex 0x8162) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33123">
+IA Servers:  (Hex 0x8163) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33124">
+IA Servers:  (Hex 0x8164) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33125">
+IA Servers:  (Hex 0x8165) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33126">
+IA Servers:  (Hex 0x8166) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33127">
+IA Servers:  (Hex 0x8167) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33128">
+IA Servers:  (Hex 0x8168) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33129">
+IA Servers:  (Hex 0x8169) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33130">
+IA Servers:  (Hex 0x816A) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33131">
+IA Servers:  (Hex 0x816B) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33132">
+IA Servers:  (Hex 0x816C) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33152">
+IA Servers:  (Hex 0x8180) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33153">
+IA Servers:  (Hex 0x8181) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33154">
+IA Servers:  (Hex 0x8182) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33155">
+IA Servers:  (Hex 0x8183) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33156">
+IA Servers:  (Hex 0x8184) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33157">
+IA Servers:  (Hex 0x8185) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33158">
+IA Servers:  (Hex 0x8186) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33159">
+IA Servers:  (Hex 0x8187) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33160">
+IA Servers:  (Hex 0x8188) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33168">
+IA Servers:  (Hex 0x8190) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33184">
+IA Servers:  (Hex 0x81A0) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33200">
+IA Servers:  (Hex 0x81B0) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33216">
+IA Servers:  (Hex 0x81C0) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33232">
+IA Servers:  (Hex 0x81D0) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33248">
+IA Servers:  (Hex 0x81E0) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33264">
+IA Servers:  (Hex 0x81E0) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33280">
+IA Servers:  (Hex 0x81F0) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33296">
+IA Servers:  (Hex 0x8210) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33312">
+IA Servers:  (Hex 0x8220) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33314">
+IA Servers:  (Hex 0x8222) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33316">
+IA Servers:  (Hex 0x8224) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33317">
+IA Servers:  (Hex 0x8225) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33319">
+IA Servers:  (Hex 0x8227) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33320">
+IA Servers:  (Hex 0x8228) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33321">
+IA Servers:  (Hex 0x8229) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33328">
+IA Servers:  (Hex 0x8230) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33344">
+IA Servers:  (Hex 0x8240) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33408">
+IA Servers:  (Hex 0x8280) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33409">
+IA Servers:  (Hex 0x8281) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33410">
+IA Servers:  (Hex 0x8282) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33411">
+IA Servers:  (Hex 0x8283) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33412">
+IA Servers:  (Hex 0x8284) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33413">
+IA Servers:  (Hex 0x8285) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33414">
+IA Servers:  (Hex 0x8286) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33415">
+IA Servers:  (Hex 0x8287) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33416">
+IA Servers:  (Hex 0x8288) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33417">
+IA Servers:  (Hex 0x8289) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33418">
+IA Servers:  (Hex 0x828A) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33419">
+IA Servers:  (Hex 0x828B) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33420">
+IA Servers:  (Hex 0x828C) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33421">
+IA Servers:  (Hex 0x828D) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33422">
+IA Servers:  (Hex 0x828E) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33423">
+IA Servers:  (Hex 0x828F) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33424">
+IA Servers:  (Hex 0x8280) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33425">
+IA Servers:  (Hex 0x8281) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33426">
+IA Servers:  (Hex 0x8282) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33427">
+IA Servers:  (Hex 0x8283) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33428">
+IA Servers:  (Hex 0x8284) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33429">
+IA Servers:  (Hex 0x8285) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33430">
+IA Servers:  (Hex 0x8286) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33431">
+IA Servers:  (Hex 0x8287) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33432">
+IA Servers:  (Hex 0x8288) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33433">
+IA Servers:  (Hex 0x8289) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33434">
+IA Servers:  (Hex 0x828A) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+<nierror code="33435">
+IA Servers:  (Hex 0x828B) Erreur spécifique au serveur -- consultez le fichier d'aide du serveur pour plus d'informations.
+</nierror>
+</nidocument>

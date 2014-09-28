@@ -1,0 +1,219 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="-21345">
+NI-DSP:  The number of bytes to allocate should be greater than zero.
+</nierror>
+<nierror code="-21344">
+NI-DSP:  The data type can only be 4 bytes long(0) or 2 bytes long(1).
+</nierror>
+<nierror code="-21343">
+NI-DSP:  The size+offset should be less than or equal to the size of the DSP Handle Structure which you index into.
+</nierror>
+<nierror code="-21342">
+NI-DSP:  The size of the New DSP Handle Structure should be greater than zero.
+</nierror>
+<nierror code="-21341">
+NI-DSP:  The offset should be greater than or equal to zero.
+</nierror>
+<nierror code="-21340">
+NI-DSP:  The number of data to copy should be greater than zero.
+</nierror>
+<nierror code="-21339">
+NI-DSP:  The entire/partial copy selector can only select between entire copy (0) and partial copy (1).
+</nierror>
+<nierror code="-21338">
+NI-DSP:  The path name should be less than 256 characters.
+</nierror>
+<nierror code="-21337">
+NI-DSP:  The array type can only be 32-bit floating point data(0), 16-bit long integer data(1) or 32-bit short integer data(2).
+</nierror>
+<nierror code="-21336">
+NI-DSP:  Failed to allocate a LabVIEW array.
+</nierror>
+<nierror code="-21335">
+NI-DSP:  You can only select one source.
+</nierror>
+<nierror code="-21334">
+NI-DSP:  bytes/element selector can only select between 4 bytes(0) and 2 bytes(1).
+</nierror>
+<nierror code="-21333">
+NI-DSP:  An error occurred when calling the function GetIndirectFunctionHandle in the CIN.
+</nierror>
+<nierror code="-21332">
+NI-DSP:  An error occurred when loading a function in dsp.dll in the CIN.
+</nierror>
+<nierror code="-21331">
+NI-DSP:  An error occurred when loading dsp.dll in the CIN.
+</nierror>
+<nierror code="-21325">
+NI-DSP:  The function ID specified does not belong to any group that is part of the DSP Library currently running on the board.
+</nierror>
+<nierror code="-21324">
+NI-DSP:  The function ID specified does not correspond to a function that is part of the DSP Library currently running on the board.
+</nierror>
+<nierror code="-21318">
+NI-DSP:  The DSP board on which you are trying to load the COFF file is not responding to the transfer of the file.  Check if there is a board in the slot desired and verify with the DAQCONF utility.
+</nierror>
+<nierror code="-21317">
+NI-DSP:  The COFF file you are trying to load is linked with a memory map that exceeds the maximum memory space allowed by the WE DSP32C chip (2^24).
+</nierror>
+<nierror code="-21315">
+NI-DSP:  Found an unimplemented section flag in the COFF file.
+</nierror>
+<nierror code="-21314">
+NI-DSP:  The file you are attempting to load to the DSP board is not created using the WE DSP32C tools (not an acceptable COFF file).
+</nierror>
+<nierror code="-21313">
+NI-DSP:  Could not find the DSP Library file in the directory set by the DAQCONF utility.
+</nierror>
+<nierror code="-21312">
+NI-DSP:  The Kernel did not respond or finish function execution in the selected time limit.
+</nierror>
+<nierror code="-21311">
+NI-DSP:  Failed to allocate a handle in the interface code.
+</nierror>
+<nierror code="-21310">
+NI-DSP:  The DSP Handle used does not belong to the same board on which the function request is made.
+</nierror>
+<nierror code="-21309">
+NI-DSP:  The DSP Handle specified is not valid for this board. It has either been freed or never allocated.
+</nierror>
+<nierror code="-21308">
+NI-DSP:  The size of requested block transfer does not have enough space allocated for it on the board.
+</nierror>
+<nierror code="-21307">
+NI-DSP:  One of the parameters does not have enough space allocated for it on the board.
+</nierror>
+<nierror code="-21306">
+NI-DSP:  The DSP address pointer could not be found to free the buffer.
+</nierror>
+<nierror code="-21305">
+NI-DSP:  The Memory Look Up Table is full; no more allocations allowed before freeing up some DSP handles (maximum allowed = 128).
+</nierror>
+<nierror code="-21304">
+NI-DSP:  The DSP Handle specified is not found on this board. It has either been freed or never allocated.
+</nierror>
+<nierror code="-21303">
+NI-DSP:  The indexing requested falls outside of the buffer into which indexing is requested.
+</nierror>
+<nierror code="-21302">
+NI-DSP:  There are no allocated buffers on the DSP board.
+</nierror>
+<nierror code="-21301">
+NI-DSP:  The onboard hardware diagnostic software found a memory hardware error.  Running functions on the board is unreliable.
+</nierror>
+<nierror code="-21297">
+NI-DSP:  The size of the input array must be a valid power of two:  size = 2^m, 0 < m < 14.
+</nierror>
+<nierror code="-21251">
+NI-DSP:  The rank of the filter must meet:  1 <= (2rank+1) <= size.
+</nierror>
+<nierror code="-21250">
+NI-DSP:  The number of coefficients must be greater than or equal to one.
+</nierror>
+<nierror code="-21249">
+NI-DSP:  The filter cannot be designed with the specified input parameters.
+</nierror>
+<nierror code="-21248">
+NI-DSP:  The leakage coefficient, Leak, must meet:  0 <= Leak <= u, where u is the step-size parameter.
+</nierror>
+<nierror code="-21246">
+NI-DSP:  The step-size parameter u must meet:  0 <= u <= 0.1.
+</nierror>
+<nierror code="-21245">
+NI-DSP:  The attenuation must be greater than the ripple amplitude.
+</nierror>
+<nierror code="-21243">
+NI-DSP:  The input vector is null.  The unit vector does not exist.
+</nierror>
+<nierror code="-21242">
+NI-DSP:  The size of the input sequence must be greater than zero.
+</nierror>
+<nierror code="-21237">
+NI-DSP:  The width must be greater than zero.
+</nierror>
+<nierror code="-21236">
+NI-DSP:  The attenuation must be greater than zero.
+</nierror>
+<nierror code="-21235">
+NI-DSP:  The ripple ampltude must be greater than zero.
+</nierror>
+<nierror code="-21234">
+NI-DSP:  The following conditions must be met: 0 <= f_low <= f_high <= fs/2.
+</nierror>
+<nierror code="-21233">
+NI-DSP:  The cutoff frequency, fc, must meet:  0 <= fc <= fs/2.
+</nierror>
+<nierror code="-21229">
+NI-DSP:  The number of elements of convolved arrays should be greater than zero.
+</nierror>
+<nierror code="-21228">
+NI-DSP:  The order must be greater than zero.
+</nierror>
+<nierror code="-21227">
+NI-DSP:  The array size must be greater than the order.
+</nierror>
+<nierror code="-21226">
+NI-DSP:  The sign of y in Ax=y must be all positive or negative.
+</nierror>
+<nierror code="-21225">
+NI-DSP:  The number of intervals must be greater than zero.
+</nierror>
+<nierror code="-21223">
+NI-DSP:  The upper value must be greater than or equal to the lower value.
+</nierror>
+<nierror code="-21221">
+NI-DSP:  The number of cycles must be greater than zero and less than or equal to the number of samples
+</nierror>
+<nierror code="-21220">
+NI-DSP:  The duty cycle must meet:  0 <= duty cycle <= 100.
+</nierror>
+<nierror code="-21219">
+NI-DSP:  dt must be greater than zero.
+</nierror>
+<nierror code="-21218">
+NI-DSP:  The window duty cycle value must be between 0.0 and 1.0.
+</nierror>
+<nierror code="-21217">
+NI-DSP:  The following condition must be met:  0 <= (delay + width) < samples.
+</nierror>
+<nierror code="-21216">
+NI-DSP:  The width must be greater than or equal to zero.
+</nierror>
+<nierror code="-21215">
+NI-DSP:  The delay must be greater than or equal to zero.
+</nierror>
+<nierror code="-21214">
+NI-DSP:  The index must meet:  0 <= index < samples.
+</nierror>
+<nierror code="-21213">
+NI-DSP:  The width must meet:  0 < width < samples.
+</nierror>
+<nierror code="-21212">
+NI-DSP:  The decimating factor must meet:  0 < decimating factor <= samples.
+</nierror>
+<nierror code="-21210">
+NI-DSP:  There is not enough space left on the DSP board for onboard processing.
+</nierror>
+<nierror code="-21209">
+NI-DSP:  The output array size must be greater than or equal to the input array size.
+</nierror>
+<nierror code="-21208">
+NI-DSP:  The size of x must be greater than or equal to the size of y.
+</nierror>
+<nierror code="-21207">
+NI-DSP:  The sizes of the input sequences must be greater than zero.
+</nierror>
+<nierror code="-21206">
+NI-DSP:  The number of samples must be greater than or equal to two.
+</nierror>
+<nierror code="-21205">
+NI-DSP:  The number of samples must be greater than or equal to zero.
+</nierror>
+<nierror code="-21204">
+NI-DSP:  The number of samples must be greater than zero.
+</nierror>
+</nidocument>

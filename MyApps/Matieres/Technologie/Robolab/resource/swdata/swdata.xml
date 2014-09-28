@@ -1,0 +1,3822 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Examples>
+<Example>
+    <Name>Single-Point Thermocouple Measurement</Name>
+    <Category>Transducer Measurements</Category>
+    <Description>A solution for taking single readings from up to four thermocouples.</Description>
+    <Path>solgal.llb\Single Point Thermocouple Measurement.vit</Path>
+    <ChanNamePath>solgal.llb\Single Point Transducer Measurement.vit</ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+    <Controls>
+        <ControlType>0</ControlType>
+        <ControlName>Device</ControlName>
+        <ControlDataType>10</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>1</ControlType>
+        <ControlName>Channels</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>16</ControlType>
+        <ControlName>Title</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue>Thermocouple Measurement Data</ControlValue>
+    </Controls>
+</Example>
+<Example>
+    <Name>Continuous Thermocouple Measurement</Name>
+    <Category>Transducer Measurements</Category>
+    <Description>A solution for taking continuous readings from up to four thermocouples.</Description>
+    <Path>solgal.llb\Continuous Thermocouple Measurement.vit</Path>
+    <ChanNamePath>solgal.llb\Continuous Transducer Measurement.vit</ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+    <Controls>
+        <ControlType>0</ControlType>
+        <ControlName>Device</ControlName>
+        <ControlDataType>10</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>1</ControlType>
+        <ControlName>Channels</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>16</ControlType>
+        <ControlName>Title</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue>Thermocouple Measurement Data</ControlValue>
+    </Controls>
+</Example>
+<Example>
+    <Name>Single-Point Thermistor Measurement</Name>
+    <Category>Transducer Measurements</Category>
+    <Description>A solution for taking single readings from up to four thermistors.</Description>
+    <Path>solgal.llb\Single Point Thermistor Measurement.vit</Path>
+    <ChanNamePath>solgal.llb\Single Point Transducer Measurement.vit</ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+    <Controls>
+        <ControlType>0</ControlType>
+        <ControlName>Device</ControlName>
+        <ControlDataType>10</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>1</ControlType>
+        <ControlName>Channels</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>16</ControlType>
+        <ControlName>Title</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue>Thermistor Measurement Data</ControlValue>
+    </Controls>
+</Example>
+<Example>
+    <Name>Continuous Thermistor Measurement</Name>
+    <Category>Transducer Measurements</Category>
+    <Description>A solution for taking continuous readings from up to four thermistors.</Description>
+    <Path>solgal.llb\Continuous Thermistor Measurement.vit</Path>
+    <ChanNamePath>solgal.llb\Continuous Transducer Measurement.vit</ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+    <Controls>
+        <ControlType>0</ControlType>
+        <ControlName>Device</ControlName>
+        <ControlDataType>10</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>1</ControlType>
+        <ControlName>Channels</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>16</ControlType>
+        <ControlName>Title</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue>Thermistor Measurement Data</ControlValue>
+    </Controls>
+</Example>
+<Example>
+    <Name>Single-Point RTD Measurement</Name>
+    <Category>Transducer Measurements</Category>
+    <Description>A solution for taking single readings from up to four RTDs.</Description>
+    <Path>solgal.llb\Single Point RTD Measurement.vit</Path>
+    <ChanNamePath>solgal.llb\Single Point Transducer Measurement.vit</ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+    <Controls>
+        <ControlType>0</ControlType>
+        <ControlName>Device</ControlName>
+        <ControlDataType>10</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>1</ControlType>
+        <ControlName>Channels</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>16</ControlType>
+        <ControlName>Title</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue>RTD Measurement Data</ControlValue>
+    </Controls>
+</Example>
+<Example>
+    <Name>Continuous RTD Measurement</Name>
+    <Category>Transducer Measurements</Category>
+    <Description>A solution for taking continuous readings from up to four RTDs.</Description>
+    <Path>solgal.llb\Continuous RTD Measurement.vit</Path>
+    <ChanNamePath>solgal.llb\Continuous Transducer Measurement.vit</ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+    <Controls>
+        <ControlType>0</ControlType>
+        <ControlName>Device</ControlName>
+        <ControlDataType>10</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>1</ControlType>
+        <ControlName>Channels</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>16</ControlType>
+        <ControlName>Title</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue>RTD Measurement Data</ControlValue>
+    </Controls>
+</Example>
+<Example>
+    <Name>Single-Point Strain Gauge Measurement</Name>
+    <Category>Transducer Measurements</Category>
+    <Description>A solution for taking single readings from up to four strain gauges.</Description>
+    <Path>solgal.llb\Single Point Strain Measurement.vit</Path>
+    <ChanNamePath>solgal.llb\Single Point Transducer Measurement.vit</ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+    <Controls>
+        <ControlType>0</ControlType>
+        <ControlName>Device</ControlName>
+        <ControlDataType>10</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>1</ControlType>
+        <ControlName>Channels</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>16</ControlType>
+        <ControlName>Title</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue>Strain Gauge Measurement Data</ControlValue>
+    </Controls>
+</Example>
+<Example>
+    <Name>Continuous Strain Gauge Measurement</Name>
+    <Category>Transducer Measurements</Category>
+    <Description>A solution for taking continuous readings from up to four strain gauges.</Description>
+    <Path>solgal.llb\Continuous Strain Measurement.vit</Path>
+    <ChanNamePath>solgal.llb\Continuous Transducer Measurement.vit</ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+    <Controls>
+        <ControlType>0</ControlType>
+        <ControlName>Device</ControlName>
+        <ControlDataType>10</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>1</ControlType>
+        <ControlName>Channels</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>16</ControlType>
+        <ControlName>Title</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue>Strain Gauge Measurement Data</ControlValue>
+    </Controls>
+</Example>
+<Example>
+    <Name>1 Channel Oscilloscope</Name>
+    <Category>Bench-Top Instruments</Category>
+    <Description>Simple 1 Channel Oscilloscope with very basic functionality.</Description>
+    <Path>solgal.llb\1 Channel Simple Scope.vit</Path>
+    <ChanNamePath>solgal.llb\1 Channel Simple Scope.vit</ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+    <Controls>
+        <ControlType>0</ControlType>
+        <ControlName>Device</ControlName>
+        <ControlDataType>10</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>1</ControlType>
+        <ControlName>Channel</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>1</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+</Example>
+<Example>
+    <Name>2 Channel Oscilloscope</Name>
+    <Category>Bench-Top Instruments</Category>
+    <Description>A simple 2 channel oscilloscope with features such as triggering.</Description>
+    <Path>solgal.llb\2 Channel Oscilloscope.vit</Path>
+    <ChanNamePath>solgal.llb\2 Channel Oscilloscope.vit</ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+    <Controls>
+        <ControlType>0</ControlType>
+        <ControlName>Device</ControlName>
+        <ControlDataType>10</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>1</ControlType>
+        <ControlName>Channel A</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>1</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>1</ControlType>
+        <ControlName>Channel B</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>1</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+</Example>
+<Example>
+    <Name>Digital Multimeter</Name>
+    <Category>Bench-Top Instruments</Category>
+    <Description>A simple digital multimeter example which can take AC and DC voltage measurements.</Description>
+    <Path>solgal.llb\Simple Digital Multimeter.vit</Path>
+    <ChanNamePath>solgal.llb\Simple Digital Multimeter.vit</ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+    <Controls>
+        <ControlType>0</ControlType>
+        <ControlName>Device</ControlName>
+        <ControlDataType>10</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>1</ControlType>
+        <ControlName>Channel</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>1</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+</Example>
+<Example>
+    <Name>Function Generator</Name>
+    <Category>Bench-Top Instruments</Category>
+    <Description>A simple function generator example which can output sine, square, sawtooth, and triangle waveforms.</Description>
+    <Path>solgal.llb\Benchtop Function Generator.vit</Path>
+    <ChanNamePath>solgal.llb\Benchtop Function Generator.vit</ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+    <Controls>
+        <ControlType>2</ControlType>
+        <ControlName>Device</ControlName>
+        <ControlDataType>10</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>3</ControlType>
+        <ControlName>Channel</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>1</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+</Example>
+<Example>
+    <Name>Arbitrary Waveform Generator</Name>
+    <Category>Bench-Top Instruments</Category>
+    <Description>An arbitrary waveform generator where you can create, edit, save, load and output waveforms on up to two channels.</Description>
+    <Path>solgal.llb\Arbitrary Waveform Generator.vit</Path>
+    <ChanNamePath>solgal.llb\Arbitrary Waveform Generator.vit</ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+    <Controls>
+        <ControlType>2</ControlType>
+        <ControlName>Device</ControlName>
+        <ControlDataType>10</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>3</ControlType>
+        <ControlName>output channels</ControlName>
+        <ControlDataType>1</ControlDataType>
+        <ControlMaxNumber>2</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+</Example>
+<Example>
+    <Name>Spectrum Analyzer</Name>
+    <Category>Bench-Top Instruments</Category>
+    <Description>A simple spectrum analyzer example which shows the peak power, peak frequency, and the frequency spectrum using a variety of time-domain windows.
+
+This example requires the LabVIEW Advanced Analysis package to be installed.</Description>
+    <Path>solgal.llb\Benchtop Spectrum Analyzer.vit</Path>
+    <ChanNamePath>solgal.llb\Benchtop Spectrum Analyzer.vit</ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+    <Controls>
+        <ControlType>0</ControlType>
+        <ControlName>Device</ControlName>
+        <ControlDataType>10</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>1</ControlType>
+        <ControlName>Channel</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>1</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+</Example>
+<Example>
+    <Name>Single-Point Voltage Measurement</Name>
+    <Category>Voltage &amp; Current Measurement</Category>
+    <Description>A solution for taking single voltage readings from any source you connect to an analog input channel.</Description>
+    <Path>solgal.llb\Single Point Voltage Measurement.vit</Path>
+    <ChanNamePath>solgal.llb\Single Point Transducer Measurement.vit</ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+    <Controls>
+        <ControlType>0</ControlType>
+        <ControlName>Device</ControlName>
+        <ControlDataType>10</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>1</ControlType>
+        <ControlName>Channels</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>16</ControlType>
+        <ControlName>Title</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue>Voltage Measurement Data</ControlValue>
+    </Controls>
+</Example>
+<Example>
+    <Name>Continuous Voltage Measurement</Name>
+    <Category>Voltage &amp; Current Measurement</Category>
+    <Description>A solution for taking continuous voltage readings from any source you connect to  analog input channels.</Description>
+    <Path>solgal.llb\Continuous Voltage Measurement.vit</Path>
+    <ChanNamePath>solgal.llb\Continuous Transducer Measurement.vit</ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+    <Controls>
+        <ControlType>0</ControlType>
+        <ControlName>Device</ControlName>
+        <ControlDataType>10</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>1</ControlType>
+        <ControlName>Channels</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>16</ControlType>
+        <ControlName>Title</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue>Voltage Measurement Data</ControlValue>
+    </Controls>
+</Example>
+<Example>
+    <Name>Single-Point Current Measurement</Name>
+    <Category>Voltage &amp; Current Measurement</Category>
+    <Description>A solution for taking single current readings from any source you connect to an analog input channel.</Description>
+    <Path>solgal.llb\Single Point Current Measurement.vit</Path>
+    <ChanNamePath>solgal.llb\Single Point Transducer Measurement.vit</ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+    <Controls>
+        <ControlType>0</ControlType>
+        <ControlName>Device</ControlName>
+        <ControlDataType>10</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>1</ControlType>
+        <ControlName>Channels</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>16</ControlType>
+        <ControlName>Title</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue>Current in mA</ControlValue>
+    </Controls>
+</Example>
+<Example>
+    <Name>Continuous Current Measurement</Name>
+    <Category>Voltage &amp; Current Measurement</Category>
+    <Description>A solution for taking continuous current readings from any source you connect to analog input channels.</Description>
+    <Path>solgal.llb\Continuous Current Measurement.vit</Path>
+    <ChanNamePath>solgal.llb\Continuous Transducer Measurement.vit</ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+    <Controls>
+        <ControlType>0</ControlType>
+        <ControlName>Device</ControlName>
+        <ControlDataType>10</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>1</ControlType>
+        <ControlName>Channels</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>16</ControlType>
+        <ControlName>Title</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue>Current in mA</ControlValue>
+    </Controls>
+</Example>
+<Example>
+    <Name>Simple Data Logger</Name>
+    <Category>Data Logging</Category>
+    <Description>A simple software timed data logger which receives data from any source you connect to analog input channels.  Time and date stamped data are logged to a spreadsheet format file.</Description>
+    <Path>solgal.llb\Simple Data Logger.vit</Path>
+    <ChanNamePath>solgal.llb\Simple Data Logger.vit</ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+    <Controls>
+        <ControlType>0</ControlType>
+        <ControlName>Device</ControlName>
+        <ControlDataType>10</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>1</ControlType>
+        <ControlName>Channels</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+</Example>
+<Example>
+    <Name>Simple Data Reader</Name>
+    <Category>Data Logging</Category>
+    <Description>An example of retrieving and displaying logged data from the data file generated with the Simple Data Logger.</Description>
+    <Path>solgal.llb\Simple Data Reader.vit</Path>
+    <ChanNamePath>solgal.llb\Simple Data Reader.vit</ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Advanced Data Logger</Name>
+    <Category>Data Logging</Category>
+    <Description>A software timed advanced data logger which receives data from any source you connect to analog input channels.  Time and date stamped data are logged to a spreadsheet format file along with header information.</Description>
+    <Path>solgal.llb\Data Logger to Spreadsheet File.vit</Path>
+    <ChanNamePath>solgal.llb\Data Logger to Spreadsheet File.vit</ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+    <Controls>
+        <ControlType>0</ControlType>
+        <ControlName>Device</ControlName>
+        <ControlDataType>10</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>1</ControlType>
+        <ControlName>Channels</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+</Example>
+<Example>
+    <Name>Advanced Data Reader</Name>
+    <Category>Data Logging</Category>
+    <Description>An example of retrieving and displaying logged data from the data file generated with the Advanced Data Logger.</Description>
+    <Path>solgal.llb\Data Reader from Spreadsheet File.vit</Path>
+    <ChanNamePath>solgal.llb\Data Reader from Spreadsheet File.vit</ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>High Speed Data Logger</Name>
+    <Category>Data Logging</Category>
+    <Description>A high speed, hardware timed, data logger which receives data from any source you connect to analog input channels.  Data is logged to a binary file.</Description>
+    <Path>solgal.llb\High Speed Data Logger.vit</Path>
+    <ChanNamePath>solgal.llb\High Speed Data Logger.vit</ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+    <Controls>
+        <ControlType>0</ControlType>
+        <ControlName>Device</ControlName>
+        <ControlDataType>10</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>1</ControlType>
+        <ControlName>Channels</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+</Example>
+<Example>
+    <Name>High Speed Data Reader</Name>
+    <Category>Data Logging</Category>
+    <Description>An example of retrieving and displaying logged data from the data file generated with the High Speed Data Logger.</Description>
+    <Path>solgal.llb\High Speed Data Reader.vit</Path>
+    <ChanNamePath>solgal.llb\High Speed Data Reader.vit</ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>PID Control Demo</Name>
+    <Category>Control Applications</Category>
+    <Description>A PID example demo which does not require an external system to control.  You can choose from first order or second order internal software systems.</Description>
+    <Path>solgal.llb\Simple PID Demo.vit</Path>
+    <ChanNamePath>solgal.llb\Simple PID Demo.vit</ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>PID Control Loop</Name>
+    <Category>Control Applications</Category>
+    <Description>A PID example you can use to control your own external system.  The process variable of your system will be read as an analog input, and the PID output to your system will be generated as an analog output.</Description>
+    <Path>solgal.llb\PID Control Loop.vit</Path>
+    <ChanNamePath>solgal.llb\PID Control Loop.vit</ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+    <Controls>
+        <ControlType>0</ControlType>
+        <ControlName>Input Device</ControlName>
+        <ControlDataType>10</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>1</ControlType>
+        <ControlName>Input Channel</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>1</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>2</ControlType>
+        <ControlName>Output Device</ControlName>
+        <ControlDataType>10</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>3</ControlType>
+        <ControlName>Output Channel</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+</Example>
+<Example>
+    <Name>Real-Time (E series) PID Control Loop</Name>
+    <Category>Control Applications</Category>
+    <Description>A real-time PID example you can use to control your own external system.  The process variable of your system will be read as an analog input, and the PID output to your system will be generated as an analog output.  The input and output are synchronized with hardware timing.</Description>
+    <Path>solgal.llb\Real-Time PID Control.vit</Path>
+    <ChanNamePath>solgal.llb\Real-Time PID Control.vit</ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+    <Controls>
+        <ControlType>0</ControlType>
+        <ControlName>Device</ControlName>
+        <ControlDataType>10</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>1</ControlType>
+        <ControlName>Input Channel</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>1</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>3</ControlType>
+        <ControlName>Output Channel</ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+</Example>
+<Example>
+    <Name>Alarm Controller</Name>
+    <Category>Control Applications</Category>
+    <Description>An alarm controller which monitors analog input channels and sets digital lines if alarm states occur.  You can choose high, low, low-to-high, or high-to-low limit alarms.</Description>
+    <Path>solgal.llb\Alarm Controller.vit</Path>
+    <ChanNamePath>solgal.llb\Alarm Controller.vit</ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+    <Controls>
+        <ControlType>0</ControlType>
+        <ControlName>Device</ControlName>
+        <ControlDataType>10</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>1</ControlType>
+        <ControlName>Channels</ControlName>
+        <ControlDataType>1</ControlDataType>
+        <ControlMaxNumber>8</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+    <Controls>
+        <ControlType>16</ControlType>
+        <ControlName></ControlName>
+        <ControlDataType>0</ControlDataType>
+        <ControlMaxNumber>0</ControlMaxNumber>
+        <ControlValue></ControlValue>
+    </Controls>
+</Example>
+<!-- TODO: include 32hs stuff here -->
+<Example>
+    <Name>Acquire Single Value</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Acquire 1 Point from 1 Channel.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>83</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Single Value - Soft A Trig</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Acquire 1 Point Analog Software Trig.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>275</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Single Value - D Trig</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Acquire 1 Point Digital Trig.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>147</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Acquire Finite Samples</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Acquire N Scans.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>85</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Finite Samples - DTrig</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Acquire N Scans Digital Trig.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>149</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Finite Samples - Hard ATrig</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Acquire N Scans Analog Hardware Trig.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>277</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Finite Samples - Soft ATrig</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Acquire N Scans Analog Software Trig.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>277</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Ext. Scanclk Finite Samples</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Acquire N Scans - ExtScanClk.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>101</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Ext. Chanclk Finite Samples</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Acquire N Scans - ExtChanClk.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>101</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>ExtScnclk N Samples A Trig</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Acquire N Scans ExtScanClk Soft A-Trig.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>293</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>ExtScnclk N Samples D Trig</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Acquire N Scans ExtScanClk D-Trig.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>165</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Acquire Cont and Chart (buffered)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Cont Acq&amp;Chart (buffered).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>89</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Acquire Cont And Chart (Async)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Cont Acq&amp;Chart (Async Occurrence).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>89</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Acquire Cont - Hard A Trig</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Cont Acq&amp;Graph (buffered) Hard A-Trig.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>281</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Acquire Cont - D Trig</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Cont Acq&amp;Graph (buffered) D-Trig.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>153</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Acquire Cont - ExtScanClk</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Cont Acq&amp;Graph ExtScanClk.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>105</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Acq Cont - ExtScnClk D Trig</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Cont Acq&amp;Graph ExtScanClk D-Trig.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>169</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Acquire Samples Multi Start</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Acquire N - Multi-Start.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>89</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Acquire Samples Multi DTrig</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Acquire N - Multi-Digital Trig.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>153</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Acq Multi Hardware ATrig</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Acquire N - Multi-Analog Hardware Trig.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>281</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Acq Multi Software ATrig</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Acquire N - Multi-Analog Software Trig.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>281</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Generate Single Value</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Generate 1 Point on 1 Channel.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>83</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Gen 1 Point (E-series) A Trig</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Generate 1 Point E-series A-Trig.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>275</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Gen 1 Point (E-series) D Trig</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Generate 1 Point E-series D-Trig.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>147</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Generate Finite Samples</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Generate N Updates.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>85</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Gen Finite (E-series) D Trig</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Generate N Updates - E-series D-Trig.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>149</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Gen Finite (E-series) A Trig</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Generate N Updates - E-series A-Trig.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>277</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Gen Finite (E-series) Multi A Trig</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Generate N Updates - E-series Multi-A-Trig.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>277</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Gen Finite Samples Ext Clk</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Generate N Updates - ExtUpdateClk.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>101</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Gen N ExClk (Eseries) ATrig</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Gen N Updates - ExtClk E-series A-Trig.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>293</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Gen N ExClk (Eseries) DTrig</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Gen N Updates - ExtClk E-series D-Trig.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>165</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Generate Cont Samples</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Continuous Generation.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>89</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Gen Cont (E-series) A Trig</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Cont Generation - E-series A-Trig.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>281</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Gen Cont (E-series) D Trig</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Cont Generation - E-series D-Trig.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>153</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Gen Cont ExtClk</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Cont Generation - ExtClk.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>105</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Gen Cont ExClk E  ATrig</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Cont Gen - ExtClk E-series A-Trig.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>297</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Gen Cont ExClk E  DTrig</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Cont Gen - ExtClk E-series D-Trig.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>169</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Simultaneous AI/AO (E-series)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Simul AIAO Buffer(E-series).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>89</AnalogInput>
+        <AnalogOutput>89</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Simultaneous AI/AO (legacy MIO)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Simul AIAO Buffer(Legacy).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>89</AnalogInput>
+        <AnalogOutput>89</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Simultaneous AI/AO (Lab/1200)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Simul AIAO Buffer(1200).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>89</AnalogInput>
+        <AnalogOutput>89</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Simultaneous AI/AO (E-series) Trig</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Simul AIAO BufTrig(E-series).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>153</AnalogInput>
+        <AnalogOutput>153</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Simultaneous AI/AO (legacy MIO) Trig</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Simul AIAO BufTrig(Legacy).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>153</AnalogInput>
+        <AnalogOutput>153</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Simultaneous AI/AO (Lab/1200) Trig</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Simul AIAO BufTrig(1200).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>153</AnalogInput>
+        <AnalogOutput>153</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Acq Cont - ExtScnClk A Trig</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Cont Acq&amp;Graph ExtScanClk Soft A-Trig.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>297</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Count Time-Easy STC</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Count Time-Easy (DAQ-STC).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>69</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Delayed Pulse-Easy STC</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Delayed Pulse-Easy (DAQ-STC).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>11</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Delayed Pulse-Int STC</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Delayed Pulse-Int (DAQ-STC).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>11</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Pulse Train on FREQ_OUT</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Generate Pulse Train on FREQ_OUT.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>13</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Cont Pulse Train-Easy 9513</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Cont Pulse Train-Easy (9513).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>21</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Cont Pulse Train-Int 9513</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Cont Pulse Train-Int (9513).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>21</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Count Events-Easy 9513</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Count Events-Easy (9513).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>131</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Count Events-Int 9513</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Count Events-Int (9513).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>131</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Count Time-Easy 9513</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Count Time-Easy (9513).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>133</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Count Time-Int 9513</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Count Time-Int (9513).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>133</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Delayed Pulse-Easy 9513</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Delayed Pulse-Easy (9513).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>19</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Delayed Pulse-Int 9513</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Delayed Pulse-Int (9513).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>19</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Finite Pulse Train-Easy 9513</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Finite Pulse Train-Easy (9513).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>21</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Finite Pulse Train-Int 9513</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Finite Pulse Train-Int (9513).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>21</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Pulse Train on FOUT</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Generate Pulse Train on FOUT.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>21</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Meas Frequency-Easy 9513</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Measure Frequency-Easy (9513).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>137</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Meas Period-Easy 9513</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Measure Period-Easy (9513).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>145</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Meas Pulse-Easy 9513</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Measure Pulse-Easy (9513).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>161</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Cont Pulse Train 8253</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Cont Pulse Train (8253).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>37</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Count Events 8253</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Count Events (8253).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>259</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Count Time 8253</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Count Time (8253).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>261</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Delayed Pulse 8253</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Delayed Pulse (8253).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>35</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Delay Pulse Dig Start 8253</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Delayed Pulse Dig Start (8253).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>35</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Finite Pulse Train 8253</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Finite Pulse Train (8253).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>37</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Meas Low Frequency 8253</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Measure Frequency &lt; 1 kHz (8253).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>265</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Meas Hi Frequency 8253</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Measure Hi Frequency(8253).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>265</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Meas Freq Dig Start 8253</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Measure Hi Freq- Dig Start(8253).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>265</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Meas Long Pulse 8253</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Measure Long Pulse Width (8253).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>289</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Meas Short Pulse 8253</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Measure Short Pulse Width (8253).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>289</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Meas Fast Period 8253</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Measure Lo Frequency(8253).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>273</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Meas Short Period 8253</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Measure Hi Frequency(8253).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>273</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Meas Period Dig Start 8253</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Measure Hi Freq- Dig Start(8253).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>273</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Cont Acquire to Binary File</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Cont Acq to File (binary).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>89</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Cont Acquire to Scaled File</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Cont Acq to File (scaled).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>89</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Cont Acq to Sprdsheet File</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Cont Acq to Spreadsheet File.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>89</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Display Acq'd Binary File</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Display Acq'd File (binary).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>89</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Display Acq'd Scaled File</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Display Acq'd File (scaled).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>89</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Display Acq'd Spreadsheet File</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Display Acq'd Spreadsheet File.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>89</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Gen Single Current Value</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Generate Single Current on 1 Channel.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>83</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>BNC-2120 Ohm Meter</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\BNC-2120 Ohm Meter.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>85</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>BNC-2120 Quadrature Encoder</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\BNC-2120 Quadrature Encoder.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>67</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Analog IO Control Loop (hw timed)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Analog IO Control Loop (hw timed).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>83</AnalogInput>
+        <AnalogOutput>83</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Analog IO Control Loop (immed)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Analog IO Control Loop (immed).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>83</AnalogInput>
+        <AnalogOutput>83</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Acquire 1 Pt, 1 Ch via AMUX-64T</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Acquire 1 Pt, 1 Ch via AMUX-64T.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>83</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Acquire Finite Samples w/DAQ Occurrences</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Acquire N Scans - Async Occurrence.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>85</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Acquire&amp;Proc N Scans - Trig</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Acquire&amp;Proc N Scans - Trig.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>159</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Acquire&amp;Proc N Scans - SW Trig</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Acquire&amp;Proc N Scans - SW Trig.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>279</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Acquire&amp;Process N Scans</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Acquire&amp;Process N Scans.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>95</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Collect N Scans</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Collect N Scans.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>83</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Collect N Scans</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Collect N Scans.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>83</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Acquire Cont and Chart (easy immed)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Cont Acq&amp;Chart (easy immed).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>83</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Acquire Cont and Chart (hw timed)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Cont Acq&amp;Chart (hw timed).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>83</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Acquire Cont and Chart (immediate)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Cont Acq&amp;Chart (immediate).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>83</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Acquire Cont and Graph (buffered)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Cont Acq&amp;Graph (buffered).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>89</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Thermocouple Meas with SCC-TC0x</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\SCC-TC0x.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>93</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Custom Function Generator</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Function Generator.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>89</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Generate Continuous Sinewave</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Generate Continuous Sinewave.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>89</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Generate Continuous Sinewave</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Generate Continuous Sinewave.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>89</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Write N Updates</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Write N Updates.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>83</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Count Buffered Edges (DAQ-STC)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Count Buffered Edges (DAQ-STC).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>67</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Count Edges (DAQ-STC)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Count Edges (DAQ-STC).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>67</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Finite Pulse Train (DAQ-STC)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Finite Pulse Train (DAQ-STC).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>13</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Frequency Shift Keying (DAQ-STC)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Frequency Shift Keying (DAQ-STC).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>13</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Generate Pulse Train (DAQ-STC)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Generate Pulse Train (DAQ-STC).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>13</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Generate Retriggerable Pulse (DAQ-STC)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Generate Retriggerable Pulse (DAQ-STC).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>11</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Generate Single Pulse (DAQ-STC)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Generate Single Pulse (DAQ-STC).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>11</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Generate Single Triggered Pulse (DAQ-STC)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Generate Single Triggered Pulse (DAQ-STC).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>11</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Measure Buffered Period (DAQ-STC)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Measure Buffered Period (DAQ-STC).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>81</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Measure Buffered Pulse (DAQ-STC)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Measure Buffered Pulse (DAQ-STC).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>97</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Measure Buffered Semi Period (DAQ-STC)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Measure Buffered Semi Period (DAQ-STC).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>81</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Measure Frequency (DAQ-STC)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Measure Frequency (DAQ-STC).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>73</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Measure Period (DAQ-STC)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Measure Period (DAQ-STC).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>81</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Measure Pulse (DAQ-STC)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Measure Pulse (DAQ-STC).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>97</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>DIO652x Change Occurrence</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\DIO652x Change Occurrence.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>5</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Read from 1 Dig Line(652x)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Read from 1 Dig Line(652x).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>3</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Read from 1 Dig Port(652x)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Read from 1 Dig Port(652x).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>5</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Read from 2 Dig Ports(652x)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Read from 2 Dig Ports(652x).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>9</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Read from Digital Port(652x)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Read from Digital Port(652x).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>5</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Write to 1 Dig Line(652x)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Write to 1 Dig Line(652x).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>3</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Write to 1 Dig Port(652x)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Write to 1 Dig Port(652x).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>5</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Write to 2 Dig Ports(652x)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Write to 2 Dig Ports(652x).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>9</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Write to Digital Port(652x)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Write to Digital Port(652x).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>5</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Buf Handshake Input (Async)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Buf Handshake Input (Async).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>41</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Buf Handshake Input</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Buf Handshake Input.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>41</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Buffered Handshake Output</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Buffered Handshake Output.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>41</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Buffered Pattern Input-Trig</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Buffered Pattern Input-Trig.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>41</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Buffered Pattern Input</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Buffered Pattern Input.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>41</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Buffered Pattern Output-Trig</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Buffered Pattern Output-Trig.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>41</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Buffered Pattern Output</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Buffered Pattern Output.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>41</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Burst Mode Input</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Burst Mode Input.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>41</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Burst Mode Output</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Burst Mode Output.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>41</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Change Detection Input</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Change Detection Input.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>41</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Cont Change Detect (Async)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Cont Change Detect (Async).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>41</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Cont Change Detection</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Cont Change Detection.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>41</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Cont Handshake Input</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Cont Handshake Input.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>41</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Cont Handshake Output</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Cont Handshake Output.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>41</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Cont Pattern Input</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Cont Pattern Input.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>41</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Cont Pattern Output</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Cont Pattern Output.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>41</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Dig Buf Hand Iterative(653x)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Dig Buf Hand Iterative(653x).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>41</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Dig Word Handshake In(653x)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Dig Word Handshake In(653x).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>41</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Dig Word Handshake Out(653x)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Dig Word Handshake Out(653x).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>41</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Multi Board Synchronization</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Multi Board Synchronization.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>41</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Read from 1 Dig Line(653x)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Read from 1 Dig Line(653x).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>3</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Read from 1 Dig Port(653x)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Read from 1 Dig Port(653x).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>5</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Read from 2 Dig Ports(653x)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Read from 2 Dig Ports(653x).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>9</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Read from Digital Port(653x)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Read from Digital Port(653x).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>5</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Start &amp; Stop Trig Input</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Start &amp; Stop Trig Input.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>41</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Write to 1 Dig Line(653x)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Write to 1 Dig Line(653x).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>3</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Write to 1 Dig Port(653x)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Write to 1 Dig Port(653x).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>5</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Write to 2 Dig Ports(653x)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Write to 2 Dig Ports(653x).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>9</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Write to Digital Port(653x)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Write to Digital Port(653x).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>5</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Dig Buf Hand Iterative(8255)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Dig Buf Hand Iterative(8255).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>41</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Dig Buf Hand Occur(8255)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Dig Buf Hand Occur(8255).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>41</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Dig Buf Handshake In(8255)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Dig Buf Handshake In(8255).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>41</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Dig Buf Handshake Out(8255)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Dig Buf Handshake Out(8255).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>41</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Dig Word Handshake In(8255)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Dig Word Handshake In(8255).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>41</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Dig Word Handshake Out(8255)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Dig Word Handshake Out(8255).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>41</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Read from 1 Dig Line(8255)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Read from 1 Dig Line(8255).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>3</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Read from 1 Dig Port(8255)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Read from 1 Dig Port(8255).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>5</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Read from 2 Dig Ports(8255)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Read from 2 Dig Ports(8255).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>9</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Read from Digital Port(8255)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Read from Digital Port(8255).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>5</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Write to 1 Dig Line(8255)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Write to 1 Dig Line(8255).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>3</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Write to 1 Dig Port(8255)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Write to 1 Dig Port(8255).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>5</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Write to 1 Dig Port(8255)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Write to 1 Dig Port(8255).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>9</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Write to Digital Port(8255)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Write to Digital Port(8255).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>5</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Dig Multi-line Direction (E)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Dig Multi-line Direction (E).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>3</DigitalInput>
+        <DigitalOutput>3</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Leftover Dig with SCXI (E)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Leftover Dig with SCXI (E).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>3</DigitalInput>
+        <DigitalOutput>3</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Read 1 Pt from Dig Line (E)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Read 1 Pt from Dig Line (E).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>3</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Read from 1 Dig Port (E)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Read from 1 Dig Port (E).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>5</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Write 1 Pt to Dig Line (E)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Write 1 Pt to Dig Line (E).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>3</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Write to 1 Dig Port (E)</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Write to 1 Dig Port (E).vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>5</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Two E-Series Shared Digital Trigger</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Two E-Series Shared Digital Trigger.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>149</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Two E-Series Shared ScanClk</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Two E-Series Shared ScanClk.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>165</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Two E-Series Triggered Externally</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Two E-Series Triggered Externally.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>149</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Getting Started Analog Input</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Getting Started Analog Input.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>85</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Getting Started Analog Output</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Getting Started Analog Output.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>93</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Getting Started Counters</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Getting Started Counters.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>0</DigitalInput>
+        <DigitalOutput>0</DigitalOutput>
+        <CounterMeasurement>199</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+<Example>
+    <Name>Getting Started Digital I/O</Name>
+    <Category></Category>
+    <Description></Description>
+    <Path>custom.llb\Getting Started Digital IO.vit</Path>
+    <ChanNamePath></ChanNamePath>
+    <UnsupportedBoards></UnsupportedBoards>
+    <CustomSpecs>
+        <AnalogInput>0</AnalogInput>
+        <AnalogOutput>0</AnalogOutput>
+        <DigitalInput>29</DigitalInput>
+        <DigitalOutput>29</DigitalOutput>
+        <CounterMeasurement>0</CounterMeasurement>
+        <CounterGeneration>0</CounterGeneration>
+    </CustomSpecs>
+</Example>
+
+</Examples>

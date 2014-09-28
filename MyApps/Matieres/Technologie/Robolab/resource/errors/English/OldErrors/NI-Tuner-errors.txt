@@ -1,0 +1,99 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="-27026">
+NI-Tuner:  The specified ready pulse length is out of range
+</nierror>
+<nierror code="-27025">
+NI-Tuner:  Signal polarities may be only ACTIVE HIGH or ACTIVE LOW
+</nierror>
+<nierror code="-27024">
+NI-Tuner:  An unknown signal type was specified
+</nierror>
+<nierror code="-27023">
+NI-Tuner:  An unknown signal path was specified
+</nierror>
+<nierror code="-27021">
+NI-Tuner:  The requested attribute is not used this function
+</nierror>
+<nierror code="-27020">
+NI-Tuner:  The FPGA download failed
+</nierror>
+<nierror code="-27019">
+NI-Tuner:  The FPGA programming chip failed to initialize
+</nierror>
+<nierror code="-27018">
+NI-Tuner:  One of the parameters was NULL, making it unusable. Allocate memory for the parameter
+</nierror>
+<nierror code="-27017">
+NI-Tuner:  This setting attempts to send signals in two different directions at the same time
+</nierror>
+<nierror code="-27016">
+NI-Tuner:  Unknown PLL
+</nierror>
+<nierror code="-27015">
+NI-Tuner:  Invalid RTSI setting
+</nierror>
+<nierror code="-27014">
+NI-Tuner:  Initialize the PXI-5600 downconverter before calling this function
+</nierror>
+<nierror code="-27013">
+NI-Tuner:  Reset the PXI-5600 downconverter before calling this function
+</nierror>
+<nierror code="-27012">
+NI-Tuner:  Value is out of range
+</nierror>
+<nierror code="-27011">
+NI-Tuner:  The span must be between 0 and 20 MHz inclusive
+</nierror>
+<nierror code="-27010">
+NI-Tuner:  Array size must be greater than 0
+</nierror>
+<nierror code="-27008">
+NI-Tuner:  Unable to write data to the EEPROM: verification of written data failed
+</nierror>
+<nierror code="-27007">
+NI-Tuner:  Unable to obtain a direct link to the PXI-5600 downconverter registers
+</nierror>
+<nierror code="-27006">
+NI-Tuner:  Unable to complete DMA transfer
+</nierror>
+<nierror code="-27005">
+NI-Tuner:  The attenuation relay is busy. This is a hardware problem
+</nierror>
+<nierror code="-27004">
+NI-Tuner:  The downconverter is busy. Its internal state machine may be locked up
+</nierror>
+<nierror code="-27003">
+NI-Tuner:  Frequency counter timed out
+</nierror>
+<nierror code="-27002">
+NI-Tuner:  Unable to allocate memory
+</nierror>
+<nierror code="-27001">
+NI-Tuner:  A bit size too large was specified for this serial chain. This is an internal driver issue
+</nierror>
+<nierror code="27009">
+NI-Tuner:  Unable to load calibration settings
+</nierror>
+<nierror code="27022">
+NI-Tuner:  Requested attenuation levels have been coerced to fit within the 0 to 80 dB range
+</nierror>
+<nierror code="27027">
+NI-Tuner:  The specified mixer level does not fall between the reference level and the reference level minus 50 dBm. The mixer level setting is coerced to the nearest of these two bounds
+</nierror>
+<nierror code="27028">
+NI-Tuner:  The reference level cannot exceed 50 dBm. The reference level setting is coerced to 50 dBm
+</nierror>
+<nierror code="27029">
+NI-Tuner:  Input frequencies above 2.7 GHz are outside specification and may return invalid data
+</nierror>
+<nierror code="27030">
+NI-Tuner:  Mixer level cannot exceed 0 dBm. The mixer level setting is coerced to 0 dBm
+</nierror>
+<nierror code="27031">
+NI-Tuner:  A mixer level less than -30 dBm produces an IF output below the nominal level of 0 dBm.  See your NI-TUNER Reference Help
+</nierror>
+</nidocument>

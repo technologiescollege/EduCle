@@ -1,0 +1,315 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="-1074397183">
+NI-IMAQ:  (Hex 0xbff60001) <IMG_ERR_NCAP> Function not implemented.
+</nierror>
+<nierror code="-1074397182">
+NI-IMAQ:  (Hex 0xbff60002) <IMG_ERR_OVRN> Too many interfaces open.
+</nierror>
+<nierror code="-1074397181">
+NI-IMAQ:  (Hex 0xbff60003) <IMG_ERR_EMEM> Not enough memory to perform the operation.
+</nierror>
+<nierror code="-1074397180">
+NI-IMAQ:  (Hex 0xbff60004) <IMG_ERR_OSER> Operating system error occurred.
+</nierror>
+<nierror code="-1074397179">
+NI-IMAQ:  (Hex 0xbff60005) <IMG_ERR_PAR1> Function-specific; see function description.
+</nierror>
+<nierror code="-1074397178">
+NI-IMAQ:  (Hex 0xbff60006) <IMG_ERR_PAR2> Function-specific; see function description.
+</nierror>
+<nierror code="-1074397177">
+NI-IMAQ:  (Hex 0xbff60007) <IMG_ERR_PAR3> Function-specific; see function description.
+</nierror>
+<nierror code="-1074397176">
+NI-IMAQ:  (Hex 0xbff60008) <IMG_ERR_PAR4> Function-specific; see function description.
+</nierror>
+<nierror code="-1074397175">
+NI-IMAQ:  (Hex 0xbff60009) <IMG_ERR_PAR5> Function-specific; see function description.
+</nierror>
+<nierror code="-1074397174">
+NI-IMAQ:  (Hex 0xbff6000a) <IMG_ERR_PAR6> Function-specific; see function description.
+</nierror>
+<nierror code="-1074397173">
+NI-IMAQ:  (Hex 0xbff6000b) <IMG_ERR_PAR7> Function-specific; see function description.
+</nierror>
+<nierror code="-1074397172">
+NI-IMAQ:  (Hex 0xbff6000c) <IMG_ERR_MXBF> Too many buffers already allocated.
+</nierror>
+<nierror code="-1074397171">
+NI-IMAQ:  (Hex 0xbff6000d) <IMG_ERR_DLLE> DLL internal error; bad logic state.
+</nierror>
+<nierror code="-1074397170">
+NI-IMAQ:  (Hex 0xbff6000e) <IMG_ERR_BSIZ> Buffer size used is too small for minimum acquisition frame.
+</nierror>
+<nierror code="-1074397169">
+NI-IMAQ:  (Hex 0xbff6000f) <IMG_ERR_MXBI> Exhausted buffer IDs.
+</nierror>
+<nierror code="-1074397168">
+NI-IMAQ:  (Hex 0xbff60010) <IMG_ERR_ELCK> Cannot lock buffers down; no more memory.
+</nierror>
+<nierror code="-1074397167">
+NI-IMAQ:  (Hex 0xbff60011) <IMG_ERR_DISE> Error releasing the image buffer.
+</nierror>
+<nierror code="-1074397166">
+NI-IMAQ:  (Hex 0xbff60012) <IMG_ERR_BBUF> Bad buffer pointer in list.
+</nierror>
+<nierror code="-1074397165">
+NI-IMAQ:  (Hex 0xbff60013) <IMG_ERR_NLCK> Buffer list is not locked.
+</nierror>
+<nierror code="-1074397164">
+NI-IMAQ:  (Hex 0xbff60014) <IMG_ERR_NCAM> No camera defined for this channel.
+</nierror>
+<nierror code="-1074397163">
+NI-IMAQ:  (Hex 0xbff60015) <IMG_ERR_BINT> Bad interface.
+</nierror>
+<nierror code="-1074397162">
+NI-IMAQ:  (Hex 0xbff60016) <IMG_ERR_BROW> Rowbytes is less than region of interest.
+</nierror>
+<nierror code="-1074397161">
+NI-IMAQ:  (Hex 0xbff60017) <IMG_ERR_BROI> ROI area is larger than the acquisition area.
+</nierror>
+<nierror code="-1074397160">
+NI-IMAQ:  (Hex 0xbff60018) <IMG_ERR_BCMF> Bad camera file (check syntax).
+</nierror>
+<nierror code="-1074397159">
+NI-IMAQ:  (Hex 0xbff60019) <IMG_ERR_NVBL> Not successful because of hardware limitations.
+</nierror>
+<nierror code="-1074397158">
+NI-IMAQ:  (Hex 0xbff6001a) <IMG_ERR_NCFG> Invalid action; no buffers configured for session.
+</nierror>
+<nierror code="-1074397157">
+NI-IMAQ:  (Hex 0xbff6001b) <IMG_ERR_BBLF> Buffer list does not contain a valid final command.
+</nierror>
+<nierror code="-1074397156">
+NI-IMAQ:  (Hex 0xbff6001c) <IMG_ERR_BBLE> Buffer list contains an invalid command.
+</nierror>
+<nierror code="-1074397155">
+NI-IMAQ:  (Hex 0xbff6001d) <IMG_ERR_BBLB> A buffer list buffer is NULL.
+</nierror>
+<nierror code="-1074397154">
+NI-IMAQ:  (Hex 0xbff6001e) <IMG_ERR_NAIP> No acquisition in progress.
+</nierror>
+<nierror code="-1074397153">
+NI-IMAQ:  (Hex 0xbff6001f) <IMG_ERR_VLCK> Cannot get lock on video source.
+</nierror>
+<nierror code="-1074397152">
+NI-IMAQ:  (Hex 0xbff60020) <IMG_ERR_BDMA> Bad DMA transfer.
+</nierror>
+<nierror code="-1074397151">
+NI-IMAQ:  (Hex 0xbff60021) <IMG_ERR_AIOP> Cannot perform request; acquisition in progress.
+</nierror>
+<nierror code="-1074397150">
+NI-IMAQ:  (Hex 0xbff60022) <IMG_ERR_TIMO> Wait timed out; acquisition not complete.
+</nierror>
+<nierror code="-1074397149">
+NI-IMAQ:  (Hex 0xbff60023) <IMG_ERR_NBUF> No buffers available; too early in acquisition.
+</nierror>
+<nierror code="-1074397148">
+NI-IMAQ:  (Hex 0xbff60024) <IMG_ERR_ZBUF> Zero buffer size; no bytes filled.
+</nierror>
+<nierror code="-1074397147">
+NI-IMAQ:  (Hex 0xbff60025) <IMG_ERR_HLPR> Bad parameter to low level; check attributes and high level arguments.
+</nierror>
+<nierror code="-1074397146">
+NI-IMAQ:  (Hex 0xbff60026) <IMG_ERR_BTRG> Trigger loopback problem; cannot drive with action enabled.
+</nierror>
+<nierror code="-1074397145">
+NI-IMAQ:  (Hex 0xbff60025) <IMG_ERR_NINF> No interface found.
+</nierror>
+<nierror code="-1074397144">
+NI-IMAQ:  (Hex 0xbff60026) <IMG_ERR_NDLL> Unable to load DLL (LabWindows/CVI only).
+</nierror>
+<nierror code="-1074397143">
+NI-IMAQ:  (Hex 0xbff60027) <IMG_ERR_NFNC> Unable to find API function in DLL (LabWindows/CVI only).
+</nierror>
+<nierror code="-1074397142">
+NI-IMAQ:  (Hex 0xbff60028) <IMG_ERR_NOSR> Unable to allocate system resources (LabWindows/CVI only).
+</nierror>
+<nierror code="-1074397141">
+NI-IMAQ:  (Hex 0xbff60029) <IMG_ERR_BTAC> No trigger action; acquisition will time out.
+</nierror>
+<nierror code="-1074397140">
+NI-IMAQ:  (Hex 0xbff6002a) <IMG_ERR_FIFO> FIFO overflow caused acquisition to halt.
+</nierror>
+<nierror code="-1074397139">
+NI-IMAQ:  (Hex 0xbff6002b) <IMG_ERR_MLCK> Memory lock error; cannot perform acquisition.
+</nierror>
+<nierror code="-1074397138">
+NI-IMAQ:  (Hex 0xbff6002c) <IMG_ERR_ILCK> Interface locked.
+</nierror>
+<nierror code="-1074397137">
+NI-IMAQ:  (Hex 0xbff6002d) <IMG_ERR_NEPK> No external pixel clock.
+</nierror>
+<nierror code="-1074397136">
+NI-IMAQ:  (Hex 0xbff60030) <IMG_ERR_SCLM> Field scaling mode not supported.
+</nierror>
+<nierror code="-1074397135">
+NI-IMAQ:  (Hex 0xBFF60031) <IMG_ERR_SCC1> Channel not set to 1 when using StillColor RGB acquisition.
+</nierror>
+<nierror code="-1074397134">
+NI-IMAQ:  (Hex 0xBFF60032) <IMG_ERR_SMALLALLOC> Error during small buffer allocation.
+</nierror>
+<nierror code="-1074397133">
+NI-IMAQ:  (Hex 0xBFF60033) <IMG_ERR_ALLOC>  Error during large buffer allocation.
+</nierror>
+<nierror code="-1074397132">
+NI-IMAQ:  (Hex 0xBFF60034) <IMG_ERR_BADCAMTYPE> Bad camera type; camera needs to be of type NTSC or PAL.
+</nierror>
+<nierror code="-1074397131">
+NI-IMAQ:  (Hex 0xBFF60035) <IMG_ERR_BADPIXTYPE>  Camera not supported; must be an 8-bit camera.
+</nierror>
+<nierror code="-1074397130">
+NI-IMAQ:  (Hex 0xBFF60036) <IMG_ERR_BADCAMPARAM>  Bad camera parameter in configuration file.
+</nierror>
+<nierror code="-1074397129">
+NI-IMAQ:  (Hex 0xBFF60037) <IMG_ERR_PALKEYDTCT>  PAL key detection error.
+</nierror>
+<nierror code="-1074397128">
+NI-IMAQ:  (Hex 0xbff60038) <IMG_ERR_BFRQ> Bad frequency values.
+</nierror>
+<nierror code="-1074397127">
+NI-IMAQ:  (Hex 0xbff60039) <IMG_ERR_BITP> Bad interface type.
+</nierror>
+<nierror code="-1074397126">
+NI-IMAQ:  (Hex 0xbff6003a) <IMG_ERR_HWNC> Hardware not capable of supporting this function.
+</nierror>
+<nierror code="-1074397125">
+NI-IMAQ:  (Hex 0xbff6003b) <IMG_ERR_SERIAL> Serial port error.
+</nierror>
+<nierror code="-1074397123">
+NI-IMAQ:  (Hex 0xbff6003d) <IMG_ERR_BPID> Bad pulse ID.
+</nierror>
+<nierror code="-1074397122">
+NI-IMAQ:  (Hex 0xBFF6003E) <IMG_ERR_NEVR> DLL internal error; bad logic state.
+</nierror>
+<nierror code="-1074397121">
+NI-IMAQ:  (Hex 0xBFF6003f) <IMG_ERR_SERIAL_TIMO>  Serial transmit/receive timeout.
+</nierror>
+<nierror code="-1074397120">
+NI-IMAQ:  (Hex 0xbff60040) <IMG_ERR_PG_TOO_MANY> Too many pattern generation transitiions defined.
+</nierror>
+<nierror code="-1074397119">
+NI-IMAQ:  (Hex 0xbff60041) <IMG_ERR_PG_BAD_TRANS> Bad pattern generation transition time.
+</nierror>
+<nierror code="-1074397118">
+NI-IMAQ:  (Hex 0xbff60042) <IMG_ERR_PLNS> Pulse not started.
+</nierror>
+<nierror code="-1074397117">
+NI-IMAQ:  (Hex 0xbff60043) <IMG_ERR_BPMD> Bad pulse mode.
+</nierror>
+<nierror code="-1074397116">
+NI-IMAQ:  (Hex 0xbff60044) <IMG_ERR_NSAT> Nonsettable attribute.
+</nierror>
+<nierror code="-1074397115">
+NI-IMAQ:  (Hex 0xbff60045) <IMG_ERR_HYBRID> Cannot mix system and onboard memory buffers.
+</nierror>
+<nierror code="-1074397114">
+NI-IMAQ:  (Hex 0xbff60046) <IMG_ERR_BADFILFMT> Pixel depth not supported with this file format.
+</nierror>
+<nierror code="-1074397113">
+NI-IMAQ:  (Hex 0xbff60047) <IMG_ERR_BADFILEXT> File extension not supported.
+</nierror>
+<nierror code="-1074397112">
+NI-IMAQ:  (Hex 0xbff60048) <IMG_ERR_NRTSI> Too many RTSI triggers mapped; you can use only four RTSI lines at once.
+</nierror>
+<nierror code="-1074397111">
+NI-IMAQ:  (Hex 0xbff60049) <IMG_ERR_MXTRG>  Exhausted trigger resources.
+</nierror>
+<nierror code="-1074397110">
+NI-IMAQ:  (Hex 0xbff6004A) <IMG_ERR_MXRC> Exhausted resources (general).
+</nierror>
+<nierror code="-1074397109">
+NI-IMAQ:  (Hex 0xbff6004B) <IMG_ERR_OOR> Parameter out of range.
+</nierror>
+<nierror code="-1074397108">
+NI-IMAQ:  (Hex 0xBFF6004C) <IMG_ERR_NPROG> FPGA not programmed.
+</nierror>
+<nierror code="-1074397107">
+NI-IMAQ:  (Hex 0xBFF6004D) <IMG_ERR_NEOM> Not enough onboard memory to perform the operation.
+</nierror>
+<nierror code="-1074397106">
+NI-IMAQ:  (Hex 0xBFF6004E) <IMG_ERR_BDTYPE> Bad display type; buffer cannot be displayed with imgPlot.
+</nierror>
+<nierror code="-1074397105">
+NI-IMAQ:  (Hex 0xBFF6004F) <IMG_ERR_THRDACCDEN> Thread denied access to function.
+</nierror>
+<nierror code="-1074397104">
+NI-IMAQ:  (Hex 0xBFF60050) <IMG_ERR_BADFILWRT> Could not write the file.
+</nierror>
+<nierror code="-1074397103">
+NI-IMAQ:  (Hex 0xBFF60051) <IMG_ERR_AEXM>  Already called ExamineBuffer once; call ReleaseBuffer.
+</nierror>
+<nierror code="-1074397072">
+NI-IMAQ:  (Hex 0xBFF60070) <IMG_MUX_ERR_CAM_NUM_NOT_VALID> Invalid camera number.
+</nierror>
+<nierror code="-1074397071">
+NI-IMAQ:  (Hex 0xBFF60071) <IMG_MUX_ERR_INVALID_SESSION_ID> Invalid session identifier.
+</nierror>
+<nierror code="-1074397070">
+NI-IMAQ:  (Hex 0xBFF60072) <IMG_MUX_ERR_SESSION_NOT_CONFIGURED> Multiplexer has not been configured for the current session.
+</nierror>
+<nierror code="-1074397069">
+NI-IMAQ:  (Hex 0xBFF60073) <IMG_MUX_ERR_SELECT_IS_EXT_CONTROLLED> Multiplexer is configured for external camera selection.
+</nierror>
+<nierror code="-1074397068">
+NI-IMAQ:  (Hex 0xBFF60074) <IMG_MUX_ERR_UNSUPPORTED_ATTR> Unsupported attribute type.
+</nierror>
+<nierror code="-1074397067">
+NI-IMAQ:  (Hex 0xBFF60075) <IMG_MUX_ERR_UNSUPPORTED_ATTR_VAL> Unsupported attribute value.
+</nierror>
+<nierror code="-1074397066">
+NI-IMAQ:  (Hex 0xBFF60076) <IMG_MUX_ERR_UNSUPPORTED_LUT_TYPE> Unsupported LUT type.
+</nierror>
+<nierror code="-1074397065">
+NI-IMAQ:  (Hex 0xBFF60077) <IMG_MUX_ERR_LEFT_OFFSET_DEFINED> The acquisition window has a left offset that is greater than zero.
+</nierror>
+<nierror code="-1074397064">
+NI-IMAQ:  (Hex 0xBFF60078) <IMG_MUX_ERR_CAMERA0_INIT> An error occurred initializing camera 0.
+</nierror>
+<nierror code="-1074397063">
+NI-IMAQ:  (Hex 0xBFF60079) <IMG_MUX_ERR_CAMERA1_INIT> An error occurred initializing camera 1.
+</nierror>
+<nierror code="-1074397062">
+NI-IMAQ:  (Hex 0xBFF6007A) <IMG_MUX_ERR_CAMERA2_INIT> An error occurred initializing camera 2.
+</nierror>
+<nierror code="-1074397061">
+NI-IMAQ:  (Hex 0xBFF6007B) <IMG_MUX_ERR_CAMERA3_INIT>An error occurred initializing camera 3.
+</nierror>
+<nierror code="-1074397060">
+NI-IMAQ:  (Hex 0xBFF6007C) <IMG_MUX_ERR_CAMERA0_SERIAL> A serial port error occurred trying to communicate with camera 0.
+</nierror>
+<nierror code="-1074397059">
+NI-IMAQ:  (Hex 0xBFF6007D) <IMG_MUX_ERR_CAMERA1_SERIAL> A serial port error occurred trying to communicate with camera 1.
+</nierror>
+<nierror code="-1074397058">
+NI-IMAQ:  (Hex 0xBFF6007E) <IMG_MUX_ERR_CAMERA2_SERIAL> A serial port error occurred trying to communicate with camera 2.
+</nierror>
+<nierror code="-1074397057">
+NI-IMAQ:  (Hex 0xBFF6007F) <IMG_MUX_ERR_CAMERA3_SERIAL> A serial port error occurred trying to communicate with camera 3.
+</nierror>
+<nierror code="1073086465">
+NI-IMAQ:  (Hex 0x3ff60001) <IMG_WRN_BCAM> Warning; corrupt camera file detected.
+</nierror>
+<nierror code="1073086466">
+NI-IMAQ:  (Hex 0x3ff60002) <IMG_WRN_CONF> Warning; change requires reconfigure to take effect.
+</nierror>
+<nierror code="1073086467">
+NI-IMAQ:  (Hex 0x3ff60003) <IMG_WRN_ILCK> Warning; interface still locked.
+</nierror>
+<nierror code="1073086468">
+NI-IMAQ:  (Hex 0x3FF60004) <IMG_WRN_BLKG>  Warning; unstable blanking reference (Still Color mode).
+</nierror>
+<nierror code="1073086469">
+NI-IMAQ:  (Hex 0x3FF60005) <IMG_WRN_BRST>  Warning; bad quality colorburst (Still Color mode).
+</nierror>
+<nierror code="1073086470">
+NI-IMAQ:  (Hex 0x3FF60006) <IMG_WRN_OATTR> Warning; old attribute used.
+</nierror>
+<nierror code="1073086471">
+NI-IMAQ:  (Hex 0x3FF60007) <IMG_WRN_WLOR > Warning; white level out of range.
+</nierror>
+</nidocument>

@@ -1,0 +1,258 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="-1074135040">
+IVI:  (Hex 0xBFFA0000) Die IVI-Engine kann nicht geladen werden.
+</nierror>
+<nierror code="-1074135039">
+IVI:  (Hex 0xBFFA0001) Instrumentenfehler. Rufen Sie die Instrumententreiberfunktion PREFIX_error_query (Präfix-Fehlerabfrage) auf.
+</nierror>
+<nierror code="-1074135038">
+IVI:  (Hex 0xBFFA0002) Datei kann nicht geöffnet werden.
+</nierror>
+<nierror code="-1074135037">
+IVI:  (Hex 0xBFFA0003) Fehler beim Lesen der Datei.
+</nierror>
+<nierror code="-1074135036">
+IVI:  (Hex 0xBFFA0004) Fehler beim Schreiben zu dieser Datei.
+</nierror>
+<nierror code="-1074135035">
+IVI:  (Hex 0xBFFA0005) Die Datei mit dem Treibermodul konnte nicht gefunden werden.
+</nierror>
+<nierror code="-1074135034">
+IVI:  (Hex 0xBFFA0006) Treibermoduldatei kann nicht zum Lesen geöffnet werden.
+</nierror>
+<nierror code="-1074135033">
+IVI:  (Hex 0xBFFA0007) Das Treibermodul besitzt entweder ein ungültiges Treiberformat oder enthält ungültige Daten.
+</nierror>
+<nierror code="-1074135032">
+IVI:  (Hex 0xBFFA0008) Das Treibermodul enthält Referenzen, die nicht definiert sind.
+</nierror>
+<nierror code="-1074135031">
+IVI:  (Hex 0xBFFA0009) Die Funktion kann im Treibermodul nicht gefunden werden.
+</nierror>
+<nierror code="-1074135030">
+IVI:  (Hex 0xBFFA000A) Fehler beim Laden des Treibermoduls.
+</nierror>
+<nierror code="-1074135029">
+IVI:  (Hex 0xBFFA000B) Ungültiger Pfadname.
+</nierror>
+<nierror code="-1074135028">
+IVI:  (Hex 0xBFFA000C) Ungültiges Attribute.
+</nierror>
+<nierror code="-1074135027">
+IVI:  (Hex 0xBFFA000D) Das Attribut kann nicht geschrieben werden.
+</nierror>
+<nierror code="-1074135026">
+IVI:  (Hex 0xBFFA000E) Das Attribut kann nicht gelesen werden.
+</nierror>
+<nierror code="-1074135025">
+IVI:  (Hex 0xBFFA000F) Ungültiger Parameter.
+</nierror>
+<nierror code="-1074135024">
+IVI:  (Hex 0xBFFA0010) Ungültiger Wert.
+</nierror>
+<nierror code="-1074135023">
+IVI:  (Hex 0xBFFA0011) Die Funktion ist nicht unterstützt.
+</nierror>
+<nierror code="-1074135022">
+IVI:  (Hex 0xBFFA0012) Das Attribut ist nicht unterstützt.
+</nierror>
+<nierror code="-1074135021">
+IVI:  (Hex 0xBFFA0013) Der Wert ist nicht unterstützt.
+</nierror>
+<nierror code="-1074135020">
+IVI:  (Hex 0xBFFA0014) Ungültiger Typ.
+</nierror>
+<nierror code="-1074135019">
+IVI:  (Hex 0xBFFA0015) Typen stimmen nicht überein.
+</nierror>
+<nierror code="-1074135018">
+IVI:  (Hex 0xBFFA0016) Für das angegebene Attribut muß bereits ein Wert aktualisiert werden.
+</nierror>
+<nierror code="-1074135017">
+IVI:  (Hex 0xBFFA0017) Der angegebene Eintrag ist bereits vorhanden.
+</nierror>
+<nierror code="-1074135016">
+IVI:  (Hex 0xBFFA0018) Keine gültige Konfiguration.
+</nierror>
+<nierror code="-1074135015">
+IVI:  (Hex 0xBFFA0019) Der angeforderte Eintrag oder Wert ist nicht vorhanden oder nicht verfügbar.
+</nierror>
+<nierror code="-1074135014">
+IVI:  (Hex 0xBFFA001A) Der angeforderte Attributwert ist nicht bekannt oder kann nicht bestimmt werden.
+</nierror>
+<nierror code="-1074135013">
+IVI:  (Hex 0xBFFA001B) Für diese Attribut ist keine Bereichstabelle vorhanden.
+</nierror>
+<nierror code="-1074135012">
+IVI:  (Hex 0xBFFA001C) Die Bereichstabelle ist ungültig.
+</nierror>
+<nierror code="-1074135011">
+IVI:  (Hex 0xBFFA001D) Das Objekt oer der Eintrag ist nicht initialisiert.
+</nierror>
+<nierror code="-1074135010">
+IVI:  (Hex 0xBFFA001E) Der Klasseninstrumententreiber ist nicht vollständig festgelegten Instrumentenkonfigurationen begegnet, wodurch die Austauschbarkeit beschränkt wird.
+</nierror>
+<nierror code="-1074135009">
+IVI:  (Hex 0xBFFA001F) Für die Sitzung wurde noch keine Kanaltabelle aufgebaut. Der Instrumententreiber muß Ivi_BuildChannelTable in seiner Funktion IviInit aufrufen.
+</nierror>
+<nierror code="-1074135008">
+IVI:  (Hex 0xBFFA0020) Der Kanalname ist für dieses Instrument ungültig.
+</nierror>
+<nierror code="-1074135007">
+IVI:  (Hex 0xBFFA0021) Systemressourcen konnten nicht zugewiesen werden.
+</nierror>
+<nierror code="-1074135006">
+IVI:  (Hex 0xBFFA0022) Dateizugriff verweigert.
+</nierror>
+<nierror code="-1074135005">
+IVI:  (Hex 0xBFFA0023) Es sind zu viele Dateien geöffnet.
+</nierror>
+<nierror code="-1074135004">
+IVI:  (Hex 0xBFFA0024) Die temporäre Datei konnte nicht im Zielverzeichnis angelegt werden.
+</nierror>
+<nierror code="-1074135003">
+IVI:  (Hex 0xBFFA0025) Es sind bereits alle temporären Dateinamen im Zielverzeichnis in Verwendung.
+</nierror>
+<nierror code="-1074135002">
+IVI:  (Hex 0xBFFA0026) Laufwerk ist voll.
+</nierror>
+<nierror code="-1074135001">
+IVI:  (Hex 0xBFFA0027) Die Konfigurationsdatei konnte auf der Diskette nicht gefunden werden.
+</nierror>
+<nierror code="-1074135000">
+IVI:  (Hex 0xBFFA0028) Die Konfigurationsdatei konnte nicht geöffnet werden.
+</nierror>
+<nierror code="-1074134999">
+IVI:  (Hex 0xBFFA0029) Fehler beim Lesen der Konfigurationsdatei.
+</nierror>
+<nierror code="-1074134998">
+IVI:  (Hex 0xBFFA002A) Ungültiger ViInt32-Wert in der Konfigurationsdatei.
+</nierror>
+<nierror code="-1074134997">
+IVI:  (Hex 0xBFFA002B) Ungültiger ViReal64-Wert in der Konfigurationsdatei.
+</nierror>
+<nierror code="-1074134996">
+IVI:  (Hex 0xBFFA002C) Ungültiger ViBoolscher-Wert in der Konfigurationsdatei.
+</nierror>
+<nierror code="-1074134995">
+IVI:  (Hex 0xBFFA002D) In der Konfigurationsdatei fehlt ein Eintrag.
+</nierror>
+<nierror code="-1074134994">
+IVI:  (Hex 0xBFFA002E) Initialisierung in der Treiberdatei fehlgeschlagen.
+</nierror>
+<nierror code="-1074134993">
+IVI:  (Hex 0xBFFA002F) Ds Treibermodul konnte wegen einer unlösbaren externen Referenz nicht geladen werden.
+</nierror>
+<nierror code="-1074134992">
+IVI:  (Hex 0xBFFA0030) CVI Runtime-Engine konnte nicht gefunden werden.
+</nierror>
+<nierror code="-1074134991">
+IVI:  (Hex 0xBFFA0031) CVI Runtime-Engine konnte nicht geöffnet werden.
+</nierror>
+<nierror code="-1074134990">
+IVI:  (Hex 0xBFFA0032) Die CVI Runtime-Engine besitzt ein ungültiges Format.
+</nierror>
+<nierror code="-1074134989">
+IVI:  (Hex 0xBFFA0033) In der Runtime-Engine fehlen eine oder mehrere erforderliche Funktionen.
+</nierror>
+<nierror code="-1074134988">
+IVI:  (Hex 0xBFFA0034) Fehler bei der Initialisierung der CVI Runtime-Engine, wahrscheinlich wegen unzureichendem Speicher.
+</nierror>
+<nierror code="-1074134987">
+IVI:  (Hex 0xBFFA0035) Die CVI Runtime-Engine konnte wegen einer unlösbaren externen Referenz nicht geladen werden.
+</nierror>
+<nierror code="-1074134986">
+IVI:  (Hex 0xBFFA0036) Fehler beim Laden der CVI Runtime-Engine.
+</nierror>
+<nierror code="-1074134985">
+IVI:  (Hex 0xBFFA0037) Die DLL zum Lesen der Exporte kann nicht geöffnet werden.
+</nierror>
+<nierror code="-1074134984">
+IVI:  (Hex 0xBFFA0038) DLL-Datei ist beschädigt.
+</nierror>
+<nierror code="-1074134983">
+IVI:  (Hex 0xBFFA0039) Keine Exporttabelle in der DLL vorhanden.
+</nierror>
+<nierror code="-1074134982">
+IVI:  (Hex 0xBFFA003A) Unbekannter Attributname im Standardsetup-Abschnitt der Konfigurationsdatei.
+</nierror>
+<nierror code="-1074134981">
+IVI:  (Hex 0xBFFA003B) Ungültiger Attributwert im Standardsetup-Abschnitt der Konfigurationsdatei.
+</nierror>
+<nierror code="-1074134980">
+IVI:  (Hex 0xBFFA003C) Angegebene Speichermarke ist unbekannt.
+</nierror>
+<nierror code="-1074134979">
+IVI:  (Hex 0xBFFA003D) Ivi_BuildChannelTable konnte keine Kanalstrings finden.
+</nierror>
+<nierror code="-1074134978">
+IVI:  (Hex 0xBFFA003E) Die Kanalliste, mit der die Ivi_BuildChannelTable arbeitet, enthält denselben Kanalstring zwei Mal.
+</nierror>
+<nierror code="-1074134977">
+IVI:  (Hex 0xBFFA003F) Der Eintrag VirtualChannelNames in der Konfigurationsdatei enthält ein Duplikat eines virtuellen Kanalnamens.
+</nierror>
+<nierror code="-1074134976">
+IVI:  (Hex 0xBFFA0040) Der Eintrag VirtualChannelNames in der Konfigurationsdatei enthält einen Eintrag ohne virtuellen Kanalnamen (nichts vor dem '=').
+</nierror>
+<nierror code="-1074134975">
+IVI:  (Hex 0xBFFA0041) Der Eintrag VirtualChannelNames in der Konfigurationsdatei enthält einen ungültigen virtuellen Kanalnamen (muß mit einer Zahl beginnen).
+</nierror>
+<nierror code="-1074134974">
+IVI:  (Hex 0xBFFA0042) Der Eintrag VirtualChannelNames in der Konfigurationsdatei enthält einen virtuellen Kanalnamen ohne einen zugewiesenen Kanalstring (d.h., nichts nach dem '=').
+</nierror>
+<nierror code="-1074134973">
+IVI:  (Hex 0xBFFA0043) Der Eintrag VirtualChannelNames in der Konfigurationsdatei enthält einen virtuellen Kanalnamen, der einem unbekannten oder ungültigen Kanalstring zugewiesen ist.
+</nierror>
+<nierror code="-1074134972">
+IVI:  (Hex 0xBFFA0044) Bei Angabe von Attributen, die sich auf Kanäle gründen, muß ein gültiger Kanalname eingegeben werden.
+</nierror>
+<nierror code="-1074134971">
+IVI:  (Hex 0xBFFA0045) Bei Angabe eines Attributs, das sich nicht auf Kanäle gründet, muß ein VI_NULL oder ein leerer String für den Kanalnamen eingegeben werden.
+</nierror>
+<nierror code="-1074134970">
+IVI:  (Hex 0xBFFA0046) Das Attribut ist für den angegebenen Kanal ungültig.
+</nierror>
+<nierror code="-1074134969">
+IVI:  (Hex 0xBFFA0047) Diese Operation benötigt ein kanalbezogenes Attribute. Das angegebene Attribut gründet sich nicht auf einen Kanal.
+</nierror>
+<nierror code="-1074134968">
+IVI:  (Hex 0xBFFA0048) Der Kanal wurde bereits für die angegebenen Attribute ausgeschlossen und kann nicht wieder eingeschlossen werden.
+</nierror>
+<nierror code="-1074134967">
+IVI:  (Hex 0xBFFA0049) Der Parameter optionsString enthält einen Eintrag ohne einen Namen (nichts vor dem '=').
+</nierror>
+<nierror code="-1074134966">
+IVI:  (Hex 0xBFFA004A) Der Parameter optionsString enthält einen Eintrag ohne einen Wert (nichts nach dem '=').
+</nierror>
+<nierror code="-1074134965">
+IVI:  (Hex 0xBFFA004B) Der Parameter optionsString enthält einen Eintrag mit einem unbekannten Optionsnamen.
+</nierror>
+<nierror code="-1074134964">
+IVI:  (Hex 0xBFFA004C) Der Parameter optionsString enthält einen Eintrag mit einem unbekannten Optionswert.
+</nierror>
+<nierror code="-1074134963">
+IVI:  (Hex 0xBFFA004D) Diese Operation ist nur in einer Sitzung gültig, die von einem Klassentreiber erstellt wurde.
+</nierror>
+<nierror code="-1074134962">
+IVI:  (Hex 0xBFFA004E) Es kann keine Konfigurationsdatei mit dem Namen "ivi.ini" angelegt werden. Dieser Dateiname ist reserviert.
+</nierror>
+<nierror code="-1074134961">
+IVI:  (Hex 0xBFFA004F) Es befindet sich bereits ein gleichnamiger Eintrag in der Runtime-Konfiguration.
+</nierror>
+<nierror code="-1074134960">
+IVI:  (Hex 0xBFFA0050) Der Indexparameter hat Eins als Untergrenze. Es muß eine Zahl größer oder gleich 1 eingegeben werden.
+</nierror>
+<nierror code="-1074134959">
+IVI:  (Hex 0xBFFA0051) Der Index überschreitet die Anzahl der verfügbaren Einträge.
+</nierror>
+<nierror code="-1074134958">
+IVI:  (Hex 0xBFFA0052) Der Cachespeicher kann für ein Attribut mit der Flagge IVI_VAL_NEVER_CACHE nicht eingerichtet werden.
+</nierror>
+<nierror code="-1074134957">
+IVI:  (Hex 0xBFFA0053) Ein VIAddr-Attribut kann nicht zum Endbenutzer exportiert werden.
+</nierror>
+</nidocument>

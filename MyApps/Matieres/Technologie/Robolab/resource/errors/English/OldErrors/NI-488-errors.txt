@@ -1,0 +1,81 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="0">
+NI-488:  Error connecting to driver or device.
+</nierror>
+<nierror code="1">
+NI-488:  Command requires GPIB Controller to be Controller-In-Charge.
+</nierror>
+<nierror code="2">
+NI-488:  No Listeners on the GPIB.
+</nierror>
+<nierror code="3">
+NI-488:  GPIB Controller not addressed correctly.
+</nierror>
+<nierror code="4">
+NI-488:  Invalid argument or arguments to function call.
+</nierror>
+<nierror code="5">
+NI-488:  Command requires GPIB Controller to be System Controller.
+</nierror>
+<nierror code="6">
+NI-488:  I/O operation aborted.
+</nierror>
+<nierror code="7">
+NI-488:  Nonexistent GPIB interface.
+</nierror>
+<nierror code="8">
+NI-488:  DMA hardware error detected.
+</nierror>
+<nierror code="9">
+NI-488:  DMA hardware uP bus timeout.
+</nierror>
+<nierror code="10">
+NI-488:  Asynchronous I/O operation in progress.
+</nierror>
+<nierror code="11">
+NI-488:  No capability for operation.
+</nierror>
+<nierror code="12">
+NI-488:  File system operation error.
+</nierror>
+<nierror code="13">
+NI-488:  Shareable board exclusively owned.
+</nierror>
+<nierror code="14">
+NI-488:  GPIB bus error.
+</nierror>
+<nierror code="15">
+NI-488:  Serial poll byte queue overflow.
+</nierror>
+<nierror code="16">
+NI-488:  SRQ stuck in ON position.
+</nierror>
+<nierror code="17">
+NI-488:  Unrecognized command.
+</nierror>
+<nierror code="19">
+NI-488:  Board not present.
+</nierror>
+<nierror code="20">
+NI-488:  Table error.
+</nierror>
+<nierror code="30">
+NI-488:  No GPIB address input.
+</nierror>
+<nierror code="31">
+NI-488:  No string input (write).
+</nierror>
+<nierror code="32">
+NI-488:  No count input (read).
+</nierror>
+<nierror code="40">
+NI-488:  Out of memory (MacBus read or write).
+</nierror>
+<nierror code="41">
+NI-488:  Insufficient memory (MacBus read or write).
+</nierror>
+</nidocument>

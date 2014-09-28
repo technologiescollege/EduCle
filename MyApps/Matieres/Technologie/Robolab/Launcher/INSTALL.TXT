@@ -1,0 +1,4 @@
+[Install paths]
+ROBOLAB=C:\Files\ROBOLAB 252
+Training Missions=C:\Files\ROBOLAB 252\Training Missions
+Support=C:\RL\Support Material\Support Materials.htm

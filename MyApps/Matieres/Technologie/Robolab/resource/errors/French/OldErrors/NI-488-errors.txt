@@ -1,0 +1,81 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="0">
+NI-488:  Erreur lors de la connexion au driver ou au périphérique.
+</nierror>
+<nierror code="1">
+NI-488:  La commande requiert un contrôleur GPIB comme contrôleur en charge.
+</nierror>
+<nierror code="2">
+NI-488:  Aucun auditeur détecté sur le bus GPIB.
+</nierror>
+<nierror code="3">
+NI-488:  Le contrôleur GPIB n'a pas été adressé correctement.
+</nierror>
+<nierror code="4">
+NI-488:  Argument(s) non valide dans l'appel de la fonction
+</nierror>
+<nierror code="5">
+NI-488:  La commande nécessite que le contrôleur GPIB soit contrôleur système.
+</nierror>
+<nierror code="6">
+NI-488:  L'opération d'E/S a été abandonnée.
+</nierror>
+<nierror code="7">
+NI-488:  Interface GPIB non existente.
+</nierror>
+<nierror code="8">
+NI-488:  Une erreur de DMA a été détectée au niveau du matériel.
+</nierror>
+<nierror code="9">
+NI-488:  Le bus DMA du µP au niveau du matériel est en timeout.
+</nierror>
+<nierror code="10">
+NI-488:  Opération d'E/S asynchrone en cours
+</nierror>
+<nierror code="11">
+NI-488:  Opération non réalisable
+</nierror>
+<nierror code="12">
+NI-488:  Erreur lors d'une opération sur le système de fichiers.
+</nierror>
+<nierror code="13">
+NI-488:  Carte partageable en propriété exclusive.
+</nierror>
+<nierror code="14">
+NI-488:  Erreur au niveau du bus GPIB.
+</nierror>
+<nierror code="15">
+NI-488:  Débordement de la file d'attente des octets d'interrogation série (Serial Poll).
+</nierror>
+<nierror code="16">
+NI-488:  SRQ bloquée.
+</nierror>
+<nierror code="17">
+NI-488:  Commande non reconnue.
+</nierror>
+<nierror code="19">
+NI-488:  La carte n'est pas présente.
+</nierror>
+<nierror code="20">
+NI-488:  Erreur au niveau de la table.
+</nierror>
+<nierror code="30">
+NI-488:  Aucune entrée d'adresse GPIB.
+</nierror>
+<nierror code="31">
+NI-488:  Aucune chaîne de caractères d'entrée (écriture).
+</nierror>
+<nierror code="32">
+NI-488:  Aucune entrée de décompte (lecture).
+</nierror>
+<nierror code="40">
+NI-488:  Débordement de la mémoire (lecture ou écriture du MacBus).
+</nierror>
+<nierror code="41">
+NI-488:  Mémoire insuffisante (lecture ou écriture du MacBus).
+</nierror>
+</nidocument>

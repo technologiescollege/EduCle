@@ -1,0 +1,378 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="-4399">
+NI-VXI:  Erreur système de la bibliothèque NI-VXI.
+</nierror>
+<nierror code="-4302">
+NI-VXI:  Unité d'extension incorrecte.
+</nierror>
+<nierror code="-4301">
+NI-VXI:  VI non supporté ; aucun support matériel.
+</nierror>
+<nierror code="-4299">
+NI-VXI:  Erreur système de la bibliothèque NI-VXI.
+</nierror>
+<nierror code="-4203">
+NI-VXI:  Handler hors délai.
+</nierror>
+<nierror code="-4202">
+NI-VXI:  Contrôleur invalide.
+</nierror>
+<nierror code="-4201">
+NI-VXI:  Aucun support matériel pour cette opération.
+</nierror>
+<nierror code="-4199">
+NI-VXI:  Erreur système de la bibliothèque NI-VXI.
+</nierror>
+<nierror code="-4119">
+NI-VXI:  Handler hors délai.
+</nierror>
+<nierror code="-4118">
+NI-VXI:  La ligne n'est pas configurée pour un SEMI_SYNC externe.
+</nierror>
+<nierror code="-4117">
+NI-VXI:  Aucune condition de déclenchement détectée.
+</nierror>
+<nierror code="-4116">
+NI-VXI:  Acknowledge précédent toujours en attente.
+</nierror>
+<nierror code="-4115">
+NI-VXI:  Opération précédente non terminée ou impulsion précédente configurées et validée.
+</nierror>
+<nierror code="-4112">
+NI-VXI:  La ligne ou le compteur n'ont pas été configurés ou initialisés.
+</nierror>
+<nierror code="-4111">
+NI-VXI:  Déjà mappé, veuillez utiliser UnMapTrigToTrig.
+</nierror>
+<nierror code="-4110">
+NI-VXI:  Configuration incorrecte.
+</nierror>
+<nierror code="-4109">
+NI-VXI:  DestTrig non supporté.
+</nierror>
+<nierror code="-4108">
+NI-VXI:  srcTrig non supporté.
+</nierror>
+<nierror code="-4107">
+NI-VXI:  Ligne déjà utilisée.
+</nierror>
+<nierror code="-4106">
+NI-VXI:  Timeout détecté.
+</nierror>
+<nierror code="-4105">
+NI-VXI:  Protocole non supporté.
+</nierror>
+<nierror code="-4104">
+NI-VXI:  Ligne non supportée.
+</nierror>
+<nierror code="-4103">
+NI-VXI:  Ligne ou protocole incorrect ou bien aucun support matériel.
+</nierror>
+<nierror code="-4102">
+NI-VXI:  Contrôleur invalide.
+</nierror>
+<nierror code="-4101">
+NI-VXI:  VI non supporté ; aucun support matériel.
+</nierror>
+<nierror code="-4099">
+NI-VXI:  Erreur système de la bibliothèque NI-VXI.
+</nierror>
+<nierror code="-4006">
+NI-VXI:  Handler hors délai.
+</nierror>
+<nierror code="-4005">
+NI-VXI:  Interruption VXI provenant du VI AssertVXIint toujours en attente ou modes incorrect.
+</nierror>
+<nierror code="-4004">
+NI-VXI:  Une erreur bus a été détectée pendant le cycle IACK.
+</nierror>
+<nierror code="-4003">
+NI-VXI:  Niveau d'interruption incorrect.
+</nierror>
+<nierror code="-4002">
+NI-VXI:  Contrôleur invalide.
+</nierror>
+<nierror code="-4001">
+NI-VXI:  Niveau d'interruption incorrect.
+</nierror>
+<nierror code="-4001">
+NI-VXI:  Aucun support matériel pour cette opération.
+</nierror>
+<nierror code="-3999">
+NI-VXI:  Erreur système de la bibliothèque NI-VXI.
+</nierror>
+<nierror code="-3903">
+NI-VXI:  Handler hors délai.
+</nierror>
+<nierror code="-3902">
+NI-VXI:  Adresse logique incorrecte.
+</nierror>
+<nierror code="-3902">
+NI-VXI:  Un timeout s'est produit pendant l'attente d'un signal correspondant au signal de masque.
+</nierror>
+<nierror code="-3901">
+NI-VXI:  Adresse logique incorrecte.
+</nierror>
+<nierror code="-3901">
+NI-VXI:  Le signal n'a pas été placé/supprimé de la file d'attente car file d'attente du signal est pleine/vide.
+</nierror>
+<nierror code="-3899">
+NI-VXI:  Erreur système de la bibliothèque NI-VXI.
+</nierror>
+<nierror code="-3805">
+NI-VXI:  Direction incorrecte.
+</nierror>
+<nierror code="-3802">
+NI-VXI:  L'unité centrale locale est en A16 uniquement.
+</nierror>
+<nierror code="-3801">
+NI-VXI:  Le fonctionnement de la mémoire a échoué.
+</nierror>
+<nierror code="-3799">
+NI-VXI:  Erreur système de la bibliothèque NI-VXI.
+</nierror>
+<nierror code="-3709">
+NI-VXI:  Largeur d'accès non supportée.
+</nierror>
+<nierror code="-3704">
+NI-VXI:  Largeur d'accès incorrecte.
+</nierror>
+<nierror code="-3703">
+NI-VXI:  Adresse incorrecte.
+</nierror>
+<nierror code="-3701">
+NI-VXI:  Une erreur bus s'est produite pendant l'accès.
+</nierror>
+<nierror code="-3701">
+NI-VXI:  VI non supporté ; aucun support matériel.
+</nierror>
+<nierror code="-3699">
+NI-VXI:  Erreur système de la bibliothèque NI-VXI.
+</nierror>
+<nierror code="-3609">
+NI-VXI:  Largeur non supportée.
+</nierror>
+<nierror code="-3608">
+NI-VXI:  Timeout ; erreur d'abandon DMA.
+</nierror>
+<nierror code="-3607">
+NI-VXI:  Privilège non supporté.
+</nierror>
+<nierror code="-3606">
+NI-VXI:  L'offset ou l'adresse spécifié ne sont pas accessibles à partir de ce matériel.
+</nierror>
+<nierror code="-3605">
+NI-VXI:  Ordre d'octet non supporté.
+</nierror>
+<nierror code="-3604">
+NI-VXI:  Largeur d'accès non supportée.
+</nierror>
+<nierror code="-3603">
+NI-VXI:  Registre ou adresse invalide.
+</nierror>
+<nierror code="-3602">
+NI-VXI:  Accès, paramètres source ou destination non supportés.
+</nierror>
+<nierror code="-3601">
+NI-VXI:  Une erreur bus s'est produite pendant l'accès.
+</nierror>
+<nierror code="-3599">
+NI-VXI:  Erreur système de la bibliothèque NI-VXI.
+</nierror>
+<nierror code="-3510">
+NI-VXI:  Le changement de l'adresse de base n'est pas supporté.
+</nierror>
+<nierror code="-3509">
+NI-VXI:  La fenêtre n'a pas de privilèges d'accès de type propriétaire.
+</nierror>
+<nierror code="-3508">
+NI-VXI:  Fenêtre toujours utilisée ; utilisez UnMapVXIAddress.
+</nierror>
+<nierror code="-3507">
+NI-VXI:  Privilège non supporté.
+</nierror>
+<nierror code="-3506">
+NI-VXI:  L'offset spécifié n'est pas accessible sur ce matériel.
+</nierror>
+<nierror code="-3505">
+NI-VXI:  Ordre d'octet non supporté.
+</nierror>
+<nierror code="-3503">
+NI-VXI:  Adresse incorrecte.
+</nierror>
+<nierror code="-3503">
+NI-VXI:  Champ incorrect.
+</nierror>
+<nierror code="-3502">
+NI-VXI:  Paramètre d'entrée incorrect.
+</nierror>
+<nierror code="-3501">
+NI-VXI:  Numéro de fenêtre incorrect.
+</nierror>
+<nierror code="-3501">
+NI-VXI:  VI non supporté ; aucun support matériel.
+</nierror>
+<nierror code="-3499">
+NI-VXI:  Erreur système de la bibliothèque NI-VXI.
+</nierror>
+<nierror code="-3403">
+NI-VXI:  Handler hors délai.
+</nierror>
+<nierror code="-3402">
+NI-VXI:  Impossible de réaliser cette opération (opération en cours).
+</nierror>
+<nierror code="-3401">
+NI-VXI:  VI esclave 'Word Serial' non supporté.
+</nierror>
+<nierror code="-3399">
+NI-VXI:  Erreur système de la bibliothèque NI-VXI.
+</nierror>
+<nierror code="-3318">
+NI-VXI:  Handler hors délai.
+</nierror>
+<nierror code="-3317">
+NI-VXI:  Une violation du protocole d'écriture brute s'est produite durant le transfert.
+</nierror>
+<nierror code="-3316">
+NI-VXI:  Une violation du protocole de lecture brute s'est produite durant le transfert.
+</nierror>
+<nierror code="-3315">
+NI-VXI:  Le périphérique indique qu'une erreur de protocole de sortie s'est produite durant le transfert.
+</nierror>
+<nierror code="-3314">
+NI-VXI:  Le périphérique indique qu'une erreur de protocole d'entrée s'est produite durant le transfert.
+</nierror>
+<nierror code="-3313">
+NI-VXI:  Erreur de protocole de lecture.
+</nierror>
+<nierror code="-3312">
+NI-VXI:  Le périphérique n'a pas reconnu la commande.
+</nierror>
+<nierror code="-3311">
+NI-VXI:  Un timeout s'est produit durant le transfert.
+</nierror>
+<nierror code="-3310">
+NI-VXI:  Une erreur bus s'est produite pendant le transfert.
+</nierror>
+<nierror code="-3309">
+NI-VXI:  Une erreur de plusieurs requêtes est survenue durant le transfert.
+</nierror>
+<nierror code="-3308">
+NI-VXI:  Adresse logique incorrecte.
+</nierror>
+<nierror code="-3307">
+NI-VXI:  Un abandon utilisateur forcé s'est produit durant le transfert.
+</nierror>
+<nierror code="-3305">
+NI-VXI:  Un timeout s'est produit avant la réception de la réponse.
+</nierror>
+<nierror code="-3304">
+NI-VXI:  Un timeout s'est produit avant l'envoi de la commande.
+</nierror>
+<nierror code="-3303">
+NI-VXI:  Une erreur s'est produite lors d'une tentative d'ouverture ou d'accès au fichier spécifié.
+</nierror>
+<nierror code="-3302">
+NI-VXI:  Top d'abandon incorrect.
+</nierror>
+<nierror code="-3301">
+NI-VXI:  Adresse logique incorrecte.
+</nierror>
+<nierror code="-3299">
+NI-VXI:  Erreur système de la bibliothèque NI-VXI.
+</nierror>
+<nierror code="-3203">
+NI-VXI:  Echec lors de l'allocation de mémoire dynamique.
+</nierror>
+<nierror code="-3202">
+NI-VXI:  Champ invalide.
+</nierror>
+<nierror code="-3202">
+NI-VXI:  Adresse logique en dehors de la gamme 0 - 511.
+</nierror>
+<nierror code="-3201">
+NI-VXI:  Le périphérique existe déjà.
+</nierror>
+<nierror code="-3201">
+NI-VXI:  Périphérique non trouvé.
+</nierror>
+<nierror code="-3199">
+NI-VXI:  Erreur système de la bibliothèque NI-VXI.
+</nierror>
+<nierror code="-3101">
+NI-VXI:  Echec de fermeture de la bibliothèque NI-VXI.
+</nierror>
+<nierror code="-3099">
+NI-VXI:  Erreur système de la bibliothèque NI-VXI.
+</nierror>
+<nierror code="-3001">
+NI-VXI:  Echec d'initialisation de la bibliothèque NI-VXI.
+</nierror>
+<nierror code="3001">
+NI-VXI:  La bibliothèque VXI a déjà été initialisée (répétition d'appel).
+</nierror>
+<nierror code="3002">
+NI-VXI:  La bibliothèque NI-VXI a été initialisée avec succès, mais le Ressource Manager ne s'est pas exécuté correctement.
+</nierror>
+<nierror code="3003">
+NI-VXI:  La bibliothèque NI-VXI a été initialisée avec succès, mais le Ressource Manager ne s'est pas exécuté.
+</nierror>
+<nierror code="3101">
+NI-VXI:  Opération réalisée avec succès, le précédent appel de InitVXILibrary est toujours en attente.
+</nierror>
+<nierror code="3303">
+NI-VXI:  Transfert effectué avec succès, et au moins une des conditions de terminaison spécifiées a été reçue.
+</nierror>
+<nierror code="3305">
+NI-VXI:  Transfert effectué avec succès, et le nombre d'octets spécifié a été transféré.
+</nierror>
+<nierror code="3307">
+NI-VXI:  Transfert effectué avec succès, le nombre d'octets spécifié a été lu et au moins une des conditions de terminaison spécifiée a été reçue.
+</nierror>
+<nierror code="3308">
+NI-VXI:  Le transfert a été abandonné car le périphérique n'était pas prêt.
+</nierror>
+<nierror code="3319">
+NI-VXI:  Transfert effectué avec succès, et le bit de fin a été reçu.
+</nierror>
+<nierror code="3323">
+NI-VXI:  Transfert effectué avec succès, le nombre d'octets spécifié a été lu et le bit de fin a été reçu.
+</nierror>
+<nierror code="3335">
+NI-VXI:  Transfert effectué avec succès, et le caractère de terminaison a été reçu.
+</nierror>
+<nierror code="3339">
+NI-VXI:  Transfert effectué avec succès, le nombre d'octets spécifié a été lu et le caractère de terminaison a été reçu.
+</nierror>
+<nierror code="3351">
+NI-VXI:  Transfert effectué avec succès, et le caractère de terminaison ainsi que le bit de fin ont été tous les deux reçus.
+</nierror>
+<nierror code="3355">
+NI-VXI:  Transfert effectué avec succès, le nombre d'octets spécifié a été lu et le caractère de terminaison ainsi que le bit de fin ont été tous les deux reçus.
+</nierror>
+<nierror code="3401">
+NI-VXI:  Opération envoyée avec succès, elle débutera après WSSenable.
+</nierror>
+<nierror code="3401">
+NI-VXI:  Proterr ignoré car l'erreur précédente était en attente.
+</nierror>
+<nierror code="3501">
+NI-VXI:  Succès ; la définition de l'ordre des octets est le même pour toutes les fenêtres.
+</nierror>
+<nierror code="3501">
+NI-VXI:  L'accès à la fenêtre a été libéré, mais la fenêtre matérielle est toujours mappée car il existe encore plusieurs utilisateurs.
+</nierror>
+<nierror code="3801">
+NI-VXI:  L'allocation mémoire a été un succès, mais il faut utiliser VXImemCopy pour avoir accès à la mémoire.
+</nierror>
+<nierror code="3901">
+NI-VXI:  La file d'attente du signal est pleine, elle sera validée après un SignalDeq.
+</nierror>
+<nierror code="4001">
+NI-VXI:  La file d'attente du signal est pleine, elle validera les interruptions après un SignalDeq.
+</nierror>
+</nidocument>

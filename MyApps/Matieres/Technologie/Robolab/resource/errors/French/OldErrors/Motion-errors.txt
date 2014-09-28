@@ -1,0 +1,738 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="-79999">
+Motion:  Une erreur interne s'est produite. Veuillez contacter National Instruments.
+</nierror>
+<nierror code="-79531">
+Motion:  Erreur lors de l'appel du paramétrage.
+</nierror>
+<nierror code="-79530">
+Motion:  Le plan courant est invalide.
+</nierror>
+<nierror code="-79529">
+Motion:  Impossible de définir un attribut
+</nierror>
+<nierror code="-79528">
+Motion:  Impossible d'obtenir un attribut
+</nierror>
+<nierror code="-79527">
+Motion:  Echec lors de l'exécution des packets
+</nierror>
+<nierror code="-79526">
+Motion:  Le code spécial est invalide
+</nierror>
+<nierror code="-79525">
+Motion:  Erreur lors de l'appel des fonctions de l'API Flex Motion
+</nierror>
+<nierror code="-79524">
+Motion:  Echec lors de la traduction de la chaîne NIMCIL
+</nierror>
+<nierror code="-79523">
+Motion:  Le numéro d'outil courant est invalide
+</nierror>
+<nierror code="-79522">
+Motion:  Le nombre de trous est invalide
+</nierror>
+<nierror code="-79521">
+Motion:  Le rayon courant est invalide
+</nierror>
+<nierror code="-79520">
+Motion:  Les actions ne sont pas terminées
+</nierror>
+<nierror code="-79519">
+Motion:  Impossible d'arrêter le thread
+</nierror>
+<nierror code="-79518">
+Motion:  Le signal est invalide
+</nierror>
+<nierror code="-79517">
+Motion:  La taille de buffer est invalide
+</nierror>
+<nierror code="-79516">
+Motion:  La valeur "peck" courante du cycle "canned" est invalide.
+</nierror>
+<nierror code="-79515">
+Motion:  La profondeur de ce cycle "canned" est invalide.
+</nierror>
+<nierror code="-79514">
+Motion:  L'axe utilisé est invalide
+</nierror>
+<nierror code="-79513">
+Motion:  La valeur est invalide
+</nierror>
+<nierror code="-79512">
+Motion:  Le symbole est invalide
+</nierror>
+<nierror code="-79511">
+Motion:  La position est hors gamme
+</nierror>
+<nierror code="-79510">
+Motion:  Impossible de suspendre le thread
+</nierror>
+<nierror code="-79509">
+Motion:  Impossible de reprendre le thread suspendu
+</nierror>
+<nierror code="-79508">
+Motion:  Impossible de fermer le handle
+</nierror>
+<nierror code="-79507">
+Motion:  Impossible de créer le thread
+</nierror>
+<nierror code="-79506">
+Motion:  Impossible d'allouer la mémoire
+</nierror>
+<nierror code="-79505">
+Motion:  Impossible d'obtenir le code de sortie du thread
+</nierror>
+<nierror code="-79504">
+Motion:  Impossible de terminer le thread
+</nierror>
+<nierror code="-79503">
+Motion:  Impossible de créer le signal d'événement
+</nierror>
+<nierror code="-79502">
+Motion:  Impossible de créer le signal de sémaphore
+</nierror>
+<nierror code="-79501">
+Motion:  Impossible de créer le signal de mutex
+</nierror>
+<nierror code="-79401">
+Motion:  A compléter.
+</nierror>
+<nierror code="-79332">
+Motion:  A compléter.
+</nierror>
+<nierror code="-79331">
+Motion:  A compléter.
+</nierror>
+<nierror code="-79330">
+Motion:  A compléter.
+</nierror>
+<nierror code="-79321">
+Motion:  A compléter.
+</nierror>
+<nierror code="-79319">
+Motion:  A compléter.
+</nierror>
+<nierror code="-79317">
+Motion:  A compléter.
+</nierror>
+<nierror code="-79315">
+Motion:  A compléter.
+</nierror>
+<nierror code="-79313">
+Motion:  A compléter.
+</nierror>
+<nierror code="-79307">
+Motion:  A compléter.
+</nierror>
+<nierror code="-79305">
+Motion:  A compléter.
+</nierror>
+<nierror code="-79103">
+Motion:  Le traducteur CNC code G n'a pas pu effectuer un link vers une fonction exportée dans une DLL de support.
+</nierror>
+<nierror code="-79102">
+Motion:  Le traducteur CNC code G n'a pas pu charger une DLL de support requise.
+</nierror>
+<nierror code="-79101">
+Motion:  Le handle de traduction passé à la fonction est invalide.
+</nierror>
+<nierror code="-78013">
+Motion:  Le fichier de paramètres d'initialisation n'a pas pu être exporté. Ce problème provient la plupart du temps d'une erreur interne. Veuillez vous assurer que le fichier de paramètres en cours d'exportation est présent dans la base de données de configuration.
+</nierror>
+<nierror code="-78012">
+Motion:  Le fichier de paramètres d'initialisation n'a pas pu être importé. Veuillez vérifier le chemin et le nom du fichier que vous essayez d'importer.
+</nierror>
+<nierror code="-78011">
+Motion:  Les changements ne peuvent pas s'appliquer de façon définitive aux paramètres d'initialisation.
+</nierror>
+<nierror code="-78010">
+Motion:  L'objet que vous tentez de supprimer est en cours d'utilisation (référencé par d'autres objets).
+</nierror>
+<nierror code="-78009">
+Motion:  Echec lors de la suppression du paramètre d'initialisation spécifié. Assurez-vous que ce paramètre n'est pas déjà en cours d'utilisation par un périphérique de commande d'axes.
+</nierror>
+<nierror code="-78008">
+Motion:  Echec lors de la création d'un nouveau paramètre d'initialisation.
+</nierror>
+<nierror code="-78007">
+Motion:  Le nom de paramètres d'initialisation spécifié est invalide.
+</nierror>
+<nierror code="-78006">
+Motion:  Le tableau passé à la fonction est de taille insuffisante pour retourner les données requises.
+</nierror>
+<nierror code="-78005">
+Motion:  La valeur en cours d'enregistrement dans la base de donnée est hors gamme.
+</nierror>
+<nierror code="-78004">
+Motion:  L'attribut qui a été accédé est relatif à un axe ou une ressource invalide.
+</nierror>
+<nierror code="-78003">
+Motion:  L'attribut utilisé est invalide.
+</nierror>
+<nierror code="-78002">
+Motion:  Impossible de définir un attribut dans les paramètres d'initialisation.
+</nierror>
+<nierror code="-78001">
+Motion:  Impossible d'obtenir une valeur d'attribut à partir des paramètres d'initialisation.
+</nierror>
+<nierror code="-70180">
+Motion:  L'engrenage maître pour un axe ne doit pas être défini à 'Aucun' quand le mécanisme d'engrenage est activé pour cet axe.
+</nierror>
+<nierror code="-70179">
+Motion:  L'engrenage maître pour l'axe spécifié n'est pas valide.
+</nierror>
+<nierror code="-70178">
+Motion:  Cette fonction ne peut être exécutée qu'à partir d'un programme rmbarqué (Onboard)
+</nierror>
+<nierror code="-70177">
+Motion:  Vous avez entré une valeur non valide pour la fraction de temps impartie au programme embarqué (onboard).
+</nierror>
+<nierror code="-70176">
+Motion:  Le contrôleur n'a pas pu garantir que les programmes embarqués (onboard) ont été exécutés en temps et en heure.
+</nierror>
+<nierror code="-70175">
+Motion:  Erreur interne. Le buffer interne de points décrivant un arc est plein.
+</nierror>
+<nierror code="-70174">
+Motion:  Erreur interne. Il manque des données dans le buffer interne haute vitesse de capture.
+</nierror>
+<nierror code="-70173">
+Motion:  Erreur interne. Il manque des données dans le buffer interne de points d'arrêt.
+</nierror>
+<nierror code="-70172">
+Motion:  Erreur interne. Le buffer de capture interne haute vitesse est plein.
+</nierror>
+<nierror code="-70171">
+Motion:  Erreur interne. Le buffer interne de points d'arrêt est plein.
+</nierror>
+<nierror code="-70170">
+Motion:  L'interface requise n'est pas supportée.
+</nierror>
+<nierror code="-70169">
+Motion:  Un pointeur NULL ou invalide a été transmis comme paramètre à cette fonction.
+</nierror>
+<nierror code="-70168">
+Motion:  Un Motion ID invalide a été transmis à une fonction.
+</nierror>
+<nierror code="-70167">
+Motion:  Le contrôleur est en cours d'initialisation.
+</nierror>
+<nierror code="-70166">
+Motion:  La séquence 'Find Reference' n'a pas trouvé la référence car l'axe moteur a rencontré l'erreur suivante.
+</nierror>
+<nierror code="-70165">
+Motion:  La fonction 'Find Reference' a échoué car le moteur s'est arrêté avant que la référence ne soit trouvée.
+</nierror>
+<nierror code="-70164">
+Motion:  Les CAN (convertisseur analogique vers numérique) ne peuvent pas être activés ou désactivés pendant que les axes sont activés avec feedback analogique. De plus, les gammes CAN ne peuvent pas être modifiées sur des voies CAN utilisées pour le feedback analogique pendant que les axes sont activés.
+</nierror>
+<nierror code="-70163">
+Motion:  La limite négative (basse) est supérieure ou égale à la limite positive (haute).
+</nierror>
+<nierror code="-70162">
+Motion:  L'offset de couple est en dehors de la gamme limite de couple.
+</nierror>
+<nierror code="-70161">
+Motion:  Des axes faisant partie d'un vecteur d'espace ont des paramètres de mélange différents.Assurez-vous que tous les axes dans le vecteur d'espace ont le même paramètre de mélange.
+</nierror>
+<nierror code="-70160">
+Motion:  Erreur interne. Les structures de données de la sortie pas à pas interne n'ont pas pu être initialisées. Réinitialisez le contrôleur et recommencez. Si le problème persiste, veuillez contacter le support technique de National Instruments.
+</nierror>
+<nierror code="-70159">
+Motion:  Erreur interne. Les structures de données de l'encodeur interne n'ont pas pu être initialisées. Réinitialisez le contrôleur et recommencez. Si le problème persiste, veuillez contacter le support technique de National Instruments.
+</nierror>
+<nierror code="-70158">
+Motion:  Erreur interne. Les structures de données de l'axe interne n'ont pas pu être initialisées. Réinitialisez le contrôleur et recommencez. Si le problème persiste, veuillez contacter le support technique de National Instruments.
+</nierror>
+<nierror code="-70157">
+Motion:  Erreur interne. Le buffer interne de requête de points est plein.
+</nierror>
+<nierror code="-70156">
+Motion:  Aucune - Copie - Idem erreur 27
+</nierror>
+<nierror code="-70155">
+Motion:  Erreur interne. Le bus série QSPI interne a échoué et les valeurs Le CAN (convertisseur analogique vers numérique) ne peuvent être lues.
+</nierror>
+<nierror code="-70154">
+Motion:  Le vecteur d'entrée ou de retour utilisé est invalide.
+</nierror>
+<nierror code="-70153">
+Motion:  Erreur interne. Le buffer d'échantillons interne est plein.
+</nierror>
+<nierror code="-70152">
+Motion:  Le vecteur accélération n'est pas valide. L'accélération angulaire résultante est hors gamme. Veuillez changer le vecteur accélération pour le déplacement d'arc.
+</nierror>
+<nierror code="-70151">
+Motion:  Le vecteur vitesse n'est pas valide. La vitesse angulaire résultante est hors gamme. Veuillez changer le vecteur vitesse pour le déplacement d'arc.
+</nierror>
+<nierror code="-70150">
+Motion:  La séquence Find Home n'a pas réussi à trouver le 'home' car l'axe a rencontré l'erreur suivante.
+</nierror>
+<nierror code="-70149">
+Motion:  Des axes faisant partie d'un vecteur d'espace sont soit en mode velocity soit ont des modes d'opération différents.
+</nierror>
+<nierror code="-70148">
+Motion:  Le CAN (convertisseur analogique vers numérique) est désactivé. La voie CAN doit être activée pour effectuer une lecture.
+</nierror>
+<nierror code="-70147">
+Motion:  L'embrayage ne peut pas être activé car l'axe esclave est dans un état killed. Générez un halt stop ou un decel stop avec la fonction Stop Motion sur l'axe esclave pour le dynamiser.
+</nierror>
+<nierror code="-70146">
+Motion:  Il n'y a pas d'échantillons à lire. Exécutez Acquire Trajectory Data avant d'essayer de lire des échantillons.
+</nierror>
+<nierror code="-70145">
+Motion:  Nombre insuffisant d'axes assignés au vecteur d'espace utilisé.
+</nierror>
+<nierror code="-70144">
+Motion:  Une variable illégale à caractère général est utilisée.
+</nierror>
+<nierror code="-70143">
+Motion:  Aucune - était utilisé pour une interruption d'E/S bloquée sur condition.
+</nierror>
+<nierror code="-70142">
+Motion:  Une fonction de type Start, Blend, Find Home, ou Find Index exécutée à partir d'un programme embarqué a été annulée à cause de l'erreur suivante. Le programme est dans l'état PAUSED. Exécutez la fonction Pause/Resume pour continuer.
+</nierror>
+<nierror code="-70141">
+Motion:  Une fonction de type Start, Blend, Find Home, ou Find Index exécutée à partir d'un programme embarqué a été annulée par une fonction de type Stop Motion provenant de l'ordinateur hôte. Le programme est dans l'état PAUSED. Exécutez la fonction Pause/Resume pour continuer.
+</nierror>
+<nierror code="-70140">
+Motion:  Tous les lecteurs de programmes (maximum 10) sont en cours d'utilisation, enregistrant/exécutant des programmes.
+</nierror>
+<nierror code="-70139">
+Motion:  Le registre d'objet est plein. Le nombre de programmes et de buffers a atteint la limite. Libérez quelques programmes ou buffers de la RAM ou de la ROM en utilisant la fonction "Object Memory Management".
+</nierror>
+<nierror code="-70138">
+Motion:  Espace ROM Flash insuffisant pour enregistrer cet objet (programme ou buffer).
+</nierror>
+<nierror code="-70137">
+Motion:  Une tentative de référencement d'un objet programme ou buffer inexistant a eu lieu. Ou bien, le numéro d'objet est déjà utilisé par un objet d'un autre type. Choisissez un autre numéro d'objet, ou libérez/supprimez l'objet possédant ce numéro.
+</nierror>
+<nierror code="-70136">
+Motion:  Une opération d'attente ou de lecture est entrée en timeout.
+</nierror>
+<nierror code="-70135">
+Motion:  Etait NIMC_axisEnabledError
+</nierror>
+<nierror code="-70134">
+Motion:  Erreur interne. Il manque des échantillons au buffer d'échantillons interne.
+</nierror>
+<nierror code="-70133">
+Motion:  Erreur interne. Il manque une requête au buffer de requête de points interne.
+</nierror>
+<nierror code="-70132">
+Motion:  Erreur interne. Le DSP était trop occupé pour mettre à jour la position cible.
+</nierror>
+<nierror code="-70131">
+Motion:  Erreur interne. La position d'axe n'a pas pu être lue dans le but de réaliser une vérification en-position.
+</nierror>
+<nierror code="-70130">
+Motion:  Un emplacement mémoire invalide a été adressé sur le contrôleur.
+</nierror>
+<nierror code="-70129">
+Motion:  Un axe désactivé a reçu une commande de déplacement. Activez l'axe avant de réaliser un déplacement.
+</nierror>
+<nierror code="-70128">
+Motion:  Etait utilisé pour TABLE_ALLOC_ERROR mais  NIMC_noMoreRAMError devrait être utilisé à la place.
+</nierror>
+<nierror code="-70127">
+Motion:  La table de points pour le spline cubique est pleine.
+</nierror>
+<nierror code="-70126">
+Motion:  Un axe ne peut pas changer de feedback pendant un déplacement ou changer de sortie lorsqu'il est activé. Arrêter et/ou désactivez l'axe et configurez-le ensuite.
+</nierror>
+<nierror code="-70125">
+Motion:  La fonction n'a pas été exécutée car elle a été tentée à un moment illégal.
+</nierror>
+<nierror code="-70124">
+Motion:  La séquence Find Index n'a pas réussi à trouver l'index.
+</nierror>
+<nierror code="-70123">
+Motion:  La valeur ou la fenêtre de point d'arrêt chargée dépasse la gamme modulo.
+</nierror>
+<nierror code="-70122">
+Motion:  L'encodeur est désactivé. L'encodeur doit être activé pour effectuer la lecture.
+</nierror>
+<nierror code="-70121">
+Motion:  La position cible absolue chargée entrainerait une longueur de déplacement en dehors de la gamme +/- 31 bits permise pour un simple segment de déplacement.
+</nierror>
+<nierror code="-70120">
+Motion:  Aucun
+</nierror>
+<nierror code="-70119">
+Motion:  Le déplacement désiré ne peut pas avoir lieu car l'entrée limite est active dans la direction du déplacement.
+</nierror>
+<nierror code="-70118">
+Motion:  La fonction 'Find Home' a échoué car le moteur s'est arrêté avant que le commutateur home ne soit trouvé.
+</nierror>
+<nierror code="-70117">
+Motion:  La fonction 'Find Reference' ne peut pas s'exécuter car les entrées Home et/ou Limit ne sont pas activées. Activez les 'Limits' ou utilisez la fonctionnalité 'SmartEnable'.
+</nierror>
+<nierror code="-70116">
+Motion:  La condition sélectionnée est invalide.
+</nierror>
+<nierror code="-70115">
+Motion:  Une fonction 'Jump to Label on Condition' dans un programme a un mauvais label.
+</nierror>
+<nierror code="-70114">
+Motion:  Etait  NIMC_nestedProgramError.
+</nierror>
+<nierror code="-70113">
+Motion:  Aucune RAM disponible pour l'enregistrement de l'objet (programme ou buffer).
+</nierror>
+<nierror code="-70112">
+Motion:  Un axe activé de type boucle fermée (closed-loop) doit avoir une ressource mappée au feedback primaire. Désactivez l'axe avant de supprimer la ressource.
+</nierror>
+<nierror code="-70111">
+Motion:  Une ressource est actuellement configurée pour un autre axe qui est activé. Désactivez l'axe utilisant cette ressource.
+</nierror>
+<nierror code="-70110">
+Motion:  Aucune - était une copie - idem 106 - NIMC_outputDeviceNotAssignedError
+</nierror>
+<nierror code="-70109">
+Motion:  Aucun périphérique de feedback primaire (encodeur ou CAN (convertisseurs analogique vers numérique)) n'est assigné à un axe servo ou pas à pas en boucle fermée.
+</nierror>
+<nierror code="-70108">
+Motion:  La cadence de PID spécifiée est trop rapide pour le nombre d'axes et/ou encodeurs activés.
+</nierror>
+<nierror code="-70107">
+Motion:  Aucune
+</nierror>
+<nierror code="-70106">
+Motion:  Aucun CNA (convertisseurs numérique vers analogique) ou sortie pas à pas n'est assigné à cet axe.
+</nierror>
+<nierror code="-70105">
+Motion:  Aucune
+</nierror>
+<nierror code="-70104">
+Motion:  Erreur interne. Le nombre d'événements en cours a atteint le maximum autorisé.
+</nierror>
+<nierror code="-70103">
+Motion:  Le bit de configuration d'E/S n'est pas possible pour cette broche.
+</nierror>
+<nierror code="-70102">
+Motion:  Le bit de configuration d'E/S n'est pas en accord avec son paramètre de direction de port.
+</nierror>
+<nierror code="-70101">
+Motion:  Etait PAI_TM_ERROR - Problème lié à la gate du timer d'E/S.
+</nierror>
+<nierror code="-70100">
+Motion:  Problème lié au compteur d'événement d'E/S.
+</nierror>
+<nierror code="-70099">
+Motion:  Etait OUTCOMP_ERROR - Le point d'arrêt du compteur/timer est défini pour un bit d'E/S invalide.
+</nierror>
+<nierror code="-70098">
+Motion:  Etait BAD_IO_DIR_ERROR
+</nierror>
+<nierror code="-70097">
+Motion:  Un conflit existe entre les valeurs mustOn et mustOff définies pour cette fonction.
+</nierror>
+<nierror code="-70096">
+Motion:  Le mot de passe utilisé pour cette fonction est incorrect.
+</nierror>
+<nierror code="-70095">
+Motion:  Erreur interne. Une erreur de timeout s'est produite lors de l'envoi de commandes au DSP.
+</nierror>
+<nierror code="-70094">
+Motion:  Erreur interne. Ceci est un message interne pour indiquer qu'il n'y a plus de données dans le buffer de message interne.
+</nierror>
+<nierror code="-70093">
+Motion:  Erreur interne. Une commande venant du microprocesseur embarqué vers le DSP était corrompue et a été ignorée.
+</nierror>
+<nierror code="-70092">
+Motion:  Erreur interne. Les données renvoyées par le DSP sont incomplètes ou corrompues.
+</nierror>
+<nierror code="-70091">
+Motion:  Aucune
+</nierror>
+<nierror code="-70090">
+Motion:  Aucune
+</nierror>
+<nierror code="-70089">
+Motion:  Aucune
+</nierror>
+<nierror code="-70088">
+Motion:  Aucune
+</nierror>
+<nierror code="-70087">
+Motion:  Aucune
+</nierror>
+<nierror code="-70086">
+Motion:  Une position de réinitialisation invalide est appliquée au périphérique de retour. Si le même périphérique de retour est configuré pour un retour primaire et secondaire, il doit être réinitialisé à la mêm position.
+</nierror>
+<nierror code="-70085">
+Motion:  Erreur interne. Le DSP a reçu une commande avec un Device ID illégal.
+</nierror>
+<nierror code="-70084">
+Motion:  Erreur interne. Le DSP a reçu une commande illégale.
+</nierror>
+<nierror code="-70083">
+Motion:  Erreur interne. Le buffer de transmission du DSP est plein. Les messages du DSP vers le microprocesseur embarqué sont retardés ou perdus.
+</nierror>
+<nierror code="-70082">
+Motion:  Réservé - Jamais utilisé pour une erreur de position wrap-around.
+</nierror>
+<nierror code="-70081">
+Motion:  Réservé - Jamais utilisé pour un message d'erreur DSP.
+</nierror>
+<nierror code="-70080">
+Motion:  Le 'Return Data Buffer' sur le contrôleur est plein.
+</nierror>
+<nierror code="-70079">
+Motion:  Le contrôleur n'a pas pu lancer le programme embarqué en mode auto start. Quand vous activez l'auto start, assurez-vous que le numéro de programme spécifié est valide et que le programme est enregistré en ROM Flash.
+</nierror>
+<nierror code="-70078">
+Motion:  Des données invalides ont été transmises à la fonction. Ceci est généralement dû à un paramètre hors gamme ou à une combinaison invalide de valeurs de paramètres.
+</nierror>
+<nierror code="-70077">
+Motion:  Erreur de communication. Le contrôleur a reçu des données corrompues dans le paquet de commande provenant de l'ordinateur hôte.
+</nierror>
+<nierror code="-70076">
+Motion:  Erreur de communication. Le contrôleur n'a reçu aucune donnée dans le paquet de commande provenant de l'ordinateur hôte.
+</nierror>
+<nierror code="-70075">
+Motion:  Le buffer FIFO de communication entre l'ordinateur hôte et le contrôleur est plein.
+</nierror>
+<nierror code="-70074">
+Motion:  Le contrôleur n'a pas réussi à s'éteindre. Raison possible : erreur lors de la désactivation des CNA (convertisseurs numérique vers analogique), des encodeurs ou des CAN (convertisseurs analogique vers numérique), ou encore lors de la réinitialisation des E/S à leurs valeurs par défaut.
+</nierror>
+<nierror code="-70073">
+Motion:  Le contrôleur ne peut pas accepter cette fonction car il a été éteint.
+</nierror>
+<nierror code="-70072">
+Motion:  Le contrôleur FlexMotion est dans l'état "power up reset". Veuillez exécuter la fonction ou le VI Clear Power Up Status avant d'envoyer toute commande au contrôleur.
+</nierror>
+<nierror code="-70071">
+Motion:  La direction des lignes DIO réservées pour l'entrée des capteurs à effet Hall ne peut pas être configurée en sortie.
+</nierror>
+<nierror code="-70070">
+Motion:  Le mode et les paramètres de commutation ne peuvent pas être modifiés pendant que l'axe est en fonctionnement.
+</nierror>
+<nierror code="-70069">
+Motion:  État invalide du capteur à effet Hall.
+</nierror>
+<nierror code="-70068">
+Motion:  Une opération de capture bufferisée à haute vitesse a excédé la fréquence maximale autorisée.
+</nierror>
+<nierror code="-70067">
+Motion:  Une opération de points d'arrêt bufferisée à haute vitesse a excédé la fréquence maximale autorisée.
+</nierror>
+<nierror code="-70066">
+Motion:  L'ID de carte transmis est actuellement utilisé pour un contrôleur NI-Motion virtuel. Aucune commande ne peut être envoyée à une carte virtuelle.
+</nierror>
+<nierror code="-70065">
+Motion:  Cette opération ne peut pas être exécutée lorsqu'une opération de contour est en cours.
+</nierror>
+<nierror code="-70064">
+Motion:  Cette opération est impossible pour le moment. Soit vous tentez d'écrire dans un buffer de la ROM ce qui est interdit, soit vous ne pouvez pas lire ou écrire ce buffer en ce moment.
+</nierror>
+<nierror code="-70063">
+Motion:  Le buffer n'a pas été configuré convenablement. Le type de buffer ne peut pas être modifié. Le buffer existe peut-être dans la ROM, mais il n'a pas encore été configuré depuis le dernier cycle arrêt/marche.
+</nierror>
+<nierror code="-70062">
+Motion:  La fonction "Read Buffer" ou "Write Buffer" n'a pas pu s'exécuter car d'anciennes données étaient en cours de lecture ou d'écriture dans le buffer.
+</nierror>
+<nierror code="-70061">
+Motion:  Le buffer indiqué est en cours d'utilisation.
+</nierror>
+<nierror code="-70060">
+Motion:  Les objets enregistrés dans la ROM Flash sont corrompus.
+</nierror>
+<nierror code="-70059">
+Motion:  Erreur de copie vers la ROM Flash.
+</nierror>
+<nierror code="-70058">
+Motion:  Erreur interne. La structure d'E/S sur le contrôleur n'a pas pu être initialisée. Réinitialisez le contrôleur et recommencez. Si le problème persiste, veuillez contacter le support technique de National Instruments.
+</nierror>
+<nierror code="-70057">
+Motion:  Erreur interne. La configuration d'interruption de l'hôte a échoué et le support des interruptions a été désactivé.
+</nierror>
+<nierror code="-70056">
+Motion:  Firmware FPGA corrompu. Veuillez télécharger un nouveau firmware.
+</nierror>
+<nierror code="-70055">
+Motion:  Firmware DSP corrompu. Veuillez télécharger un nouveau firmware.
+</nierror>
+<nierror code="-70054">
+Motion:  Firmware embarqué corrompu. Veuillez télécharger un nouveau firmware.
+</nierror>
+<nierror code="-70053">
+Motion:  Erreur interne. Echec lors de la programmation du DSP. Réinitialisez le contrôleur et recommencez l'opération. Si le problème persiste, veuillez contacter le support technique de National Instruments.
+</nierror>
+<nierror code="-70052">
+Motion:  Erreur interne. Echec lors de la programmation du FPGA. Réinitialisez le contrôleur et recommencez l'opération. Si le problème persiste, veuillez contacter le support technique de National Instruments.
+</nierror>
+<nierror code="-70051">
+Motion:  Le téléchargement du firmware a échoué. Réinitialisez le contrôleur et recommencez le téléchargement.
+</nierror>
+<nierror code="-70050">
+Motion:  Réservé.
+</nierror>
+<nierror code="-70049">
+Motion:  Une erreur de check sum s'est produite lors du téléchargement d'un fichier vers le contrôleur FlexMotion.
+</nierror>
+<nierror code="-70048">
+Motion:  La fenêtre de point d'arrêt (breakpoint window) n'est pas valide.
+</nierror>
+<nierror code="-70047">
+Motion:  Ce mode n'est pas supporté par ce contrôleur.
+</nierror>
+<nierror code="-70046">
+Motion:  Les données d'étalonnage n'ont pas été lues avec succès à partir de l'EEPROM flash.
+</nierror>
+<nierror code="-70045">
+Motion:  Lors de l'étape d'étalonnage (interne et externe), veuillez vous assurer que tous les axes sont en arrêt (killed). Pour cela, utilisez la fonction Motion Stop.
+</nierror>
+<nierror code="-70044">
+Motion:  Pour un étalonnage externe, les utilisateurs doivent fournir le mot de passe à la carte, réaliser les ajustements nécessaires et définir la nouvelle référence "onboard" dans une séquence.
+</nierror>
+<nierror code="-70043">
+Motion:  La cible pour l'étalonnage est hors gamme.
+</nierror>
+<nierror code="-70042">
+Motion:  Impossible d'établir une connexion avec le système distant. Utilisez MAX pour vérifier que les paramètres de la carte distante sont valides.
+</nierror>
+<nierror code="-70041">
+Motion:  Le "boardID" est déjà utilisé par un autre contrôleur. Pour changer le "boardID" d'un contrôleur, choisissez-en un qui n'est pas déjà utilisé.
+</nierror>
+<nierror code="-70040">
+Motion:  Le périphérique en cours est réservé pour l'exécution de programmes embarqués, alors qu'un téléchargement est en cours. Pour libérer le périphérique, utilisez flex_end_store après le téléchargement.
+</nierror>
+<nierror code="-70039">
+Motion:  Le chien de garde (watchdog) de communication sur la carte mère 1394 n'a pas pu démarrer.
+</nierror>
+<nierror code="-70038">
+Motion:  Une erreur inattendue s'est produite au niveau interne du driver. Veuillez contacter National Instruments avec le nom de la fonction ou du VI qui a renvoyé cette erreur.
+</nierror>
+<nierror code="-70037">
+Motion:  L'attribut spécifié n'est pas approprié.
+</nierror>
+<nierror code="-70036">
+Motion:  Le ratio spécifié est invalide.
+</nierror>
+<nierror code="-70035">
+Motion:  Une erreur fatale s'est produite au niveau du contrôleur. Vous devez ré-initialiser le contrôleur en éteignant votre ordinateur puis en le rallumant. Contactez le support technique de National Instruments si le problème persiste.
+</nierror>
+<nierror code="-70034">
+Motion:  Des données invalides ont été retournées par le contrôleur. Ces données ne correspondent pas à ce que devait renvoyer le contrôleur suite à la commande envoyée.
+</nierror>
+<nierror code="-70033">
+Motion:  Un pointeur NULL a été transmis de façon inappropriée à une fonction.
+</nierror>
+<nierror code="-70032">
+Motion:  Réservé à un produit obsolète.
+</nierror>
+<nierror code="-70031">
+Motion:  Réservé à un produit obsolète.
+</nierror>
+<nierror code="-70030">
+Motion:  Réservé à un produit obsolète.
+</nierror>
+<nierror code="-70029">
+Motion:  Réservé à un produit obsolète.
+</nierror>
+<nierror code="-70028">
+Motion:  La ressource n'est pas assez grande pour supporter l'opération spécifiée.
+</nierror>
+<nierror code="-70027">
+Motion:  Sous Windows NT, un appel de fonction envoyé au contrôleur d'axes a généré un timeout, en attente d'accès au driver. Pour les contrôleurs ethernet, un appel de fonction envoyé au contrôleur d'axes a généré un timeout, en attente d'un retour de donnée. Cela peut être dû à un ralentissement ou à une perte de la connexion avec le boîtier ethernet.
+</nierror>
+<nierror code="-70026">
+Motion:  Le VI Motion Error Hander.flx a découvert des erreurs modales dans la pile d'erreurs modales. Vous pouvez visualiser ces erreurs dans l'indicateur/terminal Modal Error(s) Out de ce VI.
+</nierror>
+<nierror code="-70025">
+Motion:  Le 'Return Data Buffer' n'est pas vide. Une commande impliquant un retour de données par le contrôleur ne peut pas être envoyée avant que ce buffer soit réinitialisé.
+</nierror>
+<nierror code="-70024">
+Motion:  Commande de type motion envoyée à une carte encodeur.
+</nierror>
+<nierror code="-70023">
+Motion:  Un des paramètres fournis à la fonction a une valeur illégale.
+</nierror>
+<nierror code="-70022">
+Motion:  Cette commande n'est pas supportée par ce contrôleur ou ce système d'exploitation.
+</nierror>
+<nierror code="-70021">
+Motion:  La réinitialisation du système ne s'est pas terminée dans le temps imparti.
+</nierror>
+<nierror code="-70020">
+Motion:  Pas/tour et/ou décomptes/tour (en ValueMotion, lignes/tour) non chargé pour cet axe
+</nierror>
+<nierror code="-70019">
+Motion:  L'information de configuration du contrôleur est manquante ou corrompue. Aucun contrôleur Motion n'a été configuré avec cet ID de carte.
+</nierror>
+<nierror code="-70018">
+Motion:  Cette commande n'est valide que sur les axes pas à pas en boucle fermée.
+</nierror>
+<nierror code="-70017">
+Motion:  Cette commande n'est valide que sur les axes pas à pas.
+</nierror>
+<nierror code="-70016">
+Motion:  Cette commande n'est valide que sur les axes servo.
+</nierror>
+<nierror code="-70015">
+Motion:  Impossible de vider le Return Data Buffer.
+</nierror>
+<nierror code="-70014">
+Motion:  Cette commande n'est valide que sur les axes en boucles fermées (moteurs pas à pas et servo en boucles fermées).
+</nierror>
+<nierror code="-70013">
+Motion:  La longueur du paquet commande est incorrecte. Le firmware de votre contrôleur FlexMotion est peut-être trop ancien.
+</nierror>
+<nierror code="-70012">
+Motion:  ID de carte illégal. Vous devez utiliser l'ID de la carte assigné à votre contrôleur dans le Measurement & Automation Explorer.
+</nierror>
+<nierror code="-70011">
+Motion:  Données de retour d'information corrompues. Les données renvoyées par le contrôleur d'axes sont corrompues.
+</nierror>
+<nierror code="-70010">
+Motion:  ID de commande non reconnu. Commande invalide envoyée au contrôleur (FlexMotion seulement).
+</nierror>
+<nierror code="-70009">
+Motion:  Bit d'erreur du paquet non initialisé par le terminateur (erreur matérielle).
+</nierror>
+<nierror code="-70008">
+Motion:  La fonction appelée avant celle-ci n'est pas supportée par ce type de contrôleur.
+</nierror>
+<nierror code="-70007">
+Motion:  Une fonction précédente est en cours d'exécution. Le contrôleur ne peut donc accepter cette fonction tant que la fonction précédente n'est pas terminée. Si ce problème persiste, essayez d'intercaler un délai entre les commandes en conflit.
+</nierror>
+<nierror code="-70006">
+Motion:  Pour les cartes ValueMotion, un numéro d'axe invalide a été utilisé. Pour les cartes FlexMotion, un numéro d'axe invalide ou un autre ID de ressource (Vector Space, Encodeur, Port d'E/S, etc.) a été utilisé.
+</nierror>
+<nierror code="-70005">
+Motion:  Il est probable que votre contrôleur ne soit pas installé ou configuré correctement. Si cette erreur persiste alors que vous êtes sûr que votre contrôleur est installé et configuré correctement, elle indique une panne matérielle interne.
+</nierror>
+<nierror code="-70004">
+Motion:  Paquet de retour d'information incomplet. Les données renvoyées par le contrôleur sont incomplètes. Le noyau du driver est entré en timeout après avoir reçu des données partielles.
+</nierror>
+<nierror code="-70003">
+Motion:  Aucune donnée dans le 'Return Data Buffer'. Le noyau du driver renvoie une erreur si un timeout se produit pendant qu'il attend que le contrôleur renvoie les données dans le 'Return Data Buffer'. Pour les contrôleurs FlexMotion, cette erreur peut aussi être renvoyée si l'état de démarrage du contrôleur n'a pas été initialisé.
+</nierror>
+<nierror code="-70002">
+Motion:  Soit cette fonction n'est pas supportée par ce type de contrôleur, soit le contrôleur a reçu un paquet de commandes incomplet et ne peut exécuter la fonction.
+</nierror>
+<nierror code="-70001">
+Motion:  Timeout de 'Ready to Receive'. Le contrôleur n'est toujours pas prêt à recevoir des commandes après la période de timeout impartie. Cette erreur peut se produire si le contrôleur est occupé à traiter des commandes précédentes. Si cette erreur persiste, même quand le contrôleur ne devrait pas être occupé, veuillez contacter National Instruments.
+</nierror>
+<nierror code="0">
+Motion:  Aucune erreur.
+</nierror>
+<nierror code="0">
+Motion:  Aucune erreur.
+</nierror>
+<nierror code="79335">
+Motion:  A compléter.
+</nierror>
+<nierror code="79337">
+Motion:  A compléter.
+</nierror>
+<nierror code="79339">
+Motion:  A compléter.
+</nierror>
+</nidocument>

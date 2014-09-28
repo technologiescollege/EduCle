@@ -1,0 +1,180 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="15110">
+G Internet Toolkit:  (Hex 0x00003B06) 110 Marker-Antwort erneut starten.
+</nierror>
+<nierror code="15120">
+G Internet Toolkit:  (Hex 0x00003B10) 120 Service in nnn Minuten bereit.
+</nierror>
+<nierror code="15125">
+G Internet Toolkit:  (Hex 0x00003B15) 125 Datenverbindung bereits offen; Übertragung startet.
+</nierror>
+<nierror code="15150">
+G Internet Toolkit:  (Hex 0x00003B2E) 150 Dataeistatus okay; Dateiverbindung wird geöffnet.
+</nierror>
+<nierror code="15200">
+G Internet Toolkit:  (Hex 0x00003B60) 200 Befehl okay.
+</nierror>
+<nierror code="15202">
+G Internet Toolkit:  (Hex 0x00003B62) 202 Befehl nicht implementiert, auf diesem Site überflüssig.
+</nierror>
+<nierror code="15211">
+G Internet Toolkit:  (Hex 0x00003B6B) 211 Systemstatus- oder Systemhilfe-Antwort.
+</nierror>
+<nierror code="15212">
+G Internet Toolkit:  (Hex 0x00003B6C) 212 Verzeichnisstatus.
+</nierror>
+<nierror code="15213">
+G Internet Toolkit:  (Hex 0x00003B6D) 213 Dateistatus.
+</nierror>
+<nierror code="15214">
+G Internet Toolkit:  (Hex 0x00003B6E) 214 Hilfenachricht.
+</nierror>
+<nierror code="15215">
+G Internet Toolkit:  (Hex 0x00003B6F) 215 Systemtyp NAME.
+</nierror>
+<nierror code="15220">
+G Internet Toolkit:  (Hex 0x00003B74) 220 Service für neuen Anwender bereit.
+</nierror>
+<nierror code="15221">
+G Internet Toolkit:  (Hex 0x00003B75) 221 Service schließt Kontrollverbindung.
+</nierror>
+<nierror code="15225">
+G Internet Toolkit:  (Hex 0x00003B79) 225 Datenverbindung offen; keine Übertragung im Gange.
+</nierror>
+<nierror code="15226">
+G Internet Toolkit:  (Hex 0x00003B7A) 226 Schließe Datenverbindung.
+</nierror>
+<nierror code="15227">
+G Internet Toolkit:  (Hex 0x00003B7B) 227 Gehe in passiven Modus (h1,h2,h3,h4,p1,p2).
+</nierror>
+<nierror code="15230">
+G Internet Toolkit:  (Hex 0x00003B7E) 230 Anwender hat sich eingeloggt, fortfahren.
+</nierror>
+<nierror code="15250">
+G Internet Toolkit:  (Hex 0x00003B92) 250 Angeforderte Dateiaktion erfolgreich abgeschlossen.
+</nierror>
+<nierror code="15257">
+G Internet Toolkit:  (Hex 0x00003B99) 257 "PFADNAME" erstellt.
+</nierror>
+<nierror code="15331">
+G Internet Toolkit:  (Hex 0x00003BE3) 331 Anwendername richtig, benötige Paßwort.
+</nierror>
+<nierror code="15332">
+G Internet Toolkit:  (Hex 0x00003BE4) 332 Benötige Account für Login.
+</nierror>
+<nierror code="15350">
+G Internet Toolkit:  (Hex 0x00003BF6) 350 Angeforderte Dateiaktion erwartet weitere Information.
+</nierror>
+<nierror code="15421">
+G Internet Toolkit:  (Hex 0x00003C3D) 421 Service nicht verfügbar, schließe Steuer-Verbindung.
+</nierror>
+<nierror code="15425">
+G Internet Toolkit:  (Hex 0x00003C41) 425 Kann Datenverbindung nicht aufbauen.
+</nierror>
+<nierror code="15426">
+G Internet Toolkit:  (Hex 0x00003C42) 426 Verbindung geschlossen; Übertragung abgebrochen.
+</nierror>
+<nierror code="15450">
+G Internet Toolkit:  (Hex 0x00003C5A) 450 Angeforderte Dateiaktion nicht durchgeführt.
+</nierror>
+<nierror code="15451">
+G Internet Toolkit:  (Hex 0x00003C5B) 451 Angeforderte Aktion abgebrochen: lokaler Fehler während der Verarbeitung.
+</nierror>
+<nierror code="15452">
+G Internet Toolkit:  (Hex 0x00003C5C) 452 Angeforderte Aktion nicht durchgeführt.
+</nierror>
+<nierror code="15500">
+G Internet Toolkit:  (Hex 0x00003C8C) 500 Syntaxfehler, Befehl nicht erkannt.
+</nierror>
+<nierror code="15501">
+G Internet Toolkit:  (Hex 0x00003C8D) 501 Syntaxfehler in den Parametern oder den Argumenten.
+</nierror>
+<nierror code="15502">
+G Internet Toolkit:  (Hex 0x00003C8E) 502 Befehl nicht implementiert.
+</nierror>
+<nierror code="15503">
+G Internet Toolkit:  (Hex 0x00003C8F) 503 Falsche Befehls-Sequenz.
+</nierror>
+<nierror code="15504">
+G Internet Toolkit:  (Hex 0x00003C90) 504 Befehl für diesen Parameter nicht implementiert.
+</nierror>
+<nierror code="15530">
+G Internet Toolkit:  (Hex 0x00003CAA) 530 Nicht eingeloggt.
+</nierror>
+<nierror code="15532">
+G Internet Toolkit:  (Hex 0x00003CAC) 532 Benötige Account zur Speicherung von Dateien.
+</nierror>
+<nierror code="15550">
+G Internet Toolkit:  (Hex 0x00003CBE) 550 Angeforderte Aktion nicht durchgeführt.
+</nierror>
+<nierror code="15551">
+G Internet Toolkit:  (Hex 0x00003CBF) 551 Angeforderte Aktion abgebrochen: Seitentyp unbekannt.
+</nierror>
+<nierror code="15552">
+G Internet Toolkit:  (Hex 0x00003CC0) 552 Angeforderte Dateiaktion abgebrochen.
+</nierror>
+<nierror code="15553">
+G Internet Toolkit:  (Hex 0x00003CC1) 553 Angeforderte Dateiaktion nicht durchgeführt.
+</nierror>
+<nierror code="17200">
+G Internet Toolkit:  (Hex 0x4330) 200 OK : Die Anforderung war erfolgreich.
+</nierror>
+<nierror code="17201">
+G Internet Toolkit:  (Hex 0x4331) 201 Erstellt
+</nierror>
+<nierror code="17202">
+G Internet Toolkit:  (Hex 0x4332) 202 Akzeptiert.
+</nierror>
+<nierror code="17204">
+G Internet Toolkit:  (Hex 0x4334) 204 Kein Inhalt.
+</nierror>
+<nierror code="17300">
+G Internet Toolkit:  (Hex 0x4394) 300 Mehrfache Auswahl.
+</nierror>
+<nierror code="17301">
+G Internet Toolkit:  (Hex 0x4395) 301 Permanent verschoben.
+</nierror>
+<nierror code="17302">
+G Internet Toolkit:  (Hex 0x4396) 302 Temporär verschoben.
+</nierror>
+<nierror code="17304">
+G Internet Toolkit:  (Hex 0x4398) 304 Nicht geändert.
+</nierror>
+<nierror code="17400">
+G Internet Toolkit:  (Hex 0x000043F8) 400 Falsche Anfrage.
+</nierror>
+<nierror code="17401">
+G Internet Toolkit:  (Hex 0x000043F9) 401 Nicht authorisiert.
+</nierror>
+<nierror code="17403">
+G Internet Toolkit:  (Hex 0x000043FB) 403 Verboten.
+</nierror>
+<nierror code="17404">
+G Internet Toolkit:  (Hex 0x000043FC) 404 Nicht gefunden.
+</nierror>
+<nierror code="17500">
+G Internet Toolkit:  (Hex 0x0000445C) 500 Interner Server-Fehler.
+</nierror>
+<nierror code="17501">
+G Internet Toolkit:  (Hex 0x0000445D) 501 Nicht implementiert.
+</nierror>
+<nierror code="17502">
+G Internet Toolkit:  (Hex 0x0000445E) 502 Falsches Gateway.
+</nierror>
+<nierror code="17503">
+G Internet Toolkit:  (Hex 0x0000445F) 503 Service nicht verfügbar.
+</nierror>
+<nierror code="17999">
+G Internet Toolkit:  Nicht endende Weiterleitungs-Schleife gefunden.
+</nierror>
+<nierror code="18000">
+G Internet Toolkit:  Ungültiges URL-Protokoll
+</nierror>
+<nierror code="18001">
+G Internet Toolkit:  foo
+</nierror>
+</nidocument>

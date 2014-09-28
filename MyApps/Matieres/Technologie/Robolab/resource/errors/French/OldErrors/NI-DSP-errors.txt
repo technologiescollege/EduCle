@@ -1,0 +1,219 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="-21345">
+NI-DSP:  Le nombre d'octets à allouer doit être supérieur à zéro.
+</nierror>
+<nierror code="-21344">
+NI-DSP:  Le type des données ne peut avoir qu'une longueur de 4 octets (0) ou de 2 octets (1).
+</nierror>
+<nierror code="-21343">
+NI-DSP:  Taille+offset doit être inférieur ou égal à la taille de la structure du handle DSP (DSP Handle Structure) dans lequel vous voulez réaliser l'indexation. 
+</nierror>
+<nierror code="-21342">
+NI-DSP:  La taille de la nouvelle structure du handle DSP (DSP Handle Structure) doit être supérieure à zéro.
+</nierror>
+<nierror code="-21341">
+NI-DSP:  L'offset doit être supérieur ou égal à zéro.
+</nierror>
+<nierror code="-21340">
+NI-DSP:  Le nombre de données à copier doit être supérieur à zéro.
+</nierror>
+<nierror code="-21339">
+NI-DSP:  Le sélecteur de copie complète/partielle ne peut faire une sélection qu'entre une copie complète (0) ou une copie partielle (1).
+</nierror>
+<nierror code="-21338">
+NI-DSP:  Le nom du chemin doit être inférieur à 256 caractères.
+</nierror>
+<nierror code="-21337">
+NI-DSP:  Les éléments du tableau ne peuvent être que du type nombre à virgule flottante 32 bits (0), entier long 16 bits (1) ou entier court 32 bits (2).
+</nierror>
+<nierror code="-21336">
+NI-DSP:  L'allocation d'un tableau LabVIEW a échoué.
+</nierror>
+<nierror code="-21335">
+NI-DSP:  Vous ne pouvez sélectionner qu'une seule source.
+</nierror>
+<nierror code="-21334">
+NI-DSP:  Le sélecteur d'éléments/octets ne peut faire une sélection qu'entre 4 octets (0) et 2 octets (1).
+</nierror>
+<nierror code="-21333">
+NI-DSP:  Une erreur est survenue lors de l'appel de la fonction GetIndirectFunctionHandle du CIN.
+</nierror>
+<nierror code="-21332">
+NI-DSP:  Une erreur est survenue lors du chargement d'une fonction de dsp.dll du CIN.
+</nierror>
+<nierror code="-21331">
+NI-DSP:  Une erreur est survenue lors du chargement de dsp.dll du CIN.
+</nierror>
+<nierror code="-21325">
+NI-DSP:  L'identification de la fonction spécifiée n'appartient à aucun groupe de la bibliothèque DSP actuellement utilisée par le matériel.
+</nierror>
+<nierror code="-21324">
+NI-DSP:  L'identification de la fonction spécifiée ne correspond à aucune fonction de la bibliothèque DSP actuellement utilisée par le matériel.
+</nierror>
+<nierror code="-21318">
+NI-DSP:  La carte DSP sur laquelle vous essayez de charger le fichier COFF ne répond pas au transfert de fichier. Vérifiez qu'une carte est présente à l'emplacement désiré et confirmez cette vérification en lançant l'utilitaire DAQCONF.
+</nierror>
+<nierror code="-21317">
+NI-DSP:  Le fichier COFF que vous essayez de charger est lié à un espace mémoire qui excède l'espace autorisé par le circuit WE DSP32C (2^24).
+</nierror>
+<nierror code="-21315">
+NI-DSP:  Un indicateur de section non implémenté a été trouvé dans le fichier COFF.
+</nierror>
+<nierror code="-21314">
+NI-DSP:  Le fichier que vous essayez de charger sur la carte DSP n'a pas été créé en utilisant l'outil WE DSP32C (ce n'est pas un fichier COFF valide).  
+</nierror>
+<nierror code="-21313">
+NI-DSP:  Impossible de trouver le fichier de la bibliothèque DSP dans le répertoire défini par l'utilitaire DAQCONF.
+</nierror>
+<nierror code="-21312">
+NI-DSP:  Le Kernel n'a pas répondu ou n'a pas terminé l'exécution de la fonction dans le temps limite sélectionné.
+</nierror>
+<nierror code="-21311">
+NI-DSP:  L'allocation d'un handle dans le code d'interface a échoué.
+</nierror>
+<nierror code="-21310">
+NI-DSP:  Le handle DSP utilisé n'appartient pas à la même carte que celle sur laquelle la demande de fonction a été faite.
+</nierror>
+<nierror code="-21309">
+NI-DSP:  Le handle DSP spécifié n'est pas valide pour cette carte. Il a été libéré ou n'a jamais été alloué.
+</nierror>
+<nierror code="-21308">
+NI-DSP:  L'espace alloué sur la carte n'est pas suffisant pour effectuer le transfert d'un bloc de cette taille.
+</nierror>
+<nierror code="-21307">
+NI-DSP:  L'espace alloué sur la carte à l'un des paramètres n'est pas suffisant.
+</nierror>
+<nierror code="-21306">
+NI-DSP:  Le pointeur d'adresse DSP n'a pas pu être trouvé pour libérer le buffer.
+</nierror>
+<nierror code="-21305">
+NI-DSP:  La mémoire de la table de look up est pleine ; aucune allocation ne sera autorisée avant que des pointeurs DSP n'aient été libérés (maximum autorisé : 128). 
+</nierror>
+<nierror code="-21304">
+NI-DSP:  Le handle DSP spécifié n'a pas été trouvé sur la carte. Il a été libéré ou n'a jamais été alloué.
+</nierror>
+<nierror code="-21303">
+NI-DSP:  L'indexage requis se situe à l'extérieur du buffer pour lequel l'indexage est demandé.
+</nierror>
+<nierror code="-21302">
+NI-DSP:  Aucun buffer n'a été alloué sur la carte DSP.
+</nierror>
+<nierror code="-21301">
+NI-DSP:  Le logiciel de diagnostic du matériel situé sur la carte a détecté une erreur matériel au niveau de la mémoire. Les fonctions exécutées par la carte ne sont pas fiables.
+</nierror>
+<nierror code="-21297">
+NI-DSP:  La taille du tableau d'entrée doit être une puissance de 2 : taille = 2^m, 0 < m < 14.
+</nierror>
+<nierror code="-21251">
+NI-DSP:  Le rang du filtre doit vérifier : 1 <= (2*rang+1) <= taille.
+</nierror>
+<nierror code="-21250">
+NI-DSP:  Le nombre de coefficients doit être supérieur ou égal à un.
+</nierror>
+<nierror code="-21249">
+NI-DSP:  Le filtre ne peut pas être réalisé avec les paramètres d'entrée spécifiés.
+</nierror>
+<nierror code="-21248">
+NI-DSP:  Le coefficient de dispersion, Dispersion, doit vérifier : 0<= Dispersion <= u, u étant le paramètre de taille du pas.
+</nierror>
+<nierror code="-21246">
+NI-DSP:  Le paramètre de taille du pas doit vérifier : 0 <= u <= 0,1.
+</nierror>
+<nierror code="-21245">
+NI-DSP:  L'atténuation doit est supérieure à l'amplitude de l'ondulation.
+</nierror>
+<nierror code="-21243">
+NI-DSP:  Le vecteur d'entrée est nul. Le vecteur d'unité n'existe pas.
+</nierror>
+<nierror code="-21242">
+NI-DSP:  La taille de la séquence d'entrée doit être supérieure à zéro.
+</nierror>
+<nierror code="-21237">
+NI-DSP:  La largeur doit être supérieure à zéro.
+</nierror>
+<nierror code="-21236">
+NI-DSP:  L'atténuation doit être supérieure à zéro.
+</nierror>
+<nierror code="-21235">
+NI-DSP:  L'amplitude d'ondulation doit être supérieure à zéro.
+</nierror>
+<nierror code="-21234">
+NI-DSP:  Les conditions suivantes doivent être vérifiées : 0 <= f_basse <= f_haute <= fs/2.
+</nierror>
+<nierror code="-21233">
+NI-DSP:  La fréquence de coupure, fc, doit vérifier : 0 <= fc <= fs/2.
+</nierror>
+<nierror code="-21229">
+NI-DSP:  Le nombre d'éléments du tableau convolué doit être supérieur à zéro.
+</nierror>
+<nierror code="-21228">
+NI-DSP:  L'ordre doit être supérieur à zéro.
+</nierror>
+<nierror code="-21227">
+NI-DSP:  La taille du tableau doit être supérieure à l'ordre.
+</nierror>
+<nierror code="-21226">
+NI-DSP:  Les composantes de y dans Ax=y doivent être toutes positives ou toutes négatives.
+</nierror>
+<nierror code="-21225">
+NI-DSP:  Le nombre d'intervalles doit être supérieur à zéro.
+</nierror>
+<nierror code="-21223">
+NI-DSP:  La valeur du haut doit être supérieure ou égale à la valeur du bas.
+</nierror>
+<nierror code="-21221">
+NI-DSP:  Le nombre de périodes doit être supérieur à zéro et inférieur ou égal au nombre d'échantillons.
+</nierror>
+<nierror code="-21220">
+NI-DSP:  Le facteur d'utilisation doit vérifier : 0<= facteur d'utilisation <= 100.
+</nierror>
+<nierror code="-21219">
+NI-DSP:  dt doit être supérieur ou égal à zéro.
+</nierror>
+<nierror code="-21218">
+NI-DSP:  La valeur du facteur d'utilisation de la fenêtre doit être comprise entre 0,0 et 1,0.
+</nierror>
+<nierror code="-21217">
+NI-DSP:  La condition suivante doit être vérifiée : 0 <= (délai + largeur) < nb d'échantillons.
+</nierror>
+<nierror code="-21216">
+NI-DSP:  La largeur doit être supérieure ou égale à zéro. 
+</nierror>
+<nierror code="-21215">
+NI-DSP:  Le délai doit être supérieur ou égal à zéro.
+</nierror>
+<nierror code="-21214">
+NI-DSP:  L'indice doit vérifier : 0 <= indice <= nb d'échantillons.
+</nierror>
+<nierror code="-21213">
+NI-DSP:  La largeur doit vérifier : 0 < largeur < nb d'échantillons.
+</nierror>
+<nierror code="-21212">
+NI-DSP:  Le facteur d'atténuation doit vérifier : 0 < facteur d'atténuation <= nb d'échantillons.
+</nierror>
+<nierror code="-21210">
+NI-DSP:  Il n'y a pas assez d'espace disponible sur la carte pour que le traitement puisse être effectué par celle-ci.
+</nierror>
+<nierror code="-21209">
+NI-DSP:  La taille du tableau de sortie doit être supérieure ou égale à la taille du tableau d'entrée.
+</nierror>
+<nierror code="-21208">
+NI-DSP:  La taille de x doit être supérieure ou égale à la taille de y.
+</nierror>
+<nierror code="-21207">
+NI-DSP:  Les tailles des séquences d'entrée doivent être supérieures à zéro.
+</nierror>
+<nierror code="-21206">
+NI-DSP:  Le nombre d'échantillons doit être supérieur ou égal à deux.
+</nierror>
+<nierror code="-21205">
+NI-DSP:  Le nombre d'échantillons doit être supérieur ou égal à zéro.
+</nierror>
+<nierror code="-21204">
+NI-DSP:  Le nombre d'échantillons doit être supérieur à zéro.
+</nierror>
+</nidocument>

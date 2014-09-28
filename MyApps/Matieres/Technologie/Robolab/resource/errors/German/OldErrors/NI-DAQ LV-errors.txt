@@ -1,0 +1,946 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="-10943">
+NI-DAQ LV:  Die Interrupt-Serviceroutine auf der RDA-SCXI-Einheit braucht länger als notwendig.  Sie brauchen Ihre RDA-SCXI-Einheit nicht zurückzusetzen, müssen jedoch die Datenerfassung zurücksetzen und neu starten.
+</nierror>
+<nierror code="-10942">
+NI-DAQ LV:  Eine ungültige Rücksetz-Signatur wurde vom Host zur RDA-SCXI-Einheit gesendet.
+</nierror>
+<nierror code="-10941">
+NI-DAQ LV:  Die Neuprogrammierung der RDA-SCXI-Einheit war nicht erfolgreich. Bitte versuchen Sie es erneut.
+</nierror>
+<nierror code="-10940">
+NI-DAQ LV:  Von der RDA-SCXI-Einheit wurde während der vorgegebenen Zeitdauer keine Antwort empfangen.
+</nierror>
+<nierror code="-10920">
+NI-DAQ LV:  Einer oder mehrere Datenwerte gingen eventuell wegen Geschwindigkeitsbegrenzungen auf Ihrem System während der gepufferten GPCTR-Operation verloren.
+</nierror>
+<nierror code="-10885">
+NI-DAQ LV:  Das Eingangssignal überschreitet den Eingangsbereich des A/D-Wandlers.
+</nierror>
+<nierror code="-10884">
+NI-DAQ LV:  Konnte nach Beendigung der Vortrigger-Datenerfassung die Daten nicht neu anordnen.
+</nierror>
+<nierror code="-10883">
+NI-DAQ LV:  Es konnten keine neue Daten in den Signalverlaufspuffer der RDA-SCXI-Einheit übertragen werden, um die Update-Rate für den Signalverlauf aufrecht zu erhalten. Versuchen Sie es, wenn möglich, mit einer niedrigeren Update-Rate.
+</nierror>
+<nierror code="-10882">
+NI-DAQ LV:  Die in der RDA-SCXI-Einheit akkumulierten Daten wurden überschrieben, bevor Sie in den Host-Puffer übertragen werden konnten. Versuchen Sie es, wenn möglich, mit einer niedrigeren Datenerfassungsrate.
+</nierror>
+<nierror code="-10881">
+NI-DAQ LV:  Sie können nach einer erfolgreichen partiellen Übertragung keine andere Übertragung machen.
+</nierror>
+<nierror code="-10880">
+NI-DAQ LV:  Eine Änderung der Update-Rate ist zu dieser Zeit nicht möglich, weil 1) Sie während der Signalverlaufserzeugung die Intervalle der Zeitbasis nicht ändern können, oder 2) jede Änderung eine gewisse Zeit benötigt, ehe Sie wirksam wird  und Sie in dieser Zeit keine Änderungen vornehmen können.
+</nierror>
+<nierror code="-10858">
+NI-DAQ LV:  Das System hat das Gerät neu konfiguriert und die vorhandene Konfiguration ungültig gemacht. Das Gerät muß für den erneuten Einsatz neu initialisiert werden.
+</nierror>
+<nierror code="-10857">
+NI-DAQ LV:  Ein unerwarteter Fehler ist innerhalb des Geräte-Kernel aufgetreten, während diese Operation durchgeführt wurde.
+</nierror>
+<nierror code="-10856">
+NI-DAQ LV:  Während der Ausführung der gegebenen Operation ist ein unerwarteter Betriebssystemfehler aufgetreten.
+</nierror>
+<nierror code="-10855">
+NI-DAQ LV:  NI-DAQ unterstützt die gegenwärtige Operation mit dieser speziellen Betriebssystemversion nicht .
+</nierror>
+<nierror code="-10854">
+NI-DAQ LV:  Beim Zugriff auf eine Datei ist ein Fehler aufgetreten.
+</nierror>
+<nierror code="-10853">
+NI-DAQ LV:  Kann nicht in Datei schreiben.
+</nierror>
+<nierror code="-10852">
+NI-DAQ LV:  Kann nicht von Datei lesen.
+</nierror>
+<nierror code="-10851">
+NI-DAQ LV:  Kann nicht in Datei suchen.
+</nierror>
+<nierror code="-10850">
+NI-DAQ LV:  Kann Datei nicht schließen.
+</nierror>
+<nierror code="-10849">
+NI-DAQ LV:  Die Konfigurationsdatei oder die DSP-Kerneldatei konnten nicht geöffnet werden.
+</nierror>
+<nierror code="-10848">
+NI-DAQ LV:  Der Treiber konnte nichts gültiges aus dem Übertragungszähler-Register (transfer-count register) im DMA-Controller lesen.
+</nierror>
+<nierror code="-10847">
+NI-DAQ LV:  Es waren keine neuen Infomationen zur Zeit des DMA-Chaining-Interrupts verfügbar; die DMA-Übertragung wird am Ende des gegenwärtig aktiven Übertragungspuffers beendet.
+</nierror>
+<nierror code="-10846">
+NI-DAQ LV:  Ihre Applikation konnte Daten nicht schnell genug in den Hintergrunderfassungspuffer lesen, sodaß ungelesene Daten mit neuen Daten überschrieben wurden. Um diesen Fehler zu verhindern, sollten Sie die Kapazität des Hintergrunderfassungspuffers oder die pro Aufruf des VIs/der Funktion zum Lesen gelesene Datenmenge vergrößern oder die Erfassungsrate bzw. die Anzahl der vom Computer ausgeführten Tasks verringern.
+</nierror>
+<nierror code="-10845">
+NI-DAQ LV:  Aufgrund von Systembeschränkungen konnte der Treiber keine Daten vom Gerät schnell genug lesen, um mit dem Gerätedurchsatz mitzuhalten; der Onboard-Gerätespeicher meldet einen Überlauffehler.
+</nierror>
+<nierror code="-10844">
+NI-DAQ LV:  Ihre Applikation konnte Daten nicht schnell genug in den Hintergrundübertragungspuffer schreiben, sodaß neue Daten nicht zum Gerät übertragen werden konnten. Um diesen Fehler zu verhindern, sollten Sie die Kapazität des Hintergrundübertragungspuffers oder die pro Aufruf des VIs/der Funktion zum Schreiben übertragene Datenmenge vergrößern oder die Erzeugungsrate bzw. die Anzahl der vom Computer ausgeführten Tasks verringern.
+</nierror>
+<nierror code="-10843">
+NI-DAQ LV:  Aufgrund von Systembeschränkungen konnte der Treiber Daten vom Gerät nicht schnell genug schreiben, um mit dem Gerätedurchsatz mitzuhalten.  Dieser Fehler kann irrtümlich ausgegeben werden, wenn ein overRunErr aufgetreten ist.
+</nierror>
+<nierror code="-10842">
+NI-DAQ LV:  Die Hardware reagiert nicht auf die spezifizierte Operation oder die Antwort ist die konsistent mit der Funktionalität der Hardware.
+</nierror>
+<nierror code="-10841">
+NI-DAQ LV:  Die Firmware unterstützt nicht die spezifizierte Operation oder die Firmwareoperation konnte aufgrund eines Datenintegritätsproblems nicht beendet werden.
+</nierror>
+<nierror code="-10840">
+NI-DAQ LV:  Der Inhalt oder der Ort der Treiberdatei wurden zwischen zwei Treiberzugriffen geändert.
+</nierror>
+<nierror code="-10811">
+NI-DAQ LV:  Die Frequenz des Eingangssignals konnte nicht gemessen werden. Sie könnte ausserhalb des erwarteten Frequenzbereichs liegen, oder die Schwell- und Hysteresewerte wurden nicht überschritten.
+</nierror>
+<nierror code="-10810">
+NI-DAQ LV:  Ein unerwarteter Fehler ist innerhalb des Treibers aufgetreten, als diese Operation durchgeführt wurde.
+</nierror>
+<nierror code="-10809">
+NI-DAQ LV:  Versuch einer Impulsbreitenmessung in der zu messenden Phase  (z.B. High-Phase bei High-Pegel-Gatterung).
+</nierror>
+<nierror code="-10808">
+NI-DAQ LV:  Bei der Kommunikation des Parallelanschlusses mit dem DAQ-Gerät ist ein Fehler aufgetreten.
+</nierror>
+<nierror code="-10807">
+NI-DAQ LV:  Der Trigger ist vor der Erfassung ausreichender Triggerdaten aufgetreten.
+</nierror>
+<nierror code="-10806">
+NI-DAQ LV:  Es wurde kein Triggerwert im Eingangübertragungsbuffer gefunden.
+</nierror>
+<nierror code="-10805">
+NI-DAQ LV:  Die Taktrate ist schneller als die Hardware erlaubt. Es wurde versucht, Daten zu erfassen bzw. zu erzeugen, bevor die Hardware den vorigen Datenwert vollständig verarbeitet hatte.  Diese Bedingung kann auch bei Spannungsspitzen in einem externen Taktsignal auftreten.
+</nierror>
+<nierror code="-10804">
+NI-DAQ LV:  Die Übertragung wurde vor dem Erreichen des Übertragungspufferendes gestoppt.
+</nierror>
+<nierror code="-10803">
+NI-DAQ LV:  Die gegenwärtige Übertragung wurde angehalten, um die kontinuierliche Erzeugung der Ausgangsdaten zu verhindern oder um wieder Resourcen für Eingabeoperationen zuzuweisen.
+</nierror>
+<nierror code="-10802">
+NI-DAQ LV:  Die angeforderte Datenmenge wurde bis jetzt noch nicht erfaßt.
+</nierror>
+<nierror code="-10801">
+NI-DAQ LV:  Während der Kalibrierung ist ein Fehler aufgetreten.  Mögliche Gründe hierfür sind eine falsche Verbindung oder ein falscher Wert des Stimulus-Signals oder Ihr DAQ-Gerät arbeitet nicht richtig.
+</nierror>
+<nierror code="-10800">
+NI-DAQ LV:  Die Operation konnte innerhalb der zulässigen Zeitdauer nicht vollständig abgeschlossen werden.
+</nierror>
+<nierror code="-10784">
+NI-DAQ LV:  Ihre Master-Gerät muss sich in PXI-Slot-Nummer 2 befinden, um Takte an Slave-Geräte zu routen.
+</nierror>
+<nierror code="-10783">
+NI-DAQ LV:  Die Kalibrierkonstanten im Ladebereich haben eine andere Polarität als die der gegenwärtigen Konfiguration. Sie sollten die werkseitig voreingestellten  Konstanten laden.
+</nierror>
+<nierror code="-10782">
+NI-DAQ LV:  Die spezifizierte Operation kann nicht mit dem im Haltemodus konfigurierten SC-2040 durchgeführt werden.
+</nierror>
+<nierror code="-10781">
+NI-DAQ LV:  Die Polarität des Ausgangskanals kann nicht bipolar sein, wenn Spannungen ausgegeben werden.
+</nierror>
+<nierror code="-10780">
+NI-DAQ LV:  Wenn Sie ein SC2040 mit Ihrem Gerät verbunden haben, müssen alle analogen Ausgangskanäle für differentiellen Eingangsmodus konfiguriert sein.
+</nierror>
+<nierror code="-10740">
+NI-DAQ LV:  Der SCXI-Track-and-hold-Triggerleitung wurde bereits ein Signal zugewiesen oder ein Steueraufruf war ungeeignet, weil das angegebene Modul nicht für eine Einkanaloperation konfiguriert ist.
+</nierror>
+<nierror code="-10720">
+NI-DAQ LV:  Der angegebene Counter ist nicht für die Ereigniszählung konfiguriert.
+</nierror>
+<nierror code="-10710">
+NI-DAQ LV:  Der spezifizierte Anschluß wurde nicht für Handshakebetrieb konfiguriert.
+</nierror>
+<nierror code="-10702">
+NI-DAQ LV:  Vor- und Nachtriggerung können nicht gleichzeitig bei Lab-Geräten und Geräten der 1200-Serie verwendet werden.
+</nierror>
+<nierror code="-10701">
+NI-DAQ LV:  Der Aufruf hatte keine Wirkung, da der spezifizierte Kanal nicht für spätere interne Updates eingestellt war.
+</nierror>
+<nierror code="-10700">
+NI-DAQ LV:  Sie können diese Kombination aus Abtasten und Umwandlung der Taktsignalquelle für diese Operation und diese Karte nicht verwenden.
+
+</nierror>
+<nierror code="-10699">
+NI-DAQ LV:  Sie können diese Kombination von Quellpolaritäten für Scan- und Abtasttakt für diese Operation/Karte nicht verwenden.
+</nierror>
+<nierror code="-10698">
+NI-DAQ LV:  Sie können diese Kombination von Zeitbasen für Scan- und Abtasttakt für diese Operation/Karte nicht verwenden.
+</nierror>
+<nierror code="-10697">
+NI-DAQ LV:  Zeitbasis- bzw. /Intervall-Paar kann nicht umgewandelt werden, um die aktuellen Hardwaremöglichkeiten dieser Karte zu erreichen.
+</nierror>
+<nierror code="-10696">
+NI-DAQ LV:  Multi-Rate Scan kann nicht mit AMUX-64, SCXI oder pretriggert Erfassungen durchgeführt werden.
+</nierror>
+<nierror code="-10695">
+NI-DAQ LV:  Sie haben eine Operation angefordert, die die Verwendung eines Interrupts benötigt.  DMA ist nicht erlaubt. Einige DAQ-Ereignisse wie Meldungen oder LabVIEW-Ereignisse  benötigen Interrupts.
+</nierror>
+<nierror code="-10694">
+NI-DAQ LV:  Die Abtastfrequenz überschreitet die für die Hardware sichere maximale Rate, Verstärkung und verwendete Filter.
+</nierror>
+<nierror code="-10693">
+NI-DAQ LV:  Sie können keinen externen Abtasttakt verwenden, wenn Sie einen einzelnen Wert an einem Kanal abtasten.
+</nierror>
+<nierror code="-10692">
+NI-DAQ LV:  Die Erfassung kann nicht begonnen werden, da der Kanaltaktgeber unbrauchbar ist.
+</nierror>
+<nierror code="-10691">
+NI-DAQ LV:  Diese Karte erlaubt keinen externen Abtasttaktgeber mit einem Abtasttakt, Start- oder Stop-Trigger.
+</nierror>
+<nierror code="-10690">
+NI-DAQ LV:  Diese Karte läßt die gleichzeitige Aktivierung von Digitaltrigger A und B nicht zu.
+</nierror>
+<nierror code="-10689">
+NI-DAQ LV:  Digitaltrigger B ist für die Gesamtanzahl der angegebenen Scans und Vortrigger-Scans ungültig.
+</nierror>
+<nierror code="-10688">
+NI-DAQ LV:  Die Gesamtanzahl der Scans und Vortrigger-Scans setzt voraus, daß ein getriggerter Start erwartet wird, die Triggerung ist jedoch nicht aktiviert.
+</nierror>
+<nierror code="-10687">
+NI-DAQ LV:  Eine Konfigurationsänderung hat den Erfassungspuffer ungültig gemacht oder der Erfassungspuffer wurde nicht konfiguriert.
+</nierror>
+<nierror code="-10686">
+NI-DAQ LV:  Eine Konfigurationsänderung hat die Scanliste ungültig gemacht.
+</nierror>
+<nierror code="-10685">
+NI-DAQ LV:  Die Taktrate überschreitet die für die Karte maximal empfohlene Rate.
+</nierror>
+<nierror code="-10684">
+NI-DAQ LV:  Alle Kanäle dieser Karte müssen den gleichen Eingangsmodus haben.
+</nierror>
+<nierror code="-10683">
+NI-DAQ LV:  Alle Kanäle dieser Karte müssen die gleiche Kopplung haben.
+</nierror>
+<nierror code="-10682">
+NI-DAQ LV:  Alle Kanäle dieser Karte müssen die gleiche Polarität haben.
+</nierror>
+<nierror code="-10681">
+NI-DAQ LV:  Alle Kanäle dieser Karte müssen den gleichen Meßbereich haben.
+</nierror>
+<nierror code="-10680">
+NI-DAQ LV:  Alle Kanäle dieser Karte müssen die gleiche Verstärkung haben.
+</nierror>
+<nierror code="-10671">
+NI-DAQ LV:  Für den konfigurierten Meßmodus kann Autozero nicht aktiviert werden.
+</nierror>
+<nierror code="-10670">
+NI-DAQ LV:  Der Eingangsmeßbereich ist für den konfigurierten Meßmodus ungültig.
+</nierror>
+<nierror code="-10638">
+NI-DAQ LV:  Der Takt kann dem angegebenen Ziel nicht zugewiesen werden.
+</nierror>
+<nierror code="-10637">
+NI-DAQ LV:  Sie haben versucht, einen Puffer zu konfigurieren, nachdem dieser Puffer bereits konfiguriert war. Sie können einen Puffer immer nur einmal konfigurieren.
+</nierror>
+<nierror code="-10636">
+NI-DAQ LV:  Sie können keine kontinuierliche (doppelt gepufferte) Operation mit einem synchronen Funktionsaufruf starten.
+</nierror>
+<nierror code="-10635">
+NI-DAQ LV:  Entweder ist die in einem Konfigurationsaufruf angegebene SCXI-Betriebsart ungültig oder ein Modul befindet sich nicht in der richtigen Betriebsart, um die Funktion auszuführen.
+</nierror>
+<nierror code="-10634">
+NI-DAQ LV:  Es ist keine kontinuierliche (doppelt gepufferte) Übertragung für die spezifizierte Ressource im Gange.
+</nierror>
+<nierror code="-10633">
+NI-DAQ LV:  Der spezifizierte Analogausgabe-Regenerierungsmodus ist für diese Karte nicht erlaubt.
+</nierror>
+<nierror code="-10632">
+NI-DAQ LV:  Einige Eingänge wurden ignoriert, weil Sie in der aktuellen Betriebsart nicht relevant sind.
+</nierror>
+<nierror code="-10631">
+NI-DAQ LV:  Kontinuierliche Ein- oder Ausgabe ist in der gegenwärtigen Betriebsart nicht gestattet oder kontinuierliche Operationen sind mit diesem Gerätetyp nicht erlaubt.
+</nierror>
+<nierror code="-10630">
+NI-DAQ LV:  Die zum Lesen der Daten angegebenen Parameter waren im Kontext der Erfassung ungültig. Es wurde z.B. versucht, 0 Bytes vom Übertragungspuffer zu lesen oder nach dem Ende des Übertragungspuffers zu lesen.
+</nierror>
+<nierror code="-10629">
+NI-DAQ LV:  Die angegebene Betriebsart ist ungültig, oder die Ressourcen wurden für die angegebene Betriebsart nicht konfiguriert.
+</nierror>
+<nierror code="-10628">
+NI-DAQ LV:  Der Trigger-Resource wurde bereits ein Signal zugewiesen.
+</nierror>
+<nierror code="-10627">
+NI-DAQ LV:  Der Trigger-Ressource wurde kein Signal  zugewiesen.
+</nierror>
+<nierror code="-10626">
+NI-DAQ LV:  Die Triggerkonfiguration für den Trigger-Slave ist ungültig.
+</nierror>
+<nierror code="-10625">
+NI-DAQ LV:  Die Triggerkonfiguration für den Trigger-Master ist ungültig.
+</nierror>
+<nierror code="-10624">
+NI-DAQ LV:  Der verzögerte Triggermodus wird nicht unterstützt oder ist in der gegenwärtigen Konfiguration nicht verfügbar, oder keine Verzögerungsquelle wurde zugewiesen.
+</nierror>
+<nierror code="-10623">
+NI-DAQ LV:  Es wurde keine Nachtrigger-Quelle zugewiesen.
+</nierror>
+<nierror code="-10622">
+NI-DAQ LV:  Der Vortriggermodus wird nicht unterstützt oder ist in der gegenwärtigen Konfiguration nicht verfügbar, oder es wurde keine Vortriggerquelle zugewiesen.
+</nierror>
+<nierror code="-10621">
+NI-DAQ LV:  Das spezifizierte Triggersignal kann nicht der Trigger-Resource zugewiesen werden.
+</nierror>
+<nierror code="-10620">
+NI-DAQ LV:  Der Trigger-Resource wurde kein Triggersignal zugewiesen.
+</nierror>
+<nierror code="-10619">
+NI-DAQ LV:  Der Takt-Resource wurde bereits ein Quellsignal zugewiesen.
+</nierror>
+<nierror code="-10618">
+NI-DAQ LV:  Das spezifizierte Quellsignal kann nicht der Takt-Resource zugewiesen werden.
+</nierror>
+<nierror code="-10617">
+NI-DAQ LV:  Der Takt-Ressource  wurde kein Quellsignal zugewiesen.
+</nierror>
+<nierror code="-10616">
+NI-DAQ LV:  Die Taktkonfiguration ist für den Slave-Takt ungültig.
+</nierror>
+<nierror code="-10615">
+NI-DAQ LV:  Die Taktkonfiguration ist für den Master-Takt ungültig.
+</nierror>
+<nierror code="-10614">
+NI-DAQ LV:  Die spezifizierte Gruppe unterstützt nicht die spezifizierte Übertragungsrichtung.
+</nierror>
+<nierror code="-10613">
+NI-DAQ LV:  Der angegebene Kanal unterstützt nicht die angegebene Übertragungsrichtung, oder Sie haben an einem Digitalanschluß bzw. einer Digitalleitung eine für die entgegensetzte Richtung konfigurierte Operation durchgeführt.
+</nierror>
+<nierror code="-10612">
+NI-DAQ LV:  Die spezifizierte Leitung unterstützt nicht die spezifizierte Übertragungsrichtung.
+</nierror>
+<nierror code="-10611">
+NI-DAQ LV:  Einige Leitungen im spezifizierten Kanal sind nicht für die spezifizierte Übertragungsrichtung konfiguriert.  Für eine Schreib-Übertragung sind einige Leitungen als Eingang konfiguriert.  Für eine Lese-Übertragung sind einige Leitungen als Ausgang konfiguriert.
+</nierror>
+<nierror code="-10610">
+NI-DAQ LV:  Ein einzelner Ausgabekanal in einer Gruppe kann nicht angehalten werden, wenn die Ausgangdaten für die Gruppe verschactelt sind.
+</nierror>
+<nierror code="-10609">
+NI-DAQ LV:  Eine Übertragung ist für die spezifizierte Resource bereits im Gange oder die Operation ist nicht erlaubt, weil das Gerät bereits Übertragungen vornimmt, wahrscheinlich mit anderen Resourcen.
+</nierror>
+<nierror code="-10608">
+NI-DAQ LV:  Für die spezifizierte Resource ist keine Übertragung im Gange.
+</nierror>
+<nierror code="-10607">
+NI-DAQ LV:  Die spezifizierte Resource wurde bereits in Betrieb genommen.
+</nierror>
+<nierror code="-10606">
+NI-DAQ LV:  Die spezifizierte Resource ist nicht in Betrieb genommen.
+</nierror>
+<nierror code="-10605">
+NI-DAQ LV:  Es wurden keine Daten in den Übertragungspuffer geschrieben, weil der letzte Datenblock bereits geladen war.
+</nierror>
+<nierror code="-10604">
+NI-DAQ LV:  Wenn die Datenerzeugung gestartet wurde, können nur die original geschriebenen Übertragungspuffer eventuell aktualisiert werden.  Wenn DMA aktiv ist und ein einzelner Übertragungspuffer verschachtelte Kanaldaten enthält, müssen neue Daten für alle Ausgabekanäle bereitgestellt werden, die gegenwärtig den DMA-Kanal nutzen.
+</nierror>
+<nierror code="-10603">
+NI-DAQ LV:  Die mit einer Gruppe verbundenen Ausgangdaten müssen für einen einzelnen Kanal oder für aufeinanderfolgende Kanäle sein.
+</nierror>
+<nierror code="-10602">
+NI-DAQ LV:  Es wurden keine Daten zur Ausgabe in den Übertragungspuffer geschrieben.
+</nierror>
+<nierror code="-10601">
+NI-DAQ LV:  Die spezifizierte Resource wurde bereits durch eine Setup-Operation konfiguriert.
+</nierror>
+<nierror code="-10600">
+NI-DAQ LV:  Es wurde keine Setup-Operation für die spezifizierten Ressourcen durchgeführt oder einige Ressourcen benötigen für ein ordnungsgemäßes Setup spezielle Befehlsaufrufe.
+</nierror>
+<nierror code="-10561">
+NI-DAQ LV:  Entweder DAQ oder WFM können den PC-Speicherpuffer benutzen, aber nicht beide zur gleichen Zeit.
+</nierror>
+<nierror code="-10560">
+NI-DAQ LV:  Der DSP-Handle-Eingang ist nicht gültig.
+</nierror>
+<nierror code="-10544">
+NI-DAQ LV:  Der konfigurierte Typ des Matrix-Anschlußblocks läßt mit den gegebenen Parametern keinen ordnungsgemäßen Betrieb dieser Funktion zu.
+</nierror>
+<nierror code="-10543">
+NI-DAQ LV:  Bei dieser Funktion ist es erforderlich, daß ein Matrix-Anschlußblock mit dem SCXI-Modul konfiguriert wird.
+</nierror>
+<nierror code="-10542">
+NI-DAQ LV:  Bei dieser Funktion ist es erforderlich, daß kein Matrix-Anschlußblock mit dem SCXI-Modul konfiguriert wird.
+</nierror>
+<nierror code="-10541">
+NI-DAQ LV:  CTRB1 steuert sowohl COUTB1 als auch TRIG1.  Dies kann unvorhersehbare Resultate beim Abtasten des Chassis hervorrufen.
+</nierror>
+<nierror code="-10540">
+NI-DAQ LV:  Wenigstens eines der gewählten SCXI-Module wird von der Operation nicht unterstützt.
+</nierror>
+<nierror code="-10482">
+NI-DAQ LV:  Kanäle sind mit verschiedenen Signalverlaufslängen angegeben. Lösen Sie das Problem, indem Sie sicherstellen, dass Signalverlaufsdaten für jeden Kanal dieselbe Anzahl an Arrayelementen haben.
+</nierror>
+<nierror code="-10481">
+NI-DAQ LV:  Sie müssen einen einzelnen Puffer mit Daten zur Verfügung stellen und die Kanäle müssen in aufsteigender Reihenfolge angegeben sein.  Sie können DMA nicht zum Empfang von Daten zwei Puffern verwenden; eventuell ist die Verwendung von Interrupts möglich.
+</nierror>
+<nierror code="-10480">
+NI-DAQ LV:  Die Liste der Abtastwerte ist zu groß, um in den MUX-Verstärker Speicher der Karte zu passen.
+</nierror>
+<nierror code="-10467">
+NI-DAQ LV:  Angeforderte Resource nicht für Minidriver registriert.
+</nierror>
+<nierror code="-10466">
+NI-DAQ LV:  Angeforderte Operation kann nicht ausgeführt werden, weil der Schlüssel ungültig ist.
+</nierror>
+<nierror code="-10465">
+NI-DAQ LV:  Es wurde versucht, die Reservierung einer Resource aufzuheben, die keine Reservierung hatte.
+</nierror>
+<nierror code="-10464">
+NI-DAQ LV:  Zugriffsversuch auf eine Resource, die einen Schlüssel erfordert.
+</nierror>
+<nierror code="-10463">
+NI-DAQ LV:  Angeforderte Resource wird bereits von einem anderen Objekt verwendet.
+</nierror>
+<nierror code="-10462">
+NI-DAQ LV:  Die spezifizierte Resource wurde nicht reserviert, so daß die Aktion nicht erlaubt ist.
+</nierror>
+<nierror code="-10461">
+NI-DAQ LV:  Die spezifizierte Resource ist nicht verfügbar, da sie bereits anderweitig reserviert wurde.
+</nierror>
+<nierror code="-10460">
+NI-DAQ LV:  Sie haben VIs der DAQ-Bibliothek mit der _DAQ-Kompatibilitäts-Bibliothek (LabVIEW 2.2-VIs) gemischt.  Sie können zwischen beiden Bibliotheken durch Ausführen des DAQ -VIs Gerät zurücksetzen vor Aufruf von _DAQ-kompatiblen VIs oder durch Aufruf des VI Board Reset vor dem Start von DAQ-VIs wechseln.
+</nierror>
+<nierror code="-10459">
+NI-DAQ LV:  Die NI-DAQ DLL konnte auf Grund eines Interface-Fehlers nicht aufgerufen werden.
+</nierror>
+<nierror code="-10458">
+NI-DAQ LV:  Das spezifizierte Speichermedium ist voll.
+</nierror>
+<nierror code="-10457">
+NI-DAQ LV:  DMA konnte für die spezifizierte Gruppe nicht konfiguriert werden, da diese zu klein, zu groß oder nicht korrekt ausgerichtet ist.  Schlagen Sie im Benutzerhandbuch Ihres Gerätes nach, um die Gruppen-Verzweigungen für DMA zu erhalten.
+</nierror>
+<nierror code="-10456">
+NI-DAQ LV:  Der spezifizierte DMA-Kanal wird bereits von einem anderen Gerät verwendet.
+</nierror>
+<nierror code="-10455">
+NI-DAQ LV:  Kein DMA-Kanal zur Verwendung frei.
+</nierror>
+<nierror code="-10454">
+NI-DAQ LV:  Kein DMA-Controller im System verfügbar.
+</nierror>
+<nierror code="-10453">
+NI-DAQ LV:  Der angebene Interrupt-Level wird bereits von einem anderen Gerät verwendet.
+</nierror>
+<nierror code="-10452">
+NI-DAQ LV:  Kein Interupt-Level zur Verwendung frei.
+</nierror>
+<nierror code="-10451">
+NI-DAQ LV:  Der Treiber kann keinen zusammenhängenden Übertragungspuffer im Virtuellen Speicher erstellen und deshalb auch nicht im physikalischem Speicher sperren; der Puffer kann nicht für DMA-Übertragung genutzt werden.
+</nierror>
+<nierror code="-10450">
+NI-DAQ LV:  Im physikalischen Speicher ist ein Hardwarefehler aufgetreten oder an der spezifizierten Adresse kann kein Speicher ausfindig gemacht werden.
+</nierror>
+<nierror code="-10449">
+NI-DAQ LV:  Ein mit dem Cache verbundener Fehler ist aufgetreten oder Cachespeicherung wird vom gegenwärigen Modus nicht unterstützt.
+</nierror>
+<nierror code="-10448">
+NI-DAQ LV:  Der Treiber kann wegen durch begrenzter Stackgröße eine Stringeingabe nicht weiter parsen.
+</nierror>
+<nierror code="-10447">
+NI-DAQ LV:  Das Arbeitsumfeld kann keine Seitensperre gewähren.
+</nierror>
+<nierror code="-10446">
+NI-DAQ LV:  Der Übertragungspuffer enthält einen Seitenumbruch; Systemressourcen müssen gegebenenfalls neu programmiert werden, wenn ein Seitenumbruch auftritt.
+</nierror>
+<nierror code="-10445">
+NI-DAQ LV:  Der Übertragungspuffer kann nicht vollständig in den physikalischen Speicher geschrieben werden. Auf PC AT-Rechnern sind Teile des DMA-Datenerfassungspuffers eventuell in ungültigen DMA-Bereichen, z.B. über 16 MegaBytes.
+</nierror>
+<nierror code="-10444">
+NI-DAQ LV:  Es ist kein Systemspeicher im Heap, kein Speicher im Gerät oder nicht ausreichend Festplattenplatz verfügbar.
+</nierror>
+<nierror code="-10443">
+NI-DAQ LV:  Der Übertragungspuffer ist für den gegenwärtigen Übertragungsmodus nicht richtig ausgerichtet.  Der Puffer kann sich z.B. an einer ungeraden Adresse befinden oder ist nicht an 32-Bit- oder 512-Bit-Grenzen ausgerichtet. Weiterhin kann es sein, daß der Treiber nicht in der Lage ist, den Puffer auszurichten, da dieser zu klein ist.
+</nierror>
+<nierror code="-10442">
+NI-DAQ LV:  Der spezifizierte Speicher ist nicht aktiv oder im gegenwärtigen Adressmodus nicht verfügbar.
+</nierror>
+<nierror code="-10441">
+NI-DAQ LV:  Es ist kein Speicher zur Unterstützung des aktuellen Datenübertragungsmodus zu konfiguriert oder der konfigurierte Speicher unterstützt den gegenwärtigen Datenübertragungsmodus nicht.  (Wenn Blockübertragung verwendet wird, muß der Speicher in der Lage sein, Blockübertragungen durchzuführen.)
+</nierror>
+<nierror code="-10440">
+NI-DAQ LV:  Die spezifizierte Resource gehört dem Treiber und der Benutzer kann nicht darauf zugreifen oder diese ändern.
+</nierror>
+<nierror code="-10415">
+NI-DAQ LV:  Diese Funktion unterstützt Ihr DAQ-Gerät nur, wenn ein externer Multiplexer (wie ein AMUX-64T oder SCXI) mit ihm verbunden ist.
+</nierror>
+<nierror code="-10414">
+NI-DAQ LV:  Das ausgewählte Signal benötigt einen Pin, der reserviert ist und nur von NI-DAQ konfiguriert werden kann.  Sie können diesen Pin nicht selber ändern.
+</nierror>
+<nierror code="-10413">
+NI-DAQ LV:  Es ist bereits eine Gruppe zugewiesen worden oder die spezifizierte Leitung oder der Kanal ist bereits einer Gruppe zugewiesen.
+</nierror>
+<nierror code="-10412">
+NI-DAQ LV:  Es ist keine Gruppe zugewiesen, oder die spezifizierte Leitung oder der Kanal kann keiner Gruppe zugewiesen werden.
+</nierror>
+<nierror code="-10411">
+NI-DAQ LV:  Der spezifizierte Counter wird bereits verwendet.
+</nierror>
+<nierror code="-10410">
+NI-DAQ LV:  Leitung, Kanal oder Gruppe sind schon in Gebrauch; wenn der Treiber diese Leitung, Kanal oder Gruppe konfiguriert, werden Daten oder Handshake-Leitungen auf dieser Leitung, Kanal oder Gruppe gestört.
+</nierror>
+<nierror code="-10409">
+NI-DAQ LV:  Die spezifizierte Gruppe ist in Gebrauch.
+</nierror>
+<nierror code="-10408">
+NI-DAQ LV:  Der spezifizierte Kanal ist in Gebrauch.
+</nierror>
+<nierror code="-10407">
+NI-DAQ LV:  Die spezifizierte Leitung ist in Gebrauch.
+</nierror>
+<nierror code="-10406">
+NI-DAQ LV:  Keine Gruppe verfügbar.
+</nierror>
+<nierror code="-10405">
+NI-DAQ LV:  Kein Kanal verfügbar.
+</nierror>
+<nierror code="-10404">
+NI-DAQ LV:  Keine Leitung verfügbar.
+</nierror>
+<nierror code="-10403">
+NI-DAQ LV:  Das angegebene Gerät unterstützt nicht die geforderte Aktion (Der Treiber erkennt das Gerät, aber die Aktion ist für das Gerät unpassend).
+</nierror>
+<nierror code="-10402">
+NI-DAQ LV:  Es konnte kein Gerät im angegebenen Steckplatz oder an der angegebenen Adresse gefunden werden.
+</nierror>
+<nierror code="-10401">
+NI-DAQ LV:  Das angegebene Gerät ist entweder kein Produkt von National Instruments oder der Treiber unterstützt das Gerät nicht (z.B. der Treiber war schon erhältlich, bevor das Produkt unterstützt wurde).
+</nierror>
+<nierror code="-10400">
+NI-DAQ LV:  Die spezifizierte Resource gehört dem Benutzer und der Treiber kann nicht darauf zugreifen oder diese ändern.
+</nierror>
+<nierror code="-10394">
+NI-DAQ LV:  Eine gegebene PFI-Leitung ist bereits für ein anderes Signal reserviert, oder ein gegebenes Signal hat bereits eine andere PFI-Leitung reserviert.
+</nierror>
+<nierror code="-10393">
+NI-DAQ LV:  Es existiert keine Standard-PFI-Leitung für das angegebene Signal. Sie müssen die PFI-Leitung entweder explizit festlegen oder mit dem PFI_line_configuration-VI setzen.
+</nierror>
+<nierror code="-10392">
+NI-DAQ LV:  Der festgelegte Ausgang für den allgemeinen Zähler und/oder das Aufwärts/Abwärts Statussignal für die Zählrichtung führen zu keiner PFI-Leitung.
+</nierror>
+<nierror code="-10391">
+NI-DAQ LV:  Der Pfad-Manager konnte die Aufgabe aufgrund einer ungültigen PFI-Leitungsnummer nicht ausführen.
+</nierror>
+<nierror code="-10390">
+NI-DAQ LV:  Der Pfad-Manager konnte die Aufgabe aufgrund fehlender Ressourcen nicht ausführen oder die benötigten Ressourcen sind nicht freigegeben.
+</nierror>
+<nierror code="-10383">
+NI-DAQ LV:  Das angegebene Signalziel ist ungültig.
+</nierror>
+<nierror code="-10382">
+NI-DAQ LV:  Die angegebenen Werte für die Quelle sind für die Signalquelle oder den Signalnamen ungültig.
+</nierror>
+<nierror code="-10381">
+NI-DAQ LV:  Der angegebene Signalname ist ungültig.
+</nierror>
+<nierror code="-10380">
+NI-DAQ LV:  Die angegebene Signalquelle ist nicht für den ausgewählten Signalnamen gültig.
+</nierror>
+<nierror code="-10370">
+NI-DAQ LV:  Die Scan-Liste ist ungültig; z.B. mischen Sie AMUX-64T Kanäle mit Onboard-Kanälen, tasten Sie SCXI-Kanäle nicht in der richtigen Reihenfolge ab oder Sie haben einen unterschiedlichen Startkanal für dieselbe SCXI-Karte definiert.  Der Treiber versucht, eine komplizierte Verteilung der Verstärkung über die SCXI-Kanäle desselben Moduls durch Manipulation der Scan-Liste vorzunehmen und gibt diesen Fehler aus, wenn es fehlschlägt.
+</nierror>
+<nierror code="-10360">
+NI-DAQ LV:  Der DSP-Treiber konnte den Kernel für sein Betriebssystem nicht laden.
+</nierror>
+<nierror code="-10350">
+NI-DAQ LV:  Es ist entweder kein SCXI-Eingabemodul (d.h., das mit dem Meßgerät, das die Erfassung oder Steuerung ausführt, verkabelte SCXI-Modul) vom Benutzer festgelegt worden oder NI-DAQ kann das Eingabemodul für die aktuelle SCXI-Konfiguration nicht eindeutig ermitteln.
+</nierror>
+<nierror code="-10349">
+NI-DAQ LV:  Die vom SCXI-Modul gelesene Modul-ID steht zum konfigurierten Modultyp in Konflikt.
+</nierror>
+<nierror code="-10348">
+NI-DAQ LV:  Die Remote SCXI-Einheit befindet sich im Reprogrammiermodus und wartet auf Reprogrammierbefehle vom Host (Measurement & Automation Explorer).
+</nierror>
+<nierror code="-10347">
+NI-DAQ LV:  Beim Senden eines Datenpakets an das Remote-Chassis ist ein Fehler aufgetreten.  Überprüfen Sie Ihre Kabelverbindungen am seriellen Anschluß.
+</nierror>
+<nierror code="-10346">
+NI-DAQ LV:  Das von der Remote SCXI-Einheit empfangene Datenpaket ist ungültig.  Überprüfen Sie Ihre Kabelverbindungen am seriellen Anschluß.
+</nierror>
+<nierror code="-10345">
+NI-DAQ LV:  Der für die spezifizierte Operation erforderliche Speicherbedarf kann in der Remote SCXI-Einheit nicht zugewiesen werden.
+</nierror>
+<nierror code="-10344">
+NI-DAQ LV:  Die Remote SCXI-Einheit ist nicht mit dem Host synchronisiert. Führen Sie ein Reset am Chassis durch, um es mit dem Host wieder zu synchronisieren.
+</nierror>
+<nierror code="-10343">
+NI-DAQ LV:  Die angegebenen SCXI-Konfigurationsparameter sind ungültig oder die Funktion kann mit der gegenwärtigen SCXI-Konfiguration nicht ausgeführt werden.
+</nierror>
+<nierror code="-10342">
+NI-DAQ LV:  Das angegebene RTSI-Signal wird bereits von einer RTSI-Leitung gesteuert, oder die angegebene RTSI-Leitung wird bereits von einem RTSI-Signal gesteuert.
+</nierror>
+<nierror code="-10341">
+NI-DAQ LV:  Das RTSI-Signal/Leitung kann nicht wie angegeben verbunden werden.
+</nierror>
+<nierror code="-10340">
+NI-DAQ LV:  Es ist kein RTSI/PFI-Signal/Leitung verbunden oder das angegebene Signal und die angegebene Leitung sind nicht verbunden oder die Verbindung zum RDA-Server konnte nicht hergestellt werden bzw. wurde abgebrochen.
+</nierror>
+<nierror code="-10261">
+NI-DAQ LV:  Benutzermodus-Code beim Aufruf des Kernelmodus-Code fehlgeschlagen.
+</nierror>
+<nierror code="-10260">
+NI-DAQ LV:  Unzulässiger DMA-Kanal 3 im Measurement & Automation Explorer oder im Betriebssystem angegeben.
+</nierror>
+<nierror code="-10259">
+NI-DAQ LV:  Unzulässiger DMA-Kanal 2 im Measurement & Automation Explorer oder im Betriebssystem angegeben.
+</nierror>
+<nierror code="-10258">
+NI-DAQ LV:  Unzulässiger DMA-Kanal 1 im Measurement & Automation Explorer oder im Betriebssystem angegeben.
+</nierror>
+<nierror code="-10257">
+NI-DAQ LV:  Falsche Adresse im Measurement & Automation Explorer.
+</nierror>
+<nierror code="-10256">
+NI-DAQ LV:  Fehler beim Öffnen des angegebenen COM-Anschlusses.
+</nierror>
+<nierror code="-10255">
+NI-DAQ LV:  Fehler beim Initialisieren des Treibers für Remote SCXI.
+</nierror>
+<nierror code="-10254">
+NI-DAQ LV:  "DAQCard kann nicht konfiguriert werden, weil 1) nicht die richtige Version der Card und Socket Services Software installiert ist; 2) die Karte im PCMCIA-Socket keine DAQCard ist; oder 3) die geforderte Basisadresse und/oder der Interrupt-Level laut Card und Socket Services -Resource-Manager nicht vorhanden sind. Versuchen Sie es mit anderen Einstellungen oder verwenden Sie die Option ""Automatisch zuweisen"" im Measurement & Automation Explorer."
+</nierror>
+<nierror code="-10253">
+NI-DAQ LV:  Eine oder mehrere der mit dem Measurement & Automation Explorer konfigurierten jumperlosen Karten können nicht gefunden werden.
+</nierror>
+<nierror code="-10252">
+NI-DAQ LV:  Zwei oder mehr Geräte verwenden dieselben DMA-Kanäle.
+</nierror>
+<nierror code="-10251">
+NI-DAQ LV:  Die DMA-Konfiguration für die Konfiguration des Computers bzw. DMA-Controllers Gerätes nicht korrekt.
+</nierror>
+<nierror code="-10250">
+NI-DAQ LV:  Zwei oder mehr Geräte verwenden denselben Interrupt-Level.
+</nierror>
+<nierror code="-10249">
+NI-DAQ LV:  Die Interrupt-Konfiguration ist für die vorhandene Computer- bzw. Gerätekonfiguration nicht korrekt.
+</nierror>
+<nierror code="-10248">
+NI-DAQ LV:  Die Basis-Adresse ist gleich für ein oder mehr Geräte; deshalb kann der Treiber nicht auf das spezifizierte Gerät zugreifen.
+</nierror>
+<nierror code="-10247">
+NI-DAQ LV:  Der CMOS Konfigurations-Speicher für das Gerät ist leer oder ungültig oder die angegebene Konfiguration paßt nicht mit der gegenwärtigen Konfiguration des Gerätes zusammen oder die EISA-System-Konfiguration ist ungültig.
+</nierror>
+<nierror code="-10246">
+NI-DAQ LV:  Der Treiber kann nicht mit dem angegebenen externen Gerät kommunizieren.
+</nierror>
+<nierror code="-10245">
+NI-DAQ LV:  Der Treiber ist auf einen Betriebssystem-Fehler gestoßen, während der Treiber versuchte, eine Operation auszuführen oder das Betriebssystem unterstützt nicht die vom Treiber durchgeführte Operation.
+</nierror>
+<nierror code="-10244">
+NI-DAQ LV:  Der Treiber hat einen Hardware-Initialisierungs-Fehler erkannt, während er versuchte, das angegebene Gerät zu konfigurieren.
+</nierror>
+<nierror code="-10243">
+NI-DAQ LV:  Der Treiber konnte die Konfigurationsdatei nicht lokalisieren oder öffnen oder das Format der Konfigurationsdatei ist nicht mit der aktuell installierten Treiberversion kompatibel.
+</nierror>
+<nierror code="-10242">
+NI-DAQ LV:  Die angegebene Funktion ist nicht im Treiber vorhanden.
+</nierror>
+<nierror code="-10241">
+NI-DAQ LV:  Eine der Treiberdateien oder das Konfigurations-Utility ist zu alt oder ein spezielles Feature des Channel Wizard wird von dieser Treiberversion nicht unterstützt.
+</nierror>
+<nierror code="-10240">
+NI-DAQ LV:  Das Treiber-Interface konnte den Treiber nicht finden oder öffnen.
+</nierror>
+<nierror code="-10204">
+NI-DAQ LV:  Falsches Paßwort für den Zugriff auf das EEPROM.
+</nierror>
+<nierror code="-10203">
+NI-DAQ LV:  Der angegebene Bereich für den EEPROM ist ungültig.
+</nierror>
+<nierror code="-10202">
+NI-DAQ LV:  Sie können in diesen Bereich Ihres EEPROMs nicht schreiben, da dieser schreibgeschützt ist. Sie versuchen wohlmöglich, Kalibrierkonstanten in einen schreibgeschützten Bereich zu schreiben; wenn dies der Fall ist, sollten Sie statt dessen den Anwenderbereich des EEPROMs wählen.
+</nierror>
+<nierror code="-10201">
+NI-DAQ LV:  Konnte keine Daten zum EEPROM schreiben.
+</nierror>
+<nierror code="-10200">
+NI-DAQ LV:  Konnte keine Daten vom EEPROM lesen.
+</nierror>
+<nierror code="-10181">
+NI-DAQ LV:  Der angegebene Meßmodus ist ungültig.
+</nierror>
+<nierror code="-10180">
+NI-DAQ LV:  Der angegebene Bandsperrfilter ist ungültig.
+</nierror>
+<nierror code="-10151">
+NI-DAQ LV:  Systemkalibrierung ist veraltet.
+</nierror>
+<nierror code="-10150">
+NI-DAQ LV:  Hardware-Konfiguration wurde seit der letzten Systemkalibrierung geändert.
+</nierror>
+<nierror code="-10141">
+NI-DAQ LV:  Der angegebene Modus für Autoinkrement ist ungültig.
+</nierror>
+<nierror code="-10140">
+NI-DAQ LV:  Der angegebene Anschluß für die Frequenzausgabe (FOUT oder FREQ_OUT) ist ungültig.
+</nierror>
+<nierror code="-10139">
+NI-DAQ LV:  Die angegebene Impulsbreite ist ungültig.
+</nierror>
+<nierror code="-10138">
+NI-DAQ LV:  Die angegebene Impulsverzögerung ist ungültig.
+</nierror>
+<nierror code="-10137">
+NI-DAQ LV:  Die angegebene Impulsperiode ist ungültig.
+</nierror>
+<nierror code="-10136">
+NI-DAQ LV:  Das angegebene Tastverhältnis ist ungültig.
+</nierror>
+<nierror code="-10135">
+NI-DAQ LV:  Der angegebene Impulsmodus ist ungültig.
+</nierror>
+<nierror code="-10134">
+NI-DAQ LV:  Die angegebene Ausgabepolarität ist ungültig.
+</nierror>
+<nierror code="-10133">
+NI-DAQ LV:  Der angegebenen Ausgabetyp ist ungültig.
+</nierror>
+<nierror code="-10132">
+NI-DAQ LV:  Die angegebene Quellflanke ist ungültig.
+</nierror>
+<nierror code="-10131">
+NI-DAQ LV:  Das angegebene Gate-Signal ist ungültig.
+</nierror>
+<nierror code="-10130">
+NI-DAQ LV:  Die angegebene Gate-Quelle ist ungültig.
+</nierror>
+<nierror code="-10129">
+NI-DAQ LV:  Der angegebene Gate-Modus ist ungültig.
+</nierror>
+<nierror code="-10128">
+NI-DAQ LV:  Die angegebene Gatterungsoption ist ungültig.
+</nierror>
+<nierror code="-10127">
+NI-DAQ LV:  Der angegebene Counter unterstützt die angegebene Zählrichtung nicht.
+</nierror>
+<nierror code="-10126">
+NI-DAQ LV:  Ungültige Quelle ausgewählt.
+</nierror>
+<nierror code="-10125">
+NI-DAQ LV:  Ungültige Aktion verwendet.
+</nierror>
+<nierror code="-10124">
+NI-DAQ LV:  Ungültige entityID verwendet.
+</nierror>
+<nierror code="-10123">
+NI-DAQ LV:  Ungültige paramID verwendet.
+</nierror>
+<nierror code="-10122">
+NI-DAQ LV:  Ungültige paramValue verwendet.
+</nierror>
+<nierror code="-10121">
+NI-DAQ LV:  Ungültige counterNumber verwendet.
+</nierror>
+<nierror code="-10120">
+NI-DAQ LV:  Verwendung einer unzulässigen Applikation.
+</nierror>
+<nierror code="-10100">
+NI-DAQ LV:  Die geforderte Digitalanschlußbreite ist kein Vielfaches der Hardwareanschlußbreite oder ist von der DAQ-Hardware nicht erreichbar.
+</nierror>
+<nierror code="-10098">
+NI-DAQ LV:  Der angegebene Kalibrierkonstantenbereich ist ungültig. Der angegebene Kalibrierkonstantenbereich enthält z.B. Konstanten, die nur werkseitig verändert werden können.
+</nierror>
+<nierror code="-10097">
+NI-DAQ LV:  Die angegebene Kalibrationsoperation ist ungültig.
+</nierror>
+<nierror code="-10096">
+NI-DAQ LV:  Die angegebene Kalibrierkonstante ist ungültig.
+</nierror>
+<nierror code="-10095">
+NI-DAQ LV:  Der der Funktion übergebene Anreizimpuls für die Kalibrierung ist ungültig.
+</nierror>
+<nierror code="-10094">
+NI-DAQ LV:  Die der Funktion übergebene calDAC Konstante ist ungültig.
+</nierror>
+<nierror code="-10093">
+NI-DAQ LV:  FIFO-Modus Signalverlaufserzeugung kann nicht verwendet werden, weil wenigstens eine Bedingung nicht erfüllt wird.
+</nierror>
+<nierror code="-10092">
+NI-DAQ LV:  Einige Geräte benötigen einen zeitlichen Abstand zwischen dem letzten Abtastwert eines Scan und dem ersten Abtastwert des nächsten Scan. Das von Ihnen angegebene Abtastintervall läßt keine Lücke, die für die Karte groß genug ist. Schlagen Sie in Ihrer Dokumentation für eine Erklärung nach.
+</nierror>
+<nierror code="-10091">
+NI-DAQ LV:  Sie haben versucht, eine ungültige Einstellung für den Iterationsparameter zu verwenden. Der Iterationsparameter muß 0 oder größer sein. Ihr Gerät ist eventuell auf zwei Werte limitiert, 0 und 1.
+</nierror>
+<nierror code="-10090">
+NI-DAQ LV:  Die einzelnen Einstellungen für Bereich, Polarität und Verstärkung sind gültig, aber die Kombination ist nicht erlaubt.
+</nierror>
+<nierror code="-10089">
+NI-DAQ LV:  Der Gesamttakt ist mit der Puffergröße, dem Vortriggerabtasttakt oder dem Kartentyp inkonsistent .
+</nierror>
+<nierror code="-10088">
+NI-DAQ LV:  Der Triggerpegel ist ungültig.
+</nierror>
+<nierror code="-10087">
+NI-DAQ LV:  Der Triggertyp ist ungültig.
+</nierror>
+<nierror code="-10086">
+NI-DAQ LV:  Die externe Referenz ist ungültig.
+</nierror>
+<nierror code="-10085">
+NI-DAQ LV:  Der Triggerbereich oder das Trigger-Hysteresisfenster ist ungültig.
+</nierror>
+<nierror code="-10084">
+NI-DAQ LV:  Der Triggertakt ist ungültig.
+</nierror>
+<nierror code="-10083">
+NI-DAQ LV:  Der Triggermodus ist ungültig.
+</nierror>
+<nierror code="-10082">
+NI-DAQ LV:  Der Nachtrigger-Abtasttakt ist ungültig.
+</nierror>
+<nierror code="-10081">
+NI-DAQ LV:  Der Vortrigger-Abtasttakt ist ungültig.
+</nierror>
+<nierror code="-10080">
+NI-DAQ LV:  Die Verstärkung ist ungültig.
+</nierror>
+<nierror code="-10079">
+NI-DAQ LV:  Der angegebene Wert für die Triggerignorierung ist unzulässig.
+</nierror>
+<nierror code="-10050">
+NI-DAQ LV:  In der Kanalliste befinden sich mehrere Kanalnamen, die denselben Hardware-Kanal bezeichnen.
+</nierror>
+<nierror code="-10048">
+NI-DAQ LV:  Der angegebene Erregertyp ist für dieses Gerät nicht zulässig.
+</nierror>
+<nierror code="-10047">
+NI-DAQ LV:  Der angegebene Typ für die SCXI-Kanalanbindung ist für dieses Modul nicht zulässig.
+</nierror>
+<nierror code="-10046">
+NI-DAQ LV:  Der Erregerwert ist für dieses Gerät nicht zulässig.
+</nierror>
+<nierror code="-10045">
+NI-DAQ LV:  Der angegebene Eingabemodus ist ungültig.
+</nierror>
+<nierror code="-10044">
+NI-DAQ LV:  Die angegebene Polarität ist ungültig.
+</nierror>
+<nierror code="-10043">
+NI-DAQ LV:  Der angegebene Teiler ist ungültig.
+</nierror>
+<nierror code="-10042">
+NI-DAQ LV:  Der angegebene Steuercode ist für die aktuelle Konfiguration oder den aktuellen Zustand ungültig.
+</nierror>
+<nierror code="-10041">
+NI-DAQ LV:  Die angegebene Task-ID ist ungültig. Sie können z.B. fälschlicherweise die Task-ID eines analogen Eingangs-VI mit einem digitalen I/O-VI verbunden haben.
+</nierror>
+<nierror code="-10040">
+NI-DAQ LV:  Die Gruppengröße ist ungültig.
+</nierror>
+<nierror code="-10039">
+NI-DAQ LV:  Der spezifizierte Eingabe-String ist zu lang. So können etwa DAQScope 5102 Geräte nur Strings bis zu einer Länge von 32 Bytes im Kalibrier-EEPROM speichern. In diesem Fall kürzen Sie bitte den String.
+</nierror>
+<nierror code="-10038">
+NI-DAQ LV:  Der angegebene Tag ist ungültig.
+</nierror>
+<nierror code="-10037">
+NI-DAQ LV:  Der angegebene Monat ist ungültig.
+</nierror>
+<nierror code="-10036">
+NI-DAQ LV:  Das angegebene Jahr ist ungültig.
+</nierror>
+<nierror code="-10035">
+NI-DAQ LV:  Das spezifizierte Attribut ist nicht relevant.
+</nierror>
+<nierror code="-10034">
+NI-DAQ LV:  Keine konfigurierte Meldung entspricht der, die Sie zu löschen versucht haben.
+</nierror>
+<nierror code="-10033">
+NI-DAQ LV:  Der der Funktion übergebene Fenster-Handle ist ungültig.
+</nierror>
+<nierror code="-10032">
+NI-DAQ LV:  Der spezifizierte SCXI-Modulsteckplatz ist ungültig oder entspricht einem leeren Steckplatz.
+</nierror>
+<nierror code="-10031">
+NI-DAQ LV:  Das spezifizierte SCXI-Chassis entspricht keinem konfigurierten SCXI-Chassis.
+</nierror>
+<nierror code="-10030">
+NI-DAQ LV:  Die für die Kommunikation mit dem seriellen Anschluß definierte Baud-Rate ist für diese Plattform ungültig.
+</nierror>
+<nierror code="-10029">
+NI-DAQ LV:  Die von Ihnen aufgerufene Funktion wird von dieser Treiberversion nicht mehr unterstützt.
+</nierror>
+<nierror code="-10028">
+NI-DAQ LV:  Die spezifizierte Grenzfrequenz ist für dieses Gerät ungültig.
+</nierror>
+<nierror code="-10027">
+NI-DAQ LV:  Für DAQEvents 0 und 1 muß der allgemeine Wert A größer als Null und kleiner als die interne Puffergröße sein.  Wenn DMA für DAQEvent 1 verwendet wird, muß der allgemeine Wert A geradzahlig durch die interne Puffergröße teilbar sein.  Wenn TIO-10 für DAQEvent 4 verwendet wird, muß der allgemeine Wert A 1 oder 2 sein.
+</nierror>
+<nierror code="-10026">
+NI-DAQ LV:  Die geforderte Pufferanzahl oder die Puffergröße sind nicht erlaubt. Der Puffer für Lab- und 1200-Geräte ist z.B. auf 64K-Samples begrenzt, oder die Karte unterstützt mehrere Buffer nicht .
+</nierror>
+<nierror code="-10025">
+NI-DAQ LV:  Die geforderten Eingangsgrenzwerte überschreiten die Fähigkeiten oder die Konfiguration der Karte.  Es wurden alternative Grenzwerte gewählt.
+</nierror>
+<nierror code="-10024">
+NI-DAQ LV:  Das Hinzufügen des Schreib-Offset zur Schreibmarke plaziert die Schreibmarke außerhalb des internen Puffers.
+</nierror>
+<nierror code="-10023">
+NI-DAQ LV:  Der Schreibmodus ist außerhalb des Bereichs oder wird nicht zugelassen.
+</nierror>
+<nierror code="-10022">
+NI-DAQ LV:  Ihr Datenarray enthält ein unvollständiges Update oder Sie versuchen nach dem Ende des internen Puffer zu schreiben oder Ihre Ausgabeoperation ist kontinuierlich und die Länge Ihres Arrays ist kein Vielfaches oder die Hälfte der internen Puffergröße.
+</nierror>
+<nierror code="-10021">
+NI-DAQ LV:  Die Grenzen liegen außerhalb des Meßbereichs der Karte.
+</nierror>
+<nierror code="-10020">
+NI-DAQ LV:  Die Zeitbasis ist ungültig.
+</nierror>
+<nierror code="-10019">
+NI-DAQ LV:  Die Frequenz ist ungültig.
+</nierror>
+<nierror code="-10018">
+NI-DAQ LV:  Der Offset ist nicht erreichbar.
+</nierror>
+<nierror code="-10017">
+NI-DAQ LV:  Der Lesemodus ist ungültig.
+</nierror>
+<nierror code="-10016">
+NI-DAQ LV:  Der Lesetakt ist ungültig.
+</nierror>
+<nierror code="-10015">
+NI-DAQ LV:  Die Zeitbegrenzung ist ungültig.
+</nierror>
+<nierror code="-10014">
+NI-DAQ LV:  Die Größe der Gruppe ist zu groß für die Karte.
+</nierror>
+<nierror code="-10013">
+NI-DAQ LV:  Der Treiber hat einen unerkannten oder nicht aufgeführten Fehlercode zurückgegeben.
+</nierror>
+<nierror code="-10012">
+NI-DAQ LV:  Der Spannungsbereich für den Analogeingang bzw. -ausgang ist für den spezifizierten Kanal ungültig, oder Sie schreiben einen ungültigen Spannungswert auf den Analogausgang.
+</nierror>
+<nierror code="-10011">
+NI-DAQ LV:  Die Abtastrate für den Analogeingang ist für die Kanalanzahl und den Kanaltaktgenerator zu schnell; oder die angebene Taktrate wird von dem verbundenen Counter-Kanal oder I/O-Kanal nicht unterstützt.
+</nierror>
+<nierror code="-10010">
+NI-DAQ LV:  Der Takt ist für den spezifizierten Counter zu kurz oder zu lang  oder der gegebene I/O-Übertragungstakt ist dem aktuellen Puffer oder der Kanalkonfiguration nicht angepaßt.
+</nierror>
+<nierror code="-10009">
+NI-DAQ LV:  Der Counter ist ungültig.
+</nierror>
+<nierror code="-10008">
+NI-DAQ LV:  Die Gruppe ist ungültig.
+</nierror>
+<nierror code="-10007">
+NI-DAQ LV:  Ein Kanal, Anschluß oder Counter ist außerhalb des Bereichs für den Gerätetyp oder für die Gerätekonfiguration; oder die Kombination der Kanäle ist nicht erlaubt; oder die Abtastreihenfolge muß umgekehrt werden (0 zuletzt).
+</nierror>
+<nierror code="-10006">
+NI-DAQ LV:  Die Leitung ist ungültig.
+</nierror>
+<nierror code="-10005">
+NI-DAQ LV:  Das Gerät ist ungültig.
+</nierror>
+<nierror code="-10004">
+NI-DAQ LV:  Der Wert eines numerischen Parameters ist mit einem anderen Parameter inkonsistent. Diese Kombination ist somit unzulässig.
+</nierror>
+<nierror code="-10003">
+NI-DAQ LV:  Der Wert eines numerischen Parameters ist ungültig.
+</nierror>
+<nierror code="-10002">
+NI-DAQ LV:  Ein Fehler wurde im Eingabestring entdeckt; die Syntax des String ist richtig, aber einige im String spezifizierte Werte sind mit anderen im String spezifizierten Werten inkonsistent.
+</nierror>
+<nierror code="-10001">
+NI-DAQ LV:  Ein Fehler wurde im Eingabestring entdeckt; die Anordnung oder die Reihenfolge der Zeichen im String ist nicht konsistent mit der erwarteten Reihenfolge.
+</nierror>
+</nidocument>

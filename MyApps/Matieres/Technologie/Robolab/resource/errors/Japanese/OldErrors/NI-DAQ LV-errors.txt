@@ -1,0 +1,945 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="-10943">
+NI-DAQ LV:  ﾘﾓｰﾄSCXIﾕﾆｯﾄの割り込み処理に必要以上の時間がかかっています。ﾘﾓｰﾄSCXIﾕﾆｯﾄをﾘｾｯﾄする必要はありませんが、ﾃﾞｰﾀ集録を一旦中断し、再開始してください。
+</nierror>
+<nierror code="-10942">
+NI-DAQ LV:  ホストからリモートSCXIユニットへ無効なリセットシグネーチャが送られました。
+</nierror>
+<nierror code="-10941">
+NI-DAQ LV:  ﾘﾓｰﾄSCXIﾕﾆｯﾄの再ﾌﾟﾛｸﾞﾗﾑに失敗しました。再実行して下さい。
+</nierror>
+<nierror code="-10940">
+NI-DAQ LV:  規定時間内にﾘﾓｰﾄSCXIﾕﾆｯﾄより応答がありません。
+</nierror>
+<nierror code="-10920">
+NI-DAQ LV:  使用中のｼｽﾃﾑのﾚｰﾄﾘﾐｯﾄが原因で、ﾊﾞｯﾌｧ使用GPCTR操作中、1つまたは複数のﾃﾞｰﾀﾎﾟｲﾝﾄが失われた可能性があります。
+</nierror>
+<nierror code="-10885">
+NI-DAQ LV:  入力信号がADCの入力範囲を超えています。
+</nierror>
+<nierror code="-10884">
+NI-DAQ LV:  プレトリガ集録後は、データの並び替えができません。
+</nierror>
+<nierror code="-10883">
+NI-DAQ LV:  波形アップデートレートに合った速度で、リモートSCXIユニットの波形バッファに新規データを転送できません。可能ならば、遅い波形アップデートレートを使用してください。
+</nierror>
+<nierror code="-10882">
+NI-DAQ LV:  リモートSCXIユニット上の集録データが、ホストのバッファに転送される前に上書きされました。可能ならば、遅いデータ集録速度を使用してください。
+</nierror>
+<nierror code="-10881">
+NI-DAQ LV:  一部の転送に成功した後に、再度転送することはできません。
+</nierror>
+<nierror code="-10880">
+NI-DAQ LV:  下記のいずれかの理由により、この時点でアップデートレートを変更できません。1)波形生成中はインターバルタイムベースの変更が不可能である場合、または、2)複数の項目を続けて変更する際、次の変更を要求する前に、各変更要求が有効になるまで時間を空ける必要がある場合。
+</nierror>
+<nierror code="-10858">
+NI-DAQ LV:  システムはデバイスを再構成し、既存の構成を無効にしました。デバイスを使用するには初期化する必要があります。
+</nierror>
+<nierror code="-10857">
+NI-DAQ LV:  この操作の実行中に、ﾃﾞﾊﾞｲｽのｶｰﾈﾙ内にて予期せぬｴﾗｰが発生しました。
+</nierror>
+<nierror code="-10856">
+NI-DAQ LV:  この操作の実行中に、ｵﾍﾟﾚｰﾃｨﾝｸﾞｼｽﾃﾑより予期せぬｴﾗｰが発生しました。
+</nierror>
+<nierror code="-10855">
+NI-DAQ LV:  NI-DAQ はこのﾊﾞｰｼﾞｮﾝのｵﾍﾟﾚｰﾃｨﾝｸﾞｼｽﾃﾑに対し現在のｵﾍﾟﾚｰｼｮﾝをｻﾎﾟｰﾄしません。
+</nierror>
+<nierror code="-10854">
+NI-DAQ LV:  ﾌｧｲﾙのｱｸｾｽ中にｴﾗｰが発生しました。
+</nierror>
+<nierror code="-10853">
+NI-DAQ LV:  ﾌｧｲﾙに書き込むことができません。
+</nierror>
+<nierror code="-10852">
+NI-DAQ LV:  ﾌｧｲﾙから読み込むことができません。
+</nierror>
+<nierror code="-10851">
+NI-DAQ LV:  ﾌｧｲﾙ内で検索することはできません。
+</nierror>
+<nierror code="-10850">
+NI-DAQ LV:  ﾌｧｲﾙを閉じることができませんでした。
+</nierror>
+<nierror code="-10849">
+NI-DAQ LV:  構成ﾌｧｲﾙまたはDSPｶｰﾈﾙﾌｧｲﾙを開くことができませんでした。
+</nierror>
+<nierror code="-10848">
+NI-DAQ LV:  ﾄﾞﾗｲﾊﾞはDMAｺﾝﾄﾛｰﾗ内の転送ｶｳﾝﾄﾚｼﾞｽﾀから有効な読み込みを得ることができませんでした。
+</nierror>
+<nierror code="-10847">
+NI-DAQ LV:  DMAﾁｪｰﾝ割り込み時に、新規ﾊﾞｯﾌｧ情報が利用可能でありませんでした；DMA転送は現在ｱｸﾃｨﾌﾞな転送ﾊﾞｯﾌｧの終わりで終了されます。
+</nierror>
+<nierror code="-10846">
+NI-DAQ LV:  お使いのアプリケーションでは、適切な速度で、バックグランドの集録バッファからデータを集録することができなかったため、未集録データが新規データで上書きされてしまいました。このエラーを防ぐには、バックグランドの集録バッファのサイズを大きくするか、読み込み関数／VIを呼び出した際に読み込むデータ量を増やすか、集録速度を遅くするか、コンピュータの処理するタスク数を減らしてください。
+</nierror>
+<nierror code="-10845">
+NI-DAQ LV:  システムやバス帯域幅の制約により、ドライバは、デバイスのスループットに合った速度で、デバイスからデータを読み込むことができませんでした。オンボードデバイスメモリからオーバーフローエラーが返されました。
+</nierror>
+<nierror code="-10844">
+NI-DAQ LV:  お使いのアプリケーションでは、適切な速度で、バックグランドの生成バッファにデータを送信することができなかったため、新規データをデバイスに送信できませんでした。このエラーを防ぐには、バックグランドの生成バッファのサイズを大きくするか、書き込み関数／VIを呼び出した際に書き込むデータ量を増やすか、生成速度を遅くするか、コンピュータの処理するタスク数を減らしてください。
+</nierror>
+<nierror code="-10843">
+NI-DAQ LV:  システムやバス帯域幅の制約により、ドライバは、デバイスのスループットに合った速度で、デバイスにデータを書き込むことができませんでした。オンボードのデバイスメモリから、アンダーフローエラーが返されました。このエラーは、オーバーランエラーが発生したときに誤って返されることがあります。
+</nierror>
+<nierror code="-10842">
+NI-DAQ LV:  ハードウェアが指定された操作に応答していないか、ハードウェアからの応答がそのハードウェアの機能と一致していません。
+</nierror>
+<nierror code="-10841">
+NI-DAQ LV:  ﾌｧｰﾑｳｪｱが指定の操作をｻﾎﾟｰﾄしないか、またはﾃﾞｰﾀ保全性の問題が原因でそのﾌｧｰﾑｳｪｱ操作は完了できませんでした。
+</nierror>
+<nierror code="-10840">
+NI-DAQ LV:  ドライバへのアクセスとアクセスの間に、ドライバファイルの内容または位置が変更されました。
+</nierror>
+<nierror code="-10811">
+NI-DAQ LV:  入力信号の周波数を測定できませんでした。入力信号の周波数が許容周波数範囲を超えているか、しきい値やヒステリシスが交差していない可能性があります。
+</nierror>
+<nierror code="-10810">
+NI-DAQ LV:  与えられた操作を実行中に予期せぬｴﾗｰがﾄﾞﾗｲﾊﾞ内で発生しました。
+</nierror>
+<nierror code="-10809">
+NI-DAQ LV:  ﾊﾟﾙｽが測定ﾌｪｰｽﾞ中にﾊﾟﾙｽ幅測定を開始しようとしました。(例：ﾊｲﾚﾍﾞﾙｹﾞｰﾃｨﾝｸﾞ使用時のﾊｲﾌｪｰｽﾞ)
+</nierror>
+<nierror code="-10808">
+NI-DAQ LV:  DAQﾃﾞﾊﾞｲｽとﾊﾟﾗﾚﾙ通信の際にｴﾗｰが発生しました。
+</nierror>
+<nierror code="-10807">
+NI-DAQ LV:  十分なﾌﾟﾚﾄﾘｶﾞﾃﾞｰﾀが集録される前に、ﾄﾘｶﾞが発生しました。
+</nierror>
+<nierror code="-10806">
+NI-DAQ LV:  入力転送ﾊﾞｯﾌｧには、ﾄﾘｶﾞ値が見つかりません。
+</nierror>
+<nierror code="-10805">
+NI-DAQ LV:  入力ﾀｽｸのｸﾛｯｸｿｰｽはﾃﾞﾊﾞｲｽがｻﾎﾟｰﾄする最大入力ｸﾛｯｸﾚｰﾄよりも速いです。ﾄﾞﾗｲﾊﾞにｱﾅﾛｸﾞ入力ﾁｬﾈﾙｸﾛｯｸﾚｰﾄを計算させている場合、ﾄﾞﾗｲﾊﾞはﾎﾞｰﾄﾞﾀｲﾌﾟに基づいてｸﾛｯｸﾚｰﾄを選択します； このため、構成ﾕｰﾃｨﾘﾃｨでﾎﾞｰﾄﾞﾀｲﾌﾟが正確であることを確認してください。
+</nierror>
+<nierror code="-10804">
+NI-DAQ LV:  転送ﾊﾞｯﾌｧの終わりに達する前に、その転送は停止されました。
+</nierror>
+<nierror code="-10803">
+NI-DAQ LV:  実行中の転送は停止されました。これは、出力ﾃﾞｰﾀの再生成を防止するため、または入力操作のためにﾘｿｰｽを割り当てるためです。
+</nierror>
+<nierror code="-10802">
+NI-DAQ LV:  要求された量のﾃﾞｰﾀがまだ集録されていません。
+</nierror>
+<nierror code="-10801">
+NI-DAQ LV:  校正中にエラーが発生しました。このエラーの原因としては、励振信号の接続ミス、無効な励振信号値の入力、またはDAQデバイスの不具合などが考えられます。
+</nierror>
+<nierror code="-10800">
+NI-DAQ LV:  処理は、そのﾀｲﾑﾘﾐｯﾄ内に完了できませんでした。
+</nierror>
+<nierror code="-10784">
+NI-DAQ LV:  ｸﾛｯｸをｽﾚｰﾌﾞﾃﾞﾊﾞｲｽに接続するには、ﾏｽﾀｰﾃﾞﾊﾞｲｽがPXIｽﾛｯﾄ番号2である必要があります。
+</nierror>
+<nierror code="-10783">
+NI-DAQ LV:  ﾛｰﾄﾞｴﾘｱに保存されている校正定数の極性は、現在設定されている極性と異なります。工場出荷時の校正定数を使用して下さい。
+</nierror>
+<nierror code="-10782">
+NI-DAQ LV:  指定された操作はSC-2040ばﾎｰﾙﾄﾞﾓｰﾄﾞに設定されている際には実行出来ません。
+</nierror>
+<nierror code="-10781">
+NI-DAQ LV:  電流を出力する際に出力ﾁｬﾈﾙの極性をﾊﾞｲﾎﾟｰﾗに設定出来ません。
+</nierror>
+<nierror code="-10780">
+NI-DAQ LV:  ﾃﾞﾊﾞｲｽにSC2040を取り付けている場合、すべてのｱﾅﾛｸﾞ入力ﾁｬﾈﾙを差動入力ﾓｰﾄﾞに設定する必要があります。
+</nierror>
+<nierror code="-10740">
+NI-DAQ LV:  SCXIﾄﾗｯｸ・ｱﾝﾄﾞ・ﾎｰﾙﾄﾞ・ﾄﾘｶﾞﾗｲﾝに信号が既に割り当てられているか、または指定のﾓｼﾞｭｰﾙがｼﾝｸﾞﾙﾁｬﾈﾙ操作用に設定されていないために制御器呼び出しが不適切でした。
+</nierror>
+<nierror code="-10720">
+NI-DAQ LV:  指定されたｶｳﾝﾀはｲﾍﾞﾝﾄｶｳﾝﾄ操作のために設定されていません。
+</nierror>
+<nierror code="-10710">
+NI-DAQ LV:  指定されたﾎﾟｰﾄはﾊﾝﾄﾞｼｪｰｷﾝｸﾞのために設定されていません。
+</nierror>
+<nierror code="-10702">
+NI-DAQ LV:  Labや1200シリーズデバイスでは、プレトリガとポストトリガを同時に使用することはできません。
+</nierror>
+<nierror code="-10701">
+NI-DAQ LV:  指定されたチャネルが遅延内部アップデート向けに設定されていなかったため、この呼び出しは無効です。
+</nierror>
+<nierror code="-10700">
+NI-DAQ LV:  このボードと操作には、この組み合わせのスキャンとクロック信号変換のソースを使用することはできません。
+</nierror>
+<nierror code="-10699">
+NI-DAQ LV:  このボードと操作には、この組み合わせのスキャンとサンプルクロックソース極性を使用することはできません。
+</nierror>
+<nierror code="-10698">
+NI-DAQ LV:  このボードには、この組み合わせのスキャンとサンプルクロックのタイムベースを使用することができません。
+</nierror>
+<nierror code="-10697">
+NI-DAQ LV:  このボードの実際のハードウェア機能と一致するように、タイムベースとインターバルを変換できませんでした。
+</nierror>
+<nierror code="-10696">
+NI-DAQ LV:  ﾏﾙﾁﾚｰﾄｽｷｬﾝは、AMUX-64、SCXI、またはﾌﾟﾚﾄﾘｶﾞ集録に使用することはできません。
+</nierror>
+<nierror code="-10695">
+NI-DAQ LV:  割り込みを使用する必要のある操作を設定しました。DMAは禁止されています。例えば、メッセージ処理やLabVIEWオカーレンスなどのDAQイベントには、割り込みが必要です。
+</nierror>
+<nierror code="-10694">
+NI-DAQ LV:  スキャンレートが、使用中のハードウェア、ゲイン、およびフィルタの最大値以上に設定されているか、または最小値以下に設定されています。
+</nierror>
+<nierror code="-10693">
+NI-DAQ LV:  ｼﾝｸﾞﾙﾁｬﾈﾙのｼﾝｸﾞﾙｽｷｬﾝの処理中に、外部ｽｷｬﾝｸﾛｯｸは使用できません。
+</nierror>
+<nierror code="-10692">
+NI-DAQ LV:  ﾁｬﾈﾙｸﾛｯｸがﾃﾞｨｽｴｰﾌﾞﾙされているため、集録を開始できません。
+</nierror>
+<nierror code="-10691">
+NI-DAQ LV:  このﾎﾞｰﾄﾞでは、外部ｽｷｬﾝｸﾛｯｸ、ﾄﾘｶﾞ開始、またはﾄﾘｶﾞ停止を使用する外部ｻﾝﾌﾟﾙｸﾛｯｸは禁止されています。
+</nierror>
+<nierror code="-10690">
+NI-DAQ LV:  このﾎﾞｰﾄﾞでﾃﾞｼﾞﾀﾙﾄﾘｶﾞAおよびBを同時に使用することは禁止されています。
+</nierror>
+<nierror code="-10689">
+NI-DAQ LV:  指定のｽｷｬﾝおよびﾌﾟﾚﾄﾘｶﾞｽｷｬﾝの合計に対して、ﾃﾞｼﾞﾀﾙﾄﾘｶﾞBは不正です。
+</nierror>
+<nierror code="-10688">
+NI-DAQ LV:  スキャンおよびプレトリガスキャンの合計数は、トリガ開始を示しますが、トリガが有効になっていません。
+</nierror>
+<nierror code="-10687">
+NI-DAQ LV:  構成の変更により、割り当て済みのﾊﾞｯﾌｧが無効になりました。または、集録ﾊﾞｯﾌｧがまだ割り当てられていません。
+</nierror>
+<nierror code="-10686">
+NI-DAQ LV:  構成の変更により、ｽｷｬﾝﾘｽﾄが無効になりました。
+</nierror>
+<nierror code="-10685">
+NI-DAQ LV:  選択したｸﾛｯｸﾚｰﾄは、このﾎﾞｰﾄﾞの推奨最大速度を越えています。
+</nierror>
+<nierror code="-10684">
+NI-DAQ LV:  このﾎﾞｰﾄﾞのすべてのﾁｬﾈﾙの入力ﾓｰﾄﾞを同一に設定する必要があります。
+</nierror>
+<nierror code="-10683">
+NI-DAQ LV:  このﾎﾞｰﾄﾞのすべてのﾁｬﾈﾙのｶﾌﾟﾘﾝｸﾞを同一に設定する必要があります。
+</nierror>
+<nierror code="-10682">
+NI-DAQ LV:  このﾎﾞｰﾄﾞのすべてのﾁｬﾈﾙの極性を同一に設定する必要があります。
+</nierror>
+<nierror code="-10681">
+NI-DAQ LV:  このﾎﾞｰﾄﾞのすべてのﾁｬﾈﾙの範囲を同一に設定する必要があります。
+</nierror>
+<nierror code="-10680">
+NI-DAQ LV:  このﾎﾞｰﾄﾞのすべてのﾁｬﾈﾙのゲインを同一に設定する必要があります。
+</nierror>
+<nierror code="-10671">
+NI-DAQ LV:  自動ｾﾞﾛは指定された測定ﾓｰﾄﾞでは使用できません。
+</nierror>
+<nierror code="-10670">
+NI-DAQ LV:  構成された測定ﾓｰﾄﾞでは入力範囲が無効です。
+</nierror>
+<nierror code="-10638">
+NI-DAQ LV:  指定された目的先にｸﾛｯｸを割り当てられません。
+</nierror>
+<nierror code="-10637">
+NI-DAQ LV:  すでに構成されたﾊﾞｯﾌｧをもう一度構成しようとしました。各ﾊﾞｯﾌｧは一度しか構成出来ません。
+</nierror>
+<nierror code="-10636">
+NI-DAQ LV:  同期関数呼び出しによって連続（ダブルバッファ）操作を開始することはできません。
+</nierror>
+<nierror code="-10635">
+NI-DAQ LV:  構成呼び出しで指定されたSCXI操作モードが無効であるか、モジュールが、関数を呼び出すには不適当な操作モードに設定されています。
+</nierror>
+<nierror code="-10634">
+NI-DAQ LV:  指定されたﾘｿｰｽにおいて現在連続的（ﾀﾞﾌﾞﾙﾊﾞｯﾌｧ）転送は行われていません。
+</nierror>
+<nierror code="-10633">
+NI-DAQ LV:  このﾎﾞｰﾄﾞは指定のｱﾅﾛｸﾞ出力再生成ﾓｰﾄﾞをｻﾎﾟｰﾄしません。
+</nierror>
+<nierror code="-10632">
+NI-DAQ LV:  ある特定の入力は、現在の操作モードには無関係なため無視されました。
+</nierror>
+<nierror code="-10631">
+NI-DAQ LV:  現在の操作モードでは、連続入出力転送は禁止されています。または、このタイプのデバイスでは連続操作は禁止されています。
+</nierror>
+<nierror code="-10630">
+NI-DAQ LV:  データを読み込むために指定されたパラメータが、集録では無効でした。例えば、転送バッファから0バイト読み込もうとしたか、または転送バッファの最後を超えたところから読み込もうとしました。
+</nierror>
+<nierror code="-10629">
+NI-DAQ LV:  指定のｵﾍﾟﾚｰﾃｨﾝｸﾞﾓｰﾄﾞが無効であるか、または指定のｵﾍﾟﾚｰﾃｨﾝｸﾞﾓｰﾄﾞに対してﾘｿｰｽが設定されていません。
+</nierror>
+<nierror code="-10628">
+NI-DAQ LV:  そのﾄﾘｶﾞﾘｿｰｽには、信号が既に割り当てられています。
+</nierror>
+<nierror code="-10627">
+NI-DAQ LV:  そのﾄﾘｶﾞｿｰｽには、信号が割り当てられていません。
+</nierror>
+<nierror code="-10626">
+NI-DAQ LV:  ﾄﾘｶﾞｽﾚｰﾌﾞのﾄﾘｶﾞ構成が無効です。
+</nierror>
+<nierror code="-10625">
+NI-DAQ LV:  ﾄﾘｶﾞﾏｽﾀのﾄﾘｶﾞ構成が無効です。
+</nierror>
+<nierror code="-10624">
+NI-DAQ LV:  遅延ﾄﾘｶﾞﾓｰﾄﾞがｻﾎﾟｰﾄされていないか、現在の構成では使用できないか、または遅延ｿｰｽが何も割り当てられていません。
+</nierror>
+<nierror code="-10623">
+NI-DAQ LV:  ﾎﾟｽﾄﾄﾘｶﾞｿｰｽが何も割り当てられていません。
+</nierror>
+<nierror code="-10622">
+NI-DAQ LV:  ﾌﾟﾚﾄﾘｶﾞﾓｰﾄﾞがｻﾎﾟｰﾄされていないか、現在の構成では使用できないか、またはﾌﾟﾚﾄﾘｶﾞｿｰｽが何も割り当てられていません。
+</nierror>
+<nierror code="-10621">
+NI-DAQ LV:  そのﾄﾘｶﾞﾘｿｰｽに指定のﾄﾘｶﾞ信号を割り当てることはできません。
+</nierror>
+<nierror code="-10620">
+NI-DAQ LV:  そのﾄﾘｶﾞﾘｿｰｽには、ﾄﾘｶﾞ信号が何も割り当てられていません。
+</nierror>
+<nierror code="-10619">
+NI-DAQ LV:  そのｸﾛｯｸﾘｿｰｽには、ｿｰｽ信号が既に割り当てられています。
+</nierror>
+<nierror code="-10618">
+NI-DAQ LV:  そのｸﾛｯｸﾘｿｰｽに指定のｿｰｽ信号を割り当てることはできません。
+</nierror>
+<nierror code="-10617">
+NI-DAQ LV:  そのｸﾛｯｸﾘｿｰｽには、ｿｰｽ信号が割り当てられていません。
+</nierror>
+<nierror code="-10616">
+NI-DAQ LV:  ｸﾛｯｸｽﾚｰﾌﾞのｸﾛｯｸ構成が無効です。
+</nierror>
+<nierror code="-10615">
+NI-DAQ LV:  ｸﾛｯｸﾏｽﾀのｸﾛｯｸ構成が無効です。
+</nierror>
+<nierror code="-10614">
+NI-DAQ LV:  指定のｸﾞﾙｰﾌﾟは指定の転送方向をｻﾎﾟｰﾄしません。
+</nierror>
+<nierror code="-10613">
+NI-DAQ LV:  指定のチャネルは指定の転送方向をサポートしません。または、逆方向に構成したデジタルポートまたはラインにおいて操作をしました。
+</nierror>
+<nierror code="-10612">
+NI-DAQ LV:  指定のﾗｲﾝは指定の転送方向をｻﾎﾟｰﾄしません。
+</nierror>
+<nierror code="-10611">
+NI-DAQ LV:  指定ﾁｬﾈﾙの一部のﾗｲﾝが指定の転送方向に設定されていません。書き込み転送の場合、一部のﾗｲﾝが入力用に設定されています。読み込み転送の場合、一部のﾗｲﾝが出力用に設定されています。
+</nierror>
+<nierror code="-10610">
+NI-DAQ LV:  ｸﾞﾙｰﾌﾟの出力ﾃﾞｰﾀが介在されている場合、そのｸﾞﾙｰﾌﾟ中のｼﾝｸﾞﾙ出力ﾁｬﾈﾙは停止することができません。
+</nierror>
+<nierror code="-10609">
+NI-DAQ LV:  指定のリソースでデータ転送中か、あるいはデバイスが、別のリソースでデータ転送を行っているために、操作が実行できません。
+</nierror>
+<nierror code="-10608">
+NI-DAQ LV:  指定のﾘｿｰｽは転送中ではありません。
+</nierror>
+<nierror code="-10607">
+NI-DAQ LV:  指定のﾘｿｰｽは既にｱｰﾑされています。
+</nierror>
+<nierror code="-10606">
+NI-DAQ LV:  指定のﾘｿｰｽはｱｰﾑされていません。
+</nierror>
+<nierror code="-10605">
+NI-DAQ LV:  最終ﾃﾞｰﾀﾌﾞﾛｯｸが既にﾛｰﾄﾞされているため、転送ﾊﾞｯﾌｧに何もﾃﾞｰﾀは書き込まれませんでした。
+</nierror>
+<nierror code="-10604">
+NI-DAQ LV:  データ生成の開始後は、最初に書き込まれた転送バッファのみを更新することができます。DMAが有効で、シングル転送バッファにインターリーブされたチャネルデータが含まれている場合、DMAチャネルを使って、すべての出力チャネルに対して、新規データを入力する必要があります。
+</nierror>
+<nierror code="-10603">
+NI-DAQ LV:  ｸﾞﾙｰﾌﾟに関連する出力ﾃﾞｰﾀは、ｼﾝｸﾞﾙﾁｬﾈﾙまたは連続ﾁｬﾈﾙのものである必要があります。
+</nierror>
+<nierror code="-10602">
+NI-DAQ LV:  出力データは、転送ﾊﾞｯﾌｧに書き込まれていません。
+</nierror>
+<nierror code="-10601">
+NI-DAQ LV:  指定されたリソースは、設定段階で既に構成済みです。
+</nierror>
+<nierror code="-10600">
+NI-DAQ LV:  指定のリソースの設定がされていない、あるいは、リソースによっては、特定の順序で設定を行う必要があります。
+</nierror>
+<nierror code="-10561">
+NI-DAQ LV:  DAQ（ﾊﾞｯﾌｧ使用ｱﾅﾛｸﾞ入力）あるいはWFM（ﾊﾞｯﾌｧ使用ｱﾅﾛｸﾞ出力）はPCﾒﾓﾘﾊﾞｯﾌｧを使用することは出来ますが、両方は同時には使用不可能です。
+</nierror>
+<nierror code="-10560">
+NI-DAQ LV:  DSPﾊﾝﾄﾞﾙ入力が無効です。
+</nierror>
+<nierror code="-10544">
+NI-DAQ LV:  構成されたマトリクスターミナルブロックのタイプでは、特定のパラメータでこの関数を正しく実行できません。
+</nierror>
+<nierror code="-10543">
+NI-DAQ LV:  この関数はSCXIﾓｼﾞｭｰﾙとﾏﾄﾘｯｸｽﾀｰﾐﾅﾙﾌﾞﾛｯｸを組み合わせた構成が必要です。
+</nierror>
+<nierror code="-10542">
+NI-DAQ LV:  この関数では、MatrixターミナルブロックがSCXIモジュールで構成されていない必要があります。
+</nierror>
+<nierror code="-10541">
+NI-DAQ LV:  CTRB1はCOUTB1を動作しますが、CTRB1はTRIG1も動作します。 このため、シャーシをスキャンする際に予期せぬ結果が起こる可能性があります。
+</nierror>
+<nierror code="-10540">
+NI-DAQ LV:  指定されたSCXIﾓｼﾞｭｰﾙのうち最低1つのﾓｼﾞｭｰﾙはこのｵﾍﾟﾚｰｼｮﾝにおいてｻﾎﾟｰﾄされていません。
+</nierror>
+<nierror code="-10482">
+NI-DAQ LV:  異なる長さの波形のチャネルが指定されました。この問題を解決するには、各チャネルの波形データに、同じ数の配列要素があることを確認してください。
+</nierror>
+<nierror code="-10481">
+NI-DAQ LV:  ﾃﾞｰﾀがｲﾝﾀｰﾘｰﾌﾞされ、なおかつﾁｬﾈﾙが昇順に並べられたｼﾝｸﾞﾙﾊﾞｯﾌｧを供給して下さい。2つのﾊﾞｯﾌｧを転送するにはDMAは使用出来ませんが、割込みﾓｰﾄﾞを使用出来る可能性があります。
+</nierror>
+<nierror code="-10480">
+NI-DAQ LV:  このスキャンリストは大きすぎるため、ボードのmux-gainメモリに保存できません。
+</nierror>
+<nierror code="-10467">
+NI-DAQ LV:  要求されたﾘｿｰｽはミニﾄﾞﾗｲﾊﾞに登録されていません。
+</nierror>
+<nierror code="-10466">
+NI-DAQ LV:  提供されたｷｰが無効なため、要求された操作を実行できません。
+</nierror>
+<nierror code="-10465">
+NI-DAQ LV:  予約されていないリソースの予約を解除しようとしています。
+</nierror>
+<nierror code="-10464">
+NI-DAQ LV:  キーが必要な予約済みリソースにアクセスしようとしました。
+</nierror>
+<nierror code="-10463">
+NI-DAQ LV:  他のオブジェクトが要求したリソースを予約しています。
+</nierror>
+<nierror code="-10462">
+NI-DAQ LV:  指定されたリソースが予約されていないため、この動作は許可されません。
+</nierror>
+<nierror code="-10461">
+NI-DAQ LV:  指定されたリソースは、他のオブジェクトで予約されているため、使用できません。
+</nierror>
+<nierror code="-10460">
+NI-DAQ LV:  DAQライブラリと_DAQ互換ライブラリ（LabVIEW 2.2 VI）からのVIが混在しています。_DAQ互換VIを呼び出す前にDAQ VI Device Reset（デバイスリセット）を実行するか、またはDAQ VIを呼び出す前に互換VI Board Reset（ボードリセット）を実行して、2つのライブラリを切り替えることができます。
+</nierror>
+<nierror code="-10459">
+NI-DAQ LV:  ｲﾝﾀﾌｪｰｽのｴﾗｰが原因で、DLLを呼び出すことはできませんでした。
+</nierror>
+<nierror code="-10458">
+NI-DAQ LV:  指定された保存ディスクは満杯です。
+</nierror>
+<nierror code="-10457">
+NI-DAQ LV:  指定のグループが小さすぎるか、大きすぎる、または整列されていないため、そのグループにDMAを設定することができません。各グループへのDMA設定については、デバイスのユーザマニュアルを参照してください。
+</nierror>
+<nierror code="-10456">
+NI-DAQ LV:  指定のDMAﾁｬﾈﾙは、別なﾃﾞﾊﾞｲｽにより既に使用されています。
+</nierror>
+<nierror code="-10455">
+NI-DAQ LV:  使用可能なDMAﾁｬﾈﾙはありません。
+</nierror>
+<nierror code="-10454">
+NI-DAQ LV:  ｼｽﾃﾑで利用可能なDMAｺﾝﾄﾛｰﾗはありません。
+</nierror>
+<nierror code="-10453">
+NI-DAQ LV:  指定の割り込みﾚﾍﾞﾙは、別なﾃﾞﾊﾞｲｽにより既に使用されています。
+</nierror>
+<nierror code="-10452">
+NI-DAQ LV:  利用可能な割り込みﾚﾍﾞﾙはありません。
+</nierror>
+<nierror code="-10451">
+NI-DAQ LV:  ﾄﾞﾗｲﾊﾞが仮想ﾒﾓﾘ内で転送ﾊﾞｯﾌｧを連続させることができないため、そのﾊﾞｯﾌｧを物理ﾒﾓﾘにﾛｯｸすることはできません。したかって、そのﾊﾞｯﾌｧをDMA転送に使用することはできません。
+</nierror>
+<nierror code="-10450">
+NI-DAQ LV:  物理ﾒﾓﾘにﾊｰﾄﾞｳｪｱのｴﾗｰが発生したか、または指定のｱﾄﾞﾚｽにﾒﾓﾘがありません。
+</nierror>
+<nierror code="-10449">
+NI-DAQ LV:  ｷｬｯｼｭ関連のｴﾗｰが発生したか、または現在のﾓｰﾄﾞではｷｬｯｼｭが使用できません。
+</nierror>
+<nierror code="-10448">
+NI-DAQ LV:  ｽﾀｯｸﾘﾐｯﾄがあるため、そのﾄﾞﾗｲﾊﾞは文字列入力の構文解析を継続することができません。
+</nierror>
+<nierror code="-10447">
+NI-DAQ LV:  ﾍﾟｰｼﾞﾛｯｸは、その環境では使用できません。
+</nierror>
+<nierror code="-10446">
+NI-DAQ LV:  転送ﾊﾞｯﾌｧに改ﾍﾟｰｼﾞ信号が含まれています。改ﾍﾟｰｼﾞがあると、ｼｽﾃﾑﾘｿｰｽが再度ﾌﾟﾛｸﾞﾗﾐﾝｸﾞを要求する場合があります。
+</nierror>
+<nierror code="-10445">
+NI-DAQ LV:  転送ﾊﾞｯﾌｧを物理的ﾒﾓﾘにﾛｯｸすることはできません。
+</nierror>
+<nierror code="-10444">
+NI-DAQ LV:  ヒープのシステムメモリが不足しているか、デバイスのメモリが不足しているか、あるいはディスク容量が不足しています。
+</nierror>
+<nierror code="-10443">
+NI-DAQ LV:  現在のﾃﾞｰﾀ転送ﾓｰﾄﾞに対して、転送ﾊﾞｯﾌｧが正しく整列されていません。例えば、ﾒﾓﾘﾊﾞｯﾌｧが奇数のｱﾄﾞﾚｽに指定されている場合、32ﾋﾞｯﾄの境界に整列されていない場合、512ﾋﾞｯﾄの境界に整列されていない場合などがあります。また、ﾊﾞｯﾌｧが小さすぎるため、ﾄﾞﾗｲﾊﾞはそのﾊﾞｯﾌｧを整列することができません。
+</nierror>
+<nierror code="-10442">
+NI-DAQ LV:  指定のﾒﾓﾘが無効か、または現在のｱﾄﾞﾚｽ指定ﾓｰﾄﾞでは利用不可能です。
+</nierror>
+<nierror code="-10441">
+NI-DAQ LV:  現在のﾃﾞｰﾀ転送ﾓｰﾄﾞをｻﾎﾟｰﾄするためのﾒﾓﾘが何も設定されていないか、または設定されたﾒﾓﾘは現在のﾃﾞｰﾀ転送ﾓｰﾄﾞをｻﾎﾟｰﾄしません（ﾌﾞﾛｯｸ転送を使用中の場合、そのﾒﾓﾘがﾌﾞﾛｯｸ転送処理の機能を備えている必要があります。）
+</nierror>
+<nierror code="-10440">
+NI-DAQ LV:  指定のﾘｿｰｽはﾄﾞﾗｲﾊﾞが所有しているので、ﾕｰｻﾞがｱｸｾｽまたは修正することはできません。
+</nierror>
+<nierror code="-10415">
+NI-DAQ LV:  この関数は、DAQﾃﾞﾊﾞｲｽが外部ﾏﾙﾁﾌﾟﾚｸｻ（例えばAMUX-64TやSCXI）に接続されているときにはｻﾎﾟｰﾄされていません。
+</nierror>
+<nierror code="-10414">
+NI-DAQ LV:  指定の信号はNI-DAQにより確保されたﾋﾟﾝを示します。ﾕｰｻﾞが独自にこのﾋﾟﾝを構成することはできません。
+</nierror>
+<nierror code="-10413">
+NI-DAQ LV:  ｸﾞﾙｰﾌﾟが既に割り当てられているか、または指定のﾗｲﾝまたはﾁｬﾈﾙは既にｸﾞﾙｰﾌﾟに割り当てられています｡
+</nierror>
+<nierror code="-10412">
+NI-DAQ LV:  ｸﾞﾙｰﾌﾟが割り当てられていないか、または指定のﾗｲﾝまたはﾁｬﾈﾙをｸﾞﾙｰﾌﾟに割り当てることはできません。
+</nierror>
+<nierror code="-10411">
+NI-DAQ LV:  指定のｶｳﾝﾀは使用中です。
+</nierror>
+<nierror code="-10410">
+NI-DAQ LV:  関連のﾗｲﾝ、ﾁｬﾈﾙ、またはｸﾞﾙｰﾌﾟが使用中です。ﾄﾞﾗｲﾊﾞで指定のﾗｲﾝ、ﾁｬﾈﾙ、またはｸﾞﾙｰﾌﾟが構成されると、その関連ﾗｲﾝ、ﾁｬﾈﾙまたはｸﾞﾙｰﾌﾟの構成、ﾃﾞｰﾀ、またはﾊﾝﾄﾞｼｪｰｸﾗｲﾝが妨害されることになります。
+</nierror>
+<nierror code="-10409">
+NI-DAQ LV:  指定のｸﾞﾙｰﾌﾟは使用中です。
+</nierror>
+<nierror code="-10408">
+NI-DAQ LV:  指定のﾁｬﾈﾙは使用中です。
+</nierror>
+<nierror code="-10407">
+NI-DAQ LV:  指定のﾗｲﾝは使用中です。
+</nierror>
+<nierror code="-10406">
+NI-DAQ LV:  利用可能なｸﾞﾙｰﾌﾟはありません。
+</nierror>
+<nierror code="-10405">
+NI-DAQ LV:  利用可能なﾁｬﾈﾙはありません。
+</nierror>
+<nierror code="-10404">
+NI-DAQ LV:  利用可能なﾗｲﾝはありません。
+</nierror>
+<nierror code="-10403">
+NI-DAQ LV:  指定のﾃﾞﾊﾞｲｽは、要求された動作をｻﾎﾟｰﾄしていません（ﾄﾞﾗｲﾊﾞはそのﾃﾞﾊﾞｲｽを認識していますが、そのﾃﾞﾊﾞｲｽに対してその動作は適切ではありません。
+</nierror>
+<nierror code="-10402">
+NI-DAQ LV:  指定のｽﾛｯﾄまたは指定のｱﾄﾞﾚｽには、ﾃﾞﾊﾞｲｽが何もありません。
+</nierror>
+<nierror code="-10401">
+NI-DAQ LV:  指定のﾃﾞﾊﾞｲｽがﾅｼｮﾅﾙｲﾝｽﾂﾙﾒﾝﾂの製品でないか、ﾄﾞﾗｲﾊﾞがそのﾃﾞﾊﾞｲｽをｻﾎﾟｰﾄしません（例えば、そのﾃﾞﾊﾞｲｽをｻﾎﾟｰﾄする前にそのﾄﾞﾗｲﾊﾞがﾘﾘｰｽされた場合）、またはMeasurement & Automationｴｸｽﾌﾟﾛｰﾗにてﾃﾞﾊﾞｲｽを構成されていません。
+</nierror>
+<nierror code="-10400">
+NI-DAQ LV:  指定のﾘｿｰｽはﾕｰｻﾞが所有しているので、ﾄﾞﾗｲﾊﾞはｱｸｾｽまたは修正することはできません。
+</nierror>
+<nierror code="-10394">
+NI-DAQ LV:  所定のPFIﾗｲﾝはすでに他の信号用に確保されているか、所定の信号はすでに他のPFIﾗｲﾝを確保しています。
+</nierror>
+<nierror code="-10393">
+NI-DAQ LV:  ﾃﾞﾌｫﾙﾄ PFI ﾗｲﾝは与えられた信号にありません。 VI内で明確に、あるいはPFI構成VIを通してPFIﾗｲﾝを指定する必要があります。
+</nierror>
+<nierror code="-10392">
+NI-DAQ LV:  指定された汎用ｶｳﾝﾀ出力もしくはｱｯﾌﾟ/ﾀﾞｳﾝ信号はいずれのPFIﾗｲﾝにもﾙｰﾄされていません。
+</nierror>
+<nierror code="-10391">
+NI-DAQ LV:  無効なPFIﾗｲﾝ番号のため、ﾙｰﾃｨﾝｸﾞﾏﾈｰｼﾞｬは要求を完了できませんでした。
+</nierror>
+<nierror code="-10390">
+NI-DAQ LV:  ﾘｿｰｽ不足のため、あるいは必要なﾘｿｰｽがﾛｯｸされていたため、ﾙｰﾃｨﾝｸﾞﾏﾈｰｼﾞｬは要求を完了することができませんでした。
+</nierror>
+<nierror code="-10383">
+NI-DAQ LV:  指定された信号の目的先は無効です。
+</nierror>
+<nierror code="-10382">
+NI-DAQ LV:  指定されたｿｰｽｽﾍﾟｯｸは選択された信号ｿｰｽまたは信号名では無効です。
+</nierror>
+<nierror code="-10381">
+NI-DAQ LV:  指定された信号名は無効です。
+</nierror>
+<nierror code="-10380">
+NI-DAQ LV:  指定された信号ｿｰｽは選択された信号名では無効です。
+</nierror>
+<nierror code="-10370">
+NI-DAQ LV:  ｽｷｬﾝﾘｽﾄが無効です。このｴﾗｰは、例えばﾕｰｻﾞがAMUX-64Tﾁｬﾈﾙとｵﾝﾎﾞｰﾄﾞﾁｬﾈﾙを混合した場合、またはSCXIﾁｬﾈﾙのｽｷｬﾝ順序が間違っている場合に発生します。Also, the driver attempts to achieve complicated gain distributions over SCXI channels on the same module by manipulating the scan list, and returns this error if it fails.
+</nierror>
+<nierror code="-10360">
+NI-DAQ LV:  DSPﾄﾞﾗｲﾊﾞがそのｵﾍﾟﾚｰﾃｨﾝｸﾞｼｽﾃﾑのｶｰﾈﾙをﾛｰﾄﾞできませんでした。
+</nierror>
+<nierror code="-10350">
+NI-DAQ LV:  SCXIｴﾝﾄﾘﾓｼﾞｭｰﾙ(例：ﾃﾞｰﾀ集録/ﾌﾟﾛｾｽ制御のﾃﾞﾊﾞｲｽに接続されているSCXIﾓｼﾞｭｰﾙ)がﾕｰｻﾞにより構成されていないか、またはNI-DAQが現在のSCXI構成からｴﾝﾄﾘﾓｼﾞｭｰﾙの識別に失敗しました。
+</nierror>
+<nierror code="-10349">
+NI-DAQ LV:  SCXIﾓｼﾞｭｰﾙより読み出されたﾓｼﾞｭｰﾙIDは構成されたﾓｼﾞｭｰﾙﾀｲﾌﾟと一致しません。
+</nierror>
+<nierror code="-10348">
+NI-DAQ LV:  ﾘﾓｰﾄSCXIﾕﾆｯﾄは現在再ﾌﾟﾛｸﾞﾗﾑﾓｰﾄﾞで、ﾎｽﾄ（Measurement & Automation ｴｸｽﾌﾟﾛｰﾗ）から再ﾌﾟﾛｸﾞﾗﾑｺﾏﾝﾄﾞが送信されるのを待機しています。
+</nierror>
+<nierror code="-10347">
+NI-DAQ LV:  ﾘﾓｰﾄSCXIﾕﾆｯﾄにﾊﾟｹｯﾄを送信する際にｴﾗｰが発生しました。ｼﾘｱﾙﾎﾟｰﾄｹｰﾌﾞﾙの接続を確認して下さい。
+</nierror>
+<nierror code="-10346">
+NI-DAQ LV:  ﾘﾓｰﾄSCXIﾕﾆｯﾄによって受信されたﾊﾟｹｯﾄは無効です。ｼﾘｱﾙﾎﾟｰﾄｹｰﾌﾞﾙの接続を確認して下さい。
+</nierror>
+<nierror code="-10345">
+NI-DAQ LV:  指定された操作のために必要なﾒﾓﾘをﾘﾓｰﾄSCXIﾕﾆｯﾄにて確保出来ません。
+</nierror>
+<nierror code="-10344">
+NI-DAQ LV:  ﾘﾓｰﾄSCXIﾕﾆｯﾄはﾎｽﾄと同期化されていません。ﾎｽﾄと同期化させるためにｼｬｰｼをﾘｾｯﾄして下さい。
+</nierror>
+<nierror code="-10343">
+NI-DAQ LV:  指定のSCXI構成ﾊﾟﾗﾒｰﾀが無効か、または現在のSCXI構成ではその機能を実行することはできません。
+</nierror>
+<nierror code="-10342">
+NI-DAQ LV:  指定のRTSI信号が既にRTSIﾗｲﾝにより作動されているか、または指定のRTSIﾗｲﾝが既にRTSI信号により作動されています。
+</nierror>
+<nierror code="-10341">
+NI-DAQ LV:  指定のとおりRTSI信号・ﾗｲﾝを接続できません。
+</nierror>
+<nierror code="-10340">
+NI-DAQ LV:  RTSIまたはPFI信号/ラインが接続されていない、指定の信号および指定のラインが接続されていない、またはRDAサーバに接続できないか、終端処理されています。
+</nierror>
+<nierror code="-10261">
+NI-DAQ LV:  ｶｰﾈﾙﾓｰﾄﾞｺｰﾄﾞをｺｰﾙする際にﾕｰｻﾞﾓｰﾄﾞｺｰﾄﾞにて障害が起きました。
+</nierror>
+<nierror code="-10260">
+NI-DAQ LV:  Measurement & Automationｴｸｽﾌﾟﾛｰﾗまたはｵﾍﾟﾚｰﾃｨﾝｸﾞｼｽﾃﾑで無効な DMA ﾁｬﾈﾙ3が指定されています。
+</nierror>
+<nierror code="-10259">
+NI-DAQ LV:  Measurement & Automation Explorer またはｵﾍﾟﾚｰﾃｨﾝｸﾞｼｽﾃﾑにて無効な DMA ﾁｬﾈﾙ3が指定されています。
+</nierror>
+<nierror code="-10258">
+NI-DAQ LV:  Measurement & Automation Explorer またはｵﾍﾟﾚｰﾃｨﾝｸﾞｼｽﾃﾑにて無効な DMA ﾁｬﾈﾙ1が指定されています。
+</nierror>
+<nierror code="-10257">
+NI-DAQ LV:  Measurement & Automation Explorer にて無効なﾍﾞｰｽｱﾄﾞﾚｽが指定されています。
+</nierror>
+<nierror code="-10256">
+NI-DAQ LV:  任意のCOMﾎﾟｰﾄをｵｰﾌﾟﾝする際にｴﾗｰが発生しました。
+</nierror>
+<nierror code="-10255">
+NI-DAQ LV:  ﾘﾓｰﾄSCXIのﾄﾞﾗｲﾊﾞを初期化する際にｴﾗｰが発生しました。
+</nierror>
+<nierror code="-10254">
+NI-DAQ LV:  以下のいずれかの理由により、DAQCardを構成できません。  1)正しいバージョンのカードおよびソケット対応ソフトウェアがインストールされていません。  2)PCMCIAソケットに挿入されているカードがDAQCardではありません。  3)そのカードおよびソケット対応のリソースマネージャでは、要求されたベースアドレス／割り込みレベルを利用できません。  他の設定を使うか、Measurement & AutomationエクスプローラのAutoAssignを使用してください。
+</nierror>
+<nierror code="-10253">
+NI-DAQ LV:  Measurement & Automationｴｸｽﾌﾟﾛｰﾗを使用して構成した1つまたはそれ以上のｼﾞｬﾝﾊﾟﾚｽﾎﾞｰﾄﾞが見つかりません。
+</nierror>
+<nierror code="-10252">
+NI-DAQ LV:  2つ以上のﾃﾞﾊﾞｲｽに同じＤＭＡﾁｬﾈﾙが割り当てられています。
+</nierror>
+<nierror code="-10251">
+NI-DAQ LV:  コンピュータ／DMAコントローラまたはデバイスの機能に対して、DMA構成が正しくありません。
+</nierror>
+<nierror code="-10250">
+NI-DAQ LV:  2つ以上のﾃﾞﾊﾞｲｽの割り込みﾚﾍﾞﾙが同一です。
+</nierror>
+<nierror code="-10249">
+NI-DAQ LV:  そのｺﾝﾋﾟｭｰﾀまたはﾃﾞﾊﾞｲｽの指定された機能に対して、割り込み設定が不正です。
+</nierror>
+<nierror code="-10248">
+NI-DAQ LV:  複数のﾃﾞﾊﾞｲｽのﾍﾞｰｽｱﾄﾞﾚｽが同一です。その結果、ﾄﾞﾗｲﾊﾞは指定のﾃﾞﾊﾞｲｽにｱｸｾｽできません。
+</nierror>
+<nierror code="-10247">
+NI-DAQ LV:  このｺﾝﾋﾟｭｰﾀのCMOS構成ﾒﾓﾘが空または無効であるか、または指定の設定がﾃﾞﾊﾞｲｽの構成と一致しないか、EISAｼｽﾃﾑ構成が無効です。
+</nierror>
+<nierror code="-10246">
+NI-DAQ LV:  ﾄﾞﾗｲﾊﾞが指定の外部ﾃﾞﾊﾞｲｽと通信できません。
+</nierror>
+<nierror code="-10245">
+NI-DAQ LV:  ﾄﾞﾗｲﾊﾞは操作実行中にｵﾍﾟﾚｰﾃｨﾝｸﾞｼｽﾃﾑのｴﾗｰに遭遇したか、ﾄﾞﾗｲﾊﾞが実行しようとした操作をｻﾎﾟｰﾄしません。
+</nierror>
+<nierror code="-10244">
+NI-DAQ LV:  ﾄﾞﾗｲﾊﾞにてﾃﾞﾊﾞｲｽを構成しようとした際にﾊｰﾄﾞｳｪｱ初期化ｴﾗｰが発生しました。
+</nierror>
+<nierror code="-10243">
+NI-DAQ LV:  ﾄﾞﾗｲﾊﾞがその設定ﾌｧｲﾙを検出または開くことができなかったか、あるいはその設定ﾌｧｲﾙの形式と現在ｲﾝｽﾄｰﾙされているﾄﾞﾗｲﾊﾞとは互換性がありません。
+</nierror>
+<nierror code="-10242">
+NI-DAQ LV:  指定の関数は、そのﾄﾞﾗｲﾊﾞにはありません。
+</nierror>
+<nierror code="-10241">
+NI-DAQ LV:  ﾄﾞﾗｲﾊﾞﾌｧｲﾙあるいは構成ﾕｰﾃｨﾘﾃｨが古いものであるか、使用されるﾁｬﾈﾙｳｨｻﾞｰﾄﾞの機能はこのﾊﾞｰｼﾞｮﾝのﾄﾞﾗｲﾊﾞにてｻﾎﾟｰﾄされていません。
+</nierror>
+<nierror code="-10240">
+NI-DAQ LV:  ﾄﾞﾗｲﾊﾞｲﾝﾀﾌｪｰｽは、ﾄﾞﾗｲﾊﾞを検出または開くことができませんでした。
+</nierror>
+<nierror code="-10204">
+NI-DAQ LV:  EEPROMへｱｸｾｽするためのﾊﾟｽﾜｰﾄﾞが違います。
+</nierror>
+<nierror code="-10203">
+NI-DAQ LV:  指定されたEEPROM領域は無効です。
+</nierror>
+<nierror code="-10202">
+NI-DAQ LV:  書き込み保護されているため、EEPROMのこのﾛｹｰｼｮﾝまたはｴﾘｱには書き込み出来きません。書き込み保護されているｴﾘｱに校正定数を書き込みをしようと思われますが、そうである場合はEEPROMのﾕｰｻﾞｴﾘｱに書き込んで下さい。
+</nierror>
+<nierror code="-10201">
+NI-DAQ LV:  EEPROMにﾃﾞｰﾀを書き込めません。
+</nierror>
+<nierror code="-10200">
+NI-DAQ LV:  EEPROMよりﾃﾞｰﾀを読み出せません。
+</nierror>
+<nierror code="-10181">
+NI-DAQ LV:  指定された測定ﾓｰﾄﾞは無効です。
+</nierror>
+<nierror code="-10180">
+NI-DAQ LV:  指定されたﾉｯﾁﾌｨﾙﾀは無効です。
+</nierror>
+<nierror code="-10151">
+NI-DAQ LV:  ｼｽﾃﾑ校正は古くなっています。
+</nierror>
+<nierror code="-10150">
+NI-DAQ LV:  前回のｼｽﾃﾑ校正の後にﾊｰﾄﾞｳｪｱ構成が変更されています。
+</nierror>
+<nierror code="-10141">
+NI-DAQ LV:  指定されたautoincrement（自動増分）ﾓｰﾄﾞは無効です。
+</nierror>
+<nierror code="-10140">
+NI-DAQ LV:  指定された周波数出力(FOUT or FREQ_OUT)ﾎﾟｰﾄは無効です。
+</nierror>
+<nierror code="-10139">
+NI-DAQ LV:  指定されたﾊﾟﾙｽ幅は無効です。
+</nierror>
+<nierror code="-10138">
+NI-DAQ LV:  指定されたﾊﾟﾙｽ遅延は無効です。
+</nierror>
+<nierror code="-10137">
+NI-DAQ LV:  指定されたﾊﾟﾙｽ周期は無効です。
+</nierror>
+<nierror code="-10136">
+NI-DAQ LV:  指定されたﾃﾞｭｰﾃｨｻｲｸﾙは無効です。
+</nierror>
+<nierror code="-10135">
+NI-DAQ LV:  指定されたﾊﾟﾙｽﾓｰﾄﾞは無効です。
+</nierror>
+<nierror code="-10134">
+NI-DAQ LV:  指定された出力の極性は無効です。
+</nierror>
+<nierror code="-10133">
+NI-DAQ LV:  指定された出力ﾀｲﾌﾟは無効です。
+</nierror>
+<nierror code="-10132">
+NI-DAQ LV:  指定されたｿｰｽｴｯｼﾞは無効です。
+</nierror>
+<nierror code="-10131">
+NI-DAQ LV:  指定されたｹﾞｰﾄ信号は無効です。
+</nierror>
+<nierror code="-10130">
+NI-DAQ LV:  指定されたｹﾞｰﾄｿｰｽは無効です。
+</nierror>
+<nierror code="-10129">
+NI-DAQ LV:  指定されたｹﾞｰﾄﾓｰﾄﾞは無効です。
+</nierror>
+<nierror code="-10128">
+NI-DAQ LV:  指定されたｹﾞｰﾄｵﾌﾟｼｮﾝは無効です。
+</nierror>
+<nierror code="-10127">
+NI-DAQ LV:  指定されたｶｳﾝﾀは指定されたｶｳﾝﾄ方向をｻﾎﾟｰﾄしていません。
+</nierror>
+<nierror code="-10126">
+NI-DAQ LV:  選択されたｿｰｽは無効です。
+</nierror>
+<nierror code="-10125">
+NI-DAQ LV:  無効なｱｸｼｮﾝが使用されました。
+</nierror>
+<nierror code="-10124">
+NI-DAQ LV:  無効なentityID が使用されました。
+</nierror>
+<nierror code="-10123">
+NI-DAQ LV:  無効なparamID が使用されました。
+</nierror>
+<nierror code="-10122">
+NI-DAQ LV:  無効なparamValue が使用されました。
+</nierror>
+<nierror code="-10121">
+NI-DAQ LV:  無効なcounterNumber が使用されました。
+</nierror>
+<nierror code="-10120">
+NI-DAQ LV:  無効なｱﾌﾟﾘｹｰｼｮﾝが使用されました。
+</nierror>
+<nierror code="-10100">
+NI-DAQ LV:  要求のﾃﾞｼﾞﾀﾙﾎﾟｰﾄ幅は、ﾊｰﾄﾞｳｪｱのﾎﾟｰﾄ幅の倍数ではないか、ＤＡＱﾊｰﾄﾞｳェｱでは取得不可能です。
+</nierror>
+<nierror code="-10098">
+NI-DAQ LV:  指定されたｷｬﾘﾌﾞﾚｰｼｮﾝ定数領域は無効です。例えば、生産先のみで変更可能なﾌｧｸﾄﾘ領域を選択された可能性があります。
+</nierror>
+<nierror code="-10097">
+NI-DAQ LV:  指定されたｷｬﾘﾌﾞﾚｰｼｮﾝの操作は無効です。
+</nierror>
+<nierror code="-10096">
+NI-DAQ LV:  指定されたｷｬﾘﾌﾞﾚｰｼｮﾝ定数が無効です。
+</nierror>
+<nierror code="-10095">
+NI-DAQ LV:  関数に送られた校正信号源が無効です。
+</nierror>
+<nierror code="-10094">
+NI-DAQ LV:  関数に送られたcalDAC定数が無効です。
+</nierror>
+<nierror code="-10093">
+NI-DAQ LV:  最低１つの条件が満たされないため、FIFOﾓｰﾄﾞ波形発生が出来ません。
+</nierror>
+<nierror code="-10092">
+NI-DAQ LV:  ﾃﾞﾊﾞｲｽにより、ｽｷｬﾝの最終ｻﾝﾌﾟﾙと次のｽｷｬﾝの間に遅延時間を置く必要があります。指定されたｽｷｬﾝｲﾝﾀｰﾊﾞﾙでは、このﾃﾞﾊﾞｲｽのために必要な遅延時間を確保出来ません。詳細はﾄﾞｷｭﾒﾝﾃｰｼｮﾝを参照下さい。
+</nierror>
+<nierror code="-10091">
+NI-DAQ LV:  反復パラメータに無効の設定を使用しようとしています。反復パラメータは0以上でなければなりません。使用のデバイスには、0または1しか使用できない可能性があります。
+</nierror>
+<nierror code="-10090">
+NI-DAQ LV:  個々の範囲、極性、およびｹﾞｲﾝの設定は有効ですが、このﾎﾞｰﾄﾞでは指定の組み合わせは禁止されています。
+</nierror>
+<nierror code="-10089">
+NI-DAQ LV:  指定の合計数がﾊﾞｯﾌｧの設定およびﾌﾟﾚﾄﾘｶﾞのｽｷｬﾝｶｳﾝﾄまたはそのﾎﾞｰﾄﾞﾀｲﾌﾟと整合していません。
+</nierror>
+<nierror code="-10088">
+NI-DAQ LV:  ﾄﾘｶﾞﾚﾍﾞﾙﾊﾟﾗﾒｰﾀが無効です。
+</nierror>
+<nierror code="-10087">
+NI-DAQ LV:  ﾄﾘｶﾞﾀｲﾌﾟﾊﾟﾗﾒｰﾀが無効です。
+</nierror>
+<nierror code="-10086">
+NI-DAQ LV:  外部ﾘﾌｧﾚﾝｽが無効です。
+</nierror>
+<nierror code="-10085">
+NI-DAQ LV:  ﾄﾘｶﾞ範囲またはﾄﾘｶﾞﾋｽﾃﾘｼｽｳｨﾝﾄﾞｳが無効です。
+</nierror>
+<nierror code="-10084">
+NI-DAQ LV:  ﾄﾘｶﾞｶｳﾝﾄﾊﾟﾗﾒｰﾀが無効です。
+</nierror>
+<nierror code="-10083">
+NI-DAQ LV:  ﾄﾘｶﾞﾓｰﾄﾞﾊﾟﾗﾒｰﾀが無効です。
+</nierror>
+<nierror code="-10082">
+NI-DAQ LV:  ﾎﾟｽﾄﾄﾘｶﾞのｻﾝﾌﾟﾙｶｳﾝﾄが無効です。
+</nierror>
+<nierror code="-10081">
+NI-DAQ LV:  ﾌﾟﾚﾄﾘｶﾞのｻﾝﾌﾟﾙｶｳﾝﾄが無効です。
+</nierror>
+<nierror code="-10080">
+NI-DAQ LV:  ｹﾞｲﾝﾊﾟﾗﾒｰﾀが無効です。
+</nierror>
+<nierror code="-10079">
+NI-DAQ LV:  ﾄﾘｶﾞｽｷｯﾌﾟｶｳﾝﾄは無効です。
+</nierror>
+<nierror code="-10050">
+NI-DAQ LV:  同じﾊｰﾄﾞｳｪｱﾁｬﾈﾙに対応するﾁｬﾈﾙ名がﾁｬﾈﾙﾘｽﾄに2つ以上あります。
+</nierror>
+<nierror code="-10048">
+NI-DAQ LV:  このﾃﾞﾊﾞｲｽにおいて、指定された励振ﾀｲﾌﾟは無効です。
+</nierror>
+<nierror code="-10047">
+NI-DAQ LV:  このﾓｼﾞｭｰﾙでは、指定されたSCXIﾁｬﾈﾙ接続のﾀｲﾌﾟは無効です。
+</nierror>
+<nierror code="-10046">
+NI-DAQ LV:  このﾃﾞﾊﾞｲｽにおいて、指定された励振値は無効です。
+</nierror>
+<nierror code="-10045">
+NI-DAQ LV:  指定された入力ﾓｰﾄﾞは無効です。
+</nierror>
+<nierror code="-10044">
+NI-DAQ LV:  指定された極性は無効です。
+</nierror>
+<nierror code="-10043">
+NI-DAQ LV:  指定された除数は無効です。
+</nierror>
+<nierror code="-10042">
+NI-DAQ LV:  指定された制御ｺｰﾄﾞは現在の構成または状態では使用できません。
+</nierror>
+<nierror code="-10041">
+NI-DAQ LV:  指定されたﾀｽｸIDが無効です。例：ｱﾅﾛｸﾞ入力VIのﾀｽｸIDをﾃﾞｼﾞﾀﾙ入出力VIに接続した可能性があります。
+</nierror>
+<nierror code="-10040">
+NI-DAQ LV:  ｸﾞﾙｰﾌﾟｻｲｽﾞが無効です。
+</nierror>
+<nierror code="-10039">
+NI-DAQ LV:  指定された入力文字列は長すぎます。たとえば、DAQScope 5102ﾃﾞﾊﾞｲｽは最大32ﾊﾞｲﾄまでの文字列しか校正EEPROMに保存することができません。文字列を短縮して下さい。
+</nierror>
+<nierror code="-10038">
+NI-DAQ LV:  指定された日にちが無効です。
+</nierror>
+<nierror code="-10037">
+NI-DAQ LV:  指定された月が無効です。
+</nierror>
+<nierror code="-10036">
+NI-DAQ LV:  指定された年が無効です。
+</nierror>
+<nierror code="-10035">
+NI-DAQ LV:  指定の属性は、このデバイスまたはこの状況には不適切です。
+</nierror>
+<nierror code="-10034">
+NI-DAQ LV:  削除しようとしたﾒｯｾｰｼﾞは構成されているﾒｯｾｰｼﾞのうちに該当するものがありません。
+</nierror>
+<nierror code="-10033">
+NI-DAQ LV:  関数に送られたｳｨﾝﾄﾞｳﾊﾝﾄﾞﾙが無効です。
+</nierror>
+<nierror code="-10032">
+NI-DAQ LV:  指定されたSCXIﾓｼﾞｭｰﾙｽﾛｯﾄは無効、または空きｽﾛｯﾄ該当します。
+</nierror>
+<nierror code="-10031">
+NI-DAQ LV:  指定されたSCXIｼｬｰｼは構成されているSCXIｼｬｰｼに該当しません。
+</nierror>
+<nierror code="-10030">
+NI-DAQ LV:  指定されたｼﾘｱﾙﾎﾟｰﾄ通信用のﾎﾞｰﾚｰﾄはこのﾌﾟﾗｯﾄﾌｫｰﾑにおいて無効です。
+</nierror>
+<nierror code="-10029">
+NI-DAQ LV:  ｺｰﾙされた関数はこのﾊﾞｰｼﾞｮﾝのﾄﾞﾗｲﾊﾞにてもうｻﾎﾟｰﾄされていません。
+</nierror>
+<nierror code="-10028">
+NI-DAQ LV:  このﾃﾞﾊﾞｲｽには、指定のｶｯﾄｵﾌ周波数は無効です。
+</nierror>
+<nierror code="-10027">
+NI-DAQ LV:  DAQｲﾍﾞﾝﾄ0または1では、一般値Aが0よりも大きく、内部ﾊﾞｯﾌｧｻｲｽﾞよりも小さくする必要があります。DAQｲﾍﾞﾝﾄ1にDMAを使用した場合、一般値Aが内部ﾊﾞｯﾌｧを均等に除算する必要があります。DAQｲﾍﾞﾝﾄ4にTIO-10を使用した場合、一般値Aは1または2でなければなりません。
+</nierror>
+<nierror code="-10026">
+NI-DAQ LV:  入力ﾊﾞｯﾌｧの数またはｻｲｽﾞの指定が無効です。例えば、Lab及び1200ﾃﾞﾊﾞｲｽのﾊﾞｯﾌｧﾘﾐｯﾄは64Kｻﾝﾌﾟﾙです。またはﾎﾞｰﾄﾞが複数ﾊﾞｯﾌｧをｻﾎﾟｰﾄしません。
+</nierror>
+<nierror code="-10025">
+NI-DAQ LV:  現在の設定においては、電圧範囲がこのﾎﾞｰﾄﾞの範囲外です。代わりの範囲が選択されました。
+</nierror>
+<nierror code="-10024">
+NI-DAQ LV:  書き込みマークに書き込みオフセットを追加すると、書き込みマークが内部バッファの外に設定されます。
+</nierror>
+<nierror code="-10023">
+NI-DAQ LV:  書き込みﾓｰﾄﾞが範囲外または禁止されています。
+</nierror>
+<nierror code="-10022">
+NI-DAQ LV:  ﾕｰｻﾞのﾃﾞｰﾀ配列に不完全なｱｯﾌﾟﾃﾞｰﾄが含まれているか、または内部ﾊﾞｯﾌｧの終わりよりも後に書き込もうとしているか、または継続的な出力操作の場合、ﾕｰｻﾞの配列長が内部ﾊﾞｯﾌｧｻｲｽﾞの1/2の倍数ではありません。
+</nierror>
+<nierror code="-10021">
+NI-DAQ LV:  範囲がﾎﾞｰﾄﾞの範囲を越えています。
+</nierror>
+<nierror code="-10020">
+NI-DAQ LV:  ﾀｲﾑﾍﾞｰｽﾊﾟﾗﾒｰﾀが無効です。
+</nierror>
+<nierror code="-10019">
+NI-DAQ LV:  周波数ﾊﾟﾗﾒｰﾀが無効です。
+</nierror>
+<nierror code="-10018">
+NI-DAQ LV:  ｵﾌｾｯﾄが達成不可能です。
+</nierror>
+<nierror code="-10017">
+NI-DAQ LV:  読み込みﾓｰﾄﾞﾊﾟﾗﾒｰﾀが無効です。
+</nierror>
+<nierror code="-10016">
+NI-DAQ LV:  読み込みｶｳﾝﾄﾊﾟﾗﾒｰﾀが無効です。
+</nierror>
+<nierror code="-10015">
+NI-DAQ LV:  ﾀｲﾑﾘﾐｯﾄﾊﾟﾗﾒｰﾀが無効です。
+</nierror>
+<nierror code="-10014">
+NI-DAQ LV:  そのﾎﾞｰﾄﾞには、ｸﾞﾙｰﾌﾟｻｲｽﾞが大きすぎます。
+</nierror>
+<nierror code="-10013">
+NI-DAQ LV:  ﾄﾞﾗｲﾊﾞから認識されないまたは記載されていないｴﾗｰｺｰﾄﾞが戻されました。
+</nierror>
+<nierror code="-10012">
+NI-DAQ LV:  指定のﾁｬﾈﾙに対して、ｱﾅﾛｸﾞ入力またはｱﾅﾛｸﾞ出力の電圧範囲が無効です。または、ｱﾅﾛｸﾞ出力に書き出された電圧が無効です。
+</nierror>
+<nierror code="-10011">
+NI-DAQ LV:  ﾁｬﾈﾙ数とﾁｬﾈﾙｸﾛｯｸﾚｰﾄに対してｱﾅﾛｸﾞ入力ｽｷｬﾝﾚｰﾄが速すぎるか、指定のｸﾛｯｸﾚｰﾄはその関連ｶｳﾝﾀﾁｬﾈﾙまたはI/Oﾁｬﾈﾙにはｻﾎﾟｰﾄされていません。
+</nierror>
+<nierror code="-10010">
+NI-DAQ LV:  指定のｶｳﾝﾀには、ｶｳﾝﾄﾊﾟﾗﾒｰﾀが小さすぎるか、または大きすぎます。または指定のI/O転送ｶｳﾝﾄは現在のﾊﾞｯﾌｧあるいはﾁｬﾈﾙ構成には適していません。
+</nierror>
+<nierror code="-10009">
+NI-DAQ LV:  ｶｳﾝﾀﾊﾟﾗﾒｰﾀが無効です。
+</nierror>
+<nierror code="-10008">
+NI-DAQ LV:  ｸﾞﾙｰﾌﾟﾊﾟﾗﾒｰﾀが無効です。
+</nierror>
+<nierror code="-10007">
+NI-DAQ LV:  ﾁｬﾈﾙ、ﾎﾟｰﾄ、またはｶｳﾝﾀがそのﾃﾞﾊﾞｲｽﾀｲﾌﾟまたはﾃﾞﾊﾞｲｽ設定の範囲外か、そのﾁｬﾈﾙの組み合わせが無効か、またはﾁｬﾈﾙ0が最後になるようにｽｷｬﾝ順位を逆にする必要があります。
+</nierror>
+<nierror code="-10006">
+NI-DAQ LV:  ﾗｲﾝﾊﾟﾗﾒｰﾀが無効です。
+</nierror>
+<nierror code="-10005">
+NI-DAQ LV:  ﾃﾞﾊﾞｲｽﾊﾟﾗﾒｰﾀが無効です。
+</nierror>
+<nierror code="-10004">
+NI-DAQ LV:  数値ﾊﾟﾗﾒｰﾀの値が別なﾊﾟﾗﾒｰﾀと整合していません。したがって、その組み合わせも無効です。
+</nierror>
+<nierror code="-10003">
+NI-DAQ LV:  数値のﾊﾟﾗﾒｰﾀの値が無効です。
+</nierror>
+<nierror code="-10002">
+NI-DAQ LV:  入力文字列でｴﾗｰが検出されました。この文字列の構文は正しいのですが、その文字列中に指定された特定の値が同じ文字列中の他の値と整合していません。
+</nierror>
+<nierror code="-10001">
+NI-DAQ LV:  入力文字列でｴﾗｰが検出されました。文字列中の文字の配列または順序が、予想順序と一致していません。
+</nierror>
+</nidocument>

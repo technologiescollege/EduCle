@@ -1,0 +1,135 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="-1622">
+LV PID Toolset:  Size of input points and initial conditions are not the same.
+</nierror>
+<nierror code="-1621">
+LV PID Toolset:  Size of input points and initial conditions are not the same.
+</nierror>
+<nierror code="-1620">
+LV PID Toolset:  Size of input points and initial conditions are not the same.
+</nierror>
+<nierror code="-1619">
+LV PID Toolset:  Size of input points and initial conditions are not the same.
+</nierror>
+<nierror code="-1618">
+LV PID Toolset:  Size of input points and initial conditions are not the same.
+</nierror>
+<nierror code="-1617">
+LV PID Toolset:  Size of input points and zeros-poles-gains are not the same.
+</nierror>
+<nierror code="-1616">
+LV PID Toolset:  Size of input points and transfer functions are not the same.
+</nierror>
+<nierror code="-1615">
+LV PID Toolset:  Size of input points and filter coefficients are not the same.
+</nierror>
+<nierror code="-1614">
+LV PID Toolset:  Size of input points, initial conditions and bounds are not the same.
+</nierror>
+<nierror code="-1613">
+LV PID Toolset:  Size of input points and initial conditions are not the same.
+</nierror>
+<nierror code="-1612">
+LV PID Toolset:  Size of input points and zeros-poles-gains are not the same.
+</nierror>
+<nierror code="-1611">
+LV PID Toolset:  Size of input points and transfer functions are not the same.
+</nierror>
+<nierror code="-1610">
+LV PID Toolset:  Size of input points and initial conditions are not the same.
+</nierror>
+<nierror code="-1609">
+LV PID Toolset:  Size of input points and initial conditions, and bounds are not the same.
+</nierror>
+<nierror code="-1608">
+LV PID Toolset:  Size of input points and initial conditions are not the same.
+</nierror>
+<nierror code="-1607">
+LV PID Toolset:  Upper limit<lower limit.
+</nierror>
+<nierror code="-1606">
+LV PID Toolset:  Switch off point is greater than switch on point.
+</nierror>
+<nierror code="-1605">
+LV PID Toolset:  Quantization interval negative.
+</nierror>
+<nierror code="-1604">
+LV PID Toolset:  Failure in discrete filter specification.
+</nierror>
+<nierror code="-1603">
+LV PID Toolset:  Ill-conditioned MIMO system.
+</nierror>
+<nierror code="-1602">
+LV PID Toolset:  Highest coefficient of a polynomial close to 0.
+</nierror>
+<nierror code="-1601">
+LV PID Toolset:  Numerator/denominator inconsistency.
+</nierror>
+<nierror code="-1600">
+LV PID Toolset:  Upper bound<lower bound.
+</nierror>
+<nierror code="-1524">
+LV PID Toolset:  Incorrect defuzzification and/or inference method.
+</nierror>
+<nierror code="-1523">
+LV PID Toolset:  Incorrect number of rules.
+</nierror>
+<nierror code="-1522">
+LV PID Toolset:  Error loading fuzzy controller file.
+</nierror>
+<nierror code="-1521">
+LV PID Toolset:  Error opening fuzzy controller file.
+</nierror>
+<nierror code="-1519">
+LV PID Toolset:  Consequence term not found.
+</nierror>
+<nierror code="-1518">
+LV PID Toolset:  Incorrect number of fulfillment values.
+</nierror>
+<nierror code="-1517">
+LV PID Toolset:  Incorrect number of active consequence terms.
+</nierror>
+<nierror code="-1516">
+LV PID Toolset:  Antecedance variable name not found.
+</nierror>
+<nierror code="-1515">
+LV PID Toolset:  Input is less than antecedance term x min.
+</nierror>
+<nierror code="-1514">
+LV PID Toolset:  Input is greater than antecedance term x max.
+</nierror>
+<nierror code="-1512">
+LV PID Toolset:  Number of inputs does not match number of antecedance variables.
+</nierror>
+<nierror code="-1511">
+LV PID Toolset:  Antecedance variable used multiple times.
+</nierror>
+<nierror code="-1509">
+LV PID Toolset:  Incorrect number of consequence terms.
+</nierror>
+<nierror code="-1508">
+LV PID Toolset:  Incorrect number of consequence variables.
+</nierror>
+<nierror code="-1507">
+LV PID Toolset:  Incorrect number of antecedance terms.
+</nierror>
+<nierror code="-1506">
+LV PID Toolset:  Incorrect number of antecedance variables.
+</nierror>
+<nierror code="-1504">
+LV PID Toolset:  Linguistic term x max is less than x min.
+</nierror>
+<nierror code="-1503">
+LV PID Toolset:  Linguistic term point(s) are less than x min.
+</nierror>
+<nierror code="-1502">
+LV PID Toolset:  Linguistic term point(s) are greater than x max.
+</nierror>
+<nierror code="-1501">
+LV PID Toolset:  Linguistic term points are out of order.
+</nierror>
+</nidocument>

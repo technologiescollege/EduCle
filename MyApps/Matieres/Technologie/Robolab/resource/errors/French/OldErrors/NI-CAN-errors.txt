@@ -1,0 +1,366 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="-1074388991">
+NI-CAN:  (Hex 0xBFF62001) Une fonction d'attente ou de notification est entrée en timeout avant qu'un état souhaité se produise. Solutions : augmentez la valeur du paramètre Timeout ; vérifiez vos connexions et le fonctionnement de périphériques distants.
+</nierror>
+<nierror code="-1074388990">
+NI-CAN:  (Hex 0xBFF62002) Une erreur s'est produite au niveau du driver NI-CAN. Vous trouverez une description dans le fichier NicanErr.txt de votre répertoire Windows (généralement C:\Windows). Solutions : envoyez le fichier NicanErr.txt par E-mail ou fax au support technique de National Instruments.
+</nierror>
+<nierror code="-1074388989">
+NI-CAN:  (Hex 0xBFF62003) Il y a une erreur de syntaxe élémentaire au niveau du paramètre ObjName. Solutions : vérifiez que le nom ne contient pas de caractères invalides et qu'il utilise la fonction spécifiée pour la fonction Open.
+</nierror>
+<nierror code="-1074388988">
+NI-CAN:  (Hex 0xBFF62004) Un paramètre de fonction est invalide. Solutions : lisez la description de la fonction et vérifiez que vous fournissez une valeur valide pour chaque paramètre.
+</nierror>
+<nierror code="-1074388987">
+NI-CAN:  (Hex 0xBFF62005) La valeur d'une ou plusieurs propriétés (attributs) est invalide. Cette erreur peut se produire pour Set (une mauvaise valeur) ou Initialize/Config (une ou plusieurs mauvaises valeurs). Solutions : consultez le manuel Programmer Reference pour vérifier la valeur de chaque propriété.
+</nierror>
+<nierror code="-1074388986">
+NI-CAN:  (Hex 0xBFF62006) L'objet est déjà ouvert dans une autre application. Solutions : assurez-vous qu'un objet est utilisé par une seule application à la fois et que vous avez fermé tous les objets avant de quitter votre application (n'utilisez pas le bouton Abandonner de la barre d'outils de LabVIEW)
+</nierror>
+<nierror code="-1074388985">
+NI-CAN:  (Hex 0xBFF62007) Vous avez essayé de définir un attribut de configuration pendant l'exécution d'un objet. Solutions : configurez les attributs avant l'ouverture de l'objet ; arrêtez et relancez la communication de façon à pouvoir mettre à jour les attributs de configuration.
+</nierror>
+<nierror code="-1074388984">
+NI-CAN:  (Hex 0xBFF62008) Dépassement de capacité de la queue d'écriture. Solutions : augmentez la longueur de la queue d'écriture ; attendez l'état Write Success avant d'appeler la fonction Write ; pour transmettre uniquement les données récentes, réglez la longueur de la queue d'écriture à zéro.
+</nierror>
+<nierror code="-1074388982">
+NI-CAN:  (Hex 0xBFF6200A) Une fonctionnalité connue n'est pas supportée. Solutions : reportez-vous aux descriptions du manuel pour déterminer quelle fonctionnalité n'est pas supportée.
+</nierror>
+<nierror code="-1074388981">
+NI-CAN:  (Hex 0xBFF6200B) Problème détecté au niveau du bus CAN, causant l'arrêt de toutes les communications.  Cette erreur correspond à un état Off du bus CAN. Solutions : vérifiez que le câblage est correct, que les périphériques sont connectés et opérationnels et que le bus est correctement alimenté.
+</nierror>
+<nierror code="-1074388978">
+NI-CAN:  (Hex 0xBFF6200E) Vous appelez Read DeviceNet Explicit Message avant l'arrivée de la réponse. Solutions : attendez l'état Read Avail  avant d'appeler la fonction Read ; assurez-vous que vous appelez un Write DeviceNet Explicit Message avant d'appeler la fonction Read (chaque réponse nécessite une requête).
+</nierror>
+<nierror code="-1074388977">
+NI-CAN:  (Hex 0xBFF6200F) La vérification de l'identifiant MAC ID dupliqué a échoué pour l'Interface Objet. Solutions : en utilisant l'utilitaire Who, déterminez un MAC ID non utilisé dans votre système DeviceNet et utilisez ce MAC ID pour Open DeviceNet Interface
+</nierror>
+<nierror code="-1074388976">
+NI-CAN:  (Hex 0xBFF62010) Erreur lors de l'initialisation du périphérique DeviceNet. Diverses erreurs d'initialisation du périphérique. Solutions : vérifiez que la configuration spécifiée dans les fonctions Open correspond aux capacités matérielles de votre périphérique.
+</nierror>
+<nierror code="-1074388975">
+NI-CAN:  (Hex 0xBFF62011) Périphérique DeviceNet est introuvable. La connexion n'a pas pu être établie avec l'ID MAC spécifié dans la fonction Open. Solutions : utilisez l'utilitaire Who pour vérifier que le périphérique existe à l'ID MAC attendu ; vérifiez que le câblage est correct.
+</nierror>
+<nierror code="-1074388974">
+NI-CAN:  (Hex 0xBFF62012) Fragments de messages de DeviceNet reçus dans le désordre. La fragmentation scinde un long message en fragments plus petits pour la transmission sur le réseau.  Solutions : vérifiez que le câblage est correct ; contactez le constructeur du périphérique (bogue dans le périphérique).
+</nierror>
+<nierror code="-1074388972">
+NI-CAN:  (Hex 0xBFF62014) Réponse d'erreur reçue du périphérique DeviceNet distant. Indique que l'attribut Get / Set Dnet a échoué dans le périphérique. Solutions : en utilisant DeviceError, reportez-vous aux codes d'erreur dans les spécifications de DeviceNet ou à la documentation du fournisseur du périphérique.
+</nierror>
+<nierror code="-1074388969">
+NI-CAN:  (Hex 0xBFF62017) Cette valeur d'attribut doit être fournie avant l'ouverture. Solutions : définissez l'attribut en utilisant la fonction Config avant l'ouverture, et jamais ultérieurement.
+</nierror>
+<nierror code="-1074388959">
+NI-CAN:  (Hex 0xBFF62021) Le timeout du chien de garde pour un objet CAN a expiré, indiquant que les données n'ont pas été reçues à la vitesse escomptée. Solutions : vérifiez vos connexions et le fonctionnement des périphériques distants ; augmentez la période de l'objet CAN.
+</nierror>
+<nierror code="-1074388957">
+NI-CAN:  (Hex 0xBFF62023) L'interface est invalide ou inconnue. Solutions : utilisez l'utilitaire de configuration pour vérifier que l'interface est attribuée à un port spécifique.
+</nierror>
+<nierror code="-1074388956">
+NI-CAN:  (Hex 0xBFF62024) La réference sur l'objet (ObjHandle) est invalide. Solutions : vérifiez que la fonction Open n'a pas retourné d'erreur; vérifiez que vous n'avez pas fermé la référence dans un autre thread d'exécution (comme avec ncReset).
+</nierror>
+<nierror code="-1074388954">
+NI-CAN:  (Hex 0xBFF62026) DeviceNet Interface Objet est déjà ouvert avec un Poll Mode différent. Solutions : changez tous les paramètres Poll Mode pour qu'ils conviennent ; arrêtez la communication avec la fonction Operate Dnet Interface avant d'essayer d'ajouter des connections E/S.
+</nierror>
+<nierror code="-1074388952">
+NI-CAN:  (Hex 0xBFF62028) Dépassement de la capacité de queue de lecture. Solutions : utilisez la fonction et la notification Read Mult pour lire plusieurs trames à la fois ; augmentez la longueur de la queue de lecture ; pour recevoir uniquement les données récentes, réglez la longueur de la queue de lecture à zéro.
+</nierror>
+<nierror code="-1074388949">
+NI-CAN:  (Hex 0xBFF6202B) Problème détecté au niveau du bus CAN (erreur de remplissage), causant l'arrêt de toutes les communications. Cette erreur correspond à un état Off du bus CAN. Solutions : vérifiez que le câblage est correct, que les périphériques sont connectés et opérationnels et que le bus est correctement alimenté.
+</nierror>
+<nierror code="-1074388947">
+NI-CAN:  (Hex 0xBFF6202D) Limite en ressource dépassée pour les files d'attente dans la mémoire partagée entre firmware/driver. La fonction ncReadMult n'est pas autorisée. Solutions: diminuez les longueurs de file d'attente dans les objets; fixez la longueur de file d'attente lue à minimum de 2; diminuez le nombre d'objets CAN.
+</nierror>
+<nierror code="-1074388944">
+NI-CAN:  (Hex 0xBFF62030) Erreur lors de l'initialisation du périphérique DeviceNet. Type de connexion non supporté. Cette erreur se produit par exemple si le périphérique supporte uniquement les E/S cadencée (strobed I/O) et que vous configurez des E/S en mode interrogation (Polled I/O).  Solution : consultez la documentation du périphérique pour connaître les types de connexions valides.
+</nierror>
+<nierror code="-1074388941">
+NI-CAN:  (Hex 0xBFF62033) DeviceNet Interface Object n'est pas encore ouvert. Solution : ouvrez le DeviceNet Interface Object avant d'ouvrir d'autres objets (E/S ou Explicit Messaging).
+</nierror>
+<nierror code="-1074388927">
+NI-CAN:  (Hex 0xBFF62041) Le temps imparti pour la connexion au périphérique DeviceNet est écoulé. Le périphérique ne répond plus aux messages envoyés par NI-DNET. Solutions : augmentez la valeur du paramètre ExpPacketRate dans la fonction Open Dnet IO ; utilisez l'utilitaire Who pour vérifier que le périphérique est opérationnel.
+</nierror>
+<nierror code="-1074388925">
+NI-CAN:  (Hex 0xBFF62043) Le nom de l'objet CAN est invalide ou inconnu. Solutions : vérifiez que vous utilisez la syntaxe spécifiée dans la documentation NI-CAN.
+</nierror>
+<nierror code="-1074388922">
+NI-CAN:  (Hex 0xBFF62046) Vous avez essayé d'ouvrir une connexion d'E/S DeviceNet COS alors qu'une connexion d'E/S Cyclique était déjà ouverte pour ce périphérique. Solutions : les connexions COS et cycliques s'excluent mutuellement, vous ne pouvez donc ouvrir qu'un seul type de connexion pour un périphérique donné.
+</nierror>
+<nierror code="-1074388920">
+NI-CAN:  (Hex 0xBFF62048) Dépassement au niveau de la puce de communication CAN. Cette erreur se produit lorsque les trames sont reçues dos à dos sur de longues périodes. Solutions : activez Net Interface mask et les comparateurs afin d'éliminer les trames ; réduisez l'activité générale du bus.
+</nierror>
+<nierror code="-1074388917">
+NI-CAN:  (Hex 0xBFF6204B) Problème détecté au niveau du bus CAN (mauvais format de trame), causant l'arrêt de toutes les communications. Cette erreur correspond à un état Off du bus CAN. Solutions : vérifiez que le câblage est correct, que les périphériques sont connectés et opérationnels et que le bus est correctement alimenté.
+</nierror>
+<nierror code="-1074388915">
+NI-CAN:  (Hex 0xBFF6204D) Dépassement des limites des ressources pour les tables d'E/S de DeviceNet. Solutions : diminuez le nombre de connexions d'E/S ; diminuez le paramètre InputLength ou OutputLength utilisé pour un objet E/S donné (255 max).
+</nierror>
+<nierror code="-1074388912">
+NI-CAN:  (Hex 0xBFF62050) Erreur lors de l'initialisation du périphérique DeviceNet. Paramètre InputLength non supporté. Le paramètre InputLength doit correspondre à l'attribut produced_connection_size dans I/O Connection Object du périphérique. Exception : pour une E/S échantillonnée (strobed I/O) en tant qu'esclave, InputLength doit être égal à 1.
+</nierror>
+<nierror code="-1074388888">
+NI-CAN:  (Hex 0xBFF62068) Dépassement de capacité de la queue de réception intermédiaire. Cette queue contient les trames transférées de la puce CAN vers les queues de lecture d'objet. Solutions : activez Net Interface mask et les comparateurs afin d'éliminer les trames ; réduisez l'activité générale du bus.
+</nierror>
+<nierror code="-1074388885">
+NI-CAN:  (Hex 0xBFF6206B) Problème détecté au niveau du bus CAN (pas d'ack), causant l'arrêt de toutes les communications. Cette erreur correspond à un état Off du bus CAN. Solutions : vérifiez que le câblage est correct, que les périphériques sont connectés et opérationnels et que le bus est correctement alimenté.
+</nierror>
+<nierror code="-1074388883">
+NI-CAN:  (Hex 0xBFF6206D) Dépassement de la limite maximale pour la fonction Write DeviceNet Explicit Message. La longueur maximale d'une requête est de 240 octets de données de service. Solutions : diminuez la longueur du message explicite de requête.
+</nierror>
+<nierror code="-1074388880">
+NI-CAN:  (Hex 0xBFF62070) Erreur lors de l'initialisation du périphérique DeviceNet. Paramètre OutputLength non supporté. Le paramètre OutputLength doit correspondre à  l'attribut consumed_connection_size dans I/O Connection Object du périphérique. Exception : pour une E/S échantillonnée (Strobed I/O) en tant que maître, OutputLength doit être égal à 1.
+</nierror>
+<nierror code="-1074388856">
+NI-CAN:  (Hex 0xBFF62088) Dépassement au niveau de la liste de transmission horodatée. Cette liste contient les trames pour les transmissions cadencées en attente. (Écriture du Net Interface avec horodatage). Solutions : augmentez la longueur de la liste de transmission ; attendez que les trames cadencées soient transmises avant d'écrire.
+</nierror>
+<nierror code="-1074388853">
+NI-CAN:  (Hex 0xBFF6208B) Problème détecté au niveau du bus CAN (tx 1, rx 0), causant l'arrêt de toutes les communications. Cette erreur correspond à un état Off du bus CAN. Solutions : vérifiez que le câblage est correct, que les périphériques sont connectés et opérationnels et que le bus est correctement alimenté.
+</nierror>
+<nierror code="-1074388851">
+NI-CAN:  (Hex 0xBFF6208D) Dépassement de la limite maximale pour la fonction Read DeviceNet Explicit Message. La longueur maximale d'une réponse est de 240 octets de données de service. Les réponses plus longues sont abandonnées. Solutions : configurez le périphérique pour obtenir une réponse plus courte.
+</nierror>
+<nierror code="-1074388848">
+NI-CAN:  (Hex 0xBFF62090) Erreur lors de l'initialisation du périphérique DeviceNet. Paramètre ExPacketRate non supporté. Solution : certains périphériques fixent des limites inférieures/supérieures sur EPR ; si EPR est petit, augmentez-le, si EPR est grand, diminuez-le.
+</nierror>
+<nierror code="-1074388831">
+NI-CAN:  (Hex 0xBFF620A1) Trop de messages avec des vitesses de transmission élevées. Les timers combinés ne peuvent pas être maintenus correctement. Solution : diminuez le nombre de transmissions périodiques ; diminuez la vitesse de transmission pour un ou plusieurs messages.
+</nierror>
+<nierror code="-1074388821">
+NI-CAN:  (Hex 0xBFF620AB) Problème détecté au niveau du bus CAN (tx 0, rx 1), causant l'arrêt de toutes les communications. Cette erreur correspond à un état Off du bus CAN. Solutions : vérifiez que le câblage est correct, que les périphériques sont connectés et opérationnels et que le bus est correctement alimenté.
+</nierror>
+<nierror code="-1074388819">
+NI-CAN:  (Hex 0xBFF620AD) Vous appelez la fonction DeviceNet Explicit Message avant d'avoir reçu la réponse d'une précédente écriture. Un seul message peut être en attente. Solution : terminez la séquence lecture/attente/écriture avant d'envoyer une nouvelle requête.
+</nierror>
+<nierror code="-1074388816">
+NI-CAN:  (Hex 0xBFF620B0) Erreur lors de l'initialisation du périphérique DeviceNet. Le vendor ID de ce périphérique est différent de l'attribut du driver. Solutions : si vous avez remplacé le périphérique, utilisez le nouveau vendor ID comme attribut du driver ; si vous ne souhaitez plus effectuer cette vérification, supprimez l'appel Set Driver Attr.
+</nierror>
+<nierror code="-1074388789">
+NI-CAN:  (Hex 0xBFF620CB) Problème détecté au niveau du bus CAN (mauvais CRC), causant l'arrêt de toutes les communications. Cette erreur correspond à un état Off du bus CAN. Solutions : vérifiez que le câblage est correct, que les périphériques sont connectés et opérationnels et que le bus est correctement alimenté.
+</nierror>
+<nierror code="-1074388787">
+NI-CAN:  (Hex 0xBFF620CD) Limite en ressources dépassée pour les signaux RTSI.  Solutions : diminuez le nombre de signaux RTSI utilisés; référez-vous à votre User Manual pour obtenir de l'information concernant les signaux RTSI valables pour votre carte CAN.
+</nierror>
+<nierror code="-1074388784">
+NI-CAN:  (Hex 0xBFF620D0) Erreur lors de l'initialisation du périphérique DeviceNet. Le type de ce périphérique est différent de l'attribut du driver. Solutions : si vous avez remplacé le périphérique, utilisez le type de périphérique comme attribut du driver ; si vous ne souhaitez plus effectuer cette vérification, supprimez l'appel Set Driver Attr.
+</nierror>
+<nierror code="-1074388757">
+NI-CAN:  (Hex 0xBFF620EB) CAN bus problems (unknown Intel 82527 error) caused all communications to stop. This error corresponds to CAN Bus Off state. Solutions: Verify that cabling is correct, devices are connected and operational, and proper bus power is applied.
+</nierror>
+<nierror code="-1074388752">
+NI-CAN:  (Hex 0xBFF620F0) Erreur lors de l'initialisation du périphérique DeviceNet. Le code produit de ce périphérique est différent de l'attribut du driver. Solutions : si vous avez remplacé le périphérique, utilisez le nouveau code produit comme attribut du driver ; si vous ne souhaitez plus effectuer cette vérification, supprimez l'appel Set Driver Attr.
+</nierror>
+<nierror code="-1074388736">
+NI-CAN:  (Hex 0xBFF62100) Dépassement des limites pour le nombre total de messages. Solutions : pour l'API des voies (Channel), diminuez le nombre de messages de sortie; pour l'API de trames (Frame), diminuez le nombre d'objets CAN qui recoivent des données en utilisant l'interface réseau pour recevoir des trames.
+</nierror>
+<nierror code="-1074388735">
+NI-CAN:  (Hex 0xBFF62101) La puce CAN supporte au plus 12 des objets CAN suivants : Tx By Response (Std ou Xtd ID), Rx Xtd ID. Solutions : configurez l'attribut Tx By Response à Faux ; configurez tous les Tx Xtd avant Rx Xtd ; n'utilisez pas Net Intf pour recevoir des trames Xtd (CompXtd=None).
+</nierror>
+<nierror code="-1074388734">
+NI-CAN:  (Hex 0xBFF62102) Une vitesse d'échantillonnage (durée) que vous avez soumise est trop grande ou trop petite. Solution : lisez la description de la fonction pour déterminer si vous devez diminuer ou augmenter cette vitesse d'échantillonnage.
+</nierror>
+<nierror code="-1074388733">
+NI-CAN:  (Hex 0xBFF62103) Le firmware de la carte CAN ne répond plus aux commandes envoyées par le driver du PC, généralement à cause de fréquentes interruptions CAN ou de timer. Solutions: référez-vous à ncAction pour des conseils concernant la gestion d'un trafic intense; diminuez le nombre d'objets en cours d'utilisation.
+</nierror>
+<nierror code="-1074388732">
+NI-CAN:  (Hex 0xBFF62104) L'ID de propriété, d'attribut, ou le code d'opération que vous avez fourni est invalide. Solutions : lisez la documentation de la fonction et vérifiez que vous fournissez un ID valide.
+</nierror>
+<nierror code="-1074388731">
+NI-CAN:  (Hex 0xBFF62105) La taille ou la longueur que vous avez fournie est invalide. Solutions : lisez la documentation de la fonction et vérifiez que vous fournissez une taille ou une longueur valide.
+</nierror>
+<nierror code="-1074388730">
+NI-CAN:  (Hex 0xBFF62105) La longueur fournie pour la liste de transmission cadencée est invalide. Solutions : diminuez la longueur fournie à l'attribut de longueur de transmission cadencée.
+</nierror>
+<nierror code="-1074388729">
+NI-CAN:  (Hex 0xBFF62107) Vous avez essayé de créer au moins 2 notifications dans des différents "threads" d'exécution.  Solutions: créez une seule notification pour chaque objet; annulez la notification (ncCreateNotification avec DesiredState=0) avant d'appeler ncCloseObject.
+</nierror>
+<nierror code="-1074388728">
+NI-CAN:  (Hex 0xBFF62108) Les fonctions NI-CAN et NI-DNET ne peuvent pas être utilisées simultanément sur la même carte CAN (même dans le cas de cartes à 2 port).  Solution: utilisez au moins 2 cartes CAN, avec NI-CAN sur une carte et NI-DNET sur l'autre.
+</nierror>
+<nierror code="-1074388726">
+NI-CAN:  (Hex 0xBFF6210A) L'interface de langage pour NI-CAN ne peut pas trouver une DLL requise (telle que NICAN.DLL).  Solution: désinstallez NI-CAN et réinstallez.
+</nierror>
+<nierror code="-1074388725">
+NI-CAN:  (Hex 0xBFF6210B) L'interface de langage pour NI-CAN ne peut pas trouver une fonction requise dans NICAN.DLL.  Solution: désinstallez NI-CAN et réinstallez.
+</nierror>
+<nierror code="-1074388724">
+NI-CAN:  (Hex 0xBFF6210C) L'interface de langage pour NI-CAN ne peut pas acquérir une ressource requise (càd mutex).  Solution: désinstallez NI-CAN et réinstallez.
+</nierror>
+<nierror code="-1074388723">
+NI-CAN:  (Hex 0xBFF6210D) Votre application utilise une fonctionnalité non suppoortée par votre matériel NI CAN. Solutions : contactez National Instruments pour mettre à jour votre matériel CAN; consultez le manuel "Programmer Reference" pour éviter d'utiliser cette nouvelle fonctionnalité (typiquement en relation avec RTSI ou SJA1000).
+</nierror>
+<nierror code="-1074388722">
+NI-CAN:  (Hex 0xBFF6210E) Votre application utilise une fonctionnalité supportée par les anciennes cartes NI CAN Series 1 uniquement, mais vous utilisez du matériel de type Series 2 ou plus récent. Solutions : consultez le manuel "Programmer Reference" pour mettre à jour votre application afin qu'elle utilise les fonctionnalités améliorées de votre matériel.
+</nierror>
+<nierror code="-1074388721">
+NI-CAN:  (Hex 0xBFF6210F) La définition du paramètre "absolute timestamp" est  impossible lorsque des objets CAN périodiques sont en cours d'exécution. Solutions : définissez l'horodatage (timestamp) avant de démarrer les objets CAN (en utilisant ncAction).
+</nierror>
+<nierror code="-1074388720">
+NI-CAN:  (Hex 0xBFF62110) Vous ne pouvez pas utiliser l'API Frame (trames) et l'API Channel (voies) de manière simultanée sur la même interface (telle que CAN0). Les outils de MAX utilisent l'API Channel. Solution : utilisez une interface différente avec chaque API.
+</nierror>
+<nierror code="-1074388719">
+NI-CAN:  (Hex 0xBFF62111) Vous ne pouvez pas appeler ncWaitForState plus d'une fois pour le même objet. Solution : incluez tous les états désirés dans un appel unique à ncWaitForState, puis utilisez l'état renvoyé pour faire appel au code approprié dans votre application.
+</nierror>
+<nierror code="-1074388718">
+NI-CAN:  (Hex 0xBFF62112) Vous avez appelé une fonction Read avant de démarrer la tâche. Solutions : utilisez la fonction Start avant Read.
+</nierror>
+<nierror code="-1074388717">
+NI-CAN:  (Hex 0xBFF62113) Vous avez connecté deux SourceTerminal ou plus au même DestinationTerminal. Solutions : assurez-vous de réinitialiser la tâche (CLEAR) à la fin de votre application; déconnectez le SourceTerminal précédent avant de connecter le nouveau SourceTerminal.
+</nierror>
+<nierror code="-1074388716">
+NI-CAN:  (Hex 0xBFF62114) Vous avez connecté une combinaison d'un SourceTerminal et d'un DestinationTerminal qui n'est pas supportée. Solutions : référez-vous à l'entrée "ConnectTerminals" dans le manuel "Programmer Reference" pour obtenir une liste des combinaisons de terminaux valides.
+</nierror>
+<nierror code="-1074388715">
+NI-CAN:  (Hex 0xBFF62115) Le déclenchement de démarrage (start trigger) qui vous avez spécifié dans ConnectTerminals a eu lieu avant l'appel de la fonction NI-CAN Start. Par conséquent, les tâches CAN et/ou DAQ ont démarré dans le mauvais ordre. Solution : démarrez les tâches qui reçoivent le déclenchement de démarrage, puis démarrez la tâche qui le génère.
+</nierror>
+<nierror code="-1074388714">
+NI-CAN:  (Hex 0xBFF62116) La chaîne d'entrée est trop longue. Solution : consultez le "Programmer Reference" pour déterminer la longueur maximale de la chaîne(s) d'entrée.
+</nierror>
+<nierror code="-1074388713">
+NI-CAN:  (Hex 0xBFF62117) Vous avez appelé ReadMult pour un objet configuré avec Read Queue Length à zéro. Solution : configurez Read Queue Length à une valeur supérieure à zéro.
+</nierror>
+<nierror code="-1074388712">
+NI-CAN:  (Hex 0xBFF62118) Le driver NI-CAN n'a pas réussi à réinitialiser le matériel. Il existe peut-être un conflit matériel au niveau de l'IRQ de la carte ou de l'adressage mémoire. Solution : sélectionnez la carte CAN sous MAX, lancez le test d'auto-diagnostic et consultez le message d'état résultant pour obtenir plus d'information sur le problème.
+</nierror>
+<nierror code="-1074388711">
+NI-CAN:  (Hex 0xBFF62119) Vous appelez la fonction Read trop lentement pour une tâche, mais pas pour les autres. La tâche que vous lisez lentement a perdu certaines des anciennes données sur le réseau. Solution : supprimez les périodes d'attente de votre application afin de vous assurer que vous lisez les tâches CAN de manière uniforme.
+</nierror>
+<nierror code="-1074388710">
+NI-CAN:  (Hex 0xBFF6211A) Les trames CAN reçues sont copiées depuis le matériel vers un grand buffer au niveau du noyau du driver. Si votre application ne lit pas les tâches de manière suffisamment rapide pour vider ce buffer au fur et à mesure qu'il se remplit, les nouvelles trames risquent d'être perdues. Solution : faites des appels plus réguliers à la fonction Read.
+</nierror>
+<nierror code="-1074388708">
+NI-CAN:  (Hex 0xBFF6211C) Vous avez initialisé le même message avec différent modes d'E/S. Solutions : pour chaque message, n'utilisez qu'une combinaison de mode d'E/S et de vitesse d'échantillonnage (0 ou non) à la fois; utilisez une interface (port) différente pour chaque mode.
+</nierror>
+<nierror code="-1074388707">
+NI-CAN:  (Hex 0xBFF6211D) La configuration de l'interface réseau est manquante. Les attributs de l'interface Net sont supprimés lorsque l'objet final CAN est fermé (correction d'un mauvais comportement de la version 1.6). Solutions : Ouvrir/Fermer l'interface Net, même si elle est inutilisée; Configurer l'interface Net avec chaque objet CAN.
+</nierror>
+<nierror code="-1074388706">
+NI-CAN:  (Hex 0xBFF6211E) You set a transceiver mode that is not supported by your CAN hardware. For example, Single-Wire modes are not supported for High-Speed or Low-Speed / Fault-Tolerant transceivers. Solutions: Consult the manual to determine the valid transceiver modes for your hardware.
+</nierror>
+<nierror code="-1074388705">
+NI-CAN:  (Hex 0xBFF6211F) Wrong attribute / property for the transceiver mode given the current transceiver type. Solution: When transceiver type is External, use only the Transceiver External Outputs attribute. For all other transceiver types, use only the Transceiver Mode attribute.
+</nierror>
+<nierror code="-1074388704">
+NI-CAN:  (Hex 0xBFF62120) Your application uses a feature that is only supported by XS models of NI CAN hardware. For example, you tried to set the Transceiver Type. Solutions: Consult the manual to avoid the XS feature; Contact NI to upgrade your CAN hardware to XS.
+</nierror>
+<nierror code="-1074388703">
+NI-CAN:  (Hex 0xBFF62121) You cannot use the CAN transceiver (such as start communication) with the transceiver disconnected. Use the Disconnected mode only during physical switching of an external transceiver. Solutions: Set the transceiver type to Extrernal (or HS, LS, SW) before starting.
+</nierror>
+<nierror code="-1074388702">
+NI-CAN:  (Hex 0xBFF62122) You attempted to transmit (write) a frame when Listen Only is true. The CAN controller does not allow transmission while Listen Only is enabled. Solutions: Set Listen Only to false (default); Remove all code that transmits either data frames or remote frames.
+</nierror>
+<nierror code="-1074388701">
+NI-CAN:  (Hex 0xBFF62123) Attribute can be changed using ncSetAttribute only, not ncConfig. Solutions: ncConfig the Net Interface with StartOnOpen false, ncOpen the Net Interface, ncSetAttribute to change the attribute, then use ncAction to start communication.
+</nierror>
+<nierror code="-1074388700">
+NI-CAN:  (Hex 0xBFF62124) You used a baud rate that is not valid for your transceiver type. For example, Low-Speed transceivers are limited to 125k, and Single-Wire transceivers are limited to 100k. Solutions: Use MAX to specify a valid baud rate in the interface's Properties dialog; For the Frame API, specify a valid baud rate in the Config function for the Net Interface.
+</nierror>
+<nierror code="-1074388699">
+NI-CAN:  (Hex 0xBFF62125) NI-CAN copies received CAN frames from the card to a large kernel-level queue.  There is one queue for each interface (port). If your application does not Read fast enough to empty this queue over time, the newest frames are lost.  Solutions: Call Read more frequently (such as by reducing user-interface code); Avoid running other applications during your test (screen savers, MAX, ...); use Series 2 Filter Mode to filter incoming traffic.
+</nierror>
+<nierror code="-1074388480">
+NI-CAN:  (Hex 0xBFF62200) Le nombre maximum de tâches a été dépassé. Solutions : réduire le nombre de tâches dans votre application; si vous utilisez plusieurs tâches pour le même message, combinez-les afin d'utiliser une tâche par message.
+</nierror>
+<nierror code="-1074388479">
+NI-CAN:  (Hex 0xBFF62201) Voie non trouvée dans MAX ou dans le fichier de base de données CAN. Solutions : vérifiez le nom de la voie sous MAX; pour les propriétés Get/Set, vérifiez que le nom de voie existe dans la tâche.
+</nierror>
+<nierror code="-1074388478">
+NI-CAN:  (Hex 0xBFF62202) La voie existe dans plusieurs messages, mais vous n'avez pas associé le nom de voie au nom de message. Solution : ajoutez le nom de message au nom de voie en utilisant la syntaxe message.voie.
+</nierror>
+<nierror code="-1074388477">
+NI-CAN:  (Hex 0xBFF62203) Deux messages ou plus utilisent le même ID d'arbitration. Solution : sous MAX ou dans votre application, assurez-vous que l'ID d'arbitration n'est utilisé que pour un message.
+</nierror>
+<nierror code="-1074388476">
+NI-CAN:  (Hex 0xBFF62204) Le paramètre de sortie de chaîne est trop court pour contenir la chaîne complète en retour. Solution : consultez le manuel "Programmer Reference" pour déterminer la longueur maximale des chaînes de sortie.
+</nierror>
+<nierror code="-1074388475">
+NI-CAN:  (Hex 0xBFF62205) Échec lors de l'ouverture du fichier de base de données CAN. Solutions : vérifiez que le chemin du fichier est conforme à la syntaxe Windows; vérifiez que le fichier existe sur votre système.
+</nierror>
+<nierror code="-1074388474">
+NI-CAN:  (Hex 0xBFF62206) Vous avez initialisé la tâche en mode d'accès single-sample (échantillon unique) en spécifiant sample rate = 0, mais vous avez appelé la fonction Read ou Write avec un nombre d'échantillons supérieur à un. Solutions : utilisez un sample rate supérieur à zéro; passez 1 comme paramètre de la fonction Read ou Write.
+</nierror>
+<nierror code="-1074388473">
+NI-CAN:  (Hex 0xBFF62207) Vous avez transmis NULL pour le pointeur spécifié. Solution : consultez le manuel "Programmer Reference" pour vous apprendre à passer des pointeurs valides à la fonction.
+</nierror>
+<nierror code="-1074388472">
+NI-CAN:  (Hex 0xBFF62208) Impossible d'utiliser une entrée timestamped (horodatée) avec une tâche dont les voies s'étendent sur plusieurs messages. Les timestamps (horodatages) seraient ambigus pour de telles tâches. Solution : initialiser une tâche séparée pour chaque message.
+</nierror>
+<nierror code="-1074388471">
+NI-CAN:  (Hex 0xBFF62209) Votre appel à la fonction Read ou Write ne correspond pas au mode d'initialisation d'entrée ou de sortie choisi. Par exemple, vous avez appelé la fonction Read pour une tâche initialisée comme sortie. Solution : consultez le manuel "Programmer Reference" pour vous assurer que le mode d'initialisation correspond à la fonction read/write.
+</nierror>
+<nierror code="-1074388470">
+NI-CAN:  (Hex 0xBFF6220A) Vous avez défini la propriété de timeout comme supérieure à zéro et la fonction Read de lecture d'échantillons horodatés a détecté un timeout avant que le nombre désiré d'échantillons soit arrivé. Solutions : définissez timeout à zéro pour pouvoir détecter les échantillons présents; augmentez la propriété de timeout.
+</nierror>
+<nierror code="-1074388469">
+NI-CAN:  (Hex 0xBFF6220B) Vous n'avez pas spécifié l'interface à initialiser et il en existe plus d'une sous MAX. Solutions : utilisez MAX pour assigner la même interface par défaut à toutes les voies de la tâche; spécifiez l'interface à initialiser.
+</nierror>
+<nierror code="-1074388468">
+NI-CAN:  (Hex 0xBFF6220C) L'interface transmet des trames mais aucun périphérique sur le réseau ne confirme leur reception (acknowledging). Solutions : lors d'utilisation d'exemples port à port, démarrez l'exemple de réception en premier; vérifiez votre câblage CAN et les terminaisons de bus.
+</nierror>
+<nierror code="-1074388466">
+NI-CAN:  (Hex 0xBFF6220E) Le déclenchement de démarrage n'a pas eu lieu pour la tâche spécifiée. Vous avez routé le signal de déclenchement de démarrage de sorte qu'il provienne du bus RTSI ou d'un autre terminal mais aucune impulsion ne s'est produite sur cette ligne. Solution : démarrez la tâche CAN, puis démarrez la tâche DAQ (ou autre) juste après.
+</nierror>
+<nierror code="-1074388465">
+NI-CAN:  (Hex 0xBFF6220F) Message introuvable dans le fichier de base de données MAX ou CAN. Solutions : vérifiez l'orthographe sous MAX.
+</nierror>
+<nierror code="-1074388464">
+NI-CAN:  (Hex 0xBFF62210) You created a message for the Channel API with a data length greater than 8 bytes. The CAN protocol supports only 8 bytes messages. Larger messages require a higher-level protocol on top of CAN, such as SAE-J1939. Solutions: Configure the number of bytes per message to 8 bytes or less.
+</nierror>
+<nierror code="-1074388463">
+NI-CAN:  (Hex 0xBFF62211) You called Read or Write with number of samples 0. You must read or write a buffer of at least one sample. Solutions: Use number of samples greater than or equal to 1.
+</nierror>
+<nierror code="1073094662">
+NI-CAN:  (Hex 0x3FF62006) L'objet est déjà ouvert mais vous êtes autorisé à utiliser une deuxième session.  Solutions: assurez-vous que l'objet n'est utilisé que par une seule application à la fois et que vous avez fermé tous les objets avant de quitter votre application (n'utilisez pas le bouton Abandonner l'exécution dans la barre d'outils de LabVIEW).
+</nierror>
+<nierror code="1073094665">
+NI-CAN:  (Hex 0x3FF62009) Les données renvoyées par cet appel à Read sont identiques aux données du précédent appel. Solutions : si vous voulez uniquement les dernières données, ignorez cette mise en garde. Si vous souhaitez de nouvelles données, utilisez l'état Read Avail avant d'appeler la fonction Read.
+</nierror>
+<nierror code="1073094667">
+NI-CAN:  (Hex 0x3FF6200B) Problème détecté au niveau du bus CAN, mais la communication continue. Cette mise en garde correspond à un état passif d'erreur CAN. Solutions : vérifiez que le câblage est correct, que les périphériques sont connectés et opérationnels et que le bus est correctement alimenté.
+</nierror>
+<nierror code="1073094668">
+NI-CAN:  (Hex 0x3FF6200C) Avertissement de l'émetteur-récepteur CAN à basse-vitesse.  Un défaut existe sur le bus mais la communication continue.  Solution: verifiez que le câblage est correct.
+</nierror>
+<nierror code="1073094677">
+NI-CAN:  (Hex 0x3FF62015) La fonction de notification de l'utilisateur n'a pas rendu la main. L'objet a été fermé de toute façon. Solutions : supprimez les grandes boucles ou tout code lent à exécuter de la fonction utilisée avec Create Notification.
+</nierror>
+<nierror code="1073094699">
+NI-CAN:  (Hex 0x3FF6202B) Problème détecté au niveau du bus CAN (erreur de remplissage), mais la communication continue. Cette mise en garde correspond à un état passif d'erreur CAN. Solutions : vérifiez que le câblage est correct, que les périphériques sont connectés et opérationnels et que le bus est correctement alimenté.
+</nierror>
+<nierror code="1073094701">
+NI-CAN:  (Hex 0x3FF6202D) Dépassement des limites des ressources pour les queues en mémoire partagée entre le firmware et le driver. La performance de lecture ou d'écriture de queue est réduite. Solutions : diminuez les longueurs de queues dans les objets ; diminuez le nombre total d'objets.
+</nierror>
+<nierror code="1073094731">
+NI-CAN:  (Hex 0x3FF6204B) Problème détecté au niveau du bus CAN (mauvais format de trame), mais la communication continue. Cette mise en garde correspond à un état passif d'erreur CAN. Solutions : vérifiez que le câblage est correct, que les périphériques sont connectés et opérationnels et que le bus est correctement alimenté.
+</nierror>
+<nierror code="1073094763">
+NI-CAN:  (Hex 0x3FF6206B) Problème détecté au niveau du bus CAN (pas d'ack), mais la communication continue. Cette mise en garde correspond à un état passif d'erreur CAN. Solutions : vérifiez que le câblage est correct, que les périphériques sont connectés et opérationnels et que le bus est correctement alimenté.
+</nierror>
+<nierror code="1073094795">
+NI-CAN:  (Hex 0x3FF6208B) Problème détecté au niveau du bus CAN (tx 1,rx 0), mais la communication continue. Cette mise en garde correspond à un état passif d'erreur CAN. Solutions : vérifiez que le câblage est correct, que les périphériques sont connectés et opérationnels et que le bus est correctement alimenté.
+</nierror>
+<nierror code="1073094827">
+NI-CAN:  (Hex 0x3FF620AB) Problème détecté au niveau du bus CAN (tx 0,rx 1), mais la communication continue. Cette mise en garde correspond à un état passif d'erreur CAN. Solutions : vérifiez que le câblage est correct, que les périphériques sont connectés et opérationnels et que le bus est correctement alimenté.
+</nierror>
+<nierror code="1073094859">
+NI-CAN:  (Hex 0x3FF620CB) Problème détecté au niveau du bus CAN (mauvais CRC), mais la communication continue. Cette mise en garde correspond à un état passif d'erreur CAN. Solutions : vérifiez que le câblage est correct, que les périphériques sont connectés et opérationnels et que le bus est correctement alimenté.
+</nierror>
+<nierror code="1073094891">
+NI-CAN:  (Hex 0x3FF620EB) CAN bus problems detected (unknown Intel 82527 error), but communication is proceeding. This warning corresponds to CAN Error Passive state. Solutions: Verify that cabling is correct, devices are connected and operational, and proper bus power is applied.
+</nierror>
+<nierror code="1073094917">
+NI-CAN:  (Hex 0x3FF62105) La taille ou la longueur que vous avez spécifiée est invalide (trop grande ou trop petite), mais l'opération s'est poursuivie avec succès. Solution: lisez la description de la fonction et vérifiez que vous spécifiez bien une taille (ou longueur) valide.
+</nierror>
+<nierror code="1073094921">
+NI-CAN:  (Hex 0x3FF62109) Les vitesses d'échantillonnage combinées de tous les messages impliquent une gestion du temps qui est trop rapide. Solutions : dimininez le nombre de messages ; diminuez une ou plusieurs vitesse d'échantillonnage ; pour l'API de trames (Frame), utilisez une interface réseau pour toute réception.
+</nierror>
+<nierror code="1073095174">
+NI-CAN:  (Hex 0x3FF62206) Your task is initialized with sample rate 0, but you Read or Write more than a single sample. Since unsampled frame transfer uses only a single sample, the additional samples are redundant. Solutions: Read or Write only one sample (single-sample modes).
+</nierror>
+<nierror code="1073095181">
+NI-CAN:  (Hex 0x3FF6220D) Task is already running, and you called Start. The additional Start is ignored. Solutions: If you use InitStart for a task, an additional Start is not required.
+</nierror>
+</nidocument>

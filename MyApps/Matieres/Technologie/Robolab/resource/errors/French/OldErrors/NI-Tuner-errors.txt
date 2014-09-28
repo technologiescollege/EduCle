@@ -1,0 +1,99 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="-27026">
+NI-Tuner:  La longueur de l'impulsion "ready pulse" spécifiée est hors gamme
+</nierror>
+<nierror code="-27025">
+NI-Tuner:  Les polarités du signal ne peuvent être que 'Active High' ou 'Active Low'.
+</nierror>
+<nierror code="-27024">
+NI-Tuner:  Un type de signal inconnu a été spécifié
+</nierror>
+<nierror code="-27023">
+NI-Tuner:  Un chemin de signal inconnu a été spécifié
+</nierror>
+<nierror code="-27021">
+NI-Tuner:  L'attribut requis n'est pas utilisé dans cette fonction
+</nierror>
+<nierror code="-27020">
+NI-Tuner:  Le téléchargement dans le FPGA a échoué
+</nierror>
+<nierror code="-27019">
+NI-Tuner:  Échec lors de l'initialisation du chip de programmation FGPA.
+</nierror>
+<nierror code="-27018">
+NI-Tuner:  Un des paramètres était 'NULL', le rendant inutilisable. Veuillez allouer de la mémoire pour le paramètre.
+</nierror>
+<nierror code="-27017">
+NI-Tuner:  Ce paramétrage tente d'envoyer des signaux dans deux directions différentes en même temps
+</nierror>
+<nierror code="-27016">
+NI-Tuner:  PLL inconnue
+</nierror>
+<nierror code="-27015">
+NI-Tuner:  Paramètre RTSI invalide
+</nierror>
+<nierror code="-27014">
+NI-Tuner:  Initialisez le PXI-5600 avant d'appeler cette fonction.
+</nierror>
+<nierror code="-27013">
+NI-Tuner:  Réinitialisez le PXI-5600 avant d'appeler cette fonction.
+</nierror>
+<nierror code="-27012">
+NI-Tuner:  La valeur est hors gamme
+</nierror>
+<nierror code="-27011">
+NI-Tuner:  La plage doit être comprise entre 0 et 20 MHz inclus.
+</nierror>
+<nierror code="-27010">
+NI-Tuner:  La taille du tableau doit être positive
+</nierror>
+<nierror code="-27008">
+NI-Tuner:  Impossible d'écrire des données dans l'EEPROM: échec de la vérification des données écrites
+</nierror>
+<nierror code="-27007">
+NI-Tuner:  Impossible d'obtenir un lien direct vers les registres du périphérique PXI-5600.
+</nierror>
+<nierror code="-27006">
+NI-Tuner:  Le transfert par DMA a échoué
+</nierror>
+<nierror code="-27005">
+NI-Tuner:  Le relais d'atténuation est occupé. Il s'agit d'un problème lié au matériel.
+</nierror>
+<nierror code="-27004">
+NI-Tuner:  Le convertisseur abaisseur de fréquence est occupé. Sa machine d'état interne pourrait être bloquée.
+</nierror>
+<nierror code="-27003">
+NI-Tuner:  Le compteur de fréquence a atteint le temps limite
+</nierror>
+<nierror code="-27002">
+NI-Tuner:  Impossible d'allouer la mémoire
+</nierror>
+<nierror code="-27001">
+NI-Tuner:  Une trop grande taille d'octet a été spécifiée pour cette chaîne série. Il s'agit d'un problème interne lié au driver.
+</nierror>
+<nierror code="27009">
+NI-Tuner:  Impossible de charger les paramètres d'étalonnage
+</nierror>
+<nierror code="27022">
+NI-Tuner:  Les niveaux d'atténuation requis ont été contraints dans une gamme de 0 à 80 dBm.
+</nierror>
+<nierror code="27027">
+NI-Tuner:  Le niveau de mélangeur spécifié ne tombe pas entre le niveau de référence et le niveau de référence amoindri de 50 dBm.
+</nierror>
+<nierror code="27028">
+NI-Tuner:  Le niveau de référence ne peut pas excéder 50 dBm. Le paramètre du niveau de mélangeur est contraint à 50 dBm.
+</nierror>
+<nierror code="27029">
+NI-Tuner:  Les fréquences d'entrée supérieures à 2.7 GHz sont situées en dehors des spécifications et peuvent renvoyer des données invalides.
+</nierror>
+<nierror code="27030">
+NI-Tuner:  Le niveau du mélangeur ne peut pas excéder 0 dBm. Le paramètre du niveau de mélangeur est contraint à 0 dBm.
+</nierror>
+<nierror code="27031">
+NI-Tuner:  Un niveau de mélangeur de moins de 30 dBm produit une I.F. en sortie en-dessous du niveau nominal de 0 dBm. Reportez-vous à votre 'NI-TUNER Reference Help'.
+</nierror>
+</nidocument>

@@ -1,0 +1,51 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="-40014">
+HiQ:  印刷エラー
+</nierror>
+<nierror code="-40013">
+HiQ:  ノートブックを保存できません
+</nierror>
+<nierror code="-40012">
+HiQ:  内部エラー
+</nierror>
+<nierror code="-40011">
+HiQ:  不明な例外ｴﾗｰ
+</nierror>
+<nierror code="-40010">
+HiQ:  データ変換エラー
+</nierror>
+<nierror code="-40009">
+HiQ:  操作を行うにはメモリが足りません
+</nierror>
+<nierror code="-40008">
+HiQ:  配列は空です
+</nierror>
+<nierror code="-40007">
+HiQ:  スクリプトランタイムエラー
+</nierror>
+<nierror code="-40006">
+HiQ:  スクリプトコンパイルエラー
+</nierror>
+<nierror code="-40005">
+HiQ:  操作はサポートされていません
+</nierror>
+<nierror code="-40004">
+HiQ:  データタイプが競合しています
+</nierror>
+<nierror code="-40003">
+HiQ:  データタイプはロックされています。変更できません。
+</nierror>
+<nierror code="-40002">
+HiQ:  オブジェクトは存在しません
+</nierror>
+<nierror code="-40001">
+HiQ:  オブジェクトはロックされています。変更できません。
+</nierror>
+<nierror code="-40000">
+HiQ:  ノートブックを開けません
+</nierror>
+</nidocument>

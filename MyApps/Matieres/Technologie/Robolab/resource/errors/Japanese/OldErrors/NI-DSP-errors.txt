@@ -1,0 +1,219 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="-21345">
+NI-DSP:  割り当てるﾊﾞｲﾄ数は1以上でなければなりません。
+</nierror>
+<nierror code="-21344">
+NI-DSP:  ﾃﾞｰﾀ長は次の長さに限ります：4 ﾊﾞｲﾄ(0) 、 2 ﾊﾞｲﾄ(1).
+</nierror>
+<nierror code="-21343">
+NI-DSP:  ｻｲｽﾞ+ｵﾌｾｯﾄの和は指標付けするDSPﾊﾝﾄﾞﾙ構造体のｻｲｽﾞ以上でなければなりません。
+</nierror>
+<nierror code="-21342">
+NI-DSP:  新規DSPﾊﾝﾄﾞﾙ構造体は1以上に設定する必要があります。
+</nierror>
+<nierror code="-21341">
+NI-DSP:  ｵﾌｾｯﾄは1以上に設定する必要があります。
+</nierror>
+<nierror code="-21340">
+NI-DSP:  ｺﾋﾟｰするﾃﾞｰﾀ数は1以上に設定する必要があります。
+</nierror>
+<nierror code="-21339">
+NI-DSP:  全体/一部 ｺﾋﾟｰｾﾚｸﾀは次の設定に限ります： 全体をｺﾋﾟｰ (0) 一部をｺﾋﾟｰ (1)
+</nierror>
+<nierror code="-21338">
+NI-DSP:  ﾊﾟｽ名は256文字に限ります。
+</nierror>
+<nierror code="-21337">
+NI-DSP:  配列ﾀｲﾌﾟは次の種類に限ります：　　32-浮動小数点ﾃﾞｰﾀ(0)、 16-ﾋﾞｯﾄ 倍精度整数ﾃﾞｰﾀ(1) 、 32-ﾋﾞｯﾄ単精度整数ﾃﾞｰﾀ(2)
+</nierror>
+<nierror code="-21336">
+NI-DSP:  LabVIEW配列の割り当てに失敗しました。
+</nierror>
+<nierror code="-21335">
+NI-DSP:  ソースは一つしか選択できません。
+</nierror>
+<nierror code="-21334">
+NI-DSP:  ﾊﾞｲﾄ数/要素ｾﾚｸﾀは 4 bytes(0) と2 bytes(1)に限ります。
+</nierror>
+<nierror code="-21333">
+NI-DSP:  CINにGetIndirectFunctionHandle関数をﾛｰﾄﾞ中にｴﾗｰが発生しました。
+</nierror>
+<nierror code="-21332">
+NI-DSP:  CINにdsp.dllの関数をﾛｰﾄﾞしている間にｴﾗｰが発生しました。
+</nierror>
+<nierror code="-21331">
+NI-DSP:  CINにdsp.dllをﾛｰﾄﾞしている間にｴﾗｰが発生しました。
+</nierror>
+<nierror code="-21325">
+NI-DSP:  指定された関数 IDは現在ﾎﾞｰﾄﾞ上で実行されているDSPﾗｲﾌﾞﾗﾘのｸﾞﾙｰﾌﾟに含まれておりません。
+</nierror>
+<nierror code="-21324">
+NI-DSP:  指定された関数 IDは現在ﾎﾞｰﾄﾞ上で実行されているDSPﾗｲﾌﾞﾗﾘの関数と該当しません。
+</nierror>
+<nierror code="-21318">
+NI-DSP:  COFFﾌｧｲﾙをﾛｰﾄﾞするﾎﾞｰﾄﾞはﾌｧｲﾙの転送に反応していません。ﾎﾞｰﾄﾞが正しい拡張ｽﾛｯﾄに刺さっているか、DAQCONFﾕｰﾃｨﾘﾃｨで確認して下さい。
+</nierror>
+<nierror code="-21317">
+NI-DSP:  ﾛｰﾄﾞしているCOFFﾌｧｲﾙはWE DSP32Cﾁｯﾌﾟで制限されている最高ﾒﾓﾘ容量を超えるﾒﾓﾘﾏｯﾌﾟとﾘﾝｸされています(2^24)。
+</nierror>
+<nierror code="-21315">
+NI-DSP:  適用されていないｾｸｼｮﾝﾌﾗｸﾞがCOFFﾌｧｲﾙに見つかりました。
+</nierror>
+<nierror code="-21314">
+NI-DSP:  WE DSP32Cﾂｰﾙで作成されていないﾌｧｲﾙをDSPﾎﾞｰﾄﾞにﾛｰﾄﾞしています (無効なCOFFﾌｧｲﾙ)。
+</nierror>
+<nierror code="-21313">
+NI-DSP:  DAQCONFﾕｰﾃｨﾘﾃｨで設定されたﾃﾞｨﾚｸﾄﾘにDSPﾗｲﾌﾞﾗﾘﾌｧｲﾙが見つかりませんでした。
+</nierror>
+<nierror code="-21312">
+NI-DSP:  選択された時間制限内にｶｰﾈﾙは関数の実行を完了または応答できませんでした。
+</nierror>
+<nierror code="-21311">
+NI-DSP:  インタフェースコードにハンドルを割り当てるのに失敗しました。
+</nierror>
+<nierror code="-21310">
+NI-DSP:  使用されているDSPﾊﾝﾄﾞﾙは関数のﾘｸｴｽﾄを行ったﾎﾞｰﾄﾞのﾊﾝﾄﾞﾙとは違います。
+</nierror>
+<nierror code="-21309">
+NI-DSP:  指定されたDSPﾊﾝﾄﾞﾙはこのﾎﾞｰﾄﾞでは無効です。割り当てられていないのか、既に開放されています。
+</nierror>
+<nierror code="-21308">
+NI-DSP:  要求されたﾌﾞﾛｯｸ転送に割り当てられている容量が足りません。
+</nierror>
+<nierror code="-21307">
+NI-DSP:  一つのﾊﾟﾗﾒｰﾀに割り当てられている容量が足りません。
+</nierror>
+<nierror code="-21306">
+NI-DSP:  ﾊﾞｯﾌｧを開放するためのDSPｱﾄﾞﾚｽﾎﾟｲﾝﾀが見つかりませんでした。
+</nierror>
+<nierror code="-21305">
+NI-DSP:  ﾒﾓﾘ索引表(LUT)が一杯です；これ以上のDSPﾊﾝﾄﾞﾙを割り当てるにはいくつかのﾊﾝﾄﾞﾙを開放する必要があります。 (最高数 = 128)
+</nierror>
+<nierror code="-21304">
+NI-DSP:  指定されたDSPﾊﾝﾄﾞﾙはﾎﾞｰﾄﾞ上に見つかりませんでした。割り当てられていないのか、既に開放されています。
+</nierror>
+<nierror code="-21303">
+NI-DSP:  要求された指標はﾊﾞｯﾌｧ外にあります。
+</nierror>
+<nierror code="-21302">
+NI-DSP:  DSPボード上にバッファが割り当てられていません。
+</nierror>
+<nierror code="-21301">
+NI-DSP:  ﾎﾞｰﾄﾞ上のﾊｰﾄﾞｳｪｱ診断ｿﾌﾄがﾒﾓﾘﾊｰﾄﾞｳｪｱｴﾗｰを検出しました。ﾎﾞｰﾄﾞ上に関数を実行するときに問題が生じます。
+</nierror>
+<nierror code="-21297">
+NI-DSP:  入力配列の長さは2の累乗でなければなりません：　ｻｲｽﾞ = 2^m　； 0 < m < 14
+</nierror>
+<nierror code="-21251">
+NI-DSP:  ﾌｨﾙﾀのﾗﾝｸ(階数)は次の条件を満たす必要があります：　 1 <= (2ﾗﾝｸ+1) <= ｻｲｽﾞ
+</nierror>
+<nierror code="-21250">
+NI-DSP:  係数の数は1以上でなければなりません。
+</nierror>
+<nierror code="-21249">
+NI-DSP:  指定された入力ﾊﾟﾗﾒｰﾀではﾌｨﾙﾀを設計できません。
+</nierror>
+<nierror code="-21248">
+NI-DSP:  漏れ係数 Leak は次の条件を満たす必要があります：  0 <= Leak <= u　； u = ｽﾃｯﾌﾟｻｲｽﾞﾊﾟﾗﾒｰﾀ
+</nierror>
+<nierror code="-21246">
+NI-DSP:  ｽﾃｯﾌﾟｻｲｽﾞﾊﾟﾗﾒｰﾀ p は次の条件を満たす必要があります：
+</nierror>
+<nierror code="-21245">
+NI-DSP:  減衰はﾘﾌﾟﾙの振幅より大きくなければなりません。
+</nierror>
+<nierror code="-21243">
+NI-DSP:  入力ﾍﾞｸﾄﾙはnullです。単位ﾍﾞｸﾄﾙは存在しません。
+</nierror>
+<nierror code="-21242">
+NI-DSP:  入力シーケンスのサイズは1以上でなければなりません。
+</nierror>
+<nierror code="-21237">
+NI-DSP:  幅は1以上でなければなりません。
+</nierror>
+<nierror code="-21236">
+NI-DSP:  減衰は1以上でなければなりません。
+</nierror>
+<nierror code="-21235">
+NI-DSP:  リプル振幅は1以上でなければなりません。
+</nierror>
+<nierror code="-21234">
+NI-DSP:  次の条件を満たす必要があります：　0 <= f_low < f_high <= fs/2
+</nierror>
+<nierror code="-21233">
+NI-DSP:  遮断周波数(fc)は次の条件を満たす必要があります：　　0 < fc <=fs/2；fs=ｻﾝﾌﾟﾘﾝｸﾞ周波数
+</nierror>
+<nierror code="-21229">
+NI-DSP:  たたみ込み配列の要素数は1以上に設定してください。
+</nierror>
+<nierror code="-21228">
+NI-DSP:  オーダーは1以上でなければなりません。
+</nierror>
+<nierror code="-21227">
+NI-DSP:  配列サイズはオーダーより大きくなければなりません。
+</nierror>
+<nierror code="-21226">
+NI-DSP:  Ax=yにあるyの数値は全て正、あるいは全て負でなければなりません。
+</nierror>
+<nierror code="-21225">
+NI-DSP:  ｲﾝﾀｰﾊﾞﾙ数は1以上でなければなりません。
+</nierror>
+<nierror code="-21223">
+NI-DSP:  上限値は下限値以上でなければなりません。
+</nierror>
+<nierror code="-21221">
+NI-DSP:  ｻｲｸﾙ数は1以上のｻﾝﾌﾟﾙ数以下に設定して下さい。
+</nierror>
+<nierror code="-21220">
+NI-DSP:  ﾃﾞｭｰﾃｨｻｲｸﾙは次の条件を満たす必要があります：  0 <= ﾃﾞｭｰﾃｨｻｲｸﾙ <= 100.
+</nierror>
+<nierror code="-21219">
+NI-DSP:  dtは1以上でなければなりません。
+</nierror>
+<nierror code="-21218">
+NI-DSP:  ｳｨﾝﾄﾞｳﾃﾞｭｰﾃｨｻｲｸﾙは0.0と0.1の間でなければなりません。
+</nierror>
+<nierror code="-21217">
+NI-DSP:  次の条件を満たす必要があります：　0 <= ( 遅延　+ 幅) < ｻﾝﾌﾟﾙ数
+</nierror>
+<nierror code="-21216">
+NI-DSP:  幅は0以上でなければなりません。
+</nierror>
+<nierror code="-21215">
+NI-DSP:  遅延は0以上でなければなりません。
+</nierror>
+<nierror code="-21214">
+NI-DSP:  指標は次の条件を満たす必要があります：　　0 <= 指標 < ｻﾝﾌﾟﾙ数
+</nierror>
+<nierror code="-21213">
+NI-DSP:  幅は次の条件を満たす必要があります：　0<幅<ｻﾝﾌﾟﾙ数
+</nierror>
+<nierror code="-21212">
+NI-DSP:  分割因数は次の条件を満たす必要があります：  0 < 分割因数 <= ｻﾝﾌﾟﾙ数
+</nierror>
+<nierror code="-21210">
+NI-DSP:  ﾎﾞｰﾄﾞ上の処理を行うためには空き容量が足りません。
+</nierror>
+<nierror code="-21209">
+NI-DSP:  出力配列ｻｲｽﾞは入力配列ｻｲｽﾞ以上でなければなりません。
+</nierror>
+<nierror code="-21208">
+NI-DSP:  xのｻｲｽﾞはyのｻｲｽﾞ以上でなければなりません。
+</nierror>
+<nierror code="-21207">
+NI-DSP:  入力ｼｰｹﾝｽのｻｲｽﾞは0以上でなければなりません。
+</nierror>
+<nierror code="-21206">
+NI-DSP:  ｻﾝﾌﾟﾙ数は2以上でなければなりません。
+</nierror>
+<nierror code="-21205">
+NI-DSP:  ｻﾝﾌﾟﾙ数は0以上でなければなりません。
+</nierror>
+<nierror code="-21204">
+NI-DSP:  ｻﾝﾌﾟﾙ数は1以上でなければなりません。
+</nierror>
+</nidocument>

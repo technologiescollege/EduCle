@@ -1,0 +1,180 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="15110">
+G Internet Toolkit:  (Hex 0x00003B06) 110 ﾏｰｶｰ応答を再開。
+</nierror>
+<nierror code="15120">
+G Internet Toolkit:  (Hex 0x00003B10) 120 nnn分でｻｰﾋﾞｽの準備が完了します。
+</nierror>
+<nierror code="15125">
+G Internet Toolkit:  (Hex 0x00003B15) 125 ﾃﾞｰﾀｺﾈｸｼｮﾝは既に開かれています;転送が開始されています。
+</nierror>
+<nierror code="15150">
+G Internet Toolkit:  (Hex 0x00003B2E) 150 ﾌｧｲﾙｽﾃｰﾀｽは正常です; ﾃﾞｰﾀｺﾈｸｼｮﾝを接続します。
+</nierror>
+<nierror code="15200">
+G Internet Toolkit:  (Hex 0x00003B60) 200 ｺﾏﾝﾄﾞは正常です。
+</nierror>
+<nierror code="15202">
+G Internet Toolkit:  (Hex 0x00003B62) 202 ｺﾏﾝﾄﾞは適用されませんでした。このｻｲﾄでは不要です。
+</nierror>
+<nierror code="15211">
+G Internet Toolkit:  (Hex 0x00003B6B) 211 ｼｽﾃﾑｽﾃｰﾀｽ、またはｼｽﾃﾑﾍﾙﾌﾟ応答。
+</nierror>
+<nierror code="15212">
+G Internet Toolkit:  (Hex 0x00003B6C) 212 ﾃﾞｨﾚｸﾄﾘｽﾃｰﾀｽ
+</nierror>
+<nierror code="15213">
+G Internet Toolkit:  (Hex 0x00003B6D) 213 ﾌｧｲﾙｽﾃｰﾀｽ
+</nierror>
+<nierror code="15214">
+G Internet Toolkit:  (Hex 0x00003B6E) 214 ﾍﾙﾌﾟﾒｯｾｰｼﾞ
+</nierror>
+<nierror code="15215">
+G Internet Toolkit:  (Hex 0x00003B6F) 215 NAME ｼｽﾃﾑﾀｲﾌﾟ
+</nierror>
+<nierror code="15220">
+G Internet Toolkit:  (Hex 0x00003B74) 220 新しいﾕｰｻﾞのためににｻｰﾋﾞｽの準備が完了しました。
+</nierror>
+<nierror code="15221">
+G Internet Toolkit:  (Hex 0x00003B75) 221 ｻｰﾋﾞｽはｺﾝﾄﾛｰﾙｺﾈｸｼｮﾝを切断します。
+</nierror>
+<nierror code="15225">
+G Internet Toolkit:  (Hex 0x00003B79) 225 ﾃﾞｰﾀｺﾈｸｼｮﾝは開いています; ﾃﾞｰﾀ転送は行われていません。
+</nierror>
+<nierror code="15226">
+G Internet Toolkit:  (Hex 0x00003B7A) 226 ﾃﾞｰﾀｺﾈｸｼｮﾝを切断します。
+</nierror>
+<nierror code="15227">
+G Internet Toolkit:  (Hex 0x00003B7B) "227 Passive ﾓｰﾄﾞに入ります。 (h1,h2,h3,h4,p1,p2)."
+</nierror>
+<nierror code="15230">
+G Internet Toolkit:  (Hex 0x00003B7E) 230 ﾕｰｻﾞﾛｸﾞｲﾝ済み。継続可能。
+</nierror>
+<nierror code="15250">
+G Internet Toolkit:  (Hex 0x00003B92) 250 要求されたﾌｧｲﾙ操作は正常に完了しました。
+</nierror>
+<nierror code="15257">
+G Internet Toolkit:  (Hex 0x00003B99) "257 ""PATHNAME""が作成されました。"
+</nierror>
+<nierror code="15331">
+G Internet Toolkit:  (Hex 0x00003BE3) 331 ﾕｰｻﾞ名にﾊﾟｽﾜｰﾄﾞが必要です。
+</nierror>
+<nierror code="15332">
+G Internet Toolkit:  (Hex 0x00003BE4) 332　ﾛｸﾞｲﾝのため、ｱｶｳﾝﾄが必要です。
+</nierror>
+<nierror code="15350">
+G Internet Toolkit:  (Hex 0x00003BF6) 350 要求されたﾌｧｲﾙ操作は追加情報待ち。
+</nierror>
+<nierror code="15421">
+G Internet Toolkit:  (Hex 0x00003C3D) 421 ｻｰﾋﾞｽを利用できません。ｺﾝﾄﾛｰﾙｺﾈｸｼｮﾝを切断します。
+</nierror>
+<nierror code="15425">
+G Internet Toolkit:  (Hex 0x00003C41) 425 ﾃﾞｰﾀｺﾈｸｼｮﾝを開けません。
+</nierror>
+<nierror code="15426">
+G Internet Toolkit:  (Hex 0x00003C42) 426 ｺﾈｸｼｮﾝを切断；転送は中断されました。
+</nierror>
+<nierror code="15450">
+G Internet Toolkit:  (Hex 0x00003C5A) 450 要求されたﾌｧｲﾙ操作は実行されませんでした。
+</nierror>
+<nierror code="15451">
+G Internet Toolkit:  (Hex 0x00003C5B) 451 要求された操作は中断されました； 処理中にﾛｰｶﾙｴﾗｰが発生。
+</nierror>
+<nierror code="15452">
+G Internet Toolkit:  (Hex 0x00003C5C) 452 要求された操作は実行されませんでした。
+</nierror>
+<nierror code="15500">
+G Internet Toolkit:  (Hex 0x00003C8C) 500 構文ｴﾗｰ；不明なｺﾏﾝﾄﾞ
+</nierror>
+<nierror code="15501">
+G Internet Toolkit:  (Hex 0x00003C8D) 501 引数に構文ｴﾗｰがあります。
+</nierror>
+<nierror code="15502">
+G Internet Toolkit:  (Hex 0x00003C8E) 502 ｺﾏﾝﾄﾞは適用されていません。
+</nierror>
+<nierror code="15503">
+G Internet Toolkit:  (Hex 0x00003C8F) 503 ｺﾏﾝﾄﾞ順序が無効
+</nierror>
+<nierror code="15504">
+G Internet Toolkit:  (Hex 0x00003C90) 504 指定されたﾊﾟﾗﾒｰﾀにｺﾏﾝﾄﾞは適用されていません。
+</nierror>
+<nierror code="15530">
+G Internet Toolkit:  (Hex 0x00003CAA) 530 ﾛｸﾞｲﾝしていません。
+</nierror>
+<nierror code="15532">
+G Internet Toolkit:  (Hex 0x00003CAC) 532 ﾌｧｲﾙの格納にはｱｶｳﾝﾄが必要です。
+</nierror>
+<nierror code="15550">
+G Internet Toolkit:  (Hex 0x00003CBE) 550 要求された操作は実行されていません。
+</nierror>
+<nierror code="15551">
+G Internet Toolkit:  (Hex 0x00003CBF) 551 要求された操作は中断されました；不明なﾍﾟｰｼﾞﾀｲﾌﾟ
+</nierror>
+<nierror code="15552">
+G Internet Toolkit:  (Hex 0x00003CC0) 552 要求されたﾌｧｲﾙ操作は中断されました。
+</nierror>
+<nierror code="15553">
+G Internet Toolkit:  (Hex 0x00003CC1) 553 要求された操作は実行されていません。
+</nierror>
+<nierror code="17200">
+G Internet Toolkit:  (Hex 0x4330) 200 OKです。
+</nierror>
+<nierror code="17201">
+G Internet Toolkit:  (Hex 0x4331) 201 正常に作成されました
+</nierror>
+<nierror code="17202">
+G Internet Toolkit:  (Hex 0x4332) 202 正常に完了。
+</nierror>
+<nierror code="17204">
+G Internet Toolkit:  (Hex 0x4334) 204 内容がありません。
+</nierror>
+<nierror code="17300">
+G Internet Toolkit:  (Hex 0x4394) 300 複数の選択肢
+</nierror>
+<nierror code="17301">
+G Internet Toolkit:  (Hex 0x4395) 301 完全に移動されました。
+</nierror>
+<nierror code="17302">
+G Internet Toolkit:  (Hex 0x4396) 302 一時的に移動されました。
+</nierror>
+<nierror code="17304">
+G Internet Toolkit:  (Hex 0x4398) 304 変更されていません。
+</nierror>
+<nierror code="17400">
+G Internet Toolkit:  (Hex 0x000043F8) 400 無効なﾘｸｴｽﾄ
+</nierror>
+<nierror code="17401">
+G Internet Toolkit:  (Hex 0x000043F9) 401 権限がありません
+</nierror>
+<nierror code="17403">
+G Internet Toolkit:  (Hex 0x000043FB) 403 禁止されています
+</nierror>
+<nierror code="17404">
+G Internet Toolkit:  (Hex 0x000043FC) 404 見つかりません
+</nierror>
+<nierror code="17500">
+G Internet Toolkit:  (Hex 0x0000445C) 500 ｻｰﾊﾞの内部ｴﾗｰ
+</nierror>
+<nierror code="17501">
+G Internet Toolkit:  (Hex 0x0000445D) 501　適用されていません
+</nierror>
+<nierror code="17502">
+G Internet Toolkit:  (Hex 0x0000445E) 502 ｹﾞｰﾄｳｪｲが無効です
+</nierror>
+<nierror code="17503">
+G Internet Toolkit:  (Hex 0x0000445F) 503 ｻｰﾋﾞｽは現在利用できません
+</nierror>
+<nierror code="17999">
+G Internet Toolkit:  無限出力先変更ループが見つかりました。
+</nierror>
+<nierror code="18000">
+G Internet Toolkit:  URLﾌﾟﾛﾄｺﾙが無効
+</nierror>
+<nierror code="18001">
+G Internet Toolkit:  foo
+</nierror>
+</nidocument>
