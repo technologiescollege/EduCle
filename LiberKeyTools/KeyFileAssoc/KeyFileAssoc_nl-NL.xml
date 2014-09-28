@@ -1,0 +1,269 @@
+<Languages version="0.2">
+	<nl-NL en_name="Dutch" icon="nl.png" date="2010-10-29" name="Dutch" version="1.0">
+		<FileAssoc>
+			<CommandButtons>
+				<Apply_caption>&amp;Pas toe</Apply_caption>
+				<Cancel_caption>&amp;Annuleer</Cancel_caption>
+				<Add_caption>&amp;Nieuw..</Add_caption>
+				<Delete_caption>&amp;Verwijder</Delete_caption>
+				<SelectApp_caption>Bewerk...</SelectApp_caption>
+				<Advanced_caption>&amp;Geavanceerd...</Advanced_caption>
+				<OK_caption>OK</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<FrameCaption_caption>Detailsover extensie &apos;&amp;1&apos;</FrameCaption_caption>
+				<OpenWithInfo_caption>Openen met:</OpenWithInfo_caption>
+				<AssocListTitle_caption>Geregistreerde bestands types:</AssocListTitle_caption>
+				<ExtInfo>Bestands types &apos;%1&quot; zijn &apos;%2&apos;. Om de draagbare toepassingen die met dit bestand zijn ge-associeerd te wijzigen, klik op geavanceerd.</ExtInfo>
+				<FrameCaptionNoExt_caption>Details voor &apos;%1&apos; type</FrameCaptionNoExt_caption>
+				<ExtInfoNoExt>Om parameters te wijzigen die horen bij &apos;%1&apos; type element, klik op geavanceerd.</ExtInfoNoExt>
+			</Labels>
+			<Messages>
+				<ExtExists>Deze extensie is al geassocieerd met &apos;%1&apos; bestanden</ExtExists>
+				<ExtExistsTitle>Bestand types</ExtExistsTitle>
+				<AppExeNotFound>Fout bij het pad terugzetten van de gekozen draagbare toepassing</AppExeNotFound>
+				<DeleteConfirm>Als je een geregistreerde bestands extensie verwijderd, wordt het onmogelijk om bestanden met deze extensie te openen met een dubbelklik op de iconen.\n\nWil je deze bestands extensie echt verwijderen?</DeleteConfirm>
+				<DeleteConfirmTitle>Bestand types</DeleteConfirmTitle>
+			</Messages>
+			<caption>Bestand types geassocieerd met Liberkey draagbare toepassingen</caption>
+		</FileAssoc>
+		<Messages>
+			<ApplyDone>Liberkey draagbare toepassingen zijn nu geassocieerd met bestanden.</ApplyDone>
+			<ApplyDoneTitle>Liberkey draagbare bestanden associaties</ApplyDoneTitle>
+			<ApplyError>Er is een fout opgetreden tijdens het activeren van Liberkey associaties</ApplyError>
+			<ApplyErrorTitle>Bestand associatie fout</ApplyErrorTitle>
+			<RestoreDone>Bestand associatie teruggezet</RestoreDone>
+			<RestoreDoneTitle>Associaties teruggezet</RestoreDoneTitle>
+			<RestoreError>Bestands extensies kunnen niet worden teruggezet.\nEr is een fout opgetreden tijdens bestands associatie terugzetten</RestoreError>
+			<RestoreErrorTitle>Bestand associatie fout</RestoreErrorTitle>
+			<AutoRestoreDone>Bestands extensies waren niet teruggezet tijdens de laatste issue.\nNu zijn ze wel teruggezet.</AutoRestoreDone>
+			<AutoRestoreDoneTitle>Associaties teruggezet</AutoRestoreDoneTitle>
+			<ASuiteConfMissing>Het bestand met de lijst van Liberkey draagbare toepassingen is niet gevonden!</ASuiteConfMissing>
+			<UpdateInfoError>Er is een fout opgetreden bij het ophalen van de laatste release informatie</UpdateInfoError>
+			<UpdateErrorTitle>Fout tijdens update</UpdateErrorTitle>
+			<UpdateTitle>Update</UpdateTitle>
+			<NewVersionInfo>Release %version% van %versiondate% is beschikbaar.\n\n%description%\n\nWil je die nu downloaden?</NewVersionInfo>
+			<UpdateDownloadError>Er is een fout opgetreden tijdens de download van de laatste release.\n\n%error%</UpdateDownloadError>
+			<UpdateAppStillRunning>De software draait nog.\nWil je het opnieuw proberen?</UpdateAppStillRunning>
+			<UpdateDone>Update naar versie %versie&amp; klaar.</UpdateDone>
+			<NoAppUpdate>Je %appname% release is up to date.</NoAppUpdate>
+			<UpdateExeError>Er is een fout opgetreden tijdens de software update.\n\n%error%</UpdateExeError>
+			<NewVersionAvailable>Een nieuwe Key File Assoc&apos; versie is beschikbaar</NewVersionAvailable>
+		</Messages>
+		<NewType>
+			<caption>Maak een nieuwe extensie</caption>
+			<CommandButtons>
+				<OK_caption>&amp;OK</OK_caption>
+				<Cancel_caption>&amp;Annuleer</Cancel_caption>
+			</CommandButtons>
+			<Labels>
+				<Info_caption>Bestands extensie</Info_caption>
+			</Labels>
+			<Messages>
+				<NoExt>Je moet een extensie opgeven.</NoExt>
+				<NoExtTitle>Bestands types</NoExtTitle>
+			</Messages>
+		</NewType>
+		<AppSelect>
+			<caption>Keuze van de geassocieerde draagbare toepassing</caption>
+			<Labels>
+				<Loading_caption>Bezig beschikbare software lijst te laden...</Loading_caption>
+			</Labels>
+			<CommandButtons>
+				<Cancel_caption>&amp;Annuleer</Cancel_caption>
+				<OK_caption>&amp;OK</OK_caption>
+			</CommandButtons>
+		</AppSelect>
+		<AssocAdvance>
+			<caption>Bestand type bewerking</caption>
+			<CommandButtons>
+				<OK_caption>&amp;OK</OK_caption>
+				<Cancel_caption>&amp;Annuleer</Cancel_caption>
+				<Default_caption>&amp;Standaard</Default_caption>
+				<DelAction_caption>&amp;Verwijder</DelAction_caption>
+				<EditAction_caption>&amp;Wijzig...</EditAction_caption>
+				<Add_caption>&amp;Nieuw</Add_caption>
+				<ChangeIcon_caption>&amp;Wijzig icoon...</ChangeIcon_caption>
+			</CommandButtons>
+			<Labels>
+				<Actions_caption>&amp;Acties:</Actions_caption>
+			</Labels>
+			<CheckBoxs>
+				<WinEdit_caption>Sta wijzigingen toe in &quot;Map opties&quot;</WinEdit_caption>
+				<ReplaceWinEntry_caption>Vervang de huidige acties voor dit type bestanden</ReplaceWinEntry_caption>
+			</CheckBoxs>
+			<Messages>
+				<ActionDeleteConfirm>Wil je echt deze handeling verwijderen?</ActionDeleteConfirm>
+				<ActionDeleteConfirmTitle>Bestand types</ActionDeleteConfirmTitle>
+			</Messages>
+		</AssocAdvance>
+		<SelectIcon>
+			<caption>Verander icoon</caption>
+			<CommandButtons>
+				<OK_caption>&amp;OK</OK_caption>
+				<Cancel_caption>&amp;Annuleer</Cancel_caption>
+				<Browse_caption>&amp;Zoek...</Browse_caption>
+			</CommandButtons>
+			<Labels>
+				<IconList_caption>&amp;Kies een icoon in onderstaande lijst:</IconList_caption>
+				<IconPath_caption>&amp;Zoek naar een icoon in dit bestand:</IconPath_caption>
+			</Labels>
+			<Messages>
+				<FilterIconFiles>Icoon bestanden</FilterIconFiles>
+				<FilterPrograms>Programma&apos;s</FilterPrograms>
+				<FilterLibraries>Bibliotheken</FilterLibraries>
+				<FilterAllFiles>Alle bestanden</FilterAllFiles>
+				<OpenFileTitle>Verander icoon</OpenFileTitle>
+				<FileNotFound>Bestand niet gevonden: %1</FileNotFound>
+			</Messages>
+		</SelectIcon>
+		<AddAction>
+			<caption>Nieuwe actie</caption>
+			<EditCaption>Actie wijziging voor dit type: %typedesc%</EditCaption>
+			<CommandButtons>
+				<Browse_caption>Zoek...</Browse_caption>
+				<Cancel_caption>&amp;Annuleer</Cancel_caption>
+				<OK_caption>&amp;OK</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<ActionArgs_caption>Opdrachtregel parameters:</ActionArgs_caption>
+				<ActionAppPath_caption>Toepassing gebruikt om deze actie uit te voeren:</ActionAppPath_caption>
+				<Action_caption>&amp;Actie:</Action_caption>
+			</Labels>
+			<Messages>
+				<AppNotFound>Het gekozen programma is niet gevonden. Controleer of de bestandsnaam en pad juist zijn.</AppNotFound>
+				<AppNotFoundTitle>Voeg een actie toe</AppNotFoundTitle>
+				<ActionIsEmpty>Je moet een actie kiezen.</ActionIsEmpty>
+				<ActionIsEmptyTitle>Bestands types</ActionIsEmptyTitle>
+			</Messages>
+		</AddAction>
+		<Main>
+			<Menus>
+				<Options_caption>&amp;Opties...</Options_caption>
+				<Config_caption>Configuratie van associaties</Config_caption>
+				<Web_caption>&amp;Bezoek de Key Files Assoc&apos; website...</Web_caption>
+				<About_caption>&amp;Over...</About_caption>
+				<Apply_caption>Pas Liberkey associaties toe</Apply_caption>
+				<Restore_caption>Zet bestands type associatie terug</Restore_caption>
+				<Quit_caption>&amp;Stop</Quit_caption>
+				<Test_caption>Test</Test_caption>
+			</Menus>
+		</Main>
+		<General>
+			<AppActionPrefix>Openen met</AppActionPrefix>
+			<AppActionSufix>  (LiberKey)</AppActionSufix>
+			<DefaultTypeName>Bestanden %1</DefaultTypeName>
+		</General>
+		<Update>
+			<caption> Software update</caption>
+			<Labels>
+				<RunNewVersion_caption>Nieuwe versie loopt</RunNewVersion_caption>
+				<ReplaceExe_caption> Updating software</ReplaceExe_caption>
+				<ClosingApp_caption>Toepassing aan het sluiten</ClosingApp_caption>
+				<Title_caption>Installatie van software update</Title_caption>
+			</Labels>
+			<CommandButtons>
+				<Cancel_caption>&amp;Annuleer</Cancel_caption>
+			</CommandButtons>
+		</Update>
+		<Download>
+			<caption> Software update</caption>
+			<Labels>
+				<Title_caption>Downloaden van software update...</Title_caption>
+			</Labels>
+			<CommandButtons>
+				<Cancel_caption>&amp;Annuleer</Cancel_caption>
+			</CommandButtons>
+		</Download>
+		<About>
+			<caption>Over</caption>
+			<CommandButtons>
+				<Update_caption>&amp;Controle op update...</Update_caption>
+				<OK_caption>&amp;Sluit</OK_caption>
+				<History_caption>&amp;Versie geschiedenis...</History_caption>
+			</CommandButtons>
+			<Labels>
+				<LiberKeyPartner_caption>KFA is ontwikkeld door Liberkey.com</LiberKeyPartner_caption>
+				<LiberKeyExclu_caption>Deze software kan alleen worden gebruikt in Liberkey</LiberKeyExclu_caption>
+			</Labels>
+		</About>
+		<MergeAssocs>
+			<caption>Configuratie update</caption>
+			<CommandButtons>
+				<SkipDefaultAssoc_caption>&amp;Verander mijn configuratie niet!</SkipDefaultAssoc_caption>
+				<MergeDefaultAssocs_caption>Pas gekozen associaties toe</MergeDefaultAssocs_caption>
+				<Cancel_caption>&amp;Bij de volgende start zal ik het zien...</Cancel_caption>
+			</CommandButtons>
+			<Labels>
+				<Title_caption>Standaard associatie configuratie</Title_caption>
+				<UpdateInfo_caption>In onderstaande lijst kun je alle nieuwe bestands associaties zien die bij deze nieuwe uitgave verstrekt zijn. Rode associaties zijn al gedefinieerd in je huidige configuratie. Alle gekozen associaties in deze lijst worden toegevoegd aan je huidige configuratie.</UpdateInfo_caption>
+			</Labels>
+		</MergeAssocs>
+		<Loading>
+			<Labels>
+				<Info_caption>Bezig met laden...</Info_caption>
+			</Labels>
+		</Loading>
+		<Options>
+			<caption>Key Files Assoc&apos; configuratie</caption>
+			<CommandButtons>
+				<Cancel_caption>&amp;Annuleer</Cancel_caption>
+				<OK_caption>&amp;OK</OK_caption>
+				<DelAssocErrors_caption>Verwijder gekozen associaties</DelAssocErrors_caption>
+			</CommandButtons>
+			<Labels>
+				<AppsErrorsTitle_caption>Software niet gevonden (associaties uitgeschakeld)</AppsErrorsTitle_caption>
+				<FastSwitchMode_caption>Met een dubbelklik op het Systeembalk icoon:</FastSwitchMode_caption>
+				<Language_caption>Gebruiker interface taal:</Language_caption>
+			</Labels>
+			<OptionButtons>
+				<optSystrayFastSwitchOFF_caption>Open associatie configuratie</optSystrayFastSwitchOFF_caption>
+				<optSystrayFastSwitchON_caption>Associeer / Zet Liberkey software associaties terug</optSystrayFastSwitchON_caption>
+			</OptionButtons>
+			<CheckBoxs>
+				<AutoCheckVersionAtStart_caption>Controleer op updates bij programma start</AutoCheckVersionAtStart_caption>
+				<ShowAssocToolTip_caption>Toon een tooltip als associaties worden ingeschakeld / teruggezet</ShowAssocToolTip_caption>
+				<UseLbkProxySettings_caption>Gebruik Liberkey proxy configuratie</UseLbkProxySettings_caption>
+			</CheckBoxs>
+			<Tabs>
+				<Options>Opties</Options>
+				<ActionErrors>Ongeldige acties</ActionErrors>
+			</Tabs>
+			<Messages>
+				<NotFoundApp>(Toepassing niet gevonden)</NotFoundApp>
+				<AppCounters>Toepassing geassocieerd met &amp;objcount% objecten (&amp;actioncount% acties)</AppCounters>
+				<ActionCount>(1 actie)</ActionCount>
+			</Messages>
+		</Options>
+		<History>
+			<caption>Key Files Assoc&apos; - versie geschiedenis</caption>
+			<CommandButtons>
+				<Close_caption>&amp;Sluit</Close_caption>
+				<Download_caption>Download uitgave %ver%...</Download_caption>
+			</CommandButtons>
+			<Messages>
+				<AppVersion>Versie &amp;ver%</AppVersion>
+				<VersionDate> - %date%</VersionDate>
+				<NextVersion> (nieuwe versie...)</NextVersion>
+				<YourVersion> Jouw versie</YourVersion>
+				<VersionAvailable>Update beschikbaar</VersionAvailable>
+				<New>Nieuw</New>
+				<NoVersionInfo>Geen versie informatie beschikbaar</NoVersionInfo>
+			</Messages>
+		</History>
+		<AppWarning>
+			<caption>Key Files Assoc&apos; - Risico op conflict met een andere toepassing</caption>
+			<CommandButtons>
+				<OK_caption>&amp;OK</OK_caption>
+				<RemoveAssocs_caption>Schakel nu associaties uit</RemoveAssocs_caption>
+			</CommandButtons>
+			<Labels>
+				<Title_caption>Waarschuwing!</Title_caption>
+				<Message_caption>Key Files Assoc&apos; heeft de uitvoering van een toepassing gevonden die problemen kan geven. Het wordt sterk aangeraden om tijdelijke bestands associaties uit te schakelen voordat je wijzigingen in het Windows register maakt.</Message_caption>
+			</Labels>
+		</AppWarning>
+		<Contributors>
+			<Contributor name="Ed Busse"/>
+		</Contributors>
+	</nl-NL>
+</Languages>

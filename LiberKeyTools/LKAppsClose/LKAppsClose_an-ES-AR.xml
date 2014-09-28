@@ -1,0 +1,34 @@
+<Languages version="0.2">
+	<an-ES-AR en_name="Aragonese" icon="es-ar.png" date="2011-05-15" version="0.1" name="Aragonés" en_country="Aragon (Spain)" country="Aragón">
+		<Closing>
+			<caption>Tancando aplicazions de LiberKey...</caption>
+			<CommandButtons>
+				<Cancel_Caption>&amp;Canzelar</Cancel_Caption>
+				<Retry_Caption>&amp;Tornar á prebar</Retry_Caption>
+				<Terminate_Caption>&amp;Aforzar o tancamiento</Terminate_Caption>
+			</CommandButtons>
+		</Closing>
+		<Debug>
+			<caption>Informazión sobre as finestras d&apos;aplicazions deteutatas</caption>
+		</Debug>
+		<Main>
+			<CommandButtons>
+				<Close_Caption>C&amp;anzelar</Close_Caption>
+				<CloseApps_Caption>&amp;Tancar aplicazions portables</CloseApps_Caption>
+			</CommandButtons>
+		</Main>
+		<Message>
+			<KillWarning>Pare cuenta!\n\nAforzar o tancamiento d&apos;una aplicazión puede afeutar á os suyos datos.\nYe preferible tancar l&apos;aplicazión de traza normal.\n\nYe seguro de querer aforzar o tancamiento d&apos;iste programa?</KillWarning>
+		</Message>
+		<Messages>
+			<AppsCloseCanceled>Canzelato o tancamiento d&apos;aplicazions</AppsCloseCanceled>
+			<CloseFailed>L&apos;aplicazión encara ye executando-se.\nTanque-la manualmén u afuerze o tancamiento.</CloseFailed>
+			<Closing>Tancando aplicazión...</Closing>
+			<ContinueClose>Deseya continar con o tancamiento d&apos;as atras aplicazions?</ContinueClose>
+			<ForceFailed>Error entre que se aforzaba o tancamiento !</ForceFailed>
+		</Messages>
+		<Contributors>
+			<Contributor name="Santiago Bal" email="santiago_balp@yahoo.es"/>
+		</Contributors>
+	</an-ES-AR>
+</Languages>

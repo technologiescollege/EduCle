@@ -1,0 +1,18 @@
+<Languages version="0.2">
+	<en name="English" en_name="English" date="2010-09-16" version="0.30" icon="gb.png">
+		<Message>
+			<AppStillRunning>There are still applications from the LiberKey running.\n\nThe LiberKey drive disconnect was cancelled.</AppStillRunning>
+		</Message>
+		<Messages>
+			<Intro>LiberKey USB Eject closes all open applications from the USB device.</Intro>
+			<Errors>
+				<LkAppsCloseRunError>Error executing the application closing program.</LkAppsCloseRunError>
+				<LkDiskEjectorRunError>Error executing the USB disk ejection program.</LkDiskEjectorRunError>
+			</Errors>
+		</Messages>
+		<Contributors>
+			<Contributor name="LiberKey" email="contact@liberkey.com" website="http://www.liberkey.com"/>
+			<Contributor name="BlueMaxima" email="bluemaximax011@hotmail.com"/>
+		</Contributors>
+	</en>
+</Languages>

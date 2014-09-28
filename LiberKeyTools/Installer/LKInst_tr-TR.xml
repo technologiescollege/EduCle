@@ -1,0 +1,88 @@
+<Languages version="0.2">
+	<tr-TR en_name="Turkish" icon="tr.png" date="2012-05-14" version="5.7.0507" name="Türkçe">
+		<Main>
+			<Labels>
+				<AppName_Caption>Uygulama :</AppName_Caption>
+				<AppVersion_Caption>Sürüm :</AppVersion_Caption>
+				<AppDescription_Caption>Tanımlama :</AppDescription_Caption>
+				<EditorName_Caption>Yapımcı :</EditorName_Caption>
+				<EditorWebSite_Caption>Web Sitesi :</EditorWebSite_Caption>
+				<EditorEmail_Caption>E-Posta :</EditorEmail_Caption>
+				<AppWebSite_Caption>Web Sitesi :</AppWebSite_Caption>
+				<SupportURL_Caption>Destek :</SupportURL_Caption>
+				<PackageLangs_Caption>Kullanılabilir Kurulum Dilleri :</PackageLangs_Caption>
+				<PackageInfo_Caption>Paket Bilgisi :</PackageInfo_Caption>
+				<Signature_Caption>Paketi Öneren :</Signature_Caption>
+				<ValidationFailed_Caption>Uyarı : Bu paket doğrulanmadı.</ValidationFailed_Caption>
+			</Labels>
+			<Tabs>
+				<Application>Uygulama</Application>
+				<Editor>Yapımcı</Editor>
+				<Package>Paket Bilgisi</Package>
+			</Tabs>
+			<CommandButtons>
+				<Cancel_Caption>&amp;Kapat</Cancel_Caption>
+				<Install_Caption>Bu uygulamayı LiberKey&apos;e kur...</Install_Caption>
+				<CancelOperation_Caption>&amp;Kapat</CancelOperation_Caption>
+			</CommandButtons>
+		</Main>
+		<Messages>
+			<InvalidPackageFile>Geçersiz kurulum paketi</InvalidPackageFile>
+			<Errors>
+				<ErrRenameAppDir>Uygulama klasörünü yeniden adlandırmaya çalışırken bir hata oluştur.\nUygulama klasöründen açık dosya olup olmadığını ve uygulamanın şu anda çalışıp çalışmadığını kontrol edin.</ErrRenameAppDir>
+				<ASuiteCloseFailed>ASuite kapatılamadı.</ASuiteCloseFailed>
+				<AppsDirNotFound>Hedef Klasör Bulunamadı</AppsDirNotFound>
+				<ExtractErrorRestoreDone>Veri çıkartma başarısız oldu.\nÖnceki sürüm geri yüklendi.</ExtractErrorRestoreDone>
+				<InstallerUpdateNeeded>Bu kurulum paketi, kurulum sihirbazından daha yenidir.\nKurmak için sihirbazın en son sürümünü kullanın.</InstallerUpdateNeeded>
+				<InstallError>Bu uygulamanın kurulumu esnasında bir hata oluştu !</InstallError>
+				<AppDataNotFound>Veri Uygulaması Bulunamadı</AppDataNotFound>
+				<InstErrorTitle>Kurulum Esnasında Hata</InstErrorTitle>
+				<PackageValidationFailed>Uyarı, bu paket doğrulanmadı...</PackageValidationFailed>
+				<DataFileModified>Kurulum Paketi Bozulmuş:\nVeri Paketi değiştirildi...\n\n%name%</DataFileModified>
+				<OldPackageVersion>Bu kurulum paketi, kurulum sihirbazı tarafından artık desteklenmemektedir.\nKuruluma devam edilemiyor.</OldPackageVersion>
+				<IncompleteSetup>Bazı dosyalar güncellenemedi!\nBu dosyaların yeni sürümleri aşağıdaki dizinde depolanmaktadır:\n\n%failedfolder%</IncompleteSetup>
+				<SetupDataDownloadCanceled>İndirme İptal Edildi</SetupDataDownloadCanceled>
+				<ExtractErrorRestoreNotDone>Uygulamanın çıkartılması başarısız oldu.\nÖnceki sürümü bir yedek dizininde saklandı.</ExtractErrorRestoreNotDone>
+				<SetupDataDownloadError>Kurulum verisi indirme hatası</SetupDataDownloadError>
+			</Errors>
+			<Installing>Kuruluyor...</Installing>
+			<VerifyingSetupPackage>Kurulum Paketi Doğrulanıyor</VerifyingSetupPackage>
+			<VerifyingSetupDestination>Hedef Alan Doğrulanıyor</VerifyingSetupDestination>
+			<SavingActualVersion>Güncel Sürüm Kaydediliyor</SavingActualVersion>
+			<ExtractingAppFiles>Uygulama Dosyaları Çıkartılıyor</ExtractingAppFiles>
+			<RestoringPreviousConfig>Önceki Yapılandırma Geri Yükleniyor</RestoringPreviousConfig>
+			<DeletingBackup>Yedek Siliniyor</DeletingBackup>
+			<SetupDone>Kurulum Tamamlandı</SetupDone>
+			<ClosingASuite>ASuite Kapatılıyor ...</ClosingASuite>
+			<ReStartLBK>LiberKey Yeniden Başlatılıyor...</ReStartLBK>
+			<AppStillRunning>Uygulama Hala Çalışıyor...</AppStillRunning>
+			<UpdatingAppsMenu>LiberKey Menü Güncelleniyor</UpdatingAppsMenu>
+			<RestartingMenu>LiberKey&apos;i Yeniden Başlat...</RestartingMenu>
+			<ClosingApplication>Uygulama Kapatılıyor...</ClosingApplication>
+			<ClosingKFA>Dosya İlişkilendirme Anahtarı Kapatılıyor...</ClosingKFA>
+			<UpdatingFileAssocs>Dosya İlişkilendirmeleri Güncelleniyor...</UpdatingFileAssocs>
+			<RestartingKFA>Dosya İlişkilendirme Anahtarı Yeniden Başlatılıyor...</RestartingKFA>
+			<RestartingApp>Uygulama Yeniden Başlatılıyor...</RestartingApp>
+			<PackageSignatureNotFound>(Bu paket imzalanmamış)</PackageSignatureNotFound>
+			<LangMismatchWarning>Uyarı !\nLiberKey&apos;de kullandığınız dilden farklı bir dile ait bir yazılımı kurmak üzeresiniz.\nDevam etmek istiyor musunuz ?</LangMismatchWarning>
+			<AlreadyInstalled>Bu program LiberKey&apos;de zaten kurulu.\nOnu tekrar kurmak istiyor musunuz?</AlreadyInstalled>
+			<DowngradeWarning>Dikkat!\n\nBu programın yeni bir sürümü LiberKey&apos;de zaten kurulu.\n\nKurulu Olan Sürüm: %current_version%\nKurulacak Olan Sürüm: %setup_version%\n\nEski sürümü kurmak istiyor musunuz?</DowngradeWarning>
+			<DownloadingSetupData>Kurulum dosyaları indiriliyor...\n%DONE%</DownloadingSetupData>
+			<SetupDataDownloadDone>İndirme Tamamlandı.</SetupDataDownloadDone>
+			<InstalledLangMismatchWarning>Uyarı !\nBu yazılım LiberKey&apos;de başka bir dilde zaten kurulu.\n\nÖnceki Kurulumun Dili: &quot;%prevlang%&quot;\nBu Kurulumun Dili: &quot;%newlang%&quot;\n\nDevam etmek istiyor musunuz ?</InstalledLangMismatchWarning>
+			<DeletingObsoleteFiles>Sahipsiz dosyalar kaldırılıyor</DeletingObsoleteFiles>
+		</Messages>
+		<Report>
+			<caption>Kurulum Tamamlandı !</caption>
+			<CommandButtons>
+				<Close_Caption>&amp;Kapat</Close_Caption>
+			</CommandButtons>
+			<Labels>
+				<MenuInfo_Caption>LiberKey menüsü değiştirildi!\n\nYeni kurduğunuz uygulamayı kolaylıkla başlatmak için,\naşağıdaki LiberKey menülerini kullanın:</MenuInfo_Caption>
+			</Labels>
+		</Report>
+		<Contributors>
+			<Contributor name="Murat Pala" email="prozexis@hotmail.com" website="www.siteadi.com"/>
+		</Contributors>
+	</tr-TR>
+</Languages>

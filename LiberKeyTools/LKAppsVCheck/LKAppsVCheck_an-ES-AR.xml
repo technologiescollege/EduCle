@@ -1,0 +1,72 @@
+<Languages version="0.2">
+	<an-ES-AR en_name="Aragonese" icon="es-ar.png" date="2011-05-15" version="0.1" name="Aragonés" en_country="Aragon (Spain)" country="Aragón">
+		<Info>
+			<UpdateIgnore>(desautibato)</UpdateIgnore>
+			<UpdateLowPriority>(baxa prioridá)</UpdateLowPriority>
+		</Info>
+		<Main>
+			<CheckBoxs>
+				<Silent_Caption>Instalar as aplicazions sin interbenzión (modo automatico)</Silent_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Cancel_Caption>Canzelar</Cancel_Caption>
+				<Download_Caption>Instalar aplicazions trigatas</Download_Caption>
+				<HideWindow_Caption>&amp;Amagar ista finestra entre que dura ra escarga</HideWindow_Caption>
+			</CommandButtons>
+			<Labels>
+				<bytes>bytes</bytes>
+				<DownloadSize_Caption>Amplaria d&apos;escarga : </DownloadSize_Caption>
+				<Gb>Gb</Gb>
+				<Info_Caption>Autualizazions disponibles :</Info_Caption>
+				<InstalledSize_Caption>Espazio que cal en disco:</InstalledSize_Caption>
+				<InstallTitle_Caption>Instalando aplicazions</InstallTitle_Caption>
+				<Kb>Kb</Kb>
+				<Mb>Mb</Mb>
+				<RemoveHiddenUpdates_Caption>Eliminar autualizazions desautibatas (%count%)</RemoveHiddenUpdates_Caption>
+				<SelectAll_Caption>Trigar tot</SelectAll_Caption>
+				<SelectHighPriority_Caption>Trigar autualizazions prioritarias</SelectHighPriority_Caption>
+				<SelectNone_Caption>Destrigar tot</SelectNone_Caption>
+				<ShowHiddenUpdates_Caption>Amostrar autualizazions amagatas (%count%)</ShowHiddenUpdates_Caption>
+				<Version_Caption>Bersión :</Version_Caption>
+			</Labels>
+		</Main>
+		<Messages>
+			<AppAlreadyInstalled>%appname% %appversion% ya ye instalato en a suya LiberKey.\n\nQuiere tornar á instalar ista aplicazión?</AppAlreadyInstalled>
+			<AppsDownloadDone>Escarga en o repositorio d&apos;archibos completata.\n=&gt; %downloadpath%\n\nQuiere empezipiar á instalar agora as autualizazions?</AppsDownloadDone>
+			<AppUpdateObsolete>Ya tien instalata una bersión más autualizata de %appname% en a suya LiberKey.\n\nBersión ya instalata: %appversion%\nBersión instalando-se: %newversion%\n\nQuiere instalar a bersión antiga?</AppUpdateObsolete>
+			<ConfirmCancel>A escarga d&apos;autualizazions ye en prozeso.\nDeseya canzelar a trasferenzia e interrumpir l&apos;autualizazión ?</ConfirmCancel>
+			<DiskSpace>Espazio requerito en disco: %needed% (disponible: %avail%)</DiskSpace>
+			<DownloadDone>A escarga s&apos;ha completato.\nO menú de Liberkey se tancará entre que s&apos;autualizan as aplicazions...</DownloadDone>
+			<DownloadingTip>Escargando autualizazions...\nFaiga clic aquí ta más informazión</DownloadingTip>
+			<DownloadingTipTitle>Autualizazión d&apos;as aplicazions de LiberKey</DownloadingTipTitle>
+			<Errors>
+				<403>Ha ocurrito una error durán o prozeso d&apos;identificazión d&apos;o serbidor proxy !\nPor fabor, comprebe a confegurazión d&apos;o suyo serbidor proxy.</403>
+				<404>%appname% %appversion%\n\nL&apos;archibo no s&apos;ha trobato en o serbidor !\nPor fabor, torne á prebar más tardi.</404>
+				<DepositFolderError>No s&apos;han puesto alzar os datos en a carpeta d&apos;o repositorio.\n%path%\n\nDeseya instalar os paquez que faltan en a carpeta temporal ?</DepositFolderError>
+				<DownloadError>Ha ocurrito una error entre que se feba ra escarga !\nTornar á prebar ?</DownloadError>
+				<InvalidPwd>Identificazión no balera.\n\nO contrasiñal ye incorreuto</InvalidPwd>
+				<InvalidUser>Usuario no trobato en a base de datos de LiberKey\n\nPor fabor, torne á prebar.</InvalidUser>
+				<Login>Ha ocurrito una error durán o prozeso d&apos;identificazión !\nPor fabor torne á prebar más tardi.</Login>
+				<Password>Identificazión no balera.\n\nO nombre d&apos;usuario e/u o contrasiñal son incorreutos</Password>
+			</Errors>
+			<HideThisUpdate>No amostrar ista autualizazión</HideThisUpdate>
+			<HideUpdateInfo>As autualizazions desautibatas se pueden tornar á amostrar fendo clic en &quot;Amostrar autualizazions amagatas&quot;</HideUpdateInfo>
+			<HighPriority>Prioridá</HighPriority>
+			<HighPriorityInfo>Li recomendamos aplicar ista autualizazión.\nContiene bels apaños importans, beluns pueden afeutar á ra seguranza.</HighPriorityInfo>
+			<HighPriorityInfoTitle>Autualizazión prioritaria</HighPriorityInfoTitle>
+			<HttpError>Ha ocurrito una error entre que se prebaba de recuperar a informazión d&apos;as autualizazions de LiberKey.\nTien azeso á Internet en iste ordinador?</HttpError>
+			<InformationTitle>Informazión</InformationTitle>
+			<KeepTempFiles>Quiere alzar os archibos escargatos ta usar-los más enta debán?</KeepTempFiles>
+			<LowPriority>Ozional</LowPriority>
+			<LowPriorityInfo>Ista autualizazión ye recomendata si usa iste software abitualmén.\nPuede contener nuebas carauterísticas.</LowPriorityInfo>
+			<LowPriorityInfoTitle>Autualizazión ozional</LowPriorityInfoTitle>
+			<TempSpaceNeeded>No bi&apos;n ha pro d&apos;espazio en disco ta escargar temporalmén archibos d&apos;instalazión.\n\nA suya triga ameniste %downloadsize% d&apos;espazio libre en o disco %drive% (autualmén solo bi&apos;n ha %avail% disponibles en %drive%)</TempSpaceNeeded>
+			<UpdateDone>Autualizazión d&apos;aplicazions completata</UpdateDone>
+			<UpdatesAvailable>Bi ha autualizazions disponibles ta ras suyas aplicazions.\nFaiga clic aquí ta instalar as nuebas bersions.</UpdatesAvailable>
+			<UpToDate>As suyas aplicazions de LiberKey ya se troban autualizatas</UpToDate>
+		</Messages>
+		<Contributors>
+			<Contributor name="Santiago Bal" email="santiago_balp@yahoo.es"/>
+		</Contributors>
+	</an-ES-AR>
+</Languages>

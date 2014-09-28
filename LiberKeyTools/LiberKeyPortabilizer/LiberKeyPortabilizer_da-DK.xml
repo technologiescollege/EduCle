@@ -1,0 +1,94 @@
+<Languages version="0.2">
+	<da-DK en_name="Danish" icon="dk.png" date="2011-02-07" name="Dansk" version="0.1">
+		<Messages>
+			<AppAlreadyRunning>%appname% er allerede åbent. Luk venligst før du åbner en ny session.</AppAlreadyRunning>
+			<DefaultTitle>%appname% LiberKey version</DefaultTitle>
+			<OtherInstanceStarted>Advarsel!\n\nDu har netop startet %appname% mens LiberKey versionen også er kørende!\n\nLuk venligst den version, som du har installeret på din computer...</OtherInstanceStarted>
+			<Errors>
+				<AppInfoFileNotFound>LiberKey program information mangler!</AppInfoFileNotFound>
+				<ExeNotFound>Der blev ikke fundet en .exe fil</ExeNotFound>
+				<ApplyContextError>Det er ikke muligt at starte dette LiberKey program. Luk venligst alle åbne vinduer og start LiberKey programmet igen.</ApplyContextError>
+				<DependencyMissing>For at dette program fungerer, kræves installation af %depend%</DependencyMissing>
+				<InvalidRetoreData>Data for genskabelsen af %appname% er fejlbehæftet! Det var ikke muligt at genskabe konfigurationen for dette program.</InvalidRetoreData>
+				<CrashRestore>LiberKey Portabilizer blev ikke lukket korrekt under sidste kørsel!</CrashRestore>
+				<CrashInfo>Følgende programmer var kørende.\nDet var ikke muligt at gemme deres konfigurationer på LiberKey og konfigurationen af din computer kunne heller ikke genskabes.</CrashInfo>
+				<NeedUpdate>LiberKey Portabilizer skal opdateres for at køre dette program.\n\nDu kan hente programmet gratis på www.LiberKey.com.\n\nVil du hente det på www.LiberKey.com nu?</NeedUpdate>
+				<NeedLbkUpdate>Din LiberKey skal opdateres for at køre dette program.\n\nStarter opdatering.\n\n\nDu kan bruge %app% så snart din LiberKey er opdateret.</NeedLbkUpdate>
+				<CrashRestoreElevatedApps>Programmerne blev kørt som Administrator og konfigurationen kunne derfor ikke genskabes. For at genskabe skal LiberKey Portabilizer køres som administrator.\n\nØnsker du at genskabe de kørende programmer nu?</CrashRestoreElevatedApps>
+				<SingleUserApp>Programmet &quot;%app_name%&quot; er blevet startet af en anden bruger.\n\nBrugernavn: &quot;%user%&quot;\nSession: &quot;%session%&quot;\n\nDet er ikke muligt at køre programmet for flere brugere på samme tid!</SingleUserApp>
+			</Errors>
+			<LbkPortabilizerInfo>Dette program gør det muligt at afvikle programmer på din LiberKey.\n\nFor mere information, besøg venligst www.LiberLey.com</LbkPortabilizerInfo>
+			<RestoreNeedLBK>Advarsel!\n\nEn eller flere programmer blev ikke fundet.\n\n- &quot;Fortryd&quot;: Ingen ændringer vil blive foretaget.\n\n- &quot;Ignorer&quot;: Din computers konfiguration vil blive genetableret men du risikerer at miste information om dine LiberKey  programmer.\n\n- &quot;Prøv igen&quot;: Hvis dine LiberKey programmer er placeret på en USB stick, så husk at sæt den i computeren, før du klikker på &quot;Prøv igen&quot;.</RestoreNeedLBK>
+			<SessionEndWarning>LiberKey programmer er stadig åbne!\nFor at sikre programmerne og deres konfiguration er det bedst at lukke dem, før du afslutter Windows.</SessionEndWarning>
+			<Yes>Ja</Yes>
+			<No>Nej</No>
+		</Messages>
+		<Main>
+			<CommandButtons>
+				<OK_Caption>&amp;OK</OK_Caption>
+			</CommandButtons>
+			<Labels>
+				<PortabilizerInfo_Caption>Følgende programmer er åbne</PortabilizerInfo_Caption>
+			</Labels>
+		</Main>
+		<CrashRestore>
+			<CommandButtons>
+				<Restore_Caption>Genetablér alle nu</Restore_Caption>
+			</CommandButtons>
+			<Labels>
+				<Info_Caption>Følgende programmer var kørende.\nDet er ikke muligt at gemme deres konfigurationer på din LiberKey og din computers konfiguration kan heller ikke genetableres.</Info_Caption>
+				<Title_Caption>LiberKey Portabilizer blev afbrudt under sidste kørsel.</Title_Caption>
+			</Labels>
+		</CrashRestore>
+		<Warning>
+			<CommandButtons>
+				<Info_Caption>Info...</Info_Caption>
+				<OK_Caption>&amp;OK</OK_Caption>
+			</CommandButtons>
+			<Status>
+				<UserName>Brugernavn:</UserName>
+				<UserAdmin>Administrator:</UserAdmin>
+				<UserElevated>Opløftet:</UserElevated>
+				<UserSession>Session:</UserSession>
+			</Status>
+		</Warning>
+		<Cmds>
+			<OK>OK</OK>
+			<Info>Info...</Info>
+		</Cmds>
+		<UpdateAvailable>
+			<caption>Tilgængelig opdatering</caption>
+			<CheckBoxs>
+				<NoMoreAlert_Caption>Vis ikke denne opdatering igen.</NoMoreAlert_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Cancel_Caption>&amp;Start programmet uden at foretage opdatering</Cancel_Caption>
+				<Install_Caption>&amp;Hent og installér opdateringen...</Install_Caption>
+			</CommandButtons>
+			<Labels>
+				<Version_Caption>Version: %version%</Version_Caption>
+				<AppUpdateAvailable_Caption>En ny version af dette program er tilgængeligt til din LiberKey</AppUpdateAvailable_Caption>
+			</Labels>
+		</UpdateAvailable>
+		<License>
+			<caption>%appname% licens</caption>
+			<Labels>
+				<LicenseTitle_Caption>Denne licens definerer betingelserne for brugen af følgende program: %appname%. Tak fordi du læser licensaftalen, inden du fortsætter!</LicenseTitle_Caption>
+				<LicenseAgreeTitle_Caption>Du skal godkende licensbetingelserne før du kan bruge %appname%</LicenseAgreeTitle_Caption>
+				<License_Caption>Licens</License_Caption>
+				<AccetInformation_Caption>VIGTIGT: Ved at markere dette afkrydsningsfelt og klikke på &quot;Godkend&quot;, accepterer du licensbetingelserne og indvilliger i at overholde licensaftalen. (Klik på pilen for at bladre igennem hele aftalen!)</AccetInformation_Caption>
+			</Labels>
+			<CommandButtons>
+				<Accept_Caption>Godkend</Accept_Caption>
+				<Cancel_Caption>Fortryd</Cancel_Caption>
+				<OK_Caption>OK</OK_Caption>
+			</CommandButtons>
+			<CheckBoxs>
+				<Accept_Caption>Jeg accepterer hermed licensbetingelserne.</Accept_Caption>
+			</CheckBoxs>
+		</License>
+		<Contributors>
+			<Contributor name="Peter Bech-Lutzka" email="peterbechlutzka@gmail.com" website="www.bech-lutzka.com"/>
+		</Contributors>
+	</da-DK>
+</Languages>

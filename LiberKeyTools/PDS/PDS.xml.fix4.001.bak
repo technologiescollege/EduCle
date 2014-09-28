@@ -1,0 +1,18 @@
+<LiberKeyPortableShortcuts>
+	<Config>
+		<BasePaths>
+			<BasePath>..\..\Apps\</BasePath>
+			<BasePath>..\..\MyApps\</BasePath>
+			<BasePath>..\..\LiberKeyTools\</BasePath>
+			<BasePath>..\..\MyDocuments</BasePath>
+		</BasePaths>
+		<AddToStartMenuVerb>A&amp;jouter au menu Démarrer</AddToStartMenuVerb>
+		<RemoveFromStartMenuVerb>&amp;Supprimer du menu Démarrer</RemoveFromStartMenuVerb>
+	</Config>
+	<QuickLaunchShortcuts>
+		</QuickLaunchShortcuts>
+	<DesktopShortcuts>
+		</DesktopShortcuts>
+	<UserLanguage>fr</UserLanguage>
+	<Language/>
+</LiberKeyPortableShortcuts>

@@ -1,0 +1,10 @@
+<Languages version="0.2">
+	<cs-CZ en_name="Czech" icon="cz.png" date="2010-10-11" name="Čeština">
+		<Messages>
+			<NoDesktopIconFound>Na desktopu nenalezeny žádné zkratky</NoDesktopIconFound>
+			<ConfirmEraseMany>Vymazat %count% uložených zkratek ?</ConfirmEraseMany>
+			<ConfirmEraseOne>Vymazat uložené zkratky ?</ConfirmEraseOne>
+			<NoQuickLaunchIconFound>V řádku rychlého spuštění nenalezeny žádné zkratky</NoQuickLaunchIconFound>
+		</Messages>
+	</cs-CZ>
+</Languages>

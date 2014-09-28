@@ -1,0 +1,85 @@
+<Languages version="0.2">
+	<sl-SI en_name="Slovenian" icon="si.png" date="2012-03-04" name="Slovenija" version="2.19">
+		<Main>
+			<CommandButtons>
+				<Cancel_Caption>&amp;Prekliči</Cancel_Caption>
+				<CancelOperation_Caption>&amp;Prekliči</CancelOperation_Caption>
+				<Install_Caption>Namestite to aplikacijo na svoj LiberKey</Install_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppDescription_Caption>Opis:</AppDescription_Caption>
+				<AppName_Caption>Aplikacija :</AppName_Caption>
+				<AppVersion_Caption>Verzija :</AppVersion_Caption>
+				<AppWebSite_Caption>Spletna stran :</AppWebSite_Caption>
+				<EditorEmail_Caption>E pošta  :</EditorEmail_Caption>
+				<EditorName_Caption>Urejevalnik :</EditorName_Caption>
+				<EditorWebSite_Caption>Spletna stran :</EditorWebSite_Caption>
+				<PackageInfo_Caption>Sveženj informacij :</PackageInfo_Caption>
+				<PackageLangs_Caption>Možne nastavitev jezika :</PackageLangs_Caption>
+				<Signature_Caption>Paketna ponudba :</Signature_Caption>
+				<SupportURL_Caption>Podpora :</SupportURL_Caption>
+				<ValidationFailed_Caption>Opozorilo: Ta paket ni potrjen !</ValidationFailed_Caption>
+			</Labels>
+			<Tabs>
+				<Application>Aplikacija :</Application>
+				<Editor>Urednik</Editor>
+				<Package>Paket Info</Package>
+			</Tabs>
+		</Main>
+		<Messages>
+			<AlreadyInstalled>Ta program je že nameščen na vašem LiberKey.\n Ali ga želite namestiti znova?</AlreadyInstalled>
+			<AppStillRunning>Aplikacija še vedno deluje.</AppStillRunning>
+			<ClosingApplication>Končanje aplikacije...</ClosingApplication>
+			<ClosingASuite>Zapiranje zbirke...</ClosingASuite>
+			<ClosingKFA>Zapiranje povezave datotek (Assoc&apos;)...</ClosingKFA>
+			<DeletingBackup>Brisanje varnostnih kopij</DeletingBackup>
+			<DeletingObsoleteFiles>Odstranitev zastarelih datotek</DeletingObsoleteFiles>
+			<DowngradeWarning>Pozor!\n\n Novejša različica tega programa je že nameščena na vašem LiberKey.\n\n\nNameščena verzija: %current_version%\nVerzija, ki se namesti: %setup_version%\n\nAli želite namestiti staro verzijo?</DowngradeWarning>
+			<DownloadingSetupData>Prenos namestitvenih datotek ...\n%DONE%</DownloadingSetupData>
+			<Errors>
+				<AppDataNotFound>Podatkov aplikacije ni bilo mogoče najti</AppDataNotFound>
+				<AppsDirNotFound>Ciljne mape ni mogoče najti</AppsDirNotFound>
+				<ASuiteCloseFailed>Ne morem zapreti zbirke.</ASuiteCloseFailed>
+				<DataFileModified>Namestitev poškodovanega sveženja.\nPaket podatkov je bil spremenjen\n\n%name%</DataFileModified>
+				<ErrRenameAppDir>Prišlo je do napake, pri poskušanju preimenovanja mape aplikacije.Preverite,  delovanje aplikacije !Možno da ni datoteke na voljo v prijavni mapi.</ErrRenameAppDir>
+				<ExtractErrorRestoreDone>Razširjanje podatkov,  ni uspelo.Prejšnja različica je bila obnovljena.</ExtractErrorRestoreDone>
+				<ExtractErrorRestoreNotDone>NI posodobitev aplikacij.\nPrejšnja različica je bila shranjena v backup direktoriju.</ExtractErrorRestoreNotDone>
+				<IncompleteSetup>Nekaterih datotek ni mogoče posodobiti!\nNove različice teh datotek so shranjene v naslednjem imeniku:\n\n%failedfolder%</IncompleteSetup>
+				<InstallError>Prišlo je do napake med namestitvijo aplikacije.</InstallError>
+				<InstallerUpdateNeeded>Namestitveni paket je novejši od čarovnika za namestitev.\nUporabite najnovejšo različico namestitvenega čarovnika za namestitev.</InstallerUpdateNeeded>
+				<InstErrorTitle>Napaka med namestitvijo</InstErrorTitle>
+				<OldPackageVersion>Namestitveni paket ni več podprt z čarovnikom za namestitev.\nNamestitev se NE more nadaljevati.</OldPackageVersion>
+				<PackageValidationFailed>Opozorilo, ta sveženj ni bil potrjen.</PackageValidationFailed>
+				<SetupDataDownloadCanceled>Prenos preklican</SetupDataDownloadCanceled>
+				<SetupDataDownloadError>Napaka pri prenosu podatkov, namestitve</SetupDataDownloadError>
+			</Errors>
+			<ExtractingAppFiles>Razširjanje prijavnih datotek</ExtractingAppFiles>
+			<InstalledLangMismatchWarning>Opozorilo!\n Ta programska oprema je že nameščena v drugem jeziku na vašem LiberKey.\n\n\nPrejšnja nastavitev je bila : &quot;%prevlang%&quot;\nTa nastavitev bo izvedena : &quot;%newlang%&quot;\n\nAli želite nadaljevati?</InstalledLangMismatchWarning>
+			<Installing>Namestitev ...</Installing>
+			<InvalidPackageFile>Neveljavni namestitveni paket.</InvalidPackageFile>
+			<LangMismatchWarning>Opozorilo!\n Ste na tem, da namestite programsko opremo v jeziku, ki je drugačna od jezika, uporabljenega v vašem LiberKey.\nŽelite nadaljevati?</LangMismatchWarning>
+			<PackageSignatureNotFound>(Ta paket ni podpisan) ...</PackageSignatureNotFound>
+			<RestartingApp>Ponovna vzpostavitev aplikacije...</RestartingApp>
+			<RestartingKFA>Ponovna vzpostavitev povezave glavnih datotek</RestartingKFA>
+			<RestartingMenu>Ponovni zagon menija...</RestartingMenu>
+			<ReStartLBK>Ponovni zagon LiberKey ...</ReStartLBK>
+			<RestoringPreviousConfig>Obnavljanje prejšnje konfiguracije</RestoringPreviousConfig>
+			<SavingActualVersion>Shranjevanje dejanske verzije</SavingActualVersion>
+			<SetupDataDownloadDone>Prenos je končan</SetupDataDownloadDone>
+			<SetupDone>Namestitev je končana</SetupDone>
+			<UpdatingAppsMenu>Posodobljen meni LiberKey...</UpdatingAppsMenu>
+			<UpdatingFileAssocs>Posodobitev povezave datotek...</UpdatingFileAssocs>
+			<VerifyingSetupDestination>Preverjanje ciljnega prostora</VerifyingSetupDestination>
+			<VerifyingSetupPackage>Preverjanje namestitvenega paketa</VerifyingSetupPackage>
+		</Messages>
+		<Report>
+			<caption>Namestitev je končana.</caption>
+			<CommandButtons>
+				<Close_Caption>&amp;Zapri</Close_Caption>
+			</CommandButtons>
+			<Labels>
+				<MenuInfo_Caption>Meni LiberKey je bil spremenjen!\n\nČe želite zagnati aplikacijo, ki ste jo pravkar namestili, uporabite naslednje menije vašega LiberKey</MenuInfo_Caption>
+			</Labels>
+		</Report>
+	</sl-SI>
+</Languages>

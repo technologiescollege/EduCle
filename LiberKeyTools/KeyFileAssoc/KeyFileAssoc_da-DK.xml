@@ -1,0 +1,269 @@
+<Languages version="0.2">
+	<da-DK en_name="Danish" icon="dk.png" date="2011-02-04" name="Dansk" version="0.1">
+		<FileAssoc>
+			<CommandButtons>
+				<Apply_caption>%Godkend</Apply_caption>
+				<Cancel_caption>&amp;Fortryd</Cancel_caption>
+				<Add_caption>&amp;Ny...</Add_caption>
+				<Delete_caption>&amp;Slet</Delete_caption>
+				<SelectApp_caption>&amp;Rediger...</SelectApp_caption>
+				<Advanced_caption>&amp;Avanceret...</Advanced_caption>
+				<OK_caption>&amp;OK</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<FrameCaption_caption>Detaljer vedrørende følgende filtype &apos;%1&apos;</FrameCaption_caption>
+				<OpenWithInfo_caption>Åbn med:</OpenWithInfo_caption>
+				<AssocListTitle_caption>Registrerede filtyper:</AssocListTitle_caption>
+				<ExtInfo>Filtyperne &apos;%1&apos; er &apos;%2&apos;. For at ændre filtypeassociationerne skal du vælge &quot;Avanceret...&quot;</ExtInfo>
+				<FrameCaptionNoExt_caption>Detaljer vedr. filtypen &apos;%1&apos;</FrameCaptionNoExt_caption>
+				<ExtInfoNoExt>For at ændre parametrene for filtypen &apos;%1&apos; skal du klikke på &quot;Avanceret...&quot;</ExtInfoNoExt>
+			</Labels>
+			<Messages>
+				<ExtExists>Denne filtype er allerede associeret med &apos;%1&apos; filer</ExtExists>
+				<ExtExistsTitle>Filtyper</ExtExistsTitle>
+				<AppExeNotFound>Fejl under genskabelsen af stien til de valgte LiberKey programmer</AppExeNotFound>
+				<DeleteConfirm>Hvis du fjerner den registrerede association for filtypen, vil det ikke være muligt at åbne filer med denne filtype.\n\nØnsker du virkelig at fjerne registreringen?</DeleteConfirm>
+				<DeleteConfirmTitle>Filtyper</DeleteConfirmTitle>
+			</Messages>
+			<caption>Filtypeassociation til LiberKey programmerne</caption>
+		</FileAssoc>
+		<Messages>
+			<ApplyDone>Dine LiberKey programmer er nu associeret med computerens filtyper</ApplyDone>
+			<ApplyDoneTitle>LiberKey programmernes filtypeassociationer</ApplyDoneTitle>
+			<ApplyError>Der opstod en fejl under aktiveringen af dine LiberKey filtypeassociationer</ApplyError>
+			<ApplyErrorTitle>Filtypeassociationsfejl</ApplyErrorTitle>
+			<RestoreDone>Filtypeassociationer er nu genetableret</RestoreDone>
+			<RestoreDoneTitle>Filtypeassociationer genetableret</RestoreDoneTitle>
+			<RestoreError>Filtypeassociationer kan ikke genetableres.\nDer opstod en fejl under genetableringen af filtypeassociationerne</RestoreError>
+			<RestoreErrorTitle>Filtypeassociationsfejl</RestoreErrorTitle>
+			<AutoRestoreDone>Filtypeassociationerne blev ikke genetableret under forrige opstart, men det er fikset nu!</AutoRestoreDone>
+			<AutoRestoreDoneTitle>Filtypeassociationerne er genetableret</AutoRestoreDoneTitle>
+			<ASuiteConfMissing>Filen der indeholder en liste over kompatible LiberKey programmer blev ikke fundet</ASuiteConfMissing>
+			<UpdateInfoError>Der opstod en fejl under modtagelsen af seneste udgivelsesinformationer</UpdateInfoError>
+			<UpdateErrorTitle>Fejl under opdatering</UpdateErrorTitle>
+			<UpdateTitle>Opdatering</UpdateTitle>
+			<NewVersionInfo>LiberKey version %version% fra %versiondate% er nu tilgængelig.\n\n%description%\n\nHar du lyst til at hente og installere den nu?</NewVersionInfo>
+			<UpdateDownloadError>Der opstod en fejl under download af den seneste udgivelse\n\n%error%</UpdateDownloadError>
+			<UpdateAppStillRunning>Programmet kører stadig.\nVil du prøve igen?</UpdateAppStillRunning>
+			<UpdateDone>Jubii! Opdateringen til version %version% er nu færdig.</UpdateDone>
+			<NoAppUpdate>%appname% er nu opdateret</NoAppUpdate>
+			<UpdateExeError>Der opstod desværre en fejl under opdateringen\n\n%error%</UpdateExeError>
+			<NewVersionAvailable>Der er en ny version af &quot;Filtypeassocieringsprogrammet&quot; tilgængelig</NewVersionAvailable>
+		</Messages>
+		<NewType>
+			<caption>Opret en ny filtype</caption>
+			<CommandButtons>
+				<OK_caption>&amp;OK</OK_caption>
+				<Cancel_caption>&amp;Fortryd</Cancel_caption>
+			</CommandButtons>
+			<Labels>
+				<Info_caption>Filtype:</Info_caption>
+			</Labels>
+			<Messages>
+				<NoExt>Du skal angive en filtype</NoExt>
+				<NoExtTitle>Filtyper</NoExtTitle>
+			</Messages>
+		</NewType>
+		<AppSelect>
+			<caption>Vælg associeret LiberKey program</caption>
+			<Labels>
+				<Loading_caption>Henter en liste over tilgængelig software</Loading_caption>
+			</Labels>
+			<CommandButtons>
+				<Cancel_caption>&amp;Fortryd</Cancel_caption>
+				<OK_caption>&amp;OK</OK_caption>
+			</CommandButtons>
+		</AppSelect>
+		<AssocAdvance>
+			<caption>Filtype redigering</caption>
+			<CommandButtons>
+				<OK_caption>&amp;OK</OK_caption>
+				<Cancel_caption>&amp;Fortryd</Cancel_caption>
+				<Default_caption>&amp;Standard</Default_caption>
+				<DelAction_caption>&amp;Fjern</DelAction_caption>
+				<EditAction_caption>&amp;Rediger...</EditAction_caption>
+				<Add_caption>&amp;Ny...</Add_caption>
+				<ChangeIcon_caption>&amp;Skift ikon...</ChangeIcon_caption>
+			</CommandButtons>
+			<Labels>
+				<Actions_caption>&amp;Handlinger:</Actions_caption>
+			</Labels>
+			<CheckBoxs>
+				<WinEdit_caption>Tillad ændringer i &quot;Mappe indstillinger&quot;</WinEdit_caption>
+				<ReplaceWinEntry_caption>Overskriv de nuværende handlinger for denne filtype</ReplaceWinEntry_caption>
+			</CheckBoxs>
+			<Messages>
+				<ActionDeleteConfirm>Er du helt sikker på, at du vil fjerne denne handling?</ActionDeleteConfirm>
+				<ActionDeleteConfirmTitle>Filtyper</ActionDeleteConfirmTitle>
+			</Messages>
+		</AssocAdvance>
+		<SelectIcon>
+			<caption>Skift ikon</caption>
+			<CommandButtons>
+				<OK_caption>&amp;OK</OK_caption>
+				<Cancel_caption>&amp;Fortryd</Cancel_caption>
+				<Browse_caption>&amp;Søg...</Browse_caption>
+			</CommandButtons>
+			<Labels>
+				<IconList_caption>&amp;Vælg ikon på listen:</IconList_caption>
+				<IconPath_caption>&amp;Søg efter ikon i denne fil:</IconPath_caption>
+			</Labels>
+			<Messages>
+				<FilterIconFiles>Ikonfiler</FilterIconFiles>
+				<FilterPrograms>Programmer</FilterPrograms>
+				<FilterLibraries>Mapper</FilterLibraries>
+				<FilterAllFiles>Alle filer</FilterAllFiles>
+				<OpenFileTitle>Skift ikon</OpenFileTitle>
+				<FileNotFound>Filen blev ikke fundet: %1</FileNotFound>
+			</Messages>
+		</SelectIcon>
+		<AddAction>
+			<caption>Ny handling</caption>
+			<EditCaption>Ændring af handling for: %typedesc%</EditCaption>
+			<CommandButtons>
+				<Browse_caption>Søg...</Browse_caption>
+				<Cancel_caption>&amp;Fortryd</Cancel_caption>
+				<OK_caption>&amp;OK</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<ActionArgs_caption>Kommandolinjeparametre:</ActionArgs_caption>
+				<ActionAppPath_caption>Program til at afvikle denne handling:</ActionAppPath_caption>
+				<Action_caption>&amp;Handling:</Action_caption>
+			</Labels>
+			<Messages>
+				<AppNotFound>Programmet blev ikke fundet. Kontroller om filnavnet og stien er korrekt.</AppNotFound>
+				<AppNotFoundTitle>Tilføj en handling</AppNotFoundTitle>
+				<ActionIsEmpty>Du skal vælge en handling!</ActionIsEmpty>
+				<ActionIsEmptyTitle>Filtyper</ActionIsEmptyTitle>
+			</Messages>
+		</AddAction>
+		<Main>
+			<Menus>
+				<Options_caption>&amp;Indstillinger...</Options_caption>
+				<Config_caption>Konfiguration af filtypeassociation</Config_caption>
+				<Web_caption>&amp;Besøg LiberKey filtypeassociations hjemmesiden</Web_caption>
+				<About_caption>&amp;Om...</About_caption>
+				<Apply_caption>Aktiver LiberKey filtypeassociationer</Apply_caption>
+				<Restore_caption>Genetablér filtypeassociationer</Restore_caption>
+				<Quit_caption>&amp;Afslut</Quit_caption>
+				<Test_caption>Test</Test_caption>
+			</Menus>
+		</Main>
+		<General>
+			<AppActionPrefix>Åbn med</AppActionPrefix>
+			<AppActionSufix>(LiberKey)</AppActionSufix>
+			<DefaultTypeName>Filer %1</DefaultTypeName>
+		</General>
+		<Update>
+			<caption>Softwareopdatering</caption>
+			<Labels>
+				<RunNewVersion_caption>Kører nyeste version</RunNewVersion_caption>
+				<ReplaceExe_caption>Opdaterer software</ReplaceExe_caption>
+				<ClosingApp_caption>Lukker programmet</ClosingApp_caption>
+				<Title_caption>Installation af softwareopdatering</Title_caption>
+			</Labels>
+			<CommandButtons>
+				<Cancel_caption>&amp;Fortryd</Cancel_caption>
+			</CommandButtons>
+		</Update>
+		<Download>
+			<caption>Softwareopdatering</caption>
+			<Labels>
+				<Title_caption>Softwareopdatering hentes...</Title_caption>
+			</Labels>
+			<CommandButtons>
+				<Cancel_caption>&amp;Fortryd</Cancel_caption>
+			</CommandButtons>
+		</Download>
+		<About>
+			<caption>Om</caption>
+			<CommandButtons>
+				<Update_caption>&amp;Tjek om der findes opdateringer...</Update_caption>
+				<OK_caption>&amp;Luk</OK_caption>
+				<History_caption>&amp;Versionshistorik...</History_caption>
+			</CommandButtons>
+			<Labels>
+				<LiberKeyPartner_caption>Filtypeassociationsværktøjet (&quot;KFA&quot;) er udviklet af LiberKey.com</LiberKeyPartner_caption>
+				<LiberKeyExclu_caption>Dette program kan udelukkende benyttes på din LiberKey</LiberKeyExclu_caption>
+			</Labels>
+		</About>
+		<MergeAssocs>
+			<caption>Konfigurationsopdatering</caption>
+			<CommandButtons>
+				<SkipDefaultAssoc_caption>&amp;Foretag ingen ændringer i min konfiguration!</SkipDefaultAssoc_caption>
+				<MergeDefaultAssocs_caption>&amp;Tilføj de valgte filtypeassociationer</MergeDefaultAssocs_caption>
+				<Cancel_caption>&amp;Vent med at vise mig beskeden, til næste opstart...</Cancel_caption>
+			</CommandButtons>
+			<Labels>
+				<Title_caption>Konfiguration af standard filtypeassociation</Title_caption>
+				<UpdateInfo_caption>I nedenstående liste kan du se alle de nye filtypeassociationer. De associationer, som er markeret med rødt findes allerede i din nuværende konfiguration. Alle de valgte associationer vil blive tilføjet din nuværende konfiguration.</UpdateInfo_caption>
+			</Labels>
+		</MergeAssocs>
+		<Loading>
+			<Labels>
+				<Info_caption>Arbejder...</Info_caption>
+			</Labels>
+		</Loading>
+		<Options>
+			<caption>Konfiguration af filtypeassociationer</caption>
+			<CommandButtons>
+				<Cancel_caption>&amp;Fortryd</Cancel_caption>
+				<OK_caption>&amp;OK</OK_caption>
+				<DelAssocErrors_caption>Slet valgte filtypeassociationer</DelAssocErrors_caption>
+			</CommandButtons>
+			<Labels>
+				<AppsErrorsTitle_caption>Programmet blev ikke fundet (filtypeassociation deaktiveret)</AppsErrorsTitle_caption>
+				<FastSwitchMode_caption>Ved dobbeltklik på ikonet i Windows systembakke:</FastSwitchMode_caption>
+				<Language_caption>Sprog i brugergrænsefladen:</Language_caption>
+			</Labels>
+			<OptionButtons>
+				<optSystrayFastSwitchOFF_caption>Åbn konfiguration af filtypeassociation</optSystrayFastSwitchOFF_caption>
+				<optSystrayFastSwitchON_caption>Foretag/genetabler LiberKey filtypeassociation</optSystrayFastSwitchON_caption>
+			</OptionButtons>
+			<CheckBoxs>
+				<AutoCheckVersionAtStart_caption>Kontrollér altid om der er opdateringer ved opstart</AutoCheckVersionAtStart_caption>
+				<ShowAssocToolTip_caption>Vis besked når filtypeassociationen er aktiveret/genetableret</ShowAssocToolTip_caption>
+				<UseLbkProxySettings_caption>Brug LiberKey proxy konfiguraiton</UseLbkProxySettings_caption>
+			</CheckBoxs>
+			<Tabs>
+				<Options>Indstillinger</Options>
+				<ActionErrors>Ugyldige handlinger</ActionErrors>
+			</Tabs>
+			<Messages>
+				<NotFoundApp>(programmet blev ikke fundet)</NotFoundApp>
+				<AppCounters>Filtypeassociationer aktiveret til %objcount% typer (%actioncount% handlinger)</AppCounters>
+				<ActionCount>(1 handling)</ActionCount>
+			</Messages>
+		</Options>
+		<History>
+			<caption>Versionshistorik for de vigtigste filtypeassociationer</caption>
+			<CommandButtons>
+				<Close_caption>&amp;Luk</Close_caption>
+				<Download_caption>Hent version %ver%...</Download_caption>
+			</CommandButtons>
+			<Messages>
+				<AppVersion>Version %ver%</AppVersion>
+				<VersionDate>- %date%</VersionDate>
+				<NextVersion>(næste version...)</NextVersion>
+				<YourVersion>Din version</YourVersion>
+				<VersionAvailable>Opdatering tilgængelig</VersionAvailable>
+				<New>Ny</New>
+				<NoVersionInfo>Der er ingen tilgængelig versionsinformation</NoVersionInfo>
+			</Messages>
+		</History>
+		<AppWarning>
+			<caption>Filtypeassociation (&quot;KFA&quot;) - Der er risiko for konflikt med et andet program!</caption>
+			<CommandButtons>
+				<OK_caption>&amp;OK</OK_caption>
+				<RemoveAssocs_caption>Deaktiver filtypeassociationer nu</RemoveAssocs_caption>
+			</CommandButtons>
+			<Labels>
+				<Title_caption>Advarsel!</Title_caption>
+				<Message_caption>Filtypeassociation (&quot;KFA&quot;) har opdaget at der kan opstå fejl under åbning af applikationer.\nDet anbefales på det kraftigste, at du midlertidigt deaktiverer filtypeassociation, før du foretager ændringer i Windows Registreringsdatabasen!</Message_caption>
+			</Labels>
+		</AppWarning>
+		<Contributors>
+			<Contributor name="Peter Bech-Lutzka" email="peterbechlutzka@gmail.com" website="www.bech-lutzka.com"/>
+		</Contributors>
+	</da-DK>
+</Languages>

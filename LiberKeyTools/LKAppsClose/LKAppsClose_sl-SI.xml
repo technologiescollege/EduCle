@@ -1,0 +1,31 @@
+<Languages version="0.2">
+	<sl-SI en_name="Slovenian" icon="si.png" date="2012-03-04" name="Slovenija" version="2.312">
+		<Closing>
+			<caption>Končaj aplikacije LiberKey </caption>
+			<CommandButtons>
+				<Cancel_Caption>&amp;Prekliči</Cancel_Caption>
+				<Retry_Caption>&amp;Ponovi</Retry_Caption>
+				<Terminate_Caption>&amp;Prisilno zapiranje</Terminate_Caption>
+			</CommandButtons>
+		</Closing>
+		<Debug>
+			<caption>Informacije o operacijskem sistemu Windows in odprtih aplikacijah</caption>
+		</Debug>
+		<Main>
+			<CommandButtons>
+				<Close_Caption>P&amp;rekliči</Close_Caption>
+				<CloseApps_Caption>&amp;Zapri prenosne aplikacije</CloseApps_Caption>
+			</CommandButtons>
+		</Main>
+		<Message>
+			<KillWarning>Opozorilo!\n\n Prisilno zaprtje aplikacij lahko vpliva na vaše podatke.\nZato je zaželjeno, da zaprete aplikacijo normalno.\n\n Ali ste prepričani, da želite na silo zaustaviti ta program?\n\n\n</KillWarning>
+		</Message>
+		<Messages>
+			<AppsCloseCanceled>Zapiranja aplikacije je preklicano</AppsCloseCanceled>
+			<CloseFailed>Aplikacija še vedno deluje.\nZaprite jo ročno ali prisilno zaustavite.</CloseFailed>
+			<Closing>Zapiranje aplikacije ...</Closing>
+			<ContinueClose>Ali želite  zaustaviti ostale aplikacije ?</ContinueClose>
+			<ForceFailed>Prišlo je do napake, pri prisilni zaustavitvi aplikacije.</ForceFailed>
+		</Messages>
+	</sl-SI>
+</Languages>

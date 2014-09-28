@@ -1,0 +1,270 @@
+<Languages version="0.2">
+	<pt-BR en_name="Portuguese Brazilian" icon="br.png" date="2012-01-17" name="Português do Brasil" version="1.0">
+		<About>
+			<caption>Sobre</caption>
+			<CommandButtons>
+				<History_caption>&amp;Histórico da versão...</History_caption>
+				<OK_caption>&amp;Fechar</OK_caption>
+				<Update_caption>&amp;Verificar por atualização...</Update_caption>
+			</CommandButtons>
+			<Labels>
+				<LiberKeyExclu_caption>Este software só pode ser usado no LiberKey</LiberKeyExclu_caption>
+				<LiberKeyPartner_caption>KFA foi desenvolvido por LiberKey.com</LiberKeyPartner_caption>
+			</Labels>
+		</About>
+		<AddAction>
+			<caption>Nova ação</caption>
+			<CommandButtons>
+				<Browse_caption>Localizar...</Browse_caption>
+				<Cancel_caption>&amp;Cancelar</Cancel_caption>
+				<OK_caption>&amp;OK</OK_caption>
+			</CommandButtons>
+			<EditCaption>Modificação de ação para o tipo : %typedesc%</EditCaption>
+			<Labels>
+				<Action_caption>&amp;Ação :</Action_caption>
+				<ActionAppPath_caption>Aplicativo usado para executar esta ação :</ActionAppPath_caption>
+				<ActionArgs_caption>Parâmetros de linhas de comando :</ActionArgs_caption>
+			</Labels>
+			<Messages>
+				<ActionIsEmpty>Você tem que especificar uma ação.</ActionIsEmpty>
+				<ActionIsEmptyTitle>Tipos de arquivos</ActionIsEmptyTitle>
+				<AppNotFound>O programa especificado não foi encontrado. Verifique se o nome e caminho do arquivo estão corretos.</AppNotFound>
+				<AppNotFoundTitle>Adicionar uma ação</AppNotFoundTitle>
+			</Messages>
+		</AddAction>
+		<AppSelect>
+			<caption>Seleção do aplicativo portátil associado</caption>
+			<CommandButtons>
+				<Cancel_caption>&amp;Cancelar</Cancel_caption>
+				<OK_caption>&amp;OK</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<Loading_caption>Carregando a lista de software disponível...</Loading_caption>
+			</Labels>
+		</AppSelect>
+		<AppWarning>
+			<caption>Associador de Arquivos - Risco de conflito com outro aplicativo</caption>
+			<CommandButtons>
+				<OK_caption>&amp;OK</OK_caption>
+				<RemoveAssocs_caption>Desabilitar associações agora.</RemoveAssocs_caption>
+			</CommandButtons>
+			<Labels>
+				<Message_caption>Associador de Arquivos detectou a execução de um aplicativo que pode ser problemático. É altamente recomendado desabilitar as associações de arquivos temporárias antes de fazer mudanças no registro do Windows.</Message_caption>
+				<Title_caption>Aviso!</Title_caption>
+			</Labels>
+		</AppWarning>
+		<AssocAdvance>
+			<caption>Edição de tipo de arquivo</caption>
+			<CheckBoxs>
+				<ReplaceWinEntry_caption>Substituir as ações atuais para este typo de arquivo</ReplaceWinEntry_caption>
+				<WinEdit_caption>Permitir modificação em &quot;Opções de Pasta&quot;</WinEdit_caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Add_caption>&amp;Novo...</Add_caption>
+				<Cancel_caption>&amp;Cancelar</Cancel_caption>
+				<ChangeIcon_caption>&amp;Trocar ícone...</ChangeIcon_caption>
+				<Default_caption>&amp;Padrão</Default_caption>
+				<DelAction_caption>&amp;Excluir</DelAction_caption>
+				<EditAction_caption>&amp;Modificar...</EditAction_caption>
+				<OK_caption>&amp;OK</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<Actions_caption>&amp;Ações :</Actions_caption>
+			</Labels>
+			<Messages>
+				<ActionDeleteConfirm>Você realmente deseja remover esta ação?</ActionDeleteConfirm>
+				<ActionDeleteConfirmTitle>Tipos de arquivos</ActionDeleteConfirmTitle>
+			</Messages>
+		</AssocAdvance>
+		<Download>
+			<caption>Atualizar software</caption>
+			<CommandButtons>
+				<Cancel_caption>&amp;Cancelar</Cancel_caption>
+			</CommandButtons>
+			<Labels>
+				<Title_caption>Baixando atualização de software...</Title_caption>
+			</Labels>
+		</Download>
+		<FileAssoc>
+			<caption>Tipos de arquivos associados aos aplicativos portáteis do LiberKey</caption>
+			<CommandButtons>
+				<Add_caption>&amp;Novo...</Add_caption>
+				<Advanced_caption>&amp;Avançado...</Advanced_caption>
+				<Apply_caption>&amp;Aplicar</Apply_caption>
+				<Cancel_caption>&amp;Cancelar</Cancel_caption>
+				<Delete_caption>&amp;Excluir</Delete_caption>
+				<OK_caption>OK</OK_caption>
+				<SelectApp_caption>Editar...</SelectApp_caption>
+			</CommandButtons>
+			<Labels>
+				<AssocListTitle_caption>Tipos de arquivos registrados:</AssocListTitle_caption>
+				<ExtInfo>Arquivos tipo &apos;%1&apos; são &apos;%2&apos;. Para modificar aplicativos portáteis associados a este arquivo, clique em Avançado.</ExtInfo>
+				<ExtInfoNoExt>Para modificar parâmetros que se aplicam a elemento tipo &apos;%1&apos;, clique em Avançado.</ExtInfoNoExt>
+				<FrameCaption_caption>Detalhes sobre a extensão &apos;%1&apos;</FrameCaption_caption>
+				<FrameCaptionNoExt_caption>Detalhes para tipo &apos;%1&apos;</FrameCaptionNoExt_caption>
+				<OpenWithInfo_caption>Abrir com :</OpenWithInfo_caption>
+			</Labels>
+			<Messages>
+				<AppExeNotFound>Erro ao recuperar o caminho do aplicativo portátil selecionado</AppExeNotFound>
+				<DeleteConfirm>Se você remover uma extensão de arquivo registrada, será impossível abrir arquivos com esta extensão através do clique duplo em ícones.\n\nVocê realmente deseja remover esta extensão de arquivo?</DeleteConfirm>
+				<DeleteConfirmTitle>Tipos de arquivos</DeleteConfirmTitle>
+				<ExtExists>Esta extensão já está associada a &apos;%1&apos; arquivos</ExtExists>
+				<ExtExistsTitle>Tipos de arquivos</ExtExistsTitle>
+			</Messages>
+		</FileAssoc>
+		<General>
+			<AppActionPrefix>Abrir com</AppActionPrefix>
+			<AppActionSufix>(LiberKey)</AppActionSufix>
+			<DefaultTypeName>Arquivos %1</DefaultTypeName>
+		</General>
+		<History>
+			<caption>Associador de Arquivos - Histórico de versões</caption>
+			<CommandButtons>
+				<Close_caption>&amp;Fechar</Close_caption>
+				<Download_caption>Baixando a versão %ver%...</Download_caption>
+			</CommandButtons>
+			<Messages>
+				<AppVersion>Versão %ver%</AppVersion>
+				<New>Novo</New>
+				<NextVersion>(próxima versão...)</NextVersion>
+				<NoVersionInfo>Não há informação de versão disponível</NoVersionInfo>
+				<VersionAvailable>Atualização disponível</VersionAvailable>
+				<VersionDate>- %date%</VersionDate>
+				<YourVersion>Sua versão</YourVersion>
+			</Messages>
+		</History>
+		<Loading>
+			<Labels>
+				<Info_caption>Carregando...</Info_caption>
+			</Labels>
+		</Loading>
+		<Main>
+			<Menus>
+				<About_caption>&amp;Sobre...</About_caption>
+				<Apply_caption>Aplicar associações do LiberKey</Apply_caption>
+				<Config_caption>Configurar associação de arquivo...</Config_caption>
+				<Options_caption>&amp;Opções...</Options_caption>
+				<Quit_caption>&amp;Sair</Quit_caption>
+				<Restore_caption>Restaurar as associações do computador local</Restore_caption>
+				<Test_caption>teste</Test_caption>
+				<Web_caption>&amp;Visitar a página do Associador de Arquivos...</Web_caption>
+			</Menus>
+		</Main>
+		<MergeAssocs>
+			<caption>Configuração de atualização</caption>
+			<CommandButtons>
+				<Cancel_caption>&amp;Eu verei isso na próxima inicialização...</Cancel_caption>
+				<MergeDefaultAssocs_caption>&amp;Aplicar associações selecionadas</MergeDefaultAssocs_caption>
+				<SkipDefaultAssoc_caption>&amp;Não mude minha configuração!</SkipDefaultAssoc_caption>
+			</CommandButtons>
+			<Labels>
+				<Title_caption>Configuração de associações padrão</Title_caption>
+				<UpdateInfo_caption>Na lista abaixo, você pode ver todas as novas associações de arquivos fornecidas nessa nova versão. Associações em vermelho já estão definidas na sua configuração atual. Todas as associações selecionadas nesta lista serão adicionadas na sua configuração atual.</UpdateInfo_caption>
+			</Labels>
+		</MergeAssocs>
+		<Messages>
+			<ApplyDone>Aplicativos portáteis do LiberKey estão agora associados aos arquivos.</ApplyDone>
+			<ApplyDoneTitle>Associações de aplicativos portáteis do LiberKey</ApplyDoneTitle>
+			<ApplyError>Um erro ocorreu enquanto tentava ativar as associações do LiberKey</ApplyError>
+			<ApplyErrorTitle>Erro na associação de arquivos</ApplyErrorTitle>
+			<ASuiteConfMissing>O arquivo contendo a lista de aplicativos portáteis do LiberKey não foi encontrado!</ASuiteConfMissing>
+			<AutoRestoreDone>Extensões de arquivos não foram restauradas durante o último uso.\nElas acabaram de ser restauradas.</AutoRestoreDone>
+			<AutoRestoreDoneTitle>Associações restauradas</AutoRestoreDoneTitle>
+			<ExeSelection>Aplicativo|*.exe;*.bat;*.com|Todos os arquivos (*.*)|*.*</ExeSelection>
+			<NewVersionAvailable>Uma nova versão do Associador de Arquivos está disponível</NewVersionAvailable>
+			<NewVersionInfo>Versão %version% em %versiondate% está disponível.\n\n%description%\n\nVocê gostaria de baixá-la agora?</NewVersionInfo>
+			<NoAppUpdate>A versão do %appname% está atualizada.</NoAppUpdate>
+			<RestoreDone>Associações de arquivos restaurada</RestoreDone>
+			<RestoreDoneTitle>Associações restauradas</RestoreDoneTitle>
+			<RestoreError>Extensões de arquivos não podem ser restauradas.\nUm erro ocorreu durante a restauração da associação de arquivos</RestoreError>
+			<RestoreErrorTitle>Erro na associação de arquivo</RestoreErrorTitle>
+			<UpdateAppStillRunning>O software ainda está em execução.\nVocê gostaria de tentar novamente?</UpdateAppStillRunning>
+			<UpdateDone>Atualização para a versão %version% foi concluída.</UpdateDone>
+			<UpdateDownloadError>Um erro ocorreu enquanto baixava a última versão.\n\n%error%</UpdateDownloadError>
+			<UpdateErrorTitle>Erro durante a atualização</UpdateErrorTitle>
+			<UpdateExeError>Um erro ocorreu durante a atualização do software.\n\n%error%</UpdateExeError>
+			<UpdateInfoError>Um erro ocorreu quando tentava obter a última informação de versão</UpdateInfoError>
+			<UpdateTitle>Atualizar</UpdateTitle>
+		</Messages>
+		<NewType>
+			<caption>Criar uma nova extensão</caption>
+			<CommandButtons>
+				<Cancel_caption>&amp;Cancelar</Cancel_caption>
+				<OK_caption>&amp;OK</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<Info_caption>Extensão do arquivo :</Info_caption>
+			</Labels>
+			<Messages>
+				<NoExt>Você tem que especificar uma extensão.</NoExt>
+				<NoExtTitle>Tipos de arquivos</NoExtTitle>
+			</Messages>
+		</NewType>
+		<Options>
+			<caption>Configuração do Associador de Arquivos</caption>
+			<CheckBoxs>
+				<AutoCheckVersionAtStart_caption>Verificar por atualizações na inicialização do programa</AutoCheckVersionAtStart_caption>
+				<ShowAssocToolTip_caption>Mostre um aviso quando as associações forem habilitadas/desabilitadas</ShowAssocToolTip_caption>
+				<UseLbkProxySettings_caption>Utilizar a configuração de proxy do LiberKey</UseLbkProxySettings_caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Cancel_caption>&amp;Cancelar</Cancel_caption>
+				<DelAssocErrors_caption>Remover associações selecionadas</DelAssocErrors_caption>
+				<OK_caption>&amp;OK</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<AppsErrorsTitle_caption>Software não encontrado (associações desabilitadas)</AppsErrorsTitle_caption>
+				<FastSwitchMode_caption>Com um duplo clique no ícone da bandeja:</FastSwitchMode_caption>
+				<Language_caption>Idioma da Interface de usuário:</Language_caption>
+			</Labels>
+			<Messages>
+				<ActionCount>(1 ação)</ActionCount>
+				<AppCounters>Aplicativo associado a %objcount% objetos (%actioncount% ações)</AppCounters>
+				<NotFoundApp>(Aplicativo não encontrado)</NotFoundApp>
+			</Messages>
+			<OptionButtons>
+				<optSystrayFastSwitchOFF_caption>Abrir configuração de associação</optSystrayFastSwitchOFF_caption>
+				<optSystrayFastSwitchON_caption>Associar / Restaurar associações de software do LiberKey</optSystrayFastSwitchON_caption>
+			</OptionButtons>
+			<Tabs>
+				<ActionErrors>Ações inválidas</ActionErrors>
+				<Options>Opções</Options>
+			</Tabs>
+		</Options>
+		<SelectIcon>
+			<caption>Trocar ícone</caption>
+			<CommandButtons>
+				<Browse_caption>&amp;Localizar...</Browse_caption>
+				<Cancel_caption>&amp;Cancelar</Cancel_caption>
+				<OK_caption>&amp;OK</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<IconList_caption>&amp;Selecionar um ícone na lista abaixo :</IconList_caption>
+				<IconPath_caption>&amp;Localizar um ícone para este arquivo :</IconPath_caption>
+			</Labels>
+			<Messages>
+				<FileNotFound>Arquivo não encontrado: %1</FileNotFound>
+				<FilterAllFiles>Todos os arquivos</FilterAllFiles>
+				<FilterIconFiles>Arquivos de ícones</FilterIconFiles>
+				<FilterLibraries>Bibliotecas</FilterLibraries>
+				<FilterPrograms>Programas</FilterPrograms>
+				<OpenFileTitle>Trocar ícone</OpenFileTitle>
+			</Messages>
+		</SelectIcon>
+		<Update>
+			<caption>Atualização de software</caption>
+			<CommandButtons>
+				<Cancel_caption>&amp;Cancelar</Cancel_caption>
+			</CommandButtons>
+			<Labels>
+				<ClosingApp_caption>Fechando aplicativo</ClosingApp_caption>
+				<ReplaceExe_caption>Atualizando software</ReplaceExe_caption>
+				<RunNewVersion_caption>Executando a nova versão</RunNewVersion_caption>
+				<Title_caption>Instalação da atualização do software</Title_caption>
+			</Labels>
+		</Update>
+		<Contributors>
+			<Contributor name="Rafael Silva" email="mckusck@hotmail.com" website="www.twitter.com/mckusck"/>
+		</Contributors>
+	</pt-BR>
+</Languages>

@@ -1,0 +1,95 @@
+<Languages version="0.2">
+	<en name="English" en_name="English" date="2011-03-14" version="0.40" icon="gb.png">
+		<Messages>
+			<AppAlreadyRunning>%appname% is already running. Please close the other application before launching this one.</AppAlreadyRunning>
+			<DefaultTitle>%appname% LiberKey Portable Edition</DefaultTitle>
+			<OtherInstanceStarted>Warning! \n\nYou have just launched %appname% while the portable version is running.\nPlease close the non-portable version before you attempt to run the portable version.</OtherInstanceStarted>
+			<Errors>
+				<AppInfoFileNotFound>The portable application&apos;s information file is missing.</AppInfoFileNotFound>
+				<ExeNotFound>The program&apos;s executable was not found.</ExeNotFound>
+				<ApplyContextError>Unable to prepare the execution context for the portable application.\n\nPlease close all open windows and start the application again.</ApplyContextError>
+				<DependencyMissing>To work, this program requires installation of %depend%.</DependencyMissing>
+				<InvalidRetoreData>The restore data for %appname% is corrupted.\nUnable to restore the configuration for this application.</InvalidRetoreData>
+				<CrashRestore>LiberKey Portabilizer was stopped during it&apos;s last execution.</CrashRestore>
+				<CrashInfo>The following applications were running.\nIt was not possible to save their configuration in LiberKey and the configuration of your computer could not be restored.</CrashInfo>
+				<NeedUpdate>LiberKey Portabilizer must be updated to run this application.\nYou can download it for free from www.liberkey.com\n\nDo you want to go to www.liberkey.com now?</NeedUpdate>
+				<NeedLbkUpdate>Your LiberKey must be updated to run this application.\n\nYou can use %app% after applying the latest LiberKey patch.</NeedLbkUpdate>
+				<CrashRestoreElevatedApps>Applications were run as administrator and configuration could not be restored. To do so, LiberKey Portabilizer must be run as administrator. Do you want to restore these applications now?</CrashRestoreElevatedApps>
+				<SingleUserApp>The application &quot;%app_name%&quot; has been launched by another user.\n\nUser: &quot;%user%&quot;\nSession : &quot;%session%&quot;\n\nThe same application cannot be run by two different users simultaneously.</SingleUserApp>
+			</Errors>
+			<LbkPortabilizerInfo>This program is the &quot;portabilization&quot; engine required by applications present in the LiberKey.\n\nFor further information, please visit \nwww.liberkey.com</LbkPortabilizerInfo>
+			<RestoreNeedLBK>Warning!\n\nOne or more applications was not found.\n\n- &quot;Abort&quot;: No operation will be made at this time.\n\n- &quot;Ignore&quot;: The configuration of your computer will be restored. However, you may lose\nthe configuration of your portable programs.\n\n- &quot;Retry&quot;: If your portable applications were on a USB drive, plug it and click &quot;Retry&quot;.</RestoreNeedLBK>
+			<SessionEndWarning>Portable applications are still running.\nWe recommend that you close all open applications before you attempt to shut down or log off your computer.</SessionEndWarning>
+			<Yes>Yes</Yes>
+			<No>No</No>
+		</Messages>
+		<Main>
+			<CommandButtons>
+				<OK_Caption>&amp;OK</OK_Caption>
+			</CommandButtons>
+			<Labels>
+				<PortabilizerInfo_Caption>Current running applications:</PortabilizerInfo_Caption>
+			</Labels>
+		</Main>
+		<CrashRestore>
+			<CommandButtons>
+				<Restore_Caption>Restore configurations</Restore_Caption>
+			</CommandButtons>
+			<Labels>
+				<Info_Caption>The following applications were running.\nIt was not possible to save their configuration in the LiberKey, and your computer&apos;s configuration could not be restored.</Info_Caption>
+				<Title_Caption>LiberKey Portabilizer was abruptly interrupted at its last execution.</Title_Caption>
+			</Labels>
+		</CrashRestore>
+		<Warning>
+			<CommandButtons>
+				<Info_Caption>Information...</Info_Caption>
+				<OK_Caption>&amp;OK</OK_Caption>
+			</CommandButtons>
+			<Status>
+				<UserName>User:</UserName>
+				<UserAdmin>Admin:</UserAdmin>
+				<UserElevated>Elevated:</UserElevated>
+				<UserSession>Session:</UserSession>
+			</Status>
+		</Warning>
+		<Cmds>
+			<OK>OK</OK>
+			<Info>Information...</Info>
+		</Cmds>
+		<UpdateAvailable>
+			<caption>Update available</caption>
+			<CheckBoxs>
+				<NoMoreAlert_Caption>Do not show this update</NoMoreAlert_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Cancel_Caption>&amp;Start program without updating</Cancel_Caption>
+				<Install_Caption>&amp;Download and install the update</Install_Caption>
+			</CommandButtons>
+			<Labels>
+				<Version_Caption>Version %version%</Version_Caption>
+				<AppUpdateAvailable_Caption>A new version of this program is available for your LiberKey.</AppUpdateAvailable_Caption>
+			</Labels>
+		</UpdateAvailable>
+		<License>
+			<caption>%appname% license</caption>
+			<Labels>
+				<LicenseTitle_Caption>This license define the terms of use of %appname%. Please read before continuing.</LicenseTitle_Caption>
+				<LicenseAgreeTitle_Caption>You must accept these license terms before you can use %appname%</LicenseAgreeTitle_Caption>
+				<License_Caption>License</License_Caption>
+				<AccetInformation_Caption>IMPORTANT: By checking the checkbox below and clicking Accept, you accept these license terms and agree to be bound by them and comply with them. Click the &apos;arrow down&apos; icon to see the rest of the license.</AccetInformation_Caption>
+			</Labels>
+			<CommandButtons>
+				<Accept_Caption>Accept</Accept_Caption>
+				<Cancel_Caption>Cancel</Cancel_Caption>
+				<OK_Caption>OK</OK_Caption>
+			</CommandButtons>
+			<CheckBoxs>
+				<Accept_Caption>I accept and agree to be bound by the license terms</Accept_Caption>
+			</CheckBoxs>
+		</License>
+		<Contributors>
+			<Contributor name="LiberKey" email="contact@liberkey.com" website="http://www.liberkey.com"/>
+			<Contributor name="BlueMaxima" email="bluemaximax011@hotmail.com"/>
+		</Contributors>
+	</en>
+</Languages>

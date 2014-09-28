@@ -1,0 +1,17 @@
+<Languages version="0.2">
+	<an-ES-AR en_name="Aragonese" icon="es-ar.png" date="2011-05-15" version="0.2" name="Aragonés" en_country="Aragon (Spain)" country="Aragón">
+		<Message>
+			<AppStillRunning>Encara bi ha aplicazions que se son executando.\n\nDesconisión d&apos;USB canzelata.</AppStillRunning>
+		</Message>
+		<Messages>
+			<Errors>
+				<LkAppsCloseRunError>Error executando o programa que tanca as aplicazions</LkAppsCloseRunError>
+				<LkDiskEjectorRunError>Error executando o programa que estraye o disco USB</LkDiskEjectorRunError>
+			</Errors>
+			<Intro>LiberKey USB Eject tanca todas as aplicazions d&apos;o despositibo USB !</Intro>
+		</Messages>
+		<Contributors>
+			<Contributor name="Santiago Bal" email="santiago_balp@yahoo.es"/>
+		</Contributors>
+	</an-ES-AR>
+</Languages>

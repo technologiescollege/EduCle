@@ -1,0 +1,17 @@
+<Languages version="0.2">
+	<es-ES en_name="Spanish (International Sort)" icon="es.png" date="2010-09-21" version="0.1" name="Español">
+		<Message>
+			<AppStillRunning>Aún hay aplicaciones ejecutandose.\n\nDesconexión de USB cancelada.</AppStillRunning>
+		</Message>
+		<Messages>
+			<Intro>¡ LiberKey USB Eject cierra todas las aplicaciones del dispositivo USB !</Intro>
+			<Errors>
+				<LkAppsCloseRunError>Error ejecutando el programa que cierra las aplicaciones</LkAppsCloseRunError>
+				<LkDiskEjectorRunError>Error ejecutando el programa que extrae el disco USB</LkDiskEjectorRunError>
+			</Errors>
+		</Messages>
+		<Contributors>
+			<Contributor name="Sergio López" email="sewave@gmail.com"/>
+		</Contributors>
+	</es-ES>
+</Languages>

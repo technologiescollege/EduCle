@@ -1,0 +1,13 @@
+<Languages version="0.2">
+	<pt-BR en_name="Portuguese Brazilian" icon="br.png" date="2012-01-18" version="1.0" name="Português do Brasil">
+		<Messages>
+			<ConfirmEraseMany>Excluir os %count% atalhos salvos?</ConfirmEraseMany>
+			<ConfirmEraseOne>Excluir o atalho salvo?</ConfirmEraseOne>
+			<NoDesktopIconFound>Nenhum atalho foi encontrado na área de trabalho.</NoDesktopIconFound>
+			<NoQuickLaunchIconFound>Nenhum atalho foi encontrado na barra de início rápido.</NoQuickLaunchIconFound>
+		</Messages>
+		<Contributors>
+			<Contributor name="Rafael Silva" email="mckusck@hotmail.com" website="www.twitter.com/mckusck"/>
+		</Contributors>
+	</pt-BR>
+</Languages>

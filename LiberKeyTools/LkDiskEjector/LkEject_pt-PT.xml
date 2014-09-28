@@ -1,0 +1,17 @@
+<Languages version="0.2">
+	<pt-PT en_name="Portuguese" icon="pt.png" date="2010-09-27" name="Português" version="1.0">
+		<Message>
+			<AppStillRunning>Ainda existem aplicações Iniciadas através do LiberKey em execução.\n\nA DESCONEXÃO DO DISPOSITIVO USB FOI CANCELADA.</AppStillRunning>
+		</Message>
+		<Messages>
+			<Intro>&quot;LiberKey USB Eject&quot; fecha todos os aplicativos do dispositivo USB!\n</Intro>
+			<Errors>
+				<LkAppsCloseRunError>Erro ao executar o &quot;LiberKey USB Eject&quot;, programa que fecha os seus aplicativos\n</LkAppsCloseRunError>
+				<LkDiskEjectorRunError>Erro ao executar o Programa &quot;LiberKey Disk Ejector&quot;, que executa a ejecção do dispositivo USB</LkDiskEjectorRunError>
+			</Errors>
+		</Messages>
+		<Contributors>
+			<Contributor name="Ricardo Figueiredo" email="rfigueiredo@live.com.pt" website="rfigueiredo.webnode.pt"/>
+		</Contributors>
+	</pt-PT>
+</Languages>

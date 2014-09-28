@@ -1,0 +1,13 @@
+<Languages version="0.2">
+	<nb-NO en_name="Norwegian - Bokmål" icon="no.png" date="2011-04-04" version="1,2" name="Norsk">
+		<Messages>
+			<NoDesktopIconFound>Ingen snarvei var funnet på skriverbordet</NoDesktopIconFound>
+			<ConfirmEraseMany>Slett %count% lagrede snarveier</ConfirmEraseMany>
+			<ConfirmEraseOne>Slett den lagrede snarvei</ConfirmEraseOne>
+			<NoQuickLaunchIconFound>Ingen snarvei var funnet på Quick Launch Bar</NoQuickLaunchIconFound>
+		</Messages>
+		<Contributors>
+			<Contributor name="Jack Terje Saltnæs" email="jack.saltnes@sonnico.no"/>
+		</Contributors>
+	</nb-NO>
+</Languages>

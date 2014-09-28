@@ -1,0 +1,13 @@
+<Languages version="0.2">
+	<de name="Deutsch" icon="de.png" version="0.30" date="2010-09-16" en_name="German">
+		<Contributors>
+			<Contributor name="Paul Bichler" email="bichlepa@gmx.de"/>
+		</Contributors>
+		<Messages>
+			<NoDesktopIconFound>Auf dem Desktop wurden keine Verknüpfungen gefunden.</NoDesktopIconFound>
+			<ConfirmEraseMany>Die %count% gespeicherten Verknüpfungen löschen?</ConfirmEraseMany>
+			<ConfirmEraseOne>Die gespeicherte Verknüpfung löschen?</ConfirmEraseOne>
+			<NoQuickLaunchIconFound>Keine Verknüpfungen in der Schnellstartleiste gefunden.</NoQuickLaunchIconFound>
+		</Messages>
+	</de>
+</Languages>

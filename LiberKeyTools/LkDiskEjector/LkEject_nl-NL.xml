@@ -1,0 +1,17 @@
+<Languages version="0.2">
+	<nl-NL en_name="Dutch" icon="nl.png" date="2010-10-29" name="Dutch" version="1.0">
+		<Message>
+			<AppStillRunning>Er draaien nog toepassingen.\n\nUitschakelen van USB geannuleerd</AppStillRunning>
+		</Message>
+		<Messages>
+			<Intro>Liberkey USB Uitwerpen zal alle toepassingen sluiten op het USB apparaat!</Intro>
+			<Errors>
+				<LkAppsCloseRunError>Fout tijdens uitvoering van het programma dat toepassingen sluit</LkAppsCloseRunError>
+				<LkDiskEjectorRunError>Fout tijdens het uitvoeren van het USB schijf uitwerp programma</LkDiskEjectorRunError>
+			</Errors>
+		</Messages>
+		<Contributors>
+			<Contributor name="Ed Busse"/>
+		</Contributors>
+	</nl-NL>
+</Languages>

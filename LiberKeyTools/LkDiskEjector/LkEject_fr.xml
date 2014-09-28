@@ -1,0 +1,17 @@
+<Languages version="0.2">
+	<fr en_name="French" date="2010-09-16" version="0.30" icon="fr.png" name="Français">
+		<Messages>
+			<Intro>LiberKey USB Eject ferme toutes les applications du périphérique USB !</Intro>
+			<Errors>
+				<LkAppsCloseRunError>Erreur en exécutant le programme de fermeture des applications</LkAppsCloseRunError>
+				<LkDiskEjectorRunError>Erreur en exécutant le programme d&apos;ejection du disque USB</LkDiskEjectorRunError>
+			</Errors>
+		</Messages>
+		<Message>
+			<AppStillRunning>Il reste encore des applications en cours d&apos;exécution.\n\nDéconnexion USB annulée</AppStillRunning>
+		</Message>
+		<Contributors>
+			<Contributor name="LiberKey" email="contact@liberkey.com" website="http://www.liberkey.com"/>
+		</Contributors>
+	</fr>
+</Languages>

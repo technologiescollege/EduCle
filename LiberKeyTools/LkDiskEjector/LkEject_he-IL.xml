@@ -1,0 +1,17 @@
+<Languages version="0.2">
+	<he-IL en_name="Hebrew" icon="il.png" date="2011-02-26" version="1.0" name="Hebrew Translation">
+		<Message>
+			<AppStillRunning>עדיין קיימים יישומים פועלים.\n\nניתוק ההתקן הנייד בוטל.</AppStillRunning>
+		</Message>
+		<Messages>
+			<Intro>תוכנית הניתוק של ההתקן הנייד גורם לסגירת כל היישומים בהתקן הנייד!</Intro>
+			<Errors>
+				<LkAppsCloseRunError>אירעה שגיאה בעת ביצוע התוכנית הסוגרת את כל היישומים</LkAppsCloseRunError>
+				<LkDiskEjectorRunError>אירעה שגיאה בעת ביצוע התוכנית של ניתוק הדיסק הנייד</LkDiskEjectorRunError>
+			</Errors>
+		</Messages>
+		<Contributors>
+			<Contributor name="Abe C"/>
+		</Contributors>
+	</he-IL>
+</Languages>

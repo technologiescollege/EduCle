@@ -1,0 +1,69 @@
+<Languages version="0.2">
+	<sl-SI en_name="Slovenian" icon="si.png" date="2012-03-05" name="Slovenija" version="3.212">
+		<Info>
+			<UpdateIgnore>(onemogočeno)</UpdateIgnore>
+			<UpdateLowPriority>(nizka prioriteta)</UpdateLowPriority>
+		</Info>
+		<Main>
+			<CheckBoxs>
+				<Silent_Caption>Nameščanje aplikacij brez povratnih informacij uporabnikov (avtomatski način)</Silent_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Cancel_Caption>Prekliči</Cancel_Caption>
+				<Download_Caption>Namestitev izbranih aplikacij</Download_Caption>
+				<HideWindow_Caption>&amp;Skrij okno med prenosom</HideWindow_Caption>
+			</CommandButtons>
+			<Labels>
+				<bytes>bajtov</bytes>
+				<DownloadSize_Caption>Velikost prenosa :</DownloadSize_Caption>
+				<Gb>GB</Gb>
+				<Info_Caption>Razpoložljive posodobitve :</Info_Caption>
+				<InstalledSize_Caption>Potreben prostora na disku:</InstalledSize_Caption>
+				<InstallTitle_Caption>Nameščanje aplikacij</InstallTitle_Caption>
+				<Kb>Kb</Kb>
+				<Mb>Mb</Mb>
+				<RemoveHiddenUpdates_Caption>Odstranjevanje neveljavnih posodobitev (%count%)</RemoveHiddenUpdates_Caption>
+				<SelectAll_Caption>Izberi vse</SelectAll_Caption>
+				<SelectHighPriority_Caption>Izberi prednostne posodobitve</SelectHighPriority_Caption>
+				<SelectNone_Caption>Izloči vse</SelectNone_Caption>
+				<ShowHiddenUpdates_Caption>Pokaži skrite posodobitve (%count%)</ShowHiddenUpdates_Caption>
+				<Version_Caption>Verzija : </Version_Caption>
+			</Labels>
+		</Main>
+		<Messages>
+			<AppAlreadyInstalled>%appname% %appversion% je že nameščena na vašem LiberKey.\n\n Ali želite ponovno namestiti to aplikacijo?</AppAlreadyInstalled>
+			<AppsDownloadDone>Prenos datotek v odlagališče je končano.\n=&gt; %downloadpath%\n\nAli želite začeti namestitev posodobitve zdaj?</AppsDownloadDone>
+			<AppUpdateObsolete>Novejša  verzija  %appname% je že nameščena na  LiberKey.\n\nVerzija že nameščena: %appversion%\nVerzija, ki se namesti: %newversion%\n\n\nAli želite namestiti staro verzijo?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNovo! Držite tipko Shift, kliknite in povlecite besede zgoraj, da jih prerazporedite. Opusti\n\n\n\n\n\n\nGoogle Prevajalnik za poslovne uporabnike:Zbirka prevajalskih orodijPrevajalnik spletnih mestIskalnik po svetovnih trgih\n \nIzklopi takojšnje prevajanjeO Google PrevajalnikuZa mobilne napraveZasebnostPomočPošljite povratne informacije\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n</AppUpdateObsolete>
+			<ConfirmCancel>Prenašate posodobitve.\n Ali želite preklicati prenos želenih datotek in posodobitev?</ConfirmCancel>
+			<DiskSpace>Potreben prostor na disku: %needed% (available: %avail%)</DiskSpace>
+			<DownloadDone>Vaše posodobitve so uspešno prenešene.\nMeni LiberKey se bo zaprl medtem ko se vaše aplikacije posodabljajo.</DownloadDone>
+			<DownloadingTip>Prenos posodobitev...\n Kliknite tukaj za več podrobnosti.</DownloadingTip>
+			<DownloadingTipTitle>Posodabljanje aplikacij LiberKey</DownloadingTipTitle>
+			<Errors>
+				<403>Možno je, da je vaš proxy strežnik ustavil   povezavo med internetom in LiberKey.\nProsimo, preverite proxy nastavitve.</403>
+				<404>%appname% %appversion%\n\nDatoteke ni bilo mogoče najti na strežniku!\nProsimo, poskusite znova pozneje.</404>
+				<DepositFolderError>Ne morem shraniti podatke v strukturni bazi ..\n%path%\n\nBi radi, da prenesli manjkajoče pakete v začasni imenik?.</DepositFolderError>
+				<DownloadError>Prišlo je do napake med prenosom.\nPoskusite znova?</DownloadError>
+				<InvalidPwd>Uporabili ste napačno geslo.\n\nProsimo, da pravilno vnesete egeslo.</InvalidPwd>
+				<InvalidUser>Uporabnika ni bilo mogoče najti v bazi LiberKey.\n\n Prosimo, poskusite znova.</InvalidUser>
+				<Login>Prišlo je do napake pri prijavi LiberKey.\n Prosimo, poskusite znova pozneje.</Login>
+				<Password>Uporabili ste napačno uporabniško ime ali geslo.</Password>
+			</Errors>
+			<HideThisUpdate>Ne prikaži te posodobitve</HideThisUpdate>
+			<HideUpdateInfo>NEveljavne posodobitve je mogoče ponovno prikazati s klikom na &quot;Pokaži skrite posodobitve&quot;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNovo! Držite tipko Shift, kliknite in povlecite besede zgoraj, da jih prerazporedite. Opusti\n\n\n</HideUpdateInfo>
+			<HighPriority>Prednost</HighPriority>
+			<HighPriorityInfo>Priporočamo vam, da uporabite to posodobitev.\n Vsebuje številne pomembne popravke, med katerimi lahko vplivajo na varnost aplikacije.</HighPriorityInfo>
+			<HighPriorityInfoTitle>Prednostne posodobitve</HighPriorityInfoTitle>
+			<HttpError>Prišlo je do napake, medtem ko poskušate obnoviti podatke o razpoložljivih posodobitev LiberKey.\n Ali imate dostop do interneta na tem računalniku?</HttpError>
+			<InformationTitle>Informacije</InformationTitle>
+			<KeepTempFiles>Ali želite obdržati prenesene datoteke za kasnejšo uporabo?</KeepTempFiles>
+			<LowPriority>Izbirno</LowPriority>
+			<LowPriorityInfo>Ta posodobitev je priporočljiva za redno uporabo programa,vam izboljša ln pridobi nove funkcije.\n </LowPriorityInfo>
+			<LowPriorityInfoTitle>Izbirna posodobitev</LowPriorityInfoTitle>
+			<TempSpaceNeeded>Premalo prostora za prenos začasne namestitvene datoteke.\n\nVaš izbor zahteva %downloadsize% prostega prostora na disku %drive% (trenutno le %avail% available on %drive%)</TempSpaceNeeded>
+			<UpdateDone>Posodobitve aplikacije  je končana.</UpdateDone>
+			<UpdatesAvailable>Posodobitve so na voljo za vaše aplikacije.\n Kliknite tukaj, da namestite posodobitve.</UpdatesAvailable>
+			<UpToDate>Vaše aplikacije LiberKey so posodobljene.</UpToDate>
+		</Messages>
+	</sl-SI>
+</Languages>

@@ -1,0 +1,397 @@
+<Languages version="0.4">
+	<ar-TN en_name="Arabic" icon="tn.png" date="2011-05-02" version="0.9" name="العربيّة">
+		<AppCategories>
+			<audio>الصوتيات</audio>
+			<audio:converter>التحويل</audio:converter>
+			<audio:editor>التعديل</audio:editor>
+			<audio:ipod_manager>التحكم بالأيبود</audio:ipod_manager>
+			<audio:player>القارئ</audio:player>
+			<audio:radio>راديو</audio:radio>
+			<audio:ripper>Ripper</audio:ripper>
+			<audio:tagger>Tagger</audio:tagger>
+			<audio:text_to_speech>النص إلى كلام</audio:text_to_speech>
+			<audio:tools>الأدوات</audio:tools>
+			<cd-dvd>سي دي -- دي في دي</cd-dvd>
+			<cd-dvd:burning_tools>أدوات الحرق</cd-dvd:burning_tools>
+			<cd-dvd:cover_printer>طباعة الواجهة الخارجية</cd-dvd:cover_printer>
+			<cd-dvd:image_tools>أدوات النسخ</cd-dvd:image_tools>
+			<education>التعليم</education>
+			<education:astronomy>علم الفلك</education:astronomy>
+			<education:drawing>التصوير</education:drawing>
+			<education:typing>الكتابة</education:typing>
+			<file_management>إدارة الملفات</file_management>
+			<file_management:backup>النسخ الاحتياطي</file_management:backup>
+			<file_management:cataloger>المفهرس</file_management:cataloger>
+			<file_management:comparison>مقارنة</file_management:comparison>
+			<file_management:compression>الضغط</file_management:compression>
+			<file_management:copy>النسخ</file_management:copy>
+			<file_management:defragmenter>تجزئة</file_management:defragmenter>
+			<file_management:directory_lister>جدولة المجلدات</file_management:directory_lister>
+			<file_management:disk_space_tool>أدوات مساحة القرص</file_management:disk_space_tool>
+			<file_management:duplicate_finder>مكتشف التكرير</file_management:duplicate_finder>
+			<file_management:manager>مدير</file_management:manager>
+			<file_management:recovery>استرداد</file_management:recovery>
+			<file_management:renamer>إعادة تسمية</file_management:renamer>
+			<file_management:search>البحث</file_management:search>
+			<file_management:splitter>المقسم</file_management:splitter>
+			<file_management:synchronization>مزامنة</file_management:synchronization>
+			<file_management:tools>أدوات</file_management:tools>
+			<file_management:universal_viewer>أدوات العرض العالمية</file_management:universal_viewer>
+			<games>الألعاب</games>
+			<games:action>حركة</games:action>
+			<games:card>ورق</games:card>
+			<games:puzzle>أحجية</games:puzzle>
+			<games:reflexion>تفكير</games:reflexion>
+			<games:strategy>استراتيجية</games:strategy>
+			<graphics-photo>الرسومات -- الصور</graphics-photo>
+			<graphics-photo:3d>ثلاثي الأبعاد</graphics-photo:3d>
+			<graphics-photo:color_picker>لاقط ألوان</graphics-photo:color_picker>
+			<graphics-photo:editor>التعديل</graphics-photo:editor>
+			<graphics-photo:effect_and_filter>تأثير وفلتر</graphics-photo:effect_and_filter>
+			<graphics-photo:icon_editor>تعديل الأيقونات</graphics-photo:icon_editor>
+			<graphics-photo:screen_capture>نسخ الشاشة</graphics-photo:screen_capture>
+			<graphics-photo:tools>أدوات</graphics-photo:tools>
+			<graphics-photo:vector_converter> Vectorتحويل ال</graphics-photo:vector_converter>
+			<graphics-photo:viewer>قارئ</graphics-photo:viewer>
+			<internet>الإنترنيت</internet>
+			<internet:bookmark_manager>مدير الإشارات</internet:bookmark_manager>
+			<internet:browser>متصفح</internet:browser>
+			<internet:download>تنزيل</internet:download>
+			<internet:email>البريد الإلكتروني</internet:email>
+			<internet:ftp>نقل الملفات</internet:ftp>
+			<internet:instant_messenger>التراسل الفوري</internet:instant_messenger>
+			<internet:rss_reader>RSS قارئ</internet:rss_reader>
+			<internet:website_authoring>تأليف المواقع</internet:website_authoring>
+			<internet:website_copier>نسخ المواقع</internet:website_copier>
+			<networking-server>الشبكات -- الخادم</networking-server>
+			<networking-server:bandwidth_monitor>رصد عرض النطاق الترددي</networking-server:bandwidth_monitor>
+			<networking-server:configuration>برمجة</networking-server:configuration>
+			<networking-server:network_analyzer>محلل الشبكة</networking-server:network_analyzer>
+			<networking-server:remote_control>التحكم عن بعد</networking-server:remote_control>
+			<networking-server:scanner>الماسح الضوئي</networking-server:scanner>
+			<networking-server:server>الخادم</networking-server:server>
+			<networking-server:settings_manager>إدارة الإعدادات</networking-server:settings_manager>
+			<networking-server:telnet-ssh_client>عميل\nTelnet-SSH</networking-server:telnet-ssh_client>
+			<networking-server:tools>أدوات</networking-server:tools>
+			<office>المكتب</office>
+			<office:calculator>الحاسبة</office:calculator>
+			<office:calendar>المفكرة</office:calendar>
+			<office:chrono>كرونو</office:chrono>
+			<office:desktop_tools>أدوات سطح المكتب</office:desktop_tools>
+			<office:desktop_tools:application_launcher>مشغل التطبيق</office:desktop_tools:application_launcher>
+			<office:desktop_tools:automation>تشغيل آلي</office:desktop_tools:automation>
+			<office:desktop_tools:clipboard_manager>مدير الحافظة</office:desktop_tools:clipboard_manager>
+			<office:desktop_tools:clock>الساعة</office:desktop_tools:clock>
+			<office:desktop_tools:customization>التخصيص</office:desktop_tools:customization>
+			<office:desktop_tools:desktop_note>مذكرة سطح المكتب</office:desktop_tools:desktop_note>
+			<office:desktop_tools:keyboard-mouse>لوحة المفاتيح -- الماوس</office:desktop_tools:keyboard-mouse>
+			<office:desktop_tools:save_desktop_icon>حفظ أيقونة سطح المكتب</office:desktop_tools:save_desktop_icon>
+			<office:desktop_tools:virtual_desktop>سطح المكتب الافتراضي</office:desktop_tools:virtual_desktop>
+			<office:desktop_tools:zoom>تكبير</office:desktop_tools:zoom>
+			<office:diagram_editor>محرر الرسم البياني</office:diagram_editor>
+			<office:finance_manager>المدير المالي</office:finance_manager>
+			<office:font_manager>مدير الخطوط</office:font_manager>
+			<office:note_manager> مدير الملاحظات</office:note_manager>
+			<office:office_suite>حزمة المكتب</office:office_suite>
+			<office:pdf>PDF</office:pdf>
+			<office:presentation>عرض و تقديم</office:presentation>
+			<office:task_manager>مدير المهام</office:task_manager>
+			<office:text_editor>محرر النصوص</office:text_editor>
+			<office:tutorial_creator>إنشاء البرامج التعليمية</office:tutorial_creator>
+			<office:unit_converter>محول الوحدات</office:unit_converter>
+			<office:universal_viewer>العارض العالمي</office:universal_viewer>
+			<security>الحماية و الأمن</security>
+			<security:anti_virus-spyware>مكافحة الفيروسات- البرامج التجسسية</security:anti_virus-spyware>
+			<security:encryption>التشفير</security:encryption>
+			<security:integrity_checker>فاحص السلامة</security:integrity_checker>
+			<security:password_manager>مدير كلمات السر</security:password_manager>
+			<security:privacy_tool>أداة الحفاظ على السرية</security:privacy_tool>
+			<security:secure_deletion>الحذف الآمن</security:secure_deletion>
+			<security:tools>أدوات</security:tools>
+			<system_utilities>ملحقات النظام</system_utilities>
+			<system_utilities:benchmark>Benchmark</system_utilities:benchmark>
+			<system_utilities:benchmark:hard_disk>القرص الصلب</system_utilities:benchmark:hard_disk>
+			<system_utilities:benchmark:universal>شامل</system_utilities:benchmark:universal>
+			<system_utilities:cleaner-uninstaller>التنظيف -- إلغاء التثبيت</system_utilities:cleaner-uninstaller>
+			<system_utilities:emulator>محاكي</system_utilities:emulator>
+			<system_utilities:hex_editor>Hex محرر</system_utilities:hex_editor>
+			<system_utilities:information>معلومات</system_utilities:information>
+			<system_utilities:information:file_monitoring>مراقبة الملفات</system_utilities:information:file_monitoring>
+			<system_utilities:information:hardware_monitoring>مراقبة الأجهزة</system_utilities:information:hardware_monitoring>
+			<system_utilities:information:inventory>جرد</system_utilities:information:inventory>
+			<system_utilities:information:process>Process</system_utilities:information:process>
+			<system_utilities:information:processor>المعالج</system_utilities:information:processor>
+			<system_utilities:information:service>خدمة</system_utilities:information:service>
+			<system_utilities:information:startup_manager>إدارة بدء التشغيل</system_utilities:information:startup_manager>
+			<system_utilities:information:usb_device>USB جهاز</system_utilities:information:usb_device>
+			<system_utilities:information:video_card>بطاقة فيديو</system_utilities:information:video_card>
+			<system_utilities:registry>السجل</system_utilities:registry>
+			<system_utilities:registry:backup>النسخ الاحتياطي</system_utilities:registry:backup>
+			<system_utilities:registry:comparison>مقارنة</system_utilities:registry:comparison>
+			<system_utilities:registry:compression>ضغط</system_utilities:registry:compression>
+			<system_utilities:registry:monitoring>مراقبة</system_utilities:registry:monitoring>
+			<system_utilities:registry:repair>صيانة</system_utilities:registry:repair>
+			<system_utilities:registry:search>بحث</system_utilities:registry:search>
+			<system_utilities:repair>صيانة</system_utilities:repair>
+			<system_utilities:tests>اختبارات</system_utilities:tests>
+			<system_utilities:tests:burning_test>إختبار الحرق</system_utilities:tests:burning_test>
+			<system_utilities:tests:hard_disk>القرص الصلب</system_utilities:tests:hard_disk>
+			<system_utilities:tests:monitor>الشاشة</system_utilities:tests:monitor>
+			<system_utilities:tests:ram>RAM</system_utilities:tests:ram>
+			<system_utilities:tools>أدوات</system_utilities:tools>
+			<system_utilities:tweaker>ظبط الجهاز</system_utilities:tweaker>
+			<system_utilities:update_checker>التأكد من آخر التحديثات</system_utilities:update_checker>
+			<video>فيديو</video>
+			<video:authoring>تأليف</video:authoring>
+			<video:capture>قنص</video:capture>
+			<video:cataloger>المفهرس</video:cataloger>
+			<video:converter>محول</video:converter>
+			<video:editor>محرر</video:editor>
+			<video:player>قارئ</video:player>
+			<video:repair>صيانة</video:repair>
+			<video:tools>أدوات</video:tools>
+		</AppCategories>
+		<AppInfo>
+			<CheckBoxs>
+				<AutoShowInfo_Caption>إظهار هذه المعلومة تلقائيا</AutoShowInfo_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<AppGoToWebSite_ToolTip>زيارة موقع المحرر</AppGoToWebSite_ToolTip>
+				<AppInstall_Caption>!تثبيت الآن</AppInstall_Caption>
+				<AppOpenLicenseFile_ToolTip>مشاهدة الترخيص</AppOpenLicenseFile_ToolTip>
+				<AppProperties_Caption>...الخصائص</AppProperties_Caption>
+				<AppRun_Caption>بدأ</AppRun_Caption>
+				<AppUpdate_Caption>..التحديث حالا</AppUpdate_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppEditorLabel_Caption>المحرر: </AppEditorLabel_Caption>
+				<AppLicenseLabel_Caption>الترخيص:</AppLicenseLabel_Caption>
+				<AppPlatformLabel_Caption>نظام أساسي: </AppPlatformLabel_Caption>
+			</Labels>
+		</AppInfo>
+		<AppList>
+			<CommandButtons>
+				<AddApp_Caption>إضافة تطبيقات</AddApp_Caption>
+				<AddApps_Caption>إضافة تطبيقات</AddApps_Caption>
+				<AddApps_ToolTip>LiberKey إضغط هنا لإضافة تطبيقات إلى</AddApps_ToolTip>
+				<Browse_ToolTip>فتح مجلد التطبيق</Browse_ToolTip>
+				<Cancel_Caption>إغلاق</Cancel_Caption>
+				<Reinstall_Caption>إعادة تثبيت</Reinstall_Caption>
+				<Reinstall_ToolTip>إعادة تثبيت تطبيق قد يعيد الاختصارات\n,Liberkey الافتراضية في القائمة\n,و قد يعيد تحميل المعلومات عن التطبيق\n.و قد يعيد تطبيق إقترانات الملفات المؤقتة</Reinstall_ToolTip>
+				<Uninstall_Caption>إلغاء</Uninstall_Caption>
+				<Uninstall_ToolTip>إضغط هنا لإلغاء تثبيت هذا التطبيق\nسيتم حذف كل شيء .Liberkey من\n:مستخدم من قبل هذا التطبيق\nالقوائم والمعلومات واقترانات الملف\nالمؤقت, والبرنامج نفسه والبيانات\n.الأخرى المرتبطة به</Uninstall_ToolTip>
+			</CommandButtons>
+			<Labels>
+				<AppNameLabel_Caption>اسم التطبيق</AppNameLabel_Caption>
+				<FolderSizeLabel_Caption>0كيلو بايت</FolderSizeLabel_Caption>
+				<Title_Caption>إدارة التطبيقات المحمولة</Title_Caption>
+			</Labels>
+			<Messages>
+				<Loading>...تحميل القائمة</Loading>
+			</Messages>
+		</AppList>
+		<AppProperties>
+			<AutoRunMode>
+				<Never>مطلقا</Never>
+				<ShutDown>عند إيقاف التشغيل</ShutDown>
+				<ShutDownSingle>عند إيقاف التشغيل إذا لم يكن قيد التشغيل بالفعل</ShutDownSingle>
+				<Startup>دائما عند بدء التشغيل</Startup>
+				<StartupSingle>عند بدء التشغيل إذا لم يكن قيد التشغيل بالفعل</StartupSingle>
+			</AutoRunMode>
+			<CommandButtons>
+				<AppGoToWebSite_Caption>زيارة الموقع الإلكتروني</AppGoToWebSite_Caption>
+				<ApplyChanges_Caption>تطبيق</ApplyChanges_Caption>
+				<AppOpenLicenseFile_Caption>استعراض الترخيص</AppOpenLicenseFile_Caption>
+				<AppUninstall_Caption>LiberKey اضغط هنا لإلغاء تثبيت هذا التطبيق من</AppUninstall_Caption>
+				<AppUninstall_ToolTip>إضغط هنا لإلغاء تثبيت هذا التطبيق\nسيتم حذف كل شيء .Liberkey من\nمتعلق بهذا التطبيق:القوائم والمعلومات\nواقترانات الملف المؤقت, والبرنامج نفسه\n. والبيانات الأخرى المرتبطة به</AppUninstall_ToolTip>
+				<AppUpdate_Caption>...تحديث</AppUpdate_Caption>
+				<Cancel_Caption>إغلاق</Cancel_Caption>
+			</CommandButtons>
+			<FileSources>كتابة الرابط</FileSources>
+			<Labels>
+				<AppDescriptionLabel_Caption>تعريف التطبيق:</AppDescriptionLabel_Caption>
+				<AppEditorLabel_Caption>محرر:</AppEditorLabel_Caption>
+				<AppIconLabel_Caption>ايقونه مخصصه:</AppIconLabel_Caption>
+				<AppLicenseLabel_Caption>ترخيص:</AppLicenseLabel_Caption>
+				<AppNameLabel_Caption>إسم:</AppNameLabel_Caption>
+				<AppParamsLabel_Caption>معايير سطر الأوامر:</AppParamsLabel_Caption>
+				<AppPathLabel_Caption> مجلد / صفحة ويب / وثيقة /(exe)مسار القابل للتنفيذ: </AppPathLabel_Caption>
+				<AppPlatformLabel_Caption>نظام أساسي:</AppPlatformLabel_Caption>
+				<AppVersionLabel_Caption>إصدار:</AppVersionLabel_Caption>
+				<AppWorkDirLabel_Caption>مجلد العمل:</AppWorkDirLabel_Caption>
+				<Title_Caption>خصائص التطبيق</Title_Caption>
+			</Labels>
+			<Messages>
+				<BrowseForExe>اختر الملف القابل للتنفيذ الخاص بالتطبيق:</BrowseForExe>
+				<BrowseForFileToOpen>اختر ملف لفتحه:</BrowseForFileToOpen>
+				<BrowseForLicense>اختر ملف  ترخيص البرنامج:</BrowseForLicense>
+				<ClearLisenseFile>حذف رابط الترخيص</ClearLisenseFile>
+				<ClearWebAddress>حذف رابط الموقع الإلكتروني</ClearWebAddress>
+				<SelectAppWorkDir>إختر مجلد العمل الخاص بالتطبيق</SelectAppWorkDir>
+				<SetLicenseAddr>أدخل عنوان ترخيص البرنامج على الأنترنات:</SetLicenseAddr>
+				<SetWebSiteAddr>أدخل عنوان محرر البرنامج على الأنترنات:</SetWebSiteAddr>
+			</Messages>
+			<Tabs>
+				<Application>التطبيق</Application>
+				<AppMore>متقدم</AppMore>
+			</Tabs>
+			<WindowStartMode>
+				<Maximized>مكبر</Maximized>
+				<Minimized>مصغر</Minimized>
+				<Normal>عادي</Normal>
+			</WindowStartMode>
+		</AppProperties>
+		<CategoryProps>
+			<CheckBoxs>
+				<EditLiberKeyCategory_Caption>LiberKey إعادة تسمية هذه الفئة من</EditLiberKeyCategory_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Apply_Caption>موافق</Apply_Caption>
+				<Cancel_Caption>إلغاء</Cancel_Caption>
+			</CommandButtons>
+			<Labels>
+				<CategoryHotKey_Caption>:( إختصار لوحة المفاتيح (القائمة العائمة</CategoryHotKey_Caption>
+				<CatIconLabel_Caption>أيقونة الفئة:</CatIconLabel_Caption>
+				<CatNameLabel_Caption>إسم الفئة:</CatNameLabel_Caption>
+				<Title_Caption>خصائص الفئة:</Title_Caption>
+			</Labels>
+		</CategoryProps>
+		<Config>
+			<About>
+				<Version>%ver% الإصدار</Version>
+			</About>
+			<CheckBoxs>
+				<AppHotKeysMemoPopup_Caption>عرض تذكير قبل بدء أي تطبيق</AppHotKeysMemoPopup_Caption>
+				<AutoCloseApps_Caption>عند إغلاق القائمة, إغلاق أي تطبيقات محمولة قيد التشغيل</AutoCloseApps_Caption>
+				<AutoCollapseOnHide_Caption>عندما يتم إخفاء القائمة،عد إلى الفئة الجذر</AutoCollapseOnHide_Caption>
+				<AutoHideMenuOnAppRun_Caption>إخفاء القائمة عند بدء تطبيق</AutoHideMenuOnAppRun_Caption>
+				<AutoRemoveDrive_Caption>عند إغلاق القائمة، قطع الجهاز القابلة للإزالة</AutoRemoveDrive_Caption>
+				<AutoRunLiberKey_Caption>عند بدء تشغيل الويندوز / تسجيل الدخول Liberkey بدء تشغيل</AutoRunLiberKey_Caption>
+				<AutoShowAppInfo_Caption>عرض معلومات حول التطبيقات</AutoShowAppInfo_Caption>
+				<ConfirmCategoryDeletion_Caption>تأكيد حذف فئة</ConfirmCategoryDeletion_Caption>
+				<ConfirmShortcutDeletion_Caption>تأكيد حذف الاختصار</ConfirmShortcutDeletion_Caption>
+				<CreateTempSendToShortcut_Caption>&quot;إنشاء إختصار مؤقت &quot;أرسل إلى/ مستنداتي المحمولة</CreateTempSendToShortcut_Caption>
+				<DisableAllEffects_Caption>تعطيل جميع التأثيرات الحركية</DisableAllEffects_Caption>
+				<DisableControlsEffects_Caption>تعطيل التأثيرات الحركية للواجهة</DisableControlsEffects_Caption>
+				<DisableDialogsEffects_Caption>تعطيل التأثيرات الحركية للحوار</DisableDialogsEffects_Caption>
+				<DisableMenuEffects_Caption>تعطيل التأثيرات الحركية للقائمة</DisableMenuEffects_Caption>
+				<DisplayClock_Caption>عرض الساعة</DisplayClock_Caption>
+				<DontShowEmptyDesc_Caption>إلا عندما يكون الوصف فارغ</DontShowEmptyDesc_Caption>
+				<EnableAppHotKeys_Caption>تمكين مفاتيح الإختصار من إطلاق التطبيقات</EnableAppHotKeys_Caption>
+				<EnableAppsAutoStart_Caption>تفعيل التشغيل الآلي</EnableAppsAutoStart_Caption>
+				<HideClockSeconds_Caption>إخفاء الثواني</HideClockSeconds_Caption>
+				<HotKeyFloatMenu_Caption>القائمة العائمة:</HotKeyFloatMenu_Caption>
+				<HotKeyMain_Caption>القائمة الرئيسية :</HotKeyMain_Caption>
+				<SingleClicAppRun_Caption>تشغيل التطبيقات بنقرة واحدة</SingleClicAppRun_Caption>
+				<SingleClicCategoryExpand_Caption>فتح الفئات بنقرة واحدة</SingleClicCategoryExpand_Caption>
+				<ToolsAutoOpenLiberKeyNews_Caption>فتح تلقائي لنافذة الأخبار</ToolsAutoOpenLiberKeyNews_Caption>
+				<ToolsCheckAppUpdates_Caption>تحديثات التطبيق</ToolsCheckAppUpdates_Caption>
+				<ToolsCheckLBKUpdates_Caption>LiberKeyتحديث النظام الأساسي ل</ToolsCheckLBKUpdates_Caption>
+				<ToolsCheckLiberKeyNews_Caption>أخبار</ToolsCheckLiberKeyNews_Caption>
+				<ToolsDoOnlineChecks_Caption>تمكين التحقق الآلي</ToolsDoOnlineChecks_Caption>
+				<ToolsQuitKFA_Caption>تعطيل إقترانات الملفات عند إغلاق القائمة</ToolsQuitKFA_Caption>
+				<ToolsQuitPDS_Caption>إزالة الاختصارات المحمولة عند إغلاق القائمة</ToolsQuitPDS_Caption>
+				<ToolsStartKFA_Caption>تمكين إقترانات الملفات عند بدء القائمة</ToolsStartKFA_Caption>
+				<ToolsStartPDS_Caption>إضافة الاختصارات المحمولة عند بدء القائمة</ToolsStartPDS_Caption>
+				<UseProxy_Caption>:استخدام خادم بروكسي للوصول إلى الإنترنت</UseProxy_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<ApplyChanges_Caption>طبق</ApplyChanges_Caption>
+				<AutoRunDown_ToolTip>انتقل لأسفل</AutoRunDown_ToolTip>
+				<AutoRunLocate_ToolTip>Liberkey جد هذا الإختصار في قائمة</AutoRunLocate_ToolTip>
+				<AutoRunProperties_ToolTip>خصائص الاختصار</AutoRunProperties_ToolTip>
+				<AutoRunRemove_ToolTip>حذف من قائمة التشغيل التلقائي</AutoRunRemove_ToolTip>
+				<AutoRunUp_ToolTip>إنتقل إلى أعلى</AutoRunUp_ToolTip>
+				<Cancel_Caption>أغلق</Cancel_Caption>
+				<CopyTechnicalInfo_Caption>نسخ هذه المعلومات إلى الحافظة</CopyTechnicalInfo_Caption>
+				<CreateAccount_Caption>!انقر هنا لإنشاء حسابك مجانا</CreateAccount_Caption>
+				<SendTechnicalInfo_Caption>أرسل</SendTechnicalInfo_Caption>
+			</CommandButtons>
+			<Labels>
+				<Animations_Caption>تأثيرات حركية</Animations_Caption>
+				<AppHotKeysMemoPopupDuration_Caption>:مدة عرض الرسالة التذكيرية</AppHotKeysMemoPopupDuration_Caption>
+				<AppSetupInfo_Caption>Liberkey تهيئة مثبت التطبيق</AppSetupInfo_Caption>
+				<AppUpdateInfo_Caption>Liberkeyتهيئة نظام تحديث البرنامج ل</AppUpdateInfo_Caption>
+				<AutoCheckOptions_Caption>التحقق الألي</AutoCheckOptions_Caption>
+				<AutoRunDelay_Caption>( الزمن قبل التنفيذ الذاتي ( ثواني:</AutoRunDelay_Caption>
+				<AutoRunEachDelay_Caption>( الزمن بين كل تشغيل ( ثواني:</AutoRunEachDelay_Caption>
+				<AutorunInfo_Caption>إدارة التطبيقات التي تنفذ عند بدء تشغيل واغلاق \nLiberkey القائمة</AutorunInfo_Caption>
+				<ColorsInfo_Caption>اللون الأولي للقائمة والنوافذ</ColorsInfo_Caption>
+				<Confirmations_Caption>تأكيدات</Confirmations_Caption>
+				<CreateAccountLabel_Caption>لا تملك حسابا ؟</CreateAccountLabel_Caption>
+				<CustomBrightnessLabel_Caption>اللمعان</CustomBrightnessLabel_Caption>
+				<CustomColorInfo_Caption>تباين الألوان حسب الذوق الذاتي</CustomColorInfo_Caption>
+				<CustomHueRotationLabel_Caption>صبغة اللون</CustomHueRotationLabel_Caption>
+				<CustomSaturationLabel_Caption>إشباع اللون</CustomSaturationLabel_Caption>
+				<DefaultEffectSet>التأثيرات الإفتراضية</DefaultEffectSet>
+				<EffectSetLabel_Caption>ضبط التأثيرات:</EffectSetLabel_Caption>
+				<FileAssocUpdatesOnlyInfo_Caption>.أثناء التحديث, لا يتم تعديل إقترانات الملفات\n.وهي تعرف فقط للتطبيقات الجديدة</FileAssocUpdatesOnlyInfo_Caption>
+				<Gadgets_Caption>الأدوات الذكية</Gadgets_Caption>
+				<KeyboardShortcutsInfo_Caption>Liberkey إختصارات لوحة المفاتيح المستخدمة من قبل القائمة</KeyboardShortcutsInfo_Caption>
+				<KFAoptions_Caption>نسب ملفات إلى تطبيقات محمولة</KFAoptions_Caption>
+				<LangAuthorEmailLabel_Caption>البريد الإلكتروني:</LangAuthorEmailLabel_Caption>
+				<LangAuthorNameLabel_Caption>الكاتب:</LangAuthorNameLabel_Caption>
+				<LangAuthorWebsiteLabel_Caption>الموقع الإلكتروني:</LangAuthorWebsiteLabel_Caption>
+				<LangContributors_Caption>المساهمون:</LangContributors_Caption>
+				<LangContributorsLabel_Caption>المساهمون:</LangContributorsLabel_Caption>
+				<LanguagesInfo_Caption>اللغة:</LanguagesInfo_Caption>
+				<LangVersionLabel_Caption>الإصدار:</LangVersionLabel_Caption>
+				<MaxRecentCount_Caption>العدد الأقصى من العناصر في الاطلاق الأخير:</MaxRecentCount_Caption>
+				<MaxVisibleMostUsed_Caption>:&quot; العدد الأقصى من العناصر في &quot;الأكثر إستعمالا</MaxVisibleMostUsed_Caption>
+				<MenuAccess_Caption>Liberkey الوصول إلى قائمة</MenuAccess_Caption>
+				<MenuDelay_Caption>تأخير فتح القائمة:</MenuDelay_Caption>
+				<MenuDelayMS_Caption>جزء من الثانية</MenuDelayMS_Caption>
+				<MenuIconActions_Caption>أيقونة النظام:</MenuIconActions_Caption>
+				<MenuKeyboardShortcuts_Caption>إختصارات لوحة المفاتيح:</MenuKeyboardShortcuts_Caption>
+				<Misc_Caption>منوعات</Misc_Caption>
+				<Navigation_Caption>الإبحار</Navigation_Caption>
+				<NeverUpdateFileAssocInfo_Caption>.إقترانات الملفات تظل دون تغيير عند إضافة التطبيقات أو تحديثها</NeverUpdateFileAssocInfo_Caption>
+				<NotificationsOptions_Caption>الإشعارات</NotificationsOptions_Caption>
+				<Password_Caption>كامة العبور:</Password_Caption>
+				<PDSoptions_Caption>اختصارات سطح المكتب المحمولة</PDSoptions_Caption>
+				<PlatformVersionInfo_Caption>. طلب هذه المعلومات LiberKey يمكن لفريق الدعم الفني في منتدى\n &quot; لنسخ هذه القائمة، انقر فوق الزر أدناه &quot;نسخ هذه المعلومات</PlatformVersionInfo_Caption>
+				<ProxyHost_Caption> IP عنوان /(host)عنوان المضيف:</ProxyHost_Caption>
+				<ProxyInfo_Caption>إذا كنت بحاجة إلى الذهاب عبر خادم بروكسي للوصول إلى الإنترنت، أكمل الفراغات أدناه:</ProxyInfo_Caption>
+				<ProxyPassword_Caption>كلمة العبور:</ProxyPassword_Caption>
+				<ProxyPort_Caption>المنفذ:</ProxyPort_Caption>
+				<ProxyUser_Caption>إسم المستخدم:</ProxyUser_Caption>
+				<QuitOptions_Caption>USB إغلاق التطبيق تلقائيا وقطع محرك</QuitOptions_Caption>
+				<RecentAndMostUsed_Caption>تاريخ إستعمال التطبيق:</RecentAndMostUsed_Caption>
+				<StartupWindowShowAlways_Caption>Liberkey دائما أظهر قائمة</StartupWindowShowAlways_Caption>
+				<StartupWindowShowNever_Caption>Liberkey لا تظهر أبدا قائمة</StartupWindowShowNever_Caption>
+				<StartupWindowShowPrevious_Caption>أظهر القائمة فقط إذا كانت مرئية في آخر إستخدام</StartupWindowShowPrevious_Caption>
+				<StartupWindowStateLabel_Caption>عند بدء التشغيل:</StartupWindowStateLabel_Caption>
+				<Title_Caption>Liberkeyالإعدادات-قائمة</Title_Caption>
+				<TrayLeftClickActionLabel_Caption>نقرة على اليسار:</TrayLeftClickActionLabel_Caption>
+				<TrayRightClickActionLabel_Caption>نقرة على اليمين:</TrayRightClickActionLabel_Caption>
+				<UpdateAutoStartInfo_Caption>.(تم تثبيت التحديثات ذات الأولوية دون تدخل من المستخدم (الوضع التلقائي</UpdateAutoStartInfo_Caption>
+				<UpdateFileAssocInfo_Caption>.عندما تتم إضافة تطبيق أو تحديث مع المثبت ، يتم ربطه تلقائيا مع الملفات التي يستطيع تحريرها</UpdateFileAssocInfo_Caption>
+				<UpdateNoUserAlertInfo_Caption>.لا تظهر لي أية رسائل حول تحديث التطبيقات Liberkey حين بدء تشغيل\n.سيتم إعلامك عند بدء تشغيل أحد التطبيقات التي يتوفر لها تحديث</UpdateNoUserAlertInfo_Caption>
+				<UpdateUIAlertInfo_Caption>.عندها يمكنك عرض قائمة من التحديثات المتاحة واختيار تلك التي تريد تطبيقها</UpdateUIAlertInfo_Caption>
+				<UserLoginInfo_Caption>تسجيل الدخول لم يعد مطلوبا من أجل تنزيل تحديث\nللتطبيقات الخاصة بك. ومع ذلك، لانزال نوصي بإدخال تفاصيل لمستخدم الخاصة بك</UserLoginInfo_Caption>
+				<UserName_Caption>إسم المستخدم:</UserName_Caption>
+			</Labels>
+			<OptionButtons>
+				<optAlwaysUpdateFileAssoc_Caption>تحديث إقترانات الملفات دائما</optAlwaysUpdateFileAssoc_Caption>
+				<optAutoRunAtStartup_Caption>Liberkeyعند تشغيل </optAutoRunAtStartup_Caption>
+				<optAutoRunOnQuit_Caption>Liberkey عند إيقاف</optAutoRunOnQuit_Caption>
+				<optMenuDelayCustom_Caption>ذوق ذاتي</optMenuDelayCustom_Caption>
+				<optMenuDelayDefault_Caption>إفتراضي</optMenuDelayDefault_Caption>
+				<optNeverUpdateFileAssoc_Caption> عدم تحديث إقترانات الملفات بتاتا</optNeverUpdateFileAssoc_Caption>
+				<optUpdateAutoStart_Caption>تنزيل و تنصيب التحديثات بصفة ألية</optUpdateAutoStart_Caption>
+			</OptionButtons>
+		</Config>
+		<Contributors>
+			<Contributor name="Trabelsi Youssef" email="djoe.coool@gmail.com"/>
+		</Contributors>
+		<Menu>
+			<LKHelp>Liberkey المساعدة</LKHelp>
+			<LKQuickLaunch>Liberkey الإطلاق السريع ل</LKQuickLaunch>
+			<MostUsed>الأكثر إستعمالا</MostUsed>
+			<MyApps>تطبيقاتي المحمولة</MyApps>
+			<MyDocs>مجلداتي</MyDocs>
+			<Recent>مؤخرا</Recent>
+		</Menu>
+		<Menus/>
+	</ar-TN>
+</Languages>

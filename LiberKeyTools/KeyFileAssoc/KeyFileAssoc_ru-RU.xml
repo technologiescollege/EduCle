@@ -1,0 +1,271 @@
+<Languages version="0.2">
+	<ru-RU name="Русский" authoremail="astrezh@list.ru" version="0.2" en_name="Russian" date="2011-02-03" icon="ru.png">
+		<FileAssoc>
+			<CommandButtons>
+				<Apply_caption>&amp;Применить</Apply_caption>
+				<Cancel_caption>&amp;Отмена</Cancel_caption>
+				<Add_caption>&amp;Создать</Add_caption>
+				<Delete_caption>&amp;Удалить</Delete_caption>
+				<SelectApp_caption>Изменить ...</SelectApp_caption>
+				<Advanced_caption>&amp;Параметры</Advanced_caption>
+				<OK_caption>OK</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<FrameCaption_caption>Сведения для типа файла &apos;%1&apos; </FrameCaption_caption>
+				<OpenWithInfo_caption>Приложение:        </OpenWithInfo_caption>
+				<AssocListTitle_caption>Зарегистрированные типы файлов:</AssocListTitle_caption>
+				<ExtInfo>Файлы с расширением &apos;%1&apos; являются файлами типа &apos;%2&apos;. Для изменения параметров, влияющих на все файлы &apos;%1&apos;, нажмите &quot;Параметры&quot;.</ExtInfo>
+				<FrameCaptionNoExt_caption>Описание файлов типа &apos;%1&apos; </FrameCaptionNoExt_caption>
+				<ExtInfoNoExt>Чтобы измененить параметры для всех файлов &apos;%1&apos;, нажмите &quot;Параметры&quot;.</ExtInfoNoExt>
+			</Labels>
+			<Messages>
+				<ExtExists>Это расширение уже связано с &apos;%1&apos; файлами</ExtExists>
+				<ExtExistsTitle>Типы файлов</ExtExistsTitle>
+				<AppExeNotFound>Ошибка восстановления пути выбранного портативного приложения\n</AppExeNotFound>
+				<DeleteConfirm>Если вы удалите зарегистрированные расширения файлов, будет невозможно открыть файлы с таким расширением через двойной клик на иконку.\n\nВы действительно хотите удалить это расширение файла?\n\n\n\n</DeleteConfirm>
+				<DeleteConfirmTitle>Типы файлов</DeleteConfirmTitle>
+			</Messages>
+			<caption>Типы файлов, связанные с портативными приложениями LiberKey</caption>
+		</FileAssoc>
+		<Messages>
+			<ApplyDone>Портативные приложени LiberKey в настоящее время ассоциированы с файлами.</ApplyDone>
+			<ApplyDoneTitle>Ассоциация  портативных приложений LiberKey</ApplyDoneTitle>
+			<ApplyError>Произошла ошибка при попытке активировать ассоциации LiberKey</ApplyError>
+			<ApplyErrorTitle>Ошибка ассоциации файлов</ApplyErrorTitle>
+			<RestoreDone>Ассоциации файлов восстановлены.</RestoreDone>
+			<RestoreDoneTitle>Ассоциации восстановлены!</RestoreDoneTitle>
+			<RestoreError>Расширения файлов не могут быть восстановлены.\nПроизошла ошибка во время восстановления ассоциации файлов</RestoreError>
+			<RestoreErrorTitle>Ошибка ассоциации файлов</RestoreErrorTitle>
+			<AutoRestoreDone>Расширения файлов не были восстановлены во время последнего использования.\nОни только что были восстановлены.</AutoRestoreDone>
+			<AutoRestoreDoneTitle>Ассоциации восстановлены</AutoRestoreDoneTitle>
+			<ASuiteConfMissing>Файл, содержащий список портативных приложений LiberKey не найден!</ASuiteConfMissing>
+			<UpdateInfoError>Произошла ошибка при попытке получить информацию о последнем релизе</UpdateInfoError>
+			<UpdateErrorTitle>Ошибка во время обновления</UpdateErrorTitle>
+			<UpdateTitle>Обновить</UpdateTitle>
+			<NewVersionInfo>Релиз %version% на %versiondate% доступен.\n\n%description%\n\nХотите скачать его сейчас?</NewVersionInfo>
+			<UpdateDownloadError>Произошла ошибка во время скачивания последнего релиза\n\n%error%</UpdateDownloadError>
+			<UpdateAppStillRunning>Приложение все еще работает.\nХотите попробовать еще раз?</UpdateAppStillRunning>
+			<UpdateDone>Обновление до %version% завершено.</UpdateDone>
+			<NoAppUpdate>Приложение %appname% обновлено до последней версии.</NoAppUpdate>
+			<UpdateExeError>Произошла ошибка во время обновления приложения.\n\n%error%</UpdateExeError>
+			<NewVersionAvailable>Доступно обновление KEY Files Assoc&apos;</NewVersionAvailable>
+			<ExeSelection>Приложение|*.exe;*.bat;*.com|Все файлы (*.*)|*.*</ExeSelection>
+		</Messages>
+		<NewType>
+			<caption>Создание нового расширения</caption>
+			<CommandButtons>
+				<OK_caption>&amp;OK</OK_caption>
+				<Cancel_caption>&amp;Отмена</Cancel_caption>
+			</CommandButtons>
+			<Labels>
+				<Info_caption>Расширение:</Info_caption>
+			</Labels>
+			<Messages>
+				<NoExt>Необходимо задать расширение.</NoExt>
+				<NoExtTitle>Типы файлов</NoExtTitle>
+			</Messages>
+		</NewType>
+		<AppSelect>
+			<caption>Выбор связанных портативных приложений</caption>
+			<Labels>
+				<Loading_caption>Загрузка списка доступных приложений...</Loading_caption>
+			</Labels>
+			<CommandButtons>
+				<Cancel_caption>&amp;Отмена</Cancel_caption>
+				<OK_caption>&amp;OK</OK_caption>
+			</CommandButtons>
+		</AppSelect>
+		<AssocAdvance>
+			<caption>Изменение свойств типа файлов</caption>
+			<CommandButtons>
+				<OK_caption>&amp;OK</OK_caption>
+				<Cancel_caption>&amp;Отмена</Cancel_caption>
+				<Default_caption>&amp;Сброс</Default_caption>
+				<DelAction_caption>&amp;Удалить</DelAction_caption>
+				<EditAction_caption>&amp;Изменить...</EditAction_caption>
+				<Add_caption>&amp;Новый...</Add_caption>
+				<ChangeIcon_caption>Сменить значек</ChangeIcon_caption>
+			</CommandButtons>
+			<Labels>
+				<Actions_caption>&amp;Действия:</Actions_caption>
+			</Labels>
+			<CheckBoxs>
+				<WinEdit_caption>Разрешить внесение изменений в &quot;Параметры папок&quot;</WinEdit_caption>
+				<ReplaceWinEntry_caption>Заменить нынешние действия для данного типа файлов</ReplaceWinEntry_caption>
+			</CheckBoxs>
+			<Messages>
+				<ActionDeleteConfirm>Вы точно хотите удалить данное действие?</ActionDeleteConfirm>
+				<ActionDeleteConfirmTitle>Типы файлов</ActionDeleteConfirmTitle>
+			</Messages>
+		</AssocAdvance>
+		<SelectIcon>
+			<caption>Сменить значек</caption>
+			<CommandButtons>
+				<OK_caption>&amp;OK</OK_caption>
+				<Cancel_caption>&amp;Отмена</Cancel_caption>
+				<Browse_caption>&amp;Поиск ...</Browse_caption>
+			</CommandButtons>
+			<Labels>
+				<IconList_caption>&amp;Выберите значок в списке ниже:</IconList_caption>
+				<IconPath_caption>&amp;Поиск иконок в этом файле:</IconPath_caption>
+			</Labels>
+			<Messages>
+				<FilterIconFiles>Файлы иконок</FilterIconFiles>
+				<FilterPrograms>Программы</FilterPrograms>
+				<FilterLibraries>Библиотеки</FilterLibraries>
+				<FilterAllFiles>Все файлы</FilterAllFiles>
+				<OpenFileTitle>Сменить значек</OpenFileTitle>
+				<FileNotFound>Файл не найден: %1</FileNotFound>
+			</Messages>
+		</SelectIcon>
+		<AddAction>
+			<caption>Новое действие</caption>
+			<EditCaption>Изменить для типов : %typedesc%</EditCaption>
+			<CommandButtons>
+				<Browse_caption>Поиск...</Browse_caption>
+				<Cancel_caption>&amp;Отмена</Cancel_caption>
+				<OK_caption>&amp;OK</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<ActionArgs_caption>Параметры командной строки:</ActionArgs_caption>
+				<ActionAppPath_caption>Приложение, исполняющее действие:</ActionAppPath_caption>
+				<Action_caption>&amp;Действие:</Action_caption>
+			</Labels>
+			<Messages>
+				<AppNotFound>Указанная программа не найдена. Проверьте имя файла и путь.\n</AppNotFound>
+				<AppNotFoundTitle>Добавить действий</AppNotFoundTitle>
+				<ActionIsEmpty>Вы должны указать действие.</ActionIsEmpty>
+				<ActionIsEmptyTitle>Типы файлов</ActionIsEmptyTitle>
+			</Messages>
+		</AddAction>
+		<Main>
+			<Menus>
+				<Options_caption>&amp;Опции...</Options_caption>
+				<Config_caption>Конфигурациия ассоциаций...</Config_caption>
+				<Web_caption>Посетить сайт ключевых файлов  Assoc&apos;...</Web_caption>
+				<About_caption>&amp;О программе...</About_caption>
+				<Apply_caption>Применить ассоциации LiberKey</Apply_caption>
+				<Restore_caption>Восстановить ассоциации типа файлов</Restore_caption>
+				<Quit_caption>&amp;Выход</Quit_caption>
+				<Test_caption>тест</Test_caption>
+			</Menus>
+		</Main>
+		<General>
+			<AppActionPrefix>Открыть с помощью</AppActionPrefix>
+			<AppActionSufix> (LiberKey)</AppActionSufix>
+			<DefaultTypeName>Файлы %1</DefaultTypeName>
+		</General>
+		<Update>
+			<caption>Обновление приложения</caption>
+			<Labels>
+				<RunNewVersion_caption>Запуск новой версии</RunNewVersion_caption>
+				<ReplaceExe_caption>Обновление приложения</ReplaceExe_caption>
+				<ClosingApp_caption>Закрытие приложения</ClosingApp_caption>
+				<Title_caption>Установка обновления приложения</Title_caption>
+			</Labels>
+			<CommandButtons>
+				<Cancel_caption>&amp;Отмена</Cancel_caption>
+			</CommandButtons>
+		</Update>
+		<Download>
+			<caption>Обновление приложения</caption>
+			<Labels>
+				<Title_caption>Загрузить обновление приложения...</Title_caption>
+			</Labels>
+			<CommandButtons>
+				<Cancel_caption>&amp;Отменаl</Cancel_caption>
+			</CommandButtons>
+		</Download>
+		<About>
+			<caption>О программе</caption>
+			<CommandButtons>
+				<Update_caption>&amp;Проверить обновления ...</Update_caption>
+				<OK_caption>&amp;Закрыть</OK_caption>
+				<History_caption>&amp;История версий...</History_caption>
+			</CommandButtons>
+			<Labels>
+				<LiberKeyPartner_caption>KFA был разработан LiberKey.com</LiberKeyPartner_caption>
+				<LiberKeyExclu_caption>Это приложение можно использовать только с LiberKey</LiberKeyExclu_caption>
+			</Labels>
+		</About>
+		<MergeAssocs>
+			<caption>Обновление конфигурации</caption>
+			<CommandButtons>
+				<SkipDefaultAssoc_caption>&amp;Не изменять мою конфигурацию!</SkipDefaultAssoc_caption>
+				<MergeDefaultAssocs_caption>&amp;Применить выбранные ассоциации</MergeDefaultAssocs_caption>
+				<Cancel_caption>&amp;Я буду смотреть, что стартует следующим ...</Cancel_caption>
+			</CommandButtons>
+			<Labels>
+				<Title_caption>Конфигурация ассоциаций по умолчанию </Title_caption>
+				<UpdateInfo_caption>В списке ниже, можно просмотреть все новые ассоциации файлов, поставляемые с новой версией. Красным помечены ассоциации уже используемые в вашей конфигурации. Все выбранные ассоциации в этом списке будет добавлены в вашу текущую конфигурацию.</UpdateInfo_caption>
+			</Labels>
+		</MergeAssocs>
+		<Loading>
+			<Labels>
+				<Info_caption>Загрузка...</Info_caption>
+			</Labels>
+		</Loading>
+		<Options>
+			<caption>Конфигурация ключевых файлов Assoc&apos;</caption>
+			<CommandButtons>
+				<Cancel_caption>&amp;Отмена</Cancel_caption>
+				<OK_caption>&amp;OK</OK_caption>
+				<DelAssocErrors_caption>Удалить выбранные ассоциации</DelAssocErrors_caption>
+			</CommandButtons>
+			<Labels>
+				<AppsErrorsTitle_caption>Приложение не обнаружено (ассоциация отключена)</AppsErrorsTitle_caption>
+				<FastSwitchMode_caption>При двойном клике на значок в системном лотке:</FastSwitchMode_caption>
+				<Language_caption>Язык интерфейса пользователя:</Language_caption>
+			</Labels>
+			<OptionButtons>
+				<optSystrayFastSwitchOFF_caption>Открыть конфигурацию ассоциаций</optSystrayFastSwitchOFF_caption>
+				<optSystrayFastSwitchON_caption>Ассоциировать / восстановливать  ассоциации приложений LiberKey</optSystrayFastSwitchON_caption>
+			</OptionButtons>
+			<CheckBoxs>
+				<AutoCheckVersionAtStart_caption>Проверять наличие обновлений при запуске программы</AutoCheckVersionAtStart_caption>
+				<ShowAssocToolTip_caption>Показывать в подсказке, когда ассоциации включены / восстановлены</ShowAssocToolTip_caption>
+				<UseLbkProxySettings_caption>Использовать прокси-сервер</UseLbkProxySettings_caption>
+			</CheckBoxs>
+			<Tabs>
+				<Options>Опции</Options>
+				<ActionErrors>Неверные действия</ActionErrors>
+			</Tabs>
+			<Messages>
+				<NotFoundApp> (Приложение не найдено)</NotFoundApp>
+				<AppCounters>Приложение, связанное с %objcount% объектом (%actioncount% действия)</AppCounters>
+				<ActionCount>(1 действие)</ActionCount>
+			</Messages>
+		</Options>
+		<History>
+			<caption>Ключевые файлы Assoc&apos; - История версий</caption>
+			<CommandButtons>
+				<Close_caption>&amp;Закрыть</Close_caption>
+				<Download_caption>Скачать релиз %ver%...</Download_caption>
+			</CommandButtons>
+			<Messages>
+				<AppVersion>Версия %ver%</AppVersion>
+				<VersionDate>- %date%</VersionDate>
+				<NextVersion>(следующая версия...)</NextVersion>
+				<YourVersion>Ваша версия</YourVersion>
+				<VersionAvailable>Доступно обновление</VersionAvailable>
+				<New>Новый</New>
+				<NoVersionInfo>Нет данных о версии</NoVersionInfo>
+			</Messages>
+		</History>
+		<AppWarning>
+			<caption>Ключевые файлы Assoc&apos; -  есть риск возникновения конфликтов с другими приложениями</caption>
+			<CommandButtons>
+				<OK_caption>&amp;OK</OK_caption>
+				<RemoveAssocs_caption>Отключить ассоциации сейчас</RemoveAssocs_caption>
+			</CommandButtons>
+			<Labels>
+				<Title_caption>Внимание!</Title_caption>
+				<Message_caption>KEY Files Assoc&apos; - обнаружил выполнение приложения, которые может вызвать проблемы. Настоятельно рекомендуется отключить временные ассоциации файлов перед внесением изменений в реестр Windows.</Message_caption>
+			</Labels>
+		</AppWarning>
+		<Contributors>
+			<Contributor name="mrBG" email="bg31688@mail.ru"/>
+			<Contributor name="Talyan" email="astrezh@list.ru"/>
+		</Contributors>
+	</ru-RU>
+</Languages>

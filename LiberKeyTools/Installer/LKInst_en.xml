@@ -1,0 +1,89 @@
+<Languages version="0.2">
+	<en en_name="English" name="English" date="2011-03-14" version="0.40" icon="gb.png">
+		<Main>
+			<Labels>
+				<AppName_Caption>Application :</AppName_Caption>
+				<AppVersion_Caption>Version :</AppVersion_Caption>
+				<AppDescription_Caption>Description :</AppDescription_Caption>
+				<EditorName_Caption>Editor :</EditorName_Caption>
+				<EditorWebSite_Caption>Web Site :</EditorWebSite_Caption>
+				<EditorEmail_Caption>Email :</EditorEmail_Caption>
+				<AppWebSite_Caption>Web Site :</AppWebSite_Caption>
+				<SupportURL_Caption>Support :</SupportURL_Caption>
+				<PackageLangs_Caption>Setup languages available:</PackageLangs_Caption>
+				<PackageInfo_Caption>Package information :</PackageInfo_Caption>
+				<Signature_Caption>Package proposed by :</Signature_Caption>
+				<ValidationFailed_Caption>Warning : This package is not validated !</ValidationFailed_Caption>
+			</Labels>
+			<Tabs>
+				<Application>Application</Application>
+				<Editor>Editor</Editor>
+				<Package>Package Info</Package>
+			</Tabs>
+			<CommandButtons>
+				<Cancel_Caption>&amp;Cancel</Cancel_Caption>
+				<Install_Caption>Install this application on my LiberKey</Install_Caption>
+				<CancelOperation_Caption>&amp;Cancel</CancelOperation_Caption>
+			</CommandButtons>
+		</Main>
+		<Messages>
+			<InvalidPackageFile>Invalid installation package.</InvalidPackageFile>
+			<Errors>
+				<ErrRenameAppDir>An error occured while trying to rename the application folder.\nCheck that the app is not running and that no files are open in the application folder.</ErrRenameAppDir>
+				<ASuiteCloseFailed>Unable to close ASuite.</ASuiteCloseFailed>
+				<AppsDirNotFound>Destination folder not found</AppsDirNotFound>
+				<ExtractErrorRestoreDone>Data extraction failed.\nThe previous version has been restored.</ExtractErrorRestoreDone>
+				<InstallerUpdateNeeded>This installation package is more recent than the installation wizard.\nUse the latest version of the installation wizard to install.</InstallerUpdateNeeded>
+				<InstallError>An error occured during the installation of this application.</InstallError>
+				<AppDataNotFound>Data application not found</AppDataNotFound>
+				<InstErrorTitle>Error during installation</InstErrorTitle>
+				<PackageValidationFailed>Warning, this package has not been validated.</PackageValidationFailed>
+				<DataFileModified>Installation package corrupted.\nData package has been modified\n\n%name%</DataFileModified>
+				<OldPackageVersion>This installation package is not supported any more by the installer wizard.\nThe installation could not continue.</OldPackageVersion>
+				<IncompleteSetup>Some files could not be updated!\nNew versions of these files have been stored in the following directory:\n\n%failedfolder%</IncompleteSetup>
+				<SetupDataDownloadCanceled>Download canceled</SetupDataDownloadCanceled>
+				<ExtractErrorRestoreNotDone>Extraction of the application has failed.\nThe previous version has been kept in a backup directory.</ExtractErrorRestoreNotDone>
+				<SetupDataDownloadError>Error downloading setup data</SetupDataDownloadError>
+			</Errors>
+			<Installing>Installing...</Installing>
+			<VerifyingSetupPackage>Verifying installation package</VerifyingSetupPackage>
+			<VerifyingSetupDestination>Verifying destination space</VerifyingSetupDestination>
+			<SavingActualVersion>Saving actual version</SavingActualVersion>
+			<ExtractingAppFiles>Extracting application files</ExtractingAppFiles>
+			<RestoringPreviousConfig>Restoring previous configuration</RestoringPreviousConfig>
+			<DeletingBackup>Deleting backup</DeletingBackup>
+			<SetupDone>Installation complete</SetupDone>
+			<ClosingASuite>Closing ASuite...</ClosingASuite>
+			<ReStartLBK>Restarting LiberKey...</ReStartLBK>
+			<AppStillRunning>The application is still running.</AppStillRunning>
+			<UpdatingAppsMenu>Updating LiberKey menu...</UpdatingAppsMenu>
+			<RestartingMenu>Menu restart...</RestartingMenu>
+			<ClosingApplication>Closing application...</ClosingApplication>
+			<ClosingKFA>Closing Key Files Assoc&apos;...</ClosingKFA>
+			<UpdatingFileAssocs>Updating file associations...</UpdatingFileAssocs>
+			<RestartingKFA>Restarting Key Files Assoc&apos;...</RestartingKFA>
+			<RestartingApp>Restarting application...</RestartingApp>
+			<PackageSignatureNotFound>(This package is not signed)</PackageSignatureNotFound>
+			<LangMismatchWarning>Warning !\nYou are about to install a software in a language which is different from the language used for your LiberKey.\nWould you like to continue ?</LangMismatchWarning>
+			<AlreadyInstalled>This program is already installed on your LiberKey.\nDo you want to install it again?</AlreadyInstalled>
+			<DowngradeWarning>Attention!\n\nA newer version of this program is already installed on your LiberKey.\n\nVersion already installed: %current_version%\nVersion being installed: %setup_version%\n\nDo you want to install the old version?</DowngradeWarning>
+			<DownloadingSetupData>Setup files downloading...\n%DONE%</DownloadingSetupData>
+			<SetupDataDownloadDone>Download complete.</SetupDataDownloadDone>
+			<InstalledLangMismatchWarning>Warning!\nThis software is already installed on your LiberKey in a different language.\n\nThe previous setup was made in: &quot;%prevlang%&quot;\nThis setup will be made in: &quot;%newlang%&quot;\n\nDo you want to continue?</InstalledLangMismatchWarning>
+			<DeletingObsoleteFiles>Removing obsolete files</DeletingObsoleteFiles>
+		</Messages>
+		<Report>
+			<caption>Installation completed.</caption>
+			<CommandButtons>
+				<Close_Caption>&amp;Close</Close_Caption>
+			</CommandButtons>
+			<Labels>
+				<MenuInfo_Caption>The LiberKey menu was changed!\n\nTo start the application you just installed,\nuse the following menus of your LiberKey:</MenuInfo_Caption>
+			</Labels>
+		</Report>
+		<Contributors>
+			<Contributor name="LiberKey" email="contact@liberkey.com" website="http://www.liberkey.com/"/>
+			<Contributor name="BlueMaxima" email="bluemaximax011@hotmail.com"/>
+		</Contributors>
+	</en>
+</Languages>

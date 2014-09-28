@@ -1,0 +1,13 @@
+<Languages version="0.2">
+	<pt-PT en_name="Portuguese" icon="pt.png" date="2010-09-28" version="1.0" name="Português">
+		<Messages>
+			<NoDesktopIconFound>Não foi encontrado nenhum atalho no Ambiente de Trabalho</NoDesktopIconFound>
+			<ConfirmEraseMany>Eliminar %count% atalhos guardados?</ConfirmEraseMany>
+			<ConfirmEraseOne>Eliminar os atalhos guardados ?</ConfirmEraseOne>
+			<NoQuickLaunchIconFound>Não foram encontrados atalhos na barra &quot;Quick Launch&quot; </NoQuickLaunchIconFound>
+		</Messages>
+		<Contributors>
+			<Contributor name="Ricardo Figueiredo" email="rfigueiredo@live.com.pt" website="rfigueiredo.webnod.pt"/>
+		</Contributors>
+	</pt-PT>
+</Languages>

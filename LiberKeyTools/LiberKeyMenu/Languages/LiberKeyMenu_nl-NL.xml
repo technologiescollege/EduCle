@@ -1,0 +1,796 @@
+<Languages version="0.4">
+	<nl-NL en_name="Dutch" icon="nl.png" date="2011-05-02" name="Dutch" version="1.0">
+		<AppCategories>
+			<audio>geluid</audio>
+			<audio:converter>omzetter</audio:converter>
+			<audio:editor>Bewerker</audio:editor>
+			<audio:ipod_manager>ipod_manager</audio:ipod_manager>
+			<audio:player>speler</audio:player>
+			<audio:radio>radio</audio:radio>
+			<audio:ripper>ripper</audio:ripper>
+			<audio:tagger>tagger</audio:tagger>
+			<audio:text_to_speech>tekst_naar_spraak</audio:text_to_speech>
+			<audio:tools>gereedschappen</audio:tools>
+			<cd-dvd>CD - DVD</cd-dvd>
+			<cd-dvd:burning_tools>brand gereedschappen</cd-dvd:burning_tools>
+			<cd-dvd:cover_printer>Inlegvel printer</cd-dvd:cover_printer>
+			<cd-dvd:image_tools>Beeld gereedschappen</cd-dvd:image_tools>
+			<education>Scholing</education>
+			<education:astronomy>Astronomie</education:astronomy>
+			<education:typing>Typen</education:typing>
+			<file_management>Bestands beheer</file_management>
+			<file_management:backup>Reservekopie</file_management:backup>
+			<file_management:cataloger>Catalogisering</file_management:cataloger>
+			<file_management:comparison>Vergelijking</file_management:comparison>
+			<file_management:compression>Compressie</file_management:compression>
+			<file_management:copy>Kopie</file_management:copy>
+			<file_management:defragmenter>Defragmentatie</file_management:defragmenter>
+			<file_management:directory_lister>Maplijstmaker</file_management:directory_lister>
+			<file_management:disk_space_tool>Schijf ruimte gereedschap</file_management:disk_space_tool>
+			<file_management:duplicate_finder>Duplicaat vinder</file_management:duplicate_finder>
+			<file_management:manager>Beheerder</file_management:manager>
+			<file_management:recovery>Herstel</file_management:recovery>
+			<file_management:renamer>Hernoemen</file_management:renamer>
+			<file_management:search>Zoek</file_management:search>
+			<file_management:splitter>Splitser</file_management:splitter>
+			<file_management:synchronization>Synchronisatie</file_management:synchronization>
+			<file_management:tools>Gereedschappen</file_management:tools>
+			<file_management:universal_viewer>Universele bezichtiger</file_management:universal_viewer>
+			<games>Spellen</games>
+			<games:action>Actie</games:action>
+			<games:card>Kaarten</games:card>
+			<games:puzzle>Puzzel</games:puzzle>
+			<games:reflexion>Nadenken</games:reflexion>
+			<games:strategy>Strategie</games:strategy>
+			<graphics-photo>Grafisch - Foto</graphics-photo>
+			<graphics-photo:3d>3D</graphics-photo:3d>
+			<graphics-photo:color_picker>Kleur kiezer</graphics-photo:color_picker>
+			<graphics-photo:editor>Bewerker</graphics-photo:editor>
+			<graphics-photo:effect_and_filter>Effect en filter</graphics-photo:effect_and_filter>
+			<graphics-photo:icon_editor>Ikoon editor</graphics-photo:icon_editor>
+			<graphics-photo:screen_capture>Schermvanger</graphics-photo:screen_capture>
+			<graphics-photo:tools>Gereedschappen</graphics-photo:tools>
+			<graphics-photo:vector_converter>Vector omzetter</graphics-photo:vector_converter>
+			<graphics-photo:viewer>Bekijken</graphics-photo:viewer>
+			<internet>Internet</internet>
+			<internet:bookmark_manager>Favorieten beheerder</internet:bookmark_manager>
+			<internet:browser>Zoekmachine</internet:browser>
+			<internet:download>Binnenhalen</internet:download>
+			<internet:email>Email</internet:email>
+			<internet:ftp>FTP</internet:ftp>
+			<internet:instant_messenger>IM programma</internet:instant_messenger>
+			<internet:rss_reader>Nieuwslezer</internet:rss_reader>
+			<internet:website_authoring>Webpagina voorbereiding</internet:website_authoring>
+			<internet:website_copier>Webpagina kopieerder</internet:website_copier>
+			<networking-server>Netwerk - Server</networking-server>
+			<networking-server:bandwidth_monitor>Bandbreedte monitor</networking-server:bandwidth_monitor>
+			<networking-server:configuration>Configuratie</networking-server:configuration>
+			<networking-server:network_analyzer>Netwerk analisator</networking-server:network_analyzer>
+			<networking-server:remote_control>Afstands bediening</networking-server:remote_control>
+			<networking-server:scanner>Aftaster</networking-server:scanner>
+			<networking-server:server>Server</networking-server:server>
+			<networking-server:settings_manager>Instelling beheer</networking-server:settings_manager>
+			<networking-server:telnet-ssh_client>Telnet-SSH-Client</networking-server:telnet-ssh_client>
+			<networking-server:tools>Gereedschappen</networking-server:tools>
+			<office>Kantoor</office>
+			<office:calculator>Rekenmachine</office:calculator>
+			<office:calendar>Kalender</office:calendar>
+			<office:chrono>Tijd</office:chrono>
+			<office:desktop_tools>Bureaublad gereedschappen</office:desktop_tools>
+			<office:desktop_tools:application_launcher>Programma starter</office:desktop_tools:application_launcher>
+			<office:desktop_tools:automation>Automatisering</office:desktop_tools:automation>
+			<office:desktop_tools:clipboard_manager>Klembord beheer</office:desktop_tools:clipboard_manager>
+			<office:desktop_tools:clock>Klok</office:desktop_tools:clock>
+			<office:desktop_tools:customization>Aanpassing</office:desktop_tools:customization>
+			<office:desktop_tools:desktop_note>Bureaublad notitie</office:desktop_tools:desktop_note>
+			<office:desktop_tools:keyboard-mouse>Toetsenbord - Muis</office:desktop_tools:keyboard-mouse>
+			<office:desktop_tools:save_desktop_icon>Bewaar bureaublad icoon</office:desktop_tools:save_desktop_icon>
+			<office:desktop_tools:virtual_desktop>Virtueel bureaublad</office:desktop_tools:virtual_desktop>
+			<office:desktop_tools:zoom>Vergroten</office:desktop_tools:zoom>
+			<office:diagram_editor>Diagram bewerker</office:diagram_editor>
+			<office:finance_manager>Geldzaken beheer</office:finance_manager>
+			<office:font_manager>Lettertype beheer</office:font_manager>
+			<office:note_manager>Notitie beheer</office:note_manager>
+			<office:office_suite>Kantoor suite</office:office_suite>
+			<office:pdf>PDF</office:pdf>
+			<office:presentation>Presentatie</office:presentation>
+			<office:task_manager>Taakbeheer</office:task_manager>
+			<office:text_editor>Tekstbewerker</office:text_editor>
+			<office:tutorial_creator>Leerprogramma maker</office:tutorial_creator>
+			<office:unit_converter>Eenheid omzetter</office:unit_converter>
+			<security>Veiligheid</security>
+			<security:anti_virus-spyware>Antivirus - spyware</security:anti_virus-spyware>
+			<security:encryption>Encriptie</security:encryption>
+			<security:integrity_checker>Integriteits controle</security:integrity_checker>
+			<security:password_manager>Wachtwoord beheer</security:password_manager>
+			<security:privacy_tool>Geheimhouding gereedschap</security:privacy_tool>
+			<security:secure_deletion>Veilig verwijderen</security:secure_deletion>
+			<security:tools>Gereedschappen</security:tools>
+			<system_utilities>Systeem voorzieningen</system_utilities>
+			<system_utilities:benchmark>Maatstaf</system_utilities:benchmark>
+			<system_utilities:benchmark:hard_disk>Harde schijf</system_utilities:benchmark:hard_disk>
+			<system_utilities:benchmark:universal>Universeel</system_utilities:benchmark:universal>
+			<system_utilities:cleaner-uninstaller>Schoonmaak - De-installatie</system_utilities:cleaner-uninstaller>
+			<system_utilities:emulator>Emulator</system_utilities:emulator>
+			<system_utilities:hex_editor>Hexadecimaal bewerker</system_utilities:hex_editor>
+			<system_utilities:information>Informatie</system_utilities:information>
+			<system_utilities:information:file_monitoring>Bestand monitor</system_utilities:information:file_monitoring>
+			<system_utilities:information:hardware_monitoring>Apparatuur monitor</system_utilities:information:hardware_monitoring>
+			<system_utilities:information:inventory>Inventaris</system_utilities:information:inventory>
+			<system_utilities:information:process>Proces</system_utilities:information:process>
+			<system_utilities:information:processor>Bewerker</system_utilities:information:processor>
+			<system_utilities:information:service>Dienst</system_utilities:information:service>
+			<system_utilities:information:startup_manager>Opstart beheer</system_utilities:information:startup_manager>
+			<system_utilities:information:usb_device>USB apparaat</system_utilities:information:usb_device>
+			<system_utilities:information:video_card>Grafische kaart</system_utilities:information:video_card>
+			<system_utilities:registry>Register</system_utilities:registry>
+			<system_utilities:registry:backup>Reservekopie</system_utilities:registry:backup>
+			<system_utilities:registry:comparison>Vergelijking</system_utilities:registry:comparison>
+			<system_utilities:registry:compression>Compressie</system_utilities:registry:compression>
+			<system_utilities:registry:monitoring>Monitoring</system_utilities:registry:monitoring>
+			<system_utilities:registry:repair>Reparatie</system_utilities:registry:repair>
+			<system_utilities:registry:search>Zoeken</system_utilities:registry:search>
+			<system_utilities:repair>Reparatie</system_utilities:repair>
+			<system_utilities:tests>Testen</system_utilities:tests>
+			<system_utilities:tests:burning_test>Brand test</system_utilities:tests:burning_test>
+			<system_utilities:tests:hard_disk>Harde schijf</system_utilities:tests:hard_disk>
+			<system_utilities:tests:monitor>Beeldscherm</system_utilities:tests:monitor>
+			<system_utilities:tests:ram>Ram geheugen</system_utilities:tests:ram>
+			<system_utilities:tools>Gereedschappen</system_utilities:tools>
+			<system_utilities:tweaker>Aanpasser</system_utilities:tweaker>
+			<system_utilities:update_checker>Update controle</system_utilities:update_checker>
+			<video>Beeld</video>
+			<video:authoring>Voorbereiding</video:authoring>
+			<video:capture>Vangen</video:capture>
+			<video:cataloger>Catalogiseerder</video:cataloger>
+			<video:converter>Omzetter</video:converter>
+			<video:editor>Bewerker</video:editor>
+			<video:player>Speler</video:player>
+			<video:repair>Reparatie</video:repair>
+			<video:tools>Gereedschappen</video:tools>
+		</AppCategories>
+		<AppInfo>
+			<CheckBoxs>
+				<AutoShowInfo_Caption>Toon deze informatie automatisch</AutoShowInfo_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<AppGoToWebSite_ToolTip>Bezoek bewerkers website</AppGoToWebSite_ToolTip>
+				<AppInstall_Caption>Installeer nu</AppInstall_Caption>
+				<AppOpenLicenseFile_ToolTip>Bekijk licentie</AppOpenLicenseFile_ToolTip>
+				<AppProperties_Caption>Eigenschappen</AppProperties_Caption>
+				<AppRun_Caption>Start</AppRun_Caption>
+				<AppUpdate_Caption>Vernieuw nu..</AppUpdate_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppEditorLabel_Caption>Bewerker:</AppEditorLabel_Caption>
+				<AppLicenseLabel_Caption>Licentie:</AppLicenseLabel_Caption>
+				<AppPlatformLabel_Caption>Platform:</AppPlatformLabel_Caption>
+			</Labels>
+		</AppInfo>
+		<AppList>
+			<CommandButtons>
+				<AddApp_Caption>Voeg applicaties toe</AddApp_Caption>
+				<AddApps_Caption>Voeg applicaties toe</AddApps_Caption>
+				<AddApps_ToolTip>Klik hier om applicaties toe te voegen aan je Liberkey</AddApps_ToolTip>
+				<Browse_ToolTip>Open programma map</Browse_ToolTip>
+				<Cancel_Caption>Sluit</Cancel_Caption>
+				<Reinstall_Caption>Installeer opnieuw</Reinstall_Caption>
+				<Reinstall_ToolTip>Het opnieuw installeren van een toepassing kan de standaard snelkoppelingen in het menu herstellen, informatie over de toepassing opnieuw laden, en de tijdelijke bestands associatie opnieuw toepassen</Reinstall_ToolTip>
+				<Uninstall_Caption>De-installeer</Uninstall_Caption>
+				<Uninstall_ToolTip>Klik hier om deze toepassing uit Liberkey te verwijderen. Alles betreffende deze toepassing zal worden verwijderd: Menu, Info, Associaties van tijdelijke bestanden, programma&apos;s en bijbehorende data.</Uninstall_ToolTip>
+			</CommandButtons>
+			<Labels>
+				<AppNameLabel_Caption>Toepassings naam</AppNameLabel_Caption>
+				<FolderSizeLabel_Caption>0 KB</FolderSizeLabel_Caption>
+				<Title_Caption>Beheer draagbare toepassingen</Title_Caption>
+			</Labels>
+			<Messages>
+				<Loading>Lijst laden ...</Loading>
+			</Messages>
+		</AppList>
+		<AppProperties>
+			<AutoRunMode>
+				<Never>Nooit</Never>
+				<ShutDown>Bij afsluiten</ShutDown>
+				<ShutDownSingle>Bij afsluiten als het nog niet draait</ShutDownSingle>
+				<Startup>Altijd bij starten</Startup>
+				<StartupSingle>Bij starten als het nog niet draait</StartupSingle>
+			</AutoRunMode>
+			<CommandButtons>
+				<AppGoToWebSite_Caption>Bezoek website</AppGoToWebSite_Caption>
+				<ApplyChanges_Caption>Pas toe</ApplyChanges_Caption>
+				<AppOpenLicenseFile_Caption>Bekijk licentie</AppOpenLicenseFile_Caption>
+				<AppUninstall_Caption>Klik hier om deze toepassing uit je Liberkey te verwijderen</AppUninstall_Caption>
+				<AppUninstall_ToolTip>Klik hier om deze toepassing uit Liberkey te verwijderen. Alles betreffende deze toepassing zal worden verwijderd: Menu, Info, Associaties van tijdelijke bestanden, programma&apos;s en bijbehorende data.</AppUninstall_ToolTip>
+				<AppUpdate_Caption>Vernieuw</AppUpdate_Caption>
+				<Cancel_Caption>Sluit</Cancel_Caption>
+			</CommandButtons>
+			<FileSources>Koppeling type</FileSources>
+			<Labels>
+				<AppDescriptionLabel_Caption>Beschrijving toepassing:</AppDescriptionLabel_Caption>
+				<AppEditorLabel_Caption>Bewerker:</AppEditorLabel_Caption>
+				<AppIconLabel_Caption>Aangepast icoon</AppIconLabel_Caption>
+				<AppLicenseLabel_Caption>Licentie:</AppLicenseLabel_Caption>
+				<AppNameLabel_Caption>Naam:</AppNameLabel_Caption>
+				<AppParamsLabel_Caption>Parameters</AppParamsLabel_Caption>
+				<AppPathLabel_Caption>Uitvoerbaar pad / map / webpagina / document:</AppPathLabel_Caption>
+				<AppPlatformLabel_Caption>Platform:</AppPlatformLabel_Caption>
+				<AppVersionLabel_Caption>Versie:</AppVersionLabel_Caption>
+				<AppWorkDirLabel_Caption>Werkmap:</AppWorkDirLabel_Caption>
+				<Title_Caption>Toepassings eigenschappen</Title_Caption>
+			</Labels>
+			<Messages>
+				<BrowseForExe>Kies uitvoerbaar bestand van toepassing</BrowseForExe>
+				<BrowseForFileToOpen>Kies bestand om te openen</BrowseForFileToOpen>
+				<BrowseForLicense>Kies licentie bestand</BrowseForLicense>
+				<ClearLisenseFile>Verwijder koppeling van licentie bestand</ClearLisenseFile>
+				<ClearWebAddress>Verwijder website koppeling</ClearWebAddress>
+				<SelectAppWorkDir>Kies werkmap van de toepassing</SelectAppWorkDir>
+				<SetLicenseAddr>Geef het internet adres van het licentie bestand:</SetLicenseAddr>
+				<SetWebSiteAddr>Geef het internet adres van de bewerker:</SetWebSiteAddr>
+			</Messages>
+			<Tabs>
+				<Application>Toepassing</Application>
+				<AppMore>Geavanceerd</AppMore>
+			</Tabs>
+			<WindowStartMode>
+				<Maximized>Maximaal venster</Maximized>
+				<Minimized>Minimaal venster</Minimized>
+				<Normal>Normaal venster</Normal>
+			</WindowStartMode>
+		</AppProperties>
+		<CategoryProps>
+			<CheckBoxs>
+				<EditLiberKeyCategory_Caption>Hernoem deze Liberkey categorie</EditLiberKeyCategory_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Apply_Caption>OK</Apply_Caption>
+				<Cancel_Caption>Breek af</Cancel_Caption>
+			</CommandButtons>
+			<Labels>
+				<CatIconLabel_Caption>Categorie icoon:</CatIconLabel_Caption>
+				<CatNameLabel_Caption>Categorie naam:</CatNameLabel_Caption>
+				<Title_Caption>Categorie eigenschappen</Title_Caption>
+			</Labels>
+		</CategoryProps>
+		<Config>
+			<About>
+				<Version>Versie %ver%</Version>
+			</About>
+			<CheckBoxs>
+				<AutoCloseApps_Caption>Bij sluiten van menu, de draagbare toepassinge sluiten</AutoCloseApps_Caption>
+				<AutoCollapseOnHide_Caption>Als het menu verborgen is, ga terug naar de bron categorie</AutoCollapseOnHide_Caption>
+				<AutoHideMenuOnAppRun_Caption>Verberg het menu als een toepassing is gestart</AutoHideMenuOnAppRun_Caption>
+				<AutoRemoveDrive_Caption>Wanner het menu sluit,  verwijder dan het verwisselbare apparaat</AutoRemoveDrive_Caption>
+				<AutoRunLiberKey_Caption>Start Liberkey bij het starten van Windows</AutoRunLiberKey_Caption>
+				<AutoShowAppInfo_Caption>Bekijk informatie over toepassingen</AutoShowAppInfo_Caption>
+				<ConfirmCategoryDeletion_Caption>Bevestig verwijdering categorie</ConfirmCategoryDeletion_Caption>
+				<ConfirmShortcutDeletion_Caption>Bevestig verwijdering snelkoppeling</ConfirmShortcutDeletion_Caption>
+				<CreateTempSendToShortcut_Caption>Tijdelijke snelkoppeling &quot;Stuur naar / mijn draagbare documenten&quot;</CreateTempSendToShortcut_Caption>
+				<DisableAllEffects_Caption>Schakel alle animatie effecten uit</DisableAllEffects_Caption>
+				<DisableControlsEffects_Caption>Schakel animatie van interface items uit</DisableControlsEffects_Caption>
+				<DisableDialogsEffects_Caption>Schakel dialoog animatie uit</DisableDialogsEffects_Caption>
+				<DisableMenuEffects_Caption>Schakel menu animatie uit</DisableMenuEffects_Caption>
+				<DisplayClock_Caption>Toon klok</DisplayClock_Caption>
+				<DontShowEmptyDesc_Caption>Behalve wanneer de beschrijving leeg is</DontShowEmptyDesc_Caption>
+				<EnableAppsAutoStart_Caption>Schakel autorun in</EnableAppsAutoStart_Caption>
+				<HideClockSeconds_Caption>Verberg secondes</HideClockSeconds_Caption>
+				<HotKeyFloatMenu_Caption>Zwevend menu:</HotKeyFloatMenu_Caption>
+				<HotKeyMain_Caption>Hoofd menu:</HotKeyMain_Caption>
+				<SingleClicAppRun_Caption>Start toepassingen met een enkele klik</SingleClicAppRun_Caption>
+				<SingleClicCategoryExpand_Caption>Open categorien met een enkele klik</SingleClicCategoryExpand_Caption>
+				<ToolsCheckAppUpdates_Caption>Controleer op updates voor draagbare toepassingen</ToolsCheckAppUpdates_Caption>
+				<ToolsCheckLBKUpdates_Caption>Controleer op Liberkey Platform updates</ToolsCheckLBKUpdates_Caption>
+				<ToolsCheckLiberKeyNews_Caption>Controleer op Liberkey nieuws</ToolsCheckLiberKeyNews_Caption>
+				<ToolsQuitKFA_Caption>Schakel de bestands associatie uit wanneer het menu sluit</ToolsQuitKFA_Caption>
+				<ToolsQuitPDS_Caption>Verwijder de draggbare shortcuts als het menu sluit</ToolsQuitPDS_Caption>
+				<ToolsStartKFA_Caption>Schakel de bestands associaties in wanneer het menu start</ToolsStartKFA_Caption>
+				<ToolsStartPDS_Caption>Voeg de draagbare snelkoppelingen toe als het menu start</ToolsStartPDS_Caption>
+				<UseProxy_Caption>Ga via een proxy server het Internet op</UseProxy_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<ApplyChanges_Caption>Pas toe</ApplyChanges_Caption>
+				<AutoRunDown_ToolTip>Scroll omlaag</AutoRunDown_ToolTip>
+				<AutoRunLocate_ToolTip>Vind het snelkoppel menu</AutoRunLocate_ToolTip>
+				<AutoRunProperties_ToolTip>Wijzig de snelkoppeling eigenschappen</AutoRunProperties_ToolTip>
+				<AutoRunRemove_ToolTip>Annuleer autorun voor deze snelkoppeling</AutoRunRemove_ToolTip>
+				<AutoRunUp_ToolTip>Scroll omhoog</AutoRunUp_ToolTip>
+				<Cancel_Caption>Sluit</Cancel_Caption>
+				<CopyTechnicalInfo_Caption>Kopieer de lijst naar het klembord</CopyTechnicalInfo_Caption>
+				<CreateAccount_Caption>Klik hier om je gratis account te maken !</CreateAccount_Caption>
+			</CommandButtons>
+			<Labels>
+				<Animations_Caption>Animaties</Animations_Caption>
+				<AppSetupInfo_Caption>De volgende opties bepalen het gedrag van de Liberkey installer</AppSetupInfo_Caption>
+				<AppUpdateInfo_Caption>De volgende opties laten je het gedrag van het software update systeem in Liberkey kiezen</AppUpdateInfo_Caption>
+				<AutoCheckOptions_Caption>Automatische controle</AutoCheckOptions_Caption>
+				<AutoRunDelay_Caption>Tijd tot zelf-starten (secondes):</AutoRunDelay_Caption>
+				<AutoRunEachDelay_Caption>Tijd tussen elke run (secondes):</AutoRunEachDelay_Caption>
+				<AutorunInfo_Caption>Beheer van toepassingen die draaien bij starten en stoppen van het Liberkey menu :</AutorunInfo_Caption>
+				<ColorsInfo_Caption>Primaire kleur van het menu en vensters</ColorsInfo_Caption>
+				<Confirmations_Caption>Bevestigingen</Confirmations_Caption>
+				<CreateAccountLabel_Caption>Nog niet geregistreerd?</CreateAccountLabel_Caption>
+				<CustomBrightnessLabel_Caption>Helderheid</CustomBrightnessLabel_Caption>
+				<CustomColorInfo_Caption>Aangepaste kleur variatie</CustomColorInfo_Caption>
+				<CustomHueRotationLabel_Caption>Tint</CustomHueRotationLabel_Caption>
+				<CustomSaturationLabel_Caption>Verzadiging</CustomSaturationLabel_Caption>
+				<DefaultEffectSet>Standaard effecten</DefaultEffectSet>
+				<EffectSetLabel_Caption>Effecten set:</EffectSetLabel_Caption>
+				<FileAssocUpdatesOnlyInfo_Caption>Tijdens updates worden bestands associaties niet gewijzigd. Zij worden alleen gedefinieerd voor nieuwe toepassingen.</FileAssocUpdatesOnlyInfo_Caption>
+				<Gadgets_Caption>Hebbedingen</Gadgets_Caption>
+				<KFAoptions_Caption>Associeer bestanden met draagbare toepassingen</KFAoptions_Caption>
+				<LangAuthorEmailLabel_Caption>Email:</LangAuthorEmailLabel_Caption>
+				<LangAuthorNameLabel_Caption>Schrijver:</LangAuthorNameLabel_Caption>
+				<LangAuthorWebsiteLabel_Caption>Website:</LangAuthorWebsiteLabel_Caption>
+				<LangContributors_Caption>Bijdragers:</LangContributors_Caption>
+				<LangContributorsLabel_Caption>Bijdragers:</LangContributorsLabel_Caption>
+				<LanguagesInfo_Caption>Kies de taal van de user interface</LanguagesInfo_Caption>
+				<LangVersionLabel_Caption>Versie:</LangVersionLabel_Caption>
+				<MaxRecentCount_Caption>Maximaal aantal recente opstartsessies:</MaxRecentCount_Caption>
+				<MaxVisibleMostUsed_Caption>Maximaal aan tal zaken in &quot;meest gebruikt&quot;:</MaxVisibleMostUsed_Caption>
+				<MenuAccess_Caption>Liberkey menu toegang</MenuAccess_Caption>
+				<MenuDelay_Caption>Vertraging bij openen menu:</MenuDelay_Caption>
+				<MenuDelayMS_Caption>millisecondes</MenuDelayMS_Caption>
+				<MenuIconActions_Caption>Systeembalk icoon:</MenuIconActions_Caption>
+				<MenuKeyboardShortcuts_Caption>Toetsenbord snelkoppeling:</MenuKeyboardShortcuts_Caption>
+				<Misc_Caption>Diversen</Misc_Caption>
+				<Navigation_Caption>Navigatie</Navigation_Caption>
+				<NeverUpdateFileAssocInfo_Caption>Bestands associaties blijven ongewijzigd wanneer toepassingen worden toegevoegd of vernieuwd.</NeverUpdateFileAssocInfo_Caption>
+				<Password_Caption>Wachtwoord:</Password_Caption>
+				<PDSoptions_Caption>Draagbaar bureaublad snelkoppelingen</PDSoptions_Caption>
+				<PlatformVersionInfo_Caption>Deze technische informatie over het Liberkey platform kan aan technisch ondersteuning (forum) worden gevraagd. Klik &quot;Kopieer de lijst..&quot; om dit in je boodschap te kunnen plakken.</PlatformVersionInfo_Caption>
+				<ProxyHost_Caption>Naam van de Host of IP adres:</ProxyHost_Caption>
+				<ProxyInfo_Caption>Als je via een proxy moet om op het Internet te gaan, vul dan de onderstaande velden in:</ProxyInfo_Caption>
+				<ProxyPassword_Caption>Wachtwoord:</ProxyPassword_Caption>
+				<ProxyPort_Caption>Poort:</ProxyPort_Caption>
+				<ProxyUser_Caption>Gebruikersnaam:</ProxyUser_Caption>
+				<QuitOptions_Caption>Automatisch sluiten en verbinding verbreken</QuitOptions_Caption>
+				<RecentAndMostUsed_Caption>Geschiedenis van toepassings gebruik</RecentAndMostUsed_Caption>
+				<StartupWindowShowAlways_Caption>Toon het menu altijd</StartupWindowShowAlways_Caption>
+				<StartupWindowShowNever_Caption>Toon het menu nooit</StartupWindowShowNever_Caption>
+				<StartupWindowShowPrevious_Caption>Toon het menu als het de laatste keer zichtbaar was</StartupWindowShowPrevious_Caption>
+				<StartupWindowStateLabel_Caption>Bij opstarten:</StartupWindowStateLabel_Caption>
+				<Title_Caption>Liberkey Menu - Configuratie</Title_Caption>
+				<TrayLeftClickActionLabel_Caption>Linker klik:</TrayLeftClickActionLabel_Caption>
+				<TrayRightClickActionLabel_Caption>Rechter klik:</TrayRightClickActionLabel_Caption>
+				<UpdateAutoStartInfo_Caption>Prioriteits updates worden zonder inmenging ge-installerd (automatische mode)</UpdateAutoStartInfo_Caption>
+				<UpdateFileAssocInfo_Caption>Als een toepassing wordt toegevoegd of vernieuwd met de installer, wordt die automatisch ge-associeerd met de bestanden die het kan bewerken.</UpdateFileAssocInfo_Caption>
+				<UpdateNoUserAlertInfo_Caption>Als Liberkey start, geen melding geven van updates. Je wordt geinformeerd als je een toepassing start.</UpdateNoUserAlertInfo_Caption>
+				<UpdateUIAlertInfo_Caption>Daarna kun je de lijst van beschikbare updates zien en kiezen welke je wilt toepassen.</UpdateUIAlertInfo_Caption>
+				<UserLoginInfo_Caption>De indentificering is niet langer nodig voor automatische updates. De velden hieronder kun je leeg laten.</UserLoginInfo_Caption>
+				<UserName_Caption>Gebruikersnaam:</UserName_Caption>
+			</Labels>
+			<OptionButtons>
+				<optAlwaysUpdateFileAssoc_Caption>Vernieuw de bestands associaties altijd.</optAlwaysUpdateFileAssoc_Caption>
+				<optAutoRunAtStartup_Caption>Als het menu start</optAutoRunAtStartup_Caption>
+				<optAutoRunOnQuit_Caption>Als het menu sluit</optAutoRunOnQuit_Caption>
+				<optMenuDelayCustom_Caption>Aangepast</optMenuDelayCustom_Caption>
+				<optMenuDelayDefault_Caption>Standaard</optMenuDelayDefault_Caption>
+				<optNeverUpdateFileAssoc_Caption>Vernieuw nooit de bestands associaties</optNeverUpdateFileAssoc_Caption>
+				<optUpdateAutoStart_Caption>Download en installeer deze updates automatisch</optUpdateAutoStart_Caption>
+				<optUpdateFileAssocNewApps_Caption>Stel associaties in van nieuwe toepassingen</optUpdateFileAssocNewApps_Caption>
+				<optUpdateNoUserAlert_Caption>Waarschuw alleen wanneer de software start</optUpdateNoUserAlert_Caption>
+				<optUpdateUIAlert_Caption>Toon een icoon en info boodschap</optUpdateUIAlert_Caption>
+				<optUpdateUserAlert_Caption>Waarschuw als prioriteits updates beschikbaar zijn</optUpdateUserAlert_Caption>
+			</OptionButtons>
+			<Options>
+				<About>Over</About>
+				<Advanced>Geavanceerde opties</Advanced>
+				<AppSetup>Toepassings installatie</AppSetup>
+				<Autorun>Autorun</Autorun>
+				<AutoUpdate>Toepassings vernieuwing</AutoUpdate>
+				<Colors>Kleuren</Colors>
+				<Effects>Gebruikers interface</Effects>
+				<Help>Help</Help>
+				<Language>Taal</Language>
+				<LiberKeyTools>Liberkey Gereedschappen</LiberKeyTools>
+				<Proxy>HTTP Proxy</Proxy>
+				<TechnicalInfo>Technische informatie</TechnicalInfo>
+				<User>Gebruiker</User>
+			</Options>
+		</Config>
+		<Contributors>
+			<Contributor name="Ed Busse"/>
+		</Contributors>
+		<FloatingMenu>
+			<AlwaysOnTop>Altijd bovenop</AlwaysOnTop>
+			<AutoCollapse>Automatisch inklappen</AutoCollapse>
+			<Close>Sluit</Close>
+			<FixedMode>Houd geopend</FixedMode>
+			<GoToParent>Schakel om naar het bovenliggende menu</GoToParent>
+		</FloatingMenu>
+		<IconSelect>
+			<Labels>
+				<Title_Caption>Icoon keuze</Title_Caption>
+			</Labels>
+		</IconSelect>
+		<Main>
+			<CommandButtons>
+				<AddApps_Caption>Installatie</AddApps_Caption>
+				<AddApps_ToolTip>Toevoegen / verwijderen van toepassingen</AddApps_ToolTip>
+				<Close_ToolTip>Verberg Liberkey menu</Close_ToolTip>
+				<CloseSearch2_Caption>Sluit</CloseSearch2_Caption>
+				<Config_Caption>Liberkey Gereedschappen</Config_Caption>
+				<MyDocs_Caption>Documenten</MyDocs_Caption>
+				<MyMusic_Caption>Muziek</MyMusic_Caption>
+				<MyPictures_Caption>Plaatjes</MyPictures_Caption>
+				<Quit_ToolTip>Sluit Liberkey menu</Quit_ToolTip>
+				<TabsScrollLeft_ToolTip>Links scrollen</TabsScrollLeft_ToolTip>
+				<TabsScrollRight_ToolTip>Rechts scrollen</TabsScrollRight_ToolTip>
+				<UserMenus_ToolTip>Gebruiker menu&apos;s</UserMenus_ToolTip>
+				<ViewIcons_ToolTip>Grote iconen</ViewIcons_ToolTip>
+				<ViewTree_ToolTip>Boom</ViewTree_ToolTip>
+			</CommandButtons>
+			<Labels>
+				<SearchInfoLabel_Caption>Gevonden: %count% snelkoppelingen</SearchInfoLabel_Caption>
+				<SearchInfoTitle_Caption>Zoek in je Liberkey</SearchInfoTitle_Caption>
+			</Labels>
+			<LiberKeyTools>
+				<AddApps>Doorzoek de toepassings catalogus</AddApps>
+				<AddAppsTip>Deze wizard voor toegang tot de site www.liberkey.com zal de lijst met recente toepassingen ophalen die beschikbaar zijn op onze servers. Hiermee kun je eenvoudig de voor jou interessante toepassing vinden in de online catalogus.</AddAppsTip>
+				<AddPortableShortcuts>Voeg draagbare snelkoppelingen toe</AddPortableShortcuts>
+				<AppsClose>Sluit draagbare applicaties van je Liberkey</AppsClose>
+				<AppsCloseTip>Liberkey toepassings sluiter sluit automatisch al je toepassingen van je Liberkey af. De methodes zijn aangepast aan de programma&apos;s. De sluiting gebeurt netjes, als je bezig was met een bestand, (bv een document) wordt je gevraagd het op te slaan.</AppsCloseTip>
+				<Configuration>Liberkey configuratie</Configuration>
+				<ConfigurationTip>Liberkey configuratie. \nAlle instellingen betreffende de verschijning en het gedrag van Liberkey zijn verzameld in dit configuratie venster.</ConfigurationTip>
+				<DisableFileAssoc>Zet bestands associaties uit</DisableFileAssoc>
+				<DisableFileAssocTip>Draagbare toepassingen zijn momenteel ge-associeerd met de bestanden die ze gebruiken. \nZet de tijdelijke permissie uit om naar de originele associaties terug te keren.</DisableFileAssocTip>
+				<EnableFileAssoc>Zet bestands associaties aan</EnableFileAssoc>
+				<EnableFileAssocTip>Zet tijdelijke bestands associaties aan (.avi, .jpg, .doc, ..) voor toepassingen van je Liberkey.</EnableFileAssocTip>
+				<FileAssoc>Bestands associaties</FileAssoc>
+				<GoToWebSite>Bezoek de Liberkey website</GoToWebSite>
+				<GoToWebSiteTip>Dit menu geeft simpel toegang tot de Liberkey.com website. Daar vindt je allerlei info over Liberkey en het forum dat open is voor alle gebruikers.</GoToWebSiteTip>
+				<InstallAppSuite>Installeer een toepassings suite</InstallAppSuite>
+				<InstallAppSuiteTip>Deze wizard zorgt voor de installatie van een hele serie toepassingen met een enkele operatie.</InstallAppSuiteTip>
+				<ManageApps>Beheer draagbare toepassingen</ManageApps>
+				<ManageAppsTip>De-installeer, installeer of her-installeer toepassingen. Dit gereedschap geeft je de controle over de integratie van je toepassingen in het Liberkey menu</ManageAppsTip>
+				<PortableShortcutsTip>Draagbare bureaublad snelkoppelingen geeft de controle over bureaublad snelkoppelingen verbonden aan draagbare toepassingen. \nDe positie van bureaublad snelkoppelingen wordt bewaard.</PortableShortcutsTip>
+				<RemovePortableShortcuts>Verwijder draagbare snelkoppelingen</RemovePortableShortcuts>
+				<Title>Liberkey Gereedschappen</Title>
+				<UpdateCheck>Controleer op updates</UpdateCheck>
+				<UpdateCheckTip>Controleer of een nieuwe versie van Liberkey of toepassings updates beschikbaar zijn.\nZo ja, dan is het mogelijk deze updates direct via Liberkey.com toe te passen.</UpdateCheckTip>
+				<UsbEject>Schakel Liberkey uit</UsbEject>
+				<USBEjectTip>Liberkey USB uitwerpen geeft de mogelijkheid om het USB apparaat uit te schakelen (met automatisch stoppen van alle toepassingen).\n\nHERINNERING: Elk USB apparaat kan pas uitgeschakeld worden als de ge-associeerde software afgesloten is.</USBEjectTip>
+			</LiberKeyTools>
+			<Messages>
+				<About>Over Liberkey</About>
+				<BrowseForNewFolder>Kies de map die de snelkoppeling zal openen</BrowseForNewFolder>
+				<PatchDownload>Download update ..</PatchDownload>
+				<SearchResults>Zoek resultaten</SearchResults>
+			</Messages>
+		</Main>
+		<Menu>
+			<LKHelp>Liberkey help</LKHelp>
+			<LKQuickLaunch>Liberkey snelstart</LKQuickLaunch>
+			<MostUsed>Meest gebruikt</MostUsed>
+			<MyApps>Mijn draagbare toepassingen</MyApps>
+			<MyDocs>Mijn documenten</MyDocs>
+			<Recent>Recent</Recent>
+		</Menu>
+		<MenuProperties>
+			<CheckBoxs>
+				<EditMode_Caption>Sta wijzigingen toe</EditMode_Caption>
+				<NotInSystrayMenu_Caption>Toon niet in het zwevend hoofd menu</NotInSystrayMenu_Caption>
+				<ShowName_Caption>Toon naam</ShowName_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Apply_Caption>OK</Apply_Caption>
+				<Cancel_Caption>Annuleer</Cancel_Caption>
+			</CommandButtons>
+			<Labels>
+				<MenuIconLabel_Caption>Ge-associeerd icoon:</MenuIconLabel_Caption>
+				<MenuNameLabel_Caption>Menu naam:</MenuNameLabel_Caption>
+				<Title_Caption>Gebruikersmenu eigenschappen</Title_Caption>
+			</Labels>
+		</MenuProperties>
+		<Menus>
+			<AppCopy_Caption>&amp;Kopieer</AppCopy_Caption>
+			<AppCut_Caption>&amp;Knip</AppCut_Caption>
+			<AppDelApp_Caption>&amp;Verwijder</AppDelApp_Caption>
+			<AppEditProps_Caption>&amp;Toepassings eigenschappen ..</AppEditProps_Caption>
+			<AppGoToWebSite_Caption>&amp;Bezoek website</AppGoToWebSite_Caption>
+			<AppLaunch_Caption>&amp;Voer uit</AppLaunch_Caption>
+			<AppLocate_Caption>&amp;Bepaal categorie</AppLocate_Caption>
+			<AppLocation-0_Caption> (categorie naam)</AppLocation-0_Caption>
+			<AppLocations_Caption>&amp;Bepaal categorie</AppLocations_Caption>
+			<AppOpenAppFolder_Caption>&amp;Open de bijbehorende map</AppOpenAppFolder_Caption>
+			<AppPaste_Caption>&amp;Plak</AppPaste_Caption>
+			<AppRunAs_Caption>&amp;Voer uit als...</AppRunAs_Caption>
+			<AppRunAsAdmin_Caption>&amp;Voer uit als administrator</AppRunAsAdmin_Caption>
+			<AppSetup_Caption>&amp;Installeer deze toepassing</AppSetup_Caption>
+			<AppShowInfo_Caption>&amp;Informatie</AppShowInfo_Caption>
+			<AppUpdate_Caption>&amp;Vernieuw</AppUpdate_Caption>
+			<CatAdd_Caption>Nieuwe snelkoppeling</CatAdd_Caption>
+			<CatAddApp_Caption>Toepassing / bestand...</CatAddApp_Caption>
+			<CatAddFolder_Caption>Map...</CatAddFolder_Caption>
+			<CatAddWebPage_Caption>Webpagina...</CatAddWebPage_Caption>
+			<CatCopy_Caption>&amp;Kopieer</CatCopy_Caption>
+			<CatCut_Caption>&amp;Knip</CatCut_Caption>
+			<CatDelCat_Caption>&amp;Verwijder</CatDelCat_Caption>
+			<CatEditProps_Caption>&amp;Eigenschappen</CatEditProps_Caption>
+			<CatListMode_Caption>Toon &amp;lijst</CatListMode_Caption>
+			<CatNewCat_Caption>&amp;Nieuwe categorie</CatNewCat_Caption>
+			<CatPaste_Caption>&amp;Plak</CatPaste_Caption>
+			<CatShowMenu_Caption>&amp;Zwevend menu...</CatShowMenu_Caption>
+			<CatSort_Caption>&amp;Sorteer</CatSort_Caption>
+			<DoNothing_Caption>Doe niets</DoNothing_Caption>
+			<FolderOpen_Caption>&amp;Open map</FolderOpen_Caption>
+			<InstallLKS_Caption>Installeer LKS pakket (Liberkey Setup)</InstallLKS_Caption>
+			<InstallLKS_Tip>Kies een of meer LKS bestanden (Liberkey Setup) om met een klik te installeren !</InstallLKS_Tip>
+			<InstallsFromAppsFolder_Caption>Uit &quot;Apps&quot; map...</InstallsFromAppsFolder_Caption>
+			<InstallsFromAppsFolder_Tip>Deze wizard controleert automatisch de map &quot;Apps&quot; van je Liberkey of er nieuwe toepassingen zijn.\n Je kunt bijvoorbeeld toepassingen uit een andere Liberkey kopieren en ze bewaren op de plaats van je voorkeur\n</InstallsFromAppsFolder_Tip>
+			<InstallsFromMyApps_Caption>Uit &quot;MyApps&quot; map...</InstallsFromMyApps_Caption>
+			<InternetOpen_Caption>&amp;Openen</InternetOpen_Caption>
+			<MenusCreate_Caption>&amp;Creeer nieuw menu...</MenusCreate_Caption>
+			<MenusDelete_Caption>&amp;Verwijder huidig menu</MenusDelete_Caption>
+			<MenusEdit_Caption>Huidige menu &amp;eigenschappen...</MenusEdit_Caption>
+			<MenusExport_Caption>&amp;Exporteer huidig menu...</MenusExport_Caption>
+			<MenusHideNames_Caption>&amp;Verberg namen</MenusHideNames_Caption>
+			<MenusImport_Caption>&amp;Importeer menu...</MenusImport_Caption>
+			<MenusRecent_Caption>&amp;Recent</MenusRecent_Caption>
+			<MenusShowNames_Caption>Toon &amp;namen</MenusShowNames_Caption>
+			<MenusUser-0_Caption>Standaard menu</MenusUser-0_Caption>
+			<Open_Caption>&amp;Openen</Open_Caption>
+			<OpenActiveFloatMenu_Caption>Open het zwevend menu</OpenActiveFloatMenu_Caption>
+			<OpenMainWindow_Caption>Open het hoofd menu</OpenMainWindow_Caption>
+			<PatchCancelDownload_Caption>&amp;Annuleer download</PatchCancelDownload_Caption>
+			<Quit>Afsluiten</Quit>
+			<SendToPortableDocs>Mijn draagbare documenten</SendToPortableDocs>
+			<SendToPortableDocsDescription>Kopieer geselcteerde bestanden in &quot;Mijn documenten&quot; Liberkey map</SendToPortableDocsDescription>
+			<ShortcutEditProps_Caption>Snelkoppeling eigenschappen...</ShortcutEditProps_Caption>
+			<SynchronizeCatalog_Caption>Uit online catalogus</SynchronizeCatalog_Caption>
+			<SynchronizeCatalog_Tip>Deze wizard voor toegang tot de site www.liberkey.com zal de lijst met recente toepassingen ophalen die beschikbaar zijn op onze servers. Hiermee kun je eenvoudig de voor jou interessante toepassing vinden in de online catalogus.</SynchronizeCatalog_Tip>
+			<UserMenuTabEditable_Caption>Sta wijzigingen toe</UserMenuTabEditable_Caption>
+			<UserMenuTabFloatMenu_Caption>&amp;Zwevend menu...</UserMenuTabFloatMenu_Caption>
+			<UserMenuTabHideName_Caption>&amp;Verberg naam</UserMenuTabHideName_Caption>
+			<UserMenuTabProperties_Caption>&amp;Eigenschappen...</UserMenuTabProperties_Caption>
+			<UserMenuTabShowName_Caption>&amp;Toon naam</UserMenuTabShowName_Caption>
+		</Menus>
+		<Messages>
+			<AllFilesSelection>Alle bestanden |*.*</AllFilesSelection>
+			<AppInstallDone>De toepassing &apos;%appname%&quot; is geinstalleerd in je Liberkey</AppInstallDone>
+			<AppInstalled>Geinstalleerde toepassing: %appname%</AppInstalled>
+			<AppRefCount>Snelkoppeling naar deze toepassing: %count%</AppRefCount>
+			<AppRegistered>Toepassing is nu geregistreerd in je Liberkey.\n Je kunt nu een snelkoppeling maken door</AppRegistered>
+			<AppsInstallDone> %count% nieuwe toepassingen zijn geinstalleerd in je Liberkey.</AppsInstallDone>
+			<AutoImportMenu>Je hebt nog geen menu gemaakt om je toepassingen te starten.\nWil je de boom importeren uit het oude menu?</AutoImportMenu>
+			<Browse>Zoek...</Browse>
+			<ConfirmDeleteCategory>Weet je zeker dat je de categorie &quot;%name%&quot; en de snelkoppelingen wilt verwijderen?</ConfirmDeleteCategory>
+			<ConfirmDeleteSortcut>Weet je zeker dat je de snelkoppeling &quot;%name%&quot; wilt verwijderen?</ConfirmDeleteSortcut>
+			<ConfirmDeletion>Bevestig verwijdering</ConfirmDeletion>
+			<ConfirmUninstallApp>Weet je zeker dat je deze toepassing wilt verwijderen?\nDeze handeling kan niet ongedaan worden gemaakt.</ConfirmUninstallApp>
+			<DateFormat>mm/dd/yyyy</DateFormat>
+			<DefaultIcon>(standaard icoon)</DefaultIcon>
+			<DeleteMenuConfirm>Menu &quot;%menu%&quot; verwijderen?</DeleteMenuConfirm>
+			<DownloadPatchNow>De update nu downloaden?</DownloadPatchNow>
+			<DropLKSLoadingInfos>Wacht aub tijdens het ophalen van informatie over de toepassingen...</DropLKSLoadingInfos>
+			<DropLKSToInstall>Laat de muisknop los om de toepassing te installeren in je Liberkey</DropLKSToInstall>
+			<Errors>
+				<AccessDenied>Toegang geweigerd</AccessDenied>
+				<AccessRightsError>Om te werken heeft Liberkey toegangs rechten nodig tot het apparaat waar het op staat</AccessRightsError>
+				<AssocIncomplete>Incomplete of ongeldige bestands associatie</AssocIncomplete>
+				<CantCreateTempFolder>Niet in staat om tijdelijke map te maken</CantCreateTempFolder>
+				<CantDefineHotKey>Er is een fout opgetreden tijdens het instellen van de hotkey voor snelkoppeling &quot;%name%&quot;:\n%err%</CantDefineHotKey>
+				<CantDefineHotKeys>Er si een fout opgetreden bij het instellen van de hotkeys voor de volgende snelkoppelingen:\n&amp;err%\n%namelist%</CantDefineHotKeys>
+				<CantStartOnRemoteDrive>Je kunt Liberkey niet op een netwerk drive gebruiken</CantStartOnRemoteDrive>
+				<DDEBusy>DDE bezig</DDEBusy>
+				<DDETimeout>DDE time out</DDETimeout>
+				<DDETransacFailed>DDE handeling mislukt</DDETransacFailed>
+				<DllNotFound>DLL niet gevonden</DllNotFound>
+				<ErrorTitle>Fout</ErrorTitle>
+				<ErrShare>Er is een share overtreding gebeurd</ErrShare>
+				<ExeBadFormat>Ongeldig EXE bestand of fout in EXE image</ExeBadFormat>
+				<ExecError>Fout bij programma start</ExecError>
+				<FileNotFound>Bestand niet gevonden</FileNotFound>
+				<GetUpdateInfoError>Er is een fout opgetreden bij het ophalen van update informatie\nFout &amp;err%: %desc%</GetUpdateInfoError>
+				<HotKeyAlreadyUsedBy>Je hebt deze combinatie al gebruikt voor de snelkoppeling &quot;%name%&quot;!</HotKeyAlreadyUsedBy>
+				<LKInstNotFound>Liberkey Installer niet gevonden!</LKInstNotFound>
+				<LksDownloadFailed>Er is een fout opgetreden bij het downloaden van het installatiepakket van %app% (%lks%).\n\nFout %errnum%: &amp;errdesc%</LksDownloadFailed>
+				<NoAssoc>Geen associatie voor bestands extensie</NoAssoc>
+				<OutOfMemory>Geheugen is in gebruik</OutOfMemory>
+				<PathNotFound>Pad niet gevonden</PathNotFound>
+				<SkinImageNotFound>Fout bij het laden van skin:\n\nBestand %file% niet gevonden</SkinImageNotFound>
+			</Errors>
+			<FileSize>
+				<Bytes>Bytes</Bytes>
+				<GB>GB</GB>
+				<KB>KB</KB>
+				<MB>MB</MB>
+			</FileSize>
+			<FreeSpace>Dribe %drive% (%filesys%)\n%volumename%\nCapaciteit: %totalsize%\nGebruikt: %usedsize%\nVrij: %freesize% (%freesizepc%)</FreeSpace>
+			<HotKeyStartAppInfo>Starten van &quot;%name%&quot;...\n Klik hier om te annuleren</HotKeyStartAppInfo>
+			<IconFileSelection>Ondersteunde bestanden| *.ico;*.exe;*.dll|Icon bestanden (*.ico)|*.ico|Uitvoerbare bestanden|*.exe;.dll</IconFileSelection>
+			<IconSelection>
+				<AppIcons>Menu iconen</AppIcons>
+				<IconSelectTitle>kies het bestand dat het icoon bevat</IconSelectTitle>
+				<IconSources>Beschikbare iconen</IconSources>
+				<SkinIcons>Skin iconen</SkinIcons>
+			</IconSelection>
+			<ImportASuiteMenu>Import van het Asuite menu...</ImportASuiteMenu>
+			<ImportMenuFormatError>Dit bestand bevat geen Liberkey menu</ImportMenuFormatError>
+			<InternetAddress>Internet adres...</InternetAddress>
+			<LastAppShortcutUninstall>Er is geen snelkoppeling meer naar deze toepassing in je Liberkey menu&apos;s\nWil je het de-installeren uit je Liberkey?</LastAppShortcutUninstall>
+			<LinkedAppCount>Gekoppelde toepassingen: %count%</LinkedAppCount>
+			<MenuExportTitle>Exporteer menu in een XML bestand...</MenuExportTitle>
+			<MenuImportError>Er is een fout opgetreden tijdens het kopieren van het menu in je Liberkey!</MenuImportError>
+			<MenuImportErrorTitle>Niet in staat om het menu te importeren</MenuImportErrorTitle>
+			<MenuImportNotFromProfile>Je kunt geen menu importeren dat al in je Liberkey staat</MenuImportNotFromProfile>
+			<MenuImportTitle>Importeer een menu uit een XML bestand</MenuImportTitle>
+			<MyMenu>Mijn menu</MyMenu>
+			<NewCategory>Nieuwe categorie</NewCategory>
+			<NewMenu>Nieuw menu</NewMenu>
+			<NoNewAppInstalled>Geen nieuwe toepassing gevonden in de map &quot;Apps&quot; van je Liberkey</NoNewAppInstalled>
+			<OpenWithLiberKey>Open met Liberkey</OpenWithLiberKey>
+			<PatchAvailable>Er is een uodate beschikbaar voor je Liberkey.\n\n Wil je die nu downloaden?</PatchAvailable>
+			<SearchFieldInfo>Zoek in je Liberkey...</SearchFieldInfo>
+			<SearchingUninstalledApps>Bezig toepassingen te zoeken in de map &quot;Apps&quot;...</SearchingUninstalledApps>
+			<SelectFile>Kies bestand...</SelectFile>
+			<UpdatePlatformFirst>Je moet eerst je Liberkey vernieuwen!\nWil je dat nu doen?</UpdatePlatformFirst>
+			<XmlFileSelection>XML Bestanden|*.xml|Alle bestanden*.*</XmlFileSelection>
+		</Messages>
+		<OnlineCatalog>
+			<CommandButtons>
+				<Cancel_Caption>Annuleer</Cancel_Caption>
+				<CopyURL_Caption>Kopieer adres naar klembord</CopyURL_Caption>
+				<GoToWebsite_Caption>Toegang tot de online catalogus %count%</GoToWebsite_Caption>
+				<NoSyncCatalog_Caption>Ga naar de online catalogus zonder synchronsatie met mijn Liberkey</NoSyncCatalog_Caption>
+			</CommandButtons>
+			<Labels>
+				<AccessURL_Caption>Adres voor toegang tot de online catalogus gesynchroniseerd met je Liberkey:</AccessURL_Caption>
+				<AddPortableAppsLabel_Caption>Voeg draagbare toepassingen toe</AddPortableAppsLabel_Caption>
+				<Privacy_Caption>Notitie: De versie nummers die naar de website worden gestuurd, betreffen alleen toepassingen die beschikbaar zijn in de online catalogus. Er wordt geen informatie over je persoonlijk toepassingen gestuurd tijdens deze handeling.</Privacy_Caption>
+				<Title_Caption>Ga naar de online catalogus met draagbare toepassingen </Title_Caption>
+			</Labels>
+		</OnlineCatalog>
+		<Search>
+			<InCatalog>Online catalogus</InCatalog>
+			<InstalledApp>Geinstalleerde toepassingen</InstalledApp>
+			<SearchCatalog>Zoek in de online catalogus</SearchCatalog>
+		</Search>
+		<SetupWizard>
+			<CheckBoxs>
+				<ApplyFilesAssocs_Caption>Bezig met associeren van de toepassing om bestanden te kunnen openen die bekend zijn (tijdelijk)</ApplyFilesAssocs_Caption>
+				<CreateDefaultShortcuts_Caption>Bezig menus te maken om de toepassing te starten</CreateDefaultShortcuts_Caption>
+				<EditAppAfterSetup_Caption>Pas eigenschappen van de toepassing aan na installatie</EditAppAfterSetup_Caption>
+				<FillAppInformations_Caption>Bezig beschrijving te maken van de toepassing</FillAppInformations_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<CancelSetup_Caption>Installeer de toepassing &quot;MyApps&quot; niet</CancelSetup_Caption>
+				<CancelSetup2_Caption>Annuleer installatie</CancelSetup2_Caption>
+				<CantSetup_Caption>Sluit wizard (niet mogelijk door te gaan)</CantSetup_Caption>
+				<DoSetup_Caption>Registreer toepassing in mijn Liberkey</DoSetup_Caption>
+				<ForceSetup_Caption>Installeer de toepassing &quot;MyApps&quot; ondanks dat</ForceSetup_Caption>
+				<OpenAppsFolder_Caption>Open de &quot;Apps&quot; map van mijn Liberkey</OpenAppsFolder_Caption>
+				<OpenMyAppsFolder_Caption>Open de &quot;MyApps&quot; map van mijn Liberkey</OpenMyAppsFolder_Caption>
+				<UpdateApp_Caption>Vier de update uit van deze toepassing</UpdateApp_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppInfoDetailsTitle_Caption>Deze toepassing was origineel ge-installeerd uit een pakket LKS (Liberkey Setup).\nDe volgende zaken worden automatisch uitgevoerd:</AppInfoDetailsTitle_Caption>
+				<AppRegisterInfo_Caption>Deze toepassing wordt opnieuw geregistreerd in je Liberkey</AppRegisterInfo_Caption>
+				<IntroText_Caption>Deze wizard is om je te helpen draagbare toepassingen toe te voegen aan je Liberkey. Volg de adviezen!</IntroText_Caption>
+				<LbkAppFolderInfo_Caption>Deze toepassing zal niet automatisch updaten.\nJe moet eigenlijk verplaatsen naar de map &quot;Apps&quot; en opnieuw uitvoeren</LbkAppFolderInfo_Caption>
+				<LbkAppFolderMistake_Caption>Draagbare toepassingen uit de online catalogus www.liberkey.com moeten in de &quot;Apps&quot; map worden geplaatst</LbkAppFolderMistake_Caption>
+				<lblLbkAppInfoMissing_Caption>Geen informatie over deze toepassing gevonden.\nNiet mogelijk om het op te slaan in je Liberkey</lblLbkAppInfoMissing_Caption>
+				<lblLbkAppInfoMissingMoveApp_Caption>Je moet eigenlijk opnieuw installeren uit de online catalogus.\nOm het in deze staat te gebruiken, verplaats het eerst naar &quot;MyApps&quot;</lblLbkAppInfoMissingMoveApp_Caption>
+				<lblLbkAppInfoMissingUpdate_Caption>Voer de update uit om de toepassing correct in Liberkey teregistreren, . Om het in deze staat te gebruiken, verplaats het eerst naar &quot;MyApps&quot;</lblLbkAppInfoMissingUpdate_Caption>
+				<lblUserAppFolderInfo>Om deze toepassing te bewaren in je Liberkey, moet je het verplaatsen naar de map &quot;MyApps&quot; en opnieuw uitvoeren</lblUserAppFolderInfo>
+				<lblUserAppFolderMistake_Caption>Draagbare toepassingen die niet uit de online catalogus www.liberkey.com komen, moeten in de map &quot;MyApps&quot; worden geplaatst</lblUserAppFolderMistake_Caption>
+				<NewApp_Caption>Nieuwe draagbare toepassing</NewApp_Caption>
+				<NewAppRegisterInfo_Caption>Deze toepassing is niet geregistreerd in je Liberkey</NewAppRegisterInfo_Caption>
+				<ReinstallApp_Caption>Her-installeer een draagbare toepassing</ReinstallApp_Caption>
+				<Title_Caption>Bezig een toepassings wizard toe te voegen</Title_Caption>
+				<UserAppInfoDetailsTitle_Caption>Draagbare toepassingen moeten het het Liberkey menu worden geregistreerd. Daarna kun je snelkoppelingen in je menu&apos;s maken om te starten.\nDe volgende handelingen worden uitgevoerd:</UserAppInfoDetailsTitle_Caption>
+			</Labels>
+		</SetupWizard>
+		<ShortcutProperties>
+			<CheckBoxs>
+				<AlwaysRunAsAdmin_Caption>Voer altijd als administrator uit</AlwaysRunAsAdmin_Caption>
+				<ShortcutHiddenInMenu_Caption>Verborgen in zwevende menus</ShortcutHiddenInMenu_Caption>
+				<ShortcutNoMostUsed_Caption>Voeg niet toe aan meest gebruikt</ShortcutNoMostUsed_Caption>
+				<ShortcutNoRecent_Caption>Voeg niet toe aan recent</ShortcutNoRecent_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<ApplyChanges_Caption>Pas toe</ApplyChanges_Caption>
+				<AppProps_Caption>Toepasings eigenschappen</AppProps_Caption>
+				<Cancel_Caption>Sluit</Cancel_Caption>
+				<ShortcutAppEdit_Caption>Deze snelkoppeling wijst naar een draagbare toepassing</ShortcutAppEdit_Caption>
+			</CommandButtons>
+			<Labels>
+				<DescriptionLabel_Caption>Beschrijving:</DescriptionLabel_Caption>
+				<ShortcutAutorunLabel_Caption>Autorun:</ShortcutAutorunLabel_Caption>
+				<ShortcutHotKey_Caption>Toestenbord snelkoppeling:</ShortcutHotKey_Caption>
+				<ShortcutIconLabel_Caption>Icoon:</ShortcutIconLabel_Caption>
+				<ShortcutNameLabel_Caption>Naam:</ShortcutNameLabel_Caption>
+				<ShortcutParamsLabel_Caption>Parameters</ShortcutParamsLabel_Caption>
+				<ShortcutPathLabel_Caption>Uitvoerbaar pad / map / webpagina / document:</ShortcutPathLabel_Caption>
+				<ShortcutWinStateLabel_Caption>Bij opstarten:</ShortcutWinStateLabel_Caption>
+				<ShortcutWorkDirLabel_Caption>Werkmap</ShortcutWorkDirLabel_Caption>
+				<Title_Caption>Snelkoppeling eigenschappen</Title_Caption>
+			</Labels>
+			<Tabs>
+				<Shortcut>Snelkoppeling</Shortcut>
+				<ShortcutMore>Geavanceerd</ShortcutMore>
+			</Tabs>
+		</ShortcutProperties>
+		<SuiteDownload>
+			<CommandButtons>
+				<Cancel_Caption>Annuleer</Cancel_Caption>
+				<GetSuites_Caption>Download de lijst met beschikbare suites</GetSuites_Caption>
+				<InstallSuite_Caption>Installeer alle toepassingen van de gekozen suite</InstallSuite_Caption>
+			</CommandButtons>
+			<DownloadedAppsCountInfo>- Gedownload: %dldone%</DownloadedAppsCountInfo>
+			<DownloadSizeInfo>Download: %size%</DownloadSizeInfo>
+			<InstallSizeInfo>- Benodigde schijf ruimte: %size%</InstallSizeInfo>
+			<Labels>
+				<DownloadInfo_Caption>Deze wizard laat je een hele suite van toepassingen in een keer installeren.\nKlik op &quot;Download the list of available suites&quot; om door te gaan</DownloadInfo_Caption>
+				<Title_Caption>Installeer een suite van toepassingen</Title_Caption>
+				<TitleBig_Caption>Installeer een suite van toepassingen</TitleBig_Caption>
+			</Labels>
+			<Messages>
+				<ConfirmKeepDownloads>Wil je de toepassing installatie pakketten bewaren voor een latere installatie?</ConfirmKeepDownloads>
+				<DownladAppIcons16>Bezig toepassings iconen te downloaden</DownladAppIcons16>
+				<DownloadGraphics>Bezig logo&apos;s van toepassings suites te downloaden</DownloadGraphics>
+				<DownloadingSuitesInfo>Bezig informatie over toepassings suites te downloaden</DownloadingSuitesInfo>
+				<GetSuiteInfoFailed>Er is een fout opgetreden bij het ophalen van de list van beschikbare suites.\n\nFout %errnum%: %errdesc%</GetSuiteInfoFailed>
+				<IncompleteSuiteSetup>Sommige toepassingen van de suite zijn niet correct geinstalleerd.\nJe kunt deze wizard later opnieuw starten om de installatie af te maken</IncompleteSuiteSetup>
+				<SetupDone>De toepassingen van suite &quot;%name%&quot; zijn geinstalleerd in je Liberkey</SetupDone>
+				<SetupError>Er is een fout opgetreden tijdens het installeren van %app%!</SetupError>
+			</Messages>
+			<SuiteAppCountInfo>Toepassingen:</SuiteAppCountInfo>
+			<SuiteAppsDoneInfo> - Nieuw: %newapps% - Geinstalleerd: %installed%</SuiteAppsDoneInfo>
+		</SuiteDownload>
+		<UninstallWizard>
+			<CheckBoxs>
+				<RemoveAppFolder_Caption>Verwijder toepassingsmap (programma en data)</RemoveAppFolder_Caption>
+				<RemoveAppShortcuts_Caption>Verwijder menu&apos;s die naar deze toepassing verwijzen</RemoveAppShortcuts_Caption>
+				<RemoveFilesAssocs_Caption>Verwijder de associatie tussen deze toepassing en bestands types</RemoveFilesAssocs_Caption>
+				<UnregisterAppInfo_Caption>De-registreer deze toepassing</UnregisterAppInfo_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<CancelSetup_Caption>Annuleer verwijderen</CancelSetup_Caption>
+				<CancelSetup2_Caption>Annuleer verwijderen</CancelSetup2_Caption>
+				<ConfirmUninstall_Caption>Bevestig verwijderen van deze toepassing</ConfirmUninstall_Caption>
+				<DoUninstall_Caption>Voer gekozen verwijderingen uit</DoUninstall_Caption>
+			</CommandButtons>
+			<Labels>
+				<IntroText_Caption>Deze wizard helpt om draagbare toepassingen te verwijderen uit je Liberkey</IntroText_Caption>
+				<PreviewInfo_Caption>Hier is de lijst van handelingen die zullen worden uitgevoerd. In sommige gevallen kan de verwijdering van een toepassing meer gevolgen hebben. Controleer de lijst voordat je doorgaat. </PreviewInfo_Caption>
+				<RemoveApp_Caption>Verwijder draagbare toepassing</RemoveApp_Caption>
+				<RemoveAppInfo_Caption>Deze toepassing zal worden verwijderd uit je Liberkey</RemoveAppInfo_Caption>
+				<RemoveInfoDetailsTitle_Caption>De volgende handelingen zullen worden uitgevoerd tijdens de verwijdering van deze toepassing. Deselecteer de gewenste opties om bepaalde informatie of gegevens van de toepassing te bewaren.</RemoveInfoDetailsTitle_Caption>
+				<Title_Caption>Toepassings verwijderings wizard</Title_Caption>
+			</Labels>
+			<PreviewTree>
+				<AppDataSize>Data grootte: %size%</AppDataSize>
+				<DeletedAssocs>Bestands associaties verwijderd</DeletedAssocs>
+				<DeletedData>Toepassings data verwijderd</DeletedData>
+				<DeletedShortcuts>Snelkoppelingen verwijderd</DeletedShortcuts>
+				<FileType>Bestanden &quot;.%type%&quot;</FileType>
+				<KFANotFound>Bestands associatie bestand niet gevonden!</KFANotFound>
+				<KFANotUsed>Geen tijdelijke associatie voor deze toepassing</KFANotUsed>
+				<KfaUsedForTypeIcon>Voor dit icoon gebruikte type bestand</KfaUsedForTypeIcon>
+				<UnregisterApp>Verwijderde toepassingen</UnregisterApp>
+			</PreviewTree>
+		</UninstallWizard>
+		<UpdateInfo>
+			<CommandButtons>
+				<Cancel_Caption>Sluit</Cancel_Caption>
+				<DownloadPatch_Caption>Update nu mijn Liberkey!</DownloadPatch_Caption>
+				<OpenCatalog_Caption>Open de draagbare toepassings catalogus</OpenCatalog_Caption>
+				<UpdateApps_Caption>Update mijn draagbare toepassingen</UpdateApps_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppsUpdateFound>Er zijn updates beschikbaar voor je draagbare toepassingen</AppsUpdateFound>
+				<AppsUpdateNotFound>Geen update beschikbaar voor je draagbare toepassingen</AppsUpdateNotFound>
+				<NewAppsCount>Extra toepassingen: %count%</NewAppsCount>
+				<NewAppsFound>Er zijn extra toepassingen beschikbaar voor je Liberkey in de online catalogus</NewAppsFound>
+				<NewAppsNotFound>Geen extra toepassingen voor je Liberkey gevonden in de online catalogus</NewAppsNotFound>
+				<NoNewApp>Je hebt alles!</NoNewApp>
+				<PlatformUpdateFound>Er is een update beschikbaar voor je Liberkey</PlatformUpdateFound>
+				<PlatformUpdateNotFound>Geen update gevonden voor het Liberkey Platform</PlatformUpdateNotFound>
+				<Title_Caption>Beschikbare updates</Title_Caption>
+				<UpdatesCount>Updates: %count%</UpdatesCount>
+			</Labels>
+		</UpdateInfo>
+	</nl-NL>
+</Languages>

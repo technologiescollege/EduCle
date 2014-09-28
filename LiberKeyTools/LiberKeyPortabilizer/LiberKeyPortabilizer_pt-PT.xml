@@ -1,0 +1,94 @@
+<Languages version="0.2">
+	<pt-PT en_name="Portuguese" icon="pt.png" date="2010-09-28" name="Português" version="1.0">
+		<Messages>
+			<AppAlreadyRunning>%appname% já está a correr. Por favor feche a versão anterior antes de carregar esta !</AppAlreadyRunning>
+			<DefaultTitle>%appname% LiberKey Edição Portátil</DefaultTitle>
+			<OtherInstanceStarted>Aviso ! \n\nCarregou a aplicação %appname% enquanto a versão portátil está a correr.\nPor favor, feche a versão não portátil !</OtherInstanceStarted>
+			<Errors>
+				<AppInfoFileNotFound>Ficheiro de informação da aplicação portátil em falta !</AppInfoFileNotFound>
+				<ExeNotFound>Executável não encontrado !</ExeNotFound>
+				<ApplyContextError>Não foi possível preparar o contexto de execução para a aplicação portátil.\n\nPor favor, feche todas as janelas abertas e iniciar novamente a aplicação portátil.</ApplyContextError>
+				<DependencyMissing>Para funcionar, este programa necessita da instalação de %depend%</DependencyMissing>
+				<InvalidRetoreData>Os dados restaurados de %appname% são corruptos!\nNão é possivel repor configuração para esta aplicação.</InvalidRetoreData>
+				<CrashRestore>LiberKey Portabilizer foi abruptamente interrompido na sua última execução.</CrashRestore>
+				<CrashInfo>As seguintes aplicações estavão em execução.\nNão é possivel guardar a sua configuração no Liberkey e a configuração do seu computador pode não ser restaurada.</CrashInfo>
+				<NeedUpdate>LiberKey Portabilizer necesita ser actualizado para que possa correr esta aplicação.\nPode tranferir gratuitamente em www.liberkey.com\n\nDeseja ir para www.liberkey.com agora?</NeedUpdate>
+				<NeedLbkUpdate>LiberKey necesita ser actualizado para que possa correr esta aplicação.\n\nIniciar verificação de actualização LiberKey.\nPode utilizar %app% após aplicar o patch mais recente.</NeedLbkUpdate>
+				<CrashRestoreElevatedApps>Os pedidos foram executados como administrador e configuração não pôde ser restaurada. Para fazer isso, LiberKey Portabilizer deve ser executado como administrador. Deseja restaurar essas aplicações agora?</CrashRestoreElevatedApps>
+				<SingleUserApp>A aplicação &quot;%app_name%&quot; foi carregado por outro utilizador\n\nUtilizador: &quot;%user%&quot;\nSessão: &quot;%session%&quot;\n\nNão é possivel correr o programa simultaneamente por multiplos utilizadores.</SingleUserApp>
+			</Errors>
+			<LbkPortabilizerInfo>Este porgrama é o &quot;portabilization&quot; motor necessário pelas aplicações presentes no Liberkey.\n\n\nPara mais informações, por favor visite\nwww.liberkey.com</LbkPortabilizerInfo>
+			<RestoreNeedLBK>Aviso !\n\nUma ou várias aplicações não foram encontradas.\n\n- &quot;Abortar&quot;: Não será executada nenhuma operação neste momento.\n\n- &quot;Ignorar&quot;: A configuração do seu computador será restaurada mas terá grandes probabilidades de perder informações sobre a configuração das aplicações portáteis.\n\n- &quot;Tentar Novamente&quot;: Se a suas aplicações portateis se encontram num dispositivo USB, reconecte o dispositivo e clique &quot;Tentar novamente&quot;</RestoreNeedLBK>
+			<SessionEndWarning>Aplicações portáteis ainda estam em execução\nPara garantir a salvaguarda dos seus parâmetros e restauração da configuração do seu computador, é melhor fechar estas aplicações antes de fechar\nsessão do Windows.</SessionEndWarning>
+			<Yes>Sim</Yes>
+			<No>Não</No>
+		</Messages>
+		<Main>
+			<CommandButtons>
+				<OK_Caption>&amp;OK</OK_Caption>
+			</CommandButtons>
+			<Labels>
+				<PortabilizerInfo_Caption>\nActualmente aplicações em execução</PortabilizerInfo_Caption>
+			</Labels>
+		</Main>
+		<CrashRestore>
+			<CommandButtons>
+				<Restore_Caption>Restaurar tudo</Restore_Caption>
+			</CommandButtons>
+			<Labels>
+				<Info_Caption>The following applications were running.\nIt was not possible to save their configuration in the LiberKey, and your computer&apos;s configuration could not be restored.\n\nExistem as seguintes aplicações em execução\nNão foi possível salvar a sua configuração no LiberKey e a configuração do computador não pôde ser restaurada.</Info_Caption>
+				<Title_Caption>LiberKey Portabilizer foi abruptamente interrompido na sua última execução.</Title_Caption>
+			</Labels>
+		</CrashRestore>
+		<Warning>
+			<CommandButtons>
+				<Info_Caption>Informação...</Info_Caption>
+				<OK_Caption>&amp;OK</OK_Caption>
+			</CommandButtons>
+			<Status>
+				<UserName>Utilizador:</UserName>
+				<UserAdmin>Administrador:</UserAdmin>
+				<UserElevated>Elevado:</UserElevated>
+				<UserSession>Sessão:</UserSession>
+			</Status>
+		</Warning>
+		<Cmds>
+			<OK>OK</OK>
+			<Info>Informação...</Info>
+		</Cmds>
+		<UpdateAvailable>
+			<caption>Actualização disponivel</caption>
+			<CheckBoxs>
+				<NoMoreAlert_Caption>Não mostre esta actualização</NoMoreAlert_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Cancel_Caption>&amp;Iniciar programa sem efectuar actualização</Cancel_Caption>
+				<Install_Caption>&amp;Transferir e instalar a actualização...</Install_Caption>
+			</CommandButtons>
+			<Labels>
+				<Version_Caption>Versão %version%</Version_Caption>
+				<AppUpdateAvailable_Caption>Uma nova versão deste programa está disponivel para o Liberkey</AppUpdateAvailable_Caption>
+			</Labels>
+		</UpdateAvailable>
+		<License>
+			<caption>%appname% Licença</caption>
+			<Labels>
+				<LicenseTitle_Caption>Esta licença define os termos de utilização do %appname%. Obrigado por ler antes de continuar.</LicenseTitle_Caption>
+				<LicenseAgreeTitle_Caption>É necessário aceitar os termos desta licença antes de utilizar %appname%</LicenseAgreeTitle_Caption>
+				<License_Caption>Licença</License_Caption>
+				<AccetInformation_Caption>IMPORTANTE: Ao marcar a caixa abaixo e clicando em Aceitar, você aceita os termos da licença e concorda em ser abrangido pela mesma tal como cumprir todas as suas clausulas . Clique no botão &quot;seta para baixo &apos;ícone para ver o resto da licença.</AccetInformation_Caption>
+			</Labels>
+			<CommandButtons>
+				<Accept_Caption>Aceitar</Accept_Caption>
+				<Cancel_Caption>Cancelar</Cancel_Caption>
+				<OK_Caption>OK</OK_Caption>
+			</CommandButtons>
+			<CheckBoxs>
+				<Accept_Caption>Eu aceito e concordo ser obrigado a cumprir com os termos desta licença.</Accept_Caption>
+			</CheckBoxs>
+		</License>
+		<Contributors>
+			<Contributor name="Ricardo Figueiredo" email="rfigueiredo@live.com.pt" website="rfigueiredo.webnode.pt"/>
+		</Contributors>
+	</pt-PT>
+</Languages>

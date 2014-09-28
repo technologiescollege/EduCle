@@ -1,0 +1,94 @@
+<Languages version="0.2">
+	<zh-CN en_name="Chinese Simplified" icon="cn.png" date="2012-05-19" name="中文简体" version="0.11">
+		<Cmds>
+			<Info>信息...</Info>
+			<OK>确定</OK>
+		</Cmds>
+		<CrashRestore>
+			<CommandButtons>
+				<Restore_Caption>恢复配置 </Restore_Caption>
+			</CommandButtons>
+			<Labels>
+				<Info_Caption>下列应用程序正在运行。\n LiberKey 可能无法保存它们的配置，计算机配置可能无法恢复。</Info_Caption>
+				<Title_Caption>LiberKey Portabilizer 最后一次运行时未正确关闭。</Title_Caption>
+			</Labels>
+		</CrashRestore>
+		<License>
+			<caption>%appname% 许可协议</caption>
+			<CheckBoxs>
+				<Accept_Caption>我接受此许可协议并且同意受许可条款的约束</Accept_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Accept_Caption>接受</Accept_Caption>
+				<Cancel_Caption>取消</Cancel_Caption>
+				<OK_Caption>确定</OK_Caption>
+			</CommandButtons>
+			<Labels>
+				<AccetInformation_Caption>注意：如果你接受许可协议中的条款，同意受其约束并遵守它们，请勾选下面的“复选框”并点击“接受”。点击 “向下箭头” 来查看此许可协议的其余部分。</AccetInformation_Caption>
+				<License_Caption>许可</License_Caption>
+				<LicenseAgreeTitle_Caption>你必须接受这些许可条款，然后才能使用 %appname%</LicenseAgreeTitle_Caption>
+				<LicenseTitle_Caption>此许可协议定义了 %appname% 的使用条款。请仔细阅读，然后继续。</LicenseTitle_Caption>
+			</Labels>
+		</License>
+		<Main>
+			<CommandButtons>
+				<OK_Caption>确定(&amp;O)</OK_Caption>
+			</CommandButtons>
+			<Labels>
+				<PortabilizerInfo_Caption>正在运行的应用程序：</PortabilizerInfo_Caption>
+			</Labels>
+		</Main>
+		<Messages>
+			<AppAlreadyRunning>%appname% 已经在运行。启动这个应用之前请先关闭其它应用程序。</AppAlreadyRunning>
+			<DefaultTitle>%appname% LiberKey 便携版本</DefaultTitle>
+			<Errors>
+				<AppInfoFileNotFound>未找到便携应用程序的简介信息。</AppInfoFileNotFound>
+				<ApplyContextError>无法为便携应用程序准备运行环境。\n\n请关闭所有打开的窗口并重新启动应用程序。</ApplyContextError>
+				<CrashInfo>下列应用程序正在运行。\n LiberKey 可能无法保存它们的配置，计算机配置可能无法恢复。</CrashInfo>
+				<CrashRestore>LiberKey Portabilizer 最后一次运行时奔溃。</CrashRestore>
+				<CrashRestoreElevatedApps>应用程序以管理员身份运行，配置文件可能无法恢复。要想恢复，LiberKey Portabilizer 必须也要以管理员身份运行。你想现在恢复这些应用程序吗？</CrashRestoreElevatedApps>
+				<DependencyMissing>此应用程序需要安装 %depend% 才能运行。</DependencyMissing>
+				<ExeNotFound>未找到应用程序的.exe可执行文件。</ExeNotFound>
+				<InvalidRetoreData> %appname% 的还原数据已损坏。\n无法恢复此应用程序的配置。</InvalidRetoreData>
+				<NeedLbkUpdate>您的 LiberKey 必须更新后才能运行此应用程序。\n\n您应用了最新的 LiberKey 补丁后就能运行 %app% 。</NeedLbkUpdate>
+				<NeedUpdate>LiberKey Portabilizer 必须更新后才能运行此应用程序。\n您可以从 www.liberkey.com 免费下载。\n\n现在就去 www.liberkey.com 吗？</NeedUpdate>
+				<SingleUserApp>此应用程序 &quot;%app_name%&quot; 已经被另一个用户启动。\n\n用户: &quot;%user%&quot;\n会话 : &quot;%session%&quot;\n\n两个不同的用户不能同时运行同一个程序。</SingleUserApp>
+			</Errors>
+			<LbkPortabilizerInfo>此程序是运行 LiberKey 应用程序所必需的 &quot;portabilization&quot; 引擎 (可以保证 LiberKey 应用的便携性) 。\n\n如需进一步了解，请访问\nwww.liberkey.com</LbkPortabilizerInfo>
+			<No>否</No>
+			<OtherInstanceStarted>警告！ \n\n您刚刚启动的 %appname% 应用的 LiberKey 便携版本正在运行。\n请先关闭这个“非便携”版本，然后再尝试运行此应用的 LiberKey 便携版本</OtherInstanceStarted>
+			<RestoreNeedLBK>警告！\n\n未找到一个或多个应用程序。\n\n- &quot;终止&quot;: 立即停止操作。\n\n- &quot;忽略&quot;: 将恢复您的计算机配置。但可能会丢失您的便携应用程序的配置。\n\n- &quot;重试&quot;: 如果您的便携应用程序安装在U盘上，将其插入，然后点击“重试”。</RestoreNeedLBK>
+			<SessionEndWarning>便携应用程序仍在运行。\n我们建议您关闭所有打开的应用程序，然后尝试关闭或注销您的计算机。</SessionEndWarning>
+			<Yes>是</Yes>
+		</Messages>
+		<UpdateAvailable>
+			<caption>更新可用</caption>
+			<CheckBoxs>
+				<NoMoreAlert_Caption>不再显示此更新</NoMoreAlert_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Cancel_Caption>启动程序，暂不更新(&amp;S)</Cancel_Caption>
+				<Install_Caption>下载并安装更新(&amp;D)</Install_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppUpdateAvailable_Caption>此应用程序有新的版本可以更新。</AppUpdateAvailable_Caption>
+				<Version_Caption>版本 %version%</Version_Caption>
+			</Labels>
+		</UpdateAvailable>
+		<Warning>
+			<CommandButtons>
+				<Info_Caption>信息...</Info_Caption>
+				<OK_Caption>确定(&amp;O)</OK_Caption>
+			</CommandButtons>
+			<Status>
+				<UserAdmin>管理员:</UserAdmin>
+				<UserElevated>管理员权限:</UserElevated>
+				<UserName>用户:</UserName>
+				<UserSession>会话:</UserSession>
+			</Status>
+		</Warning>
+		<Contributors>
+			<Contributor name="cudo" email="kyb3k@126.com" website="http://www.appsoku.com"/>
+		</Contributors>
+	</zh-CN>
+</Languages>

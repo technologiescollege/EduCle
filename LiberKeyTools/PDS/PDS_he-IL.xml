@@ -1,0 +1,13 @@
+<Languages version="0.2">
+	<he-IL en_name="Hebrew" icon="il.png" date="2011-02-26" name="Hebrew Translation" version="1.0">
+		<Messages>
+			<NoDesktopIconFound>לא נמצא קיצור דרך בשולחן העבודה</NoDesktopIconFound>
+			<ConfirmEraseMany>למחוק את %count% קיצורי הדרך שנשמרו?</ConfirmEraseMany>
+			<ConfirmEraseOne>למחוק את קיצור הדרך שנשמר?</ConfirmEraseOne>
+			<NoQuickLaunchIconFound>לא נמצא קיצור דרך בסרגל ההפעלה המהירה</NoQuickLaunchIconFound>
+		</Messages>
+		<Contributors>
+			<Contributor name="Abe C"/>
+		</Contributors>
+	</he-IL>
+</Languages>

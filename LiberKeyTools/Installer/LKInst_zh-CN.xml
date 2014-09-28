@@ -1,0 +1,88 @@
+<Languages version="0.2">
+	<zh-CN en_name="Chinese Simplified" icon="cn.png" date="2011-06-04" name="中文简体" version="0.1">
+		<Main>
+			<Labels>
+				<AppName_Caption>应用程序 :</AppName_Caption>
+				<AppVersion_Caption>版本 :</AppVersion_Caption>
+				<AppDescription_Caption>简介 :</AppDescription_Caption>
+				<EditorName_Caption>作者 :</EditorName_Caption>
+				<EditorWebSite_Caption>网站 :</EditorWebSite_Caption>
+				<EditorEmail_Caption>邮箱 :</EditorEmail_Caption>
+				<AppWebSite_Caption>网站 :</AppWebSite_Caption>
+				<SupportURL_Caption>支持 :</SupportURL_Caption>
+				<PackageLangs_Caption>安装可用的语言:</PackageLangs_Caption>
+				<PackageInfo_Caption>安装包信息 :</PackageInfo_Caption>
+				<Signature_Caption>安装包制作（封装） :</Signature_Caption>
+				<ValidationFailed_Caption>警告 : 这个软件包未验证！</ValidationFailed_Caption>
+			</Labels>
+			<Tabs>
+				<Application>应用程序</Application>
+				<Editor>作者</Editor>
+				<Package>安装包信息</Package>
+			</Tabs>
+			<CommandButtons>
+				<Cancel_Caption>取消(&amp;C)</Cancel_Caption>
+				<Install_Caption>安装此应用程序到我的LiberKey</Install_Caption>
+				<CancelOperation_Caption>取消(&amp;C)</CancelOperation_Caption>
+			</CommandButtons>
+		</Main>
+		<Messages>
+			<InvalidPackageFile>无效的安装包。</InvalidPackageFile>
+			<Errors>
+				<ErrRenameAppDir>重命名应用程序文件夹时发生错误。\n请检查此文件夹里的应用程序是否正在使用，是否有文件被打开了。</ErrRenameAppDir>
+				<ASuiteCloseFailed>无法关闭 ASuite。</ASuiteCloseFailed>
+				<AppsDirNotFound>没有找到目标文件夹</AppsDirNotFound>
+				<ExtractErrorRestoreDone>数据提取失败。\n已经恢复到上一个版本。</ExtractErrorRestoreDone>
+				<InstallerUpdateNeeded>此安装包版本高于安装向导。\n请使用最新版本的安装向导来安装。</InstallerUpdateNeeded>
+				<InstallError>安装应用程序时发生错误。</InstallError>
+				<AppDataNotFound>未找到应用程序数据</AppDataNotFound>
+				<InstErrorTitle>安装过程中出现错误</InstErrorTitle>
+				<PackageValidationFailed>警告，此安装包还没有得到验证。</PackageValidationFailed>
+				<DataFileModified>安装包损坏。\n数据包已经被修改。\n\n%name%</DataFileModified>
+				<OldPackageVersion>此安装包不被安装向导支持。\n安装无法继续。</OldPackageVersion>
+				<IncompleteSetup>部分文件无法更新！\n这些文件的新版本已经存在于以下目录中：\n\n%failedfolder%</IncompleteSetup>
+				<SetupDataDownloadCanceled>下载被取消</SetupDataDownloadCanceled>
+				<ExtractErrorRestoreNotDone>应用程序提取失败。\n以前的版本已经保存在一个备份目录中。</ExtractErrorRestoreNotDone>
+				<SetupDataDownloadError>下载设置数据时发生错误</SetupDataDownloadError>
+			</Errors>
+			<Installing>安装中...</Installing>
+			<VerifyingSetupPackage>验证安装包</VerifyingSetupPackage>
+			<VerifyingSetupDestination>验证安装空间</VerifyingSetupDestination>
+			<SavingActualVersion>保存当前版本</SavingActualVersion>
+			<ExtractingAppFiles>提取应用程序文件</ExtractingAppFiles>
+			<RestoringPreviousConfig>恢复以前的配置</RestoringPreviousConfig>
+			<DeletingBackup>删除备份</DeletingBackup>
+			<SetupDone>安装完成</SetupDone>
+			<ClosingASuite>关闭 ASuite...</ClosingASuite>
+			<ReStartLBK>重新启动 LiberKey...</ReStartLBK>
+			<AppStillRunning>此应用程序仍在运行。</AppStillRunning>
+			<UpdatingAppsMenu>更新 LiberKey 菜单...</UpdatingAppsMenu>
+			<RestartingMenu>菜单重新启动...</RestartingMenu>
+			<ClosingApplication>关闭应用程序...</ClosingApplication>
+			<ClosingKFA>关闭文件关联程序（Key Files Assoc&apos;）...</ClosingKFA>
+			<UpdatingFileAssocs>更新文件关联...</UpdatingFileAssocs>
+			<RestartingKFA>重新启动文件关联程序（Key Files Assoc&apos;）...</RestartingKFA>
+			<RestartingApp>重新启动应用程序...</RestartingApp>
+			<PackageSignatureNotFound>(此软件包没有签名)</PackageSignatureNotFound>
+			<LangMismatchWarning>警告！\n您将要安装一个与您的 LiberKey 所使用的语言不同的软件。\n您要继续吗？</LangMismatchWarning>
+			<AlreadyInstalled>此程序已经安装在您的 LiberKey。\n您要重新安装它吗？</AlreadyInstalled>
+			<DowngradeWarning>注意！\n\n此程序的一个较新版本已经安装在您的 LiberKey。\n\n已经安装的版本: %current_version%\n正在安装的版本: %setup_version%\n\n您要安装这个旧版本吗?</DowngradeWarning>
+			<DownloadingSetupData>正在下载安装文件...\n%DONE%</DownloadingSetupData>
+			<SetupDataDownloadDone>下载完成。</SetupDataDownloadDone>
+			<InstalledLangMismatchWarning>警告！\n这个软件已经安装了另一种不同语言的版本。\n\n以前安装的语言: &quot;%prevlang%&quot;\n正在安装的语言: &quot;%newlang%&quot;\n\n您要继续吗？</InstalledLangMismatchWarning>
+			<DeletingObsoleteFiles>删除过时的文件</DeletingObsoleteFiles>
+		</Messages>
+		<Report>
+			<caption>安装完成。</caption>
+			<CommandButtons>
+				<Close_Caption>关闭(&amp;C)</Close_Caption>
+			</CommandButtons>
+			<Labels>
+				<MenuInfo_Caption>此 LiberKey 菜单已经改变！\n\n要启动您刚刚安装的应用程序，\n使用您LiberKey里的以下菜单：</MenuInfo_Caption>
+			</Labels>
+		</Report>
+		<Contributors>
+			<Contributor name="cudo" email="kyb3k@126.com" website="http://www.appsoku.com/"/>
+		</Contributors>
+	</zh-CN>
+</Languages>

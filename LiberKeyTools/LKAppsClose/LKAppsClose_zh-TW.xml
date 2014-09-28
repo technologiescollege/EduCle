@@ -1,0 +1,34 @@
+<Languages version="0.2">
+	<zh-TW en_name="Chinese Traditional" icon="tw.png" date="2011-08-11" version="0.10" name="中文繁體">
+		<Main>
+			<CommandButtons>
+				<CloseApps_Caption>關閉可攜式應用程式(&amp;C)</CloseApps_Caption>
+				<Close_Caption>取消(&amp;A)</Close_Caption>
+			</CommandButtons>
+		</Main>
+		<Messages>
+			<Closing>正在關閉應用程式...</Closing>
+			<CloseFailed>該應用程式仍在執行。\n請手動關閉或強制關閉。</CloseFailed>
+			<ForceFailed>強制關閉應用程式時發生錯誤。</ForceFailed>
+			<AppsCloseCanceled>取消關閉應用程式</AppsCloseCanceled>
+			<ContinueClose>您想繼續關閉其它應用程式嗎？</ContinueClose>
+		</Messages>
+		<Closing>
+			<caption>正在關閉LiberKey應用程式</caption>
+			<CommandButtons>
+				<Cancel_Caption>取消(&amp;C)</Cancel_Caption>
+				<Terminate_Caption>強制關閉(&amp;F)</Terminate_Caption>
+				<Retry_Caption>重試(&amp;R)</Retry_Caption>
+			</CommandButtons>
+		</Closing>
+		<Debug>
+			<caption>偵測到的應用程式視窗訊息</caption>
+		</Debug>
+		<Message>
+			<KillWarning>警告！\n\n強制關閉應用程式可能會影響您的資料。\n因此，最好讓應用程式正常關閉。\n\n您確定要強制關閉此應用程式嗎？</KillWarning>
+		</Message>
+		<Contributors>
+			<Contributor name="cudo" email="kyb3k@126.com" website="http://www.appsoku.com"/>
+		</Contributors>
+	</zh-TW>
+</Languages>

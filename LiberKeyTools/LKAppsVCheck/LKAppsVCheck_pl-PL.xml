@@ -1,0 +1,70 @@
+<Languages version="0.2">
+	<pl-PL en_name="Polish" icon="pl.png" date="2010-12-02">
+		<Messages>
+			<Errors>
+				<404>%appname% %appversion%\n\nPlik nie został odnaleziony na tym serwerze! \nProszę spróbować później.</404>
+				<Login>Wystąpił błąd podczas procesu identyfikacji! \nSpróbuj ponownie później.</Login>
+				<Password>Nieprawidłowy identyfikator. \n\nNazwa użytkownika i/lub hasło są niepoprawne</Password>
+				<403>Wystąpił błąd podczas procesu identyfikacji serwera proxy! \nProszę sprawdzić konfigurację serwera proxy.</403>
+				<InvalidPwd>Nieprawidłowy identyfikator. \n\nHasło jest nieprawidłowe</InvalidPwd>
+				<DownloadError>Wystąpił błąd podczas pobierania aktualizacji! \nSpróbuj jeszcze raz?</DownloadError>
+				<InvalidUser>Nieprawidłowy identyfikator. \n\nUżytkownika nie znaleziono</InvalidUser>
+				<DepositFolderError>Nie można zapisać danych w katalogu repozytorium. \n%path% \n\nCzy chcesz pobrać brakujące pakiety do katalogu tymczasowego? \n</DepositFolderError>
+			</Errors>
+			<UpdateDone>Zakończono aktualizacje aplikacji</UpdateDone>
+			<DownloadingTip>Trwa pobieranie aktualizacji... \nAby uzyskać więcej informacji, kliknij tutaj. </DownloadingTip>
+			<DownloadingTipTitle>Aktualizacja aplikacji LiberKey </DownloadingTipTitle>
+			<DownloadDone>Zakończeniu pobierania. \nMenu Liberkey będzie zamknięte podczas aktualizacji aplikacji ...</DownloadDone>
+			<ConfirmCancel>Pobieranie aktualizacji jest w toku. \nCzy chcesz anulować transfer i przerwać aktualizację?</ConfirmCancel>
+			<HttpError>Wystąpił błąd podczas próby odzyskania przez LiberKey aktualizacji informacje o aplikacjach. \nCzy masz dostęp do Internetu na tym komputerze? \n\n</HttpError>
+			<UpToDate>Aplikacje LiberKey są na bieżąco </UpToDate>
+			<UpdatesAvailable>Aktualizacje są dostępne dla aplikacji. \nKliknij tutaj, aby zainstalować nowe wersje.</UpdatesAvailable>
+			<HighPriority>Priorytet </HighPriority>
+			<LowPriority>Opcjonalne </LowPriority>
+			<LowPriorityInfoTitle>Opcjonalna aktualizacja</LowPriorityInfoTitle>
+			<LowPriorityInfo>Ta aktualizacja jest zalecana, jeśli regularnie korzystasz z tego oprogramowania. \nMoże przynieść nowe funkcje.</LowPriorityInfo>
+			<HighPriorityInfoTitle>Priorytet aktualizacji </HighPriorityInfoTitle>
+			<HighPriorityInfo>Zachęcamy do zastosowania tej aktualizacji. \nZawiera on kilka istotnych poprawek, niektóre mogą mieć wpływ na bezpieczeństwo </HighPriorityInfo>
+			<HideThisUpdate>Nie pokazuj tej aktualizacji </HideThisUpdate>
+			<HideUpdateInfo>Wyłączone aktualizacje mogą być \nwyświetlane ponownie, klikając przycisk \n&quot;Pokaż ukryte aktualizacje&quot;\n</HideUpdateInfo>
+			<AppAlreadyInstalled>%appname% %appversion% jest już zainstalowany w LiberKey. \n\nCzy chcesz ponownie zainstalować tę aplikację? </AppAlreadyInstalled>
+			<AppUpdateObsolete>Nowsza wersja %appname% jest już zainstalowana w LiberKey. \n\nWersja zainstalowana : %appversion% \nWersja do instalacji : %newversion%\n\nCzy chcesz zainstalować starszą wersję?</AppUpdateObsolete>
+			<InformationTitle>Informacje </InformationTitle>
+			<DiskSpace>Wymagane miejsce na dysku : %needed% (dostępne: %avail%)</DiskSpace>
+			<TempSpaceNeeded>The disk space to download temporary installation files is insufficient.\n\nYour selection requires %downloadsize% of free space on drive %drive% (there are currently only %avail% available on %drive%)\n\nNie ma wystarczającego miejsca na dysku aby pobrać tymczasowe pliki instalacyjne. \n\nTwój wybór %downloadsize% wymaga wolnego miejsca na dysku %drive% (obecnie dostępnych tylko %avail% na dysku %drive%)\n</TempSpaceNeeded>
+			<AppsDownloadDone>Pobieranie w repozytorium pliku jest zakończone. \n=&gt; %downloadpath% \n\nChcesz rozpocząć instalację aktualizacji teraz?</AppsDownloadDone>
+			<KeepTempFiles>Czy chcesz zachować pobrane pliki do późniejszego użycia? </KeepTempFiles>
+		</Messages>
+		<Main>
+			<CommandButtons>
+				<Download_Caption>Zainstaluj wybrane aplikacje</Download_Caption>
+				<Cancel_Caption>Anuluj</Cancel_Caption>
+				<HideWindow_Caption>&amp;Hide ukryj okno w czasie pobierania</HideWindow_Caption>
+			</CommandButtons>
+			<Labels>
+				<SelectNone_Caption>Odznacz wszystko </SelectNone_Caption>
+				<SelectAll_Caption>Zaznacz wszystko</SelectAll_Caption>
+				<Info_Caption>Dostępne aktualizacje : </Info_Caption>
+				<SelectHighPriority_Caption>Wybierz priorytet aktualizacji</SelectHighPriority_Caption>
+				<ShowHiddenUpdates_Caption>Pokaż ukryte aktualizacje (%count%)</ShowHiddenUpdates_Caption>
+				<RemoveHiddenUpdates_Caption>Usuwanie wyłączonych aktualizacji (%count%)</RemoveHiddenUpdates_Caption>
+				<InstallTitle_Caption>Instalowanie aplikacji </InstallTitle_Caption>
+				<Version_Caption>Wersja : </Version_Caption>
+				<DownloadSize_Caption>Wielkość pliku : </DownloadSize_Caption>
+				<InstalledSize_Caption>Wymagane miejsce na dysku : </InstalledSize_Caption>
+				<bytes>bajty</bytes>
+				<Kb>Kilobajty</Kb>
+				<Mb>Megabajty</Mb>
+				<Gb>Gigabajty</Gb>
+			</Labels>
+			<CheckBoxs>
+				<Silent_Caption>Instalowanie aplikacji bez interwencji (tryb automatyczny) </Silent_Caption>
+			</CheckBoxs>
+		</Main>
+		<Info>
+			<UpdateIgnore>(wyłączono) </UpdateIgnore>
+			<UpdateLowPriority>(niski priorytet)</UpdateLowPriority>
+		</Info>
+		<Contributors/>
+	</pl-PL>
+</Languages>

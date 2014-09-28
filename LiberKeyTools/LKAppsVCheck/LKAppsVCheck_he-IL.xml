@@ -1,0 +1,72 @@
+<Languages version="0.2">
+	<he-IL en_name="Hebrew" icon="il.png" date="2011-02-26" version="1.0" name="Hebrew Translation">
+		<Messages>
+			<Errors>
+				<404>%appname% %appversion%\n\nהקובץ לא נמצא בשרת!\nנא לנסות שוב מאוחר יותר.</404>
+				<Login>אירעה שגיאה בתהליך הזיהוי !\nנא לנסות שוב מאוחר יותר.</Login>
+				<Password>זהות שגויה.\n\nשם המשתמש או הסיסמה שגויים</Password>
+				<403>אירעה שגיאה בתהליך הזיהוי של שרת הפרוקסי !\nנא לבדוק את הגדרות הפרוקסי.</403>
+				<InvalidPwd>זהות שגויה.\n\nהסיסמה שגויה</InvalidPwd>
+				<DownloadError>אירעה שגיאה בעת הורדת העדכון !\nלנסות שוב?</DownloadError>
+				<InvalidUser>זהות שגויה.\n\nהמשתמש לא נמצא</InvalidUser>
+				<DepositFolderError>לא ניתן לשמור נתונים בתיקייה של בסיס הנתונים.\n%path%\n\nהאם ברצונך להוריד את החבילות החסרות לתיקייה הזמנית?</DepositFolderError>
+			</Errors>
+			<UpdateDone>עדכון היישומים הסתיים</UpdateDone>
+			<DownloadingTip>מוריד את העדכונים...\nלקבלת פרטים נוספים יש ללחוץ כאן</DownloadingTip>
+			<DownloadingTipTitle>עדכון היישומים הניידים</DownloadingTipTitle>
+			<DownloadDone>ההורדה הסתיימה.\nתפריט המעטפת ייסגר למשך The download is completed.\nThe Liberkey menu is going to be closed during applications updates...</DownloadDone>
+			<ConfirmCancel>הורדת העדכונים בעיצומה.\nהאם ברצונך לבטל את ההעברה ולהפסיק את העדכון?</ConfirmCancel>
+			<HttpError>אירעה שגיאה בעת הניסיון לשלוף את פרטי העדכונים של יישומי המעטפת.\nהאם למחשב זה יש כעת גישה לאינטרנט?</HttpError>
+			<UpToDate>יישומי המעטפת עודכנו</UpToDate>
+			<UpdatesAvailable>קיימים עדכונים עבור כמה מהיישומים.\nכדי להתקין את הגירסאות החדשות יש ללחוץ כאן.</UpdatesAvailable>
+			<HighPriority>בעדיפות גבוהה</HighPriority>
+			<LowPriority>בעדיפות נמוכה</LowPriority>
+			<LowPriorityInfoTitle>עדכון בעדיפות נמוכה</LowPriorityInfoTitle>
+			<LowPriorityInfo>עדכון זה מומלץ במקרה של שימוש קבוע בתוכנה,\nוהוא עשוי לכלול תכונות חדשות.</LowPriorityInfo>
+			<HighPriorityInfoTitle>עדכון בעדיפות גבוהה</HighPriorityInfoTitle>
+			<HighPriorityInfo>מומלץ לבצע את העדכון.\nהעדכון כולל כמה תיקונים חשובים העשויים, בחלקם, לשפר את האבטחה</HighPriorityInfo>
+			<HideThisUpdate>אל תציג עדכון זה</HideThisUpdate>
+			<HideUpdateInfo>ניתן להציג שוב את העדכונים שבוטלו באמצעות לחיצה על\n\n&quot;הצג את העדכונים שהוסתרו&quot;</HideUpdateInfo>
+			<AppAlreadyInstalled>היישום %appname% %appversion% מותקן כבר.\n\nהאם ברצונך להתקין מחדש את היישום?</AppAlreadyInstalled>
+			<AppUpdateObsolete>יישום המעטפת כולל כבר גירסה חדשה יותר של היישום %appname%.\n\nהגירסה המותקנת היא: %appversion%\nהגירסה שתותקן היא: %newversion%\n\nהאם ברצונך להתקין את הגירסה הקודמת?</AppUpdateObsolete>
+			<InformationTitle>פרטים</InformationTitle>
+			<DiskSpace>הנפח הדרוש בדיסק: %needed% (הנפח הקיים: %avail%)</DiskSpace>
+			<TempSpaceNeeded>נפח הדיסק הקיים אינו מספיק להורדת קובצי ההתקנה הזמניים.\n\nעבור הקבצים שנבחרו יש צורך בנפח של %downloadsize% על הכונן %drive% (הנפח הקיים כרגע בכונן %drive% הוא %avail% בלבד)</TempSpaceNeeded>
+			<AppsDownloadDone>ההורדה למערכת הקבצים הסתיימה.\n&lt;= %downloadpath%\n\nהאם ברצונך להתחיל בהתקנת העדכונים כעת?</AppsDownloadDone>
+			<KeepTempFiles>האם ברצונך לשמר את הקבצים שהורדו כדי לעשות בהם שימוש עתידי?</KeepTempFiles>
+		</Messages>
+		<Main>
+			<CommandButtons>
+				<Download_Caption>התקנת היישומים שנבחרו</Download_Caption>
+				<Cancel_Caption>ביטול</Cancel_Caption>
+				<HideWindow_Caption>ה&amp;סתר חלון זה במהלך ההורדה</HideWindow_Caption>
+			</CommandButtons>
+			<Labels>
+				<SelectNone_Caption>בטל בחירת הכול</SelectNone_Caption>
+				<SelectAll_Caption>בחר הכול</SelectAll_Caption>
+				<Info_Caption>העדכונים הקיימים:</Info_Caption>
+				<SelectHighPriority_Caption>בחר בעדכונים בעדיפות גבוהה</SelectHighPriority_Caption>
+				<ShowHiddenUpdates_Caption>הצג את העדכונים שהוסתרו (%count%)</ShowHiddenUpdates_Caption>
+				<RemoveHiddenUpdates_Caption>מחק את העדכונים שהושבתו (%count%)</RemoveHiddenUpdates_Caption>
+				<InstallTitle_Caption>מתקין את היישומים</InstallTitle_Caption>
+				<Version_Caption>גירסה:</Version_Caption>
+				<DownloadSize_Caption>נפח ההורדה:</DownloadSize_Caption>
+				<InstalledSize_Caption>הנפח הדרוש בדיסק</InstalledSize_Caption>
+				<bytes>בתים</bytes>
+				<Kb>ק&quot;ב</Kb>
+				<Mb>מ&quot;ב</Mb>
+				<Gb>ג&quot;ב</Gb>
+			</Labels>
+			<CheckBoxs>
+				<Silent_Caption>התקן את היישומים ללא התערבות (מצב אוטומטי)</Silent_Caption>
+			</CheckBoxs>
+		</Main>
+		<Info>
+			<UpdateIgnore>(מושבת)</UpdateIgnore>
+			<UpdateLowPriority>(בעדיפות נמוכה)</UpdateLowPriority>
+		</Info>
+		<Contributors>
+			<Contributor name="Abe C"/>
+		</Contributors>
+	</he-IL>
+</Languages>

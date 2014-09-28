@@ -1,0 +1,17 @@
+<Languages version="0.2">
+	<zh-CN en_name="Chinese Simplified" icon="cn.png" date="2011-06-04" version="0.1" name="中文简体">
+		<Message>
+			<AppStillRunning>还有LiberKey的应用程序正在运行。\n断开LiberKey驱动器的操作被取消。</AppStillRunning>
+		</Message>
+		<Messages>
+			<Intro>LiberKey USB Eject 关闭所有从USB设备打开的应用程序。</Intro>
+			<Errors>
+				<LkAppsCloseRunError>关闭程序执行错误。</LkAppsCloseRunError>
+				<LkDiskEjectorRunError>U盘弹出程序执行错误。</LkDiskEjectorRunError>
+			</Errors>
+		</Messages>
+		<Contributors>
+			<Contributor name="cudo" email="kyb3k@126.com" website="http://www.appsoku.com"/>
+		</Contributors>
+	</zh-CN>
+</Languages>
