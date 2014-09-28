@@ -1,0 +1,61 @@
+Haftungsausschluss für KeUsb-Treiber-Software der Knobloch GmbH
+
+Die Knobloch GmbH schließt jegliche Haftung für die KeUsb-Treiber-Software 
+– gleich aus welchem Rechtsgrund – aus, soweit dies gesetzlich zulässig ist. 
+ 
+Die KeUsb-Treiber-Software ist dazu gedacht, Hardware-Schnittstellen (Interfaces) 
+über die USB-Schnittstelle durch eine Windows-Software anzusteuern. 
+Ihre Funktionalität ist beschränkt und kann durch zahlreiche Faktoren, 
+wie Stromschwankungen, Fehlfunktionen der Hardware und andere Dinge beeinflusst 
+werden. Der Benutzer der KeUsb-Treiber-Software hat daher sicherzustellen, dass 
+diese Software nicht zum Einsatz kommt, wenn bei Benutzung der Software eine 
+Verletzung von Personen oder eine Beschädigung von Sachen nicht auszuschließen ist. 
+
+Die Knobloch GmbH schließt für die KeUsb-Treiber-Software eine Haftung im 
+Zusammenhang mit Fehlfunktionen des Programms, eine Haftung für Datenverlust, 
+Schäden am PC sowie eine Haftung für Folgeschäden im Zusammenhang mit der 
+Nutzung von Programmen, welche die KeUsb-Treiber-Software verwenden, aus. 
+
+Die Haftung der Knobloch GmbH nach dem Produkthaftungsgesetz bleibt durch 
+den vorstehenden Haftungsausschluss unberührt. 
+
+Nutzungsvereinbarung für KeUsb-Treiber-Software der Knobloch GmbH
+
+Die KeUsb-Treiber-Software darf ohne die Zustimmung der Knobloch GmbH 
+nicht weitergegeben werden und ist nur für den Gebrauch der unterstützten 
+Produkte zugelassen.
+  
+Die Software kann kostenlos im Internet unter www.knobloch-gmbh.de 
+heruntergeladen werden. An den Dateien dürfen keine Änderungen vorgenommen werden.
+**********************************************************************
+Disclaimer for KeUsb driver software from Knobloch GmbH
+
+Knobloch GmbH excludes any responsibility for the KeUsb driver software 
+- irrespective of  which legal ground -, as far as this is legally permissible. 
+
+The KeUsb-driver-software is meant to control hardware interfaces over the USB-Port. 
+Their functionality is limited and can be affected by numerous factors, such as 
+current fluctuations, malfunctionings of the hardware and other things. 
+The user of the KeUsb-driver-software has to therefore to make sure that the 
+software is not used, if when using the software an injury of persons or a 
+damage of things is not to be excluded. 
+
+Knobloch GmbH excludes a responsibility for the KeUsb-driver-software related 
+to the malfunctionings of the program, a responsibility for data loss, 
+damages to the PC, as well as a responsibility for damages resulting in 
+relation with the use of programs, which uses the KeUsb-driver-software  
+
+The responsibility of Knobloch GmbH, according to the product liability law, 
+remains unaffected by the preceding disclaimer.
+
+
+Use Agreement KeUsb driver software from Knobloch GmbH
+
+The KeUsb driver software can not refer to somebody without our consent and is 
+only for the use of supported Products approved. The software can be downloaded 
+for free on the Internet at www.knobloch-gmbh.de. 
+It is not permitted to change the files.
+
+(c) 2010
+    Knobloch GmbH - Germany
+    www.knobloch-gmbh.de

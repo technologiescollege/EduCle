@@ -1,0 +1,141 @@
+;------------------------------------------------------------------------------
+; fischertechnik GmbH, Robo TX Controller
+; Communication Device Class(CDC) INF File
+; Copyright (c) 2009 MSC Vertriebs GmbH
+;------------------------------------------------------------------------------
+
+[Version]
+Signature   = "$Windows NT$"
+Class       = Ports
+ClassGuid   = {4D36E978-E325-11CE-BFC1-08002BE10318}
+Provider    = %PROVIDER%
+DriverVer   = 04/29/2010,1.0.0.4
+CatalogFile = %CATALOGFILENAME%.cat
+
+
+
+[DestinationDirs]
+DefaultDestDir = 12
+
+
+[Manufacturer]
+%MANUFACTURER% = RoboTxController, ntx86, ntia64, ntamd64
+
+
+[DriverService]
+DisplayName   = %SERVICE%
+ServiceType   = 1
+StartType     = 3
+ErrorControl  = 1
+ServiceBinary = %12%\%DRIVERFILENAME%.sys
+
+
+;------------------------------------------------------------------------------
+;              Windows 2000 Support
+;------------------------------------------------------------------------------
+[DriverInstall]
+include       = mdmcpq.inf
+CopyFiles     = FakeModemCopyFileSection
+AddReg        = DriverInstall.AddReg
+
+[DriverInstall.Services]
+AddService    = usbser, 0x00000002, DriverService
+
+[DriverInstall.AddReg]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,%DRIVERFILENAME%.sys
+HKR,,EnumPropPages32,,"MsPorts.dll,SerialPortPropPageProvider"
+
+
+
+;------------------------------------------------------------------------------
+;              Windows XP/Vista32 Support
+;------------------------------------------------------------------------------
+[DriverInstall.ntx86]
+include       = mdmcpq.inf
+CopyFiles     = FakeModemCopyFileSection
+AddReg        = DriverInstall.ntx86.AddReg
+
+[DriverInstall.ntx86.Services]
+AddService    = usbser, 0x00000002, DriverService
+
+[DriverInstall.ntx86.AddReg]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,%DRIVERFILENAME%.sys
+HKR,,EnumPropPages32,,"MsPorts.dll,SerialPortPropPageProvider"
+
+
+
+;------------------------------------------------------------------------------
+;              Windows Vista64 (Intel Itanium) Support
+;------------------------------------------------------------------------------
+
+[DriverInstall.ntia64]
+include       = mdmcpq.inf
+CopyFiles     = FakeModemCopyFileSection
+AddReg        = DriverInstall.ntia64.AddReg
+
+[DriverInstall.ntia64.Services]
+AddService    = usbser, 0x00000002, DriverService
+
+[DriverInstall.ntia64.AddReg]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,%DRIVERFILENAME%.sys
+HKR,,EnumPropPages32,,"MsPorts.dll,SerialPortPropPageProvider"
+
+
+
+;------------------------------------------------------------------------------
+;              Windows Vista64 (Amd 64) Support
+;------------------------------------------------------------------------------
+[DriverInstall.ntamd64]
+include       = mdmcpq.inf
+CopyFiles     = FakeModemCopyFileSection
+AddReg        = DriverInstall.ntamd64.AddReg
+
+[DriverInstall.ntamd64.Services]
+AddService    = usbser, 0x00000002, DriverService
+
+[DriverInstall.ntamd64.AddReg]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,%DRIVERFILENAME%.sys
+HKR,,EnumPropPages32,,"MsPorts.dll,SerialPortPropPageProvider"
+
+
+
+;------------------------------------------------------------------------------
+;            VID/PID Settings
+;------------------------------------------------------------------------------
+[SourceDisksFiles]
+[SourceDisksNames]
+
+[RoboTxController] 
+%DESCRIPTION%        = DriverInstall, USB\VID_146A&PID_1000
+%DESCRIPTION%        = DriverInstall, USB\VID_221D&PID_1000
+
+[RoboTxController.ntx86] 
+%DESCRIPTION%        = DriverInstall, USB\VID_146A&PID_1000
+%DESCRIPTION%        = DriverInstall, USB\VID_221D&PID_1000
+
+[RoboTxController.ntia64] 
+%DESCRIPTION%        = DriverInstall, USB\VID_146A&PID_1000
+%DESCRIPTION%        = DriverInstall, USB\VID_221D&PID_1000
+
+[RoboTxController.ntamd64] 
+%DESCRIPTION%        = DriverInstall, USB\VID_146A&PID_1000
+%DESCRIPTION%        = DriverInstall, USB\VID_221D&PID_1000
+
+
+
+
+;------------------------------------------------------------------------------
+;              String Definitions
+;------------------------------------------------------------------------------
+[Strings]
+
+CATALOGFILENAME    = "ROBO_TX_Controller"
+DRIVERFILENAME     = "usbser"
+PROVIDER           = "MSC Vertriebs GmbH"
+MANUFACTURER       = "fischertechnik GmbH"
+DESCRIPTION        = "fischertechnik USB ROBO TX Controller"
+SERVICE            = "Virtual Com Driver"

@@ -1,0 +1,148 @@
+==============================================================================
+=                                                                            =
+=                  ROBOPro Application Notes, Version 3.1.3                  =
+=                                                                            =
+==============================================================================
+
+
+==============================================================================
+=                                                                            =
+= I2C: How sub-address are sent via I2C                                      =
+=                                                                            =
+==============================================================================
+
+The I2C protocol does not distinguish between sub-addresses and data. The use of 
+sub-addresses is just a convention on how I2C data is interpreted.
+
+For a write command, the sub-address is sent as normal data. From an I2C 
+protocol point of view, it is indistinguishable if an 8-bit sub-address and 8-
+bit data is sent or 16 bit data.
+
+For a read command, things are slightly more complicated, because the sub-
+address needs to be written, while the data needs to be read. The convention 
+must I2C devices use is to separate the write and the read command with a 
+restart condition. A restart condition is a start condition without previous 
+stop condition.
+
+Please note that in keep-open mode, a sub-address is always preceded by a 
+restart condition, even during a write. Some I2C devices require this in order 
+to distinguish between writing additional data and a new sub-address.
+
+Example 16 bit write (MSB first) with 16 bit sub-address (MSB first)
+
+    START
+    Device-address + Write-Mode
+    Sub-address MSB
+    Sub-address LSB
+    Write data MSB
+    Write data LSB
+    STOP
+
+Example 16 bit read (MSB first) with 16 bit sub-address (MSB first)
+
+    START
+    Device-address + Write-Mode
+    Sub-address MSB
+    Sub-address LSB
+    RESTART
+    Device-address + Read-Mode
+    Read data MSB
+    Read data LSB
+    STOP
+
+Example 8 bit write with 8 bit sub-address, followed by the same in keep open mode
+
+    START
+    Device-address + Write-Mode
+    Sub-address 1
+    Write data 1
+    RESTART
+    Device-address + Write-Mode
+    Sub-address 2
+    Write data 2
+    STOP
+    
+    The only difference between keep-open and normal is here, that RESTART replaces STOP+START
+
+
+==============================================================================
+=                                                                            =
+= I2C: Keep Open mode                                                        =
+=                                                                            =
+==============================================================================
+
+The ROBOPro I2C Elements allow up to 16 bit of sub-address + 16 bit of data in a 
+single command. But the protocol of some devices requires more data or even 
+longer sub-addresses in a single command. E.g. a 3 axis gyro might require that 
+all 3 axis are read in one go. Such devices can be accessed using the keep open 
+mode. If a command has the keep open flag set, consecutive commands of the same 
+type (read or write) and without sub-address do not issue a STOP, START or 
+RESTART condition, but just append the data to the first command with keep open 
+set. The last command of such a chain must not set the keep open flag. Please 
+note that no other ROBOPro process can access I2C while a command with keep open 
+is not terminated. If an error happens during a command with keep open, the 
+command is closed automatically. If keep open is used, it is recommended to not 
+use the repeat on error option, since it might result in strange effects if only 
+parts of a command are repeated.
+
+Example: 16 bit write with 8 bit sub-address wit keep-open followed by 16-bit 
+write (w/o sub-address)
+
+    START                          First ROBOPro I2C Write element
+    Device-address + Write-Mode    This element has keep open = yes
+    Sub-address 1
+    Write data 1 MSB
+    Write data 1 LSB
+
+                                   I2C cannot be accessed by any other ROBOPro
+                                   process until the keep open sequence is closed.
+
+    Write data 2 MSB               Second ROBOPro I2C Write element
+    Write data 2 MSB               This element has keep open = yes
+    STOP
+
+
+==============================================================================
+=                                                                            =
+= I2C: Using the address range 0x50..0x57 of the TX integral EEPROM          =
+=                                                                            =
+==============================================================================
+
+The TX Controller has an integrated Microchip 24AA08 I2C EEPROM. This device 
+occupies I2C addresses 0x50 to 0x57 (7-bit = 0xA0 to 0xAF 8-bit). The TX 
+Controller firmware uses the first sector at device address 0x50 and 0x54. These 
+addresses are not accessible via ROBOPro. The other sectors are free and can be 
+used by ROBOPro programs. A ROBOPro driver for the EEPROM is available in the 
+library folder. A total of 768 bytes is accessible by this driver.
+
+A few common devices also use addresses in the range 0x50 to 0x57 and cannot be 
+reconfigured to other addresses. Below we give a few hints how a device could 
+still work, although it shares a device address with the EEPROM.
+
+Reading from addresses 0x51..0x53 and 0x55 to 0x57 is not much of a problem, if 
+the corresponding sector of the EEPROM is completely filled with 0xFF (which is 
+the default). Since I2C is a wired or bus, the data sent by an external device 
+will overrule the 0xFF data sent by the EEPROM. The only problem is, that the 
+EEPROM will always answer with an ACK to the device address, so it is not 
+possible to check if an external device is actually attached.
+
+Note: The main program of the library .rpp file for the EEPROM (I2C\EEPROM-
+TXintern.rpp) contains an interactive tool for viewing, modifying and clearing 
+data in the EEPROM. It also allows to clear complete sectors.
+
+Writing is more problematic. The EEPROM uses a subareas of 1 byte followed by 1 
+to 16 data bytes. These bytes are actually written into the EEPROM. So writing 
+one byte without sub address just sets the sub address of the EEPROM and does not 
+write data to the EEPROM, but writing any additional bytes will write data to 
+the EEPROM. It might still be possible to write e.g. configuration data to 
+certain sub addresses of an external device. This data is then also written to 
+the EEPROM. If later data would be read from a previously written sub address, 
+the EEPROM would respond with this data. But if a device driver does not read 
+from addresses to which it writes, this would be OK. The EEPROM has 1 million 
+erase/write cycles, so data should not be written on a regular basis. But 
+writing some configuration data at start up should not result in wear problems, 
+especially if always the same data is written to the same sub addresses. Also 
+please note that the EEPROM will usually generate ACK, so it cannot be checked 
+if an external device is present at the EEPROM addresses, and also variable 
+length writes (until NAK) won't work.
+

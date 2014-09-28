@@ -1,0 +1,2045 @@
+ROBOPro Change history
+
+Changes in version 3.2.6 vs. 3.2.5
+==================================
+
+- Added samples for ROBOPro Light
+- Updated installer design
+
+Changes in version 3.2.5 vs. 3.2.4
+==================================
+
+- Update samples for ROBOPro Light
+- Fixed bug in language switching in ROBOPro Light
+- Updated installer design
+
+Changes in version 3.2.4 vs. 3.2.3
+==================================
+
+- Updated TX Training lab manuals (help linking added)
+
+Changes in version 3.2.3 vs. 3.2.2
+==================================
+
+- Fixed problem with display of floating point numbers on TX display
+- I2C: The TX controller now extends a received ACK until after the falling clock edge to avoid problems in bad signal conditions.
+       That is, the TX pulls down SDA in a ACK bit after it detected an ACK bit from the device.
+
+Changes in version 3.2.2 vs. 3.2.1
+==================================
+
+- Fixed problem of I2C freezes in online or download mode
+- Fixed problem that compile or save was very slow in rare cases
+- Added activity booklets to setup
+
+Changes in version 3.2.1 vs. 3.2.0
+==================================
+
+- Fixed crash on cut and paste
+- Fixed file access error message during uninstall of previous version
+- Fixed problems with upgrading very old ROBOPro versions
+
+Changes in version 3.2.0 vs. 3.1.3
+==================================
+
+- Switched to Unicode
+- Added Russian Language
+- Fixed crash after switching UI language
+- Switched to Microsoft Installer
+
+Changes in version 3.1.3 vs. 3.1.2.9
+====================================
+
+- Added file ApplicationNotes.txt, with some more technical information (currently I2C).
+- Moved I2C Elements from level 5 to level 4
+- Updated to MSC Library version 67 / FW version 1.30
+- I2C: Disabled access to adresses 0x50, 0x54 (used internally by TX controller)
+- I2C: Added driver for TX-internal EEPROM (768 bytes are free and usable)
+- I2C: Keep Open mode did not work for writes with subadress (did a restart)
+- Language can now be switched via menu entry (only main menu before programs are loaded)
+- Text Message Element: Text was not translated during program compilation
+- TX-Display: Text element now supports up to 8 lines
+
+Changes in version 3.1.2.9 vs. 3.1.2.8
+======================================
+
+- I2C: Fixed some problems in I2C online mode error handling
+  Remaining: I2C Write repeat 10x does infinite repeat, I2C infinite operation does not stop at program end.
+   
+- I2C: Improved scheduling in download mode to avoid time slice overruns.
+
+Changes in version 3.1.2.8 vs. 3.1.2.7
+======================================
+
+- I2C: Works in online mode
+  Exceptions are: Error handling does not work properly. Online mode might hang in case of an I2C error.
+
+- I2C: 16bit data and subadresses can be specified as MSB or LSB first
+
+- I2C: The following I2C driver libraries have been finished (in ROBOPro: File/Library/I2C)
+  - C-Control Stepper motor (TMC222)
+  - C-Control Keyboard (PCF8574)
+  - C-Control LCD (PCF8574/HD44780)
+  - C-Control LED (SAA1064)
+  - C-Control Thermometer (DS1631)
+  - C-Control I/O Port extender (PCF8574)
+  - Thermopile Array (8x1 pixel IR remote temperature sensor) TPA-81
+  - Tilt Compensated Compass Sensor CMPS09
+  - 3-axis MEMS Gyro Sensor ITG-3200
+  - 3-axis MEMS Accelerometer LIS3LV02
+
+  Each I2C Library contains a sample program as main program.
+  The libraries can be opened from the library folder as normal .rpp files.
+
+- Constants, variables (and a few others): Data can be entered and displayed as Hex/Binary with 0x, 0b prefix
+
+- TX-Display Button problem fixed: State of button was not reset when teh user program switched to another display
+
+- TX-Display Button: The result value of a button when pressing the left or right button can be modified now (was fixed to -1 and 1)
+
+- Operator: New Operator "arithmetic shift right ASR" (only for TX and Online-Mode, not for ROBO-Interface download mode)
+
+- FLT_48 text ENG format: Values 0.1 <= x < 1 e.g. 0.1234 are now shown as e.g. 0.1234 instaed of 123.4m.
+  That is, the exponent flag "m" is replaced by a digit.
+
+- FTT_48 text ENG format: the k exponent is only used, if the number cannot be shown without it in the given number of places.
+  E.g. with ##.###^ -1234 will be shown as -1234. and -12345 as -12.345k.
+  But with ##.##^ -1234 will be shown as -1.23k.
+  For larger exponents, like M, this is not done, because such large numbers are easier to read with an exponent.
+
+- FLT_48 text format: Normalization of denormal numbers is now optional.
+  E.g. 1.0010E00 - 1.0000E00 is now shown as 0.0010E00. Before it was 1.0000E-03 (or another exponent variant)
+  This has the disadvantage that this way less valid digits are visible.
+  The advantage is, that this is much more readable, especially for children.
+  If you want normalization, replace the first # of a format specification with ^.
+  E.g. ^#.#####^^## does normalize, while ##.#####^^## does not.
+
+  See the samples in the sample folder "Floating Point Numbers"
+
+- FLT_48 text format: Fixed rounding of fixed point presentation. E.g. 0.6 in ##. format is now displayed as 1. instead of 0.
+
+- Fixed "Internal Program error, File: CodeGenerator.cpp, Line: 1039". This error could happen with message passing in very simple programs.
+
+Changes in version 3.1.2.7 vs. 3.1.2.6
+======================================
+
+- Fixed bug that I2C send a NAK after a read with keep open.
+
+- I2C still only works in download mode
+
+Changes in version 3.1.2.6 vs. 3.1.2.5
+======================================
+
+- Fixed bug that I2C sends spurious read command on first command.
+
+- I2C still only works in download mode
+
+Changes in version 3.1.2.5 vs. 3.1.2.4
+======================================
+
+- TX Download mode Time Slicing has been enabled.
+  Before the TX did one run through each task per ms
+  Now the TX cycles the task for half a ms each ms.
+
+- I2C now has an option to keep the I2C channel open, so that arbitrary byte sequences can be read or written
+
+- I2C also has an optional error output, which can flag errors either immediately or after 10 retries.
+
+- I2C still only works in download mode
+
+Changes in version 3.1.2.4 vs. 3.1.2.3
+======================================
+
+- Enhanced support for I2C clock stretching
+
+  - works only in download mode
+
+  - clock stretching can be arbitrary
+
+Changes in version 3.1.2.3 vs. 3.1.2.2
+======================================
+
+- Preliminary support for I2C clock stretching
+
+  - works only in download mode
+
+  - clock stretching is limited to 50us
+
+Changes in version 3.1.2.2 vs. 3.1.2.1
+======================================
+
+- Neue Firmware 1.27 mit verbesserten I2C Funktionen (I2C geht nun auch im Onlinemodus ohne Probleme)
+
+- Device, Adresse und Daten für I2C Elemente kann man nun in Hex (0xFF), Dezimal (255) und Binär (0b11111111) angeben
+
+I2C usage:
+----------
+
+- The I2C read and write elements are in the send/receive group
+
+- The device adress is given as 7 bit value (without R/W bit)
+
+- The subadress can be none, 1 or 2 bytes.
+
+- The data size can be 8 or 16 bit. 16 bit is MSB first (will later add on option for LSB first)
+
+Änderungen in Version 3.1.2.1 gegenüber 3.1.2
+=============================================
+
+- Neu: I2C Schreiben
+
+- Neu: I2C Lesen
+
+- Änderung: Pin Swap beim warten auf Befehl Element hinzugefügt
+
+- Änderung: Skalierung im Listen Debug-Mode Dialog geändert (Elemetliste wird jetzt mit Dialog skaliert)
+
+- Änderung: TX Firmware 1.26
+
+- Fehler behoben: Gleitkommefunktionen führen teilweise integer Overflow-Check aus
+
+Änderungen in Version 3.1.2 gegenüber 3.1.1
+===========================================
+
+- Änderung: Bei Level 1 analog Verzweigung Standard auf NTC geändert
+
+- Änderung: Im TX Interface-Test skalieren auf der Motorseite bei Größenänderung nur die Scrollbars.
+
+Änderungen in Version 3.1.1 gegenüber 3.1
+=========================================
+
+- Fehler behoben: Senden von Nachrichten an alle oder an Gruppen geht nur vom Master aus.
+  Alle anderen Interfaces schicken die Nachricht nur zum Master.
+
+- Neu: Beispielprogramme für BT Gruppen-Nachrichten und Broadcasts
+
+- Änderung: Im Demo Setup USB-Treiber, Firmware und Treiber Vorinstallation entfernt
+
+- Änderung: 3-Stellige Versionsnummer (Major/Minor/Bugfix); Beta-Releases sind dann 4-stellig
+
+- Neu: Demo für ROBOPro Light
+
+- Änderung: BT Toolbar Knopf erst ab Level 2 sichtbar
+
+- Änderung: COM-Option im TX-Modus im Level 2 und Level 3 Empfänger ausgeblendet
+
+- Fehler behoben: Hilfetitel "8.6.5 Warten auf ..." nicht übersetzt
+
+- Fehler behoben: RCN an einigen stellen nicht übersetzt
+
+- Fehler behoben: Central Switch Liste wird nicht aktualisiert, wenn .rpp zugewiesen wird.
+
+- Fehler behoben: Crash in ROBOPro nach Verbindungsabbruch im Onlinemode, wenn Programm wieder gestartet wird.
+
+Änderungen in Version 3.1 gegenüber 3.0.10
+==========================================
+
+- Neu: Bibliothek Position TX.rpp
+
+- Neu: Beispiele Teach in für TX Automation Robots
+
+- Neu: Tango Beispiele für Encodermotoren
+
+- Änderung: Darstellung der neuen Kapitel in CHM verbessert
+
+- Änderung: Zuordnung von BT-Com ports per BT-Adresse, nicht per Gerätename
+
+- Fehler behoben: USB geht seit Update auf MSC Library Version 61 nicht mehr
+
+- Änderung: Optimierungsart beim Sender standardmäßig auf "normal".
+
+- Änderung: Korrekturen an translate.csv
+
+- Änderung: ROBOPro .rpp FileVersion auf 3.1 gesetzt
+
+- Neu: 3 Bibliotheken mit Logikelementen (Register, Flip-Flop und Multiplexer)
+
+Änderungen in Version 3.0.10 (Beta) gegenüber 3.0.9
+===================================================
+
+- Änderung: Neue Hilfe (alle Sprachen) eingebaut
+
+- Neu: Beispiele für TX Automation Robots hinzugefügt
+
+- Neu: Spezielles Setup für TX Automation Robots (Begleithefte)
+
+- Änderung: Stop hält keine Download-Programme mehr an
+
+- Fehler behoben: Eingangskonfiguration von Extensionmodulen wird im Doenload-Modus nicht immer korrekt gesetzt
+
+- Fehler behoben: Verbindung zu TX nicht möglich, wenn in der Moduldefinition explizit TX (nicht automatisch) angegeben ist
+
+- Fehler behoben: Crash wenn BT-Scan abgebrochen wird
+
+- Änderung: Links auf alte ft Webseiten entfernt
+
+- Änderung: Master RCN ist nun per default 2 (per COM/USB verbundenes IF wird beim Scan RCN 1, so dass dadurch per default Master und verbundes IF nicht gleich sind)
+
+- Fehler behoben: Crash bei mehr als 32 COM Ports (neue MSC Library Version 61)
+
+Änderungen in Version 3.0.9 (Beta) gegenüber 3.0.8
+==================================================
+
+- Fehler behoben: Darstellung im Eigenschaftsfenster des Sendeelements
+
+- Änderung: Text im BT-Scan Dialog in Hilfe verlagert und Hilfe Knopf eingefügt (Hilfe noch nicht verbunden)
+
+- Fehler behoben: Beim Speichern wird die Anzahl gefundener BT-Geräte nicht reduziert
+
+- Fehler behoben: Encodermotorsteuerung funktioniert nicht bei bestimmten Folgen von Synchron-Distanzbefehlen
+
+- Änderung: Fehlermeldung bei nicht gefundenen Dateien im BT-Mehrfachdownload verbessert
+
+- Änderung: Dateipfade für BT Mehrfachdownload werden nun relativ gespeichert (zum enthaltenen Programm)
+
+- Änderung: Option Mehrfachdownload ist nun per default gesetzt, wenn mindestens ein Programm zugewiesen ist
+
+- Fehler behoben: Wenn in den Bluetooth Einstellungen die FRN Liste Lücken hat, wird eine Falsche Central-Switch-RCN verwendet
+
+- Fehler behoben: Bluetooth Messageoptimierung: Wenn Nachricht identisch mit vorheriger, wird zufällige alte Nachricht verschickt
+
+- Fehler behoben: Bluetooth Scan wird im Simulationsmodus nicht beendet
+
+- Fehler behoben: Wenn mehrere Programme geöffnet sind, wurden Download Programme zu Teil mehrfach gestoppt
+
+- Fehler behoben: Beim BT Mehrfachdownload wurden auch bereits geöffnete Programme im Hintergrund von Datei geladen
+
+- Änderung: Wenn beim BT Mehrfachdownload bei der Übernahme der BT Einstellungen das Dokument geändert wird, wird dieses als geändert gekennzeichnet
+  Bei temporär geladenen Dokumenten wird ggf. zum speichern aufgefordert.
+
+- Fehler behoben: BT-Kommunikation im Online-Modus geht oft nicht
+
+- Fehler behoben: Warteschlangen-Voll-Status bei der BT-Kommunikation wird zum Teil nie zurück gesetzt
+
+- Änderung: Übersetzungen aus Translate.csv sind nun in verschiedene Elementklassen unterteilt, um die 
+  ungewollte Übersetzung von Nachrichten zu vermeiden.
+
+Änderungen in Version 3.0.8 (Beta) gegenüber 3.0.7
+==================================================
+
+- Direkt nach Programmstart gesendete BT Nachrichten gehen nicht verloren
+
+- Bei Verbindungsabbruechen koenne jedoch nach wie vor Nachrichten
+  verloren gehen. Dies wird auch nicht geändert.
+
+- HelpLink Programm zur Verlinkung der Hilfe aus .pdf Dateien hinzu gefügt.
+
+Änderungen in Version 3.0.7 (Beta) gegenüber 3.0.6
+==================================================
+
+- Bluetooth von Punkt-zu-Punkt-Topologie auf Stern-Topologie umgestellt
+
+- Bluetooth download mehrerer Dateien nur für aktive Interfaces
+
+- Im Eigenschaftsfenster des Sendeelements aktuellen Anwenderspezifischen Befehl in Auswahlliste eingetragen.
+
+- Im Eigenschaftsfenster des Sendeelements HW-Kanal (Robo-IF) und Datentyp (noch nicht implementiert) ausgeblendt.
+
+- Bei Programmen mit Bluetooth interface Liste werden beim drücken des Stop-Knopfs alls
+  aktiven Interfaces gestoppt.
+
+- Menüpunkt "Update Subprogram" hinzugefügt.
+  Dieser wird für manuell gezeichnete UPs benötigt, um Referenzen des Unterprogramms zu aktualisieren.
+  Wenn man die I/O Struktur eines UPs mit manuellem Symbol ändert, geht dies aber nach wie vor automatisch.
+
+Status BT:
+
+- Verbindungsaufbau und Messageveransd scheint schnell uns zuverlässig zu sein
+
+- Noch nicht implementiert ist der Versand von Nachrichten mit Gleitkommadaten
+
+- Achtung: Im Moment ist immer das Interface mit RCN1 Master in der Sterntopologie.
+  Das wird später noch einstellbar.
+  Das Problem daran ist, dass man mit dem Master keine gut funktionierende
+  Online-Verbindung aufbauen kann.
+
+Änderungen in Version 3.0.6 (Beta) gegenüber 3.0.5
+==================================================
+
+- (#2) Firmwareupdate hängt manchmal am Ende
+
+- (#50) Bluetooth Menueeinträge haben manchmal einen Haken
+
+- (#59) Text wird in Firmwareupdate Fenster nicht richtig angezeigt
+
+- (#61) Interner Programmfehler bei Programmen mit sehr vielen Displayelementen
+
+- (#73) Wird von einem Programm eine BT Nachricht versendet, bevor die Verbindung
+  aufgebaut ist, geht BT nicht mehr.
+
+- (#75) Interner Programmfehler bei manchen Befehlspfeilnetzen
+
+- (#76) Interner Programmfehler bei Programmen mit langen Displaytexten
+
+- (#77) Crash beim Kopieren (Ctrl+C) eines grafischen Pfeils im Bedienfeld
+
+- Zuweisen von Farben und anderen Attribten hat einfluss auf kopierte Objekte
+
+- Zuweisen von Farben und Attributen hat keinen Einfluss auf Pfeilspitzen
+  (dieser Fix hat nur einen Einfluss auf Pfeile, die mit der neuen Version erstellt worden sind!)
+
+- Zuweisen von Farben und Attributen geht nicht in einem geladenen Programm, bevor
+  man in einer View ein Element erzeugt.
+  Dieser Fix sollte auch andere Bearbeitungsprobleme direkt nach dem Laden beheben
+
+- (#70) Crash wenn man pins in symbolen verschiebt
+
+- Alle Unterprogrammsymbole hatten den selben Satz von grafischen Eigenschaften.
+  Wenn man dies für ein Unterprogramm geändert hat, hat es sich für alle geändert.
+
+- Selektions so geändert, dass man nun auch Linin und Pins (insbesondere in Symbolen)
+  verschieben kann.
+
+TODO: Mehrzeiliger Displaytext: Zeilenvorschub wird als LF ausgegeben
+
+TODO: Bearbeiten des Namens von Pins in Symbolen
+
+TODO: Automatische Erzeugung von Symbolen abschaltbar.
+      Bei Änderung sollen nur neue Pins erzeugt werden und nicht mehr vorhandene gelöscht.
+	  Der Rest des Symbols soll unverändert bleiben.
+
+Hinweis: Solange man die Ein/Ausgangskonfiguration eines UPs nicht ändert (auch nicht
+  Die vertikale Reihefolge von Daten I/Os oder die Horizontale von Programm I/Os)
+  kann man in der Version 3.0.6 Symbole editieren.
+
+Änderungen in Version 3.0.5 (Beta) gegenüber 3.0.4
+==================================================
+
+- Falsche Fehlermeldung beim editieren von Motorenddigitaleingängen (#20)
+
+- Übersetzungsfehler in IF->TX Umwandlung (#21)
+
+- Beim Bearbeiten von nicht zugeordneten RIF Elementen im TX-Modus erscheint eine RIF Dialog Box. (#25, #26)
+
+- Beim Abbruch des Bearbeiten nach RIF->TX Umwandlung ist das Element umgewandelt, wird aber nicht neu gezeichnet (#27)
+
+- Verschiedene übersetzungsfehler und Schreibfehler (#28, #36, #38, #40)
+
+- Fehlerhafte Beispieldatei Robo Mobile Set Simple Robot 2 (#30)
+
+- Gleitkomme Fehler bei 0 minus negativer Zahl (#31)
+
+- Debug Motoreingänge entfernt (#33)
+
+- Interner Programmfehler, wenn EM4..6 mit RIF verwendet werden durch richtige Fehlermedlugn ersetzt (#35)
+
+- Bluetooth Scan komplett überarbeitet
+  - TX-Name, BT-Adresse und Funkrufnummer werden in der Registry gespeichert
+  - Im Programm wird für jedes Gerät ein aktiv-Flag und ein rpp Programm gespeichert
+  - Beim Laden eines Programms werden die Daten aus dem Programm und aus der Registry anhand der Funkrufnummer zusammengeführt
+  - Beim Scan bleiben die Daten erhalten, wenn identische Tx Controller gefunden werden.
+    Ansonsten werden neu gefundene TX-Controller nicht gefunden Einträgen zugeordnet
+  - Beim editieren der RCN bleiben das Aktiv-Flag und das rpp Programm bei der gleichen RCN (soweit möglich)
+  - Wenn ein neues rpp Programm erzeugt wird, und davor die Bluetooth einstellungen eines anderen Programms
+    bearbeitet worden sind, werden das Aktiv-Flag und das rpp Programm übernommen.
+	Nach einem Neu-Start von ROBOPro hat ein neues Programm jedoch alle Aktiv-Flags zurück gesetzt.
+
+- Beim Download kann man jetzt optional alle Programme aus der Bluetooth-Liste auf einmal downloaden.
+
+Änderungen in Version 3.0.4 (Beta) gegenüber 3.0.3
+==================================================
+
+- Update auf Firmware Version 1.24
+
+- Anpassungen and Firmware 1.24:
+  - BluetoothInit Funktion
+  - 0-Command IDs in Motorsteuerung werden nicht übersprungen
+
+- Im Online-Modus werden BT-Maintenance Funktionen mit korrektem Timing aufgerufen
+
+Änderungen in Version 3.0.3 (Beta) gegenüber 3.0.2
+==================================================
+
+- Fehler in der erweiterten Motorsteuerung Level 3 behoben
+
+- Problem mit jedem 65536sten Befehl in erweiterter Motorsteuerung behoben
+
+Änderungen in Version 3.0.2 (Beta) gegenüber 3.0.1
+==================================================
+
+- Kommunikation bei der Motorsteuerung überarbeitet (geändertes, stabileres Protokoll).
+
+- BT Update von MSC. Die Punkt zu Punkt Verbindung geht jetzt mit 3 Interfaces, 
+  allerdings nicht zuverlässig wenn andere BT Geräte aktiv sind (auch PC!).
+
+- BT-Edit Menue Punkt zum anzeigen/editieren der BT Zuordnung.
+
+Änderungen in Version 3.0.1 (Beta) gegenüber 3.0
+================================================
+
+- Man kann ROBOPro (aber nicht ROBOPro light) nun mehrfach starten
+
+- Bluetooth Empfänger gehen nun auch mit "Direkt an dieses Interface".
+
+- Bluetooth geht im Online Modus per BT und USB.
+
+- Im Setup Pre-Installer für ROBO-Interface Treiber aktiviert.
+
+Verbleibende Probleme im BT Bereich
+
+- Broadcast und Gruppen außer 1..8 gehen nach wie vor nicht.
+
+- Bei 3 Interfaces verbinden nur RCN 1-2 und 2-3, nicht aber 1-3.
+
+- In manchen Fällen kommt auch bei 2 Interfaces keine Verbindung zustande
+
+Änderungen in Version 3.0 gegenüber 2.2.0.0
+===========================================
+
+- Umstieg auf 2-Stellige Versionsnummern
+
+- Bug-Fixes für ROBO Pro Light Version
+
+- Es kann nur noch 1 ROBOPro Instanz geöffnet werden.
+
+- Getrennte Applikation und Installer für ROBO Pro Light
+
+Änderungen in Version 2.2.0.0 gegenüber 2.1.5.0
+==================================================
+
+- Support für Light Interface
+
+- Neues Grundschullevel mit grafischen Dialogen
+
+- neues User Interface wxAUI
+
+- neue wxWidgets Version 2.8.10
+
+- Displayfont and Windows code page angepasst
+
+Änderungen in Version 2.1.5.0 gegenüber 2.1.4.2
+==================================================
+
+- Bluetooth im Downloadmodus erste Tests OK
+
+Änderungen in Version 2.1.4.2 gegenüber 2.1.4.1
+==================================================
+
+- Neue Beispielprogramme für ROBO TX Explorer
+
+- Bei COM/USB Auswahl Knopf zum anzeigen aller COM Ports hinzugefügt
+
+Änderungen in Version 2.1.4.1 gegenüber 2.1.4.0
+==================================================
+
+- Übersetzung der erweiterten Motorbefehle korrigiert
+  (Programme mit neuen Level 3 Motorbefehlen funktionieren nicht)
+
+Änderungen in Version 2.1.4.0 gegenüber 2.1.3.17
+==================================================
+
+- Umstellung auf CHM Hilfe als Standard.
+
+- Formatierung der CHM Hilfe nochmals überarbeitet (Browserunterschiede)
+
+- Hilfe für ROBOPro Elemente wieder hinzugefügt (8.9)
+
+- Hilfe Verknüpfungen überarbeitet
+
+Änderungen in Version 2.1.3.17 gegenüber 2.1.3.16
+==================================================
+
+- Formatierung der CHM Hilfe komplett überarbeitet.
+
+- Einige Hilfeverweise (insbesondere aus Eigenschaftsfenstern) korrigiert
+
+- TX-Display Font auf Codepage 1252 (Windows Latin1 / western) umgestellt
+
+- CSV I/O für Gleitkommalisten repariert
+
+Änderungen in Version 2.1.3.16 gegenüber 2.1.3.15
+==================================================
+
+- Displayknöpfe mit nur einem Zeichen Beschriftung führen zum Crash.
+
+Änderungen in Version 2.1.3.15 gegenüber 2.1.3.14
+==================================================
+
+- Unerwartete Situation bei bestimmten TX Display Inhalten.
+
+Änderungen in Version 2.1.3.14 gegenüber 2.1.3.13
+==================================================
+
+- Fehler in der Registersicherung beim Aufruf von Grafikfunktionen behoben (ARM)
+
+Änderungen in Version 2.1.3.13 gegenüber 2.1.3.12
+==================================================
+
+- Fehler in der Registersicherung beim Aufruf von Grafikfunktionen behoben
+
+Änderungen in Version 2.1.3.12 gegenüber 2.1.3.11
+==================================================
+
+- Neue Library Version 54 (Fehler in erwieterter Motorsteuerung von Version 53 behoben)
+
+Änderungen in Version 2.1.3.11 gegenüber 2.1.3.10
+==================================================
+
+- Neue Firmware Version 1.18 (MSC Lieferung 53)
+
+Änderungen in Version 2.1.3.10 gegenüber 2.1.3.9
+==================================================
+
+- Einige Übersetzungsfehler im Setup behoben
+
+- Korrekturen für ROBO-TX Traininglab Begleithefte 
+
+- Standard für Verbindung nach Neu-Installation so eingestellt, das TX-Controller über USB geht
+
+- Fehler in der Registersicherung beim Aufruf von Gleitkommafunktionen behoben
+
+Änderungen in Version 2.1.3.9 gegenüber 2.1.3.8
+==================================================
+
+- Neue Library Version 52
+
+- Neue Firmwareversion 1.17
+  
+- Aufrufe von Gleitkommafunktionen haben in einigen Fällen den Message-ID überschrieben
+
+- Setup für ROBO-TX Traininglab mit Begleitheften
+
+Änderungen in Version 2.1.3.8 gegenüber 2.1.3.7
+==================================================
+
+- Portugiesische Übersetzungsdatei aktualisiert
+
+- Translate.csv aktualisiert
+
+- Breite des USB-Portauswahlfensters geändert (Portbezeichnung nicht vollständig lesbar).
+
+- Fehler in Log/Ln Funktion korrigiert (Falsches Ergebnis bei Argumenten mit geringer Genauigkeit)
+
+- Int->Float Umwandlung von 0 liefert nun eine exakte 0 (underflow)
+
+Änderungen in Version 2.1.3.7 gegenüber 2.1.3.6
+==================================================
+
+- Neue Library Version 51
+
+- Neue Firmwareversion 1.16
+
+- Update-Installer ging nicht wenn installierte Version 2.1.3.X ist
+
+- Abbruch-Knopf beim Firmware Downgrade
+
+- Motorsteuerung in Firmware für Extensionmoduel korrigiert
+
+- Default Datentyp für Funktionen ist nun Float48
+
+- Online Hilfe Übersetzungen eingearbeitet
+
+- Beispielprogramme aktualisiert
+
+- Übersetzung aktualisiert
+
+- Übersetzung für MSC Library Texte eingefügt.
+
+Änderungen in Version 2.1.3.6 gegenüber 2.1.3.5
+==================================================
+
+- Neue Library Version 49
+
+- Neue Firmwareversion 1.14
+
+- Ein FW-Update wird jetzt immer angeboten, wenn die Firmware nicht
+  mit der ROBOPro-Version überein stimmt (auch wenn ROBOPro älter ist).
+  Bei einem Firmware-Downgrade wird zusätzlich gewarnt.
+
+- Ein Firmware-Update wird auch ausgeführt, wenn die ROBO-Library Version
+  nicht zu ROBOPro passt.
+
+- Verbindungsfehlermeldung nach Fw-Update unterbunden.
+
+- Kleinere Verbesserungen an der Motorsteuerung (Bremsverhalten unter Last
+  und bei kleinen Geschwindigkeiten verbessert).
+
+Änderungen in Version 2.1.3.5 gegenüber 2.1.3.4
+==================================================
+
+- Motorsteuerung überarbeitet
+
+Änderungen in Version 2.1.3.4 gegenüber 2.1.3.3
+==================================================
+
+- Neue Library Version 48
+
+- Neue Firmwareversion 1.13
+
+- PWM Umsetzungskurven aus Firmware in Motorsteuerung verlagert
+
+- Neue PWM Umsetzungskurven, die für den Encodermotor linearen Geschwindigkeitszusammenhang liefern
+
+- Verbesserungen an der Motorsteuerung für mehr Zuverlässigkeit.
+
+- Beu UP-Aufruf mit fehlender Eingangsverbindung an = Eingang kommt manchmal keine Fehlermeldung.
+
+Änderungen in Version 2.1.3.3 gegenüber 2.1.3.2
+==================================================
+
+- Neue Library Version 46u1
+
+- Neue Firmwareversion 1.11
+
+- Motorsteuerung ist nun in einer separaten Firmwaredatei
+
+- Ziel erreicht Signal der Motorsteuerung bleibt nun bis zum nächsten Distanzbefehl 1.
+
+- Verbesserte Motorsynchronisation
+
+- Unveränderliche Teile von ROBOPro-Programmen (Gleitkommabibliothek) werden nur
+  noch 1x bei einem Firmwareupdate heruntergeladen.
+
+- Fehler in Array dass Anzahl der Anfagswerte größer als die Maximalgröße sein kann (Crash bei Ausführung)
+
+Änderungen in Version 2.1.3.2 gegenüber 2.1.3.1
+==================================================
+
+- Fehler mit Datentyp in Unterprogrammdateneingängen behoben
+
+- Fehler im Arm/Thumb Codegenerator behoben (Interner Programmfehler)
+
+- Fehler in Logarithmus-Funktion behoben (geht nicht für exakte Zahlen)
+
+Änderungen in Version 2.1.3.1 gegenüber 2.1.3.0
+==================================================
+
+- Neue Library Version 44
+
+- Neue Firmwareversion 1.09
+
+- Änderung des Motor Ziel erreicht Signal, so dass das Signal 1 bleibt, bis es vom
+  nächsten Fahrbefehl zurück gesetzt wird.
+
+Änderungen in Version 2.1.3.0 gegenüber 2.1.2.1
+==================================================
+
+- Neue Library Version 43
+
+- Neue Firmwareversion 1.07
+
+- Gleitkommafunktionen (sqrt, sin, cos, ...)
+
+- Fehlermeldungen für nicht passende Datenverbindungen verbessert
+
+- Gleitkommavergleich 0==0 (Undeflow==Underflow) liefer false
+
+- Liste bei Gleitkomma nicht mit fettem Rand gerendert
+
+- Gleitkommaeingabe von Listenelementen zum Teil fehlerhaft
+
+- Ganzzahl Vergleichsoperatoren funktionieren im Download-Modus nicht
+
+- Gleitkommavergleichsoperatoren mit >=3 Eingängen funktionieren in manchen Fällen nicht
+
+- Gleitkommavergleichsoperatoren effizienter gemacht
+
+- Gleitkommatextausgabe: Verlust von Bits wird nun mit ? am Ende statt mit fühnenden Nullen angezeigt.
+
+- Fehler beim löschen (\c) von Textanzeigen behoben
+
+- Anfangswert von Displayreglern werden nicht übernommen
+
+- Wenn im Online-Modus das Testfenster geöffnet ist, stoppen Motoren beim Programmende nicht.
+
+Änderungen in Version 2.1.2.1 gegenüber 2.1.2.0
+==================================================
+
+- Problem mit newline (\n) und clear (\c) im Textbefehl an Displayelement behoben
+
+- Neue Fehlermeldung bei Online/Download/Test start:
+  ROBOPro could not connect to the interface.\nPlease check the settings using the COM/USB button.
+  Bisher wurde zum Beispiel bei falscher Konfiguration (direkt nachInstallation) gar keine Fehlermeldung angezeigt.
+
+- Neue Fehlermedlung bei nicht angeschlossenen orangen Verbindungen. Das gab bisher internen Programmfehler.
+
+- In der erweiterten Motorsteuerung je nach Situation nicht benötigte Felder deaktiviert.
+
+- In Setup-Texten: ROBO-Interface durch ROBO-TX Controller ersetzt
+
+- Fehler beim angleichen des Eingangsstaus beim Warten auf Element behoben.
+
+- Interner Programmfehler beim Download von Programmen mit vielen Prozessen behoben.
+
+- Interner Programmfehler beim Download von langen Programmketten komplexer Elemente behoben.
+
+- Interner Programmfehler beim Download von Programmen mit umfangreicheren Function init Daten behoben.
+
+- Update auf Library Version 41u3.
+
+Änderungen in Version 2.1.2.0 gegenüber 2.1.1.11
+==================================================
+
+- Neue Operatoren: Vergleichsoperatoren für Int16 und Fp48
+
+- Neue Operatoren: Bitoperatoren and, or, xor, not
+
+- Neue Operatoren: Bitschiebeoperatoren
+
+- Darstellung von FP48 Zahlen in der Benutzeroberfläche verbessert
+
+- Steuerung von Displayschiebereglern verbessert
+ 
+  - Anfangsgeschwindigkeit ein Increment pro 512ms bis zu einem Increment von 8
+ 
+  - Darüber verdoppelt sich die Geschwindigkeit alle 2 Sekunden bis zu 2 
+
+  Dadurch wird das Problem gelöst, dass man in der maximalen Drückzeit
+  (32.768 Sekunden) keinen 512 er Slider durchgleiten kann.
+
+- Im ARM/Thumb Codegenerator Probleme mit den Jump-Tabellen beseitigt
+
+  Das war verantwortlich für viele Probleme beim Download von Display Programmen,
+  aber auch anderen Problemen.
+
+- Problem mit Displaybutton Simulation behoben.
+  
+  Buttons wurden beim Programmende nicht automatisch losgelassen.
+  Das gleiche Problem in der Firmware ist noch nicht behoben.
+
+- Problem mit Displaycode (Crash/Firmware Hang) wegen alignment Fehler behoben.
+
+- Problem mit dem 1. Übersetzungsdurchgang behoben.
+
+  Hat dazu geführt, dass Verbindungen, die aus Unterprogrammen herausführen, zum Teil
+  nicht mit anderen Verbindungen zusammengeführt werden konnten.
+
+- Unterprogrammdatenausgänge so geändert, dass technisch nur noch ein Ausgang für alle
+  Messages angelegt wird, und die Message beim Empfänger gemultiplext wird. Bisher gab
+  es für jede Message technisch einen eigenen Ausgnag (message handler parameter), was
+  aber rekursive Programme äußerst komplex gemacht hat, da es in rekursiven Programmen
+  nich tleicht ist zu bestimmen, welche Messages über einen Ausgang gesendet werden können.
+
+- Problem mit Display UI Prozess behoben. Bei Programmen ohne Input-Elementen und ohen Display im
+  Hauptprogramm kann es vorkommen, dass der UI Prozess keinen Task-Switch macht.
+
+- Neue Programmübersetungsdateien: Niederländisch, Französisch, Spanisch (Portugiesisch fehlt noch).
+
+- Update auf Library Version 41u2
+
+Änderungen in Version 2.1.1.11 gegenüber 2.1.1.10
+==================================================
+
+- ROBO-IF Level 1 Analogeingangsvergleich zeigt immer Wert 3 an.
+
+- Neue Befehle (Reset..Position) im ROBO-IF Modus ausgeblendet
+
+- "Anzeige" in einigne Fenstern durch "TX Display" ersetzt
+
+- Im TX Controller Testfnester kann man analoge Werte nicht einstellen (I1..I8, C1Z..C4Z)
+
+- Im TX-Controller Testfenster wird im Simulationsmodus "Angehalten" angezeigt.
+
+- Im TX-Controller Testfenster kann man im Simlationsmodus nur IF1 auswählen.
+
+- Bezeichnung in Countersymbolean war noch CxI/CxV. in CxD/CxZ geändert
+
+- Debug exception wenn man bei einem TX-Display Display im Eigenschaftsfenster kein Element auswaählt
+
+- Update auf Library 41, firmarw 1.06
+
+Änderungen in Version 2.1.1.10 gegenüber 2.1.1.9
+=================================================
+
+- Bei Befehl Rechts / Links / Ein war der Wert auf 8 begrenzt (jetzt 512)
+
+- Erweiterte Motorsteuerung in ROBO-IF Modus ausgeblendet
+
+Änderungen in Version 2.1.1.9 gegenüber 2.1.1.8
+=================================================
+
+- Fehlende Firmware Datei ergänzt
+
+Änderungen in Version 2.1.1.8 gegenüber 2.1.1.7
+=================================================
+
+- Update auf Library Version 40
+
+- Upate auf Firmware Version 1.05
+
+- Ergänzungen bei der Deutschen Hilfe
+
+Änderungen in Version 2.1.1.7 gegenüber 2.1.1.6
+=================================================
+
+- Update auf Library Version 39.3
+
+- Intialisierung der Counter Input polariaet fuer unbenutzte Module wieder entfernt (macht nun Library)
+
+- Hilfe / über Text überarbeitet
+
+Änderungen in Version 2.1.1.6 gegenüber 2.1.1.5
+=================================================
+
+- Bei manchen TX-Display Elementen war die Abfrage, ob das Element ausserhalb des Displays ist, fehlerhaft.
+
+- Timer Variablen zeigen immer Wert 3 an
+
+- Timer Variablen rendern Anfangswert nicht, auch wenn dieser nicht 0 ist
+
+- Level 3 Motorausgänge umschaltbar auf 512 Stufen
+
+- Level 3 single Ausgänge auf 512 umschaltbar
+
+- TX Testfenster Motoren auf 8/512 Stufen umschaltbar
+
+- Hinweismeldung zum Firmwareupdate erweitert
+
+- Fehler Beta "DisplayNegativeZahlen.rpp" behoben
+
+- Fehler Beta "Zeile913.rpp" behoben
+
+- Fehler Beta "Fehler_Programmflussverbindung.rpp" behoben
+
+Änderungen in Version 2.1.1.5 gegenüber 2.1.1.4
+=================================================
+
+- Update auf Library Version 39.2
+
+- Crash nach Firmwareupdate behoben
+
+- Problem inbertierung Counter I/Os behoben.
+
+- Beschreibung wurde nicht gesichert, wenn man vor dem Speichern das Fenster nicht gewechselt hat
+
+Änderungen in Version 2.1.1.4 gegenüber 2.1.1.3
+=================================================
+
+- Update auf Library Version 39.1
+
+- Neue Firmwareupdate Prozedur
+
+Änderungen in Version 2.1.1.3 gegenüber 2.1.1.2
+=================================================
+
+- Hilfe mit neuen Elementen verlinkt
+
+- Fehler im Verzweigungselement behoben (Verleichswert wird bei Programmstart auf 0 gesetzt)
+
+- Beim TX-Controller wird die komplette COM-Port Liste angezeigt, wenn "Über Seriennummer" ausgewählt wird.
+
+Änderungen in Version 2.1.1.2 gegenüber 2.1.1.1
+=================================================
+
+- Deutsche Hilfe aktualisiert
+
+- Motor reached input in Level von MRx in MxE umbenannt
+
+- Counter inputs CxI in CxD und CxV in CxC/CxZ umbenannt
+
+- Einige kleinere Nomenklaturbereinigungen in Dialogfenstern
+
+Änderungen in Version 2.1.1.1 gegenüber 2.1.1.0
+=================================================
+
+- Update auf neue Library Version 39, Firmware 1.04
+
+- Neuer USB Treiber wird installiert
+
+- Neue Firmware Update Funktion
+
+- Messaging Elemente im TX-Controller Modus ausgeblendet (noch nicht verfügbar)
+
+Änderungen in Version 2.1.1.0 gegenüber 2.1.0.2
+=================================================
+
+- Level 2 Element für erweiterte Motorsteuerung
+
+- Motoreingänge zur Level 2 Verzweigung hinzu gefügt 
+
+- Motoreingänge zum Level 2 warten auf Element hinzu gefügt
+
+- Übersetzung EN->DE aktualisiert
+
+- Unwandlung INT->FP48 des Wertes 0 korrigiert.
+
+- Gleitkommaarithmetik im Download Modus getestet
+
+  - Textanzeige korrigiert (war 2 Stellen verschoben)
+
+- Rundung der Genauigkeit in der Gleitkommaarithmetik korrigiert
+
+- Anzeige Verzweigung Level 2 analog korrigiert (immer Wert 3)
+
+- Fehlermeldungen im Interfacetest richtig abgefangen und angezeigt
+
+- Bei ROBO-TX COM Port Auswahl werden alle Ports angezeigt
+
+Änderungen in Version 2.1.0.2 gegenüber 2.1.0.1
+=================================================
+
+- Gleitkommaausgabe verbessert
+  #####         => -1234
+  #####.##      => -1234.00
+  #####,##      => -1234,00
+  ##.####^      => -1.234k
+  ##.####^#     => -1.234^3
+  ##.####^##    => -1.234^03
+  ##.####^^##   => -1.234E+03
+  ##.####^^#### => -1.234E+0003
+  Rundugn erfolgt auf die ausgewählte Anzahl von Stellen
+
+- Gleitkomma Parser akzeptiert , und . als Dezimaltrennzeichen
+
+- Gleitkomma-Anzeigegenauigkeit in Eigenschaftsfenstern erhöht, so dass alle Zahlen darstellbar sind
+
+- Repariert: In Gleitkomma-Liste lassen sich nur ganze Zahlen eintragen
+
+Änderungen in Version 2.1.0.1 gegenüber 2.1.0.0
+=================================================
+
+- Reapriert: Float Umschaltung bei Befehlselement geht nicht.
+
+- Neues Element: Typumwandlung Float->Int und Int->Float
+
+- Gleitkomma: Handhabung von 0, overflow und underflow überarbeitet
+
+- Kopieroperator des Level 2 Einpoligen Ausgangs repariert
+
+- Modus für Countereingänge entfernt
+  - Testfenster
+  - Level 3 Eingang
+  - Level 2 Verzweigung
+  - Level 2 Warten
+  - Level 2 Zähler
+
+- Spursensor für Countereingänge nicht mehr auswählbar
+  - Level 3 Eingang
+  - Level 2 Verzweigung
+  - Level 2 Warten
+  - Level 2 Zähler
+
+- Verschiedene kleinere Textänderungen
+
+- Gleitkomma: Gleitkommaelemente haben nun dickeren Ramen
+
+- Update auf Firmware 1.02 / Library Delivery 36
+
+Änderungen in Version 2.1.0.0 gegenüber 2.0.1.20
+=================================================
+
+- Gleitkomma funktioniert in folgenden Elementen (bisher nur einfache Tests):
+
+  - Verzweigung (alle 6 Vergelichspertionen)
+
+  - Liste
+
+  Siehe dazu auch die Bemerkungen zu 2.0.1.20
+
+- Copy-Constructor des Motorelements repariert
+
+- Keyboard Shortcuts für F5=Debug go und F8=Debug Step hinzugefügt
+
+Änderungen in Version 2.0.1.20 gegenüber 2.0.1.19
+=================================================
+
+- Automatische Firmwareaktualisierung aktiviert
+
+- Setup kopiert Firmware ins Installationsverzeichnis
+
+- Setup kopiert TXController USB Driver ins Installationsverzeichnis
+
+- Gleitkomma funktioniert in folgenden Elementen (bisher nur einfache Tests):
+
+  - Konstanten
+
+  - Variablen
+
+  - Operatoren
+
+  - Unterprogramm I/O
+
+  - Testbefehl
+
+  Bekannte Probleme mit Gleitkomma:
+
+  - Alle anderen Elemente sind noch in Arbeit
+
+  - Die Ausgabeformatierung ist zum Teil noch etwas merkwürdig
+
+  - Addition mit 0 kann wegen der fehlenden Normalisierung schief gehen.
+
+    0 wird im Moment als 0e+0 dargestellt, muss aber als 0e-MAX dargestellt werden.
+
+	Anderefalls ergibt z.B. 1e-100 + 0 = 0, da 1e-100 an den höheren Expeonenten der 0 angepasst wird.
+
+Änderungen in Version 2.0.1.19 gegenüber 2.0.1.18
+=================================================
+
+- Weitere Arbeiten an Gleitkomma (erste Elemente angeschlossen)
+
+- Crash im Auswahlfenster behoben
+
+- Fehlermeldung wenn bei Autokonvertierung Spursensor auf C-Input gemappt wird.
+
+- Autokonvertierung: Bei der Bestimmung der Eingangsart von Digitaleingängen wird das bisherige Bild (Spursensor oder nicht) berücksichtigt.
+
+Änderungen in Version 2.0.1.18 gegenüber 2.0.1.17
+=================================================
+
+- Bedienfeld und Anzeigeelemente logisch getrennt.
+  Man kann nun Bedienfeld- und Anzeigelemente mit gleichem Namen haben.
+
+- Fehler im Codegenerator bei Anzeigesimulation im Online-Modus behoben.
+
+- Fehler im Anzeige-Knopf und Anzeige-Slider behoben: Focus-ID war nach Erzeugung 0 und nicht 1.
+
+- Fehler in CodeGeneratorArm9, Zeile 1190 behoben.
+
+- Initialisierung der Transferarea wird nur bei tatsächlich verwendeten Modulen (mit I/O) durchgeführt
+  Bisher wurde die Initialsierung bei allen im Eigenschaftsfenster deklarierten Modulen durchgeführt.
+
+- 15k Eingangsmodus in diesen Eingabefensteren entfernt:
+  - Test Fenster
+  - Verzweigung Level 2 Digital
+  - Warten auf Änderung Level 2
+  - Zähler Level 2
+
+- 15k Eingangsmodus wird beim laden von Dateien umgewandelt in 5k für diese Elemente:
+  - Verzweigung Level 2 Digital
+  - Warten auf Änderung Level 2
+  - Zähler Level 2
+
+- Eingabemodus nur ab Level 4 änderbar bei
+  - Verzweigung Level 2 Digital
+  - Verzweigung Level 2 Analog
+  - Warten auf Änderung Level 2
+  - Zähler Level 2
+  - Eingang Level 3
+
+- Selektion des Eingangsmodus in Abhängikeit vom Sensor hat gefehlt bei:
+  - Warten auf Änderung Level 2
+  - Zähler Level 2 wxColour Red
+
+- Bei RoboIF->TXController Umwandlung: 
+  - Für D1A wird Ultrasonic mode verwnedet.
+
+- Bei TXController->RoboIF Umwandlung: 
+  - In Fällen, in denen der EIngangsmodus am TX-Controller nicht der ROBOIF Hardware entspricht, kommt eine Fehlermeldung.
+  - Die Eingangsart (digital/analog) wird immer korrekt umgewandelt, auch wenn es kein Mapping gibt oder etwas nicht stimmt.
+
+- Bei Level 2 Wartelementen:
+  - Dx durch Ix ersetzt
+  - CIx durch CxI ersetzt
+
+- Bei Level 2 Zählelement:
+  - Nachricht wenn CxI verwendet wird, dass dies nicht die HW Zähler verwendet
+  - In Darstellung Dx durch Ix ersetzt
+
+- Bei Level 2 Verzweigung:
+  - Ausgänge waren mit J/N statt 0/1 beschriftet (Änderung wirkt sich nur auf neu erstellte Elemente aus)
+
+- Im Toolbar ROBO-IF / ROBO-TX Toolbar-button hinzu gefügt
+
+- Eingangselemente werden mit rotem Rand gezeichnet, wenn der Typ mit dem Interface-UI nicht überein stimmt.
+  - Level 2 Verzweigung
+  - Level 2 Warten
+  - Level 2 Zähler
+  - Level 3 Eingang
+
+- Beim Umschalten der Umgebung kommt ein Hinweis, dass dies nicht das physikalische Interface umschaltet.
+
+- Automatischer Funktion zur Umwandlung der Eingangskonfiguration
+
+- Im Simulationsmodus war im Testfenster die I/O Konfiguration nicht sichtbar
+
+- Update auf MSC Delivery 34
+
+- Fortschritte bei Gleitkommaintegration
+
+Änderungen in Version 2.0.1.17 gegenüber 2.0.1.16
+=================================================
+
+Zu den für 2.0.1.16 gemeldeten Fehlern siehe unten.
+
+- Auf MSC Library Version 30 aktualisiert.
+
+- Gleitkomma im UI sichtbar! Bitte noch nicht verwenden!!!
+
+===== Meldungen zu 2.0.1.16 =====
+
+- Mindestanzahl der Prozesse im Eigenschaftsfenster lässt sich nicht ändern
+
+- In Testfenster ist Extension 1-8 auswählbar, in Elementen nur EM 1-3.
+
+
+Änderungen in Version 2.0.1.16 gegenüber 2.0.1.15
+=================================================
+
+- Blaue Elemente: Im Analogeingang ist der Ultraschallsensor noch nicht implementiert.
+
+- Ansteuerung ROBO Interface: Ich bekomme keine Verbindung zum ROBO Interface, das
+  an USB hängt. Gehe ich auf COM/USB wird das Interface im Auswahlfenster angezeigt.
+  Starte ich danach Interfacetest, kommt folgende Meldung:
+
+- Übernahme von Einstellungen der Universaleingänge implementiert. 
+
+- Schließt man das Testfenster ohne den eingeschalteten Motor zu stoppen,
+  läuft der Motor beim nächsten Start des Testfensters sofort wieder an.
+
+- Während das Programm im Onlinemodus lief ist nach ca. 2 Minuten plötzlich
+  die Verbindung zwischen PC und Interface abgebrochen.
+
+- Bei dem Programm Bluetooth-Impuls-Counter.rpp treten Fehler auf:
+
+- Onlinemodus (alle Ein- und Ausgänge am Master): 
+  ohne Extensions wird bei gleichen Zählimpulsen etwa die doppelte Strecke
+  zurückgelegt wie im Downloadmodus. Mit angeschlossenen Extensions werden 
+  Impulse fast nicht mehr gezählt und der Weg wird noch länger. Endtaster
+  funktioniert am Mastermodul. Wird der Endtaster am Extension 1 angeschlossen,
+  wird er zwar noch erkannt, aber die Impulse werden fast nicht mehr gezählt. 
+
+- Downlaodmodus:
+  Wenn alle Ein- und Ausgänge am Master sind und die Extensions nicht
+  angeschlossen, funktioniert das Programm. Eingänge an Extensions werden nicht
+  erkannt, am Master schon. Ausgänge an Extensions funktionieren. Zählimpulse
+  werden richtig gezählt.
+
+- Bei Programmstart wird ab und zu das Symbol erst ignoriert. 
+
+- D/A in Dialogboxen für Level 2 Verzweigung durch I ersetzt.
+
+- In Level 2 Einängen den 15k D/A Modus entfernt
+
+- Im Level 3 Eingang werden die 15k D/A Modi nur im Beta/Test-Modus (über Registry) angezeigt
+
+- Update auf Libraray delivery 29
+
+- Testfenster intern nochmal überarbeitet. 
+
+- Im Testfenster Textanzeigen für Motorwerte angeschlossen.
+
+- Im Testfenster die Slider im O-Modus auf (0..8)*64 eingestellt (waren vorher 0..512)
+
+- Größeres Memoryleak beim Download repariert.
+
+
+Änderungen in Version 2.0.1.15 gegenüber 2.0.1.14
+=================================================
+
+- blaue "Warten auf Eingang" Elemente funktionieren mit neuem Interface noch nicht
+
+- Programm Soccer Schuss.rpp funktioniert im Onlinemodus problemlos, im Download
+  wird der Tatser I1 nicht erkannt. Der Motor hält nicht an, wenn der Taster
+  gedrückt wird sondern läuft dauernd.
+
+- Sobald man im Elementgruppenfenster „Verzweigung, Warten...“ auswählt, erscheint
+  folgende Fehlermeldung und ROBO Pro stürzt ab (unhandeld exception)
+
+- Wenn Anzahl Prozesse >5, stürzt ROBO Pro beim Download des Programms ab.
+  Mindestanzahl der Prozesse lässt sich nicht ändern!
+
+- Bei Programmstart des Programms „Gabelstapler mit Lager“ muss im Hauptprogramm
+  unter dem Startsymbol ein Wartesymbol stehen, sonst fährt der Gabelstapler nicht
+  in seine Grundposition (Im Onlinemodus hat es manchmal funktioniert, im Download nie)
+
+- Beim Aufrufen des Interfacetests oder bei Programmstart im Onlinemodus erscheint
+  sporadisch die Meldung „device is open“. Dann kann man nicht mehr auf das Interface
+  zugreifen, muss ROBOPro beenden und neu starten. Anders kann man die Verbindung
+  zum Interface nicht wieder herstellen.
+
+- Ist bei der Schnittstellenauswahl „ROBO TX Controller“ aktiv, sollte keine serielle
+  Schnittstelle COM1 –COM4 auswählbar sein, da das neue Interface COM Ports nur als
+  virtuelle COM Ports über USB unterstützt.
+
+- Clickt man hier auf Abbrechen, kommt trotzdem die Schnittstellenauswahl.
+
+- Motorausgänge stehen auf 1, d.h. die Motoren müssen immer über den Schieber
+  schneller gestellt werden. Bisher standen die Schieber standardmäßig auf 8.
+
+- Blaue Elemente: Im Analogeingang ist der Ultraschallsensor noch nicht implementiert.
+
+- Blaue Elemente: Die Analogeingänge heißen A1-A8. Sie müssen auch I1-I8 heißen.
+
+- Programmstart im Onlinemodus: Erstes Symbol wird nicht ausgeführt, Motor startet
+  erst im zweiten Zyklus Siehe Programm unten.
+
+- Downloadmodus funktioniert nicht. Das Programm läuft zwar, ich kann es über das
+  Display stoppen. Der Motor funktioniert aber nicht (Programm wie oben)
+
+- Bei dem Programm Bluetooth-Impuls-Counter.rpp treten Fehler auf:
+
+- Testfenster lässt sich nicht zusammen mit Onlineprogramm öffnen
+
+- Testfenster für IF2008 komplett überarbeitet
+
+  - Motor / Single Umschaltung geht im Test fenster
+
+  - Multi-Interface Modus geht im Testfenster
+
+- Multi-Interface Modus für IF2008 aktiviert
+
+
+Änderungen in Version 2.0.1.14 gegenüber 2.0.1.13
+=================================================
+
+- Problem mit Slidern behoben. Es handelte sich um ein Problem im ROBOPro / GCC ABI Interface.
+
+Änderungen in Version 2.0.1.13 gegenüber 2.0.1.12
+=================================================
+
+! Es gibt massive Probleme, vermutlich mit Time-Slice Overflows.
+  Die Slider funktionieren an sich, nur bleibt bei Slidern mit feiner Einteilung
+  die Firmware einfach irgendwann stehen.
+
+- Schieberegler fertig gestellt
+
+- Problem in Version 2.0.1.12 mit Motorausgängen im Downloadmodus behoben (war ein Buildfehler)
+
+Änderungen in Version 2.0.1.12 gegenüber 2.0.1.11
+=================================================
+
+- MSC Library Version 27
+
+- Fehler Interner Programmfehler Datei: ftProObjcData.cpp Zeile: 7921" behoben.
+  Fehler ist aufgetreten, wenn zwei Variablen oder Operatoren an einen UP Messagequeue-Eingang angeschlossen worden sind.
+
+- Fehler bei der Griddarstellung behoben (bei gescrollten Fenstern)
+
+- Crash bei Simulationen mit Display im IF2003 Modus behoben.
+
+- ROBO Interface 2003/2008 in ROBO Interface / ROBO TX Controller umbenannt
+
+- Menü Interface in Environment umbenannt (kann man im Deutschen Oberfläche nennen)
+
+- Display Buttons voll funktionsfähig, inclsuive toggle buttons
+
+- Änderungen im Einstellungsfenster ändern das "modified"-Flag des Dokuments.
+
+- Einige Prozessfelder nur ab Level "Objekte" erlaubt.
+
+- Prozessfelder sind bis Level "Objekte" nur im Hauptprogramm veränderbar.
+
+- Unterstützung für Einzelausgänge
+
+  - Fehlermeldung wenn für einen Ausgang O unf M Elemente verwendet werden
+
+  - Setzen der Konfiguaration in der Transferarea
+
+Änderungen in Version 2.0.1.11 gegenüber 2.0.1.10
+=================================================
+
+- Uni-Ausgänge an erweitertes Motorsteuersystem angepasst
+
+- Speicher des erweiterten Motorsteuersystem beim Programmstart gelöscht
+
+Änderungen in Version 2.0.1.10 gegenüber 2.0.1.9
+================================================
+
+- Motor Synchronregelung auf Änderung des Impulszählers statt Änderung des Impulseingangs geändert.
+
+Änderungen in Version 2.0.1.9 gegenüber 2.0.1.8
+===============================================
+
+- Neue Befehle im Befehlselement: Synchronous
+
+- Level 3 Motorelemente (orange) verarbeiten einfachen Synchronbefehl (ohne Distanzangabe)
+
+Änderungen in Version 2.0.1.8 gegenüber 2.0.1.7
+===============================================
+
+- Neue Befehle im Befehlselement: Reset, Distanz, Position
+
+- Motorelement verarbeitet Reset Befehl und setzt den zum Motor gehörenden Zähler zurück
+
+- Neue Pseudoeingänge, mit denen abgefragt werden kann, ob der Motor sein Ziel erreicht hat.
+
+- Motorelement verarbeitet Distanz Befehl
+  
+  - Am Ende eines Distanzbefehls wird die Motorgeschwindigkeit verringert, um das Ziel nicht zu überfahren.
+
+  - Die Regelugn schafft es meistens, die Zielposition +0 oder +1 zu erreichen, in seltenen Fällen +2.
+
+  - Man könnte darüber nachdenken, auch Zielposition -1 als Ziel erreicht anzusehen.
+
+  - Die Regelung ist auch bei Last stabil. Sollte das Ziel nicht erreicht werden, wird die Motorspannung wieder erhöht.
+
+- Level 3 Eingang (orange) und Interface-Test unterstützen Ultraschallsensormodus.
+
+Änderungen in Version 2.0.1.7 gegenüber 2.0.1.6
+===============================================
+
+- Ausgabe auf Anzeige und Anzeigesimulation im Onlinemodus OK
+
+  - Jedes UP kann eine eigene Anzeige haben. Diese wird angezeigt, solange das UP ausgeführt wird.
+
+  - Linien und Rechtecke werden noch nicht dargestellt (nur Textelemente)
+
+  - Die textelemente kann man wie Bedienfeldelemente mit Variablen verbinden
+
+- Update auf neue MSC Library, Lieferung 24
+
+- Fehler im ARM Stack alignment behoben (Fehler in CodeGeneratorArm.cpp, Zeile 833)
+
+- "Warten auf Eingang" und "Impulszähler" (Level 1) unterstützen IF2008 Eingänge
+
+- Fehler in "Warten auf" und "Impulszähler" behoben (Level 1 und 3)
+
+- Counter Reset zum IF2008 Testfenster hinzugefügt.
+
+- Im Level 3 Eingang (orange) Unterstützung für Ultraschalleingänge hinzugefügt
+
+- Im Level 3 Eingang werden die Eingangsarten beim Ändern des Bildes automatisch gesetzt
+
+  - Für die blauen Elemente wird das noch nicht unterstützt!
+
+Änderungen in Version 2.0.1.6 gegenüber 2.0.1.5
+===============================================
+
+- Divisonsoperator auf ARM9 geht
+
+- Handling von 16-bit Überläufen auf ARM9 korrigiert
+
+- Handling von 16-bit Vergleichen auf ARM9 korrigiert (hat z.B. dazu geführt, dass Timer nicht beendet wurden)
+
+- Testcases Serie 04XX OK (Unterprogramme mit Daten IO)
+
+- Testcases Serie 05XX OK (Prozess start/stop)
+
+- Testcases Serie 06XX OK (Stack unwinding bei Abbruch lokaler Prozesse)
+
+- Testcases Serie 07XX OK (Nur-Data Programme (Flip Flops und ähnliches)
+
+- Testcases Serie 08XX OK (Lokale und globale Variablen, Namensbindung)
+
+- Testcases Serie 09XX OK (Listen, ohne lokal/global/gemischt/Namensbindung)
+
+- Testcases Serie 10XX..27XX noch nicht komplett getestet, keine bekannten Probleme
+
+- Variablen an UP Dateneingänge im "Any-Message" Modus ging nicht (auch für altes Interface)
+
+- UP Dateneingänge im "Any-Message" Modus müssen nicht mehr angeschlossen werden
+
+- Problem mit automatischen Variablentyp (lokal/Objekt) in UPs ohne Programmflusseingang und ohne Dateneingang.
+
+- Speicherlecks im ARM9 Codegenerator und an andren stellen behoben
+
+Änderungen in Version 2.0.1.5 gegenüber 2.0.1.4
+===============================================
+
+- Neue ftMscLib.dll mit verbesserten Zeitverhalten im Onlinemode
+
+- Testcases Serie 04XX Erste Programme laufen, aber noch nicht alle getestet ( Unterprogramme mit Dateneingängen )
+
+Änderungen in Version 2.0.1.4 gegenüber 2.0.1.0
+===============================================
+
+- Bugfixes für Download-Modus
+
+- Auto-Umwandlugn der Eingänge IF2003->IF2008 OK.
+
+- Testcases Serie 01XX OK ( Einfache Level 1 Programme )
+
+- Testcases Serie 02XX OK ( Einfache Programme (keine Unterprogramme) mit orangen I/Os )
+
+- Testcases Serie 03XX OK ( Tests für Input-Zustand beim Programmstart )
+
+- Testcases Serie 04XX Noch Probleme ( Unterprogramme mit Dateneingängen )
+
+- Testcases Serie 05XX-26XX Noch nicht getestet
+
+- Testcases Serie 27XX Noch Probleme ( Fehlerreports zum Interface 2008 )
+
+Änderungen in Version 2.0.1.0 gegenüber 2.0.0.0
+===============================================
+
+- Download Modus (erste Schritte) für Interface 2008
+
+Änderungen in Version 2.0.0.0 gegenüber 1.2.1.33
+================================================
+
+- Online modus für Interface 2008
+
+Änderungen in Version 1.2.1.33 gegenüber 1.2.1.31
+=================================================
+
+- Zusätzliche Beispieldateien für neue Baukästen.
+
+Änderungen in Version 1.2.1.31 gegenüber 1.2.1.30
+=================================================
+
+- Kleinere Korrekturen an den Handbüchern/Übersetzungen
+
+- Fehler im RF-Sender, wenn der Befehlswert direkt angegeben ist behoben.
+
+- Neue Firmware/Library Version 75/69
+
+Änderungen in Version 1.2.1.30 gegenüber 1.2.1.23
+=================================================
+
+- Kleinere Korrekturen an den Handbüchern
+
+- Korrekturen an Beispieldateinamen
+
+- Neue Firmware/Library Version 74/68
+
+Änderungen in Version 1.2.1.23 gegenüber 1.2.1.22
+=================================================
+
+- Symbole für neue Sensoren hinzugefügt.
+
+- Zusätzlicher Test um Unterprogramm I/Os im Hauptprogramm zu verbieten.
+
+- Problem dass Text in Funktion manchmal nicht eingefügt werden kann behoben.
+
+- Kleine Änderung in der Scopeauswahl für interne Variablen.
+
+- Neue Library und neue Firmware.
+
+- Benutzerdefinierte Nachrichten werden mit Translate.csv uebersetzt (vorher nur vordefinierte Nachrichten)
+
+- Neue Online-Hilfe Kapitel in Englisch & Niederländisch.
+
+- Distanzsensormode auf IF_DS_INPUT_ULTRASONIC umgeschaltet.
+
+Änderungen in Version 1.2.1.22 gegenüber 1.2.1.21
+=================================================
+
+- Interner Programmfehler wenn an einen Unterprogrammeingang fuer = Befehle sowohl = als auch andere Befehle geschickt werden.
+
+- Neues Programmelement zum austauschen des Wertes eines Befehls
+
+Änderungen in Version 1.2.1.21 gegenüber 1.2.1.20
+=================================================
+
+- Interner Programmfehler, wenn Elemente Befehle empfangen konnten, die nirgendwo geschickt worden sind.
+
+Änderungen in Version 1.2.1.20 gegenüber 1.2.1.19
+=================================================
+
+- Interner Programmfehler, wenn der Scope eines Warten auf Befehl Elements manuell eingestellt wurde behoben.
+
+- Beim schachteln von Unterprogrammeingängen mit 'Beliebiger Befehl' eingängen ist in einigen Fällen der
+  Message Id verloren gegengen.
+
+- Bei einigen internen Programmfehlern kam im Download modus ein 'unhandled exception'
+
+Änderungen in Version 1.2.1.19 gegenüber 1.2.1.18
+=================================================
+
+- Im RF-Empfänger (Level 2) und im Warten auf Befehl Element kann man nun ab Level 5
+  Den Scope und die Namensbindung der Befehlsqueues einstellen.
+
+- Im Eigenschaftsfenster des RF-Empfängers (Level 3) war die Scope Auswahl (ab Level 5)
+  nich verbunden.
+
+- Beim RF-Empfänger (Level 2) kann es zu internen Programmfehlern kommen (Befehls Id nicht gefunden).
+  
+Änderungen in Version 1.2.1.18 gegenüber 1.2.1.17
+=================================================
+
+- Addresse des fischertechink Forums aktualisiert
+
+- Befehlsfilter konnte am Eingang nur = Befehle verarbeiten, wenn der Befehl direkt
+  (nicht über einen UP-Eingang) gesendet worden ist.
+
+- Neuer Abschnitt 6.3 in der Anleitung.
+
+Änderungen in Version 1.2.1.17 gegenüber 1.2.1.16
+=================================================
+
+- Fehler bei der Darstellung der Unterprogrammauswahlleiste wenn Unterprogramm aus Bibliothek eingefügt wird behoben.
+
+Änderungen in Version 1.2.1.16 gegenüber 1.2.1.15
+=================================================
+
+- Statuseingänge für RF Kommunikation hinzugefügt (neuer Reiter im Level 3 Digital/Analogeingang).
+  Es ist noch nicht getestet welche der Statuseingänge im Downloadmodus funktionieren!
+
+- Onlinehilfe korrigiert.
+
+- Fehler in Befehlsqueuezuweisung korrigiert.
+
+- Fehler in Sprachübersetzung von Nachrichtennamen korrigiert.
+
+Änderungen in Version 1.2.1.15 gegenüber 1.2.1.14
+=================================================
+
+- Online Hilfe aktualisiert (nur Deutsch).
+  Neu sind die Abschnitte 4.4, 4.5, 6, 8.2
+
+Änderungen in Version 1.2.1.14 gegenüber 1.2.1.13
+=================================================
+
+- Neue Library 0.64 und Interface Firmware 0.71 um Problem mit RF-Online Modus zu beheben.
+
+- Firmware Update ist nun zwingend erforderlich, wenn ROBOPro mit einer neueren Firmware ausgeliefert wird.
+
+Änderungen in Version 1.2.1.13 gegenüber 1.2.1.12
+=================================================
+
+- COM Port im Eigenschaftsfenster des Level 2 RF Empfängers erst ab Level 4 sichtbar.
+
+- Aufruf von ClearFtMessageBuffer beim Programmstart (online und download) wieder entfernt (führt zu Problemen beim Start von download Programmen).
+
+Änderungen in Version 1.2.1.12 gegenüber 1.2.1.11
+=================================================
+
+- Meldung das Messaging via COM im Onlinemodus nicht unterstützt wird kommt nur noch wenn COM Messaging Elemente vorhanden sind.
+
+- Fehlermeldung das Interfaces über RF nicht gefunden werden, wenn in USB/COM 'über Seriennummer'
+  ausgewählt ist behoben.
+
+- Fehler dass download ins falsche Interface erfolgt, wenn das Interface nicht gefunden werden kann behoben.
+
+- Aufruf von ClearFtMessageBuffer beim Programmstart (online und download) hinzugefügt.
+
+- Fehler behoben: Wenn Unterprogramme Interfacezuweisungen enthalten, werden manche Inputnachrichten mehrfach geschickt, was
+  insbesondere bei RF Messaging sehr störend ist.
+
+- Beim Stop von Downloadprogrammen mit dem roten Knopf wurden die Interfaces im Fehlerfall nicht richtig geschlossen.
+
+- Problem mit Darstellung des Unterprogrammauswahlbalkens behoben
+
+- Im Unterprogrammauswahlfenster wird die erste Zeile der Doku als Tool-Tip dargestellt.
+  Wenn die erste Zeile mit einem Sprachkürzel und : beginnt, werden die ersten 10 Zeilen nach einer passenden Sprachvariante durchsucht.
+
+- Zähler und Queues für Level 2 "Warten auf Nachricht" Element global namensgebunden statt global
+
+Änderungen in Version 1.2.1.11 gegenüber 1.2.1.10
+=================================================
+
+- Update von wxWidgets 2.6.3 auf 2.7.1 um die Darstellungsprobleme in Dialogfenstern ("Löcher") zu behehebn.
+
+Änderungen in Version 1.2.1.10 gegenüber 1.2.1.9
+================================================
+
+- Versand und Empfang von Nachrichten über die serielle COM Schnittstelle (per Null-Modem Kabel) ist jetzt möglich (ab Level 4).
+
+- Einige kleinere Anpassungen bei der Levelzuordnung von Elementen der Eigenschaftsdialoge für die Sende- und Empfangselemente.
+
+Änderungen in Version 1.2.1.9 gegenüber 1.2.1.8
+===============================================
+
+- Der orange RF-Empfänger verfügt nun über die gleiche Gruppeneinteilung wie der blaue RF Empfänger, wobei
+  man aber nur eine Art (Direkt/Broadcast/Gruppe) auswählen kann.
+
+- Für Extensionmoduel AV und A1 (liegt wohl auf der Stiftleiste) hinzugefügt.
+
+- Im Interfacetest den Maximalwert der Balkenanzeigen fuer AV auf 1200 (12V) gesetzt.
+
+- Deutsche Programmübersetzung vervollständigt.
+
+Änderungen in Version 1.2.1.8 gegenüber 1.2.1.7
+===============================================
+
+- Es wird nun eine Einstellbare Zahl von Backupdateien mit Namen der Form <Dateiname>.<Version>.rpp angelegt.
+  Die maximale Zahl von Backups kann man über das Menü Bearbeiten/Einstellungen einstellen. Der Standardwert ist 3.
+  Die Versionsnummer wird bei jedem Speichervorgang hochgezählt.
+
+- Ausdruck der Titelzeile beim Drucken bei 600dpi (und nur da) viel zu klein.
+
+- RF-Empfänger in Level 3 verschoben.
+
+Änderungen in Version 1.2.1.7 gegenüber 1.2.1.6
+===============================================
+
+- Problem behoben dass Eingänge, die auf Datenverbindungen basieren, Änderungen in manchen Fällen etwas später
+  mitbekommen haben als Level-1 Verzweigungen auf Eingangswerte. Der Fehler wurde bei allen Elementen aus der
+  Gruppe "Verzweigung, Warten auf" behoben.
+
+- Änderung in Texten und Levelzuordnung des Eigenschafsdialogs zum Element "Sender"
+
+- Änderung in Texten und Levelzuordnung des Eigenschafsdialogs zum Element "Verzweigen wenn Befehl empfangen"
+
+- Befehlsgruppe "Kommunikation" in "Senden/Empfangen" umbenannt
+
+- Änderung in Texten und Levelzuordnung des Eigenschafsdialogs zum Element "Warten auf Befehl"
+
+- Wenn Dateien im Exporer umbenannt wurden, wurde der interne Dokumententitel zum Teil nicht anpepasst.
+
+- Eingang AV zum Testpanel hinzugefügt
+
+- Titel bei Druckfunktion hinzugefügt und Seitenränder korrigiet.
+
+- Fehler beim Drucken korrigiert: Drucken war nicht möglich wenn die Unterprogrammauswahlleiste den
+  Fokus hat (drucken direkt nach Auswahl eines Unterprogramms ohne in das Unterprogrammfenster zu klicken
+  oder einen Menüpunkt aufzurufen).
+
+Änderungen in Version 1.2.1.6 gegenüber 1.2.1.5
+===============================================
+
+- Die Motor links/rechts/stopp Buttons im Interfacetest funktionierten nicht mehr
+
+- Dialogboxen und Fehlermeldungen vom Englischen ins Deutsche übersetzt
+
+- Neues Level 4 (Benutzerdefinierte Befehle).
+  Elemente "Warten auf Befehl", "Befehlsfilter", "RF Dateneingang" nun ab Level 4 unter "Kommunikation"
+
+- Maximalgröße von Listen und Warteschlangengröße in "Warten auf Befehl" auf 1..32767 begrenzt
+
+- Meldungen am Ende eines Firmwareupdates an Interface angepasst
+
+- Form des "Warten auf Befehl" Elements in Raute geändert.
+  Bei bestehenden Programmen sollten die Elemente gelöscht und neu platziert werden.
+
+- Fehler beim setzen des Fensterfokus (Elemente löschen ging nicht immer) behoben
+
+Änderungen in Version 1.2.1.5 gegenüber 1.2.1.4
+===============================================
+
+- wxWidgets auf Version 2.6.3 aktualisiert um Probleme in Dialogdarstellung zu beheben
+
+- Fehler in Datenverbindungen behoben: Bisher mussten alle Aisgänge einer Datenverbindung
+  alle gesendeten Befehle verarbeiten können, aber es recith wenn jeder Befehl von
+  mindestens einem Ausgang verarbeitet werden kann.
+
+- Removed references to Microsoft Visual C DLLs (older versions of the ftLib required this)
+
+Änderungen in Version 1.2.1.4 gegenüber 1.2.1.3
+===============================================
+
+- Fehler im "Warten auf Befehl" ELement behoben
+
+Änderungen in Version 1.2.1.3 gegenüber 1.2.1.2
+===============================================
+
+- Neues Element "Warten aif Befehl". Dieses Element wird aehnlich wie der Befehlsfilter verwendet.
+
+- Crash wenn ein Objektprozess eine Nachricht aus einem Unterprogramm in einen lokalen Kontext schickt behoben.
+
+- Neues Level 4 eingeführt für alle Aspekte von benutzerdefinierten Befehlen. Bisheriges Level 4 ist nun Level 5.
+
+- Neue Firmare 0.67 (RoboInterface), 0.45 (RF-Datalink) und neue Library 0.62.
+
+  - Verkuerzung der Scan-Zeiten des Funkmoduls
+
+  - Funkparameter lassen sich per Funk aendern.
+
+Änderungen in Version 1.2.1.2 gegenüber 1.2.1.1
+===============================================
+
+- Anpassungen des Info-Teils des Test Fensters an die verschiedenen Module
+
+- Neues Element "Befehls-Filter".
+  Dieses Elemet ist in der Gruppe "Befehle" in Level 4 sichtbar.
+  Der Befehls-Filter hat einen Befehlseingang und einen Befehlsausgang. Wenn
+  am Eingang ein bestimmter Befehl eintrifft, wird am Ausgang ein anderer Befehl
+  mit gleichem Wert ausgegeben. Mit dem Befehlsfilter kann man eigene Befehle in
+  Standardbefehle umwandeln (Siehe tractor.rpp in Level 4 samples).
+
+- Einige neue Beispiele und die Ornder Level 1 ... Level 4 hinzugefuegt
+
+- Random-Bibliothek zur Bibliothek hinzu gefuegt
+
+- Sample Dateien sind nun read-only, so dass man sie nich aus versehen veraendert.
+
+Änderungen in Version 1.2.1.1 gegenüber 1.2.1.0
+===============================================
+
+- Verschiedene Bug-Fixes zu intenren Programmfehlern
+
+- Geschwindigkeit der Verbindungsaufnahme über USB verbessert. Die USB-Konfiguration wird
+  jetzt nur noch nach dem Start von ROBOPro und beim Aufruf des Verbindungsfensters (COM-USB
+  Knopf in der Werkzuegleiste) gescannt. Wenn ein Interface am USB oder Funk hinzugefügt
+  oder entfernt wurde, muss man nun den COM/USB Knopf druekcken.
+
+- Weitere Anpassungen des Info-Teils des Test Fensters
+
+Änderungen in Version 1.2.1.0 gegenüber 1.2.0.7
+===============================================
+
+- Es ist nun möglich an Dateneingänge von Unterprogrammen beliebige Nachrichten zu schicken.
+  In den vorherigen Versionen von ROBOPro konnte man nur die = Nachricht verwenden.
+  Es gibt nun im Eigenchaftsfenster der Unterprogrammdateneingänge eine entsprechende Einstellung
+  ( ab Level 4 ).
+
+- neues RF Nachrichtenempfänger-Element (orange Version mit Datenausgang)
+
+- Anpassungen des Info-Teils des Test Fensters
+
+Änderungen in Version 1.2.0.7 gegenüber 1.2.0.6
+===============================================
+
+- Wenn man der Eingang eines Unterprogrammaufrufs nicht die Nachricht verwendet hat, die der
+  Unterprogramm verwendet, gab es einen internen Programmfehler.
+
+
+Änderungen in Version 1.2.0.6 gegenüber 1.2.0.5
+===============================================
+
+Bekannte Fehler in 1.2.0.6:
+
+- Man kann den Ausgang eines RF-Empfängers nicht an einen Unterprogramm-Eingang anschließen.
+  Falls = Befehle verschickt werden, kann vorläufig zwischen RF-Empfänger und Unterprogramm-
+  Eingang ein Variablenelement gesetzt werden. Die = Befehle gehen durch das Variablenement
+  hindurch.
+
+Änderungen
+
+- seltener Crash beim starten eines Programms im Simulationsmodus behoben.
+
+Änderungen in Version 1.2.0.5 gegenüber 1.2.0.4
+===============================================
+
+Bekannte Fehler in 1.2.0.5:
+
+- Man kann den Ausgang eines RF-Empfängers nicht an einen Unterprogramm-Eingang anschließen.
+  Falls = Befehle verschickt werden, kann vorläufig zwischen RF-Empfänger und Unterprogramm-
+  Eingang ein Variablenelement gesetzt werden. Die = Befehle gehen durch das Variablenement
+  hindurch.
+
+Änderungen
+
+- Crash beim starten des Test-Fensters im Simulationsmodus behoben.
+
+Änderungen in Version 1.2.0.4 gegenüber 1.2.0.3
+===============================================
+
+Bekannte Fehler in 1.2.0.4:
+
+- Man kann den Ausgang eines RF-Empfängers nicht an einen Unterprogramm-Eingang anschließen.
+  Falls = Befehle verschickt werden, kann vorläufig zwischen RF-Empfänger und Unterprogramm-
+  Eingang ein Variablenelement gesetzt werden. Die = Befehle gehen durch das Variablenement
+  hindurch.
+
+Änderungen
+
+- AutoScope Entscheidungen und scope Entscheidungen für interne
+  Variablen überarbeitet (löste einige 'Main program has object data')
+  Probleme und Funktionsprobleme.
+
+- Im Funktionseigenschaftsfenster wurde in der Modulliste der Verbindungstyp
+  "Simulation" als "Unbekannt" angezeigt.
+
+- Crash beim Beenden von Programmen mit mehreren Interfaces behoben.
+
+- Vernünftige Fehlermeldung (statt Interner Programmfehler) wenn Objektdaten rekursiv eingebettet werden.
+
+- Bei Datenverbindungen mit mehreren Datenquellen wurde zum Teil der Scope
+  der ersten Datenquelle für alle Datenquellen verwendet.
+
+- Precompilation-Phase (wichtig für rekursive Funktionen) neu strukturiert.
+
+- Bei Boolschen Operatoren mit vielen Eingängen war der Sprungbereich von bedingten
+  Sprüngen zuweilen zu klein, was einen internen Programmfehler egeben hat
+
+- RF Sendebaustein für Verwendung in Level 2 überarbeitet
+
+- Neuer RF Empfangsbaustein für Level 2 hinzugefügt
+
+- Initialisierung für Abstandssensor hinzugefügt
+
+Änderungen in Version 1.2.0.3 gegenüber 1.2.0.2
+===============================================
+
+Bekannte Fehler in 1.2.0.3:
+
+- Man kann den Ausgang eines RF-Empfängers nicht an einen Unterprogramm-Eingang anschließen.
+  Falls = Befehle verschickt werden, kann vorläufig zwischen RF-Empfänger und Unterprogramm-
+  Eingang ein Variablenelement gesetzt werden. Die = Befehle gehen durch das Variablenement
+  hindurch.
+
+Änderungen:
+
+- Interner Programmfehler behoben, der auftritt, wenn man einen RF-Receiver an einen Lampen-Ausgang angeschlossen hat
+
+- Einige Fehler in den Eigenschaftsfenstern der RF-Elemente behoben
+
+- Umbenannt: Subkanal / Subchannel in Empfängergruppe / Recipient group
+
+- "Warten auf Befehl" Element entfernt (bis zur endgültigen Implementierung
+
+- Standard Versendungsart im RF-Sender: RF (nicht selbst)
+
+- COM Kanal aus Auswahl entfernt (funktioniert noch nicht)
+
+Änderungen in Version 1.2.0.2 gegenüber 1.2.0.1
+===============================================
+
+- Wenn beim RF-Transmitter der Nachrichtenpuffer überläuft wird der Task nicht umgeschaltet
+
+Änderungen in Version 1.2.0.1 gegenüber 1.2.0.0
+===============================================
+
+- Versendung von beliebigen Nachtichten (nicht nur = )
+
+Änderungen in Version 1.2.0.0 gegenüber 1.1.2.41
+================================================
+
+- Unterstützung für Nachrichtenaustasuch via RF-Datalink
+
+- Panelmeter: Wertebereich für Tickmarkenabstand von 100 auf 10.000 erhöht
+
+Änderungen in Version 1.1.2.41 gegenüber 1.1.2.40
+=================================================
+
+- Neue ftLib und neue Firmware mit RF-DataLink support
+  
+- Automatischer Firmwareupdate fuer RF-DataLink und ROBO I/O Extension
+
+- Hinweisfenster erscheint, wenn die Funkverbindung unterbrochen ist.
+
+
+Änderungen in Version 1.1.2.40 gegenüber 1.1.2.26
+=================================================
+
+Hinweis: Alle Versionen zwischen 1.1.2.26 und 1.1.2.40 sind nicht
+freigegebene Betaversionen.
+
+- Beispieldateien für Industry Robots II hinzugefügt.
+
+- Listeninhalte kann man nun auch aus einem CSV Zwischenspeicher laden und in
+  einen CSV Zwischenspeicher speichern. Den Zwischenspeicher kann man dann
+  über das Datei Menü in eine Datei speichern oder aus einer Datei laden.
+  Dadurch kann man verschiedene CSV Dateien verwenden, ohne das Programm
+  ändern zu müssen. Das ist insbesondere für Teach-In Programme praktisch.
+  Der CSV Zwischenspeicher muss vor dem Programmstart geladen und nach
+  Programmende gespeichert werden.
+
+- Druckknöpfe im Bedienpanel und Anzeigelampen werden nun beim Programmstart
+  wieder zurück gesetzt. Bei Druckschaltern kann man den Anfangszustand
+  im Eigenschaftsfenster einstellen.
+
+- Der Codegenerator von ROBOPro wurde komplett überarbeitet. Die Überarbeitung
+  war Notwendig um einen Absturz in 1.1.2.26 zu beseitigen der unter
+  bestimmten Voraussetzungen auftrat, wenn man eine lokale Variable oder
+  andere lokale Datenquelle an Unterprogrammeingänge mit Objekttyp
+  angeschlossen hatte. Die Versionen zwischen 1.1.2.26 und 1.1.2.40 waren
+  nötig um die ganzen durch die Überarbeitung neu entstandenen Fehler zu
+  beseitigen. Da diese Fehler weder in 1.1.2.26 und früher noch in 1.1.2.40
+  oder später auftreten, erspare ich mir hier eine Auflistung all dieser
+  Fehler. 
+
+  Da der überarbeitete Codegenerator leistungsfähiger ist, wurden auch
+  einige Neuerungen eingeführt, die alte Unzulänglichkeiten beseitigen:
+
+  - Ein Dateneingang für Unterprogramme kann nun mit mehreren Datenquellen
+    (Befehlselementen) verbunden werden.
+
+  - Bei Variablen und Listen kann man ab Level 3 einstellen, ob die Werte
+    namensgebunden sind oder nicht. Bisher waren globale Variablen und
+    Listen namensgebunden, das heißt dass globale Variablen oder Listen mit
+    gleichem Namen immer den gleichen Wert haben. Lokale Variablen oder
+    Listen waren dagegen bisher nicht namensgebunden, das heißt zwei lokale
+    Variablen oder Listen mit gleichem Namen konnten selbst im gleichen
+    Unterprogramm verschiedene Werte haben konnten. Ab Version 1.1.2.40 kann
+    man nun bei globalen und lokalen (und auch Objektvariablen) einstellen, ob
+    Namensbindung gewünscht wird oder nicht. Standardmäßig sind nun alle
+    Variablen namensgebunden. Alte Programme werden jedoch mit der bisherigen
+    Semantik (lokal nicht namensgebunden) geladen.
+
+  - Bei Listen kann man ab Level 4 für die Indexvariable den Typ (lokal,
+    global, ...) und auch die Namensbindung getrennt vom Listenspeicher
+    einstellen. Das hat den Vorteil, dass man zum Beispiel für eine globale
+    Liste bei jeder Verwendung einen eigenen Wert für den Index haben kann.
+    Bisher hatte eine Liste auch nur einen Indexwert, was in der Regel recht
+    unpraktisch ist. Standardmäßig haben Indexvariablen den gleichen Typ
+    (lokal, global, ...) wie die Listendaten, sind aber nicht namensgebunden.
+    Alte Programme werden jedoch mit der bisherigen Semantik (global
+    namensgebunden) geladen.
+
+
+Änderungen in Version 1.1.2.26 gegenüber 1.1.2.11
+=================================================
+
+In diesen Versionen wurden im Wesentlichen Fehler korrigiert.
+
+Die einzige Verbesserung ist die "ROBOPro entscheidet" Option bei Variablen
+und Listentypen (lokal, global). Siehe Version 1.1.2.21. 
+
+Fehler behoben in 1.1.2.26
+--------------------------
+
+- Wenn im Hauptprogramm kein Unterprogramm mit Flusseingang aufgerufen wird,
+  werden globale Prozesse in Unterprogramm ohne Flusseingang nicht übersetzt
+  (=> Interner Programmfehler)
+
+Fehler behoben in 1.1.2.25
+--------------------------
+
+- Wenn bei Unterprogrammaufrufen ein Ausgang nicht angeschlossen ist,
+  erscheint Fehlermeldung "Interner Programmfehler, Befehlsempfänger konnte
+  nicht erstellt werden"
+
+- Wenn ein Befehlselement an einen Unterprogrammaufruf im Hauptprogramm
+  angeschlossen wird, erscheint Meldung "Interner Programmfehler, Main
+  program has local data".
+
+- Prozessstartelemente in Unterprogrammen mit Scope "ROBOPro entscheidet"
+  haben jetzt Scope "Objekt", wenn das Unterprogramm keinen
+  Programmflusseingang hat.
+
+- Im Testpanel/Info werden die Seriennummern jetzt wie überall in Hex
+  angezeigt.
+
+- ROBOPro hängt wenn im Einzelschritt über das Programmende hinaus gegangen
+  wird.
+
+- Einige Fehlermeldungen haben ein ganzes Unterprogramm selektiert (was nicht
+  mehr rückgängig zu machen war)
+
+- Fehler "Eine unerwartete Situation ist eingetreten." bei bestimmten
+  rekursiven Programmen.
+
+- Wenn ein Prozess im Einzelschrittmodus beendet wird, werden in anderen
+  Prozessen zum Teil zwei Schritte ausgeführt.
+
+- Wenn in einem Unterprogramm globale Prozesse und lokale Variablen verwendet
+  werden crasht ROBOPro
+
+- Bei Verzögerungselement wird bei 0,12 eine zu große Zahl von Stellen
+  angezeigt
+
+Fehler behoben in 1.1.2.24
+--------------------------
+
+- Wenn man im Eigenschaftsfenster des Hauptprogramms eine Moduldefinition
+  bearbeitet, aber nichts ändert, gibt es eine USB Fehlermeldung, wenn man das 
+  Programm stoppt.
+
+Fehler behoben in 1.1.2.23
+--------------------------
+
+- Im Simulationsmodus hängt ein Programm manchmal für 30 Sekunden in
+  Wartebeaustein
+
+Fehler behoben in 1.1.2.22
+--------------------------
+
+- Crash des Compilers, wenn man eine "Aus" Nachricht an eine Bedienfeldlampe
+  schickt.
+
+Verbesserungen in 1.1.2.21
+--------------------------
+
+- reine Elektroniksimulationsprogramme (ohne blaue Linien/Elemente) lassen
+  sich nun auch ohne Level 4 Einstellungen erstellen. Bei den Unterprogramm
+  I/Os und bei den Unterprogrammaufrufen ist in Level 4 die Option "ROBOPro
+  entscheidet" hinzugekommen. Im Hauptprogramm und Programmen mit globalen
+  Prozessen verwendet ROBOPro globale Variablen. Bei Unterprogrammen, die
+  keine Programmflusseingänge haben verwendet ROBOPro Objektvariablen. In
+  allen anderen Fällen verwendet ROBOPro lokale Variablen. Der von ROBOPro
+  ausgewählte Typ wird nach der Übersetzung im Eigenschaftsfenster angezeigt. 
+
+- Fixes einiger schwer reproduzierbarer Fehler im Compiler
+
+
+Änderungen in Version 1.1.2.11 gegenüber 1.1.2.8
+================================================
+
+- Die online Hilfe wurde deutlich verbessert. Die Hilfe zu einem
+  Programmelement ist nun durch  einen rechten Mausklick auf das Element im
+  Programmelementefenster möglich.
+
+- Korrektur von verschiedenen "Internen Programmfehlern", und Abstürzen.
+
+
+Änderungen in Version 1.1.2.8 gegenüber Betaversionen
+=====================================================
+
+Die Version 1.1.2.8 war die erste verkaufte Version. Zu den vorhergehenden
+Betaversionen gibt es unzählige Unterschiede, da ROBOPro während der
+Entwicklung auch konzeptionell mehrfach überarbeitet wurde. Soweit mir bekannt 
+ist sind jedoch die aktuellen Versionen zu allen mit Betaversionen
+entwickelten ROBOPro Programmen kompatibel, mit der folgenden Ausnahme: In
+Version 1.1.2.3 wurde die Funktionsweise der Textanzeige für Bedienfelder
+verändert. In den älteren Versionen war in der Textanzeige ein Zahlenwert
+gespeichert, in den neueren Versionen ist in der Textanzeige ein Textwert
+gespeichert. Man kann der Textanzeige nach wie vor Zahlenwerte mit = Befehlen
+zuweisen, die dann automatisch in Text umgewandelt werden. Es sind jedoch
+keine arithmetischen Befehle an die Textanzeige mehr möglich (+, -), was vor
+1.1.2.3 möglich war. In Programmen die dies verwenden muss man zwischen den
+Befehlen und dem Bedienfeldausgang im Programm einen Variablenbaustein setzen. 
+Die Variable erledigt dann die arithmetischen Operationen und schickt den
+jeweiligen Wert an die Anzeige weiter.
