@@ -1,26 +1,26 @@
 
-WebDAV Client CarotDAV Ver. 1.10.1
+WebDAV Client CarotDAV Ver. 1.10.7
 
 Abstract
 	WebDAV client for windows OS.
 	FTP/FTPS, DropBox, GoogleDrive, SkyDrive, Box, SugarSync is also supported.
 
 Environment
-	Windows 2000, XP, 2003, Vista, 2008, 7, 8
+	Windows 2000, XP, 2003, Vista, 2008, 7, 2012, 8
 	.Net Framework 2.0/4.0
 	(tested on IIS6, IIS7, Apache2.2/2.1, and other servers)
 
 Complied standards, features
 	WebDAV
 	FTP/FTPS
-	DropBox / GoogleDrive / SkyDrive / Box / SugarSync
+	DropBox / GoogleDrive / SkyDrive / Box / SugarSync / Copy
 	IMAP
 	Resume
 	Auto Split
 	Encrypt/Verify
 	URI (RFC3986)
 	Unicode Normalization (Unicode Standard Annex #15)
-	Master Password
+	Master Password(XML-Enc)
 	TLS1.1/1.2 (over .Net4.0)
 
 How to install/uninstall
@@ -34,7 +34,6 @@ License, Charge, Donation
 	This software is free of charge.
 	You can use it personally or commercially.
 	You are also allowed to distribute secondary, fix/alter, do reverse-engineering.
-	If you need source code of this software, contact to the author.
 	
 	Donations are accepted at the primary distribution site.
 

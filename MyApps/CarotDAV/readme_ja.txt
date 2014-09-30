@@ -1,26 +1,26 @@
 
-WebDAV Client CarotDAV Ver. 1.10.1
+WebDAV Client CarotDAV Ver. 1.10.7
 
 概要
 	Windows用のWebDAVクライアントです。
 	おまけでFTP/FTPSや各種オンラインサービスにアクセスできるかもしれません。
 
 動作環境
-	Windows 2000, XP, 2003, Vista, 2008, 7, 8
+	Windows 2000, XP, 2003, Vista, 2008, 7, 2012, 8
 	要.Net Framework 2.0/4.0
 	(IIS6、IIS7、Apache2.2/2.1、その他のサーバーで動作確認)
 
 対応規格等
 	WebDAV
 	FTP/FTPS
-	DropBox / GoogleDrive / SkyDrive / Box / SugarSync
+	DropBox / GoogleDrive / SkyDrive / Box / SugarSync / Copy
 	Host-specific file names
 	IMAP
 	Unicode正規化(Unicode Standard Annex #15)
 	ダウンロード・アップロードレジューム
 	自動分割
 	暗号化・ファイル検証
-	マスターパスワード
+	マスターパスワード(XML-Enc)
 	TLS1.1/1.2 (.Net4.0以降)
 	詳細は一次配布サイト(http://rei.to/carodav.html)を参照ください。
 
