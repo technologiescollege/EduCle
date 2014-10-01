@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-02 00:56+0200\n"
-"PO-Revision-Date: 2013-05-02 00:56+0200\n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
+"PO-Revision-Date: 2014-07-10 22:52+0200\n"
 "Last-Translator: Anonymous Pootle User\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: mn\n"
@@ -307,13 +307,16 @@ msgid "set instrument to %d.instrument"
 msgstr "%d.instrument хөгжим сонго"
 
 # 89%
+# 86%
+# 97%
 #, fuzzy
-msgid "set motor direction %m.motorDirection"
+msgid "set %m.motor2 direction to %m.motorDirection"
 msgstr "%m.motorDirection хөдөлгүүрийн чиг"
 
 # 77%
+# 75%
 #, fuzzy
-msgid "set motor power %n"
+msgid "set %m.motor power to %n"
 msgstr "хөдөлгүүр %n чадалтай"
 
 msgid "set pen color to %c"
@@ -411,15 +414,16 @@ msgstr ""
 msgid "turn @turnRight %n degrees"
 msgstr ""
 
-msgid "turn motor off"
+msgid "turn %m.motor off"
 msgstr ""
 
-msgid "turn motor on"
+msgid "turn %m.motor on"
 msgstr ""
 
 # 80%
+# 89%
 #, fuzzy
-msgid "turn motor on for %n secs"
+msgid "turn %m.motor on for %n secs"
 msgstr "%n секунд хөдөлгүүр асаах"
 
 msgid "turn video %m.videoState"
@@ -448,6 +452,9 @@ msgstr "%m.booleanSensor мэдэр?"
 msgid "when %m.key key pressed"
 msgstr "хэзээ %m.key дарагдсан"
 
+msgid "when %m.sensor %m.lessMore %n"
+msgstr ""
+
 msgid "when %m.triggerSensor > %n"
 msgstr ""
 
@@ -458,7 +465,7 @@ msgstr "хэзээ @greenFlag дарагдвал"
 msgid "when backdrop switches to %m.backdrop"
 msgstr ""
 
-msgid "when distance < %n"
+msgid "when distance %m.lessMore %n"
 msgstr ""
 
 msgid "when I receive %m.broadcast"
@@ -467,10 +474,13 @@ msgstr ""
 msgid "when I start as a clone"
 msgstr ""
 
+msgid "when Stage clicked"
+msgstr ""
+
 msgid "when this sprite clicked"
 msgstr ""
 
-msgid "when tilt = %n"
+msgid "when tilt %m.eNe %n"
 msgstr ""
 
 msgid "x position"
@@ -478,6 +488,39 @@ msgstr "x - утга"
 
 msgid "y position"
 msgstr "y - утга"
+
+# 89%
+#, fuzzy
+msgid "set motor direction %m.motorDirection"
+msgstr "%m.motorDirection хөдөлгүүрийн чиг"
+
+# 77%
+#, fuzzy
+msgid "set motor power %n"
+msgstr "хөдөлгүүр %n чадалтай"
+
+msgid "turn motor off"
+msgstr ""
+
+msgid "turn motor on"
+msgstr ""
+
+# 80%
+#, fuzzy
+msgid "turn motor on for %n secs"
+msgstr "%n секунд хөдөлгүүр асаах"
+
+msgid "when distance < %n"
+msgstr ""
+
+msgid "when tilt = %n"
+msgstr ""
+
+# 89%
+# 86%
+#, fuzzy
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "%m.motorDirection хөдөлгүүрийн чиг"
 
 #~ msgid "forever if %b"
 #~ msgstr "%b нь үнэн бол үргэлж"
@@ -510,8 +553,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-19 20:54+0200\n"
-"PO-Revision-Date: 2013-07-19 20:54+0200\n"
+"POT-Creation-Date: 2013-08-01 08:55+0200\n"
+"PO-Revision-Date: 2014-05-27 21:30+0200\n"
 "Last-Translator: Anonymous Pootle User\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: mn\n"
@@ -533,6 +576,15 @@ msgstr ""
 msgid "a copy of the project file on your computer."
 msgstr ""
 
+msgid "About"
+msgstr ""
+
+msgid "About LEGO WeDo extension..."
+msgstr ""
+
+msgid "About PicoBoard extension..."
+msgstr ""
+
 msgid "abs"
 msgstr "abs"
 
@@ -540,6 +592,9 @@ msgid "Account settings"
 msgstr ""
 
 msgid "acos"
+msgstr ""
+
+msgid "Add an Extension"
 msgstr ""
 
 msgid "Add boolean input:"
@@ -564,6 +619,9 @@ msgid "all"
 msgstr "бүгд"
 
 msgid "all around"
+msgstr ""
+
+msgid "all motors"
 msgstr ""
 
 msgid "Animal"
@@ -901,7 +959,16 @@ msgstr ""
 msgid "Error!"
 msgstr ""
 
+msgid "everything"
+msgstr ""
+
 msgid "export"
+msgstr ""
+
+msgid "Extension Library"
+msgstr ""
+
+msgid "Extension Problem"
 msgstr ""
 
 msgid "fade in"
@@ -973,6 +1040,9 @@ msgstr ""
 msgid "Hand Clap"
 msgstr "Алга ташилтын дуу"
 
+msgid "Hardware"
+msgstr ""
+
 msgid "hide"
 msgstr ""
 
@@ -1020,6 +1090,9 @@ msgstr "зүүн сум"
 msgid "left-right"
 msgstr ""
 
+msgid "LEGO WeDo"
+msgstr ""
+
 msgid "length"
 msgstr ""
 
@@ -1027,6 +1100,11 @@ msgid "Library"
 msgstr ""
 
 msgid "light"
+msgstr "гэрэл"
+
+# 83%
+#, fuzzy
+msgid "lights"
 msgstr "гэрэл"
 
 msgid "limit reached"
@@ -1109,6 +1187,15 @@ msgstr "хээ"
 msgid "motion"
 msgstr ""
 
+msgid "motor"
+msgstr ""
+
+msgid "motor A"
+msgstr ""
+
+msgid "motor B"
+msgstr ""
+
 msgid "mouse-pointer"
 msgstr "хулганы заагч"
 
@@ -1174,6 +1261,9 @@ msgid "No motion blocks"
 msgstr ""
 
 msgid "normal readout"
+msgstr ""
+
+msgid "not ="
 msgstr ""
 
 msgid "Not saved; network or server problem."
@@ -1298,6 +1388,9 @@ msgstr ""
 msgid "Remixing..."
 msgstr ""
 
+msgid "Remove extension blocks"
+msgstr ""
+
 msgid "Rename"
 msgstr ""
 
@@ -1380,6 +1473,9 @@ msgid "second"
 msgstr ""
 
 msgid "See project page"
+msgstr ""
+
+msgid "See the Tips window (on the right) to install the plug-in and get the extension working."
 msgstr ""
 
 msgid "Select"

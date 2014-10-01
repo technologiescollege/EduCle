@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-02 00:56+0200\n"
-"PO-Revision-Date: 2013-05-02 15:13+0200\n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
+"PO-Revision-Date: 2013-11-22 13:18+0200\n"
 "Last-Translator: Karel <janda@ccs.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -153,14 +153,16 @@ msgstr "klouzej %n sekund na x:%n y:%n"
 msgid "go back %n layers"
 msgstr "jdi do pozadí o %n urovní"
 
+# J.Vaníček
 msgid "go to %m.spriteOrMouse"
-msgstr "jdi na %m.spriteOrMouse"
+msgstr "skoč na %m.spriteOrMouse"
 
 msgid "go to front"
 msgstr "jdi do popředí"
 
+# J.Vaníček
 msgid "go to x:%n y:%n"
-msgstr "jdi na pozici x:%n y:%n"
+msgstr "skoč na pozici x:%n y:%n"
 
 msgid "hide"
 msgstr "skryj se"
@@ -245,8 +247,9 @@ msgstr "pero dolů"
 msgid "pen up"
 msgstr "pero nahoru"
 
+# J.Vaníček
 msgid "pick random %n to %n"
-msgstr "zvol náhodné číslo od %n do %n"
+msgstr "náhodné číslo od %n do %n"
 
 msgid "play drum %d.drum for %n beats"
 msgstr "bubnuj %d.drum příštích %n taktů"
@@ -309,12 +312,17 @@ msgstr "nastav nástroj %d.instrument"
 
 # 89%
 # 100%
-msgid "set motor direction %m.motorDirection"
+# 86%
+# 97%
+#, fuzzy
+msgid "set %m.motor2 direction to %m.motorDirection"
 msgstr "nastav směr motoru %m.motorDirection"
 
 # 77%
 # 100%
-msgid "set motor power %n"
+# 75%
+#, fuzzy
+msgid "set %m.motor power to %n"
 msgstr "nastav sílu motoru %n"
 
 msgid "set pen color to %c"
@@ -336,7 +344,7 @@ msgid "set size to %n%"
 msgstr "nastav velikost na %n%"
 
 msgid "set tempo to %n bpm"
-msgstr "nastav tempo na %n bpm"
+msgstr "nastav tempo na %n taktů/min"
 
 msgid "set video transparency to %n%"
 msgstr "nastav průhlednost videa na %n%"
@@ -412,15 +420,21 @@ msgstr "otoč se o @turnLeft %n stupňů"
 msgid "turn @turnRight %n degrees"
 msgstr "otoč se o @turnRight %n stupňů"
 
-msgid "turn motor off"
+# 82%
+#, fuzzy
+msgid "turn %m.motor off"
 msgstr "vypni motor"
 
-msgid "turn motor on"
+# 81%
+#, fuzzy
+msgid "turn %m.motor on"
 msgstr "zapni motor"
 
 # 80%
 # 100%
-msgid "turn motor on for %n secs"
+# 89%
+#, fuzzy
+msgid "turn %m.motor on for %n secs"
 msgstr "zapni motor na %n s"
 
 msgid "turn video %m.videoState"
@@ -450,6 +464,9 @@ msgstr "když %m.booleanSensor"
 msgid "when %m.key key pressed"
 msgstr "po stisku klávesy %m.key"
 
+msgid "when %m.sensor %m.lessMore %n"
+msgstr ""
+
 msgid "when %m.triggerSensor > %n"
 msgstr "když %m.triggerSensor > %n"
 
@@ -460,8 +477,8 @@ msgstr "po kliknutí na @greenFlag"
 msgid "when backdrop switches to %m.backdrop"
 msgstr "po změně pozadí na %m.backdrop"
 
-msgid "when distance < %n"
-msgstr "když vzdálenost < %n"
+msgid "when distance %m.lessMore %n"
+msgstr ""
 
 msgid "when I receive %m.broadcast"
 msgstr "po obdržení zprávy %m.broadcast"
@@ -469,17 +486,54 @@ msgstr "po obdržení zprávy %m.broadcast"
 msgid "when I start as a clone"
 msgstr "když startuji jako klon"
 
+msgid "when Stage clicked"
+msgstr ""
+
 msgid "when this sprite clicked"
 msgstr "po kliknutí na mě"
 
-msgid "when tilt = %n"
-msgstr "když sklon = %n"
+msgid "when tilt %m.eNe %n"
+msgstr ""
 
 msgid "x position"
 msgstr "pozice x"
 
 msgid "y position"
 msgstr "pozice y"
+
+# 89%
+# 100%
+msgid "set motor direction %m.motorDirection"
+msgstr "nastav směr motoru %m.motorDirection"
+
+# 77%
+# 100%
+msgid "set motor power %n"
+msgstr "nastav sílu motoru %n"
+
+msgid "turn motor off"
+msgstr "vypni motor"
+
+msgid "turn motor on"
+msgstr "zapni motor"
+
+# 80%
+# 100%
+msgid "turn motor on for %n secs"
+msgstr "zapni motor na %n s"
+
+msgid "when distance < %n"
+msgstr "když vzdálenost < %n"
+
+msgid "when tilt = %n"
+msgstr "když sklon = %n"
+
+# 89%
+# 100%
+# 86%
+#, fuzzy
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "nastav směr motoru %m.motorDirection"
 
 #~ msgid "user name"
 #~ msgstr "jméno uživatele"
@@ -536,8 +590,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-19 20:51+0200\n"
-"PO-Revision-Date: 2013-07-30 14:59+0200\n"
+"POT-Creation-Date: 2013-08-01 08:55+0200\n"
+"PO-Revision-Date: 2013-11-22 14:09+0200\n"
 "Last-Translator: Karel <janda@ccs.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -562,14 +616,26 @@ msgstr "A propojeno"
 msgid "a copy of the project file on your computer."
 msgstr "kopie souboru s projektem na tvém počítači."
 
+msgid "About"
+msgstr ""
+
+msgid "About LEGO WeDo extension..."
+msgstr ""
+
+msgid "About PicoBoard extension..."
+msgstr ""
+
 msgid "abs"
-msgstr "absolutní hodnota"
+msgstr "abs"
 
 msgid "Account settings"
 msgstr "Nastavení účtu"
 
 msgid "acos"
 msgstr "arccos"
+
+msgid "Add an Extension"
+msgstr ""
 
 # 90%
 msgid "Add boolean input:"
@@ -597,6 +663,9 @@ msgstr "všechno"
 
 msgid "all around"
 msgstr "dokola"
+
+msgid "all motors"
+msgstr ""
 
 msgid "Animal"
 msgstr "Zvíře"
@@ -796,10 +865,10 @@ msgid "Connecting to Cloud data server..."
 msgstr "Spojování s Cloud data serverem..."
 
 msgid "Convert to bitmap"
-msgstr "Konverze na bitmapu"
+msgstr "Převést na bitmapu (dlouhé)"
 
 msgid "Convert to vector"
-msgstr "Konverze na vektor"
+msgstr "Převést na vektor"
 
 msgid "Converting mp3..."
 msgstr "Konvertuji mp3..."
@@ -945,8 +1014,17 @@ msgstr "Šířka gumy"
 msgid "Error!"
 msgstr "Chyba!"
 
+msgid "everything"
+msgstr ""
+
 msgid "export"
 msgstr "export"
+
+msgid "Extension Library"
+msgstr ""
+
+msgid "Extension Problem"
+msgstr ""
 
 msgid "fade in"
 msgstr "rozednívat"
@@ -1017,6 +1095,9 @@ msgstr "Kytara"
 msgid "Hand Clap"
 msgstr "Tlesknutí"
 
+msgid "Hardware"
+msgstr ""
+
 msgid "hide"
 msgstr "skrýt"
 
@@ -1063,6 +1144,9 @@ msgstr "šipka vlevo"
 msgid "left-right"
 msgstr "jen vlevo-vpravo"
 
+msgid "LEGO WeDo"
+msgstr ""
+
 msgid "length"
 msgstr "délka"
 
@@ -1070,6 +1154,11 @@ msgid "Library"
 msgstr "Knihovna"
 
 msgid "light"
+msgstr "světlo"
+
+# 83%
+#, fuzzy
+msgid "lights"
 msgstr "světlo"
 
 msgid "limit reached"
@@ -1080,7 +1169,7 @@ msgstr "Úsečka"
 
 # 90%
 msgid "Line width"
-msgstr "Šířka úsečky"
+msgstr "Šířka čáry"
 
 # 75%
 msgid "list"
@@ -1152,6 +1241,15 @@ msgstr "mozaika"
 msgid "motion"
 msgstr "pohyb"
 
+msgid "motor"
+msgstr ""
+
+msgid "motor A"
+msgstr ""
+
+msgid "motor B"
+msgstr ""
+
 msgid "mouse-pointer"
 msgstr "ukazatel myši"
 
@@ -1221,6 +1319,9 @@ msgstr "Žádné bloky pohybu"
 
 msgid "normal readout"
 msgstr "normální zobrazení"
+
+msgid "not ="
+msgstr ""
 
 msgid "Not saved; network or server problem."
 msgstr "Neuloženo; problém se sítí nebo serverem."
@@ -1345,6 +1446,9 @@ msgstr "Odvozené"
 msgid "Remixing..."
 msgstr "Odvozuji..."
 
+msgid "Remove extension blocks"
+msgstr ""
+
 msgid "Rename"
 msgstr "Přejmenovat"
 
@@ -1396,8 +1500,9 @@ msgstr "Uložit"
 msgid "Save as a copy"
 msgstr "Uložit jako kopii"
 
+# J.Vaníček
 msgid "Save now"
-msgstr "Uložit nyní"
+msgstr "Uložit aktuální stav"
 
 msgid "save to local file"
 msgstr "uložit do lokálního souboru"
@@ -1428,8 +1533,12 @@ msgstr "Scénáře:"
 msgid "second"
 msgstr "sekunda"
 
+# J.Vaníček
 msgid "See project page"
-msgstr "Viz stránka projektu"
+msgstr "Pohlédni na stránku projektu"
+
+msgid "See the Tips window (on the right) to install the plug-in and get the extension working."
+msgstr ""
 
 msgid "Select"
 msgstr "Výběr"

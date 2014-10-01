@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-02 00:56+0200\n"
-"PO-Revision-Date: 2013-05-02 00:57+0200\n"
-"Last-Translator: Anonymous Pootle User\n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
+"PO-Revision-Date: 2014-05-31 14:26+0200\n"
+"Last-Translator: lewtds <ndtrung4419@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
@@ -33,7 +33,7 @@ msgid "%m.mathOp of %n"
 msgstr "%m.mathOp của %n"
 
 msgid "%m.sensor sensor value"
-msgstr "%m.sensor giá trị cảm biến"
+msgstr "giá trị cảm biến %m.sensor"
 
 msgid "%n mod %n"
 msgstr "%n mod %n"
@@ -42,19 +42,18 @@ msgid "add %s to %m.list"
 msgstr "thêm %s vào %m.list"
 
 msgid "answer"
-msgstr "câu trả lời"
+msgstr "trả lời"
 
 msgid "ask %s and wait"
 msgstr "hỏi %s và đợi"
 
 # "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
-#, fuzzy
 msgid "backdrop #"
 msgstr "hình nền #"
 
 # "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
 msgid "backdrop name"
-msgstr ""
+msgstr "tên hình nền"
 
 msgid "broadcast %m.broadcast"
 msgstr "thông báo %m.broadcast"
@@ -72,7 +71,7 @@ msgid "change pen color by %n"
 msgstr "thay đổi màu vẽ một lượng %n"
 
 msgid "change pen shade by %n"
-msgstr "thay đổi sắc độ màu vẽ một lượng %n"
+msgstr "thay đổi độ đậm màu vẽ một lượng %n"
 
 msgid "change pen size by %n"
 msgstr "thay đổi cỡ nét vẽ một lượng %n"
@@ -81,7 +80,7 @@ msgid "change size by %n"
 msgstr "thay đổi kích thước một lượng %n"
 
 msgid "change tempo by %n"
-msgstr "thay đổi tốc độ một lượng %n"
+msgstr "thay đổi nhịp nhạc một lượng %n"
 
 msgid "change volume by %n"
 msgstr "thay đổi âm lượng một lượng %n"
@@ -99,49 +98,49 @@ msgid "clear graphic effects"
 msgstr "bỏ hiệu ứng đồ họa"
 
 msgid "color %c is touching %c?"
-msgstr "màu %c chạm vào màu %c"
+msgstr "màu %c chạm vào màu %c?"
 
 msgid "Control"
-msgstr "điều khiển"
+msgstr "Điều khiển"
 
 msgid "costume #"
 msgstr "hình dạng #"
 
 msgid "create clone of %m.spriteOnly"
-msgstr ""
+msgstr "tạo bản sao từ %m.spriteOnly"
 
 msgid "current %m.timeAndDate"
-msgstr ""
+msgstr "hiện tại %m.timeAndDate"
 
 msgid "Data"
-msgstr ""
+msgstr "Dữ liệu"
 
 msgid "days since 2000"
-msgstr ""
+msgstr "số ngày từ năm 2000"
 
 msgid "define"
-msgstr ""
+msgstr "định nghĩa"
 
 msgid "delete %d.listDeleteItem of %m.list"
-msgstr "xóa %d.listDeleteItem của %m.list"
+msgstr "xóa %d.listDeleteItem trong %m.list"
 
 msgid "delete this clone"
-msgstr ""
+msgstr "xóa bản sao này"
 
 msgid "direction"
 msgstr "hướng"
 
 msgid "distance"
-msgstr ""
+msgstr "khoảng cách"
 
 msgid "distance to %m.spriteOrMouse"
 msgstr "khoảng cách tới %m.spriteOrMouse"
 
 msgid "else"
-msgstr "trái lại"
+msgstr "còn không thì"
 
 msgid "Events"
-msgstr ""
+msgstr "Sự kiện"
 
 msgid "forever"
 msgstr "lặp mãi mãi"
@@ -159,19 +158,19 @@ msgid "go to front"
 msgstr "đặt ra trước"
 
 msgid "go to x:%n y:%n"
-msgstr "nhảy tới x: %n y:%n"
+msgstr "nhảy tới x:%n y:%n"
 
 msgid "hide"
 msgstr "ẩn"
 
 msgid "hide list %m.list"
-msgstr ""
+msgstr "ẩn danh sách %m.list đi"
 
 msgid "hide variable %m.var"
-msgstr ""
+msgstr "ẩn biến %m.var đi"
 
 msgid "if %b then"
-msgstr ""
+msgstr "nếu %b thì"
 
 msgid "if on edge, bounce"
 msgstr "nếu chạm biên, bật lại"
@@ -183,10 +182,10 @@ msgid "item %d.listItem of %m.list"
 msgstr "phần tử %d.listItem của %m.list"
 
 msgid "join %s %s"
-msgstr "nối chuỗi %s %s"
+msgstr "nối %s và %s"
 
 msgid "key %m.key pressed?"
-msgstr "ấn phím %m.key"
+msgstr "phím %m.key được nhấn?"
 
 msgid "length of %m.list"
 msgstr "độ dài của %m.list"
@@ -198,31 +197,30 @@ msgid "letter %n of %s"
 msgstr "chữ cái thứ %n của %s"
 
 msgid "Looks"
-msgstr "ngoại hình"
+msgstr "Ngoại hình"
 
 msgid "loudness"
 msgstr "độ ồn"
 
 msgid "More Blocks"
-msgstr ""
+msgstr "Thêm nhiều khối nữa"
 
 msgid "Motion"
-msgstr "chuyển động"
+msgstr "Chuyển động"
 
 msgid "mouse down?"
-msgstr "ấn phím chuột"
+msgstr "chuột đã nhấn?"
 
 msgid "mouse x"
-msgstr "chuột x"
+msgstr "x của chuột"
 
 msgid "mouse y"
-msgstr "chuột y"
+msgstr "y của chuột"
 
 msgid "move %n steps"
 msgstr "di chuyển %n bước"
 
 # "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
-#, fuzzy
 msgid "next backdrop"
 msgstr "hình nền tiếp theo"
 
@@ -230,19 +228,19 @@ msgid "next costume"
 msgstr "hình dạng tiếp theo"
 
 msgid "not %b"
-msgstr "không %b"
+msgstr "không phải %b"
 
 msgid "Operators"
-msgstr "Các phép toán"
+msgstr "Phép toán"
 
 msgid "Pen"
-msgstr "bút vẽ"
+msgstr "Bút vẽ"
 
 msgid "pen down"
-msgstr "đặt bút xuống"
+msgstr "bắt đầu vẽ"
 
 msgid "pen up"
-msgstr "nhấc bút lên"
+msgstr "ngừng vẽ"
 
 msgid "pick random %n to %n"
 msgstr "lấy ngẫu nhiên trong khoảng %n tới %n"
@@ -251,7 +249,6 @@ msgid "play drum %d.drum for %n beats"
 msgstr "chơi trống %d.drum trong %n nhịp"
 
 # 83%
-#, fuzzy
 msgid "play note %d.note for %n beats"
 msgstr "chơi nốt nhạc %d.note trong %n nhịp"
 
@@ -259,13 +256,13 @@ msgid "play sound %m.sound"
 msgstr "chơi âm thanh %m.sound"
 
 msgid "play sound %m.sound until done"
-msgstr "chơi âm thanh %m.sound cho tới kết thúc"
+msgstr "chơi âm thanh %m.sound cho đến hết"
 
 msgid "point in direction %d.direction"
-msgstr "hướng chuyển động %d.direction"
+msgstr "xoay về phía %d.direction"
 
 msgid "point towards %m.spriteOrMouse"
-msgstr "hướng về phía %m.spriteOrMouse"
+msgstr "xoay về phía %m.spriteOrMouse"
 
 msgid "repeat %n"
 msgstr "lặp lại %n lần"
@@ -274,7 +271,7 @@ msgid "repeat until %b"
 msgstr "lặp cho tới khi %b"
 
 msgid "replace item %d.listItem of %m.list with %s"
-msgstr "thay thế %d.listItem của %m.list bởi %s"
+msgstr "thay thế phần tử %d.listItem của %m.list bởi %s"
 
 msgid "reset timer"
 msgstr "đặt lại đống hồ bấm giờ"
@@ -292,56 +289,57 @@ msgid "say %s for %n secs"
 msgstr "nói %s trong %n giây"
 
 msgid "Sensing"
-msgstr "giác quan"
+msgstr "Cảm biến"
 
 msgid "sensor %m.booleanSensor?"
-msgstr "cảm biến %m.booleanSensor ?"
+msgstr "cảm biến %m.booleanSensor?"
 
 msgid "set %m.effect effect to %n"
 msgstr "đặt hiệu ứng %m.effect là %n"
 
 msgid "set %m.var to %s"
-msgstr "đặt %m.var là %n"
+msgstr "đặt %m.var là %s"
 
 msgid "set instrument to %d.instrument"
 msgstr "chọn nhạc cụ %d.instrument"
 
 # 89%
-#, fuzzy
-msgid "set motor direction %m.motorDirection"
-msgstr "chiều quay động cơ %m.motorDirection"
+# 86%
+# 97%
+msgid "set %m.motor2 direction to %m.motorDirection"
+msgstr "chỉnh chiều quay động cơ %m.motor2 thành %m.motorDirection"
 
 # 77%
-#, fuzzy
-msgid "set motor power %n"
-msgstr "sức mạnh động cơ %n"
+# 75%
+msgid "set %m.motor power to %n"
+msgstr "chỉnh sức mạnh động cơ thành %n"
 
 msgid "set pen color to %c"
 msgstr "dùng màu vẽ %c"
 
 msgid "set pen color to %n"
-msgstr "dùng màu vẽ %c"
+msgstr "dùng màu vẽ %n"
 
 msgid "set pen shade to %n"
-msgstr "dùng màu vẽ có sắc độ %n"
+msgstr "chỉnh độ đậm màu vẽ thành %n"
 
 msgid "set pen size to %n"
-msgstr "dùng bút vẽ có cỡ nét %n"
+msgstr "chỉnh cỡ nét vẽ thành %n"
 
 msgid "set rotation style %m.rotationStyle"
-msgstr ""
+msgstr "chỉnh kiểu quay thành %m.rotationStyle"
 
 msgid "set size to %n%"
 msgstr "đặt kích thước là %n%"
 
 msgid "set tempo to %n bpm"
-msgstr "đặt tốc độ là %n nhịp/phút"
+msgstr "đặt nhịp độ là %n nhịp/phút"
 
 msgid "set video transparency to %n%"
-msgstr ""
+msgstr "chỉnh độ mờ video thành %n%"
 
 msgid "set volume to %n%"
-msgstr "đặt âm lượng là %n%"
+msgstr "chỉnh âm lượng là %n%"
 
 msgid "set x to %n"
 msgstr "đặt x là %n"
@@ -353,39 +351,39 @@ msgid "show"
 msgstr "hiện"
 
 msgid "show list %m.list"
-msgstr ""
+msgstr "hiện danh sách %m.list"
 
 msgid "show variable %m.var"
-msgstr ""
+msgstr "hiện biến %m.var"
 
 msgid "size"
 msgstr "kích thước"
 
 msgid "Sound"
-msgstr "âm thanh"
+msgstr "Âm thanh"
 
 msgid "stamp"
 msgstr "in hình"
 
 msgid "stop %m.stop"
-msgstr ""
+msgstr "ngừng %m.stop"
 
 msgid "stop all sounds"
-msgstr "dừng mọi âm thanh"
+msgstr "ngừng mọi âm thanh"
 
 # "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
 msgid "switch backdrop to %m.backdrop"
-msgstr ""
+msgstr "đổi hình nền thành %m.backdrop"
 
 # "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
 msgid "switch backdrop to %m.backdrop and wait"
-msgstr ""
+msgstr "đổi hình nền thành %m.backdrop và đợi"
 
 msgid "switch costume to %m.costume"
-msgstr ""
+msgstr "đổi hình dạng thành %m.costume"
 
 msgid "tempo"
-msgstr "tốc độ"
+msgstr "nhịp độ"
 
 msgid "think %s"
 msgstr "nghĩ %s"
@@ -394,42 +392,42 @@ msgid "think %s for %n secs"
 msgstr "nghĩ %s trong %n giây"
 
 msgid "tilt"
-msgstr ""
+msgstr "nghiêng"
 
 msgid "timer"
 msgstr "đồng hồ bấm giờ"
 
 msgid "touching %m.touching?"
-msgstr "chạm vào %m.touching"
+msgstr "đang chạm vào %m.touching?"
 
 msgid "touching color %c?"
-msgstr "tiếp xúc màu %c"
+msgstr "đang chạm vào màu %c?"
 
 msgid "turn @turnLeft %n degrees"
-msgstr ""
+msgstr "xoay @turnLeft %n độ"
 
 msgid "turn @turnRight %n degrees"
-msgstr ""
+msgstr "xoay @turnRight %n độ"
 
-msgid "turn motor off"
-msgstr ""
+msgid "turn %m.motor off"
+msgstr "tắt động cơ %.motor"
 
-msgid "turn motor on"
-msgstr ""
+msgid "turn %m.motor on"
+msgstr "bật động cơ %m.motor"
 
 # 80%
-#, fuzzy
-msgid "turn motor on for %n secs"
-msgstr "bật động cơ trong %n giây"
+# 89%
+msgid "turn %m.motor on for %n secs"
+msgstr "bật động cơ %m.motor trong %n giây"
 
 msgid "turn video %m.videoState"
-msgstr ""
+msgstr "chỉnh video thành %m.videoState"
 
 msgid "username"
-msgstr ""
+msgstr "tên đăng nhập"
 
 msgid "video %m.videoMotionType on %m.stageOrThis"
-msgstr ""
+msgstr "video %m.videoMotionType trên %m.stageOrThis"
 
 msgid "volume"
 msgstr "âm lượng"
@@ -441,43 +439,78 @@ msgid "wait until %b"
 msgstr "đợi tới khi %b"
 
 # 75%
-#, fuzzy
 msgid "when %m.booleanSensor"
-msgstr "cảm biến %m.booleanSensor ?"
+msgstr "khi %m.booleanSensor"
 
 msgid "when %m.key key pressed"
-msgstr "khi ấn phím %m.key"
+msgstr "khi nhấn phím %m.key"
+
+msgid "when %m.sensor %m.lessMore %n"
+msgstr "khi %m.sensor %m.lessMore %n"
 
 msgid "when %m.triggerSensor > %n"
-msgstr ""
+msgstr "khi %m.triggerSensor > %n"
 
 msgid "when @greenFlag clicked"
-msgstr "khi bấm vào @greenFlag"
+msgstr "khi nhấn vào @greenFlag"
 
 # "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
 msgid "when backdrop switches to %m.backdrop"
-msgstr ""
+msgstr "khi hình nền đổi thành %m.backdrop"
 
-msgid "when distance < %n"
-msgstr ""
+msgid "when distance %m.lessMore %n"
+msgstr "khi khoảng cách %m.lessMore %n"
 
 msgid "when I receive %m.broadcast"
-msgstr ""
+msgstr "khi tôi nhận được thông báo %m.broadcast"
 
 msgid "when I start as a clone"
+msgstr "khi tôi khởi đầu là một bản sao"
+
+msgid "when Stage clicked"
 msgstr ""
 
 msgid "when this sprite clicked"
-msgstr ""
+msgstr "khi hình họa này được nhấn vào"
 
-msgid "when tilt = %n"
-msgstr ""
+msgid "when tilt %m.eNe %n"
+msgstr "khi nghiêng %m.eNe %n"
 
 msgid "x position"
 msgstr "vị trí x"
 
 msgid "y position"
 msgstr "vị trí y"
+
+# 89%
+msgid "set motor direction %m.motorDirection"
+msgstr "chỉnh chiều quay động cơ thành %m.motorDirection"
+
+# 77%
+msgid "set motor power %n"
+msgstr "chỉnh sức mạnh động cơ thứ %n"
+
+msgid "turn motor off"
+msgstr "tắt động cơ"
+
+msgid "turn motor on"
+msgstr "bật động cơ"
+
+# 80%
+msgid "turn motor on for %n secs"
+msgstr "bật động cơ trong %n giây"
+
+msgid "when distance < %n"
+msgstr "khi khoảng cách < %n"
+
+msgid "when tilt = %n"
+msgstr "khi độ nghiêng = %n"
+
+# 89%
+# 86%
+#, fuzzy
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "chiều quay động cơ %m.motorDirection"
 
 #~ msgid "forever if %b"
 #~ msgstr "lặp mãi mãi nếu %b"
@@ -510,9 +543,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-19 20:56+0200\n"
-"PO-Revision-Date: 2013-07-19 20:56+0200\n"
-"Last-Translator: Anonymous Pootle User\n"
+"POT-Creation-Date: 2013-08-01 08:55+0200\n"
+"PO-Revision-Date: 2014-06-03 07:52+0200\n"
+"Last-Translator: nkaro13 <lazy.teacup@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
@@ -533,6 +566,15 @@ msgstr ""
 msgid "a copy of the project file on your computer."
 msgstr ""
 
+msgid "About"
+msgstr ""
+
+msgid "About LEGO WeDo extension..."
+msgstr ""
+
+msgid "About PicoBoard extension..."
+msgstr ""
+
 msgid "abs"
 msgstr "trị tuyệt đối"
 
@@ -540,6 +582,9 @@ msgid "Account settings"
 msgstr ""
 
 msgid "acos"
+msgstr ""
+
+msgid "Add an Extension"
 msgstr ""
 
 msgid "Add boolean input:"
@@ -564,6 +609,9 @@ msgid "all"
 msgstr "tất cả"
 
 msgid "all around"
+msgstr ""
+
+msgid "all motors"
 msgstr ""
 
 msgid "Animal"
@@ -901,7 +949,16 @@ msgstr ""
 msgid "Error!"
 msgstr ""
 
+msgid "everything"
+msgstr ""
+
 msgid "export"
+msgstr ""
+
+msgid "Extension Library"
+msgstr ""
+
+msgid "Extension Problem"
 msgstr ""
 
 msgid "fade in"
@@ -973,6 +1030,9 @@ msgstr ""
 msgid "Hand Clap"
 msgstr "Vỗ tay"
 
+msgid "Hardware"
+msgstr ""
+
 msgid "hide"
 msgstr ""
 
@@ -1020,6 +1080,9 @@ msgstr "mũi tên trái"
 msgid "left-right"
 msgstr ""
 
+msgid "LEGO WeDo"
+msgstr ""
+
 msgid "length"
 msgstr ""
 
@@ -1027,6 +1090,11 @@ msgid "Library"
 msgstr ""
 
 msgid "light"
+msgstr "ánh sáng"
+
+# 83%
+#, fuzzy
+msgid "lights"
 msgstr "ánh sáng"
 
 msgid "limit reached"
@@ -1109,6 +1177,15 @@ msgstr "khảm"
 msgid "motion"
 msgstr ""
 
+msgid "motor"
+msgstr ""
+
+msgid "motor A"
+msgstr ""
+
+msgid "motor B"
+msgstr ""
+
 msgid "mouse-pointer"
 msgstr "con trỏ chuột"
 
@@ -1174,6 +1251,9 @@ msgid "No motion blocks"
 msgstr ""
 
 msgid "normal readout"
+msgstr ""
+
+msgid "not ="
 msgstr ""
 
 msgid "Not saved; network or server problem."
@@ -1298,6 +1378,9 @@ msgstr ""
 msgid "Remixing..."
 msgstr ""
 
+msgid "Remove extension blocks"
+msgstr ""
+
 msgid "Rename"
 msgstr ""
 
@@ -1380,6 +1463,9 @@ msgid "second"
 msgstr ""
 
 msgid "See project page"
+msgstr ""
+
+msgid "See the Tips window (on the right) to install the plug-in and get the extension working."
 msgstr ""
 
 msgid "Select"

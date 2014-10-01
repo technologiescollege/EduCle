@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-02 00:56+0200\n"
-"PO-Revision-Date: 2013-07-16 22:18+0200\n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
+"PO-Revision-Date: 2013-10-20 13:01+0200\n"
 "Last-Translator: Anca-Diana <diacadan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -183,7 +183,7 @@ msgid "item %d.listItem of %m.list"
 msgstr "elementul %d.listItem din %m.list"
 
 msgid "join %s %s"
-msgstr "alatura %s %s"
+msgstr "imbina %s %s"
 
 msgid "key %m.key pressed?"
 msgstr "tasta %m.key este apasata?"
@@ -305,11 +305,16 @@ msgid "set instrument to %d.instrument"
 msgstr "seteaza instrumentul la %d.instrument"
 
 # 89%
-msgid "set motor direction %m.motorDirection"
+# 86%
+# 97%
+#, fuzzy
+msgid "set %m.motor2 direction to %m.motorDirection"
 msgstr "seteaza directia motorului la %m.motorDirection"
 
 # 77%
-msgid "set motor power %n"
+# 75%
+#, fuzzy
+msgid "set %m.motor power to %n"
 msgstr "seteaza puterea motorului la %n"
 
 msgid "set pen color to %c"
@@ -371,11 +376,11 @@ msgstr "opreste toate sunetele"
 
 # "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
 msgid "switch backdrop to %m.backdrop"
-msgstr "comuta fundalul la %m.fundal"
+msgstr "schimba fundalul la %m.fundal"
 
 # "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
 msgid "switch backdrop to %m.backdrop and wait"
-msgstr "comuta fundalul la %m.fundal si asteapta"
+msgstr "schimba fundalul la %m.fundal si asteapta"
 
 msgid "switch costume to %m.costume"
 msgstr "schimba costumul la %m.costum"
@@ -407,14 +412,20 @@ msgstr "roteste @turnLeft %n grade"
 msgid "turn @turnRight %n degrees"
 msgstr "roteste @turnRight %n grade"
 
-msgid "turn motor off"
+# 82%
+#, fuzzy
+msgid "turn %m.motor off"
 msgstr "opreste motorul"
 
-msgid "turn motor on"
+# 81%
+#, fuzzy
+msgid "turn %m.motor on"
 msgstr "porneste motorul"
 
 # 80%
-msgid "turn motor on for %n secs"
+# 89%
+#, fuzzy
+msgid "turn %m.motor on for %n secs"
 msgstr "porneste motorul pentru %n sec"
 
 msgid "turn video %m.videoState"
@@ -442,6 +453,9 @@ msgstr "cand %m.booleanSensor"
 msgid "when %m.key key pressed"
 msgstr "cand tasta %m.key este apasata"
 
+msgid "when %m.sensor %m.lessMore %n"
+msgstr ""
+
 msgid "when %m.triggerSensor > %n"
 msgstr "cand %m.triggerSensor > %n"
 
@@ -452,8 +466,8 @@ msgstr "cand se da clic pe @greenFlag"
 msgid "when backdrop switches to %m.backdrop"
 msgstr "cand se schimba fundalul la %m.fundal"
 
-msgid "when distance < %n"
-msgstr "cand distanta < %n"
+msgid "when distance %m.lessMore %n"
+msgstr ""
 
 msgid "when I receive %m.broadcast"
 msgstr "cand primesc %m.broadcast"
@@ -461,17 +475,50 @@ msgstr "cand primesc %m.broadcast"
 msgid "when I start as a clone"
 msgstr "cand incep ca o clona"
 
+msgid "when Stage clicked"
+msgstr ""
+
 msgid "when this sprite clicked"
 msgstr "cand se da clic pe acest sprite"
 
-msgid "when tilt = %n"
-msgstr "cand inclinarea = %n"
+msgid "when tilt %m.eNe %n"
+msgstr ""
 
 msgid "x position"
 msgstr "pozitia x"
 
 msgid "y position"
 msgstr "pozitia y"
+
+# 89%
+msgid "set motor direction %m.motorDirection"
+msgstr "seteaza directia motorului la %m.motorDirection"
+
+# 77%
+msgid "set motor power %n"
+msgstr "seteaza puterea motorului la %n"
+
+msgid "turn motor off"
+msgstr "opreste motorul"
+
+msgid "turn motor on"
+msgstr "porneste motorul"
+
+# 80%
+msgid "turn motor on for %n secs"
+msgstr "porneste motorul pentru %n sec"
+
+msgid "when distance < %n"
+msgstr "cand distanta < %n"
+
+msgid "when tilt = %n"
+msgstr "cand inclinarea = %n"
+
+# 89%
+# 86%
+#, fuzzy
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "seteaza directia motorului la %m.motorDirection"
 
 #~ msgid "user id"
 #~ msgstr "id utilizator"
@@ -507,8 +554,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-19 20:55+0200\n"
-"PO-Revision-Date: 2013-07-15 19:10+0200\n"
+"POT-Creation-Date: 2013-08-01 08:55+0200\n"
+"PO-Revision-Date: 2013-10-20 13:08+0200\n"
 "Last-Translator: Anca-Diana <diacadan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -535,14 +582,26 @@ msgstr "A conectat"
 msgid "a copy of the project file on your computer."
 msgstr "o copie a fisierului proiect pe calculatorul tau."
 
+msgid "About"
+msgstr ""
+
+msgid "About LEGO WeDo extension..."
+msgstr ""
+
+msgid "About PicoBoard extension..."
+msgstr ""
+
 msgid "abs"
-msgstr "abs"
+msgstr "modul"
 
 msgid "Account settings"
 msgstr "Setarile contului"
 
 msgid "acos"
 msgstr "acos"
+
+msgid "Add an Extension"
+msgstr ""
 
 msgid "Add boolean input:"
 msgstr "Adauga intrare de tip boolean:"
@@ -567,6 +626,9 @@ msgstr "tot"
 
 msgid "all around"
 msgstr "peste tot"
+
+msgid "all motors"
+msgstr ""
 
 msgid "Animal"
 msgstr "Animal"
@@ -905,7 +967,16 @@ msgstr "Grosimea radierei"
 msgid "Error!"
 msgstr "Eroare!"
 
+msgid "everything"
+msgstr ""
+
 msgid "export"
+msgstr ""
+
+msgid "Extension Library"
+msgstr ""
+
+msgid "Extension Problem"
 msgstr ""
 
 msgid "fade in"
@@ -977,6 +1048,9 @@ msgstr "Chitara"
 msgid "Hand Clap"
 msgstr "Bataie din palme"
 
+msgid "Hardware"
+msgstr ""
+
 msgid "hide"
 msgstr "ascunde"
 
@@ -1024,6 +1098,9 @@ msgstr "sageata stanga"
 msgid "left-right"
 msgstr "de la stanga la dreapta"
 
+msgid "LEGO WeDo"
+msgstr ""
+
 msgid "length"
 msgstr ""
 
@@ -1031,6 +1108,11 @@ msgid "Library"
 msgstr "Biblioteca"
 
 msgid "light"
+msgstr "lumina"
+
+# 83%
+#, fuzzy
+msgid "lights"
 msgstr "lumina"
 
 msgid "limit reached"
@@ -1112,6 +1194,15 @@ msgstr "mozaic"
 msgid "motion"
 msgstr "miscare"
 
+msgid "motor"
+msgstr ""
+
+msgid "motor A"
+msgstr ""
+
+msgid "motor B"
+msgstr ""
+
 msgid "mouse-pointer"
 msgstr "cursorul mouse-ului"
 
@@ -1176,6 +1267,9 @@ msgid "No motion blocks"
 msgstr "Niciun bloc de miscare"
 
 msgid "normal readout"
+msgstr ""
+
+msgid "not ="
 msgstr ""
 
 msgid "Not saved; network or server problem."
@@ -1299,6 +1393,9 @@ msgstr "Amesteca"
 msgid "Remixing..."
 msgstr "Se amesteca..."
 
+msgid "Remove extension blocks"
+msgstr ""
+
 msgid "Rename"
 msgstr "Redenumeste"
 
@@ -1382,6 +1479,9 @@ msgstr "al doilea"
 
 msgid "See project page"
 msgstr "Vezi pagina proiectului"
+
+msgid "See the Tips window (on the right) to install the plug-in and get the extension working."
+msgstr ""
 
 msgid "Select"
 msgstr "Selecteaza"

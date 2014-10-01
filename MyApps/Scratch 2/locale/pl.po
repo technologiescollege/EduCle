@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-02 00:56+0200\n"
-"PO-Revision-Date: 2013-02-24 01:28+0200\n"
-"Last-Translator: Marek <faramir@mat.umk.pl>\n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
+"PO-Revision-Date: 2013-11-01 18:24+0200\n"
+"Last-Translator: Adam <awal@interia.pl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -111,7 +111,7 @@ msgid "create clone of %m.spriteOnly"
 msgstr "sklonuj %m.spriteOnly"
 
 msgid "current %m.timeAndDate"
-msgstr "aktualny %m.timeAndDate"
+msgstr "aktualna %m.timeAndDate"
 
 msgid "Data"
 msgstr "Dane"
@@ -247,7 +247,7 @@ msgid "pick random %n to %n"
 msgstr "losuj od %n do %n"
 
 msgid "play drum %d.drum for %n beats"
-msgstr "zagraj bębenkiem %d.drum przez %n taktów"
+msgstr "zagraj bęben %d.drum przez %n taktów"
 
 # "zagraj nutę %d.note przez %n taktów" where "play note %n for %n beats"
 # 83%
@@ -276,7 +276,7 @@ msgid "replace item %d.listItem of %m.list with %s"
 msgstr "zamień element %d.listItem z %m.list na %s"
 
 msgid "reset timer"
-msgstr "kasuj zegar"
+msgstr "zeruj stoper"
 
 msgid "rest for %n beats"
 msgstr "pauzuj przez %n taktów"
@@ -307,11 +307,16 @@ msgid "set instrument to %d.instrument"
 msgstr "ustaw instrument na %d.instrument"
 
 # 89%
-msgid "set motor direction %m.motorDirection"
+# 86%
+# 97%
+#, fuzzy
+msgid "set %m.motor2 direction to %m.motorDirection"
 msgstr "ustaw kierunek silnika %m.motorDirection"
 
 # 77%
-msgid "set motor power %n"
+# 75%
+#, fuzzy
+msgid "set %m.motor power to %n"
 msgstr "ustaw moc silnika %n"
 
 msgid "set pen color to %c"
@@ -334,7 +339,7 @@ msgid "set size to %n%"
 msgstr "ustaw rozmiar na %n%"
 
 msgid "set tempo to %n bpm"
-msgstr "ustaw tempo na %n taktów na minutę"
+msgstr "ustaw tempo %n taktów na minutę"
 
 msgid "set video transparency to %n%"
 msgstr "ustaw przezroczystość kamery na %n%"
@@ -396,7 +401,7 @@ msgid "tilt"
 msgstr "wychylenie"
 
 msgid "timer"
-msgstr "zegar"
+msgstr "stoper"
 
 msgid "touching %m.touching?"
 msgstr "dotyka %m.touching?"
@@ -410,21 +415,27 @@ msgstr "obróć @turnLeft o %n stopni"
 msgid "turn @turnRight %n degrees"
 msgstr "obróć @turnRight o %n stopni"
 
-msgid "turn motor off"
+# 82%
+#, fuzzy
+msgid "turn %m.motor off"
 msgstr "wyłącz silnik"
 
-msgid "turn motor on"
+# 81%
+#, fuzzy
+msgid "turn %m.motor on"
 msgstr "włącz silnik"
 
 # 80%
-msgid "turn motor on for %n secs"
+# 89%
+#, fuzzy
+msgid "turn %m.motor on for %n secs"
 msgstr "włącz silnik na %n s"
 
 msgid "turn video %m.videoState"
 msgstr "kamera %m.videoState"
 
 msgid "username"
-msgstr ""
+msgstr "nazwa użytkownika"
 
 msgid "video %m.videoMotionType on %m.stageOrThis"
 msgstr "%m.videoMotionType kamery na %m.stageOrThis"
@@ -445,6 +456,9 @@ msgstr "kiedy %m.booleanSensor"
 msgid "when %m.key key pressed"
 msgstr "kiedy klawisz %m.key naciśnięty"
 
+msgid "when %m.sensor %m.lessMore %n"
+msgstr ""
+
 msgid "when %m.triggerSensor > %n"
 msgstr "kiedy %m.triggerSensor > %n"
 
@@ -455,8 +469,8 @@ msgstr "kiedy kliknięto @greenFlag"
 msgid "when backdrop switches to %m.backdrop"
 msgstr "kiedy tło zmieni się na %m.backdrop"
 
-msgid "when distance < %n"
-msgstr "kiedy odległość < %n"
+msgid "when distance %m.lessMore %n"
+msgstr ""
 
 msgid "when I receive %m.broadcast"
 msgstr "kiedy otrzymam %m.broadcast"
@@ -464,18 +478,51 @@ msgstr "kiedy otrzymam %m.broadcast"
 msgid "when I start as a clone"
 msgstr "kiedy zaczynam jako klon"
 
+msgid "when Stage clicked"
+msgstr ""
+
 # "kiedy *ten* duszek kliknięty"?
 msgid "when this sprite clicked"
 msgstr "kiedy duszek kliknięty"
 
-msgid "when tilt = %n"
-msgstr "kiedy wychylenie = %n"
+msgid "when tilt %m.eNe %n"
+msgstr ""
 
 msgid "x position"
 msgstr "współrzędna x"
 
 msgid "y position"
 msgstr "współrzędna y"
+
+# 89%
+msgid "set motor direction %m.motorDirection"
+msgstr "ustaw kierunek silnika %m.motorDirection"
+
+# 77%
+msgid "set motor power %n"
+msgstr "ustaw moc silnika %n"
+
+msgid "turn motor off"
+msgstr "wyłącz silnik"
+
+msgid "turn motor on"
+msgstr "włącz silnik"
+
+# 80%
+msgid "turn motor on for %n secs"
+msgstr "włącz silnik na %n s"
+
+msgid "when distance < %n"
+msgstr "kiedy odległość < %n"
+
+msgid "when tilt = %n"
+msgstr "kiedy wychylenie = %n"
+
+# 89%
+# 86%
+#, fuzzy
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "ustaw kierunek silnika %m.motorDirection"
 
 #~ msgid "user id"
 #~ msgstr "id użytkownika"
@@ -533,9 +580,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-19 20:54+0200\n"
-"PO-Revision-Date: 2013-05-20 13:17+0200\n"
-"Last-Translator: Marek <faramir@mat.umk.pl>\n"
+"POT-Creation-Date: 2013-08-01 08:55+0200\n"
+"PO-Revision-Date: 2013-11-03 21:12+0200\n"
+"Last-Translator: adlogi <adlogi@media.mit.edu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -552,15 +599,23 @@ msgid "<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only num
 msgstr ""
 "<b>Informacje o zmiennych w Chmurze</b><br>&nbsp;<br>Aktualnie jedynie "
 "liczby są wspierane.<br>Pokoje czatu nie są dozwolone i zostaną "
-"usunięte<br>Aby uzyskać więcej informacji <a href= target=>zobacz FAQ na "
-"tema danych w Chmurze !</a>"
+"usunięte<br>Aby uzyskać więcej informacji <a href= target=>sprawdź FAQ na "
+"temat danych w Chmurze !</a>"
 
 msgid "A connected"
 msgstr "A podłączone"
 
-#, fuzzy
 msgid "a copy of the project file on your computer."
-msgstr "kopia projektu na twoim komputerze"
+msgstr "kopia projektu na twoim komputerze."
+
+msgid "About"
+msgstr ""
+
+msgid "About LEGO WeDo extension..."
+msgstr ""
+
+msgid "About PicoBoard extension..."
+msgstr ""
 
 msgid "abs"
 msgstr "wartość bezwzględna"
@@ -571,8 +626,10 @@ msgstr "Ustawienia konta"
 msgid "acos"
 msgstr "arccos"
 
+msgid "Add an Extension"
+msgstr ""
+
 # 90%
-#, fuzzy
 msgid "Add boolean input:"
 msgstr "Dodaj parametr logiczny:"
 
@@ -583,16 +640,13 @@ msgid "Add label text:"
 msgstr "Dodaj etykietę tekstową:"
 
 # 89%
-#, fuzzy
 msgid "Add number input:"
 msgstr "Dodaj parametr liczbowy:"
 
 # 89%
-#, fuzzy
 msgid "Add string input:"
 msgstr "Dodaj parametr tekstowy:"
 
-#, fuzzy
 msgid "All"
 msgstr "Wszystko"
 
@@ -600,22 +654,22 @@ msgid "all"
 msgstr "wszystko"
 
 msgid "all around"
-msgstr "wszystko dookoła"
+msgstr "dookoła"
 
-#, fuzzy
+msgid "all motors"
+msgstr ""
+
 msgid "Animal"
 msgstr "Zwierzę"
 
-#, fuzzy
 msgid "Animals"
 msgstr "Zwierzęta"
 
 msgid "asin"
 msgstr "arcsin"
 
-#, fuzzy
 msgid "assets loaded"
-msgstr "załadowane aktywa"
+msgstr "załadowane elementy"
 
 msgid "atan"
 msgstr "arctan"
@@ -623,15 +677,13 @@ msgstr "arctan"
 msgid "B connected"
 msgstr "B podłączone"
 
-#, fuzzy
 msgid "Back a layer"
 msgstr "Warstwa do tyłu"
 
 # 88%
 # 87%
-#, fuzzy
 msgid "Backdrop"
-msgstr "tło"
+msgstr "Tło"
 
 # 88%
 msgid "backdrop"
@@ -640,7 +692,6 @@ msgstr "tło"
 msgid "backdrop #"
 msgstr "tło #"
 
-#, fuzzy
 msgid "Backdrop Library"
 msgstr "Biblioteka teł"
 
@@ -655,7 +706,6 @@ msgid "backdrops"
 msgstr "tła"
 
 # 88%
-#, fuzzy
 msgid "Backdrops"
 msgstr "Tła"
 
@@ -673,16 +723,16 @@ msgstr "Fagot"
 
 msgid "Because you have a new Scratch account, any changes to cloud data won't be saved yet. Keep participating on the site you'll be able to use cloud data soon!"
 msgstr ""
+"Ponieważ twoje konto zostało założone niedawno, zmiany danych w chmurze nie "
+"będą zapisane. Bądź aktywny na stronie i wkrótce będziesz mógł używać danych "
+"w chmurze!"
 
-#, fuzzy
 msgid "Bitmap"
 msgstr "Bitmapa"
 
-#, fuzzy
 msgid "Bitmap Mode"
-msgstr "Tryb bitmapy"
+msgstr "Tryb bitmapowy"
 
-#, fuzzy
 msgid "Block help"
 msgstr "Pomoc na temat bloku"
 
@@ -692,15 +742,12 @@ msgstr "Bongosy"
 msgid "brightness"
 msgstr "jasność"
 
-#, fuzzy
 msgid "Bring to front"
 msgstr "Przenieś na początek"
 
-#, fuzzy
 msgid "Broadcast"
 msgstr "Roześlij"
 
-#, fuzzy
 msgid "Brush"
 msgstr "Pędzel"
 
@@ -710,7 +757,6 @@ msgstr "przycisk naciśnięty"
 msgid "by"
 msgstr "przez"
 
-#, fuzzy
 msgid "bytes loaded"
 msgstr "bajtów załadowano"
 
@@ -723,7 +769,6 @@ msgstr "Cabasa"
 msgid "Camera"
 msgstr "Kamera"
 
-#, fuzzy
 msgid "can drag in player:"
 msgstr "można przeciągać w odtwarzaczu:"
 
@@ -733,16 +778,14 @@ msgstr "Anuluj"
 msgid "Cannot Delete"
 msgstr "Nie można usunąć"
 
-#, fuzzy
 msgid "Can’t find network connection or reach server."
-msgstr ""
-"Nie można odnaleźć połączenia sieciowego lub skontaktować się z serwerem."
+msgstr "Nie można nawiązać połączenia sieciowego lub połączyć się z serwerem."
 
 msgid "Castle"
 msgstr "Zamek"
 
 msgid "Category"
-msgstr ""
+msgstr "Kategoria"
 
 msgid "ceiling"
 msgstr "sufit"
@@ -754,18 +797,17 @@ msgid "Choir"
 msgstr "Chór"
 
 msgid "Choose backdrop from library"
-msgstr ""
+msgstr "Wybierz tło z biblioteki"
 
 msgid "Choose costume from library"
-msgstr ""
+msgstr "Wybierz kostium z biblioteki"
 
 msgid "Choose sound from library"
-msgstr ""
+msgstr "Wybierz dźwięk z biblioteki"
 
 msgid "Choose sprite from library"
-msgstr ""
+msgstr "Wybierz duszka z biblioteki"
 
-#, fuzzy
 msgid "Circle"
 msgstr "Okrąg"
 
@@ -776,19 +818,17 @@ msgid "Clarinet"
 msgstr "Klarnet"
 
 msgid "Claves"
-msgstr "Klawesy"
+msgstr "Klawesyn"
 
 msgid "cleanup"
-msgstr ""
+msgstr "sprzątanie"
 
-#, fuzzy
 msgid "Clear"
 msgstr "Wyczyść"
 
 msgid "clear senders/receivers"
 msgstr "wyczyść nadawców/odbiorców"
 
-#, fuzzy
 msgid "Click "Save now" to try again or "Download" to save"
 msgstr "Naciśnij    aby spróbować ponownie lub    aby zapisać"
 
@@ -796,38 +836,32 @@ msgid "Close"
 msgstr "Zamknij"
 
 msgid "Closed Hi-Hat"
-msgstr "Hi-hat (zamknięty)"
+msgstr "Zamknięty Hi-Hat"
 
 msgid "Cloud"
 msgstr "Chmura"
 
-#, fuzzy
 msgid "Cloud data"
 msgstr "Dane w Chmurze"
 
 msgid "color"
 msgstr "kolor"
 
-#, fuzzy
 msgid "Color a shape"
-msgstr "Pokoloruj kształt"
+msgstr "Wypełnij kształt"
 
 msgid "Conga"
 msgstr "Kongi"
 
-#, fuzzy
 msgid "Connecting to Cloud data server..."
 msgstr "Łączenie do serwera danych w Chmurze..."
 
-#, fuzzy
 msgid "Convert to bitmap"
 msgstr "Przekształć w bitmapę"
 
-#, fuzzy
 msgid "Convert to vector"
 msgstr "Przekształć w wektor"
 
-#, fuzzy
 msgid "Converting mp3..."
 msgstr "Konwersja mp3..."
 
@@ -841,14 +875,12 @@ msgid "cos"
 msgstr "cos"
 
 # 75%
-#, fuzzy
 msgid "Costume"
-msgstr "kostium1"
+msgstr "Kostium"
 
 msgid "costume #"
 msgstr "kostium #"
 
-#, fuzzy
 msgid "Costume Library"
 msgstr "Biblioteka kostiumów"
 
@@ -863,15 +895,12 @@ msgid "costume2"
 msgstr "kostium2"
 
 # 75%
-#, fuzzy
 msgid "Costumes"
-msgstr "kostium1"
+msgstr "Kostiumy"
 
-#, fuzzy
 msgid "Costumes > 1"
 msgstr "Kostiumów > 1"
 
-#, fuzzy
 msgid "Costumes:"
 msgstr "Kostiumy:"
 
@@ -884,9 +913,8 @@ msgstr "Talerz"
 msgid "Creating..."
 msgstr "Tworzenie..."
 
-#, fuzzy
 msgid "Currently, only numbers can be stored in Cloud variables."
-msgstr "Aktualnie jedynie liczby mogą być przechowywane w zmiennych w Chmurze."
+msgstr "Obecnie jedynie liczby mogą być przechowywane w zmiennych w Chmurze."
 
 msgid "cut"
 msgstr "wytnij"
@@ -901,9 +929,8 @@ msgid "day of week"
 msgstr "dzień tygodnia"
 
 # 83%
-#, fuzzy
 msgid "Delete"
-msgstr "usuń"
+msgstr "Usuń"
 
 msgid "delete"
 msgstr "usuń"
@@ -915,9 +942,8 @@ msgid "direction"
 msgstr "kierunek"
 
 # 90%
-#, fuzzy
 msgid "direction:"
-msgstr "kierunek"
+msgstr "kierunek:"
 
 msgid "don't rotate"
 msgstr "nie obracaj"
@@ -952,7 +978,6 @@ msgstr "edytuj"
 msgid "Edit"
 msgstr "Edytuj"
 
-#, fuzzy
 msgid "Edit Block"
 msgstr "Edytuj blok"
 
@@ -966,7 +991,7 @@ msgid "Electric Piano"
 msgstr "Pianino elektroniczne"
 
 msgid "Electronic"
-msgstr "Elektroniczny"
+msgstr "Elektroniczne"
 
 msgid "Ellipse"
 msgstr "Elipsa"
@@ -975,14 +1000,22 @@ msgid "Erase"
 msgstr "Wyczyść"
 
 # 92%
-#, fuzzy
 msgid "Eraser width"
-msgstr "Szerokość gumki:"
+msgstr "Szerokość gumki"
 
 msgid "Error!"
+msgstr "Błąd!"
+
+msgid "everything"
 msgstr ""
 
 msgid "export"
+msgstr "eksportuj"
+
+msgid "Extension Library"
+msgstr ""
+
+msgid "Extension Problem"
 msgstr ""
 
 msgid "fade in"
@@ -991,29 +1024,24 @@ msgstr "wzmocnij"
 msgid "fade out"
 msgstr "wycisz"
 
-#, fuzzy
 msgid "Fantasy"
 msgstr "Fikcja"
 
-#, fuzzy
 msgid "Features"
 msgstr "Cechy"
 
 msgid "File"
 msgstr "Plik"
 
-#, fuzzy
 msgid "Fill with color"
 msgstr "Wypełnij kolorem"
 
 msgid "fisheye"
 msgstr "rybie oko"
 
-#, fuzzy
 msgid "Flip left-right"
 msgstr "Przerzuć lewo-prawo"
 
-#, fuzzy
 msgid "Flip up-down"
 msgstr "Przerzuć góra-dół"
 
@@ -1023,12 +1051,11 @@ msgstr "podłoga"
 msgid "Flute"
 msgstr "Flet"
 
-#, fuzzy
 msgid "Flying"
 msgstr "Latanie"
 
 msgid "Font:"
-msgstr ""
+msgstr "Czcionka:"
 
 msgid "For all sprites"
 msgstr "Dla wszystkich duszków"
@@ -1036,23 +1063,20 @@ msgstr "Dla wszystkich duszków"
 msgid "For this sprite only"
 msgstr "Tylko dla tego duszka"
 
-#, fuzzy
 msgid "Forward a layer"
 msgstr "Warstwa do przodu"
 
 msgid "ghost"
 msgstr "duch"
 
-#, fuzzy
 msgid "Go to My Stuff"
 msgstr "Przejdź do Moich rzeczy"
 
 msgid "Group"
 msgstr "Grupuj"
 
-#, fuzzy
 msgid "Grow"
-msgstr "Rośnij"
+msgstr "Powiększ"
 
 msgid "Guiro"
 msgstr "Guiro"
@@ -1063,23 +1087,24 @@ msgstr "Gitara"
 msgid "Hand Clap"
 msgstr "Klaskanie"
 
+msgid "Hardware"
+msgstr ""
+
 msgid "hide"
 msgstr "ukryj"
 
 msgid "High C"
-msgstr ""
+msgstr "Wysokie C"
 
 msgid "hour"
 msgstr "godzina"
 
-#, fuzzy
 msgid "Human"
 msgstr "Człowiek"
 
 # 83%
-#, fuzzy
 msgid "import"
-msgstr "Importuj"
+msgstr "importuj"
 
 msgid "Import"
 msgstr "Importuj"
@@ -1087,9 +1112,8 @@ msgstr "Importuj"
 msgid "Importing sound..."
 msgstr "Importowanie dźwięku..."
 
-#, fuzzy
 msgid "Indoors"
-msgstr "W domu"
+msgstr "W pomieszczeniu"
 
 msgid "Installing..."
 msgstr "Instalowanie..."
@@ -1098,7 +1122,7 @@ msgid "Instruments"
 msgstr "Instrumenty"
 
 msgid "large readout"
-msgstr ""
+msgstr "duży odczyt"
 
 msgid "last"
 msgstr "ostatni"
@@ -1112,8 +1136,11 @@ msgstr "strzałka w lewo"
 msgid "left-right"
 msgstr "lewo-prawo"
 
-msgid "length"
+msgid "LEGO WeDo"
 msgstr ""
+
+msgid "length"
+msgstr "długość"
 
 msgid "Library"
 msgstr "Biblioteka"
@@ -1121,7 +1148,11 @@ msgstr "Biblioteka"
 msgid "light"
 msgstr "światło"
 
+# 83%
 #, fuzzy
+msgid "lights"
+msgstr "światło"
+
 msgid "limit reached"
 msgstr "limit osiągnięty"
 
@@ -1129,14 +1160,12 @@ msgid "Line"
 msgstr "Linia"
 
 # 90%
-#, fuzzy
 msgid "Line width"
-msgstr "Szerokość linii:"
+msgstr "Szerokość linii"
 
 # 75%
-#, fuzzy
 msgid "list"
-msgstr "ostatni"
+msgstr "lista"
 
 msgid "List name"
 msgstr "Nazwa listy"
@@ -1145,7 +1174,7 @@ msgid "ln"
 msgstr "ln"
 
 msgid "Loading project..."
-msgstr "Ładowanie projektu..."
+msgstr "Wczytywanie projektu..."
 
 msgid "log"
 msgstr "log"
@@ -1157,7 +1186,7 @@ msgid "loudness"
 msgstr "głośność"
 
 msgid "Low C"
-msgstr ""
+msgstr "Niskie C"
 
 msgid "Make a Block"
 msgstr "Stwórz blok"
@@ -1174,7 +1203,6 @@ msgstr "Marimba"
 msgid "Max"
 msgstr "Max"
 
-#, fuzzy
 msgid "meow"
 msgstr "miauczenie"
 
@@ -1185,10 +1213,10 @@ msgid "message1"
 msgstr "komunikat1"
 
 msgid "Microphone Volume:"
-msgstr ""
+msgstr "Głośność mikrofonu:"
 
 msgid "Middle C"
-msgstr ""
+msgstr "Średnie C"
 
 msgid "Min"
 msgstr "Min"
@@ -1205,25 +1233,30 @@ msgstr "mozaika"
 msgid "motion"
 msgstr "ruch"
 
+msgid "motor"
+msgstr ""
+
+msgid "motor A"
+msgstr ""
+
+msgid "motor B"
+msgstr ""
+
 msgid "mouse-pointer"
 msgstr "wskaźnik myszy"
 
-#, fuzzy
 msgid "Multiple"
 msgstr "Wiele"
 
-#, fuzzy
 msgid "Music and Dance"
 msgstr "Muzyka i taniec"
 
 msgid "Music Box"
 msgstr "Pozytywka"
 
-#, fuzzy
 msgid "Music Loops"
 msgstr "Sample muzyczne"
 
-#, fuzzy
 msgid "My Stuff"
 msgstr "Moje rzeczy"
 
@@ -1237,20 +1270,18 @@ msgid "New"
 msgstr "Nowy"
 
 msgid "New backdrop from camera"
-msgstr ""
+msgstr "Nowe tło z aparatu"
 
 # 92%
-#, fuzzy
 msgid "New backdrop:"
-msgstr "Nowe tło"
+msgstr "Nowe tło:"
 
 msgid "New costume from camera"
-msgstr ""
+msgstr "Nowy kostium z aparatu"
 
 # 91%
-#, fuzzy
 msgid "New costume:"
-msgstr "Nowy kostium"
+msgstr "Nowy kostium:"
 
 msgid "New List"
 msgstr "Nowa lista"
@@ -1262,12 +1293,11 @@ msgid "New name"
 msgstr "Nowa nazwa"
 
 # 90%
-#, fuzzy
 msgid "New sound:"
-msgstr "Nowy dźwięk"
+msgstr "Nowy dźwięk:"
 
 msgid "New sprite from camera"
-msgstr ""
+msgstr "Nowy duszek z aparatu"
 
 msgid "New sprite:"
 msgstr "Nowy duszek:"
@@ -1279,16 +1309,17 @@ msgid "No motion blocks"
 msgstr "Brak bloków ruchu"
 
 msgid "normal readout"
+msgstr "normalny odczyt"
+
+msgid "not ="
 msgstr ""
 
-#, fuzzy
 msgid "Not saved; network or server problem."
-msgstr "Nie zapisano, błąd sieci lub serwera.."
+msgstr "Nie zapisano, błąd sieci lub serwera."
 
 msgid "Not saved; project did not load."
-msgstr ""
+msgstr "Nie zapisano, projekt nie wczytany."
 
-#, fuzzy
 msgid "of"
 msgstr "z"
 
@@ -1296,7 +1327,7 @@ msgid "off"
 msgstr "wyłączony"
 
 msgid "Offline Editor"
-msgstr ""
+msgstr "Edytor offline"
 
 msgid "OK"
 msgstr "OK"
@@ -1311,7 +1342,7 @@ msgid "Open Cuica"
 msgstr "Otwarta Cuíca"
 
 msgid "Open Hi-Hat"
-msgstr "Hi-Hat (otwarty)"
+msgstr "Otwarty Hi-Hat"
 
 msgid "Options"
 msgstr "Opcje"
@@ -1326,18 +1357,17 @@ msgstr "Inne"
 msgid "other scripts in sprite"
 msgstr "inne skrypty duszka"
 
-#, fuzzy
 msgid "Outdoors"
 msgstr "Na zewnątrz"
 
 msgid "Paint new backdrop"
-msgstr ""
+msgstr "Namaluj nowe tło"
 
 msgid "Paint new costume"
-msgstr ""
+msgstr "Namaluj nowy kostium"
 
 msgid "Paint new sprite"
-msgstr ""
+msgstr "Namaluj nowego duszka"
 
 msgid "paste"
 msgstr "wklej"
@@ -1358,7 +1388,6 @@ msgid "Piano"
 msgstr "Pianino"
 
 # 92%
-#, fuzzy
 msgid "Pick up color"
 msgstr "Pobierz kolor"
 
@@ -1375,9 +1404,8 @@ msgid "Profile"
 msgstr "Profil"
 
 msgid "Project did not load."
-msgstr ""
+msgstr "Projekt nie wczytany."
 
-#, fuzzy
 msgid "Project not saved!"
 msgstr "Projekt nie zapisany!"
 
@@ -1388,7 +1416,7 @@ msgid "Record"
 msgstr "Nagraj"
 
 msgid "Record new sound"
-msgstr ""
+msgstr "Nagraj nowy dźwięk"
 
 msgid "recording1"
 msgstr "nagranie1"
@@ -1397,19 +1425,20 @@ msgid "Rectangle"
 msgstr "Prostokąt"
 
 # 75%
-#, fuzzy
 msgid "Redo"
-msgstr "ponów"
+msgstr "Ponów"
 
 msgid "redo"
 msgstr "ponów"
 
 msgid "Remix"
-msgstr "Remix"
+msgstr "Remiks"
 
-#, fuzzy
 msgid "Remixing..."
 msgstr "Remiksowanie..."
+
+msgid "Remove extension blocks"
+msgstr ""
 
 msgid "Rename"
 msgstr "Zmień nazwę"
@@ -1417,7 +1446,6 @@ msgstr "Zmień nazwę"
 msgid "rename variable"
 msgstr "zmień nazwę zmiennej"
 
-#, fuzzy
 msgid "requires sign in"
 msgstr "wymaga zalogowania"
 
@@ -1439,7 +1467,6 @@ msgstr "opór-D"
 msgid "reverse"
 msgstr "odwróć"
 
-#, fuzzy
 msgid "Revert"
 msgstr "Przywróć"
 
@@ -1483,23 +1510,24 @@ msgid "Saxophone"
 msgstr "Saksofon"
 
 # 85%
-#, fuzzy
 msgid "Script"
-msgstr "Skrypty"
+msgstr "Skrypt"
 
 msgid "Scripts"
 msgstr "Skrypty"
 
 # 87%
-#, fuzzy
 msgid "Scripts:"
-msgstr "Skrypty"
+msgstr "Skrypty:"
 
 msgid "second"
 msgstr "sekunda"
 
 msgid "See project page"
-msgstr "Zobacz stronę projektu"
+msgstr "Przejdź do strony projektu"
+
+msgid "See the Tips window (on the right) to install the plug-in and get the extension working."
+msgstr ""
 
 msgid "Select"
 msgstr "Wybierz"
@@ -1507,24 +1535,21 @@ msgstr "Wybierz"
 msgid "select all"
 msgstr "zaznacz wszystko"
 
-#, fuzzy
 msgid "Select and duplicate"
 msgstr "Zaznacz i duplikuj"
 
-#, fuzzy
 msgid "Send to back"
 msgstr "Wyślij do tyłu"
 
 # 88%
-#, fuzzy
 msgid "Set costume center"
-msgstr "Ustaw Środek Kostiumu"
+msgstr "Ustaw środek kostiumu"
 
 msgid "Set Costume Center"
 msgstr "Ustaw Środek Kostiumu"
 
 msgid "set slider min and max"
-msgstr ""
+msgstr "ustaw min i max suwaka"
 
 msgid "Share"
 msgstr "Udostępnij"
@@ -1532,9 +1557,8 @@ msgstr "Udostępnij"
 msgid "shared"
 msgstr "udostępniony"
 
-#, fuzzy
 msgid "Shift:"
-msgstr "Przesuń: "
+msgstr "Przesuń:"
 
 msgid "show"
 msgstr "pokaż"
@@ -1545,11 +1569,9 @@ msgstr "pokaż odbiorców"
 msgid "show senders"
 msgstr "pokaż nadawców"
 
-#, fuzzy
 msgid "show:"
 msgstr "pokaż:"
 
-#, fuzzy
 msgid "Shrink"
 msgstr "Zmniejsz"
 
@@ -1559,7 +1581,6 @@ msgstr "Rimshot"
 msgid "Sign in"
 msgstr "Zaloguj się"
 
-#, fuzzy
 msgid "Sign in to save"
 msgstr "Zaloguj się aby zapisać"
 
@@ -1578,14 +1599,12 @@ msgstr "rozmiar"
 msgid "slider"
 msgstr "suwak"
 
-#, fuzzy
 msgid "Slider Range"
 msgstr "Zakres suwaka"
 
 msgid "Small stage layout"
 msgstr "Układ małej sceny"
 
-#, fuzzy
 msgid "Smooth"
 msgstr "Gładki"
 
@@ -1612,11 +1631,9 @@ msgid "space"
 msgstr "spacja"
 
 # 80%
-#, fuzzy
 msgid "Space"
-msgstr "spacja"
+msgstr "Kosmos"
 
-#, fuzzy
 msgid "Sports"
 msgstr "Sport"
 
@@ -1624,12 +1641,10 @@ msgstr "Sport"
 msgid "Sprite"
 msgstr "Duszek"
 
-#, fuzzy
 msgid "Sprite Library"
 msgstr "Biblioteka duszków"
 
 # 85%
-#, fuzzy
 msgid "Sprite1"
 msgstr "Duszek1"
 
@@ -1646,14 +1661,12 @@ msgid "Stage"
 msgstr "Scena"
 
 # 93%
-#, fuzzy
 msgid "Stage selected:"
-msgstr "Wybrana scena"
+msgstr "Wybrana scena:"
 
 msgid "Steel Drum"
 msgstr "Blaszany bęben"
 
-#, fuzzy
 msgid "stored on server"
 msgstr "przechowywane na serwerze"
 
@@ -1679,18 +1692,16 @@ msgid "Theme"
 msgstr "Motyw"
 
 msgid "Things"
-msgstr "Rzeczy"
+msgstr "Przedmioty"
 
-#, fuzzy
 msgid "This project can detect who is using it, through the “username” block. To hide your identity, sign out before using the project."
 msgstr ""
 "Ten projekt może ustalić kto go używa poprzez blok \"nazwa użytkownika\". Aby "
 "ukryć swoją tożsamość, wyloguj się przed skorzystaniem z tego projektu."
 
-#, fuzzy
 msgid "This project uses Cloud data ‒ a feature that is available only to signed in users."
 msgstr ""
-"Ten projekt używa danych w Chmurze - właściwości dostępnej tylko dla "
+"Ten projekt używa danych w Chmurze - funkcji dostępnej tylko dla "
 "zalogowanych użytkowników."
 
 msgid "this script"
@@ -1702,9 +1713,8 @@ msgstr "ten duszek"
 msgid "this way"
 msgstr "w ten sposób"
 
-#, fuzzy
 msgid "Throw away all changes since opening this project?"
-msgstr "Czy porzuć wszystkie zmiany dokonane od czasu otwarcia tego projektu?"
+msgstr "Czy porzucić wszystkie zmiany dokonane od czasu otwarcia tego projektu?"
 
 msgid "timer"
 msgstr "czasomierz"
@@ -1715,7 +1725,6 @@ msgstr "Wskazówki"
 msgid "To delete a block definition, first remove all uses of the block."
 msgstr "Aby usunąć blok, najpierw usuń wszystkie jego użycia."
 
-#, fuzzy
 msgid "Transportation"
 msgstr "Transport"
 
@@ -1726,7 +1735,6 @@ msgid "Trombone"
 msgstr "Puzon"
 
 # 90%
-#, fuzzy
 msgid "Turbo mode"
 msgstr "Tryb Turbo"
 
@@ -1737,25 +1745,21 @@ msgid "Type"
 msgstr "Typ"
 
 # 75%
-#, fuzzy
 msgid "Undelete"
-msgstr "usuń"
+msgstr "Przywróć"
 
-#, fuzzy
 msgid "Underwater"
-msgstr "Podwodny"
+msgstr "Pod wodą"
 
 # 75%
-#, fuzzy
 msgid "Undo"
-msgstr "cofnij"
+msgstr "Cofnij"
 
 msgid "undo"
 msgstr "cofnij"
 
-#, fuzzy
 msgid "Undo Revert"
-msgstr "Cofnij \"Powtórz\""
+msgstr "Cofnij \"Przywróć\""
 
 msgid "Ungroup"
 msgstr "Rozgrupuj"
@@ -1770,20 +1774,19 @@ msgid "up arrow"
 msgstr "strzałka w górę"
 
 msgid "Upload backdrop from file"
-msgstr ""
+msgstr "Wgraj tło z pliku"
 
 msgid "Upload costume from file"
-msgstr ""
+msgstr "Wgraj kostium z pliku"
 
-#, fuzzy
 msgid "Upload from your computer"
 msgstr "Wgraj ze swojego komputera"
 
 msgid "Upload sound from file"
-msgstr ""
+msgstr "Wgraj dźwięk z pliku"
 
 msgid "Upload sprite from file"
-msgstr ""
+msgstr "Wgraj duszka z pliku"
 
 msgid "Uploading image..."
 msgstr "Wgrywanie zdjęcia..."
@@ -1800,13 +1803,11 @@ msgstr "zmienna"
 msgid "Variable name"
 msgstr "Nazwa zmiennej"
 
-#, fuzzy
 msgid "Vector"
 msgstr "Wektor"
 
-#, fuzzy
 msgid "Vector Mode"
-msgstr "Tryp wektora"
+msgstr "Tryb wektorowy"
 
 msgid "Vibraphone"
 msgstr "Wibrafon"
@@ -1817,26 +1818,21 @@ msgstr "Vibraslap"
 msgid "video motion"
 msgstr "ruch w kamerze"
 
-#, fuzzy
 msgid "Video on:"
 msgstr "Wideo na:"
 
-#, fuzzy
 msgid "Vocals"
 msgstr "Wokal"
 
 msgid "volume"
 msgstr "głośność"
 
-#, fuzzy
 msgid "Walking"
-msgstr "Spacer"
+msgstr "Spacerowanie"
 
-#, fuzzy
 msgid "Want to save? Click remix"
-msgstr "Chcesz zapisać? Kliknij remix"
+msgstr "Chcesz zapisać? Kliknij Remix"
 
-#, fuzzy
 msgid "Which column do you want to import"
 msgstr "Którą kolumnę chcesz zaimportować"
 
@@ -1858,13 +1854,11 @@ msgstr "pozycja y"
 msgid "year"
 msgstr "rok"
 
-#, fuzzy
 msgid "You cannot edit cloud data in someone else's project.<br>Any change that you make in the editor will be temporary and not persistent."
 msgstr ""
-"Nie możesz edytować danych w Chmurze w kogoś innego projekcie.<br>Wszystkie "
-"zmiany które dokonasz w edytorze będą tymczasowe i nietrwałe."
+"Nie możesz edytować danych w Chmurze w czyimś projekcie.<br>Wszystkie zmiany "
+"których dokonasz w edytorze będą tymczasowe i nie zostaną zapisane."
 
-#, fuzzy
 msgid "Eraser width:"
 msgstr "Szerokość gumki:"
 

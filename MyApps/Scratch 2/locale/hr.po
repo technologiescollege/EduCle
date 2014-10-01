@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-02 00:56+0200\n"
-"PO-Revision-Date: 2013-08-01 00:32+0200\n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
+"PO-Revision-Date: 2013-08-06 13:48+0200\n"
 "Last-Translator: zeta11 <tajana.toto@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -221,6 +221,7 @@ msgstr "miš y"
 msgid "move %n steps"
 msgstr "idi %n koraka"
 
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
 msgid "next backdrop"
 msgstr "sljedeća pozadina"
 
@@ -303,11 +304,16 @@ msgid "set instrument to %d.instrument"
 msgstr "postavi instrument na %d.instrument"
 
 # 89%
-msgid "set motor direction %m.motorDirection"
+# 86%
+# 97%
+#, fuzzy
+msgid "set %m.motor2 direction to %m.motorDirection"
 msgstr "postavi smjer motora %m.motorDirection"
 
 # 77%
-msgid "set motor power %n"
+# 75%
+#, fuzzy
+msgid "set %m.motor power to %n"
 msgstr "postavi snagu motora %n"
 
 msgid "set pen color to %c"
@@ -371,6 +377,7 @@ msgstr "tišina"
 msgid "switch backdrop to %m.backdrop"
 msgstr "promijeni pozadinu na %m.backdrop"
 
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
 msgid "switch backdrop to %m.backdrop and wait"
 msgstr "promijeni pozadinu na %m.backdrop i pričekajte"
 
@@ -404,13 +411,19 @@ msgstr "skreni @turnLeft %n stupnjeva"
 msgid "turn @turnRight %n degrees"
 msgstr "skreni @turnRight %n stupnjeva"
 
-msgid "turn motor off"
+# 82%
+#, fuzzy
+msgid "turn %m.motor off"
 msgstr "isključi motor"
 
-msgid "turn motor on"
+# 81%
+#, fuzzy
+msgid "turn %m.motor on"
 msgstr "uključi motor"
 
-msgid "turn motor on for %n secs"
+# 89%
+#, fuzzy
+msgid "turn %m.motor on for %n secs"
 msgstr "uključi motor na %n sekundi"
 
 msgid "turn video %m.videoState"
@@ -437,17 +450,21 @@ msgstr "kada je %m.booleanSensor"
 msgid "when %m.key key pressed"
 msgstr "kada je tipka %m.key pritisnuta"
 
+msgid "when %m.sensor %m.lessMore %n"
+msgstr ""
+
 msgid "when %m.triggerSensor > %n"
 msgstr "kada je %m.triggerSensor > %n"
 
 msgid "when @greenFlag clicked"
 msgstr "kada je @greenFlag kliknut"
 
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
 msgid "when backdrop switches to %m.backdrop"
 msgstr "kada se pozadina mijenja u %m.backdrop"
 
-msgid "when distance < %n"
-msgstr "kada je udaljenost < %n"
+msgid "when distance %m.lessMore %n"
+msgstr ""
 
 msgid "when I receive %m.broadcast"
 msgstr "kada primim %m.broadcast"
@@ -455,11 +472,14 @@ msgstr "kada primim %m.broadcast"
 msgid "when I start as a clone"
 msgstr "kada krećem kao klon"
 
+msgid "when Stage clicked"
+msgstr ""
+
 msgid "when this sprite clicked"
 msgstr "kada je lik kliknut"
 
-msgid "when tilt = %n"
-msgstr "kad je nagib = %n"
+msgid "when tilt %m.eNe %n"
+msgstr ""
 
 msgid "x position"
 msgstr "x položaj"
@@ -467,29 +487,58 @@ msgstr "x položaj"
 msgid "y position"
 msgstr "y položaj"
 
-msgid "forever if %b"
-msgstr "ponavljaj ako je %b"
+# 89%
+msgid "set motor direction %m.motorDirection"
+msgstr "postavi smjer motora %m.motorDirection"
 
-msgid "if %b"
-msgstr "ako je %b"
+# 77%
+msgid "set motor power %n"
+msgstr "postavi snagu motora %n"
 
-msgid "motor direction %m.motorDirection"
-msgstr "smjer motora %m.motorDirection"
+msgid "turn motor off"
+msgstr "isključi motor"
 
-msgid "motor off"
-msgstr "upali motor"
+msgid "turn motor on"
+msgstr "uključi motor"
 
-msgid "motor on"
-msgstr "ugasi motor"
+msgid "turn motor on for %n secs"
+msgstr "uključi motor na %n sekundi"
 
-msgid "motor on for %n secs"
-msgstr "upali motor na %n sekunda"
+msgid "when distance < %n"
+msgstr "kada je udaljenost < %n"
 
-msgid "motor power %n"
-msgstr "snaga motora %n"
+msgid "when tilt = %n"
+msgstr "kad je nagib = %n"
 
-msgid "play note %n for %n beats"
-msgstr "sviraj notu %d.note %n puta"
+# 89%
+# 86%
+#, fuzzy
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "postavi smjer motora %m.motorDirection"
+
+#~ msgid "forever if %b"
+#~ msgstr "ponavljaj ako je %b"
+
+#~ msgid "if %b"
+#~ msgstr "ako je %b"
+
+#~ msgid "motor direction %m.motorDirection"
+#~ msgstr "smjer motora %m.motorDirection"
+
+#~ msgid "motor off"
+#~ msgstr "upali motor"
+
+#~ msgid "motor on"
+#~ msgstr "ugasi motor"
+
+#~ msgid "motor on for %n secs"
+#~ msgstr "upali motor na %n sekunda"
+
+#~ msgid "motor power %n"
+#~ msgstr "snaga motora %n"
+
+#~ msgid "play note %n for %n beats"
+#~ msgstr "sviraj notu %d.note %n puta"
 
 ##################
 # User Interface #
@@ -498,7 +547,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-19 20:52+0200\n"
+"POT-Creation-Date: 2013-08-01 08:55+0200\n"
 "PO-Revision-Date: 2013-08-01 00:29+0200\n"
 "Last-Translator: zeta11 <tajana.toto@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -526,6 +575,15 @@ msgstr "A spojen"
 msgid "a copy of the project file on your computer."
 msgstr "kopija projekta na vašem računalu."
 
+msgid "About"
+msgstr ""
+
+msgid "About LEGO WeDo extension..."
+msgstr ""
+
+msgid "About PicoBoard extension..."
+msgstr ""
+
 msgid "abs"
 msgstr "apsolutno"
 
@@ -534,6 +592,9 @@ msgstr "Postavke računa"
 
 msgid "acos"
 msgstr "acos"
+
+msgid "Add an Extension"
+msgstr ""
 
 msgid "Add boolean input:"
 msgstr "Dodaj bool unos:"
@@ -558,6 +619,9 @@ msgstr "sve"
 
 msgid "all around"
 msgstr "sve unaokolo"
+
+msgid "all motors"
+msgstr ""
 
 msgid "Animal"
 msgstr "Životinja"
@@ -901,8 +965,17 @@ msgstr "Debljina gumice"
 msgid "Error!"
 msgstr "Greška!"
 
+msgid "everything"
+msgstr ""
+
 msgid "export"
 msgstr "izvoz"
+
+msgid "Extension Library"
+msgstr ""
+
+msgid "Extension Problem"
+msgstr ""
 
 msgid "fade in"
 msgstr "postupno pojavljivanje"
@@ -974,6 +1047,9 @@ msgstr "Gitara"
 msgid "Hand Clap"
 msgstr "Pljesak"
 
+msgid "Hardware"
+msgstr ""
+
 msgid "hide"
 msgstr "sakrij"
 
@@ -1020,6 +1096,9 @@ msgstr "strelica lijevo"
 msgid "left-right"
 msgstr "lijevo-desno"
 
+msgid "LEGO WeDo"
+msgstr ""
+
 msgid "length"
 msgstr "duljina"
 
@@ -1027,6 +1106,11 @@ msgid "Library"
 msgstr "Knjižnica"
 
 msgid "light"
+msgstr "svjetlo"
+
+# 83%
+#, fuzzy
+msgid "lights"
 msgstr "svjetlo"
 
 msgid "limit reached"
@@ -1107,6 +1191,15 @@ msgstr "mozaik"
 msgid "motion"
 msgstr "kretanje"
 
+msgid "motor"
+msgstr ""
+
+msgid "motor A"
+msgstr ""
+
+msgid "motor B"
+msgstr ""
+
 msgid "mouse-pointer"
 msgstr "strelica miša"
 
@@ -1172,6 +1265,9 @@ msgstr "Bez blokova kretanja"
 
 msgid "normal readout"
 msgstr "normalni prikaz"
+
+msgid "not ="
+msgstr ""
 
 msgid "Not saved; network or server problem."
 msgstr "Nije spremljeno; problemi s mrežom ili poslužiteljem."
@@ -1295,6 +1391,9 @@ msgstr "Obrada"
 msgid "Remixing..."
 msgstr "Obrađujem..."
 
+msgid "Remove extension blocks"
+msgstr ""
+
 msgid "Rename"
 msgstr "Preimenuj"
 
@@ -1380,6 +1479,9 @@ msgstr "sekunda"
 
 msgid "See project page"
 msgstr "Pogledaj stranicu projekta"
+
+msgid "See the Tips window (on the right) to install the plug-in and get the extension working."
+msgstr ""
 
 msgid "Select"
 msgstr "Označi"

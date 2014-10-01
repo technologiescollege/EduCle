@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-02 00:56+0200\n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
 "PO-Revision-Date: 2013-05-07 11:17+0200\n"
 "Last-Translator: Alisha <panjwani.alisha@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -304,11 +304,16 @@ msgid "set instrument to %d.instrument"
 msgstr "%d.instrument पर साधन सेट करे"
 
 # 89%
-msgid "set motor direction %m.motorDirection"
+# 86%
+# 97%
+#, fuzzy
+msgid "set %m.motor2 direction to %m.motorDirection"
 msgstr "मोटर की दिशा %m.motorDirection पर सेट करे"
 
 # 77%
-msgid "set motor power %n"
+# 75%
+#, fuzzy
+msgid "set %m.motor power to %n"
 msgstr "मोटर की शक्ति %n पर सेट करे"
 
 msgid "set pen color to %c"
@@ -408,14 +413,20 @@ msgstr "@turnLeft %n डिग्री से घूम जाए"
 msgid "turn @turnRight %n degrees"
 msgstr "@turnRight %n डिग्री से घूम जाए"
 
-msgid "turn motor off"
+# 82%
+#, fuzzy
+msgid "turn %m.motor off"
 msgstr "मोटर बंद करें"
 
-msgid "turn motor on"
+# 81%
+#, fuzzy
+msgid "turn %m.motor on"
 msgstr "मोटर चालू करें"
 
 # 80%
-msgid "turn motor on for %n secs"
+# 89%
+#, fuzzy
+msgid "turn %m.motor on for %n secs"
 msgstr "%n सेकंड के लिए मोटर चालू करें"
 
 msgid "turn video %m.videoState"
@@ -443,6 +454,9 @@ msgstr "जब %m.booleanSensor हो"
 msgid "when %m.key key pressed"
 msgstr "जब %m.key बटन दबा हुआ है"
 
+msgid "when %m.sensor %m.lessMore %n"
+msgstr ""
+
 msgid "when %m.triggerSensor > %n"
 msgstr "जब %m.triggerSensor > %n"
 
@@ -453,8 +467,8 @@ msgstr "जब @greenFlag क्लिक किया गया हो"
 msgid "when backdrop switches to %m.backdrop"
 msgstr "जब पृष्ठभूमि % m.backdrop में बदल जाए"
 
-msgid "when distance < %n"
-msgstr "जब दूरी< %n"
+msgid "when distance %m.lessMore %n"
+msgstr ""
 
 msgid "when I receive %m.broadcast"
 msgstr "मुझे %m.broadcast मिलने पर"
@@ -462,17 +476,50 @@ msgstr "मुझे %m.broadcast मिलने पर"
 msgid "when I start as a clone"
 msgstr "मेरे एक क्लोन के रूप में शुरू होने पर"
 
+msgid "when Stage clicked"
+msgstr ""
+
 msgid "when this sprite clicked"
 msgstr "इस स्प्राईट को क्लिक करने पर"
 
-msgid "when tilt = %n"
-msgstr "जब झुकाव = %n"
+msgid "when tilt %m.eNe %n"
+msgstr ""
 
 msgid "x position"
 msgstr "x स्थिति"
 
 msgid "y position"
 msgstr "y स्थिति"
+
+# 89%
+msgid "set motor direction %m.motorDirection"
+msgstr "मोटर की दिशा %m.motorDirection पर सेट करे"
+
+# 77%
+msgid "set motor power %n"
+msgstr "मोटर की शक्ति %n पर सेट करे"
+
+msgid "turn motor off"
+msgstr "मोटर बंद करें"
+
+msgid "turn motor on"
+msgstr "मोटर चालू करें"
+
+# 80%
+msgid "turn motor on for %n secs"
+msgstr "%n सेकंड के लिए मोटर चालू करें"
+
+msgid "when distance < %n"
+msgstr "जब दूरी< %n"
+
+msgid "when tilt = %n"
+msgstr "जब झुकाव = %n"
+
+# 89%
+# 86%
+#, fuzzy
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "मोटर की दिशा %m.motorDirection पर सेट करे"
 
 #~ msgid "user id"
 #~ msgstr "उपयोगकर्ता आईडी"
@@ -526,7 +573,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-19 20:52+0200\n"
+"POT-Creation-Date: 2013-08-01 08:55+0200\n"
 "PO-Revision-Date: 2013-05-07 11:20+0200\n"
 "Last-Translator: Alisha <panjwani.alisha@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -553,6 +600,15 @@ msgstr "A जुड़ा हुआ हैं"
 msgid "a copy of the project file on your computer."
 msgstr "आपके कंप्यूटर पर प्रोजेक्ट फाइल की एक एक कॉपी"
 
+msgid "About"
+msgstr ""
+
+msgid "About LEGO WeDo extension..."
+msgstr ""
+
+msgid "About PicoBoard extension..."
+msgstr ""
+
 msgid "abs"
 msgstr ""
 
@@ -560,6 +616,9 @@ msgid "Account settings"
 msgstr "खाते की सेटिंग्स"
 
 msgid "acos"
+msgstr ""
+
+msgid "Add an Extension"
 msgstr ""
 
 msgid "Add boolean input:"
@@ -585,6 +644,9 @@ msgstr "सब"
 
 msgid "all around"
 msgstr "सब ओर"
+
+msgid "all motors"
+msgstr ""
 
 msgid "Animal"
 msgstr "पशु"
@@ -925,7 +987,16 @@ msgstr ""
 msgid "Error!"
 msgstr ""
 
+msgid "everything"
+msgstr ""
+
 msgid "export"
+msgstr ""
+
+msgid "Extension Library"
+msgstr ""
+
+msgid "Extension Problem"
 msgstr ""
 
 msgid "fade in"
@@ -997,6 +1068,9 @@ msgstr ""
 msgid "Hand Clap"
 msgstr ""
 
+msgid "Hardware"
+msgstr ""
+
 msgid "hide"
 msgstr ""
 
@@ -1042,6 +1116,9 @@ msgstr ""
 msgid "left-right"
 msgstr ""
 
+msgid "LEGO WeDo"
+msgstr ""
+
 msgid "length"
 msgstr ""
 
@@ -1049,6 +1126,9 @@ msgid "Library"
 msgstr ""
 
 msgid "light"
+msgstr ""
+
+msgid "lights"
 msgstr ""
 
 msgid "limit reached"
@@ -1129,6 +1209,15 @@ msgstr ""
 msgid "motion"
 msgstr ""
 
+msgid "motor"
+msgstr ""
+
+msgid "motor A"
+msgstr ""
+
+msgid "motor B"
+msgstr ""
+
 msgid "mouse-pointer"
 msgstr ""
 
@@ -1193,6 +1282,9 @@ msgid "No motion blocks"
 msgstr ""
 
 msgid "normal readout"
+msgstr ""
+
+msgid "not ="
 msgstr ""
 
 msgid "Not saved; network or server problem."
@@ -1315,6 +1407,9 @@ msgstr ""
 msgid "Remixing..."
 msgstr ""
 
+msgid "Remove extension blocks"
+msgstr ""
+
 msgid "Rename"
 msgstr ""
 
@@ -1397,6 +1492,9 @@ msgid "second"
 msgstr ""
 
 msgid "See project page"
+msgstr ""
+
+msgid "See the Tips window (on the right) to install the plug-in and get the extension working."
 msgstr ""
 
 msgid "Select"

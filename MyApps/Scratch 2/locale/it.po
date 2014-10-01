@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-02 00:56+0200\n"
-"PO-Revision-Date: 2013-05-24 02:12+0200\n"
-"Last-Translator: adlogi <adlogi@media.mit.edu>\n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
+"PO-Revision-Date: 2014-09-03 09:48+0200\n"
+"Last-Translator: s_federici <s_federici@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -161,7 +161,7 @@ msgid "go to x:%n y:%n"
 msgstr "vai a x:%n y:%n"
 
 msgid "hide"
-msgstr "nasconditi"
+msgstr "nascondi"
 
 msgid "hide list %m.list"
 msgstr "nascondi la lista %m.list"
@@ -209,7 +209,7 @@ msgid "Motion"
 msgstr "Movimento"
 
 msgid "mouse down?"
-msgstr "tasto del mouse premuto"
+msgstr "pulsante del mouse premuto"
 
 msgid "mouse x"
 msgstr "x del mouse"
@@ -304,12 +304,15 @@ msgid "set instrument to %d.instrument"
 msgstr "passa a strumento %d.instrument"
 
 # 89%
-msgid "set motor direction %m.motorDirection"
-msgstr "porta direzione motore a %m.motorDirection"
+# 86%
+# 97%
+msgid "set %m.motor2 direction to %m.motorDirection"
+msgstr "porta direzione %m.motor2 a %m.motorDirection"
 
 # 77%
-msgid "set motor power %n"
-msgstr "porta potenza motore a %n"
+# 75%
+msgid "set %m.motor power to %n"
+msgstr "porta potenza %m.motor a %n"
 
 msgid "set pen color to %c"
 msgstr "usa penna di colore %c"
@@ -345,7 +348,7 @@ msgid "set y to %n"
 msgstr "vai dove y è %n"
 
 msgid "show"
-msgstr "mostrati"
+msgstr "mostra"
 
 msgid "show list %m.list"
 msgstr "mostra la lista %m.list"
@@ -406,15 +409,18 @@ msgstr "ruota di @turnLeft %n gradi"
 msgid "turn @turnRight %n degrees"
 msgstr "ruota di @turnRight %n gradi"
 
-msgid "turn motor off"
-msgstr "spegni motore"
+# 82%
+msgid "turn %m.motor off"
+msgstr "spegni %m.motor"
 
-msgid "turn motor on"
-msgstr "accendi motore"
+# 81%
+msgid "turn %m.motor on"
+msgstr "accendi %m.motor"
 
 # 80%
-msgid "turn motor on for %n secs"
-msgstr "accendi motore per %n secondi"
+# 89%
+msgid "turn %m.motor on for %n secs"
+msgstr "accendi %m.motor per %n secondi"
 
 msgid "turn video %m.videoState"
 msgstr "%m.videoState il video della webcam"
@@ -442,6 +448,9 @@ msgstr "quando %m.booleanSensor"
 msgid "when %m.key key pressed"
 msgstr "quando si preme il tasto %m.key"
 
+msgid "when %m.sensor %m.lessMore %n"
+msgstr "quando %m.sensor %m.lessMore %n"
+
 msgid "when %m.triggerSensor > %n"
 msgstr "quando %m.triggerSensor > %n"
 
@@ -452,8 +461,8 @@ msgstr "quando si clicca su @greenFlag"
 msgid "when backdrop switches to %m.backdrop"
 msgstr "quando lo sfondo passa a %m.backdrop"
 
-msgid "when distance < %n"
-msgstr "quando la distanza < %n"
+msgid "when distance %m.lessMore %n"
+msgstr "quando distanza %m.lessMore %n"
 
 msgid "when I receive %m.broadcast"
 msgstr "quando ricevo %m.broadcast"
@@ -461,17 +470,49 @@ msgstr "quando ricevo %m.broadcast"
 msgid "when I start as a clone"
 msgstr "quando vengo clonato"
 
+msgid "when Stage clicked"
+msgstr "quando Stage cliccato"
+
 msgid "when this sprite clicked"
 msgstr "quando si clicca questo sprite"
 
-msgid "when tilt = %n"
-msgstr "quando l'alzo = %n"
+msgid "when tilt %m.eNe %n"
+msgstr "quando inclinazione %m.eNe %n"
 
 msgid "x position"
 msgstr "posizione x"
 
 msgid "y position"
 msgstr "posizione y"
+
+# 89%
+msgid "set motor direction %m.motorDirection"
+msgstr "porta direzione motore a %m.motorDirection"
+
+# 77%
+msgid "set motor power %n"
+msgstr "porta potenza motore a %n"
+
+msgid "turn motor off"
+msgstr "spegni motore"
+
+msgid "turn motor on"
+msgstr "accendi motore"
+
+# 80%
+msgid "turn motor on for %n secs"
+msgstr "accendi motore per %n secondi"
+
+msgid "when distance < %n"
+msgstr "quando la distanza < %n"
+
+msgid "when tilt = %n"
+msgstr "quando l'alzo = %n"
+
+# 89%
+# 86%
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "porta direzione motore a %m.motorDirection"
 
 #~ msgid "user name"
 #~ msgstr "user name"
@@ -528,8 +569,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-19 20:53+0200\n"
-"PO-Revision-Date: 2013-07-19 21:18+0200\n"
+"POT-Creation-Date: 2013-08-01 08:55+0200\n"
+"PO-Revision-Date: 2014-09-03 10:32+0200\n"
 "Last-Translator: s_federici <s_federici@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -555,6 +596,15 @@ msgstr "A connesso"
 msgid "a copy of the project file on your computer."
 msgstr "una copia del file del progetto sul tuo computer."
 
+msgid "About"
+msgstr "Info"
+
+msgid "About LEGO WeDo extension..."
+msgstr "Informazioni sull'estensione LEGO WeDO..."
+
+msgid "About PicoBoard extension..."
+msgstr "Informazioni sull'estensione PicoBoard..."
+
 msgid "abs"
 msgstr "abs"
 
@@ -564,9 +614,12 @@ msgstr "Configurazione account"
 msgid "acos"
 msgstr "acos"
 
+msgid "Add an Extension"
+msgstr "Aggiungi un'Estensione"
+
 # 90%
 msgid "Add boolean input:"
-msgstr "Aggiungi input booleano:"
+msgstr "Aggiungi un input booleano:"
 
 msgid "add comment"
 msgstr "aggiungi un commento"
@@ -590,6 +643,9 @@ msgstr "tutto"
 
 msgid "all around"
 msgstr "può ruotare"
+
+msgid "all motors"
+msgstr "tutti i motori"
 
 msgid "Animal"
 msgstr "Animale"
@@ -651,7 +707,7 @@ msgid "Bass Drum"
 msgstr "Grancassa"
 
 msgid "Bassoon"
-msgstr "Bassoon"
+msgstr "Fagotto"
 
 msgid "Because you have a new Scratch account, any changes to cloud data won't be saved yet. Keep participating on the site you'll be able to use cloud data soon!"
 msgstr ""
@@ -699,7 +755,7 @@ msgid "Cabasa"
 msgstr "Cabasa"
 
 msgid "Camera"
-msgstr "WebCam"
+msgstr "Webcam"
 
 msgid "can drag in player:"
 msgstr "trascinabile nel player:"
@@ -774,7 +830,7 @@ msgid "Cloud"
 msgstr "Cloud"
 
 msgid "Cloud data"
-msgstr "Dati Cloud"
+msgstr "Dati cloud"
 
 msgid "color"
 msgstr "colore"
@@ -939,8 +995,17 @@ msgstr "Dimensione della gomma"
 msgid "Error!"
 msgstr "Errore!"
 
+msgid "everything"
+msgstr "tutto"
+
 msgid "export"
 msgstr "esporta"
+
+msgid "Extension Library"
+msgstr "Libreria di Estensioni"
+
+msgid "Extension Problem"
+msgstr "Problemi delle Estensioni"
 
 msgid "fade in"
 msgstr "ingresso"
@@ -1011,6 +1076,9 @@ msgstr "Chitarra"
 msgid "Hand Clap"
 msgstr "Battimano"
 
+msgid "Hardware"
+msgstr "Hardware"
+
 msgid "hide"
 msgstr "nasconditi"
 
@@ -1057,6 +1125,9 @@ msgstr "freccia sinistra"
 msgid "left-right"
 msgstr "sinistra-destra"
 
+msgid "LEGO WeDo"
+msgstr "LEGO WeDo"
+
 msgid "length"
 msgstr "lunghezza"
 
@@ -1065,6 +1136,10 @@ msgstr "Libreria"
 
 msgid "light"
 msgstr "luce"
+
+# 83%
+msgid "lights"
+msgstr "luci"
 
 msgid "limit reached"
 msgstr "limite raggiunto"
@@ -1146,11 +1221,20 @@ msgstr "mosaico"
 msgid "motion"
 msgstr "movimento"
 
+msgid "motor"
+msgstr "motore"
+
+msgid "motor A"
+msgstr "motore A"
+
+msgid "motor B"
+msgstr "motore B"
+
 msgid "mouse-pointer"
 msgstr "puntatore del mouse"
 
 msgid "Multiple"
-msgstr "Copia Multipla"
+msgstr "Copia multipla"
 
 msgid "Music and Dance"
 msgstr "Musica e Danza"
@@ -1214,6 +1298,9 @@ msgstr "Nessun blocco di movimento"
 
 msgid "normal readout"
 msgstr "normale"
+
+msgid "not ="
+msgstr "non ="
 
 msgid "Not saved; network or server problem."
 msgstr "Il salvataggio è fallito: problema sulla rete o sul server."
@@ -1337,6 +1424,9 @@ msgstr "Remix"
 msgid "Remixing..."
 msgstr "Creazione del remix in corso..."
 
+msgid "Remove extension blocks"
+msgstr "Rimuovi i blocchi dell'estensione"
+
 msgid "Rename"
 msgstr "Rinomina"
 
@@ -1422,6 +1512,11 @@ msgstr "secondo"
 
 msgid "See project page"
 msgstr "Vai alla pagina del progetto"
+
+msgid "See the Tips window (on the right) to install the plug-in and get the extension working."
+msgstr ""
+"Guarda nella finestra dei Suggerimenti (a destra) per installare il plug-in "
+"e far funzionare l'estensione."
 
 msgid "Select"
 msgstr "Seleziona"
@@ -1546,7 +1641,7 @@ msgid "Sprites"
 msgstr "Sprite"
 
 msgid "sqrt"
-msgstr "sqrt"
+msgstr "radq"
 
 msgid "Square"
 msgstr "Quadrato"

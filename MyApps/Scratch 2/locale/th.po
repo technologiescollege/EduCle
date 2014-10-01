@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-02 00:56+0200\n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
 "PO-Revision-Date: 2013-06-06 00:06+0200\n"
 "Last-Translator: adlogi <adlogi@media.mit.edu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -163,8 +163,10 @@ msgstr "ไปยัง x:%n y:%n"
 msgid "hide"
 msgstr "ซ่อน"
 
+# 76%
+#, fuzzy
 msgid "hide list %m.list"
-msgstr ""
+msgstr "แสดงรายการ %m.list"
 
 msgid "hide variable %m.var"
 msgstr "ซ่อนตัวแปล %m.var"
@@ -305,11 +307,16 @@ msgid "set instrument to %d.instrument"
 msgstr "ตั้งค่าเครื่องดนตรีเป็น %d.instrument"
 
 # 89%
-msgid "set motor direction %m.motorDirection"
+# 86%
+# 97%
+#, fuzzy
+msgid "set %m.motor2 direction to %m.motorDirection"
 msgstr "ทิศทางของมอเตอร์ %m.motorDirection"
 
 # 77%
-msgid "set motor power %n"
+# 75%
+#, fuzzy
+msgid "set %m.motor power to %n"
 msgstr "พลังงานมอเตอร์ %n"
 
 msgid "set pen color to %c"
@@ -351,8 +358,10 @@ msgstr "แสดง"
 msgid "show list %m.list"
 msgstr "แสดงรายการ %m.list"
 
+# 80%
+#, fuzzy
 msgid "show variable %m.var"
-msgstr ""
+msgstr "ซ่อนตัวแปล %m.var"
 
 msgid "size"
 msgstr "ขนาด"
@@ -407,14 +416,20 @@ msgstr "หมุน @turnLeft %n องศา"
 msgid "turn @turnRight %n degrees"
 msgstr "หมุน @turnRight %n องศา"
 
-msgid "turn motor off"
+# 82%
+#, fuzzy
+msgid "turn %m.motor off"
 msgstr "ปิดมอเตอร์"
 
-msgid "turn motor on"
+# 81%
+#, fuzzy
+msgid "turn %m.motor on"
 msgstr "เืปิดมอเตอร์"
 
 # 80%
-msgid "turn motor on for %n secs"
+# 89%
+#, fuzzy
+msgid "turn %m.motor on for %n secs"
 msgstr "เปิดมอเตอร์เป็นเวลา %n วินาที"
 
 msgid "turn video %m.videoState"
@@ -442,6 +457,9 @@ msgstr "เมื่อ %m.booleanSensor"
 msgid "when %m.key key pressed"
 msgstr "เมื่อคีย์ %m.key ถูกกด"
 
+msgid "when %m.sensor %m.lessMore %n"
+msgstr ""
+
 msgid "when %m.triggerSensor > %n"
 msgstr "เมื่อ %m.triggerSensor > %n"
 
@@ -452,8 +470,8 @@ msgstr "เมื่อ @greenFlag ถูกคลิก"
 msgid "when backdrop switches to %m.backdrop"
 msgstr "เมื่อฉากหลังเปลี่ยนเป็น %m.backdrop"
 
-msgid "when distance < %n"
-msgstr "เมื่อระยะห่าง < %n"
+msgid "when distance %m.lessMore %n"
+msgstr ""
 
 msgid "when I receive %m.broadcast"
 msgstr "เมื่อฉันได้รับ %m.broadcast"
@@ -461,10 +479,13 @@ msgstr "เมื่อฉันได้รับ %m.broadcast"
 msgid "when I start as a clone"
 msgstr ""
 
+msgid "when Stage clicked"
+msgstr ""
+
 msgid "when this sprite clicked"
 msgstr ""
 
-msgid "when tilt = %n"
+msgid "when tilt %m.eNe %n"
 msgstr ""
 
 msgid "x position"
@@ -472,6 +493,36 @@ msgstr "ตำแหน่ง x "
 
 msgid "y position"
 msgstr "ตำแหน่ง y"
+
+# 89%
+msgid "set motor direction %m.motorDirection"
+msgstr "ทิศทางของมอเตอร์ %m.motorDirection"
+
+# 77%
+msgid "set motor power %n"
+msgstr "พลังงานมอเตอร์ %n"
+
+msgid "turn motor off"
+msgstr "ปิดมอเตอร์"
+
+msgid "turn motor on"
+msgstr "เืปิดมอเตอร์"
+
+# 80%
+msgid "turn motor on for %n secs"
+msgstr "เปิดมอเตอร์เป็นเวลา %n วินาที"
+
+msgid "when distance < %n"
+msgstr "เมื่อระยะห่าง < %n"
+
+msgid "when tilt = %n"
+msgstr ""
+
+# 89%
+# 86%
+#, fuzzy
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "ทิศทางของมอเตอร์ %m.motorDirection"
 
 #~ msgid "forever if %b"
 #~ msgstr "วนซ้ำตลอดหาก %b"
@@ -504,8 +555,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-19 20:55+0200\n"
-"PO-Revision-Date: 2013-07-19 20:55+0200\n"
+"POT-Creation-Date: 2013-08-01 08:55+0200\n"
+"PO-Revision-Date: 2014-05-27 21:33+0200\n"
 "Last-Translator: Anonymous Pootle User\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -527,6 +578,15 @@ msgstr ""
 msgid "a copy of the project file on your computer."
 msgstr ""
 
+msgid "About"
+msgstr ""
+
+msgid "About LEGO WeDo extension..."
+msgstr ""
+
+msgid "About PicoBoard extension..."
+msgstr ""
+
 msgid "abs"
 msgstr "ค่าสัมบูรณ์"
 
@@ -534,6 +594,9 @@ msgid "Account settings"
 msgstr ""
 
 msgid "acos"
+msgstr ""
+
+msgid "Add an Extension"
 msgstr ""
 
 msgid "Add boolean input:"
@@ -558,6 +621,9 @@ msgid "all"
 msgstr "ทั้งหมด"
 
 msgid "all around"
+msgstr ""
+
+msgid "all motors"
 msgstr ""
 
 msgid "Animal"
@@ -895,7 +961,16 @@ msgstr ""
 msgid "Error!"
 msgstr ""
 
+msgid "everything"
+msgstr ""
+
 msgid "export"
+msgstr ""
+
+msgid "Extension Library"
+msgstr ""
+
+msgid "Extension Problem"
 msgstr ""
 
 msgid "fade in"
@@ -967,6 +1042,9 @@ msgstr ""
 msgid "Hand Clap"
 msgstr "เสียงปรบมือ"
 
+msgid "Hardware"
+msgstr ""
+
 msgid "hide"
 msgstr ""
 
@@ -1014,6 +1092,9 @@ msgstr "ลูกศรชี้ทางซ้าย"
 msgid "left-right"
 msgstr ""
 
+msgid "LEGO WeDo"
+msgstr ""
+
 msgid "length"
 msgstr ""
 
@@ -1021,6 +1102,11 @@ msgid "Library"
 msgstr ""
 
 msgid "light"
+msgstr "แสง"
+
+# 83%
+#, fuzzy
+msgid "lights"
 msgstr "แสง"
 
 msgid "limit reached"
@@ -1103,6 +1189,15 @@ msgstr "โมเสก"
 msgid "motion"
 msgstr ""
 
+msgid "motor"
+msgstr ""
+
+msgid "motor A"
+msgstr ""
+
+msgid "motor B"
+msgstr ""
+
 msgid "mouse-pointer"
 msgstr "ตัวชี้เมาส์"
 
@@ -1168,6 +1263,9 @@ msgid "No motion blocks"
 msgstr ""
 
 msgid "normal readout"
+msgstr ""
+
+msgid "not ="
 msgstr ""
 
 msgid "Not saved; network or server problem."
@@ -1292,6 +1390,9 @@ msgstr ""
 msgid "Remixing..."
 msgstr ""
 
+msgid "Remove extension blocks"
+msgstr ""
+
 msgid "Rename"
 msgstr ""
 
@@ -1374,6 +1475,9 @@ msgid "second"
 msgstr ""
 
 msgid "See project page"
+msgstr ""
+
+msgid "See the Tips window (on the right) to install the plug-in and get the extension working."
 msgstr ""
 
 msgid "Select"

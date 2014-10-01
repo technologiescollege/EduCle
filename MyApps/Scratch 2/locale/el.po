@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-02 00:56+0200\n"
-"PO-Revision-Date: 2013-07-05 01:27+0200\n"
-"Last-Translator: icantseeyourstar <georgekourkouliss@yahoo.gr>\n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
+"PO-Revision-Date: 2014-07-15 13:34+0200\n"
+"Last-Translator: Stavros Rafael <georgekourkouliss@yahoo.gr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
@@ -304,11 +304,15 @@ msgid "set instrument to %d.instrument"
 msgstr "όρισε το μουσικό όργανο σε %d.instrument"
 
 # 89%
-msgid "set motor direction %m.motorDirection"
-msgstr "όρισε την κατεύθυνση κίνησης του κινητήρα σε %m.motorDirection"
+# 86%
+# 97%
+msgid "set %m.motor2 direction to %m.motorDirection"
+msgstr ""
+"όρισε την κατεύθυνση κίνησης του κινητήρα %m.motor2 σε %m.motorDirection"
 
 # 77%
-msgid "set motor power %n"
+# 75%
+msgid "set %m.motor power to %n"
 msgstr "όρισε την ισχύ κινητήρα σε %n"
 
 msgid "set pen color to %c"
@@ -406,15 +410,17 @@ msgstr "στρίψε @turnLeft %n μοίρες"
 msgid "turn @turnRight %n degrees"
 msgstr "στρίψε @turnRight %n μοίρες"
 
-msgid "turn motor off"
-msgstr "απενεργοποίησε τον κινητήρα"
+# 82%
+msgid "turn %m.motor off"
+msgstr "απενεργοποίησε τον κινητήρα %m.motor"
 
-msgid "turn motor on"
-msgstr "ενεργοποίησε τον κινητήρα"
+# 81%
+msgid "turn %m.motor on"
+msgstr "ενεργοποίησε τον κινητήρα %m.motor"
 
-# 80%
-msgid "turn motor on for %n secs"
-msgstr "ενεργοποίησε τον κινητήρα για %n δευτερόλεπτα"
+# 89%
+msgid "turn %m.motor on for %n secs"
+msgstr "ενεργοποίησε τον κινητήρα %m.motor για %n δευτερόλεπτα"
 
 msgid "turn video %m.videoState"
 msgstr "%m.videoState την προβολή κάμερας"
@@ -441,6 +447,9 @@ msgstr "όταν %m.booleanSensor"
 msgid "when %m.key key pressed"
 msgstr "Όταν το πλήκτρο %m.key πατηθεί"
 
+msgid "when %m.sensor %m.lessMore %n"
+msgstr "όταν ο αισθητήρας %m.sensor είναι %m.lessMore %n"
+
 msgid "when %m.triggerSensor > %n"
 msgstr "Όταν %m.triggerSensor > %n"
 
@@ -451,8 +460,8 @@ msgstr "Όταν στο @greenFlag γίνει κλίκ"
 msgid "when backdrop switches to %m.backdrop"
 msgstr "Όταν το υπόβαθρο αλλάξει σε %m.backdrop"
 
-msgid "when distance < %n"
-msgstr "Όταν η απόσταση < %n"
+msgid "when distance %m.lessMore %n"
+msgstr "όταν η απόσταση είναι  %m.lessMore %n"
 
 msgid "when I receive %m.broadcast"
 msgstr "Όταν λάβω το %m.broadcast"
@@ -460,17 +469,50 @@ msgstr "Όταν λάβω το %m.broadcast"
 msgid "when I start as a clone"
 msgstr "Όταν ξεκινήσει ο κλώνος"
 
+msgid "when Stage clicked"
+msgstr "Όταν γίνει κλικ στο Σκηνικό"
+
 msgid "when this sprite clicked"
 msgstr "Όταν σε αυτό το αντικείμενο γίνει κλικ"
 
-msgid "when tilt = %n"
-msgstr "Όταν η κλίση = %n"
+msgid "when tilt %m.eNe %n"
+msgstr "όταν γέρνει %m.eNe %n"
 
 msgid "x position"
 msgstr "θέση του x"
 
 msgid "y position"
 msgstr "θέση του y"
+
+# 89%
+msgid "set motor direction %m.motorDirection"
+msgstr "όρισε την κατεύθυνση κίνησης του κινητήρα σε %m.motorDirection"
+
+# 77%
+msgid "set motor power %n"
+msgstr "όρισε την ισχύ κινητήρα σε %n"
+
+msgid "turn motor off"
+msgstr "απενεργοποίησε τον κινητήρα"
+
+msgid "turn motor on"
+msgstr "ενεργοποίησε τον κινητήρα"
+
+# 80%
+msgid "turn motor on for %n secs"
+msgstr "ενεργοποίησε τον κινητήρα για %n δευτερόλεπτα"
+
+msgid "when distance < %n"
+msgstr "Όταν η απόσταση < %n"
+
+msgid "when tilt = %n"
+msgstr "Όταν η κλίση = %n"
+
+# 89%
+# 86%
+#, fuzzy
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "όρισε την κατεύθυνση κίνησης του κινητήρα σε %m.motorDirection"
 
 #~ msgid "user name"
 #~ msgstr "Όνομα χρήστη"
@@ -518,9 +560,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-19 20:51+0200\n"
-"PO-Revision-Date: 2013-07-30 00:33+0200\n"
-"Last-Translator: icantseeyourstar <georgekourkouliss@yahoo.gr>\n"
+"POT-Creation-Date: 2013-08-01 08:55+0200\n"
+"PO-Revision-Date: 2014-06-19 16:55+0200\n"
+"Last-Translator: Stavros Rafael <georgekourkouliss@yahoo.gr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
@@ -546,6 +588,15 @@ msgstr "το Α είναι συνδεδεμένο"
 msgid "a copy of the project file on your computer."
 msgstr "Ένα αντίγραφο του έργου στον υπολογιστή σας."
 
+msgid "About"
+msgstr "Σχετικά"
+
+msgid "About LEGO WeDo extension..."
+msgstr "Σχετικά με επέκταση LEGO WeDo..."
+
+msgid "About PicoBoard extension..."
+msgstr "Σχετικά με επέκταση PicoBoard..."
+
 msgid "abs"
 msgstr "ΑπόλυτηΤιμή"
 
@@ -554,6 +605,9 @@ msgstr "Ρυθμίσεις Λογαριασμού"
 
 msgid "acos"
 msgstr "acos"
+
+msgid "Add an Extension"
+msgstr "Προσθήκη Επέκτασης"
 
 msgid "Add boolean input:"
 msgstr "Εισάγετε ένα δεδομένο boolean:"
@@ -578,6 +632,9 @@ msgstr "όλα"
 
 msgid "all around"
 msgstr "ελεύθερο"
+
+msgid "all motors"
+msgstr "όλοι οι κινητήρες"
 
 msgid "Animal"
 msgstr "Ζώα"
@@ -919,8 +976,17 @@ msgstr "Πλάτος γόμας"
 msgid "Error!"
 msgstr "Σφάλμα!"
 
+msgid "everything"
+msgstr ""
+
 msgid "export"
 msgstr "Εξαγωγή"
+
+msgid "Extension Library"
+msgstr ""
+
+msgid "Extension Problem"
+msgstr ""
 
 msgid "fade in"
 msgstr "Σταδιακή αύξηση της έντασης"
@@ -991,6 +1057,9 @@ msgstr "Κιθάρα"
 msgid "Hand Clap"
 msgstr "Χειροκρότημα"
 
+msgid "Hardware"
+msgstr ""
+
 msgid "hide"
 msgstr "Απόκρυψη"
 
@@ -1037,6 +1106,9 @@ msgstr "αριστερό βέλος"
 msgid "left-right"
 msgstr "οριζόντιο"
 
+msgid "LEGO WeDo"
+msgstr ""
+
 msgid "length"
 msgstr "Μήκος"
 
@@ -1044,6 +1116,11 @@ msgid "Library"
 msgstr "Βιβλιοθήκη"
 
 msgid "light"
+msgstr "φως"
+
+# 83%
+#, fuzzy
+msgid "lights"
 msgstr "φως"
 
 msgid "limit reached"
@@ -1125,6 +1202,15 @@ msgstr "ψηφιδωτού"
 msgid "motion"
 msgstr "κίνηση"
 
+msgid "motor"
+msgstr ""
+
+msgid "motor A"
+msgstr ""
+
+msgid "motor B"
+msgstr ""
+
 msgid "mouse-pointer"
 msgstr "δείκτη του ποντικιού"
 
@@ -1190,6 +1276,9 @@ msgstr "Κανένα τετράγωνο εντολών κίνησης"
 
 msgid "normal readout"
 msgstr "Κανονική Προβολή Κειμένου"
+
+msgid "not ="
+msgstr ""
 
 msgid "Not saved; network or server problem."
 msgstr "Δεν έγινε αποθήκευση, πρόβλημα στο δίκτυο ή στο σέρβερ."
@@ -1311,6 +1400,9 @@ msgstr "Αποθήκευση ως ανάμειξη"
 msgid "Remixing..."
 msgstr "Γίνεται ανάμειξη..."
 
+msgid "Remove extension blocks"
+msgstr ""
+
 msgid "Rename"
 msgstr "Μετονομασία"
 
@@ -1394,6 +1486,9 @@ msgstr "δευτερόλεπτο"
 
 msgid "See project page"
 msgstr "Δείτε την σελίδα του έργου"
+
+msgid "See the Tips window (on the right) to install the plug-in and get the extension working."
+msgstr ""
 
 msgid "Select"
 msgstr "Επιλογή"

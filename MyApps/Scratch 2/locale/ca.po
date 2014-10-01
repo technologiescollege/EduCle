@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-02 00:56+0200\n"
-"PO-Revision-Date: 2013-05-06 20:26+0200\n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
+"PO-Revision-Date: 2014-07-14 20:47+0200\n"
 "Last-Translator: Eugeni <eugenicat@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -296,7 +296,7 @@ msgid "Sensing"
 msgstr "Sensors"
 
 msgid "sensor %m.booleanSensor?"
-msgstr "sensor %m.booleanSensor ?"
+msgstr "sensor %m.booleanSensor?"
 
 msgid "set %m.effect effect to %n"
 msgstr "fixa l'efecte %m.effect a %n"
@@ -309,13 +309,16 @@ msgstr "fixa l'instrument a %d.instrument"
 
 # 89%
 # 100%
-msgid "set motor direction %m.motorDirection"
-msgstr "direcció del motor %m.motorDirection"
+# 86%
+# 97%
+msgid "set %m.motor2 direction to %m.motorDirection"
+msgstr "fixa la direcció del motor %m.motor2 a %m.motorDirection"
 
 # 77%
 # 100%
-msgid "set motor power %n"
-msgstr "potència del motor a %n"
+# 75%
+msgid "set %m.motor power to %n"
+msgstr "fixa potència del motor %m.motor a %n"
 
 msgid "set pen color to %c"
 msgstr "fixa el color del llapis a %c"
@@ -413,14 +416,17 @@ msgstr "gira @turnLeft %n graus"
 msgid "turn @turnRight %n degrees"
 msgstr "gira @turnRight %n graus"
 
-msgid "turn motor off"
-msgstr "desactiva el motor"
+# 82%
+msgid "turn %m.motor off"
+msgstr "atura el motor %m.motor"
 
-msgid "turn motor on"
-msgstr "activa el motor"
+# 81%
+msgid "turn %m.motor on"
+msgstr "activa el motor %m.motor"
 
-msgid "turn motor on for %n secs"
-msgstr "activa el motor %n segons"
+# 89%
+msgid "turn %m.motor on for %n secs"
+msgstr "activa el motor %m.motor durant %n segons"
 
 msgid "turn video %m.videoState"
 msgstr "posa vídeo %m.videoState"
@@ -447,6 +453,9 @@ msgstr "quan %m.booleanSensor actiu"
 msgid "when %m.key key pressed"
 msgstr "quan la tecla %m.key es premi"
 
+msgid "when %m.sensor %m.lessMore %n"
+msgstr "quan %m.sensor %m.lessMore %n"
+
 msgid "when %m.triggerSensor > %n"
 msgstr "quan %m.triggerSensor > %n"
 
@@ -457,8 +466,8 @@ msgstr "quan la @greenFlag es premi"
 msgid "when backdrop switches to %m.backdrop"
 msgstr "quan l'escenari canviï al fons %m.backdrop"
 
-msgid "when distance < %n"
-msgstr "quan distància < %n"
+msgid "when distance %m.lessMore %n"
+msgstr "quan la distància sigui %m.lessMore %n"
 
 msgid "when I receive %m.broadcast"
 msgstr "quan rebi %m.broadcast"
@@ -466,17 +475,51 @@ msgstr "quan rebi %m.broadcast"
 msgid "when I start as a clone"
 msgstr "quan una còpia meva comenci"
 
+msgid "when Stage clicked"
+msgstr "quan es cliqui l'escenari"
+
 msgid "when this sprite clicked"
 msgstr "quan es cliqui aquest personatge"
 
-msgid "when tilt = %n"
-msgstr "quan inclinació = %n"
+msgid "when tilt %m.eNe %n"
+msgstr "quan la inclinació sigui %m.eNe %n"
 
 msgid "x position"
 msgstr "posició x"
 
 msgid "y position"
 msgstr "posició y"
+
+# 89%
+# 100%
+msgid "set motor direction %m.motorDirection"
+msgstr "direcció del motor %m.motorDirection"
+
+# 77%
+# 100%
+msgid "set motor power %n"
+msgstr "potència del motor a %n"
+
+msgid "turn motor off"
+msgstr "desactiva el motor"
+
+msgid "turn motor on"
+msgstr "activa el motor"
+
+msgid "turn motor on for %n secs"
+msgstr "activa el motor %n segons"
+
+msgid "when distance < %n"
+msgstr "quan distància < %n"
+
+msgid "when tilt = %n"
+msgstr "quan inclinació = %n"
+
+# 89%
+# 100%
+# 86%
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "fixa la direcció del motor %m.motor a %m.motorDirection"
 
 #~ msgid "user name"
 #~ msgstr "nom d'usuari"
@@ -535,8 +578,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-19 20:51+0200\n"
-"PO-Revision-Date: 2013-07-30 19:32+0200\n"
+"POT-Creation-Date: 2013-08-01 08:55+0200\n"
+"PO-Revision-Date: 2014-06-11 19:25+0200\n"
 "Last-Translator: Eugeni <eugenicat@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -562,6 +605,15 @@ msgstr "A connectat"
 msgid "a copy of the project file on your computer."
 msgstr "una còpia del teu projecte al teu ordinador."
 
+msgid "About"
+msgstr "Quant a"
+
+msgid "About LEGO WeDo extension..."
+msgstr "Sobre l'extensió de LEGO WeDo..."
+
+msgid "About PicoBoard extension..."
+msgstr "Sobre l'extensió PicoBoard..."
+
 msgid "abs"
 msgstr "abs"
 
@@ -570,6 +622,9 @@ msgstr "Configuració del compte"
 
 msgid "acos"
 msgstr "acos"
+
+msgid "Add an Extension"
+msgstr "Afegeix una Extensió"
 
 # 90%
 msgid "Add boolean input:"
@@ -597,6 +652,9 @@ msgstr "tot"
 
 msgid "all around"
 msgstr "al voltant"
+
+msgid "all motors"
+msgstr "tots els motors"
 
 msgid "Animal"
 msgstr "Animal"
@@ -862,7 +920,7 @@ msgid "D connected"
 msgstr "D connectat"
 
 msgid "date"
-msgstr "data"
+msgstr "dia"
 
 msgid "day of week"
 msgstr "dia de la setmana"
@@ -945,8 +1003,17 @@ msgstr "Ample de l'esborrador"
 msgid "Error!"
 msgstr "Error!"
 
+msgid "everything"
+msgstr "tot"
+
 msgid "export"
 msgstr "exporta"
+
+msgid "Extension Library"
+msgstr "Galeria d'Extensions"
+
+msgid "Extension Problem"
+msgstr "Problema amb l'Extensió"
 
 msgid "fade in"
 msgstr "augmenta"
@@ -1017,6 +1084,9 @@ msgstr "Guitarra"
 msgid "Hand Clap"
 msgstr "Aplaudiment"
 
+msgid "Hardware"
+msgstr "Maquinari"
+
 msgid "hide"
 msgstr "amaga"
 
@@ -1063,6 +1133,9 @@ msgstr "fletxa esquerra"
 msgid "left-right"
 msgstr "esquerra-dreta"
 
+msgid "LEGO WeDo"
+msgstr "LEGO WeDo"
+
 msgid "length"
 msgstr "llargada"
 
@@ -1071,6 +1144,10 @@ msgstr "Biblioteca"
 
 msgid "light"
 msgstr "llum"
+
+# 83%
+msgid "lights"
+msgstr "llums"
 
 msgid "limit reached"
 msgstr "límit assolit"
@@ -1152,6 +1229,15 @@ msgstr "mosaic"
 msgid "motion"
 msgstr "moviment"
 
+msgid "motor"
+msgstr "motor"
+
+msgid "motor A"
+msgstr "motor A"
+
+msgid "motor B"
+msgstr "motor B"
+
 msgid "mouse-pointer"
 msgstr "punter del ratolí"
 
@@ -1220,6 +1306,9 @@ msgstr "Sense blocs de moviment"
 
 msgid "normal readout"
 msgstr "pantalla normal"
+
+msgid "not ="
+msgstr "no ="
 
 msgid "Not saved; network or server problem."
 msgstr "No s'ha desat; problemes a la xarxa o al servidor."
@@ -1344,6 +1433,9 @@ msgstr "Reinventa"
 msgid "Remixing..."
 msgstr "Reinventant..."
 
+msgid "Remove extension blocks"
+msgstr "Treure els blocs d'extensió"
+
 msgid "Rename"
 msgstr "Canvia el nom"
 
@@ -1429,6 +1521,11 @@ msgstr "segon"
 
 msgid "See project page"
 msgstr "Veure la pàgina del projecte"
+
+msgid "See the Tips window (on the right) to install the plug-in and get the extension working."
+msgstr ""
+"Mira la finestra d'ajuda (de la dreta) per instal·lar el connector i fer que "
+"l'extensió funcioni."
 
 msgid "Select"
 msgstr "Selecciona"

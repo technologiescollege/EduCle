@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-02 00:56+0200\n"
-"PO-Revision-Date: 2013-05-22 10:38+0200\n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
+"PO-Revision-Date: 2014-09-09 01:33+0200\n"
 "Last-Translator: Suha <suhaaktan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -176,10 +176,10 @@ msgid "if on edge, bounce"
 msgstr "kenara geldiysen sek"
 
 msgid "insert %s at %d.listItem of %m.list"
-msgstr "koy %s'yi, %d.listItem sırasına %m.list'nin"
+msgstr "koy %s 'yi, %d.listItem sırasına %m.list 'nin"
 
 msgid "item %d.listItem of %m.list"
-msgstr "%d.listItem sırasındaki %m.list'in"
+msgstr "%d.listItem sırasındaki %m.list 'in"
 
 msgid "join %s %s"
 msgstr "%s ile %s i birleştir"
@@ -304,12 +304,15 @@ msgid "set instrument to %d.instrument"
 msgstr "çalgıyı %d.instrument yap"
 
 # 89%
-msgid "set motor direction %m.motorDirection"
-msgstr "motor yönünü %m.motorDirection yap"
+# 86%
+# 97%
+msgid "set %m.motor2 direction to %m.motorDirection"
+msgstr "%m.motor2 yönünü %m.motorDirection yap"
 
 # 77%
-msgid "set motor power %n"
-msgstr "motor gücünü %n yap"
+# 75%
+msgid "set %m.motor power to %n"
+msgstr "%m.motor gücünü %n yap"
 
 msgid "set pen color to %c"
 msgstr "kalem rengini %c yap"
@@ -406,15 +409,18 @@ msgstr "@turnLeft %n derece dön"
 msgid "turn @turnRight %n degrees"
 msgstr "@turnRight %n derece dön"
 
-msgid "turn motor off"
-msgstr "motoru kapat"
+# 82%
+msgid "turn %m.motor off"
+msgstr "%m.motor unu kapat"
 
-msgid "turn motor on"
-msgstr "motoru çalıştır"
+# 81%
+msgid "turn %m.motor on"
+msgstr "%m.motor unu çalıştır"
 
 # 80%
-msgid "turn motor on for %n secs"
-msgstr "%n saniye motoru çalıştır"
+# 89%
+msgid "turn %m.motor on for %n secs"
+msgstr "%n saniyeliğine %m.motor unu çalıştır"
 
 msgid "turn video %m.videoState"
 msgstr "videoyu %m.videoState"
@@ -442,6 +448,9 @@ msgstr "%m.booleanSensor olunca"
 msgid "when %m.key key pressed"
 msgstr "%m.key tuşu basılınca"
 
+msgid "when %m.sensor %m.lessMore %n"
+msgstr "%m.sensor %m.lessMore %n olduğunda"
+
 msgid "when %m.triggerSensor > %n"
 msgstr "%m.triggerSensor > %n olunca"
 
@@ -452,8 +461,8 @@ msgstr "@greenFlag tıklanınca"
 msgid "when backdrop switches to %m.backdrop"
 msgstr "dekor %m.backdrop olunca"
 
-msgid "when distance < %n"
-msgstr "mesafe %n'den küçük olduğunda"
+msgid "when distance %m.lessMore %n"
+msgstr "mesafe %m.llessMore %n olduğunda"
 
 msgid "when I receive %m.broadcast"
 msgstr "%m.broadcast haberi gelince"
@@ -461,17 +470,50 @@ msgstr "%m.broadcast haberi gelince"
 msgid "when I start as a clone"
 msgstr "ikiz olarak başladığımda"
 
+msgid "when Stage clicked"
+msgstr "Sahne tıklandığında"
+
 msgid "when this sprite clicked"
 msgstr "bu kukla tıklanınca"
 
-msgid "when tilt = %n"
-msgstr "eğiklik %n olunca"
+msgid "when tilt %m.eNe %n"
+msgstr "eğiklik %m.eNe %n olduğunda"
 
 msgid "x position"
 msgstr "x konumu"
 
 msgid "y position"
 msgstr "y konumu"
+
+# 89%
+msgid "set motor direction %m.motorDirection"
+msgstr "motor yönünü %m.motorDirection yap"
+
+# 77%
+msgid "set motor power %n"
+msgstr "motor gücünü %n yap"
+
+msgid "turn motor off"
+msgstr "motoru kapat"
+
+msgid "turn motor on"
+msgstr "motoru çalıştır"
+
+# 80%
+msgid "turn motor on for %n secs"
+msgstr "%n saniye motoru çalıştır"
+
+msgid "when distance < %n"
+msgstr "mesafe %n'den küçük olduğunda"
+
+msgid "when tilt = %n"
+msgstr "eğiklik %n olunca"
+
+# 89%
+# 86%
+#, fuzzy
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "motor yönünü %m.motorDirection yap"
 
 #~ msgid "user name"
 #~ msgstr "kullanıcı adı"
@@ -519,8 +561,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-19 20:55+0200\n"
-"PO-Revision-Date: 2013-05-17 22:11+0200\n"
+"POT-Creation-Date: 2013-08-01 08:55+0200\n"
+"PO-Revision-Date: 2014-06-12 19:24+0200\n"
 "Last-Translator: Suha <suhaaktan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -546,6 +588,15 @@ msgstr "A bağlı"
 msgid "a copy of the project file on your computer."
 msgstr "bilgisayarındaki proje dosyasının bir kopyası."
 
+msgid "About"
+msgstr "Hakkında"
+
+msgid "About LEGO WeDo extension..."
+msgstr "LEGO WeDo eklentisi hakkında..."
+
+msgid "About PicoBoard extension..."
+msgstr "PicoBoard eklentisi hakkında..."
+
 msgid "abs"
 msgstr "mutlak değer"
 
@@ -554,6 +605,9 @@ msgstr "Hesap ayarları"
 
 msgid "acos"
 msgstr "acos"
+
+msgid "Add an Extension"
+msgstr "Bir Eklenti ekle"
 
 # 90%
 msgid "Add boolean input:"
@@ -581,6 +635,9 @@ msgstr "hepsini"
 
 msgid "all around"
 msgstr "her yöne dönebilsin"
+
+msgid "all motors"
+msgstr "tüm motorlar"
 
 msgid "Animal"
 msgstr "Hayvan"
@@ -646,6 +703,9 @@ msgstr "Fagot"
 
 msgid "Because you have a new Scratch account, any changes to cloud data won't be saved yet. Keep participating on the site you'll be able to use cloud data soon!"
 msgstr ""
+"Scratch hesabın henüz çok yeni olduğu için, bulut verilerin şimdilik "
+"kaydedilmeyecek. Sitedeki faaliyetlerine devam edersen çok yakında bulut "
+"verilerini kullanabileceksin!"
 
 msgid "Bitmap"
 msgstr "Noktasal"
@@ -741,7 +801,7 @@ msgid "Claves"
 msgstr "Tahta çubuk"
 
 msgid "cleanup"
-msgstr ""
+msgstr "temizlik"
 
 msgid "Clear"
 msgstr "Temizle"
@@ -919,15 +979,23 @@ msgid "Erase"
 msgstr "Sil"
 
 # 92%
-#, fuzzy
 msgid "Eraser width"
-msgstr "Silgi genişliği:"
+msgstr "Silgi eni"
 
 msgid "Error!"
-msgstr ""
+msgstr "Hata!"
+
+msgid "everything"
+msgstr "herşey"
 
 msgid "export"
-msgstr ""
+msgstr "dönüştür kaydet"
+
+msgid "Extension Library"
+msgstr "Eklenti Kütüphanesi"
+
+msgid "Extension Problem"
+msgstr "Eklenti Problemi"
 
 msgid "fade in"
 msgstr "giderek yükselt"
@@ -966,7 +1034,7 @@ msgid "Flying"
 msgstr "Yukarıdan"
 
 msgid "Font:"
-msgstr ""
+msgstr "Font:"
 
 msgid "For all sprites"
 msgstr "Tüm kuklalar için"
@@ -998,11 +1066,14 @@ msgstr "Gitar"
 msgid "Hand Clap"
 msgstr "El Çırpma"
 
+msgid "Hardware"
+msgstr "Donanım"
+
 msgid "hide"
 msgstr "gizle"
 
 msgid "High C"
-msgstr ""
+msgstr "Yüksek C"
 
 msgid "hour"
 msgstr "saat"
@@ -1011,9 +1082,8 @@ msgid "Human"
 msgstr "İnsan"
 
 # 83%
-#, fuzzy
 msgid "import"
-msgstr "Dışarıdan al"
+msgstr "dönüştür aç"
 
 msgid "Import"
 msgstr "Dışarıdan al"
@@ -1031,7 +1101,7 @@ msgid "Instruments"
 msgstr "Çalgılar"
 
 msgid "large readout"
-msgstr ""
+msgstr "geniş görünüm"
 
 msgid "last"
 msgstr "son"
@@ -1045,14 +1115,21 @@ msgstr "sol ok"
 msgid "left-right"
 msgstr "sağa-sola dönebilsin"
 
+msgid "LEGO WeDo"
+msgstr "LEGO WeDo"
+
 msgid "length"
-msgstr ""
+msgstr "uzunluk"
 
 msgid "Library"
 msgstr "Kütüphane"
 
 msgid "light"
 msgstr "ışık"
+
+# 83%
+msgid "lights"
+msgstr "ışıklar"
 
 msgid "limit reached"
 msgstr "limite ulaşıldı"
@@ -1061,9 +1138,8 @@ msgid "Line"
 msgstr "Çizgi"
 
 # 90%
-#, fuzzy
 msgid "Line width"
-msgstr "Çizgi kalınlığı:"
+msgstr "Çizgi kalınlığı"
 
 # 75%
 msgid "list"
@@ -1088,7 +1164,7 @@ msgid "loudness"
 msgstr "ses şiddeti"
 
 msgid "Low C"
-msgstr ""
+msgstr "Alçak C"
 
 msgid "Make a Block"
 msgstr "Bir Taş Oluştur"
@@ -1115,10 +1191,10 @@ msgid "message1"
 msgstr "haber1"
 
 msgid "Microphone Volume:"
-msgstr ""
+msgstr "Mikrofon sesi şiddeti:"
 
 msgid "Middle C"
-msgstr ""
+msgstr "Orta C"
 
 msgid "Min"
 msgstr "En küçüğü"
@@ -1134,6 +1210,15 @@ msgstr "mozaik"
 
 msgid "motion"
 msgstr "hareket"
+
+msgid "motor"
+msgstr "motor"
+
+msgid "motor A"
+msgstr "motor A"
+
+msgid "motor B"
+msgstr "motor B"
 
 msgid "mouse-pointer"
 msgstr "fare oku"
@@ -1202,13 +1287,16 @@ msgid "No motion blocks"
 msgstr "Hareket bloğu yok"
 
 msgid "normal readout"
-msgstr ""
+msgstr "normal görünüm"
+
+msgid "not ="
+msgstr "= değil"
 
 msgid "Not saved; network or server problem."
 msgstr "Kaydedilmedi; ağ veya sunucuda sorun var."
 
 msgid "Not saved; project did not load."
-msgstr ""
+msgstr "Kaydedilmedi; proje yüklenmedi."
 
 msgid "of"
 msgstr "of"
@@ -1217,7 +1305,7 @@ msgid "off"
 msgstr "kapat"
 
 msgid "Offline Editor"
-msgstr ""
+msgstr "Hatdışı Editör"
 
 msgid "OK"
 msgstr "Tamam"
@@ -1293,7 +1381,7 @@ msgid "Profile"
 msgstr "Profil"
 
 msgid "Project did not load."
-msgstr ""
+msgstr "Proje yüklenmedi."
 
 msgid "Project not saved!"
 msgstr "Proje kaydedilmedi!"
@@ -1325,6 +1413,9 @@ msgstr "Ekleme"
 
 msgid "Remixing..."
 msgstr "Ekliyorum..."
+
+msgid "Remove extension blocks"
+msgstr "Eklenti taşlarını kaldır"
 
 msgid "Rename"
 msgstr "Yeniden adlandır"
@@ -1412,6 +1503,11 @@ msgstr "saniye"
 msgid "See project page"
 msgstr "Proje sayfasına bak"
 
+msgid "See the Tips window (on the right) to install the plug-in and get the extension working."
+msgstr ""
+"Eklentiyi yüklemek ve çalıştırmak için (sağ taraftaki) ipuçları penceresine "
+"gözat."
+
 msgid "Select"
 msgstr "Seç"
 
@@ -1432,7 +1528,7 @@ msgid "Set Costume Center"
 msgstr "Kılık Merkezini Belirle"
 
 msgid "set slider min and max"
-msgstr ""
+msgstr "sürgü sınır değerlerini belirle"
 
 msgid "Share"
 msgstr "Paylaş"

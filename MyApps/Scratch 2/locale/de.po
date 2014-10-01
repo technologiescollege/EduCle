@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-02 00:56+0200\n"
-"PO-Revision-Date: 2013-05-21 21:54+0200\n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
+"PO-Revision-Date: 2014-06-26 11:18+0200\n"
 "Last-Translator: Markus <m.slg@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -45,7 +45,7 @@ msgid "answer"
 msgstr "Antwort"
 
 msgid "ask %s and wait"
-msgstr "Frage %s und warte"
+msgstr "frage %s und warte"
 
 # "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
 msgid "backdrop #"
@@ -124,7 +124,7 @@ msgid "define"
 msgstr "Definiere"
 
 msgid "delete %d.listDeleteItem of %m.list"
-msgstr "entferne %d.listDeleteItem aus %m.list"
+msgstr "lösche %d.listDeleteItem aus %m.list"
 
 msgid "delete this clone"
 msgstr "lösche diesen Klon"
@@ -204,7 +204,7 @@ msgid "Looks"
 msgstr "Aussehen"
 
 msgid "loudness"
-msgstr "Lärmpegel"
+msgstr "Lautstärke"
 
 msgid "More Blocks"
 msgstr "Weitere Blöcke"
@@ -253,7 +253,7 @@ msgid "pick random %n to %n"
 msgstr "Zufallszahl von %n bis %n"
 
 msgid "play drum %d.drum for %n beats"
-msgstr "spiele Schlagwerk %d.drum für %n Schläge"
+msgstr "spiele Schlaginstrument %d.drum für %n Schläge"
 
 # 83%
 msgid "play note %d.note for %n beats"
@@ -279,7 +279,7 @@ msgid "repeat until %b"
 msgstr "wiederhole bis %b"
 
 msgid "replace item %d.listItem of %m.list with %s"
-msgstr "ersetze %d.listItem Element von %m.list durch %s"
+msgstr "ersetze Element %d.listItem  von %m.list durch %s"
 
 msgid "reset timer"
 msgstr "setze Stoppuhr zurück"
@@ -311,13 +311,12 @@ msgstr "setze %m.var auf %s"
 msgid "set instrument to %d.instrument"
 msgstr "setze Instrument auf %d.instrument"
 
-# 89%
-msgid "set motor direction %m.motorDirection"
-msgstr "setze Motordrehung %m.motorDirection"
+# 97%
+msgid "set %m.motor2 direction to %m.motorDirection"
+msgstr "setze Drehung von %m.motor2 auf %m.motorDirection"
 
-# 77%
-msgid "set motor power %n"
-msgstr "setze Motorstärke %n"
+msgid "set %m.motor power to %n"
+msgstr "setze Leistung von %m.motor auf %n"
 
 msgid "set pen color to %c"
 msgstr "setze Stiftfarbe auf %c"
@@ -415,15 +414,14 @@ msgstr "drehe dich @turnLeft um %n Grad"
 msgid "turn @turnRight %n degrees"
 msgstr "drehe dich @turnRight um %n Grad"
 
-msgid "turn motor off"
-msgstr "schalte Motor aus"
+msgid "turn %m.motor off"
+msgstr "schalte %m.motor aus"
 
-msgid "turn motor on"
-msgstr "schalte Motor an"
+msgid "turn %m.motor on"
+msgstr "schalte %m.motor an"
 
-# 80%
-msgid "turn motor on for %n secs"
-msgstr "schalte Motor für %n Sekunden an"
+msgid "turn %m.motor on for %n secs"
+msgstr "schalte %m.motor für %n Sekunden an"
 
 # 'turn video on/off/on-flipped'
 msgid "turn video %m.videoState"
@@ -451,6 +449,9 @@ msgstr "Wenn %m.booleanSensor"
 msgid "when %m.key key pressed"
 msgstr "Wenn Taste %m.key gedrückt"
 
+msgid "when %m.sensor %m.lessMore %n"
+msgstr "Wenn %m.sensor %m.lessMore %n"
+
 msgid "when %m.triggerSensor > %n"
 msgstr "Wenn %m.triggerSensor > %n"
 
@@ -461,8 +462,8 @@ msgstr "Wenn @greenFlag angeklickt"
 msgid "when backdrop switches to %m.backdrop"
 msgstr "Wenn das Bühnenbild zu %m.backdrop wechselt"
 
-msgid "when distance < %n"
-msgstr "Wenn Abstand < %n"
+msgid "when distance %m.lessMore %n"
+msgstr "Wenn Abstand %m.lessMore %n"
 
 msgid "when I receive %m.broadcast"
 msgstr "Wenn ich %m.broadcast empfange"
@@ -470,17 +471,47 @@ msgstr "Wenn ich %m.broadcast empfange"
 msgid "when I start as a clone"
 msgstr "Wenn ich als Klon entstehe"
 
+msgid "when Stage clicked"
+msgstr ""
+
 msgid "when this sprite clicked"
 msgstr "Wenn ich angeklickt werde"
 
-msgid "when tilt = %n"
-msgstr "Wenn Neigung = %n"
+msgid "when tilt %m.eNe %n"
+msgstr "Wenn Neigung %m.eNe %n"
 
 msgid "x position"
 msgstr "x-Position"
 
 msgid "y position"
 msgstr "y-Position"
+
+# 89%
+msgid "set motor direction %m.motorDirection"
+msgstr "setze Motordrehung %m.motorDirection"
+
+# 77%
+msgid "set motor power %n"
+msgstr "setze Motorleistung auf %n"
+
+msgid "turn motor off"
+msgstr "schalte Motor aus"
+
+msgid "turn motor on"
+msgstr "schalte Motor an"
+
+# 80%
+msgid "turn motor on for %n secs"
+msgstr "schalte Motor für %n Sekunden an"
+
+msgid "when distance < %n"
+msgstr "Wenn Abstand < %n"
+
+msgid "when tilt = %n"
+msgstr "Wenn Neigung = %n"
+
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "setze Drehung von %m.motor auf %m.motorDirection"
 
 #~ msgid "user name"
 #~ msgstr "Benutzername"
@@ -537,8 +568,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-19 20:51+0200\n"
-"PO-Revision-Date: 2013-07-30 00:49+0200\n"
+"POT-Creation-Date: 2013-08-01 08:55+0200\n"
+"PO-Revision-Date: 2014-07-10 12:09+0200\n"
 "Last-Translator: Markus <m.slg@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -564,6 +595,15 @@ msgstr "A angeschlossen"
 msgid "a copy of the project file on your computer."
 msgstr "eine Kopie der Projektdatei auf deinem Rechner."
 
+msgid "About"
+msgstr "Info"
+
+msgid "About LEGO WeDo extension..."
+msgstr "Über die LEGO-WeDo-Erweiterung..."
+
+msgid "About PicoBoard extension..."
+msgstr "Über die PicoBoard-Erweiterung..."
+
 msgid "abs"
 msgstr "Betrag"
 
@@ -572,6 +612,9 @@ msgstr "Kontoeinstellungen"
 
 msgid "acos"
 msgstr "acos"
+
+msgid "Add an Extension"
+msgstr "Erweiterung hinzufügen"
 
 # 90%
 msgid "Add boolean input:"
@@ -600,6 +643,9 @@ msgstr "alles"
 # Drehtyp
 msgid "all around"
 msgstr "rundherum"
+
+msgid "all motors"
+msgstr "alle Motoren"
 
 msgid "Animal"
 msgstr "Tier"
@@ -955,9 +1001,17 @@ msgstr "Radiererbreite"
 msgid "Error!"
 msgstr "Fehler!"
 
-#, fuzzy
+msgid "everything"
+msgstr "alles"
+
 msgid "export"
 msgstr "Exportieren"
+
+msgid "Extension Library"
+msgstr "Erweiterungsbibliothek"
+
+msgid "Extension Problem"
+msgstr "Erweiterungsproblem"
 
 # sounds->effects
 msgid "fade in"
@@ -1030,6 +1084,9 @@ msgstr "Gitarre"
 msgid "Hand Clap"
 msgstr "Klatschen"
 
+msgid "Hardware"
+msgstr "Hardware"
+
 # sollte als Menüeintrag 'Verstecken' sein, kollidiert aber mit hide in blocks.po
 #, fuzzy
 msgid "hide"
@@ -1045,7 +1102,6 @@ msgid "Human"
 msgstr "Menschen"
 
 # 83%
-#, fuzzy
 msgid "import"
 msgstr "Importieren"
 
@@ -1080,15 +1136,22 @@ msgstr "Pfeil nach links"
 msgid "left-right"
 msgstr "links-rechts"
 
+msgid "LEGO WeDo"
+msgstr "LEGO WeDo"
+
 msgid "length"
 msgstr "Länge"
 
 msgid "Library"
 msgstr "Bibliothek"
 
-# Sensor
+# Sensor? LegoWeDo: ein- und ausschalten
 msgid "light"
-msgstr "Helligkeit"
+msgstr "Licht"
+
+# Sensor? LegoWeDo
+msgid "lights"
+msgstr "Leuchten"
 
 msgid "limit reached"
 msgstr "Grenze erreicht"
@@ -1171,6 +1234,15 @@ msgstr "Mosaik"
 msgid "motion"
 msgstr "Bewegung"
 
+msgid "motor"
+msgstr "Motor"
+
+msgid "motor A"
+msgstr "Motor A"
+
+msgid "motor B"
+msgstr "Motor B"
+
 msgid "mouse-pointer"
 msgstr "Mauszeiger"
 
@@ -1241,6 +1313,9 @@ msgstr "Keine Bewegungsblöcke"
 
 msgid "normal readout"
 msgstr "Normale Anzeigengröße"
+
+msgid "not ="
+msgstr "nicht ="
 
 msgid "Not saved; network or server problem."
 msgstr "Nicht gespeichert: Netzwerk- oder Server-Problem"
@@ -1340,8 +1415,9 @@ msgstr "Das Projekt wurde nicht geladen."
 msgid "Project not saved!"
 msgstr "Das Projekt wurde nicht abgespeichert!"
 
+# Listenelement - sonst noch wo? 
 msgid "random"
-msgstr "zufällig"
+msgstr "zufälliges"
 
 msgid "Record"
 msgstr "Aufnahme"
@@ -1367,6 +1443,9 @@ msgstr "Remixen"
 
 msgid "Remixing..."
 msgstr "Erstelle Remix..."
+
+msgid "Remove extension blocks"
+msgstr "Erweiterungsblöcke entfernen"
 
 msgid "Rename"
 msgstr "Umbenennen"
@@ -1453,6 +1532,11 @@ msgstr "Sekunde"
 
 msgid "See project page"
 msgstr "Zeige Projektseite"
+
+msgid "See the Tips window (on the right) to install the plug-in and get the extension working."
+msgstr ""
+"Beachte das Fenster (rechts am Rand) mit Tipps zur Installation des Plugins "
+"und zur Inbetriebnahme der Erweiterung."
 
 msgid "Select"
 msgstr "Auswählen"

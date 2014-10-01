@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-02 00:56+0200\n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
 "PO-Revision-Date: 2013-05-06 19:31+0200\n"
 "Last-Translator: Stefan Einar <stefaneinar@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -304,11 +304,16 @@ msgid "set instrument to %d.instrument"
 msgstr "hljóðfæri verður %d.instrument"
 
 # 89%
-msgid "set motor direction %m.motorDirection"
+# 86%
+# 97%
+#, fuzzy
+msgid "set %m.motor2 direction to %m.motorDirection"
 msgstr "hreyfill stefnir %m.motorDirection"
 
 # 77%
-msgid "set motor power %n"
+# 75%
+#, fuzzy
+msgid "set %m.motor power to %n"
 msgstr "afl hreyfils verður %n"
 
 msgid "set pen color to %c"
@@ -406,14 +411,20 @@ msgstr "snúa @turnLeft um %n gráður"
 msgid "turn @turnRight %n degrees"
 msgstr "snúa @turnRight um %n gráður"
 
-msgid "turn motor off"
+# 82%
+#, fuzzy
+msgid "turn %m.motor off"
 msgstr "slökkva á hreyfil"
 
-msgid "turn motor on"
+# 81%
+#, fuzzy
+msgid "turn %m.motor on"
 msgstr "kveikja á hreyfli"
 
 # 80%
-msgid "turn motor on for %n secs"
+# 89%
+#, fuzzy
+msgid "turn %m.motor on for %n secs"
 msgstr "hreyfill gengur í %n sek"
 
 msgid "turn video %m.videoState"
@@ -442,6 +453,9 @@ msgstr "mælir %m.booleanSensor?"
 msgid "when %m.key key pressed"
 msgstr "þegar ýtt er á %m.key"
 
+msgid "when %m.sensor %m.lessMore %n"
+msgstr ""
+
 msgid "when %m.triggerSensor > %n"
 msgstr "þegar %m.triggerSensor > %n"
 
@@ -452,8 +466,8 @@ msgstr "þegar smellt er á @greenFlag"
 msgid "when backdrop switches to %m.backdrop"
 msgstr "þegar bakgrunnur verður %m.backdrop"
 
-msgid "when distance < %n"
-msgstr "þegar fjarlægð < %n"
+msgid "when distance %m.lessMore %n"
+msgstr ""
 
 msgid "when I receive %m.broadcast"
 msgstr "þegar ég tek á móti %m.broadcast"
@@ -461,17 +475,50 @@ msgstr "þegar ég tek á móti %m.broadcast"
 msgid "when I start as a clone"
 msgstr "þegar ég byrja sem afrit"
 
+msgid "when Stage clicked"
+msgstr ""
+
 msgid "when this sprite clicked"
 msgstr "þegar teikningin fær smell"
 
-msgid "when tilt = %n"
-msgstr "þegar halli = %n"
+msgid "when tilt %m.eNe %n"
+msgstr ""
 
 msgid "x position"
 msgstr "x hnit"
 
 msgid "y position"
 msgstr "y hnit"
+
+# 89%
+msgid "set motor direction %m.motorDirection"
+msgstr "hreyfill stefnir %m.motorDirection"
+
+# 77%
+msgid "set motor power %n"
+msgstr "afl hreyfils verður %n"
+
+msgid "turn motor off"
+msgstr "slökkva á hreyfil"
+
+msgid "turn motor on"
+msgstr "kveikja á hreyfli"
+
+# 80%
+msgid "turn motor on for %n secs"
+msgstr "hreyfill gengur í %n sek"
+
+msgid "when distance < %n"
+msgstr "þegar fjarlægð < %n"
+
+msgid "when tilt = %n"
+msgstr "þegar halli = %n"
+
+# 89%
+# 86%
+#, fuzzy
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "hreyfill stefnir %m.motorDirection"
 
 #~ msgid "user name"
 #~ msgstr "notandanafn"
@@ -528,8 +575,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-19 20:53+0200\n"
-"PO-Revision-Date: 2013-05-16 23:32+0200\n"
+"POT-Creation-Date: 2013-08-01 08:55+0200\n"
+"PO-Revision-Date: 2014-02-08 18:19+0200\n"
 "Last-Translator: Stefan Einar <stefaneinar@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: is\n"
@@ -546,13 +593,22 @@ msgid "<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only num
 msgstr ""
 "<b>Upplýsingar um breytur í Skýinu</b><br>&nbsp;<br>Eins og er þá má aðeins "
 "nota tölur<br>Spjallherbergi eru ekki leyfileg og verða fjarlægð<br>Frekari "
-"upplýsingar er að finna á, <a href= target=>see the cloud data FAQ!</a>"
+"upplýsingar er að finna á, <a href= target=>sjáið gögn í skýinu SOS!</a>"
 
 msgid "A connected"
 msgstr "A tengt"
 
 msgid "a copy of the project file on your computer."
 msgstr "afrit af verkefninu á tölvunni þinni."
+
+msgid "About"
+msgstr ""
+
+msgid "About LEGO WeDo extension..."
+msgstr ""
+
+msgid "About PicoBoard extension..."
+msgstr ""
 
 msgid "abs"
 msgstr "abs"
@@ -562,6 +618,9 @@ msgstr "Stillingar reiknings"
 
 msgid "acos"
 msgstr "acos"
+
+msgid "Add an Extension"
+msgstr ""
 
 msgid "Add boolean input:"
 msgstr "Skrá rökfræðifasta:"
@@ -586,6 +645,9 @@ msgstr "öllu"
 
 msgid "all around"
 msgstr "allt í kring"
+
+msgid "all motors"
+msgstr ""
 
 msgid "Animal"
 msgstr "Dýr"
@@ -646,6 +708,9 @@ msgstr "Fagott"
 
 msgid "Because you have a new Scratch account, any changes to cloud data won't be saved yet. Keep participating on the site you'll be able to use cloud data soon!"
 msgstr ""
+"Nú hefurðu nýjan Scratch reikning. Allar þær breytingar sem þú hefur vistað "
+"í skýinu munu ekki vistast. Haltu áfram að taka þátt á síðunum og þú munt "
+"geta vistað í skýinu fljótlega!"
 
 msgid "Bitmap"
 msgstr "Teikning"
@@ -741,7 +806,7 @@ msgid "Claves"
 msgstr "Taktstangir"
 
 msgid "cleanup"
-msgstr ""
+msgstr "hreinsa til"
 
 msgid "Clear"
 msgstr "Hreinsa"
@@ -916,14 +981,22 @@ msgid "Erase"
 msgstr "Eyða"
 
 # 92%
-#, fuzzy
 msgid "Eraser width"
-msgstr "Þvermál strokleðurs:"
+msgstr "Þvermál strokleðurs"
 
 msgid "Error!"
+msgstr "Villa!"
+
+msgid "everything"
 msgstr ""
 
 msgid "export"
+msgstr "flytja út"
+
+msgid "Extension Library"
+msgstr ""
+
+msgid "Extension Problem"
 msgstr ""
 
 msgid "fade in"
@@ -963,7 +1036,7 @@ msgid "Flying"
 msgstr "Fljúgandi"
 
 msgid "Font:"
-msgstr ""
+msgstr "Leturgerð:"
 
 msgid "For all sprites"
 msgstr "Fyrir allar teikningar"
@@ -995,11 +1068,14 @@ msgstr "Gítar"
 msgid "Hand Clap"
 msgstr "Klapp"
 
+msgid "Hardware"
+msgstr ""
+
 msgid "hide"
 msgstr "fela"
 
 msgid "High C"
-msgstr ""
+msgstr "Háa C"
 
 msgid "hour"
 msgstr "klst"
@@ -1008,7 +1084,6 @@ msgid "Human"
 msgstr "Mannvera"
 
 # 83%
-#, fuzzy
 msgid "import"
 msgstr "sækja"
 
@@ -1028,7 +1103,7 @@ msgid "Instruments"
 msgstr "Hljóðfæri"
 
 msgid "large readout"
-msgstr ""
+msgstr "stór leturgerð"
 
 msgid "last"
 msgstr "síðasta"
@@ -1042,13 +1117,21 @@ msgstr "ör vinstri"
 msgid "left-right"
 msgstr "hægri/vinstri"
 
-msgid "length"
+msgid "LEGO WeDo"
 msgstr ""
+
+msgid "length"
+msgstr "lengd"
 
 msgid "Library"
 msgstr "Safn"
 
 msgid "light"
+msgstr "ljós"
+
+# 83%
+#, fuzzy
+msgid "lights"
 msgstr "ljós"
 
 msgid "limit reached"
@@ -1058,9 +1141,8 @@ msgid "Line"
 msgstr "Lína"
 
 # 90%
-#, fuzzy
 msgid "Line width"
-msgstr "Linubreidd:"
+msgstr "Linubreidd"
 
 # 75%
 msgid "list"
@@ -1085,7 +1167,7 @@ msgid "loudness"
 msgstr "hljóðstyrkur"
 
 msgid "Low C"
-msgstr ""
+msgstr "Lága C"
 
 msgid "Make a Block"
 msgstr "Smíða blokk"
@@ -1112,10 +1194,10 @@ msgid "message1"
 msgstr "skilaboð1"
 
 msgid "Microphone Volume:"
-msgstr ""
+msgstr "Hljóðstyrkur hljóðnema:"
 
 msgid "Middle C"
-msgstr ""
+msgstr "Miðju C"
 
 msgid "Min"
 msgstr "Min"
@@ -1131,6 +1213,15 @@ msgstr "mósaík"
 
 msgid "motion"
 msgstr "hreyfing"
+
+msgid "motor"
+msgstr ""
+
+msgid "motor A"
+msgstr ""
+
+msgid "motor B"
+msgstr ""
 
 msgid "mouse-pointer"
 msgstr "músarbendill"
@@ -1196,13 +1287,16 @@ msgid "No motion blocks"
 msgstr "Engar hreyfiblokkir"
 
 msgid "normal readout"
+msgstr "venjuleg leturgerð"
+
+msgid "not ="
 msgstr ""
 
 msgid "Not saved; network or server problem."
 msgstr "Ekki vistað. Net- eða miðlaravandamál."
 
 msgid "Not saved; project did not load."
-msgstr ""
+msgstr "Ekki vistað, verkefni hlóðst ekki inn."
 
 msgid "of"
 msgstr "af"
@@ -1211,7 +1305,7 @@ msgid "off"
 msgstr "Af"
 
 msgid "Offline Editor"
-msgstr ""
+msgstr "Ótengt vinnusvæði"
 
 msgid "OK"
 msgstr "Í lagi"
@@ -1286,7 +1380,7 @@ msgid "Profile"
 msgstr "Yfirlit"
 
 msgid "Project did not load."
-msgstr ""
+msgstr "Verkefni hlóðst ekki inn."
 
 msgid "Project not saved!"
 msgstr "Verkefni ekki vistað!"
@@ -1318,6 +1412,9 @@ msgstr "Endurblanda"
 
 msgid "Remixing..."
 msgstr "Endurblanda..."
+
+msgid "Remove extension blocks"
+msgstr ""
 
 msgid "Rename"
 msgstr "Endurskýra"
@@ -1403,6 +1500,9 @@ msgstr "sekúnda"
 msgid "See project page"
 msgstr "Sjá verkefnissíðu"
 
+msgid "See the Tips window (on the right) to install the plug-in and get the extension working."
+msgstr ""
+
 msgid "Select"
 msgstr "Velja"
 
@@ -1422,7 +1522,7 @@ msgid "Set Costume Center"
 msgstr "Stilla Búningamiðstöð"
 
 msgid "set slider min and max"
-msgstr ""
+msgstr "Stilla lággildi/hágildi rennu"
 
 msgid "Share"
 msgstr "Deila"
@@ -1504,7 +1604,7 @@ msgstr "bilslá"
 
 # 80%
 msgid "Space"
-msgstr "Bilslá"
+msgstr "Geimurinn"
 
 msgid "Sports"
 msgstr "Íþróttir"

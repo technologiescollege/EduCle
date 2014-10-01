@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-02 00:56+0200\n"
-"PO-Revision-Date: 2013-07-11 11:41+0200\n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
+"PO-Revision-Date: 2014-01-20 08:08+0200\n"
 "Last-Translator: janggoons <janggoons@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -27,25 +27,27 @@ msgid "%m.attribute of %m.spriteOrStage"
 msgstr "%m.spriteOrStage 의 %m.attribute"
 
 msgid "%m.list contains %s"
-msgstr "%m.list 리스트에 %s 이(가) 포함되었는가?"
+msgstr "%m.list 리스트에 %s 포함되었는가"
 
+# %n 의 %m.mathOp
 msgid "%m.mathOp of %n"
-msgstr "%n 의 %m.mathOp"
+msgstr "%m.mathOp of %n"
 
 msgid "%m.sensor sensor value"
 msgstr "%m.sensor 의 센서값"
 
 msgid "%n mod %n"
-msgstr "%n / %n 의 나머지"
+msgstr "%n 나누기 %n 의 나머지"
 
+# %m.list 에 %s 항목 추가하기
 msgid "add %s to %m.list"
-msgstr "%m.list 리스트에 %s 추가하기"
+msgstr "%s 항목을 %m.list 에 추가하기"
 
 msgid "answer"
 msgstr "대답"
 
 msgid "ask %s and wait"
-msgstr "%s (을)를 묻고 기다리기"
+msgstr "%s 묻고 기다리기"
 
 # "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
 msgid "backdrop #"
@@ -56,16 +58,16 @@ msgid "backdrop name"
 msgstr "배경 이름"
 
 msgid "broadcast %m.broadcast"
-msgstr "%m.broadcast (을)를 방송하기"
+msgstr "%m.broadcast 방송하기"
 
 msgid "broadcast %m.broadcast and wait"
-msgstr "%m.broadcast (을)를 방송하고 기다리기"
+msgstr "%m.broadcast 방송하고 기다리기"
 
 msgid "change %m.effect effect by %n"
 msgstr "%m.effect 효과를 %n 만큼 바꾸기"
 
 msgid "change %m.var by %n"
-msgstr "%m.var 를 %n 만큼 바꾸기"
+msgstr "%m.var 을(를) %n 만큼 바꾸기"
 
 msgid "change pen color by %n"
 msgstr "펜 색깔을 %n 만큼 바꾸기"
@@ -122,7 +124,7 @@ msgid "define"
 msgstr "정의하기"
 
 msgid "delete %d.listDeleteItem of %m.list"
-msgstr "%m.list 리스트의 %d.listDeleteItem 번째 항목 삭제하기"
+msgstr "%d.listDeleteItem 번째 항목을 %m.list 에서 삭제하기"
 
 msgid "delete this clone"
 msgstr "이 복제본 삭제하기"
@@ -152,13 +154,13 @@ msgid "go back %n layers"
 msgstr "%n 번째로 물러나기"
 
 msgid "go to %m.spriteOrMouse"
-msgstr "%m.spriteOrMouse 위치로 가기"
+msgstr "%m.spriteOrMouse 위치로 이동하기"
 
 msgid "go to front"
 msgstr "맨 앞으로 나오기"
 
 msgid "go to x:%n y:%n"
-msgstr "x:%n y:%n (으)로 가기"
+msgstr "x:%n y:%n 이동하기"
 
 msgid "hide"
 msgstr "숨기기"
@@ -175,17 +177,19 @@ msgstr "만약 %b 라면"
 msgid "if on edge, bounce"
 msgstr "벽에 닿으면 튕기기"
 
+# %m.list 의 %d.listItem 에 %s 넣기
 msgid "insert %s at %d.listItem of %m.list"
-msgstr "%m.list 리스트의 %d.listItem 번째에 %s 넣기"
+msgstr "%s 을(를) %d.listItem 번째 %m.list 에 넣기"
 
+# %m.list 의 %d.listItem 번째 항목
 msgid "item %d.listItem of %m.list"
-msgstr "%m.list 리스트의 %d.listItem 번째 항목"
+msgstr "%d.listItem 번째 %m.list 항목"
 
 msgid "join %s %s"
-msgstr "%s 과 %s 을(를) 결합하기"
+msgstr "%s %s 결합하기"
 
 msgid "key %m.key pressed?"
-msgstr "%m.key 키를 클릭했는가?"
+msgstr "%m.key 키를 눌렀는가?"
 
 msgid "length of %m.list"
 msgstr "%m.list 리스트의 크기"
@@ -193,8 +197,9 @@ msgstr "%m.list 리스트의 크기"
 msgid "length of %s"
 msgstr "%s 의 길이"
 
+# %s 의 %n 번째 글자
 msgid "letter %n of %s"
-msgstr "%s의 %n 번째 글자"
+msgstr "%n 번째 글자 %s"
 
 msgid "Looks"
 msgstr "형태"
@@ -228,7 +233,7 @@ msgid "next costume"
 msgstr "다음 모양으로 바꾸기"
 
 msgid "not %b"
-msgstr "%b 이(가) 아니다"
+msgstr "%b 아니다"
 
 msgid "Operators"
 msgstr "연산"
@@ -270,8 +275,9 @@ msgstr "%n 번 반복하기"
 msgid "repeat until %b"
 msgstr "%b 까지 반복하기"
 
+# %m.list 의 %d.listItem 번째 항목을 %s (으)로 바꾸기
 msgid "replace item %d.listItem of %m.list with %s"
-msgstr "%m.list 리스트의 %d.listItem 번째 항목을 %s (으)로 바꾸기"
+msgstr "%d.listItem 번째 %m.list 의 항목을 %s (으)로 바꾸기"
 
 msgid "reset timer"
 msgstr "타이머 초기화"
@@ -286,29 +292,34 @@ msgid "say %s"
 msgstr "%s 말하기"
 
 msgid "say %s for %n secs"
-msgstr "%s (을)를 %n 초동안 말하기"
+msgstr "%s 을(를) %n 초동안 말하기"
 
 msgid "Sensing"
 msgstr "관찰"
 
 msgid "sensor %m.booleanSensor?"
-msgstr "센서의 %m.booleanSensor ?"
+msgstr "센서의 %m.booleanSensor?"
 
 msgid "set %m.effect effect to %n"
 msgstr "%m.effect 효과를 %n (으)로 정하기"
 
 msgid "set %m.var to %s"
-msgstr "%m.var (을)를 %s 로 정하기"
+msgstr "%m.var 을(를) %s 로 정하기"
 
 msgid "set instrument to %d.instrument"
 msgstr "%d.instrument 번 악기로 정하기"
 
 # 89%
-msgid "set motor direction %m.motorDirection"
+# 86%
+# 97%
+#, fuzzy
+msgid "set %m.motor2 direction to %m.motorDirection"
 msgstr "모터 방향을 %m.motorDirection 쪽으로 정하기"
 
 # 77%
-msgid "set motor power %n"
+# 75%
+#, fuzzy
+msgid "set %m.motor power to %n"
 msgstr "모터 파워를 %n (으)로 정하기"
 
 msgid "set pen color to %c"
@@ -324,7 +335,7 @@ msgid "set pen size to %n"
 msgstr "펜 굵기를 %n (으)로 정하기"
 
 msgid "set rotation style %m.rotationStyle"
-msgstr "회전방식을 %m.rotationStyle 으로 정하기"
+msgstr "회전방식을 %m.rotationStyle 로 정하기"
 
 msgid "set size to %n%"
 msgstr "크기를 %n% 로 정하기"
@@ -336,7 +347,7 @@ msgid "set video transparency to %n%"
 msgstr "비디오 투명도를 %n% 로 정하기"
 
 msgid "set volume to %n%"
-msgstr "음량을 %n% 로 정하기"
+msgstr "음량을 %n% (으)로 정하기"
 
 msgid "set x to %n"
 msgstr "x좌표를 %n (으)로 정하기"
@@ -386,7 +397,7 @@ msgid "think %s"
 msgstr "%s 생각하기"
 
 msgid "think %s for %n secs"
-msgstr "%s (을)를 %n 초동안 생각하기"
+msgstr "%s 을(를) %n 초동안 생각하기"
 
 msgid "tilt"
 msgstr "기울기"
@@ -401,19 +412,25 @@ msgid "touching color %c?"
 msgstr "%c 색에 닿았는가?"
 
 msgid "turn @turnLeft %n degrees"
-msgstr "%n @turnLeft 도 돌기"
+msgstr "@turnLeft %n 도 돌기"
 
 msgid "turn @turnRight %n degrees"
-msgstr "%n @turnRight 도 돌기"
+msgstr "@turnRight %n 도 돌기"
 
-msgid "turn motor off"
+# 82%
+#, fuzzy
+msgid "turn %m.motor off"
 msgstr "모터 끄기"
 
-msgid "turn motor on"
+# 81%
+#, fuzzy
+msgid "turn %m.motor on"
 msgstr "모터 켜기"
 
 # 80%
-msgid "turn motor on for %n secs"
+# 89%
+#, fuzzy
+msgid "turn %m.motor on for %n secs"
 msgstr "%n 초 동안 모터 켜기"
 
 msgid "turn video %m.videoState"
@@ -423,7 +440,7 @@ msgid "username"
 msgstr "사용자이름"
 
 msgid "video %m.videoMotionType on %m.stageOrThis"
-msgstr "%m.stageOrThis 위에서의 비디오 %m.videoMotionType"
+msgstr "비디오 %m.videoMotionType 에 대한 %m.stageOrThis 에서의 관찰값"
 
 msgid "volume"
 msgstr "음량"
@@ -441,6 +458,9 @@ msgstr "%m.booleanSensor 일 때"
 msgid "when %m.key key pressed"
 msgstr "%m.key 키를 눌렀을 때"
 
+msgid "when %m.sensor %m.lessMore %n"
+msgstr ""
+
 msgid "when %m.triggerSensor > %n"
 msgstr "%m.triggerSensor > %n 일 때"
 
@@ -451,26 +471,59 @@ msgstr "@greenFlag 클릭했을 때"
 msgid "when backdrop switches to %m.backdrop"
 msgstr "배경이 %m.backdrop (으)로 바뀌었을 때"
 
-msgid "when distance < %n"
-msgstr "거리 < %n 일 때"
+msgid "when distance %m.lessMore %n"
+msgstr ""
 
 msgid "when I receive %m.broadcast"
-msgstr "%m.broadcast (을)를 받았을 때"
+msgstr "%m.broadcast 을(를) 받았을 때"
 
 msgid "when I start as a clone"
 msgstr "복제되었을 때"
 
+msgid "when Stage clicked"
+msgstr ""
+
 msgid "when this sprite clicked"
 msgstr "이 스프라이트를 클릭했을 때"
 
-msgid "when tilt = %n"
-msgstr "기울기 = %n 일 때"
+msgid "when tilt %m.eNe %n"
+msgstr ""
 
 msgid "x position"
 msgstr "x좌표"
 
 msgid "y position"
 msgstr "y좌표"
+
+# 89%
+msgid "set motor direction %m.motorDirection"
+msgstr "모터 방향을 %m.motorDirection 쪽으로 정하기"
+
+# 77%
+msgid "set motor power %n"
+msgstr "모터 파워를 %n (으)로 정하기"
+
+msgid "turn motor off"
+msgstr "모터 끄기"
+
+msgid "turn motor on"
+msgstr "모터 켜기"
+
+# 80%
+msgid "turn motor on for %n secs"
+msgstr "%n 초 동안 모터 켜기"
+
+msgid "when distance < %n"
+msgstr "거리 < %n 일 때"
+
+msgid "when tilt = %n"
+msgstr "기울기 = %n 일 때"
+
+# 89%
+# 86%
+#, fuzzy
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "모터 방향을 %m.motorDirection 쪽으로 정하기"
 
 #~ msgid "forever if %b"
 #~ msgstr "반복 %b 계속 확인"
@@ -503,9 +556,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-19 20:53+0200\n"
-"PO-Revision-Date: 2013-07-11 19:43+0200\n"
-"Last-Translator: Dohyeong <goodideal@gmail.com>\n"
+"POT-Creation-Date: 2013-08-01 08:55+0200\n"
+"PO-Revision-Date: 2014-01-20 08:34+0200\n"
+"Last-Translator: janggoons <janggoons@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -519,11 +572,23 @@ msgstr "10 ^"
 
 msgid "<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only numbers are supported<br>Chat rooms are not allowed, and will be removed<br>For more info, <a href="/help/faq/#clouddata" target="_blank">see the cloud data FAQ!</a>"
 msgstr ""
+"<b>클라우드 변수 정보</b><br>&nbsp;<br>현재, 스크래치 웹사이트 회원만 사용할 수 있습니다.<br>채팅방은 현재 허용되지 "
+"않으며, 조만간 없어질 예정입니다.<br>관련 정보는, <a href=\"/help/faq/#clouddata\" "
+"target=\"_blank\">cloud data FAQ!</a> 를 참고하세요!"
 
 msgid "A connected"
 msgstr "A 연결됨"
 
 msgid "a copy of the project file on your computer."
+msgstr "프로젝트 파일을 내 컴퓨터에 저장합니다."
+
+msgid "About"
+msgstr ""
+
+msgid "About LEGO WeDo extension..."
+msgstr ""
+
+msgid "About PicoBoard extension..."
 msgstr ""
 
 msgid "abs"
@@ -533,15 +598,17 @@ msgid "Account settings"
 msgstr "계정 설정"
 
 # 75%
-#, fuzzy
 msgid "acos"
-msgstr "cos"
+msgstr "acos"
+
+msgid "Add an Extension"
+msgstr ""
 
 msgid "Add boolean input:"
 msgstr "논리값 매개변수 추가하기:"
 
 msgid "add comment"
-msgstr ""
+msgstr "댓글 추가하기"
 
 msgid "Add label text:"
 msgstr "라벨 추가하기:"
@@ -559,31 +626,33 @@ msgid "all"
 msgstr "모두"
 
 msgid "all around"
+msgstr "회전하기"
+
+msgid "all motors"
 msgstr ""
 
 msgid "Animal"
 msgstr "동물"
 
 # 85%
-#, fuzzy
 msgid "Animals"
 msgstr "동물"
 
 msgid "asin"
-msgstr ""
+msgstr "asin"
 
 msgid "assets loaded"
-msgstr ""
+msgstr "로딩됨"
 
 msgid "atan"
-msgstr ""
+msgstr "atan"
 
 # 90%
 msgid "B connected"
 msgstr "B 연결됨"
 
 msgid "Back a layer"
-msgstr ""
+msgstr "한 레이어 뒤로 보내기"
 
 msgid "Backdrop"
 msgstr "배경"
@@ -604,13 +673,13 @@ msgid "backdrop1"
 msgstr "배경1"
 
 msgid "backdrops"
-msgstr "배경들"
+msgstr "배경"
 
 msgid "Backdrops"
-msgstr "배경들"
+msgstr "배경"
 
 msgid "Backpack"
-msgstr ""
+msgstr "개인 저장소"
 
 msgid "Bass"
 msgstr "베이스"
@@ -622,7 +691,7 @@ msgid "Bassoon"
 msgstr "바순"
 
 msgid "Because you have a new Scratch account, any changes to cloud data won't be saved yet. Keep participating on the site you'll be able to use cloud data soon!"
-msgstr ""
+msgstr "최근에 스크래치를 가입한 계정은, 클라우드 데이터가 아직 제대로 작동하지 않습니다. 조금만 더 기다려 주세요!"
 
 msgid "Bitmap"
 msgstr "비트맵"
@@ -640,22 +709,22 @@ msgid "brightness"
 msgstr "밝기"
 
 msgid "Bring to front"
-msgstr "맨 앞으로 가져오기"
+msgstr "앞으로 가져오기"
 
 msgid "Broadcast"
 msgstr "방송하기"
 
 msgid "Brush"
-msgstr ""
+msgstr "붓"
 
 msgid "button pressed"
 msgstr "버튼 누르기"
 
 msgid "by"
-msgstr ""
+msgstr "by"
 
 msgid "bytes loaded"
-msgstr ""
+msgstr "바이트 불러오기"
 
 msgid "C connected"
 msgstr "C 연결됨"
@@ -667,7 +736,7 @@ msgid "Camera"
 msgstr "카메라"
 
 msgid "can drag in player:"
-msgstr ""
+msgstr "프로젝트 페이지에서 드래그 가능:"
 
 msgid "Cancel"
 msgstr "취소"
@@ -679,10 +748,10 @@ msgid "Can’t find network connection or reach server."
 msgstr "네트워크를 연결할 수 없거나 서버에 연결할 수 없습니다."
 
 msgid "Castle"
-msgstr ""
+msgstr "성"
 
 msgid "Category"
-msgstr ""
+msgstr "전체목록"
 
 msgid "ceiling"
 msgstr "천장 함수"
@@ -691,32 +760,29 @@ msgid "Cello"
 msgstr "첼로"
 
 msgid "Choir"
-msgstr ""
+msgstr "합창단"
 
 # 80%
 # 75%
-#, fuzzy
 msgid "Choose backdrop from library"
-msgstr "라이브러리에서 스프라이트 선택"
+msgstr "저장소에서 배경 선택"
 
 # 77%
-#, fuzzy
 msgid "Choose costume from library"
-msgstr "라이브러리에서 스프라이트 선택"
+msgstr "저장소에서 모양 선택"
 
 # 80%
-#, fuzzy
 msgid "Choose sound from library"
-msgstr "라이브러리에서 스프라이트 선택"
+msgstr "저장소에서 소리 선택"
 
 msgid "Choose sprite from library"
-msgstr "라이브러리에서 스프라이트 선택"
+msgstr "저장소에서 스프라이트 선택"
 
 msgid "Circle"
-msgstr ""
+msgstr "원"
 
 msgid "City"
-msgstr ""
+msgstr "도시"
 
 msgid "Clarinet"
 msgstr "클라리넷"
@@ -725,55 +791,55 @@ msgid "Claves"
 msgstr "클라베스"
 
 msgid "cleanup"
-msgstr ""
+msgstr "블록 정리하기"
 
 msgid "Clear"
-msgstr "지우기"
+msgstr "모두 지우기"
 
 msgid "clear senders/receivers"
-msgstr ""
+msgstr "표시 삭제하기"
 
 msgid "Click "Save now" to try again or "Download" to save"
-msgstr ""
+msgstr "저장하기 위해서는 \"저장하기\" 를 다시 누르거나 \"다운로드\"를 누르세요."
 
 msgid "Close"
-msgstr ""
+msgstr "닫기"
 
 msgid "Closed Hi-Hat"
 msgstr "닫힌 하이-햇"
 
 msgid "Cloud"
-msgstr ""
+msgstr "클라우드"
 
 msgid "Cloud data"
-msgstr ""
+msgstr "클라우드 데이터"
 
 msgid "color"
 msgstr "색깔"
 
 msgid "Color a shape"
-msgstr ""
+msgstr "색칠하기"
 
 msgid "Conga"
-msgstr ""
+msgstr "콩가드럼"
 
 msgid "Connecting to Cloud data server..."
-msgstr ""
+msgstr "클라우드 데이터 서버에 연결중입니다..."
 
 msgid "Convert to bitmap"
-msgstr ""
+msgstr "비트맵 이미지로 변환"
 
 msgid "Convert to vector"
 msgstr "벡터로 변환하기"
 
 msgid "Converting mp3..."
-msgstr ""
+msgstr "mp3로 변환중..."
 
 msgid "copy"
 msgstr "복사"
 
 msgid "Copying..."
-msgstr ""
+msgstr "복사중..."
 
 msgid "cos"
 msgstr "cos"
@@ -800,7 +866,7 @@ msgid "Costumes"
 msgstr "모양"
 
 msgid "Costumes > 1"
-msgstr ""
+msgstr "모양 > 1"
 
 # 88%
 msgid "Costumes:"
@@ -810,13 +876,13 @@ msgid "Cowbell"
 msgstr "카우벨"
 
 msgid "Crash Cymbal"
-msgstr ""
+msgstr "크래시 심벌"
 
 msgid "Creating..."
-msgstr ""
+msgstr "생성중..."
 
 msgid "Currently, only numbers can be stored in Cloud variables."
-msgstr ""
+msgstr "현재, 스크래치 회원만 클라우드 변수를 사용할 수 있습니다."
 
 msgid "cut"
 msgstr "자르기"
@@ -848,7 +914,7 @@ msgid "direction:"
 msgstr "방향:"
 
 msgid "don't rotate"
-msgstr ""
+msgstr "회전하지 않기"
 
 msgid "down"
 msgstr "아래"
@@ -857,10 +923,10 @@ msgid "down arrow"
 msgstr "아래쪽 화살표"
 
 msgid "Download"
-msgstr "내려받기"
+msgstr "다운로드"
 
 msgid "Download to your computer"
-msgstr "내 컴퓨터로 내려받기"
+msgstr "내 컴퓨터에 프로젝트 다운로드하기"
 
 msgid "duplicate"
 msgstr "복사"
@@ -893,40 +959,49 @@ msgid "Electric Piano"
 msgstr "전자 피아노"
 
 msgid "Electronic"
-msgstr ""
+msgstr "전자음"
 
 msgid "Ellipse"
-msgstr ""
+msgstr "타원"
 
 msgid "Erase"
-msgstr ""
+msgstr "지우개"
 
 msgid "Eraser width"
-msgstr ""
+msgstr "지우개 크기"
 
 msgid "Error!"
+msgstr "에러!"
+
+msgid "everything"
 msgstr ""
 
 msgid "export"
+msgstr "내보내기"
+
+msgid "Extension Library"
+msgstr ""
+
+msgid "Extension Problem"
 msgstr ""
 
 msgid "fade in"
-msgstr ""
+msgstr "페이드인"
 
 msgid "fade out"
-msgstr ""
+msgstr "페이드아웃"
 
 msgid "Fantasy"
-msgstr ""
+msgstr "판타지"
 
 msgid "Features"
-msgstr ""
+msgstr "특징"
 
 msgid "File"
 msgstr "파일"
 
 msgid "Fill with color"
-msgstr ""
+msgstr "색칠하기"
 
 msgid "fisheye"
 msgstr "어안 렌즈"
@@ -944,10 +1019,10 @@ msgid "Flute"
 msgstr "플룻"
 
 msgid "Flying"
-msgstr ""
+msgstr "하늘"
 
 msgid "Font:"
-msgstr ""
+msgstr "폰트:"
 
 msgid "For all sprites"
 msgstr "모든 스프라이트에서 사용"
@@ -956,34 +1031,37 @@ msgid "For this sprite only"
 msgstr "이 스프라이트에서만 사용"
 
 msgid "Forward a layer"
-msgstr ""
+msgstr "한 레이어 앞으로 보내기"
 
 msgid "ghost"
 msgstr "반투명"
 
 msgid "Go to My Stuff"
-msgstr ""
+msgstr "내 작업실로 이동하기"
 
 msgid "Group"
-msgstr ""
+msgstr "그룹화 적용"
 
 msgid "Grow"
 msgstr "확대"
 
 msgid "Guiro"
-msgstr ""
+msgstr "귀로우"
 
 msgid "Guitar"
-msgstr ""
+msgstr "기타"
 
 msgid "Hand Clap"
 msgstr "박수"
+
+msgid "Hardware"
+msgstr ""
 
 msgid "hide"
 msgstr "숨기기"
 
 msgid "High C"
-msgstr ""
+msgstr "높은 C"
 
 msgid "hour"
 msgstr "시"
@@ -992,7 +1070,6 @@ msgid "Human"
 msgstr "인간"
 
 # 83%
-#, fuzzy
 msgid "import"
 msgstr "가져오기"
 
@@ -1003,16 +1080,16 @@ msgid "Importing sound..."
 msgstr "소리 가져오기..."
 
 msgid "Indoors"
-msgstr ""
+msgstr "실내"
 
 msgid "Installing..."
-msgstr ""
+msgstr "설치중..."
 
 msgid "Instruments"
 msgstr "악기들"
 
 msgid "large readout"
-msgstr ""
+msgstr "변수값 크게 보기"
 
 msgid "last"
 msgstr "마지막"
@@ -1024,25 +1101,33 @@ msgid "left arrow"
 msgstr "왼쪽 화살표"
 
 msgid "left-right"
-msgstr "왼쪽에서 오른쪽"
+msgstr "왼쪽-오른쪽"
+
+msgid "LEGO WeDo"
+msgstr ""
 
 msgid "length"
-msgstr ""
+msgstr "길이"
 
 msgid "Library"
-msgstr ""
+msgstr "저장소"
 
 msgid "light"
 msgstr "빛"
 
+# 83%
+#, fuzzy
+msgid "lights"
+msgstr "빛"
+
 msgid "limit reached"
-msgstr ""
+msgstr "한계에 도달함"
 
 msgid "Line"
-msgstr ""
+msgstr "선"
 
 msgid "Line width"
-msgstr ""
+msgstr "선 굵기"
 
 # 75%
 msgid "list"
@@ -1052,22 +1137,22 @@ msgid "List name"
 msgstr "리스트 이름"
 
 msgid "ln"
-msgstr ""
+msgstr "ln"
 
 msgid "Loading project..."
-msgstr ""
+msgstr "프로젝트 로딩중..."
 
 msgid "log"
-msgstr ""
+msgstr "log"
 
 msgid "louder"
-msgstr ""
+msgstr "음량 키우기"
 
 msgid "loudness"
 msgstr "음량"
 
 msgid "Low C"
-msgstr ""
+msgstr "낮은 C"
 
 msgid "Make a Block"
 msgstr "블록 만들기"
@@ -1082,25 +1167,25 @@ msgid "Marimba"
 msgstr "마림바"
 
 msgid "Max"
-msgstr ""
+msgstr "최대"
 
 msgid "meow"
-msgstr ""
+msgstr "야옹"
 
 msgid "Message Name"
-msgstr ""
+msgstr "메시지 이름"
 
 msgid "message1"
 msgstr "메시지1"
 
 msgid "Microphone Volume:"
-msgstr ""
+msgstr "마이크로폰 음량:"
 
 msgid "Middle C"
-msgstr ""
+msgstr "중간 C"
 
 msgid "Min"
-msgstr ""
+msgstr "최소"
 
 msgid "minute"
 msgstr "분"
@@ -1114,35 +1199,44 @@ msgstr "모자이크"
 msgid "motion"
 msgstr "동작"
 
+msgid "motor"
+msgstr ""
+
+msgid "motor A"
+msgstr ""
+
+msgid "motor B"
+msgstr ""
+
 msgid "mouse-pointer"
-msgstr "마우스의 포인터"
+msgstr "마우스 포인터"
 
 msgid "Multiple"
-msgstr ""
+msgstr "복사하기"
 
 msgid "Music and Dance"
-msgstr ""
+msgstr "음악과 춤"
 
 msgid "Music Box"
 msgstr "뮤직 박스"
 
 msgid "Music Loops"
-msgstr ""
+msgstr "음악"
 
 msgid "My Stuff"
-msgstr ""
+msgstr "내 작업실"
 
 msgid "myself"
-msgstr ""
+msgstr "나 자신"
 
 msgid "Nature"
-msgstr ""
+msgstr "자연"
 
 msgid "New"
 msgstr "새로 만들기"
 
 msgid "New backdrop from camera"
-msgstr ""
+msgstr "웹캠으로 배경찍기"
 
 msgid "New backdrop:"
 msgstr "새로운 배경:"
@@ -1175,25 +1269,28 @@ msgid "New Variable"
 msgstr "새로운 변수"
 
 msgid "No motion blocks"
-msgstr ""
+msgstr "사용 가능한 동작 블럭이 없습니다."
 
 msgid "normal readout"
+msgstr "변수이름-변수값 보기"
+
+msgid "not ="
 msgstr ""
 
 msgid "Not saved; network or server problem."
 msgstr "네트워크 또는 서버 문제로 저장되지 않음."
 
 msgid "Not saved; project did not load."
-msgstr ""
+msgstr "저장되지 않음; 프로젝트를 열 수 없습니다."
 
 msgid "of"
-msgstr ""
+msgstr "중"
 
 msgid "off"
 msgstr "끄기"
 
 msgid "Offline Editor"
-msgstr ""
+msgstr "오프라인 편집기"
 
 msgid "OK"
 msgstr "확인"
@@ -1214,22 +1311,22 @@ msgid "Options"
 msgstr "선택사항"
 
 msgid "Organ"
-msgstr ""
+msgstr "오르간"
 
 msgid "Other"
-msgstr ""
+msgstr "기타"
 
 msgid "other scripts in sprite"
 msgstr "스프라이트에 있는 다른 스크립트"
 
 msgid "Outdoors"
-msgstr ""
+msgstr "실외"
 
 msgid "Paint new backdrop"
-msgstr ""
+msgstr "배경 새로 그리기"
 
 msgid "Paint new costume"
-msgstr ""
+msgstr "모양 새로 그리기"
 
 msgid "Paint new sprite"
 msgstr "새 스프라이트 색칠"
@@ -1238,22 +1335,22 @@ msgid "paste"
 msgstr "붙이기"
 
 msgid "Pencil"
-msgstr ""
+msgstr "펜"
 
 msgid "People"
-msgstr ""
+msgstr "사람들"
 
 msgid "Percussion"
-msgstr ""
+msgstr "타악기"
 
 msgid "photo1"
-msgstr ""
+msgstr "사진1"
 
 msgid "Piano"
-msgstr ""
+msgstr "피아노"
 
 msgid "Pick up color"
-msgstr ""
+msgstr "색 고르기"
 
 msgid "pixelate"
 msgstr "픽셀화"
@@ -1262,19 +1359,19 @@ msgid "Pizzicato"
 msgstr "피치카토"
 
 msgid "pop"
-msgstr ""
+msgstr "팝"
 
 msgid "Profile"
-msgstr ""
+msgstr "프로필"
 
 msgid "Project did not load."
-msgstr ""
+msgstr "프로젝트를 가져오지 못했습니다."
 
 msgid "Project not saved!"
 msgstr "프로젝트가 저장되지 않음!"
 
 msgid "random"
-msgstr ""
+msgstr "랜덤"
 
 msgid "Record"
 msgstr "녹음"
@@ -1283,13 +1380,12 @@ msgid "Record new sound"
 msgstr "새로운 소리 기록하기"
 
 msgid "recording1"
-msgstr ""
+msgstr "녹음1"
 
 msgid "Rectangle"
-msgstr ""
+msgstr "사각형"
 
 # 75%
-#, fuzzy
 msgid "Redo"
 msgstr "재시도"
 
@@ -1297,34 +1393,37 @@ msgid "redo"
 msgstr "재시도"
 
 msgid "Remix"
-msgstr ""
+msgstr "리믹스"
 
 msgid "Remixing..."
+msgstr "리믹스중..."
+
+msgid "Remove extension blocks"
 msgstr ""
 
 msgid "Rename"
-msgstr ""
+msgstr "이름 수정하기"
 
 msgid "rename variable"
-msgstr ""
+msgstr "변수 이름 수정하기"
 
 msgid "requires sign in"
 msgstr "로그인 필요"
 
 msgid "Reshape"
-msgstr ""
+msgstr "형태고치기"
 
 msgid "resistance-A"
-msgstr ""
+msgstr "저항-A"
 
 msgid "resistance-B"
-msgstr ""
+msgstr "저항-B"
 
 msgid "resistance-C"
-msgstr ""
+msgstr "저항-C"
 
 msgid "resistance-D"
-msgstr ""
+msgstr "저항-D"
 
 msgid "reverse"
 msgstr "역방향"
@@ -1363,7 +1462,7 @@ msgid "Saved"
 msgstr "저장됨"
 
 msgid "Saving changes..."
-msgstr ""
+msgstr "바뀐 점을 저장중..."
 
 msgid "Saving..."
 msgstr "저장중..."
@@ -1386,6 +1485,9 @@ msgstr "초"
 msgid "See project page"
 msgstr "프로젝트 페이지 보기"
 
+msgid "See the Tips window (on the right) to install the plug-in and get the extension working."
+msgstr ""
+
 msgid "Select"
 msgstr "선택하기"
 
@@ -1393,7 +1495,7 @@ msgid "select all"
 msgstr "모두 선택하기"
 
 msgid "Select and duplicate"
-msgstr "선택하고 복사하기"
+msgstr "영역을 선택해서 복사하기"
 
 msgid "Send to back"
 msgstr "뒤로 보내기"
@@ -1405,7 +1507,7 @@ msgid "Set Costume Center"
 msgstr "모양 중심 설정하기"
 
 msgid "set slider min and max"
-msgstr ""
+msgstr "슬라이더의 최대값과 최소값 정하기"
 
 msgid "Share"
 msgstr "공유하기"
@@ -1414,21 +1516,20 @@ msgid "shared"
 msgstr "공유됨"
 
 msgid "Shift:"
-msgstr ""
+msgstr "Shift 키:"
 
 msgid "show"
 msgstr "보이기"
 
 msgid "show receivers"
-msgstr ""
+msgstr "메시지 받는 스프라이트 표시하기"
 
 msgid "show senders"
-msgstr ""
+msgstr "메시지 보낸 스프라이트 표시하기"
 
 # 80%
-#, fuzzy
 msgid "show:"
-msgstr "보이기"
+msgstr "보이기:"
 
 msgid "Shrink"
 msgstr "축소"
@@ -1446,31 +1547,31 @@ msgid "Sign out"
 msgstr "로그아웃"
 
 msgid "silence"
-msgstr ""
+msgstr "음량 끄기"
 
 msgid "sin"
-msgstr ""
+msgstr "sin"
 
 msgid "size"
 msgstr "크기"
 
 msgid "slider"
-msgstr "슬라이더"
+msgstr "슬라이더 사용하기"
 
 msgid "Slider Range"
 msgstr "슬라이더 범위"
 
 msgid "Small stage layout"
-msgstr ""
+msgstr "무대 크기 줄이기"
 
 msgid "Smooth"
-msgstr ""
+msgstr "부드럽게고치기"
 
 msgid "Snare Drum"
-msgstr ""
+msgstr "스네어 드럼"
 
 msgid "softer"
-msgstr ""
+msgstr "음량 줄이기"
 
 msgid "sound"
 msgstr "소리"
@@ -1479,7 +1580,7 @@ msgid "Sound"
 msgstr "소리"
 
 msgid "Sound Library"
-msgstr ""
+msgstr "소리 저장소"
 
 # 83%
 msgid "Sounds"
@@ -1489,19 +1590,18 @@ msgid "space"
 msgstr "스페이스"
 
 # 80%
-#, fuzzy
 msgid "Space"
-msgstr "스페이스"
+msgstr "우주"
 
 msgid "Sports"
-msgstr ""
+msgstr "스포츠"
 
 # 85%
 msgid "Sprite"
 msgstr "스프라이트"
 
 msgid "Sprite Library"
-msgstr "스프라이트 라이브러리"
+msgstr "스프라이트 저장소"
 
 # 85%
 msgid "Sprite1"
@@ -1514,13 +1614,13 @@ msgid "sqrt"
 msgstr "제곱근"
 
 msgid "Square"
-msgstr ""
+msgstr "정사각형"
 
 msgid "Stage"
 msgstr "무대"
 
 msgid "Stage selected:"
-msgstr ""
+msgstr "무대가 선택되었습니다:"
 
 msgid "Steel Drum"
 msgstr "스틸 드럼"
@@ -1529,31 +1629,33 @@ msgid "stored on server"
 msgstr "서버에 저장됨"
 
 msgid "Synth Lead"
-msgstr ""
+msgstr "신스 리드"
 
 msgid "Synth Pad"
-msgstr ""
+msgstr "신스 패드"
 
 msgid "Tambourine"
 msgstr "탬버린"
 
 msgid "tan"
-msgstr ""
+msgstr "tan"
 
 msgid "Text"
-msgstr ""
+msgstr "텍스트"
 
 msgid "that way"
 msgstr "반시계방향"
 
 msgid "Theme"
-msgstr "테마"
+msgstr "주제별"
 
 msgid "Things"
-msgstr ""
+msgstr "물건"
 
 msgid "This project can detect who is using it, through the “username” block. To hide your identity, sign out before using the project."
 msgstr ""
+"이 프로젝트에는 당신이 누구인지 알 수 있는 \"사용자이름\" 블록이 사용되었습니다. 당신의 계정이름을 숨기고 싶다면, 이 프로젝트를 "
+"시작하기 전에 로그아웃 하세요."
 
 msgid "This project uses Cloud data ‒ a feature that is available only to signed in users."
 msgstr "이 프로젝트는 클라우드 데이터를 사용합니다. - 로그인한 사용자만 실행할 수 있습니다."
@@ -1568,7 +1670,7 @@ msgid "this way"
 msgstr "시계방향"
 
 msgid "Throw away all changes since opening this project?"
-msgstr ""
+msgstr "이 프로젝트를 열고 난 이후의 모든 변화를 삭제할까요?"
 
 msgid "timer"
 msgstr "타이머"
@@ -1580,10 +1682,10 @@ msgid "To delete a block definition, first remove all uses of the block."
 msgstr "이 블록 정의를 삭제하기 위해서는, 먼저 사용된 이 블록을 모두 삭제해야 합니다."
 
 msgid "Transportation"
-msgstr ""
+msgstr "교통수단"
 
 msgid "Triangle"
-msgstr ""
+msgstr "트라이앵글"
 
 msgid "Trombone"
 msgstr "트럼본"
@@ -1595,18 +1697,16 @@ msgid "Turbo Mode"
 msgstr "터보 모드"
 
 msgid "Type"
-msgstr ""
+msgstr "유형별"
 
 # 75%
-#, fuzzy
 msgid "Undelete"
-msgstr "삭제"
+msgstr "삭제취소"
 
 msgid "Underwater"
-msgstr ""
+msgstr "바다속"
 
 # 75%
-#, fuzzy
 msgid "Undo"
 msgstr "되돌리기"
 
@@ -1614,15 +1714,14 @@ msgid "undo"
 msgstr "되돌리기"
 
 msgid "Undo Revert"
-msgstr ""
+msgstr "되돌리기 취소하기"
 
 msgid "Ungroup"
-msgstr ""
+msgstr "그룹화 해제"
 
 # 75%
-#, fuzzy
 msgid "unshared"
-msgstr "공유됨"
+msgstr "공유되지 않음"
 
 msgid "up"
 msgstr "위"
@@ -1637,7 +1736,7 @@ msgid "Upload costume from file"
 msgstr "모양 파일 업로드하기"
 
 msgid "Upload from your computer"
-msgstr "내 컴퓨터에서 올리기"
+msgstr "내 컴퓨터에서 프로젝트 업로드하기"
 
 msgid "Upload sound from file"
 msgstr "소리 파일 업로드하기"
@@ -1679,28 +1778,28 @@ msgid "Video on:"
 msgstr "비디오 켜기:"
 
 msgid "Vocals"
-msgstr ""
+msgstr "보컬"
 
 msgid "volume"
-msgstr ""
+msgstr "음량"
 
 msgid "Walking"
-msgstr ""
+msgstr "워킹"
 
 msgid "Want to save? Click remix"
 msgstr "저장하고 싶으면, 리믹스를 클릭하세요"
 
 msgid "Which column do you want to import"
-msgstr ""
+msgstr "어떤 열(column)을 가져올까요?"
 
 msgid "whirl"
 msgstr "소용돌이"
 
 msgid "Wood Block"
-msgstr ""
+msgstr "목판"
 
 msgid "Wooden Flute"
-msgstr ""
+msgstr "원목 플루트"
 
 msgid "x position"
 msgstr "x 좌표"
@@ -1717,10 +1816,10 @@ msgstr ""
 "않습니다."
 
 msgid "Eraser width:"
-msgstr ""
+msgstr "지우개 크기:"
 
 msgid "Line width:"
-msgstr ""
+msgstr "선 굵기:"
 
 # 90%
 #, fuzzy

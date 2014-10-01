@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-02 00:56+0200\n"
-"PO-Revision-Date: 2013-07-11 10:52+0200\n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
+"PO-Revision-Date: 2014-07-17 14:22+0200\n"
 "Last-Translator: Manuel <mmsequeira@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -304,12 +304,15 @@ msgid "set instrument to %d.instrument"
 msgstr "altera o teu instrumento para %d.instrument"
 
 # 89%
-msgid "set motor direction %m.motorDirection"
-msgstr "direcciona o motor %m.motorDirection"
+# 86%
+# 97%
+msgid "set %m.motor2 direction to %m.motorDirection"
+msgstr "altera a direcção de %m.motor2 para %m.motorDirection"
 
 # 77%
-msgid "set motor power %n"
-msgstr "altera a potência do motor para %n%"
+# 75%
+msgid "set %m.motor power to %n"
+msgstr "altera a potência de %m.motor para %n%"
 
 msgid "set pen color to %c"
 msgstr "altera a cor da tua caneta para %c"
@@ -406,15 +409,18 @@ msgstr "gira @turnLeft %n °"
 msgid "turn @turnRight %n degrees"
 msgstr "gira @turnRight %n °"
 
-msgid "turn motor off"
-msgstr "desliga o motor"
+# 82%
+msgid "turn %m.motor off"
+msgstr "desliga %m.motor"
 
-msgid "turn motor on"
-msgstr "liga o motor"
+# 81%
+msgid "turn %m.motor on"
+msgstr "liga %m.motor"
 
 # 80%
-msgid "turn motor on for %n secs"
-msgstr "liga o motor durante %n s"
+# 89%
+msgid "turn %m.motor on for %n secs"
+msgstr "liga %m.motor durante %n s"
 
 msgid "turn video %m.videoState"
 msgstr "altera o estado do vídeo para %m.videoState"
@@ -442,6 +448,9 @@ msgstr "Quando o sensor %m.booleanSensor estiver activo"
 msgid "when %m.key key pressed"
 msgstr "Quando alguém pressionar a tecla %m.key"
 
+msgid "when %m.sensor %m.lessMore %n"
+msgstr "Quando o valor do sensor %m.sensor for %m.lessMore %n"
+
 msgid "when %m.triggerSensor > %n"
 msgstr "Quando o valor do sensor %m.triggerSensor exceder %n"
 
@@ -452,8 +461,8 @@ msgstr "Quando alguém clicar em @greenFlag"
 msgid "when backdrop switches to %m.backdrop"
 msgstr "Quando o cenário mudar para %m.backdrop"
 
-msgid "when distance < %n"
-msgstr "Quando a distância for inferior a %n"
+msgid "when distance %m.lessMore %n"
+msgstr "Quando a distância for %m.lessMore que %n"
 
 msgid "when I receive %m.broadcast"
 msgstr "Quando receberes a mensagem %m.broadcast"
@@ -461,17 +470,49 @@ msgstr "Quando receberes a mensagem %m.broadcast"
 msgid "when I start as a clone"
 msgstr "Quando fores criado como um clone"
 
+msgid "when Stage clicked"
+msgstr "Quando alguém clicar no palco"
+
 msgid "when this sprite clicked"
 msgstr "Quando alguém clicar em ti"
 
-msgid "when tilt = %n"
-msgstr "Quando a inclinação for %n"
+msgid "when tilt %m.eNe %n"
+msgstr "Quando a inclinação for %m.eNe a %n"
 
 msgid "x position"
 msgstr "a coordenada x da posição"
 
 msgid "y position"
 msgstr "a coordenada y da posição"
+
+# 89%
+msgid "set motor direction %m.motorDirection"
+msgstr "direcciona o motor %m.motorDirection"
+
+# 77%
+msgid "set motor power %n"
+msgstr "altera a potência do motor para %n%"
+
+msgid "turn motor off"
+msgstr "desliga o motor"
+
+msgid "turn motor on"
+msgstr "liga o motor"
+
+# 80%
+msgid "turn motor on for %n secs"
+msgstr "liga o motor durante %n s"
+
+msgid "when distance < %n"
+msgstr "Quando a distância for inferior a %n"
+
+msgid "when tilt = %n"
+msgstr "Quando a inclinação for %n"
+
+# 89%
+# 86%
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "altera a direcção de %m.motor para %m.motorDirection"
 
 #~ msgid "user name"
 #~ msgstr "nome de utilizador"
@@ -510,8 +551,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-19 20:55+0200\n"
-"PO-Revision-Date: 2013-07-11 00:16+0200\n"
+"POT-Creation-Date: 2013-08-01 08:55+0200\n"
+"PO-Revision-Date: 2014-06-12 22:45+0200\n"
 "Last-Translator: Manuel <mmsequeira@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -537,6 +578,15 @@ msgstr "A conectado"
 msgid "a copy of the project file on your computer."
 msgstr "um cópia do arquivo do projecto no seu computador."
 
+msgid "About"
+msgstr "Acerca"
+
+msgid "About LEGO WeDo extension..."
+msgstr "Acerca da extensão LEGO WeDo..."
+
+msgid "About PicoBoard extension..."
+msgstr "Acerca da extensão PicoBoard..."
+
 msgid "abs"
 msgstr "o valor absoluto"
 
@@ -545,6 +595,9 @@ msgstr "Configurações da conta"
 
 msgid "acos"
 msgstr "o arco-cosseno"
+
+msgid "Add an Extension"
+msgstr "Adicionar uma Extensão"
 
 # 90%
 msgid "Add boolean input:"
@@ -572,6 +625,9 @@ msgstr "tudo"
 
 msgid "all around"
 msgstr "gira a toda a volta"
+
+msgid "all motors"
+msgstr "todos os motores"
 
 msgid "Animal"
 msgstr "Animal"
@@ -732,7 +788,7 @@ msgid "Claves"
 msgstr "Clavas"
 
 msgid "cleanup"
-msgstr ""
+msgstr "arrumar"
 
 msgid "Clear"
 msgstr "Limpar"
@@ -916,8 +972,17 @@ msgstr "Espessura da borracha"
 msgid "Error!"
 msgstr "Erro!"
 
+msgid "everything"
+msgstr "tudo"
+
 msgid "export"
-msgstr ""
+msgstr "exportar"
+
+msgid "Extension Library"
+msgstr "Biblioteca de Extensão"
+
+msgid "Extension Problem"
+msgstr "Problema de Extensão"
 
 msgid "fade in"
 msgstr "aparecer gradualmente"
@@ -956,7 +1021,7 @@ msgid "Flying"
 msgstr "A voar"
 
 msgid "Font:"
-msgstr ""
+msgstr "Fonte tipográfica:"
 
 msgid "For all sprites"
 msgstr "Para todos os actores"
@@ -965,7 +1030,7 @@ msgid "For this sprite only"
 msgstr "Apenas para este actor"
 
 msgid "Forward a layer"
-msgstr "Avançar um camada"
+msgstr "Avançar uma camada"
 
 msgid "ghost"
 msgstr "fantasma"
@@ -988,6 +1053,9 @@ msgstr "Guitarra"
 msgid "Hand Clap"
 msgstr "Palmas"
 
+msgid "Hardware"
+msgstr "Equipamento"
+
 msgid "hide"
 msgstr "esconder"
 
@@ -1001,9 +1069,8 @@ msgid "Human"
 msgstr "Humano"
 
 # 83%
-#, fuzzy
 msgid "import"
-msgstr "Importar"
+msgstr "importar"
 
 msgid "Import"
 msgstr "Importar"
@@ -1021,7 +1088,7 @@ msgid "Instruments"
 msgstr "Instrumentos"
 
 msgid "large readout"
-msgstr ""
+msgstr "visor grande"
 
 msgid "last"
 msgstr "o último item"
@@ -1035,14 +1102,21 @@ msgstr "seta para a esquerda"
 msgid "left-right"
 msgstr "olha apenas para a esquerda e para a direita"
 
+msgid "LEGO WeDo"
+msgstr "LEGO WeDo"
+
 msgid "length"
-msgstr ""
+msgstr "comprimento"
 
 msgid "Library"
 msgstr "Biblioteca"
 
 msgid "light"
 msgstr "luz"
+
+# 83%
+msgid "lights"
+msgstr "luzes"
 
 msgid "limit reached"
 msgstr "limite atingido"
@@ -1124,6 +1198,15 @@ msgstr "mosaico"
 msgid "motion"
 msgstr "o movimento"
 
+msgid "motor"
+msgstr "o motor"
+
+msgid "motor A"
+msgstr "o motor A"
+
+msgid "motor B"
+msgstr "o motor B"
+
 msgid "mouse-pointer"
 msgstr "o ponteiro do rato"
 
@@ -1191,7 +1274,10 @@ msgid "No motion blocks"
 msgstr "Nenhum bloco de movimento"
 
 msgid "normal readout"
-msgstr ""
+msgstr "visor normal"
+
+msgid "not ="
+msgstr "≠"
 
 msgid "Not saved; network or server problem."
 msgstr "Não guardado: problema de rede ou de servidor."
@@ -1206,7 +1292,7 @@ msgid "off"
 msgstr "desligado"
 
 msgid "Offline Editor"
-msgstr ""
+msgstr "Editor Desconectado"
 
 msgid "OK"
 msgstr "OK"
@@ -1315,6 +1401,9 @@ msgstr "Remisturar"
 msgid "Remixing..."
 msgstr "A remisturar..."
 
+msgid "Remove extension blocks"
+msgstr "Remover os blocos de extensão"
+
 msgid "Rename"
 msgstr "Renomear"
 
@@ -1401,6 +1490,11 @@ msgstr "o segundo"
 msgid "See project page"
 msgstr "Ver a página do projecto"
 
+msgid "See the Tips window (on the right) to install the plug-in and get the extension working."
+msgstr ""
+"Veja a janela Dicas (à direita) para instalar o plug-in e pôr a extensão a "
+"funcionar."
+
 msgid "Select"
 msgstr "Seleccionar"
 
@@ -1421,7 +1515,7 @@ msgid "Set Costume Center"
 msgstr "Especificar Centro do Traje"
 
 msgid "set slider min and max"
-msgstr ""
+msgstr "definir mínimo e máximo do deslizador"
 
 msgid "Share"
 msgstr "Partilhar"
@@ -1469,7 +1563,7 @@ msgid "size"
 msgstr "o tamanho"
 
 msgid "slider"
-msgstr "potenciómetro"
+msgstr "deslizador"
 
 msgid "Slider Range"
 msgstr "Gama de Valores do Deslizador"

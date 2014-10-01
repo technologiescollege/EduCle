@@ -4,19 +4,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Scratch 2.0 Block\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-05 23:56+0200\n"
-"PO-Revision-Date: 2013-05-05 23:57+0200\n"
-"Last-Translator: Kevin Scannell\n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
+"PO-Revision-Date: 2013-05-09 07:16+0200\n"
+"Last-Translator: Kevin <kscanne@gmail.com>\n"
 "Language-Team: Irish\n"
 "Language: ga\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.9.0\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n==2 ? 1 : 2;\n"
+"X-Generator: Pootle 2.1.6\n"
 
+# The language name as it will appear in the language menu
 # ###########################################
 # FORMATTING
-# ###########################################
 # Language name as you'd like it to appear in the Languages menu
 # (Required)
 msgid "Language-Name"
@@ -307,10 +308,15 @@ msgstr "socraigh %m.var: %s"
 msgid "set instrument to %d.instrument"
 msgstr "socraigh ionstraim: %d.instrument"
 
-msgid "set motor direction %m.motorDirection"
+# 86%
+# 97%
+#, fuzzy
+msgid "set %m.motor2 direction to %m.motorDirection"
 msgstr "socraigh treo an mhótair: %m.motorDirection"
 
-msgid "set motor power %n"
+# 75%
+#, fuzzy
+msgid "set %m.motor power to %n"
 msgstr "socraigh cumhacht an mhótair: %n"
 
 msgid "set pen color to %c"
@@ -408,13 +414,19 @@ msgstr "rothlaigh @turnLeft %n céim"
 msgid "turn @turnRight %n degrees"
 msgstr "rothlaigh @turnRight %n céim"
 
-msgid "turn motor off"
+# 82%
+#, fuzzy
+msgid "turn %m.motor off"
 msgstr "stop an mótar"
 
-msgid "turn motor on"
+# 81%
+#, fuzzy
+msgid "turn %m.motor on"
 msgstr "cuir an mótar ar siúl"
 
-msgid "turn motor on for %n secs"
+# 89%
+#, fuzzy
+msgid "turn %m.motor on for %n secs"
 msgstr "cuir an mótar ar siúl ar feadh %n soicind"
 
 msgid "turn video %m.videoState"
@@ -441,6 +453,9 @@ msgstr "nuair a %m.booleanSensor"
 msgid "when %m.key key pressed"
 msgstr "nuair a bhrúitear eochair %m.key"
 
+msgid "when %m.sensor %m.lessMore %n"
+msgstr ""
+
 msgid "when %m.triggerSensor > %n"
 msgstr "nuair a bhíonn %m.triggerSensor > %n"
 
@@ -451,8 +466,8 @@ msgstr "nuair a chliceáiltear @greenFlag"
 msgid "when backdrop switches to %m.backdrop"
 msgstr "nuair a chuirtear %m.backdrop suas"
 
-msgid "when distance < %n"
-msgstr "nuair a bhíonn fad < %n"
+msgid "when distance %m.lessMore %n"
+msgstr ""
 
 msgid "when I receive %m.broadcast"
 msgstr "nuair a fhaighim %m.broadcast"
@@ -460,17 +475,46 @@ msgstr "nuair a fhaighim %m.broadcast"
 msgid "when I start as a clone"
 msgstr "nuair a thosaím mar chóip"
 
+msgid "when Stage clicked"
+msgstr ""
+
 msgid "when this sprite clicked"
 msgstr "nuair a chliceáiltear an sprid seo"
 
-msgid "when tilt = %n"
-msgstr "nuair atá claon = %n"
+msgid "when tilt %m.eNe %n"
+msgstr ""
 
 msgid "x position"
 msgstr "ionad x"
 
 msgid "y position"
 msgstr "ionad y"
+
+msgid "set motor direction %m.motorDirection"
+msgstr "socraigh treo an mhótair: %m.motorDirection"
+
+msgid "set motor power %n"
+msgstr "socraigh cumhacht an mhótair: %n"
+
+msgid "turn motor off"
+msgstr "stop an mótar"
+
+msgid "turn motor on"
+msgstr "cuir an mótar ar siúl"
+
+msgid "turn motor on for %n secs"
+msgstr "cuir an mótar ar siúl ar feadh %n soicind"
+
+msgid "when distance < %n"
+msgstr "nuair a bhíonn fad < %n"
+
+msgid "when tilt = %n"
+msgstr "nuair atá claon = %n"
+
+# 86%
+#, fuzzy
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "socraigh treo an mhótair: %m.motorDirection"
 
 ##################
 # User Interface #
@@ -479,7 +523,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Scratch Editor\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-19 20:52+0200\n"
+"POT-Creation-Date: 2013-08-01 08:55+0200\n"
 "PO-Revision-Date: 2013-07-09 18:52+0200\n"
 "Last-Translator: Kevin <kscanne@gmail.com>\n"
 "Language-Team: Irish\n"
@@ -502,6 +546,15 @@ msgstr "A ceangailte"
 msgid "a copy of the project file on your computer."
 msgstr "cóip den tionscadal ar do ríomhaire."
 
+msgid "About"
+msgstr ""
+
+msgid "About LEGO WeDo extension..."
+msgstr ""
+
+msgid "About PicoBoard extension..."
+msgstr ""
+
 msgid "abs"
 msgstr "abs"
 
@@ -510,6 +563,9 @@ msgstr "Socruithe an chuntais"
 
 msgid "acos"
 msgstr "acos"
+
+msgid "Add an Extension"
+msgstr ""
 
 msgid "Add boolean input:"
 msgstr "Cuir ionchur Boole leis:"
@@ -534,6 +590,9 @@ msgstr "uile"
 
 msgid "all around"
 msgstr "timpeall ar fad"
+
+msgid "all motors"
+msgstr ""
 
 msgid "Animal"
 msgstr "Ainmhí"
@@ -870,7 +929,16 @@ msgstr "Leithead an léirscriosáin"
 msgid "Error!"
 msgstr "Earráid!"
 
+msgid "everything"
+msgstr ""
+
 msgid "export"
+msgstr ""
+
+msgid "Extension Library"
+msgstr ""
+
+msgid "Extension Problem"
 msgstr ""
 
 msgid "fade in"
@@ -942,6 +1010,9 @@ msgstr "Giotár"
 msgid "Hand Clap"
 msgstr "Bualadh Bos"
 
+msgid "Hardware"
+msgstr ""
+
 msgid "hide"
 msgstr "cuir i bhfolach"
 
@@ -989,6 +1060,9 @@ msgstr "saighead chlé"
 msgid "left-right"
 msgstr "clé-deas"
 
+msgid "LEGO WeDo"
+msgstr ""
+
 msgid "length"
 msgstr ""
 
@@ -996,6 +1070,11 @@ msgid "Library"
 msgstr "Leabharlann"
 
 msgid "light"
+msgstr "éadrom"
+
+# 83%
+#, fuzzy
+msgid "lights"
 msgstr "éadrom"
 
 msgid "limit reached"
@@ -1076,6 +1155,15 @@ msgstr "mósáic"
 msgid "motion"
 msgstr "gluaiseacht"
 
+msgid "motor"
+msgstr ""
+
+msgid "motor A"
+msgstr ""
+
+msgid "motor B"
+msgstr ""
+
 msgid "mouse-pointer"
 msgstr "pointeoir-luiche"
 
@@ -1140,6 +1228,9 @@ msgid "No motion blocks"
 msgstr "Gan bloic gluaiseachta"
 
 msgid "normal readout"
+msgstr ""
+
+msgid "not ="
 msgstr ""
 
 msgid "Not saved; network or server problem."
@@ -1262,6 +1353,9 @@ msgstr "Athmheasc"
 msgid "Remixing..."
 msgstr "Á athmheascadh..."
 
+msgid "Remove extension blocks"
+msgstr ""
+
 msgid "Rename"
 msgstr "Athainmnigh"
 
@@ -1345,6 +1439,9 @@ msgstr "soicind"
 
 msgid "See project page"
 msgstr "Féach ar leathanach an tionscadail"
+
+msgid "See the Tips window (on the right) to install the plug-in and get the extension working."
+msgstr ""
 
 msgid "Select"
 msgstr "Roghnaigh"

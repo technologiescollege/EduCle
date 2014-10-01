@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-02 00:56+0200\n"
-"PO-Revision-Date: 2013-06-17 19:23+0200\n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
+"PO-Revision-Date: 2014-08-03 19:01+0200\n"
 "Last-Translator: Kazuhiro <abee@squeakland.jp>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
@@ -21,16 +21,16 @@ msgid "%b and %b"
 msgstr "%b かつ %b"
 
 msgid "%b or %b"
-msgstr "%b または %b "
+msgstr "%b または %b"
 
 msgid "%m.attribute of %m.spriteOrStage"
-msgstr "%m.spriteOrStage の %m.attribute"
+msgstr "%m.attribute ( %m.spriteOrStage )"
 
 msgid "%m.list contains %s"
 msgstr "%m.list に %s が含まれる"
 
 msgid "%m.mathOp of %n"
-msgstr "%n の %m.mathOp"
+msgstr "%m.mathOp ( %n )"
 
 msgid "%m.sensor sensor value"
 msgstr "%m.sensor センサーの値"
@@ -49,7 +49,7 @@ msgstr "%s と聞いて待つ"
 
 # "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
 msgid "backdrop #"
-msgstr "背景の番号"
+msgstr "背景 #"
 
 # "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
 msgid "backdrop name"
@@ -104,7 +104,7 @@ msgid "Control"
 msgstr "制御"
 
 msgid "costume #"
-msgstr "コスチュームの番号"
+msgstr "コスチューム #"
 
 msgid "create clone of %m.spriteOnly"
 msgstr "%m.spriteOnly のクローンを作る"
@@ -176,10 +176,10 @@ msgid "if on edge, bounce"
 msgstr "もし端に着いたら、跳ね返る"
 
 msgid "insert %s at %d.listItem of %m.list"
-msgstr "%m.list の %d.listItem 番目に %s を挿入する"
+msgstr "%s を %d.listItem 番目に挿入する（ %m.list ）"
 
 msgid "item %d.listItem of %m.list"
-msgstr "%m.list の %d.listItem 番目"
+msgstr "%d.listItem 番目（ %m.list ）"
 
 msgid "join %s %s"
 msgstr "%s と %s"
@@ -194,7 +194,7 @@ msgid "length of %s"
 msgstr "%s の長さ"
 
 msgid "letter %n of %s"
-msgstr "%s の %n 番目の文字"
+msgstr "%n 番目( %s )の文字"
 
 msgid "Looks"
 msgstr "見た目"
@@ -271,7 +271,7 @@ msgid "repeat until %b"
 msgstr "%b まで繰り返す"
 
 msgid "replace item %d.listItem of %m.list with %s"
-msgstr "%m.list の %d.listItem 番目を %s で置き換える"
+msgstr "%d.listItem 番目（ %m.list ）を %s で置き換える"
 
 msgid "reset timer"
 msgstr "タイマーをリセット"
@@ -280,7 +280,7 @@ msgid "rest for %n beats"
 msgstr "%n 拍休む"
 
 msgid "round %n"
-msgstr "%n を丸める"
+msgstr "%n を四捨五入"
 
 msgid "say %s"
 msgstr "%s と言う"
@@ -298,18 +298,21 @@ msgid "set %m.effect effect to %n"
 msgstr "%m.effect の効果を %n にする"
 
 msgid "set %m.var to %s"
-msgstr "%m.var を %n にする"
+msgstr "%m.var を %s にする"
 
 msgid "set instrument to %d.instrument"
 msgstr "楽器を %d.instrument にする"
 
 # 89%
-msgid "set motor direction %m.motorDirection"
-msgstr "モーターの回転を %m.motorDirection にする"
+# 86%
+# 97%
+msgid "set %m.motor2 direction to %m.motorDirection"
+msgstr "%m.motor2 の回転方向を %m.motorDirection にする"
 
 # 77%
-msgid "set motor power %n"
-msgstr "モーターのパワーを %n にする"
+# 75%
+msgid "set %m.motor power to %n"
+msgstr "%m.motor のパワーを %n にする"
 
 msgid "set pen color to %c"
 msgstr "ペンの色を %c にする"
@@ -406,15 +409,18 @@ msgstr "@turnLeft %n 度回す"
 msgid "turn @turnRight %n degrees"
 msgstr "@turnRight %n 度回す"
 
-msgid "turn motor off"
-msgstr "モーターをオフにする"
+# 82%
+msgid "turn %m.motor off"
+msgstr "%m.motor をオフにする"
 
-msgid "turn motor on"
-msgstr "モーターをオンにする"
+# 81%
+msgid "turn %m.motor on"
+msgstr "%m.motor をオンにする"
 
 # 80%
-msgid "turn motor on for %n secs"
-msgstr "モーターを %n 秒オンにする"
+# 89%
+msgid "turn %m.motor on for %n secs"
+msgstr "%m.motor を %n 秒オンにする"
 
 msgid "turn video %m.videoState"
 msgstr "ビデオを %m.videoState にする"
@@ -424,7 +430,7 @@ msgid "username"
 msgstr "ユーザー名"
 
 msgid "video %m.videoMotionType on %m.stageOrThis"
-msgstr "ビデオの %m.videoMotionType の %m.stageOrThis についての値"
+msgstr "ビデオの %m.videoMotionType ( %m.stageOrThis )"
 
 msgid "volume"
 msgstr "音量"
@@ -437,10 +443,13 @@ msgstr "%b まで待つ"
 
 # 75%
 msgid "when %m.booleanSensor"
-msgstr "%m.booleanSensor のとき"
+msgstr "%m.booleanSensor とき"
 
 msgid "when %m.key key pressed"
 msgstr "%m.key キーが押されたとき"
+
+msgid "when %m.sensor %m.lessMore %n"
+msgstr "%m.sensor %m.lessMore %n のとき"
 
 msgid "when %m.triggerSensor > %n"
 msgstr "%m.triggerSensor > %n のとき"
@@ -452,8 +461,8 @@ msgstr "@greenFlag がクリックされたとき"
 msgid "when backdrop switches to %m.backdrop"
 msgstr "背景が %m.backdrop になったとき"
 
-msgid "when distance < %n"
-msgstr "距離 < %n のとき"
+msgid "when distance %m.lessMore %n"
+msgstr "距離 %m.lessMore %n のとき"
 
 msgid "when I receive %m.broadcast"
 msgstr "%m.broadcast を受け取ったとき"
@@ -461,17 +470,49 @@ msgstr "%m.broadcast を受け取ったとき"
 msgid "when I start as a clone"
 msgstr "クローンされたとき"
 
+msgid "when Stage clicked"
+msgstr "ステージがクリックされたとき"
+
 msgid "when this sprite clicked"
 msgstr "このスプライトがクリックされたとき"
 
-msgid "when tilt = %n"
-msgstr "傾き = %n のとき"
+msgid "when tilt %m.eNe %n"
+msgstr "傾き %m.eNe %n のとき"
 
 msgid "x position"
 msgstr "x座標"
 
 msgid "y position"
 msgstr "y座標"
+
+# 89%
+msgid "set motor direction %m.motorDirection"
+msgstr "モーターの回転方向を %m.motorDirection にする"
+
+# 77%
+msgid "set motor power %n"
+msgstr "モーターのパワーを %n にする"
+
+msgid "turn motor off"
+msgstr "モーターをオフにする"
+
+msgid "turn motor on"
+msgstr "モーターをオンにする"
+
+# 80%
+msgid "turn motor on for %n secs"
+msgstr "モーターを %n 秒オンにする"
+
+msgid "when distance < %n"
+msgstr "距離 < %n のとき"
+
+msgid "when tilt = %n"
+msgstr "傾き = %n のとき"
+
+# 89%
+# 86%
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "%m.motor の回転方向を %m.motorDirection にする"
 
 #~ msgid "user name"
 #~ msgstr "ユーザー名"
@@ -528,8 +569,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-19 20:53+0200\n"
-"PO-Revision-Date: 2013-06-29 06:35+0200\n"
+"POT-Creation-Date: 2013-08-01 08:55+0200\n"
+"PO-Revision-Date: 2014-08-03 19:48+0200\n"
 "Last-Translator: Kazuhiro <abee@squeakland.jp>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
@@ -544,14 +585,22 @@ msgstr "10 ^"
 
 msgid "<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only numbers are supported<br>Chat rooms are not allowed, and will be removed<br>For more info, <a href="/help/faq/#clouddata" target="_blank">see the cloud data FAQ!</a>"
 msgstr ""
-"<b>クラウド変数について</b><br>&nbsp;<br>現在、数値のみがサポートされています<br>チャットルームの作成は許可されません(削除され"
-"ます)。<br>詳細な情報は <a href= target=>クラウドデータFAQを読んでください!</a>"
+"<b>クラウド変数について</b><br>&nbsp;<br>現在、数値のみがサポートされています<br>チャットルームの作成は許可されていないため、削除されます<br>詳細な情報は <a href= target=>クラウドデータに関するFAQを読んでください！</a>"
 
 msgid "A connected"
 msgstr "Aがつながれた"
 
 msgid "a copy of the project file on your computer."
 msgstr "手元のコンピューターにある作品のコピー。"
+
+msgid "About"
+msgstr "説明"
+
+msgid "About LEGO WeDo extension..."
+msgstr "レゴWeDo拡張について..."
+
+msgid "About PicoBoard extension..."
+msgstr "PicoBoard機能拡張について..."
 
 msgid "abs"
 msgstr "絶対値"
@@ -561,6 +610,9 @@ msgstr "アカウント設定"
 
 msgid "acos"
 msgstr "acos"
+
+msgid "Add an Extension"
+msgstr "拡張機能を追加"
 
 msgid "Add boolean input:"
 msgstr "真偽値の引数を追加:"
@@ -585,6 +637,9 @@ msgstr "すべて"
 
 msgid "all around"
 msgstr "自由に回転"
+
+msgid "all motors"
+msgstr "すべてのモーター"
 
 msgid "Animal"
 msgstr "動物"
@@ -646,7 +701,7 @@ msgid "Bassoon"
 msgstr "バスーン"
 
 msgid "Because you have a new Scratch account, any changes to cloud data won't be saved yet. Keep participating on the site you'll be able to use cloud data soon!"
-msgstr ""
+msgstr "新しいScratchのアカウントを使っているので、クラウド・データへの変更は保存できません。このサイトに参加し続けると、すぐにクラウド・データを使用できるようになります。"
 
 msgid "Bitmap"
 msgstr "ビットマップ"
@@ -742,7 +797,7 @@ msgid "Claves"
 msgstr "クラーベ"
 
 msgid "cleanup"
-msgstr ""
+msgstr "きれいにする"
 
 msgid "Clear"
 msgstr "消す"
@@ -917,15 +972,23 @@ msgid "Erase"
 msgstr "消す"
 
 # 92%
-#, fuzzy
 msgid "Eraser width"
-msgstr "消しゴムの幅:"
+msgstr "消しゴムの幅"
 
 msgid "Error!"
-msgstr ""
+msgstr "エラー !"
+
+msgid "everything"
+msgstr "すべて"
 
 msgid "export"
-msgstr ""
+msgstr "書き出し"
+
+msgid "Extension Library"
+msgstr "拡張ライブラリー"
+
+msgid "Extension Problem"
+msgstr "拡張の問題"
 
 msgid "fade in"
 msgstr "フェードイン"
@@ -964,7 +1027,7 @@ msgid "Flying"
 msgstr "飛ぶ"
 
 msgid "Font:"
-msgstr ""
+msgstr "フォント:"
 
 msgid "For all sprites"
 msgstr "すべてのスプライト用"
@@ -996,11 +1059,14 @@ msgstr "ギター"
 msgid "Hand Clap"
 msgstr "拍手"
 
+msgid "Hardware"
+msgstr "ハードウェア"
+
 msgid "hide"
 msgstr "隠す"
 
 msgid "High C"
-msgstr ""
+msgstr "高いド"
 
 msgid "hour"
 msgstr "時"
@@ -1009,7 +1075,6 @@ msgid "Human"
 msgstr "人"
 
 # 83%
-#, fuzzy
 msgid "import"
 msgstr "読み込み"
 
@@ -1029,7 +1094,7 @@ msgid "Instruments"
 msgstr "楽器"
 
 msgid "large readout"
-msgstr ""
+msgstr "大きな表示"
 
 msgid "last"
 msgstr "最後"
@@ -1043,13 +1108,20 @@ msgstr "左向き矢印"
 msgid "left-right"
 msgstr "左右のみ"
 
+msgid "LEGO WeDo"
+msgstr "レゴWeDo"
+
 msgid "length"
-msgstr ""
+msgstr "長さ"
 
 msgid "Library"
 msgstr "ライブラリ"
 
 msgid "light"
+msgstr "明るさ"
+
+# 83%
+msgid "lights"
 msgstr "明るさ"
 
 msgid "limit reached"
@@ -1059,9 +1131,8 @@ msgid "Line"
 msgstr "直線"
 
 # 90%
-#, fuzzy
 msgid "Line width"
-msgstr "線の幅:"
+msgstr "線の幅"
 
 msgid "list"
 msgstr "リスト"
@@ -1085,7 +1156,7 @@ msgid "loudness"
 msgstr "音量"
 
 msgid "Low C"
-msgstr ""
+msgstr "低いド"
 
 msgid "Make a Block"
 msgstr "ブロックを作る"
@@ -1112,10 +1183,10 @@ msgid "message1"
 msgstr "メッセージ1"
 
 msgid "Microphone Volume:"
-msgstr ""
+msgstr "マイクの音量:"
 
 msgid "Middle C"
-msgstr ""
+msgstr "真ん中のド"
 
 msgid "Min"
 msgstr "最小値"
@@ -1131,6 +1202,15 @@ msgstr "モザイク"
 
 msgid "motion"
 msgstr "モーション"
+
+msgid "motor"
+msgstr "モーター"
+
+msgid "motor A"
+msgstr "モーターA"
+
+msgid "motor B"
+msgstr "モーターB"
 
 msgid "mouse-pointer"
 msgstr "マウスのポインター"
@@ -1196,13 +1276,16 @@ msgid "No motion blocks"
 msgstr "動きのブロックはありません"
 
 msgid "normal readout"
-msgstr ""
+msgstr "普通の表示"
+
+msgid "not ="
+msgstr "= ではない"
 
 msgid "Not saved; network or server problem."
 msgstr "保存できません。ネットワークかサーバーに問題があります。"
 
 msgid "Not saved; project did not load."
-msgstr ""
+msgstr "保存できません。プロジェクトが読み込まれていません。"
 
 msgid "of"
 msgstr "の"
@@ -1211,7 +1294,7 @@ msgid "off"
 msgstr "切"
 
 msgid "Offline Editor"
-msgstr ""
+msgstr "オフライン・エディター"
 
 msgid "OK"
 msgstr "OK"
@@ -1287,7 +1370,7 @@ msgid "Profile"
 msgstr "プロフィール"
 
 msgid "Project did not load."
-msgstr ""
+msgstr "プロジェクトが読み込まれていません。"
 
 msgid "Project not saved!"
 msgstr "作品は保存されていません!"
@@ -1318,6 +1401,9 @@ msgstr "リミックス"
 
 msgid "Remixing..."
 msgstr "リミックス中..."
+
+msgid "Remove extension blocks"
+msgstr "拡張ブロックを削除"
 
 msgid "Rename"
 msgstr "名前を変更"
@@ -1403,6 +1489,9 @@ msgstr "秒"
 msgid "See project page"
 msgstr "プロジェクトページ参照"
 
+msgid "See the Tips window (on the right) to install the plug-in and get the extension working."
+msgstr "プラグインをインストールして拡張機能を使う方法は、(右側の)ヒントウィンドウを見てください。"
+
 msgid "Select"
 msgstr "選択"
 
@@ -1422,7 +1511,7 @@ msgid "Set Costume Center"
 msgstr "コスチュームの中心を設定"
 
 msgid "set slider min and max"
-msgstr ""
+msgstr "スライダーの最小値と最大値を設定"
 
 msgid "Share"
 msgstr "共有"
@@ -1564,9 +1653,7 @@ msgid "Things"
 msgstr "もの"
 
 msgid "This project can detect who is using it, through the “username” block. To hide your identity, sign out before using the project."
-msgstr ""
-"このプロジェクトは「ユーザー名」ブロックを使って、誰が使っているかを検出します。特定されたくない場合はこのプロジェクトを使う前にサインアウトしてください"
-"。"
+msgstr "このプロジェクトは「ユーザー名」ブロックを使って、誰が使っているかを検出します。特定されたくない場合はこのプロジェクトを使う前にサインアウトしてください。"
 
 msgid "This project uses Cloud data ‒ a feature that is available only to signed in users."
 msgstr "このプロジェクトはクラウドデータを使っています。この機能はサインインしたユーザーだけ使うことができます。"

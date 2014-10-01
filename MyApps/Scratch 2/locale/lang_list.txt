@@ -1,19 +1,21 @@
 an,Aragonés
+ast,Asturianu
 id,Bahasa Indonesia
 ms,Bahasa Melayu
 ca,Català
 cs,Česky
 cy,Cymraeg
 da,Dansk 
+fa-af,Dari
 de,Deutsch
 et,Eesti
 eo,Esperanto
 es,Español
-eu,Euskera
-fa_AF,Dari
+eu,Euskara
 fr,Français
-fr_CA,Français (Canada)
+fr-ca,Français (Canada)
 ga,Gaeilge
+gl,Galego
 hr,Hrvatski
 is,Íslenska
 it,Italiano
@@ -23,16 +25,19 @@ la,Latina
 lv,Latviešu
 lt,Lietuvių
 hu,Magyar
+mt,Malti
+cat,Meow
 nl,Nederlands
 nb,Norsk Bokmål
 pl,Polski
 pt,Português
-pt_BR,Português (Brasil)
+pt-br,Português (Brasil)
 ro,Română
+sc,Sardu
 sk,Slovenčina
 sl,Slovenščina
-fi,suomi
-sv,svenska
+fi,Suomi
+sv,Svenska
 nai,Tepehuan
 vi,Tiếng Việt
 tr,Türkçe
@@ -44,10 +49,12 @@ he,עִבְרִית
 hi,हिन्दी
 hy,Հայերեն
 ja,日本語
-ja_HIRA,にほんご
+ja-hr,にほんご
 km,សំលៀកបំពាក
+kn,ಭಾಷೆ-ಹೆಸರು
 ko,한국어
 mk,Македонски
+ml,മലയാളം
 mn,Монгол хэл
 mr,मराठी
 my,မြန်မာဘာသာ
@@ -55,5 +62,5 @@ ru,Русский
 sr,Српски
 th,ไทย
 uk,Українська
-zh-CN,简体中文
-zh_TW,正體中文
+zh-cn,简体中文
+zh-tw,正體中文

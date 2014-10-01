@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-02 00:56+0200\n"
-"PO-Revision-Date: 2013-05-02 00:55+0200\n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
+"PO-Revision-Date: 2014-07-10 22:57+0200\n"
 "Last-Translator: adlogi <adlogi@media.mit.edu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -305,12 +305,16 @@ msgid "set instrument to %d.instrument"
 msgstr "اجعل الآلة هي %d.instrument"
 
 # 89%
-msgid "set motor direction %m.motorDirection"
-msgstr "اجعل اتجاه المحرك %m.motorDirection"
+# 86%
+# 97%
+# 100%
+msgid "set %m.motor2 direction to %m.motorDirection"
+msgstr "اجعل اتجاه %m.motor2 %m.motorDirection"
 
 # 77%
-msgid "set motor power %n"
-msgstr "اجعل طاقة المحرك مساويةً %n"
+# 75%
+msgid "set %m.motor power to %n"
+msgstr "اجعل طاقة %m.motor مساويةً %n"
 
 msgid "set pen color to %c"
 msgstr "اجعل لون القلم مساوياً %c"
@@ -410,15 +414,18 @@ msgstr "استدر @turnLeft %n درجة"
 msgid "turn @turnRight %n degrees"
 msgstr "استدر @turnRight %n درجة"
 
-msgid "turn motor off"
-msgstr "أوقف المحرك"
+# 82%
+msgid "turn %m.motor off"
+msgstr "أوقف %m.motor"
 
-msgid "turn motor on"
-msgstr "شغّل المحرك"
+# 81%
+msgid "turn %m.motor on"
+msgstr "شغِّل %m.motor"
 
 # 80%
-msgid "turn motor on for %n secs"
-msgstr "شغِّل المحرك لمدة %n ثانية"
+# 89%
+msgid "turn %m.motor on for %n secs"
+msgstr "شغِّل %m.motor لمدة %n ثانية"
 
 msgid "turn video %m.videoState"
 msgstr "اجعل الفيديو %m.videoState"
@@ -446,6 +453,9 @@ msgstr "عندما %m.booleanSensor"
 msgid "when %m.key key pressed"
 msgstr "عند ضغط مفتاح %m.key"
 
+msgid "when %m.sensor %m.lessMore %n"
+msgstr "عندما %m.sensor %m.lessMore %n"
+
 msgid "when %m.triggerSensor > %n"
 msgstr "عندما %m.triggerSensor < %n"
 
@@ -456,8 +466,8 @@ msgstr "عند نقر @greenFlag"
 msgid "when backdrop switches to %m.backdrop"
 msgstr "عندما تتغير الخلفية إلى %m.backdrop"
 
-msgid "when distance < %n"
-msgstr "عندما المسافة > %n"
+msgid "when distance %m.lessMore %n"
+msgstr "عندما المسافة %m.lessMore %n"
 
 msgid "when I receive %m.broadcast"
 msgstr "عندما تستقبل %m.broadcast"
@@ -465,17 +475,49 @@ msgstr "عندما تستقبل %m.broadcast"
 msgid "when I start as a clone"
 msgstr "عندما تبدأ نسخة مني"
 
+msgid "when Stage clicked"
+msgstr "عند نقر المنصة"
+
 msgid "when this sprite clicked"
 msgstr "عند نقر هذا الكائن"
 
-msgid "when tilt = %n"
-msgstr "عندما الميل = %n"
+msgid "when tilt %m.eNe %n"
+msgstr "عندما الميل %m.eNe %n"
 
 msgid "x position"
 msgstr "الموضع س"
 
 msgid "y position"
 msgstr "الموضع ص"
+
+# 89%
+msgid "set motor direction %m.motorDirection"
+msgstr "اجعل اتجاه المحرك %m.motorDirection"
+
+# 77%
+msgid "set motor power %n"
+msgstr "اجعل طاقة المحرك مساويةً %n"
+
+msgid "turn motor off"
+msgstr "أوقف المحرك"
+
+msgid "turn motor on"
+msgstr "شغّل المحرك"
+
+# 80%
+msgid "turn motor on for %n secs"
+msgstr "شغِّل المحرك لمدة %n ثانية"
+
+msgid "when distance < %n"
+msgstr "عندما المسافة > %n"
+
+msgid "when tilt = %n"
+msgstr "عندما الميل = %n"
+
+# 89%
+# 86%
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "اجعل اتجاه %m.motor %m.motorDirection"
 
 #~ msgid "user name"
 #~ msgstr "اسم المستخدم"
@@ -541,8 +583,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-19 20:50+0200\n"
-"PO-Revision-Date: 2013-07-19 20:55+0200\n"
+"POT-Creation-Date: 2013-08-01 08:55+0200\n"
+"PO-Revision-Date: 2014-05-27 21:28+0200\n"
 "Last-Translator: adlogi <adlogi@media.mit.edu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -568,6 +610,15 @@ msgstr "A موصول"
 msgid "a copy of the project file on your computer."
 msgstr "نسخة من ملف المشروع على جهاز الكمبيوتر الخاص بك."
 
+msgid "About"
+msgstr "عن سكراتش"
+
+msgid "About LEGO WeDo extension..."
+msgstr "عن إضافة LEGO WeDo..."
+
+msgid "About PicoBoard extension..."
+msgstr "عن إضافة PicoBoard..."
+
 msgid "abs"
 msgstr "القيمة المطلقة"
 
@@ -576,6 +627,9 @@ msgstr "إعدادات الحساب"
 
 msgid "acos"
 msgstr "جيب التمام العكسي"
+
+msgid "Add an Extension"
+msgstr "مكتبة الإضافات"
 
 # 90%
 msgid "Add boolean input:"
@@ -603,6 +657,9 @@ msgstr "الكل"
 
 msgid "all around"
 msgstr "في جميع الاتجاهات"
+
+msgid "all motors"
+msgstr "كل المحركات"
 
 msgid "Animal"
 msgstr "حيوان"
@@ -956,8 +1013,17 @@ msgstr "عرض الممحاة"
 msgid "Error!"
 msgstr "خطأ!"
 
+msgid "everything"
+msgstr "كل شيء"
+
 msgid "export"
 msgstr "تصدير"
+
+msgid "Extension Library"
+msgstr "مكتبة الإضافات"
+
+msgid "Extension Problem"
+msgstr "مشكلة في الإضافة"
 
 msgid "fade in"
 msgstr "تلاشي في البداية"
@@ -1028,6 +1094,9 @@ msgstr "غيتار"
 msgid "Hand Clap"
 msgstr "صفقة"
 
+msgid "Hardware"
+msgstr "عتاد"
+
 msgid "hide"
 msgstr "اختف"
 
@@ -1074,6 +1143,9 @@ msgstr "السهم الأيسر"
 msgid "left-right"
 msgstr "يمين - يسار"
 
+msgid "LEGO WeDo"
+msgstr "LEGO WeDo"
+
 msgid "length"
 msgstr "الطول"
 
@@ -1081,6 +1153,10 @@ msgid "Library"
 msgstr "المكتبة"
 
 msgid "light"
+msgstr "الضوء"
+
+# 83%
+msgid "lights"
 msgstr "الضوء"
 
 msgid "limit reached"
@@ -1163,6 +1239,15 @@ msgstr "الموزاييك"
 msgid "motion"
 msgstr "حركة"
 
+msgid "motor"
+msgstr "المحرك"
+
+msgid "motor A"
+msgstr "المحرك ١"
+
+msgid "motor B"
+msgstr "المحرك ٢"
+
 msgid "mouse-pointer"
 msgstr "مؤشر الفأرة"
 
@@ -1231,6 +1316,9 @@ msgstr "لا توجد لبنات للحركة"
 
 msgid "normal readout"
 msgstr "عرض عادي"
+
+msgid "not ="
+msgstr "لا يساوي"
 
 msgid "Not saved; network or server problem."
 msgstr "لم يُحفظ المشروع. هناك مشكلة في الشبكة أو المخدّم."
@@ -1354,6 +1442,9 @@ msgstr "مزج"
 msgid "Remixing..."
 msgstr "المزج جارٍ..."
 
+msgid "Remove extension blocks"
+msgstr "إزالة لبنات الإضافة"
+
 msgid "Rename"
 msgstr "إعادة تسمية"
 
@@ -1442,6 +1533,11 @@ msgstr "الثانية"
 
 msgid "See project page"
 msgstr "عرض صفحة المشروع"
+
+msgid "See the Tips window (on the right) to install the plug-in and get the extension working."
+msgstr ""
+"انظر نافذة المساعدة (إلى اليمين) لتثبيت إضافة المتصفح المطلوبة لجعل اللبنات "
+"الإضافية تعمل."
 
 msgid "Select"
 msgstr "تحديد"

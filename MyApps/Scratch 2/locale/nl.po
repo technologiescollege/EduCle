@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-02 00:56+0200\n"
-"PO-Revision-Date: 2013-07-13 20:38+0200\n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
+"PO-Revision-Date: 2014-07-12 12:36+0200\n"
 "Last-Translator: S.D. <internet@meijer-online.nl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -200,7 +200,7 @@ msgid "Looks"
 msgstr "Uiterlijken"
 
 msgid "loudness"
-msgstr "volume"
+msgstr "geluidsterkte"
 
 msgid "More Blocks"
 msgstr "Meer blokken"
@@ -273,7 +273,7 @@ msgid "replace item %d.listItem of %m.list with %s"
 msgstr "vervang item %d.listItem van %m.list door %s"
 
 msgid "reset timer"
-msgstr "zet tijd op nul"
+msgstr "zet tijdklok op nul"
 
 msgid "rest for %n beats"
 msgstr "pauzeer %n tellen"
@@ -302,13 +302,14 @@ msgstr "maak %m.var %s"
 msgid "set instrument to %d.instrument"
 msgstr "gebruik instrument %d.instrument"
 
-# 89%
-msgid "set motor direction %m.motorDirection"
-msgstr "zet motorrichting op %m.motorDirection"
+# 97%
+msgid "set %m.motor2 direction to %m.motorDirection"
+msgstr "zet %m.motor2 richting op %m.motorDirection"
 
 # 77%
-msgid "set motor power %n"
-msgstr "zet motorvermogen op %n"
+# 75%
+msgid "set %m.motor power to %n"
+msgstr "zet %m.motor vermogen op %n"
 
 msgid "set pen color to %c"
 msgstr "maak penkleur %c"
@@ -391,7 +392,7 @@ msgid "tilt"
 msgstr "kantel"
 
 msgid "timer"
-msgstr "tijd"
+msgstr "tijdklok"
 
 msgid "touching %m.touching?"
 msgstr "raak ik %m.touching?"
@@ -405,15 +406,18 @@ msgstr "draai @turnLeft %n graden"
 msgid "turn @turnRight %n degrees"
 msgstr "draai @turnRight %n graden"
 
-msgid "turn motor off"
-msgstr "zet motor uit"
+# 82%
+msgid "turn %m.motor off"
+msgstr "zet %m.motor uit"
 
-msgid "turn motor on"
-msgstr "zet motor aan"
+# 81%
+msgid "turn %m.motor on"
+msgstr "zet %m.motor aan"
 
 # 80%
-msgid "turn motor on for %n secs"
-msgstr "zet motor %n sec. aan"
+# 89%
+msgid "turn %m.motor on for %n secs"
+msgstr "zet %m.motor %n sec. aan"
 
 msgid "turn video %m.videoState"
 msgstr "zet video %m.videoState"
@@ -440,6 +444,9 @@ msgstr "wanneer %m.booleanSensor"
 msgid "when %m.key key pressed"
 msgstr "wanneer %m.key wordt ingedrukt"
 
+msgid "when %m.sensor %m.lessMore %n"
+msgstr "als %m.sensor %m.lessMore %n"
+
 msgid "when %m.triggerSensor > %n"
 msgstr "wanneer %m.triggerSensor > %n"
 
@@ -450,8 +457,8 @@ msgstr "wanneer @greenFlag wordt aangeklikt"
 msgid "when backdrop switches to %m.backdrop"
 msgstr "wanneer achtergrond verandert naar %m.backdrop"
 
-msgid "when distance < %n"
-msgstr "wanneer afstand < %n"
+msgid "when distance %m.lessMore %n"
+msgstr "wanneer afstand %m.lessMore %n"
 
 msgid "when I receive %m.broadcast"
 msgstr "wanneer ik signaal %m.broadcast ontvang"
@@ -459,17 +466,49 @@ msgstr "wanneer ik signaal %m.broadcast ontvang"
 msgid "when I start as a clone"
 msgstr "wanneer ik als kloon start"
 
+msgid "when Stage clicked"
+msgstr "wanneer op het speelveld wordt geklikt"
+
 msgid "when this sprite clicked"
 msgstr "wanneer op deze sprite wordt geklikt"
 
-msgid "when tilt = %n"
-msgstr "wanneer gekanteld = %n"
+msgid "when tilt %m.eNe %n"
+msgstr "wanneer draaiing %m.eNe %n"
 
 msgid "x position"
 msgstr "x-positie"
 
 msgid "y position"
 msgstr "y-positie"
+
+# 89%
+msgid "set motor direction %m.motorDirection"
+msgstr "zet motorrichting op %m.motorDirection"
+
+# 77%
+msgid "set motor power %n"
+msgstr "zet motorvermogen op %n"
+
+msgid "turn motor off"
+msgstr "zet motor uit"
+
+msgid "turn motor on"
+msgstr "zet motor aan"
+
+# 80%
+msgid "turn motor on for %n secs"
+msgstr "zet motor %n sec. aan"
+
+msgid "when distance < %n"
+msgstr "wanneer afstand < %n"
+
+msgid "when tilt = %n"
+msgstr "wanneer gekanteld = %n"
+
+# 89%
+# 86%
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "zet %m.motor richting op %m.motorDirection"
 
 #~ msgid "user name"
 #~ msgstr "gebruikersnaam"
@@ -526,8 +565,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-19 20:54+0200\n"
-"PO-Revision-Date: 2013-07-12 23:04+0200\n"
+"POT-Creation-Date: 2013-08-01 08:55+0200\n"
+"PO-Revision-Date: 2014-07-12 12:37+0200\n"
 "Last-Translator: S.D. <internet@meijer-online.nl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -543,7 +582,7 @@ msgstr "10 ^"
 msgid "<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only numbers are supported<br>Chat rooms are not allowed, and will be removed<br>For more info, <a href="/help/faq/#clouddata" target="_blank">see the cloud data FAQ!</a>"
 msgstr ""
 "<b>Informatie over cloud-variabelen</b><br>&nbsp;<br>Op dit moment worden "
-"alleen nummers ondersteund.<br>Chat rooms zijn niet toegestaan en worden "
+"alleen nummers ondersteund.<br>Chatruimtes zijn niet toegestaan en worden "
 "verwijderd.<br>Voor meer info, <a href= target=>zie cloud-data FAQ!</a>"
 
 msgid "A connected"
@@ -551,6 +590,15 @@ msgstr "A verbonden"
 
 msgid "a copy of the project file on your computer."
 msgstr "een kopie van het projectbestand op je computer."
+
+msgid "About"
+msgstr "Over"
+
+msgid "About LEGO WeDo extension..."
+msgstr "Over de LEGO WeDo-uitbreiding..."
+
+msgid "About PicoBoard extension..."
+msgstr "Over de PicoBoard-uitbreiding..."
 
 msgid "abs"
 msgstr "absoluut"
@@ -560,6 +608,9 @@ msgstr "Account-instellingen"
 
 msgid "acos"
 msgstr "acos"
+
+msgid "Add an Extension"
+msgstr "Voeg een uitbreiding toe"
 
 msgid "Add boolean input:"
 msgstr "Voeg ja/nee-veld toe:"
@@ -585,6 +636,9 @@ msgstr "alle"
 # wordt waarschijnlijk gebruikt bij rotatiemogelijkheden van een sprite
 msgid "all around"
 msgstr "helemaal rond"
+
+msgid "all motors"
+msgstr "alle motors"
 
 msgid "Animal"
 msgstr "Dier"
@@ -645,9 +699,9 @@ msgstr "Fagot"
 
 msgid "Because you have a new Scratch account, any changes to cloud data won't be saved yet. Keep participating on the site you'll be able to use cloud data soon!"
 msgstr ""
-"Omdat je een nieuw Scratch-account hebt, worden veranderingen in clouddata "
+"Omdat je een nieuw Scratch-account hebt, worden veranderingen in cloud-data "
 "nu nog niet opgeslagen. Blijf bijdragen op deze site; binnenkort kun je ook "
-"clouddata gebruiken!"
+"cloud-data gebruiken!"
 
 msgid "Bitmap"
 msgstr "Afbeelding"
@@ -711,7 +765,7 @@ msgstr "Categorie"
 
 # wikipedia suggests ceiling
 msgid "ceiling"
-msgstr "plafond"
+msgstr "boven"
 
 msgid "Cello"
 msgstr "Cello"
@@ -744,7 +798,7 @@ msgid "Claves"
 msgstr "Claves"
 
 msgid "cleanup"
-msgstr ""
+msgstr "opruimen"
 
 msgid "Clear"
 msgstr "Wissen"
@@ -927,8 +981,17 @@ msgstr "Gum-breedte"
 msgid "Error!"
 msgstr "Fout!"
 
+msgid "everything"
+msgstr "alles"
+
 msgid "export"
-msgstr ""
+msgstr "exporteren"
+
+msgid "Extension Library"
+msgstr "Uitbreidingsbibliotheek"
+
+msgid "Extension Problem"
+msgstr "Probleem met uitbreiding"
 
 msgid "fade in"
 msgstr "fade in"
@@ -958,7 +1021,7 @@ msgid "Flip up-down"
 msgstr "Boven-onder omdraaien"
 
 msgid "floor"
-msgstr "vloer"
+msgstr "beneden"
 
 msgid "Flute"
 msgstr "Dwarsfluit"
@@ -967,7 +1030,7 @@ msgid "Flying"
 msgstr "Vliegen"
 
 msgid "Font:"
-msgstr ""
+msgstr "Lettertype:"
 
 msgid "For all sprites"
 msgstr "Voor alle sprites"
@@ -988,7 +1051,7 @@ msgid "Group"
 msgstr "Groeperen"
 
 msgid "Grow"
-msgstr "Groeien"
+msgstr "Groter maken"
 
 msgid "Guiro"
 msgstr "Güiro"
@@ -999,8 +1062,13 @@ msgstr "Gitaar"
 msgid "Hand Clap"
 msgstr "Handenklap"
 
+msgid "Hardware"
+msgstr "Hardware"
+
+# [sdmeijer] Deze vertaling gebruikt, aangezien ze de editor en block bestanden mergen. Hierdoor staat op de blokken niet verschijn/verdwijn.
+# Is doorgegeven aan ScratchTeam.
 msgid "hide"
-msgstr "verbergen"
+msgstr "verdwijn"
 
 msgid "High C"
 msgstr "Hoge C"
@@ -1012,9 +1080,8 @@ msgid "Human"
 msgstr "Mens"
 
 # 83%
-#, fuzzy
 msgid "import"
-msgstr "Importeren"
+msgstr "importeren"
 
 msgid "Import"
 msgstr "Importeren"
@@ -1032,7 +1099,7 @@ msgid "Instruments"
 msgstr "Instrumenten"
 
 msgid "large readout"
-msgstr ""
+msgstr "groot uitlezen"
 
 msgid "last"
 msgstr "laatste"
@@ -1046,14 +1113,21 @@ msgstr "pijltje links"
 msgid "left-right"
 msgstr "links-rechts"
 
+msgid "LEGO WeDo"
+msgstr "LEGO WeDo"
+
 msgid "length"
-msgstr ""
+msgstr "lengte"
 
 msgid "Library"
 msgstr "Bibliotheek"
 
 msgid "light"
 msgstr "licht"
+
+# 83%
+msgid "lights"
+msgstr "lichten"
 
 msgid "limit reached"
 msgstr "limiet bereikt"
@@ -1084,7 +1158,7 @@ msgid "louder"
 msgstr "luider"
 
 msgid "loudness"
-msgstr "luidheid"
+msgstr "geluid sterkte"
 
 msgid "Low C"
 msgstr "Lage C"
@@ -1134,6 +1208,15 @@ msgstr "mozaïek"
 msgid "motion"
 msgstr "beweging"
 
+msgid "motor"
+msgstr "motor"
+
+msgid "motor A"
+msgstr "motor A"
+
+msgid "motor B"
+msgstr "motor B"
+
 msgid "mouse-pointer"
 msgstr "muisaanwijzer"
 
@@ -1162,13 +1245,13 @@ msgid "New"
 msgstr "Nieuw"
 
 msgid "New backdrop from camera"
-msgstr "Nieuwe achtergrond voor camera"
+msgstr "Nieuwe achtergrond van camera"
 
 msgid "New backdrop:"
 msgstr "Nieuwe achtergrond:"
 
 msgid "New costume from camera"
-msgstr "Nieuw uiterlijk voor camera"
+msgstr "Nieuw uiterlijk van camera"
 
 # 91%
 msgid "New costume:"
@@ -1187,7 +1270,7 @@ msgid "New sound:"
 msgstr "Nieuw geluid:"
 
 msgid "New sprite from camera"
-msgstr "Nieuwe sprite voor camera"
+msgstr "Nieuwe sprite van camera"
 
 msgid "New sprite:"
 msgstr "Nieuwe sprite:"
@@ -1199,7 +1282,10 @@ msgid "No motion blocks"
 msgstr "Geen beweegblokken"
 
 msgid "normal readout"
-msgstr ""
+msgstr "normaal uitlezen"
+
+msgid "not ="
+msgstr "niet ="
 
 msgid "Not saved; network or server problem."
 msgstr "Niet opgeslagen; netwerk- of serverprobleem."
@@ -1214,7 +1300,7 @@ msgid "off"
 msgstr "uit"
 
 msgid "Offline Editor"
-msgstr ""
+msgstr "Offline bewerken"
 
 msgid "OK"
 msgstr "OK"
@@ -1321,6 +1407,9 @@ msgstr "Remix"
 msgid "Remixing..."
 msgstr "Remixen..."
 
+msgid "Remove extension blocks"
+msgstr "Verwijder uitbreidingsblokken"
+
 msgid "Rename"
 msgstr "Andere naam"
 
@@ -1358,7 +1447,7 @@ msgid "right"
 msgstr "rechts"
 
 msgid "right arrow"
-msgstr "pijltje naar rechts"
+msgstr "pijltje rechts"
 
 msgid "rotation style:"
 msgstr "draaistijl:"
@@ -1406,6 +1495,11 @@ msgstr "seconde"
 msgid "See project page"
 msgstr "Bekijk project pagina"
 
+msgid "See the Tips window (on the right) to install the plug-in and get the extension working."
+msgstr ""
+"Bekijk het Tips-scherm (rechts) om de plug-in te installeren en om de "
+"uitbreiding te starten."
+
 msgid "Select"
 msgstr "Selecteer"
 
@@ -1425,7 +1519,7 @@ msgid "Set Costume Center"
 msgstr "Middelpunt van uiterlijk bepalen"
 
 msgid "set slider min and max"
-msgstr ""
+msgstr "stel min en max van schuif in"
 
 msgid "Share"
 msgstr "Delen"
@@ -1434,10 +1528,12 @@ msgid "shared"
 msgstr "gedeeld"
 
 msgid "Shift:"
-msgstr "Verschuiven:"
+msgstr "+ shift:"
 
+# [sdmeijer] Deze vertaling gebruikt, aangezien ze de editor en block bestanden mergen. Hierdoor staat op de blokken niet verschijn/verdwijn.
+# Is doorgegeven aan ScratchTeam.
 msgid "show"
-msgstr "toon"
+msgstr "verschijn"
 
 msgid "show receivers"
 msgstr "ontvangers weergeven"
@@ -1575,7 +1671,7 @@ msgstr ""
 
 msgid "This project uses Cloud data ‒ a feature that is available only to signed in users."
 msgstr ""
-"Dit project gebruikt Cloud-data ‒ een mogelijkheid die beschikbaar is voor "
+"Dit project gebruikt cloud-data ‒ een mogelijkheid die beschikbaar is voor "
 "ingelogde gebruikers."
 
 msgid "this script"
@@ -1592,7 +1688,7 @@ msgstr "Wil je alle veranderingen weggooien die je gemaakt hebt?"
 
 # of teller?
 msgid "timer"
-msgstr "teller"
+msgstr "tijdklok"
 
 msgid "Tips"
 msgstr "Tips"
@@ -1730,8 +1826,8 @@ msgstr "jaar"
 
 msgid "You cannot edit cloud data in someone else's project.<br>Any change that you make in the editor will be temporary and not persistent."
 msgstr ""
-"Je kunt geen clouddata van iemand anders veranderen.<br>Elke verandering die "
-"je maakt in de editor is tijdelijk en wordt niet bewaard."
+"Je kunt geen cloud-data van iemand anders veranderen.<br>Elke verandering "
+"die je maakt is tijdelijk en wordt niet bewaard."
 
 msgid "Eraser width:"
 msgstr "Gum-breedte:"

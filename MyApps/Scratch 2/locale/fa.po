@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-02 00:56+0200\n"
-"PO-Revision-Date: 2013-05-02 00:56+0200\n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
+"PO-Revision-Date: 2014-07-10 22:52+0200\n"
 "Last-Translator: Anonymous Pootle User\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fa\n"
@@ -307,13 +307,16 @@ msgid "set instrument to %d.instrument"
 msgstr "کن %d.instrument دستگاه را"
 
 # 89%
+# 86%
+# 97%
 #, fuzzy
-msgid "set motor direction %m.motorDirection"
+msgid "set %m.motor2 direction to %m.motorDirection"
 msgstr "%m.motorDirection راستای حرکت موتور به"
 
 # 77%
+# 75%
 #, fuzzy
-msgid "set motor power %n"
+msgid "set %m.motor power to %n"
 msgstr "%n :قدرت موتور"
 
 msgid "set pen color to %c"
@@ -411,15 +414,16 @@ msgstr ""
 msgid "turn @turnRight %n degrees"
 msgstr ""
 
-msgid "turn motor off"
+msgid "turn %m.motor off"
 msgstr ""
 
-msgid "turn motor on"
+msgid "turn %m.motor on"
 msgstr ""
 
 # 80%
+# 89%
 #, fuzzy
-msgid "turn motor on for %n secs"
+msgid "turn %m.motor on for %n secs"
 msgstr "ثانیه روشن کن %n موتور را برای"
 
 msgid "turn video %m.videoState"
@@ -448,6 +452,9 @@ msgstr "؟%m.booleanSensor حسگر"
 msgid "when %m.key key pressed"
 msgstr "وقتی کلید %m.key فشرده شد"
 
+msgid "when %m.sensor %m.lessMore %n"
+msgstr ""
+
 msgid "when %m.triggerSensor > %n"
 msgstr ""
 
@@ -458,7 +465,7 @@ msgstr "وقتی @greenFlag کلیک شد"
 msgid "when backdrop switches to %m.backdrop"
 msgstr ""
 
-msgid "when distance < %n"
+msgid "when distance %m.lessMore %n"
 msgstr ""
 
 msgid "when I receive %m.broadcast"
@@ -467,10 +474,13 @@ msgstr ""
 msgid "when I start as a clone"
 msgstr ""
 
+msgid "when Stage clicked"
+msgstr ""
+
 msgid "when this sprite clicked"
 msgstr ""
 
-msgid "when tilt = %n"
+msgid "when tilt %m.eNe %n"
 msgstr ""
 
 msgid "x position"
@@ -478,6 +488,39 @@ msgstr "موقعیت ایکس"
 
 msgid "y position"
 msgstr "موقعیت وای"
+
+# 89%
+#, fuzzy
+msgid "set motor direction %m.motorDirection"
+msgstr "%m.motorDirection راستای حرکت موتور به"
+
+# 77%
+#, fuzzy
+msgid "set motor power %n"
+msgstr "%n :قدرت موتور"
+
+msgid "turn motor off"
+msgstr ""
+
+msgid "turn motor on"
+msgstr ""
+
+# 80%
+#, fuzzy
+msgid "turn motor on for %n secs"
+msgstr "ثانیه روشن کن %n موتور را برای"
+
+msgid "when distance < %n"
+msgstr ""
+
+msgid "when tilt = %n"
+msgstr ""
+
+# 89%
+# 86%
+#, fuzzy
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "%m.motorDirection راستای حرکت موتور به"
 
 #~ msgid "forever if %b"
 #~ msgstr "%b برای همیشه اگر"
@@ -510,7 +553,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-19 20:51+0200\n"
+"POT-Creation-Date: 2013-08-01 08:55+0200\n"
 "PO-Revision-Date: 2013-02-01 16:23+0200\n"
 "Last-Translator: ehsansadeghi <m.e.sadeghi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -533,6 +576,15 @@ msgstr "یک ارتباط"
 msgid "a copy of the project file on your computer."
 msgstr ""
 
+msgid "About"
+msgstr ""
+
+msgid "About LEGO WeDo extension..."
+msgstr ""
+
+msgid "About PicoBoard extension..."
+msgstr ""
+
 msgid "abs"
 msgstr "قدرمطلق"
 
@@ -541,6 +593,9 @@ msgstr ""
 
 msgid "acos"
 msgstr "acos"
+
+msgid "Add an Extension"
+msgstr ""
 
 # 90%
 #, fuzzy
@@ -571,6 +626,9 @@ msgstr "همه"
 
 msgid "all around"
 msgstr "همه اطراف"
+
+msgid "all motors"
+msgstr ""
 
 msgid "Animal"
 msgstr ""
@@ -916,7 +974,16 @@ msgstr ""
 msgid "Error!"
 msgstr ""
 
+msgid "everything"
+msgstr ""
+
 msgid "export"
+msgstr ""
+
+msgid "Extension Library"
+msgstr ""
+
+msgid "Extension Problem"
 msgstr ""
 
 msgid "fade in"
@@ -988,6 +1055,9 @@ msgstr "گیتار"
 msgid "Hand Clap"
 msgstr "کف زدن"
 
+msgid "Hardware"
+msgstr ""
+
 msgid "hide"
 msgstr ""
 
@@ -1035,6 +1105,9 @@ msgstr "کلید چپ"
 msgid "left-right"
 msgstr "از چپ به راست"
 
+msgid "LEGO WeDo"
+msgstr ""
+
 msgid "length"
 msgstr ""
 
@@ -1042,6 +1115,11 @@ msgid "Library"
 msgstr "کتابخانه"
 
 msgid "light"
+msgstr "نور"
+
+# 83%
+#, fuzzy
+msgid "lights"
 msgstr "نور"
 
 msgid "limit reached"
@@ -1124,6 +1202,15 @@ msgstr "موزاييک"
 msgid "motion"
 msgstr "حرکت"
 
+msgid "motor"
+msgstr ""
+
+msgid "motor A"
+msgstr ""
+
+msgid "motor B"
+msgstr ""
+
 msgid "mouse-pointer"
 msgstr "نوک ماوس"
 
@@ -1192,6 +1279,9 @@ msgid "No motion blocks"
 msgstr ""
 
 msgid "normal readout"
+msgstr ""
+
+msgid "not ="
 msgstr ""
 
 msgid "Not saved; network or server problem."
@@ -1316,6 +1406,9 @@ msgstr "ترکیب مجدد"
 msgid "Remixing..."
 msgstr ""
 
+msgid "Remove extension blocks"
+msgstr ""
+
 msgid "Rename"
 msgstr ""
 
@@ -1399,6 +1492,9 @@ msgstr "دومی"
 
 msgid "See project page"
 msgstr "دیدن صفحه پروژه"
+
+msgid "See the Tips window (on the right) to install the plug-in and get the extension working."
+msgstr ""
 
 msgid "Select"
 msgstr ""

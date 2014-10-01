@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-02 00:56+0200\n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
 "PO-Revision-Date: 2013-05-16 12:48+0200\n"
 "Last-Translator: Jurgis <jurgis@akl.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -319,11 +319,16 @@ msgid "set instrument to %d.instrument"
 msgstr "instrumentas = %d.instrument"
 
 # 89%
-msgid "set motor direction %m.motorDirection"
+# 86%
+# 97%
+#, fuzzy
+msgid "set %m.motor2 direction to %m.motorDirection"
 msgstr "variklio kryptis = %m.motorDirection"
 
 # 77%
-msgid "set motor power %n"
+# 75%
+#, fuzzy
+msgid "set %m.motor power to %n"
 msgstr "variklio galia = %n"
 
 # pakeistas c į n kitoje eilutėje
@@ -422,14 +427,20 @@ msgstr "pasisuk @turnLeft %n °"
 msgid "turn @turnRight %n degrees"
 msgstr "pasisuk @turnRight %n °"
 
-msgid "turn motor off"
+# 82%
+#, fuzzy
+msgid "turn %m.motor off"
 msgstr "išjunk variklį"
 
-msgid "turn motor on"
+# 81%
+#, fuzzy
+msgid "turn %m.motor on"
 msgstr "įjunk variklį"
 
 # 80%
-msgid "turn motor on for %n secs"
+# 89%
+#, fuzzy
+msgid "turn %m.motor on for %n secs"
 msgstr "įjunk variklį %n sekundėms"
 
 #, fuzzy
@@ -458,6 +469,9 @@ msgstr "kai %m.booleanSensor"
 msgid "when %m.key key pressed"
 msgstr "Kai paspausta %m.key"
 
+msgid "when %m.sensor %m.lessMore %n"
+msgstr ""
+
 msgid "when %m.triggerSensor > %n"
 msgstr "Kai %m.triggerSensor > %n"
 
@@ -468,8 +482,8 @@ msgstr "Kai paspausta @greenFlag"
 msgid "when backdrop switches to %m.backdrop"
 msgstr "Kai fonas keičiasi į %m.backdrop"
 
-msgid "when distance < %n"
-msgstr "Kai atstumas < %n"
+msgid "when distance %m.lessMore %n"
+msgstr ""
 
 msgid "when I receive %m.broadcast"
 msgstr "Kai gausi žinią %m.broadcast"
@@ -477,17 +491,50 @@ msgstr "Kai gausi žinią %m.broadcast"
 msgid "when I start as a clone"
 msgstr "Kai pradedu veikti kaip klonas"
 
+msgid "when Stage clicked"
+msgstr ""
+
 msgid "when this sprite clicked"
 msgstr "Kai spusteli veikėją"
 
-msgid "when tilt = %n"
-msgstr "Kai pasvirimas = %n"
+msgid "when tilt %m.eNe %n"
+msgstr ""
 
 msgid "x position"
 msgstr "x koordinatė"
 
 msgid "y position"
 msgstr "y koordinatė"
+
+# 89%
+msgid "set motor direction %m.motorDirection"
+msgstr "variklio kryptis = %m.motorDirection"
+
+# 77%
+msgid "set motor power %n"
+msgstr "variklio galia = %n"
+
+msgid "turn motor off"
+msgstr "išjunk variklį"
+
+msgid "turn motor on"
+msgstr "įjunk variklį"
+
+# 80%
+msgid "turn motor on for %n secs"
+msgstr "įjunk variklį %n sekundėms"
+
+msgid "when distance < %n"
+msgstr "Kai atstumas < %n"
+
+msgid "when tilt = %n"
+msgstr "Kai pasvirimas = %n"
+
+# 89%
+# 86%
+#, fuzzy
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "variklio kryptis = %m.motorDirection"
 
 #~ msgid "user id"
 #~ msgstr "naudotojo ID"
@@ -515,7 +562,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-19 20:53+0200\n"
+"POT-Creation-Date: 2013-08-01 08:55+0200\n"
 "PO-Revision-Date: 2013-05-16 12:47+0200\n"
 "Last-Translator: Jurgis <jurgis@akl.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -541,6 +588,15 @@ msgstr "A sujungta"
 msgid "a copy of the project file on your computer."
 msgstr ""
 
+msgid "About"
+msgstr ""
+
+msgid "About LEGO WeDo extension..."
+msgstr ""
+
+msgid "About PicoBoard extension..."
+msgstr ""
+
 msgid "abs"
 msgstr "teigiama reikšmė"
 
@@ -549,6 +605,9 @@ msgstr "Naudotojo nustatymai"
 
 msgid "acos"
 msgstr "arccos"
+
+msgid "Add an Extension"
+msgstr ""
 
 # 90%
 msgid "Add boolean input:"
@@ -577,6 +636,9 @@ msgstr "viskas"
 
 msgid "all around"
 msgstr "aplinkui"
+
+msgid "all motors"
+msgstr ""
 
 msgid "Animal"
 msgstr "Gyvūnas"
@@ -933,7 +995,16 @@ msgstr "Trintuko plotis:"
 msgid "Error!"
 msgstr ""
 
+msgid "everything"
+msgstr ""
+
 msgid "export"
+msgstr ""
+
+msgid "Extension Library"
+msgstr ""
+
+msgid "Extension Problem"
 msgstr ""
 
 msgid "fade in"
@@ -1009,6 +1080,9 @@ msgstr "Gitara"
 msgid "Hand Clap"
 msgstr "Pliaukštelėjimas delnais"
 
+msgid "Hardware"
+msgstr ""
+
 msgid "hide"
 msgstr "paslėpti"
 
@@ -1058,6 +1132,9 @@ msgstr "rodyklė kairėn"
 msgid "left-right"
 msgstr "kairėn-dešinėn"
 
+msgid "LEGO WeDo"
+msgstr ""
+
 msgid "length"
 msgstr ""
 
@@ -1065,6 +1142,11 @@ msgid "Library"
 msgstr "Biblioteka"
 
 msgid "light"
+msgstr "šviesa"
+
+# 83%
+#, fuzzy
+msgid "lights"
 msgstr "šviesa"
 
 #, fuzzy
@@ -1149,6 +1231,15 @@ msgstr "mozaika"
 msgid "motion"
 msgstr "judesys"
 
+msgid "motor"
+msgstr ""
+
+msgid "motor A"
+msgstr ""
+
+msgid "motor B"
+msgstr ""
+
 msgid "mouse-pointer"
 msgstr "pelės rodyklė"
 
@@ -1221,6 +1312,9 @@ msgid "No motion blocks"
 msgstr "Be judėjimo komandų"
 
 msgid "normal readout"
+msgstr ""
+
+msgid "not ="
 msgstr ""
 
 msgid "Not saved; network or server problem."
@@ -1350,6 +1444,9 @@ msgstr "Perdaroma kūryba (remiksas)"
 msgid "Remixing..."
 msgstr "Perdaroma kūryba (remiksas)..."
 
+msgid "Remove extension blocks"
+msgstr ""
+
 msgid "Rename"
 msgstr "Pervardinti"
 
@@ -1441,6 +1538,9 @@ msgstr "sekundė"
 
 msgid "See project page"
 msgstr "Peržiūrėti projekto puslapį"
+
+msgid "See the Tips window (on the right) to install the plug-in and get the extension working."
+msgstr ""
 
 msgid "Select"
 msgstr "Pažymėti"

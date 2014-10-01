@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-02 00:56+0200\n"
-"PO-Revision-Date: 2013-06-11 00:26+0200\n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
+"PO-Revision-Date: 2014-02-06 02:02+0200\n"
 "Last-Translator: timsk3 <translate_scratch@timsk.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eo\n"
@@ -176,10 +176,10 @@ msgid "if on edge, bounce"
 msgstr "se mi tuŝas randon, resalti"
 
 msgid "insert %s at %d.listItem of %m.list"
-msgstr "inserti %s ĉe %d.listItem en %m.list"
+msgstr "enŝovi %s ĉe %d.listItem de %m.list"
 
 msgid "item %d.listItem of %m.list"
-msgstr "elemento %d.listItem el %m.list"
+msgstr "%d.listItem-a ero de %m.list"
 
 msgid "join %s %s"
 msgstr "kunligi %s kaj %s"
@@ -271,7 +271,7 @@ msgid "repeat until %b"
 msgstr "ripeti ĝis %b"
 
 msgid "replace item %d.listItem of %m.list with %s"
-msgstr "anstataŭigi elementon %d.listItem de %m.list per %s"
+msgstr "anstataŭigi %d.listItem-an eron de %m.list per %s"
 
 msgid "reset timer"
 msgstr "restartigi klikhorloĝon"
@@ -304,11 +304,16 @@ msgid "set instrument to %d.instrument"
 msgstr "valorigi instrumenton al %d.instrument"
 
 # 89%
-msgid "set motor direction %m.motorDirection"
+# 86%
+# 97%
+#, fuzzy
+msgid "set %m.motor2 direction to %m.motorDirection"
 msgstr "valorigi motordirekton al %m.motorDirection"
 
 # 77%
-msgid "set motor power %n"
+# 75%
+#, fuzzy
+msgid "set %m.motor power to %n"
 msgstr "valorigi motorforton al %n"
 
 msgid "set pen color to %c"
@@ -348,7 +353,7 @@ msgid "show"
 msgstr "montriĝi"
 
 msgid "show list %m.list"
-msgstr "montri liston %m.list"
+msgstr "montri la liston %m.list"
 
 msgid "show variable %m.var"
 msgstr "montri variablon %m.var"
@@ -406,21 +411,27 @@ msgstr "turni @turnLeft je %n gradoj"
 msgid "turn @turnRight %n degrees"
 msgstr "turni @turnRight je %n gradoj"
 
-msgid "turn motor off"
+# 82%
+#, fuzzy
+msgid "turn %m.motor off"
 msgstr "malŝalti motoron"
 
-msgid "turn motor on"
+# 81%
+#, fuzzy
+msgid "turn %m.motor on"
 msgstr "ŝalti motoron"
 
 # 80%
-msgid "turn motor on for %n secs"
+# 89%
+#, fuzzy
+msgid "turn %m.motor on for %n secs"
 msgstr "ŝalti motoron dum %n sekundoj"
 
 msgid "turn video %m.videoState"
 msgstr "video iĝu %m.videoState"
 
 msgid "username"
-msgstr "uzantnomo"
+msgstr "salutnomo"
 
 msgid "video %m.videoMotionType on %m.stageOrThis"
 msgstr "video %m.videoMotionType sur %m.stageOrThis"
@@ -441,6 +452,9 @@ msgstr "kiam %m.booleanSensor"
 msgid "when %m.key key pressed"
 msgstr "kiam klavo %m.key estas premita"
 
+msgid "when %m.sensor %m.lessMore %n"
+msgstr ""
+
 msgid "when %m.triggerSensor > %n"
 msgstr "kiam %m.triggerSensor > %n"
 
@@ -451,8 +465,8 @@ msgstr "kiam @greenFlag estas alklakita"
 msgid "when backdrop switches to %m.backdrop"
 msgstr "kiam fono ŝanĝiĝas al %m.backdrop"
 
-msgid "when distance < %n"
-msgstr "kiam distanco < %n"
+msgid "when distance %m.lessMore %n"
+msgstr ""
 
 msgid "when I receive %m.broadcast"
 msgstr "kiam mi ricevas %m.broadcast"
@@ -460,17 +474,50 @@ msgstr "kiam mi ricevas %m.broadcast"
 msgid "when I start as a clone"
 msgstr "kiam mi komenciĝas kiel klono"
 
+msgid "when Stage clicked"
+msgstr ""
+
 msgid "when this sprite clicked"
 msgstr "kiam tiu ĉi rolulo estas alklakita"
 
-msgid "when tilt = %n"
-msgstr "kiam klino = %n"
+msgid "when tilt %m.eNe %n"
+msgstr ""
 
 msgid "x position"
 msgstr "x-pozicio"
 
 msgid "y position"
 msgstr "y-pozicio"
+
+# 89%
+msgid "set motor direction %m.motorDirection"
+msgstr "valorigi motordirekton al %m.motorDirection"
+
+# 77%
+msgid "set motor power %n"
+msgstr "valorigi motorforton al %n"
+
+msgid "turn motor off"
+msgstr "malŝalti motoron"
+
+msgid "turn motor on"
+msgstr "ŝalti motoron"
+
+# 80%
+msgid "turn motor on for %n secs"
+msgstr "ŝalti motoron dum %n sekundoj"
+
+msgid "when distance < %n"
+msgstr "kiam distanco < %n"
+
+msgid "when tilt = %n"
+msgstr "kiam klino = %n"
+
+# 89%
+# 86%
+#, fuzzy
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "valorigi motordirekton al %m.motorDirection"
 
 #~ msgid "forever if %b"
 #~ msgstr "ripetu, se %b"
@@ -503,8 +550,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-19 20:51+0200\n"
-"PO-Revision-Date: 2013-06-28 16:22+0200\n"
+"POT-Creation-Date: 2013-08-01 08:55+0200\n"
+"PO-Revision-Date: 2014-03-02 21:28+0200\n"
 "Last-Translator: timsk3 <translate_scratch@timsk.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eo\n"
@@ -530,6 +577,15 @@ msgstr "A estas konektita"
 msgid "a copy of the project file on your computer."
 msgstr "kopio de la projekto-dosiero ĉe via komputilo."
 
+msgid "About"
+msgstr ""
+
+msgid "About LEGO WeDo extension..."
+msgstr ""
+
+msgid "About PicoBoard extension..."
+msgstr ""
+
 msgid "abs"
 msgstr "abs"
 
@@ -538,6 +594,9 @@ msgstr "Agordaĵoj de via konto"
 
 msgid "acos"
 msgstr "acos"
+
+msgid "Add an Extension"
+msgstr ""
 
 msgid "Add boolean input:"
 msgstr "Aldoni bulean enigon:"
@@ -562,6 +621,9 @@ msgstr "ĉiuj"
 
 msgid "all around"
 msgstr "turniĝi libere"
+
+msgid "all motors"
+msgstr ""
 
 msgid "Animal"
 msgstr "Besto"
@@ -622,6 +684,9 @@ msgstr "Fagoto"
 
 msgid "Because you have a new Scratch account, any changes to cloud data won't be saved yet. Keep participating on the site you'll be able to use cloud data soon!"
 msgstr ""
+"Pro tio, ke vi havas novan Scratch-konton, viaj eventualaj ŝanĝoj al ennubaj "
+"datumoj ankoraŭ ne konserviĝos. Daŭrigu vian partoprenon ĉe Scratch, kaj vi "
+"baldaŭ gajnos la rajton uzi ennubajn datumojn!"
 
 msgid "Bitmap"
 msgstr "Rastrumo"
@@ -717,7 +782,7 @@ msgid "Claves"
 msgstr "Klaveoj"
 
 msgid "cleanup"
-msgstr ""
+msgstr "purigo"
 
 msgid "Clear"
 msgstr "Forigi"
@@ -892,14 +957,22 @@ msgid "Erase"
 msgstr "Forigi"
 
 # 92%
-#, fuzzy
 msgid "Eraser width"
-msgstr "Larĝo de forviŝilo:"
+msgstr "Larĝo de forviŝilo"
 
 msgid "Error!"
+msgstr "Eraro!"
+
+msgid "everything"
 msgstr ""
 
 msgid "export"
+msgstr "eksporti"
+
+msgid "Extension Library"
+msgstr ""
+
+msgid "Extension Problem"
 msgstr ""
 
 msgid "fade in"
@@ -939,7 +1012,7 @@ msgid "Flying"
 msgstr "Flugado"
 
 msgid "Font:"
-msgstr ""
+msgstr "Tiparo:"
 
 msgid "For all sprites"
 msgstr "Por ĉiuj roluloj"
@@ -971,11 +1044,14 @@ msgstr "Gitaro"
 msgid "Hand Clap"
 msgstr "Manklakado"
 
+msgid "Hardware"
+msgstr ""
+
 msgid "hide"
 msgstr "kaŝi"
 
 msgid "High C"
-msgstr ""
+msgstr "Alta C"
 
 msgid "hour"
 msgstr "horo"
@@ -984,9 +1060,8 @@ msgid "Human"
 msgstr "Homa"
 
 # 83%
-#, fuzzy
 msgid "import"
-msgstr "Importi"
+msgstr "importi"
 
 msgid "Import"
 msgstr "Importi"
@@ -1004,7 +1079,7 @@ msgid "Instruments"
 msgstr "Instrumentoj"
 
 msgid "large readout"
-msgstr ""
+msgstr "granda indikilo"
 
 msgid "last"
 msgstr "lasta"
@@ -1018,13 +1093,21 @@ msgstr "sago maldekstra"
 msgid "left-right"
 msgstr "dekstra-maldekstra"
 
-msgid "length"
+msgid "LEGO WeDo"
 msgstr ""
+
+msgid "length"
+msgstr "longo"
 
 msgid "Library"
 msgstr "Biblioteko"
 
 msgid "light"
+msgstr "lumo"
+
+# 83%
+#, fuzzy
+msgid "lights"
 msgstr "lumo"
 
 msgid "limit reached"
@@ -1034,9 +1117,8 @@ msgid "Line"
 msgstr "Linio"
 
 # 90%
-#, fuzzy
 msgid "Line width"
-msgstr "Larĝo de linio:"
+msgstr "Larĝo de linio"
 
 # 75%
 msgid "list"
@@ -1061,7 +1143,7 @@ msgid "loudness"
 msgstr "laŭto"
 
 msgid "Low C"
-msgstr ""
+msgstr "Malalta C"
 
 msgid "Make a Block"
 msgstr "Konstrui blokon"
@@ -1088,10 +1170,10 @@ msgid "message1"
 msgstr "mesaĝo1"
 
 msgid "Microphone Volume:"
-msgstr ""
+msgstr "Mikrofona laŭteco:"
 
 msgid "Middle C"
-msgstr ""
+msgstr "Meza C"
 
 msgid "Min"
 msgstr "Min"
@@ -1107,6 +1189,15 @@ msgstr "mozaika"
 
 msgid "motion"
 msgstr "movado"
+
+msgid "motor"
+msgstr ""
+
+msgid "motor A"
+msgstr ""
+
+msgid "motor B"
+msgstr ""
 
 msgid "mouse-pointer"
 msgstr "musa montrilo"
@@ -1172,13 +1263,16 @@ msgid "No motion blocks"
 msgstr "Ne estas movaj blokoj"
 
 msgid "normal readout"
+msgstr "kutima montrilo"
+
+msgid "not ="
 msgstr ""
 
 msgid "Not saved; network or server problem."
 msgstr "Ne konservita; estis problemo pri la konekto aŭ servilo."
 
 msgid "Not saved; project did not load."
-msgstr ""
+msgstr "Ne konserverita; projekto ne ŝargiĝis."
 
 msgid "of"
 msgstr "de"
@@ -1187,7 +1281,7 @@ msgid "off"
 msgstr "malŝaltita"
 
 msgid "Offline Editor"
-msgstr ""
+msgstr "Eksterreta redaktilo"
 
 msgid "OK"
 msgstr "Bone"
@@ -1262,7 +1356,7 @@ msgid "Profile"
 msgstr "Profilo"
 
 msgid "Project did not load."
-msgstr ""
+msgstr "Projekto ne ŝangiĝis."
 
 msgid "Project not saved!"
 msgstr "Projekto ne konservita!"
@@ -1294,6 +1388,9 @@ msgstr "Remiksi"
 
 msgid "Remixing..."
 msgstr "Daŭras remiksado..."
+
+msgid "Remove extension blocks"
+msgstr ""
 
 msgid "Rename"
 msgstr "Ŝanĝi la nomon"
@@ -1379,6 +1476,9 @@ msgstr "sekundo"
 msgid "See project page"
 msgstr "Vidigi projektan paĝon"
 
+msgid "See the Tips window (on the right) to install the plug-in and get the extension working."
+msgstr ""
+
 msgid "Select"
 msgstr "Elekti"
 
@@ -1398,7 +1498,7 @@ msgid "Set Costume Center"
 msgstr "Difini Centron de Kostumo"
 
 msgid "set slider min and max"
-msgstr ""
+msgstr "agordi maksimumon kaj minimumon de la ŝovilo"
 
 msgid "Share"
 msgstr "Kunhavigi"
@@ -1446,10 +1546,10 @@ msgid "size"
 msgstr "grando"
 
 msgid "slider"
-msgstr "potenciometro"
+msgstr "ŝovilo"
 
 msgid "Slider Range"
-msgstr "Amplekso de potenciometro"
+msgstr "Amplekso de la ŝovilo"
 
 msgid "Small stage layout"
 msgstr "Aranĝo kun malgranda scenejo"
@@ -1480,7 +1580,7 @@ msgstr "spacetklavo"
 
 # 80%
 msgid "Space"
-msgstr "Spaceto"
+msgstr "La Kosmo"
 
 msgid "Sports"
 msgstr "Sportoj"

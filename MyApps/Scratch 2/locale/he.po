@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Scratch Hebrew Version 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-02 00:56+0200\n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
 "PO-Revision-Date: 2013-05-30 14:18+0200\n"
 "Last-Translator: MotiB <moti.ben.ari@gmail.com>\n"
 "Language-Team: Scratch Hebrew Translators <moti.ben.ari@gmail.com>\n"
@@ -302,10 +302,15 @@ msgstr "קבע %m.var ל %s"
 msgid "set instrument to %d.instrument"
 msgstr "קבע כלי נגינה ל %d.instrument"
 
-msgid "set motor direction %m.motorDirection"
+# 86%
+# 97%
+#, fuzzy
+msgid "set %m.motor2 direction to %m.motorDirection"
 msgstr "קבע כיוון מנוע ל %m.motorDirection"
 
-msgid "set motor power %n"
+# 75%
+#, fuzzy
+msgid "set %m.motor power to %n"
 msgstr "קבע עוצמת מנוע ל %n"
 
 msgid "set pen color to %c"
@@ -403,13 +408,19 @@ msgstr "הסתובב @turnLeft %n מעלות"
 msgid "turn @turnRight %n degrees"
 msgstr "הסתובב @turnRight %n מעלות"
 
-msgid "turn motor off"
+# 82%
+#, fuzzy
+msgid "turn %m.motor off"
 msgstr "כבה מנוע"
 
-msgid "turn motor on"
+# 81%
+#, fuzzy
+msgid "turn %m.motor on"
 msgstr "הפעל מנוע"
 
-msgid "turn motor on for %n secs"
+# 89%
+#, fuzzy
+msgid "turn %m.motor on for %n secs"
 msgstr "הפעל מנוע ל %n שניות"
 
 msgid "turn video %m.videoState"
@@ -437,6 +448,9 @@ msgstr "כאשר %m.booleanSensor"
 msgid "when %m.key key pressed"
 msgstr "כאשר נלחץ מקש %m.key "
 
+msgid "when %m.sensor %m.lessMore %n"
+msgstr ""
+
 msgid "when %m.triggerSensor > %n"
 msgstr "כאשר %m.triggerSensor < %n"
 
@@ -447,8 +461,8 @@ msgstr "כאשר לוחצים על  @greenFlag  "
 msgid "when backdrop switches to %m.backdrop"
 msgstr "כאשר הרקע משתנה ל %m.backdrop"
 
-msgid "when distance < %n"
-msgstr "כאשר מרחק > %n"
+msgid "when distance %m.lessMore %n"
+msgstr ""
 
 msgid "when I receive %m.broadcast"
 msgstr "כאשר מתקבל מסר %m.broadcast"
@@ -456,17 +470,46 @@ msgstr "כאשר מתקבל מסר %m.broadcast"
 msgid "when I start as a clone"
 msgstr "כשאני מופעל ככפיל"
 
+msgid "when Stage clicked"
+msgstr ""
+
 msgid "when this sprite clicked"
 msgstr "כאשר לוחצים על דמות זו"
 
-msgid "when tilt = %n"
-msgstr "כאשר הטיה = %n"
+msgid "when tilt %m.eNe %n"
+msgstr ""
 
 msgid "x position"
 msgstr "מיקום על ציר x"
 
 msgid "y position"
 msgstr "מיקום על ציר y"
+
+msgid "set motor direction %m.motorDirection"
+msgstr "קבע כיוון מנוע ל %m.motorDirection"
+
+msgid "set motor power %n"
+msgstr "קבע עוצמת מנוע ל %n"
+
+msgid "turn motor off"
+msgstr "כבה מנוע"
+
+msgid "turn motor on"
+msgstr "הפעל מנוע"
+
+msgid "turn motor on for %n secs"
+msgstr "הפעל מנוע ל %n שניות"
+
+msgid "when distance < %n"
+msgstr "כאשר מרחק > %n"
+
+msgid "when tilt = %n"
+msgstr "כאשר הטיה = %n"
+
+# 86%
+#, fuzzy
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "קבע כיוון מנוע ל %m.motorDirection"
 
 #~ msgid "user name"
 #~ msgstr "שם משתמש"
@@ -517,7 +560,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-19 20:52+0200\n"
+"POT-Creation-Date: 2013-08-01 08:55+0200\n"
 "PO-Revision-Date: 2013-07-10 16:36+0200\n"
 "Last-Translator: adlogi <adlogi@media.mit.edu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -542,6 +585,15 @@ msgstr "A מחובר"
 msgid "a copy of the project file on your computer."
 msgstr "עותק של קובץ פרויקט על המחשב שלך."
 
+msgid "About"
+msgstr ""
+
+msgid "About LEGO WeDo extension..."
+msgstr ""
+
+msgid "About PicoBoard extension..."
+msgstr ""
+
 msgid "abs"
 msgstr "abs"
 
@@ -550,6 +602,9 @@ msgstr "הגדרות של החשבון"
 
 msgid "acos"
 msgstr "acos"
+
+msgid "Add an Extension"
+msgstr ""
 
 # 90%
 msgid "Add boolean input:"
@@ -577,6 +632,9 @@ msgstr "הכל"
 
 msgid "all around"
 msgstr "מסביב"
+
+msgid "all motors"
+msgstr ""
 
 msgid "Animal"
 msgstr "חיות"
@@ -919,7 +977,16 @@ msgstr "רוחב מחק:"
 msgid "Error!"
 msgstr ""
 
+msgid "everything"
+msgstr ""
+
 msgid "export"
+msgstr ""
+
+msgid "Extension Library"
+msgstr ""
+
+msgid "Extension Problem"
 msgstr ""
 
 msgid "fade in"
@@ -991,6 +1058,9 @@ msgstr "גיטרה"
 msgid "Hand Clap"
 msgstr "מחיאת כף"
 
+msgid "Hardware"
+msgstr ""
+
 msgid "hide"
 msgstr "הסתר"
 
@@ -1038,6 +1108,9 @@ msgstr "חץ שמאלי"
 msgid "left-right"
 msgstr "שמאל-ימין"
 
+msgid "LEGO WeDo"
+msgstr ""
+
 msgid "length"
 msgstr ""
 
@@ -1045,6 +1118,11 @@ msgid "Library"
 msgstr "ספריה"
 
 msgid "light"
+msgstr "אור"
+
+# 83%
+#, fuzzy
+msgid "lights"
 msgstr "אור"
 
 msgid "limit reached"
@@ -1127,6 +1205,15 @@ msgstr "פסיפס"
 msgid "motion"
 msgstr "תנועה"
 
+msgid "motor"
+msgstr ""
+
+msgid "motor A"
+msgstr ""
+
+msgid "motor B"
+msgstr ""
+
 msgid "mouse-pointer"
 msgstr "סמן העכבר"
 
@@ -1194,6 +1281,9 @@ msgid "No motion blocks"
 msgstr "ללא פקודות תנועה"
 
 msgid "normal readout"
+msgstr ""
+
+msgid "not ="
 msgstr ""
 
 msgid "Not saved; network or server problem."
@@ -1318,6 +1408,9 @@ msgstr "עריכה מחדש"
 msgid "Remixing..."
 msgstr "עורך מחדש..."
 
+msgid "Remove extension blocks"
+msgstr ""
+
 msgid "Rename"
 msgstr "שנה שם"
 
@@ -1403,6 +1496,9 @@ msgstr "שניה"
 
 msgid "See project page"
 msgstr "ראה דף פרויקט"
+
+msgid "See the Tips window (on the right) to install the plug-in and get the extension working."
+msgstr ""
 
 msgid "Select"
 msgstr "בחר"

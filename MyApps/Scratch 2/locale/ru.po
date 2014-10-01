@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-02 00:56+0200\n"
-"PO-Revision-Date: 2013-05-08 11:30+0200\n"
-"Last-Translator: patarakin <patarakin@gmail.com>\n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
+"PO-Revision-Date: 2014-09-20 15:41+0200\n"
+"Last-Translator: parukhin <parukhin@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -72,7 +72,7 @@ msgid "change pen color by %n"
 msgstr "изменить цвет пера на %n"
 
 msgid "change pen shade by %n"
-msgstr "изменить тень пера на&nbsp; %n"
+msgstr "изменить тень пера на %n"
 
 msgid "change pen size by %n"
 msgstr "изменить размер пера на %n"
@@ -168,10 +168,10 @@ msgid "hide list %m.list"
 msgstr "скрыть список %m.list"
 
 msgid "hide variable %m.var"
-msgstr "скрыть переменную  %m.var"
+msgstr "скрыть переменную %m.var"
 
 msgid "if %b then"
-msgstr "если %b то"
+msgstr "если %b , то"
 
 msgid "if on edge, bounce"
 msgstr "если на краю, оттолкнуться"
@@ -232,7 +232,7 @@ msgid "not %b"
 msgstr "не %b"
 
 msgid "Operators"
-msgstr "операторы"
+msgstr "Операторы"
 
 msgid "Pen"
 msgstr "Перо"
@@ -251,7 +251,7 @@ msgstr "барабану %d.drum играть %n тактов"
 
 # 83%
 msgid "play note %d.note for %n beats"
-msgstr "ноту %d.note играть %n тактов"
+msgstr "играть ноту %d.note %n тактов"
 
 msgid "play sound %m.sound"
 msgstr "играть звук %m.sound"
@@ -290,7 +290,7 @@ msgid "say %s for %n secs"
 msgstr "говорить %s в течение %n секунд"
 
 msgid "Sensing"
-msgstr "сенсоры"
+msgstr "Сенсоры"
 
 msgid "sensor %m.booleanSensor?"
 msgstr "сенсор %m.booleanSensor?"
@@ -305,12 +305,15 @@ msgid "set instrument to %d.instrument"
 msgstr "выбрать инструмент %d.instrument"
 
 # 89%
-msgid "set motor direction %m.motorDirection"
-msgstr "направление мотора %m.motorDirection"
+# 86%
+# 97%
+msgid "set %m.motor2 direction to %m.motorDirection"
+msgstr "установить направление для %m.motor2 в %m.motorDirection"
 
 # 77%
-msgid "set motor power %n"
-msgstr "мощность мотора %n"
+# 75%
+msgid "set %m.motor power to %n"
+msgstr "установить мощность для %m.motor в %n"
 
 msgid "set pen color to %c"
 msgstr "установить цвет пера %c"
@@ -358,7 +361,7 @@ msgid "size"
 msgstr "размер"
 
 msgid "Sound"
-msgstr "звук"
+msgstr "Звук"
 
 msgid "stamp"
 msgstr "печать"
@@ -387,7 +390,7 @@ msgid "think %s"
 msgstr "думать %s"
 
 msgid "think %s for %n secs"
-msgstr "думать %s  %n секунд"
+msgstr "думать %s %n секунд"
 
 msgid "tilt"
 msgstr "наклон"
@@ -407,15 +410,18 @@ msgstr "повернуть @turnLeft на %n градусов"
 msgid "turn @turnRight %n degrees"
 msgstr "повернуть @turnRight на %n градусов"
 
-msgid "turn motor off"
-msgstr "выключить мотор"
+# 82%
+msgid "turn %m.motor off"
+msgstr "выключить %m.motor"
 
-msgid "turn motor on"
-msgstr "включить мотор"
+# 81%
+msgid "turn %m.motor on"
+msgstr "включить %m.motor"
 
 # 80%
-msgid "turn motor on for %n secs"
-msgstr "включить мотор на %n сек"
+# 89%
+msgid "turn %m.motor on for %n secs"
+msgstr "включить %m.motor на %n сек"
 
 msgid "turn video %m.videoState"
 msgstr "повернуть видео на %m.videoState"
@@ -442,6 +448,9 @@ msgstr "сенсор %m.booleanSensor"
 msgid "when %m.key key pressed"
 msgstr "когда клавиша %m.key нажата"
 
+msgid "when %m.sensor %m.lessMore %n"
+msgstr "когда %m.sensor %m.lessMore %n"
+
 msgid "when %m.triggerSensor > %n"
 msgstr "когда %m.triggerSensor > %n"
 
@@ -452,8 +461,8 @@ msgstr "когда щелкнут по @greenFlag"
 msgid "when backdrop switches to %m.backdrop"
 msgstr "когда фон меняется на %m.backdrop"
 
-msgid "when distance < %n"
-msgstr "когда расстояние < %n"
+msgid "when distance %m.lessMore %n"
+msgstr "когда расстояние %m.lessMore %n"
 
 msgid "when I receive %m.broadcast"
 msgstr "когда я получу %m.broadcast"
@@ -461,17 +470,50 @@ msgstr "когда я получу %m.broadcast"
 msgid "when I start as a clone"
 msgstr "когда я начинаю как клон"
 
+msgid "when Stage clicked"
+msgstr "при нажатии на Этап"
+
 msgid "when this sprite clicked"
 msgstr "когда спрайт нажат"
 
-msgid "when tilt = %n"
-msgstr "когда наклон = %n"
+msgid "when tilt %m.eNe %n"
+msgstr "когда наклон %m.eNe %n"
 
 msgid "x position"
 msgstr "положение x"
 
 msgid "y position"
 msgstr "положение y"
+
+# 89%
+msgid "set motor direction %m.motorDirection"
+msgstr "направление мотора %m.motorDirection"
+
+# 77%
+msgid "set motor power %n"
+msgstr "мощность мотора %n"
+
+msgid "turn motor off"
+msgstr "выключить мотор"
+
+msgid "turn motor on"
+msgstr "включить мотор"
+
+# 80%
+msgid "turn motor on for %n secs"
+msgstr "включить мотор на %n сек"
+
+msgid "when distance < %n"
+msgstr "когда расстояние < %n"
+
+msgid "when tilt = %n"
+msgstr "когда наклон = %n"
+
+# 89%
+# 86%
+#, fuzzy
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "направление мотора %m.motorDirection"
 
 #~ msgid "user id"
 #~ msgstr "ID участника"
@@ -525,9 +567,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-19 20:55+0200\n"
-"PO-Revision-Date: 2013-05-06 10:27+0200\n"
-"Last-Translator: patarakin <patarakin@gmail.com>\n"
+"POT-Creation-Date: 2013-08-01 08:55+0200\n"
+"PO-Revision-Date: 2014-09-20 16:00+0200\n"
+"Last-Translator: parukhin <parukhin@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -554,6 +596,15 @@ msgstr "A соединен"
 msgid "a copy of the project file on your computer."
 msgstr "копия проекта на вашем компьютере."
 
+msgid "About"
+msgstr "О программе"
+
+msgid "About LEGO WeDo extension..."
+msgstr "О дополнении LEGO WeDo..."
+
+msgid "About PicoBoard extension..."
+msgstr "О дополнении PicoBoard..."
+
 msgid "abs"
 msgstr "модуль"
 
@@ -563,23 +614,26 @@ msgstr "Настройки аккаунта"
 msgid "acos"
 msgstr "acos"
 
+msgid "Add an Extension"
+msgstr "Добавить дополнение"
+
 # 90%
 msgid "Add boolean input:"
-msgstr "Ввести логическое значение"
+msgstr "Ввести логическое значение:"
 
 msgid "add comment"
 msgstr "добавить комментарий"
 
 msgid "Add label text:"
-msgstr "Добавить текст ярлыка"
+msgstr "Добавить текст подписи:"
 
 # 89%
 msgid "Add number input:"
-msgstr "Ввести числовое значение"
+msgstr "Добавить поле ввода числа:"
 
 # 89%
 msgid "Add string input:"
-msgstr "Ввести строку"
+msgstr "Добавить поле ввода строк:"
 
 msgid "All"
 msgstr "Все"
@@ -589,6 +643,9 @@ msgstr "все"
 
 msgid "all around"
 msgstr "кругом"
+
+msgid "all motors"
+msgstr "все двигатели"
 
 msgid "Animal"
 msgstr "Животное"
@@ -654,15 +711,18 @@ msgstr "Фагот"
 
 msgid "Because you have a new Scratch account, any changes to cloud data won't be saved yet. Keep participating on the site you'll be able to use cloud data soon!"
 msgstr ""
+"Поскольку вы являетесь новым участником, любые изменения в облаке данных не "
+"будут сохранены. Участвуйте в работе сообщества и вы сможете использовать "
+"облачные данные!"
 
 msgid "Bitmap"
 msgstr "Битовая карта"
 
 msgid "Bitmap Mode"
-msgstr "Битовый режим"
+msgstr "Растровый режим"
 
 msgid "Block help"
-msgstr "Блок помощи"
+msgstr "Помощь по блоку"
 
 msgid "Bongo"
 msgstr "Бонго"
@@ -707,7 +767,7 @@ msgid "Cannot Delete"
 msgstr "Невозможно удалить"
 
 msgid "Can’t find network connection or reach server."
-msgstr "Невозможно установить сетевое подключение или связаться с сервером"
+msgstr "Невозможно установить сетевое подключение или связаться с сервером."
 
 msgid "Castle"
 msgstr "Замок"
@@ -749,7 +809,7 @@ msgid "Claves"
 msgstr "Клавесин"
 
 msgid "cleanup"
-msgstr ""
+msgstr "упорядочить"
 
 msgid "Clear"
 msgstr "Очистить"
@@ -764,7 +824,7 @@ msgid "Close"
 msgstr "Закрыть"
 
 msgid "Closed Hi-Hat"
-msgstr "Closed Hi-Hat"
+msgstr "Закрытый хай-хэт"
 
 msgid "Cloud"
 msgstr "Облако"
@@ -785,16 +845,16 @@ msgid "Connecting to Cloud data server..."
 msgstr "Подключение к серверу облака данных..."
 
 msgid "Convert to bitmap"
-msgstr "Конвертировать в битовую карту"
+msgstr "Конвертировать в растровую графику"
 
 msgid "Convert to vector"
 msgstr "Конвертировать в векторную графику"
 
 msgid "Converting mp3..."
-msgstr "Преобразовать в  mp3..."
+msgstr "Преобразовать в mp3..."
 
 msgid "copy"
-msgstr "Копировать"
+msgstr "копировать"
 
 msgid "Copying..."
 msgstr "Копирование..."
@@ -807,7 +867,7 @@ msgid "Costume"
 msgstr "Костюм"
 
 msgid "costume #"
-msgstr "костюм #"
+msgstr "костюм №"
 
 msgid "Costume Library"
 msgstr "Библиотека костюмов"
@@ -892,7 +952,7 @@ msgid "duplicate"
 msgstr "дублировать"
 
 msgid "Duplicate"
-msgstr "дублировать"
+msgstr "Дублировать"
 
 msgid "e ^"
 msgstr "e ^"
@@ -901,13 +961,13 @@ msgid "edge"
 msgstr "край"
 
 msgid "edit"
-msgstr "Редактировать"
+msgstr "редактировать"
 
 msgid "Edit"
 msgstr "Редактировать"
 
 msgid "Edit Block"
-msgstr "Блок редактирования"
+msgstr "Изменить блок"
 
 msgid "Effects"
 msgstr "Эффекты"
@@ -925,18 +985,26 @@ msgid "Ellipse"
 msgstr "Эллипс"
 
 msgid "Erase"
-msgstr "Вырезать"
+msgstr "Ластик"
 
 # 92%
-#, fuzzy
 msgid "Eraser width"
-msgstr "Ширина ластика:"
+msgstr "Ширина ластика"
 
 msgid "Error!"
-msgstr ""
+msgstr "Ошибка!"
+
+msgid "everything"
+msgstr "всё"
 
 msgid "export"
-msgstr ""
+msgstr "экспорт"
+
+msgid "Extension Library"
+msgstr "Библиотека дополнения"
+
+msgid "Extension Problem"
+msgstr "Проблема с дополнением"
 
 msgid "fade in"
 msgstr "увеличивать"
@@ -972,10 +1040,10 @@ msgid "Flute"
 msgstr "Флейта"
 
 msgid "Flying"
-msgstr "Летать"
+msgstr "Полёт"
 
 msgid "Font:"
-msgstr ""
+msgstr "Шрифт:"
 
 msgid "For all sprites"
 msgstr "Для всех спрайтов"
@@ -984,7 +1052,7 @@ msgid "For this sprite only"
 msgstr "Только для этого спрайта"
 
 msgid "Forward a layer"
-msgstr "Вперед на слой "
+msgstr "Вперед на слой"
 
 msgid "ghost"
 msgstr "призрак"
@@ -1007,11 +1075,14 @@ msgstr "Гитара"
 msgid "Hand Clap"
 msgstr "Хлопок ладоней"
 
+msgid "Hardware"
+msgstr "Оборудование"
+
 msgid "hide"
 msgstr "скрыть"
 
 msgid "High C"
-msgstr ""
+msgstr "Высокая До"
 
 msgid "hour"
 msgstr "час"
@@ -1020,12 +1091,11 @@ msgid "Human"
 msgstr "Человек"
 
 # 83%
-#, fuzzy
 msgid "import"
 msgstr "импорт"
 
 msgid "Import"
-msgstr "импорт"
+msgstr "Импорт"
 
 msgid "Importing sound..."
 msgstr "Импорт звука..."
@@ -1040,7 +1110,7 @@ msgid "Instruments"
 msgstr "Инструменты"
 
 msgid "large readout"
-msgstr ""
+msgstr "крупный вид"
 
 msgid "last"
 msgstr "последний"
@@ -1054,13 +1124,20 @@ msgstr "стрелка влево"
 msgid "left-right"
 msgstr "влево-вправо"
 
+msgid "LEGO WeDo"
+msgstr "LEGO WeDo"
+
 msgid "length"
-msgstr ""
+msgstr "длина"
 
 msgid "Library"
 msgstr "Библиотека"
 
 msgid "light"
+msgstr "свет"
+
+# 83%
+msgid "lights"
 msgstr "свет"
 
 msgid "limit reached"
@@ -1070,9 +1147,8 @@ msgid "Line"
 msgstr "Линия"
 
 # 90%
-#, fuzzy
 msgid "Line width"
-msgstr "Ширина линии:"
+msgstr "Ширина линии"
 
 # 75%
 msgid "list"
@@ -1082,7 +1158,7 @@ msgid "List name"
 msgstr "Имя списка"
 
 msgid "ln"
-msgstr "In"
+msgstr "ln"
 
 msgid "Loading project..."
 msgstr "Загрузка проекта..."
@@ -1097,7 +1173,7 @@ msgid "loudness"
 msgstr "громкость"
 
 msgid "Low C"
-msgstr ""
+msgstr "Низкая До"
 
 msgid "Make a Block"
 msgstr "Создать блок"
@@ -1124,10 +1200,10 @@ msgid "message1"
 msgstr "сообщение1"
 
 msgid "Microphone Volume:"
-msgstr ""
+msgstr "Громкость микрофона:"
 
 msgid "Middle C"
-msgstr ""
+msgstr "Средняя До"
 
 msgid "Min"
 msgstr "Минимум"
@@ -1143,6 +1219,15 @@ msgstr "мозаика"
 
 msgid "motion"
 msgstr "движение"
+
+msgid "motor"
+msgstr "двигатель"
+
+msgid "motor A"
+msgstr "двигатель A"
+
+msgid "motor B"
+msgstr "двигатель B"
 
 msgid "mouse-pointer"
 msgstr "указатель мышки"
@@ -1189,7 +1274,7 @@ msgid "New List"
 msgstr "Новый список"
 
 msgid "new message..."
-msgstr "новое сообщение"
+msgstr "новое сообщение..."
 
 msgid "New name"
 msgstr "Новое имя"
@@ -1202,7 +1287,7 @@ msgid "New sprite from camera"
 msgstr "Получить новый спрайт с камеры"
 
 msgid "New sprite:"
-msgstr "Новый объект"
+msgstr "Новый объект:"
 
 msgid "New Variable"
 msgstr "Новая переменная"
@@ -1211,28 +1296,31 @@ msgid "No motion blocks"
 msgstr "Нет блоков движения"
 
 msgid "normal readout"
-msgstr ""
+msgstr "стандартный вид"
+
+msgid "not ="
+msgstr "не ="
 
 msgid "Not saved; network or server problem."
-msgstr "Не сохранено; проблема с сетью или сервером"
+msgstr "Не сохранено; проблема с сетью или сервером."
 
 msgid "Not saved; project did not load."
-msgstr ""
+msgstr "Не сохранено; проект не загружен."
 
 msgid "of"
 msgstr "от"
 
 msgid "off"
-msgstr "Выключить"
+msgstr "выключить"
 
 msgid "Offline Editor"
-msgstr ""
+msgstr "Офлайн-редактор"
 
 msgid "OK"
 msgstr "OK"
 
 msgid "on"
-msgstr "Включить"
+msgstr "включить"
 
 msgid "on-flipped"
 msgstr "перевернутый"
@@ -1302,7 +1390,7 @@ msgid "Profile"
 msgstr "Профиль"
 
 msgid "Project did not load."
-msgstr ""
+msgstr "Проект не загружен."
 
 msgid "Project not saved!"
 msgstr "Проект не сохранён!"
@@ -1311,7 +1399,7 @@ msgid "random"
 msgstr "случайное"
 
 msgid "Record"
-msgstr "записать"
+msgstr "Записать"
 
 msgid "Record new sound"
 msgstr "Записать новый звук"
@@ -1327,13 +1415,16 @@ msgid "Redo"
 msgstr "Отменить"
 
 msgid "redo"
-msgstr "Отмена"
+msgstr "повтор"
 
 msgid "Remix"
 msgstr "Ремикс"
 
 msgid "Remixing..."
-msgstr "Создание ремикса.."
+msgstr "Создание ремикса..."
+
+msgid "Remove extension blocks"
+msgstr "Удалить блоки дополнений"
 
 msgid "Rename"
 msgstr "Переименовать"
@@ -1366,7 +1457,7 @@ msgid "Revert"
 msgstr "Возврат"
 
 msgid "Reverting..."
-msgstr "Возврет..."
+msgstr "Возврат..."
 
 msgid "right"
 msgstr "направо"
@@ -1421,6 +1512,11 @@ msgstr "секунда"
 msgid "See project page"
 msgstr "Посмотреть страницу проекта"
 
+msgid "See the Tips window (on the right) to install the plug-in and get the extension working."
+msgstr ""
+"Смотрите в окне Подсказок (справа), как установить модуль и получить "
+"работающее дополнение."
+
 msgid "Select"
 msgstr "Выбрать"
 
@@ -1441,7 +1537,7 @@ msgid "Set Costume Center"
 msgstr "Установить центр костюма"
 
 msgid "set slider min and max"
-msgstr ""
+msgstr "установить максимальные и минимальные значения бегунка"
 
 msgid "Share"
 msgstr "Поделиться"
@@ -1450,7 +1546,7 @@ msgid "shared"
 msgstr "общий"
 
 msgid "Shift:"
-msgstr "Сдвиг:"
+msgstr "Shift:"
 
 msgid "show"
 msgstr "показать"
@@ -1524,7 +1620,7 @@ msgstr "пробел"
 
 # 80%
 msgid "Space"
-msgstr "Пробел"
+msgstr "Космос"
 
 msgid "Sports"
 msgstr "Спорт"
@@ -1588,8 +1684,8 @@ msgstr "Предметы"
 
 msgid "This project can detect who is using it, through the “username” block. To hide your identity, sign out before using the project."
 msgstr ""
-"Этот проект может определить, кто его использует, по блоку \"имя "
-"пользователя\". Чтобы действовать анонимно, выйдите из системы, прежде чем "
+"Этот проект может определить, кто его использует, по блоку “имя "
+"пользователя”. Чтобы действовать анонимно, выйдите из системы, прежде чем "
 "использовать этот проект."
 
 msgid "This project uses Cloud data ‒ a feature that is available only to signed in users."
@@ -1616,7 +1712,7 @@ msgid "Tips"
 msgstr "Подсказки"
 
 msgid "To delete a block definition, first remove all uses of the block."
-msgstr "Прежде чем удалить блок, удалите все случаи его использования"
+msgstr "Прежде чем удалить блок, удалите все случаи его использования."
 
 msgid "Transportation"
 msgstr "Транспорт"

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-02 00:56+0200\n"
-"PO-Revision-Date: 2013-05-03 09:01+0200\n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
+"PO-Revision-Date: 2014-07-11 18:10+0200\n"
 "Last-Translator: Anders <anders.berggren@smedjebacken.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv\n"
@@ -304,12 +304,15 @@ msgid "set instrument to %d.instrument"
 msgstr "sätt instrument till %d.instrument"
 
 # 89%
-msgid "set motor direction %m.motorDirection"
-msgstr "sätt motorriktning %m.motorDirection"
+# 86%
+# 97%
+msgid "set %m.motor2 direction to %m.motorDirection"
+msgstr "sätt %m.motor2 riktning till %m.motorDirection"
 
 # 77%
-msgid "set motor power %n"
-msgstr "sätt motorkraft %n"
+# 75%
+msgid "set %m.motor power to %n"
+msgstr "sätt %m.motor kraft till %n"
 
 msgid "set pen color to %c"
 msgstr "sätt pennans färg till %c"
@@ -406,15 +409,18 @@ msgstr "vänd @turnLeft %n grader"
 msgid "turn @turnRight %n degrees"
 msgstr "vänd @turnRight %n grader"
 
-msgid "turn motor off"
-msgstr "stoppa motorn"
+# 82%
+msgid "turn %m.motor off"
+msgstr "stoppa %m.motor"
 
-msgid "turn motor on"
-msgstr "starta motorn"
+# 81%
+msgid "turn %m.motor on"
+msgstr "starta %m.motor"
 
 # 80%
-msgid "turn motor on for %n secs"
-msgstr "motorn på i %n sekunder"
+# 89%
+msgid "turn %m.motor on for %n secs"
+msgstr "sätt på %m.motor i %n sekunder"
 
 msgid "turn video %m.videoState"
 msgstr "vänd video %m.videoState"
@@ -441,6 +447,9 @@ msgstr "när %m.booleanSensor"
 msgid "when %m.key key pressed"
 msgstr "när %m.key trycks ned"
 
+msgid "when %m.sensor %m.lessMore %n"
+msgstr "när %m.sensor %m.lessMore %n"
+
 msgid "when %m.triggerSensor > %n"
 msgstr "när %m.triggerSensor > %n"
 
@@ -451,8 +460,8 @@ msgstr "när @greenFlag klickas på"
 msgid "when backdrop switches to %m.backdrop"
 msgstr "när bakgrunden växlar till %m.backdrop"
 
-msgid "when distance < %n"
-msgstr "när avståndet är < %n"
+msgid "when distance %m.lessMore %n"
+msgstr "när distans %m.lessMore %n"
 
 msgid "when I receive %m.broadcast"
 msgstr "när jag tar emot %m.broadcast"
@@ -460,17 +469,50 @@ msgstr "när jag tar emot %m.broadcast"
 msgid "when I start as a clone"
 msgstr "när jag startar som klon"
 
+msgid "when Stage clicked"
+msgstr "när Scenen klickas på"
+
 msgid "when this sprite clicked"
 msgstr "när denna sprite klickas på"
 
-msgid "when tilt = %n"
-msgstr "om luta = %n"
+msgid "when tilt %m.eNe %n"
+msgstr "när luta %m.eNe %n"
 
 msgid "x position"
 msgstr "x-läge"
 
 msgid "y position"
 msgstr "y-läge"
+
+# 89%
+msgid "set motor direction %m.motorDirection"
+msgstr "sätt motorriktning %m.motorDirection"
+
+# 77%
+msgid "set motor power %n"
+msgstr "sätt motorkraft %n"
+
+msgid "turn motor off"
+msgstr "stoppa motorn"
+
+msgid "turn motor on"
+msgstr "starta motorn"
+
+# 80%
+msgid "turn motor on for %n secs"
+msgstr "motorn på i %n sekunder"
+
+msgid "when distance < %n"
+msgstr "när avståndet är < %n"
+
+msgid "when tilt = %n"
+msgstr "om luta = %n"
+
+# 89%
+# 86%
+#, fuzzy
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "sätt motorriktning %m.motorDirection"
 
 #~ msgid "user id"
 #~ msgstr "användarnamn"
@@ -524,8 +566,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-19 20:55+0200\n"
-"PO-Revision-Date: 2013-06-20 18:39+0200\n"
+"POT-Creation-Date: 2013-08-01 08:55+0200\n"
+"PO-Revision-Date: 2014-06-30 17:12+0200\n"
 "Last-Translator: Anders <anders.berggren@smedjebacken.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv\n"
@@ -550,6 +592,15 @@ msgstr "A ansluten"
 msgid "a copy of the project file on your computer."
 msgstr "en kopia av projektfilen på din dator."
 
+msgid "About"
+msgstr "Om"
+
+msgid "About LEGO WeDo extension..."
+msgstr "Om LEGO WeDo anslutning..."
+
+msgid "About PicoBoard extension..."
+msgstr "Om Picoboard anslutning..."
+
 msgid "abs"
 msgstr "abs"
 
@@ -559,6 +610,9 @@ msgstr "Kontoinställningar"
 msgid "acos"
 msgstr "acos"
 
+msgid "Add an Extension"
+msgstr "Lägg till en anslutning"
+
 # 90%
 msgid "Add boolean input:"
 msgstr "Lägg till boolskt värde:"
@@ -567,11 +621,11 @@ msgid "add comment"
 msgstr "lägg till kommentar"
 
 msgid "Add label text:"
-msgstr "Lägg till etikett:"
+msgstr "Lägg till etikettext:"
 
 # 89%
 msgid "Add number input:"
-msgstr "Lägg till siffervärde::"
+msgstr "Lägg till siffervärde:"
 
 # 89%
 msgid "Add string input:"
@@ -585,6 +639,9 @@ msgstr "alla"
 
 msgid "all around"
 msgstr "rotera"
+
+msgid "all motors"
+msgstr "alla motorer"
 
 msgid "Animal"
 msgstr "Djur"
@@ -620,7 +677,7 @@ msgid "backdrop #"
 msgstr "bakgrund #"
 
 msgid "Backdrop Library"
-msgstr "Bakgrunder -  Bibliotek"
+msgstr "Bakgrunder - Bibliotek"
 
 msgid "backdrop name"
 msgstr "bakgrund namn"
@@ -650,9 +707,12 @@ msgstr "Fagott"
 
 msgid "Because you have a new Scratch account, any changes to cloud data won't be saved yet. Keep participating on the site you'll be able to use cloud data soon!"
 msgstr ""
+"Eftersom du har ett nytt Scratchkonto, kommer eventuella ändringar av "
+"molndata inte sparas ännu. Fortsätt att delta på webbplatsen så kommer du "
+"snart kunna använda molndata!"
 
 msgid "Bitmap"
-msgstr "Bitmap"
+msgstr "Bitmapp"
 
 msgid "Bitmap Mode"
 msgstr "Bitmapsläge"
@@ -664,19 +724,19 @@ msgid "Bongo"
 msgstr "Bongo"
 
 msgid "brightness"
-msgstr "ljushet"
+msgstr "ljusstyrka"
 
 msgid "Bring to front"
 msgstr "Flytta främst"
 
 msgid "Broadcast"
-msgstr "Sänd"
+msgstr "Sänd till alla"
 
 msgid "Brush"
 msgstr "Pensel"
 
 msgid "button pressed"
-msgstr "knapp tryckt"
+msgstr "knapp nedtryckt"
 
 msgid "by"
 msgstr "av"
@@ -745,16 +805,16 @@ msgid "Claves"
 msgstr "Claves"
 
 msgid "cleanup"
-msgstr ""
+msgstr "städa upp"
 
 msgid "Clear"
 msgstr "Rensa"
 
 msgid "clear senders/receivers"
-msgstr "tydliga avsändare/mottagare"
+msgstr "ta bort avsändare/mottagare"
 
 msgid "Click "Save now" to try again or "Download" to save"
-msgstr "Klicka för att försöka igen eller spara"
+msgstr "Klicka  för att försöka igen eller  för att spara"
 
 msgid "Close"
 msgstr "Stäng"
@@ -781,13 +841,13 @@ msgid "Connecting to Cloud data server..."
 msgstr "Ansluter till Molndataservern..."
 
 msgid "Convert to bitmap"
-msgstr "Omvandla till bitmap"
+msgstr "Konvertera till bitmap"
 
 msgid "Convert to vector"
-msgstr "Omvandla till vektor"
+msgstr "Konvertera till vektor"
 
 msgid "Converting mp3..."
-msgstr "Omvandlar mp3..."
+msgstr "Konverterar mp3..."
 
 msgid "copy"
 msgstr "kopiera"
@@ -834,13 +894,13 @@ msgid "Cowbell"
 msgstr "Koskälla"
 
 msgid "Crash Cymbal"
-msgstr "Kraschcymbal"
+msgstr "Crashcymbal"
 
 msgid "Creating..."
 msgstr "Skapar..."
 
 msgid "Currently, only numbers can be stored in Cloud variables."
-msgstr "För tillfället kan bara siffror användas i Molnvariablerna."
+msgstr "För tillfället kan bara siffror lagras i Molnvariablerna."
 
 msgid "cut"
 msgstr "klipp ut"
@@ -878,7 +938,7 @@ msgid "down"
 msgstr "ned"
 
 msgid "down arrow"
-msgstr "pil ned"
+msgstr "nedåtpil"
 
 msgid "Download"
 msgstr "Ladda ned"
@@ -926,15 +986,23 @@ msgid "Erase"
 msgstr "Radera"
 
 # 92%
-#, fuzzy
 msgid "Eraser width"
-msgstr "Suddgummi bredd:"
+msgstr "Suddgummits bredd"
 
 msgid "Error!"
-msgstr ""
+msgstr "Fel!"
+
+msgid "everything"
+msgstr "allting"
 
 msgid "export"
-msgstr ""
+msgstr "exportera"
+
+msgid "Extension Library"
+msgstr "Tilläggsbibliotek"
+
+msgid "Extension Problem"
+msgstr "Problem med tillägg"
 
 msgid "fade in"
 msgstr "tona in"
@@ -973,7 +1041,7 @@ msgid "Flying"
 msgstr "Flygande"
 
 msgid "Font:"
-msgstr ""
+msgstr "Teckensnitt:"
 
 msgid "For all sprites"
 msgstr "För alla sprites"
@@ -1005,11 +1073,14 @@ msgstr "Gitarr"
 msgid "Hand Clap"
 msgstr "Handklapp"
 
+msgid "Hardware"
+msgstr "Hårdvara"
+
 msgid "hide"
 msgstr "göm"
 
 msgid "High C"
-msgstr ""
+msgstr "Höga C"
 
 msgid "hour"
 msgstr "timme"
@@ -1018,9 +1089,8 @@ msgid "Human"
 msgstr "Mänsklig"
 
 # 83%
-#, fuzzy
 msgid "import"
-msgstr "Importera"
+msgstr "importera"
 
 msgid "Import"
 msgstr "Importera"
@@ -1038,7 +1108,7 @@ msgid "Instruments"
 msgstr "Instrument"
 
 msgid "large readout"
-msgstr ""
+msgstr "stor avläsning"
 
 msgid "last"
 msgstr "sista"
@@ -1047,18 +1117,25 @@ msgid "left"
 msgstr "vänster"
 
 msgid "left arrow"
-msgstr "pil vänster"
+msgstr "vänsterpil"
 
 msgid "left-right"
 msgstr "vänster-höger"
 
+msgid "LEGO WeDo"
+msgstr "LEGO WeDo"
+
 msgid "length"
-msgstr ""
+msgstr "längd"
 
 msgid "Library"
 msgstr "Bibliotek"
 
 msgid "light"
+msgstr "ljus"
+
+# 83%
+msgid "lights"
 msgstr "ljus"
 
 msgid "limit reached"
@@ -1068,9 +1145,8 @@ msgid "Line"
 msgstr "Linje"
 
 # 90%
-#, fuzzy
 msgid "Line width"
-msgstr "Linjebredd:"
+msgstr "Linjebredd"
 
 # 75%
 msgid "list"
@@ -1080,7 +1156,7 @@ msgid "List name"
 msgstr "Listnamn"
 
 msgid "ln"
-msgstr "Inuti"
+msgstr "ln"
 
 msgid "Loading project..."
 msgstr "Laddar projekt..."
@@ -1095,7 +1171,7 @@ msgid "loudness"
 msgstr "ljudstyrka"
 
 msgid "Low C"
-msgstr ""
+msgstr "Låga C"
 
 msgid "Make a Block"
 msgstr "Skapa ett Block"
@@ -1122,10 +1198,10 @@ msgid "message1"
 msgstr "meddelande1"
 
 msgid "Microphone Volume:"
-msgstr ""
+msgstr "Mikrofonvolym:"
 
 msgid "Middle C"
-msgstr ""
+msgstr "Mitt C"
 
 msgid "Min"
 msgstr "Min"
@@ -1141,6 +1217,15 @@ msgstr "mosaik"
 
 msgid "motion"
 msgstr "rörelse"
+
+msgid "motor"
+msgstr "motor"
+
+msgid "motor A"
+msgstr "motor A"
+
+msgid "motor B"
+msgstr "motor B"
 
 msgid "mouse-pointer"
 msgstr "muspekare"
@@ -1209,13 +1294,16 @@ msgid "No motion blocks"
 msgstr "Inga rörelseblock"
 
 msgid "normal readout"
-msgstr ""
+msgstr "normal avläsning"
+
+msgid "not ="
+msgstr "inte ="
 
 msgid "Not saved; network or server problem."
 msgstr "Sparades inte; nätverks- eller serverproblem."
 
 msgid "Not saved; project did not load."
-msgstr ""
+msgstr "Inte sparat; projektet laddades inte."
 
 msgid "of"
 msgstr "av"
@@ -1224,7 +1312,7 @@ msgid "off"
 msgstr "av"
 
 msgid "Offline Editor"
-msgstr ""
+msgstr "Offline Redigerare"
 
 msgid "OK"
 msgstr "OK"
@@ -1286,7 +1374,7 @@ msgstr "Piano"
 
 # 92%
 msgid "Pick up color"
-msgstr "Hämta färg"
+msgstr "Välj färg"
 
 msgid "pixelate"
 msgstr "förvandla pixlar"
@@ -1301,7 +1389,7 @@ msgid "Profile"
 msgstr "Profil"
 
 msgid "Project did not load."
-msgstr ""
+msgstr "Projektet laddades inte."
 
 msgid "Project not saved!"
 msgstr "Projektet är inte sparat!"
@@ -1333,6 +1421,9 @@ msgstr "Remix"
 
 msgid "Remixing..."
 msgstr "Remixar..."
+
+msgid "Remove extension blocks"
+msgstr "Ta bort tilläggsblock"
 
 msgid "Rename"
 msgstr "Ändra namn"
@@ -1371,7 +1462,7 @@ msgid "right"
 msgstr "höger"
 
 msgid "right arrow"
-msgstr "pil höger"
+msgstr "högerpil"
 
 msgid "rotation style:"
 msgstr "rotationsstil:"
@@ -1420,6 +1511,10 @@ msgstr "sekund"
 msgid "See project page"
 msgstr "Se projektsida"
 
+msgid "See the Tips window (on the right) to install the plug-in and get the extension working."
+msgstr ""
+"Se tipsrutan (till höger) för att installera och få tillägget att fungera."
+
 msgid "Select"
 msgstr "Välj"
 
@@ -1440,7 +1535,7 @@ msgid "Set Costume Center"
 msgstr "Sätt Klädselns Centrum"
 
 msgid "set slider min and max"
-msgstr ""
+msgstr "sätt reglage min och max"
 
 msgid "Share"
 msgstr "Dela"
@@ -1548,7 +1643,7 @@ msgid "sqrt"
 msgstr "sqrt"
 
 msgid "Square"
-msgstr "Fyrkant"
+msgstr "Kvadrat"
 
 msgid "Stage"
 msgstr "Scen"
@@ -1579,7 +1674,7 @@ msgid "Text"
 msgstr "Text"
 
 msgid "that way"
-msgstr "det sättet"
+msgstr "andra hållet"
 
 msgid "Theme"
 msgstr "Tema"
@@ -1604,10 +1699,10 @@ msgid "this sprite"
 msgstr "denna sprite"
 
 msgid "this way"
-msgstr "detta sätt"
+msgstr "detta hållet"
 
 msgid "Throw away all changes since opening this project?"
-msgstr "Vill du ta bort alla ändringar sen du öppnade projektet?"
+msgstr "Vill du kasta bort alla ändringar sen du öppnade projektet?"
 
 msgid "timer"
 msgstr "timer"
@@ -1626,7 +1721,7 @@ msgid "Triangle"
 msgstr "Triangel"
 
 msgid "Trombone"
-msgstr "Trombone"
+msgstr "Trombon"
 
 # 90%
 msgid "Turbo mode"
@@ -1665,7 +1760,7 @@ msgid "up"
 msgstr "upp"
 
 msgid "up arrow"
-msgstr "pil upp"
+msgstr "uppåtpil"
 
 msgid "Upload backdrop from file"
 msgstr "Ladda upp bakgrund från fil"

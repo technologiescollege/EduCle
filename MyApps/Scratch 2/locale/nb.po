@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-02 00:56+0200\n"
-"PO-Revision-Date: 2013-05-07 21:43+0200\n"
+"POT-Creation-Date: 2014-04-25 22:29+0200\n"
+"PO-Revision-Date: 2014-07-23 02:31+0200\n"
 "Last-Translator: Torbjorn <torbjorn.skauli@ffi.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb\n"
@@ -203,7 +203,7 @@ msgid "loudness"
 msgstr "volum"
 
 msgid "More Blocks"
-msgstr "Flere Blokker"
+msgstr "Flere klosser"
 
 msgid "Motion"
 msgstr "Bevegelse"
@@ -304,12 +304,15 @@ msgid "set instrument to %d.instrument"
 msgstr "velg instrument %d.instrument"
 
 # 89%
-msgid "set motor direction %m.motorDirection"
-msgstr "dreieretning %m.motorDirection"
+# 86%
+# 97%
+msgid "set %m.motor2 direction to %m.motorDirection"
+msgstr "velg %m.motor2 dreieretning %m.motorDirection"
 
 # 77%
-msgid "set motor power %n"
-msgstr "motorkraft %n"
+# 75%
+msgid "set %m.motor power to %n"
+msgstr "velg %m.motor motorkraft %n"
 
 msgid "set pen color to %c"
 msgstr "velg pennfarge %c"
@@ -406,15 +409,18 @@ msgstr "vend @turnLeft %n grader"
 msgid "turn @turnRight %n degrees"
 msgstr "vend @turnRight %n grader"
 
-msgid "turn motor off"
-msgstr "skru av motor"
+# 82%
+msgid "turn %m.motor off"
+msgstr "stopp %m.motor"
 
-msgid "turn motor on"
-msgstr "skru på motor"
+# 81%
+msgid "turn %m.motor on"
+msgstr "start %m.motor"
 
 # 80%
-msgid "turn motor on for %n secs"
-msgstr "motor på i %n sekunder"
+# 89%
+msgid "turn %m.motor on for %n secs"
+msgstr "start %m.motor i %n sekunder"
 
 msgid "turn video %m.videoState"
 msgstr "sett video %m.videoState"
@@ -442,6 +448,9 @@ msgstr "når %m.booleanSensor"
 msgid "when %m.key key pressed"
 msgstr "når %m.key trykkes"
 
+msgid "when %m.sensor %m.lessMore %n"
+msgstr "når %m.sensor %m.lessMore %n"
+
 msgid "when %m.triggerSensor > %n"
 msgstr "når %m.triggerSensor > %n"
 
@@ -452,8 +461,8 @@ msgstr "når @greenFlag klikkes"
 msgid "when backdrop switches to %m.backdrop"
 msgstr "når bakgrunn bytter til %m.backdrop"
 
-msgid "when distance < %n"
-msgstr "når avstand < %n"
+msgid "when distance %m.lessMore %n"
+msgstr "når avstand %m.lessMore %n"
 
 msgid "when I receive %m.broadcast"
 msgstr "når jeg mottar %m.broadcast"
@@ -461,17 +470,50 @@ msgstr "når jeg mottar %m.broadcast"
 msgid "when I start as a clone"
 msgstr "når jeg starter som klon"
 
+msgid "when Stage clicked"
+msgstr "når scenen klikkes"
+
 msgid "when this sprite clicked"
 msgstr "når denne figuren klikkes"
 
-msgid "when tilt = %n"
-msgstr "når helning = %n"
+msgid "when tilt %m.eNe %n"
+msgstr "når helning %m.eNe %n"
 
 msgid "x position"
 msgstr "x-posisjon"
 
 msgid "y position"
 msgstr "y-posisjon"
+
+# 89%
+msgid "set motor direction %m.motorDirection"
+msgstr "dreieretning %m.motorDirection"
+
+# 77%
+msgid "set motor power %n"
+msgstr "motorkraft %n"
+
+msgid "turn motor off"
+msgstr "skru av motor"
+
+msgid "turn motor on"
+msgstr "skru på motor"
+
+# 80%
+msgid "turn motor on for %n secs"
+msgstr "motor på i %n sekunder"
+
+msgid "when distance < %n"
+msgstr "når avstand < %n"
+
+msgid "when tilt = %n"
+msgstr "når helning = %n"
+
+# 89%
+# 86%
+#, fuzzy
+#~ msgid "set %m.motor direction to %m.motorDirection"
+#~ msgstr "dreieretning %m.motorDirection"
 
 #~ msgid "user name"
 #~ msgstr "brukernavn"
@@ -528,8 +570,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-19 20:54+0200\n"
-"PO-Revision-Date: 2013-06-20 22:01+0200\n"
+"POT-Creation-Date: 2013-08-01 08:55+0200\n"
+"PO-Revision-Date: 2014-05-28 23:32+0200\n"
 "Last-Translator: Torbjorn <torbjorn.skauli@ffi.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb\n"
@@ -554,6 +596,15 @@ msgstr "A tilkoblet"
 msgid "a copy of the project file on your computer."
 msgstr "en kopi av prosjektfilen på datamaskinen."
 
+msgid "About"
+msgstr "Info"
+
+msgid "About LEGO WeDo extension..."
+msgstr "Info om LEGO WeDo extension..."
+
+msgid "About PicoBoard extension..."
+msgstr "Info om PicoBoard extension..."
+
 msgid "abs"
 msgstr "abs"
 
@@ -563,6 +614,9 @@ msgstr "Brukerinnstillinger"
 msgid "acos"
 msgstr "arccos"
 
+msgid "Add an Extension"
+msgstr "Hent tilleggsfunksjoner"
+
 # 90%
 msgid "Add boolean input:"
 msgstr "Logisk verdi inn:"
@@ -571,7 +625,7 @@ msgid "add comment"
 msgstr "skriv kommentar"
 
 msgid "Add label text:"
-msgstr "Tekst i blokken:"
+msgstr "Tekst i klossen:"
 
 # 89%
 msgid "Add number input:"
@@ -589,6 +643,9 @@ msgstr "alle"
 
 msgid "all around"
 msgstr "fri rotasjon"
+
+msgid "all motors"
+msgstr "alle motorer"
 
 msgid "Animal"
 msgstr "Dyr"
@@ -654,6 +711,8 @@ msgstr "Fagott"
 
 msgid "Because you have a new Scratch account, any changes to cloud data won't be saved yet. Keep participating on the site you'll be able to use cloud data soon!"
 msgstr ""
+"Fordi du har en ny Scratch-konto vil ikke endringer i nettdata bli lagret. "
+"Fortsetter du å bruke nettstedet får du snart muligheten til å lagre data."
 
 msgid "Bitmap"
 msgstr "Punktgrafikk"
@@ -662,7 +721,7 @@ msgid "Bitmap Mode"
 msgstr "Punktgrafikk"
 
 msgid "Block help"
-msgstr "Hjelp for blokk"
+msgstr "Hjelp for kloss"
 
 msgid "Bongo"
 msgstr "Bongo"
@@ -749,7 +808,7 @@ msgid "Claves"
 msgstr "Pinner"
 
 msgid "cleanup"
-msgstr ""
+msgstr "rydd opp"
 
 msgid "Clear"
 msgstr "Slett alt"
@@ -907,7 +966,7 @@ msgid "Edit"
 msgstr "Rediger"
 
 msgid "Edit Block"
-msgstr "Rediger Blokk"
+msgstr "Rediger kloss"
 
 msgid "Effects"
 msgstr "Effekter"
@@ -928,15 +987,23 @@ msgid "Erase"
 msgstr "Slett"
 
 # 92%
-#, fuzzy
 msgid "Eraser width"
-msgstr "Viskelærbredde:"
+msgstr "Viskelærbredde"
 
 msgid "Error!"
-msgstr ""
+msgstr "Feil!"
+
+msgid "everything"
+msgstr "alt"
 
 msgid "export"
-msgstr ""
+msgstr "eksport"
+
+msgid "Extension Library"
+msgstr "Tilleggsfunksjoner"
+
+msgid "Extension Problem"
+msgstr "Problemer med tilleggsfunksjonen"
 
 msgid "fade in"
 msgstr "inntoning"
@@ -975,7 +1042,7 @@ msgid "Flying"
 msgstr "Flyvende"
 
 msgid "Font:"
-msgstr ""
+msgstr "Skrifttype:"
 
 msgid "For all sprites"
 msgstr "For alle figurer"
@@ -1007,11 +1074,14 @@ msgstr "Gitar"
 msgid "Hand Clap"
 msgstr "Håndklapp"
 
+msgid "Hardware"
+msgstr "Maskinvare"
+
 msgid "hide"
 msgstr "skjul"
 
 msgid "High C"
-msgstr ""
+msgstr "Høye C"
 
 msgid "hour"
 msgstr "time"
@@ -1020,9 +1090,8 @@ msgid "Human"
 msgstr "Menneske"
 
 # 83%
-#, fuzzy
 msgid "import"
-msgstr "Importer"
+msgstr "importer"
 
 msgid "Import"
 msgstr "Importer"
@@ -1040,7 +1109,7 @@ msgid "Instruments"
 msgstr "Instrumenter"
 
 msgid "large readout"
-msgstr ""
+msgstr "stor"
 
 msgid "last"
 msgstr "siste"
@@ -1054,13 +1123,20 @@ msgstr "pil venstre"
 msgid "left-right"
 msgstr "vend sideveis"
 
+msgid "LEGO WeDo"
+msgstr "Lego WeDo"
+
 msgid "length"
-msgstr ""
+msgstr "lengde"
 
 msgid "Library"
 msgstr "Bibliotek"
 
 msgid "light"
+msgstr "lys"
+
+# 83%
+msgid "lights"
 msgstr "lys"
 
 msgid "limit reached"
@@ -1070,9 +1146,8 @@ msgid "Line"
 msgstr "Linje"
 
 # 90%
-#, fuzzy
 msgid "Line width"
-msgstr "Linjebredde:"
+msgstr "Linjebredde"
 
 # 75%
 msgid "list"
@@ -1082,7 +1157,7 @@ msgid "List name"
 msgstr "Listenavn"
 
 msgid "ln"
-msgstr "I"
+msgstr "ln"
 
 msgid "Loading project..."
 msgstr "Leser inn prosjekt..."
@@ -1097,10 +1172,10 @@ msgid "loudness"
 msgstr "lydstyrke"
 
 msgid "Low C"
-msgstr ""
+msgstr "Lave C"
 
 msgid "Make a Block"
-msgstr "Lag en Blokk"
+msgstr "Lag en kloss"
 
 msgid "Make a List"
 msgstr "Lag en Liste"
@@ -1124,10 +1199,10 @@ msgid "message1"
 msgstr "melding1"
 
 msgid "Microphone Volume:"
-msgstr ""
+msgstr "Mikrofonfølsomhet:"
 
 msgid "Middle C"
-msgstr ""
+msgstr "Tonen C"
 
 msgid "Min"
 msgstr "Min"
@@ -1143,6 +1218,15 @@ msgstr "mosaikk"
 
 msgid "motion"
 msgstr "bevegelse"
+
+msgid "motor"
+msgstr "motor"
+
+msgid "motor A"
+msgstr "motor A"
+
+msgid "motor B"
+msgstr "motor B"
 
 msgid "mouse-pointer"
 msgstr "musepeker"
@@ -1211,13 +1295,16 @@ msgid "No motion blocks"
 msgstr "Ingen bevegelsesklosser"
 
 msgid "normal readout"
-msgstr ""
+msgstr "vanlig visning"
+
+msgid "not ="
+msgstr "ikke ="
 
 msgid "Not saved; network or server problem."
 msgstr "Ikke lagret, nettverksproblemer."
 
 msgid "Not saved; project did not load."
-msgstr ""
+msgstr "Ikke lagret, prosjektet ble ikke lastet inn."
 
 msgid "of"
 msgstr "av"
@@ -1226,7 +1313,7 @@ msgid "off"
 msgstr "av"
 
 msgid "Offline Editor"
-msgstr ""
+msgstr "Programredigering uten internett"
 
 msgid "OK"
 msgstr "OK"
@@ -1303,7 +1390,7 @@ msgid "Profile"
 msgstr "Profil"
 
 msgid "Project did not load."
-msgstr ""
+msgstr "Prosjektet ble ikke lest inn."
 
 msgid "Project not saved!"
 msgstr "Prosjekt ikke lagret!"
@@ -1335,6 +1422,9 @@ msgstr "Remiks"
 
 msgid "Remixing..."
 msgstr "Remikser..."
+
+msgid "Remove extension blocks"
+msgstr "Fjern tilleggsfunksjon"
 
 msgid "Rename"
 msgstr "Nytt navn"
@@ -1422,6 +1512,9 @@ msgstr "sekund"
 msgid "See project page"
 msgstr "Se prosjektsiden"
 
+msgid "See the Tips window (on the right) to install the plug-in and get the extension working."
+msgstr "Se tips (til høyre) for å få tilleggsfunksjonen til å virke."
+
 msgid "Select"
 msgstr "Velg"
 
@@ -1442,7 +1535,7 @@ msgid "Set Costume Center"
 msgstr "Velg senterpunkt"
 
 msgid "set slider min and max"
-msgstr ""
+msgstr "skyverens min. og maks. verdi"
 
 msgid "Share"
 msgstr "Legg ut"
@@ -1589,7 +1682,7 @@ msgstr "Ting"
 
 msgid "This project can detect who is using it, through the “username” block. To hide your identity, sign out before using the project."
 msgstr ""
-"Dette prosjektet inneholder \"brukernavn\"-blokken og kan finne ut hvem som "
+"Dette prosjektet inneholder \"brukernavn\"-klossen og kan finne ut hvem som "
 "bruker det. Du kan skjule din identitet ved å logge ut før du bruker "
 "prosjektet."
 
