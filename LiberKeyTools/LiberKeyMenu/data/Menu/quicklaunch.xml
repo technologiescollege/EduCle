@@ -28,4 +28,8 @@
 		<IconFile>skin:MyDocs</IconFile>
 		<Name>Documents sur la clé</Name>
 	</Software>
+	<Software>
+		<ExePath>%MYAPPS%\internet_sur_sa_liberkey.pdf</ExePath>
+		<Name>Régler les problèmes Internet</Name>
+	</Software>
 </LiberKeyMenu>

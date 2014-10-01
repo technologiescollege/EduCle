@@ -1,37 +1,36 @@
 <LbkAppsUpdates>
-<AppInfo id="firefox-firefoxlkl">
+<AppInfo id="xmediarecode-xmediarecodelkl">
 				<priority>high</priority>
-				<Name>Firefox</Name>
-				<Version>32.0.2</Version>
-				<Description><![CDATA[Firefox est un navigateur web qui offre la navigation par onglet combinée avec de nombreuses fonctions très utiles comme le blocage automatique des fenêtres intempestives, une gestion avancée des favoris (avec support des flux RSS), un gestionnaire de mot de passe, le zoom complet des pages et bien plus.
-Il peut être complété grâce à des centaines de plugins (extensions) librement téléchargeables.]]></Description>
-				<FileName>Firefox_32.0.2.lks</FileName>
-				<FileSize>49776</FileSize>
-				<AppSize>38338560</AppSize>
-				<EditorName>Mozilla Corporation</EditorName>
-				<EditorURL>http://www.mozilla.org/</EditorURL>
-				<AppHomePageURL>http://www.mozilla.org/fr/firefox/</AppHomePageURL>
-				<License>MPL 2.0</License>
-				<Platform>XP/Vista/7</Platform>
+				<Name>XMedia Recode</Name>
+				<Version>3.1.9.6</Version>
+				<Description><![CDATA[XMedia Recode est un convertisseur universel permettant la conversion des fichiers audio/vidéo dans de nombreux formats.[br]Il supporte les formats 3GP, 3GPP, 3GPP2, AAC, AC3, AMR, ASF, AVI, AVISynth, DVD, FLAC, FLV, H.261, H.263, H.264, M4A , M1V, M2V, M4V, Matroska (MKV), MMF, MPEG-1, MPEG-2, MPEG-4, TS, TRP, MP2, MP3, MP4, MP4V, MOV, OGG, PSP, (S) VCD, SWF , VOB, WAV, WMA et WMV. ]]></Description>
+				<FileName>XMedia_Recode_3.1.9.6.lks</FileName>
+				<FileSize>7348232</FileSize>
+				<AppSize>25816396</AppSize>
+				<EditorName>Sebastian Dörfler</EditorName>
+				<EditorURL>http://www.xmedia-recode.de</EditorURL>
+				<AppHomePageURL>http://www.xmedia-recode.de</AppHomePageURL>
+				<License>Freeware</License>
+				<Platform>XP/Vista/7/8</Platform>
 				<Icon ContentEncoding="base64">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
-				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
+				AAAAAAAAAAAAAAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD/AAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAD//////wAAAP8AAAD/AQAA/wEAAP8AAAD/AAAA/wAAAP//////AAAA/wAAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP//2dn//9nZ///Z2f//2dn//9nZ///Z2f//2dn/AAAA/wAAAP8A
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////8nJ///Jyf//ycn//8nJ///Jyf//ycn//8nJ//////8AA
+				AD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA//+5uf//ubn//7m5//+5uf//ubn//7m5//+5uf8AAA
+				D/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////qan//6mp//+pqf//qan//6mp//+pqf//qan
+				//////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD//5iY//+YmP//mJj//5iY//+YmP//mJj/
+				/5iY/wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////+IiP//iIj//4iI//+IiP//iIj//
+				4iI//+IiP//////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AA
+				AA/wAAAP8AAAD/AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////2ho//9oaP//aGj//2h
+				o//9oaP//aGj//2ho//////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA//9YWP//WFj//1hY
+				//9YWP//WFj//1hY//9YWP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////SEj//0hI/
+				/9ISP//SEj//0hI//9ISP//SEj//////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD//zg4//
+				84OP//ODj//zg4//84OP//ODj//zg4/wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////8
+				oKP//KCj//ygo//8oKP//KCj//ygo//8oKP//////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAA
+				AP8CAAT/BQII/wIACf8BAAn/AQAK/wEAC/8AAAX/AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				P8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD/AAAAAAAAAAAAAAAAz+cAAMAHAA
+				DABwAAwAcAAMAHAADABwAAwAcAAMAHAADABwAAwAcAAMAHAADABwAAwAcAAMAHAADABwAAz+cAAA==
 				</Icon>
 			<Location>http://update.liberkey.com/packages/</Location>
 </AppInfo>

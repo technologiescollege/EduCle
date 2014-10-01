@@ -5,11 +5,11 @@
 		<User/>
 	</LKUser>
 	<Proxy>
-		<Enabled>0</Enabled>
+		<Enabled>1</Enabled>
 		<Host>proxy</Host>
 		<Port>3128</Port>
 		<User>techno</User>
-		<Password>DWpxOspJ/HbnlDPQd5v0YcRpB2vOhpOo</Password>
+		<Password>mGqs48vkIUvm1x1zVv7noKyfF9LhGMZs</Password>
 	</Proxy>
 	<Setup>
 		<FileAssocSetupMode>always</FileAssocSetupMode>

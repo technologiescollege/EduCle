@@ -71,8 +71,8 @@
 			</Software>
 			<Software id="notepad++" cpt="33"/>
 		</Category>
-		<Category name="PDF" icon="auto:Blue" id="office:pdf" expanded="yes">
-			<Software id="user_pdfsam-pdfsam-starter" cpt="6">
+		<Category name="PDF" icon="auto:Blue" id="office:pdf">
+			<Software id="user_pdfsam-pdfsam-starter" cpt="5">
 				<Name>PDF S&amp;M</Name>
 			</Software>
 			<Software id="pdfxchangeviewer" cpt="8"/>
@@ -126,16 +126,16 @@
 			<Software id="user_matieres-francais-littre-littre">
 				<WorkingDir>%MYAPPS%\Matieres\Francais\Littre</WorkingDir>
 			</Software>
-			<Software id="user_matieres-francais-imagemo-imagemo" cpt="1">
+			<Software id="user_matieres-francais-imagemo-imagemo">
 				<WorkingDir>%MYAPPS%\Matieres\Francais\Imagemo</WorkingDir>
 			</Software>
-			<Software id="user_matieres-francais-lecteur-lecteur" cpt="1">
+			<Software id="user_matieres-francais-lecteur-lecteur">
 				<WorkingDir>%MYAPPS%\Matieres\Francais\Lecteur</WorkingDir>
 			</Software>
-			<Software id="user_matieres-francais-conjugue-conjugue" cpt="2">
+			<Software id="user_matieres-francais-conjugue-conjugue">
 				<WorkingDir>%MYAPPS%\Matieres\Francais\Conjugue</WorkingDir>
 			</Software>
-			<Software id="user_matieres-francais-orthaccords-orthaccords" cpt="1">
+			<Software id="user_matieres-francais-orthaccords-orthaccords">
 				<WorkingDir>%MYAPPS%\Matieres\Francais\Orthaccords</WorkingDir>
 			</Software>
 		</Category>
@@ -151,16 +151,16 @@
 			<Software id="marble" cpt="2"/>
 		</Category>
 		<Category name="Langues" icon="auto:Red">
-			<Software id="user_matieres-langues-imagemo_en-imagemo_en" cpt="1">
+			<Software id="user_matieres-langues-imagemo_en-imagemo_en">
 				<WorkingDir>%MYAPPS%\Matieres\Langues\Imagemo_en</WorkingDir>
 			</Software>
-			<Software id="user_matieres-langues-quiz_anglais-quiz_bases_de_la_langue_anglaise" cpt="1">
+			<Software id="user_matieres-langues-quiz_anglais-quiz_bases_de_la_langue_anglaise">
 				<WorkingDir>%MYAPPS%\Matieres\Langues\Quiz_anglais</WorkingDir>
 			</Software>
 			<Software id="user_matieres-langues-jo-reconst-recve40">
 				<WorkingDir>%MYAPPS%\Matieres\Langues\jo\reconst</WorkingDir>
 			</Software>
-			<Software id="user_matieres-langues-verbira2-verbira" cpt="1">
+			<Software id="user_matieres-langues-verbira2-verbira">
 				<WorkingDir>%MYAPPS%\Matieres\Langues\Verbira2</WorkingDir>
 			</Software>
 		</Category>
@@ -168,16 +168,16 @@
 			<Software id="carmetal">
 				<WorkingDir>%APPS%\CaRMetal</WorkingDir>
 			</Software>
-			<Software id="user_matieres-maths-usbggb-ggb" cpt="1">
+			<Software id="user_matieres-maths-usbggb-ggb">
 				<WorkingDir>%MYAPPS%\Matieres\Maths\geogebra</WorkingDir>
 			</Software>
 		</Category>
 		<Category name="Physiques-Chimie" icon="auto:Red">
 			<Software id="user_matieres-gridomatic" cpt="1"/>
-			<Software id="user_matieres-physiques-physicdraw" cpt="1"/>
+			<Software id="user_matieres-physiques-physicdraw"/>
 		</Category>
 		<Category name="SVT" icon="auto:Red">
-			<Software id="user_matieres-svt-caryotype-caryo" cpt="1">
+			<Software id="user_matieres-svt-caryotype-caryo">
 				<Name>Caryotype</Name>
 			</Software>
 			<Software id="user_matieres-svt-phylocollege-phylocollege">
@@ -187,7 +187,7 @@
 			<Software id="user_matieres-svt-phylogene-programmes-phylo"/>
 		</Category>
 		<Category name="Technologie" icon="auto:Red" expanded="yes">
-			<Software id="user_matieres-technologie-archifacile" cpt="2"/>
+			<Software id="user_matieres-technologie-archifacile" cpt="1"/>
 			<Software id="user_matieres-technologie-bridge_building_game-bridge" cpt="2"/>
 			<Software id="user_matieres-technologie-wcharly-graal-cao-gcao3d" cpt="26">
 				<Name>CAO</Name>
@@ -266,6 +266,9 @@
 			<Software id="user_hotpotatoes6-hotpot">
 				<Name>HotPotatoes</Name>
 			</Software>
+			<Software id="user_images_actives">
+				<Name>Images Actives</Name>
+			</Software>
 			<Software>
 				<ExePath>%DRIVE%\Program Files\oCam\oCam.exe</ExePath>
 				<Developer>oh!soft ( Partner: MediaWave )</Developer>
@@ -304,7 +307,6 @@
 				<Version>13.0.4812</Version>
 				<IconFile>%DRIVE%\WINDOWS\Installer\{F277FA87-FCE4-49A3-B745-B82FB29ED8A4}\SketchUpIcon.8DA0A970_F85B_4519_B9ED_33FC3F82227B</IconFile>
 			</Software>
-			<Software id="user_images_actives"/>
 		</Category>
 	</Category>
 	<Category name="Gestion des fichiers" icon="file_management.ico" id="file_management">
@@ -315,7 +317,7 @@
 		<Category name="Restauration après effacement" icon="auto:Green" id="file_management:recovery" expanded="yes">
 			<Software id="recuva"/>
 		</Category>
-		<Software cpt="1">
+		<Software>
 			<ExePath>%SystemRoot%\explorer.exe</ExePath>
 			<Developer>Microsoft Corporation</Developer>
 			<Description><![CDATA[Explorateur Windows]]></Description>
@@ -343,7 +345,9 @@
 		<Category name="Visualisateur" icon="auto:Red" id="graphics-photo:viewer">
 			<Software id="faststoneimageviewer" cpt="5"/>
 		</Category>
-		<Software id="user_images_actives"/>
+		<Software id="user_images_actives" cpt="3">
+			<Name>Images Actives</Name>
+		</Software>
 		<Software id="user_pencil-animation-pencil" cpt="2"/>
 		<Software cpt="4">
 			<ExePath>%DRIVE%\Program Files\Scanitto\scanitto.exe</ExePath>
@@ -377,7 +381,7 @@
 		<Category name="FTP" icon="auto:Blue" id="internet:ftp">
 			<Software id="filezilla" cpt="5"/>
 		</Category>
-		<Category name="Navigateur" icon="auto:Blue" id="internet:browser">
+		<Category name="Navigateur" icon="auto:Blue" id="internet:browser" expanded="yes">
 			<Software id="firefox" cpt="33"/>
 			<Software id="opera" cpt="63"/>
 		</Category>
@@ -398,9 +402,9 @@
 			</Software>
 		</Category>
 	</Category>
-	<Category name="Vidéo" icon="video.ico" id="video">
+	<Category name="Vidéo" icon="video.ico" id="video" expanded="yes">
 		<Category name="Capture" icon="auto:Grey" id="video:capture" expanded="yes">
-			<Software id="user_amcap" cpt="1"/>
+			<Software id="user_amcap"/>
 			<Software id="user_captureflux_52fr" cpt="2"/>
 		</Category>
 		<Category name="Convertisseur" icon="auto:Grey" id="video:converter" expanded="yes">
@@ -425,7 +429,7 @@
 				<Name>Studio</Name>
 				<Version>15.0</Version>
 			</Software>
-			<Software id="user_videopad-videopad_video_editor" cpt="2"/>
+			<Software id="user_videopad-videopad_video_editor" cpt="1"/>
 			<Software id="virtualdub" cpt="7"/>
 		</Category>
 		<Category name="Lecteur" icon="auto:Grey" id="video:player" expanded="yes">

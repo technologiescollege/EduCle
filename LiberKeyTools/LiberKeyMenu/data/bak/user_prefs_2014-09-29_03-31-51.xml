@@ -98,9 +98,9 @@
 		<Language file="Languages\LiberKeyMenu_fr.xml">fr</Language>
 		<CustomColorVariation h="0" s="0" l="0"/>
 		<TabsOrder sel="chantenay.xml">chantenay.xml,chantenay_2.xml,recent.xml,mostused.xml</TabsOrder>
-		<Main x="1548" y="410" w="378" h="656"/>
+		<Main x="1548" y="406" w="378" h="660"/>
 		<Monitor dev="\\.\DISPLAY1" l="0" t="0" r="1920" b="1080"/>
-		<LastIconFolder>%MYAPPS%\xia</LastIconFolder>
+		<LastIconFolder>%MYAPPS%\Matieres\SVT\phylocollege</LastIconFolder>
 		<EffectSettings>FastClassic.FX.xml</EffectSettings>
 	</UserConfig>
 </LiberKeyMenu>

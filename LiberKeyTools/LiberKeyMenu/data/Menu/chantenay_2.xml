@@ -1,4 +1,4 @@
-<LiberKeyMenu id="root" icon="liberkey.ico" usecache="no" view="tree" name="Sur clé USB">
+<LiberKeyMenu id="root" icon="liberkey.ico" usecache="no" view="tree" name="Sur clé USB" edit="yes">
 	<Category name="Audio" icon="audio.ico" id="audio">
 		<Category name="Convertisseur" icon="auto:Green" id="audio:converter" expanded="yes">
 			<Software id="formatfactory" cpt="1"/>
@@ -68,7 +68,7 @@
 			<Software id="imgburn" cpt="3"/>
 		</Category>
 	</Category>
-	<Category name="Education" icon="education.ico" id="education">
+	<Category name="Education" icon="education.ico" id="education" expanded="yes">
 		<Category name="Astronomie" icon="auto:Red" id="education:astronomy">
 			<Software id="celestia"/>
 			<Software id="stellarium"/>
@@ -111,7 +111,7 @@
 			</Software>
 			<Software id="user_matieres-svt-phylogene-programmes-phylo"/>
 		</Category>
-		<Category name="Technologie" icon="auto:Red" expanded="yes">
+		<Category name="Technologie" icon="auto:Red">
 			<Software id="user_matieres-technologie-archifacile" cpt="1"/>
 			<Software id="user_matieres-technologie-bridge_building_game-bridge" cpt="2"/>
 			<Software id="user_matieres-technologie-wcharly-graal-cao-gcao3d" cpt="23">
@@ -131,7 +131,6 @@
 			<Software id="user_matieres-technologie-control_lab-clab">
 				<Name>LEGO Control Lab</Name>
 			</Software>
-			<Software id="user_matieres-technologie-lego_digital_designer-ldd2"/>
 			<Software id="user_matieres-technologie-m&amp;m-m&amp;m">
 				<IconFile>%MYAPPS%\Matieres\Technologie\M&amp;m\M&amp;m.exe</IconFile>
 			</Software>
@@ -159,9 +158,6 @@
 			<Software id="user_hotpotatoes6-hotpot" cpt="6">
 				<Name>HotPotatoes</Name>
 			</Software>
-			<Software id="user_images_actives">
-				<Name>Images Actives</Name>
-			</Software>
 			<Software id="user_sankoreportable">
 				<Name>Open Sankoré</Name>
 			</Software>
@@ -171,6 +167,7 @@
 			<Software id="user_scratch_2">
 				<Name>Scratch</Name>
 			</Software>
+			<Software id="user_images_actives"/>
 		</Category>
 	</Category>
 	<Category name="Gestion des fichiers" icon="file_management.ico" id="file_management">

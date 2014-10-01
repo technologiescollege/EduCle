@@ -608,16 +608,14 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<ExePath>%MYAPPS%\amcap.exe</ExePath>
 			<Version>8.00</Version>
 			<Developer>Microsoft Corporation</Developer>
-			<AutoKeyWords>video capture amcap microsoft corporation</AutoKeyWords>
+			<AutoKeyWords>amcap microsoft corporation</AutoKeyWords>
 		</Software>
 		<Software id="user_captureflux_52fr">
 			<Name>Captureflux</Name>
 			<ExePath>%MYAPPS%\CaptureFlux_52fr.exe</ExePath>
 			<Version>5.2</Version>
 			<Developer>Paul Glagla</Developer>
-			<AutoKeyWords>video capture captureflux paul.glagla.free.fr</AutoKeyWords>
-			<LicenseFile>http://paul.glagla.free.fr/captureflux_licence.htm</LicenseFile>
-			<WebSite>http://paul.glagla.free.fr/captureflux.htm</WebSite>
+			<AutoKeyWords>captureflux paul glagla</AutoKeyWords>
 		</Software>
 		<Software id="user_carotdav">
 			<ExePath>%MYAPPS%\CarotDAV\CarotDAV.exe</ExePath>
@@ -626,42 +624,36 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<License>Copyright (C)  Rei HOBARA 2007-2013</License>
 			<Name>CarotDAV</Name>
 			<Version>1.9.10.9313</Version>
-			<AutoKeyWords>internet carotdav rei.to carotdav_en software copyright hobara 2007-2013</AutoKeyWords>
-			<LicenseFile>http://rei.to/carotdav_en.html#license</LicenseFile>
-			<WebSite>http://rei.to/carotdav_en.html</WebSite>
+			<AutoKeyWords>internet carotdav rei software copyright hobara 2007-2013</AutoKeyWords>
 		</Software>
 		<Software id="user_cartoonstorymaker-csmaker">
 			<ExePath>%MYAPPS%\CartoonStoryMaker\CSMaker.exe</ExePath>
 			<Developer>Multidmedia Limited</Developer>
-			<Description><![CDATA[Cartoon Story Maker]]></Description>
+			<Description>Cartoon Story Maker</Description>
 			<License>Multidmedia Limited</License>
 			<Name>Cartoon Story Maker v1.0</Name>
 			<Version>1.0.0.61</Version>
-			<AutoKeyWords>education trans-disciplinaire cartoon story maker v1.0 education.vic.gov.au languagesonline games multidmedia limited</AutoKeyWords>
-			<WebSite>http://www.education.vic.gov.au/languagesonline/games/cartoon/</WebSite>
+			<AutoKeyWords>cartoon story maker v1.0 multidmedia limited</AutoKeyWords>
 		</Software>
 		<Software id="user_didapages-didapages_auteur">
 			<ExePath>%MYAPPS%\Didapages\Didapages Auteur.exe</ExePath>
 			<Developer>Carlos Guedes</Developer>
-			<Description><![CDATA[Didapages]]></Description>
+			<Description>Didapages</Description>
 			<License>Carlos Guedes</License>
 			<Name>Didapages</Name>
 			<Version>1.2.0.199</Version>
-			<AutoKeyWords>education trans-disciplinaire didapages didasystem index page=licence-dida1 carlos guedes</AutoKeyWords>
-			<LicenseFile>%MYAPPS%\Didapages\Licence.txt</LicenseFile>
-			<WebSite>http://www.didasystem.com/index.php?page=licence-dida1</WebSite>
+			<AutoKeyWords>didapages carlos guedes</AutoKeyWords>
 		</Software>
 		<Software id="user_freeplaneportable" type="paf">
 			<ExePath>%MYAPPS%\FreeplanePortable\FreeplanePortable.exe</ExePath>
 			<Developer>Freeplane team</Developer>
 			<Description><![CDATA[Freeplane Portable Edition is a free mind-mapping software written in Java, packaged with a PortableApps.com Launcher as a portable app, so you can take your mindmaps with you.]]></Description>
 			<License>Shareable/OpenSource/Freeware/CommercialUse</License>
-			<Name>Freeplane</Name>
+			<Name>Freeplane Portable</Name>
 			<Version>1.3.11</Version>
-			<AutoKeyWords>education trans-disciplinaire freeplane freeplane.sourceforge wiki index main_page team portable edition mind-mapping software written java packaged with portableapps.com launcher you can take your mindmaps shareable opensource freeware commercialuse</AutoKeyWords>
-			<WebSite>http://freeplane.sourceforge.net/wiki/index.php/Main_Page</WebSite>
+			<AutoKeyWords>education trans-disciplinaire freeplane portable editor team edition mind-mapping software written java packaged with portableapps.com launcher you can take your mindmaps shareable opensource freeware commercialuse</AutoKeyWords>
+			<WebSite>http://www.freeplane.org</WebSite>
 			<IconFile>%MYAPPS%\FreeplanePortable\App\Freeplane\freeplane.exe</IconFile>
-			<LicenseFile>%MYAPPS%\FreeplanePortable\App\AppInfo\EULA.txt</LicenseFile>
 		</Software>
 		<Software id="user_hotpotatoes6-hotpot">
 			<ExePath>%MYAPPS%\hotpotatoes6\HotPot.exe</ExePath>
@@ -670,14 +662,12 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<License>Martin Holmes, Stewart Arneil, University of Victoria and Half-Baked Software</License>
 			<Name>Hot Potatoes</Name>
 			<Version>6</Version>
-			<AutoKeyWords>education trans-disciplinaire hotpotatoes https hotpot.uvic.ca halfbaked chooser executable martin holmes stewart arneil university victoria and half-baked software</AutoKeyWords>
-			<WebSite>https://hotpot.uvic.ca/</WebSite>
+			<AutoKeyWords>education trans-disciplinaire hotpotatoes halfbaked chooser executable martin holmes stewart arneil university victoria and half-baked software</AutoKeyWords>
 		</Software>
 		<Software id="user_images_actives">
-			<ExePath>%MYAPPS%\xia\xia.exe</ExePath>
-			<Name>XIA</Name>
-			<AutoKeyWords>education trans-disciplinaire images actives graphisme photo xia images-actives.crdp-versailles.fr beta</AutoKeyWords>
-			<WebSite>http://images-actives.crdp-versailles.fr/beta/</WebSite>
+			<ExePath>%MYAPPS%\IMAGES_ACTIVES\IMAGES_ACTIVES.exe</ExePath>
+			<Name>IMAGES_ACTIVES</Name>
+			<AutoKeyWords>images_actives</AutoKeyWords>
 		</Software>
 		<Software id="user_installer-edrawings_2005">
 			<Name>eDrawings</Name>
@@ -689,36 +679,30 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 		<Software id="user_matieres-francais-collatinus-collatinus">
 			<ExePath>%MYAPPS%\Matieres\Francais\collatinus\collatinus.exe</ExePath>
 			<Name>collatinus</Name>
-			<AutoKeyWords>education français collatinus</AutoKeyWords>
-			<WebSite>http://www.collatinus.org/collatinus/</WebSite>
+			<AutoKeyWords>collatinus</AutoKeyWords>
 		</Software>
 		<Software id="user_matieres-francais-conjugue-conjugue">
 			<Name>Les bonnes terminaisons</Name>
 			<ExePath>%MYAPPS%\Matieres\Francais\Conjugue\Conjugue.exe</ExePath>
-			<AutoKeyWords>education français les bonnes terminaisons thierry.labregere.perso.neuf.fr jeu0</AutoKeyWords>
-			<WebSite>http://thierry.labregere.perso.neuf.fr/jeu0.htm</WebSite>
+			<AutoKeyWords>les bonnes terminaisons</AutoKeyWords>
 		</Software>
 		<Software id="user_matieres-francais-imagemo-imagemo">
 			<Name>Imagemo</Name>
 			<ExePath>%MYAPPS%\Matieres\Francais\Imagemo\Imagemo.exe</ExePath>
 			<Version>9.0F</Version>
 			<Developer>Macromedia, Inc.</Developer>
-			<AutoKeyWords>education français imagemo imagemo.fr index_fr macromedia inc</AutoKeyWords>
-			<WebSite>http://www.imagemo.fr/index_fr.html</WebSite>
+			<AutoKeyWords>imagemo macromedia inc</AutoKeyWords>
 		</Software>
 		<Software id="user_matieres-francais-lecteur-lecteur">
 			<Name>Lecture</Name>
 			<ExePath>%MYAPPS%\Matieres\Francais\Lecteur\LECTEUR.EXE</ExePath>
-			<AutoKeyWords>education français lecture gerard.ledu.free.fr</AutoKeyWords>
-			<WebSite>http://gerard.ledu.free.fr/</WebSite>
+			<AutoKeyWords>lecture</AutoKeyWords>
 		</Software>
 		<Software id="user_matieres-francais-littre-littre">
 			<Name>Dictionnaire Le Littré</Name>
 			<ExePath>%MYAPPS%\Matieres\Francais\Littre\Littre.exe</ExePath>
 			<IconFile>%MYAPPS%\Matieres\Francais\Littre\Littre.ico</IconFile>
-			<AutoKeyWords>education français dictionnaire littre https code.google dictionnaire-le-littre</AutoKeyWords>
-			<LicenseFile>%MYAPPS%\Matieres\Francais\littre\Licence-CeCILL.txt</LicenseFile>
-			<WebSite>https://code.google.com/p/dictionnaire-le-littre/</WebSite>
+			<AutoKeyWords>dictionnaire littre</AutoKeyWords>
 		</Software>
 		<Software id="user_matieres-francais-orthaccords-orthaccords">
 			<Name>Orthaccords</Name>
@@ -726,63 +710,52 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<IconFile>%MYAPPS%\Matieres\Francais\Orthaccords\orthaccords.ico</IconFile>
 			<Version>1.00</Version>
 			<Developer>***</Developer>
-			<AutoKeyWords>education français orthaccords gilles.joyeux.pagesperso-orange.fr conjortha_000002 ***</AutoKeyWords>
-			<WebSite>http://gilles.joyeux.pagesperso-orange.fr/conjortha_000002.htm</WebSite>
+			<AutoKeyWords>orthaccords ***</AutoKeyWords>
 		</Software>
 		<Software id="user_matieres-gridomatic">
 			<Name>GridOmatic Application</Name>
 			<ExePath>%MYAPPS%\Matieres\GridOmatic.exe</ExePath>
 			<Version>1.0.0.2</Version>
-			<AutoKeyWords>education physiques-chimie gridomatic application nutsnbits nutsnbits_000069</AutoKeyWords>
-			<WebSite>http://www.nutsnbits.com/nutsnbits_000069.htm</WebSite>
+			<AutoKeyWords>gridomatic application</AutoKeyWords>
 		</Software>
 		<Software id="user_matieres-langues-imagemo_en-imagemo_en">
 			<Name>Imagemot</Name>
 			<ExePath>%MYAPPS%\Matieres\Langues\Imagemo_en\Imagemo_en.exe</ExePath>
 			<Version>9.0F</Version>
 			<Developer>Macromedia, Inc.</Developer>
-			<AutoKeyWords>education langues imagemot imagemo.fr index_fr macromedia inc</AutoKeyWords>
-			<WebSite>http://www.imagemo.fr/index_fr.html</WebSite>
+			<AutoKeyWords>imagemot macromedia inc</AutoKeyWords>
 		</Software>
 		<Software id="user_matieres-langues-jo-reconst-recve40">
 			<ExePath>%MYAPPS%\Matieres\Langues\jo\reconst\recve40.exe</ExePath>
 			<Name>Reconstitution Elève</Name>
-			<AutoKeyWords>education langues reconstitution eleve jacques.omnes.pagesperso-orange.fr telechrg</AutoKeyWords>
-			<WebSite>http://jacques.omnes.pagesperso-orange.fr/telechrg/</WebSite>
+			<AutoKeyWords>education langues reconstitution eleve</AutoKeyWords>
 		</Software>
 		<Software id="user_matieres-langues-quiz_anglais-quiz_bases_de_la_langue_anglaise">
 			<Name>Questions-Réponses</Name>
 			<ExePath>%MYAPPS%\Matieres\Langues\Quiz_anglais\Quiz Bases de la langue anglaise.exe</ExePath>
 			<Version>1.4.3.0</Version>
 			<Developer>Copyright © 2001-2004, Thomas et Mathieu DUBAËLE</Developer>
-			<AutoKeyWords>education langues questions-reponses atlence study questionnaire anglais quiz-99-quiz-bases-de-la-langue-anglaise copyright 2001-2004 thomas mathieu dubaele</AutoKeyWords>
-			<LicenseFile>%MYAPPS%\Matieres\Langues\Quiz_anglais\lisezmoi.txt</LicenseFile>
-			<WebSite>http://www.atlence.com/study/questionnaire/anglais/quiz-99-quiz-bases-de-la-langue-anglaise.html</WebSite>
+			<AutoKeyWords>questions-reponses copyright 2001-2004 thomas mathieu dubaele</AutoKeyWords>
 		</Software>
 		<Software id="user_matieres-langues-verbira2-verbira">
 			<Name>VERBIRA</Name>
 			<ExePath>%MYAPPS%\Matieres\Langues\Verbira2\VERBIRA.exe</ExePath>
-			<Version>3.2</Version>
+			<Version>1.00</Version>
 			<Developer>Organisation inconnue</Developer>
-			<AutoKeyWords>education langues verbira verbira.web.free.fr organisation inconnue</AutoKeyWords>
-			<WebSite>http://verbira.web.free.fr/</WebSite>
+			<AutoKeyWords>verbira organisation inconnue</AutoKeyWords>
 		</Software>
 		<Software id="user_matieres-maths-usbggb-ggb">
 			<Name>GeoGebra</Name>
 			<ExePath>%MYAPPS%\Matieres\Maths\geogebra\GeoGebra.exe</ExePath>
-			<AutoKeyWords>education mathematiques geogebra cms</AutoKeyWords>
-			<LicenseFile>http://www.geogebra.org/cms/fr/license</LicenseFile>
-			<Version>5.0.4.0</Version>
-			<WebSite>http://www.geogebra.org/cms/fr/</WebSite>
+			<AutoKeyWords>education mathematiques geogebra</AutoKeyWords>
 		</Software>
 		<Software id="user_matieres-physiques-physicdraw">
 			<ExePath>%MYAPPS%\Matieres\Physiques\PhysicDraw.exe</ExePath>
 			<Developer>Complex-softwares</Developer>
-			<Description><![CDATA[PhysicDraw]]></Description>
+			<Description>PhysicDraw</Description>
 			<License>Complex-softwares 2008-2009</License>
 			<Name>PhysicDraw</Name>
-			<AutoKeyWords>education physiques-chimie physicdraw complex.softwares.free.fr complex-softwares 2008-2009</AutoKeyWords>
-			<WebSite>http://complex.softwares.free.fr/</WebSite>
+			<AutoKeyWords>physicdraw complex-softwares 2008-2009</AutoKeyWords>
 		</Software>
 		<Software id="user_matieres-sciences-physicdraw">
 			<Name>PhysicDraw</Name>
@@ -818,16 +791,13 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 		<Software id="user_matieres-technologie-archifacile">
 			<Name>ArchiFacile</Name>
 			<ExePath>%MYAPPS%\Matieres\Technologie\ArchiFacile.exe</ExePath>
-			<AutoKeyWords>education technologie archifacile archifacile.fr</AutoKeyWords>
-			<LicenseFile>http://www.archifacile.fr/mentions-legales</LicenseFile>
-			<Version>6.3</Version>
-			<WebSite>http://www.archifacile.fr/</WebSite>
+			<AutoKeyWords>archifacile</AutoKeyWords>
 		</Software>
 		<Software id="user_matieres-technologie-bridge_building_game-bridge">
 			<Name>Bridge Building Game</Name>
 			<ExePath>%MYAPPS%\Matieres\Technologie\Bridge Building Game\bridge.exe</ExePath>
 			<WebSite>http://www.bridgebuilder-game.com/</WebSite>
-			<AutoKeyWords>education technologie bridge building game bridgebuilder-game</AutoKeyWords>
+			<AutoKeyWords>bridge building game bridgebuilder-game</AutoKeyWords>
 		</Software>
 		<Software id="user_matieres-technologie-control_lab-clab">
 			<ExePath>%MYAPPS%\Matieres\Technologie\Control Lab\clab.exe</ExePath>
@@ -849,10 +819,7 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<Name>Plannification Gantt</Name>
 			<ExePath>%MYAPPS%\Matieres\Technologie\ganttproject\ganttproject.exe</ExePath>
 			<IconFile>%MYAPPS%\Matieres\Technologie\ganttproject\ganttproject_32_2.ico</IconFile>
-			<AutoKeyWords>education technologie plannification gantt ganttproject.biz</AutoKeyWords>
-			<LicenseFile>%MYAPPS%\Matieres\Technologie\ganttproject\LICENSE</LicenseFile>
-			<Version>2.6.6</Version>
-			<WebSite>http://www.ganttproject.biz/</WebSite>
+			<AutoKeyWords>education technologie plannification gantt</AutoKeyWords>
 		</Software>
 		<Software id="user_matieres-technologie-lego_digital_designer-ldd2">
 			<ExePath>%MYAPPS%\Matieres\Technologie\LEGO_Digital_Designer\LDD.exe</ExePath>
@@ -878,37 +845,31 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 		<Software id="user_matieres-technologie-robolab-robolab254" type="xsoft">
 			<ExePath>%MYAPPS%\Matieres\Technologie\Robolab\Robolab254.exe</ExePath>
 			<Name>Robolab254</Name>
-			<AutoKeyWords>education technologie robolab robolab254 legoengineering program</AutoKeyWords>
-			<WebSite>http://www.legoengineering.com/program/robolab/</WebSite>
+			<AutoKeyWords>robolab254</AutoKeyWords>
 		</Software>
 		<Software id="user_matieres-technologie-robopro-robopro">
 			<ExePath>%MYAPPS%\Matieres\Technologie\ROBOPro\ROBOPro.exe</ExePath>
 			<Developer>fischertechnik GmbH, Weinhalde 14 - 18, 72178 Waldachtal, Germany</Developer>
-			<Description><![CDATA[ROBO Pro un langage de programmation graphique]]></Description>
+			<Description>ROBO Pro un langage de programmation graphique</Description>
 			<License>Copyright © 2004-2012 fischertechnik GmbH, Weinhalde 14 - 18, 72178 Waldachtal, FRENCHy</License>
 			<Name>ROBOPro</Name>
 			<Version>3,1,3,0</Version>
-			<AutoKeyWords>education technologie robopro fischertechnik.de home info computing robo-pro-software.aspx usetemplate-1_column_no_pano gmbh weinhalde 72178 waldachtal germany langage programmation graphique copyright 2004-2012 frenchy</AutoKeyWords>
-			<WebSite>http://www.fischertechnik.de/en/Home/info/computing/ROBO-Pro-Software.aspx/usetemplate-1_column_no_pano/</WebSite>
+			<AutoKeyWords>robopro fischertechnik gmbh weinhalde 72178 waldachtal germany langage programmation graphique copyright 2004-2012 frenchy</AutoKeyWords>
 		</Software>
 		<Software id="user_matieres-technologie-robotprog-robotprog">
 			<Name>RoboProg</Name>
 			<ExePath>%MYAPPS%\Matieres\Technologie\RobotProg\RobotProg.exe</ExePath>
 			<IconFile>%DRIVE%\Utils\LiberKey\Apps\Matieres\Technologie\RobotProg\RobotProg.exe</IconFile>
-			<AutoKeyWords>education technologie roboprog physicsbox indexrobotprogfr</AutoKeyWords>
-			<Version>1.1</Version>
-			<WebSite>http://www.physicsbox.com/indexrobotprogfr.html</WebSite>
+			<AutoKeyWords>roboprog</AutoKeyWords>
 		</Software>
 		<Software id="user_matieres-technologie-sweet_home_3d-sweethome3d">
 			<ExePath>%MYAPPS%\Matieres\Technologie\Sweet Home 3D\SweetHome3D.exe</ExePath>
 			<Developer>eTeks</Developer>
-			<Description><![CDATA[Sweet Home 3D]]></Description>
+			<Description>Sweet Home 3D</Description>
 			<License>Copyright (c) 2007-2010 eTeks</License>
 			<Name>SweetHome3D</Name>
-			<Version>4.4</Version>
-			<AutoKeyWords>education technologie sweethome3d eteks copyright 2007-2010</AutoKeyWords>
-			<LicenseFile>%MYAPPS%\Matieres\Technologie\Sweet Home 3D\LICENSE.TXT</LicenseFile>
-			<WebSite>http://www.sweethome3d.com/fr/</WebSite>
+			<Version>2.6</Version>
+			<AutoKeyWords>sweethome3d eteks copyright 2007-2010</AutoKeyWords>
 		</Software>
 		<Software id="user_matieres-technologie-wcharly-graal-cao-gcao3d">
 			<ExePath>%MYAPPS%\Matieres\Technologie\Wcharly\Gcao3d.exe</ExePath>
@@ -917,8 +878,7 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<License>Copyright © 2002</License>
 			<Name>Gcao3d</Name>
 			<Version>4, 3, 11, 1</Version>
-			<AutoKeyWords>education technologie cao gcao3d charlyrobot.fr produits 2-10 logiciels charlygraal-2d-3d copyright 2002</AutoKeyWords>
-			<WebSite>http://www.charlyrobot.fr/produits/2-10/logiciels/charlygraal-2d-3d.html</WebSite>
+			<AutoKeyWords>education technologie cao gcao3d charlyrobot copyright 2002</AutoKeyWords>
 		</Software>
 		<Software id="user_matieres-technologie-wcharly-graal-fao-gfao">
 			<ExePath>%MYAPPS%\Matieres\Technologie\Wcharly\GFao.exe</ExePath>
@@ -927,8 +887,7 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<License>Copyright (C) CHARLYROBOT 1998-2002</License>
 			<Name>GFAO</Name>
 			<Version>4, 3, 9, 1</Version>
-			<AutoKeyWords>education technologie fao gfao charlyrobot.fr produits 2-10 logiciels charlygraal-2d-3d application copyright 1998-2002</AutoKeyWords>
-			<WebSite>http://www.charlyrobot.fr/produits/2-10/logiciels/charlygraal-2d-3d.html</WebSite>
+			<AutoKeyWords>education technologie fao gfao charlyrobot application graal copyright 1998-2002</AutoKeyWords>
 		</Software>
 		<Software id="user_matieres-technologie-wcharly-graal-fao-magasinsoutilsmateriaux">
 			<ExePath>%MYAPPS%\Matieres\Technologie\Wcharly\MagasinsOutilsMateriaux.exe</ExePath>
@@ -944,16 +903,14 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<License>Copyright © CHARLYROBOT 1998-2003</License>
 			<Name>Pilote CharlyGraal</Name>
 			<Version>4, 3, 16, 0</Version>
-			<AutoKeyWords>education technologie pilote charlygraal charlyrobot.fr produits 2-10 logiciels charlygraal-2d-3d gpilote copyright 1998-2003</AutoKeyWords>
-			<WebSite>http://www.charlyrobot.fr/produits/2-10/logiciels/charlygraal-2d-3d.html</WebSite>
+			<AutoKeyWords>education technologie pilote charlygraal charlyrobot gpilote copyright 1998-2003</AutoKeyWords>
 		</Software>
 		<Software id="user_matieres-technologie-westpointbridgedesigner-%appdir%-wpbd2007">
 			<ExePath>%MYAPPS%\Matieres\Technologie\WestPointBridgeDesigner\WPBD2nde2014.exe</ExePath>
 			<Developer>Dept. of Civil &amp; Mechanical Engineering,  USMA</Developer>
 			<Name>West Point Bridge Designer</Name>
 			<Version>10.00</Version>
-			<AutoKeyWords>education technologie west point bridge designer sourceforge projects wpbdc dept civil mechanical engineering usma</AutoKeyWords>
-			<WebSite>http://sourceforge.net/projects/wpbdc/</WebSite>
+			<AutoKeyWords>education technologie west point bridge designer dept civil mechanical engineering usma</AutoKeyWords>
 		</Software>
 		<Software id="user_pdfsam-pdfsam-starter">
 			<ExePath>%MYAPPS%\pdfsam\pdfsam-starter.exe</ExePath>
@@ -969,9 +926,7 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 		<Software id="user_pencil-animation-pencil">
 			<ExePath>%MYAPPS%\pencil-animation\Pencil.exe</ExePath>
 			<Name>Pencil Animation</Name>
-			<AutoKeyWords>education trans-disciplinaire pencil animation graphisme photo pencil-animation</AutoKeyWords>
-			<LicenseFile>%MYAPPS%\pencil-animation\LICENSE.TXT</LicenseFile>
-			<WebSite>http://www.pencil-animation.org/</WebSite>
+			<AutoKeyWords>education pencil animation</AutoKeyWords>
 		</Software>
 		<Software id="user_pylote_win-pylote">
 			<Name>Pylote</Name>
@@ -985,9 +940,7 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<Name>Rasterbator</Name>
 			<ExePath>%MYAPPS%\Rasterbator\Rasterbator.exe</ExePath>
 			<Version>1.0.1891.19403</Version>
-			<AutoKeyWords>education trans-disciplinaire rasterbator arje</AutoKeyWords>
-			<LicenseFile>%MYAPPS%\Rasterbator\readme.html</LicenseFile>
-			<WebSite>http://arje.net/rasterbator</WebSite>
+			<AutoKeyWords>rasterbator</AutoKeyWords>
 		</Software>
 		<Software id="user_sankoreportable" type="paf">
 			<ExePath>%MYAPPS%\SankorePortable\SankorePortable.exe</ExePath>
@@ -1003,10 +956,7 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 		<Software id="user_scratch_2">
 			<ExePath>%MYAPPS%\Scratch 2\Scratch 2.exe</ExePath>
 			<Name>Scratch 2</Name>
-			<AutoKeyWords>education technologie scratch trans-disciplinaire scratch.mit.edu</AutoKeyWords>
-			<LicenseFile>http://scratch.mit.edu/help/faq/#permissions</LicenseFile>
-			<Version>2</Version>
-			<WebSite>http://scratch.mit.edu/</WebSite>
+			<AutoKeyWords>scratch</AutoKeyWords>
 		</Software>
 		<Software id="user_spybotportable" type="paf">
 			<ExePath>%MYAPPS%\SpybotPortable\SpybotPortable.exe</ExePath>
@@ -1015,29 +965,16 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<License>Shareable/Freeware</License>
 			<Name>Spybot - Search &amp; Destroy Portable</Name>
 			<Version>2.2</Version>
-			<AutoKeyWords>securite anti virus-spyware spybot search destroy portable safer-networking ltd portableapps.com detects and removes shareable freeware</AutoKeyWords>
-			<WebSite>http://www.safer-networking.org/fr/</WebSite>
-			<LicenseFile>%MYAPPS%\SpybotPortable\App\Spybot\Help\Licence-PE.rtf</LicenseFile>
+			<AutoKeyWords>spybot search destroy portable portableapps spybotportable safer networking ltd portableapps.com detects and removes spyware shareable freeware</AutoKeyWords>
+			<WebSite>http://PortableApps.com/SpybotPortable</WebSite>
 		</Software>
 		<Software id="user_videopad-videopad_video_editor">
 			<ExePath>%MYAPPS%\VideoPad\VideoPad Video Editor.exe</ExePath>
 			<Developer>NCH Software</Developer>
-			<Description><![CDATA[VideoPad Video Editor]]></Description>
+			<Description>VideoPad Video Editor</Description>
 			<License>NCH Software</License>
 			<Name>VideoPad</Name>
-			<AutoKeyWords>video editeur videopad nchsoftware editor</AutoKeyWords>
-			<LicenseFile>http://www.nch.com.au/general/fr/legal.html</LicenseFile>
-			<WebSite>http://www.nchsoftware.com/videopad/fr/</WebSite>
-		</Software>
-		<Software id="user_xia">
-			<ExePath>%MYAPPS%\xia\xia.exe</ExePath>
-			<Developer>Académie de Versailles</Developer>
-			<Description><![CDATA[Convertisseur pour Images Actives]]></Description>
-			<License>Xia</License>
-			<Name>Xia</Name>
-			<Version>1.0</Version>
-			<AutoKeyWords>graphisme photo xia images-actives.crdp-versailles.fr beta academie convertisseur pour</AutoKeyWords>
-			<WebSite>http://images-actives.crdp-versailles.fr/beta/</WebSite>
+			<AutoKeyWords>videopad nch software editor</AutoKeyWords>
 		</Software>
 		<Software id="virtualdub" type="lbk">
 			<Name>VirtualDub</Name>
@@ -1109,7 +1046,7 @@ Format d'export : Macromedia Flash (swf), exécutables autonomes (EXE), etc.]]><
 			<License>Freeware</License>
 			<Description><![CDATA[XMedia Recode est un convertisseur universel permettant la conversion des fichiers audio/vidéo dans de nombreux formats.
 Il supporte les formats 3GP, 3GPP, 3GPP2, AAC, AC3, AMR, ASF, AVI, AVISynth, DVD, FLAC, FLV, H.261, H.263, H.264, M4A , M1V, M2V, M4V, Matroska (MKV), MMF, MPEG-1, MPEG-2, MPEG-4, TS, TRP, MP2, MP3, MP4, MP4V, MOV, OGG, PSP, (S) VCD, SWF , VOB, WAV, WMA et WMV. ]]></Description>
-			<Version>3.1.9.6</Version>
+			<Version>3.1.9.4</Version>
 			<Developer>Sebastian Dörfler</Developer>
 			<WebSite>http://www.xmedia-recode.de</WebSite>
 			<LicenseFile>%APPS%\XMediaRecode\App\XMediaRecode\license.txt</LicenseFile>

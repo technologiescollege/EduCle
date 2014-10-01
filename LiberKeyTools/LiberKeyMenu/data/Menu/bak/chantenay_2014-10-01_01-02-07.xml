@@ -71,8 +71,8 @@
 			</Software>
 			<Software id="notepad++" cpt="33"/>
 		</Category>
-		<Category name="PDF" icon="auto:Blue" id="office:pdf" expanded="yes">
-			<Software id="user_pdfsam-pdfsam-starter" cpt="6">
+		<Category name="PDF" icon="auto:Blue" id="office:pdf">
+			<Software id="user_pdfsam-pdfsam-starter" cpt="5">
 				<Name>PDF S&amp;M</Name>
 			</Software>
 			<Software id="pdfxchangeviewer" cpt="8"/>

@@ -71,8 +71,8 @@
 			</Software>
 			<Software id="notepad++" cpt="33"/>
 		</Category>
-		<Category name="PDF" icon="auto:Blue" id="office:pdf" expanded="yes">
-			<Software id="user_pdfsam-pdfsam-starter" cpt="6">
+		<Category name="PDF" icon="auto:Blue" id="office:pdf">
+			<Software id="user_pdfsam-pdfsam-starter" cpt="5">
 				<Name>PDF S&amp;M</Name>
 			</Software>
 			<Software id="pdfxchangeviewer" cpt="8"/>
@@ -111,7 +111,7 @@
 			<Software id="imgburn" cpt="3"/>
 		</Category>
 	</Category>
-	<Category name="Education" icon="education.ico" id="education">
+	<Category name="Education" icon="education.ico" id="education" expanded="yes">
 		<Category name="Astronomie" icon="auto:Red" id="education:astronomy">
 			<Software id="celestia"/>
 			<Software id="stellarium"/>
@@ -266,6 +266,9 @@
 			<Software id="user_hotpotatoes6-hotpot">
 				<Name>HotPotatoes</Name>
 			</Software>
+			<Software id="user_images_actives">
+				<Name>Images Actives</Name>
+			</Software>
 			<Software>
 				<ExePath>%DRIVE%\Program Files\oCam\oCam.exe</ExePath>
 				<Developer>oh!soft ( Partner: MediaWave )</Developer>
@@ -304,7 +307,6 @@
 				<Version>13.0.4812</Version>
 				<IconFile>%DRIVE%\WINDOWS\Installer\{F277FA87-FCE4-49A3-B745-B82FB29ED8A4}\SketchUpIcon.8DA0A970_F85B_4519_B9ED_33FC3F82227B</IconFile>
 			</Software>
-			<Software id="user_images_actives"/>
 		</Category>
 	</Category>
 	<Category name="Gestion des fichiers" icon="file_management.ico" id="file_management">

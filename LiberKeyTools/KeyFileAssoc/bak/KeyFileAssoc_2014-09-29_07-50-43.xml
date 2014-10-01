@@ -1562,6 +1562,18 @@
 			</Shell>
 			<TypeIcon index="0">%MYAPPS%\Matieres\Technologie\ganttproject\ganttproject.exe</TypeIcon>
 		</FileType>
+		<FileType ext="lxf">
+			<TypeDescription.fr>Fichiers LXF</TypeDescription.fr>
+			<Shell>
+				<Action name="lego_digital_designer">
+					<ExePath>%MYAPPS%\Matieres\Technologie\LEGO_Digital_Designer\LDD.exe</ExePath>
+					<AppName>LEGO Digital Designer</AppName>
+					<Description.fr>Ouvrir avec LEGO Digital Designer (LiberKey)</Description.fr>
+					<CmdArgs>&quot;%1&quot;</CmdArgs>
+				</Action>
+			</Shell>
+			<TypeIcon index="0">%MYAPPS%\Matieres\Technologie\LEGO_Digital_Designer\LDD.exe</TypeIcon>
+		</FileType>
 		<FileType ext="org">
 			<TypeDescription.fr>Fichiers ORG</TypeDescription.fr>
 			<Shell>
@@ -1659,18 +1671,5 @@
 			<TypeDescription>Tous les fichiers</TypeDescription>
 		</FileType>
 	</AppsAssoc>
-	<AppsAssocErrors>
-		<FileType ext="lxf">
-			<TypeDescription.fr>Fichiers LXF</TypeDescription.fr>
-			<Shell>
-				<Action name="lego_digital_designer">
-					<ExePath>%MYAPPS%\Matieres\Technologie\LEGO_Digital_Designer\LDD.exe</ExePath>
-					<AppName>LEGO Digital Designer</AppName>
-					<Description.fr>Ouvrir avec LEGO Digital Designer (LiberKey)</Description.fr>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-			</Shell>
-			<TypeIcon index="0">%MYAPPS%\Matieres\Technologie\LEGO_Digital_Designer\LDD.exe</TypeIcon>
-		</FileType>
-	</AppsAssocErrors>
+	<AppsAssocErrors/>
 </KeyFileAssoc>

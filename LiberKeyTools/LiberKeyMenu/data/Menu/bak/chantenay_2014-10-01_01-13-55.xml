@@ -15,7 +15,7 @@
 			<Software id="freac" cpt="1"/>
 		</Category>
 	</Category>
-	<Category name="Bureautique" icon="office.ico" id="office">
+	<Category name="Bureautique" icon="office.ico" id="office" expanded="yes">
 		<Category name="Accessoires bureau" icon="auto:Blue" id="office:desktop_tools">
 			<Category name="Pense-bête" id="office:desktop_tools:desktop_note" expanded="yes">
 				<Software id="stickies" cpt="279"/>

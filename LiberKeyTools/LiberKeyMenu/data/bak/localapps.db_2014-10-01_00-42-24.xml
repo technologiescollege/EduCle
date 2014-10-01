@@ -633,35 +633,31 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 		<Software id="user_cartoonstorymaker-csmaker">
 			<ExePath>%MYAPPS%\CartoonStoryMaker\CSMaker.exe</ExePath>
 			<Developer>Multidmedia Limited</Developer>
-			<Description><![CDATA[Cartoon Story Maker]]></Description>
+			<Description>Cartoon Story Maker</Description>
 			<License>Multidmedia Limited</License>
 			<Name>Cartoon Story Maker v1.0</Name>
 			<Version>1.0.0.61</Version>
-			<AutoKeyWords>education trans-disciplinaire cartoon story maker v1.0 education.vic.gov.au languagesonline games multidmedia limited</AutoKeyWords>
-			<WebSite>http://www.education.vic.gov.au/languagesonline/games/cartoon/</WebSite>
+			<AutoKeyWords>cartoon story maker v1.0 multidmedia limited</AutoKeyWords>
 		</Software>
 		<Software id="user_didapages-didapages_auteur">
 			<ExePath>%MYAPPS%\Didapages\Didapages Auteur.exe</ExePath>
 			<Developer>Carlos Guedes</Developer>
-			<Description><![CDATA[Didapages]]></Description>
+			<Description>Didapages</Description>
 			<License>Carlos Guedes</License>
 			<Name>Didapages</Name>
 			<Version>1.2.0.199</Version>
-			<AutoKeyWords>education trans-disciplinaire didapages didasystem index page=licence-dida1 carlos guedes</AutoKeyWords>
-			<LicenseFile>%MYAPPS%\Didapages\Licence.txt</LicenseFile>
-			<WebSite>http://www.didasystem.com/index.php?page=licence-dida1</WebSite>
+			<AutoKeyWords>didapages carlos guedes</AutoKeyWords>
 		</Software>
 		<Software id="user_freeplaneportable" type="paf">
 			<ExePath>%MYAPPS%\FreeplanePortable\FreeplanePortable.exe</ExePath>
 			<Developer>Freeplane team</Developer>
 			<Description><![CDATA[Freeplane Portable Edition is a free mind-mapping software written in Java, packaged with a PortableApps.com Launcher as a portable app, so you can take your mindmaps with you.]]></Description>
 			<License>Shareable/OpenSource/Freeware/CommercialUse</License>
-			<Name>Freeplane</Name>
+			<Name>Freeplane Portable</Name>
 			<Version>1.3.11</Version>
-			<AutoKeyWords>education trans-disciplinaire freeplane freeplane.sourceforge wiki index main_page team portable edition mind-mapping software written java packaged with portableapps.com launcher you can take your mindmaps shareable opensource freeware commercialuse</AutoKeyWords>
-			<WebSite>http://freeplane.sourceforge.net/wiki/index.php/Main_Page</WebSite>
+			<AutoKeyWords>education trans-disciplinaire freeplane portable editor team edition mind-mapping software written java packaged with portableapps.com launcher you can take your mindmaps shareable opensource freeware commercialuse</AutoKeyWords>
+			<WebSite>http://www.freeplane.org</WebSite>
 			<IconFile>%MYAPPS%\FreeplanePortable\App\Freeplane\freeplane.exe</IconFile>
-			<LicenseFile>%MYAPPS%\FreeplanePortable\App\AppInfo\EULA.txt</LicenseFile>
 		</Software>
 		<Software id="user_hotpotatoes6-hotpot">
 			<ExePath>%MYAPPS%\hotpotatoes6\HotPot.exe</ExePath>
@@ -670,8 +666,7 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<License>Martin Holmes, Stewart Arneil, University of Victoria and Half-Baked Software</License>
 			<Name>Hot Potatoes</Name>
 			<Version>6</Version>
-			<AutoKeyWords>education trans-disciplinaire hotpotatoes https hotpot.uvic.ca halfbaked chooser executable martin holmes stewart arneil university victoria and half-baked software</AutoKeyWords>
-			<WebSite>https://hotpot.uvic.ca/</WebSite>
+			<AutoKeyWords>education trans-disciplinaire hotpotatoes halfbaked chooser executable martin holmes stewart arneil university victoria and half-baked software</AutoKeyWords>
 		</Software>
 		<Software id="user_images_actives">
 			<ExePath>%MYAPPS%\xia\xia.exe</ExePath>
@@ -884,31 +879,26 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 		<Software id="user_matieres-technologie-robopro-robopro">
 			<ExePath>%MYAPPS%\Matieres\Technologie\ROBOPro\ROBOPro.exe</ExePath>
 			<Developer>fischertechnik GmbH, Weinhalde 14 - 18, 72178 Waldachtal, Germany</Developer>
-			<Description><![CDATA[ROBO Pro un langage de programmation graphique]]></Description>
+			<Description>ROBO Pro un langage de programmation graphique</Description>
 			<License>Copyright © 2004-2012 fischertechnik GmbH, Weinhalde 14 - 18, 72178 Waldachtal, FRENCHy</License>
 			<Name>ROBOPro</Name>
 			<Version>3,1,3,0</Version>
-			<AutoKeyWords>education technologie robopro fischertechnik.de home info computing robo-pro-software.aspx usetemplate-1_column_no_pano gmbh weinhalde 72178 waldachtal germany langage programmation graphique copyright 2004-2012 frenchy</AutoKeyWords>
-			<WebSite>http://www.fischertechnik.de/en/Home/info/computing/ROBO-Pro-Software.aspx/usetemplate-1_column_no_pano/</WebSite>
+			<AutoKeyWords>robopro fischertechnik gmbh weinhalde 72178 waldachtal germany langage programmation graphique copyright 2004-2012 frenchy</AutoKeyWords>
 		</Software>
 		<Software id="user_matieres-technologie-robotprog-robotprog">
 			<Name>RoboProg</Name>
 			<ExePath>%MYAPPS%\Matieres\Technologie\RobotProg\RobotProg.exe</ExePath>
 			<IconFile>%DRIVE%\Utils\LiberKey\Apps\Matieres\Technologie\RobotProg\RobotProg.exe</IconFile>
-			<AutoKeyWords>education technologie roboprog physicsbox indexrobotprogfr</AutoKeyWords>
-			<Version>1.1</Version>
-			<WebSite>http://www.physicsbox.com/indexrobotprogfr.html</WebSite>
+			<AutoKeyWords>roboprog</AutoKeyWords>
 		</Software>
 		<Software id="user_matieres-technologie-sweet_home_3d-sweethome3d">
 			<ExePath>%MYAPPS%\Matieres\Technologie\Sweet Home 3D\SweetHome3D.exe</ExePath>
 			<Developer>eTeks</Developer>
-			<Description><![CDATA[Sweet Home 3D]]></Description>
+			<Description>Sweet Home 3D</Description>
 			<License>Copyright (c) 2007-2010 eTeks</License>
 			<Name>SweetHome3D</Name>
-			<Version>4.4</Version>
-			<AutoKeyWords>education technologie sweethome3d eteks copyright 2007-2010</AutoKeyWords>
-			<LicenseFile>%MYAPPS%\Matieres\Technologie\Sweet Home 3D\LICENSE.TXT</LicenseFile>
-			<WebSite>http://www.sweethome3d.com/fr/</WebSite>
+			<Version>2.6</Version>
+			<AutoKeyWords>sweethome3d eteks copyright 2007-2010</AutoKeyWords>
 		</Software>
 		<Software id="user_matieres-technologie-wcharly-graal-cao-gcao3d">
 			<ExePath>%MYAPPS%\Matieres\Technologie\Wcharly\Gcao3d.exe</ExePath>
@@ -952,8 +942,7 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<Developer>Dept. of Civil &amp; Mechanical Engineering,  USMA</Developer>
 			<Name>West Point Bridge Designer</Name>
 			<Version>10.00</Version>
-			<AutoKeyWords>education technologie west point bridge designer sourceforge projects wpbdc dept civil mechanical engineering usma</AutoKeyWords>
-			<WebSite>http://sourceforge.net/projects/wpbdc/</WebSite>
+			<AutoKeyWords>education technologie west point bridge designer dept civil mechanical engineering usma</AutoKeyWords>
 		</Software>
 		<Software id="user_pdfsam-pdfsam-starter">
 			<ExePath>%MYAPPS%\pdfsam\pdfsam-starter.exe</ExePath>
@@ -985,9 +974,7 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<Name>Rasterbator</Name>
 			<ExePath>%MYAPPS%\Rasterbator\Rasterbator.exe</ExePath>
 			<Version>1.0.1891.19403</Version>
-			<AutoKeyWords>education trans-disciplinaire rasterbator arje</AutoKeyWords>
-			<LicenseFile>%MYAPPS%\Rasterbator\readme.html</LicenseFile>
-			<WebSite>http://arje.net/rasterbator</WebSite>
+			<AutoKeyWords>rasterbator</AutoKeyWords>
 		</Software>
 		<Software id="user_sankoreportable" type="paf">
 			<ExePath>%MYAPPS%\SankorePortable\SankorePortable.exe</ExePath>
@@ -1003,10 +990,7 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 		<Software id="user_scratch_2">
 			<ExePath>%MYAPPS%\Scratch 2\Scratch 2.exe</ExePath>
 			<Name>Scratch 2</Name>
-			<AutoKeyWords>education technologie scratch trans-disciplinaire scratch.mit.edu</AutoKeyWords>
-			<LicenseFile>http://scratch.mit.edu/help/faq/#permissions</LicenseFile>
-			<Version>2</Version>
-			<WebSite>http://scratch.mit.edu/</WebSite>
+			<AutoKeyWords>scratch</AutoKeyWords>
 		</Software>
 		<Software id="user_spybotportable" type="paf">
 			<ExePath>%MYAPPS%\SpybotPortable\SpybotPortable.exe</ExePath>
@@ -1109,7 +1093,7 @@ Format d'export : Macromedia Flash (swf), exécutables autonomes (EXE), etc.]]><
 			<License>Freeware</License>
 			<Description><![CDATA[XMedia Recode est un convertisseur universel permettant la conversion des fichiers audio/vidéo dans de nombreux formats.
 Il supporte les formats 3GP, 3GPP, 3GPP2, AAC, AC3, AMR, ASF, AVI, AVISynth, DVD, FLAC, FLV, H.261, H.263, H.264, M4A , M1V, M2V, M4V, Matroska (MKV), MMF, MPEG-1, MPEG-2, MPEG-4, TS, TRP, MP2, MP3, MP4, MP4V, MOV, OGG, PSP, (S) VCD, SWF , VOB, WAV, WMA et WMV. ]]></Description>
-			<Version>3.1.9.6</Version>
+			<Version>3.1.9.4</Version>
 			<Developer>Sebastian Dörfler</Developer>
 			<WebSite>http://www.xmedia-recode.de</WebSite>
 			<LicenseFile>%APPS%\XMediaRecode\App\XMediaRecode\license.txt</LicenseFile>

@@ -1109,7 +1109,7 @@ Format d'export : Macromedia Flash (swf), exécutables autonomes (EXE), etc.]]><
 			<License>Freeware</License>
 			<Description><![CDATA[XMedia Recode est un convertisseur universel permettant la conversion des fichiers audio/vidéo dans de nombreux formats.
 Il supporte les formats 3GP, 3GPP, 3GPP2, AAC, AC3, AMR, ASF, AVI, AVISynth, DVD, FLAC, FLV, H.261, H.263, H.264, M4A , M1V, M2V, M4V, Matroska (MKV), MMF, MPEG-1, MPEG-2, MPEG-4, TS, TRP, MP2, MP3, MP4, MP4V, MOV, OGG, PSP, (S) VCD, SWF , VOB, WAV, WMA et WMV. ]]></Description>
-			<Version>3.1.9.6</Version>
+			<Version>3.1.9.4</Version>
 			<Developer>Sebastian Dörfler</Developer>
 			<WebSite>http://www.xmedia-recode.de</WebSite>
 			<LicenseFile>%APPS%\XMediaRecode\App\XMediaRecode\license.txt</LicenseFile>

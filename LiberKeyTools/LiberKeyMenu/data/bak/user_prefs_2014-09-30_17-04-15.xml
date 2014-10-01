@@ -100,7 +100,7 @@
 		<TabsOrder sel="chantenay.xml">chantenay.xml,chantenay_2.xml,recent.xml,mostused.xml</TabsOrder>
 		<Main x="1548" y="410" w="378" h="656"/>
 		<Monitor dev="\\.\DISPLAY1" l="0" t="0" r="1920" b="1080"/>
-		<LastIconFolder>%MYAPPS%\xia</LastIconFolder>
+		<LastIconFolder>%MYAPPS%\Matieres\SVT\phylocollege</LastIconFolder>
 		<EffectSettings>FastClassic.FX.xml</EffectSettings>
 	</UserConfig>
 </LiberKeyMenu>
