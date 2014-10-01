@@ -1,9 +1,0 @@
-Réalisé avec le logiciel Images Actives édité par le
-{CRDP de l'académie de Versailles@http://www.crdp.ac-versailles.fr}.
-
-Développement : Joachim Dornbusch
-Ergonomie : Aurélie Chauvet, Abder Imine,##Marie Persiaux, Isabelle Perucho
-Graphismes : Wahid Mendil
-
-Copyright (c) 2011 Centre régional de documentation pédagogique de l'académie de Versailles
-Images Actives est un logiciel libre; vous pouvez le redistribuer et/ou le modifier selon les termes de la GNU General Public License (Licence publique générale GNU) telle qu'elle a été publiée par la Free Software Foundation; soit la version 2 de la licence, soit (comme vous le souhaitez) toute version ultérieure
