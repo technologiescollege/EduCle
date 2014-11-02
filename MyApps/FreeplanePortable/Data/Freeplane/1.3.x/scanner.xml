@@ -171,6 +171,14 @@
         <parser type="number" style="numberliteral" comment="support dot as decimal separator (if nothing else matches)"/>
     </scanner>
     <scanner locale="fr_fr">
+        <checkfirstchar disabled="true"/>
+        <parser type="datetime" style="date" format="M/d/yy h:mm a" comment="short datetime format"/>
+        <parser type="datetime" style="date" format="M/d/yy" comment="short date format"/>
+        <parser type="number" style="decimal" comment="number format"/>
+        <parser type="date" style="isodate" comment="ISO reader for date and date/time"/>
+        <parser type="number" style="numberliteral" comment="support dot as decimal separator (if nothing else matches)"/>
+    </scanner>
+    <scanner locale="fr_fr">
         <checkfirstchar chars="+-0123456789,."/>
         <parser type="datetime" style="date" format="M/d/yy h:mm a" comment="short datetime format"/>
         <parser type="datetime" style="date" format="M/d/yy" comment="short date format"/>
