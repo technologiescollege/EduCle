@@ -1,0 +1,5 @@
+17:44:19 | EA4 | Error | Error 91 (Variable objet ou variable bloc With non définie) in Sub frmMain.AppEvents_Fire
+17:44:19 | EA4 | Error | Error 91 (Variable objet ou variable bloc With non définie) in Sub frmMain.AppEvents_Fire
+17:44:19 | EA4 | Error | Error 91 (Variable objet ou variable bloc With non définie) in Sub frmMain.AppEvents_Fire
+17:44:19 | EA4 | Error | Error 91 (Variable objet ou variable bloc With non définie) in Sub frmMain.AppEvents_Fire
+17:44:19 | EA4 | Error | Error 372 (Impossible de charger le contrôle 'ctlTextEdit' à partir de . Votre version de  est peut-être obsolète. Vérifiez que vous utilisez la version du contrôle fournie avec votre application.) in Sub frmMain.Form_QueryUnload

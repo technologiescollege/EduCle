@@ -281,7 +281,7 @@
 			<Software id="user_pencil-animation-pencil"/>
 			<Software id="user_pylote_win-pylote" cpt="2"/>
 			<Software id="user_rasterbator" cpt="3"/>
-			<Software id="user_scratch_2" cpt="4">
+			<Software id="user_scratch_2" cpt="3">
 				<Name>Scratch</Name>
 			</Software>
 			<Software>
@@ -332,7 +332,7 @@
 		<Category name="Editeur" icon="auto:Red" id="graphics-photo:editor" expanded="yes">
 			<Software id="inkscape" cpt="1"/>
 			<Software id="paint-net" cpt="6"/>
-			<Software id="photofiltre" cpt="110"/>
+			<Software id="photofiltre" cpt="108"/>
 		</Category>
 		<Category name="Editeur d&apos;icône" icon="auto:Red" id="graphics-photo:icon_editor" expanded="yes">
 			<Software id="greenfishiconeditorpro" cpt="5"/>
@@ -405,7 +405,7 @@
 		</Category>
 		<Category name="Convertisseur" icon="auto:Grey" id="video:converter" expanded="yes">
 			<Software id="formatfactory" cpt="14"/>
-			<Software id="xmediarecode" cpt="19"/>
+			<Software id="xmediarecode" cpt="18"/>
 		</Category>
 		<Category name="Editeur" icon="auto:Grey" id="video:editor" expanded="yes">
 			<Software>

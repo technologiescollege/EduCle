@@ -6,8 +6,10 @@
 	</LKUser>
 	<Proxy>
 		<Enabled>0</Enabled>
-		<Host>172.17.254.252</Host>
+		<Host>proxy</Host>
 		<Port>3128</Port>
+		<User>techno</User>
+		<Password>DWpxOspJ/HbnlDPQd5v0YcRpB2vOhpOo</Password>
 	</Proxy>
 	<Setup>
 		<FileAssocSetupMode>always</FileAssocSetupMode>

@@ -1,16 +1,16 @@
 HTTP/1.1 200 OK
-Date: Tue, 30 Sep 2014 09:21:04 GMT
-Server: Apache/2.2.16 (Unix) mod_ssl/2.2.16 OpenSSL/0.9.8o
+Date: Mon, 20 Oct 2014 13:46:08 GMT
+Server: Apache/2.2.20 (Unix) mod_ssl/2.2.20 OpenSSL/0.9.8o
 X-Powered-By: PHP/5.2.13-pl1-gentoo
 P3P: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
 Expires: Mon, 1 Jan 2001 00:00:00 GMT
 Cache-Control: post-check=0, pre-check=0
 Pragma: no-cache
-Set-Cookie: 9db2fa79a607ffcd65f78db44830b764=e377815f682507d08ed855bc6f01b24d; path=/
-Set-Cookie: lang=deleted; expires=Mon, 30-Sep-2013 09:21:03 GMT; path=/
-Set-Cookie: jfcookie=deleted; expires=Mon, 30-Sep-2013 09:21:03 GMT; path=/
-Set-Cookie: jfcookie[lang]=fr; expires=Wed, 01-Oct-2014 09:21:04 GMT; path=/
-Last-Modified: Tue, 30 Sep 2014 09:21:04 GMT
+Set-Cookie: 9db2fa79a607ffcd65f78db44830b764=cbe43094b8eda84817b2e8341af87190; path=/
+Set-Cookie: lang=deleted; expires=Sun, 20-Oct-2013 13:46:07 GMT; path=/
+Set-Cookie: jfcookie=deleted; expires=Sun, 20-Oct-2013 13:46:07 GMT; path=/
+Set-Cookie: jfcookie[lang]=fr; expires=Tue, 21-Oct-2014 13:46:08 GMT; path=/
+Last-Modified: Mon, 20 Oct 2014 13:46:08 GMT
 Vary: Accept-Encoding,User-Agent
 Connection: close
 Content-Type: application/rss+xml; charset=utf-8
@@ -22,7 +22,7 @@ Content-Type: application/rss+xml; charset=utf-8
 		<title>LiberKey News</title>
 		<description>Portable Applications</description>
 		<link>http://www.liberkey.com/fr/liberkey-news.html</link>
-		<lastBuildDate>Tue, 30 Sep 2014 09:21:04 +0000</lastBuildDate>
+		<lastBuildDate>Mon, 20 Oct 2014 13:46:08 +0000</lastBuildDate>
 		<generator>Joomla! 1.5 - Open Source Content Management</generator>
 		<language>fr-fr</language>
 		<item>

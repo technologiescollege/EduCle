@@ -1,6 +1,5 @@
 <LiberKeyAppsCloser>
 	<AppsDir>..\..\Apps</AppsDir>
 	<CloseBase>..\..\</CloseBase>
-	<UserLanguage>fr</UserLanguage>
-	<Language/>
+	<Language file="LKAppsClose_fr.xml">fr</Language>
 </LiberKeyAppsCloser>

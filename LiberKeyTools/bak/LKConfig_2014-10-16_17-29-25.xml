@@ -5,7 +5,7 @@
 		<User/>
 	</LKUser>
 	<Proxy>
-		<Enabled>0</Enabled>
+		<Enabled>1</Enabled>
 		<Host>172.17.254.252</Host>
 		<Port>3128</Port>
 	</Proxy>

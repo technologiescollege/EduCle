@@ -43,7 +43,7 @@ Décompression des formats 7z, ZIP, GZIP, BZIP2 and TAR + RAR, CAB, ISO, ARJ, LZ
 			<Platform>XP/Vista/7/8</Platform>
 			<License>Freeware</License>
 			<Description><![CDATA[CCleaner est un outil d'optimisation et de nettoyage de votre système. Il supprime les fichiers inutilisés ce qui permet de rendre Windows plus rapide et libère de la place disque. Il nettoie également les traces de vos activités sur Internet ainsi que les historiques des navigateurs. De plus, vous avez accès à un nettoyeur pour la base de registre.]]></Description>
-			<Version>4.19.4867</Version>
+			<Version>4.18.4844</Version>
 			<Developer>Piriform Ltd</Developer>
 			<WebSite>http://www.piriform.com/ccleaner</WebSite>
 			<LicenseFile>%APPS%\CCleaner\App\CCleaner\License.txt</LicenseFile>
@@ -132,7 +132,7 @@ Il supporte FTP, FTP sur SSL/TLS (FTPS), SSH, IPV6, mode reprise, transfert des 
 			<License>MPL 2.0</License>
 			<Description><![CDATA[Firefox est un navigateur web qui offre la navigation par onglet combinée avec de nombreuses fonctions très utiles comme le blocage automatique des fenêtres intempestives, une gestion avancée des favoris (avec support des flux RSS), un gestionnaire de mot de passe, le zoom complet des pages et bien plus.
 Il peut être complété grâce à des centaines de plugins (extensions) librement téléchargeables.]]></Description>
-			<Version>33.0.1</Version>
+			<Version>33.0</Version>
 			<Developer>Mozilla Corporation</Developer>
 			<WebSite>http://www.mozilla-europe.org/fr/products/firefox/</WebSite>
 			<LicenseFile>%APPS%\Firefox\App\license.txt</LicenseFile>

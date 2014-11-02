@@ -332,7 +332,7 @@
 		<Category name="Editeur" icon="auto:Red" id="graphics-photo:editor" expanded="yes">
 			<Software id="inkscape" cpt="1"/>
 			<Software id="paint-net" cpt="6"/>
-			<Software id="photofiltre" cpt="110"/>
+			<Software id="photofiltre" cpt="108"/>
 		</Category>
 		<Category name="Editeur d&apos;icône" icon="auto:Red" id="graphics-photo:icon_editor" expanded="yes">
 			<Software id="greenfishiconeditorpro" cpt="5"/>
@@ -398,7 +398,7 @@
 			</Software>
 		</Category>
 	</Category>
-	<Category name="Vidéo" icon="video.ico" id="video">
+	<Category name="Vidéo" icon="video.ico" id="video" expanded="yes">
 		<Category name="Capture" icon="auto:Grey" id="video:capture" expanded="yes">
 			<Software id="user_amcap" cpt="1"/>
 			<Software id="user_captureflux_52fr" cpt="2"/>

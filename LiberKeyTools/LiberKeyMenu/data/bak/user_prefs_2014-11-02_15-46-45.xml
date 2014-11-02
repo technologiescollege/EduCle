@@ -75,7 +75,7 @@
 		<MainMenuHotKey key="91" modifiers="2" active="no"/>
 		<FloatMenuHotKey key="91" modifiers="4" active="no"/>
 		<AppHotKeys active="no" memo="yes" memosec="3"/>
-		<StartUpShowMenu prev="yes">never</StartUpShowMenu>
+		<StartUpShowMenu prev="no">never</StartUpShowMenu>
 		<Sound>off</Sound>
 		<AppIcon ShowTaskbar="yes" KeepTaskbarMin="no"/>
 		<cpatch>20120620105059</cpatch>
