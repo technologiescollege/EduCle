@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-25 22:29+0200\n"
-"PO-Revision-Date: 2014-07-23 02:31+0200\n"
+"PO-Revision-Date: 2014-10-07 08:50+0000\n"
 "Last-Translator: Torbjorn <torbjorn.skauli@ffi.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.1.6\n"
+"X-Generator: Pootle 2.5.1.1\n"
+"X-POOTLE-MTIME: 1412671835.000000\n"
 
 # The language name as it will appear in the language menu
 msgid "Language-Name"
@@ -312,7 +313,7 @@ msgstr "velg %m.motor2 dreieretning %m.motorDirection"
 # 77%
 # 75%
 msgid "set %m.motor power to %n"
-msgstr "velg %m.motor motorkraft %n"
+msgstr "velg %m.motor styrke %n"
 
 msgid "set pen color to %c"
 msgstr "velg pennfarge %c"
@@ -491,7 +492,7 @@ msgstr "dreieretning %m.motorDirection"
 
 # 77%
 msgid "set motor power %n"
-msgstr "motorkraft %n"
+msgstr "styrke %n"
 
 msgid "turn motor off"
 msgstr "skru av motor"
@@ -570,8 +571,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-01 08:55+0200\n"
-"PO-Revision-Date: 2014-05-28 23:32+0200\n"
+"POT-Creation-Date: 2014-11-23 12:54+0000\n"
+"PO-Revision-Date: 2014-12-07 20:53+0000\n"
 "Last-Translator: Torbjorn <torbjorn.skauli@ffi.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb\n"
@@ -579,7 +580,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.1.6\n"
+"X-Generator: Pootle 2.5.1.1\n"
+"X-POOTLE-MTIME: 1417985603.000000\n"
 
 msgid "10 ^"
 msgstr "10 ^"
@@ -595,6 +597,9 @@ msgstr "A tilkoblet"
 
 msgid "a copy of the project file on your computer."
 msgstr "en kopi av prosjektfilen på datamaskinen."
+
+msgid "A newer version of Scratch is available"
+msgstr "En nyere versjon av Scratch er tilgjengelig"
 
 msgid "About"
 msgstr "Info"
@@ -614,6 +619,9 @@ msgstr "Brukerinnstillinger"
 msgid "acos"
 msgstr "arccos"
 
+msgid "Add"
+msgstr "Legg til"
+
 msgid "Add an Extension"
 msgstr "Hent tilleggsfunksjoner"
 
@@ -623,6 +631,9 @@ msgstr "Logisk verdi inn:"
 
 msgid "add comment"
 msgstr "skriv kommentar"
+
+msgid "add comment here..."
+msgstr "skriv kommentar her..."
 
 msgid "Add label text:"
 msgstr "Tekst i klossen:"
@@ -635,11 +646,11 @@ msgstr "Tallverdi inn:"
 msgid "Add string input:"
 msgstr "Tekst inn:"
 
-msgid "All"
-msgstr "Alt"
-
 msgid "all"
 msgstr "alle"
+
+msgid "All"
+msgstr "Alt"
 
 msgid "all around"
 msgstr "fri rotasjon"
@@ -669,13 +680,13 @@ msgid "Back a layer"
 msgstr "Ett lag nedover"
 
 # 88%
+msgid "backdrop"
+msgstr "bakgrunn"
+
+# 88%
 # 87%
 msgid "Backdrop"
 msgstr "Bakgrunn"
-
-# 88%
-msgid "backdrop"
-msgstr "bakgrunn"
 
 msgid "backdrop #"
 msgstr "bakgrunn nr."
@@ -762,6 +773,9 @@ msgstr "kan dras i programkjøring:"
 msgid "Cancel"
 msgstr "Avbryt"
 
+msgid "Cannot Add"
+msgstr "Kan ikke legge til"
+
 msgid "Cannot Delete"
 msgstr "Kan ikke slette"
 
@@ -779,6 +793,9 @@ msgstr "tak"
 
 msgid "Cello"
 msgstr "Cello"
+
+msgid "Check for updates"
+msgstr "Se etter oppdateringer"
 
 msgid "Choir"
 msgstr "Kor"
@@ -807,7 +824,7 @@ msgstr "Klarinett"
 msgid "Claves"
 msgstr "Pinner"
 
-msgid "cleanup"
+msgid "clean up"
 msgstr "rydd opp"
 
 msgid "Clear"
@@ -830,6 +847,9 @@ msgstr "Nett"
 
 msgid "Cloud data"
 msgstr "Nettdata"
+
+msgid "Cloud variable (stored on server)"
+msgstr "Nettvariabel (lagret på nettstedet til Scratch)"
 
 msgid "color"
 msgstr "farge"
@@ -891,6 +911,9 @@ msgstr "Drakter > 1"
 msgid "Costumes:"
 msgstr "Drakter:"
 
+msgid "Could not retrieve new application from server."
+msgstr "Fikk ikke til å hente nytt program fra serveren."
+
 msgid "Cowbell"
 msgstr "Kubjelle"
 
@@ -915,12 +938,12 @@ msgstr "dato"
 msgid "day of week"
 msgstr "ukedag"
 
+msgid "delete"
+msgstr "slett"
+
 # 83%
 msgid "Delete"
 msgstr "Slett"
-
-msgid "delete"
-msgstr "slett"
 
 msgid "delete variable"
 msgstr "slett variabel"
@@ -935,6 +958,9 @@ msgstr "retning:"
 msgid "don't rotate"
 msgstr "ikke roter"
 
+msgid "Don't save"
+msgstr "Ikke lagre"
+
 msgid "down"
 msgstr "ned"
 
@@ -946,6 +972,9 @@ msgstr "Last ned"
 
 msgid "Download to your computer"
 msgstr "Last ned til datamaskinen"
+
+msgid "Downloading new version"
+msgstr "Laster ned ny versjon"
 
 msgid "duplicate"
 msgstr "lag en kopi"
@@ -959,11 +988,11 @@ msgstr "e ^"
 msgid "edge"
 msgstr "kant"
 
-msgid "edit"
-msgstr "rediger"
-
 msgid "Edit"
 msgstr "Rediger"
+
+msgid "edit"
+msgstr "rediger"
 
 msgid "Edit Block"
 msgstr "Rediger kloss"
@@ -983,8 +1012,14 @@ msgstr "Elektronisk"
 msgid "Ellipse"
 msgstr "Ellipse"
 
+msgid "empty"
+msgstr "tom"
+
 msgid "Erase"
 msgstr "Slett"
+
+msgid "Erase all"
+msgstr "Slett alt"
 
 # 92%
 msgid "Eraser width"
@@ -1010,6 +1045,9 @@ msgstr "inntoning"
 
 msgid "fade out"
 msgstr "uttoning"
+
+msgid "false"
+msgstr "ikke oppfylt"
 
 msgid "Fantasy"
 msgstr "Fantasi"
@@ -1077,11 +1115,26 @@ msgstr "Håndklapp"
 msgid "Hardware"
 msgstr "Maskinvare"
 
+msgid "help"
+msgstr "hjelp"
+
+msgid "Hello!"
+msgstr "Hei!"
+
+msgid "Hmm..."
+msgstr "Hmm..."
+
+msgid "hello"
+msgstr "hei"
+
 msgid "hide"
 msgstr "skjul"
 
 msgid "High C"
 msgstr "Høye C"
+
+msgid "Holiday"
+msgstr "Jul"
 
 msgid "hour"
 msgstr "time"
@@ -1123,11 +1176,12 @@ msgstr "pil venstre"
 msgid "left-right"
 msgstr "vend sideveis"
 
-msgid "LEGO WeDo"
-msgstr "Lego WeDo"
-
 msgid "length"
 msgstr "lengde"
+
+#, fuzzy
+msgid "Letters"
+msgstr "Bokstaver"
 
 msgid "Library"
 msgstr "Bibliotek"
@@ -1198,7 +1252,7 @@ msgstr "Meldingsnavn"
 msgid "message1"
 msgstr "melding1"
 
-msgid "Microphone Volume:"
+msgid "Microphone volume:"
 msgstr "Mikrofonfølsomhet:"
 
 msgid "Middle C"
@@ -1262,6 +1316,9 @@ msgstr "Ny bakgrunn fra kamera"
 msgid "New backdrop:"
 msgstr "Ny bakgrunn:"
 
+msgid "New Block"
+msgstr "Ny kloss"
+
 msgid "New costume from camera"
 msgstr "Ny drakt fra kamera"
 
@@ -1271,6 +1328,9 @@ msgstr "Ny drakt:"
 
 msgid "New List"
 msgstr "Ny liste"
+
+msgid "New Message"
+msgstr "Ny melding"
 
 msgid "new message..."
 msgstr "ny melding..."
@@ -1290,6 +1350,9 @@ msgstr "Ny figur:"
 
 msgid "New Variable"
 msgstr "Ny variabel"
+
+msgid "next backdrop"
+msgstr "neste bakgrunn"
 
 msgid "No motion blocks"
 msgstr "Ingen bevegelsesklosser"
@@ -1324,6 +1387,9 @@ msgstr "på"
 msgid "on-flipped"
 msgstr "på-speilvendt"
 
+msgid "Open"
+msgstr "Åpne"
+
 msgid "Open Cuica"
 msgstr "Åpen cuica"
 
@@ -1343,6 +1409,9 @@ msgstr "Andre"
 msgid "other scripts in sprite"
 msgstr "andre skript i figuren"
 
+msgid "other scripts in stage"
+msgstr "andre skript på scenen"
+
 msgid "Outdoors"
 msgstr "Utendørs"
 
@@ -1354,6 +1423,12 @@ msgstr "Tegn ny drakt"
 
 msgid "Paint new sprite"
 msgstr "Tegn ny figur"
+
+msgid "Password"
+msgstr "Passord"
+
+msgid "Password is required"
+msgstr "Du må angi et passord"
 
 msgid "paste"
 msgstr "lim inn"
@@ -1386,6 +1461,9 @@ msgstr "Pizzicato"
 msgid "pop"
 msgstr "plopp"
 
+msgid "previous backdrop"
+msgstr "forrige bakgrunn"
+
 msgid "Profile"
 msgstr "Profil"
 
@@ -1395,6 +1473,12 @@ msgstr "Prosjektet ble ikke lest inn."
 msgid "Project not saved!"
 msgstr "Prosjekt ikke lagret!"
 
+msgid "Project name"
+msgstr "Prosjektnavn"
+
+msgid "Project name is required"
+msgstr "Du må skrive navn på prosjektet"
+
 msgid "random"
 msgstr "tilfeldig"
 
@@ -1403,6 +1487,9 @@ msgstr "Opptak"
 
 msgid "Record new sound"
 msgstr "Spill inn en ny lyd"
+
+msgid "record..."
+msgstr "spill inn..."
 
 msgid "recording1"
 msgstr "opptak1"
@@ -1431,6 +1518,10 @@ msgstr "Nytt navn"
 
 msgid "rename variable"
 msgstr "gi nytt navn til variabel"
+
+#, fuzzy
+msgid "Replace existing project"
+msgstr "Erstatt det nåværende prosjektet"
 
 msgid "requires sign in"
 msgstr "krever innlogging"
@@ -1474,11 +1565,20 @@ msgstr "Kjør uten å oppdatere skjermen"
 msgid "Save"
 msgstr "Lagre"
 
+msgid "Save a copy of this project and add your own ideas."
+msgstr "Lagre en kopi av dette prosjektet og legg inn ting du selv finner på"
+
+msgid "Save as"
+msgstr "Lagre som"
+
 msgid "Save as a copy"
 msgstr "Lagre som kopi"
 
 msgid "Save now"
 msgstr "Lagre nå"
+
+msgid "Save project?"
+msgstr "Lagre prosjektet?"
 
 msgid "save to local file"
 msgstr "lagre til lokal fil"
@@ -1494,6 +1594,12 @@ msgstr "Lagrer..."
 
 msgid "Saxophone"
 msgstr "Saksofon"
+
+msgid "Scratch Updater"
+msgstr "Oppdateringsfunksjon for Scratch"
+
+msgid "Scratch 2.0 Offline Editor"
+msgstr "Scratch 2.0 for maskiner uten nettforbindelse"
 
 # 85%
 msgid "Script"
@@ -1527,11 +1633,11 @@ msgstr "Velg og kopier"
 msgid "Send to back"
 msgstr "Legg nederst"
 
-# 88%
-msgid "Set costume center"
+msgid "Set Costume Center"
 msgstr "Velg senterpunkt"
 
-msgid "Set Costume Center"
+# 88%
+msgid "Set costume center"
 msgstr "Velg senterpunkt"
 
 msgid "set slider min and max"
@@ -1539,6 +1645,12 @@ msgstr "skyverens min. og maks. verdi"
 
 msgid "Share"
 msgstr "Legg ut"
+
+msgid "Share to website"
+msgstr "Legg ut på nettstedet"
+
+msgid "Share to Scratch website"
+msgstr "Legg ut på nettstedet til Scratch"
 
 msgid "shared"
 msgstr "lagt ut"
@@ -1613,12 +1725,12 @@ msgstr "Lyder i biblioteket"
 msgid "Sounds"
 msgstr "Lyder"
 
-msgid "space"
-msgstr "mellomrom"
-
 # 80%
 msgid "Space"
 msgstr "Romfart"
+
+msgid "space"
+msgstr "mellomrom"
 
 msgid "Sports"
 msgstr "Sport"
@@ -1668,17 +1780,34 @@ msgstr "Tamburin"
 msgid "tan"
 msgstr "tan"
 
+msgid "text"
+msgstr "tekst"
+
 msgid "Text"
 msgstr "Tekst"
 
 msgid "that way"
 msgstr "mot klokken"
 
+msgid "The name is already in use."
+msgstr "Navnet er allerede i bruk."
+
+msgid "The project failed to load and Scratch Team has been notified. Press OK to leave this page."
+msgstr ""
+"Innlasting av prosjektet gikk galt. Det er sendt feilmelding til "
+"administratorene. Trykk OK for å gå videre."
+
 msgid "Theme"
 msgstr "Tema"
 
 msgid "Things"
 msgstr "Ting"
+
+msgid "thing"
+msgstr "ting"
+
+msgid "This is the current version."
+msgstr "Dette er siste versjon."
 
 msgid "This project can detect who is using it, through the “username” block. To hide your identity, sign out before using the project."
 msgstr ""
@@ -1722,6 +1851,9 @@ msgstr "Triangel"
 msgid "Trombone"
 msgstr "Trombone"
 
+msgid "true"
+msgstr "oppfylt"
+
 # 90%
 msgid "Turbo mode"
 msgstr "Turbo-hastighet"
@@ -1739,12 +1871,12 @@ msgstr "Angre sletting"
 msgid "Underwater"
 msgstr "Under vann"
 
+msgid "undo"
+msgstr "angre"
+
 # 75%
 msgid "Undo"
 msgstr "Angre"
-
-msgid "undo"
-msgstr "angre"
 
 msgid "Undo Revert"
 msgstr "Angre Gå Tilbake"
@@ -1760,6 +1892,15 @@ msgstr "opp"
 
 msgid "up arrow"
 msgstr "pil opp"
+
+msgid "Update failed"
+msgstr "Oppdatering mislyktes"
+
+msgid "Update not needed"
+msgstr "Oppdatering er ikke nødvendig"
+
+msgid "Update now"
+msgstr "Oppdater nå"
 
 msgid "Upload backdrop from file"
 msgstr "Last opp bakgrunn fra fil"
@@ -1803,6 +1944,9 @@ msgstr "Vibrafon"
 msgid "Vibraslap"
 msgstr "Vibraslap"
 
+msgid "video direction"
+msgstr "videoretning"
+
 msgid "video motion"
 msgstr "videobevegelse"
 
@@ -1824,6 +1968,9 @@ msgstr "Vil du lagre? Klikk remiks"
 msgid "Which column do you want to import"
 msgstr "Hvilken kolonne vil du importere"
 
+msgid "What's your name?"
+msgstr "Hva heter du?"
+
 msgid "whirl"
 msgstr "virvel"
 
@@ -1832,6 +1979,9 @@ msgstr "Trekloss"
 
 msgid "Wooden Flute"
 msgstr "Trefløyte"
+
+msgid "world"
+msgstr "verden"
 
 msgid "x position"
 msgstr "x-posisjon"
@@ -1847,11 +1997,38 @@ msgstr ""
 "Du kan ikke redigere nettdata i andres prosjekter.<br>Endringer du gjør her "
 "vil være midlertidige og blir ikke lagret."
 
+msgid "Your Scratch name"
+msgstr "Ditt Scratch-navn"
+
+msgid "Your Scratch name is required"
+msgstr "Du må skrive ditt Scratch-navn"
+
+msgid ""
+"<b>Information about Cloud variables</b><br>&nbsp;<br>Currently, only "
+"numbers are supported<br>Chat rooms are not allowed, and will be removed<br>"
+"For more info, <a href= target=>see the cloud data FAQ!</a>"
+msgstr ""
+"<b>Informasjon om nettdata</b><br>&nbsp;<br>Inntil videre er det bare mulig "
+"å lagre tall<br>Chat-funksjoner er ikke tillatt og vil bli slettet<br>For "
+"mer informasjon, se <a href= target=>spørsmål og svar om nettdata!</a>"
+
+msgid "Click  to try again or  to save"
+msgstr "Klikk  for å prøve igjen eller  for å lagre"
+
 msgid "Eraser width:"
 msgstr "Viskelærbredde:"
 
 msgid "Line width:"
 msgstr "Linjebredde:"
+
+#~ msgid "cleanup"
+#~ msgstr "rydd opp"
+
+#~ msgid "LEGO WeDo"
+#~ msgstr "Lego WeDo"
+
+#~ msgid "Microphone Volume:"
+#~ msgstr "Mikrofonfølsomhet:"
 
 #, fuzzy
 #~ msgid "Add a boolean input:"
@@ -1997,9 +2174,6 @@ msgstr "Linjebredde:"
 
 #~ msgid "Open Triangle"
 #~ msgstr "Åpen triangel"
-
-#~ msgid "other scripts in stage"
-#~ msgstr "andre skript på scenen"
 
 #~ msgid "Pedal Hi-Hat"
 #~ msgstr "Pedal Hi-Hat"

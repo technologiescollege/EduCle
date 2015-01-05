@@ -1,3 +1,4 @@
+en,English
 an,Aragonés
 ast,Asturianu
 id,Bahasa Indonesia
@@ -5,7 +6,7 @@ ms,Bahasa Melayu
 ca,Català
 cs,Česky
 cy,Cymraeg
-da,Dansk 
+da,Dansk
 fa-af,Dari
 de,Deutsch
 et,Eesti
@@ -31,16 +32,17 @@ nl,Nederlands
 nb,Norsk Bokmål
 pl,Polski
 pt,Português
-pt-br,Português (Brasil)
+pt-br,Português Brasileiro
 ro,Română
 sc,Sardu
 sk,Slovenčina
 sl,Slovenščina
-fi,Suomi
+fi,suomi
 sv,Svenska
 nai,Tepehuan
 vi,Tiếng Việt
 tr,Türkçe
+ab,Аҧсшәа
 ar,العربية
 bg,Български
 el,Ελληνικά
