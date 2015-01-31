@@ -1,4 +1,4 @@
-## EduCle - EducKey
+## EduClé - EducKey
 
 
 Liberkey pour l'EducNat : [http://tic.technologiescollege.fr/](http://tic.technologiescollege.fr/)
