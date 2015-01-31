@@ -48,8 +48,8 @@ _8. unpack it and overwrite all the files of the "standard" Liberkey._
 ## Pour vous tenir au courant des mises à jour
 Rendez-vous sur ce blog : [http://tic.technologiescollege.fr/wordpress](http://tic.technologiescollege.fr/wordpress)
 
-##_To get informed of the updates, go to this blog:
-[http://tic.technologiescollege.fr/wordpress](http://tic.technologiescollege.fr/wordpress)_
+##_To get informed of the updates_
+_go to this blog:[http://tic.technologiescollege.fr/wordpress](http://tic.technologiescollege.fr/wordpress)_
 
 ## Pour accéder au catalogue de toutes les applications
 que nous rajoutons dans MyApps, vous pouvez consulter cette page : [http://tic.technologiescollege.fr/wordpress/liberkey-educ-paquets/](http://tic.technologiescollege.fr/wordpress/liberkey-educ-paquets/)
