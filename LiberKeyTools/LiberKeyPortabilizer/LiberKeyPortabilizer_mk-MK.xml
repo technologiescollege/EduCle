@@ -1,0 +1,94 @@
+<Languages version="0.2">
+	<mk-MK en_name="Macedonian" icon="mk.png" date="2012-07-24" name="Македонски">
+		<Cmds>
+			<Info>Информација...</Info>
+			<OK>Во ред</OK>
+		</Cmds>
+		<CrashRestore>
+			<CommandButtons>
+				<Restore_Caption>Обнови конфигурации</Restore_Caption>
+			</CommandButtons>
+			<Labels>
+				<Info_Caption>Следните апликации се извршуваа.\nНивната конфигурација и конфигурацијата на компјутерот неможеа да се обноват.</Info_Caption>
+				<Title_Caption>LiberKey Portabilizer ненадејно ја прекина својата последна апликација.</Title_Caption>
+			</Labels>
+		</CrashRestore>
+		<License>
+			<caption>%appname% лиценца</caption>
+			<CheckBoxs>
+				<Accept_Caption>Ги прифаќам и се согласувам со условите на лиценцата</Accept_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Accept_Caption>Прифати</Accept_Caption>
+				<Cancel_Caption>Откажи</Cancel_Caption>
+				<OK_Caption>Во ред</OK_Caption>
+			</CommandButtons>
+			<Labels>
+				<AccetInformation_Caption>ВАЖНО: Со означување на полето подолу и кликнување на „Прифати“ Вие ги прифаќате условите на лиценцата и се согласувате со нив. Кликнете на иконата на „стрелка надолу“ за да го видите останатиот дел на лиценцата.</AccetInformation_Caption>
+				<License_Caption>Лиценца</License_Caption>
+				<LicenseAgreeTitle_Caption>Мора да ги прифатите условите на лиценцата пред да можете да ја користите %appname%</LicenseAgreeTitle_Caption>
+				<LicenseTitle_Caption>Оваа лиценца ги одредува условите за користење на %appname%. Ве молиме прочитајте пред да продолжите.</LicenseTitle_Caption>
+			</Labels>
+		</License>
+		<Main>
+			<CommandButtons>
+				<OK_Caption>&amp;Во ред</OK_Caption>
+			</CommandButtons>
+			<Labels>
+				<PortabilizerInfo_Caption>Моментално стартувани апликации:</PortabilizerInfo_Caption>
+			</Labels>
+		</Main>
+		<Messages>
+			<AppAlreadyRunning>%appname% веќе работи. Ве молиме, затворете ги другите апликации пред стартувањето на оваа.</AppAlreadyRunning>
+			<DefaultTitle>%appname% LiberKey преносно издание</DefaultTitle>
+			<Errors>
+				<AppInfoFileNotFound>Недостасува информационата датотека за преносната апликација.</AppInfoFileNotFound>
+				<ApplyContextError>Не може да се подготви извршувањето на контекстот за преносната апликација.\n\nВе молиме затворете ги сите отворени прозорци и ја стартувате апликацијата повторно.</ApplyContextError>
+				<CrashInfo>Следниве апликации сеуште работат.\nНивната конфигурација во LiberKey не беше зачувана и таа не може да се обнови.</CrashInfo>
+				<CrashRestore>LiberKey Portabilizer беше запрен за време на неговото последно извршување.</CrashRestore>
+				<CrashRestoreElevatedApps>Апликациите беа отворени како администратор и конфигурацијата не би можела да биде обновена. За да го сторите тоа, LiberKey Portabilizer мора да се отвори како администратор. Дали сакате да се обноват овие апликации сега?</CrashRestoreElevatedApps>
+				<DependencyMissing>За да работи, оваа програма бара инсталирање на %depend%.</DependencyMissing>
+				<ExeNotFound>Неможе да се пронајде извршната програма.</ExeNotFound>
+				<InvalidRetoreData>Податоците за обнова на %appname% се оштетени.\nНе е можно обнова на конфигурацијата на оваа апликација.</InvalidRetoreData>
+				<NeedLbkUpdate>Вашиот LiberKey мора да се ажурира за да ја извршите оваа апликација.\n\nМожете да ја користите %app% по примена на најновите LiberKey ажурирања.</NeedLbkUpdate>
+				<NeedUpdate>LiberKey Portabilizer мора да се ажурира за да ја извршите оваа апликација.\nМожете да го превземете бесплатно од www.liberkey.com\n\nДали сакате да одете на www.liberkey.com сега?</NeedUpdate>
+				<SingleUserApp>Апликацијата &quot;%app_name%&quot; беше стартувана од друг корисник.\n\nКорисник: &quot;%user%&quot;\nСесија: &quot;%session%&quot; \n\nНекои апликации неможат да се користат од два различни корисника истовремено.</SingleUserApp>
+			</Errors>
+			<LbkPortabilizerInfo>Оваа програма е „преносениот“ погон кој се бара од апликациите во LiberKey.\n\nЗа повеќе информации, ве молиме посетете ја\nwww.liberkey.com</LbkPortabilizerInfo>
+			<No>Не</No>
+			<OtherInstanceStarted>Предупредување!\n\nЈа имате стартувано %appname%, додека работи преносната верзија.\nВе молиме затворете ја не-преносната верзија пред да се обиде да стартувате преносната верзија.</OtherInstanceStarted>
+			<RestoreNeedLBK>Внимание!\n\nЕдна или повеќе апликации не беа пронајдени.\n\n„Прекини“: Нема да се направи ниедна операција.\n\n„Игнорирај“: Конфигурациите на вашиот компјутер ќе се обноват.Сепак можете да ги изгубите конфигурациите на вашите преносни апликации.\n\n„Повтори“: Ако вашите преносни апликации се на УСБ, отстрани го и притисни на „Повтори“.</RestoreNeedLBK>
+			<SessionEndWarning>Преносните апликации сеуште работат.\nВи препорачуваме да ги затворите сите отворени апликации пред да се обидете да го исклучите компјутерот или да се одјавите.</SessionEndWarning>
+			<Yes>Да</Yes>
+		</Messages>
+		<UpdateAvailable>
+			<caption>Достапно ажурирање</caption>
+			<CheckBoxs>
+				<NoMoreAlert_Caption>Не го покажувај оваа ажурирање</NoMoreAlert_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Cancel_Caption>&amp;Стартувај ја програмата без ажурирање</Cancel_Caption>
+				<Install_Caption>&amp;Преземи и инсталирај ги ажурирањата</Install_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppUpdateAvailable_Caption>Нова верзија на програмата е достапна за вашиот LiberKey.</AppUpdateAvailable_Caption>
+				<Version_Caption>Верзија %version%</Version_Caption>
+			</Labels>
+		</UpdateAvailable>
+		<Warning>
+			<CommandButtons>
+				<Info_Caption>Информација...</Info_Caption>
+				<OK_Caption>&amp;Во ред</OK_Caption>
+			</CommandButtons>
+			<Status>
+				<UserAdmin>Администратор:</UserAdmin>
+				<UserElevated>Покренато:</UserElevated>
+				<UserName>Корисник:</UserName>
+				<UserSession>Сесија:</UserSession>
+			</Status>
+		</Warning>
+		<Contributors>
+			<Contributor name="mite71" email="mite71@live.com"/>
+		</Contributors>
+	</mk-MK>
+</Languages>

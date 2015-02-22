@@ -1,0 +1,88 @@
+<Languages version="0.2">
+	<ro-RO en_name="Romanian" icon="ro.png" date="2014-11-11">
+		<Main>
+			<CommandButtons>
+				<Cancel_Caption>&amp;Anulare</Cancel_Caption>
+				<CancelOperation_Caption>&amp;Anulare</CancelOperation_Caption>
+				<Install_Caption>Instalați această aplicație în LiberKey</Install_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppDescription_Caption>Descriere</AppDescription_Caption>
+				<AppName_Caption>Aplicatii:</AppName_Caption>
+				<AppVersion_Caption>Versiune:</AppVersion_Caption>
+				<AppWebSite_Caption>Web-site:</AppWebSite_Caption>
+				<EditorEmail_Caption>E-mail</EditorEmail_Caption>
+				<EditorName_Caption>Autor:</EditorName_Caption>
+				<EditorWebSite_Caption>Web-sire:</EditorWebSite_Caption>
+				<PackageInfo_Caption>Informații pachet:</PackageInfo_Caption>
+				<PackageLangs_Caption>Limbi disponibile configurare:</PackageLangs_Caption>
+				<Signature_Caption>Pachetul propus:</Signature_Caption>
+				<SupportURL_Caption>Suport:</SupportURL_Caption>
+				<ValidationFailed_Caption>Avertisment: Acest pachet nu este validat!</ValidationFailed_Caption>
+			</Labels>
+			<Tabs>
+				<Application>Aplicatii</Application>
+				<Editor>Autor</Editor>
+				<Package>Informatii pachet</Package>
+			</Tabs>
+		</Main>
+		<Messages>
+			<AlreadyInstalled>Acest program este deja instalat pe LiberKey.\nVrei să-l instalați din nou?</AlreadyInstalled>
+			<AppStillRunning>Aplicația este încă în functiune</AppStillRunning>
+			<ClosingApplication>Închide Aplicatia</ClosingApplication>
+			<ClosingASuite>Închide ASuite</ClosingASuite>
+			<ClosingKFA>Închide asocierea de fisiere</ClosingKFA>
+			<DeletingBackup>Ștergere copie de rezervă</DeletingBackup>
+			<DeletingObsoleteFiles>Sterge fișierele învechite</DeletingObsoleteFiles>
+			<DowngradeWarning>Atenție!\n\nO versiune mai nouă a acestui program este deja instalat pe LiberKey.\n\nVersiunea deja instalat:%current_version%\nVersiune în curs de instalare:%setup_version%\n\nNu doriți să instalați versiunea veche?</DowngradeWarning>
+			<DownloadingSetupData>Descarc Fișierele de configurare  ...\n%DONE%</DownloadingSetupData>
+			<Errors>
+				<AppDataNotFound>Datele aplicației nu au fost găsite</AppDataNotFound>
+				<AppsDirNotFound>Dosarul de destinație nu a fost găsit</AppsDirNotFound>
+				<ASuiteCloseFailed>Imposibil de a închide ASuite.</ASuiteCloseFailed>
+				<DataFileModified>Pachet de instalare este corupt.\nPachet de date a fost modificat\n\n%name%</DataFileModified>
+				<ErrRenameAppDir>A apărut o eroare în timp ce încercam pentru a redenumi dosarul aplicației.\nVerificați dacă aplicația nu este pornită și că nu există fișiere sunt deschise în dosarul aplicației.</ErrRenameAppDir>
+				<ExtractErrorRestoreDone>Extragere de date a eșuat.\nVersiunea precedentă a fost restaurată.</ExtractErrorRestoreDone>
+				<ExtractErrorRestoreNotDone>Extracția aplicatiei nu a reușit.\nVersiunea anterioară a fost ținută într-un director copie de rezervă.</ExtractErrorRestoreNotDone>
+				<IncompleteSetup>Unele fișiere nu au putut fi actualizate!\nNoile versiuni ale acestor fișiere au fost stocate în următorul director:\n\n%failedfolder%</IncompleteSetup>
+				<InstallError>A apărut o eroare în timpul instalării acestei aplicații.</InstallError>
+				<InstallerUpdateNeeded>Acest pachet de instalare este mult mai recent decât expertul de instalare.\nUtilizați cea mai recentă versiune a expertului de instalare pentru a instala.</InstallerUpdateNeeded>
+				<InstErrorTitle>Eroare în timpul instalării</InstErrorTitle>
+				<OldPackageVersion>Acest pachet de instalare nu este suportat de expertul de instalare.\nInstalarea nu a mai putut continua.</OldPackageVersion>
+				<PackageValidationFailed>Avertisment, acest pachet nu a fost validat.</PackageValidationFailed>
+				<SetupDataDownloadCanceled>Descărcarea a fost anulată</SetupDataDownloadCanceled>
+				<SetupDataDownloadError>Eroare de descărcare a datelor de configurare </SetupDataDownloadError>
+			</Errors>
+			<ExtractingAppFiles>Extrag fisierele si dosarele</ExtractingAppFiles>
+			<InstalledLangMismatchWarning>Atenție!\nAcest software este deja instalat pe LiberKey într-o altă limbă.\n\nConfigurarea anterioară a fost făcută în: &quot;%prevlang%&quot;\nAceastă setare se va face în: &quot;%newlang%&quot;\n\nVrei să continui?</InstalledLangMismatchWarning>
+			<Installing>Instalez</Installing>
+			<InvalidPackageFile>Pachet de instalare este nevalid</InvalidPackageFile>
+			<LangMismatchWarning>Atenție!\nEști pe cale să instalezi un software într-o limbă care este diferită de limba utilizată de LiberKey.\nDoriți să continuați?</LangMismatchWarning>
+			<PackageSignatureNotFound>(Acest pachet nu este semnat)</PackageSignatureNotFound>
+			<RestartingApp>Reporneste aplicatia</RestartingApp>
+			<RestartingKFA>Reporniți cheie fișierelor Assoc &quot;...</RestartingKFA>
+			<RestartingMenu>reporneste meniul</RestartingMenu>
+			<ReStartLBK>Reporneste Liberkey</ReStartLBK>
+			<RestoringPreviousConfig>Restaurez configurația anterioară</RestoringPreviousConfig>
+			<SavingActualVersion>Salvez versiunea actuală</SavingActualVersion>
+			<SetupDataDownloadDone>Descărcare completă</SetupDataDownloadDone>
+			<SetupDone>instalare completă</SetupDone>
+			<UpdatingAppsMenu>Actualizarea Meniu LiberKey ...</UpdatingAppsMenu>
+			<UpdatingFileAssocs>Actualizează asocierile de fișiere ...</UpdatingFileAssocs>
+			<VerifyingSetupDestination>Verificarea spațiu de destinație</VerifyingSetupDestination>
+			<VerifyingSetupPackage>Verific integritatea pachetului</VerifyingSetupPackage>
+		</Messages>
+		<Report>
+			<caption>Instalare Completă</caption>
+			<CommandButtons>
+				<Close_Caption>&amp;Închide</Close_Caption>
+			</CommandButtons>
+			<Labels>
+				<MenuInfo_Caption>Meniul LiberKey a fost schimbat!\n\nPentru a porni aplicația pe care tocmai ați instalato,\nutilizează următoarele meniuri din LiberKey :</MenuInfo_Caption>
+			</Labels>
+		</Report>
+		<Contributors>
+			<Contributor name="new contributor"/>
+		</Contributors>
+	</ro-RO>
+</Languages>

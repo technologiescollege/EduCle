@@ -1,28 +1,35 @@
 <Languages version="0.2">
-	<it name="Italiano" en_name="Italian" date="2012-01-27" version="5.6.0124" icon="it.png">
-		<Messages>
-			<AppAlreadyRunning>%appname% è ancora in esecuzione. Chiudi le altre versioni prima di lanciare questa !</AppAlreadyRunning>
-			<DefaultTitle>%appname% LiberKey Portable Edition</DefaultTitle>
-			<OtherInstanceStarted>Attenzione ! \n\nStai cercando di lanciare %appname% mentre la versione portabile è in esecuzione.\nSi prega di chiudere la versione non portabile !</OtherInstanceStarted>
-			<Errors>
-				<AppInfoFileNotFound>Non riesco a trovare il file di informazioni dell&apos;applicazione !</AppInfoFileNotFound>
-				<ExeNotFound>Eseguibile non trovato !</ExeNotFound>
-				<ApplyContextError>Impossibile preparare il contesto applicativo dell&apos;applicazione.\n\nSi prega di chiudere tutte le altre finestre e riprovare.</ApplyContextError>
-				<DependencyMissing>Per funzionare questo programma richiede che sia installato %depend%</DependencyMissing>
-				<InvalidRetoreData>I dati di ripristino di %appname% sono danneggiati !\nE&apos; impossibile ripristinare la configurazione per questa applicazione.</InvalidRetoreData>
-				<CrashRestore>LiberKey Portabilizer è stato fermato brutalmente durante la sua ultima esecuzione.</CrashRestore>
-				<CrashInfo>Le seguenti applicazioni sono attive.\nNon è possibile salvare la loro configurazione in LiberKey e la configurazione del computer potrebbe non essere ripristinata.</CrashInfo>
-				<NeedUpdate>LiberKey Portabilizer deve essere aggiornato per avviare questa applicazione.\nPuoi scaricare gratuitamente l&apos;aggiornamento da from www.liberkey.com\n\nVuoi andare su www.liberkey.com now?</NeedUpdate>
-				<NeedLbkUpdate>La tua LiberKey deve essere aggiornato per avviare questa applicazione.\n\nControlla gli aggiornamenti per la LiberKey.\nPuoi usare %app% dopo aver applicato l&apos;ultima patch.</NeedLbkUpdate>
-				<CrashRestoreElevatedApps>Le applicazioni sono state lanciate e configurate da un utente amministratore. La configurazione non può essere ripristinata. Per farlo, LiberKey Portabilizer deve essere avviata da un utente amministratore. Vuoi ripristinare queste applicazioni adesso?</CrashRestoreElevatedApps>
-				<SingleUserApp>L&apos;applicazione &quot;%app_name%&quot; è stata lanciata da un altro utente\n\nUser: &quot;%user%&quot;\nSession : &quot;%session%&quot;\n\nNon è possbile avviare la stessa applicazione simultaneamente da più utenti.</SingleUserApp>
-			</Errors>
-			<LbkPortabilizerInfo>This program is the &quot;portabilization&quot; engine required by applications present in LiberKey.\n\n\nPer maggiori informazioni visita \nwww.liberkey.com</LbkPortabilizerInfo>
-			<RestoreNeedLBK>Attenzione !\n\nUna o più applicazioni non sono state trovate.\n\n- &quot;Abort&quot;: Non sarà eseguita nessuna operazione in questo momento.\n\n- &quot;Ignore&quot;: La configurazione del tuo computer sarà ripristinata, ma potresti perdere\n    le informazioni di configurazione della tue applicazioni portabili\n\n- &quot;Retry&quot;: Se le tue applicazioni portabili sono su un drive USB, collegalo e premi su &quot;Retry&quot;</RestoreNeedLBK>
-			<SessionEndWarning>Portable applications è ancora attivo.\nPer assicurare una corretta gestione della tua Liberkey, è opportuno chiudere questa applicazione prima di terminare la propria sessione di Windows.</SessionEndWarning>
-			<Yes>Si</Yes>
-			<No>No</No>
-		</Messages>
+	<it name="Italiano" en_name="Italian" date="2012-10-25" version="5.6.0124" icon="it.png">
+		<Cmds>
+			<Info>Informazioni...</Info>
+			<OK>OK</OK>
+		</Cmds>
+		<CrashRestore>
+			<CommandButtons>
+				<Restore_Caption>Ripristina configurazioni</Restore_Caption>
+			</CommandButtons>
+			<Labels>
+				<Info_Caption>Le seguenti applicazioni erano in esecuzione.\nNon è stato possibile salvare le loro configurazioni sulla tua LiberKey e la configurazione del tuo computer potrebbe non essere ripristinata.</Info_Caption>
+				<Title_Caption>LiberKey Portabilizer è stata interrotto improvvisamente durante la sua ultima esecuzione.</Title_Caption>
+			</Labels>
+		</CrashRestore>
+		<License>
+			<caption>%appname% licenza</caption>
+			<CheckBoxs>
+				<Accept_Caption>Accetto e concordo di sottostare ai termini della licenza</Accept_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Accept_Caption>Accetta</Accept_Caption>
+				<Cancel_Caption>Annulla</Cancel_Caption>
+				<OK_Caption>OK</OK_Caption>
+			</CommandButtons>
+			<Labels>
+				<AccetInformation_Caption>IMPORTANTE: Spuntanto questa casella e scegliendo Accetto, tu accetti i termini della licenza e di rispettarla. Clicca sull&apos;icona &apos;freccia giù&apos; per vedere il resto della licenza.</AccetInformation_Caption>
+				<License_Caption>Licenza</License_Caption>
+				<LicenseAgreeTitle_Caption>Per poter utilizzare %appname% devi accettarne i termini di licenza d&apos;uso</LicenseAgreeTitle_Caption>
+				<LicenseTitle_Caption>Questa licenza definisce i termini d&apos;uso di %appname%. Si prega di leggerla prima di continuare.</LicenseTitle_Caption>
+			</Labels>
+		</License>
 		<Main>
 			<CommandButtons>
 				<OK_Caption>&amp;OK</OK_Caption>
@@ -31,31 +38,29 @@
 				<PortabilizerInfo_Caption>Applicazioni in esecuzione:</PortabilizerInfo_Caption>
 			</Labels>
 		</Main>
-		<CrashRestore>
-			<CommandButtons>
-				<Restore_Caption>Ripristina tutto adesso</Restore_Caption>
-			</CommandButtons>
-			<Labels>
-				<Info_Caption>Le seguenti applicazioni erano attive.\nNon è stato posibile salvare le loro configurazioni nella tua LiberKey e la configurazione del tuo computer potrebbe non essere ripristinata.</Info_Caption>
-				<Title_Caption>LiberKey Portabilizer è stata interrotta improvvisamente durante la sua ultima esecuzione.</Title_Caption>
-			</Labels>
-		</CrashRestore>
-		<Warning>
-			<CommandButtons>
-				<Info_Caption>Informazioni...</Info_Caption>
-				<OK_Caption>&amp;OK</OK_Caption>
-			</CommandButtons>
-			<Status>
-				<UserName>Utente:</UserName>
-				<UserAdmin>Amministratore:</UserAdmin>
-				<UserElevated>Avanzato:</UserElevated>
-				<UserSession>Sessione:</UserSession>
-			</Status>
-		</Warning>
-		<Cmds>
-			<OK>OK</OK>
-			<Info>Informazioni...</Info>
-		</Cmds>
+		<Messages>
+			<AppAlreadyRunning>%appname% è già in esecuzione. Chiudi le altre applicazioni prima di lanciare questa!</AppAlreadyRunning>
+			<DefaultTitle>%appname% Edizione Portabile di LiberKey</DefaultTitle>
+			<Errors>
+				<AppInfoFileNotFound>Impossibile trovare il file di informazioni dell&apos;applicazione portabile!</AppInfoFileNotFound>
+				<ApplyContextError>Impossibile preparare il contesto esecutivo dell&apos;applicazione portabile.\n\nSi prega di chiudere tutte le altre finestre e riavviare l&apos;applicazione.</ApplyContextError>
+				<CrashInfo>Le seguenti applicazioni erano in esecuzione.\nNon è stato possibile salvare la loro configurazione in LiberKey e la configurazione del computer potrebbe non essere stata ripristinata.</CrashInfo>
+				<CrashRestore>LiberKey Portabilizer è stato fermato improvvisamente durante la sua ultima esecuzione.</CrashRestore>
+				<CrashRestoreElevatedApps>Le applicazioni sono state eseguite da un amministratore e la configurazione potrebbe non essere ripristinata. Per farlo, LiberKey Portabilizer deve essere avviata da un utente amministratore. Vuoi ripristinare queste applicazioni adesso?</CrashRestoreElevatedApps>
+				<DependencyMissing>Per funzionare questo programma richiede l&apos;installazione di %depend%</DependencyMissing>
+				<ExeNotFound>L&apos;eseguibile del programma non è stato trovato !</ExeNotFound>
+				<InvalidRetoreData>I dati di ripristino di %appname% sono danneggiati !\nImpossibile ripristinare la configurazione di questa applicazione.</InvalidRetoreData>
+				<NeedLbkUpdate>La tua LiberKey deve essere aggiornato per avviare questa applicazione.\n\nPuoi usare %app% aver l&apos;applicato l&apos;ultima patch di LiberKey.</NeedLbkUpdate>
+				<NeedUpdate>LiberKey Portabilizer deve essere aggiornato per avviare questa applicazione.\nPuoi scaricare gratuitamente l&apos;aggiornamento da www.liberkey.com\n\nVuoi andare su www.liberkey.com adesso?</NeedUpdate>
+				<SingleUserApp>L&apos;applicazione &quot;%app_name%&quot; è stata lanciata da un altro utente\n\nUtente: &quot;%user%&quot;\nSessione: &quot;%session%&quot;\n\nLa stessa applicazione non può essere eseguita da due utenti contemporaneamente.</SingleUserApp>
+			</Errors>
+			<LbkPortabilizerInfo>Questo programma è il motore di &quot;portabilità&quot; necessario alle applicazioni presenti in LiberKey.\n\n\nPer maggiori informazioni visita \nwww.liberkey.com</LbkPortabilizerInfo>
+			<No>No</No>
+			<OtherInstanceStarted>Attenzione! \n\nSi sta cercando di lanciare %appname% mentre la versione portabile è in esecuzione.\nSi prega di chiudere la versione non portabile prima di riavviare la versione portabile!</OtherInstanceStarted>
+			<RestoreNeedLBK>Attenzione!\n\nUna o più applicazioni non sono state trovate.\n\n- &quot;Interrompi&quot;: Non sarà eseguita nessuna operazione in questo momento.\n\n- &quot;Ignora&quot;: La configurazione del tuo computer sarà ripristinata, ma potresti perdere\n    le informazioni di configurazione della tue applicazioni portabili\n\n- &quot;Riprova&quot;: Se le tue applicazioni portabili sono su un drive USB, collegalo e premi su &quot;Riprova&quot;</RestoreNeedLBK>
+			<SessionEndWarning>Le applicazioni portabili sono ancora in esecuzione.\nSi raccomanda di chiudere tutte le applicazioni in esecuzione prima di spegnere o disconnettere il computer.</SessionEndWarning>
+			<Yes>Si</Yes>
+		</Messages>
 		<UpdateAvailable>
 			<caption>Aggiornamento disponibile</caption>
 			<CheckBoxs>
@@ -66,30 +71,25 @@
 				<Install_Caption>&amp;Scarica e installa l&apos;aggiornamento ...</Install_Caption>
 			</CommandButtons>
 			<Labels>
-				<Version_Caption>Versione %version%</Version_Caption>
 				<AppUpdateAvailable_Caption>E&apos; disponibile una nuova versione di questo programma per la tua LiberKey</AppUpdateAvailable_Caption>
+				<Version_Caption>Versione %version%</Version_Caption>
 			</Labels>
 		</UpdateAvailable>
-		<License>
-			<caption>%appname% licenza</caption>
-			<Labels>
-				<LicenseTitle_Caption>Questa licenza definisce i termini d&apos;uso di %appname%. Si prega di leggerla prima di continuare.</LicenseTitle_Caption>
-				<LicenseAgreeTitle_Caption>Per poter utilizzare %appname% devi accettarne i termini di licenza d&apos;uso</LicenseAgreeTitle_Caption>
-				<License_Caption>Licenza</License_Caption>
-				<AccetInformation_Caption>IMPORTANTE: Spuntanto questa casella e scegliendo Accept, tu accetti i temrmini della licenza e di rispettarla. Clicca sull&apos;icona &apos;arrow down&apos; per vedere il resto della licenza.</AccetInformation_Caption>
-			</Labels>
+		<Warning>
 			<CommandButtons>
-				<Accept_Caption>Accetta</Accept_Caption>
-				<Cancel_Caption>Cancella</Cancel_Caption>
-				<OK_Caption>OK</OK_Caption>
+				<Info_Caption>Informazioni...</Info_Caption>
+				<OK_Caption>&amp;OK</OK_Caption>
 			</CommandButtons>
-			<CheckBoxs>
-				<Accept_Caption>Accetto e sono d&apos;accordo con i termini della licenza</Accept_Caption>
-			</CheckBoxs>
-		</License>
+			<Status>
+				<UserAdmin>Amministratore:</UserAdmin>
+				<UserElevated>Con Privilegi:</UserElevated>
+				<UserName>Utente:</UserName>
+				<UserSession>Sessione:</UserSession>
+			</Status>
+		</Warning>
 		<Contributors>
-			<Contributor name="Alessandro Stella" email="mail@alessandrostella.it" website="http://www.alessandrostella.it/"/>
 			<Contributor name="Maurizio Ballo" email="xmaurizio.13@hotmail.com"/>
+			<Contributor name="Alessandro Stella" email="mail@alessandrostella.it"/>
 		</Contributors>
 	</it>
 </Languages>

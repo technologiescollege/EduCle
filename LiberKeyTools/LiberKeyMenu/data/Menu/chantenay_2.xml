@@ -68,7 +68,7 @@
 			<Software id="imgburn" cpt="3"/>
 		</Category>
 	</Category>
-	<Category name="Education" icon="education.ico" id="education" expanded="yes">
+	<Category name="Education" icon="education.ico" id="education">
 		<Category name="Astronomie" icon="auto:Red" id="education:astronomy">
 			<Software id="celestia"/>
 			<Software id="stellarium"/>
@@ -111,13 +111,13 @@
 			</Software>
 			<Software id="user_matieres-svt-phylogene-programmes-phylo"/>
 		</Category>
-		<Category name="Technologie" icon="auto:Red">
+		<Category name="Technologie" icon="auto:Red" expanded="yes">
 			<Software id="user_matieres-technologie-archifacile" cpt="1"/>
 			<Software id="user_matieres-technologie-bridge_building_game-bridge" cpt="2"/>
 			<Software id="user_matieres-technologie-wcharly-graal-cao-gcao3d" cpt="23">
 				<Name>CAO</Name>
 			</Software>
-			<Software cpt="1">
+			<Software cpt="2">
 				<ExePath>%MYAPPS%\Matieres\Technologie\energy3d\energy3D.bat</ExePath>
 				<Name>Energy3D</Name>
 				<IconFile>%MYAPPS%\Matieres\Technologie\energy3d\energy3d.ico</IconFile>
@@ -146,13 +146,13 @@
 			<Software id="user_scratch_2">
 				<Name>Scratch</Name>
 			</Software>
-			<Software id="user_matieres-technologie-sweet_home_3d-sweethome3d" cpt="29"/>
+			<Software id="user_matieres-technologie-sweet_home_3d-sweethome3d" cpt="30"/>
 			<Software id="user_matieres-technologie-westpointbridgedesigner-%appdir%-wpbd2007"/>
 		</Category>
-		<Category name="Trans-disciplinaire" icon="auto:Red">
+		<Category name="Trans-disciplinaire" icon="auto:Red" expanded="yes">
 			<Software id="user_cartoonstorymaker-csmaker"/>
 			<Software id="user_didapages-didapages_auteur"/>
-			<Software id="user_freeplaneportable" cpt="3">
+			<Software id="user_freeplaneportable" cpt="4">
 				<WorkingDir>%MYAPPS%\FreeplanePortable</WorkingDir>
 			</Software>
 			<Software id="user_hotpotatoes6-hotpot" cpt="6">
@@ -164,7 +164,7 @@
 			<Software id="user_pencil-animation-pencil"/>
 			<Software id="user_pylote_win-pylote" cpt="1"/>
 			<Software id="user_rasterbator" cpt="2"/>
-			<Software id="user_scratch_2">
+			<Software id="user_scratch_2" cpt="1">
 				<Name>Scratch</Name>
 			</Software>
 			<Software id="user_images_actives"/>
@@ -177,6 +177,10 @@
 		</Category>
 		<Category name="Restauration après effacement" icon="auto:Green" id="file_management:recovery" expanded="yes">
 			<Software id="recuva"/>
+		</Category>
+		<Category name="Synchronisation" icon="auto:Green" id="file_management:synchronization" expanded="yes">
+			<Software id="freefilesync"/>
+			<Software id="freefilesync-realtimesynclkl"/>
 		</Category>
 	</Category>
 	<Category name="Graphisme - Photo" icon="graphic_tools.ico" id="graphics-photo">
@@ -216,13 +220,13 @@
 		<Category name="FTP" icon="auto:Blue" id="internet:ftp">
 			<Software id="filezilla" cpt="2"/>
 		</Category>
-		<Category name="Navigateur" icon="auto:Blue" id="internet:browser">
-			<Software id="firefox" cpt="20"/>
+		<Category name="Navigateur" icon="auto:Blue" id="internet:browser" expanded="yes">
+			<Software id="firefox" cpt="21"/>
 			<Software id="opera" cpt="59"/>
 		</Category>
 		<Software id="user_carotdav"/>
 	</Category>
-	<Category name="Outils système" icon="system_utilities.ico" id="system_utilities" expanded="yes">
+	<Category name="Outils système" icon="system_utilities.ico" id="system_utilities">
 		<Category name="Nettoyeur - désinstalleur" icon="auto:Grey" id="system_utilities:cleaner-uninstaller" expanded="yes">
 			<Software id="ccleaner" cpt="3"/>
 			<Software id="javara" cpt="2"/>
@@ -246,9 +250,10 @@
 			<Software id="formatfactory" cpt="14"/>
 			<Software id="xmediarecode" cpt="17"/>
 		</Category>
-		<Category name="Editeur" icon="auto:Grey" id="video:editor">
+		<Category name="Editeur" icon="auto:Grey" id="video:editor" expanded="yes">
 			<Software id="user_videopad-videopad_video_editor" cpt="1"/>
 			<Software id="virtualdub" cpt="5"/>
+			<Software id="user_vsdc_video_editor-vsdc_free_video_editor"/>
 		</Category>
 		<Category name="Lecteur" icon="auto:Grey" id="video:player">
 			<Software id="mediaplayerclassichc" cpt="5"/>

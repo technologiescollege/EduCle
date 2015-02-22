@@ -1,0 +1,17 @@
+<Languages version="0.2">
+	<sr-Latn-RS en_name="Serbian (Latin)" icon="srbija.png" date="2013-01-08" name="Srpski (Latinica)" version="3.50">
+		<Message>
+			<AppStillRunning>I dalje su neke aplikacije sa LiberKey-a otvorene.\n\nLiberKey diskonektovanje je otkazano.</AppStillRunning>
+		</Message>
+		<Messages>
+			<Errors>
+				<LkAppsCloseRunError>Dogodila se greška prilikom zatvaranja aplikacija.</LkAppsCloseRunError>
+				<LkDiskEjectorRunError>Dogodila se greška prilikom izbacivanja USB diska.</LkDiskEjectorRunError>
+			</Errors>
+			<Intro>LiberKey USB izbacivač zatvara sve otvorene programe sa USB diska.</Intro>
+		</Messages>
+		<Contributors>
+			<Contributor name="Bojan Pavlović" email="bojan.pavlovich@yahoo.com"/>
+		</Contributors>
+	</sr-Latn-RS>
+</Languages>

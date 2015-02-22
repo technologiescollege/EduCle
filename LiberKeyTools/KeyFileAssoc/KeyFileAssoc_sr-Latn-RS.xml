@@ -1,0 +1,270 @@
+<Languages version="0.2">
+	<sr-Latn-RS en_name="Serbian (Latin)" icon="srbija.png" date="2013-07-18" name="Srpski (Latinica)" version="3.50">
+		<About>
+			<caption>O</caption>
+			<CommandButtons>
+				<History_caption>&amp;Verzija istorije...</History_caption>
+				<OK_caption>&amp;Zatvori</OK_caption>
+				<Update_caption>&amp;Proveri za nadogradnje...</Update_caption>
+			</CommandButtons>
+			<Labels>
+				<LiberKeyExclu_caption>Ovaj softver može biti korišćen samo uz LiberKey</LiberKeyExclu_caption>
+				<LiberKeyPartner_caption>KFA je razvijena od strane LiberKey.com</LiberKeyPartner_caption>
+			</Labels>
+		</About>
+		<AddAction>
+			<caption>Nova akcija</caption>
+			<CommandButtons>
+				<Browse_caption>Pretraga...</Browse_caption>
+				<Cancel_caption>&amp;Otkaži</Cancel_caption>
+				<OK_caption>&amp;U redu</OK_caption>
+			</CommandButtons>
+			<EditCaption>Akcija promene za tip: %typedesc%</EditCaption>
+			<Labels>
+				<Action_caption>&amp;Akcija:</Action_caption>
+				<ActionAppPath_caption>Aplikacije korišćene za izvršavanje ove akcije:</ActionAppPath_caption>
+				<ActionArgs_caption>Parametri komandne linije:</ActionArgs_caption>
+			</Labels>
+			<Messages>
+				<ActionIsEmpty>Morate odrediti akciju.</ActionIsEmpty>
+				<ActionIsEmptyTitle>Tipovi fajlova</ActionIsEmptyTitle>
+				<AppNotFound>Izabran program nije pronađen. Proverite da li su ime i putanja ispravni.</AppNotFound>
+				<AppNotFoundTitle>Dodaj akciju</AppNotFoundTitle>
+			</Messages>
+		</AddAction>
+		<AppSelect>
+			<caption>Izbor povezanih portabilnih aplikacija</caption>
+			<CommandButtons>
+				<Cancel_caption>&amp;Otkaži</Cancel_caption>
+				<OK_caption>&amp;U redu</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<Loading_caption>Učitavanje liste dostupnog softvera...</Loading_caption>
+			</Labels>
+		</AppSelect>
+		<AppWarning>
+			<caption>Key Files Assoc&apos; - Rizik od konflikta sa drugim aplikacijama</caption>
+			<CommandButtons>
+				<OK_caption>&amp;U redu</OK_caption>
+				<RemoveAssocs_caption>Onesposobi povezivanje sada.</RemoveAssocs_caption>
+			</CommandButtons>
+			<Labels>
+				<Message_caption>KEY Files Assoc&apos; je detektovao izvršavanje aplikacije koja može biti problematična. Preporučujemo da onesposobite privremeno povezivanje fajlova pre menjanja Windows registra.</Message_caption>
+				<Title_caption>Upozorenje</Title_caption>
+			</Labels>
+		</AppWarning>
+		<AssocAdvance>
+			<caption>Izdanje tipa fajla</caption>
+			<CheckBoxs>
+				<ReplaceWinEntry_caption>Zameni sadašnje akcije za ovaj tip fajlova</ReplaceWinEntry_caption>
+				<WinEdit_caption>Dozvoli promene u &quot;Opcije foldera&quot;</WinEdit_caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Add_caption>&amp;Novo</Add_caption>
+				<Cancel_caption>&amp;Otkaži</Cancel_caption>
+				<ChangeIcon_caption>&amp;Promeni ikonicu...</ChangeIcon_caption>
+				<Default_caption>&amp;Po standardu</Default_caption>
+				<DelAction_caption>&amp;Ukloni</DelAction_caption>
+				<EditAction_caption>&amp;Promeni...</EditAction_caption>
+				<OK_caption>&amp;U redu</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<Actions_caption>&amp;Akcije:</Actions_caption>
+			</Labels>
+			<Messages>
+				<ActionDeleteConfirm>Da li ste sigurni da želite da uklonite ovu akciju?</ActionDeleteConfirm>
+				<ActionDeleteConfirmTitle>Tipovi datoteka</ActionDeleteConfirmTitle>
+			</Messages>
+		</AssocAdvance>
+		<Download>
+			<caption>Nadogradnja softvera</caption>
+			<CommandButtons>
+				<Cancel_caption>&amp;Otkaži</Cancel_caption>
+			</CommandButtons>
+			<Labels>
+				<Title_caption>Preuzimanje nadogradnje softvera...</Title_caption>
+			</Labels>
+		</Download>
+		<FileAssoc>
+			<caption>Tipovi fajlova povezani sa LiberKey portabilnim aplikacijama</caption>
+			<CommandButtons>
+				<Add_caption>&amp;Novo</Add_caption>
+				<Advanced_caption>&amp;Napredno...</Advanced_caption>
+				<Apply_caption>&amp;Potvrdi</Apply_caption>
+				<Cancel_caption>&amp;Otkaži</Cancel_caption>
+				<Delete_caption>&amp;Izbriši</Delete_caption>
+				<OK_caption>U redu</OK_caption>
+				<SelectApp_caption>Uredi...</SelectApp_caption>
+			</CommandButtons>
+			<Labels>
+				<AssocListTitle_caption>Registrovani tipovi fajlova:</AssocListTitle_caption>
+				<ExtInfo>Tipovi datoteka &apos;%1&apos; su &apos;%2&apos;. Da bi ste izmenili portabilne aplikacije povezane sa ovim fajlom kliknite na Napredno.</ExtInfo>
+				<ExtInfoNoExt>Da bi ste promenili parametre koji se odnose na &apos;%1&apos; tip elemente, kliknite na Napredno.</ExtInfoNoExt>
+				<FrameCaption_caption>Detalji o ekstenziji &apos;%1&apos;</FrameCaption_caption>
+				<FrameCaptionNoExt_caption>Detalji za &apos;%1&apos; tip</FrameCaptionNoExt_caption>
+				<OpenWithInfo_caption>Otvori pomoću:</OpenWithInfo_caption>
+			</Labels>
+			<Messages>
+				<AppExeNotFound>Greška prilikom povratka putanje izabrane portabilne aplikacije</AppExeNotFound>
+				<DeleteConfirm>Ako uklonite registrovanu ekstenziju fajla, biće nemoguće otvoriti fajlove sa ovom ekstenzijom pomoću dvoklika na ikonicu. \n\nDa li ste sigurni da želite ukloniti ovu ekstenziju?</DeleteConfirm>
+				<DeleteConfirmTitle>Tipovi fajlova</DeleteConfirmTitle>
+				<ExtExists>Ova ekstenzija je već povezana sa &apos;%1&apos; fajlovima</ExtExists>
+				<ExtExistsTitle>Tipovi fajlova</ExtExistsTitle>
+			</Messages>
+		</FileAssoc>
+		<General>
+			<AppActionPrefix>Otvori pomoću</AppActionPrefix>
+			<AppActionSufix>(LiberKey) </AppActionSufix>
+			<DefaultTypeName>Fajlovi %1</DefaultTypeName>
+		</General>
+		<History>
+			<caption>Key Files Assoc&apos; - Verzija istorije </caption>
+			<CommandButtons>
+				<Close_caption>&amp;Zatvori</Close_caption>
+				<Download_caption>Preuzmi izdanje %ver%...</Download_caption>
+			</CommandButtons>
+			<Messages>
+				<AppVersion>Verzija %ver%</AppVersion>
+				<New>Novo</New>
+				<NextVersion>(sledeća verzija...)</NextVersion>
+				<NoVersionInfo>Informacije o verziji nisu dostupne</NoVersionInfo>
+				<VersionAvailable>Dostupna nadogradnja</VersionAvailable>
+				<VersionDate>- %date%  </VersionDate>
+				<YourVersion>Vaša verzija</YourVersion>
+			</Messages>
+		</History>
+		<Loading>
+			<Labels>
+				<Info_caption>Učitavanje... </Info_caption>
+			</Labels>
+		</Loading>
+		<Main>
+			<Menus>
+				<About_caption>&amp;O...</About_caption>
+				<Apply_caption>Primeni LiberKey povezivanje</Apply_caption>
+				<Config_caption>Podešavanja povezivanja fajlova</Config_caption>
+				<Options_caption>&amp;Opcije...</Options_caption>
+				<Quit_caption>&amp;Izađi</Quit_caption>
+				<Restore_caption>Povrati povezivanje fajlova sa lokalnog kompjutera</Restore_caption>
+				<Test_caption>test </Test_caption>
+				<Web_caption>&amp;Poseti Key Files Assoc&apos; sajt...</Web_caption>
+			</Menus>
+		</Main>
+		<MergeAssocs>
+			<caption>Podešavanje nadogradnje</caption>
+			<CommandButtons>
+				<Cancel_caption>&amp;Odrediću na sledećem pokretanju...</Cancel_caption>
+				<MergeDefaultAssocs_caption>&amp;Potvrdi izabrana povezivanja</MergeDefaultAssocs_caption>
+				<SkipDefaultAssoc_caption>&amp;Nemoj da menjaš moja podešavanja!</SkipDefaultAssoc_caption>
+			</CommandButtons>
+			<Labels>
+				<Title_caption>Standardna konfiguracija povezivanja</Title_caption>
+				<UpdateInfo_caption>U listi ispod možete videti sva nova povezivanja povezana sa ovim novim izdanjem. Crvena povezivanja su već definisana u vašoj sadašnjoj konfiguraciji. Sva izabrana povezivanja u ovoj listi će biti dodata u vašu sadašnju konfiguraciju.</UpdateInfo_caption>
+			</Labels>
+		</MergeAssocs>
+		<Messages>
+			<ApplyDone>LiberKey portabilne aplikacije su sada povezane sa fajlovima.</ApplyDone>
+			<ApplyDoneTitle>LiberKey povezivanje portabilnih aplikacija</ApplyDoneTitle>
+			<ApplyError>Dogodila se greška prilikom pokušaja da se aktiviraju LiberKey povezivanja</ApplyError>
+			<ApplyErrorTitle>Greška u povezivanju fajlova</ApplyErrorTitle>
+			<ASuiteConfMissing>Fajl koji sadrži listu LiberKey portabilnih aplikacija nije pronađen!</ASuiteConfMissing>
+			<AutoRestoreDone>Ekstenzije fajlova nisu povraćene tokom poslednje upotrebe.</AutoRestoreDone>
+			<AutoRestoreDoneTitle>Povezivanja su vraćena</AutoRestoreDoneTitle>
+			<ExeSelection>Aplikacije|*.exe;*.bat;*.com|Svi fajlovi (*.*)|*.*</ExeSelection>
+			<NewVersionAvailable>Novo Key Files Assoc&apos; izdanje je dostupno</NewVersionAvailable>
+			<NewVersionInfo>Izdanje %version% na %versiondate% je dostupno.\n\n%description%\n\nDa li želite da ga preuzmete sada?</NewVersionInfo>
+			<NoAppUpdate>Vaše %appname% izdanje je savremeno.</NoAppUpdate>
+			<RestoreDone>Povezivanje fajlova je vraćeno</RestoreDone>
+			<RestoreDoneTitle>Povezivanja su vraćena</RestoreDoneTitle>
+			<RestoreError>Ekstenzije fajlova ne mogu biti vraćene.\nDogodila se greška prilikom vraćanja povezivanja fajlova.</RestoreError>
+			<RestoreErrorTitle>Greška u povezivanju fajla</RestoreErrorTitle>
+			<UpdateAppStillRunning>Softver je i dalje pokrenut.\nDa li želite da pokušate ponovo?</UpdateAppStillRunning>
+			<UpdateDone>Nadogradnja do verzije %version% je završena</UpdateDone>
+			<UpdateDownloadError>Dogodila se greška prilikom preuzimanja prošlog izdanja.\n\n%error%</UpdateDownloadError>
+			<UpdateErrorTitle>Greška prilikom nadogradnje</UpdateErrorTitle>
+			<UpdateExeError>Dogodila se greška prilikom nadogradnje softvera.\n\n%error%</UpdateExeError>
+			<UpdateInfoError>Dogodila se greška prilikom pokušaja da se dobiju informacije o najnovijen izdanju.</UpdateInfoError>
+			<UpdateTitle>Nadogradnja</UpdateTitle>
+		</Messages>
+		<NewType>
+			<caption>Napravi novu ekstenziju</caption>
+			<CommandButtons>
+				<Cancel_caption>&amp;Otkaži</Cancel_caption>
+				<OK_caption>&amp;U redu</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<Info_caption>Ekstenzija fajla:</Info_caption>
+			</Labels>
+			<Messages>
+				<NoExt>Morate odrediti ekstenziju.</NoExt>
+				<NoExtTitle>Tipovi fajlova</NoExtTitle>
+			</Messages>
+		</NewType>
+		<Options>
+			<caption>Key Files Assoc&apos; podešavanja</caption>
+			<CheckBoxs>
+				<AutoCheckVersionAtStart_caption>Proveri za nadogradnje na pokretanju programa</AutoCheckVersionAtStart_caption>
+				<ShowAssocToolTip_caption>Pokaži oblačić kada je povezivanje osposobljeno / vraćeno</ShowAssocToolTip_caption>
+				<UseLbkProxySettings_caption>Koristi LiberKey proksi podešavanja</UseLbkProxySettings_caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Cancel_caption>&amp;Otkaži</Cancel_caption>
+				<DelAssocErrors_caption>Ukloni izabrana povezivanja</DelAssocErrors_caption>
+				<OK_caption>&amp;U redu</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<AppsErrorsTitle_caption>Softver nije pronađen (povezivanja onesposobljena)</AppsErrorsTitle_caption>
+				<FastSwitchMode_caption>Sa duplim klikom na ikonicu u sistemu trey:</FastSwitchMode_caption>
+				<Language_caption>Jezik korisničkog interfejsa:</Language_caption>
+			</Labels>
+			<Messages>
+				<ActionCount>(1 akcija)</ActionCount>
+				<AppCounters>Aplikacije povezane sa %objcount% objekta (%actioncount% akcija)</AppCounters>
+				<NotFoundApp>(Aplikacija nije pronađena)</NotFoundApp>
+			</Messages>
+			<OptionButtons>
+				<optSystrayFastSwitchOFF_caption>Otvori podešavanje povezivanja</optSystrayFastSwitchOFF_caption>
+				<optSystrayFastSwitchON_caption>Poveži / Povrati LiberKey softver za povezivanje</optSystrayFastSwitchON_caption>
+			</OptionButtons>
+			<Tabs>
+				<ActionErrors>Neispravne akcije</ActionErrors>
+				<Options>Opcije</Options>
+			</Tabs>
+		</Options>
+		<SelectIcon>
+			<caption>Promeni ikonicu</caption>
+			<CommandButtons>
+				<Browse_caption>&amp;Pretraži...</Browse_caption>
+				<Cancel_caption>&amp;Otkaži</Cancel_caption>
+				<OK_caption>&amp;U redu</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<IconList_caption>&amp;Izaberite ikonicu iz liste ispod:</IconList_caption>
+				<IconPath_caption>&amp;Potražite ikonicu u ovom fajlu:</IconPath_caption>
+			</Labels>
+			<Messages>
+				<FileNotFound>Fajl nije pronađen: %1</FileNotFound>
+				<FilterAllFiles>Svi fajlovi</FilterAllFiles>
+				<FilterIconFiles>Fajlovi ikonice</FilterIconFiles>
+				<FilterLibraries>Biblioteke</FilterLibraries>
+				<FilterPrograms>Programi</FilterPrograms>
+				<OpenFileTitle>Promeni ikonicu</OpenFileTitle>
+			</Messages>
+		</SelectIcon>
+		<Update>
+			<caption>Nadogradnja softvera</caption>
+			<CommandButtons>
+				<Cancel_caption>&amp;Otkaži</Cancel_caption>
+			</CommandButtons>
+			<Labels>
+				<ClosingApp_caption>Zatvaranje aplikacije</ClosingApp_caption>
+				<ReplaceExe_caption>Nadogradnja softvera</ReplaceExe_caption>
+				<RunNewVersion_caption>Pokretanje nove verzije</RunNewVersion_caption>
+				<Title_caption>Instalacija nadogradnje softvera</Title_caption>
+			</Labels>
+		</Update>
+		<Contributors>
+			<Contributor name="Bojan Pavlović" email="bojan.pavlovich@yahoo.com"/>
+		</Contributors>
+	</sr-Latn-RS>
+</Languages>

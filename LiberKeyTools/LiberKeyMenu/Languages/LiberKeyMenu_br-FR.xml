@@ -1,0 +1,927 @@
+<Languages version="0.4">
+	<br-FR en_name="Breton" icon="bzh.png" date="2012-09-11" name="Brezhoneg" version="1.0">
+		<AppCategories>
+			<accessibility>Moned</accessibility>
+			<audio>Son</audio>
+			<audio:converter>Amdreiñ</audio:converter>
+			<audio:editor>Aozer</audio:editor>
+			<audio:ipod_manager>Merañ an IPOD</audio:ipod_manager>
+			<audio:player>Lenner</audio:player>
+			<audio:radio>Radio</audio:radio>
+			<audio:ripper>Riper</audio:ripper>
+			<audio:tagger>Tagger</audio:tagger>
+			<audio:text_to_speech>Sintez komzoù</audio:text_to_speech>
+			<audio:tools>Ostilhoù</audio:tools>
+			<audio-video>Video</audio-video>
+			<cd-dvd>CD - DVD</cd-dvd>
+			<cd-dvd:burning_tools>Engravañ</cd-dvd:burning_tools>
+			<cd-dvd:cover_printer>Moullañ golo pladennoù</cd-dvd:cover_printer>
+			<cd-dvd:image_tools>Merañ ar skeudennoù</cd-dvd:image_tools>
+			<development>Diorren</development>
+			<education>Deskadurezh</education>
+			<education:astronomy>Steredoniezh</education:astronomy>
+			<education:children>Bugale</education:children>
+			<education:drawing>Tresañ</education:drawing>
+			<education:geography>Douaroniezh</education:geography>
+			<education:music>Sonerezh</education:music>
+			<education:typing>Bizskrivañ</education:typing>
+			<file_management>Merañ ar restroù</file_management>
+			<file_management:backup>Saveteiñ</file_management:backup>
+			<file_management:cataloger>Rolladañ</file_management:cataloger>
+			<file_management:comparison>Keñveriadur</file_management:comparison>
+			<file_management:compression>Gwaskañ</file_management:compression>
+			<file_management:copy>Eilañ</file_management:copy>
+			<file_management:defragmenter>Divruzhunañ</file_management:defragmenter>
+			<file_management:directory_lister>Listad</file_management:directory_lister>
+			<file_management:disk_space_tool>Plas diac&apos;hub</file_management:disk_space_tool>
+			<file_management:duplicate_finder>Klask restroù e doubl</file_management:duplicate_finder>
+			<file_management:manager>Merer</file_management:manager>
+			<file_management:recovery>Adkavout war lec&apos;h un diverkadur</file_management:recovery>
+			<file_management:renamer>Adenvel</file_management:renamer>
+			<file_management:search>Klask</file_management:search>
+			<file_management:splitter>Didroc&apos;hañ</file_management:splitter>
+			<file_management:synchronization>Kempredañ</file_management:synchronization>
+			<file_management:tools>Ostilhoù</file_management:tools>
+			<file_management:universal_viewer>Heweler hollek</file_management:universal_viewer>
+			<games>C&apos;hoarioù</games>
+			<games:action>Stourmadenn</games:action>
+			<games:card>Kartoù</games:card>
+			<games:puzzle>C&apos;hoarioù mil tamm</games:puzzle>
+			<games:reflexion>Preder</games:reflexion>
+			<games:strategy>Strategiezh</games:strategy>
+			<graphics-photo>Luc&apos;hskeudennoù</graphics-photo>
+			<graphics-photo:3d>3D</graphics-photo:3d>
+			<graphics-photo:color_picker>Pibell</graphics-photo:color_picker>
+			<graphics-photo:editor>Aozer</graphics-photo:editor>
+			<graphics-photo:effect_and_filter>Efedoù ha silioù</graphics-photo:effect_and_filter>
+			<graphics-photo:icon_editor>Aozer arlunioù</graphics-photo:icon_editor>
+			<graphics-photo:screen_capture>Eilañ ar skramm</graphics-photo:screen_capture>
+			<graphics-photo:tools>Ostilhoù</graphics-photo:tools>
+			<graphics-photo:vector_converter>Sturiadellaat</graphics-photo:vector_converter>
+			<graphics-photo:viewer>Heweler</graphics-photo:viewer>
+			<internet>Kenrouedad</internet>
+			<internet:bookmark_manager>Merañ</internet:bookmark_manager>
+			<internet:browser>Merdeer</internet:browser>
+			<internet:download>Pellgargañ</internet:download>
+			<internet:email>Posteloù</internet:email>
+			<internet:ftp>FTP</internet:ftp>
+			<internet:instant_messenger>Postelerezhioù</internet:instant_messenger>
+			<internet:rss_reader>Lenner RSS</internet:rss_reader>
+			<internet:website_authoring>Krouiñ lec&apos;hiennoù Kenrouedad</internet:website_authoring>
+			<internet:website_copier>Sunañ al lec&apos;hiennoù</internet:website_copier>
+			<multimedia>Liesvedia</multimedia>
+			<networking-server>Rouedadoù - Servijerien</networking-server>
+			<networking-server:bandwidth_monitor>Bann drafet</networking-server:bandwidth_monitor>
+			<networking-server:configuration>Kefluniadur</networking-server:configuration>
+			<networking-server:network_analyzer>Dielfennadur ar rouedad</networking-server:network_analyzer>
+			<networking-server:remote_control>Pellsturiañ</networking-server:remote_control>
+			<networking-server:scanner>Skanner</networking-server:scanner>
+			<networking-server:server>Servijer</networking-server:server>
+			<networking-server:settings_manager>Merer profiloù</networking-server:settings_manager>
+			<networking-server:telnet-ssh_client>Arval Telnet-SSH</networking-server:telnet-ssh_client>
+			<networking-server:tools>Ostilhoù</networking-server:tools>
+			<office>Bureveg</office>
+			<office:calculator>Jederezh</office:calculator>
+			<office:calendar>Deiziataer</office:calendar>
+			<office:chrono>Padventer</office:chrono>
+			<office:desktop_tools>Ostilhoù burev</office:desktop_tools>
+			<office:desktop_tools:application_launcher>Lañser arload</office:desktop_tools:application_launcher>
+			<office:desktop_tools:automation>Otomatizañ</office:desktop_tools:automation>
+			<office:desktop_tools:clipboard_manager>Merañ ar golver</office:desktop_tools:clipboard_manager>
+			<office:desktop_tools:clock>Horolaj</office:desktop_tools:clock>
+			<office:desktop_tools:customization>Personelaat</office:desktop_tools:customization>
+			<office:desktop_tools:desktop_note>Dalc&apos;her-soñjoù</office:desktop_tools:desktop_note>
+			<office:desktop_tools:keyboard-mouse>Klavier - logodenn</office:desktop_tools:keyboard-mouse>
+			<office:desktop_tools:save_desktop_icon>Saveteiñ arlunioù ar burev</office:desktop_tools:save_desktop_icon>
+			<office:desktop_tools:virtual_desktop>Burevioù amwir</office:desktop_tools:virtual_desktop>
+			<office:desktop_tools:zoom>Zoumoù</office:desktop_tools:zoom>
+			<office:diagram_editor>Merer diagrammoù</office:diagram_editor>
+			<office:finance_manager>Merañ an arc&apos;hant</office:finance_manager>
+			<office:font_manager>Merañ an arouezennoù</office:font_manager>
+			<office:note_manager>Merañ notennoù</office:note_manager>
+			<office:office_suite>Heuliadenn burevek</office:office_suite>
+			<office:pdf>PDF</office:pdf>
+			<office:presentation>Kinnig</office:presentation>
+			<office:task_manager>Merer trevelloù</office:task_manager>
+			<office:text_editor>Aozer testennoù</office:text_editor>
+			<office:tutorial_creator>Krouiñ tutorialoù</office:tutorial_creator>
+			<office:unit_converter>Amdroerioù</office:unit_converter>
+			<office:universal_viewer>Heweler hollek</office:universal_viewer>
+			<security>Surentez</security>
+			<security:anti_virus-spyware>Enepvirus-spyware</security:anti_virus-spyware>
+			<security:encryption>Rinegañ</security:encryption>
+			<security:integrity_checker>Kontroliñ an anterinder</security:integrity_checker>
+			<security:password_manager>Merer gerioù-tremen</security:password_manager>
+			<security:privacy_tool>Gwarez buhez prevez</security:privacy_tool>
+			<security:secure_deletion>Diverkeroù roudoù</security:secure_deletion>
+			<security:tools>Ostilhoù</security:tools>
+			<system_utilities>Ostilhoù reizhiad</system_utilities>
+			<system_utilities:benchmark>Askorad</system_utilities:benchmark>
+			<system_utilities:benchmark:hard_disk>Pladenn galet</system_utilities:benchmark:hard_disk>
+			<system_utilities:benchmark:universal>Hollek</system_utilities:benchmark:universal>
+			<system_utilities:cleaner-uninstaller>Diverkañ - distaliañ</system_utilities:cleaner-uninstaller>
+			<system_utilities:emulator>Emulator</system_utilities:emulator>
+			<system_utilities:hex_editor>Aozer Hex</system_utilities:hex_editor>
+			<system_utilities:information>Titouroù</system_utilities:information>
+			<system_utilities:information:file_monitoring>Evezhiañ moned ar restroù</system_utilities:information:file_monitoring>
+			<system_utilities:information:hardware_monitoring>Evezhiañ ar periant</system_utilities:information:hardware_monitoring>
+			<system_utilities:information:inventory>Renabl</system_utilities:information:inventory>
+			<system_utilities:information:process>Argerzh</system_utilities:information:process>
+			<system_utilities:information:processor>Prosesor</system_utilities:information:processor>
+			<system_utilities:information:service>Servij</system_utilities:information:service>
+			<system_utilities:information:startup_manager>Merañ al loc&apos;hañ</system_utilities:information:startup_manager>
+			<system_utilities:information:usb_device>Trobarzhelloù USB</system_utilities:information:usb_device>
+			<system_utilities:information:video_card>Kartenn video</system_utilities:information:video_card>
+			<system_utilities:registry>Marilh</system_utilities:registry>
+			<system_utilities:registry:backup>Gwarediñ</system_utilities:registry:backup>
+			<system_utilities:registry:comparison>Keñveriadur</system_utilities:registry:comparison>
+			<system_utilities:registry:compression>Gwaskadur</system_utilities:registry:compression>
+			<system_utilities:registry:monitoring>Evezhiañ</system_utilities:registry:monitoring>
+			<system_utilities:registry:repair>Dreserezh</system_utilities:registry:repair>
+			<system_utilities:registry:search>Klask</system_utilities:registry:search>
+			<system_utilities:repair>Dresañ</system_utilities:repair>
+			<system_utilities:tests>Prouadoù</system_utilities:tests>
+			<system_utilities:tests:burning_test>Burning test</system_utilities:tests:burning_test>
+			<system_utilities:tests:hard_disk>Pladenn galet</system_utilities:tests:hard_disk>
+			<system_utilities:tests:monitor>Skramm</system_utilities:tests:monitor>
+			<system_utilities:tests:ram>RAM</system_utilities:tests:ram>
+			<system_utilities:tools>Ostilhoù</system_utilities:tools>
+			<system_utilities:tweaker>Tweaker</system_utilities:tweaker>
+			<system_utilities:update_checker>Hivizadennoù</system_utilities:update_checker>
+			<video>Video</video>
+			<video:authoring>Authoring</video:authoring>
+			<video:capture>Tapadennoù</video:capture>
+			<video:cataloger>Kataloger</video:cataloger>
+			<video:converter>Amdroerioù</video:converter>
+			<video:editor>Aozer</video:editor>
+			<video:player>Lenner</video:player>
+			<video:repair>Dresañ</video:repair>
+			<video:tools>Ostilhoù</video:tools>
+		</AppCategories>
+		<AppInfo>
+			<CheckBoxs>
+				<AutoShowInfo_Caption>Diskwel tiouroù emgefre</AutoShowInfo_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<AppGoToWebSite_ToolTip>Gweladenniñ lec&apos;hienn an aozer</AppGoToWebSite_ToolTip>
+				<AppInstall_Caption>Staliañ bremañ !</AppInstall_Caption>
+				<AppOpenLicenseFile_ToolTip>Diskwel an aotre</AppOpenLicenseFile_ToolTip>
+				<AppProperties_Caption>Perzhioù...</AppProperties_Caption>
+				<AppRun_Caption>Seveniñ</AppRun_Caption>
+				<AppUpdate_Caption>Hizivaat</AppUpdate_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppEditorLabel_Caption>Aozer :</AppEditorLabel_Caption>
+				<AppLicenseLabel_Caption>Aotre :</AppLicenseLabel_Caption>
+				<AppPlatformLabel_Caption>Savenn</AppPlatformLabel_Caption>
+			</Labels>
+		</AppInfo>
+		<AppList>
+			<CommandButtons>
+				<AddApp_Caption>Ouzhpennañ arloadoù</AddApp_Caption>
+				<AddApps_Caption>Ouzhpennañ arloadoù</AddApps_Caption>
+				<AddApps_ToolTip>Klikit amañ evit ouzhpennañ arloadoù en ho Liberkey</AddApps_ToolTip>
+				<Browse_ToolTip>Digeriñ kavlec&apos;h an arload</Browse_ToolTip>
+				<Cancel_Caption>Serriñ</Cancel_Caption>
+				<Reinstall_Caption>Staliañ en-dro</Reinstall_Caption>
+				<Reinstall_ToolTip>Staliañ en-dro un arload a servij adkrouiñ berradennoù el lanserioù, adkargañ titouroù an arload hag arloañ en-dro kevrediñ ar restroù padennek evit an arload-mañ.</Reinstall_ToolTip>
+				<Uninstall_Caption>Distaliañ</Uninstall_Caption>
+				<Uninstall_ToolTip>Klikit amañ evit distaliañ an arload-mañ eus ho Liberkey. Tout pezh a zo stag outi a vo diverket : Lañser, titouroù, kevrediñ restroù padennek, programmoù ha roadennoù kevredet.</Uninstall_ToolTip>
+			</CommandButtons>
+			<Labels>
+				<AppNameLabel_Caption>Anv an arload</AppNameLabel_Caption>
+				<FolderSizeLabel_Caption>0 Ko</FolderSizeLabel_Caption>
+				<Title_Caption>Arloadoù hezoug staliet</Title_Caption>
+			</Labels>
+			<Messages>
+				<Loading>Kargañ ar roll...</Loading>
+			</Messages>
+		</AppList>
+		<AppProperties>
+			<AutoRunMode>
+				<Never>Morse</Never>
+				<ShutDown>Pa vez serret</ShutDown>
+				<ShutDownSingle>Pa vez serret pa n&apos;ez a ket en-dro</ShutDownSingle>
+				<Startup>Bepred pa vez loc&apos;het</Startup>
+				<StartupSingle>D&apos;al loc&apos;hañ ma n&apos;eo ket bet enaouet c&apos;hoazh</StartupSingle>
+			</AutoRunMode>
+			<CommandButtons>
+				<AppGoToWebSite_Caption>Gweladenniñ al lec&apos;hienn</AppGoToWebSite_Caption>
+				<ApplyChanges_Caption>Arloañ</ApplyChanges_Caption>
+				<AppOpenLicenseFile_Caption>Sellet an aotre</AppOpenLicenseFile_Caption>
+				<AppUninstall_Caption>Disataliañ an arload-mañ eus ma Liberkey</AppUninstall_Caption>
+				<AppUninstall_ToolTip>Klikit amañ evit distaliañ an arload-mañ eus ho Liberkey. Tout pezh a zo stag outi a vo diverket : lañser, titouroù, kevrediñ restroù padennek, programmoù hag ar roadennoù kevredet.</AppUninstall_ToolTip>
+				<AppUpdate_Caption>Hizivaat...</AppUpdate_Caption>
+				<Cancel_Caption>Serriñ</Cancel_Caption>
+			</CommandButtons>
+			<FileSources>Stumm al liamm</FileSources>
+			<Labels>
+				<AppDescriptionLabel_Caption>Deskrivadur an arload</AppDescriptionLabel_Caption>
+				<AppEditorLabel_Caption>Aozer :</AppEditorLabel_Caption>
+				<AppIconLabel_Caption>Arlun personelaet :</AppIconLabel_Caption>
+				<AppLicenseLabel_Caption>Aotre :</AppLicenseLabel_Caption>
+				<AppNameLabel_Caption>Anv :</AppNameLabel_Caption>
+				<AppParamsLabel_Caption>Perzhioù :</AppParamsLabel_Caption>
+				<AppPathLabel_Caption>Hent moned ar restr erounezadus / teuliad / pajenn web / teul :</AppPathLabel_Caption>
+				<AppPlatformLabel_Caption>Savenn</AppPlatformLabel_Caption>
+				<AppVersionLabel_Caption>Stumm :</AppVersionLabel_Caption>
+				<AppWorkDirLabel_Caption>Kavlec&apos;h evit labouraat</AppWorkDirLabel_Caption>
+				<Title_Caption>Perzhioù an arload</Title_Caption>
+			</Labels>
+			<Messages>
+				<BrowseForExe>Diuzit ar restr erounezadus eus an arload</BrowseForExe>
+				<BrowseForFileToOpen>Diuzit ar restr ho peus c&apos;hoant da zigeriñ</BrowseForFileToOpen>
+				<BrowseForLicense>Diuzit ar restr, lec&apos;h m&apos;emañ aotre an arload</BrowseForLicense>
+				<ClearLisenseFile>Diverkañ al liamm, lec&apos;h m&apos;emañ restr an aotre</ClearLisenseFile>
+				<ClearWebAddress>Diverkañ al liamm davet al lec&apos;hienn</ClearWebAddress>
+				<SelectAppWorkDir>Diuzit kavlec&apos;h labouraat an arload</SelectAppWorkDir>
+				<SetLicenseAddr>Bizskrivit chomlec&apos;h URL eus restr an aotre</SetLicenseAddr>
+				<SetWebSiteAddr>Bizskrivit chomlec&apos;h URL an aozer :</SetWebSiteAddr>
+			</Messages>
+			<Tabs>
+				<Application>Arload</Application>
+				<AppMore>Araokaet</AppMore>
+			</Tabs>
+			<WindowStartMode>
+				<Maximized>Prenestr brasaet</Maximized>
+				<Minimized>Prenestr bihanaet</Minimized>
+				<Normal>Prenestr boutin</Normal>
+			</WindowStartMode>
+		</AppProperties>
+		<CategoryProps>
+			<CheckBoxs>
+				<EditLiberKeyCategory_Caption>Adenvel rummad al Liberkey</EditLiberKeyCategory_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Apply_Caption>Mat eo</Apply_Caption>
+				<Cancel_Caption>Nullañ</Cancel_Caption>
+			</CommandButtons>
+			<Labels>
+				<CategoryHotKey_Caption>Berradenn al lañser nij :</CategoryHotKey_Caption>
+				<CatIconLabel_Caption>Arlun ar rummad :</CatIconLabel_Caption>
+				<CatNameLabel_Caption>Anv ar rummad :</CatNameLabel_Caption>
+				<Title_Caption>Perzhioù ar rummad :</Title_Caption>
+			</Labels>
+		</CategoryProps>
+		<Config>
+			<About>
+				<Version>Stumm %ver%</Version>
+			</About>
+			<CheckBoxs>
+				<AppHotKeysMemoPopup_Caption>Diskwel ur c&apos;hounadur a-raok loc&apos;hañ un arload</AppHotKeysMemoPopup_Caption>
+				<AutoCloseApps_Caption>Serriñ an arloadoù hezoug pa vez klozet al lañser</AutoCloseApps_Caption>
+				<AutoCollapseOnHide_Caption>Pa vez bihanaet, distreiñ da bennelfenn al lañser</AutoCollapseOnHide_Caption>
+				<AutoHideMenuOnAppRun_Caption>Kuzhaat al lañser pa vez loc&apos;het un arload</AutoHideMenuOnAppRun_Caption>
+				<AutoRemoveDrive_Caption>Ur wech serret al lañser, dilugañ an trobarzhell</AutoRemoveDrive_Caption>
+				<AutoRunLiberKey_Caption>Loc&apos;hañ al Liberkey asambles gant Windows</AutoRunLiberKey_Caption>
+				<AutoShowAppInfo_Caption>Diskwel titouroù an arloadoù</AutoShowAppInfo_Caption>
+				<ConfirmCategoryDeletion_Caption>Kadarnaat pa vez diverket ar rummadoù</ConfirmCategoryDeletion_Caption>
+				<ConfirmShortcutDeletion_Caption>Kadarnaat pa vez diverket ar berradennoù</ConfirmShortcutDeletion_Caption>
+				<CreateTempSendToShortcut_Caption>Berradenn badennek &quot;Kas davet / Ma restroù hezoug&quot;</CreateTempSendToShortcut_Caption>
+				<DisableAllEffects_Caption>Diweredekaat an holl efedoù</DisableAllEffects_Caption>
+				<DisableControlsEffects_Caption>Diweredekaat ar fiñvskeudennoù eus elfennoù an etrefas</DisableControlsEffects_Caption>
+				<DisableDialogsEffects_Caption>Diweredekaat fiñvskeudennoù ar prenestroù</DisableDialogsEffects_Caption>
+				<DisableMenuEffects_Caption>Diweredekaat fiñvskeudennoù al lañserioù</DisableMenuEffects_Caption>
+				<DisplayClock_Caption>Diskwel an horolaj</DisplayClock_Caption>
+				<DontShowEmptyDesc_Caption>Nemet pa vez goulo an diskrivadur</DontShowEmptyDesc_Caption>
+				<EnableAppHotKeys_Caption>Gweredekaat berradenoù an touchennaoueg evit loc&apos;hañ an arloadoù</EnableAppHotKeys_Caption>
+				<EnableAppsAutoStart_Caption>Gweredekaat ar seveniñ emgefre eus an arloadoù</EnableAppsAutoStart_Caption>
+				<HideClockSeconds_Caption>Arabat diskwel biz an eilennoù</HideClockSeconds_Caption>
+				<HotKeyFloatMenu_Caption>Digeriñ al lañser nij</HotKeyFloatMenu_Caption>
+				<HotKeyMain_Caption>Lañser pennañ</HotKeyMain_Caption>
+				<SingleClicAppRun_Caption>Seveniñ an arloadoù en ur c&apos;hlik nemetken</SingleClicAppRun_Caption>
+				<SingleClicCategoryExpand_Caption>Digeriñ ar rummadoù en ur c&apos;hlik nemetken</SingleClicCategoryExpand_Caption>
+				<ToolsAutoOpenLiberKeyNews_Caption>Digeriñ emgefreek ar prenestr </ToolsAutoOpenLiberKeyNews_Caption>
+				<ToolsCheckAppUpdates_Caption>Hizivaat an arloadoù</ToolsCheckAppUpdates_Caption>
+				<ToolsCheckLBKUpdates_Caption>Hizivaat ar savenn Liberkey</ToolsCheckLBKUpdates_Caption>
+				<ToolsCheckLiberKeyNews_Caption>Keleier</ToolsCheckLiberKeyNews_Caption>
+				<ToolsDoOnlineChecks_Caption>Gweredekaat ar gwiriañ emgefreek</ToolsDoOnlineChecks_Caption>
+				<ToolsQuitKFA_Caption>Diweredekaat kevrediñ ar restroù pa vez klozet</ToolsQuitKFA_Caption>
+				<ToolsQuitPDS_Caption>Dilemel ar berradennoù hezoug pa vez klozet</ToolsQuitPDS_Caption>
+				<ToolsStartKFA_Caption>Gweredekaat kevrediñ ar restroù pa vez loc&apos;het</ToolsStartKFA_Caption>
+				<ToolsStartPDS_Caption>Ouzhpennañ ar berradennoù hezoug pa vez loc&apos;het</ToolsStartPDS_Caption>
+				<UseClearTypeFonts_Caption>Implijout Clear Type evit diskwel fontoù ar skramm</UseClearTypeFonts_Caption>
+				<UseMenuAppsAssoc_Caption>Kevrediñ al Liberkey gant an holl restroù</UseMenuAppsAssoc_Caption>
+				<UseProxy_Caption>Implijout ur servijer proksi evit ar moned war ar genrouedad</UseProxy_Caption>
+				<VoiceOver_Caption>Gweredekaat al lenn eus an destenn pa vez gournijet an elfennoù.</VoiceOver_Caption>
+				<WindowZoom_Caption>Gweredekaat zoum emgefreek ar prenestroù</WindowZoom_Caption>
+				<ZoomMenuFont_Caption>Kemmañ font al Lañserioù nij</ZoomMenuFont_Caption>
+				<ZoomMenuFontAntialias_Caption>Antialias</ZoomMenuFontAntialias_Caption>
+				<ZoomMenuFontBold_Caption>Tev</ZoomMenuFontBold_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<ApplyChanges_Caption>Arloañ</ApplyChanges_Caption>
+				<AutoRunDown_ToolTip>Diskenn er roll</AutoRunDown_ToolTip>
+				<AutoRunLocate_ToolTip>Kavout ar verradenn el lañser</AutoRunLocate_ToolTip>
+				<AutoRunProperties_ToolTip>Aozañ perzhioù ar verradenn</AutoRunProperties_ToolTip>
+				<AutoRunRemove_ToolTip>Nullañ mont en-dro emgefreek ar verradenn-mañ</AutoRunRemove_ToolTip>
+				<AutoRunUp_ToolTip>Pignaat er roll</AutoRunUp_ToolTip>
+				<Cancel_Caption>Klozañ</Cancel_Caption>
+				<CopyTechnicalInfo_Caption>Eilañ ar roll er golver</CopyTechnicalInfo_Caption>
+				<CreateAccount_Caption>Klikit amañ evit krouiñ ho kont. Digoust eo !</CreateAccount_Caption>
+				<KBSCRemove_ToolTip>Dilemel berradenn ar c&apos;hlavier</KBSCRemove_ToolTip>
+				<SendTechnicalInfo_Caption>Kas</SendTechnicalInfo_Caption>
+			</CommandButtons>
+			<Labels>
+				<AccessibilityInfo_Caption>Reoliñ an dibarzhioù monedusted</AccessibilityInfo_Caption>
+				<Animations_Caption>Fiñvskeudennoù</Animations_Caption>
+				<AppHotKeysMemoPopupDuration_Caption>Padelezh diskwel ar c&apos;hounadur : (eil.) :\n</AppHotKeysMemoPopupDuration_Caption>
+				<AppSetupInfo_Caption>Kefluniañ stalier arloadoù al Liberkey</AppSetupInfo_Caption>
+				<AppUpdateInfo_Caption>Kefluniañ hizivadennoù arloadoù ho Liberkey</AppUpdateInfo_Caption>
+				<AutoCheckOptions_Caption>Gwiriañ emgefreek</AutoCheckOptions_Caption>
+				<AutoRunDelay_Caption>Padelezh a-raok an em-seveniñ (eiladennoù)</AutoRunDelay_Caption>
+				<AutoRunEachDelay_Caption>Padelezh etre pep seveniñ (eiladennoù)</AutoRunEachDelay_Caption>
+				<AutorunInfo_Caption>Merañ an arloadoù sevenet pa vez loc&apos;het pe serret al Liberkey :</AutorunInfo_Caption>
+				<ClearTypeRestart_Caption>(Bez e rankit loc&apos;hañ en-dro al lañser)</ClearTypeRestart_Caption>
+				<ColorsInfo_Caption>Liv pennañ al lañser hag ar prenestroù</ColorsInfo_Caption>
+				<Confirmations_Caption>Kadarnaat</Confirmations_Caption>
+				<CreateAccountLabel_Caption>Kont ebet c&apos;hoazh ?</CreateAccountLabel_Caption>
+				<CustomBrightnessLabel_Caption>Sklaerijenn</CustomBrightnessLabel_Caption>
+				<CustomColorInfo_Caption>Personelaat al liv</CustomColorInfo_Caption>
+				<CustomHueRotationLabel_Caption>Tint</CustomHueRotationLabel_Caption>
+				<CustomSaturationLabel_Caption>Peurintradur</CustomSaturationLabel_Caption>
+				<DefaultEffectSet>Efedoù dre ziouer</DefaultEffectSet>
+				<EffectSetLabel_Caption>Strobad efedoù</EffectSetLabel_Caption>
+				<FileAssocUpdatesOnlyInfo_Caption>Kemmet vez ar c&apos;hevrediñ restroù pa vez ouzhpennet arloadoù. N&apos;int ket da goulz an hizivadennoù.</FileAssocUpdatesOnlyInfo_Caption>
+				<Fonts_Caption>Fontoù</Fonts_Caption>
+				<Gadgets_Caption>Bitrakoù</Gadgets_Caption>
+				<KeyboardShortcutsInfo_Caption>Berradennoù ar c&apos;hlavier implijet gant lañser al Liberkey</KeyboardShortcutsInfo_Caption>
+				<KFAoptions_Caption>Kevrediñ ar restroù ouzh an arloadoù hezoug</KFAoptions_Caption>
+				<LangAuthorEmailLabel_Caption>Postel :</LangAuthorEmailLabel_Caption>
+				<LangAuthorNameLabel_Caption>Aozer :</LangAuthorNameLabel_Caption>
+				<LangAuthorWebsiteLabel_Caption>Lec&apos;hienn :</LangAuthorWebsiteLabel_Caption>
+				<LangContributors_Caption>O deus kemeret  perzh :</LangContributors_Caption>
+				<LangContributorsLabel_Caption>O deus kemeret perzh :</LangContributorsLabel_Caption>
+				<LanguagesInfo_Caption>Diuziñ yezh etrefas an implijer</LanguagesInfo_Caption>
+				<LangVersionLabel_Caption>Stumm :</LangVersionLabel_Caption>
+				<MaxRecentCount_Caption>Niver brasañ an arloadoù bet &quot;implijet n&apos;eus ket pell&quot; e memor</MaxRecentCount_Caption>
+				<MaxVisibleMostUsed_Caption>Niver brasañ an arloadoù el lañser &quot;muiañ implijet&quot; :</MaxVisibleMostUsed_Caption>
+				<MenuAccess_Caption>Moned e lañser al Liberkey</MenuAccess_Caption>
+				<MenuDelay_Caption>Amzer digeriñ al lañserioù</MenuDelay_Caption>
+				<MenuDelayMS_Caption>Milieilennoù</MenuDelayMS_Caption>
+				<MenuIconActions_Caption>Arlun an takad gouzav :</MenuIconActions_Caption>
+				<MenuKeyboardShortcuts_Caption>Berradennoù ar c&apos;hlavier :</MenuKeyboardShortcuts_Caption>
+				<Misc_Caption>A bep seurt</Misc_Caption>
+				<Navigation_Caption>Merdeiñ</Navigation_Caption>
+				<NeverUpdateFileAssocInfo_Caption>Dicheñch e chom kevrediñ ar restroù pa vez hizivaet, pe ouzhpennet arloadoù nevez.</NeverUpdateFileAssocInfo_Caption>
+				<NotificationsOptions_Caption>Kemennoù</NotificationsOptions_Caption>
+				<Password_Caption>tremen-ger :</Password_Caption>
+				<PDSoptions_Caption>Berradennoù hezoug war ar burev</PDSoptions_Caption>
+				<PlatformVersionInfo_Caption>Bez e c&apos;hellit goulenn titouroù deknikel diwar savenn al Liberkey en ur skriv b&apos;ar forom. Klikit war &quot;Eilañ ar roll&quot; evit gellout pegañ anezho da heul en ho kemenadenn.</PlatformVersionInfo_Caption>
+				<ProxyHost_Caption>Anv an ostiz pe chomlec&apos;h IP :</ProxyHost_Caption>
+				<ProxyInfo_Caption>Ma rankit tremen dre ur servijer proksi evit moned er genrouedad : leuniañ ar maeziennoù da heul :</ProxyInfo_Caption>
+				<ProxyPassword_Caption>tremen-ger</ProxyPassword_Caption>
+				<ProxyPort_Caption>Porzh :</ProxyPort_Caption>
+				<ProxyUser_Caption>Anv an implijer :</ProxyUser_Caption>
+				<QuitOptions_Caption>Klozañ emgefreek, digevreañ</QuitOptions_Caption>
+				<RecentAndMostUsed_Caption>Roll istor implij an arloadoù</RecentAndMostUsed_Caption>
+				<StartupWindowShowAlways_Caption>Diskwell bepred al lañser</StartupWindowShowAlways_Caption>
+				<StartupWindowShowNever_Caption>Arabat diskwel al lañser</StartupWindowShowNever_Caption>
+				<StartupWindowShowPrevious_Caption>Diskwel al lañser ma oa gwelus en ur guitaat</StartupWindowShowPrevious_Caption>
+				<StartupWindowStateLabel_Caption>Pa vez loc&apos;het :</StartupWindowStateLabel_Caption>
+				<Title_Caption>Lañser al Liberkey - Kefluniadur</Title_Caption>
+				<TrayLeftClickActionLabel_Caption>Klik kleiz</TrayLeftClickActionLabel_Caption>
+				<TrayRightClickActionLabel_Caption>Klik dehou</TrayRightClickActionLabel_Caption>
+				<UpdateAllAppsInfo_Caption>An hizivadennoù kentwir ha diret a vo staliet holl en un doare emgefreek.</UpdateAllAppsInfo_Caption>
+				<UpdateAutoStartInfo_Caption>An hizivadennoù kentwir a vo staliet en un doare emgefreek</UpdateAutoStartInfo_Caption>
+				<UpdateFileAssocInfo_Caption>Pa vez ouzhpennet un arload pe hizivaet gant ar stalier, kevredet eo dre ret gant ar restroù aozet gantañ.</UpdateFileAssocInfo_Caption>
+				<UpdateNoUserAlertInfo_Caption>Diverk kemennadennoù an hizivadennoù pa vez loc&apos;het al Liberkey. Kemennet e viot memestra pa vo loc&apos;het un arload.</UpdateNoUserAlertInfo_Caption>
+				<UpdateUIAlertInfo_Caption>Bez e c&apos;hellit diskwel roll an hizivadennoù ha dibab ar re e fell deoc&apos;h arloañ.</UpdateUIAlertInfo_Caption>
+				<UserLoginInfo_Caption>N&apos;eus ket ezhomm ken bezañ anavezet evit gellet hizivaat an arloadoù. Ar maeziennoù a c&apos;hell chom goullo.</UserLoginInfo_Caption>
+				<UserName_Caption>Anv an implijer :</UserName_Caption>
+				<ZoomMenuFontNameLabel_Caption>Fontoù :</ZoomMenuFontNameLabel_Caption>
+				<ZoomMenuFontSizeLabel_Caption>Ment :</ZoomMenuFontSizeLabel_Caption>
+			</Labels>
+			<OptionButtons>
+				<optAlwaysUpdateFileAssoc_Caption>Hizivaat bepred kevrediñ ar restroù</optAlwaysUpdateFileAssoc_Caption>
+				<optAutoRunAtStartup_Caption>Pa vez loc&apos;het</optAutoRunAtStartup_Caption>
+				<optAutoRunOnQuit_Caption>Pa vez serret</optAutoRunOnQuit_Caption>
+				<optMenuDelayCustom_Caption>Personelaet</optMenuDelayCustom_Caption>
+				<optMenuDelayDefault_Caption>Dre ziouer</optMenuDelayDefault_Caption>
+				<optNeverUpdateFileAssoc_Caption>Arabat kemmañ kevrediñ ar restroù</optNeverUpdateFileAssoc_Caption>
+				<optUpdateAllApps_Caption>Staliañ emgefreek an hizivadennoù</optUpdateAllApps_Caption>
+				<optUpdateAutoStart_Caption>Pellgargañ ha staliañ emgefreek an hizivadennoù</optUpdateAutoStart_Caption>
+				<optUpdateFileAssocNewApps_Caption>Kefluniañ kevrediñ an arloadoù nevez</optUpdateFileAssocNewApps_Caption>
+				<optUpdateNoUserAlert_Caption>Kemenn ac&apos;hanon pa vez loc&apos;het an arloadoù, nemetken.</optUpdateNoUserAlert_Caption>
+				<optUpdateUIAlert_Caption>Diskwel un arlun hag ur gemennadenn </optUpdateUIAlert_Caption>
+				<optUpdateUserAlert_Caption>Kemenn ac&apos;hanon pa vo hizivadennoù bleinek</optUpdateUserAlert_Caption>
+			</OptionButtons>
+			<Options>
+				<About>A-zivout</About>
+				<Accessibility>Monedusted</Accessibility>
+				<Advanced>Dibarzhioù resis</Advanced>
+				<AppSetup>Staliañ an arloadoù</AppSetup>
+				<Autorun>Loc&apos;hañ emgefreek</Autorun>
+				<AutoUpdate>Hizivadennoù emgefreek</AutoUpdate>
+				<Colors>Livioù</Colors>
+				<Effects>Etrefas an implijer</Effects>
+				<Help>Skoazell</Help>
+				<KeyboardShortcuts>Berradennoù ar c&apos;hlavier</KeyboardShortcuts>
+				<Language>Yezh</Language>
+				<LiberKeyTools>Ostilhoù al Liberkey</LiberKeyTools>
+				<Proxy>Proksi HTTP</Proxy>
+				<TechnicalInfo>Titouroù deknikel</TechnicalInfo>
+				<User>Implijer</User>
+			</Options>
+		</Config>
+		<FloatingMenu>
+			<AlwaysOnTop>Dirak bepred</AlwaysOnTop>
+			<AutoCollapse>O vont diwar-wel emgefreek</AutoCollapse>
+			<Close>Klozañ al lañser</Close>
+			<FixedMode>Mirout bepred digor</FixedMode>
+			<GoToParent>Gwintañ davet al lañser a-raok</GoToParent>
+		</FloatingMenu>
+		<IconSelect>
+			<Labels>
+				<Title_Caption>Diuzañ an arlun</Title_Caption>
+			</Labels>
+		</IconSelect>
+		<Main>
+			<CommandButtons>
+				<AddApps_Caption>Staliadur</AddApps_Caption>
+				<AddApps_ToolTip>Staliañ / Distaliañ an arloadoù</AddApps_ToolTip>
+				<Close_ToolTip>Kuzhaat al lañser</Close_ToolTip>
+				<CloseSearch2_Caption>Klozañ</CloseSearch2_Caption>
+				<Config_Caption>Ostilhoù al Liberkey</Config_Caption>
+				<MyDocs_Caption>Teulioù</MyDocs_Caption>
+				<MyMusic_Caption>Sonerezh</MyMusic_Caption>
+				<MyPictures_Caption>Skeudennoù</MyPictures_Caption>
+				<Quit_ToolTip>Serriñ lañser al Liberkey</Quit_ToolTip>
+				<TabsScrollLeft_ToolTip>Dibunañ davet an tu kleiz</TabsScrollLeft_ToolTip>
+				<TabsScrollRight_ToolTip>Dibunañ davet an tu dehou</TabsScrollRight_ToolTip>
+				<UserMenus_ToolTip>Lañserioù an implijer</UserMenus_ToolTip>
+				<ViewIcons_ToolTip>Arlunoù bras</ViewIcons_ToolTip>
+				<ViewTree_ToolTip>Gwezennadur</ViewTree_ToolTip>
+			</CommandButtons>
+			<Labels>
+				<SearchInfoLabel_Caption>Kavet : %count% berradenn</SearchInfoLabel_Caption>
+				<SearchInfoTitle_Caption>Furchal en ho Liberkey</SearchInfoTitle_Caption>
+			</Labels>
+			<LiberKeyTools>
+				<AddApps>Klask e-barzh katalog an arloadoù</AddApps>
+				<AddAppsTip>Ar skoazeller, a gas ac&apos;hanoc&apos;h war www.liberkey.com, zo vont da renabliñ an arloadoù nevez. Kavout a rit aes neuze, an arloadoù dedennus evidoc&apos;h e-barzh ar c&apos;hatalog enlinenn.</AddAppsTip>
+				<AddPortableShortcuts>Ouzhpennañ ar berradennoù hezoug</AddPortableShortcuts>
+				<AddRemoveApps>Staliañ / distaliañ ar programmoù</AddRemoveApps>
+				<AppsClose>Serriñ an arloadoù</AppsClose>
+				<AppsCloseTip>LiberKey Apps Closer a sikour ac&apos;hanoc&apos;h en ur glozañ emgefreek pep meziant enaouet gant ho Liberkey. Doareoù niverus evit serriñ pep arload a zo. Klozet int neuze en un doare prop. Goulennet e vo diganeoc&apos;h enrollañ ar restroù digoret ganeoc&apos;h.</AppsCloseTip>
+				<Configuration>Kefluniañ</Configuration>
+				<ConfigurationTip>Kefluniañ al Liberkey.\nAr reoliñ a denn da neuz pe da zalc&apos;h al Liberkey, a zo bodet er prenestr kefluniañ-mañ.</ConfigurationTip>
+				<DisableFileAssoc>Diweredekaat kevrediñ ar restroù</DisableFileAssoc>
+				<DisableFileAssocTip>Ar restroù a zo kevredet gant arloadoù al Liberkey. \nKlikit amañ evit assevel kevrediñ an urzhiataer.\n</DisableFileAssocTip>
+				<EnableFileAssoc>Gweredekaat kevrediñ an arloadoù</EnableFileAssoc>
+				<EnableFileAssocTip>Kevrediñ padennek ar restroù  (.avi, .jpg, .doc, ...) evit arloadoù ho Liberkey.</EnableFileAssocTip>
+				<FileAssoc>Kevrediñ ar restroù</FileAssoc>
+				<GoToWebSite>Mont war lec&apos;hienn Liberkey</GoToWebSite>
+				<GoToWebSiteTip>Al lañser-mañ a gaso ac&apos;hanoc&apos;h davet lec&apos;hienn al Liberkey. Kavout a rit ur bern titouroù diwar benn ho Liberkey, hag ivez ur forom digor d&apos;an holl.</GoToWebSiteTip>
+				<InstallAppSuite>Staliañ un heuliad arloadoù</InstallAppSuite>
+				<InstallAppSuiteTip>A-drugarez d&apos;ar skoazeller-mañ e c&apos;hellit staliañ un heuliad arloadoù war eeun.</InstallAppSuiteTip>
+				<LiberKeyNews>Lenn ar c&apos;heleier</LiberKeyNews>
+				<LiberKeyNewsTip>Gant LiberKey News, e c&apos;hellit gouzout pep tra diwar benn al Liberkey.\nPep arload nevez deuet er-maez, pe c&apos;hoazh keleier fresk a vo posubl da gavout gant LiberKey News.</LiberKeyNewsTip>
+				<ManageApps>Merañ an arloadoù</ManageApps>
+				<ManageAppsTip>Distaliañ, staliañ pe adstaliañ an arloadoù. An heuliad ostilhoù-mañ a servijo deoc&apos;h evit merañ an arloadoù staliet war ho Liberkey.</ManageAppsTip>
+				<PortableShortcutsTip>A drugarez da &quot;Portable Desktop Shortcut&quot; e c&apos;hellit lemel ha lakaat en-dro ar berradennoù eus ar burev hag a zo liammet gant ar meziantoù hezoug. Savetaet eo ivez ganti lec&apos;hiadur ar berradennoù war ar burev.</PortableShortcutsTip>
+				<RemovePortableShortcuts>Lemel ar berradennoù hezoug</RemovePortableShortcuts>
+				<Title>Ostilhoù Liberkey</Title>
+				<UpdateCheck>Gwiriañ an hizivadennoù</UpdateCheck>
+				<UpdateCheckTip>Gwiriañ ma&apos;z eus ur stumm nevez eus al Liberkey, pe c&apos;hoazh hizivadennoù evit ar meziantoù.\nBez e c&apos;hellit neuze hizivaat anezho war-eeun gant LiberKey.com</UpdateCheckTip>
+				<UsbEject>Digevreañ ho Liberkey</UsbEject>
+				<USBEjectTip>Gant &quot;LiberKey USB Eject&quot; e c&apos;hellit digevreañ an trobarzhell USB (en ur glozañ emgefreek an holl arloadoù).\n\nDA C&apos;HOUZOUT : an trobarzhell USB na c&apos;hell bezañ digevreet NEMET ma vez kloz an arloadoù kevredet gantañ.</USBEjectTip>
+			</LiberKeyTools>
+			<Messages>
+				<About>A-zivout Liberkey...</About>
+				<BrowseForNewFolder>Dibabit an teul digoret gant ar verradenn</BrowseForNewFolder>
+				<PatchDownload>Pellgargañ an hizivadenn...</PatchDownload>
+				<SearchResults>Disoc&apos;h an enklask</SearchResults>
+			</Messages>
+		</Main>
+		<Menu>
+			<LKHelp>Skoazell Liberkey</LKHelp>
+			<LKQuickLaunch>Loc&apos;hañ prim al Liberkey</LKQuickLaunch>
+			<MostUsed>Ar muiañ implijet</MostUsed>
+			<MyApps>Ma frogrammoù</MyApps>
+			<MyDocs>Ma zeulioù</MyDocs>
+			<Recent>Nevez</Recent>
+		</Menu>
+		<MenuProperties>
+			<CheckBoxs>
+				<EditMode_Caption>Aotren ar c&apos;hemmoù</EditMode_Caption>
+				<NotInSystrayMenu_Caption>Arabat diskwel el lañser-nij pennañ</NotInSystrayMenu_Caption>
+				<ShowName_Caption>Diskwel an anv</ShowName_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Apply_Caption>Mat eo</Apply_Caption>
+				<Cancel_Caption>Nullañ</Cancel_Caption>
+			</CommandButtons>
+			<Labels>
+				<MenuIconLabel_Caption>Arlun kevredet </MenuIconLabel_Caption>
+				<MenuNameLabel_Caption>Anv al lañser :</MenuNameLabel_Caption>
+				<Title_Caption>Perzhioù lañser an implijer</Title_Caption>
+			</Labels>
+		</MenuProperties>
+		<Menus>
+			<AppCopy_Caption>&amp;Eilañ</AppCopy_Caption>
+			<AppCut_Caption>&amp;Troc&apos;hañ</AppCut_Caption>
+			<AppDelApp_Caption>&amp;Dilemel</AppDelApp_Caption>
+			<AppEditProps_Caption>&amp;Perzhioù an arload...</AppEditProps_Caption>
+			<AppGoToWebSite_Caption>&amp;Gweladenniñ al lec&apos;hienn kenrouedad</AppGoToWebSite_Caption>
+			<AppLaunch_Caption>&amp;Seveniñ</AppLaunch_Caption>
+			<AppLocate_Caption>&amp;Lec&apos;hiañ ar rummad</AppLocate_Caption>
+			<AppLocation-0_Caption>(anv ar rummad)</AppLocation-0_Caption>
+			<AppLocations_Caption>&amp;Lec&apos;hiañ ar rummad</AppLocations_Caption>
+			<AppOpenAppFolder_Caption>&amp;Digeriñ an teuliad</AppOpenAppFolder_Caption>
+			<AppPaste_Caption>&amp;Pegañ</AppPaste_Caption>
+			<AppRunAs_Caption>&amp;Seveniñ evel...</AppRunAs_Caption>
+			<AppRunAsAdmin_Caption>&amp;Seveniñ evel merour</AppRunAsAdmin_Caption>
+			<AppSetup_Caption>&amp;Staliañ an arload-mañ</AppSetup_Caption>
+			<AppShowInfo_Caption>&amp;Titouroù</AppShowInfo_Caption>
+			<AppUpdate_Caption>&amp;Hizivaat</AppUpdate_Caption>
+			<CatAdd_Caption>Berradenn nevez</CatAdd_Caption>
+			<CatAddApp_Caption>Arload / restr...</CatAddApp_Caption>
+			<CatAddFolder_Caption>Teuliad...</CatAddFolder_Caption>
+			<CatAddWebPage_Caption>Pajenn web...</CatAddWebPage_Caption>
+			<CatCopy_Caption>&amp;Eilañ</CatCopy_Caption>
+			<CatCut_Caption>&amp;Troc&apos;hañ</CatCut_Caption>
+			<CatDelCat_Caption>&amp;Dilemel</CatDelCat_Caption>
+			<CatEditProps_Caption>&amp;Perzhioù...</CatEditProps_Caption>
+			<CatListMode_Caption>&amp;Diskwel dindan stumm ur roll</CatListMode_Caption>
+			<CatNewCat_Caption>&amp;Rummad nevez</CatNewCat_Caption>
+			<CatPaste_Caption>&amp;Pegañ</CatPaste_Caption>
+			<CatShowMenu_Caption>&amp;Lañser nij...</CatShowMenu_Caption>
+			<CatSort_Caption>&amp;Didoueziañ</CatSort_Caption>
+			<DoNothing_Caption>Ober netra</DoNothing_Caption>
+			<FolderOpen_Caption>&amp;Digeriñ an teul</FolderOpen_Caption>
+			<InstallLKS_Caption>Staliañ pakadoù LKS (Liberkey Setup)</InstallLKS_Caption>
+			<InstallLKS_Tip>Diuzit ur restr LKS (LiberKey Setup) pe meur a hini, ha staliañ anezho en ur glik</InstallLKS_Tip>
+			<InstallsFromAppsFolder_Caption>Adalek ar c&apos;havlec&apos;h &quot;Apps&quot;</InstallsFromAppsFolder_Caption>
+			<InstallsFromAppsFolder_Tip>Gwiriet e vo gant ar skoazeller ma&apos;z eus arloadoù nevez\nBez e c&apos;hellit, da skouer eilañ arloadoù ul Liberkey all, hag enrollañ anezho en ho hini a drugarez d&apos;ar skoazeller-mañ.</InstallsFromAppsFolder_Tip>
+			<InstallsFromMyApps_Caption>Adalek ar c&apos;havlec&apos;h &quot;MyApps&quot;...</InstallsFromMyApps_Caption>
+			<InstallsFromMyApps_Tip>M&apos;ho peus ouzhpennet arloadoù hezoug dre an dorn er c&apos;havlec&apos;h &quot;MyApps&quot;, ar skoazeller a glasko anezho evit enrollañ anezho el lañser.</InstallsFromMyApps_Tip>
+			<InternetOpen_Caption>&amp;Digeriñ</InternetOpen_Caption>
+			<MenusCreate_Caption>&amp;Krouiñ ul lañser nevez...</MenusCreate_Caption>
+			<MenusDelete_Caption>Dilemel al lañser</MenusDelete_Caption>
+			<MenusEdit_Caption>&amp;Perzhioù al lañser...</MenusEdit_Caption>
+			<MenusExport_Caption>&amp;Ezporzhiañ al lañser-mañ...</MenusExport_Caption>
+			<MenusHideNames_Caption>&amp;Kuzhat an anvioù</MenusHideNames_Caption>
+			<MenusImport_Caption>&amp;Enporzhiañ ul lañser</MenusImport_Caption>
+			<MenusRecent_Caption>&amp;Nevez</MenusRecent_Caption>
+			<MenusShowNames_Caption>&amp;Diskwel an anvioù</MenusShowNames_Caption>
+			<MenusUser-0_Caption>Lañser dre ziouer</MenusUser-0_Caption>
+			<Open_Caption>Di&amp;geriñ</Open_Caption>
+			<OpenActiveFloatMenu_Caption>Digeriñ al lañser nij</OpenActiveFloatMenu_Caption>
+			<OpenMainWindow_Caption>Digeriñ al lañser pennañ</OpenMainWindow_Caption>
+			<PatchCancelDownload_Caption>&amp;Nullañ ar pellgargañ</PatchCancelDownload_Caption>
+			<Quit>Kuitaat</Quit>
+			<RepairApps_Caption>Dresañ an arloadoù gwastet</RepairApps_Caption>
+			<RepairApps_Tip>Ar skoazeller-mañ zo vont da wiriañ emgefreek ma&apos;z eus arloadoù bet gwastet er c&apos;havlec&apos;h &quot;Apps&quot;.\nMa vez kavet unan, kinnig a raio adstaliañ anezho.</RepairApps_Tip>
+			<SendToPortableDocs>Ma restroù hezoug</SendToPortableDocs>
+			<SendToPortableDocsDescription>Eilañ ar restroù diuzet e-barzh ar c&apos;havlec&apos;h &quot;Ma restroù&quot;</SendToPortableDocsDescription>
+			<ShortcutEditProps_Caption>Perzhioù ar verradenn...</ShortcutEditProps_Caption>
+			<SuiteSetup>
+				<AppList>Roll an arloadoù</AppList>
+				<HideNewApps_Caption>Kuzhat an arloadoù nevez</HideNewApps_Caption>
+				<HideUpdates_Caption>Kuzhat an hizivadennoù</HideUpdates_Caption>
+				<HideUpToDateApps_Caption>Kuzhat an arloadoù hizivaet</HideUpToDateApps_Caption>
+				<SelectAll_Caption>Diuzañ pep tra</SelectAll_Caption>
+				<SelectNewApps_Caption>Diuzañ an arloadoù nevez</SelectNewApps_Caption>
+				<SelectPriority_Caption>Diuzañ an hizivadennoù bleinek</SelectPriority_Caption>
+				<SelectUpdates_Caption>Diuzañ an hizivadennoù</SelectUpdates_Caption>
+				<ShowNewApps_Caption>Diskwel an arloadoù nevez</ShowNewApps_Caption>
+				<ShowUpdates_Caption>Diskwel an hizivadennoù</ShowUpdates_Caption>
+				<ShowUpToDateApps_Caption>Diskwel an arloadoù hizivaet</ShowUpToDateApps_Caption>
+				<UnselectAll_Caption>Diziuzañ pep tra</UnselectAll_Caption>
+				<UnselectNewApps_Caption>Diziuzañ an arloadoù nevez</UnselectNewApps_Caption>
+				<UnselectPriority_Caption>Diziuzañ an hizivadennoù bleinek</UnselectPriority_Caption>
+				<UnselectUpdates_Caption>Diziuzañ an hizivadennoù</UnselectUpdates_Caption>
+			</SuiteSetup>
+			<SynchronizeCatalog_Caption>Adalek ar c&apos;hatalog enlinenn</SynchronizeCatalog_Caption>
+			<SynchronizeCatalog_Tip>Ar skoazeller-mañ a gaso ac&apos;hanoc&apos;h davet servijer al Liberkey a-benn kavout an arload emaoc&apos;h o klask. Staliañ a raio anezhañ war ho Liberkey.</SynchronizeCatalog_Tip>
+			<UserMenuTabEditable_Caption>Aotreañ ar cheñchamantoù</UserMenuTabEditable_Caption>
+			<UserMenuTabFloatMenu_Caption>Lañser n&amp;ij...</UserMenuTabFloatMenu_Caption>
+			<UserMenuTabHideName_Caption>&amp;Kuzhaat an anv</UserMenuTabHideName_Caption>
+			<UserMenuTabProperties_Caption>&amp;Perzhioù</UserMenuTabProperties_Caption>
+			<UserMenuTabShowName_Caption>&amp;Diskwel an anv</UserMenuTabShowName_Caption>
+		</Menus>
+		<Messages>
+			<AllFilesSelection>An holl restroù|*.*</AllFilesSelection>
+			<AppInstallation>Staliañ an arload %appname%...</AppInstallation>
+			<AppInstallDone>Staliet eo bet an arload &quot;%appname%&quot; war ho Liberkey.</AppInstallDone>
+			<AppInstalled>%appname% a zo bet staliet.</AppInstalled>
+			<AppNotFound>N&apos;eo ket bet staliet an arload-mañ war ho Liberkey.</AppNotFound>
+			<AppNotFoundTitle>Lec&apos;hiañ un arload</AppNotFoundTitle>
+			<AppRefCount>Berradenn davet an arload-mañ : %count%</AppRefCount>
+			<AppRegistered>Enrollet eo bet an arload war ho Liberkey bremañ.\n\nBez e c&apos;hellit krouiñ ar verradenn.</AppRegistered>
+			<AppRunningCantUninst>O vont en-dro c&apos;hoazh emañ an arload.\n\nDibosupl distaliañ anezhañ evit poent.</AppRunningCantUninst>
+			<AppsInstallDone>%count% arload nevez a zo bet staliet war ho Liberkey.</AppsInstallDone>
+			<AutoImportMenu>N&apos;ho peus ket krouet c&apos;hoazh ul lañser evit ho arloadoù.\nHa fellout a ra deoc&apos;h enporzhiañ ar gwezennadur eus ho lañser kozh ?</AutoImportMenu>
+			<BrokenAppFoundReinstall>An arload-mañ a seblant bezañ gwasted :%appname%\n\nAdstaliañ anezhañ ?</BrokenAppFoundReinstall>
+			<Browse>Merdeiñ...</Browse>
+			<ConfirmDeleteCategory>War-nes dilemel &quot;%name%&quot; hag e verradennoù emaoc&apos;h. Kenderc&apos;hel ?</ConfirmDeleteCategory>
+			<ConfirmDeleteSortcut>War-nes dilemel &quot;%name%&quot; ar verradennen &quot;%name%&quot; emaoc&apos;h. Kenderc&apos;hel ?</ConfirmDeleteSortcut>
+			<ConfirmDeletion>Kadarnaat</ConfirmDeletion>
+			<ConfirmInstallApp>Staliañ %app% war ho Liberkey ?</ConfirmInstallApp>
+			<ConfirmInstallExtension>Staliañ an astenn-mañ war ho Liberkey ?\n\n%extname%</ConfirmInstallExtension>
+			<ConfirmInstallMyApps>Fellout a ra deoc&apos;h dinoiñ an arloadoù nevez er c&apos;havlec&apos;h &quot;MyApps&quot; ?</ConfirmInstallMyApps>
+			<ConfirmInstallNewApps>Fellout a ra deoc&apos;h dinoiñ an arloadoù nevez er c&apos;havlec&apos;h &quot;Apps&quot; ?</ConfirmInstallNewApps>
+			<ConfirmUninstallApp>Fellout a ra deoc&apos;h dilemel an arload-mañ ?\n\nDistaliet e vo da vat.</ConfirmUninstallApp>
+			<DateFormat>mm/dd/yyyy</DateFormat>
+			<DefaultIcon>(Arlun dre ziouer)</DefaultIcon>
+			<DeleteMenuConfirm>Diverkañ al lañser &quot;%menu%&quot; ?</DeleteMenuConfirm>
+			<DownloadPatchNow>Hizivaat bremañ ?</DownloadPatchNow>
+			<DropLKSLoadingInfos>Gortozit keit m&apos;emañ eztennet an titouroù eus an arloadoù</DropLKSLoadingInfos>
+			<DropLKSToInstall>Laoskit ar bouton evit staliañ an arload en ho Liberkey</DropLKSToInstall>
+			<Errors>
+				<AccessDenied>Moned nac&apos;het</AccessDenied>
+				<AccessRightsError>Evit mont en-dro, e rank al Liberkey kaout ar gwir da skrivañ war an trobarzhell lec&apos;h m&apos;emañ luget.</AccessRightsError>
+				<AssocIncomplete>Kevrediñ diglok pe mac&apos;hagnet</AssocIncomplete>
+				<CantCreateTempFolder>Dibosupl eo krouiñ ar c&apos;havlec&apos;h padennek !</CantCreateTempFolder>
+				<CantDefineHotKey>Ur fazi a zo bet pa oa bet dibabet stokell ar verradenn &quot;%name%&quot; :\n%err%</CantDefineHotKey>
+				<CantDefineHotKeys>Ur fazi a zo bet pa oa bet dibabet touchenn ar berradennoù da heul : \n%err%\n%namelist%</CantDefineHotKeys>
+				<CantStartOnRemoteDrive>N&apos;hallit ket implij al Liberkey war ur bladenn rouedad</CantStartOnRemoteDrive>
+				<DDEBusy>DDE ac&apos;hubet</DDEBusy>
+				<DDETimeout>DDE gortozet re bell</DDETimeout>
+				<DDETransacFailed>Treuzgread  DDE c&apos;hwitaet</DDETransacFailed>
+				<DllNotFound>DLL digavus</DllNotFound>
+				<ErrorTitle>Fazi</ErrorTitle>
+				<ErrShare>Ur gwallerezh rannañ a zo bet</ErrShare>
+				<ExeBadFormat>Direizh eo ar restr EXE, pe ur fazi e-barzh skeudenn ar sevener.</ExeBadFormat>
+				<ExecError>Fazi en ur lañsañ ar programm</ExecError>
+				<FileNotFound>Restr digavus</FileNotFound>
+				<GetUpdateInfoError>Fazi en ur glask adtapout titouroù an hizivadenn\nFazi %err% : %desc%</GetUpdateInfoError>
+				<HotKeyAlreadyUsedBy>Implijet ho peus dija ar blokad stokelloù-mañ evit ar verradenn &quot;%name%&quot; !</HotKeyAlreadyUsedBy>
+				<InstallExtensionError>Fazi pa oac&apos;h o staliañ an astenn-mañ !\n\n%extname%</InstallExtensionError>
+				<InvalidExtensionFile>Restr astenn direizh !</InvalidExtensionFile>
+				<LKInstNotFound>Digavus eo ar stalier Liberkey !</LKInstNotFound>
+				<LksDownloadFailed>Ur fazi a zo bet e pad pellgargañ ar pakad staliañ eus  %app% (%lks%).\n\nFazi %errnum% : %errdesc%</LksDownloadFailed>
+				<LogUploadFailed>Fazi en ur gas an titouroù</LogUploadFailed>
+				<NewsFeedDownloadError>Fazi en ur bellgargañ ar c&apos;heleier !\n%err%</NewsFeedDownloadError>
+				<NoAssoc>N&apos;eus kevredad termenet ebet evit an astenn-mañ.</NoAssoc>
+				<OutOfMemory>N&apos;eus ket a vemor a-walc&apos;h.</OutOfMemory>
+				<PathNotFound>Kavlec&apos;h digavus.</PathNotFound>
+				<SkinImageNotFound>N&apos;eus ket moian kavout ar gwiskad : \nRestr %file% digavus.</SkinImageNotFound>
+			</Errors>
+			<FileSize>
+				<Bytes>Okted</Bytes>
+				<GB>Go</GB>
+				<KB>Ko</KB>
+				<MB>Mo</MB>
+			</FileSize>
+			<FreeSpace>Lenner %drive% (%filesys%)\n%volumename%\ndalc&apos;h : %totalsize%\nEgor implijet : %usedsize%\nEgor diac&apos;hub : %freesize% (%freesizepc%)</FreeSpace>
+			<HotKeyStartAppInfo>Loc&apos;hañ &quot;%name%&quot;...\nKlikit amañ evit nullañ</HotKeyStartAppInfo>
+			<IconFileSelection>Restroù embreget |*.ico;*.exe;*.dll|Fichiers icône (*.ico)|*.ico|Fichiers exécutables|*.exe;*.dll</IconFileSelection>
+			<IconSelection>
+				<AppIcons>Arlunioù al lañser</AppIcons>
+				<IconSelectTitle>Diuzit ar restr lec&apos;h m&apos;emañ an arlun</IconSelectTitle>
+				<IconSources>Arlunioù vak</IconSources>
+				<SkinIcons>Arlunioù ar gwiskad</SkinIcons>
+			</IconSelection>
+			<ImportASuiteMenu>Enporzhiañ al lañser ASuite...</ImportASuiteMenu>
+			<ImportMenuFormatError>N&apos;eus lañser Liberkey ebet er restr-mañ.</ImportMenuFormatError>
+			<InternetAddress>Chomlec&apos;h kenrouedad...</InternetAddress>
+			<LastAppShortcutUninstall>N&apos;eus berradenn ebet ken evit an arload-mañ el lañserioù implijerien\nFellout a ra deoc&apos;h distaliañ anezhañ ?</LastAppShortcutUninstall>
+			<LinkedAppCount>Arloadoù liammet : %count%</LinkedAppCount>
+			<LogUploadDone>Kaset eo bet an titouroù deknikel.\nTrugarez da vezañ sikouret Liberkey da vont war-raok !</LogUploadDone>
+			<MenuExportTitle>Ezporzhiañ al lañser en ur restr XML...</MenuExportTitle>
+			<MenuImportError>Fazi e-pad eiladenn al lañser en ho Liberkey !</MenuImportError>
+			<MenuImportErrorTitle>N&apos;eus ket moian enporzhiañ al lañser.</MenuImportErrorTitle>
+			<MenuImportNotFromProfile>N&apos;hallit ket enporzhiañ ul lañser hag a zo dija en ho Liberkey.</MenuImportNotFromProfile>
+			<MenuImportTitle>Enporzhiañ ul lañser adalek ur restr XML...</MenuImportTitle>
+			<MultipleFilesDrop>%count% restr...</MultipleFilesDrop>
+			<MyMenu>Ma lañser din me</MyMenu>
+			<NewCategory>Rummad nevez</NewCategory>
+			<NewMenu>Lañser nevez</NewMenu>
+			<NoAppAssocFound>Arload ebet kevredet ouzh seurt restr.</NoAppAssocFound>
+			<NoBrokenAppFound>Arload gwasted ebet.</NoBrokenAppFound>
+			<NoLogToSend>Renabl darvoudoù al lañser a vez kaset da skipailh Liberkey gant an ostilh-mañ\nDielfennet e vo kudennoù ar mont en-dro.\n\nRenabl ebet bet kavet.</NoLogToSend>
+			<NoNewAppInstalled>N&apos;eus arload nevez bet kavet er c&apos;havlec&apos;h &quot;Apps&quot; eus ho Liberkey.</NoNewAppInstalled>
+			<NoNewMyAppInstalled>N&apos;eus arload nevez bet kavet er c&apos;havlec&apos;h &quot;MyApps&quot; eus ho Liberkey.</NoNewMyAppInstalled>
+			<OpenWithLiberKey>Digeriñ gant al Liberkey</OpenWithLiberKey>
+			<PatchAvailable>Prest eo an hizivadenn evit ho Liberkey.\n\nPellgargañ anezhi bremañ ?</PatchAvailable>
+			<SearchFieldInfo>Furchit en ho Liberkey...</SearchFieldInfo>
+			<SearchingBrokenApps>Klaskit arloadoù gwasted...</SearchingBrokenApps>
+			<SearchingUninstalledApps>Klask arloadoù er c&apos;havlec&apos;h &quot;Apps&quot;...</SearchingUninstalledApps>
+			<SearchingUninstalledMyApps>Klask arloadoù er c&apos;havlec&apos;h &quot;MyApps&quot;...</SearchingUninstalledMyApps>
+			<SelectFile>Diuzit ar restr...</SelectFile>
+			<SendingScreenshot>Kaset e vez an dapadenn-skramm...</SendingScreenshot>
+			<SendLogInfo>Renabl darvoudoù al lañser a vez kaset da skipailh Liberkey gant an ostilh-mañ.\nDielfennet e vo kudennoù ar mont en-dro.\n\nAn titouroù deknikel hag an 10 restr diwezhañ bet krouet er c&apos;havlec&apos;h &quot;Log&quot; eus ho lañser a vo kaset da Liberkey.com.\n\nKenderc&apos;hel ?</SendLogInfo>
+			<SetupAutoRestart>Loc&apos;het en-dro vo ar staliadur eus %app%. Kefluniet e vo evit al Liberkey.</SetupAutoRestart>
+			<TrayIcon>
+				<AppUpdatesAvailable>Hizivadennoù prest evit ho Liberkey.\nKlikit amañ evit staliañ anezho.</AppUpdatesAvailable>
+				<AppUpdatesAvailableTitle>Hivizaet eo an arloadoù.</AppUpdatesAvailableTitle>
+				<LiberKeyAssocFailed>Fazi ! N&apos;haller ket gweredekaat ar protokol Liberkey.\nDiweredekaet eo bet arc&apos;hweladurioù zo, evel ar staliañ adalek ar c&apos;hatalog enlinenn.</LiberKeyAssocFailed>
+				<LiberKeyUpdateAvailable>Prest eo an hizivadenn evit ho Liberkey\nKlikit amañ evit staliañ anezhi.</LiberKeyUpdateAvailable>
+				<LiberKeyUpdateAvailableTitle>Hizivaat</LiberKeyUpdateAvailableTitle>
+				<NewAppDetected>Un arload nevez d&apos;an neubeutañ a zo bet kavet e Kavlec&apos;h &quot;MyApp&quot; eus ho Liberkey.\nKlikit amañ evit staliañ anezho en ho lañser.</NewAppDetected>
+				<NewsUpdateAvailable>Liberkey News\nLenn ar c&apos;heleier diwezhañ</NewsUpdateAvailable>
+			</TrayIcon>
+			<UpdatePlatformFirst>Hizivaat ho Liberkey da gentañ tout !\nHizivaat bremañ ?</UpdatePlatformFirst>
+			<XmlFileSelection>Restroù xml|*.xml|An holl restroù|*.*</XmlFileSelection>
+		</Messages>
+		<NewAppList>
+			<CommandButtons>
+				<Cancel_Caption>Serriñ</Cancel_Caption>
+				<InstallApp_ToolTip>Staliañ an arload-mañ</InstallApp_ToolTip>
+				<InstallApps_ToolTip>Staliañ an arloadoù diuzet</InstallApps_ToolTip>
+				<OpenFolder_ToolTip>Digeriñ teul ar restr</OpenFolder_ToolTip>
+				<Reload_ToolTip>Freskaat ar roll</Reload_ToolTip>
+				<SelectApp_ToolTip>Diuzit an arload-mañ</SelectApp_ToolTip>
+				<UnselectApp_ToolTip>Diziuzit an arload-mañ</UnselectApp_ToolTip>
+			</CommandButtons>
+			<Labels>
+				<DestinationMenuLabel_Caption>Krouiñ berradennoù e-barzh :</DestinationMenuLabel_Caption>
+				<Title_Caption>Arloadoù nevez</Title_Caption>
+			</Labels>
+			<Messages>
+				<SelectExecutable>Diuzit ar programm e fell deoc&apos;h ouzhpennañ e-barzh al lañser.</SelectExecutable>
+			</Messages>
+		</NewAppList>
+		<News>
+			<CheckBoxs>
+				<HideReadNews_Caption>Kuzhat ar c&apos;heleier ho peus lennet</HideReadNews_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<CloseNews_Caption>Klozañ</CloseNews_Caption>
+			</CommandButtons>
+			<Labels>
+				<Title_Caption>Keleier al Liberkey</Title_Caption>
+			</Labels>
+			<Messages>
+				<NoNewsDescription>N&apos;eus keloù ebet evit poent.\n\nKemennet viot gant an arlun Liberkey News pa vo keleier nevez.</NoNewsDescription>
+				<NoNewsTile>LiberKey News - Keloù ebet</NoNewsTile>
+				<NoNewsUpdateDescription>%readcount% keloù masklet a zo.\nEvit diskwel anezho, diziuzit al log &quot;Masklit ar c&apos;heleier bet lennet ganeoc&apos;h&quot; amañ dindan.</NoNewsUpdateDescription>
+				<NoNewsUpdateTile>LiberKey News - N&apos;eus netra nevez</NoNewsUpdateTile>
+			</Messages>
+		</News>
+		<OnlineCatalog>
+			<CommandButtons>
+				<Cancel_Caption>Nullañ</Cancel_Caption>
+				<CopyURL_Caption>Eilañ ar chomlec&apos;h er golver</CopyURL_Caption>
+				<GoToWebsite_Caption>Moned er c&apos;hatalog enlinenn %count%</GoToWebsite_Caption>
+				<NoSyncCatalog_Caption>Moned er c&apos;hatalog enlinenn hep sinkronelaat ma Liberkey.</NoSyncCatalog_Caption>
+			</CommandButtons>
+			<Labels>
+				<AccessURL_Caption>Sinkronelaet eo bet ar chomlec&apos;h evit tizhout ar c&apos;hatalog enlinenn :</AccessURL_Caption>
+				<AddPortableAppsLabel_Caption>Ouzhpennañ arloadoù nevez</AddPortableAppsLabel_Caption>
+				<Privacy_Caption>Notenn : Niver ar stummoù kaset d&apos;al lec&apos;hienn a sell ouzh an arloadoù kavet er c&apos;hatalog enlinenn. Ne vo ket kaset ho titouroù personel.</Privacy_Caption>
+				<Title_Caption>Moned er c&apos;hatalog arloadoù enlinenn</Title_Caption>
+			</Labels>
+		</OnlineCatalog>
+		<Search>
+			<Applications>Arloadoù</Applications>
+			<InCatalog>Katalog enlinenn</InCatalog>
+			<InstalledApp>Meziantoù staliet</InstalledApp>
+			<SearchCatalog>Klask er c&apos;hatalog</SearchCatalog>
+		</Search>
+		<SetupWizard>
+			<CheckBoxs>
+				<ApplyFilesAssocs_Caption>Kevrediñ an arload gant ar restroù e c&apos;hell digeriñ (padennek)</ApplyFilesAssocs_Caption>
+				<CreateDefaultShortcuts_Caption>Krouiñ lañserien a c&apos;hell digeriñ an arload</CreateDefaultShortcuts_Caption>
+				<EditAppAfterSetup_Caption>Aozañ perzhioù an arload ur wech bet staliet</EditAppAfterSetup_Caption>
+				<FillAppInformations_Caption>Krouiñ fichenn an arload</FillAppInformations_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<CancelSetup_Caption>Arabat staliañ an arload e-barzh &quot;MyApps&quot;</CancelSetup_Caption>
+				<CancelSetup2_Caption>Nullañ ar staliadur</CancelSetup2_Caption>
+				<CantSetup_Caption>Serriñ ar skoazeller (dibosupl kenderc&apos;hel ganti)</CantSetup_Caption>
+				<DoSetup_Caption>Enrollañ an arload em Liberkey</DoSetup_Caption>
+				<ForceSetup_Caption>Staliañ an arload e &quot;MyApps&quot; memestra</ForceSetup_Caption>
+				<OpenAppsFolder_Caption>Digeriñ ar c&apos;havlec&apos;h &quot;Apps&quot;.</OpenAppsFolder_Caption>
+				<OpenMyAppsFolder_Caption>Digeriñ ar c&apos;havlec&apos;h &quot;MyApps&quot;.</OpenMyAppsFolder_Caption>
+				<UpdateApp_Caption>Hizivaat an arload-mañ</UpdateApp_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppInfoDetailsTitle_Caption>An arload-mañ a zo bet staliet da gentañ digant ur pakad LKS (LiberKey Setup).\nAn oberiadennoù da heul a vo lañset emgefreek :</AppInfoDetailsTitle_Caption>
+				<AppRegisterInfo_Caption>Enrollet vo en-dro an arload-mañ en ho Liberkey.</AppRegisterInfo_Caption>
+				<DestinationMenuLabel_Caption>Krouiñ berradennoù e-barzh :</DestinationMenuLabel_Caption>
+				<IntroText_Caption>Ar skoazeller a zo amañ evit sikour ac&apos;hanoc&apos;h da ouzhpennañ arloadoù hezoug en ho Liberkey.</IntroText_Caption>
+				<LbkAppFolderInfo_Caption>Ne vo ket hizivaet emgefreek an arload-mañ\nGwelloc&apos;h e vefe deoc&apos;h kas anezhañ er c&apos;havlec&apos;h &quot;Apps&quot;, ha kregiñ en-dro.</LbkAppFolderInfo_Caption>
+				<LbkAppFolderMistake_Caption>Bez e rankit lakaat er c&apos;havlec&apos;h &quot;Apps&quot; an holl arloadoù eus ar c&apos;hatalog enlinenn.</LbkAppFolderMistake_Caption>
+				<lblLbkAppInfoMissing_Caption>N&apos;eus titour ebet evit an arload-mañ.\nN&apos;haller ket enrollañ anezhañ en ho Liberkey.</lblLbkAppInfoMissing_Caption>
+				<lblLbkAppInfoMissingMoveApp_Caption>Gwelloc&apos;h e vefe deoc&apos;h staliañ en-dro an arload adalek ar c&apos;hatalog enlinenn.\nMa fell deoc&apos;h implij anezhañ evel m&apos;emañ, kasit an arload er c&apos;havlec&apos;h &quot;MyApps&quot;.</lblLbkAppInfoMissingMoveApp_Caption>
+				<lblLbkAppInfoMissingUpdate_Caption>Hizivaat al Liberkey a-benn enrollañ mat an arload-mañ. Ma fell deoc&apos;h implij anezhañ evel m&apos;emañ, lakait an arload er c&apos;havlec&apos;h &quot;MyApps&quot;.</lblLbkAppInfoMissingUpdate_Caption>
+				<lblUserAppFolderInfo>Evit enrollañ an arload-mañ en ho Liberkey e rankit kas anezhañ er c&apos;havlec&apos;h &quot;MyApps&quot;, ha kregiñ en-dro.</lblUserAppFolderInfo>
+				<lblUserAppFolderMistake_Caption>An arloadoù hezoug ha n&apos;int ket bet staliet adalek ar c&apos;hatalog enlinenn a rank bezañ lakaet er c&apos;havlec&apos;h &quot;MyApps&quot;.</lblUserAppFolderMistake_Caption>
+				<NewApp_Caption>Arload hezoug nevez.</NewApp_Caption>
+				<NewAppRegisterInfo_Caption>N&apos;eo ket bet enrollet c&apos;hoazh an arload-mañ en ho Liberkey</NewAppRegisterInfo_Caption>
+				<PafInfoDetailsTitle_Caption>An arload-mañ a zo bet staliet da gentañ abaoe ur pakad PAF ((portableapps.com™)\n\nKaset da benn vo an oberiadennoù-se :</PafInfoDetailsTitle_Caption>
+				<ReinstallApp_Caption>Adstaliañ un arload hezoug.</ReinstallApp_Caption>
+				<Title_Caption>Skoazeller staliañ an arloadoù</Title_Caption>
+				<UserAppInfoDetailsTitle_Caption>Ret eo d&apos;an arloadoù hezoug bezañ enrollet el lañser LiberKey. Bez e c&apos;hellit neuze krouiñ berradennoù en ho lañserioù evit lañsañ anezho.\nKaset da benn vo an oberiadennoù-se :</UserAppInfoDetailsTitle_Caption>
+				<XSoftInfoDetailsTitle_Caption>Staliet eo bet da gentañ an arload-mañ adalek ur pakad X-Software (winpenpack.com™).\nKaset da benn vo an oberiadennoù-se :</XSoftInfoDetailsTitle_Caption>
+			</Labels>
+		</SetupWizard>
+		<ShortcutProperties>
+			<CheckBoxs>
+				<AlwaysRunAsAdmin_Caption>seveniñ evel merour bepred</AlwaysRunAsAdmin_Caption>
+				<ShortcutHiddenInMenu_Caption>Diwelus el lañserioù nij</ShortcutHiddenInMenu_Caption>
+				<ShortcutNoMostUsed_Caption>Arabat ouzhpennañ en arloadoù muiañ implijet</ShortcutNoMostUsed_Caption>
+				<ShortcutNoRecent_Caption>Arabat ouzhpennañ er reoù nevez.</ShortcutNoRecent_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<ApplyChanges_Caption>Arloañ</ApplyChanges_Caption>
+				<AppProps_Caption>Perzhioù an arload</AppProps_Caption>
+				<Cancel_Caption>Serriñ</Cancel_Caption>
+				<ShortcutAppEdit_Caption>Ar verradenn-mañ a gas davet un arload hezoug</ShortcutAppEdit_Caption>
+			</CommandButtons>
+			<Labels>
+				<DescriptionLabel_Caption>Deskrivadur :</DescriptionLabel_Caption>
+				<ShortcutAutorunLabel_Caption>Emseveniñ :</ShortcutAutorunLabel_Caption>
+				<ShortcutHotKey_Caption>Berradenn klavier :</ShortcutHotKey_Caption>
+				<ShortcutIconLabel_Caption>Arlun :</ShortcutIconLabel_Caption>
+				<ShortcutNameLabel_Caption>Anv :</ShortcutNameLabel_Caption>
+				<ShortcutParamsLabel_Caption>Arventennoù :</ShortcutParamsLabel_Caption>
+				<ShortcutPathLabel_Caption>Hent ar restr erounezadus / teuliad / pajenn web / teul :</ShortcutPathLabel_Caption>
+				<ShortcutWinStateLabel_Caption>D&apos;al loc&apos;hadur</ShortcutWinStateLabel_Caption>
+				<ShortcutWorkDirLabel_Caption>Kavlec&apos;h labour :</ShortcutWorkDirLabel_Caption>
+				<Title_Caption>Perzhioù ar verradenn</Title_Caption>
+			</Labels>
+			<Tabs>
+				<Shortcut>Berradenn</Shortcut>
+				<ShortcutMore>Araokaet</ShortcutMore>
+			</Tabs>
+		</ShortcutProperties>
+		<SuiteDownload>
+			<CommandButtons>
+				<Cancel_Caption>Nullañ</Cancel_Caption>
+				<GetSuites_Caption>Pellgargañ roll an heuliadoù hegerz</GetSuites_Caption>
+				<InstallSuite_Caption>Staliañ arloadoù an heuliadoù diuzet</InstallSuite_Caption>
+			</CommandButtons>
+			<DownloadedAppsCountInfo>Pellgarget : %dldone%</DownloadedAppsCountInfo>
+			<DownloadSizeInfo>Pellgarget : %dldone%</DownloadSizeInfo>
+			<InstallSizeInfo>Egor ar bladenn ezhomm : %size%</InstallSizeInfo>
+			<Labels>
+				<DownloadInfo_Caption>A-drugarez d&apos;ar skoazeller-mañ, e c&apos;hellit staliañ un heuliad arloadoù klok en ur wech.\nKlikit war &quot;Pellgargit roll an heuliadoù arloadoù&quot; evit kenderc&apos;hel.</DownloadInfo_Caption>
+				<Title_Caption>Staliañ un heuliad arloadoù</Title_Caption>
+				<TitleBig_Caption>Staliañ un heuliad arloadoù</TitleBig_Caption>
+			</Labels>
+			<Messages>
+				<ConfirmKeepDownloads>Ha fellout a ra deoc&apos;h mirout ar pakadoù staliañ evit ur staliadur diwezhatoc&apos;h ?</ConfirmKeepDownloads>
+				<DownladAppIcons16>Pellgargañ arlunioù an arloadoù</DownladAppIcons16>
+				<DownloadGraphics>Pellgargañ logoioù an heuliadoù arloadoù</DownloadGraphics>
+				<DownloadingSuitesInfo>Pellgargañ titouroù a-zivout an heuliadoù...</DownloadingSuitesInfo>
+				<GetSuiteInfoFailed>Fazi en ur glask tapout roll an heuliadoù\nfazi %errnum%: %errdesc%</GetSuiteInfoFailed>
+				<IncompleteSuiteSetup>Lod eus an arloadoù eus an heuliad n&apos;int ket bet staliet mat.\nGallout a reot lañsañ en-dro ar skoazeller-mañ a-benn echuiñ ar staliadur.</IncompleteSuiteSetup>
+				<PartialSuiteSetupDone>Ar roll arloadoù diuzet a zo bet staliet\nGallout a reot kas ar skoazeller-mañ diwezhatoc&apos;h evit ouzhpennañ arloadoù nevez.</PartialSuiteSetupDone>
+				<SetupDone>An arloadoù eus an heuliad &quot;%name%&quot; a zo bremañ staliet war ho liberkey.</SetupDone>
+				<SetupError>N&apos;eo ket bet staliet mat %app% !</SetupError>
+			</Messages>
+			<SuiteAppCountInfo>Arloadoù :</SuiteAppCountInfo>
+			<SuiteAppsDoneInfo>nevez : %newapps% - Staliet : %installed%</SuiteAppsDoneInfo>
+		</SuiteDownload>
+		<UninstallWizard>
+			<CheckBoxs>
+				<RemoveAppFolder_Caption>Dilemel kavlec&apos;h an arload (programm ha roadennoù kevredet)</RemoveAppFolder_Caption>
+				<RemoveAppShortcuts_Caption>Dilemel al lañserioù evit lañsañ an arload.</RemoveAppShortcuts_Caption>
+				<RemoveFilesAssocs_Caption>Dilemel ar c&apos;hevrediñ etre an arload-mañ ha seurt restroù.</RemoveFilesAssocs_Caption>
+				<UnregisterAppInfo_Caption>Dilemel fichenn an arload</UnregisterAppInfo_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<CancelSetup_Caption>Nullañ an dilamidigezh</CancelSetup_Caption>
+				<CancelSetup2_Caption>Nullañ an dilamidigezh</CancelSetup2_Caption>
+				<ConfirmUninstall_Caption>Sur oc&apos;h e fell deoc&apos;h dilemel an arload-mañ ?</ConfirmUninstall_Caption>
+				<DoUninstall_Caption>Dilemel pezh a zo bet diuzet</DoUninstall_Caption>
+			</CommandButtons>
+			<Labels>
+				<IntroText_Caption>Sikouret viot gant ar skoazeller-mañ evit dilemel arloadoù eus ho Liberkey.</IntroText_Caption>
+				<PreviewInfo_Caption>Setu roll an oberiadennoù a vo kaset da benn. A-wechoù, dilemel un arload a c&apos;hell dilemel arloadoù all. Gwiriañ ar roll-mañ a-raok kenderc&apos;hel.</PreviewInfo_Caption>
+				<RemoveApp_Caption>Dilemel un arload hezoug</RemoveApp_Caption>
+				<RemoveAppInfo_Caption>Dilemet vo an arload eus ho Liberkey</RemoveAppInfo_Caption>
+				<RemoveInfoDetailsTitle_Caption>kaset vo da benn an oberiadennoù-mañ pa vo dilemet an arload. Diziuzit an dibarzhioù a zo ret ma fell deoc&apos;h mirout titouroù pe roadennoù a-zivout an arload.</RemoveInfoDetailsTitle_Caption>
+				<Title_Caption>Skoazeller evit dilemel an arloadoù</Title_Caption>
+			</Labels>
+			<PreviewTree>
+				<AppDataSize>Ment ar roadennoù : %size%</AppDataSize>
+				<DeletedAssocs>Kevrediñ ar restroù dilemet</DeletedAssocs>
+				<DeletedData>Roadennoù an arloadoù dilemet</DeletedData>
+				<DeletedShortcuts>berradennoù dilemet</DeletedShortcuts>
+				<FileType>Restroù : &quot;.%type%&quot;</FileType>
+				<KFANotFound>Ar restr evit kefluniañ a zo digavus !</KFANotFound>
+				<KFANotUsed>Kevrediñ padennek ebet evit an arload-mañ</KFANotUsed>
+				<KfaUsedForTypeIcon>implijet evit an arlun eus ar memes seurt restr</KfaUsedForTypeIcon>
+				<UnregisterApp>Arloadoù dilemet</UnregisterApp>
+			</PreviewTree>
+		</UninstallWizard>
+		<UpdateInfo>
+			<CommandButtons>
+				<Cancel_Caption>Klozañ</Cancel_Caption>
+				<DownloadPatch_Caption>Hizivaat ma Liberkey bremañ</DownloadPatch_Caption>
+				<OpenCatalog_Caption>Digeriñ katalog an arloadoù hezoug</OpenCatalog_Caption>
+				<UpdateApps_Caption>Hizivaat an arloadoù hezoug</UpdateApps_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppsUpdateFound>Bez ez eus hizivadennoù d&apos;ober evit ho arloadoù hezoug</AppsUpdateFound>
+				<AppsUpdateNotFound>N&apos;eus hizivadenn ebet evit ho arloadoù hezoug</AppsUpdateNotFound>
+				<NewAppsCount>Arloadoù ouzhpenn : %count%</NewAppsCount>
+				<NewAppsFound>Bez ez eus arloadoù ouzhpenn evit ho Liberkey e-barzh ar c&apos;hatalog enlinenn</NewAppsFound>
+				<NewAppsNotFound>N&apos;eus arload nevez ebet evit ho Liberkey e-barzh ar c&apos;hatalog enlinenn</NewAppsNotFound>
+				<NoNewApp>Pep tra zo ganeoc&apos;h dija !</NoNewApp>
+				<PlatformUpdateFound>Bez ez eus un hizivadenn evit ho liberkey</PlatformUpdateFound>
+				<PlatformUpdateNotFound>N&apos;eus hizivadenn ebet evit savenn al Liberkey</PlatformUpdateNotFound>
+				<Title_Caption>Hizivadennoù</Title_Caption>
+				<UpdatesCount>Hizivadennoù : %count%</UpdatesCount>
+			</Labels>
+		</UpdateInfo>
+		<Contributors>
+			<Contributor name="Diloar" email="diloar@no-log.org"/>
+		</Contributors>
+	</br-FR>
+</Languages>

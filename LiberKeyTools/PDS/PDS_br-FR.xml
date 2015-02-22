@@ -1,0 +1,13 @@
+<Languages version="0.2">
+	<br-FR en_name="Breton" icon="fr.png" date="2012-09-11" name="Brezhoneg" version="1.0">
+		<Messages>
+			<ConfirmEraseMany>Dilemel ar %count% berradennoù lakaet e memor ?</ConfirmEraseMany>
+			<ConfirmEraseOne>Dilemel ar verradenn lakaet e memor ?</ConfirmEraseOne>
+			<NoDesktopIconFound>Berradenn ebet war ho purev</NoDesktopIconFound>
+			<NoQuickLaunchIconFound>Berradenn ebet da saveteiñ el lañser prim.</NoQuickLaunchIconFound>
+		</Messages>
+		<Contributors>
+			<Contributor name="Diloar" email="diloar@no-log.org"/>
+		</Contributors>
+	</br-FR>
+</Languages>

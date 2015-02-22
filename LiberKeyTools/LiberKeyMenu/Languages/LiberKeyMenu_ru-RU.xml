@@ -1,5 +1,5 @@
 <Languages version="0.4">
-	<ru-RU name="Русский" icon="ru.png" version="0.21" date="2012-01-22" en_name="Russian">
+	<ru-RU name="Русский" icon="ru.png" version="0.21" date="2014-03-28" en_name="Russian">
 		<AppCategories>
 			<accessibility>Доступность</accessibility>
 			<audio>Аудио</audio>
@@ -32,7 +32,7 @@
 			<file_management:compression>Архиваторы (сжатие)</file_management:compression>
 			<file_management:copy>Копирование</file_management:copy>
 			<file_management:defragmenter>Дефрагментация</file_management:defragmenter>
-			<file_management:directory_lister>Диретории</file_management:directory_lister>
+			<file_management:directory_lister>Директории</file_management:directory_lister>
 			<file_management:disk_space_tool>Дисковое пространство</file_management:disk_space_tool>
 			<file_management:duplicate_finder>Поиск дубликатов</file_management:duplicate_finder>
 			<file_management:manager>Менеджеры</file_management:manager>
@@ -83,7 +83,7 @@
 			<office>Офис</office>
 			<office:calculator>Калькулятор</office:calculator>
 			<office:calendar>Календарь</office:calendar>
-			<office:chrono>Chrono</office:chrono>
+			<office:chrono>Таймер</office:chrono>
 			<office:desktop_tools>Инструменты рабочего стола</office:desktop_tools>
 			<office:desktop_tools:application_launcher>Запуск приложений</office:desktop_tools:application_launcher>
 			<office:desktop_tools:automation>Автоматизация</office:desktop_tools:automation>
@@ -106,7 +106,7 @@
 			<office:text_editor>Текстовый редактор</office:text_editor>
 			<office:tutorial_creator>Создание справок</office:tutorial_creator>
 			<office:unit_converter>Средства преобразования</office:unit_converter>
-			<office:universal_viewer>Универсальные Вьюверы</office:universal_viewer>
+			<office:universal_viewer>Универсальные просмотрщики</office:universal_viewer>
 			<security>Безопасность</security>
 			<security:anti_virus-spyware>Антивирусы - Антишпионы\n</security:anti_virus-spyware>
 			<security:encryption>Шифрование</security:encryption>
@@ -201,7 +201,7 @@
 			<AutoRunMode>
 				<Never>Никогда</Never>
 				<ShutDown>При выключении</ShutDown>
-				<ShutDownSingle>При выключении если не запущен</ShutDownSingle>
+				<ShutDownSingle>При выключении, если не запущен</ShutDownSingle>
 				<Startup>Всегда при запуске</Startup>
 				<StartupSingle>При запуске, если не запущен</StartupSingle>
 			</AutoRunMode>
@@ -233,7 +233,7 @@
 				<BrowseForFileToOpen>Выберите файл, чтобы открыть</BrowseForFileToOpen>
 				<BrowseForLicense>Выберите файл лицензии</BrowseForLicense>
 				<ClearLisenseFile>Удалить ссылку на файл лицензии</ClearLisenseFile>
-				<ClearWebAddress>Удалить ссылку сайта</ClearWebAddress>
+				<ClearWebAddress>Удалить ссылку на сайт</ClearWebAddress>
 				<SelectAppWorkDir>Выберите рабочий каталог приложения\n</SelectAppWorkDir>
 				<SetLicenseAddr>Введите Интернет-адрес файла лицензии:</SetLicenseAddr>
 				<SetWebSiteAddr>Введите адрес Интернет сайта:</SetWebSiteAddr>
@@ -277,12 +277,12 @@
 				<AutoShowAppInfo_Caption>Показывать информацию о приложениях</AutoShowAppInfo_Caption>
 				<ConfirmCategoryDeletion_Caption>Запросить подтверждение при удаление категорий</ConfirmCategoryDeletion_Caption>
 				<ConfirmShortcutDeletion_Caption>Запросить подтверждение при удаление ярлыков</ConfirmShortcutDeletion_Caption>
-				<CreateTempSendToShortcut_Caption>Временный ярлык &quot;Отправить в / мои портативные документы&quot;\n\n</CreateTempSendToShortcut_Caption>
+				<CreateTempSendToShortcut_Caption>Временный ярлык &quot;Отправить в / Мои портативные документы&quot;\n\n</CreateTempSendToShortcut_Caption>
 				<DisableAllEffects_Caption>Отключить все эффекты анимации</DisableAllEffects_Caption>
 				<DisableControlsEffects_Caption>Отключить анимацию элементов интерфейса</DisableControlsEffects_Caption>
 				<DisableDialogsEffects_Caption>Отключить анимацию диалогов</DisableDialogsEffects_Caption>
 				<DisableMenuEffects_Caption>Отключить анимации меню</DisableMenuEffects_Caption>
-				<DisplayClock_Caption>Показать часы</DisplayClock_Caption>
+				<DisplayClock_Caption>Показывать часы</DisplayClock_Caption>
 				<DontShowEmptyDesc_Caption>Кроме случаев, когда описание пусто</DontShowEmptyDesc_Caption>
 				<EnableAppHotKeys_Caption>Включить комбинацию клавиш для запуска приложений\n</EnableAppHotKeys_Caption>
 				<EnableAppsAutoStart_Caption>Включить автозапуск</EnableAppsAutoStart_Caption>
@@ -300,6 +300,7 @@
 				<ToolsQuitPDS_Caption>Удалять портативные ярлыки при закрытии меню</ToolsQuitPDS_Caption>
 				<ToolsStartKFA_Caption>Включать ассоциации файлов при запуске меню</ToolsStartKFA_Caption>
 				<ToolsStartPDS_Caption>Добавлять портативные ярлыки при старте меню </ToolsStartPDS_Caption>
+				<UseClearTypeFonts_Caption>Используйте ClearType сглаживание для отображения шрифтов</UseClearTypeFonts_Caption>
 				<UseMenuAppsAssoc_Caption>Ассоциировать все файлы с LiberKey</UseMenuAppsAssoc_Caption>
 				<UseProxy_Caption>Использовать прокси-сервер для доступа в Интернет</UseProxy_Caption>
 				<VoiceOver_Caption>Включить текст-в-речь для элементов меню LiberKey</VoiceOver_Caption>
@@ -322,7 +323,7 @@
 				<SendTechnicalInfo_Caption>Отчет</SendTechnicalInfo_Caption>
 			</CommandButtons>
 			<Labels>
-				<AccessibilityInfo_Caption>Настройка Специальных возможностей</AccessibilityInfo_Caption>
+				<AccessibilityInfo_Caption>Настройка специальных возможностей</AccessibilityInfo_Caption>
 				<Animations_Caption>Анимация</Animations_Caption>
 				<AppHotKeysMemoPopupDuration_Caption>Длительность показа напоминания:               </AppHotKeysMemoPopupDuration_Caption>
 				<AppSetupInfo_Caption>Следующие параметры определяют поведение LiberKey при установке приложений.</AppSetupInfo_Caption>
@@ -331,6 +332,7 @@
 				<AutoRunDelay_Caption>Время до автозапуска (сек):</AutoRunDelay_Caption>
 				<AutoRunEachDelay_Caption>Время между каждым запуском (сек):</AutoRunEachDelay_Caption>
 				<AutorunInfo_Caption>Управление приложениями, работающими при запуске и закрытии меню LiberKey:</AutorunInfo_Caption>
+				<ClearTypeRestart_Caption>(необходимо перезапустить меню)</ClearTypeRestart_Caption>
 				<ColorsInfo_Caption>Основной цвет меню и окон</ColorsInfo_Caption>
 				<Confirmations_Caption>Запрос подтверждения</Confirmations_Caption>
 				<CreateAccountLabel_Caption>Еще не зарегистрированы?</CreateAccountLabel_Caption>
@@ -341,6 +343,7 @@
 				<DefaultEffectSet>Эффекты по умолчанию</DefaultEffectSet>
 				<EffectSetLabel_Caption>Эффекты:</EffectSetLabel_Caption>
 				<FileAssocUpdatesOnlyInfo_Caption>Во время обновления, ассоциации файлов не изменяются. Они определяются только для новых приложений.\n</FileAssocUpdatesOnlyInfo_Caption>
+				<Fonts_Caption>Шрифты</Fonts_Caption>
 				<Gadgets_Caption>Гаджеты</Gadgets_Caption>
 				<KeyboardShortcutsInfo_Caption>Сочетания клавиш используемые LiberKey</KeyboardShortcutsInfo_Caption>
 				<KFAoptions_Caption>Ассоциации файлов портативных приложений</KFAoptions_Caption>
@@ -401,10 +404,10 @@
 				<optUpdateFileAssocNewApps_Caption>Устанавливать ассоциации только для новых приложений</optUpdateFileAssocNewApps_Caption>
 				<optUpdateNoUserAlert_Caption>Предупреждать только при запуске проложения</optUpdateNoUserAlert_Caption>
 				<optUpdateUIAlert_Caption>Показать значок и сообщение уведомления</optUpdateUIAlert_Caption>
-				<optUpdateUserAlert_Caption>Предупреждать, если важные обновления доступны</optUpdateUserAlert_Caption>
+				<optUpdateUserAlert_Caption>Предупреждать, если доступны важные обновления</optUpdateUserAlert_Caption>
 			</OptionButtons>
 			<Options>
-				<About>О Программе</About>
+				<About>О программе</About>
 				<Accessibility>Специальные возможности</Accessibility>
 				<Advanced>Расширенные параметры</Advanced>
 				<AppSetup>Установка приложений</AppSetup>
@@ -436,7 +439,7 @@
 		<Main>
 			<CommandButtons>
 				<AddApps_Caption>Установка</AddApps_Caption>
-				<AddApps_ToolTip>Добавление / удаление pf приложений</AddApps_ToolTip>
+				<AddApps_ToolTip>Добавление / удаление приложений</AddApps_ToolTip>
 				<Close_ToolTip>Скрыть LiberKey меню</Close_ToolTip>
 				<CloseSearch2_Caption>Закрыть</CloseSearch2_Caption>
 				<Config_Caption>Инструменты</Config_Caption>
@@ -469,7 +472,7 @@
 				<EnableFileAssocTip>Включить временную ассоциацию файлов (.avi, .jpg, .doc, ...) с приложениями LiberKey.\n</EnableFileAssocTip>
 				<FileAssoc>Файлы ассоциированы</FileAssoc>
 				<GoToWebSite>Посетите веб-сайт LiberKey</GoToWebSite>
-				<GoToWebSiteTip>Это меню позволяет легко получить доступ к сайту liberkey.com. Здесь вы найдете влюбую информацию о LiberKey, а также форум, открытый для всех пользователей.</GoToWebSiteTip>
+				<GoToWebSiteTip>Это меню позволяет легко получить доступ к сайту liberkey.com. Здесь вы найдете любую информацию о LiberKey, а также форум, открытый для всех пользователей.</GoToWebSiteTip>
 				<InstallAppSuite>Установить набор приложений</InstallAppSuite>
 				<InstallAppSuiteTip>Этот мастер поможет вам установить полный набор приложений.</InstallAppSuiteTip>
 				<LiberKeyNews>Читать новости</LiberKeyNews>
@@ -478,7 +481,7 @@
 				<ManageAppsTip>Установка, удаление и переустановка приложений. Этот мастер поможет вам в управлении приложениями LiberKey</ManageAppsTip>
 				<PortableShortcutsTip>Портативные Ярлыки Рабочего стола - этот мастер позволяет управлять ярлыками на рабочем столе, которые связаны с портативными устройствами, а также сохраняет их положение на рабочем столе.\n</PortableShortcutsTip>
 				<RemovePortableShortcuts>Удалить портативные ярлыки</RemovePortableShortcuts>
-				<Title>Инструменту LiberKey</Title>
+				<Title>Инструменты LiberKey</Title>
 				<UpdateCheck>Проверить обновления</UpdateCheck>
 				<UpdateCheckTip>Проверка наличия новой версии LiberKey или доступных обновлений программ.\nЕсли доступно, то можно выполнить обновление непосредственно через LiberKey.com</UpdateCheckTip>
 				<UsbEject>Отключите LiberKey</UsbEject>
@@ -570,28 +573,28 @@
 			<Quit>Выход</Quit>
 			<RepairApps_Caption>Исправить повреждённые приложения</RepairApps_Caption>
 			<RepairApps_Tip>Данный мастер автоматически проверит приложения в папке &quot;Apps&quot; на целостность.\nЕсли будут найдены повреждённые приложения из каталога LiberKey, то вам будет предложено переустановить их. </RepairApps_Tip>
-			<SendToPortableDocs>Мой портативные документы</SendToPortableDocs>
+			<SendToPortableDocs>Мои портативные документы</SendToPortableDocs>
 			<SendToPortableDocsDescription>Копировать выбранные файлы в папку LiberKey &quot;Мои документы&quot;</SendToPortableDocsDescription>
 			<ShortcutEditProps_Caption>Свойства ярлыка ...</ShortcutEditProps_Caption>
 			<SuiteSetup>
-				<AppList>Список Приложений</AppList>
+				<AppList>Список приложений</AppList>
 				<HideNewApps_Caption>Скрыть новые приложения</HideNewApps_Caption>
 				<HideUpdates_Caption>Скрыть обновления приложений</HideUpdates_Caption>
 				<HideUpToDateApps_Caption>Скрыть актуальные приложения</HideUpToDateApps_Caption>
 				<SelectAll_Caption>Выбрать все</SelectAll_Caption>
 				<SelectNewApps_Caption>Выбрать новые приложения</SelectNewApps_Caption>
 				<SelectPriority_Caption>Выбрать приоритетные обновления </SelectPriority_Caption>
-				<SelectUpdates_Caption>Выбрать обновления приложений</SelectUpdates_Caption>
+				<SelectUpdates_Caption>Выбрать обновленные приложений</SelectUpdates_Caption>
 				<ShowNewApps_Caption>Показать новые приложения</ShowNewApps_Caption>
-				<ShowUpdates_Caption>Показать обновления приложений</ShowUpdates_Caption>
+				<ShowUpdates_Caption>Показать обновленные приложений</ShowUpdates_Caption>
 				<ShowUpToDateApps_Caption>Показать актуальные приложения</ShowUpToDateApps_Caption>
 				<UnselectAll_Caption>Снять все выделения</UnselectAll_Caption>
 				<UnselectNewApps_Caption>Снять выделение с новых приложений</UnselectNewApps_Caption>
 				<UnselectPriority_Caption>Снять выделение с приоритетных обновлений</UnselectPriority_Caption>
-				<UnselectUpdates_Caption>Снять выделение с обновлений приложений</UnselectUpdates_Caption>
+				<UnselectUpdates_Caption>Снять выделение с обновленнных приложений</UnselectUpdates_Caption>
 			</SuiteSetup>
 			<SynchronizeCatalog_Caption>Из онлайн-каталога</SynchronizeCatalog_Caption>
-			<SynchronizeCatalog_Tip>Этот мастер получает список последних приложений доступных на сайте www.liberkey.com. Он поможет вам легко найти приложения, которые вас интересуют в нашем онлайн-каталоге.</SynchronizeCatalog_Tip>
+			<SynchronizeCatalog_Tip>Этот мастер получает список последних приложений доступных на сайте www.liberkey.com. Он поможет вам найти приложения, которые вас интересуют в нашем онлайн-каталоге.</SynchronizeCatalog_Tip>
 			<UserMenuTabEditable_Caption>Разрешить изменения</UserMenuTabEditable_Caption>
 			<UserMenuTabFloatMenu_Caption>&amp;Всплывающее меню ...</UserMenuTabFloatMenu_Caption>
 			<UserMenuTabHideName_Caption>&amp;Скрыть имя</UserMenuTabHideName_Caption>
@@ -601,7 +604,7 @@
 		<Messages>
 			<AllFilesSelection>Все файлы|*.*</AllFilesSelection>
 			<AppInstallation>Установка приложения %appname%...</AppInstallation>
-			<AppInstallDone>Приложение &apos;%appname%&quot; было установлено в ваш LiberKey</AppInstallDone>
+			<AppInstallDone>Приложение &apos;%appname%&quot; было установлено на ваш LiberKey</AppInstallDone>
 			<AppInstalled>Установленное приложение: %appname%</AppInstalled>
 			<AppNotFound>Это приложение не установленно на вашем LiberKey</AppNotFound>
 			<AppNotFoundTitle>Язык приложения</AppNotFoundTitle>
@@ -645,10 +648,12 @@
 				<FileNotFound>Файл не найден</FileNotFound>
 				<GetUpdateInfoError>Произошла ошибка при попытке получить обновления информации.\nОшибка %err%: %desc%</GetUpdateInfoError>
 				<HotKeyAlreadyUsedBy>Вы уже используете эту комбинацию для &quot;%name%&quot;!\n</HotKeyAlreadyUsedBy>
+				<InstallExtensionError>Во время установки этого приложения произошла ошибка!\n\n%extname%</InstallExtensionError>
+				<InvalidExtensionFile>Недупустимое расширение файла!</InvalidExtensionFile>
 				<LKInstNotFound>LiberKey Installer  не найден!\n</LKInstNotFound>
 				<LksDownloadFailed>Произошла ошибка во время загрузки инсталляционного пакета %app% (%lks%).\n\nОшибка %errnum%: %errdesc%</LksDownloadFailed>
 				<LogUploadFailed>Ошибка при отправке отчета</LogUploadFailed>
-				<NewsFeedDownloadError>Произошла ошибка вовремя загрузки новостей!\n%err%</NewsFeedDownloadError>
+				<NewsFeedDownloadError>Произошла ошибка во время загрузки новостей!\n%err%</NewsFeedDownloadError>
 				<NoAssoc>Нет ассоциации для расширения файла</NoAssoc>
 				<OutOfMemory>Не хватает памяти</OutOfMemory>
 				<PathNotFound>Путь не найден</PathNotFound>
@@ -684,18 +689,20 @@
 			<MyMenu>Мое меню</MyMenu>
 			<NewCategory>Новая категория</NewCategory>
 			<NewMenu>Новое меню</NewMenu>
+			<NoAppAssocFound>С этим типом файла не связано ни одно приложение LiberKey</NoAppAssocFound>
 			<NoBrokenAppFound>Повреждённых приложений не найдено</NoBrokenAppFound>
 			<NoLogToSend>Этот инструмент позволяет отправить записи событий для анализа неисправности.\n\nЗаписи событий не найдены</NoLogToSend>
 			<NoNewAppInstalled>В каталоге &quot;Apps&quot; новых приложений не найдено</NoNewAppInstalled>
-			<NoNewMyAppInstalled>Ни одного нового приложения небыли найдено в папке &quot;MyApps&quot; </NoNewMyAppInstalled>
+			<NoNewMyAppInstalled>В папке &quot;MyApps&quot; не было найдено ни одного нового приложения </NoNewMyAppInstalled>
 			<OpenWithLiberKey>Открыть с помощью LiberKey</OpenWithLiberKey>
-			<PatchAvailable>Доступно обновление для вашего LiberKey.\n\nХотите скачать его сейчас?</PatchAvailable>
+			<PatchAvailable>Доступно обновление для вашего LiberKey.\n\nХотите загрузить его сейчас?</PatchAvailable>
 			<SearchFieldInfo>Поиск в LiberKey ...</SearchFieldInfo>
 			<SearchingBrokenApps>Поиск повреждённых приложений...</SearchingBrokenApps>
-			<SearchingUninstalledApps>Поиск новых приложений... &quot;Apps&quot;</SearchingUninstalledApps>
+			<SearchingUninstalledApps>Поиск новых приложений в папке &quot;Apps&quot;</SearchingUninstalledApps>
 			<SearchingUninstalledMyApps>Поиск приложений в папке &quot;MyApps&quot; ..</SearchingUninstalledMyApps>
 			<SelectFile>Выберите файл ...</SelectFile>
-			<SendLogInfo>Этот инструмент позволяет отправить записи событий для анализа неисправности.\n\nТехническая информация и последнии 10 файлов сгенерированные в папке &quot;log&quot; вашего меню будут отправлены в liberkey.com.\n\nВы уверены?</SendLogInfo>
+			<SendingScreenshot>Отправка снимка экрана ...</SendingScreenshot>
+			<SendLogInfo>Этот инструмент позволяет отправить записи событий для анализа неисправности.\n\nТехническая информация и последнии 10 файлов сгенерированные в папке &quot;log&quot; вашего меню будут отправлены в liberkey.com.\n\nВы уверены, что хотите продолжить?</SendLogInfo>
 			<SetupAutoRestart>Установка %app% will restart preconfigured for LiberKey.</SetupAutoRestart>
 			<TrayIcon>
 				<AppUpdatesAvailable>Доступны обновления для ваших приложений.\nНажмите здесь для установки.</AppUpdatesAvailable>
@@ -714,7 +721,7 @@
 				<Cancel_Caption>Закрыть</Cancel_Caption>
 				<InstallApp_ToolTip>Установить это приложение</InstallApp_ToolTip>
 				<InstallApps_ToolTip>Установить выбранные приложения</InstallApps_ToolTip>
-				<OpenFolder_ToolTip>Открыть расположение файла</OpenFolder_ToolTip>
+				<OpenFolder_ToolTip>Перейти к файлу</OpenFolder_ToolTip>
 				<Reload_ToolTip>Обновить список</Reload_ToolTip>
 				<SelectApp_ToolTip>Выбрать это приложение</SelectApp_ToolTip>
 				<UnselectApp_ToolTip>Отменить выбор приложения</UnselectApp_ToolTip>
@@ -729,7 +736,7 @@
 		</NewAppList>
 		<News>
 			<CheckBoxs>
-				<HideReadNews_Caption>Скрыть уже прочитанные новости</HideReadNews_Caption>
+				<HideReadNews_Caption>Скрыть прочитанные новости</HideReadNews_Caption>
 			</CheckBoxs>
 			<CommandButtons>
 				<CloseNews_Caption>Закрыть</CloseNews_Caption>
@@ -738,7 +745,7 @@
 				<Title_Caption>Новости LiberKey</Title_Caption>
 			</Labels>
 			<Messages>
-				<NoNewsDescription>Сейчас нет достумных новостей.\nПри появлении новостей, вы будите уведомлены иконкой &quot;Новости LiberKey&quot; которая появится над кнопкой &quot;Инструменты&quot; в главном меню. </NoNewsDescription>
+				<NoNewsDescription>На данный момент нет новостей.\nПри появлении новостей, вы будите уведомлены иконкой &quot;Новости LiberKey&quot; которая появится над кнопкой &quot;Инструменты&quot; в главном меню. </NoNewsDescription>
 				<NoNewsTile>Новости LiberKey - Нет публикаций</NoNewsTile>
 				<NoNewsUpdateDescription>Имеется %readcount% скрытых прочитанных новости.\nДля просмотра скрытых новостей, снимити галку с &quot;Скрыть уже прочитанные новости&quot;.</NoNewsUpdateDescription>
 				<NoNewsUpdateTile>Новости LiberKey - Нет новых публикаций</NoNewsUpdateTile>
@@ -766,7 +773,7 @@
 		</Search>
 		<SetupWizard>
 			<CheckBoxs>
-				<ApplyFilesAssocs_Caption>Ассоциация приложения с файлами, которые оно знает (временно)</ApplyFilesAssocs_Caption>
+				<ApplyFilesAssocs_Caption>Ассоциация приложения с файлами, которые оно может открыть</ApplyFilesAssocs_Caption>
 				<CreateDefaultShortcuts_Caption>Создание меню для запуска приложения</CreateDefaultShortcuts_Caption>
 				<EditAppAfterSetup_Caption>Изменить свойства приложения после установки</EditAppAfterSetup_Caption>
 				<FillAppInformations_Caption>Создание описания приложения</FillAppInformations_Caption>
@@ -776,7 +783,7 @@
 				<CancelSetup2_Caption>Отмена установки</CancelSetup2_Caption>
 				<CantSetup_Caption>Закрыть мастер (невозможно продолжить)</CantSetup_Caption>
 				<DoSetup_Caption>Восстановить приложение в моем LiberKey</DoSetup_Caption>
-				<ForceSetup_Caption>Установите приложение &quot;MyApp&quot;, несмотря на</ForceSetup_Caption>
+				<ForceSetup_Caption>Установить приложение в &quot;MyApp&quot;</ForceSetup_Caption>
 				<OpenAppsFolder_Caption>Открыть папку &quot;Apps&quot; из моего LiberKey</OpenAppsFolder_Caption>
 				<OpenMyAppsFolder_Caption>Открыть папку &quot;Apps&quot; из моего LiberKey</OpenMyAppsFolder_Caption>
 				<UpdateApp_Caption>Выполнить обновление этого приложения</UpdateApp_Caption>
@@ -785,7 +792,7 @@
 				<AppInfoDetailsTitle_Caption>Это приложение изначально установлено из пакета LKS (LiberKey Setup).\nСледующие операции будут выполнены автоматически:</AppInfoDetailsTitle_Caption>
 				<AppRegisterInfo_Caption>Это приложение будет повторно зарегистрированно в LiberKey</AppRegisterInfo_Caption>
 				<DestinationMenuLabel_Caption>Создать ярлык в:</DestinationMenuLabel_Caption>
-				<IntroText_Caption>Это мастер, поможет вам добавить портативные приложения в ваш LiberKey. Следуйте его советам!</IntroText_Caption>
+				<IntroText_Caption>Это мастер, поможет вам добавить портативные приложения в ваш LiberKey. Следуйте инструкциям!</IntroText_Caption>
 				<LbkAppFolderInfo_Caption>Это приложение не будет обновляться автоматически.\nВы должны перейти в каталог &quot;Apps&quot; и повторить операцию.</LbkAppFolderInfo_Caption>
 				<LbkAppFolderMistake_Caption>Портативные приложения из онлайн-каталога www.liberkey.com должны быть помещены в папку &quot;Apps&quot;\n</LbkAppFolderMistake_Caption>
 				<lblLbkAppInfoMissing_Caption>Информация о программе не найдена.\nНевозможно сохранить его в LiberKey</lblLbkAppInfoMissing_Caption>
@@ -818,7 +825,7 @@
 			<Labels>
 				<DescriptionLabel_Caption>Описание:</DescriptionLabel_Caption>
 				<ShortcutAutorunLabel_Caption>Автозапуск:</ShortcutAutorunLabel_Caption>
-				<ShortcutHotKey_Caption>Сочетание Клавиш:</ShortcutHotKey_Caption>
+				<ShortcutHotKey_Caption>Сочетание клавиш:</ShortcutHotKey_Caption>
 				<ShortcutIconLabel_Caption>Иконка:</ShortcutIconLabel_Caption>
 				<ShortcutNameLabel_Caption>Название:</ShortcutNameLabel_Caption>
 				<ShortcutParamsLabel_Caption>Параметры</ShortcutParamsLabel_Caption>
@@ -842,12 +849,12 @@
 			<DownloadSizeInfo>Загрузить: %size%</DownloadSizeInfo>
 			<InstallSizeInfo>-   Требуемое место на диске: %size%</InstallSizeInfo>
 			<Labels>
-				<DownloadInfo_Caption>Этот мастер поможет установить полный набор приложений одной операцией.\n\nНажмите на кнопку &quot;Скачать список доступных наборов&quot;, чтобы продолжить</DownloadInfo_Caption>
+				<DownloadInfo_Caption>Этот мастер поможет установить полный набор приложений.\n\nНажмите на кнопку &quot;Скачать список доступных наборов&quot;, чтобы продолжить</DownloadInfo_Caption>
 				<Title_Caption>Установить набор приложений</Title_Caption>
 				<TitleBig_Caption>Установить набор приложений</TitleBig_Caption>
 			</Labels>
 			<Messages>
-				<ConfirmKeepDownloads>Хотите задержать пакеты установки приложений для последующей установки?\n</ConfirmKeepDownloads>
+				<ConfirmKeepDownloads>Хотите сохранить пакеты установки приложений для последующей установки?\n</ConfirmKeepDownloads>
 				<DownladAppIcons16>Загрузка иконок приложений ...</DownladAppIcons16>
 				<DownloadGraphics>Загрузка логотипов набора приложений ...</DownloadGraphics>
 				<DownloadingSuitesInfo>Загрузка информации о наборе приложений ...</DownloadingSuitesInfo>
@@ -863,7 +870,7 @@
 		<UninstallWizard>
 			<CheckBoxs>
 				<RemoveAppFolder_Caption>Удалить папку приложения (программы и связанные с ним данные)</RemoveAppFolder_Caption>
-				<RemoveAppShortcuts_Caption>Удалить меню, указывающие на это приложение</RemoveAppShortcuts_Caption>
+				<RemoveAppShortcuts_Caption>Удалить ярлык, указывающий на это приложение</RemoveAppShortcuts_Caption>
 				<RemoveFilesAssocs_Caption>Удалить ассоциации между этим приложением и типами файлов</RemoveFilesAssocs_Caption>
 				<UnregisterAppInfo_Caption>Отмена регистрации этого приложения</UnregisterAppInfo_Caption>
 			</CheckBoxs>
@@ -916,6 +923,7 @@
 		<Contributors>
 			<Contributor name="mrBG" email="bg31688@mail.ru"/>
 			<Contributor name="Talyan" email="astrezh@list.ru"/>
+			<Contributor name="askras" email="askrasnikov@gmail.com"/>
 		</Contributors>
 	</ru-RU>
 </Languages>

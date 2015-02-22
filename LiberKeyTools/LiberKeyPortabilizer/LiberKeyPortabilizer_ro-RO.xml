@@ -1,0 +1,94 @@
+<Languages version="0.2">
+	<ro-RO en_name="Romanian" icon="ro.png" date="2014-11-12">
+		<Cmds>
+			<Info>Informatii...</Info>
+			<OK>Bine</OK>
+		</Cmds>
+		<CrashRestore>
+			<CommandButtons>
+				<Restore_Caption>Restaurează configurația</Restore_Caption>
+			</CommandButtons>
+			<Labels>
+				<Info_Caption>Următoarele aplicații au fost rulate.\nNu a fost posibil să salvez configurația lor în LiberKey, și configurația computerului dvs. nu a putut fi restaurată.</Info_Caption>
+				<Title_Caption>LiberKey Portabilizer a fost întreruptă brusc la ultima execuție.</Title_Caption>
+			</Labels>
+		</CrashRestore>
+		<License>
+			<caption>%appname% licentă</caption>
+			<CheckBoxs>
+				<Accept_Caption>Accept și sunt de acord cu termenii licenței</Accept_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Accept_Caption>Acceptă</Accept_Caption>
+				<Cancel_Caption>Anulare</Cancel_Caption>
+				<OK_Caption>Bine</OK_Caption>
+			</CommandButtons>
+			<Labels>
+				<AccetInformation_Caption>IMPORTANT: Prin verificarea casetei de mai jos și clic pe butonul Accept, sunteți de acord cu acești termeni din licență și sunt de acord. Faceți clic pe pictograma &quot;săgeată jos&quot; pentru a vedea restul licenței.</AccetInformation_Caption>
+				<License_Caption>Licentă</License_Caption>
+				<LicenseAgreeTitle_Caption>Trebuie să acceptați acești termeni de licență înainte de a putea utiliza %appname%</LicenseAgreeTitle_Caption>
+				<LicenseTitle_Caption>Această licență a definit condițiile de utilizare a %appname%. Vă rugăm să citiți cu atentie înainte de a continua.</LicenseTitle_Caption>
+			</Labels>
+		</License>
+		<Main>
+			<CommandButtons>
+				<OK_Caption>&amp;Bine</OK_Caption>
+			</CommandButtons>
+			<Labels>
+				<PortabilizerInfo_Caption>Aplicații curente funcționale:</PortabilizerInfo_Caption>
+			</Labels>
+		</Main>
+		<Messages>
+			<AppAlreadyRunning>%appname% este deja în execuție. Vă rugăm să închideți cealaltă aplicație înainte de a lansa aceasta.</AppAlreadyRunning>
+			<DefaultTitle>%appname% LiberKey Editia Portabilă</DefaultTitle>
+			<Errors>
+				<AppInfoFileNotFound>Fișierul cu informații despre Aplicația portabilă lipsește.</AppInfoFileNotFound>
+				<ApplyContextError>Imposibili de a pregăti contextul de executie pentru aplicatia portabilă.\n\nVă rugăm să închideți toate ferestrele deschise și deschide din nou aplicația.</ApplyContextError>
+				<CrashInfo>Următoarele aplicații au fost rulate.\nNu a fost posibil să salvez configurația lor în LiberKey și configurația computerului dvs. nu a putut fi restaurată.</CrashInfo>
+				<CrashRestore>LiberKey Portabilizer a fost oprit în timpul că e rula ultima execuție.</CrashRestore>
+				<CrashRestoreElevatedApps>Aplicatiile au fost executate ca administrator și configurarea nu a putut fi restaurată. Pentru a face acest lucru, LiberKey Portabilizer trebuie să fi rulat ca administrator. Vrei să restaurați aceste aplicații acum?</CrashRestoreElevatedApps>
+				<DependencyMissing>Functionarea, acest program necesită instalarea%depend%.</DependencyMissing>
+				<ExeNotFound>Executabilul programului nu a fost găsit.</ExeNotFound>
+				<InvalidRetoreData>Restaurarea datelor pentru %appname% este coruptă.\nImposibil de a restabili configurația pentru această aplicație.</InvalidRetoreData>
+				<NeedLbkUpdate>LiberKey trebuie să fie actualizat pentru a rula această aplicație.\n\nAveți posibilitatea să utilizați %app% după aplicarea celui mai recent patch-uri LiberKey.</NeedLbkUpdate>
+				<NeedUpdate>LiberKey Portabilizer trebuie să fie actualizat pentru a rula această aplicație.\nÎl puteți descărca gratuit de la www.liberkey.com\n\nVrei să mergi la www.liberkey.com acum?</NeedUpdate>
+				<SingleUserApp>Aplicația &quot;%app_name%&quot; a fost lansat de către un alt utilizator.\n\nUtilizator:  &quot;%user%&quot;\nSesiunea: &quot;%session%&quot;\n\nAceeași aplicatie nu poate fi utilizată de doi utilizatori diferiți simultan.</SingleUserApp>
+			</Errors>
+			<LbkPortabilizerInfo>Acest program este motorul &quot;portabilization&quot; cerut de aplicațiile prezente în LiberKey.\n\nPentru mai multe informații, vă rugăm să vizitați\nwww.liberkey.com</LbkPortabilizerInfo>
+			<No>Nu</No>
+			<OtherInstanceStarted>Atenție!\n\nTocmai ai lansat %appname%, în timp ce versiunea portabilă se execută.\nVă rugăm să închideți versiunea de bază non-portabil înainte de a încerca pentru a rula versiunea portabilă.</OtherInstanceStarted>
+			<RestoreNeedLBK>Atenție!\n\nUnul sau mai multe cereri nu a fost găsit.\n\n- &quot;Abandonează&quot;: Nici o operațiune nu se va face în acest moment.\n\n- &quot;Ignorează&quot;: configurația calculatorului dumneavoastră va fi restaurată. Cu toate acestea, s-ar putea pierde\nconfigurația programelor portabile.\n\n- &quot;Reîncercă&quot;: În cazul în care aplicațiile portabile au fost pe un drive USB, conectați-l și faceți clic pe &quot;Reîncercă.</RestoreNeedLBK>
+			<SessionEndWarning>Aplicații portabile sunt rulate în continuare.\nVă recomandăm să închideți toate aplicațiile deschise înainte de a închide sau saceti log off la computer.</SessionEndWarning>
+			<Yes>Da</Yes>
+		</Messages>
+		<UpdateAvailable>
+			<caption>Actualizare disponibilă</caption>
+			<CheckBoxs>
+				<NoMoreAlert_Caption>Nu arată această actualizare</NoMoreAlert_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Cancel_Caption>&amp; Starează programul fără al actualiza</Cancel_Caption>
+				<Install_Caption>&amp;Descărcă și instalează aceastpă actualizare</Install_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppUpdateAvailable_Caption>O nouă versiune a acestui program este disponibilă pentru LiberKey.</AppUpdateAvailable_Caption>
+				<Version_Caption>Versiune %version%</Version_Caption>
+			</Labels>
+		</UpdateAvailable>
+		<Warning>
+			<CommandButtons>
+				<Info_Caption>Informatii...</Info_Caption>
+				<OK_Caption>&amp;Bine</OK_Caption>
+			</CommandButtons>
+			<Status>
+				<UserAdmin>Administrator:</UserAdmin>
+				<UserElevated>Ridicată:</UserElevated>
+				<UserName>Utilizator:</UserName>
+				<UserSession>Sesiune :</UserSession>
+			</Status>
+		</Warning>
+		<Contributors>
+			<Contributor email="prisacariu_a@tahoo.com" name="Adrian"/>
+		</Contributors>
+	</ro-RO>
+</Languages>

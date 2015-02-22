@@ -1,0 +1,270 @@
+<Languages version="0.2">
+	<mk-MK en_name="Macedonian" icon="mk.png" date="2012-07-24" name="Македонски">
+		<About>
+			<caption>За</caption>
+			<CommandButtons>
+				<History_caption>&amp;Историја на верзијата...</History_caption>
+				<OK_caption>&amp;Затвори</OK_caption>
+				<Update_caption>&amp;Провери за ажурирања...</Update_caption>
+			</CommandButtons>
+			<Labels>
+				<LiberKeyExclu_caption>Овој софтвер може да се користи само во LiberKey</LiberKeyExclu_caption>
+				<LiberKeyPartner_caption>KFA беше развиен за LiberKey.com</LiberKeyPartner_caption>
+			</Labels>
+		</About>
+		<AddAction>
+			<caption>Ново дејство</caption>
+			<CommandButtons>
+				<Browse_caption>Пребарај...</Browse_caption>
+				<Cancel_caption>&amp;Откажи</Cancel_caption>
+				<OK_caption>&amp;Во ред</OK_caption>
+			</CommandButtons>
+			<EditCaption>Измена на видот: %typedesc%</EditCaption>
+			<Labels>
+				<Action_caption>&amp;Дејство:</Action_caption>
+				<ActionAppPath_caption>Користи ја апликацијата за извршување на оваа дејство:</ActionAppPath_caption>
+				<ActionArgs_caption>Параметри на командната линија:</ActionArgs_caption>
+			</Labels>
+			<Messages>
+				<ActionIsEmpty>Одредете дејствие.</ActionIsEmpty>
+				<ActionIsEmptyTitle>Видови датотеки</ActionIsEmptyTitle>
+				<AppNotFound>Наведената програма не беше пронајдена. Проверете дали името на датотеката и патеката се точни.</AppNotFound>
+				<AppNotFoundTitle>Додај дејство</AppNotFoundTitle>
+			</Messages>
+		</AddAction>
+		<AppSelect>
+			<caption>Избор на поврзани преносни апликации</caption>
+			<CommandButtons>
+				<Cancel_caption>&amp;Откажи</Cancel_caption>
+				<OK_caption>&amp;Во ред</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<Loading_caption>Вчитување листа на достапни софтвери...</Loading_caption>
+			</Labels>
+		</AppSelect>
+		<AppWarning>
+			<caption>Key Files Assoc&apos; - Ризик од конфликт со други апликации</caption>
+			<CommandButtons>
+				<OK_caption>&amp;Во ред</OK_caption>
+				<RemoveAssocs_caption>Оневозможи поврзување.</RemoveAssocs_caption>
+			</CommandButtons>
+			<Labels>
+				<Message_caption>KEY Files Assoc&apos; откри извршување на една апликација која може да биде проблематична. Препорачливо е да се оневозможи привремено датотечно поврзување пред правење на промени во регистарот на Windows.</Message_caption>
+				<Title_caption>Предупредување!</Title_caption>
+			</Labels>
+		</AppWarning>
+		<AssocAdvance>
+			<caption>Уредување видови датотеки</caption>
+			<CheckBoxs>
+				<ReplaceWinEntry_caption>Замени ги тековните дејства за овој вид на датотеки</ReplaceWinEntry_caption>
+				<WinEdit_caption>Дозволи измени во „Папки со опции“</WinEdit_caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Add_caption>&amp;Ново...</Add_caption>
+				<Cancel_caption>&amp;Откажи</Cancel_caption>
+				<ChangeIcon_caption>&amp;Промени икона...</ChangeIcon_caption>
+				<Default_caption>&amp;Стандардно</Default_caption>
+				<DelAction_caption>&amp;Отстрани</DelAction_caption>
+				<EditAction_caption>&amp;Измени...</EditAction_caption>
+				<OK_caption>&amp;Во ред</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<Actions_caption>&amp;Дејства:</Actions_caption>
+			</Labels>
+			<Messages>
+				<ActionDeleteConfirm>Дали навистина сакате да го отстраните оваа дејство?</ActionDeleteConfirm>
+				<ActionDeleteConfirmTitle>Видови датотеки</ActionDeleteConfirmTitle>
+			</Messages>
+		</AssocAdvance>
+		<Download>
+			<caption>Софтверско ажурирање</caption>
+			<CommandButtons>
+				<Cancel_caption>&amp;Откажи</Cancel_caption>
+			</CommandButtons>
+			<Labels>
+				<Title_caption>Преземање на софтверско ажурирање...</Title_caption>
+			</Labels>
+		</Download>
+		<FileAssoc>
+			<caption>Видови датотеки поврзани со LiberKey преносни апликации</caption>
+			<CommandButtons>
+				<Add_caption>&amp;Ново...</Add_caption>
+				<Advanced_caption>&amp;Напредно...</Advanced_caption>
+				<Apply_caption>&amp;Прифати</Apply_caption>
+				<Cancel_caption>&amp;Откажи</Cancel_caption>
+				<Delete_caption>&amp;Избриши</Delete_caption>
+				<OK_caption>Во ред</OK_caption>
+				<SelectApp_caption>Уреди...</SelectApp_caption>
+			</CommandButtons>
+			<Labels>
+				<AssocListTitle_caption>Регистрирани видови датотеки:</AssocListTitle_caption>
+				<ExtInfo>Датотеките од видот „%1“ се „%2“. За да ги промените преносните апликации поврзани во оваа датотека, кликнете на Напредно.</ExtInfo>
+				<ExtInfoNoExt>Да ги промените поставувањата кои се однесуваат на сите елементите од видот „%1&quot;, кликнете на Напредно.</ExtInfoNoExt>
+				<FrameCaption_caption>Детали за наставката „%1“</FrameCaption_caption>
+				<FrameCaptionNoExt_caption>Детали за „%1“</FrameCaptionNoExt_caption>
+				<OpenWithInfo_caption>Отвори со:</OpenWithInfo_caption>
+			</Labels>
+			<Messages>
+				<AppExeNotFound>Грешка при обновувањето на патеката на избраната преносна апликација</AppExeNotFound>
+				<DeleteConfirm>Ако ја отстраните регистрираната наставка на датотеката, ќе биде невозможно да се отвори датотека со оваа наставка преку двоен клик на иконата.\n\nДали навистина сакате да ја отстраните оваа наставка на датотеката?</DeleteConfirm>
+				<DeleteConfirmTitle>Видови датотеки</DeleteConfirmTitle>
+				<ExtExists>Оваа наставка веќе е поврзана со „%1“ датотеки</ExtExists>
+				<ExtExistsTitle>Видови датотеки</ExtExistsTitle>
+			</Messages>
+		</FileAssoc>
+		<General>
+			<AppActionPrefix>Отвори со</AppActionPrefix>
+			<AppActionSufix>(LiberKey)</AppActionSufix>
+			<DefaultTypeName>Датотеки %1</DefaultTypeName>
+		</General>
+		<History>
+			<caption>Key Files Assoc&apos; - Историја на верзии</caption>
+			<CommandButtons>
+				<Close_caption>&amp;Затвори</Close_caption>
+				<Download_caption>Преземање на издание %ver%...</Download_caption>
+			</CommandButtons>
+			<Messages>
+				<AppVersion>Верзија %ver%</AppVersion>
+				<New>Ново</New>
+				<NextVersion>(следна верзија...)</NextVersion>
+				<NoVersionInfo>Нема достапни информации за верзијата</NoVersionInfo>
+				<VersionAvailable>Достапно ажурирање</VersionAvailable>
+				<VersionDate>- %date%</VersionDate>
+				<YourVersion>Ваша верзија</YourVersion>
+			</Messages>
+		</History>
+		<Loading>
+			<Labels>
+				<Info_caption>Вчитување...</Info_caption>
+			</Labels>
+		</Loading>
+		<Main>
+			<Menus>
+				<About_caption>&amp;За...</About_caption>
+				<Apply_caption>Прифати LiberKey поврзувања</Apply_caption>
+				<Config_caption>Конфигурација на датотечното поврзување...</Config_caption>
+				<Options_caption>&amp;Опции...</Options_caption>
+				<Quit_caption>&amp;Излез</Quit_caption>
+				<Restore_caption>Обнови датотечни поврзувања на локалниот компјутер</Restore_caption>
+				<Test_caption>тест</Test_caption>
+				<Web_caption>&amp;Посетете ја веб страницата на  Key Files Assoc&apos;...</Web_caption>
+			</Menus>
+		</Main>
+		<MergeAssocs>
+			<caption>Ажурирање на конфигурацијата</caption>
+			<CommandButtons>
+				<Cancel_caption>&amp;Ќе видам при следното стартување...</Cancel_caption>
+				<MergeDefaultAssocs_caption>&amp;Прифати ги избраните поврзувања</MergeDefaultAssocs_caption>
+				<SkipDefaultAssoc_caption>&amp;Не ја менувај конфигурацијата!</SkipDefaultAssoc_caption>
+			</CommandButtons>
+			<Labels>
+				<Title_caption>Стандардна конфигурација на поврзувањата</Title_caption>
+				<UpdateInfo_caption>Во листата подолу, можете да ги видите сите нови датотечни поврзувања испорачани со ова ново издание. Поврзувањата означени со црвено се веќе дефинирани во моментов на конфигурацијата. Сите избрани поврзувања во оваа листа ќе бидат додадени во вашата моментална конфигурација.</UpdateInfo_caption>
+			</Labels>
+		</MergeAssocs>
+		<Messages>
+			<ApplyDone>LiberKey преносните апликации сега се поврзани со датотеки.</ApplyDone>
+			<ApplyDoneTitle>LiberKey поврзани преносни апликации</ApplyDoneTitle>
+			<ApplyError>Се случи грешка при обидот за активирање на LiberKey поврзувањето</ApplyError>
+			<ApplyErrorTitle>Грешка при датотечното поврзување</ApplyErrorTitle>
+			<ASuiteConfMissing>Датотеката која ја содржи листата на LiberKey преносни апликации не е пронајдена!</ASuiteConfMissing>
+			<AutoRestoreDone>Датотечните наставки не беа обновени за време на последното користење.\nТукушто го направија тоа.</AutoRestoreDone>
+			<AutoRestoreDoneTitle>Обновено поврзување</AutoRestoreDoneTitle>
+			<ExeSelection>Апликации|*.exe;*.bat;*.com|Сите датотеки (*.*)|*.*</ExeSelection>
+			<NewVersionAvailable>Достапно е ново Key Files Assoc&apos; издание</NewVersionAvailable>
+			<NewVersionInfo>Издавањето на %version% на %versiondate% е достапно.\n\nДали сакате да го преземете сега?</NewVersionInfo>
+			<NoAppUpdate>%appname% е со последната верзија.</NoAppUpdate>
+			<RestoreDone>Датотечното поврзување е обновено</RestoreDone>
+			<RestoreDoneTitle>Апликациите се обновени</RestoreDoneTitle>
+			<RestoreError>Датотечните наставки не можат да се обноват.\nСе случи грешка при обновата на датотечното поврзување.</RestoreError>
+			<RestoreErrorTitle>Грешка при датотечното поврзување</RestoreErrorTitle>
+			<UpdateAppStillRunning>Софтверот сеуште работи.\nДали сакате да се обидете повторно?</UpdateAppStillRunning>
+			<UpdateDone>Ажурирањето на верзијата %version% е завршено.</UpdateDone>
+			<UpdateDownloadError>Се случи грешка за време на последното преземање.\n\n%error%</UpdateDownloadError>
+			<UpdateErrorTitle>Грешка за време на ажурирањето</UpdateErrorTitle>
+			<UpdateExeError>Се случи грешка за време на ажурирање на софтверот.\n\n%error%</UpdateExeError>
+			<UpdateInfoError>Се случи грешка при обидот да се добие последната информација</UpdateInfoError>
+			<UpdateTitle>Ажурирање</UpdateTitle>
+		</Messages>
+		<NewType>
+			<caption>Создади нова наставка</caption>
+			<CommandButtons>
+				<Cancel_caption>&amp;Откажи</Cancel_caption>
+				<OK_caption>&amp;Во ред</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<Info_caption>Датотечна наставка:</Info_caption>
+			</Labels>
+			<Messages>
+				<NoExt>Одредете наставка.</NoExt>
+				<NoExtTitle>Видови датотеки</NoExtTitle>
+			</Messages>
+		</NewType>
+		<Options>
+			<caption>Конфигурација на Key Files Assoc&apos;</caption>
+			<CheckBoxs>
+				<AutoCheckVersionAtStart_caption>Провери за ажурирање на стартните програми</AutoCheckVersionAtStart_caption>
+				<ShowAssocToolTip_caption>Покажи појаснување за алатката кога поврзувањата се овозможени/обновени</ShowAssocToolTip_caption>
+				<UseLbkProxySettings_caption>Користи LiberKey proxy конфигурација</UseLbkProxySettings_caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Cancel_caption>&amp;Откажи</Cancel_caption>
+				<DelAssocErrors_caption>Отстрани избрано поврзување</DelAssocErrors_caption>
+				<OK_caption>&amp;Во ред</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<AppsErrorsTitle_caption>Не е пронајден софтвер (оневозможено поврзување)</AppsErrorsTitle_caption>
+				<FastSwitchMode_caption>Со двојно кликнување на иконата во системската лента:</FastSwitchMode_caption>
+				<Language_caption>Јазик на корисничкиот интерфејс:</Language_caption>
+			</Labels>
+			<Messages>
+				<ActionCount>(1 дејство)</ActionCount>
+				<AppCounters>Апликацијата е поврзана со %objcount% предмети (%actioncount% дејствија)</AppCounters>
+				<NotFoundApp>(Не е пронајдена апликација)</NotFoundApp>
+			</Messages>
+			<OptionButtons>
+				<optSystrayFastSwitchOFF_caption>Отвори конфигурација на поврзувањето</optSystrayFastSwitchOFF_caption>
+				<optSystrayFastSwitchON_caption>Поврзи/Обнови софтвер за поврзување</optSystrayFastSwitchON_caption>
+			</OptionButtons>
+			<Tabs>
+				<ActionErrors>Неправилно дејство</ActionErrors>
+				<Options>Опции</Options>
+			</Tabs>
+		</Options>
+		<SelectIcon>
+			<caption>Промени икона</caption>
+			<CommandButtons>
+				<Browse_caption>&amp;Прегледај...</Browse_caption>
+				<Cancel_caption>&amp;Откажи</Cancel_caption>
+				<OK_caption>&amp;Во ред</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<IconList_caption>&amp;Изберете икона од листата подолу:</IconList_caption>
+				<IconPath_caption>&amp;Пребарај икона за оваа датотека:</IconPath_caption>
+			</Labels>
+			<Messages>
+				<FileNotFound>Датотеката не е понајдена: %1</FileNotFound>
+				<FilterAllFiles>Сите датотеки</FilterAllFiles>
+				<FilterIconFiles>Датотеки со икони</FilterIconFiles>
+				<FilterLibraries>Библиотеки</FilterLibraries>
+				<FilterPrograms>Програми</FilterPrograms>
+				<OpenFileTitle>Промени икона</OpenFileTitle>
+			</Messages>
+		</SelectIcon>
+		<Update>
+			<caption>Софтверско ажурирање</caption>
+			<CommandButtons>
+				<Cancel_caption>&amp;Откажи</Cancel_caption>
+			</CommandButtons>
+			<Labels>
+				<ClosingApp_caption>Затварање на апликација</ClosingApp_caption>
+				<ReplaceExe_caption>Ажурирање софтвер</ReplaceExe_caption>
+				<RunNewVersion_caption>Пуштање на нова верзија</RunNewVersion_caption>
+				<Title_caption>Инсталација на софтверско ажурирање</Title_caption>
+			</Labels>
+		</Update>
+		<Contributors>
+			<Contributor name="mite71" email="mite71@live.com"/>
+		</Contributors>
+	</mk-MK>
+</Languages>

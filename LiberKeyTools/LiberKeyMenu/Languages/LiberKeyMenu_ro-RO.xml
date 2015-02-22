@@ -1,0 +1,927 @@
+<Languages version="0.4">
+	<ro-RO en_name="Romanian" name="Român" icon="ro.png" date="2014-11-13" version="1.0">
+		<AppCategories>
+			<accessibility>Accesibilitate</accessibility>
+			<audio>Player Audio</audio>
+			<audio:converter>Convertoare</audio:converter>
+			<audio:editor>Editoare</audio:editor>
+			<audio:ipod_manager>Managere iPod</audio:ipod_manager>
+			<audio:player>Audio Playere</audio:player>
+			<audio:radio>Playere Radio</audio:radio>
+			<audio:ripper>Scriere Disk-uri</audio:ripper>
+			<audio:tagger>Taguri</audio:tagger>
+			<audio:text_to_speech>Scriere Text</audio:text_to_speech>
+			<audio:tools>Utilităti</audio:tools>
+			<audio-video>Playere Video</audio-video>
+			<cd-dvd>DVD-uri</cd-dvd>
+			<cd-dvd:burning_tools>Unelte de ardere a Disk-urilor</cd-dvd:burning_tools>
+			<cd-dvd:cover_printer>Copertă si imprimantă</cd-dvd:cover_printer>
+			<cd-dvd:image_tools>Instrumente pentru fotografie</cd-dvd:image_tools>
+			<development>Dezvoltare</development>
+			<education>Educatie</education>
+			<education:astronomy>Astronomie</education:astronomy>
+			<education:children>Pentru copii</education:children>
+			<education:drawing>Desenare</education:drawing>
+			<education:geography>Geografie</education:geography>
+			<education:music>Muzică</education:music>
+			<education:typing>Dactilografiere</education:typing>
+			<file_management>Administrarea fișierelor</file_management>
+			<file_management:backup>Creare Copie de rezervă</file_management:backup>
+			<file_management:cataloger>Cataloguri</file_management:cataloger>
+			<file_management:comparison>Comparație</file_management:comparison>
+			<file_management:compression>Comprimare</file_management:compression>
+			<file_management:copy>Copiere</file_management:copy>
+			<file_management:defragmenter>Defragmentare</file_management:defragmenter>
+			<file_management:directory_lister>Listă Directori</file_management:directory_lister>
+			<file_management:disk_space_tool>Unelte pentru Hard-Disc</file_management:disk_space_tool>
+			<file_management:duplicate_finder>Căutare fisiere duplicate</file_management:duplicate_finder>
+			<file_management:manager>Manageri</file_management:manager>
+			<file_management:recovery>Recuperare</file_management:recovery>
+			<file_management:renamer>Redenumire</file_management:renamer>
+			<file_management:search>Căutare</file_management:search>
+			<file_management:splitter>Tăiere fisiere</file_management:splitter>
+			<file_management:synchronization>Sincronizare</file_management:synchronization>
+			<file_management:tools>Utilităti</file_management:tools>
+			<file_management:universal_viewer>Vizualizator Universal</file_management:universal_viewer>
+			<games>Jocuri</games>
+			<games:action>Actiune</games:action>
+			<games:card>Carduri</games:card>
+			<games:puzzle>Logice puzzle</games:puzzle>
+			<games:reflexion>Reflexie</games:reflexion>
+			<games:strategy>Strategie</games:strategy>
+			<graphics-photo>Fotografie</graphics-photo>
+			<graphics-photo:3d>Fotografie 3D</graphics-photo:3d>
+			<graphics-photo:color_picker>Colorare fotografie</graphics-photo:color_picker>
+			<graphics-photo:editor>Editoare Fotografie</graphics-photo:editor>
+			<graphics-photo:effect_and_filter>Efecte fotografie si filtre</graphics-photo:effect_and_filter>
+			<graphics-photo:icon_editor>Editor pictgrame</graphics-photo:icon_editor>
+			<graphics-photo:screen_capture>Captură ecran</graphics-photo:screen_capture>
+			<graphics-photo:tools>Unelte pentru fotografie</graphics-photo:tools>
+			<graphics-photo:vector_converter>Convertor de vector</graphics-photo:vector_converter>
+			<graphics-photo:viewer>Vizualizare Fotografie</graphics-photo:viewer>
+			<internet>Pentru Internet</internet>
+			<internet:bookmark_manager>Manager de marcaje</internet:bookmark_manager>
+			<internet:browser>Browsere</internet:browser>
+			<internet:download>Descărcători</internet:download>
+			<internet:email>Pentru Email</internet:email>
+			<internet:ftp>Internet FTP</internet:ftp>
+			<internet:instant_messenger>Mesagerie Instant</internet:instant_messenger>
+			<internet:rss_reader>Cititor RSS</internet:rss_reader>
+			<internet:website_authoring>Creatie Web-Site</internet:website_authoring>
+			<internet:website_copier>Copiator Web-site</internet:website_copier>
+			<multimedia>Comunicare Multimedia</multimedia>
+			<networking-server>Servere</networking-server>
+			<networking-server:bandwidth_monitor>Monitorizare Monitor</networking-server:bandwidth_monitor>
+			<networking-server:configuration>Configuratie</networking-server:configuration>
+			<networking-server:network_analyzer>Analizator Internet</networking-server:network_analyzer>
+			<networking-server:remote_control>Control de la distanță</networking-server:remote_control>
+			<networking-server:scanner>Scanere</networking-server:scanner>
+			<networking-server:server>Servere</networking-server:server>
+			<networking-server:settings_manager>Manageri pentru setări</networking-server:settings_manager>
+			<networking-server:telnet-ssh_client>Client Telnet-SSH</networking-server:telnet-ssh_client>
+			<networking-server:tools>Unelte pentru servere</networking-server:tools>
+			<office>Pentru Birou</office>
+			<office:calculator>Pentru Calculator</office:calculator>
+			<office:calendar>Calendare</office:calendar>
+			<office:chrono>Cronologie</office:chrono>
+			<office:desktop_tools>Unelte pentru Ecran</office:desktop_tools>
+			<office:desktop_tools:application_launcher>Lansatori Aplicatii</office:desktop_tools:application_launcher>
+			<office:desktop_tools:automation>Automatizare</office:desktop_tools:automation>
+			<office:desktop_tools:clipboard_manager>Manageri Tastatură</office:desktop_tools:clipboard_manager>
+			<office:desktop_tools:clock>Ceas</office:desktop_tools:clock>
+			<office:desktop_tools:customization>Personalizare</office:desktop_tools:customization>
+			<office:desktop_tools:desktop_note>Notă Desktop</office:desktop_tools:desktop_note>
+			<office:desktop_tools:keyboard-mouse>Maus</office:desktop_tools:keyboard-mouse>
+			<office:desktop_tools:save_desktop_icon>Salvarea pictogramelor de pe desktop</office:desktop_tools:save_desktop_icon>
+			<office:desktop_tools:virtual_desktop>Ecran Virtual</office:desktop_tools:virtual_desktop>
+			<office:desktop_tools:zoom>Mareste (zoom)</office:desktop_tools:zoom>
+			<office:diagram_editor>Editoare de diagrame</office:diagram_editor>
+			<office:finance_manager>Managere de finanțe</office:finance_manager>
+			<office:font_manager>Managere de font</office:font_manager>
+			<office:note_manager>Managere de Note</office:note_manager>
+			<office:office_suite>Unelte pentru birou</office:office_suite>
+			<office:pdf>Vizualizare fisiere PDF</office:pdf>
+			<office:presentation>Prezentare</office:presentation>
+			<office:task_manager>Managere de activități</office:task_manager>
+			<office:text_editor>Editoare de text</office:text_editor>
+			<office:tutorial_creator>Creare tutorial</office:tutorial_creator>
+			<office:unit_converter>Convertoare de unitate</office:unit_converter>
+			<office:universal_viewer>Vizualizatoare universale</office:universal_viewer>
+			<security>Securitate</security>
+			<security:anti_virus-spyware>Antivirus si antispyware</security:anti_virus-spyware>
+			<security:encryption>Criptare</security:encryption>
+			<security:integrity_checker>verificare integritate</security:integrity_checker>
+			<security:password_manager>Managere de parolă</security:password_manager>
+			<security:privacy_tool>Instrumente de confidențialitate</security:privacy_tool>
+			<security:secure_deletion>Stergere Securizată</security:secure_deletion>
+			<security:tools>Instrumente</security:tools>
+			<system_utilities>Utilitare de sistem</system_utilities>
+			<system_utilities:benchmark>Obiective de referință</system_utilities:benchmark>
+			<system_utilities:benchmark:hard_disk>Unelte Hard disk</system_utilities:benchmark:hard_disk>
+			<system_utilities:benchmark:universal>Universală</system_utilities:benchmark:universal>
+			<system_utilities:cleaner-uninstaller>Curățător - dezinstalare</system_utilities:cleaner-uninstaller>
+			<system_utilities:emulator>Emulatoare</system_utilities:emulator>
+			<system_utilities:hex_editor>Editoare de Hex</system_utilities:hex_editor>
+			<system_utilities:information>Informatii</system_utilities:information>
+			<system_utilities:information:file_monitoring>Monitorizare fisiere</system_utilities:information:file_monitoring>
+			<system_utilities:information:hardware_monitoring>Monitorizare hardware</system_utilities:information:hardware_monitoring>
+			<system_utilities:information:inventory>Inventar</system_utilities:information:inventory>
+			<system_utilities:information:process>Procese</system_utilities:information:process>
+			<system_utilities:information:processor>Procesoare</system_utilities:information:processor>
+			<system_utilities:information:service>Servicii</system_utilities:information:service>
+			<system_utilities:information:startup_manager>Managere de pornire</system_utilities:information:startup_manager>
+			<system_utilities:information:usb_device>Dispozitive USB</system_utilities:information:usb_device>
+			<system_utilities:information:video_card>Carduri Video</system_utilities:information:video_card>
+			<system_utilities:registry>Key de Registrii</system_utilities:registry>
+			<system_utilities:registry:backup>Copie de rezervă</system_utilities:registry:backup>
+			<system_utilities:registry:comparison>Comparație</system_utilities:registry:comparison>
+			<system_utilities:registry:compression>Compresie</system_utilities:registry:compression>
+			<system_utilities:registry:monitoring>Monitorizare</system_utilities:registry:monitoring>
+			<system_utilities:registry:repair>Reparare</system_utilities:registry:repair>
+			<system_utilities:registry:search>Căutare</system_utilities:registry:search>
+			<system_utilities:repair>Reparare</system_utilities:repair>
+			<system_utilities:tests>Testare</system_utilities:tests>
+			<system_utilities:tests:burning_test>Testare scriere discuri</system_utilities:tests:burning_test>
+			<system_utilities:tests:hard_disk>Unelte pentru Hard Disk</system_utilities:tests:hard_disk>
+			<system_utilities:tests:monitor>Monitoare</system_utilities:tests:monitor>
+			<system_utilities:tests:ram>Memoria RAM</system_utilities:tests:ram>
+			<system_utilities:tools>Instrumente</system_utilities:tools>
+			<system_utilities:tweaker>Convorbire</system_utilities:tweaker>
+			<system_utilities:update_checker>Verificatoare actualizare </system_utilities:update_checker>
+			<video>Playere Video</video>
+			<video:authoring>De creație</video:authoring>
+			<video:capture>Captură</video:capture>
+			<video:cataloger>Cataloguri</video:cataloger>
+			<video:converter>Convertoare</video:converter>
+			<video:editor>Editoare</video:editor>
+			<video:player>Playere</video:player>
+			<video:repair>Reparare</video:repair>
+			<video:tools>Instrumente</video:tools>
+		</AppCategories>
+		<AppInfo>
+			<CheckBoxs>
+				<AutoShowInfo_Caption>Afișează automat această informație</AutoShowInfo_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<AppGoToWebSite_ToolTip>Vezi autor web-site</AppGoToWebSite_ToolTip>
+				<AppInstall_Caption>Instalează Acum</AppInstall_Caption>
+				<AppOpenLicenseFile_ToolTip>Vezi licenta</AppOpenLicenseFile_ToolTip>
+				<AppProperties_Caption>Proprietăti</AppProperties_Caption>
+				<AppRun_Caption>Rulează</AppRun_Caption>
+				<AppUpdate_Caption>Actualizează Acum..</AppUpdate_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppEditorLabel_Caption>Autor</AppEditorLabel_Caption>
+				<AppLicenseLabel_Caption>Licentă</AppLicenseLabel_Caption>
+				<AppPlatformLabel_Caption>Platformă</AppPlatformLabel_Caption>
+			</Labels>
+		</AppInfo>
+		<AppList>
+			<CommandButtons>
+				<AddApp_Caption>Adaugă Aplicatii</AddApp_Caption>
+				<AddApps_Caption>Adaugă Aplicatii</AddApps_Caption>
+				<AddApps_ToolTip>Apasă aici pentru a adăuga aplicații în LiberKey</AddApps_ToolTip>
+				<Browse_ToolTip>Deschide folderul aplicatiei</Browse_ToolTip>
+				<Cancel_Caption>Închide</Cancel_Caption>
+				<Reinstall_Caption>Reinstalează</Reinstall_Caption>
+				<Reinstall_ToolTip>Reinstalarea unei aplicatii poate recrea comenzile rapide implicite din meniul LiberKey, reîncărcați informațiile acestei aplicatii, si asociati fișierele temporare.</Reinstall_ToolTip>
+				<Uninstall_Caption>Dezinstalează</Uninstall_Caption>
+				<Uninstall_ToolTip>Click aici pentru a dezinstala această aplicație de pe LiberKey.Această aplicație utilizată va fi ștearsă: Meniuri, informații, asocierile de fișiere temporare, programul în sine și alte date asociate.</Uninstall_ToolTip>
+			</CommandButtons>
+			<Labels>
+				<AppNameLabel_Caption>Nume Aplicatie</AppNameLabel_Caption>
+				<FolderSizeLabel_Caption>0 KB biti</FolderSizeLabel_Caption>
+				<Title_Caption>Manageriati aplicatiile portabile</Title_Caption>
+			</Labels>
+			<Messages>
+				<Loading>Se încarcă lista...</Loading>
+			</Messages>
+		</AppList>
+		<AppProperties>
+			<AutoRunMode>
+				<Never>Niciodată</Never>
+				<ShutDown>La închidere</ShutDown>
+				<ShutDownSingle>La închidere, dacă nu rulează deja</ShutDownSingle>
+				<Startup>Mereu la pornire</Startup>
+				<StartupSingle>La pornire, dacă nu rulează deja</StartupSingle>
+			</AutoRunMode>
+			<CommandButtons>
+				<AppGoToWebSite_Caption>Viziteazi site-ul</AppGoToWebSite_Caption>
+				<ApplyChanges_Caption>Aplică</ApplyChanges_Caption>
+				<AppOpenLicenseFile_Caption>Cauta licență</AppOpenLicenseFile_Caption>
+				<AppUninstall_Caption>Click aici pentru a dezinstala această aplicație din LiberKey</AppUninstall_Caption>
+				<AppUninstall_ToolTip>Click aici pentru a dezinstala această aplicație de pe LiberKey. Totul cu privire la această aplicație va fi șters: Meniuri, informații, asocierile de fișiere temporare, programul în sine și alte date asociate.</AppUninstall_ToolTip>
+				<AppUpdate_Caption>Actualizare</AppUpdate_Caption>
+				<Cancel_Caption>Închide</Cancel_Caption>
+			</CommandButtons>
+			<FileSources>Tipul link-ului</FileSources>
+			<Labels>
+				<AppDescriptionLabel_Caption>Descriere aplicație:</AppDescriptionLabel_Caption>
+				<AppEditorLabel_Caption>Autor</AppEditorLabel_Caption>
+				<AppIconLabel_Caption>Pictograme implicite</AppIconLabel_Caption>
+				<AppLicenseLabel_Caption>Licentă</AppLicenseLabel_Caption>
+				<AppNameLabel_Caption>Nume</AppNameLabel_Caption>
+				<AppParamsLabel_Caption>Parametrii de linie de comandă:</AppParamsLabel_Caption>
+				<AppPathLabel_Caption>Calea Executabilă / director / pagina web / documente</AppPathLabel_Caption>
+				<AppPlatformLabel_Caption>Platformă</AppPlatformLabel_Caption>
+				<AppVersionLabel_Caption>Versiune</AppVersionLabel_Caption>
+				<AppWorkDirLabel_Caption>Functionează în Directorul:</AppWorkDirLabel_Caption>
+				<Title_Caption>Proprietăți aplicații</Title_Caption>
+			</Labels>
+			<Messages>
+				<BrowseForExe>Selectați fișierul executabil al aplicatiei:</BrowseForExe>
+				<BrowseForFileToOpen>Selectați fișierul pentru al deschide:</BrowseForFileToOpen>
+				<BrowseForLicense>Selectați fișierul licență al programului:</BrowseForLicense>
+				<ClearLisenseFile>Ștergere linkul către licență</ClearLisenseFile>
+				<ClearWebAddress>Ștergere link către pagina web</ClearWebAddress>
+				<SelectAppWorkDir>Selectați directorul de functionare al aplicatiei</SelectAppWorkDir>
+				<SetLicenseAddr>Completeaza adresa de internet a licenței programului:</SetLicenseAddr>
+				<SetWebSiteAddr>Introduceți adresa de Internet a autorului acestui program:</SetWebSiteAddr>
+			</Messages>
+			<Tabs>
+				<Application>Aplicatii</Application>
+				<AppMore>Avansat</AppMore>
+			</Tabs>
+			<WindowStartMode>
+				<Maximized>Maximizare</Maximized>
+				<Minimized>Minimizare</Minimized>
+				<Normal>În mod normal</Normal>
+			</WindowStartMode>
+		</AppProperties>
+		<CategoryProps>
+			<CheckBoxs>
+				<EditLiberKeyCategory_Caption>Redenumeste această categorie LiberKey</EditLiberKeyCategory_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Apply_Caption>Bine</Apply_Caption>
+				<Cancel_Caption>Anulare</Cancel_Caption>
+			</CommandButtons>
+			<Labels>
+				<CategoryHotKey_Caption>Comenzi rapide pentru Tastatură (Meniu plutitor):</CategoryHotKey_Caption>
+				<CatIconLabel_Caption>Categoria pictogramei</CatIconLabel_Caption>
+				<CatNameLabel_Caption>Numele Categoriei</CatNameLabel_Caption>
+				<Title_Caption>Proprietate Categorie</Title_Caption>
+			</Labels>
+		</CategoryProps>
+		<Config>
+			<About>
+				<Version>versiune %ver%</Version>
+			</About>
+			<CheckBoxs>
+				<AppHotKeysMemoPopup_Caption>Afișează o alertă înainte de lansarea unei aplicatii</AppHotKeysMemoPopup_Caption>
+				<AutoCloseApps_Caption>Atunci când meniul se închide, închideți toate aplicațiile care rulează </AutoCloseApps_Caption>
+				<AutoCollapseOnHide_Caption>Cand meniul este ascuns, du-te înapoi la categoria principală</AutoCollapseOnHide_Caption>
+				<AutoHideMenuOnAppRun_Caption>Ascunde meniul atunci când este pornit o aplicație</AutoHideMenuOnAppRun_Caption>
+				<AutoRemoveDrive_Caption>Cand meniul se închide, deconectați dispozitivul amovibil</AutoRemoveDrive_Caption>
+				<AutoRunLiberKey_Caption>Porniți LiberKey la pornirea Windows / logare</AutoRunLiberKey_Caption>
+				<AutoShowAppInfo_Caption>Vizualizați informații despre aplicațiile</AutoShowAppInfo_Caption>
+				<ConfirmCategoryDeletion_Caption>Confirmați ștergerea unei categorii</ConfirmCategoryDeletion_Caption>
+				<ConfirmShortcutDeletion_Caption>Confirmați ștergerea de comenzi rapide</ConfirmShortcutDeletion_Caption>
+				<CreateTempSendToShortcut_Caption>Creați &quot;Trimite / Documentele mele portabile&quot; pictogramă temporară</CreateTempSendToShortcut_Caption>
+				<DisableAllEffects_Caption>Dezactivați toate efectele de animație</DisableAllEffects_Caption>
+				<DisableControlsEffects_Caption>Dezactivați animație interfață</DisableControlsEffects_Caption>
+				<DisableDialogsEffects_Caption>Dezactivează Animație dialog</DisableDialogsEffects_Caption>
+				<DisableMenuEffects_Caption>Dezactivați animațile din Meniu</DisableMenuEffects_Caption>
+				<DisplayClock_Caption>Ceasul Ecranului</DisplayClock_Caption>
+				<DontShowEmptyDesc_Caption>Cu excepția cazului în care descrierea este goală</DontShowEmptyDesc_Caption>
+				<EnableAppHotKeys_Caption>Permite pictogramă în tastatură pentru a lansa aplicații</EnableAppHotKeys_Caption>
+				<EnableAppsAutoStart_Caption>Activați rularea automată</EnableAppsAutoStart_Caption>
+				<HideClockSeconds_Caption>Ascunde secundele</HideClockSeconds_Caption>
+				<HotKeyFloatMenu_Caption>Meniul Plutitor</HotKeyFloatMenu_Caption>
+				<HotKeyMain_Caption>Meniul Principal</HotKeyMain_Caption>
+				<SingleClicAppRun_Caption>Execută aplicațiile cu un singur click</SingleClicAppRun_Caption>
+				<SingleClicCategoryExpand_Caption>Deschide Categoriile cu un singur clic</SingleClicCategoryExpand_Caption>
+				<ToolsAutoOpenLiberKeyNews_Caption>Auto deschide fereastra cu știri</ToolsAutoOpenLiberKeyNews_Caption>
+				<ToolsCheckAppUpdates_Caption>Actualizare aplicatii</ToolsCheckAppUpdates_Caption>
+				<ToolsCheckLBKUpdates_Caption>Actualizează  Platforma LiberKey</ToolsCheckLBKUpdates_Caption>
+				<ToolsCheckLiberKeyNews_Caption>Noutăti</ToolsCheckLiberKeyNews_Caption>
+				<ToolsDoOnlineChecks_Caption>Permite efectuarea de controale automate</ToolsDoOnlineChecks_Caption>
+				<ToolsQuitKFA_Caption>Dezactivați asocierele de fișiere atunci când meniul se închide</ToolsQuitKFA_Caption>
+				<ToolsQuitPDS_Caption>Elimina comenzile rapide portabile când meniul se închide</ToolsQuitPDS_Caption>
+				<ToolsStartKFA_Caption>Activați asocierele de fișiere atunci când meniul pornește</ToolsStartKFA_Caption>
+				<ToolsStartPDS_Caption>Adăugați comenzi rapide portabile când meniul pornește</ToolsStartPDS_Caption>
+				<UseClearTypeFonts_Caption>Utilizați ClearType pentru afișare fonturi de ecran</UseClearTypeFonts_Caption>
+				<UseMenuAppsAssoc_Caption>LiberKey sa asociat cu toate fișierele</UseMenuAppsAssoc_Caption>
+				<UseProxy_Caption>Utilizați un server proxy pentru a accesa internetul:</UseProxy_Caption>
+				<VoiceOver_Caption>Permite citirea textului din elemente atunci cînd treceți cu mouse-ul pe deasupra</VoiceOver_Caption>
+				<WindowZoom_Caption>Activați zoom cînd deschid o ferestre automată</WindowZoom_Caption>
+				<ZoomMenuFont_Caption>Schimba fontul din meniul plutitor</ZoomMenuFont_Caption>
+				<ZoomMenuFontAntialias_Caption>pseudonim</ZoomMenuFontAntialias_Caption>
+				<ZoomMenuFontBold_Caption>caractere aldine</ZoomMenuFontBold_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<ApplyChanges_Caption>Aplică</ApplyChanges_Caption>
+				<AutoRunDown_ToolTip>Derulează în jos</AutoRunDown_ToolTip>
+				<AutoRunLocate_ToolTip>Găsiți această comandă rapidă din meniul LiberKey</AutoRunLocate_ToolTip>
+				<AutoRunProperties_ToolTip>Proprietăți comenzi rapide</AutoRunProperties_ToolTip>
+				<AutoRunRemove_ToolTip>Elimină din lista de rulare automată</AutoRunRemove_ToolTip>
+				<AutoRunUp_ToolTip>Derulează în sus</AutoRunUp_ToolTip>
+				<Cancel_Caption>Închide</Cancel_Caption>
+				<CopyTechnicalInfo_Caption>Copiați aceste informații în clipboard</CopyTechnicalInfo_Caption>
+				<CreateAccount_Caption>Click aici pentru a crea un cont gratuit!</CreateAccount_Caption>
+				<KBSCRemove_ToolTip>Scoateți pictograma din tastatură</KBSCRemove_ToolTip>
+				<SendTechnicalInfo_Caption>Trimite</SendTechnicalInfo_Caption>
+			</CommandButtons>
+			<Labels>
+				<AccessibilityInfo_Caption>Reglarea opțiunii de accesibilitate</AccessibilityInfo_Caption>
+				<Animations_Caption>Animatii</Animations_Caption>
+				<AppHotKeysMemoPopupDuration_Caption>Durata de afișare a alertelor:</AppHotKeysMemoPopupDuration_Caption>
+				<AppSetupInfo_Caption>Configurați instalatorul aplicatiilot LiberKey.</AppSetupInfo_Caption>
+				<AppUpdateInfo_Caption>Configurati sistemul de actualizare a software-ului din LiberKey.</AppUpdateInfo_Caption>
+				<AutoCheckOptions_Caption>verificare automată</AutoCheckOptions_Caption>
+				<AutoRunDelay_Caption>Timpul înainte de auto-execuție în (secunde):</AutoRunDelay_Caption>
+				<AutoRunEachDelay_Caption>Timpul dintre fiecare rulare (secunde):</AutoRunEachDelay_Caption>
+				<AutorunInfo_Caption>Gestionează aplicațiile care se execută la pornire și oprire a meniului LiberKey</AutorunInfo_Caption>
+				<ClearTypeRestart_Caption>(necesită repornirea meniului)</ClearTypeRestart_Caption>
+				<ColorsInfo_Caption>Culoare primară a meniului și ferestrei</ColorsInfo_Caption>
+				<Confirmations_Caption>confirmare</Confirmations_Caption>
+				<CreateAccountLabel_Caption>Nu ai un cont?</CreateAccountLabel_Caption>
+				<CustomBrightnessLabel_Caption>strălucire</CustomBrightnessLabel_Caption>
+				<CustomColorInfo_Caption>Variație culoare personalizată</CustomColorInfo_Caption>
+				<CustomHueRotationLabel_Caption>nuanță</CustomHueRotationLabel_Caption>
+				<CustomSaturationLabel_Caption>Saturatie</CustomSaturationLabel_Caption>
+				<DefaultEffectSet>efecte implicite</DefaultEffectSet>
+				<EffectSetLabel_Caption>Setări Efecte</EffectSetLabel_Caption>
+				<FileAssocUpdatesOnlyInfo_Caption>În timpul actualizării, asocierile de fișiere nu sunt modificate. Acestea sunt definite doar pentru noi aplicații.</FileAssocUpdatesOnlyInfo_Caption>
+				<Fonts_Caption>Fonturi</Fonts_Caption>
+				<Gadgets_Caption>Gadget-uri</Gadgets_Caption>
+				<KeyboardShortcutsInfo_Caption>Scurtături de la tastatură utilizate în meniu LiberKey</KeyboardShortcutsInfo_Caption>
+				<KFAoptions_Caption>Fișierele asociate la aplicațiile portabile</KFAoptions_Caption>
+				<LangAuthorEmailLabel_Caption>E-mail</LangAuthorEmailLabel_Caption>
+				<LangAuthorNameLabel_Caption>Autor</LangAuthorNameLabel_Caption>
+				<LangAuthorWebsiteLabel_Caption>Site-ul web</LangAuthorWebsiteLabel_Caption>
+				<LangContributors_Caption>contribuitori :</LangContributors_Caption>
+				<LangContributorsLabel_Caption>contribuitori :</LangContributorsLabel_Caption>
+				<LanguagesInfo_Caption>Selectați limba interfeței utilizatorului</LanguagesInfo_Caption>
+				<LangVersionLabel_Caption>Versiune :</LangVersionLabel_Caption>
+				<MaxRecentCount_Caption>Numărul maxim de articole în lansări recente:</MaxRecentCount_Caption>
+				<MaxVisibleMostUsed_Caption>Numărul maxim de articole în &quot;cele mai utilizate&quot;:</MaxVisibleMostUsed_Caption>
+				<MenuAccess_Caption>Acces la meniul Liberkey</MenuAccess_Caption>
+				<MenuDelay_Caption>Meniu deschis în întârziere:</MenuDelay_Caption>
+				<MenuDelayMS_Caption>millisecunde</MenuDelayMS_Caption>
+				<MenuIconActions_Caption>Pictogramă în sertar</MenuIconActions_Caption>
+				<MenuKeyboardShortcuts_Caption>Tastatură Pictogramă</MenuKeyboardShortcuts_Caption>
+				<Misc_Caption>Diverse</Misc_Caption>
+				<Navigation_Caption>navigare</Navigation_Caption>
+				<NeverUpdateFileAssocInfo_Caption>Asocierile de fișiere rămân neschimbate, atunci când se adaugă sau sunt actualizate aplicațiile.</NeverUpdateFileAssocInfo_Caption>
+				<NotificationsOptions_Caption>Notificare</NotificationsOptions_Caption>
+				<Password_Caption>Parolă</Password_Caption>
+				<PDSoptions_Caption>Pictogramă portabilă pe deskop</PDSoptions_Caption>
+				<PlatformVersionInfo_Caption>Echipa de suport tehnic este pe forum, LiberKey poate solicita aceste informații. Pentru a copia această listă, faceți clic pe butonul &quot;Copiază această informație&quot; de mai jos.</PlatformVersionInfo_Caption>
+				<ProxyHost_Caption>Nume Host / Adresa IP</ProxyHost_Caption>
+				<ProxyInfo_Caption>Dacă aveți nevoie pentru a merge printr-un server proxy pentru a accesa internetul, completati campurile de mai jos:</ProxyInfo_Caption>
+				<ProxyPassword_Caption>Parolă</ProxyPassword_Caption>
+				<ProxyPort_Caption>Port gazdă</ProxyPort_Caption>
+				<ProxyUser_Caption>Utilizator</ProxyUser_Caption>
+				<QuitOptions_Caption>Închide aplicația automat și unitatea USB </QuitOptions_Caption>
+				<RecentAndMostUsed_Caption>Istoria aplicațiilor utilizate:</RecentAndMostUsed_Caption>
+				<StartupWindowShowAlways_Caption>Arată întotdeauna meniul LiberKey</StartupWindowShowAlways_Caption>
+				<StartupWindowShowNever_Caption>Niciodată nu arata meniul LiberKey</StartupWindowShowNever_Caption>
+				<StartupWindowShowPrevious_Caption>Arată numai meniul dacă a fost vizibil în ultima utilizare</StartupWindowShowPrevious_Caption>
+				<StartupWindowStateLabel_Caption>La pornire</StartupWindowStateLabel_Caption>
+				<Title_Caption>Meniu LiberKey - configurare</Title_Caption>
+				<TrayLeftClickActionLabel_Caption>Click stânga:</TrayLeftClickActionLabel_Caption>
+				<TrayRightClickActionLabel_Caption>Click dreapta:</TrayRightClickActionLabel_Caption>
+				<UpdateAllAppsInfo_Caption>Opțiunea prioritate în actualizări sunt toate active fără a fi introduse de un utilizator (modul automat).</UpdateAllAppsInfo_Caption>
+				<UpdateAutoStartInfo_Caption>Prioritate în Actualizările care sunt active fără a fi introduse de utilizator (modul automat).</UpdateAutoStartInfo_Caption>
+				<UpdateFileAssocInfo_Caption>Atunci când se adaugă o aplicație acesta este asociată automat cu fișierele care se pot edita.</UpdateFileAssocInfo_Caption>
+				<UpdateNoUserAlertInfo_Caption>Când LiberKey începe, nu-mi arată niciun mesaj despre actualizări ale aplicațiilor. Veți fi notificat când porniți o aplicație veti vedea un mesaj cu informatii despre o nouă actualizare a unui program.</UpdateNoUserAlertInfo_Caption>
+				<UpdateUIAlertInfo_Caption>Puteți apoi vizualiza lista de actualizări disponibile și alegeți pe cele pe care doriți să le aplicati.</UpdateUIAlertInfo_Caption>
+				<UserLoginInfo_Caption>Conectarea nu mai este necesară în scopul de a descărca actualizări pentru aplicațiile dumneavoastră. Cu toate acestea, noi încă recomandăm să introduceți datele dvs. de utilizator.</UserLoginInfo_Caption>
+				<UserName_Caption>Utilizator</UserName_Caption>
+				<ZoomMenuFontNameLabel_Caption>Fonturi</ZoomMenuFontNameLabel_Caption>
+				<ZoomMenuFontSizeLabel_Caption>Mărime</ZoomMenuFontSizeLabel_Caption>
+			</Labels>
+			<OptionButtons>
+				<optAlwaysUpdateFileAssoc_Caption>Actualizare mereu si asocieri de fișiere</optAlwaysUpdateFileAssoc_Caption>
+				<optAutoRunAtStartup_Caption>Când începe LiberKey</optAutoRunAtStartup_Caption>
+				<optAutoRunOnQuit_Caption>Când închid LiberKey</optAutoRunOnQuit_Caption>
+				<optMenuDelayCustom_Caption>Personalizare</optMenuDelayCustom_Caption>
+				<optMenuDelayDefault_Caption>Implicit</optMenuDelayDefault_Caption>
+				<optNeverUpdateFileAssoc_Caption>Nu actualiza niciodată asocierile de fișiere</optNeverUpdateFileAssoc_Caption>
+				<optUpdateAllApps_Caption>Instalează automat toate actualizările</optUpdateAllApps_Caption>
+				<optUpdateAutoStart_Caption>Descărca și instalează automat actualizările</optUpdateAutoStart_Caption>
+				<optUpdateFileAssocNewApps_Caption>Setati asocierea cu aplicațiile noi</optUpdateFileAssocNewApps_Caption>
+				<optUpdateNoUserAlert_Caption>Avertizează doar când aplicația pornește</optUpdateNoUserAlert_Caption>
+				<optUpdateUIAlert_Caption>Afișează o pictogramă și un mesaj de notificare</optUpdateUIAlert_Caption>
+				<optUpdateUserAlert_Caption>Avertizează-mă dacă sunt noutati</optUpdateUserAlert_Caption>
+			</OptionButtons>
+			<Options>
+				<About>Despre</About>
+				<Accessibility>Accesibilitate</Accessibility>
+				<Advanced>Optiunea Avansată</Advanced>
+				<AppSetup>Setăril instalare aplicație</AppSetup>
+				<Autorun>Autorulare</Autorun>
+				<AutoUpdate>Setări actualizare aplicații</AutoUpdate>
+				<Colors>Culori</Colors>
+				<Effects>Interfață utilizator</Effects>
+				<Help>Ajutor</Help>
+				<KeyboardShortcuts>Comenzi rapide de la tastatură</KeyboardShortcuts>
+				<Language>Limbă</Language>
+				<LiberKeyTools>Instrumente LiberKey</LiberKeyTools>
+				<Proxy>Serverul proxy HTTP</Proxy>
+				<TechnicalInfo>Informatii Tehnice</TechnicalInfo>
+				<User>Informatii Utilizator</User>
+			</Options>
+		</Config>
+		<FloatingMenu>
+			<AlwaysOnTop>Întotdeauna deasupra</AlwaysOnTop>
+			<AutoCollapse>Reduceți automat</AutoCollapse>
+			<Close>Închide</Close>
+			<FixedMode>Păstrează intotdeauna deschisă</FixedMode>
+			<GoToParent>Comuta în meniul principal</GoToParent>
+		</FloatingMenu>
+		<IconSelect>
+			<Labels>
+				<Title_Caption>Selectează o pictogramă</Title_Caption>
+			</Labels>
+		</IconSelect>
+		<Main>
+			<CommandButtons>
+				<AddApps_Caption>Instalează</AddApps_Caption>
+				<AddApps_ToolTip>Adăugă / ștergeti aplicații</AddApps_ToolTip>
+				<Close_ToolTip>Ascunde Meniul Liberkey</Close_ToolTip>
+				<CloseSearch2_Caption>Închide</CloseSearch2_Caption>
+				<Config_Caption>Instrumente Laiberkey</Config_Caption>
+				<MyDocs_Caption>Documente</MyDocs_Caption>
+				<MyMusic_Caption>Muzică</MyMusic_Caption>
+				<MyPictures_Caption>Fotografii</MyPictures_Caption>
+				<Quit_ToolTip>Închide Meniul LiberKey</Quit_ToolTip>
+				<TabsScrollLeft_ToolTip>Păstrati pe partea stîngă a ecranului</TabsScrollLeft_ToolTip>
+				<TabsScrollRight_ToolTip>Păstrează în partea dreaptă a ecranului</TabsScrollRight_ToolTip>
+				<UserMenus_ToolTip>Meniu Utilizator</UserMenus_ToolTip>
+				<ViewIcons_ToolTip>pictograme mari</ViewIcons_ToolTip>
+				<ViewTree_ToolTip>arbore</ViewTree_ToolTip>
+			</CommandButtons>
+			<Labels>
+				<SearchInfoLabel_Caption>Pictograme : %count% functionale</SearchInfoLabel_Caption>
+				<SearchInfoTitle_Caption>Caută în Liberkey</SearchInfoTitle_Caption>
+			</Labels>
+			<LiberKeyTools>
+				<AddApps>Cautati aplicatii în catalog</AddApps>
+				<AddAppsTip>Acest asistent se conectează la serverele LiberKey pentru a găsi aplicații pe care le cautati, și instalații în LiberKey.</AddAppsTip>
+				<AddPortableShortcuts>Adăugați comenzi rapide la aplicatiile portabile</AddPortableShortcuts>
+				<AddRemoveApps>Adaugă / Sterge Programe</AddRemoveApps>
+				<AppsClose>Inchide Aplicatiile</AppsClose>
+				<AppsCloseTip>LiberKey Apps Close închide automat toate aplicațiile lansate de LiberKey. Metodele utilizate pentru a închide aplicațiile sunt numeroase și adaptate la fiecare software. Închiderea se face în mod corespunzător, în cazul în care un dosar a fost editat (de exemplu, un document), vi se va solicita să-l salvati.</AppsCloseTip>
+				<Configuration>configurare</Configuration>
+				<ConfigurationTip>Configurare LiberKey.\nToate setările referitoare la aspectul și comportamentul LiberKey se află în această fereastră de configurare.</ConfigurationTip>
+				<DisableFileAssoc>Dezactivați asocierile de fișiere</DisableFileAssoc>
+				<DisableFileAssocTip>Fișierele de pe computer sunt în prezent asociate cu aplicațiile LiberKey.\nFaceți clic pentru a restabili asocierile de fișiere cu computerul local.</DisableFileAssocTip>
+				<EnableFileAssoc>Activați asocierea de fișiere</EnableFileAssoc>
+				<EnableFileAssocTip>Activați asocieri temporare de fișiere (.avi, .jpg, .doc, ...) pentru aplicațiile din LiberKey.</EnableFileAssocTip>
+				<FileAssoc>asocierea fișierelor</FileAssoc>
+				<GoToWebSite>Viziteaza site-ul liberkey</GoToWebSite>
+				<GoToWebSiteTip>Acest meniu vă permite să accesați site-ul LiberKey. Veți găsi tot felul de informații despre LiberKey si pe forum care este deschis tuturor utilizatorilor.</GoToWebSiteTip>
+				<InstallAppSuite>Instalează o serie de aplicatii</InstallAppSuite>
+				<InstallAppSuiteTip>Acest expert vă permite să instalați o serie completă de aplicații.</InstallAppSuiteTip>
+				<LiberKeyNews>citește știri</LiberKeyNews>
+				<LiberKeyNewsTip>Știri LiberKey te ține informat cu privire la evoluțiile legate de LiberKey.\nNoi aplicații din catalogul online sau orice informații cu privire la LiberKey vor fi raportate în Știri.</LiberKeyNewsTip>
+				<ManageApps>Administreaza aplicațiile</ManageApps>
+				<ManageAppsTip>Dezinstalati, instalați sau reinstalați aplicațiile. Acest set de instrumente va ajuta să vă gestionați aplicațiile instalate în LiberKey.</ManageAppsTip>
+				<PortableShortcutsTip>Portabil Desktop Shortcut vă permite să gestionați comenzile rapide de pe desktop legate de LiberKey.\nAveți posibilitatea să salvați, de asemenea, locațiile comenzile rapide de pe desktop.</PortableShortcutsTip>
+				<RemovePortableShortcuts>Elimina comenzile rapide ale aplicatilor portabile</RemovePortableShortcuts>
+				<Title>Instrumente LiberKey</Title>
+				<UpdateCheck>Verificați pentru actualizări</UpdateCheck>
+				<UpdateCheckTip>Verificați dacă există o nouă versiune a LiberKey sau ce actualizări de aplicatii sunt disponibile.\nDacă este așa, este posibil de a efectua aceste actualizări direct prin LiberKey.com.</UpdateCheckTip>
+				<UsbEject>Decuplează LiberKey</UsbEject>
+				<USBEjectTip>LiberKey USB Eject vă permite să deconectați dispozitivul USB conținând LiberKey (cu închidere automată a tuturor aplicațiilor).\n\nMENȚIUNE: Dispozitivul USB se va închide când toate aplicatiile LiberKey sunt închise.</USBEjectTip>
+			</LiberKeyTools>
+			<Messages>
+				<About>Despre Liberkey</About>
+				<BrowseForNewFolder>Selectați folderul care are comanda rapidă deschisă</BrowseForNewFolder>
+				<PatchDownload>Descărcă Actualizări</PatchDownload>
+				<SearchResults>rezultatele căutarii</SearchResults>
+			</Messages>
+		</Main>
+		<Menu>
+			<LKHelp>Ajutor LiberKey</LKHelp>
+			<LKQuickLaunch>LiberKey lansare rapidă</LKQuickLaunch>
+			<MostUsed>Cele mai utilizate</MostUsed>
+			<MyApps>Aplicatiile Mele Portabile</MyApps>
+			<MyDocs>Documentele Mele</MyDocs>
+			<Recent>Recente</Recent>
+		</Menu>
+		<MenuProperties>
+			<CheckBoxs>
+				<EditMode_Caption>Permite modificări</EditMode_Caption>
+				<NotInSystrayMenu_Caption>Nu se afișează în meniul principal plutitor</NotInSystrayMenu_Caption>
+				<ShowName_Caption>Arată Numele</ShowName_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Apply_Caption>Bine</Apply_Caption>
+				<Cancel_Caption>Anulare</Cancel_Caption>
+			</CommandButtons>
+			<Labels>
+				<MenuIconLabel_Caption>Icoane asociate:</MenuIconLabel_Caption>
+				<MenuNameLabel_Caption>Numele meniului:</MenuNameLabel_Caption>
+				<Title_Caption>Proprietățile Meniului utilizatorului</Title_Caption>
+			</Labels>
+		</MenuProperties>
+		<Menus>
+			<AppCopy_Caption>&amp;Copiere</AppCopy_Caption>
+			<AppCut_Caption>&amp;Tăiere</AppCut_Caption>
+			<AppDelApp_Caption>&amp;Stergere</AppDelApp_Caption>
+			<AppEditProps_Caption>&amp;proprietăți aplicații ...</AppEditProps_Caption>
+			<AppGoToWebSite_Caption>&amp;Vizitează site-ul</AppGoToWebSite_Caption>
+			<AppLaunch_Caption>&amp;Executare</AppLaunch_Caption>
+			<AppLocate_Caption>&amp;Localizează categoriile</AppLocate_Caption>
+			<AppLocation-0_Caption>(numele categoriei)</AppLocation-0_Caption>
+			<AppLocations_Caption>&amp;Găseste o categorie</AppLocations_Caption>
+			<AppOpenAppFolder_Caption>&amp;Deschide continutul folderului</AppOpenAppFolder_Caption>
+			<AppPaste_Caption>&amp;Lipire</AppPaste_Caption>
+			<AppRunAs_Caption>&amp;Executare ca...</AppRunAs_Caption>
+			<AppRunAsAdmin_Caption>&amp;Executare ca administrator</AppRunAsAdmin_Caption>
+			<AppSetup_Caption>In&amp;stalează această aplicatie</AppSetup_Caption>
+			<AppShowInfo_Caption>&amp;Informatii</AppShowInfo_Caption>
+			<AppUpdate_Caption>&amp;Actualizare</AppUpdate_Caption>
+			<CatAdd_Caption>Pictograme noi</CatAdd_Caption>
+			<CatAddApp_Caption>Aplicatii / fisiere</CatAddApp_Caption>
+			<CatAddFolder_Caption>Dosar</CatAddFolder_Caption>
+			<CatAddWebPage_Caption>Pagina web...</CatAddWebPage_Caption>
+			<CatCopy_Caption>&amp;Copiere</CatCopy_Caption>
+			<CatCut_Caption>&amp;Taiere</CatCut_Caption>
+			<CatDelCat_Caption>&amp;Stergere</CatDelCat_Caption>
+			<CatEditProps_Caption>&amp;Proprietăti</CatEditProps_Caption>
+			<CatListMode_Caption>Ecran &amp;listă</CatListMode_Caption>
+			<CatNewCat_Caption>&amp;Categorie Nouă</CatNewCat_Caption>
+			<CatPaste_Caption>&amp;Lipire</CatPaste_Caption>
+			<CatShowMenu_Caption>&amp;Meniuri Plutitoare  ...</CatShowMenu_Caption>
+			<CatSort_Caption>&amp;Sorteaza</CatSort_Caption>
+			<DoNothing_Caption>Nu face nimic</DoNothing_Caption>
+			<FolderOpen_Caption>&amp;Deschide Dosarul</FolderOpen_Caption>
+			<InstallLKS_Caption>Instalează pachetele LKS (Setup) LiberKey </InstallLKS_Caption>
+			<InstallLKS_Tip>Selectează unul sau mai multe fișiere LKS (LiberKey Setup) pentru a le instala într-un singur clic.</InstallLKS_Tip>
+			<InstallsFromAppsFolder_Caption>Din &quot;Apps&quot; dosar ...</InstallsFromAppsFolder_Caption>
+			<InstallsFromAppsFolder_Tip>Acest expert va verifica automat directorul &quot;Apps&quot; din LiberKey  dacă sunt noi aplicatii.\nDe exemplu, aveți posibilitatea să copiați aplicațiile de la un alt LiberKey și să le salvați în folderul Apps, și acest expert le va detecta</InstallsFromAppsFolder_Tip>
+			<InstallsFromMyApps_Caption>Din &quot;MyApps&quot; dosar ...</InstallsFromMyApps_Caption>
+			<InstallsFromMyApps_Tip>Dacă ați adăugat aplicațiile portabile manual în directorul &quot;MyApps&quot; din LiberKey, acest expert va încerca să detecteze și să le înregistreze în meniu.</InstallsFromMyApps_Tip>
+			<InternetOpen_Caption>&amp;Deschide</InternetOpen_Caption>
+			<MenusCreate_Caption>&amp;Creare Meniu nou ...</MenusCreate_Caption>
+			<MenusDelete_Caption>&amp;Ștergeti meniul curent</MenusDelete_Caption>
+			<MenusEdit_Caption>Meniu curent și proprietățile curente ...</MenusEdit_Caption>
+			<MenusExport_Caption>E&amp;xportați meniul curent ...</MenusExport_Caption>
+			<MenusHideNames_Caption>&amp;Ascunde numele</MenusHideNames_Caption>
+			<MenusImport_Caption>&amp;Importă Meniul...</MenusImport_Caption>
+			<MenusRecent_Caption>&amp;Recente</MenusRecent_Caption>
+			<MenusShowNames_Caption>Ecran &amp;nume</MenusShowNames_Caption>
+			<MenusUser-0_Caption>Meniul implicit</MenusUser-0_Caption>
+			<Open_Caption>&amp;Deschide</Open_Caption>
+			<OpenActiveFloatMenu_Caption>Deschide meniul plutitor</OpenActiveFloatMenu_Caption>
+			<OpenMainWindow_Caption>Deschide meniul principal</OpenMainWindow_Caption>
+			<PatchCancelDownload_Caption>&amp;Anulează descărcarea</PatchCancelDownload_Caption>
+			<Quit>Iesire</Quit>
+			<RepairApps_Caption>Repară aplicațiile deteriorate</RepairApps_Caption>
+			<RepairApps_Tip>Acest expert va verifica în mod automat dosarul &quot;Apps&quot; din LiberKey dacă aplicațiile sunt deteriorate.\nÎn cazul în care o aplicație care vine din catalog LiberKey este deteriorată, acesta o va reinstala.</RepairApps_Tip>
+			<SendToPortableDocs>Documentele mele portabile</SendToPortableDocs>
+			<SendToPortableDocsDescription>Copiază fișierele selectate în dosarul &quot;MyDocuments&quot; din LiberKey</SendToPortableDocsDescription>
+			<ShortcutEditProps_Caption>Proprietăți ale comenzilor rapide...</ShortcutEditProps_Caption>
+			<SuiteSetup>
+				<AppList>Lista aplicațiilor</AppList>
+				<HideNewApps_Caption>Ascunde aplicațiile noi</HideNewApps_Caption>
+				<HideUpdates_Caption>Ascunde Actualizările aplicațiilor</HideUpdates_Caption>
+				<HideUpToDateApps_Caption>Ascunde data instalării aplicațiilor</HideUpToDateApps_Caption>
+				<SelectAll_Caption>Selecteazăle pe toate</SelectAll_Caption>
+				<SelectNewApps_Caption>Selectează noile aplicații</SelectNewApps_Caption>
+				<SelectPriority_Caption>Selectează prioritatea actualizărilor</SelectPriority_Caption>
+				<SelectUpdates_Caption>Selectează actualizările de aplicații</SelectUpdates_Caption>
+				<ShowNewApps_Caption>Arată noi aplicații</ShowNewApps_Caption>
+				<ShowUpdates_Caption>Arată actualizările de aplicații</ShowUpdates_Caption>
+				<ShowUpToDateApps_Caption>Arată data instalării aplicațiilor</ShowUpToDateApps_Caption>
+				<UnselectAll_Caption>Deselecteazăle pe toate</UnselectAll_Caption>
+				<UnselectNewApps_Caption>Deselectează aplicațiile noi </UnselectNewApps_Caption>
+				<UnselectPriority_Caption>Deselectează  prioritatea Actualizărilor</UnselectPriority_Caption>
+				<UnselectUpdates_Caption>Deselectează Actualizarea aplicațiilor</UnselectUpdates_Caption>
+			</SuiteSetup>
+			<SynchronizeCatalog_Caption>Din catalogul on-line</SynchronizeCatalog_Caption>
+			<SynchronizeCatalog_Tip>Acest asistent vă va permite să vă conectati la serverele LiberKey și pentru a găsi aplicația pe care il cautati, și instalați-l în LiberKey.</SynchronizeCatalog_Tip>
+			<UserMenuTabEditable_Caption>permite modificări</UserMenuTabEditable_Caption>
+			<UserMenuTabFloatMenu_Caption>&amp;Meniuri plutitoare ...</UserMenuTabFloatMenu_Caption>
+			<UserMenuTabHideName_Caption>&amp;Ascunde numele</UserMenuTabHideName_Caption>
+			<UserMenuTabProperties_Caption>&amp;Proprietăti ...</UserMenuTabProperties_Caption>
+			<UserMenuTabShowName_Caption>&amp;numele de afișare</UserMenuTabShowName_Caption>
+		</Menus>
+		<Messages>
+			<AllFilesSelection>Toate fisierele|*.*</AllFilesSelection>
+			<AppInstallation>Instalare aplicație %appname% ...</AppInstallation>
+			<AppInstallDone>Aplicația &quot;%appname%&quot;, a fost instalat în LiberKey.</AppInstallDone>
+			<AppInstalled>Aplicația instalată:%appname%</AppInstalled>
+			<AppNotFound>Această aplicație nu este instalată în LiberKey.</AppNotFound>
+			<AppNotFoundTitle>Localizează o aplicație</AppNotFoundTitle>
+			<AppRefCount>Pictogramă pentru această aplicație:%Nr%</AppRefCount>
+			<AppRegistered>Aplicația este în prezent înregistrată în LiberKey.\n\nAcum puteți să creați o comandă rapidă.</AppRegistered>
+			<AppRunningCantUninst>Aplicația este în curs de rulare.\n\nNu puteti dezinstala o aplicație în timpul funcționării.</AppRunningCantUninst>
+			<AppsInstallDone>%count% de noi aplicații au fost instalate în LiberKey.</AppsInstallDone>
+			<AutoImportMenu>Nu ați creat încă un meniu pentru a lansa aplicațiile.\nDoriți să importați arborele din meniul vechi?</AutoImportMenu>
+			<BrokenAppFoundReinstall>Această aplicatie pare să fie deteriorată:%appname%\n\nVrei să o reinstalezi?</BrokenAppFoundReinstall>
+			<Browse>Caută</Browse>
+			<ConfirmDeleteCategory>Sunteți sigur că doriți să ștergeți categoria &quot;%name%&quot;, si comenzile rapide pe care le conține?</ConfirmDeleteCategory>
+			<ConfirmDeleteSortcut>Sunteți sigur că doriți să ștergeți comanda rapidă &quot;%name%&quot;?</ConfirmDeleteSortcut>
+			<ConfirmDeletion>Confirmați ștergerea</ConfirmDeletion>
+			<ConfirmInstallApp>Instalează %app% în LiberKey?</ConfirmInstallApp>
+			<ConfirmInstallExtension>Doriți să instalați această extensie pe LiberKey?\n\n%extname%</ConfirmInstallExtension>
+			<ConfirmInstallMyApps>Vrei să detectezi noi aplicații în dosarul &quot;MyApps&quot; ?</ConfirmInstallMyApps>
+			<ConfirmInstallNewApps>Vrei să detectezi noi aplicații în dosarul &quot;Apps&quot; ?</ConfirmInstallNewApps>
+			<ConfirmUninstallApp>Sigur că doriți să eliminați această aplicație?\nAceastă acțiune nu poate fi anulată.</ConfirmUninstallApp>
+			<DateFormat>mm/dd/yyyy</DateFormat>
+			<DefaultIcon>(Pictogramă implicită)</DefaultIcon>
+			<DeleteMenuConfirm>Ștergere Meniu &quot;%Menu%&quot;?</DeleteMenuConfirm>
+			<DownloadPatchNow>Descărcați actualizarea acum?</DownloadPatchNow>
+			<DropLKSLoadingInfos>Vă rugăm să așteptați în timp ce preiau informațiile despre această aplicație...</DropLKSLoadingInfos>
+			<DropLKSToInstall>Eliberați butonul mouse-ului pentru a instala aplicația în LiberKey.</DropLKSToInstall>
+			<Errors>
+				<AccessDenied>acces refuzat</AccessDenied>
+				<AccessRightsError>LiberKey necesită acces la continutul de pe dipozitivul portabil pentru scriere.</AccessRightsError>
+				<AssocIncomplete>Asocierea cu dosarul este incompletă sau invalidă.</AssocIncomplete>
+				<CantCreateTempFolder>Nu se poate crea folderul temporar.</CantCreateTempFolder>
+				<CantDefineHotKey>A apărut o eroare în timpul setării scurtăturii tastaturii &quot;%name%&quot;:\n%err%</CantDefineHotKey>
+				<CantDefineHotKeys>A apărut o eroare în timpul setării tastelor rapide pentru următoarele comenzi rapide:\n%err%\n%namelist%</CantDefineHotKeys>
+				<CantStartOnRemoteDrive>Nu puteți utiliza LiberKey pe o unitate de rețea.</CantStartOnRemoteDrive>
+				<DDEBusy>DDE ocupat</DDEBusy>
+				<DDETimeout>DDE Timpul a expirat.</DDETimeout>
+				<DDETransacFailed>Tranzacție DDE nu a reușit.</DDETransacFailed>
+				<DllNotFound>DLL nu a fost găsit.</DllNotFound>
+				<ErrorTitle>Eroare</ErrorTitle>
+				<ErrShare>A apărut o încălcare la partajare.</ErrShare>
+				<ExeBadFormat>Fișierul EXE nevalid sau eroare în imaginea EXE .</ExeBadFormat>
+				<ExecError>Eroare la începutul programului</ExecError>
+				<FileNotFound>Fișier nu a fost găsit.</FileNotFound>
+				<GetUpdateInfoError>A apărut o eroare în timp ce se încerca informatii despre actualizare:\nEroare %err%:%esc%</GetUpdateInfoError>
+				<HotKeyAlreadyUsedBy>Puteți utiliza deja această combinație pentru comanda rapidă &quot;%name%&quot;!</HotKeyAlreadyUsedBy>
+				<InstallExtensionError>A apărut o eroare în timpul instalării acestei extensii!\n\n%extnume%</InstallExtensionError>
+				<InvalidExtensionFile>Extensia Fișierului este invalidă!</InvalidExtensionFile>
+				<LKInstNotFound>Instalatorul LiberKey nu a fost gasit!</LKInstNotFound>
+				<LksDownloadFailed>A apărut o eroare la descărcarea pachetului de instalare de %app% (%lks%).\n\nEroare %errnum%:%errdesc%</LksDownloadFailed>
+				<LogUploadFailed>A apărut o eroare la trimiterea informațiilor.</LogUploadFailed>
+				<NewsFeedDownloadError>A apărut o eroare în timpul descărcării datelor din știri.\n%err%</NewsFeedDownloadError>
+				<NoAssoc>Nici o asociere pentru extensia fișierului.</NoAssoc>
+				<OutOfMemory>Din memorie.</OutOfMemory>
+				<PathNotFound>Calea nu a fost găsită.</PathNotFound>
+				<SkinImageNotFound>Eroare la încărcarea piele:\n\nFișier %fișierul% nu a fost găsit.</SkinImageNotFound>
+			</Errors>
+			<FileSize>
+				<Bytes>Biti</Bytes>
+				<GB>Giga-biti Gb</GB>
+				<KB>Kica-biti Kb</KB>
+				<MB>Mega-biti Mb</MB>
+			</FileSize>
+			<FreeSpace>Unitate %drive% (% fisiere%)\n%volumename%\nCapacitate:%totalsize%\nUtilizare:%usedsize%\nSpatiu Liber:%freesize% (%freesizepc%)</FreeSpace>
+			<HotKeyStartAppInfo>Pornind din &quot;%name%&quot; ...\nClick aici pentru anulare</HotKeyStartAppInfo>
+			<IconFileSelection>Fișiere acceptate | * ICO;.. * Exe; * dll | Icoane Fisiere (* ICO) | * ICO | Fisiere executabile | * .exe, *. Dll</IconFileSelection>
+			<IconSelection>
+				<AppIcons>icoane din meniu</AppIcons>
+				<IconSelectTitle>Selectați fișierul care conține această pictogramă</IconSelectTitle>
+				<IconSources>pictogramele disponibile</IconSources>
+				<SkinIcons>Costume icoane</SkinIcons>
+			</IconSelection>
+			<ImportASuiteMenu>Importă din meniul Asuite ...</ImportASuiteMenu>
+			<ImportMenuFormatError>Acest fișier nu conține nici un meniu LiberKey.</ImportMenuFormatError>
+			<InternetAddress>Adresa de internet ...</InternetAddress>
+			<LastAppShortcutUninstall>Nu sunt mai multe comenzi rapide la această aplicație din meniul LiberKey.\nVrei să-l dezinstalezi din LiberKey?</LastAppShortcutUninstall>
+			<LinkedAppCount>Aplicații interconectate:%count%</LinkedAppCount>
+			<LogUploadDone>Informațiile au fost trimise.\nVă mulțumim pentru participarea dumneavoastră la dezvoltarea LiberKey!</LogUploadDone>
+			<MenuExportTitle>Exportă Meniul într-un fișier XML ...</MenuExportTitle>
+			<MenuImportError>A apărut o eroare în timpul copierii meniul din LiberKey.</MenuImportError>
+			<MenuImportErrorTitle>Imposibil de a importa meniul</MenuImportErrorTitle>
+			<MenuImportNotFromProfile>Nu puteți importa un meniu care este deja în LiberKey.</MenuImportNotFromProfile>
+			<MenuImportTitle>Importă un meniu dintr-un fișier XML</MenuImportTitle>
+			<MultipleFilesDrop>%count% fișierele ...</MultipleFilesDrop>
+			<MyMenu>Meniul Meu</MyMenu>
+			<NewCategory>Categorie Nouă</NewCategory>
+			<NewMenu>Meniu Nou</NewMenu>
+			<NoAppAssocFound>Nici o aplicatie din LiberKey nu este asociată cu acest tip de fișier</NoAppAssocFound>
+			<NoBrokenAppFound>Nici o aplicatie deteriorată nu a fost găsită</NoBrokenAppFound>
+			<NoLogToSend>Acest instrument vă permite să trimiteți jurnalul de evenimente din meniu pentru echipa LiberKey pentru a analizate dacă sunt probleme.\n\nNici un jurnal de evenimente nu a fost găsit.</NoLogToSend>
+			<NoNewAppInstalled>Nici o aplicatie nouă nu au fost găsite în direcorul &quot;Apps&quot; din LiberKey</NoNewAppInstalled>
+			<NoNewMyAppInstalled>Nici o aplicație nouă găsită în dosarul  &quot;Aplicațiile mele&quot; din LiberKey</NoNewMyAppInstalled>
+			<OpenWithLiberKey>Deschideți cu LiberKey</OpenWithLiberKey>
+			<PatchAvailable>O actualizare este disponibilă pentru LiberKey.\n\nVrei să-o descarci acum?</PatchAvailable>
+			<SearchFieldInfo>Căutați în LiberKey ...</SearchFieldInfo>
+			<SearchingBrokenApps>Căutați aplicații deteriorate ..</SearchingBrokenApps>
+			<SearchingUninstalledApps>Căutati aplicații în directorul &quot;Apps&quot; ..</SearchingUninstalledApps>
+			<SearchingUninstalledMyApps>Căutarea aplicații în directorul &quot;MyApps&quot;  ..</SearchingUninstalledMyApps>
+			<SelectFile>Selectați fișierul ...</SelectFile>
+			<SendingScreenshot>Trimiteti o captura de ecran ..</SendingScreenshot>
+			<SendLogInfo>Acest instrument vă permite să trimiteți jurnalul de evenimente din meniu pentru echipa LiberKey pentru a fi analizate dacă sunt probleme.\n\nInformațiile tehnice generate din directorul &quot;jurnal&quot; din meniul tau aceste vor fi trimise la echipa LiberKey.\n\nSunteți sigur că doriți să continuați?</SendLogInfo>
+			<SetupAutoRestart>Configurarea %app% va reporni preconfigurate pentru LiberKey.</SetupAutoRestart>
+			<TrayIcon>
+				<AppUpdatesAvailable>Sunt disponibile noi actualizări pentru aplicațiile dumneavoastră.\nFaceți clic aici pentru a le instala.</AppUpdatesAvailable>
+				<AppUpdatesAvailableTitle>Actualizări de aplicații disponibile</AppUpdatesAvailableTitle>
+				<LiberKeyAssocFailed>A apărut o eroare în timp ce se încerca protocolul LiberKey pentru activare.\nUnele caracteristici, cum ar fi instalarea de pe catalogul online sunt dezactivate.</LiberKeyAssocFailed>
+				<LiberKeyUpdateAvailable>O actualizare este disponibilă pentru LiberKey.\nFaceți clic aici pentru a o instala.</LiberKeyUpdateAvailable>
+				<LiberKeyUpdateAvailableTitle>Actualizare LiberKey</LiberKeyUpdateAvailableTitle>
+				<NewAppDetected>Unul sau mai multe aplicatii noi au fost detectate în dosarul &quot;MyApps&quot;, din LiberKey.\nClick aici pentru a înregistra noile aplicații în meniul tău.</NewAppDetected>
+				<NewsUpdateAvailable>Stiri LiberKey\nCiteste ultimele stiri</NewsUpdateAvailable>
+			</TrayIcon>
+			<UpdatePlatformFirst>Trebuie să actualizați mai întâi LiberKey!\nDoriți să faceți această actualizare acum?</UpdatePlatformFirst>
+			<XmlFileSelection>Fisiere XML |*.xml|Toate Fisierele|*.*</XmlFileSelection>
+		</Messages>
+		<NewAppList>
+			<CommandButtons>
+				<Cancel_Caption>Închide</Cancel_Caption>
+				<InstallApp_ToolTip>Instalează această aplicatie</InstallApp_ToolTip>
+				<InstallApps_ToolTip>Instalează aplicatia selectată</InstallApps_ToolTip>
+				<OpenFolder_ToolTip>Deschide locatie fisier</OpenFolder_ToolTip>
+				<Reload_ToolTip>Reînprospătează lista</Reload_ToolTip>
+				<SelectApp_ToolTip>Selectează acestă aplicatie</SelectApp_ToolTip>
+				<UnselectApp_ToolTip>Deselectați această aplicație</UnselectApp_ToolTip>
+			</CommandButtons>
+			<Labels>
+				<DestinationMenuLabel_Caption>Crează o comendă rapide în:</DestinationMenuLabel_Caption>
+				<Title_Caption>Noi aplicații</Title_Caption>
+			</Labels>
+			<Messages>
+				<SelectExecutable>Selectați programul pe care doriți să-l adăugați în meniul.</SelectExecutable>
+			</Messages>
+		</NewAppList>
+		<News>
+			<CheckBoxs>
+				<HideReadNews_Caption>Ascunde știrile deja citite</HideReadNews_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<CloseNews_Caption>Închide</CloseNews_Caption>
+			</CommandButtons>
+			<Labels>
+				<Title_Caption>Stiri LiberKey</Title_Caption>
+			</Labels>
+			<Messages>
+				<NoNewsDescription>Nu există nici o veste în acest moment.\nÎn cazul în care sunt noi știri publicate, veți fi notificat prin pictograma &quot;Stiri LiberKey, care va apărea deasupra butonului &quot;Instrumente LiberKey&quot;.</NoNewsDescription>
+				<NoNewsTile>Stiri LiberKey - Nu sunt noi știri</NoNewsTile>
+				<NoNewsUpdateDescription>În prezent, există %readcount% ascunse (deja sunt citite) aceste știri.\nPentru a vedea știri ascuns, debifati &quot;Ascunde deja am citi aceste știri&quot; de mai jos.</NoNewsUpdateDescription>
+				<NoNewsUpdateTile>Știri LiberKey - Nu sunt știri disponibile</NoNewsUpdateTile>
+			</Messages>
+		</News>
+		<OnlineCatalog>
+			<CommandButtons>
+				<Cancel_Caption>Anulare</Cancel_Caption>
+				<CopyURL_Caption>Copiati adresa în clipboard</CopyURL_Caption>
+				<GoToWebsite_Caption>Accesati catalogul on-line %count%</GoToWebsite_Caption>
+				<NoSyncCatalog_Caption>Accesati catalogul on-line fără o sincronizare cu LiberKey</NoSyncCatalog_Caption>
+			</CommandButtons>
+			<Labels>
+				<AccessURL_Caption>Adresa pentru accesarea catalogului on-line si sincronizate cu LiberKey:</AccessURL_Caption>
+				<AddPortableAppsLabel_Caption>Instalează aplicatiii noi</AddPortableAppsLabel_Caption>
+				<Privacy_Caption>Notă: Numerele de versiune trimise pe site-ul acoperă doar aplicațiile disponibile în catalogul on-line. Nu există informații despre aplicațiile tale personale sunt transmise în timpul acestei operațiuni.</Privacy_Caption>
+				<Title_Caption>Deschideți catalogul online</Title_Caption>
+			</Labels>
+		</OnlineCatalog>
+		<Search>
+			<Applications>Aplicatii</Applications>
+			<InCatalog>Catalog online</InCatalog>
+			<InstalledApp>Aplicațiile instalate</InstalledApp>
+			<SearchCatalog>Caută în catalogul online</SearchCatalog>
+		</Search>
+		<SetupWizard>
+			<CheckBoxs>
+				<ApplyFilesAssocs_Caption>Asociați aplicatia cu fișierele care se poate deschide</ApplyFilesAssocs_Caption>
+				<CreateDefaultShortcuts_Caption>Creați comenzi rapide pentru a lansa aplicația mai repede</CreateDefaultShortcuts_Caption>
+				<EditAppAfterSetup_Caption>Modificați proprietățile aplicației după instalare</EditAppAfterSetup_Caption>
+				<FillAppInformations_Caption>Adaugă descrierea pentru această aplicație</FillAppInformations_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<CancelSetup_Caption>Nu instalați aplicația în dosarul &quot;MyApps&quot;</CancelSetup_Caption>
+				<CancelSetup2_Caption>Anuleazi instalarea</CancelSetup2_Caption>
+				<CantSetup_Caption>Închide expertul (instalare nu va continua)</CantSetup_Caption>
+				<DoSetup_Caption>Instalati aplicația în LiberKey</DoSetup_Caption>
+				<ForceSetup_Caption>Instalați aplicația în &quot;MyApps&quot;</ForceSetup_Caption>
+				<OpenAppsFolder_Caption>Deschideți direcorul &quot;Apps&quot; directorul din LiberKey </OpenAppsFolder_Caption>
+				<OpenMyAppsFolder_Caption>Deschideți directorul &quot;MyApps&quot; din LiberKey</OpenMyAppsFolder_Caption>
+				<UpdateApp_Caption>actualizati această aplicație</UpdateApp_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppInfoDetailsTitle_Caption>Această cerere a fost instalat inițial de la un pachet de LKS (LiberKey Setup).\nUrmătoarele acțiuni vor fi realizate:</AppInfoDetailsTitle_Caption>
+				<AppRegisterInfo_Caption>Această aplicație va fi înregistrată din nou în LiberKey.</AppRegisterInfo_Caption>
+				<DestinationMenuLabel_Caption>Creați comenzi rapide în:</DestinationMenuLabel_Caption>
+				<IntroText_Caption>Acest expert este aici pentru a vă ajuta să adăugați aplicații în LiberKey.</IntroText_Caption>
+				<LbkAppFolderInfo_Caption>Această aplicație nu va fi actualizată în mod automat.\nTu ar trebui să o treaci la aplicatiile din directorul &quot;Apps&quot; și repetați operațiunea.</LbkAppFolderInfo_Caption>
+				<LbkAppFolderMistake_Caption>Aplicații portabile din catalogul on-line trebuie să fie plasate în dosarul &quot;Apps&quot;.</LbkAppFolderMistake_Caption>
+				<lblLbkAppInfoMissing_Caption>Informații despre această aplicație nu au fost găsite.\nImposibil de a salva informațiile în LiberKey</lblLbkAppInfoMissing_Caption>
+				<lblLbkAppInfoMissingMoveApp_Caption>Ar trebui să reinstalați aplicația din catalogul online.\nPentru utilizare în stat, în primul rând mutați aplicația în dosarul &quot;MyApps&quot;.</lblLbkAppInfoMissingMoveApp_Caption>
+				<lblLbkAppInfoMissingUpdate_Caption>Pentru a înregistra în mod corespunzător aplicatii în LiberKey, efectuați actualizarea lor. Pentru utilizare în acest stat, în primul rând mutați aplicația în dosarul &quot;MyApps&quot;.</lblLbkAppInfoMissingUpdate_Caption>
+				<lblUserAppFolderInfo>Pentru a salva această aplicație în LiberKey  ar trebui să-l mutați în dosarul &quot;MyApps&quot; si repetati actiunea.</lblUserAppFolderInfo>
+				<lblUserAppFolderMistake_Caption>Aplicații portabile nu din catalogul on-line trebuie să fie plasate în directorul &quot;MyApps&quot;.</lblUserAppFolderMistake_Caption>
+				<NewApp_Caption>Nouă aplicație portabilă</NewApp_Caption>
+				<NewAppRegisterInfo_Caption>Această aplicație nu este înregistrată în LiberKey.</NewAppRegisterInfo_Caption>
+				<PafInfoDetailsTitle_Caption>Această aplicatie a fost instalată inițial dintr-un pachet PAF (portableapps.com ™).\nUrmătoarele operațiuni vor fi efectuate:</PafInfoDetailsTitle_Caption>
+				<ReinstallApp_Caption>Reinstalați o aplicație portabilă</ReinstallApp_Caption>
+				<Title_Caption>Adaugă o aplicatie în expertul de instalare</Title_Caption>
+				<UserAppInfoDetailsTitle_Caption>Aplicații portabile trebuie să fie înregistrate în meniul LiberKey. Puteți crea apoi comenzi rapide în meniul pentru a le rula.\nUrmătoarele acțiuni vor fi realizate:</UserAppInfoDetailsTitle_Caption>
+				<XSoftInfoDetailsTitle_Caption>Această aplicatie a fost instalată inițial dintr-un pachet X-Software (winpenpack.com ™).\nUrmătoarele operațiuni vor fi efectuate:</XSoftInfoDetailsTitle_Caption>
+			</Labels>
+		</SetupWizard>
+		<ShortcutProperties>
+			<CheckBoxs>
+				<AlwaysRunAsAdmin_Caption>Întotdeauna rulează ca administrator</AlwaysRunAsAdmin_Caption>
+				<ShortcutHiddenInMenu_Caption>Ascuns în meniurile plutitoare</ShortcutHiddenInMenu_Caption>
+				<ShortcutNoMostUsed_Caption>Nu adaugati la cele mai utilizate aplicații din meniu</ShortcutNoMostUsed_Caption>
+				<ShortcutNoRecent_Caption>Nu adaugati la utilizare recentă sau în meniul de aplicații</ShortcutNoRecent_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<ApplyChanges_Caption>Aplică</ApplyChanges_Caption>
+				<AppProps_Caption>Proprietăți de aplicatii</AppProps_Caption>
+				<Cancel_Caption>Închide</Cancel_Caption>
+				<ShortcutAppEdit_Caption>Adaugă o pictogramă la aplicația portabilă</ShortcutAppEdit_Caption>
+			</CommandButtons>
+			<Labels>
+				<DescriptionLabel_Caption>Descriere :</DescriptionLabel_Caption>
+				<ShortcutAutorunLabel_Caption>Autorulare :</ShortcutAutorunLabel_Caption>
+				<ShortcutHotKey_Caption>Pictogramă tastatură :</ShortcutHotKey_Caption>
+				<ShortcutIconLabel_Caption>Iconită :</ShortcutIconLabel_Caption>
+				<ShortcutNameLabel_Caption>Nume :</ShortcutNameLabel_Caption>
+				<ShortcutParamsLabel_Caption>Parametrii de linie de comandă:</ShortcutParamsLabel_Caption>
+				<ShortcutPathLabel_Caption>Calea Executabilă / director / pagina web / documente:</ShortcutPathLabel_Caption>
+				<ShortcutWinStateLabel_Caption>La pornire</ShortcutWinStateLabel_Caption>
+				<ShortcutWorkDirLabel_Caption>Functionare director</ShortcutWorkDirLabel_Caption>
+				<Title_Caption>Proprietăti pictogramă</Title_Caption>
+			</Labels>
+			<Tabs>
+				<Shortcut>Comandă rapidă pe deskop</Shortcut>
+				<ShortcutMore>Avansat</ShortcutMore>
+			</Tabs>
+		</ShortcutProperties>
+		<SuiteDownload>
+			<CommandButtons>
+				<Cancel_Caption>Anulare</Cancel_Caption>
+				<GetSuites_Caption>Descarcă lista de aplicatii disponibile</GetSuites_Caption>
+				<InstallSuite_Caption>Instalati toate aplicațiile selectate din listă</InstallSuite_Caption>
+			</CommandButtons>
+			<DownloadedAppsCountInfo>-   Descărcat: %dldone%</DownloadedAppsCountInfo>
+			<DownloadSizeInfo>Descărcare: %size%</DownloadSizeInfo>
+			<InstallSizeInfo>-   Spatiu Recomandat: %size%</InstallSizeInfo>
+			<Labels>
+				<DownloadInfo_Caption>Acest expert vă permite să instalați o serie completă de aplicații.\n\nFaceți clic pe &quot;Descărcați lista de aplicatii disponibile&quot; pentru a continua.</DownloadInfo_Caption>
+				<Title_Caption>Instalați o serie de aplicatii</Title_Caption>
+				<TitleBig_Caption>Instalați o serie de aplicatii</TitleBig_Caption>
+			</Labels>
+			<Messages>
+				<ConfirmKeepDownloads>Doriți să păstrați pachetele de aplicații pentru a fi instalate mai târziu?</ConfirmKeepDownloads>
+				<DownladAppIcons16>Descără pictograme pentru aplicații ...</DownladAppIcons16>
+				<DownloadGraphics>Descărcă logo-uri pentru aplicatii ...</DownloadGraphics>
+				<DownloadingSuitesInfo>Descarc informații despre noi aplicatii ...</DownloadingSuitesInfo>
+				<GetSuiteInfoFailed>A apărut o eroare la preluarea listei de aplicatii disponibile\n\nEroare %errnum%: %errdesc%</GetSuiteInfoFailed>
+				<IncompleteSuiteSetup>Unele aplicații nu au fost instalate corect.\nPuteți reporni acest expert mai târziu pentru a finaliza instalarea.</IncompleteSuiteSetup>
+				<PartialSuiteSetupDone>Au fost instalate aplicațiile selectate.\nPuteți reporni acest expert mai târziu pentru a adăuga mai multe aplicații.</PartialSuiteSetupDone>
+				<SetupDone>O serie de aplicatii &quot;%name%&quot;  nu sunt instalate pe LiberKey</SetupDone>
+				<SetupError>A apărut o eroare în timpul instalării %app%!</SetupError>
+			</Messages>
+			<SuiteAppCountInfo>Aplicatii :</SuiteAppCountInfo>
+			<SuiteAppsDoneInfo> -   Stiri: %newapps%   -   Instalare: %installed%</SuiteAppsDoneInfo>
+		</SuiteDownload>
+		<UninstallWizard>
+			<CheckBoxs>
+				<RemoveAppFolder_Caption>Scoateți dosarul aplicației (inclusiv programul și datele sale asociate)</RemoveAppFolder_Caption>
+				<RemoveAppShortcuts_Caption>Elimina orice comenzi rapide care indică această aplicație</RemoveAppShortcuts_Caption>
+				<RemoveFilesAssocs_Caption>Scoateți asocierile fișierelor folosite de acest program</RemoveFilesAssocs_Caption>
+				<UnregisterAppInfo_Caption>Anulează înregistrarea aplicatiei</UnregisterAppInfo_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<CancelSetup_Caption>Anulează dezinstalarea.</CancelSetup_Caption>
+				<CancelSetup2_Caption>Anulare dezinstalare</CancelSetup2_Caption>
+				<ConfirmUninstall_Caption>Confirmați eliminarea acestei aplicații</ConfirmUninstall_Caption>
+				<DoUninstall_Caption>Efectuați această eliminare selectă</DoUninstall_Caption>
+			</CommandButtons>
+			<Labels>
+				<IntroText_Caption>Acest asistent vă va ajuta să dezinstalați aplicații din LiberKey.</IntroText_Caption>
+				<PreviewInfo_Caption>Aici este lista de acțiuni pe care le va efectua LiberKey, la dezinstalare. În unele cazuri, eliminarea unei aplicatii poate duce la alte pierderi. Asigurați-vă că  verificati această listă înainte de dezinstalare.</PreviewInfo_Caption>
+				<RemoveApp_Caption>Eliminați aplicația</RemoveApp_Caption>
+				<RemoveAppInfo_Caption>Această aplicație va fi scoasă din LiberKey</RemoveAppInfo_Caption>
+				<RemoveInfoDetailsTitle_Caption>Următoarele acțiuni vor fi efectuate în timp ce se efecuează dezinstalarea programului. Opțiuni Debifați dacă doriți să păstrați anumite informații cu privire la acest program.</RemoveInfoDetailsTitle_Caption>
+				<Title_Caption>Expertul în dezinstalare</Title_Caption>
+			</Labels>
+			<PreviewTree>
+				<AppDataSize>Dimendiune aplicatie: %size%</AppDataSize>
+				<DeletedAssocs>Stergere asociere</DeletedAssocs>
+				<DeletedData>Stergere datele aplicatiei</DeletedData>
+				<DeletedShortcuts>Stergere Pictogramă</DeletedShortcuts>
+				<FileType>Fisiere &quot;.%type%&quot;</FileType>
+				<KFANotFound>Asocierea fișierelor de configurare nu a fost găsită.</KFANotFound>
+				<KFANotUsed>Nici o asociere temporară pentru această aplicație</KFANotUsed>
+				<KfaUsedForTypeIcon>Foloseste acest tip de fisier pentru iconte</KfaUsedForTypeIcon>
+				<UnregisterApp>Sterge aplicația</UnregisterApp>
+			</PreviewTree>
+		</UninstallWizard>
+		<UpdateInfo>
+			<CommandButtons>
+				<Cancel_Caption>Închide</Cancel_Caption>
+				<DownloadPatch_Caption>Actualizare LiberKey</DownloadPatch_Caption>
+				<OpenCatalog_Caption>Deschideți catalogul portabil cu aplicații</OpenCatalog_Caption>
+				<UpdateApps_Caption>Actualizări pentru aplicatiile mele LiberKey</UpdateApps_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppsUpdateFound>Actualizări sunt disponibile pentru aplicațiile dumneavoastră.</AppsUpdateFound>
+				<AppsUpdateNotFound>Nici o actualizare nu este disponibilă pentru aplicațiile dumneavoastră.</AppsUpdateNotFound>
+				<NewAppsCount>Aplicații suplimentare disponibile:%count%</NewAppsCount>
+				<NewAppsFound>Aplicații suplimentare sunt disponibile pentru LiberKey în catalogul on-line.</NewAppsFound>
+				<NewAppsNotFound>Nu există aplicații suplimentare pentru Platforma ta LiberKey nu au fost găsite aplicatii noi în catalogul on-line</NewAppsNotFound>
+				<NoNewApp>Ai totul actualizat!</NoNewApp>
+				<PlatformUpdateFound>O actualizare este disponibilă pentru Platforma ta LiberKey</PlatformUpdateFound>
+				<PlatformUpdateNotFound>Nu au fost găsite actualizări pentru Platforma LiberKey</PlatformUpdateNotFound>
+				<Title_Caption>Actualizări disponibile</Title_Caption>
+				<UpdatesCount>Actualizări noi disponibile %count%</UpdatesCount>
+			</Labels>
+		</UpdateInfo>
+		<Contributors>
+			<Contributor email="prisacariu_a@tahoo.com" name="Adrian"/>
+		</Contributors>
+	</ro-RO>
+</Languages>

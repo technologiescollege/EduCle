@@ -1,0 +1,34 @@
+<Languages version="0.2">
+	<mk-MK en_name="Macedonian" icon="mk.png" date="2012-07-11" name="Македонски">
+		<Closing>
+			<caption>Затвори ги LiberKey апликациите сега</caption>
+			<CommandButtons>
+				<Cancel_Caption>&amp;Откажи</Cancel_Caption>
+				<Retry_Caption>&amp;Повтори</Retry_Caption>
+				<Terminate_Caption>&amp;Присилно затварање</Terminate_Caption>
+			</CommandButtons>
+		</Closing>
+		<Debug>
+			<caption>Информации за откриените апликации</caption>
+		</Debug>
+		<Main>
+			<CommandButtons>
+				<Close_Caption>От&amp;кажи</Close_Caption>
+				<CloseApps_Caption>&amp;Затвори ги преносните апликациии</CloseApps_Caption>
+			</CommandButtons>
+		</Main>
+		<Message>
+			<KillWarning>Внимание!\n\nПрисилното затварање на апликациите може да ги уништи вашите податоци.\nЗатоа е препорачливо да ја затворуте апликацијата нормално.\n\nДали сте сигурни дека сакате да ја исклучите програмата присилно?</KillWarning>
+		</Message>
+		<Messages>
+			<AppsCloseCanceled>Затварањето на апликацијата е откажано</AppsCloseCanceled>
+			<CloseFailed>Апликацијата сеуште работи.\nЗатворете ја рачно или затворете ја присилно.</CloseFailed>
+			<Closing>Затварање на апликациите...</Closing>
+			<ContinueClose>Дали сакате да ги затворете останатите апликации?</ContinueClose>
+			<ForceFailed>Се појави грешка при присилното затварање на апликацијата.</ForceFailed>
+		</Messages>
+		<Contributors>
+			<Contributor name="mite71" email="mite71@live.com"/>
+		</Contributors>
+	</mk-MK>
+</Languages>

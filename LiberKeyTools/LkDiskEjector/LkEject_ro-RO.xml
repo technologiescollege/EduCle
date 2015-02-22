@@ -1,0 +1,17 @@
+<Languages version="0.2">
+	<ro-RO en_name="Romanian" icon="ro.png" date="2014-11-12">
+		<Message>
+			<AppStillRunning>Există aplicatii în funcționare pe LiberKey.\n\nAnulează deconectarea Unitătii USB cu LiberKey.</AppStillRunning>
+		</Message>
+		<Messages>
+			<Errors>
+				<LkAppsCloseRunError>Eroare la executarea programului închid aplicația.</LkAppsCloseRunError>
+				<LkDiskEjectorRunError>Eroare la executarea programului discul USB este scos.</LkDiskEjectorRunError>
+			</Errors>
+			<Intro>LiberKey a scos unitatea USB închideti toate aplicațiile deschise de pe dispozitivul USB.</Intro>
+		</Messages>
+		<Contributors>
+			<Contributor name="Adrian" email="prisacariu_a@yahoo.com"/>
+		</Contributors>
+	</ro-RO>
+</Languages>

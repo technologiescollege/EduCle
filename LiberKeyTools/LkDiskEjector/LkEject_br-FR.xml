@@ -1,0 +1,17 @@
+<Languages version="0.2">
+	<br-FR en_name="Breton" icon="fr.png" date="2012-09-11" name="Brezhoneg" version="1.0">
+		<Message>
+			<AppStillRunning>Chom a ra c&apos;hoazh programmoù o vont en-dro\n\nNullet eo bet digevreañ an USB</AppStillRunning>
+		</Message>
+		<Messages>
+			<Errors>
+				<LkAppsCloseRunError>N&apos;eo ket deuet a-benn serriñ ar programmoù.</LkAppsCloseRunError>
+				<LkDiskEjectorRunError>N&apos;eo ket deuet a-benn seveniñ ar programm evit disteurel ar bladenn USB</LkDiskEjectorRunError>
+			</Errors>
+			<Intro>Serret vez pep programm an trobarzhell USB gant LiberKey USB Eject !</Intro>
+		</Messages>
+		<Contributors>
+			<Contributor name="Diloar" email="diloar@no-log.org"/>
+		</Contributors>
+	</br-FR>
+</Languages>

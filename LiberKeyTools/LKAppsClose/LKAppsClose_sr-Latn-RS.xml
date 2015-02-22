@@ -1,0 +1,34 @@
+<Languages version="0.2">
+	<sr-Latn-RS en_name="Serbian (Latin)" icon="srbija.png" date="2013-07-18" version="3.50" name="Srpski (Latinica)">
+		<Closing>
+			<caption>Zatvaranje LiberKey aplikacija sada</caption>
+			<CommandButtons>
+				<Cancel_Caption>&amp;Otkaži</Cancel_Caption>
+				<Retry_Caption>&amp;Pokušaj ponovo</Retry_Caption>
+				<Terminate_Caption>&amp;Prisilno zatvaranje</Terminate_Caption>
+			</CommandButtons>
+		</Closing>
+		<Debug>
+			<caption>Informacije o prozorima detektovanih aplikacija</caption>
+		</Debug>
+		<Main>
+			<CommandButtons>
+				<Close_Caption>&amp;Otkaži</Close_Caption>
+				<CloseApps_Caption>&amp;Zatvori portabilne aplikacije</CloseApps_Caption>
+			</CommandButtons>
+		</Main>
+		<Message>
+			<KillWarning>Upozorenje!\n\nPrislino zatvaranje aplikacija može uticati na vaše podatke\nZbog toga je bolje ostaviti aplikaciju normalno.\n\nDa li ste sigurni da želite prislino da ugasite ovaj program?</KillWarning>
+		</Message>
+		<Messages>
+			<AppsCloseCanceled>Zatvaranje aplikacije otkazano</AppsCloseCanceled>
+			<CloseFailed>Aplikacija je i dalje pokrenuta.\nZatvorite je ručno ili primorajte zatvaranje.</CloseFailed>
+			<Closing>Zatvaranje aplikacije...</Closing>
+			<ContinueClose>Da li želite da nastavite zatvaranje ostatka aplikacija?</ContinueClose>
+			<ForceFailed>Dogodila se greška prilikom prisiljenog zatvaranja aplikacije.</ForceFailed>
+		</Messages>
+		<Contributors>
+			<Contributor name="Bojan Pavlović" email="bojan.pavlovich@yahoo.com"/>
+		</Contributors>
+	</sr-Latn-RS>
+</Languages>

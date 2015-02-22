@@ -1,0 +1,94 @@
+<Languages version="0.2">
+	<sr-Cyrl-RS en_name="Serbian (Cyrillic)" icon="srbija.png" date="2012-09-08" name="Srpski (Ćirilica)" version="2.50">
+		<Cmds>
+			<Info>Информације...</Info>
+			<OK>У реду</OK>
+		</Cmds>
+		<CrashRestore>
+			<CommandButtons>
+				<Restore_Caption>Поврати конфигурације</Restore_Caption>
+			</CommandButtons>
+			<Labels>
+				<Info_Caption>Следеће апликације су биле покренуте.\nНије било могуће сачувати њихову конфигурацију у ЛиберКеy-у и конфигурацију вашег компјутера није могуће вратити.</Info_Caption>
+				<Title_Caption>ЛиберКеy Портабилизер је нагло прекинут при последњем извршавању.</Title_Caption>
+			</Labels>
+		</CrashRestore>
+		<License>
+			<caption>%appname% лиценца</caption>
+			<CheckBoxs>
+				<Accept_Caption>Прихватам и слажем се са условима лиценце</Accept_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Accept_Caption>Прихватам</Accept_Caption>
+				<Cancel_Caption>Откажи</Cancel_Caption>
+				<OK_Caption>У реду</OK_Caption>
+			</CommandButtons>
+			<Labels>
+				<AccetInformation_Caption>ВАЖНО: Чекирањем дугмета испод и кликом на Прихватам, прихватате ове услове лиценце. Кликните на &quot;стрелицу доле&quot; да видите остатак лиценце.</AccetInformation_Caption>
+				<License_Caption>Лиценца</License_Caption>
+				<LicenseAgreeTitle_Caption>Морате да прихватите ове услове пре него што можете да користите %appname%</LicenseAgreeTitle_Caption>
+				<LicenseTitle_Caption>Ова лиценца дефинише услове коришћења %appname%. Молимо вас да прочитате пре настављања.</LicenseTitle_Caption>
+			</Labels>
+		</License>
+		<Main>
+			<CommandButtons>
+				<OK_Caption>&amp;У реду</OK_Caption>
+			</CommandButtons>
+			<Labels>
+				<PortabilizerInfo_Caption>Тренутно покренуте апликације:</PortabilizerInfo_Caption>
+			</Labels>
+		</Main>
+		<Messages>
+			<AppAlreadyRunning>%appname% је већ покренута. Молимо вас да затворите остале апликације пре покретања ове.</AppAlreadyRunning>
+			<DefaultTitle>%appname% ЛиберКеy Портабилно Издање</DefaultTitle>
+			<Errors>
+				<AppInfoFileNotFound>Информације о портабилној апликацији недостају.</AppInfoFileNotFound>
+				<ApplyContextError>Нисмо у могућности да припремимо извршни садржај за портабилну апликацију.\nМолимо вас да затворите све отворене прозоре и покренете апликацију поново.</ApplyContextError>
+				<CrashInfo>Следеће апликације су биле покренуте.\nНије било могуће сачувати њихову конфигурацију у ЛиберКеy-у и конфигурацију вашег компјутера није могуће вратити.</CrashInfo>
+				<CrashRestore>ЛиберКеy Портабилизер је престао да ради током последњег покретања.</CrashRestore>
+				<CrashRestoreElevatedApps>Апликације које су покренуте као администратор и њихове конфигурације нису могле бити враћене. Да би сте то урадили, ЛиберКеy Портабилизер мора бити покренут као администратор. Да ли желите да вратите ове апликације сада?</CrashRestoreElevatedApps>
+				<DependencyMissing>Да би радио овај програм захтева инсталацију %depend%.</DependencyMissing>
+				<ExeNotFound>Извршни део програма није пронађен.</ExeNotFound>
+				<InvalidRetoreData>Враћени подаци из %appname% су оштећени.\nНисмо у могућности да повратимо конфигурацију за ову апликацију.</InvalidRetoreData>
+				<NeedLbkUpdate>Ваш ЛиберКеy мора бити надограђен да би покренуо ову апликацију.\n\nМожете да користите %app% после надоградње ЛиберКеy-а.</NeedLbkUpdate>
+				<NeedUpdate>ЛиберКеy Портабилизер мора бити надограђен да би покренуо ову апликацију.\nНадоградњу можете бесплатно да скинете са www.liberkey.com\n\nДа ли желите да идете на www.liberkey.com сада?</NeedUpdate>
+				<SingleUserApp>Апликација %app_name% је покренута од стране другог корисника.\n\nКорисник: &quot;%user%&quot;\nСесија: &quot;%session%&quot;\n\nИста апликација неможе бити покренута од стране 2 корисника истовремено.\n</SingleUserApp>
+			</Errors>
+			<LbkPortabilizerInfo>Овај програм је у &quot;портабилизацији&quot; и захтева апликације присутне на вашем ЛиберКеy-у.\n\nЗа даље информације, молимо вас посетите \nwww.liberkey.com</LbkPortabilizerInfo>
+			<No>Не</No>
+			<OtherInstanceStarted>Упозорење! \n\nУправо сте покренули %appname% док је портабилна верзија покренута.\nМолимо вас да затворите не портабилну верзију пре покретања портабилне верзије.</OtherInstanceStarted>
+			<RestoreNeedLBK>Упозорење!\n\nЈедна или више апликација нису пронађене.\n\n- &quot;Откажи&quot;: Операције неће бити извршене у овом тренутку.\n\n- &quot;Игнориши&quot;: Конфигурација вашег компјутера ће бити враћена. Ипак, можете изгубити конфигурацију вашег портабилног програма\n\n- &quot;Поново покушај&quot;: Ако је ваша апликација била на УСБ диску укључите га понови и кликните на &quot;Поново покушај&quot;.</RestoreNeedLBK>
+			<SessionEndWarning>Портабилне апликације су још увек покренуте\nПрепоручујемо да затворите све отворене апликације пре него што покушате да угасите ваш рачунар.</SessionEndWarning>
+			<Yes>Да</Yes>
+		</Messages>
+		<UpdateAvailable>
+			<caption>Надоградња доступна</caption>
+			<CheckBoxs>
+				<NoMoreAlert_Caption>Не показуј ову надоградњу</NoMoreAlert_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Cancel_Caption>&amp;Покрени програм без надоградње</Cancel_Caption>
+				<Install_Caption>&amp;Преузми и инсталирај надоградњу</Install_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppUpdateAvailable_Caption>Нова верзија овог програма је доступна за ваш ЛиберКеy.</AppUpdateAvailable_Caption>
+				<Version_Caption>Верзија %version%</Version_Caption>
+			</Labels>
+		</UpdateAvailable>
+		<Warning>
+			<CommandButtons>
+				<Info_Caption>Информације...</Info_Caption>
+				<OK_Caption>&amp;У реду</OK_Caption>
+			</CommandButtons>
+			<Status>
+				<UserAdmin>Админ: </UserAdmin>
+				<UserElevated>Подигнут:</UserElevated>
+				<UserName>Корисник:</UserName>
+				<UserSession>Сесија:</UserSession>
+			</Status>
+		</Warning>
+		<Contributors>
+			<Contributor name="Bojan Pavlović" email="bojan.pavlovich@yahoo.com" website="http://sve-i-svasta.yolasite.com"/>
+		</Contributors>
+	</sr-Cyrl-RS>
+</Languages>

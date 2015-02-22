@@ -1,0 +1,72 @@
+<Languages version="0.2">
+	<br-FR en_name="Breton" icon="fr.png" date="2012-09-11" name="Brezhoneg" version="1.0">
+		<Info>
+			<UpdateIgnore>(diweredekaet) </UpdateIgnore>
+			<UpdateLowPriority>(N&apos;eo ket blein)</UpdateLowPriority>
+		</Info>
+		<Main>
+			<CheckBoxs>
+				<Silent_Caption>Staliañ emgefreek an arloadoù.</Silent_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Cancel_Caption>&amp;Nullañ</Cancel_Caption>
+				<Download_Caption>Staliañ an hizivadennoù diuziet</Download_Caption>
+				<HideWindow_Caption>&amp;Masklañ ar prenestr-mañ e-pad ar pellgargañ</HideWindow_Caption>
+			</CommandButtons>
+			<Labels>
+				<bytes>Oktet</bytes>
+				<DownloadSize_Caption>Ment ar pellgargañ :</DownloadSize_Caption>
+				<Gb>Go</Gb>
+				<Info_Caption>Hizivadennoù vak :</Info_Caption>
+				<InstalledSize_Caption>Egor vak ret :</InstalledSize_Caption>
+				<InstallTitle_Caption>Staliañ an arloadoù</InstallTitle_Caption>
+				<Kb>Ko</Kb>
+				<Mb>Mo</Mb>
+				<RemoveHiddenUpdates_Caption>Masklañ an hizivadennoù diziuzet (%count%)</RemoveHiddenUpdates_Caption>
+				<SelectAll_Caption>Diuzañ pep tra</SelectAll_Caption>
+				<SelectHighPriority_Caption>Diuzañ an hizivadennoù bleinek</SelectHighPriority_Caption>
+				<SelectNone_Caption>Diziuzañ</SelectNone_Caption>
+				<ShowHiddenUpdates_Caption>Diskwel an hizivadennoù masklet (%count%)</ShowHiddenUpdates_Caption>
+				<Version_Caption>Stumm :</Version_Caption>
+			</Labels>
+		</Main>
+		<Messages>
+			<AppAlreadyInstalled>%appname% %appversion% a zo bet staliet dija war ho LiberKey.\n\nStaliañ anezhañ a nevez ?</AppAlreadyInstalled>
+			<AppsDownloadDone>Echu eo ar pellgargañ.\n=&gt; %downloadpath%\n\nStaliañ an hizivadennoù bremañ ?</AppsDownloadDone>
+			<AppUpdateObsolete>Ur stumm nevesoc&apos;h eus %appname% a zo bet staliet dija war ho LiberKey.\n\nStumm staliet : %appversion%\nStum war-nes bezañ staliet : %newversion%\n\nStaliañ ar stumm kozh ?</AppUpdateObsolete>
+			<ConfirmCancel>O pellgargañ an hizivadennoù emaoc&apos;h.\nFellout a ra deoc&apos;h nullañ ar pellgargañ hag ehanañ an hizivadennoù ?</ConfirmCancel>
+			<DiskSpace>Egor ret : %needed% (vak : %avail%)</DiskSpace>
+			<DownloadDone>Echu eo ar pellgargañ.\nSerret vo lañser al Liberkey e-pad an hizivadenn.</DownloadDone>
+			<DownloadingTip>O pellgargañ an hizivadennoù emañ...\nKlikit amañ evit gouzout hiroc&apos;h.</DownloadingTip>
+			<DownloadingTipTitle>Programmoù hizivaet</DownloadingTipTitle>
+			<Errors>
+				<403>N&apos;eo ket deuet a-benn ho Liberkey da gevreañ gant ho proksi.\nSellit pizh ouzh kefluniadurioù ho proksi.</403>
+				<404>%appname% %appversion%\n\nN&apos;eo ket bet kavet ar restr war hor servijer\nAdkrogit ganti diwezhatoc&apos;h.</404>
+				<DepositFolderError>Dibosupl eo saveteiñ ar roadennoù er c&apos;havlec&apos;h teurel.\n%path%\n\nPellgargañ ar pakadoù diank er c&apos;havlec&apos;h padennek ?</DepositFolderError>
+				<DownloadError>Pellgargañ c&apos;hwitaet.\nKlask en-dro ?</DownloadError>
+				<InvalidPwd>N&apos;eo ket mat ho ker-tremen.</InvalidPwd>
+				<InvalidUser>Ne c&apos;hell ket kavout an implijer-mañ.</InvalidUser>
+				<Login>Liberkey n&apos;eo ket deuet a-benn anavezout ac&apos;hanoc&apos;h.\nAdkrogit ganti diwezhatoc&apos;h.</Login>
+				<Password>Hoc&apos;h anv, pe ar gerkuzh a zo faos.</Password>
+			</Errors>
+			<HideThisUpdate>Arabaat diskouezh ken an hizivadenn-mañ.</HideThisUpdate>
+			<HideUpdateInfo>An hizivadennoù diweredekaet a c&apos;hell bezañ diskouezhet en-dro en ur glikañ &quot;dikouezh an hizivadennoù kuzhet&quot;.</HideUpdateInfo>
+			<HighPriority>Bleinek</HighPriority>
+			<HighPriorityInfo>Gwelloc&apos;h e vefe deoc&apos;h kenderc&apos;hel gant an hizivadenn-mañ.\nDegas a raio reizhadennoù hollbouezhus, evit ar surentez a-wezhoù.</HighPriorityInfo>
+			<HighPriorityInfoTitle>Hizivadenn vleinek</HighPriorityInfoTitle>
+			<HttpError>N&apos;eo ket deuet a-benn enporzhiañ titouroù an hizivadennoù evit ho Liberkey.\nKevreet oc&apos;h ouzh ar genrouedad ?\nAvez-vous actuellement accès à internet depuis cet ordinateur ?</HttpError>
+			<InformationTitle>Titouroù</InformationTitle>
+			<KeepTempFiles>Mirout ar restroù bellgarget evit implijout anezho diwezhatoc&apos;h ?</KeepTempFiles>
+			<LowPriority>Diret</LowPriority>
+			<LowPriorityInfo>Oc&apos;h aliañ a reomp hizivaat ar programm-mañ ma vez implijet ingal ganeoc&apos;h.\nBez e c&apos;hellfe degas arc&apos;hweladurioù nevez dezhañ.</LowPriorityInfo>
+			<LowPriorityInfoTitle>Hizivadennoù diret</LowPriorityInfoTitle>
+			<TempSpaceNeeded>N&apos;eus ket plas awalc&apos;h evit pellgargañ ar restroù staliañ.\n\nEzhomm ho peus eus %downloadsize%  a egor dieub war ar bladenn %drive% (%avail% vak a zo bremañ war %drive%)</TempSpaceNeeded>
+			<UpdateDone>Hizivadennoù echu.</UpdateDone>
+			<UpdatesAvailable>Bez ez eus hizivadennoù prest evit ho arloadoù.\nKlikit amañ evit staliañ anezho.</UpdatesAvailable>
+			<UpToDate>Hizivaet eo an holl programmoù eus ho Liberkey.</UpToDate>
+		</Messages>
+		<Contributors>
+			<Contributor name="Diloar" email="diloar@no-log.org"/>
+		</Contributors>
+	</br-FR>
+</Languages>

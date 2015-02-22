@@ -1,0 +1,72 @@
+<Languages version="0.2">
+	<sr-Cyrl-RS en_name="Serbian (Cyrillic)" icon="srbija.png" date="2012-09-09" name="Srpski (Ćirilica)" version="2.50">
+		<Info>
+			<UpdateIgnore>(онеспособљено)</UpdateIgnore>
+			<UpdateLowPriority>(низак приоритет)</UpdateLowPriority>
+		</Info>
+		<Main>
+			<CheckBoxs>
+				<Silent_Caption>Инсталирање апликација без корисничког уноса (аутоматски режим)</Silent_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Cancel_Caption>Откажи</Cancel_Caption>
+				<Download_Caption>Инсталирај изабране апликације</Download_Caption>
+				<HideWindow_Caption>&amp;Сакриј прозор током преузимања</HideWindow_Caption>
+			</CommandButtons>
+			<Labels>
+				<bytes>бајт</bytes>
+				<DownloadSize_Caption>Величина за преузимање:</DownloadSize_Caption>
+				<Gb>GB </Gb>
+				<Info_Caption>Доступне надоградње:</Info_Caption>
+				<InstalledSize_Caption>Потребан простор на диску:</InstalledSize_Caption>
+				<InstallTitle_Caption>Инсталирање апликација</InstallTitle_Caption>
+				<Kb>KB </Kb>
+				<Mb>MB </Mb>
+				<RemoveHiddenUpdates_Caption>Уклони онеспособљене надоградње (%count%)</RemoveHiddenUpdates_Caption>
+				<SelectAll_Caption>Изабери све</SelectAll_Caption>
+				<SelectHighPriority_Caption>Изабери приоритетне надоградње</SelectHighPriority_Caption>
+				<SelectNone_Caption>Деизабери све</SelectNone_Caption>
+				<ShowHiddenUpdates_Caption>Прикажи сакривене надоградње (%count%)</ShowHiddenUpdates_Caption>
+				<Version_Caption>Верзија:</Version_Caption>
+			</Labels>
+		</Main>
+		<Messages>
+			<AppAlreadyInstalled>%appname% %appversion% је већ инсталирана на ваш ЛиберКеy.\n\nДа ли хоћете да реинсталирате ову апликацију?</AppAlreadyInstalled>
+			<AppsDownloadDone>Преузимање фајлова у складишту је завршено.\n=&gt; %downloadpath%\n\nДа ли желите да почнете инсталацију надоградњи сада?</AppsDownloadDone>
+			<AppUpdateObsolete>Новија верзија %appname% је већ инсталирана на вашем ЛиберКеy-у.\n\nИнсталирана верзија: %appversion%\nВерзија која се инсталира: %newversion%\n\nДа ли желите да инсталирате старију верзију?</AppUpdateObsolete>
+			<ConfirmCancel>Преузимате надоградње.\nДа ли желите да откажете преузимање и надоградњу?</ConfirmCancel>
+			<DiskSpace>Потребан простор на диску: %needed% (доступно: %avail%)</DiskSpace>
+			<DownloadDone>Надоградња је успешно преузета.\nЛиберКеy мени ће се затворити док се апликације надограђују.</DownloadDone>
+			<DownloadingTip>Преузимање надоградње...\nКликните овде за више детаља.</DownloadingTip>
+			<DownloadingTipTitle>ЛиберКеy надоградња апликација</DownloadingTipTitle>
+			<Errors>
+				<403>Изгледа да је ваш прокси сервер зауставио ЛиберКеy да се повеже са интернетом.\nМолимо вас проверите ваша подешавања проксија.</403>
+				<404>%appname% %appversion%\n\nДатотека није пронађена на серверу!\nМолимо вас да покушате касније.</404>
+				<DepositFolderError>Нисмо успели да сачувамо податке у складишном директоријуму.\n%path%\n\nДа ли желите да преузмете пакете који недостају у привремени директријум?</DepositFolderError>
+				<DownloadError>Догодила се грешка приликом преузимања.\nПокушајте поново?</DownloadError>
+				<InvalidPwd>Навели сте погрешну лозинку.\nМолимо вас наведите тачну лозинку.</InvalidPwd>
+				<InvalidUser>Корисник није пронађен у ЛиберКеy бази података\n\nМолимо вас покушајте поново.</InvalidUser>
+				<Login>Догодила се грешка током ЛиберКеy логовања.\nМолимо вас да покушате касније.</Login>
+				<Password>Навели сте погрешно корисничко име или лозинку.</Password>
+			</Errors>
+			<HideThisUpdate>Не показуј ову надоградњу</HideThisUpdate>
+			<HideUpdateInfo>Онеспособљене надоградње могу бити показане поново кликом на &quot;Покажи сакривене надоградње&quot;</HideUpdateInfo>
+			<HighPriority>Приоритет</HighPriority>
+			<HighPriorityInfo>Ми вас охрабрујемо да примените ову надоградњу.\nОно садржи неколико битних поправки, неке могу утицати на сигурност апликација.</HighPriorityInfo>
+			<HighPriorityInfoTitle>Приоритетна надоградња</HighPriorityInfoTitle>
+			<HttpError>Догодила се грешка током прибављања информација о доступним ЛиберКеy надоградњама.\nДа ли имате приступ интернету са овог компјутера?</HttpError>
+			<InformationTitle>Информација</InformationTitle>
+			<KeepTempFiles>Да ли желите да задржите преузете фајлове за каснију употребу?</KeepTempFiles>
+			<LowPriority>Опционално</LowPriority>
+			<LowPriorityInfo>Ова надоградња је препоручена ако редовно користите овај софтвер.\nМоже донети нове могућности.</LowPriorityInfo>
+			<LowPriorityInfoTitle>Опционалне надоградње</LowPriorityInfoTitle>
+			<TempSpaceNeeded>Доступан простор за преузимање привремених инсталационих фајлова је исувише низак.\n\nВаш избор захтева %downloadsize% слободног простора на диску %drive% (тренутно постоји само %avail% слободног простора на диску %drive%)</TempSpaceNeeded>
+			<UpdateDone>Надоградња апликације завршена.</UpdateDone>
+			<UpdatesAvailable>Надоградње су доступне за ваше апликације.\nКликните овде да инсталирате надоградње.</UpdatesAvailable>
+			<UpToDate>Ваше ЛиберКеy апликације су савремене.</UpToDate>
+		</Messages>
+		<Contributors>
+			<Contributor name="Bojan Pavlović" email="bojan.pavlovich@yahoo.com" website="http://sve-i-svasta.yolasite.com"/>
+		</Contributors>
+	</sr-Cyrl-RS>
+</Languages>

@@ -1,0 +1,270 @@
+<Languages version="0.2">
+	<sr-Cyrl-RS en_name="Serbian (Cyrillic)" icon="srbija.png" date="2012-09-07" name="Srpski (Ćirilica)" version="2.50">
+		<About>
+			<caption>O </caption>
+			<CommandButtons>
+				<History_caption>&amp;Верзија историје...</History_caption>
+				<OK_caption>&amp;Затвори</OK_caption>
+				<Update_caption>&amp;Провери за надоградње...</Update_caption>
+			</CommandButtons>
+			<Labels>
+				<LiberKeyExclu_caption>Овај софтвер може бити коришћен само уз ЛиберКеy</LiberKeyExclu_caption>
+				<LiberKeyPartner_caption>KFA је развијена од стране LiberKey.com</LiberKeyPartner_caption>
+			</Labels>
+		</About>
+		<AddAction>
+			<caption>Нова акција</caption>
+			<CommandButtons>
+				<Browse_caption>Претрага...</Browse_caption>
+				<Cancel_caption>&amp;Откажи</Cancel_caption>
+				<OK_caption>&amp;У реду</OK_caption>
+			</CommandButtons>
+			<EditCaption>Акција промене за тип: %typedesc%</EditCaption>
+			<Labels>
+				<Action_caption>&amp;Акција:</Action_caption>
+				<ActionAppPath_caption>Апликације коришћене за извршавање ове акције:</ActionAppPath_caption>
+				<ActionArgs_caption>Параметри командне линије:</ActionArgs_caption>
+			</Labels>
+			<Messages>
+				<ActionIsEmpty>Морате да одредите акцију.</ActionIsEmpty>
+				<ActionIsEmptyTitle>Типови фајлова</ActionIsEmptyTitle>
+				<AppNotFound>Изабран програм није пронађен. Проверите да ли су име и путања исправни.</AppNotFound>
+				<AppNotFoundTitle>Додај акцију</AppNotFoundTitle>
+			</Messages>
+		</AddAction>
+		<AppSelect>
+			<caption>Избор повезаних портабилних апликација</caption>
+			<CommandButtons>
+				<Cancel_caption>&amp;Откажи</Cancel_caption>
+				<OK_caption>&amp;У реду</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<Loading_caption>Учитавање листе доступног софтвера...</Loading_caption>
+			</Labels>
+		</AppSelect>
+		<AppWarning>
+			<caption>Key Files Assoc&apos; - Ризик од конфликта са другим апликацијама</caption>
+			<CommandButtons>
+				<OK_caption>&amp;У реду</OK_caption>
+				<RemoveAssocs_caption>Онеспособи повезивање сада.</RemoveAssocs_caption>
+			</CommandButtons>
+			<Labels>
+				<Message_caption>KEY Files Assoc&apos; је детектовао извршавање апликације која може бити проблематична. Препоручујемо да онеспособите привремено повезивање фајлова пре мењања Windows регистра.</Message_caption>
+				<Title_caption>Упозорење</Title_caption>
+			</Labels>
+		</AppWarning>
+		<AssocAdvance>
+			<caption>Издање типа фајла</caption>
+			<CheckBoxs>
+				<ReplaceWinEntry_caption>Замени садашње акције за овај тип фајлова</ReplaceWinEntry_caption>
+				<WinEdit_caption>Дозволи промене у &quot;Опције фолдера&quot;</WinEdit_caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Add_caption>&amp;Ново</Add_caption>
+				<Cancel_caption>&amp;Откажи</Cancel_caption>
+				<ChangeIcon_caption>&amp;Промени иконицу...</ChangeIcon_caption>
+				<Default_caption>&amp;По стандарду</Default_caption>
+				<DelAction_caption>&amp;Уклони</DelAction_caption>
+				<EditAction_caption>&amp;Промени...</EditAction_caption>
+				<OK_caption>&amp;У реду</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<Actions_caption>&amp;Акције:</Actions_caption>
+			</Labels>
+			<Messages>
+				<ActionDeleteConfirm>Да ли сте сигурни да желите да уклоните ову акцију?</ActionDeleteConfirm>
+				<ActionDeleteConfirmTitle>Типови датотека</ActionDeleteConfirmTitle>
+			</Messages>
+		</AssocAdvance>
+		<Download>
+			<caption>Надоградња софтвера</caption>
+			<CommandButtons>
+				<Cancel_caption>&amp;Откажи</Cancel_caption>
+			</CommandButtons>
+			<Labels>
+				<Title_caption>Скидање надоградње софтвера...</Title_caption>
+			</Labels>
+		</Download>
+		<FileAssoc>
+			<caption>Типови фајлова повезани са ЛиберКеy портабилним апликацијама</caption>
+			<CommandButtons>
+				<Add_caption>&amp;Ново</Add_caption>
+				<Advanced_caption>&amp;Напредно...</Advanced_caption>
+				<Apply_caption>&amp;Потврди</Apply_caption>
+				<Cancel_caption>&amp;Откажи</Cancel_caption>
+				<Delete_caption>&amp;Избриши</Delete_caption>
+				<OK_caption>У реду</OK_caption>
+				<SelectApp_caption>Уреди...</SelectApp_caption>
+			</CommandButtons>
+			<Labels>
+				<AssocListTitle_caption>Регистровани типови фајлова:</AssocListTitle_caption>
+				<ExtInfo>Типови датотека &apos;%1&apos; су &apos;%2&apos;. Да би сте изменили портабилне апликације повезане са овим фајлом кликните на Напредно.</ExtInfo>
+				<ExtInfoNoExt>Да би сте променили параметре који се односе на &apos;%1&apos; тип елементе, кликни на Напредно.</ExtInfoNoExt>
+				<FrameCaption_caption>Детаљи о екстензији &apos;%1&apos;</FrameCaption_caption>
+				<FrameCaptionNoExt_caption>Детаљи за &apos;%1&apos; тип</FrameCaptionNoExt_caption>
+				<OpenWithInfo_caption>Отвори помоћу:</OpenWithInfo_caption>
+			</Labels>
+			<Messages>
+				<AppExeNotFound>Грешка приликом повратка путање изабране портабилне апликације</AppExeNotFound>
+				<DeleteConfirm>Ако уклоните регистровану екстензију фајла, биће немогуће да отворите фајлове са овом екстензијом помоћу двоклика на иконице. \n\nДа ли сте сигурни да желите да уклоните ову екстензију?</DeleteConfirm>
+				<DeleteConfirmTitle>Типови фајлова</DeleteConfirmTitle>
+				<ExtExists>Ова екстензија је већ повезана са &apos;%1&apos; фајловима</ExtExists>
+				<ExtExistsTitle>Типови фајлова</ExtExistsTitle>
+			</Messages>
+		</FileAssoc>
+		<General>
+			<AppActionPrefix>Отвори помоћу</AppActionPrefix>
+			<AppActionSufix>(LiberKey)  </AppActionSufix>
+			<DefaultTypeName>Фајлови %1</DefaultTypeName>
+		</General>
+		<History>
+			<caption>Кеy Филес Ассоц&apos; - Верзија историје </caption>
+			<CommandButtons>
+				<Close_caption>&amp;Затвори</Close_caption>
+				<Download_caption>Скини издање %ver%...</Download_caption>
+			</CommandButtons>
+			<Messages>
+				<AppVersion>Верзија %ver%</AppVersion>
+				<New>Ново</New>
+				<NextVersion>(следећа верзија...)</NextVersion>
+				<NoVersionInfo>Информације о верзији нису доступне</NoVersionInfo>
+				<VersionAvailable>Доступна надоградња</VersionAvailable>
+				<VersionDate>- %date% </VersionDate>
+				<YourVersion>Ваша верзија</YourVersion>
+			</Messages>
+		</History>
+		<Loading>
+			<Labels>
+				<Info_caption>Учитавање...</Info_caption>
+			</Labels>
+		</Loading>
+		<Main>
+			<Menus>
+				<About_caption>&amp;O... </About_caption>
+				<Apply_caption>Примени ЛиберКеy повезивање</Apply_caption>
+				<Config_caption>Подешавања повезивања фајлова</Config_caption>
+				<Options_caption>&amp;Опције...</Options_caption>
+				<Quit_caption>&amp;Изађи</Quit_caption>
+				<Restore_caption>Поврати повезивање фајлова са локалног компјутера</Restore_caption>
+				<Test_caption>test  </Test_caption>
+				<Web_caption>&amp;Посети Key Files Assoc&apos; сајт...</Web_caption>
+			</Menus>
+		</Main>
+		<MergeAssocs>
+			<caption>Подешавање надоградње</caption>
+			<CommandButtons>
+				<Cancel_caption>&amp;Видећу то на следећем покретању...</Cancel_caption>
+				<MergeDefaultAssocs_caption>&amp;Потврди изабрана повезивања</MergeDefaultAssocs_caption>
+				<SkipDefaultAssoc_caption>&amp;Немој да мењаш моја подешавања!</SkipDefaultAssoc_caption>
+			</CommandButtons>
+			<Labels>
+				<Title_caption>Стандардна конфигурација повезивања</Title_caption>
+				<UpdateInfo_caption>У листи испод можете да видите сва нова повезивања повезана са овим новим издањем. Црвена повезивања су већ дефинисана у вашој садашњој конфигурацији. Сва изабрана повезивања у овој листи ће бити додата у вашу садашњу конфигурацију.</UpdateInfo_caption>
+			</Labels>
+		</MergeAssocs>
+		<Messages>
+			<ApplyDone>ЛиберКеy портабилне апликације су сада повезане са фајловима.</ApplyDone>
+			<ApplyDoneTitle>ЛиберКеy повезивање портабилних апликација</ApplyDoneTitle>
+			<ApplyError>Догодила се грешка приликом покушаја да се активирају ЛиберКеy повезивања</ApplyError>
+			<ApplyErrorTitle>Грешка у повезивању фајлова</ApplyErrorTitle>
+			<ASuiteConfMissing>Фајл који садржи листу ЛиберКеy портабилних апликација није пронађен!</ASuiteConfMissing>
+			<AutoRestoreDone>Екстензије фајлова нису повраћене током последње употребе.</AutoRestoreDone>
+			<AutoRestoreDoneTitle>Повезивања су враћена</AutoRestoreDoneTitle>
+			<ExeSelection>Апликације|*.exe;*.bat;*.com|Сви фајлови (*.*)|*.*</ExeSelection>
+			<NewVersionAvailable>Ново Key Files Assoc&apos; издање је доступно</NewVersionAvailable>
+			<NewVersionInfo>Издање %version% на %versiondate% је доступно.\n\n%description%\n\nДа ли желите да га скинете сада?</NewVersionInfo>
+			<NoAppUpdate>Ваше %appname% издање је савремено.</NoAppUpdate>
+			<RestoreDone>Повезивање фајлова је враћено</RestoreDone>
+			<RestoreDoneTitle>Повезивања су враћена</RestoreDoneTitle>
+			<RestoreError>Екстензије фајлова не могу бити враћене.\nДогодила се грешка приликом враћања повезивања фајлова.</RestoreError>
+			<RestoreErrorTitle>Грешка у повезивању фајла</RestoreErrorTitle>
+			<UpdateAppStillRunning>Софтвер је и даље покренут.\nДа ли желите да пробате поново?</UpdateAppStillRunning>
+			<UpdateDone>Надоградња до верзије %version% је завршена</UpdateDone>
+			<UpdateDownloadError>Догодила се грешка приликом скидања прошлог издања.\n\n%error%</UpdateDownloadError>
+			<UpdateErrorTitle>Грешка приликом надоградње</UpdateErrorTitle>
+			<UpdateExeError>Догодила се грешка приликом надоградње софтвера.\n\n%error%</UpdateExeError>
+			<UpdateInfoError>Догодила се грешка приликом покушаја да се добију информације о најновијен издању.</UpdateInfoError>
+			<UpdateTitle>Надоградња</UpdateTitle>
+		</Messages>
+		<NewType>
+			<caption>Направи нову екстензију</caption>
+			<CommandButtons>
+				<Cancel_caption>&amp;Откажи</Cancel_caption>
+				<OK_caption>&amp;У реду</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<Info_caption>Екстензија фајла:</Info_caption>
+			</Labels>
+			<Messages>
+				<NoExt>Морате са спецификујете екстензију.</NoExt>
+				<NoExtTitle>Типови фајлова</NoExtTitle>
+			</Messages>
+		</NewType>
+		<Options>
+			<caption>Key Files Assoc&apos; подешавања</caption>
+			<CheckBoxs>
+				<AutoCheckVersionAtStart_caption>Провери за надоградње на покретању програма</AutoCheckVersionAtStart_caption>
+				<ShowAssocToolTip_caption>Покажи облачић када је повезивање оспособљено / враћено</ShowAssocToolTip_caption>
+				<UseLbkProxySettings_caption>Користи ЛиберКеy прокси подешавања</UseLbkProxySettings_caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Cancel_caption>&amp;Откажи</Cancel_caption>
+				<DelAssocErrors_caption>Уклони изабрана повезивања</DelAssocErrors_caption>
+				<OK_caption>&amp;У реду</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<AppsErrorsTitle_caption>Софтвер није пронађен (повезивања онеспособљена)</AppsErrorsTitle_caption>
+				<FastSwitchMode_caption>Са дуплим кликом на иконицу у систему треj:</FastSwitchMode_caption>
+				<Language_caption>Језик корисничког интерфејса:</Language_caption>
+			</Labels>
+			<Messages>
+				<ActionCount>(1 акција)</ActionCount>
+				<AppCounters>Апликације повезане са %objcount% објекта (%actioncount% акција)</AppCounters>
+				<NotFoundApp>(Апликација није пронађена)</NotFoundApp>
+			</Messages>
+			<OptionButtons>
+				<optSystrayFastSwitchOFF_caption>Отвори подешавање повезивања</optSystrayFastSwitchOFF_caption>
+				<optSystrayFastSwitchON_caption>Повежи / Поврати ЛиберКеy софтвер за повезивање</optSystrayFastSwitchON_caption>
+			</OptionButtons>
+			<Tabs>
+				<ActionErrors>Неисправне акције</ActionErrors>
+				<Options>Опције</Options>
+			</Tabs>
+		</Options>
+		<SelectIcon>
+			<caption>Промени иконицу</caption>
+			<CommandButtons>
+				<Browse_caption>&amp;Претражи...</Browse_caption>
+				<Cancel_caption>&amp;Откажи</Cancel_caption>
+				<OK_caption>&amp;У реду</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<IconList_caption>&amp;Изаберите иконицу из листе испод:</IconList_caption>
+				<IconPath_caption>&amp;Потражите иконицу у овом фајлу:</IconPath_caption>
+			</Labels>
+			<Messages>
+				<FileNotFound>Фајл није пронађен: %1</FileNotFound>
+				<FilterAllFiles>Сви фајлови</FilterAllFiles>
+				<FilterIconFiles>Фајлови иконице</FilterIconFiles>
+				<FilterLibraries>Библиотеке</FilterLibraries>
+				<FilterPrograms>Програми</FilterPrograms>
+				<OpenFileTitle>Промени иконицу</OpenFileTitle>
+			</Messages>
+		</SelectIcon>
+		<Update>
+			<caption>Надоградња софтвера</caption>
+			<CommandButtons>
+				<Cancel_caption>&amp;Откажи</Cancel_caption>
+			</CommandButtons>
+			<Labels>
+				<ClosingApp_caption>Затварање апликације</ClosingApp_caption>
+				<ReplaceExe_caption>Надоградња софтвера</ReplaceExe_caption>
+				<RunNewVersion_caption>Покретање нове верзије</RunNewVersion_caption>
+				<Title_caption>Инсталација надоградње софтвера</Title_caption>
+			</Labels>
+		</Update>
+		<Contributors>
+			<Contributor name="Bojan Pavlović" email="bojan.pavlovich@yahoo.com" website="http://sve-i-svasta.yolasite.com"/>
+		</Contributors>
+	</sr-Cyrl-RS>
+</Languages>

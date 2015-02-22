@@ -1,0 +1,88 @@
+<Languages version="0.2">
+	<sr-Latn-RS en_name="Serbian (Latin)" icon="srbija.png" date="2013-07-18" name="Srpski (Latinica)" version="3.50">
+		<Main>
+			<CommandButtons>
+				<Cancel_Caption>&amp;Otkaži</Cancel_Caption>
+				<CancelOperation_Caption>&amp;Otkaži</CancelOperation_Caption>
+				<Install_Caption>Instaliraj aplikacije na moj LiberKey</Install_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppDescription_Caption>Opis:</AppDescription_Caption>
+				<AppName_Caption>Aplikacije:</AppName_Caption>
+				<AppVersion_Caption>Verzija:</AppVersion_Caption>
+				<AppWebSite_Caption>Sajt:</AppWebSite_Caption>
+				<EditorEmail_Caption>Email:</EditorEmail_Caption>
+				<EditorName_Caption>Urednik:</EditorName_Caption>
+				<EditorWebSite_Caption>Sajt:</EditorWebSite_Caption>
+				<PackageInfo_Caption>Informacije o paketu:</PackageInfo_Caption>
+				<PackageLangs_Caption>Dostupni jezici za instaliranje:</PackageLangs_Caption>
+				<Signature_Caption>Paket je predložio/la:</Signature_Caption>
+				<SupportURL_Caption>Podrška:</SupportURL_Caption>
+				<ValidationFailed_Caption>Upozorenje: Ovaj paket nije validan! </ValidationFailed_Caption>
+			</Labels>
+			<Tabs>
+				<Application>Aplikacije</Application>
+				<Editor>Urednik</Editor>
+				<Package>Informacije paketa</Package>
+			</Tabs>
+		</Main>
+		<Messages>
+			<AlreadyInstalled>Program je već instaliran na vašem LiberKey-u. \nDa li želite da instalirate ponovo?</AlreadyInstalled>
+			<AppStillRunning>Aplikacija i dalje radi.</AppStillRunning>
+			<ClosingApplication>Zatvaranje aplikacije...</ClosingApplication>
+			<ClosingASuite>Zatvaranje paketa...</ClosingASuite>
+			<ClosingKFA>Zatvaranje Key Files Assoc&apos;...</ClosingKFA>
+			<DeletingBackup>Brisanje rezervne kopije</DeletingBackup>
+			<DeletingObsoleteFiles>Brisanje zastarelih fajlova</DeletingObsoleteFiles>
+			<DowngradeWarning>Pažnja!\n\nNovija verzija programa je već instalirana na vašem LiberKey-u.\n\nInstalirana verzija: %current_version%\nVerzija koja se instalira: %setup_version%\n\nDa li želite da instalirate stariju verziju?</DowngradeWarning>
+			<DownloadingSetupData>Preuzimanje fajlova za instalaciju...\n%DONE%</DownloadingSetupData>
+			<Errors>
+				<AppDataNotFound>Podaci aplikacije nisu pronađeni</AppDataNotFound>
+				<AppsDirNotFound>Odredišni folder nije pronađen</AppsDirNotFound>
+				<ASuiteCloseFailed>Nismo uspeli da zatvorimo paket.</ASuiteCloseFailed>
+				<DataFileModified>Instalacion paket je oštećen.\nPaket podataka je promenjen\n\n%name%</DataFileModified>
+				<ErrRenameAppDir>Dogodila se greška prilikom pokušaja da se preimenuje aplikacioni folder.\nProverite da aplikacija nije pokrenuta i da otvoreni fajlovi se ne nalaze u folderu aplikacije.</ErrRenameAppDir>
+				<ExtractErrorRestoreDone>Ekstrakcija podataka nije uspela.\nVraćena je prethodna verzija.</ExtractErrorRestoreDone>
+				<ExtractErrorRestoreNotDone>Ekstrakcija aplikacije nije uspela.\nPrethodna verzija je sačuvana i rezervnom direktorijumu.</ExtractErrorRestoreNotDone>
+				<IncompleteSetup>Neki fajlovi nisu mogli biti nadograđeni!\nNova verzija ovih fajlova se nalazi u sledećem direktorijumu:\n\n%failedfolder%</IncompleteSetup>
+				<InstallError>Dogodila se greška tokom instalacije ove aplikacije.</InstallError>
+				<InstallerUpdateNeeded>Instalacioni paket je noviji od instalacionog čarobnjaka.\nKoristite najnoviju verziju čarobnjaka za instalacije da instalirate.</InstallerUpdateNeeded>
+				<InstErrorTitle>Greška tokom instalacije</InstErrorTitle>
+				<OldPackageVersion>Ovaj instalcioni paket nije podržan od strane čarobnjaka za instalacije.\nInstalacija ne može biti nastavljena.</OldPackageVersion>
+				<PackageValidationFailed>Upozorenje, ovaj paket nije validan.</PackageValidationFailed>
+				<SetupDataDownloadCanceled>Preuzimanje otkazano</SetupDataDownloadCanceled>
+				<SetupDataDownloadError>Greška prilikom preuzimanja podataka instalacije</SetupDataDownloadError>
+			</Errors>
+			<ExtractingAppFiles>Ekstraktovanje aplikacionih fajlova</ExtractingAppFiles>
+			<InstalledLangMismatchWarning>Upozorenje!\nOvaj softver je već instaliran na vašem LiberKey-u na drugom jeziku.\n\nPrethodno instaliranje je bilo na: &quot;%prevlang%&quot;\nOvo instaliranje je na: &quot;%newlang%&quot;\n\nDa li želite da nastavite?</InstalledLangMismatchWarning>
+			<Installing>Instaliranje...</Installing>
+			<InvalidPackageFile>Neispravan paket instalacija.</InvalidPackageFile>
+			<LangMismatchWarning>Upozorenje!\nVi će te instalirati softver na jeziku koji je različit od jezika koji koristi LiberKey.\nDa li želite da nastavite?</LangMismatchWarning>
+			<PackageSignatureNotFound>(Ovaj paket nije potpisan)</PackageSignatureNotFound>
+			<RestartingApp>Restartovanje aplikacije...</RestartingApp>
+			<RestartingKFA>Restartovanje Key Files Assoc&apos;...</RestartingKFA>
+			<RestartingMenu>Restartovanje menija...</RestartingMenu>
+			<ReStartLBK>Restartovanje LiberKey-a...</ReStartLBK>
+			<RestoringPreviousConfig>Vraćanje prethodne konfiguracije</RestoringPreviousConfig>
+			<SavingActualVersion>Čuvanje aktuelne verzije</SavingActualVersion>
+			<SetupDataDownloadDone>Preuzimanje završeno.</SetupDataDownloadDone>
+			<SetupDone>Instalacija završena</SetupDone>
+			<UpdatingAppsMenu>Nadogradnja LiberKey menija...</UpdatingAppsMenu>
+			<UpdatingFileAssocs>Nadogradnja povezivanja fajlova...</UpdatingFileAssocs>
+			<VerifyingSetupDestination>Proveravanje odredišnog prostora</VerifyingSetupDestination>
+			<VerifyingSetupPackage>Proveravanje paketa instalacija</VerifyingSetupPackage>
+		</Messages>
+		<Report>
+			<caption>Instalacija završena.</caption>
+			<CommandButtons>
+				<Close_Caption>&amp;Zatvori</Close_Caption>
+			</CommandButtons>
+			<Labels>
+				<MenuInfo_Caption>LiberKey meni je promenjen!\n\nDa bi ste pokrenuli aplikacije koje ste upravo instalirali,\nkoristite sledeće menije vašeg LiberKey-a:</MenuInfo_Caption>
+			</Labels>
+		</Report>
+		<Contributors>
+			<Contributor name="Bojan Pavlović" email="bojan.pavlovich@yahoo.com"/>
+		</Contributors>
+	</sr-Latn-RS>
+</Languages>

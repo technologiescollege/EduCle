@@ -1,0 +1,34 @@
+<Languages version="0.2">
+	<ro-RO en_name="Romanian" icon="ro.png" date="2014-11-12">
+		<Closing>
+			<caption>Închideti aplicații din LiberKey acum</caption>
+			<CommandButtons>
+				<Cancel_Caption>&amp;Anulare</Cancel_Caption>
+				<Retry_Caption>&amp;Reîncarcă</Retry_Caption>
+				<Terminate_Caption>&amp;Fortează închiderea</Terminate_Caption>
+			</CommandButtons>
+		</Closing>
+		<Debug>
+			<caption>Informațiile despre ferestrele aplicațiilor detectate</caption>
+		</Debug>
+		<Main>
+			<CommandButtons>
+				<Close_Caption>&amp;Anulare</Close_Caption>
+				<CloseApps_Caption>&amp;Închide aplicațiile portabile</CloseApps_Caption>
+			</CommandButtons>
+		</Main>
+		<Message>
+			<KillWarning>Atenție!\n\nForțând închiderea unei aplicatii poate afecta datele.\nPrin urmare, este de preferat să închizi aplicația în mod normal.\n\nSigur doriți să forțați închiderea acestui program?</KillWarning>
+		</Message>
+		<Messages>
+			<AppsCloseCanceled>Închiderea aplicației anulată</AppsCloseCanceled>
+			<CloseFailed>Aplicația este încă în rulare.\nÎnchideți manual sau o forțati să se închidă.</CloseFailed>
+			<Closing>Închid Aplicația..</Closing>
+			<ContinueClose>Doriți să continuați închiderea restul aplicatiilor?</ContinueClose>
+			<ForceFailed>A apărut o eroare în timp încerc să forțez închiderea aplicației.</ForceFailed>
+		</Messages>
+		<Contributors>
+			<Contributor email="prisacariu_a@tahoo.com" name="Adrian"/>
+		</Contributors>
+	</ro-RO>
+</Languages>

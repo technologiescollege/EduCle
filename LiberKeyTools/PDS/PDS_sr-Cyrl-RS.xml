@@ -1,0 +1,13 @@
+<Languages version="0.2">
+	<sr-Cyrl-RS en_name="Serbian (Cyrillic)" icon="srbija.png" date="2012-09-09" name="Srpski (Ćirilica)" version="2.50">
+		<Messages>
+			<ConfirmEraseMany>Избришите %count% сачуваних пречица?</ConfirmEraseMany>
+			<ConfirmEraseOne>Избришите сачуване пречице?</ConfirmEraseOne>
+			<NoDesktopIconFound>Пречице нису пронађене на десктопу.</NoDesktopIconFound>
+			<NoQuickLaunchIconFound>Пречице нису пронађене у линији за брзо покретање.</NoQuickLaunchIconFound>
+		</Messages>
+		<Contributors>
+			<Contributor name="Bojan Pavlović" email="bojan.pavlovich@yahoo.com" website="http://sve-i-svasta.yolasite.com"/>
+		</Contributors>
+	</sr-Cyrl-RS>
+</Languages>

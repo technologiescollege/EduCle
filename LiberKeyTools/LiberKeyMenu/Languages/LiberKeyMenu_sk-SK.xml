@@ -1,0 +1,899 @@
+<Languages version="0.4">
+	<sk-SK en_name="Slovak" icon="sk.png" date="2014-11-14" name="Slovenčina" version="1.02">
+		<AppCategories>
+			<accessibility>Dostupnosť</accessibility>
+			<audio>Zvuk</audio>
+			<audio:converter>Prevodník</audio:converter>
+			<audio:editor>Úprava</audio:editor>
+			<audio:ipod_manager>Správca iPod</audio:ipod_manager>
+			<audio:player>Prehrávač</audio:player>
+			<audio:radio>Rádio</audio:radio>
+			<audio:ripper>Extraktor zvukových stôp</audio:ripper>
+			<audio:tagger>Informácie o nahrávkach</audio:tagger>
+			<audio:text_to_speech>Prevod textu na hovorené slovo</audio:text_to_speech>
+			<audio:tools>Nástroje</audio:tools>
+			<audio-video>Audio - Video</audio-video>
+			<cd-dvd>CD - DVD</cd-dvd>
+			<cd-dvd:burning_tools>Nástroje na napalovanie</cd-dvd:burning_tools>
+			<cd-dvd:cover_printer>Tlač nálepiek</cd-dvd:cover_printer>
+			<cd-dvd:image_tools>Nástroje pre tvorbu obrazu diskov</cd-dvd:image_tools>
+			<development>Vývoj</development>
+			<education>Vzdelávanie</education>
+			<education:astronomy>Astronómia</education:astronomy>
+			<education:drawing>Kreslenie</education:drawing>
+			<education:typing>Písanie na klávesnici</education:typing>
+			<file_management>Správa súborov</file_management>
+			<file_management:backup>Zálohovanie</file_management:backup>
+			<file_management:cataloger>Tvorba katalógov</file_management:cataloger>
+			<file_management:comparison>Porovnávanie</file_management:comparison>
+			<file_management:compression>Kompresia</file_management:compression>
+			<file_management:copy>Kopírovanie</file_management:copy>
+			<file_management:defragmenter>Defragmentácia</file_management:defragmenter>
+			<file_management:directory_lister>Tvorba zoznamu zložiek</file_management:directory_lister>
+			<file_management:disk_space_tool>Nástroje pre miesto na disku</file_management:disk_space_tool>
+			<file_management:duplicate_finder>Vyhľadávač duplikácií</file_management:duplicate_finder>
+			<file_management:manager>Správca</file_management:manager>
+			<file_management:recovery>Obnova</file_management:recovery>
+			<file_management:renamer>Premenovanie</file_management:renamer>
+			<file_management:search>Vyhľadávanie</file_management:search>
+			<file_management:splitter>Rozdeľovanie súborov</file_management:splitter>
+			<file_management:synchronization>Synchronizácia</file_management:synchronization>
+			<file_management:tools>Nástroje</file_management:tools>
+			<file_management:universal_viewer>Univerzálny prehliadač</file_management:universal_viewer>
+			<games>Hry</games>
+			<games:action>Akčné</games:action>
+			<games:card>Kartové</games:card>
+			<games:puzzle>Skladačky</games:puzzle>
+			<games:reflexion>Na premýšlanie</games:reflexion>
+			<games:strategy>Strategické</games:strategy>
+			<graphics-photo>Grafika - Fotografie</graphics-photo>
+			<graphics-photo:3d>3D</graphics-photo:3d>
+			<graphics-photo:color_picker>Zisťovanie kódu farby</graphics-photo:color_picker>
+			<graphics-photo:editor>Editory</graphics-photo:editor>
+			<graphics-photo:effect_and_filter>Efekty a filtre</graphics-photo:effect_and_filter>
+			<graphics-photo:icon_editor>Editory ikon</graphics-photo:icon_editor>
+			<graphics-photo:screen_capture>Zachytávanie obrazovky</graphics-photo:screen_capture>
+			<graphics-photo:tools>Nástroje</graphics-photo:tools>
+			<graphics-photo:vector_converter>Prevodník bitovej mapy na vektory</graphics-photo:vector_converter>
+			<graphics-photo:viewer>Prehliadač</graphics-photo:viewer>
+			<internet>Internet</internet>
+			<internet:bookmark_manager>Správa záložiek</internet:bookmark_manager>
+			<internet:browser>Prehliadač</internet:browser>
+			<internet:download>Sťahovanie</internet:download>
+			<internet:email>Email</internet:email>
+			<internet:ftp>FTP</internet:ftp>
+			<internet:instant_messenger>Komunikátory</internet:instant_messenger>
+			<internet:rss_reader>RSS čítačky</internet:rss_reader>
+			<internet:website_authoring>Tvorba webových stránok</internet:website_authoring>
+			<internet:website_copier>Kopírovanie webových stránek</internet:website_copier>
+			<multimedia>Multimédia</multimedia>
+			<networking-server>Pripojenie do siete</networking-server>
+			<networking-server:bandwidth_monitor>Monitorovanie objemu prenesených dát</networking-server:bandwidth_monitor>
+			<networking-server:configuration>Nastavovanie</networking-server:configuration>
+			<networking-server:network_analyzer>Sieťový analyzátor</networking-server:network_analyzer>
+			<networking-server:remote_control>Diaľková správa</networking-server:remote_control>
+			<networking-server:scanner>Skener</networking-server:scanner>
+			<networking-server:server>Server</networking-server:server>
+			<networking-server:settings_manager>Správa nastavenia</networking-server:settings_manager>
+			<networking-server:telnet-ssh_client>Klient Telnet-SSH</networking-server:telnet-ssh_client>
+			<networking-server:tools>Nástroje</networking-server:tools>
+			<office>Kancelária</office>
+			<office:calculator>Kalkulačka</office:calculator>
+			<office:calendar>Kalendár</office:calendar>
+			<office:chrono>Hodiny</office:chrono>
+			<office:desktop_tools>Desktopové nástroje</office:desktop_tools>
+			<office:desktop_tools:application_launcher>Spúšťač aplikácií</office:desktop_tools:application_launcher>
+			<office:desktop_tools:automation>Automatizácia</office:desktop_tools:automation>
+			<office:desktop_tools:clipboard_manager>Správca schránky</office:desktop_tools:clipboard_manager>
+			<office:desktop_tools:clock>Hodiny</office:desktop_tools:clock>
+			<office:desktop_tools:customization>Vlastné úpravy</office:desktop_tools:customization>
+			<office:desktop_tools:desktop_note>Poznámky na desktope</office:desktop_tools:desktop_note>
+			<office:desktop_tools:keyboard-mouse>Klávesnica - Myš</office:desktop_tools:keyboard-mouse>
+			<office:desktop_tools:save_desktop_icon>Ukladanie ikon monitora</office:desktop_tools:save_desktop_icon>
+			<office:desktop_tools:virtual_desktop>Virtuálny desktop</office:desktop_tools:virtual_desktop>
+			<office:desktop_tools:zoom>Zväčšenie (zoom)</office:desktop_tools:zoom>
+			<office:diagram_editor>Editor diagramov</office:diagram_editor>
+			<office:finance_manager>Správa financí</office:finance_manager>
+			<office:font_manager>Správa písma</office:font_manager>
+			<office:note_manager>Správa poznámok</office:note_manager>
+			<office:office_suite>Kancelárske sady</office:office_suite>
+			<office:pdf>PDF</office:pdf>
+			<office:presentation>Prezentácia</office:presentation>
+			<office:task_manager>Správca úloh</office:task_manager>
+			<office:text_editor>Textový editor</office:text_editor>
+			<office:tutorial_creator>Tvorba výukových aplikácií</office:tutorial_creator>
+			<office:unit_converter>Prevod jednotiek</office:unit_converter>
+			<office:universal_viewer>Univerzálny prehliadač</office:universal_viewer>
+			<security>Bezpečnosť</security>
+			<security:anti_virus-spyware>Antiviry - Protišpionážny software</security:anti_virus-spyware>
+			<security:encryption>Šifrovanie</security:encryption>
+			<security:integrity_checker>Kontrola integrity</security:integrity_checker>
+			<security:password_manager>Správa hesiel</security:password_manager>
+			<security:privacy_tool>Nástroje pre súkromie</security:privacy_tool>
+			<security:secure_deletion>Bezpečné vymazávanie</security:secure_deletion>
+			<security:tools>Nástroje</security:tools>
+			<system_utilities>Systémové pomôcky</system_utilities>
+			<system_utilities:benchmark>Výkon</system_utilities:benchmark>
+			<system_utilities:benchmark:hard_disk>Hard disk</system_utilities:benchmark:hard_disk>
+			<system_utilities:benchmark:universal>Univerzálny</system_utilities:benchmark:universal>
+			<system_utilities:cleaner-uninstaller>Čistenie - odinštalácia</system_utilities:cleaner-uninstaller>
+			<system_utilities:emulator>Emulátor</system_utilities:emulator>
+			<system_utilities:hex_editor>Hexadecimálny editor</system_utilities:hex_editor>
+			<system_utilities:information>Informácie</system_utilities:information>
+			<system_utilities:information:file_monitoring>Monitorovanie súborov</system_utilities:information:file_monitoring>
+			<system_utilities:information:hardware_monitoring>Monitorovanie hardware</system_utilities:information:hardware_monitoring>
+			<system_utilities:information:inventory>Informácie o HW</system_utilities:information:inventory>
+			<system_utilities:information:process>Procesy</system_utilities:information:process>
+			<system_utilities:information:processor>Procesor</system_utilities:information:processor>
+			<system_utilities:information:service>Služby</system_utilities:information:service>
+			<system_utilities:information:startup_manager>Správa spúšťania</system_utilities:information:startup_manager>
+			<system_utilities:information:usb_device>Zariadenie USB</system_utilities:information:usb_device>
+			<system_utilities:information:video_card>Video karta</system_utilities:information:video_card>
+			<system_utilities:registry>Registre</system_utilities:registry>
+			<system_utilities:registry:backup>Zálohovánie</system_utilities:registry:backup>
+			<system_utilities:registry:comparison>Porovnávanie</system_utilities:registry:comparison>
+			<system_utilities:registry:compression>Kompresia</system_utilities:registry:compression>
+			<system_utilities:registry:monitoring>Monitorovanie</system_utilities:registry:monitoring>
+			<system_utilities:registry:repair>Oprava</system_utilities:registry:repair>
+			<system_utilities:registry:search>Vyhľadávanie</system_utilities:registry:search>
+			<system_utilities:repair>Oprava</system_utilities:repair>
+			<system_utilities:tests>Benchmarky</system_utilities:tests>
+			<system_utilities:tests:burning_test>Test stability systému</system_utilities:tests:burning_test>
+			<system_utilities:tests:hard_disk>Hard disk</system_utilities:tests:hard_disk>
+			<system_utilities:tests:monitor>Monitor</system_utilities:tests:monitor>
+			<system_utilities:tests:ram>RAM</system_utilities:tests:ram>
+			<system_utilities:tools>Nástroje</system_utilities:tools>
+			<system_utilities:tweaker>Optimalizačné nástroje</system_utilities:tweaker>
+			<system_utilities:update_checker>Sledovánie aktualizácií</system_utilities:update_checker>
+			<video>Video</video>
+			<video:authoring>Autorizácia</video:authoring>
+			<video:capture>Zachytávanie</video:capture>
+			<video:cataloger>Tvorba katalógov</video:cataloger>
+			<video:converter>Prevodník</video:converter>
+			<video:editor>Úpravy</video:editor>
+			<video:player>Prehrávač</video:player>
+			<video:repair>Oprava</video:repair>
+			<video:tools>Nástroje</video:tools>
+		</AppCategories>
+		<AppInfo>
+			<CheckBoxs>
+				<AutoShowInfo_Caption>Ukázať túto informáciu automaticky</AutoShowInfo_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<AppGoToWebSite_ToolTip>Navštívte webovú stránku vydavateľa</AppGoToWebSite_ToolTip>
+				<AppInstall_Caption>Instalujte teraz !</AppInstall_Caption>
+				<AppOpenLicenseFile_ToolTip>Zobrazenie licencie</AppOpenLicenseFile_ToolTip>
+				<AppProperties_Caption>Vlastnosti...</AppProperties_Caption>
+				<AppRun_Caption>Spustenie</AppRun_Caption>
+				<AppUpdate_Caption>Aktualizujte teraz..</AppUpdate_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppEditorLabel_Caption>Vydavateľ:</AppEditorLabel_Caption>
+				<AppLicenseLabel_Caption>Licencia:</AppLicenseLabel_Caption>
+				<AppPlatformLabel_Caption>Platforma:</AppPlatformLabel_Caption>
+			</Labels>
+		</AppInfo>
+		<AppList>
+			<CommandButtons>
+				<AddApp_Caption>Pridať aplikácie</AddApp_Caption>
+				<AddApps_Caption>Pridať aplikácie</AddApps_Caption>
+				<AddApps_ToolTip>Kliknutím sem, pridáte na váš LiberKey aplikácie</AddApps_ToolTip>
+				<Browse_ToolTip>Otvorenie zložky aplikácie</Browse_ToolTip>
+				<Cancel_Caption>Zavrieť</Cancel_Caption>
+				<Reinstall_Caption>Preinštalovať</Reinstall_Caption>
+				<Reinstall_ToolTip>Preinštalovaím  aplikácií môžete obnoviť štandardné skratky v menu, znovuvloženie informácie o aplikáciu, a opätovné použiť dočasnej priradenie súborov pre túto aplikáciu.</Reinstall_ToolTip>
+				<Uninstall_Caption>Odinštalovanie</Uninstall_Caption>
+				<Uninstall_ToolTip>Pre odinštalovanie tejto aplikácie z vášho LiberKey kliknite sem. Všetko týkajúce sa tejto aplikácie bude vymazané: Menu, informácie, priradenie dočasných súborov, program a súvisiace dáta.</Uninstall_ToolTip>
+			</CommandButtons>
+			<Labels>
+				<AppNameLabel_Caption>Název aplikácie</AppNameLabel_Caption>
+				<FolderSizeLabel_Caption>0 kB</FolderSizeLabel_Caption>
+				<Title_Caption>Správa prenosných aplikácií</Title_Caption>
+			</Labels>
+			<Messages>
+				<Loading>Ukladanie zoznamu...</Loading>
+			</Messages>
+		</AppList>
+		<AppProperties>
+			<AutoRunMode>
+				<Never>Nikdy</Never>
+				<ShutDown>Pri vypnutí</ShutDown>
+				<ShutDownSingle>Pri vypnutí, pokiaľ už nebeží</ShutDownSingle>
+				<Startup>Vždy pri zapnutí</Startup>
+				<StartupSingle>Pri zapnutí, pokiaľ už nebeží </StartupSingle>
+			</AutoRunMode>
+			<CommandButtons>
+				<AppGoToWebSite_Caption>Navštívte webovú stránku</AppGoToWebSite_Caption>
+				<ApplyChanges_Caption>Použiť</ApplyChanges_Caption>
+				<AppOpenLicenseFile_Caption>Prezeranie licencie</AppOpenLicenseFile_Caption>
+				<AppUninstall_Caption>Pre odinštalovanie tejto aplikácie z vášho LiberKey kliknite sem</AppUninstall_Caption>
+				<AppUninstall_ToolTip>Pre odinštalovanie tejto aplikácie z vášho LiberKey kliknite sem. Všetko týkajúce sa tejto aplikácie bude vymazané: Menu, informácie, dočasnej pripojenie súboru, programu a přidružených dát.</AppUninstall_ToolTip>
+				<AppUpdate_Caption>Aktualizácia...</AppUpdate_Caption>
+				<Cancel_Caption>Zavrieť</Cancel_Caption>
+			</CommandButtons>
+			<FileSources>Typ prepojenia (linku)</FileSources>
+			<Labels>
+				<AppDescriptionLabel_Caption>Popis aplikácie:</AppDescriptionLabel_Caption>
+				<AppEditorLabel_Caption>Vydavateľ:</AppEditorLabel_Caption>
+				<AppIconLabel_Caption>Užívateľská ikona:</AppIconLabel_Caption>
+				<AppLicenseLabel_Caption>Licencia:</AppLicenseLabel_Caption>
+				<AppNameLabel_Caption>Meno:</AppNameLabel_Caption>
+				<AppParamsLabel_Caption>Parametre</AppParamsLabel_Caption>
+				<AppPathLabel_Caption>Spúšťacia cesta / zložka / webová stránka / dokument:</AppPathLabel_Caption>
+				<AppPlatformLabel_Caption>Platforma:</AppPlatformLabel_Caption>
+				<AppVersionLabel_Caption>Verzia:</AppVersionLabel_Caption>
+				<AppWorkDirLabel_Caption>Pracovný adresár:</AppWorkDirLabel_Caption>
+				<Title_Caption>Vlastnosti aplikácie</Title_Caption>
+			</Labels>
+			<Messages>
+				<BrowseForExe>Výber spustiteľného súboru aplikácie</BrowseForExe>
+				<BrowseForFileToOpen>Vyberte súbor pre otvorenie</BrowseForFileToOpen>
+				<BrowseForLicense>Vyberte licenčný súbor</BrowseForLicense>
+				<ClearLisenseFile>Vymazanie prepojenia (linku) licenčného súboru</ClearLisenseFile>
+				<ClearWebAddress>Vymazanie webového prepojenia (linku)</ClearWebAddress>
+				<SelectAppWorkDir>Výber pracovního adresára aplikácie</SelectAppWorkDir>
+				<SetLicenseAddr>Zadajte internetovú adresu licenčného súboru </SetLicenseAddr>
+				<SetWebSiteAddr>Zadajte internetovú adresu vydavateľa</SetWebSiteAddr>
+			</Messages>
+			<Tabs>
+				<Application>Aplikácia</Application>
+				<AppMore>Pokročilé</AppMore>
+			</Tabs>
+			<WindowStartMode>
+				<Maximized>Maximalizované okná</Maximized>
+				<Minimized>Minimalizované okná</Minimized>
+				<Normal>Normálne okná</Normal>
+			</WindowStartMode>
+		</AppProperties>
+		<CategoryProps>
+			<CheckBoxs>
+				<EditLiberKeyCategory_Caption>Premenujte túto kategóriu LiberKey</EditLiberKeyCategory_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Apply_Caption>OK</Apply_Caption>
+				<Cancel_Caption>Zrušiť</Cancel_Caption>
+			</CommandButtons>
+			<Labels>
+				<CategoryHotKey_Caption>Klávesové skratky (plávajúce menu)</CategoryHotKey_Caption>
+				<CatIconLabel_Caption>Ikona kategória:</CatIconLabel_Caption>
+				<CatNameLabel_Caption>Název kategória:</CatNameLabel_Caption>
+				<Title_Caption>Vlastnosti kategória</Title_Caption>
+			</Labels>
+		</CategoryProps>
+		<Config>
+			<About>
+				<Version>verzia %ver%</Version>
+			</About>
+			<CheckBoxs>
+				<AppHotKeysMemoPopup_Caption>Pred spustením nejakej aplikácie zobraz pripomienku</AppHotKeysMemoPopup_Caption>
+				<AutoCloseApps_Caption>Pri ukončení menu, ukončí prenosnej aplikácie </AutoCloseApps_Caption>
+				<AutoCollapseOnHide_Caption>Pri skrytom menu choďte späť do koreňovej kategória </AutoCollapseOnHide_Caption>
+				<AutoHideMenuOnAppRun_Caption>Skryje menu pri štarte niektorej aplikácie</AutoHideMenuOnAppRun_Caption>
+				<AutoRemoveDrive_Caption>Pri ukončení menu odpojí odpojiteľné zariadenie </AutoRemoveDrive_Caption>
+				<AutoRunLiberKey_Caption>Štart LiberKey pri spustenie Windows </AutoRunLiberKey_Caption>
+				<AutoShowAppInfo_Caption>Zobrazenie informácií o aplikáciach</AutoShowAppInfo_Caption>
+				<ConfirmCategoryDeletion_Caption>Potvrďte vymazanie kategórie</ConfirmCategoryDeletion_Caption>
+				<ConfirmShortcutDeletion_Caption>Potvrďte vymazanie skratiek</ConfirmShortcutDeletion_Caption>
+				<CreateTempSendToShortcut_Caption>Prechodné skratky &quot;Poslať do / moje prenosnej dokumenty&quot; </CreateTempSendToShortcut_Caption>
+				<DisableAllEffects_Caption>Zakázať všetky efekty animácie </DisableAllEffects_Caption>
+				<DisableControlsEffects_Caption>Zakázať animácie položiek rozhrania </DisableControlsEffects_Caption>
+				<DisableDialogsEffects_Caption>Zakázať animáciu dialógov</DisableDialogsEffects_Caption>
+				<DisableMenuEffects_Caption>Zakázať animáciu menu</DisableMenuEffects_Caption>
+				<DisplayClock_Caption>Zobraziť hodiny</DisplayClock_Caption>
+				<DontShowEmptyDesc_Caption>S výnimkou, keď je popis prázdný</DontShowEmptyDesc_Caption>
+				<EnableAppHotKeys_Caption>Povoliť klavesové skratky pre spustenie aplikácií</EnableAppHotKeys_Caption>
+				<EnableAppsAutoStart_Caption>Aktivovať automatické spustenie</EnableAppsAutoStart_Caption>
+				<HideClockSeconds_Caption>Skryť sekundy</HideClockSeconds_Caption>
+				<HotKeyFloatMenu_Caption>Plávajúce menu :</HotKeyFloatMenu_Caption>
+				<HotKeyMain_Caption>Hlavné menu :</HotKeyMain_Caption>
+				<SingleClicAppRun_Caption>Spustenie aplikácií jednoduchým kliknutím</SingleClicAppRun_Caption>
+				<SingleClicCategoryExpand_Caption>Otvorenie kategorií jednoduchým kliknutím</SingleClicCategoryExpand_Caption>
+				<ToolsAutoOpenLiberKeyNews_Caption>Automatické otvorenie okna noviniek </ToolsAutoOpenLiberKeyNews_Caption>
+				<ToolsCheckAppUpdates_Caption>Kontrola aktualizácií prenosných aplikácií</ToolsCheckAppUpdates_Caption>
+				<ToolsCheckLBKUpdates_Caption>Kontrola aktualizácií platformy LiberKey</ToolsCheckLBKUpdates_Caption>
+				<ToolsCheckLiberKeyNews_Caption>Kontrola noviniek LibeKey</ToolsCheckLiberKeyNews_Caption>
+				<ToolsDoOnlineChecks_Caption>Povolenie automatickej kontroly</ToolsDoOnlineChecks_Caption>
+				<ToolsQuitKFA_Caption>Vyradiť priradenie súborov pri ukončení menu </ToolsQuitKFA_Caption>
+				<ToolsQuitPDS_Caption>Odstránenie prenosných skratiek pri ukončení menu</ToolsQuitPDS_Caption>
+				<ToolsStartKFA_Caption>Povolenie priradenia súborov pri štarte menu</ToolsStartKFA_Caption>
+				<ToolsStartPDS_Caption>Pridanie prenosných skratiek pri štarte menu</ToolsStartPDS_Caption>
+				<UseProxy_Caption>Pre pripojenie k internetu prechádzať cez proxy server</UseProxy_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<ApplyChanges_Caption>Použiť</ApplyChanges_Caption>
+				<AutoRunDown_ToolTip>Posun dole</AutoRunDown_ToolTip>
+				<AutoRunLocate_ToolTip>Nájdenie menu skratiek</AutoRunLocate_ToolTip>
+				<AutoRunProperties_ToolTip>Úprava vlastností skratiek</AutoRunProperties_ToolTip>
+				<AutoRunRemove_ToolTip>Zrušenie automatického spustenia tejto skratky</AutoRunRemove_ToolTip>
+				<AutoRunUp_ToolTip>Posun hore</AutoRunUp_ToolTip>
+				<Cancel_Caption>Zavrieť</Cancel_Caption>
+				<CopyTechnicalInfo_Caption>Kopírovať zoznam do schránky</CopyTechnicalInfo_Caption>
+				<CreateAccount_Caption>Kliknite sem pre vyvtovrenie účtu zdarma ! </CreateAccount_Caption>
+				<SendTechnicalInfo_Caption>Odoslať</SendTechnicalInfo_Caption>
+			</CommandButtons>
+			<Labels>
+				<Animations_Caption>Animácia</Animations_Caption>
+				<AppHotKeysMemoPopupDuration_Caption>Zobrazenie doby pripomenutia:</AppHotKeysMemoPopupDuration_Caption>
+				<AppSetupInfo_Caption>Nasledujúce voľby definujú správanie inštalátora Liber Key.</AppSetupInfo_Caption>
+				<AppUpdateInfo_Caption>Nasledujúce voľby umožňujú vybrať správanie systému aktualizácie software vášho LiberKey.</AppUpdateInfo_Caption>
+				<AutoCheckOptions_Caption>Automatické kontroly</AutoCheckOptions_Caption>
+				<AutoRunDelay_Caption>Doba pred automatickým vykonaním (sekundy):</AutoRunDelay_Caption>
+				<AutoRunEachDelay_Caption>Doba medzi každým spustením (sekundy):</AutoRunEachDelay_Caption>
+				<AutorunInfo_Caption>Správa aplikácií beží pri spustenie a zaviera menu LiberKey : </AutorunInfo_Caption>
+				<ColorsInfo_Caption>Základné farby menu a okien</ColorsInfo_Caption>
+				<Confirmations_Caption>Potvrdenie</Confirmations_Caption>
+				<CreateAccountLabel_Caption>Zatiaľ neregistrovaný ?</CreateAccountLabel_Caption>
+				<CustomBrightnessLabel_Caption>Jas</CustomBrightnessLabel_Caption>
+				<CustomColorInfo_Caption>Užívateľská zmena farby</CustomColorInfo_Caption>
+				<CustomHueRotationLabel_Caption>Zafarbenie</CustomHueRotationLabel_Caption>
+				<CustomSaturationLabel_Caption>Sýtosť</CustomSaturationLabel_Caption>
+				<DefaultEffectSet>Východzie efekty</DefaultEffectSet>
+				<EffectSetLabel_Caption>Nastavenie efektov :</EffectSetLabel_Caption>
+				<FileAssocUpdatesOnlyInfo_Caption>Počas aktualizácie nieje menené priradenie súborov. Tie sú definované iba pre nové aplikácie.</FileAssocUpdatesOnlyInfo_Caption>
+				<Gadgets_Caption>Pomôcky</Gadgets_Caption>
+				<KeyboardShortcutsInfo_Caption>Klávesové skratky používané v menu LiberKey</KeyboardShortcutsInfo_Caption>
+				<KFAoptions_Caption>Priradenie súborov k přenosným aplikáciam</KFAoptions_Caption>
+				<LangAuthorEmailLabel_Caption>Email:</LangAuthorEmailLabel_Caption>
+				<LangAuthorNameLabel_Caption>Autor:</LangAuthorNameLabel_Caption>
+				<LangAuthorWebsiteLabel_Caption>Webová stránka:</LangAuthorWebsiteLabel_Caption>
+				<LangContributors_Caption>Prispievajúci</LangContributors_Caption>
+				<LangContributorsLabel_Caption>Prispievajúci :</LangContributorsLabel_Caption>
+				<LanguagesInfo_Caption>Vyber jazyk užívateľského rozhrania </LanguagesInfo_Caption>
+				<LangVersionLabel_Caption>Verzia:</LangVersionLabel_Caption>
+				<MaxRecentCount_Caption>Maximálny počet nedávno spustených:</MaxRecentCount_Caption>
+				<MaxVisibleMostUsed_Caption>Maximálny počet položiek v &quot;najviac používaných&quot;</MaxVisibleMostUsed_Caption>
+				<MenuAccess_Caption>Prístup menu iberKey</MenuAccess_Caption>
+				<MenuDelay_Caption>Spozdenie otvorenia menu :</MenuDelay_Caption>
+				<MenuDelayMS_Caption>milisekundy</MenuDelayMS_Caption>
+				<MenuIconActions_Caption>Ikona systémového riadku :</MenuIconActions_Caption>
+				<MenuKeyboardShortcuts_Caption>Klávesové skratky :</MenuKeyboardShortcuts_Caption>
+				<Misc_Caption>Rôzne</Misc_Caption>
+				<Navigation_Caption>Navigácia</Navigation_Caption>
+				<NeverUpdateFileAssocInfo_Caption>Priradenie súborov zostáva pri pridaní, alebo aktualizácii aplikácie nezmenené.</NeverUpdateFileAssocInfo_Caption>
+				<NotificationsOptions_Caption>Oznámenie</NotificationsOptions_Caption>
+				<Password_Caption>Heslo :</Password_Caption>
+				<PDSoptions_Caption>Skratky přenosného desktopu</PDSoptions_Caption>
+				<PlatformVersionInfo_Caption>Tieto technické informácie o platforme LiberKey môžu byť požadované technickou podporou (fórum). Kliknutím na &quot;Kopírovať zoznam ...&quot; ho budete schopný pripojit k vašej správe.</PlatformVersionInfo_Caption>
+				<ProxyHost_Caption>Host name alebo IP adresa :</ProxyHost_Caption>
+				<ProxyInfo_Caption>Pokiaľ chcete pristupovať k internetu cez proxy server, vyplňte pole nižšie: </ProxyInfo_Caption>
+				<ProxyPassword_Caption>Heslo :</ProxyPassword_Caption>
+				<ProxyPort_Caption>Port :</ProxyPort_Caption>
+				<ProxyUser_Caption>Meno užívateľa:</ProxyUser_Caption>
+				<QuitOptions_Caption>Automatické uzavření a odpojenie</QuitOptions_Caption>
+				<RecentAndMostUsed_Caption>História použitia aplikácie</RecentAndMostUsed_Caption>
+				<StartupWindowShowAlways_Caption>Vždy zobraziť menu</StartupWindowShowAlways_Caption>
+				<StartupWindowShowNever_Caption>Nikdy nezobrazovať menu</StartupWindowShowNever_Caption>
+				<StartupWindowShowPrevious_Caption>Zobraziť menu keď bolo viditelné pri poslednom použití</StartupWindowShowPrevious_Caption>
+				<StartupWindowStateLabel_Caption>Pri spustení :</StartupWindowStateLabel_Caption>
+				<Title_Caption>Menu liberKey - Nastavenie</Title_Caption>
+				<TrayLeftClickActionLabel_Caption>Ľavé kliknutie :</TrayLeftClickActionLabel_Caption>
+				<TrayRightClickActionLabel_Caption>Pravé kliknutie :</TrayRightClickActionLabel_Caption>
+				<UpdateAutoStartInfo_Caption>Prioritné aktualizácie sú inštalované bez zasahovanie (automatický režim)</UpdateAutoStartInfo_Caption>
+				<UpdateFileAssocInfo_Caption>Keď je pridaná alebo aktualizovaní aplikácia pomocou inštalátora, je automaticky priradená k súborom, ktoré môže editovať.</UpdateFileAssocInfo_Caption>
+				<UpdateNoUserAlertInfo_Caption>Pri spustení LiberKey sa nezobrazia správy o aktualizáciach. Budete informovaný pri spustenie niektorej aplikácie.</UpdateNoUserAlertInfo_Caption>
+				<UpdateUIAlertInfo_Caption>Môžete zobraziť zoznam dostupných aktualizácií a vybrať tie, ktoré chcete použiť.</UpdateUIAlertInfo_Caption>
+				<UserLoginInfo_Caption>Identifikácia nieje pri automatickej aktualizácii aplikácie už naďalej potreba. Pole nižšie môžu zostať prázdné.</UserLoginInfo_Caption>
+				<UserName_Caption>Meno užívateľa : </UserName_Caption>
+			</Labels>
+			<OptionButtons>
+				<optAlwaysUpdateFileAssoc_Caption>Vždy aktualizovať priradenie súborov</optAlwaysUpdateFileAssoc_Caption>
+				<optAutoRunAtStartup_Caption>Pri štarte menu</optAutoRunAtStartup_Caption>
+				<optAutoRunOnQuit_Caption>Pri ukončení menu</optAutoRunOnQuit_Caption>
+				<optMenuDelayCustom_Caption>Uživateľské</optMenuDelayCustom_Caption>
+				<optMenuDelayDefault_Caption>Východzie</optMenuDelayDefault_Caption>
+				<optNeverUpdateFileAssoc_Caption>Nikdy neaktualizovať priradenie súborov</optNeverUpdateFileAssoc_Caption>
+				<optUpdateAutoStart_Caption>Stiahnuť a nainštalovať tieto aktualizácie automaticky</optUpdateAutoStart_Caption>
+				<optUpdateFileAssocNewApps_Caption>Nastavenie priradenia nových aplikácií</optUpdateFileAssocNewApps_Caption>
+				<optUpdateNoUserAlert_Caption>Upozorni ma iba keď sa spúšťa software</optUpdateNoUserAlert_Caption>
+				<optUpdateUIAlert_Caption>Zobraz ikonu a oznamujúcu správu</optUpdateUIAlert_Caption>
+				<optUpdateUserAlert_Caption>Upozorni ma pokiaľ sú dostupné prioritné aktualizácie</optUpdateUserAlert_Caption>
+			</OptionButtons>
+			<Options>
+				<About>O aplikácii</About>
+				<Advanced>Pokročilé voľby</Advanced>
+				<AppSetup>Inštalácia aplikácií</AppSetup>
+				<Autorun>Automatické spustenie</Autorun>
+				<AutoUpdate>Aktualizácia aplikácií</AutoUpdate>
+				<Colors>Farby</Colors>
+				<Effects>Uživateľské rozhrania</Effects>
+				<Help>Nápoveda</Help>
+				<KeyboardShortcuts>Klávesové skratky</KeyboardShortcuts>
+				<Language>Jazyk</Language>
+				<LiberKeyTools>Nástroje LiberKey</LiberKeyTools>
+				<Proxy>HTTP proxy</Proxy>
+				<TechnicalInfo>Technické informácie</TechnicalInfo>
+				<User>Užívateľ</User>
+			</Options>
+		</Config>
+		<FloatingMenu>
+			<AlwaysOnTop>Vždy hore</AlwaysOnTop>
+			<AutoCollapse>Automatické zrolovanie</AutoCollapse>
+			<Close>Zavrieť</Close>
+			<FixedMode>Udržať otvorené</FixedMode>
+			<GoToParent>Prepnutie do základného menu</GoToParent>
+		</FloatingMenu>
+		<IconSelect>
+			<Labels>
+				<Title_Caption>Výber ikoniek</Title_Caption>
+			</Labels>
+		</IconSelect>
+		<Main>
+			<CommandButtons>
+				<AddApps_Caption>Inštalácia</AddApps_Caption>
+				<AddApps_ToolTip>Pridanie / vymazanie aplikácie</AddApps_ToolTip>
+				<Close_ToolTip>Skryť menu LiberKey</Close_ToolTip>
+				<CloseSearch2_Caption>Zavrieť</CloseSearch2_Caption>
+				<Config_Caption>Nástroje</Config_Caption>
+				<MyDocs_Caption>Dokumenty</MyDocs_Caption>
+				<MyMusic_Caption>Hudba</MyMusic_Caption>
+				<MyPictures_Caption>Obrázky</MyPictures_Caption>
+				<Quit_ToolTip>Ukončenie menu LiberKey</Quit_ToolTip>
+				<TabsScrollLeft_ToolTip>Posun vľavo</TabsScrollLeft_ToolTip>
+				<TabsScrollRight_ToolTip>Posun vpravo</TabsScrollRight_ToolTip>
+				<UserMenus_ToolTip>Uživateľské menu</UserMenus_ToolTip>
+				<ViewIcons_ToolTip>Veľké ikony</ViewIcons_ToolTip>
+				<ViewTree_ToolTip>Strom</ViewTree_ToolTip>
+			</CommandButtons>
+			<Labels>
+				<SearchInfoLabel_Caption>Nájdené : %count% skratiek</SearchInfoLabel_Caption>
+				<SearchInfoTitle_Caption>Hľadanie vo vašom LiberKey</SearchInfoTitle_Caption>
+			</Labels>
+			<LiberKeyTools>
+				<AddApps>Prezeranie katalógu aplikácií</AddApps>
+				<AddAppsTip>Tento sprievodca sprístupní webovú stránku www.liberkey.com a získa zoznam nových aplikácií dostupných na našich serveroch. Umožní vám ľahko zistiť v online katalógu aplikáciu, ktorá vás zaujíma.</AddAppsTip>
+				<AddPortableShortcuts>Pridať skratky prenosných aplikácií </AddPortableShortcuts>
+				<AddRemoveApps>Pridať / Odstrániť programy</AddRemoveApps>
+				<AppsClose>Zavrieť aplikácie</AppsClose>
+				<AppsCloseTip>Rutina ukočovania aplikácií LiberKey automaticky zaviera všetky aplikácie spustené na vašom LiberKey. Metódy použité pre zavieranie aplikácií sú viaceré a sú prispôsobené každému software. Ukončenie je vykonané riadne, pokiaľ bol súbor editovaný (napr. dokument), budete vyzvaný aby ste ho uložili.</AppsCloseTip>
+				<Configuration>Nastavenie</Configuration>
+				<ConfigurationTip>Nastavenie LiberKey. \nVšetky nastavenia súvisiace so vzhľadom a správaním LiberKey sú zhromaždené v tomto konfiguračnom okne.</ConfigurationTip>
+				<DisableFileAssoc>Vypnutie priradenia súborov</DisableFileAssoc>
+				<DisableFileAssocTip>Všetky súbory na počítači sú priradené k programom na vašom LiberKey. \nKliknite sem pre opätovné priradenie súborov k programom v počítači.</DisableFileAssocTip>
+				<EnableFileAssoc>Povolenie priradenia súborov</EnableFileAssoc>
+				<EnableFileAssocTip>Umožní dočasné priradenie súborov (.avi, .jpg, .doc, ...) s aplikáciami na vašom LiberKey.</EnableFileAssocTip>
+				<FileAssoc>Piradenie súborov</FileAssoc>
+				<GoToWebSite>Návšteva web stránky LiberKey </GoToWebSite>
+				<GoToWebSiteTip>Toto menu vám umožňuje ľahko prejsť na webovú stránku liberkey.com. Nájdete tam všetky druhy informácií o LiberKey, a fórum otvorené pre všetkých užívateľov.</GoToWebSiteTip>
+				<InstallAppSuite>Inštalácia niektorej sady aplikácií</InstallAppSuite>
+				<InstallAppSuiteTip>Tento sprievodca vám umožní jednoduchým postupom nainštalovať celé sady aplikácií.</InstallAppSuiteTip>
+				<LiberKeyNews>Prečítajte si novinky</LiberKeyNews>
+				<LiberKeyNewsTip>Pomocou noviniek LiberKey budete informovany.\nV novinkách budú uvedené nové aplikácie v online katalógu, alebo akékoľvek informácie týkajúce sa LiberKey.</LiberKeyNewsTip>
+				<ManageApps>Správa aplikácií</ManageApps>
+				<ManageAppsTip>Odinštaluje, nainštaluje alebo preinštaluje aplikácie. Tieto nástroje umožňujú riadiť začlenenie vašich aplikácií do menu LiberKey</ManageAppsTip>
+				<PortableShortcutsTip>Prenosné desktopové skratky umožňujú správu desktopových skratiek, ktoré sú spojené s prenosnými aplikáciami. \nUkladá taktiež polohu desktopových skratiek.</PortableShortcutsTip>
+				<RemovePortableShortcuts>Odstránenie prenosných skratiek</RemovePortableShortcuts>
+				<Title>Nástroje LiberKey</Title>
+				<UpdateCheck>Kontrola aktualizácií</UpdateCheck>
+				<UpdateCheckTip>Skontrolujte, či je k dispozícii nová verzia LiberKey, alebo aktualizácie software. \nAk áno, je možné vykonať tieto aktualizácie priamo cez LiberKey.com.</UpdateCheckTip>
+				<UsbEject>Odpojenie vášho Liberkey</UsbEject>
+				<USBEjectTip>Odpojenie USB LiberKey vám umožní odpojiť USB zariadenie (s automatickým zatvorením všetkých aplikácií). \n \nPRIPOMIENKA: Každé USB zariadenie umožní odpojenie iba vtedy, keď bol ukončený priradený software.</USBEjectTip>
+			</LiberKeyTools>
+			<Messages>
+				<About>O LiberKey...</About>
+				<BrowseForNewFolder>Vyberte zložku, ktorú bude skratka otvárať</BrowseForNewFolder>
+				<PatchDownload>Ukladanie aktualizácie...</PatchDownload>
+				<SearchResults>Hľadanie výsledkov</SearchResults>
+			</Messages>
+		</Main>
+		<Menu>
+			<LKHelp>Nápoveda LiberKey</LKHelp>
+			<LKQuickLaunch>Rýchle spustenie LiberKey</LKQuickLaunch>
+			<MostUsed>Najpoužívanejšie</MostUsed>
+			<MyApps>Moje prenosnej aplikácie</MyApps>
+			<MyDocs>Moje dokumenty</MyDocs>
+			<Recent>Nedávne</Recent>
+		</Menu>
+		<MenuProperties>
+			<CheckBoxs>
+				<EditMode_Caption>Povolenie zmien</EditMode_Caption>
+				<NotInSystrayMenu_Caption>Nezobrazovať v hlavnom plávajúcom menu</NotInSystrayMenu_Caption>
+				<ShowName_Caption>Zobraziť názov</ShowName_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Apply_Caption>OK</Apply_Caption>
+				<Cancel_Caption>Zrušiť</Cancel_Caption>
+			</CommandButtons>
+			<Labels>
+				<MenuIconLabel_Caption>Priradená ikona:</MenuIconLabel_Caption>
+				<MenuNameLabel_Caption>Názov menu:</MenuNameLabel_Caption>
+				<Title_Caption>Vlastnosti užívateľského menu</Title_Caption>
+			</Labels>
+		</MenuProperties>
+		<Menus>
+			<AppCopy_Caption>&amp;Kopírovať</AppCopy_Caption>
+			<AppCut_Caption>&amp;Vystrihnúť</AppCut_Caption>
+			<AppDelApp_Caption>&amp;Vymazať</AppDelApp_Caption>
+			<AppEditProps_Caption>&amp;Vlastnosti aplikácie ...</AppEditProps_Caption>
+			<AppGoToWebSite_Caption>&amp;Navštíviť webovú stránku</AppGoToWebSite_Caption>
+			<AppLaunch_Caption>&amp;Spustiť</AppLaunch_Caption>
+			<AppLocate_Caption>&amp;Vyhľadať kategóriu</AppLocate_Caption>
+			<AppLocation-0_Caption>(názov kategória)</AppLocation-0_Caption>
+			<AppLocations_Caption>&amp;Vyhľadať kategóriu</AppLocations_Caption>
+			<AppOpenAppFolder_Caption>&amp;Otvoriť zložku obsahujúcu</AppOpenAppFolder_Caption>
+			<AppPaste_Caption>&amp;Vložiť</AppPaste_Caption>
+			<AppRunAs_Caption>&amp;Spustiť ako...</AppRunAs_Caption>
+			<AppRunAsAdmin_Caption>&amp;Spustiť ako správca</AppRunAsAdmin_Caption>
+			<AppSetup_Caption>In&amp;štalovať túto aplikáciu</AppSetup_Caption>
+			<AppShowInfo_Caption>&amp;Informácie</AppShowInfo_Caption>
+			<AppUpdate_Caption>&amp;Aktualizácia</AppUpdate_Caption>
+			<CatAdd_Caption>Nová skratka</CatAdd_Caption>
+			<CatAddApp_Caption>Aplikácia / súbor...</CatAddApp_Caption>
+			<CatAddFolder_Caption>Zložka ...</CatAddFolder_Caption>
+			<CatAddWebPage_Caption>Webová stránka...</CatAddWebPage_Caption>
+			<CatCopy_Caption>&amp;Kopírovať</CatCopy_Caption>
+			<CatCut_Caption>&amp;Vystrihnúť</CatCut_Caption>
+			<CatDelCat_Caption>&amp;Vymazať</CatDelCat_Caption>
+			<CatEditProps_Caption>&amp;Vlastnosti ...</CatEditProps_Caption>
+			<CatListMode_Caption>Zobrazenie &amp;zoznamu</CatListMode_Caption>
+			<CatNewCat_Caption>&amp;Nová kategória</CatNewCat_Caption>
+			<CatPaste_Caption>&amp;Vložiť</CatPaste_Caption>
+			<CatShowMenu_Caption>&amp;Plávajúce menu</CatShowMenu_Caption>
+			<CatSort_Caption>&amp;Triedenie</CatSort_Caption>
+			<DoNothing_Caption>Nerobiť nič</DoNothing_Caption>
+			<FolderOpen_Caption>&amp;Otvoriť zložku</FolderOpen_Caption>
+			<InstallLKS_Caption>Inštalácia LKS sád (Nastavenie LiberKey)</InstallLKS_Caption>
+			<InstallLKS_Tip>Pre inštaláciu jedním kliknutím vyberete jeden alebo viac súborov LKS (Nastavenie LiberKey) ! </InstallLKS_Tip>
+			<InstallsFromAppsFolder_Caption>Zo zložky &quot;Apps&quot;...</InstallsFromAppsFolder_Caption>
+			<InstallsFromAppsFolder_Tip>Tento pomocník bude automaticky kontrolovať adresár &quot;Apps&quot; na vašom Liberkey na výskyt nových aplikácií.\nMôžete například  kopírovať aplikácie z iného LiberKey a s týmto pomocníkom ich uložit na svojom LiberKey.</InstallsFromAppsFolder_Tip>
+			<InstallsFromMyApps_Caption>Zo zložky &quot;MyApps&quot;...</InstallsFromMyApps_Caption>
+			<InstallsFromMyApps_Tip>Pokiaľ ste pridali prenosnú aplikáciu do zložky &quot;MyApps&quot; na vašom LiberKey, tento sprievodca sa ju pokúsi nájsť a zaregistrovať v menu.</InstallsFromMyApps_Tip>
+			<InternetOpen_Caption>&amp;Otvoriť</InternetOpen_Caption>
+			<MenusCreate_Caption>&amp;Vytvoriť nové menu</MenusCreate_Caption>
+			<MenusDelete_Caption>&amp;Vymazať aktuálne menu</MenusDelete_Caption>
+			<MenusEdit_Caption>Aktuálne menu &amp;vlastnosti</MenusEdit_Caption>
+			<MenusExport_Caption>E&amp;xport aktuálneho menu</MenusExport_Caption>
+			<MenusHideNames_Caption>&amp;Skrytie názvov </MenusHideNames_Caption>
+			<MenusImport_Caption>&amp;Import menu...</MenusImport_Caption>
+			<MenusRecent_Caption>&amp;Nedávné</MenusRecent_Caption>
+			<MenusShowNames_Caption>Zobrazenie &amp;názvov</MenusShowNames_Caption>
+			<MenusUser-0_Caption>Východzie menu</MenusUser-0_Caption>
+			<Open_Caption>&amp;Otvoriť</Open_Caption>
+			<OpenActiveFloatMenu_Caption>Otvoriť plávajúce menu</OpenActiveFloatMenu_Caption>
+			<OpenMainWindow_Caption>Otvoriť hlavné menu</OpenMainWindow_Caption>
+			<PatchCancelDownload_Caption>&amp;Zrušiť sťahovanie</PatchCancelDownload_Caption>
+			<Quit>Ukončit</Quit>
+			<RepairApps_Caption>Oprava poškodených aplikácií</RepairApps_Caption>
+			<RepairApps_Tip>Tento pomocník automaticky overuje zložku &quot;Apps&quot; vášho LiberKey, či nie sú vaše aplikácie poškodené.\nPokiaľ je nejaká aplikácia pochádzajúca z katalógu LiberKey poškodená, ponúkne sa jej reinštalácia.</RepairApps_Tip>
+			<SendToPortableDocs>Moje prenosnej dokumenty</SendToPortableDocs>
+			<SendToPortableDocsDescription>Kopírovanie vybraných súborov v zložke LiberKey &quot;MyDokuments&quot;  </SendToPortableDocsDescription>
+			<ShortcutEditProps_Caption>Vlastnosti skratiek...</ShortcutEditProps_Caption>
+			<SuiteSetup>
+				<AppList>Zoznam aplikácií</AppList>
+				<HideNewApps_Caption>Skryť nové aplikácie</HideNewApps_Caption>
+				<HideUpdates_Caption>Skryť aktualizácie aplikácií</HideUpdates_Caption>
+				<HideUpToDateApps_Caption>Skryť najaktuálnejšie aplikácie</HideUpToDateApps_Caption>
+				<SelectAll_Caption>Vybrať všetko</SelectAll_Caption>
+				<SelectNewApps_Caption>Vybrať nové aplikácie</SelectNewApps_Caption>
+				<SelectPriority_Caption>Výber prednostných aktualizácií</SelectPriority_Caption>
+				<SelectUpdates_Caption>Výber aktualizovaných aplikácií</SelectUpdates_Caption>
+				<ShowNewApps_Caption>Ukázať nové aplikácie</ShowNewApps_Caption>
+				<ShowUpdates_Caption>Ukázať aktualizácie aplikácií</ShowUpdates_Caption>
+				<ShowUpToDateApps_Caption>Ukázať najaktuálnejšie aplikácie</ShowUpToDateApps_Caption>
+				<UnselectAll_Caption>Odznačit všetko</UnselectAll_Caption>
+				<UnselectNewApps_Caption>Odznačit nové aplikácie</UnselectNewApps_Caption>
+				<UnselectPriority_Caption>Odznačenie prednostných aktualizácií</UnselectPriority_Caption>
+				<UnselectUpdates_Caption>Odznačit aktualizované aplikácie</UnselectUpdates_Caption>
+			</SuiteSetup>
+			<SynchronizeCatalog_Caption>Z online katalógu</SynchronizeCatalog_Caption>
+			<SynchronizeCatalog_Tip>Tento sprievodca sprístupní webovú stránku www.liberkey.com a získa zoznam nových aplikácií dostupných na našich serveroch. To vám umožní ľahko vyhľadať v online katalógu aplikáciu, ktorá vás zaujíma.</SynchronizeCatalog_Tip>
+			<UserMenuTabEditable_Caption>Povolenie úprav</UserMenuTabEditable_Caption>
+			<UserMenuTabFloatMenu_Caption>&amp;Plávajúce menu</UserMenuTabFloatMenu_Caption>
+			<UserMenuTabHideName_Caption>&amp;Skrytie názvu</UserMenuTabHideName_Caption>
+			<UserMenuTabProperties_Caption>&amp;Vlastnosti ...</UserMenuTabProperties_Caption>
+			<UserMenuTabShowName_Caption>&amp;Zobraziť názov</UserMenuTabShowName_Caption>
+		</Menus>
+		<Messages>
+			<AllFilesSelection>Všetky súbory|*.*</AllFilesSelection>
+			<AppInstallation>Inštalácia aplikácie %appname%...</AppInstallation>
+			<AppInstallDone>Aplikácia &apos;%appname%&quot; bola ninstalována do vášho LiberKey</AppInstallDone>
+			<AppInstalled>Inštalovaná aplikácia : %appname%</AppInstalled>
+			<AppNotFound>Táto aplikácia nieje na vašom LiberKey nainštalovaná</AppNotFound>
+			<AppNotFoundTitle>Lokalizovať aplikáciu</AppNotFoundTitle>
+			<AppRefCount>Skratka k tejto aplikácii: %count%</AppRefCount>
+			<AppRegistered>Aplikácia je teraz registrovaná vo vašom LiberKey.\nTeraz k nej môžete vytvoriť skratku</AppRegistered>
+			<AppRunningCantUninst>Aplikácia je v súčastnej dobe spustená.\n\nNieje ju ešte možné odinštalovať.\n\n</AppRunningCantUninst>
+			<AppsInstallDone>Na váš LiberKey bolo nainštalovaných %count% nových aplikácií.</AppsInstallDone>
+			<AutoImportMenu>Ešte ste nevytvorili menu pre spúšťanie vašich aplikácií.\nChcete importovať strom zo starého menu ?</AutoImportMenu>
+			<BrokenAppFoundReinstall>Táto aplikácia sa javí ako poškodená:\n%appname%\n\nChcete ju preinštalovať?\n\n\n</BrokenAppFoundReinstall>
+			<Browse>Prezeranie...</Browse>
+			<ConfirmDeleteCategory>Ste si istý, že chcete vymazať kategóriu &quot;%name%&quot; a skratky ktoré obsahuje?</ConfirmDeleteCategory>
+			<ConfirmDeleteSortcut>Ste si istý, že chcete vymazať skratku &quot;%name%&quot;?</ConfirmDeleteSortcut>
+			<ConfirmDeletion>Potvrdťe vymazanie</ConfirmDeletion>
+			<ConfirmInstallApp>Nainštalovať %app% na váš LiberKey ?</ConfirmInstallApp>
+			<ConfirmInstallMyApps>Prajete si zistiť nové aplikácie v zložke &quot;MyApps&quot; ?</ConfirmInstallMyApps>
+			<ConfirmInstallNewApps>Prajete si zistiť nové aplikácie v zložke &quot;MyApps&quot; ?</ConfirmInstallNewApps>
+			<ConfirmUninstallApp>Ste si istý že chcete vymazať  túto aplikáciu?\nTáto operácia nemôže byť zrušená</ConfirmUninstallApp>
+			<DateFormat>dd/mm/yyyy</DateFormat>
+			<DefaultIcon>Východzia ikona</DefaultIcon>
+			<DeleteMenuConfirm>Vymazať menu &quot;%menu%&quot; ?</DeleteMenuConfirm>
+			<DownloadPatchNow>Stiahnuť aktualizáciu teraz?</DownloadPatchNow>
+			<DropLKSLoadingInfos>Čakajte prosím, získávám informácie o aplikáciach ... </DropLKSLoadingInfos>
+			<DropLKSToInstall>Pre inštaláciu aplikácie vo vašom LibeKey uvolnite tlačítko myši</DropLKSToInstall>
+			<Errors>
+				<AccessDenied>Prístup odoprený</AccessDenied>
+				<AccessRightsError>K svojej funkcii vyžaduje LiberKey prístupové práva pre zápis na zariadenie, kde je umiestnený</AccessRightsError>
+				<AssocIncomplete>Neúplný, alebo vadný súbor priradenia</AssocIncomplete>
+				<CantCreateTempFolder>Nemôžem vytvoriť dočasnú zložku</CantCreateTempFolder>
+				<CantDefineHotKey>Pri nastavovaní klávesovej skratky sa vyskytla nejaká chyba &quot;%name%&quot;:\n%err%</CantDefineHotKey>
+				<CantDefineHotKeys>Pri nastavovaní klávesových skratiek sa vyskytla chyba nasledujúcich skratiek:\n%err%\n%namelist%</CantDefineHotKeys>
+				<CantStartOnRemoteDrive>Nemôžete použiť LiverKey na sieťovom disku</CantStartOnRemoteDrive>
+				<DDEBusy>Zaneprázdnené DDE </DDEBusy>
+				<DDETimeout>Opozdenie DDE</DDETimeout>
+				<DDETransacFailed>Transakcia DDE zlyhala</DDETransacFailed>
+				<DllNotFound>DLL nenájdené</DllNotFound>
+				<ErrorTitle>Chyba</ErrorTitle>
+				<ErrShare>Nastalo narušnie zdielania</ErrShare>
+				<ExeBadFormat>Vadný súbor EXE alebo chyba v obraze EXE</ExeBadFormat>
+				<ExecError>Chyba pri štarte programu</ExecError>
+				<FileNotFound>Soubor nenájdený</FileNotFound>
+				<GetUpdateInfoError>Nastala chyba pri pokuse získať informácie o aktualizácii\nError %err%: %desc%</GetUpdateInfoError>
+				<HotKeyAlreadyUsedBy>Túto kombináciu pre skratku už používate &quot;%name%&quot;!</HotKeyAlreadyUsedBy>
+				<LKInstNotFound>Inštalátor LiberKey nenájdený</LKInstNotFound>
+				<LksDownloadFailed>Pri sťahovaní inštalačnej sady nastala nejaká chyba  %app% (%lks%).\n\nError %errnum%: %errdesc%</LksDownloadFailed>
+				<LogUploadFailed>Pri odosielaní informácie nastala nejaká chyba</LogUploadFailed>
+				<NewsFeedDownloadError>Pri sťahovaní nových dát nastala nejaká chyba\n%err%</NewsFeedDownloadError>
+				<NoAssoc>Nieje priradenie pre príponu súboru</NoAssoc>
+				<OutOfMemory>Nedostatok pamäti</OutOfMemory>
+				<PathNotFound>Cesta nenájdená</PathNotFound>
+				<SkinImageNotFound>Chyba sťahovania súboru vzhľadu (skin):\n\nSúbor %file% nenájdený.</SkinImageNotFound>
+			</Errors>
+			<FileSize>
+				<Bytes>Bytov</Bytes>
+				<GB>GB</GB>
+				<KB>kB</KB>
+				<MB>MB</MB>
+			</FileSize>
+			<FreeSpace>Disk %drive% (%filesys%)\n%volumename%\nKapacita: %totalsize%\nVyužité: %usedsize%\nVolné: %freesize% (%freesizepc%)</FreeSpace>
+			<HotKeyStartAppInfo>Spúšťa sa &quot;%name%&quot;...\nPrr zrušenie kliknite sem </HotKeyStartAppInfo>
+			<IconFileSelection>Podporované súbory|*.ico;*.exe;*.dll|Fichiers icône (*.ico)|*.ico|Fichiers exécutables|*.exe;*.dll</IconFileSelection>
+			<IconSelection>
+				<AppIcons>Menu ikon</AppIcons>
+				<IconSelectTitle>Vyber súbor obsahujúcu ikonu</IconSelectTitle>
+				<IconSources>Dostupné ikony</IconSources>
+				<SkinIcons>Ikona vzhľadu (skin)</SkinIcons>
+			</IconSelection>
+			<ImportASuiteMenu>Import menu sady...</ImportASuiteMenu>
+			<ImportMenuFormatError>Tento súbor neobsahuje menu LiberKey</ImportMenuFormatError>
+			<InternetAddress>Internetová adresa...</InternetAddress>
+			<LastAppShortcutUninstall>K tejto aplikácii neexistuje v menu LiberKey iná skratka. \nChcete ju z vášho LiberKey odinštalovať?</LastAppShortcutUninstall>
+			<LinkedAppCount>Prepojené aplikácie (linky): %count%</LinkedAppCount>
+			<LogUploadDone>Boli odoslané technické informácie.\nĎakujeme vám za spoluúčast pri vývoji LiberKey!</LogUploadDone>
+			<MenuExportTitle>Export menu ako XML súbor ...</MenuExportTitle>
+			<MenuImportError>Pri kopírovaní menu vo vašom LiberKey sa vyskytla nejaká chyba!  </MenuImportError>
+			<MenuImportErrorTitle>Nieje možné importovať menu</MenuImportErrorTitle>
+			<MenuImportNotFromProfile>Nemôžete importovať menu, ktoré je už v LiberKey</MenuImportNotFromProfile>
+			<MenuImportTitle>Import menu zo súboru XML</MenuImportTitle>
+			<MultipleFilesDrop>%count% súborov...</MultipleFilesDrop>
+			<MyMenu>Moje menu</MyMenu>
+			<NewCategory>Nová kategória</NewCategory>
+			<NewMenu>Nové menu</NewMenu>
+			<NoBrokenAppFound>Nenájdená žiadna poškodená aplikácia</NoBrokenAppFound>
+			<NoLogToSend>Tento nástroj vám umožní odoslať záznam událostí pre analýzu nefunkčnosti.\n\nZáznam událostí nebol nájdený</NoLogToSend>
+			<NoNewAppInstalled>V adresáři &quot;Apps&quot; na vašom LiberKey nebola nájdená nová aplikácia</NoNewAppInstalled>
+			<NoNewMyAppInstalled>V zložke &quot;MyApps&quot; vášho LiberKey neboli zistené nové aplikácie.</NoNewMyAppInstalled>
+			<OpenWithLiberKey>Otvoriť cez LiberKey</OpenWithLiberKey>
+			<PatchAvailable>Pre váš LiberKey je dostupná aktualizácia.\n\nChcete ju teraz stiahnuť?</PatchAvailable>
+			<SearchFieldInfo>Hľadanie vo vašom LiberKey...</SearchFieldInfo>
+			<SearchingBrokenApps>Hľadám poškozené aplikácie..</SearchingBrokenApps>
+			<SearchingUninstalledApps>Hľadanie aplikácií v adresári &quot;Apps&quot; ..</SearchingUninstalledApps>
+			<SearchingUninstalledMyApps>Vyhľadávanie aplikácií v zložke &quot;MyApps&quot; ..</SearchingUninstalledMyApps>
+			<SelectFile>Vyber súbor...</SelectFile>
+			<SendLogInfo>Tento nástroj vám umožní odoslať záznam událostí pre analýzu nefunkčnosti.\n\nTechnické informácie a posledních 10 vytvorených súborov v adresári &quot;log&quot; vášho menu bude odoslaných na liberkey.com.\n\nSte si istý?\n</SendLogInfo>
+			<SetupAutoRestart>Setup %app% znovu spustí predchádzajúce nastavenie LiberKey. </SetupAutoRestart>
+			<TrayIcon>
+				<AppUpdatesAvailable>Pre vaše aplikácie sú dostupné aktualizácie.\nPre nainštalovanie kliknite sem.</AppUpdatesAvailable>
+				<AppUpdatesAvailableTitle>Aktualizácia aplikácií LibeKey</AppUpdatesAvailableTitle>
+				<LiberKeyAssocFailed>Pri pokuse a aktivácii protokolu LiberKey nastala nejaká chyba.\nNiektoré vlastnosti, ako je napríklad inštalácia z online katalógu sú zakázané.</LiberKeyAssocFailed>
+				<LiberKeyUpdateAvailable>Pre váš Liberkey je dostupná niektorá aktualizácia.\nPre nainštalovanie kliknite sem.</LiberKeyUpdateAvailable>
+				<LiberKeyUpdateAvailableTitle>Aktualizácia LiberKey</LiberKeyUpdateAvailableTitle>
+				<NewAppDetected>V zložke &quot;MyApps&quot; vášho LiberKey bola zistená jedna, alebo viac nových aplikácií.\nPre registráciu nových aplikácií vo vašom menu kliknite sem.</NewAppDetected>
+				<NewsUpdateAvailable>Novinky LiberKey\nPřečitajte si posledné novinky</NewsUpdateAvailable>
+			</TrayIcon>
+			<UpdatePlatformFirst>Najprv musíte aktualizovať váš LiberKey:\nPrajete si ho aktualizovať teraz?</UpdatePlatformFirst>
+			<XmlFileSelection>Súbory XML|*.xml|Všetky súbory|*.*</XmlFileSelection>
+		</Messages>
+		<NewAppList>
+			<CommandButtons>
+				<Cancel_Caption>Zavrieť</Cancel_Caption>
+				<InstallApp_ToolTip>Nainštalovať túto aplikáciu</InstallApp_ToolTip>
+				<InstallApps_ToolTip>Inštalácia vybraných aplikácií</InstallApps_ToolTip>
+				<OpenFolder_ToolTip>Otvoriť umiestnenie súboru</OpenFolder_ToolTip>
+				<Reload_ToolTip>Obnovenie zoznamu</Reload_ToolTip>
+				<SelectApp_ToolTip>Vybrať túto aplikáciu</SelectApp_ToolTip>
+				<UnselectApp_ToolTip>Odznačit túto aplikáciu </UnselectApp_ToolTip>
+			</CommandButtons>
+			<Labels>
+				<DestinationMenuLabel_Caption>Vytvoriť skratku v:</DestinationMenuLabel_Caption>
+				<Title_Caption>Nové aplikácie</Title_Caption>
+			</Labels>
+			<Messages>
+				<SelectExecutable>Vyberte program, který chcete pridať do menu.</SelectExecutable>
+			</Messages>
+		</NewAppList>
+		<News>
+			<CheckBoxs>
+				<HideReadNews_Caption>Skrytie už prečítaných noviniek</HideReadNews_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<CloseNews_Caption>Zavrieť</CloseNews_Caption>
+			</CommandButtons>
+			<Labels>
+				<Title_Caption>Novinky LiberKey</Title_Caption>
+			</Labels>
+			<Messages>
+				<NoNewsDescription>V novinkách teraz nieje žiadna položka.\nAk bude zverejnená novinka, budete upozornený ikonou &quot;Novinky LiberKey&quot;, ktorá sa objaví nad tlačítkom &quot;Nástroje LiberKey&quot;.\n</NoNewsDescription>
+				<NoNewsTile>Novinky LiberKey - žiadne publikácie </NoNewsTile>
+				<NoNewsUpdateDescription>V Súčastnosti je %readcount% skrytých prečítaných noviniek.\nPrr zobrazenie skrytých noviniek zrušte zaškrtnutie &quot;Skrytie už prečítaných noviniek&quot; nižšie.</NoNewsUpdateDescription>
+				<NoNewsUpdateTile>Novinky Liberkey - nie sú nové publikácie </NoNewsUpdateTile>
+			</Messages>
+		</News>
+		<OnlineCatalog>
+			<CommandButtons>
+				<Cancel_Caption>Zrušiť</Cancel_Caption>
+				<CopyURL_Caption>Kopírovať adresu do schránky</CopyURL_Caption>
+				<GoToWebsite_Caption>Spřístupnit online katalog %count%</GoToWebsite_Caption>
+				<NoSyncCatalog_Caption>Spřístupnit online katalóg bez synchronizácie s mojím LiberKey</NoSyncCatalog_Caption>
+			</CommandButtons>
+			<Labels>
+				<AccessURL_Caption>Adresa pre sprístupnenie online katalógu synchronizovaného s vašim LiberKey:</AccessURL_Caption>
+				<AddPortableAppsLabel_Caption>Pridanie prenosnej aplikácie</AddPortableAppsLabel_Caption>
+				<Privacy_Caption>Poznámka: Čísla verzií zaslané na webovú stránku sa týkajú iba aplikácií dostupných v online katalógu. Počas tejto operácie sa neprenášajú žiadne informácie o vašich osobných aplikáciach.</Privacy_Caption>
+				<Title_Caption>Prístup k online katalógu prenosných aplikácií</Title_Caption>
+			</Labels>
+		</OnlineCatalog>
+		<Search>
+			<Applications>Aplikácia</Applications>
+			<InCatalog>Online katalóg</InCatalog>
+			<InstalledApp>Nainštalované aplikácie</InstalledApp>
+			<SearchCatalog>Hľadanie v online katalógu</SearchCatalog>
+		</Search>
+		<SetupWizard>
+			<CheckBoxs>
+				<ApplyFilesAssocs_Caption>Piradenie aplikácie pre otváranie súborov, ktoré môže otvoriť (prechodne)</ApplyFilesAssocs_Caption>
+				<CreateDefaultShortcuts_Caption>Vytvoriť menu pre spustenie aplikácie</CreateDefaultShortcuts_Caption>
+				<EditAppAfterSetup_Caption>Po inštaláciu upravit vlastnosti aplikácie</EditAppAfterSetup_Caption>
+				<FillAppInformations_Caption>Vytvoriť popis aplikácie</FillAppInformations_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<CancelSetup_Caption>Neinštalujte aplikáciu &quot;MyApps&quot;</CancelSetup_Caption>
+				<CancelSetup2_Caption>Zrušiť inštaláciu</CancelSetup2_Caption>
+				<CantSetup_Caption>Zavrieť pomocníka (neschopný pokračovat)</CantSetup_Caption>
+				<DoSetup_Caption>Registruj aplikácie na mojom LiberKey</DoSetup_Caption>
+				<ForceSetup_Caption>Nainštalovať aplikáciu do &quot;MyApp&quot;</ForceSetup_Caption>
+				<OpenAppsFolder_Caption>Otvoriť zložku &quot;Apps&quot; na mojom LiberKey</OpenAppsFolder_Caption>
+				<OpenMyAppsFolder_Caption>Otvoriť zložku &quot;Apps&quot; na mojom LiberKey</OpenMyAppsFolder_Caption>
+				<UpdateApp_Caption>Vykonaj aktualizáciu tejto aplikácie</UpdateApp_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppInfoDetailsTitle_Caption>Táto aplikácia bola pôvodne nainštalovaná zo sady LKS (Nastavenie LiberKey).\nNasledujúce operácie budú vykonané automaticky:</AppInfoDetailsTitle_Caption>
+				<AppRegisterInfo_Caption>Táto aplikácia bola znovu registrovaná vo vašom LiberKey</AppRegisterInfo_Caption>
+				<DestinationMenuLabel_Caption>Vytvoriť skratky v:</DestinationMenuLabel_Caption>
+				<IntroText_Caption>Tento sprievodca je tu, aby vám pomohol pridať prenosné aplikácie na váš LiberKey. Riadte sa jeho radami ! </IntroText_Caption>
+				<LbkAppFolderInfo_Caption>Táto aplikácia sa nebude aktualizovať automaticky. \nMali by ste ju přesunúť do adresára &quot;Apps&quot; a opakovat operáciu.</LbkAppFolderInfo_Caption>
+				<LbkAppFolderMistake_Caption>Prenosné aplikácie z online katalógu www.liberkey.com musia byť umiestnené v zložke &quot;Apps&quot;</LbkAppFolderMistake_Caption>
+				<lblLbkAppInfoMissing_Caption>Informácie o tejto aplikácii neboli nájdené.\nNieje možné ju uložit do vášho LiberKey.</lblLbkAppInfoMissing_Caption>
+				<lblLbkAppInfoMissingMoveApp_Caption>Mali ste aplikáciu znovu nainštalovať z online katalógu. \nPre použitie v tomto stave ju musíte najprv presunúť do &quot;MyApp&quot;</lblLbkAppInfoMissingMoveApp_Caption>
+				<lblLbkAppInfoMissingUpdate_Caption>K správnej registrácii aplikácie vo vašom LiberKey vykonajte aktualizáciu. Pre použitie v tomto stave ju musíte najprv presunúť do &quot;MyApp&quot; </lblLbkAppInfoMissingUpdate_Caption>
+				<lblUserAppFolderInfo>Pre uloženie tejto aplikácie vo vašom LiberKey, by ste ju mali presunúť do zložky &quot;MyApp&quot; a opakovat operáciu</lblUserAppFolderInfo>
+				<lblUserAppFolderMistake_Caption>Prenosná aplikácia nieje z online katalógu www.liberkey.com a musí byť umiestnená do adresára &quot;MyApp&quot;</lblUserAppFolderMistake_Caption>
+				<NewApp_Caption>Nová prenosná aplikácia</NewApp_Caption>
+				<NewAppRegisterInfo_Caption>Táto aplikácia nieje registrovaná vo vašom LibeKey</NewAppRegisterInfo_Caption>
+				<PafInfoDetailsTitle_Caption>Táto aplikácia bola pôvodne nainštalovaná z balíčku PAF (portableapps.com™).\nBudú vykonané nasledujúce operácie:</PafInfoDetailsTitle_Caption>
+				<ReinstallApp_Caption>Preinštalovanie prenosnej aplikácie</ReinstallApp_Caption>
+				<Title_Caption>Pridanie aplikácie sprievodcom</Title_Caption>
+				<UserAppInfoDetailsTitle_Caption>Prenosné aplikácie musia byť registrované v menu LiberKey. Potom môžete v menu vytvoriť spúšťacie skratky. \nBudú vykonané nasledujúce operácie:</UserAppInfoDetailsTitle_Caption>
+				<XSoftInfoDetailsTitle_Caption>Táto aplikácia bola pôvodne nainštalovaná z balíčku X-Software (winpenpack.com™).\nBudú vykonané nasledujúce operácie:</XSoftInfoDetailsTitle_Caption>
+			</Labels>
+		</SetupWizard>
+		<ShortcutProperties>
+			<CheckBoxs>
+				<AlwaysRunAsAdmin_Caption>Vždy spúšťať ako správca</AlwaysRunAsAdmin_Caption>
+				<ShortcutHiddenInMenu_Caption>Schované v plávajúcom menu</ShortcutHiddenInMenu_Caption>
+				<ShortcutNoMostUsed_Caption>Nepridávať do často používaných</ShortcutNoMostUsed_Caption>
+				<ShortcutNoRecent_Caption>Nepridávať do nedávných</ShortcutNoRecent_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<ApplyChanges_Caption>Použiť</ApplyChanges_Caption>
+				<AppProps_Caption>Vlastnosti aplikácií</AppProps_Caption>
+				<Cancel_Caption>Zavrieť</Cancel_Caption>
+				<ShortcutAppEdit_Caption>Táto skratka smeruje na prenosnú aplikáciu</ShortcutAppEdit_Caption>
+			</CommandButtons>
+			<Labels>
+				<DescriptionLabel_Caption>Popis :</DescriptionLabel_Caption>
+				<ShortcutAutorunLabel_Caption>Automatické spustenie :</ShortcutAutorunLabel_Caption>
+				<ShortcutHotKey_Caption>Klávesová skratka :</ShortcutHotKey_Caption>
+				<ShortcutIconLabel_Caption>Ikona :</ShortcutIconLabel_Caption>
+				<ShortcutNameLabel_Caption>Název :</ShortcutNameLabel_Caption>
+				<ShortcutParamsLabel_Caption>Parametre :</ShortcutParamsLabel_Caption>
+				<ShortcutPathLabel_Caption>Spúšťacia cesta / zložka / webová stránka / dokument :</ShortcutPathLabel_Caption>
+				<ShortcutWinStateLabel_Caption>Pri spustení :</ShortcutWinStateLabel_Caption>
+				<ShortcutWorkDirLabel_Caption>Pracovný adresár</ShortcutWorkDirLabel_Caption>
+				<Title_Caption>Vlastnosti skratky</Title_Caption>
+			</Labels>
+			<Tabs>
+				<Shortcut>Skratky</Shortcut>
+				<ShortcutMore>Pokročilé</ShortcutMore>
+			</Tabs>
+		</ShortcutProperties>
+		<SuiteDownload>
+			<CommandButtons>
+				<Cancel_Caption>Zrušiť</Cancel_Caption>
+				<GetSuites_Caption>Stiahnuť zoznam dostupných sád </GetSuites_Caption>
+				<InstallSuite_Caption>Inštalovať všetky aplikácie z vybranej sady</InstallSuite_Caption>
+			</CommandButtons>
+			<DownloadedAppsCountInfo>Stiahnuté: %dldone%</DownloadedAppsCountInfo>
+			<DownloadSizeInfo>Stiahnuté: %size%</DownloadSizeInfo>
+			<InstallSizeInfo>-   Požadované miesto na disku: %size%</InstallSizeInfo>
+			<Labels>
+				<DownloadInfo_Caption>Tento sprievodca vám umožní nainštalovať plnú sadu aplikácií. \n \nPre pokračovanie kliknite na &quot;Stiahnete zoznam dostupných sád&quot;.</DownloadInfo_Caption>
+				<Title_Caption>Inštalácia sady aplikácií</Title_Caption>
+				<TitleBig_Caption>Inštalácia sady aplikácií</TitleBig_Caption>
+			</Labels>
+			<Messages>
+				<ConfirmKeepDownloads>Chcete uchovať inštalačnú sadu aplikácií pre pozdějšiu inštaláciu? </ConfirmKeepDownloads>
+				<DownladAppIcons16>Stahujem ikonky aplikácií...</DownladAppIcons16>
+				<DownloadGraphics>Stahujem loga sád aplikácií ... </DownloadGraphics>
+				<DownloadingSuitesInfo>Stahujem informácie o sadách aplikácií...</DownloadingSuitesInfo>
+				<GetSuiteInfoFailed>Pri pokuse o získanie zoznamu dostupných sád nastala nejaká chyba.\n\nChyba %errnum%: %errdesc%</GetSuiteInfoFailed>
+				<IncompleteSuiteSetup>Niektoré aplikácie zo sady neboli nainštalované správne.\nPre dokončenie inštalácie môžete znovu spustiť tohoto sprievodcu neskôr.</IncompleteSuiteSetup>
+				<PartialSuiteSetupDone>Váš výber aplikácií bol nainštalovaný.\nPre pridaníie ďaľších aplikácií môžete tohoto sprievodca znovu spustit neskôr. </PartialSuiteSetupDone>
+				<SetupDone>Sada aplikácií &quot;%name%&quot; je teraz nainštalovaná na vašom LiberKey</SetupDone>
+				<SetupError>Pri inštalácii %app% nastala nejaká chyba!</SetupError>
+			</Messages>
+			<SuiteAppCountInfo>Aplikácia:</SuiteAppCountInfo>
+			<SuiteAppsDoneInfo> -   Nové: %newapps%   -   Inštalované: %installed%</SuiteAppsDoneInfo>
+		</SuiteDownload>
+		<UninstallWizard>
+			<CheckBoxs>
+				<RemoveAppFolder_Caption>Odstránenie zložky aplikácie (program a pridružené dáta)</RemoveAppFolder_Caption>
+				<RemoveAppShortcuts_Caption>Odstránenie položky menu ukazujíce na túto aplikáciu</RemoveAppShortcuts_Caption>
+				<RemoveFilesAssocs_Caption>Odstránenie priradenia medzi touto aplikáciou a typom súborov</RemoveFilesAssocs_Caption>
+				<UnregisterAppInfo_Caption>Odregistrovanie tejto aplikácie</UnregisterAppInfo_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<CancelSetup_Caption>Zrušenie odstraňovania</CancelSetup_Caption>
+				<CancelSetup2_Caption>Zrušenie odstraňovania</CancelSetup2_Caption>
+				<ConfirmUninstall_Caption>Potvrďte odstránenie tejto aplikácie</ConfirmUninstall_Caption>
+				<DoUninstall_Caption>Odstrániť vybrané položky</DoUninstall_Caption>
+			</CommandButtons>
+			<Labels>
+				<IntroText_Caption>Tento sprievodca je tu, aby vám pomohol odtrániť vaše prenosné aplikácie z vášho LiberKey.</IntroText_Caption>
+				<PreviewInfo_Caption>Tu je zoznam operácií, ktoré budú vykonané. V niektorých prípadoch môže viesť odstranenie aplikácie k dalším stratám. Pred vykonaním tento operácie skontrolujte tento zoznam.</PreviewInfo_Caption>
+				<RemoveApp_Caption>Odstránenie prenosnej aplikácie</RemoveApp_Caption>
+				<RemoveAppInfo_Caption>Táto aplikácia bude odstránená z vášho LiberKey</RemoveAppInfo_Caption>
+				<RemoveInfoDetailsTitle_Caption>Počas odstraňovania tejto aplikácie budú vykonané nasledujúce operácie. Nezaškrtnuté voľby znamenajú, že chcete zachovať určité informácie, alebo dáta týkajúce sa aplikácie.</RemoveInfoDetailsTitle_Caption>
+				<Title_Caption>Sprievodca odstránením aplikácie</Title_Caption>
+			</Labels>
+			<PreviewTree>
+				<AppDataSize>Velikost dát : %size%</AppDataSize>
+				<DeletedAssocs>Vymazaný súbor priradenie</DeletedAssocs>
+				<DeletedData>Vymazanáé dáta aplikácií</DeletedData>
+				<DeletedShortcuts>Vymazané skratky</DeletedShortcuts>
+				<FileType>Súbory &quot;.%type%&quot;</FileType>
+				<KFANotFound>Súbory priradenia konfiguračného súboru nenájdené !</KFANotFound>
+				<KFANotUsed>Pre túto aplikáciu nieje prechodné priradenie</KFANotUsed>
+				<KfaUsedForTypeIcon>Použité pre ikonu tohto typu súboru </KfaUsedForTypeIcon>
+				<UnregisterApp>Vymazané aplikácie</UnregisterApp>
+			</PreviewTree>
+		</UninstallWizard>
+		<UpdateInfo>
+			<CommandButtons>
+				<Cancel_Caption>Zavrieť</Cancel_Caption>
+				<DownloadPatch_Caption>Aktualizuj teraz môj LiberKey!</DownloadPatch_Caption>
+				<OpenCatalog_Caption>Otvorenie katalógu prenosných aplikácií</OpenCatalog_Caption>
+				<UpdateApps_Caption>Aktualizácia mojich prenosných aplikácií</UpdateApps_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppsUpdateFound>Pre vaše prenosné aplikácie sú dostupné aktualizácie </AppsUpdateFound>
+				<AppsUpdateNotFound>Pre vaše prenosné aplikácie nie sú dostupné aktualizácie</AppsUpdateNotFound>
+				<NewAppsCount>Doplnkové aplikácie: %count%</NewAppsCount>
+				<NewAppsFound>V online katalógu sú dostupné přídavné aplikácie pre váš LiberKey</NewAppsFound>
+				<NewAppsNotFound>V online katalógu neboly nájdené přídavné aplikácie pre váš LiberKey</NewAppsNotFound>
+				<NoNewApp>Máte všetko!</NoNewApp>
+			</Labels>
+		</UpdateInfo>
+		<Contributors>
+			<Contributor name="kamilpolner"/>
+		</Contributors>
+	</sk-SK>
+</Languages>

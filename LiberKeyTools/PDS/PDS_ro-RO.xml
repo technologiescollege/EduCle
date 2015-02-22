@@ -1,0 +1,13 @@
+<Languages version="0.2">
+	<ro-RO en_name="Romanian" icon="ro.png" date="2014-11-12">
+		<Messages>
+			<ConfirmEraseMany>Ștergeți %% scurtăturile salvate?</ConfirmEraseMany>
+			<ConfirmEraseOne>Șterge comenzile rapide salvate?</ConfirmEraseOne>
+			<NoDesktopIconFound>Nu sa găsit pictograma rapidă de pe desktop.</NoDesktopIconFound>
+			<NoQuickLaunchIconFound>Nici o pictogramă nu a fost găsită în bara de lansare rapidă.</NoQuickLaunchIconFound>
+		</Messages>
+		<Contributors>
+			<Contributor name="Adrian" email="prisacariu_a@tahoo.com"/>
+		</Contributors>
+	</ro-RO>
+</Languages>

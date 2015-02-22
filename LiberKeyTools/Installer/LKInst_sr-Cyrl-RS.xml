@@ -1,0 +1,88 @@
+<Languages version="0.2">
+	<sr-Cyrl-RS en_name="Serbian (Cyrillic)" icon="srbija.png" date="2012-09-07" name="Srpski (Ćirilica)" version="2.50">
+		<Main>
+			<CommandButtons>
+				<Cancel_Caption>&amp;Откажи</Cancel_Caption>
+				<CancelOperation_Caption>&amp;Откажи</CancelOperation_Caption>
+				<Install_Caption>Инсталирај апликације на мој ЛиберКеy</Install_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppDescription_Caption>Опис:</AppDescription_Caption>
+				<AppName_Caption>Апликације:</AppName_Caption>
+				<AppVersion_Caption>Верзија:</AppVersion_Caption>
+				<AppWebSite_Caption>Сајт:</AppWebSite_Caption>
+				<EditorEmail_Caption>Емаил:</EditorEmail_Caption>
+				<EditorName_Caption>Уредник:</EditorName_Caption>
+				<EditorWebSite_Caption>Сајт:</EditorWebSite_Caption>
+				<PackageInfo_Caption>Информације о пакету:</PackageInfo_Caption>
+				<PackageLangs_Caption>Доступни језици за инсталирање:</PackageLangs_Caption>
+				<Signature_Caption>Пакет је предложио/ла:</Signature_Caption>
+				<SupportURL_Caption>Подршка:</SupportURL_Caption>
+				<ValidationFailed_Caption>Упозорење: Овај пакет није валидан! </ValidationFailed_Caption>
+			</Labels>
+			<Tabs>
+				<Application>Апликације</Application>
+				<Editor>Уредник</Editor>
+				<Package>Информације пакета</Package>
+			</Tabs>
+		</Main>
+		<Messages>
+			<AlreadyInstalled>Програм је већ инсталиран на вашем ЛиберКеy-у. \nДа ли хоћете да инсталирате поново?</AlreadyInstalled>
+			<AppStillRunning>Апликација и даље ради.</AppStillRunning>
+			<ClosingApplication>Затварање апликације...</ClosingApplication>
+			<ClosingASuite>Затварање пакета...</ClosingASuite>
+			<ClosingKFA>Затварање Key Files Assoc&apos;...</ClosingKFA>
+			<DeletingBackup>Брисање резервне копије</DeletingBackup>
+			<DeletingObsoleteFiles>Брисање застарелих фајлова</DeletingObsoleteFiles>
+			<DowngradeWarning>Пажња!\n\nНовија верзија програма је већ инсталирана на вашем ЛиберКеy-у.\n\nИнсталирана верзија: %current_version%\nВерзија која се инсталира: %setup_version%\n\nДа ли хоћете да инсталирате старију верзију?</DowngradeWarning>
+			<DownloadingSetupData>Скидање фајлова за инсталацију...\n%DONE%</DownloadingSetupData>
+			<Errors>
+				<AppDataNotFound>Подаци апликације нису пронађени</AppDataNotFound>
+				<AppsDirNotFound>Одредишни фолдер није пронађен</AppsDirNotFound>
+				<ASuiteCloseFailed>Нисмо успели да затворимо пакет.</ASuiteCloseFailed>
+				<DataFileModified>Инсталацион пакет је оштећен.\nПакет података је мењан\n\n%name%</DataFileModified>
+				<ErrRenameAppDir>Догодила се грешка приликом покушаја да се преименује апликациони фолдер.\nПроверите да апликација није покренута и да отворени фајлови се не налазе у фолдеру апликације.</ErrRenameAppDir>
+				<ExtractErrorRestoreDone>Екстракција података није успела.\nВраћена је претходна верзија.</ExtractErrorRestoreDone>
+				<ExtractErrorRestoreNotDone>Екстракција апликације није успела.\nПретходна верзија је сачувана и резервном директоријуму.</ExtractErrorRestoreNotDone>
+				<IncompleteSetup>Неки фајлови нису могли бити надограђени!\nНова верзија ових фајлова се налази у следећем директоријуму:\n\n%failedfolder%</IncompleteSetup>
+				<InstallError>Догодила се грешка током инсталације ове апликације.</InstallError>
+				<InstallerUpdateNeeded>Инсталациони пакет је новији од инсталационог чаробњака.\nКористите најновију верзију чаробњака за инсталације да инсталирате.</InstallerUpdateNeeded>
+				<InstErrorTitle>Грешка током инсталације</InstErrorTitle>
+				<OldPackageVersion>Овај инсталциони пакет није подржан од стране чаробњака за инсталације.\nИнсталација не може бити настављена.</OldPackageVersion>
+				<PackageValidationFailed>Упозорење, овај пакет није валидан.</PackageValidationFailed>
+				<SetupDataDownloadCanceled>Преузимање отказано</SetupDataDownloadCanceled>
+				<SetupDataDownloadError>Грешка приликом скидања података инсталације</SetupDataDownloadError>
+			</Errors>
+			<ExtractingAppFiles>Екстрактовање апликационих фајлова</ExtractingAppFiles>
+			<InstalledLangMismatchWarning>Упозорење!\nОвај софтвер је већ инсталиран на вашем ЛиберКеy-у на другом језику.\n\nПретходно инсталирање је било на: &quot;%prevlang%&quot;\nОво инсталирање је на: &quot;%newlang%&quot;\n\nДа ли желите да наставите?</InstalledLangMismatchWarning>
+			<Installing>Инсталирање...</Installing>
+			<InvalidPackageFile>Неисправан пакет инсталација.</InvalidPackageFile>
+			<LangMismatchWarning>Упозорење!\nВи ће те инсталирати софтвер на језику који је различит од језика који користи ЛиберКеy.\nДа ли желите да наставите?</LangMismatchWarning>
+			<PackageSignatureNotFound>(Овај пакет није потписан)</PackageSignatureNotFound>
+			<RestartingApp>Рестартовање апликације...</RestartingApp>
+			<RestartingKFA>Рестартовање Key Files Assoc&apos;...</RestartingKFA>
+			<RestartingMenu>Рестартовање менија...</RestartingMenu>
+			<ReStartLBK>Рестартовање ЛиберКеy-а...</ReStartLBK>
+			<RestoringPreviousConfig>Враћање претходне конфигурације</RestoringPreviousConfig>
+			<SavingActualVersion>Чување актуелне верзије</SavingActualVersion>
+			<SetupDataDownloadDone>Скидање завршено.</SetupDataDownloadDone>
+			<SetupDone>Инсталација завршена</SetupDone>
+			<UpdatingAppsMenu>Надогтрадња ЛиберКеy менија...</UpdatingAppsMenu>
+			<UpdatingFileAssocs>Надоградња повезивања фајлова...</UpdatingFileAssocs>
+			<VerifyingSetupDestination>Проверавање одредишног простора</VerifyingSetupDestination>
+			<VerifyingSetupPackage>Проверавање пакета инсталација</VerifyingSetupPackage>
+		</Messages>
+		<Report>
+			<caption>Инсталација завршена.</caption>
+			<CommandButtons>
+				<Close_Caption>&amp;Затвори</Close_Caption>
+			</CommandButtons>
+			<Labels>
+				<MenuInfo_Caption>ЛиберКеy мени је промењен!\n\nДа би сте покренули апликације које сте управо инсталирали,\nкористите следеће меније вашег ЛиберКеy-а:</MenuInfo_Caption>
+			</Labels>
+		</Report>
+		<Contributors>
+			<Contributor name="Bojan Pavlović" email="bojan.pavlovich@yahoo.com" website="http://sve-i-svasta.yolasite.com"/>
+		</Contributors>
+	</sr-Cyrl-RS>
+</Languages>

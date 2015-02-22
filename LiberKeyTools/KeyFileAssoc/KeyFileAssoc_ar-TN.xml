@@ -1,5 +1,41 @@
 <Languages version="0.2">
-	<ar-TN en_name="Arabic" icon="tn.png" date="2011-04-08" version="0.1" name="العربية">
+	<ar-TN en_name="Arabic" icon="tn.png" date="2012-09-24" version="1" name="العربية">
+		<FileAssoc>
+			<caption>أنواع الملفات المقترنة بالتطبيقات المحمولة</caption>
+			<CommandButtons>
+				<Add_caption>&amp;جديد</Add_caption>
+				<Advanced_caption>خيارات متقدمة</Advanced_caption>
+				<Apply_caption>طبق</Apply_caption>
+				<Cancel_caption>إلغاء</Cancel_caption>
+				<Delete_caption>&amp;حذف</Delete_caption>
+				<OK_caption>موافق</OK_caption>
+				<SelectApp_caption>...تعديل</SelectApp_caption>
+			</CommandButtons>
+			<Labels>
+				<AssocListTitle_caption>أنواع الملفات المسجلة:</AssocListTitle_caption>
+				<ExtInfo>الملفات من نوع &apos;%1&apos; هم من نوع &apos;%2&apos; . لتغيير التطبيق المقترن مع هذا النوع من الملفات؛ انقر فوق خيارات متقدمة.</ExtInfo>
+				<ExtInfoNoExt>.&quot;لتغيير الإعدادات التي تنطبق على جميع العناصر من نوع &apos;٪ 1&apos;، انقر فوق &quot;خيارات متقدمة</ExtInfoNoExt>
+				<FrameCaption_caption>&apos;%1&apos; تفاصيل تتعلق بالتمديد</FrameCaption_caption>
+				<FrameCaptionNoExt_caption>&apos;%1&apos; تفاصيل عن العنصر من نوع </FrameCaptionNoExt_caption>
+				<OpenWithInfo_caption>يفتح ب:</OpenWithInfo_caption>
+			</Labels>
+			<Messages>
+				<AppExeNotFound>خطأ في استرداد مسار التطبيق المحدد</AppExeNotFound>
+				<DeleteConfirm>.إذا قمت بحذف تمديد الملف المحفوظ ، لا يمكنك فتح الملفات مع هذا التمديد عن طريق النقر المزدوج على رموزها\n\nهل تريد حقا حذف  امتداد هذا الملف؟</DeleteConfirm>
+				<DeleteConfirmTitle>أنواع الملفات</DeleteConfirmTitle>
+				<ExtExists>&apos;%1&apos; هذا التمديد مرتبط بالملفات من نوع</ExtExists>
+				<ExtExistsTitle>أنواع الملفات</ExtExistsTitle>
+			</Messages>
+		</FileAssoc>
+		<Messages>
+			<ApplyDone>التطبيقات المحمولة مرتبطة الآن مع الملفات</ApplyDone>
+			<ApplyDoneTitle>ارتباطات التطبيقات المحمولة</ApplyDoneTitle>
+			<ApplyError>حدث خطأ أثناء محاولة تمكين الإرتباطات للتطبيقات المحمولة.</ApplyError>
+			<ApplyErrorTitle>خطاء في ارتباط الملف</ApplyErrorTitle>
+			<RestoreDone>تم استرجاع ارتباط الملفات</RestoreDone>
+			<RestoreDoneTitle>تم استرجاع الارتباطات</RestoreDoneTitle>
+			<RestoreError>لا يمكن استعادة امتدادات الملفات.\nحدث خطأ أثناء استعادة ملف الارتباطات.</RestoreError>
+		</Messages>
 		<Contributors>
 			<Contributor name="Trabelsi Youssef" email="djoe.coool@gmail.com"/>
 		</Contributors>

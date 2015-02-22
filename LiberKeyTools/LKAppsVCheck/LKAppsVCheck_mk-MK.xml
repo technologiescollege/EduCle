@@ -1,0 +1,72 @@
+<Languages version="0.2">
+	<mk-MK en_name="Macedonian" icon="mk.png" date="2012-07-12" name="Македонски">
+		<Info>
+			<UpdateIgnore>(оневозможено)</UpdateIgnore>
+			<UpdateLowPriority>(низок приоритет)</UpdateLowPriority>
+		</Info>
+		<Main>
+			<CheckBoxs>
+				<Silent_Caption>Инсталација на апликациите без интервенции од корисникот (автоматски начин)</Silent_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Cancel_Caption>Откажи</Cancel_Caption>
+				<Download_Caption>Инсталирај ги означените апликации</Download_Caption>
+				<HideWindow_Caption>&amp;Сокриј го прозорецот за време на преземањето</HideWindow_Caption>
+			</CommandButtons>
+			<Labels>
+				<bytes>бајти</bytes>
+				<DownloadSize_Caption>Големина на преземањето:</DownloadSize_Caption>
+				<Gb>ГБ</Gb>
+				<Info_Caption>Достапни ажурирања:</Info_Caption>
+				<InstalledSize_Caption>Потребен простор на дискот:</InstalledSize_Caption>
+				<InstallTitle_Caption>Инсталирање апликации</InstallTitle_Caption>
+				<Kb>КБ</Kb>
+				<Mb>МБ</Mb>
+				<RemoveHiddenUpdates_Caption>Отстрани оневозможени ажурирања (%count%)</RemoveHiddenUpdates_Caption>
+				<SelectAll_Caption>Селектирај се</SelectAll_Caption>
+				<SelectHighPriority_Caption>Избери приоритетни ажурирања</SelectHighPriority_Caption>
+				<SelectNone_Caption>Отселектирај се</SelectNone_Caption>
+				<ShowHiddenUpdates_Caption>Покажи сокриени ажурирања (%count%)</ShowHiddenUpdates_Caption>
+				<Version_Caption>Верзија:</Version_Caption>
+			</Labels>
+		</Main>
+		<Messages>
+			<AppAlreadyInstalled>%appname% %appversion% веќе е инсталирана на вашиот LiberKey.\n\nДали да се реинсталира апликацијата?</AppAlreadyInstalled>
+			<AppsDownloadDone>Преземањето во датотечната архива е завршено.\n=&gt; %down\n\nДали да започне инсталирањето на ажурирањата сега?</AppsDownloadDone>
+			<AppUpdateObsolete>Поновата верзија на %appname% веќе е инсталирана на вашиот LiberKey.\n\nИнсталирана верзија: %appversion%\nВерзија која ќе се инсталира: %newversion%\n\nДали да се инсталира старата верзија?</AppUpdateObsolete>
+			<ConfirmCancel>Вие преземате ажурирања.\nДали да се откаже преземањето и ажурирањето?</ConfirmCancel>
+			<DiskSpace>Потребен простор на дискот: %needed% достапно: %avail%)</DiskSpace>
+			<DownloadDone>Ажурирањата се преземени успешно.\nLiberKey менито ќе се затвори додека се ажурираат апликациите. </DownloadDone>
+			<DownloadingTip>Преземање ажурирања...\nКликнете овде за повеќе детали.</DownloadingTip>
+			<DownloadingTipTitle>Ажурирање на LiberKey апликации</DownloadingTipTitle>
+			<Errors>
+				<403>Изгледа вашиот прокси сервер го запре LiberKey од поврзување на интернет.\nВе молиме проверете ја вашата конфигурација на прокси.</403>
+				<404>%appname% %appversion%\n\nДатотеката не беше пронајдена на серверот!\nВе молиме обидете се повторно подоцна.</404>
+				<DepositFolderError>Неможе да се зачува податокот во складишниот директориум.\n%path%\n\nДали сакате да ги преземете пакетите кои недостасуваат во складишниот директориум?</DepositFolderError>
+				<DownloadError>Се случи грешка за време на  преземањето.\nДали да се обидете повторно?</DownloadError>
+				<InvalidPwd>Користевте погрешна лозинка.\n\nВе молиме користете правилна лозинка.</InvalidPwd>
+				<InvalidUser>Корисникот не е пронајден во LiberKey базата на податоци.\n\nВе молиме обидете се повторно.</InvalidUser>
+				<Login>Се случи грешка за време на LiberKey логирањето.\nВе молиме обидете се повторно подоцна.</Login>
+				<Password>Користевте погрешно корисничко име или лозинка.</Password>
+			</Errors>
+			<HideThisUpdate>Не го покажувај оваа ажурирање</HideThisUpdate>
+			<HideUpdateInfo>Оневозможените ажурирања ќе се покажат повторно со кликнување на „Покажи сокриени ажурирања“.</HideUpdateInfo>
+			<HighPriority>Приоритетно</HighPriority>
+			<HighPriorityInfo>Ви препорачуваме да го прифатите оваа ажурирање.\nСодржи неколку важни поправки, кои можат да влијаат на безбедноста.</HighPriorityInfo>
+			<HighPriorityInfoTitle>Приоритетно ажурирање</HighPriorityInfoTitle>
+			<HttpError>Се случи грешка при обидот за враќање на информации за достапни LiberKey ажурирања.\nДали имате пристап до интернет на овој компјутер?</HttpError>
+			<InformationTitle>Информација</InformationTitle>
+			<KeepTempFiles>Дали да се зачуват преземените апликации за покасно користење?</KeepTempFiles>
+			<LowPriority>Изборно</LowPriority>
+			<LowPriorityInfo>Оваа ажурирање е препорачливо ако редовно го користите софтверот.\nМоже да ви донесе нови можности.</LowPriorityInfo>
+			<LowPriorityInfoTitle>Изборно ажурирање</LowPriorityInfoTitle>
+			<TempSpaceNeeded>Достапниот простор за преземање на привремените инсталациони датотеки е премал.\n\nВашиот избор бара %downloadsize% слободен простор на %drive% (моментално на %drive% е достапно само %avail%).</TempSpaceNeeded>
+			<UpdateDone>Ажурирањата на апликациите се завршени.</UpdateDone>
+			<UpdatesAvailable>Достапни се ажурирања за вашите апликации.\nКликнете овде за да ги инсталирате.</UpdatesAvailable>
+			<UpToDate>Вашите LiberKey апликации се ажурирани.</UpToDate>
+		</Messages>
+		<Contributors>
+			<Contributor name="mite71" email="mite71@live.com"/>
+		</Contributors>
+	</mk-MK>
+</Languages>

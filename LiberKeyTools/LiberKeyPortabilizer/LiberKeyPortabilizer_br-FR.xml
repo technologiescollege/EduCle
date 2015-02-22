@@ -1,0 +1,94 @@
+<Languages version="0.2">
+	<br-FR en_name="Breton" icon="fr.png" date="2012-09-11" name="Brezhoneg" version="1.0">
+		<Cmds>
+			<Info>Titouroù...</Info>
+			<OK>Mat eo</OK>
+		</Cmds>
+		<CrashRestore>
+			<CommandButtons>
+				<Restore_Caption>Dresañ pep tra bremañ</Restore_Caption>
+			</CommandButtons>
+			<Labels>
+				<Info_Caption>O vont en-dro e oa an arloadoù-mañ.\nN&apos;eo ket bet posubl saveteiñ o c&apos;hefluniadur el Liberkey. N&apos;eo ket bet adsavet ivez Il n&apos;a pas été possible de sauver leur configuration dans la LiberKey, et la configuration de votre ordinateur n&apos;a pas pu être restaurée.</Info_Caption>
+				<Title_Caption>LiberKey Portabilizer a zo bet paouezet trumm ar wech diwezhañ.</Title_Caption>
+			</Labels>
+		</CrashRestore>
+		<License>
+			<caption>Aotre %appname%</caption>
+			<CheckBoxs>
+				<Accept_Caption>Asañtiñ a ran an amplegadoù implijout, ha doujañ a rin anezho.</Accept_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Accept_Caption>Asañtiñ</Accept_Caption>
+				<Cancel_Caption>Nullañ</Cancel_Caption>
+				<OK_Caption>Mat eo</OK_Caption>
+			</CommandButtons>
+			<Labels>
+				<AccetInformation_Caption>DIWALLIT : En ur diuzañ al log dindan, hag en ur glikañ war ar bouton &quot;Asañtiñ&quot;, e vez asañtet ganeoc&apos;h termenoù an aotre ha doujet e vo ganeoc&apos;h. Klikit war ar bir traoñ evit diskwel peurrest an aotre.</AccetInformation_Caption>
+				<License_Caption>Aotre</License_Caption>
+				<LicenseAgreeTitle_Caption>Bez e rañkit asañtiñ termenoù an aotre-mañ a-raok implijout %appname%</LicenseAgreeTitle_Caption>
+				<LicenseTitle_Caption>An aotre-mañ a dermen an amplegadoù implijout eus %appname%. Lennit pizh a-raok kenderc&apos;hel ganti.</LicenseTitle_Caption>
+			</Labels>
+		</License>
+		<Main>
+			<CommandButtons>
+				<OK_Caption>&amp;Mat eo</OK_Caption>
+			</CommandButtons>
+			<Labels>
+				<PortabilizerInfo_Caption>Arloadoù kemeret e karg evit poent :</PortabilizerInfo_Caption>
+			</Labels>
+		</Main>
+		<Messages>
+			<AppAlreadyRunning>%appname% o vont en-dro dija.\nSerrit ar stumm all a-raok implij hemañ.</AppAlreadyRunning>
+			<DefaultTitle>%appname% LiberKey Portable Edition</DefaultTitle>
+			<Errors>
+				<AppInfoFileNotFound>Dibosubl eo kavout ar restr titouroù evit an arload hezoug.</AppInfoFileNotFound>
+				<ApplyContextError>Stad an traoù a vir ouzh Liberkey seveniñ an arload hezoug.\n\nSerrit ar prenestroù digor, ha lañsit en-dro an arload.</ApplyContextError>
+				<CrashInfo>O vont en-dro e oa an arloadoù-mañ\nN&apos;eo ket bet posupl saveteiñ o c&apos;hefluniadur, ha n&apos;eo ket bet adsavet kefluniadur eus ho urzhiataer.</CrashInfo>
+				<CrashRestore>Ehanet eo bet Liberkey Portabilizer pa oa o vont en-dro.</CrashRestore>
+				<CrashRestoreElevatedApps>N&apos;eo ket bet adsavet kefluniadurioù an arloadoù peogwir int bet lañset pa ne oac&apos;h ket merour. \nBez e rankit bezañ merour evit en ober.\nAdsevel an arloadoù bremañ ?</CrashRestoreElevatedApps>
+				<DependencyMissing>Bez e rankit staliañ %depend% evit lañsañ ar programm-mañ.</DependencyMissing>
+				<ExeNotFound>Ar restr erounezadus a zo digavus !</ExeNotFound>
+				<InvalidRetoreData>Aet eo da vrein ar roadennoù dresañ evit %appname%\nDibosupl eo adsevel kefluniadurioù ar restr-mañ.</InvalidRetoreData>
+				<NeedLbkUpdate>Un hizivadenn eus LiberKey Portabilizer  a zo ret evit implijout an arload-mañ.\nGwirit hizivadennoù al LiberKey.\nBez e c&apos;hellit implijout %app% pa vo hizivaet.</NeedLbkUpdate>
+				<NeedUpdate>Un hizivadenn eus LiberKey Portabilizer  a zo ret evit implijout an arload-mañ.\nBez e c&apos;hellit e bellgargañ digoust amañ da heul : www.liberkey.com\n\nMont war www.liberkey.com bremañ ?</NeedUpdate>
+				<SingleUserApp>Lañset eo bet dija an arload &quot;%app_name%&quot; gant un implijer all.\n\nImplijer : &quot;%user%&quot;\nDalc&apos;h : &quot;%session%&quot;\n\nDibosupl da zaou implijer lañsañ anezhañ asambles.</SingleUserApp>
+			</Errors>
+			<LbkPortabilizerInfo>Ar programm-mañ a zo keflusker &quot;hezougañ&quot; ret evit arloadoù al Liberkey.\n\n\nEvit gouzout hiroc&apos;h kit war\nwww.liberkey.com</LbkPortabilizerInfo>
+			<No>Ket</No>
+			<OtherInstanceStarted>Diwallit ! \n\nO paouez lañsañ %appname% pa oa e stumm hezoug o vont en-dro.\nSerrit ho programm !</OtherInstanceStarted>
+			<RestoreNeedLBK>Diwallit !\n\nUn arload d&apos;an neubeutañ a zo digavus.\n\n - &quot;Dilezel&quot;: Ne vo graet netra evit poent.\n\n - &quot;Ne vern&quot;: Kefluniadur ho urzhiataer a vo adsavet, met posubl eo deoc&apos;h koll titouroù ho kefluniadur evit an arloadoù hezoug\n\n - &quot;Kregiñ en-dro&quot;: Ma oa ho meziantoù hezoug war un alc&apos;hwez USB, lugit en-dro anezhi ha klikit war &quot;Kregiñ en-dro.</RestoreNeedLBK>
+			<SessionEndWarning>O vont en-dro emañ c&apos;hoazh arloadoù.\nGwelloc&apos;h e vefe deoc&apos;h serriñ an holl arloadoù digor c&apos;hoazh a-raok serriñ windows.</SessionEndWarning>
+			<Yes>Ya</Yes>
+		</Messages>
+		<UpdateAvailable>
+			<caption>Bez ez eus hizivadennoù</caption>
+			<CheckBoxs>
+				<NoMoreAlert_Caption>Arabat diskouez din an hizivadenn-mañ ken</NoMoreAlert_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Cancel_Caption>Loc&apos;hañ ar programm hep ober an hizivadenn</Cancel_Caption>
+				<Install_Caption>&amp;Pellgargañ ha staliañ an hizivadenn</Install_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppUpdateAvailable_Caption>Bez ez eus ur stumm nevez eus ar programm-mañ evit ho Liberkey</AppUpdateAvailable_Caption>
+				<Version_Caption>Stumm %version%</Version_Caption>
+			</Labels>
+		</UpdateAvailable>
+		<Warning>
+			<CommandButtons>
+				<Info_Caption>Titouroù...</Info_Caption>
+				<OK_Caption>&amp;Mat eo</OK_Caption>
+			</CommandButtons>
+			<Status>
+				<UserAdmin>Merour :</UserAdmin>
+				<UserElevated>Elevated :</UserElevated>
+				<UserName>Implijer :</UserName>
+				<UserSession>Dalc&apos;h :</UserSession>
+			</Status>
+		</Warning>
+		<Contributors>
+			<Contributor name="Diloar" email="diloar@no-log.org"/>
+		</Contributors>
+	</br-FR>
+</Languages>

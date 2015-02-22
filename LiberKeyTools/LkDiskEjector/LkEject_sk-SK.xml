@@ -1,0 +1,14 @@
+<Languages version="0.2">
+	<sk-SK en_name="Slovak" icon="sk.png" date="2011-06-18" name="Slovenčina">
+		<Message>
+			<AppStillRunning>Stále sú spustené bežiace aplikácie.\n\nOdpojenie USB zrušené.</AppStillRunning>
+		</Message>
+		<Messages>
+			<Intro>Odpojenie USB LiberKey zavrie všetky aplikácie na USB zariadení!</Intro>
+			<Errors>
+				<LkAppsCloseRunError>Chyba v operácii programu ukončujúceho aplikácie</LkAppsCloseRunError>
+				<LkDiskEjectorRunError>Chyba v operácii programu pre vysunutie USB zariadenia</LkDiskEjectorRunError>
+			</Errors>
+		</Messages>
+	</sk-SK>
+</Languages>

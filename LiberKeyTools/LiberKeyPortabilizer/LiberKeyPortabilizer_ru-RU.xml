@@ -1,36 +1,9 @@
 <Languages version="0.2">
-	<ru-RU name="Русский" en_name="Russian" date="2011-02-03" version="0.2" icon="ru.png">
-		<Messages>
-			<AppAlreadyRunning>%appname% уже запущен. Пожалуйста, закройте текущую версию, прежде чем запускать эту!</AppAlreadyRunning>
-			<DefaultTitle>%appname% LiberKey Portable Edition</DefaultTitle>
-			<OtherInstanceStarted>Внимание!\n\nВы только что запустили %appname% в то время как работает не портативная версия . \nПожалуйста, закройте, не портативную версию!</OtherInstanceStarted>
-			<Errors>
-				<AppInfoFileNotFound>Файл информации портативного приложения отсутствует!</AppInfoFileNotFound>
-				<ExeNotFound>Исполняемый не найден!</ExeNotFound>
-				<ApplyContextError>Невозможно подготовить исполняемый контекст для портативного приложения.\n\nПожалуйста, закройте все открытые окна и запустите портативное приложение заново.</ApplyContextError>
-				<DependencyMissing>Для работы этой программы требуется предварительнная установка %depend%</DependencyMissing>
-				<InvalidRetoreData>Данные для востановления %appname% повреждены!\nНе невозможно восстановить конфигурацию для этого приложения.\n</InvalidRetoreData>
-				<CrashRestore>При последнем запуске LiberKey Portabilizer был завершен не корректно.</CrashRestore>
-				<CrashInfo>Следующие приложения работали.\nЭто было не возможно, чтобы спасти свою конфигурацию в LiberKey и конфигурация компьютера не могут быть восстановлена.\n</CrashInfo>
-				<NeedUpdate>LiberKey Portabilizer должен быть обновлен для запуска этого приложения.\nВы можете скачать его бесплатно с www.liberkey.com\n\nВы хотите пойти на www.liberkey.com сейчас?\n</NeedUpdate>
-				<NeedLbkUpdate>Ваша LiberKey должна быть обновлена для запуска этого приложения.\n\nНачало проверки обновлений LiberKey.\nВы можете использовать %app% после применения последнего патча.\n</NeedLbkUpdate>
-				<CrashRestoreElevatedApps>Запуск приложеня от имени администратора и конфигурация не могут быть восстановлены. Для этого LiberKey Portabilizer должна быть запущен от имени администратора. Хотите восстановить эти приложения сейчас?\n</CrashRestoreElevatedApps>
-				<SingleUserApp>Приложение &quot;%app_name%&quot; было запущено другим пользователем\n\nПользователь: &quot;%user%&quot;\nСессия: &quot;%session%&quot;\n\nЭто не может работать одновременно для нескольких пользователей.\n\n\n\n.</SingleUserApp>
-			</Errors>
-			<LbkPortabilizerInfo>Эта программа на движке &quot;portabilization&quot; и требует его наличие в LiberKey.\n\n\nЗа дополнительной информацией, пожалуйста, посетите\nwww.liberkey.com\n\n</LbkPortabilizerInfo>
-			<RestoreNeedLBK>Внимание!\n\nОдно или несколько приложений не было найдено.\n\n- &quot;Прервать&quot;: Операция не будет выполняться.\n\n- &quot;Игнорировать&quot;: конфигурация вашего компьютера будет восстановлена, но вы можете потерять  информацию о конфигурации портативных приложений\n\n- &quot;Повторить&quot;: Если ваше портативное приложение на диске USB, подключите его и нажмите на кнопку &quot;Повторить&quot;\n</RestoreNeedLBK>
-			<SessionEndWarning>Портативные приложения по-прежнему работают.\nДля обеспечения сохранения их параметров и восстановление конфигурации компьютера, лучше закрыть эти приложения перед закрытием Windows.\n</SessionEndWarning>
-			<Yes>Да</Yes>
-			<No>Нет</No>
-		</Messages>
-		<Main>
-			<CommandButtons>
-				<OK_Caption>&amp;OK</OK_Caption>
-			</CommandButtons>
-			<Labels>
-				<PortabilizerInfo_Caption>Текущие запущенные приложения</PortabilizerInfo_Caption>
-			</Labels>
-		</Main>
+	<ru-RU name="Русский" en_name="Russian" date="2013-02-01" version="0.2" icon="ru.png">
+		<Cmds>
+			<Info>Информация...</Info>
+			<OK>OK</OK>
+		</Cmds>
 		<CrashRestore>
 			<CommandButtons>
 				<Restore_Caption>Восстановить все сейчас</Restore_Caption>
@@ -40,22 +13,54 @@
 				<Title_Caption>При последнем запуске выполнение LiberKey Portabilizer было прервано.</Title_Caption>
 			</Labels>
 		</CrashRestore>
-		<Warning>
+		<License>
+			<caption>%appname% лицензия</caption>
+			<CheckBoxs>
+				<Accept_Caption>Я принимаю и согласен с условиями лицензионного соглашения</Accept_Caption>
+			</CheckBoxs>
 			<CommandButtons>
-				<Info_Caption>Информация ...</Info_Caption>
+				<Accept_Caption>Принять</Accept_Caption>
+				<Cancel_Caption>Отмена</Cancel_Caption>
+				<OK_Caption>OK</OK_Caption>
+			</CommandButtons>
+			<Labels>
+				<AccetInformation_Caption>ВАЖНО: Установив галочку ниже и нажав кнопку Принять, вы принимаете условия лицензионного соглашения и согласны соблюдать их.</AccetInformation_Caption>
+				<License_Caption>Лицензия</License_Caption>
+				<LicenseAgreeTitle_Caption>Вы должны принять условия лицензионного соглашения, перед использованием %appname%</LicenseAgreeTitle_Caption>
+				<LicenseTitle_Caption>Эта лицензия определяет условия использования %appname%. Прочтите, прежде чем продолжить.</LicenseTitle_Caption>
+			</Labels>
+		</License>
+		<Main>
+			<CommandButtons>
 				<OK_Caption>&amp;OK</OK_Caption>
 			</CommandButtons>
-			<Status>
-				<UserName>Пользователь:</UserName>
-				<UserAdmin>Администратор:</UserAdmin>
-				<UserElevated>Продвинутый:</UserElevated>
-				<UserSession>Сессия:</UserSession>
-			</Status>
-		</Warning>
-		<Cmds>
-			<OK>OK</OK>
-			<Info>Информация...</Info>
-		</Cmds>
+			<Labels>
+				<PortabilizerInfo_Caption>Текущие запущенные приложения</PortabilizerInfo_Caption>
+			</Labels>
+		</Main>
+		<Messages>
+			<AppAlreadyRunning>%appname% уже запущен. Пожалуйста, закройте текущую версию, прежде чем запускать эту!</AppAlreadyRunning>
+			<DefaultTitle>%appname% LiberKey Portable Edition</DefaultTitle>
+			<Errors>
+				<AppInfoFileNotFound>Файл информации портативного приложения отсутствует!</AppInfoFileNotFound>
+				<ApplyContextError>Невозможно подготовить исполняемый контекст для портативного приложения.\n\nПожалуйста, закройте все открытые окна и запустите портативное приложение заново.</ApplyContextError>
+				<CrashInfo>Некоторые приложения работали.\nБыло не возможно сохранить конфигурацию LiberKey и конфигурация компьютера не может быть восстановлена.\n</CrashInfo>
+				<CrashRestore>При последнем запуске LiberKey Portabilizer был завершен не корректно.</CrashRestore>
+				<CrashRestoreElevatedApps>Запуск приложеня от имени администратора и конфигурация не могут быть восстановлены. Для этого LiberKey Portabilizer должна быть запущен от имени администратора. Хотите восстановить эти приложения сейчас?\n</CrashRestoreElevatedApps>
+				<DependencyMissing>Для работы этой программы требуется предварительнная установка %depend%</DependencyMissing>
+				<ExeNotFound>Исполняемый файл не найден!</ExeNotFound>
+				<InvalidRetoreData>Данные для востановления %appname% повреждены!\nНе невозможно восстановить конфигурацию для этого приложения.\n</InvalidRetoreData>
+				<NeedLbkUpdate>Ваша LiberKey должна быть обновлена для запуска этого приложения.\n\nНачало проверки обновлений LiberKey.\nВы можете использовать %app% после применения последнего патча.\n</NeedLbkUpdate>
+				<NeedUpdate>LiberKey Portabilizer должен быть обновлен для запуска этого приложения.\nВы можете скачать его бесплатно с www.liberkey.com\n\nХотите перейти на www.liberkey.com сейчас?\n</NeedUpdate>
+				<SingleUserApp>Приложение &quot;%app_name%&quot; было запущено другим пользователем\n\nПользователь: &quot;%user%&quot;\nСессия: &quot;%session%&quot;\n\nЭто не может работать одновременно для нескольких пользователей.\n\n\n\n.</SingleUserApp>
+			</Errors>
+			<LbkPortabilizerInfo>Эта программа на движке &quot;portabilization&quot; и требует его наличие в LiberKey.\n\n\nЗа дополнительной информацией, пожалуйста, посетите\nwww.liberkey.com\n\n</LbkPortabilizerInfo>
+			<No>Нет</No>
+			<OtherInstanceStarted>Внимание!\n\nВы только что запустили %appname% в то время как работает не портативная версия. \nПожалуйста, закройте, не портативную версию!</OtherInstanceStarted>
+			<RestoreNeedLBK>Внимание!\n\nОдно или несколько приложений не было найдено.\n\n- &quot;Прервать&quot;: Операция не будет выполняться.\n\n- &quot;Игнорировать&quot;: конфигурация вашего компьютера будет восстановлена, но вы можете потерять  информацию о конфигурации портативных приложений\n\n- &quot;Повторить&quot;: Если ваше портативное приложение на диске USB, подключите его и нажмите на кнопку &quot;Повторить&quot;\n</RestoreNeedLBK>
+			<SessionEndWarning>Портативные приложения по-прежнему работают.\nДля сохранения их параметров и восстановления конфигурации компьютера, лучше закрыть эти приложения перед закрытием Windows.\n</SessionEndWarning>
+			<Yes>Да</Yes>
+		</Messages>
 		<UpdateAvailable>
 			<caption>Доступно обновление</caption>
 			<CheckBoxs>
@@ -66,27 +71,22 @@
 				<Install_Caption>&amp;Скачать и установить обновление ...</Install_Caption>
 			</CommandButtons>
 			<Labels>
-				<Version_Caption>Версия %version%</Version_Caption>
 				<AppUpdateAvailable_Caption>Доступна новая версия этой программы для вашего LiberKey</AppUpdateAvailable_Caption>
+				<Version_Caption>Версия %version%</Version_Caption>
 			</Labels>
 		</UpdateAvailable>
-		<License>
-			<caption>%appname% лицензия</caption>
-			<Labels>
-				<LicenseTitle_Caption>Эта лицензия определяет условия использования %appname%. Спасибо, если вы прочитали, прежде чем продолжить.</LicenseTitle_Caption>
-				<LicenseAgreeTitle_Caption>Вы должны принять условия лицензионного соглашения, перед использованием %appname%</LicenseAgreeTitle_Caption>
-				<License_Caption>Лицензия</License_Caption>
-				<AccetInformation_Caption>ВАЖНО: Установив галочку ниже и нажав кнопку Принять, вы принимаете условия лицензионного соглашения и согласны соблюдать их.</AccetInformation_Caption>
-			</Labels>
+		<Warning>
 			<CommandButtons>
-				<Accept_Caption>Принять</Accept_Caption>
-				<Cancel_Caption>Отмена</Cancel_Caption>
-				<OK_Caption>OK</OK_Caption>
+				<Info_Caption>Информация ...</Info_Caption>
+				<OK_Caption>&amp;OK</OK_Caption>
 			</CommandButtons>
-			<CheckBoxs>
-				<Accept_Caption>Я принимаю и согласен условиями лицензионного соглашения</Accept_Caption>
-			</CheckBoxs>
-		</License>
+			<Status>
+				<UserAdmin>Администратор:</UserAdmin>
+				<UserElevated>Продвинутый:</UserElevated>
+				<UserName>Пользователь:</UserName>
+				<UserSession>Сессия:</UserSession>
+			</Status>
+		</Warning>
 		<Contributors>
 			<Contributor name="mrBG" email="bg31688@mail.ru"/>
 			<Contributor name="Talyan" email="astrezh@list.ru"/>

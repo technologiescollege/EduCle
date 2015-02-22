@@ -1,0 +1,88 @@
+<Languages version="0.2">
+	<mk-MK en_name="Macedonian" icon="mk.png" date="2012-07-12" name="Македонски">
+		<Main>
+			<CommandButtons>
+				<Cancel_Caption>&amp;Откажи</Cancel_Caption>
+				<CancelOperation_Caption>&amp;Откажи</CancelOperation_Caption>
+				<Install_Caption>Инсталирај ја апликацијата во LiberKey</Install_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppDescription_Caption>Опис:</AppDescription_Caption>
+				<AppName_Caption>Апликација:</AppName_Caption>
+				<AppVersion_Caption>Верзија:</AppVersion_Caption>
+				<AppWebSite_Caption>Веб страница:</AppWebSite_Caption>
+				<EditorEmail_Caption>Е-пошта:</EditorEmail_Caption>
+				<EditorName_Caption>Уредувач:</EditorName_Caption>
+				<EditorWebSite_Caption>Веб страница:</EditorWebSite_Caption>
+				<PackageInfo_Caption>Информации за пакетот:</PackageInfo_Caption>
+				<PackageLangs_Caption>Поставување на достапните јазици:</PackageLangs_Caption>
+				<Signature_Caption>Предложен пакет од:</Signature_Caption>
+				<SupportURL_Caption>Поддршка:</SupportURL_Caption>
+				<ValidationFailed_Caption>Предупредување: Овој пакет не е важечки!</ValidationFailed_Caption>
+			</Labels>
+			<Tabs>
+				<Application>Апликација</Application>
+				<Editor>Уредувач</Editor>
+				<Package>Информација за пакетот</Package>
+			</Tabs>
+		</Main>
+		<Messages>
+			<AlreadyInstalled>Оваа програма веќе е инсталирана во вашиот LibrKey.\nДали сакате да се инсталира повторно?</AlreadyInstalled>
+			<AppStillRunning>Апликацијата сеуште работи.</AppStillRunning>
+			<ClosingApplication>Затварање на апликацијата...</ClosingApplication>
+			<ClosingASuite>Затварање на пакетот...</ClosingASuite>
+			<ClosingKFA>Затварање на Key Files Assoc&apos;...</ClosingKFA>
+			<DeletingBackup>Бришење на резервната копија</DeletingBackup>
+			<DeletingObsoleteFiles>Отстранување на застарените датотеки</DeletingObsoleteFiles>
+			<DowngradeWarning>Внимание!\n\nПоновата верзија од ова програма веќе е инсталирана во вашиот LiberKey.\n\nВерзија која е инсталирана: %current_version%\nВерзија која ќе се инсталира: %setup_version%\n\nДали да се инсталира постарата верзија?</DowngradeWarning>
+			<DownloadingSetupData>Преземање на датотеките за подесување...\n%DONE%</DownloadingSetupData>
+			<Errors>
+				<AppDataNotFound>Податокот за апликацијата не е најден.</AppDataNotFound>
+				<AppsDirNotFound>Целната папка не е најдена</AppsDirNotFound>
+				<ASuiteCloseFailed>Неможе да се затвори пакетот.</ASuiteCloseFailed>
+				<DataFileModified>Инсталациониот пакет е оштетен.\nПодатоците за пакетот беа изменети.\n\n%name%</DataFileModified>
+				<ErrRenameAppDir>Се случи грешка при обидот да се преименува апликационата папка.\nПроверете дали апликацијата не работи и да не се отворени датотеки во примената папка.</ErrRenameAppDir>
+				<ExtractErrorRestoreDone>Извлекувањето на податоците не успеа.\nБеше вратена претходната верзија.</ExtractErrorRestoreDone>
+				<ExtractErrorRestoreNotDone>Извлекување на апликацијата не успеа.\nПретходната верзија беше зачувана во директориумот со резервна копија.</ExtractErrorRestoreNotDone>
+				<IncompleteSetup>Некои датотеки не можеше да се обноват!\nНовите верзии на овие датотеки се зачувани во следниов директориум:\n\n%failedfolder%</IncompleteSetup>
+				<InstallError>Се случи грешка за врема на инсталирањето на апликацијата.</InstallError>
+				<InstallerUpdateNeeded>Овој инсталационен пакет е понов од инсталациониот волшебник.\nКористете ја најновата верзија на инсталациониот волшебник за инсталирање.</InstallerUpdateNeeded>
+				<InstErrorTitle>Грешка за време на инсталирањето</InstErrorTitle>
+				<OldPackageVersion>Овој инсталационен пакет повеќе не е поддржан од волшебникот за инсталација.\nОваа инсталација неможе да продолжи.</OldPackageVersion>
+				<PackageValidationFailed>Предупредување. Овој пакет не беше важечки.</PackageValidationFailed>
+				<SetupDataDownloadCanceled>Преземањето е откажано</SetupDataDownloadCanceled>
+				<SetupDataDownloadError>Грешка при преземањето на податоци за подесувањето.</SetupDataDownloadError>
+			</Errors>
+			<ExtractingAppFiles>Извлекување на апликационите датотеки</ExtractingAppFiles>
+			<InstalledLangMismatchWarning>Предупредување!\nОвој софтвер е веќе инсталиран во вашиот LiberKey на друг јазик.\n\nПретходното подесување беше направено на: &quot;% prevlang%&quot;\nОва подесување ќе биде направено на: &quot;% newlang%&quot;\n\nДали сакате да продолжите?</InstalledLangMismatchWarning>
+			<Installing>Инсталирање..</Installing>
+			<InvalidPackageFile>Неважечки инсталационен пакет.</InvalidPackageFile>
+			<LangMismatchWarning>Предупредување!\nБарате да се инсталира софтвер на јазик кој е различен од јазикот кој се користи за вашиот LiberKey.\nДали сакате да продолжите?</LangMismatchWarning>
+			<PackageSignatureNotFound>(Овој пакет не е потпишан)</PackageSignatureNotFound>
+			<RestartingApp>Рестартирање на апликацијата...</RestartingApp>
+			<RestartingKFA>Рестартирање на Key Files Assoc&apos;...</RestartingKFA>
+			<RestartingMenu>Менито се рестартира...</RestartingMenu>
+			<ReStartLBK>Рестартирање на LiberKey...</ReStartLBK>
+			<RestoringPreviousConfig>Обновување на претходната конфигурација</RestoringPreviousConfig>
+			<SavingActualVersion>Зачувување на актуелната верзија</SavingActualVersion>
+			<SetupDataDownloadDone>Преземањето е завршено.</SetupDataDownloadDone>
+			<SetupDone>Инсталацијата е завршена</SetupDone>
+			<UpdatingAppsMenu>Ажурирање на менито на LiberKey...</UpdatingAppsMenu>
+			<UpdatingFileAssocs>Ажурирање на поврзувањето на датотеки...</UpdatingFileAssocs>
+			<VerifyingSetupDestination>Проверување на целниот простор</VerifyingSetupDestination>
+			<VerifyingSetupPackage>Проверување на инсталациониот пакет</VerifyingSetupPackage>
+		</Messages>
+		<Report>
+			<caption>Инсталацијата е завршена.</caption>
+			<CommandButtons>
+				<Close_Caption>&amp;Затвори</Close_Caption>
+			</CommandButtons>
+			<Labels>
+				<MenuInfo_Caption>Менито на LiberKey беше сменето!\n\nДа ја стартувате апликацијата,\nкористите го следното мени на вашиот LiberKey:</MenuInfo_Caption>
+			</Labels>
+		</Report>
+		<Contributors>
+			<Contributor name="mite71" email="mite71@live.com"/>
+		</Contributors>
+	</mk-MK>
+</Languages>

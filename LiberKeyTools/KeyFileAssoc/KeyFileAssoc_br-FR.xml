@@ -1,0 +1,270 @@
+<Languages version="0.2">
+	<br-FR en_name="Breton" icon="fr.png" date="2012-09-11" name="Brezhoneg" version="1.0">
+		<About>
+			<caption>A-zivout</caption>
+			<CommandButtons>
+				<History_caption>Roll istor ar stummoù</History_caption>
+				<OK_caption>Serriñ</OK_caption>
+				<Update_caption>Gwiriañ an hizivadennoù</Update_caption>
+			</CommandButtons>
+			<Labels>
+				<LiberKeyExclu_caption>Implijet eo ar programm-mañ gant al Liberkey nemetken</LiberKeyExclu_caption>
+				<LiberKeyPartner_caption>Kaset eo bet da benn ar meziant-mañ gant liberkey.com</LiberKeyPartner_caption>
+			</Labels>
+		</About>
+		<AddAction>
+			<caption>Ober nevez</caption>
+			<CommandButtons>
+				<Browse_caption>Furchal...</Browse_caption>
+				<Cancel_caption>Nullañ</Cancel_caption>
+				<OK_caption>Mat eo</OK_caption>
+			</CommandButtons>
+			<EditCaption>Kemmoù an ober evit ar seurt %typedesc%</EditCaption>
+			<Labels>
+				<Action_caption>Ober :</Action_caption>
+				<ActionAppPath_caption>Arload implijet evit kas da benn anezhi</ActionAppPath_caption>
+				<ActionArgs_caption>Arguzenn al linenn urzhiañ :</ActionArgs_caption>
+			</Labels>
+			<Messages>
+				<ActionIsEmpty>Spisaat un dra d&apos;ober.</ActionIsEmpty>
+				<ActionIsEmptyTitle>Seurt restroù</ActionIsEmptyTitle>
+				<AppNotFound>Digavus eo ar programm. Gwiriañ anv ar restr hag ivez an hent moned.</AppNotFound>
+				<AppNotFoundTitle>Ouzhpennañ un oberiadenn</AppNotFoundTitle>
+			</Messages>
+		</AddAction>
+		<AppSelect>
+			<caption>Diuziñ an arload kevredet</caption>
+			<CommandButtons>
+				<Cancel_caption>Nullañ</Cancel_caption>
+				<OK_caption>Mat eo</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<Loading_caption>Karget vez ar meziantoù prest...</Loading_caption>
+			</Labels>
+		</AppSelect>
+		<AppWarning>
+			<caption>Key Files Assoc&apos; - riskloù da gaout un tabut gant un arload all</caption>
+			<CommandButtons>
+				<OK_caption>Mat eo</OK_caption>
+				<RemoveAssocs_caption>Diweredekaat ar c&apos;hevrediñ diouzhtu</RemoveAssocs_caption>
+			</CommandButtons>
+			<Labels>
+				<Message_caption>KEY Files Assoc&apos; en deus dinoet un arload a gasfe trubuilh. Goulennet e vez groñs diweredekaat ar c&apos;hevrediñ restroù padennek a-raok kemmañ bon marilh Windows.</Message_caption>
+				<Title_caption>Diwallit !</Title_caption>
+			</Labels>
+		</AppWarning>
+		<AssocAdvance>
+			<caption>Kemmañ ar seurt restr</caption>
+			<CheckBoxs>
+				<ReplaceWinEntry_caption>Kemmañ an oberioù raktermenet evit seurt restroù</ReplaceWinEntry_caption>
+				<WinEdit_caption>Asañtiñ ar c&apos;hemmoù e-barzh &quot;Dibarzhioù ar restroù&quot;</WinEdit_caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Add_caption>&amp;Nevez</Add_caption>
+				<Cancel_caption>Nullañ</Cancel_caption>
+				<ChangeIcon_caption>Kemmañ an arlun...</ChangeIcon_caption>
+				<Default_caption>Dre ziouer</Default_caption>
+				<DelAction_caption>Dilemel</DelAction_caption>
+				<EditAction_caption>&amp;Kemmañ...</EditAction_caption>
+				<OK_caption>Mat eo</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<Actions_caption>Oberioù :</Actions_caption>
+			</Labels>
+			<Messages>
+				<ActionDeleteConfirm>Dilemel da vat ?</ActionDeleteConfirm>
+				<ActionDeleteConfirmTitle>Seurt restroù</ActionDeleteConfirmTitle>
+			</Messages>
+		</AssocAdvance>
+		<Download>
+			<caption>Hizivaat</caption>
+			<CommandButtons>
+				<Cancel_caption>Nullañ</Cancel_caption>
+			</CommandButtons>
+			<Labels>
+				<Title_caption>Pellgargañ an hizivadenn...</Title_caption>
+			</Labels>
+		</Download>
+		<FileAssoc>
+			<caption>Seurt restroù kevredet gant an arloadoù hezoug</caption>
+			<CommandButtons>
+				<Add_caption>Nevez</Add_caption>
+				<Advanced_caption>Araokaet</Advanced_caption>
+				<Apply_caption>Arloañ</Apply_caption>
+				<Cancel_caption>Nullañ</Cancel_caption>
+				<Delete_caption>Dilemel</Delete_caption>
+				<OK_caption>Mat eo</OK_caption>
+				<SelectApp_caption>Kemmañ</SelectApp_caption>
+			</CommandButtons>
+			<Labels>
+				<AssocListTitle_caption>Seurt restroù enrollet :</AssocListTitle_caption>
+				<ExtInfo>Ar restroù mod  &apos;%1&apos; a zo mod &apos;%2&apos;. Klikit war &quot;araokaet&quot; evit kemmañ ar chevrediñ ouzh seurt restroù.</ExtInfo>
+				<ExtInfoNoExt>Klikit war &quot;araokaet&quot; evit kemmañ arventennoù an elfennoù stumm &apos;%1&apos;</ExtInfoNoExt>
+				<FrameCaption_caption>Munudoù diwar-benn an astenn &apos;%1&apos; </FrameCaption_caption>
+				<FrameCaptionNoExt_caption>Munudoù evit an elfenn stumm &apos;%1&apos;</FrameCaptionNoExt_caption>
+				<OpenWithInfo_caption>Digoret vez gant :</OpenWithInfo_caption>
+			</Labels>
+			<Messages>
+				<AppExeNotFound>Fazi en ur glask tapout hent an arload diuzet</AppExeNotFound>
+				<DeleteConfirm>Ma vez dilemet astenn ur restr enrollet, n&apos;halliot ket ken digeriñ restroù liammet gant seurt astennoù en ur daouglikañ war o arlunioù.</DeleteConfirm>
+				<DeleteConfirmTitle>Seurt restroù</DeleteConfirmTitle>
+				<ExtExists>Kevredet eo bet dija an astenn-mañ gant ar restroù mod &apos;%1&apos;</ExtExists>
+				<ExtExistsTitle>Seurt restr</ExtExistsTitle>
+			</Messages>
+		</FileAssoc>
+		<General>
+			<AppActionPrefix>Digeriñ gant</AppActionPrefix>
+			<AppActionSufix>(LiberKey)</AppActionSufix>
+			<DefaultTypeName>Restroù %1</DefaultTypeName>
+		</General>
+		<History>
+			<caption>Key Files Assoc&apos; - Roll istor ar stummoù</caption>
+			<CommandButtons>
+				<Close_caption>Serriñ</Close_caption>
+				<Download_caption>Pellgargañ ar stumm %ver%...</Download_caption>
+			</CommandButtons>
+			<Messages>
+				<AppVersion>Stumm %ver%</AppVersion>
+				<New>Nevez</New>
+				<NextVersion>(Stumm da zont...)</NextVersion>
+				<NoVersionInfo>N&apos;eus ket tu gouzout ar stumm</NoVersionInfo>
+				<VersionAvailable>Prest eo an hizivadenn</VersionAvailable>
+				<VersionDate>eus %date%</VersionDate>
+				<YourVersion>Ho stumm deoc&apos;h</YourVersion>
+			</Messages>
+		</History>
+		<Loading>
+			<Labels>
+				<Info_caption>Karget vez...</Info_caption>
+			</Labels>
+		</Loading>
+		<Main>
+			<Menus>
+				<About_caption>A-zivout...</About_caption>
+				<Apply_caption>Kevrediñ an arloadoù hezoug</Apply_caption>
+				<Config_caption>Kefluniañ ar c&apos;hevrediñ...</Config_caption>
+				<Options_caption>Dibarzhioù</Options_caption>
+				<Quit_caption>Kuitaat</Quit_caption>
+				<Restore_caption>Adlakaat ar c&apos;hevrediñ restroù</Restore_caption>
+				<Test_caption>Prouad</Test_caption>
+				<Web_caption>Deuit da welet lec&apos;hienn Key Files Assoc&apos;...</Web_caption>
+			</Menus>
+		</Main>
+		<MergeAssocs>
+			<caption>Hizivadenn</caption>
+			<CommandButtons>
+				<Cancel_caption>Gwelet vo pa vo loc&apos;het en-dro...</Cancel_caption>
+				<MergeDefaultAssocs_caption>Arloañ ar c&apos;hevrediñ diuzet</MergeDefaultAssocs_caption>
+				<SkipDefaultAssoc_caption>Arabat kemmañ ma c&apos;hefluniadur !</SkipDefaultAssoc_caption>
+			</CommandButtons>
+			<Labels>
+				<Title_caption>Kefluniañ ar c&apos;hevrediñ dre ziouer</Title_caption>
+				<UpdateInfo_caption>Ur c&apos;hevrediñ nevez a c&apos;hell bezañ kavet er roll dindan er stumm-mañ.\nAr re skrivet e ruz a zo termenet dija. Kemmer a raint plas ho re ma vezont diuzet ganeoc&apos;h. Kemmet vo ho kefluniadur.</UpdateInfo_caption>
+			</Labels>
+		</MergeAssocs>
+		<Messages>
+			<ApplyDone>Kevredet eo bremañ an arloadoù hezoug gant ar restroù.</ApplyDone>
+			<ApplyDoneTitle>Kevrediñ an arloadoù hezoug.</ApplyDoneTitle>
+			<ApplyError>N&apos;eo ket deuet a-benn kevrediñ an arloadoù hezoug</ApplyError>
+			<ApplyErrorTitle>Fazi kevrediñ arloadoù</ApplyErrorTitle>
+			<ASuiteConfMissing>Digavus eo roll an arloadoù hezoug !</ASuiteConfMissing>
+			<AutoRestoreDone>Ne oa ket bet adsavet astennoù ar restroù pa oa bet implijet ar wech diwezhañ.\nGraet eo bremañ.</AutoRestoreDone>
+			<AutoRestoreDoneTitle>Kevrediñ adsavet</AutoRestoreDoneTitle>
+			<ExeSelection>Application|*.exe;*.bat;*.com|All files (*.*)|*.*</ExeSelection>
+			<NewVersionAvailable>Prest eo ar stumm nevez eus Key Files Assoc&apos;</NewVersionAvailable>
+			<NewVersionInfo>Prest eo ar stumm %version% eus %versiondate%\n\n%description%\n\nPellgargañ anezhañ diouzhtu ?</NewVersionInfo>
+			<NoAppUpdate>Hizivaet eo bet %appname%.</NoAppUpdate>
+			<RestoreDone>Kevrediñ ar restroù adsavet</RestoreDone>
+			<RestoreDoneTitle>Kevrediñ ar restroù adsavet</RestoreDoneTitle>
+			<RestoreError>N&apos;eo ket bet adsavet astenn ar restroù\nUr fazi bennak a zo c&apos;hoarvezet pa glaske al Liberkey adsevel anezho.</RestoreError>
+			<RestoreErrorTitle>Fazi kevrediñ ar restroù</RestoreErrorTitle>
+			<UpdateAppStillRunning>O vont en-dro emañ c&apos;hoazh ar programm.\nKlask en-dro ?</UpdateAppStillRunning>
+			<UpdateDone>Hizivaat ar stumm %version% echuet.</UpdateDone>
+			<UpdateDownloadError>Pellgargañ ceus ar stumm diwezhañ c&apos;hwitaet.\n\n%error%</UpdateDownloadError>
+			<UpdateErrorTitle>Hizivaat c&apos;hwitaet</UpdateErrorTitle>
+			<UpdateExeError>N&apos;eo ket deuet a-benn hizivaat ar programm.\n\n%error%</UpdateExeError>
+			<UpdateInfoError>N&apos;eu ket bet tu adtapout an titouroù a-zivout ar stumm diwezhañ.</UpdateInfoError>
+			<UpdateTitle>Hizivaat</UpdateTitle>
+		</Messages>
+		<NewType>
+			<caption>Krouiñ un astenn nevez</caption>
+			<CommandButtons>
+				<Cancel_caption>Nullañ</Cancel_caption>
+				<OK_caption>Mat eo</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<Info_caption>Astenn ar restr :</Info_caption>
+			</Labels>
+			<Messages>
+				<NoExt>Ret eo deoc&apos;h spisaat un astenn.</NoExt>
+				<NoExtTitle>Seurt restroù</NoExtTitle>
+			</Messages>
+		</NewType>
+		<Options>
+			<caption>Kefluniañ Key Files Assoc&apos;</caption>
+			<CheckBoxs>
+				<AutoCheckVersionAtStart_caption>Hizivaat pa vez loc&apos;het ar programm</AutoCheckVersionAtStart_caption>
+				<ShowAssocToolTip_caption>Diskwel al lagadenn titouriñ pa vez oberiant pe adsavet ar c&apos;hevrediñ.</ShowAssocToolTip_caption>
+				<UseLbkProxySettings_caption>Implij kefluniadurioù proksi ma Liberkey</UseLbkProxySettings_caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Cancel_caption>Nullañ</Cancel_caption>
+				<DelAssocErrors_caption>Dilemel ar c&apos;hevrediñ diuzet.</DelAssocErrors_caption>
+				<OK_caption>Mat eo</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<AppsErrorsTitle_caption>Digavus eo ar programmoù (diweredekaet eo ar c&apos;hevrediñ)</AppsErrorsTitle_caption>
+				<FastSwitchMode_caption>Pa vez daougliket  war arlun an takad kemenn :</FastSwitchMode_caption>
+				<Language_caption>Yezh etrefas an implijer :</Language_caption>
+			</Labels>
+			<Messages>
+				<ActionCount>(1 ober)</ActionCount>
+				<AppCounters>Arload kevredet gant %objcount% traezenn (%actioncount% actions)</AppCounters>
+				<NotFoundApp>(Programm digavus)</NotFoundApp>
+			</Messages>
+			<OptionButtons>
+				<optSystrayFastSwitchOFF_caption>Digeriñ kefluniadur ar c&apos;hevrediñ</optSystrayFastSwitchOFF_caption>
+				<optSystrayFastSwitchON_caption>Kevrediñ / Adsevel kevrediñ ar programmoù hezoug</optSystrayFastSwitchON_caption>
+			</OptionButtons>
+			<Tabs>
+				<ActionErrors>Direizh eo</ActionErrors>
+				<Options>Dibarzhioù</Options>
+			</Tabs>
+		</Options>
+		<SelectIcon>
+			<caption>Kemmañ an arlun</caption>
+			<CommandButtons>
+				<Browse_caption>&amp;Furchal...</Browse_caption>
+				<Cancel_caption>Nullañ</Cancel_caption>
+				<OK_caption>Mat eo</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<IconList_caption>Diuzit un arlun er roll da heul :</IconList_caption>
+				<IconPath_caption>&amp;Klaskit arlunioù er restr-mañ :</IconPath_caption>
+			</Labels>
+			<Messages>
+				<FileNotFound>Dibosupl kavout ar restr %1</FileNotFound>
+				<FilterAllFiles>An holl restroù</FilterAllFiles>
+				<FilterIconFiles>Restr an arlunioù</FilterIconFiles>
+				<FilterLibraries>Levraouegoù</FilterLibraries>
+				<FilterPrograms>Programmoù</FilterPrograms>
+				<OpenFileTitle>Kemmañ an arlun</OpenFileTitle>
+			</Messages>
+		</SelectIcon>
+		<Update>
+			<caption>Hizivaat</caption>
+			<CommandButtons>
+				<Cancel_caption>Nullañ</Cancel_caption>
+			</CommandButtons>
+			<Labels>
+				<ClosingApp_caption>Serriñ ar programm</ClosingApp_caption>
+				<ReplaceExe_caption>Hizivaat ar programm</ReplaceExe_caption>
+				<RunNewVersion_caption>Loc&apos;hañ ar stumm nevez</RunNewVersion_caption>
+				<Title_caption>Staliañ an hizivadenn...</Title_caption>
+			</Labels>
+		</Update>
+		<Contributors>
+			<Contributor name="Diloar" email="diloar@no-log.org"/>
+		</Contributors>
+	</br-FR>
+</Languages>

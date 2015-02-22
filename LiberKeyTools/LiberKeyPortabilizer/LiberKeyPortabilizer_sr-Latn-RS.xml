@@ -1,0 +1,94 @@
+<Languages version="0.2">
+	<sr-Latn-RS en_name="Serbian (Latin)" icon="srbija.png" date="2013-07-18" version="3.50" name="Srpski (Latinica)">
+		<Cmds>
+			<Info>Informacije...</Info>
+			<OK>U redu</OK>
+		</Cmds>
+		<CrashRestore>
+			<CommandButtons>
+				<Restore_Caption>Povrati konfiguracije</Restore_Caption>
+			</CommandButtons>
+			<Labels>
+				<Info_Caption>Sledeće aplikacije su bile pokrenute.\nNije bilo moguće sačuvati njihovu konfiguraciju u LiberKey-u i konfiguraciju vašeg kompjutera nije moguće vratiti.</Info_Caption>
+				<Title_Caption>LiberKey Portabilizer je naglo prekinut pri poslednjem izvršavanju.</Title_Caption>
+			</Labels>
+		</CrashRestore>
+		<License>
+			<caption>%appname% licenca</caption>
+			<CheckBoxs>
+				<Accept_Caption>Prihvatam i slažem se sa uslovima licence</Accept_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Accept_Caption>Prihvatam</Accept_Caption>
+				<Cancel_Caption>Otkaži</Cancel_Caption>
+				<OK_Caption>U redu</OK_Caption>
+			</CommandButtons>
+			<Labels>
+				<AccetInformation_Caption>VAŽNO: Čekiranjem dugmeta ispod i klikom na Prihvatam, prihvatate ove uslove licence. Kliknite na &quot;strelicu dole&quot; da vidite ostatak licence.</AccetInformation_Caption>
+				<License_Caption>Licenca</License_Caption>
+				<LicenseAgreeTitle_Caption>Morate da prihvatite ove uslove pre nego što možete da koristite %appname%</LicenseAgreeTitle_Caption>
+				<LicenseTitle_Caption>Ova licenca definiše uslove korišćenja %appname%. Molimo vas da pročitate pre nastavljanja.</LicenseTitle_Caption>
+			</Labels>
+		</License>
+		<Main>
+			<CommandButtons>
+				<OK_Caption>&amp;U redu</OK_Caption>
+			</CommandButtons>
+			<Labels>
+				<PortabilizerInfo_Caption>Trenutno pokrenute aplikacije:</PortabilizerInfo_Caption>
+			</Labels>
+		</Main>
+		<Messages>
+			<AppAlreadyRunning>%appname% je već pokrenuta. Molimo vas da zatvorite ostale aplikacije pre pokretanja ove.</AppAlreadyRunning>
+			<DefaultTitle>%appname% LiberKey Portabilno Izdanje</DefaultTitle>
+			<Errors>
+				<AppInfoFileNotFound>Informacije o portabilnoj aplikaciji nedostaju.</AppInfoFileNotFound>
+				<ApplyContextError>Nismo u mogućnosti da pripremimo izvršni sadržaj za portabilnu aplikaciju.\nMolimo vas da zatvorite sve otvorene prozore i pokrenete aplikaciju ponovo.</ApplyContextError>
+				<CrashInfo>Sledeće aplikacije su bile pokrenute.\nNije bilo moguće sačuvati njihovu konfiguraciju u LiberKey-u i konfiguraciju vašeg kompjutera nije moguće vratiti.</CrashInfo>
+				<CrashRestore>LiberKey Portabilizer je prestao da radi tokom poslednjeg pokretanja.</CrashRestore>
+				<CrashRestoreElevatedApps>Aplikacije koje su pokrenute kao administrator i njihove konfiguracije nisu mogle biti vraćene. Da bi ste to uradili, LiberKey Portabilizer mora biti pokrenut kao administrator. Da li želite da vratite ove aplikacije sada?</CrashRestoreElevatedApps>
+				<DependencyMissing>Da bi radio ovaj program zahteva instalaciju %depend%.</DependencyMissing>
+				<ExeNotFound>Izvršni deo programa nije pronađen.</ExeNotFound>
+				<InvalidRetoreData>Vraćeni podaci iz %appname% su oštećeni.\nNismo u mogućnosti da povratimo konfiguraciju za ovu aplikaciju.</InvalidRetoreData>
+				<NeedLbkUpdate>Vaš LiberKey mora biti nadograđen da bi pokrenuo ovu aplikaciju.\n\nMožete da koristite %app% posle nadogradnje LiberKey-a.</NeedLbkUpdate>
+				<NeedUpdate>LiberKey Portabilizer mora biti nadograđen da bi pokrenuo ovu aplikaciju.\nNadogradnju možete besplatno da preuzmete sa www.liberkey.com\n\nDa li želite da idete na www.liberkey.com sada?</NeedUpdate>
+				<SingleUserApp>Aplikacija %app_name% je pokrenuta od strane drugog korisnika.\n\nKorisnik: &quot;%user%&quot;\nSesija: &quot;%session%&quot;\n\nIsta aplikacija nemože biti pokrenuta od strane 2 korisnika istovremeno.\n</SingleUserApp>
+			</Errors>
+			<LbkPortabilizerInfo>Ovaj program je u &quot;portabilizaciji&quot; i zahteva aplikacije prisutne na vašem LiberKey-u.\n\nZa dalje informacije, molimo vas posetite \nwww.liberkey.com</LbkPortabilizerInfo>
+			<No>Ne</No>
+			<OtherInstanceStarted>Upozorenje! \n\nUpravo ste pokrenuli %appname% dok je portabilna verzija pokrenuta.\nMolimo vas da zatvorite ne portabilnu verziju pre pokretanja portabilne verzije.</OtherInstanceStarted>
+			<RestoreNeedLBK>Upozorenje!\n\nJedna ili više aplikacija nisu pronađene.\n\n- &quot;Otkaži&quot;: Operacije neće biti izvršene u ovom trenutku.\n\n- &quot;Ignoriši&quot;: Konfiguracija vašeg kompjutera će biti vraćena. Ipak, možete izgubiti konfiguraciju vašeg portabilnog programa\n\n- &quot;Ponovo pokušaj&quot;: Ako je vaša aplikacija bila na USB disku uključite ga ponovi i kliknite na &quot;Ponovo pokušaj&quot;.</RestoreNeedLBK>
+			<SessionEndWarning>Portabilne aplikacije su još uvek pokrenute.\nPreporučujemo da zatvorite sve otvorene aplikacije pre nego što pokušate da ugasite vaš računar.</SessionEndWarning>
+			<Yes>Da</Yes>
+		</Messages>
+		<UpdateAvailable>
+			<caption>Nadogradnja dostupna</caption>
+			<CheckBoxs>
+				<NoMoreAlert_Caption>Ne pokazuj ovu nadogradnju</NoMoreAlert_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Cancel_Caption>&amp;Pokreni program bez nadogradnje</Cancel_Caption>
+				<Install_Caption>&amp;Preuzmi i instaliraj nadogradnju</Install_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppUpdateAvailable_Caption>Nova verzija ovog programa je dostupna za vaš LiberKey.</AppUpdateAvailable_Caption>
+				<Version_Caption>Verzija %version%</Version_Caption>
+			</Labels>
+		</UpdateAvailable>
+		<Warning>
+			<CommandButtons>
+				<Info_Caption>Informacije...</Info_Caption>
+				<OK_Caption>&amp;U redu</OK_Caption>
+			</CommandButtons>
+			<Status>
+				<UserAdmin>Admin: </UserAdmin>
+				<UserElevated>Podignut:</UserElevated>
+				<UserName>Korisnik:</UserName>
+				<UserSession>Sesija:</UserSession>
+			</Status>
+		</Warning>
+		<Contributors>
+			<Contributor name="Bojan Pavlović" email="bojan.pavlovich@yahoo.com"/>
+		</Contributors>
+	</sr-Latn-RS>
+</Languages>

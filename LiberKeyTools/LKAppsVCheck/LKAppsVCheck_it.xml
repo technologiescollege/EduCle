@@ -1,4 +1,4 @@
-﻿<Languages version="0.2">
+<Languages version="0.2">
 	<it en_name="Italian" name="Italiano" date="2011-04-20" version="5.4.0421" icon="it.png">
 		<Messages>
 			<Errors>
@@ -11,34 +11,34 @@
 				<InvalidUser>Identificazione non valida.\n\nL&apos;utente non è stato trovato</InvalidUser>
 				<DepositFolderError>Imposibile salvare dati nella cartella del repository.\n%path%\n\nVuoi scaricare i pacchetti mancanti in una cartella temporanea?</DepositFolderError>
 			</Errors>
-			<UpdateDone>Aggiornamento delle applicazioni terminata</UpdateDone>
-			<DownloadingTip>Scaricamento aggiornamenti...\nClick qui per maggiori dettagli</DownloadingTip>
+			<UpdateDone>Aggiornamento delle applicazioni terminato</UpdateDone>
+			<DownloadingTip>Scaricamento aggiornamenti...\nClicca qui per maggiori dettagli</DownloadingTip>
 			<DownloadingTipTitle>Aggiorna applicazioni LiberKey</DownloadingTipTitle>
-			<DownloadDone>Il download è stato completato correttamente.\nIl menu di Liberkey verrà chiuso durante il processo di aggiornamento...</DownloadDone>
-			<ConfirmCancel>Il download degli aggiornamenti è in corso.\nVuoi interromperlo ?</ConfirmCancel>
-			<HttpError>Si è verificato un errrore durante il recupero delle informazioni sugli aggiornamenti delle applicazioni.\nControlla di essere collegato a internet !</HttpError>
+			<DownloadDone>Gli aggiornamenti sono stati scaricati correttamente.\nIl menu di Liberkey verrà chiuso durante il processo di aggiornamento.</DownloadDone>
+			<ConfirmCancel>Il download degli aggiornamenti è in corso.\nVuoi annullarlo ?</ConfirmCancel>
+			<HttpError>Si è verificato un errrore durante il recupero delle informazioni sugli aggiornamenti disponibili.\nControllare di essere collegato correttamente ad internet !</HttpError>
 			<UpToDate>Le applicazioni presenti sulla tua LiberKey sono aggiornate</UpToDate>
-			<UpdatesAvailable>Sono disponibili aggiornamenti per le tue applicazioni.\nClick qui per installare le nuove versioni.</UpdatesAvailable>
+			<UpdatesAvailable>Sono disponibili aggiornamenti per le tue applicazioni.\nClicca qui per installare gli aggiornamenti.</UpdatesAvailable>
 			<HighPriority>Priorità</HighPriority>
 			<LowPriority>Opzionale</LowPriority>
 			<LowPriorityInfoTitle>Aggiornamento opzionale</LowPriorityInfoTitle>
-			<LowPriorityInfo>Questo aggiornamento è raccomandato se usi regolarmente questo software.\nCi possono essere nuove funzionalità.</LowPriorityInfo>
+			<LowPriorityInfo>Questo aggiornamento è raccomandato se usi regolarmente questo software.\nPotrebbe contenere nuove funzionalità.</LowPriorityInfo>
 			<HighPriorityInfoTitle>Priorità aggiornamento</HighPriorityInfoTitle>
-			<HighPriorityInfo>Ti invitiamo a eseguire questo aggiornamento.\nEsso contiene modifiche importanti che possono avere effetto sulla sicurezza</HighPriorityInfo>
+			<HighPriorityInfo>Ti invitiamo a eseguire questo aggiornamento.\nEsso contiene importanti modifiche, alcune delle quali possono avere effetto sulla sicurezza.</HighPriorityInfo>
 			<HideThisUpdate>Non mostrare questo aggiornamento</HideThisUpdate>
-			<HideUpdateInfo>Gli aggiornamenti disabilitati possono essere\nvisualizzati di nuovo cliccando\n\n&quot;Show hidden updates&quot;</HideUpdateInfo>
+			<HideUpdateInfo>Gli aggiornamenti disabilitati possono essere\nvisualizzati di nuovo cliccando\n\n&quot;Mostra aggiornamenti nascosti&quot;</HideUpdateInfo>
 			<AppAlreadyInstalled>%appname% %appversion% è già installata sulla tua LiberKey.\n\nVuoi re-installare questa applicazione ?</AppAlreadyInstalled>
 			<AppUpdateObsolete>Una versione più recente di %appname% è già installata sulla tua LiberKey.\n\nVersione già installata: %appversion%\nVersione che stai installando: %newversion%\n\nVuoi installare la vecchia versione?</AppUpdateObsolete>
 			<InformationTitle>Informazioni</InformationTitle>
-			<DiskSpace>Spazio su disco richiesto: %needed% (disponibile: %avail%)</DiskSpace>
-			<TempSpaceNeeded>Lo spazio su disco in cui memorizzare temporaneamente i file di installazione è insufficiente.\n\nLa tua selezione richiede %downloadsize% di sapzio libero sul drive %drive% (ma ce ne sono solo %avail% disponibili su %drive%)</TempSpaceNeeded>
+			<DiskSpace>Spazio su disco necessario: %needed% (disponibile: %avail%)</DiskSpace>
+			<TempSpaceNeeded>Lo spazio su disco in cui memorizzare temporaneamente i file di installazione è insufficiente.\n\nLa tua selezione richiede %downloadsize% di spazio libero sul drive %drive% (ma ce ne sono solo %avail% disponibili su %drive%)</TempSpaceNeeded>
 			<AppsDownloadDone>Il download nel file di destinazione è completo.\n=&gt; %downloadpath%\n\nVuoi avviare l&apos;installazione degli aggiornamenti adesso?</AppsDownloadDone>
-			<KeepTempFiles>Vuoi conservare i file scaricati per un uso futuro?</KeepTempFiles>
+			<KeepTempFiles>Vuoi conservare i file scaricati per un loro utilizzo futuro?</KeepTempFiles>
 		</Messages>
 		<Main>
 			<CommandButtons>
 				<Download_Caption>Installa le applicazioni selezionate</Download_Caption>
-				<Cancel_Caption>Cancella</Cancel_Caption>
+				<Cancel_Caption>Annulla</Cancel_Caption>
 				<HideWindow_Caption>&amp;Nascondi questa finestra durante il download</HideWindow_Caption>
 			</CommandButtons>
 			<Labels>
@@ -49,7 +49,7 @@
 				<ShowHiddenUpdates_Caption>Mostra aggiornamenti nascosti (%count%)</ShowHiddenUpdates_Caption>
 				<RemoveHiddenUpdates_Caption>Rimuovi gli aggiornamenti disabilitati (%count%)</RemoveHiddenUpdates_Caption>
 				<InstallTitle_Caption>Installazione applicazioni</InstallTitle_Caption>
-				<Version_Caption>Versione : </Version_Caption>
+				<Version_Caption>Versione: </Version_Caption>
 				<DownloadSize_Caption>Dimensione download:</DownloadSize_Caption>
 				<InstalledSize_Caption>Spazio su disco richiesto :</InstalledSize_Caption>
 				<bytes>byte</bytes>
@@ -58,16 +58,16 @@
 				<Gb>Gb</Gb>
 			</Labels>
 			<CheckBoxs>
-				<Silent_Caption>Installa le applicazioni senza chiederlo (modalità auto)</Silent_Caption>
+				<Silent_Caption>Installa applicazioni senza richiedere l&apos;intervento dell&apos;utente (modalità auto)</Silent_Caption>
 			</CheckBoxs>
 		</Main>
 		<Info>
-			<UpdateIgnore>(disabilita)</UpdateIgnore>
-			<UpdateLowPriority>(priorità bassa)</UpdateLowPriority>
+			<UpdateIgnore>(disabilitato)</UpdateIgnore>
+			<UpdateLowPriority>(bassa priorità)</UpdateLowPriority>
 		</Info>
 		<Contributors>
-			<Contributor name="Alessandro Stella" email="mail@alessandrostella.it" website="http://www.alessandrostella.it/"/>
 			<Contributor name="Maurizio Ballo" email="xmaurizio.13@hotmail.com"/>
+			<Contributor name="Alessandro Stella" email="mail@alessandrostella.it" website="http://www.alessandrostella.it"/>
 		</Contributors>
 	</it>
 </Languages>

@@ -1,0 +1,88 @@
+<Languages version="0.2">
+	<br-FR en_name="Breton" icon="fr.png" date="2012-09-11" name="Brezhoneg" version="1.0">
+		<Main>
+			<CommandButtons>
+				<Cancel_Caption>&amp;Nullañ</Cancel_Caption>
+				<CancelOperation_Caption>&amp;Nullañ</CancelOperation_Caption>
+				<Install_Caption>Staliañ ar programm-mañ war ma Liberkey</Install_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppDescription_Caption>Deskrivadur</AppDescription_Caption>
+				<AppName_Caption>Arload</AppName_Caption>
+				<AppVersion_Caption>Stumm</AppVersion_Caption>
+				<AppWebSite_Caption>Lec&apos;hienn :</AppWebSite_Caption>
+				<EditorEmail_Caption>Postel :</EditorEmail_Caption>
+				<EditorName_Caption>Aozer :</EditorName_Caption>
+				<EditorWebSite_Caption>Lec&apos;hienn :</EditorWebSite_Caption>
+				<PackageInfo_Caption>Titouroù war ar pakad arloadoù :</PackageInfo_Caption>
+				<PackageLangs_Caption>Dibabit ho Yezh :</PackageLangs_Caption>
+				<Signature_Caption>Pakad arloadoù kinniged gant :</Signature_Caption>
+				<SupportURL_Caption>Skoazell :</SupportURL_Caption>
+				<ValidationFailed_Caption>N&apos;eo ket bet gwirieket ar pakad arloadoù-mañ !</ValidationFailed_Caption>
+			</Labels>
+			<Tabs>
+				<Application>Arload</Application>
+				<Editor>Aozer</Editor>
+				<Package>Pakad arloadoù</Package>
+			</Tabs>
+		</Main>
+		<Messages>
+			<AlreadyInstalled>Staliet eo bet dija ar programm-mañ war ho Liberkey.\nHa fellout a ra deoc&apos;h e staliañ en-dro ?</AlreadyInstalled>
+			<AppStillRunning>O vont en-dro emañ c&apos;hoazh an arload.</AppStillRunning>
+			<ClosingApplication>O serriñ an arload...</ClosingApplication>
+			<ClosingASuite>Klozañ Asuite...</ClosingASuite>
+			<ClosingKFA>Serriñ Key Files Assoc&apos;</ClosingKFA>
+			<DeletingBackup>Lamedigezh ar saveteiñ</DeletingBackup>
+			<DeletingObsoleteFiles>Dilemel ar restroù kozh</DeletingObsoleteFiles>
+			<DowngradeWarning>Diwallit!\nUr stumm nevesoc&apos;h a zo bet staliet dija.\n\nStumm staliet : %current_version%\nStumm war-nes bezañ staliet : %setup_version%\n\nHa fellout a ra deoc&apos;h staliañ ar stumm kozh-se ?</DowngradeWarning>
+			<DownloadingSetupData>Pellgargañ ar roadennoù staliañ...\n%DONE%</DownloadingSetupData>
+			<Errors>
+				<AppDataNotFound>Roadennoù an arload digavus</AppDataNotFound>
+				<AppsDirNotFound>Kavlec&apos;h digavus</AppsDirNotFound>
+				<ASuiteCloseFailed>Dibosupl eo serriñ Asuite bremañ.</ASuiteCloseFailed>
+				<DataFileModified>Aet eo brein ar pakad staliañ:\nKemmet eo bet ar roadennoù\n\n%name%</DataFileModified>
+				<ErrRenameAppDir>Ur fazi a zo bet pa oac&apos;h oc&apos;h adenvel kavlec&apos;h an arload. \nEnaouet eo an arload c&apos;hoazh marteze, pe digor e restr.</ErrRenameAppDir>
+				<ExtractErrorRestoreDone>Tennadur an arload c&apos;hwitaet\nAdstaliet eo bet ar stumm kozh.</ExtractErrorRestoreDone>
+				<ExtractErrorRestoreNotDone>Tennadur an arload c&apos;hwitaet\nMiret eo bet ar stumm kozh er c&apos;havlec&apos;h saveteiñ.</ExtractErrorRestoreNotDone>
+				<IncompleteSetup>Restroù zo n&apos;int ket bet hizivaet !\nMiret eo bet ar stummoù all eus ar restroù-mañ er c&apos;havlec&apos;h da heul :\n\n%failedfolder%</IncompleteSetup>
+				<InstallError>An arload n&apos;eo ket deuet a-benn en em staliañ !</InstallError>
+				<InstallerUpdateNeeded>Nevezoc&apos;h eo ar pakad staliañ-mañ eget ar skoazeller staliañ\nImplijit stumm diwezhañ ar skoazeller evit ar staliadur.</InstallerUpdateNeeded>
+				<InstErrorTitle>Ur fazi a zo bet e-pad ar staliadur</InstErrorTitle>
+				<OldPackageVersion>N&apos;eo ket ken kemeret e karg ar pakad staliañ-mañ gant ar skoazeller.\nN&apos;hall ket bezañ staliet ken.</OldPackageVersion>
+				<PackageValidationFailed>Diwallit !\n\nN&apos;eo ket bet gwiriekaet ar pakad arloadoù-mañ.</PackageValidationFailed>
+				<SetupDataDownloadCanceled>Pellgargañ nullet !</SetupDataDownloadCanceled>
+				<SetupDataDownloadError>C&apos;hwitaet ! N&apos;eo ket bet pellgarget ar roedadennoù staliañ !</SetupDataDownloadError>
+			</Errors>
+			<ExtractingAppFiles>Tennadur eus restroù an arload</ExtractingAppFiles>
+			<InstalledLangMismatchWarning>Diwallit !\nAr meziant-mañ a zo bet staliet c&apos;hoazh war ho Liberkey, met gant ur yezh all.\n\nStaliet e oa bet e : &quot;%prevlang%&quot;\nStaliet e vo e : &quot;%newlang%&quot;\n\nKenderc&apos;hel memestra ?</InstalledLangMismatchWarning>
+			<Installing>Staliadur...</Installing>
+			<InvalidPackageFile>Ar pakad staliañ a zo nul</InvalidPackageFile>
+			<LangMismatchWarning>Diwallit!\nEmaoc&apos;h o staliañ ur meziant en ur yezh disheñvel ouzh hini ho Liberkey.\nKenderc&apos;hel memestra ?</LangMismatchWarning>
+			<PackageSignatureNotFound>(N&apos;eo ket bet sinet ar pakad arloadoù-mañ)</PackageSignatureNotFound>
+			<RestartingApp>Adlañset e vez an arload...</RestartingApp>
+			<RestartingKFA>Loc&apos;hañ en dro Key Files Assoc&apos;...</RestartingKFA>
+			<RestartingMenu>Loc&apos;hañ al lañser...</RestartingMenu>
+			<ReStartLBK>Adloc&apos;hañ al Liberkey...</ReStartLBK>
+			<RestoringPreviousConfig>Adaozidigezh ar c&apos;hefluniadur a-raok</RestoringPreviousConfig>
+			<SavingActualVersion>Saveteiñ ar stumm a-vremañ</SavingActualVersion>
+			<SetupDataDownloadDone>Pellgargañ echu.</SetupDataDownloadDone>
+			<SetupDone>Staliadur echu</SetupDone>
+			<UpdatingAppsMenu>Hizivaat lañser al Liberkey</UpdatingAppsMenu>
+			<UpdatingFileAssocs>Kemmañ kevrediñ ar restroù</UpdatingFileAssocs>
+			<VerifyingSetupDestination>Gwiriañ an egor a zo ret</VerifyingSetupDestination>
+			<VerifyingSetupPackage>Gwiriañ ar pakad staliañ</VerifyingSetupPackage>
+		</Messages>
+		<Report>
+			<caption>Staliañ echu.</caption>
+			<CommandButtons>
+				<Close_Caption>&amp;Serriñ</Close_Caption>
+			</CommandButtons>
+			<Labels>
+				<MenuInfo_Caption>Kemmet eo bet lañser al Liberkey !\n\nEvit enaouiñ hoc&apos;h arload bet staliet ganeoc&apos;h, \nimplijit al lañserioù-mañ :</MenuInfo_Caption>
+			</Labels>
+		</Report>
+		<Contributors>
+			<Contributor name="Diloar" email="diloar@no-log.org"/>
+		</Contributors>
+	</br-FR>
+</Languages>

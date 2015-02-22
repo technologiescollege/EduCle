@@ -1,5 +1,5 @@
-<Languages version="0.2">
-	<de name="Deutsch" icon="de.png" version="1.01" date="2012-04-26" en_name="German">
+<Languages version="0.4">
+	<de name="Deutsch" icon="de.png" version="1.01" date="2014-02-05" en_name="German">
 		<AppCategories>
 			<accessibility>Eingabehilfe</accessibility>
 			<audio>Audio</audio>
@@ -467,8 +467,8 @@
 				<Configuration>Einstellungen</Configuration>
 				<ConfigurationTip>LiberKey Einstellungen.\nAlle Einstellungen, wie das Erscheinen und Verhalten des LiberKey, befinden sich in diesem Einstellungen-Fenster.</ConfigurationTip>
 				<DisableFileAssoc>Dateizuordnungen deaktivieren</DisableFileAssoc>
-				<DisableFileAssocTip>Die Dateien sind zur Zeit zu den Programmen, die sie bearbeiten können, zugeordnet.\nDeaktivieren Sie diese Zuordnungen um zu den originalen Dateizuordnungen zurückzukehren.</DisableFileAssocTip>
-				<EnableFileAssoc>Dateizuordnungen aktivierten</EnableFileAssoc>
+				<DisableFileAssocTip>Die Dateien sind zur Zeit den Programmen, die sie bearbeiten können, zugeordnet.\nDeaktivieren Sie diese Zuordnungen um zu den urprünglichen Dateizuordnungen zurückzukehren.</DisableFileAssocTip>
+				<EnableFileAssoc>Dateizuordnungen aktivieren</EnableFileAssoc>
 				<EnableFileAssocTip>Aktivieren der temporären Dateizuordnungen (.avi, .jpg, .doc, ...) mit den in Ihrem LiberKey installierten Programmen.</EnableFileAssocTip>
 				<FileAssoc>Dateizuordnungen</FileAssoc>
 				<GoToWebSite>Websteite von LiberKey besuchen</GoToWebSite>

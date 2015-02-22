@@ -1,0 +1,270 @@
+<Languages version="0.2">
+	<ro-RO en_name="Romanian" icon="ro.png" date="2014-11-12">
+		<About>
+			<caption>Despre</caption>
+			<CommandButtons>
+				<History_caption>&amp;Istoric Versiune ...</History_caption>
+				<OK_caption>&amp;Închide</OK_caption>
+				<Update_caption>&amp;Verifică pentru actualizări</Update_caption>
+			</CommandButtons>
+			<Labels>
+				<LiberKeyExclu_caption>Acest software poate fi folosit numai în LiberKey</LiberKeyExclu_caption>
+				<LiberKeyPartner_caption>KFA a fost dezvoltat de LiberKey.com</LiberKeyPartner_caption>
+			</Labels>
+		</About>
+		<AddAction>
+			<caption>Actiune Nouă</caption>
+			<CommandButtons>
+				<Browse_caption>Caută</Browse_caption>
+				<Cancel_caption>&amp;Anulare</Cancel_caption>
+				<OK_caption>&amp;Bine</OK_caption>
+			</CommandButtons>
+			<EditCaption>Modifică acțiunile pentru tipul: %typedesc%</EditCaption>
+			<Labels>
+				<Action_caption>&amp;Actiuni</Action_caption>
+				<ActionAppPath_caption>Utilizează Aplicația pentru a executa această acțiune:</ActionAppPath_caption>
+				<ActionArgs_caption>Parametrii liniei de comandă:</ActionArgs_caption>
+			</Labels>
+			<Messages>
+				<ActionIsEmpty>Trebuie să specificați o acțiune.</ActionIsEmpty>
+				<ActionIsEmptyTitle>Tipul fisierelor</ActionIsEmptyTitle>
+				<AppNotFound>Programul specificat nu a fost găsit. Verificați dacă numele fișierului și calea sunt corecte.</AppNotFound>
+				<AppNotFoundTitle>Adaugă o acțiune</AppNotFoundTitle>
+			</Messages>
+		</AddAction>
+		<AppSelect>
+			<caption>Selectati asocierea cu aplicatiile portabile</caption>
+			<CommandButtons>
+				<Cancel_caption>&amp;Anulare</Cancel_caption>
+				<OK_caption>&amp;Bine</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<Loading_caption>Se încarcă lista cu softwarele disponibile ...</Loading_caption>
+			</Labels>
+		</AppSelect>
+		<AppWarning>
+			<caption>Cheie Fisiere Assoc &quot;- Risc de conflict cu o altă aplicație</caption>
+			<CommandButtons>
+				<OK_caption>&amp;Bine</OK_caption>
+				<RemoveAssocs_caption>Dezactivați asocierile acum.</RemoveAssocs_caption>
+			</CommandButtons>
+			<Labels>
+				<Message_caption>Cheile Fisierelor Assoc &quot;a detectat executarea unei aplicatii care ar putea fi problematică. Este recomandat să dezactivați asocierile de fișiere temporare înainte de a face modificări în registry Windows.</Message_caption>
+				<Title_caption>Atentie</Title_caption>
+			</Labels>
+		</AppWarning>
+		<AssocAdvance>
+			<caption>Editia acestui tip de fisiere</caption>
+			<CheckBoxs>
+				<ReplaceWinEntry_caption>Înlocuiți acțiunile curente pentru acest tip de fișiere</ReplaceWinEntry_caption>
+				<WinEdit_caption>Permite modificarea în &quot;Dosare opțiuni&quot;</WinEdit_caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Add_caption>&amp;Nou</Add_caption>
+				<Cancel_caption>&amp;Anulare</Cancel_caption>
+				<ChangeIcon_caption>&amp;Schimbă pictograma...</ChangeIcon_caption>
+				<Default_caption>&amp;Implicit</Default_caption>
+				<DelAction_caption>&amp;Stergere</DelAction_caption>
+				<EditAction_caption>&amp;Modifică</EditAction_caption>
+				<OK_caption>&amp;Bine</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<Actions_caption>&amp;Actiuni:</Actions_caption>
+			</Labels>
+			<Messages>
+				<ActionDeleteConfirm>Doriți să eliminați într-adevăr această acțiune?</ActionDeleteConfirm>
+				<ActionDeleteConfirmTitle>Tipul Fisierelor</ActionDeleteConfirmTitle>
+			</Messages>
+		</AssocAdvance>
+		<Download>
+			<caption>Actualizare Software</caption>
+			<CommandButtons>
+				<Cancel_caption>&amp;Anulare</Cancel_caption>
+			</CommandButtons>
+			<Labels>
+				<Title_caption>Se descarcă Software-ul actualizat...</Title_caption>
+			</Labels>
+		</Download>
+		<FileAssoc>
+			<caption>Tipul Fișierelor au fost asociate cu LiberKey si aplicațiile portabile</caption>
+			<CommandButtons>
+				<Add_caption>&amp;Nou</Add_caption>
+				<Advanced_caption>&amp;Avansat</Advanced_caption>
+				<Apply_caption>&amp;Aplică</Apply_caption>
+				<Cancel_caption>&amp;Anulare</Cancel_caption>
+				<Delete_caption>&amp;Sterge</Delete_caption>
+				<OK_caption>Bine</OK_caption>
+				<SelectApp_caption>Editează</SelectApp_caption>
+			</CommandButtons>
+			<Labels>
+				<AssocListTitle_caption>Înregistrează tipul Fișierelor :</AssocListTitle_caption>
+				<ExtInfo>Tipul de Fișiere &apos;%1&apos; sunt &apos;%2&apos;. Pentru a modifica aplicațiile portabile asociate în acest dosar, clic pe Avansat.</ExtInfo>
+				<ExtInfoNoExt>Pentru a modifica parametrii care se aplică la acest tip de element &quot;%1&quot; faceti, clic pe Avansat.</ExtInfoNoExt>
+				<FrameCaption_caption>Detalii despre această extensie &apos;%1&apos;</FrameCaption_caption>
+				<FrameCaptionNoExt_caption>Detalii pentru tipul &apos;%1&apos;</FrameCaptionNoExt_caption>
+				<OpenWithInfo_caption>Deschide cu :</OpenWithInfo_caption>
+			</Labels>
+			<Messages>
+				<AppExeNotFound>Eroare la Repararea aplicatiei portabile selectate</AppExeNotFound>
+				<DeleteConfirm>Dacă eliminați o extensie sau un fișier înregistrat, va fi imposibil să deschideți fișierele cu această extensie printr-un clic dublu pe icoane.\n\nDoriți într-adevăr să eliminați această extensie de fișier?</DeleteConfirm>
+				<DeleteConfirmTitle>Tipul fisierelor</DeleteConfirmTitle>
+				<ExtExists>Această extensie este deja asociată la fisierele &apos;%1&apos; </ExtExists>
+				<ExtExistsTitle>Tipul fisierelor</ExtExistsTitle>
+			</Messages>
+		</FileAssoc>
+		<General>
+			<AppActionPrefix>Deschide cu</AppActionPrefix>
+			<AppActionSufix>(Liberkey)</AppActionSufix>
+			<DefaultTypeName>Fisiere %1</DefaultTypeName>
+		</General>
+		<History>
+			<caption>Cheie Fișierelor Assoc &quot;- Istoric versiuni</caption>
+			<CommandButtons>
+				<Close_caption>&amp;Închide</Close_caption>
+				<Download_caption>Descarcă ultima lansare %ver% ...</Download_caption>
+			</CommandButtons>
+			<Messages>
+				<AppVersion>Versiune %ver%</AppVersion>
+				<New>Nou</New>
+				<NextVersion>(versiunea următoare)</NextVersion>
+				<NoVersionInfo>Nu există informații disponibile despre această versiune</NoVersionInfo>
+				<VersionAvailable>Actualizări disponibile</VersionAvailable>
+				<VersionDate>-%date%.</VersionDate>
+				<YourVersion>Versiunea utilizată</YourVersion>
+			</Messages>
+		</History>
+		<Loading>
+			<Labels>
+				<Info_caption>Se încarcă...</Info_caption>
+			</Labels>
+		</Loading>
+		<Main>
+			<Menus>
+				<About_caption>&amp;Despre</About_caption>
+				<Apply_caption>Aplică asocierile cu LiberKey</Apply_caption>
+				<Config_caption>Configurează Fișierele de asociere...</Config_caption>
+				<Options_caption>&amp;Optiuni</Options_caption>
+				<Quit_caption>&amp;Iesire</Quit_caption>
+				<Restore_caption>Restabiliti asocierile de fișiere pe computerul tău local</Restore_caption>
+				<Test_caption>testează</Test_caption>
+				<Web_caption>&amp;Vizitați site-ul cheilor Fișierelor Assoc &quot;....</Web_caption>
+			</Menus>
+		</Main>
+		<MergeAssocs>
+			<caption>Configurare actualizare</caption>
+			<CommandButtons>
+				<Cancel_caption>&amp;Voi vedea la următoarea pornire ...</Cancel_caption>
+				<MergeDefaultAssocs_caption>&amp;Aplicati Asocierile electate</MergeDefaultAssocs_caption>
+				<SkipDefaultAssoc_caption>&amp;Nu schimbați configurația mea!</SkipDefaultAssoc_caption>
+			</CommandButtons>
+			<Labels>
+				<Title_caption>Configurează asocierile implicite</Title_caption>
+				<UpdateInfo_caption>In lista de mai jos, puteti vedea toate noile asocieri de fișiere livrate cu aceasta noua versiune. Asocierile cu roșu sunt deja definite în configurația actuală. Toate asocierile selectate din această listă vor fi adăugate în configurația actuală.</UpdateInfo_caption>
+			</Labels>
+		</MergeAssocs>
+		<Messages>
+			<ApplyDone>Aplicatiile portabile LiberKey sunt în prezent asociate la fișiere.</ApplyDone>
+			<ApplyDoneTitle>Asocierea LiberKey cu aplicațiile portabile</ApplyDoneTitle>
+			<ApplyError>A apărut o eroare la încercarea de activare a asocierelor cu LiberKey</ApplyError>
+			<ApplyErrorTitle>Eroare la asocierea fisierelor</ApplyErrorTitle>
+			<ASuiteConfMissing>Fișierul care conține lista de aplicații portabile LiberKey nu a fost gasit!</ASuiteConfMissing>
+			<AutoRestoreDone>Extemnsiile Fișierelor nu au fost restaurate în timpul ultimei utilizări.\n</AutoRestoreDone>
+			<AutoRestoreDoneTitle>Asocierile au fost restaurate</AutoRestoreDoneTitle>
+			<ExeSelection>Aplicatii|*.exe;*.bat;*.com|Toate fisierele (*.*)|*.*</ExeSelection>
+			<NewVersionAvailable>O nouă cheie cu Fișiere Conf &apos;este disponibilă</NewVersionAvailable>
+			<NewVersionInfo>A fost lansată %version% în %versiondate% si este deja valabilă.\n\n%description%\n\nDoriți să-l descărcați acum?</NewVersionInfo>
+			<NoAppUpdate>Această %appname% a fost lansată.</NoAppUpdate>
+			<RestoreDone>Asocierea Fișierelor a fost restaurată</RestoreDone>
+			<RestoreDoneTitle>Restaurează ascocierile</RestoreDoneTitle>
+			<RestoreError>Extensiile Fișierelor nu pot fi recuperate.\nA apărut o eroare în timpul asocierii fișierelor restaurare</RestoreError>
+			<RestoreErrorTitle>Eroare la asocierea fișierelor</RestoreErrorTitle>
+			<UpdateAppStillRunning>Software-ul încă rulează.\nDoriți să încercați din nou?</UpdateAppStillRunning>
+			<UpdateDone>Actualizare la versiunea %version% sa efecuat.</UpdateDone>
+			<UpdateDownloadError>A apărut o eroare în timpul ultimei descărcărcări\n\n%error%</UpdateDownloadError>
+			<UpdateErrorTitle>Eroare în timpul actualizării</UpdateErrorTitle>
+			<UpdateExeError>A apărut o eroare în timpul actualizării software-ului.\n\n%error%</UpdateExeError>
+			<UpdateInfoError>A apărut o eroare la încercarea de a obține informații despre o ultimă lansare a aplicatiilor</UpdateInfoError>
+			<UpdateTitle>Actualizare</UpdateTitle>
+		</Messages>
+		<NewType>
+			<caption>Crează o nouă extensie</caption>
+			<CommandButtons>
+				<Cancel_caption>&amp;Anulare</Cancel_caption>
+				<OK_caption>&amp;Bine</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<Info_caption>Extensie fisiere:</Info_caption>
+			</Labels>
+			<Messages>
+				<NoExt>Trebuie să specificați o extensie.</NoExt>
+				<NoExtTitle>Tipul fisierelor</NoExtTitle>
+			</Messages>
+		</NewType>
+		<Options>
+			<caption>Configurează Cheie de Fișiere Assoc &quot;</caption>
+			<CheckBoxs>
+				<AutoCheckVersionAtStart_caption>Verifică pentru actualizări la pornirea programului</AutoCheckVersionAtStart_caption>
+				<ShowAssocToolTip_caption>Arată oavertizare atunci când asocierile sunt activate / restaurate</ShowAssocToolTip_caption>
+				<UseLbkProxySettings_caption>Utilizează configurările LiberKey cu serverul proxy</UseLbkProxySettings_caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Cancel_caption>&amp;Anulare</Cancel_caption>
+				<DelAssocErrors_caption>Scoateți asocierile selectate</DelAssocErrors_caption>
+				<OK_caption>&amp;Bine</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<AppsErrorsTitle_caption>Software-ul nu a fost găsit (asocierea a fost  dezactivată)</AppsErrorsTitle_caption>
+				<FastSwitchMode_caption>Cu un dublu clic pe pictograma din systray:</FastSwitchMode_caption>
+				<Language_caption>Limbă interfată utilizator</Language_caption>
+			</Labels>
+			<Messages>
+				<ActionCount>(1 actiune)</ActionCount>
+				<AppCounters>Aplicație asociată %objcount% obiecte (%actioncount% actiuni)</AppCounters>
+				<NotFoundApp>(Aplicatia nu a fost găsită)</NotFoundApp>
+			</Messages>
+			<OptionButtons>
+				<optSystrayFastSwitchOFF_caption>Deschide asociere configurare</optSystrayFastSwitchOFF_caption>
+				<optSystrayFastSwitchON_caption>Asocierile / Restaurare asocieri de software LiberKey</optSystrayFastSwitchON_caption>
+			</OptionButtons>
+			<Tabs>
+				<ActionErrors>Actiune Nevalidă</ActionErrors>
+				<Options>Optiuni</Options>
+			</Tabs>
+		</Options>
+		<SelectIcon>
+			<caption>Schimbă pictograma</caption>
+			<CommandButtons>
+				<Browse_caption>&amp;Caută</Browse_caption>
+				<Cancel_caption>&amp;Anulare</Cancel_caption>
+				<OK_caption>&amp;Bine</OK_caption>
+			</CommandButtons>
+			<Labels>
+				<IconList_caption>Selectați o pictogramă în lista de mai jos:</IconList_caption>
+				<IconPath_caption>&amp;Căutați pictograma în acest dosar:</IconPath_caption>
+			</Labels>
+			<Messages>
+				<FileNotFound>Fișierul nu a fost găsit: %1</FileNotFound>
+				<FilterAllFiles>Toate fisierele</FilterAllFiles>
+				<FilterIconFiles>Fisierele pictogramei</FilterIconFiles>
+				<FilterLibraries>Biblioteci</FilterLibraries>
+				<FilterPrograms>Programe</FilterPrograms>
+				<OpenFileTitle>Schimbă pictograma</OpenFileTitle>
+			</Messages>
+		</SelectIcon>
+		<Update>
+			<caption>Actualizare Software</caption>
+			<CommandButtons>
+				<Cancel_caption>&amp;Anulare</Cancel_caption>
+			</CommandButtons>
+			<Labels>
+				<ClosingApp_caption>Închide Aplicatiile</ClosingApp_caption>
+				<ReplaceExe_caption>Actualizez Software-ul</ReplaceExe_caption>
+				<RunNewVersion_caption>Rulează noua versiune</RunNewVersion_caption>
+				<Title_caption>Instalez actualizarea software-ului</Title_caption>
+			</Labels>
+		</Update>
+		<Contributors>
+			<Contributor email="prisacariu_a@tahoo.com" name="Adrian"/>
+		</Contributors>
+	</ro-RO>
+</Languages>

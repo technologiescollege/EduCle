@@ -163,19 +163,19 @@
 					<AppName>VLC media player</AppName>
 					<CmdArgs>&quot;%1&quot; --started-from-file</CmdArgs>
 				</Action>
-				<Action name="compresser_avec_7-zip_liberkey">
-					<Description.en>Compress with 7-Zip (LiberKey)</Description.en>
-					<Description.fr>Compresser avec 7-Zip (LiberKey)</Description.fr>
-					<ExePath>%APPS%\7Zip\7-ZipLKL.exe</ExePath>
-					<AppName>7-Zip</AppName>
-					<CmdArgs>a -ad &quot;%1&quot; &quot;%1\*&quot;</CmdArgs>
-				</Action>
 				<Action name="dbloquer_avec_unlocker_liberkey">
 					<Description.en>Unlock with Unlocker (LiberKey)</Description.en>
 					<Description.fr>Débloquer avec Unlocker (LiberKey)</Description.fr>
 					<ExePath>%APPS%\Unlocker\UnlockerLKL.exe</ExePath>
 					<AppName>Unlocker</AppName>
 					<CmdArgs>&quot;%1&quot;</CmdArgs>
+				</Action>
+				<Action name="compresser_avec_7-zip_liberkey">
+					<Description.en>Compress with 7-Zip (LiberKey)</Description.en>
+					<Description.fr>Compresser avec 7-Zip (LiberKey)</Description.fr>
+					<ExePath>%APPS%\7Zip\7-ZipLKL.exe</ExePath>
+					<AppName>7-Zip</AppName>
+					<CmdArgs>a -ad &quot;%1&quot; &quot;%1\*&quot;</CmdArgs>
 				</Action>
 			</Shell>
 			<TypeDescription>Dossier de fichiers</TypeDescription>
@@ -1027,8 +1027,8 @@
 			<TypeDescription>URL : Protocole HyperText Transfer (HTTP)</TypeDescription>
 		</FileType>
 		<FileType class="https" urlprotocol="yes">
-			<TypeDescription.en>URL : Secured HyperText Transfer Protocol</TypeDescription.en>
-			<TypeDescription.fr>URL : Protocole HyperText Transfer Securisé</TypeDescription.fr>
+			<TypeDescription.en>URL : Secured HyperText Transfer Protocol (HTTPS)</TypeDescription.en>
+			<TypeDescription.fr>URL : Protocole HyperText Transfer Securisé (HTTPS)</TypeDescription.fr>
 			<Shell>
 				<Action name="open_with_opera_liberkey">
 					<Description.en>Open with Opera (LiberKey)</Description.en>
@@ -1044,7 +1044,7 @@
 					<Description.fr>open_liberkey</Description.fr>
 				</Action>
 			</Shell>
-			<TypeDescription>URL : Protocole HyperText Transfer Secured</TypeDescription>
+			<TypeDescription>URL : Protocole HyperText Transfer Secured (HTTPS)</TypeDescription>
 		</FileType>
 		<FileType ext="php">
 			<TypeDescription.fr>Fichiers PHP</TypeDescription.fr>
@@ -1211,183 +1211,6 @@
 					<ExePath>%APPS%\LibreOffice\LibreOfficeWriterLKL.exe</ExePath>
 					<AppName>LibreOffice Writer</AppName>
 					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-			</Shell>
-		</FileType>
-		<FileType ext="7z" addmode="replace">
-			<TypeDescription.en>Compressed archive file 7-Zip (7Z)</TypeDescription.en>
-			<TypeDescription.fr>Archive compressée 7-Zip (7Z)</TypeDescription.fr>
-			<Shell>
-				<Action name="7-zip">
-					<Description.en>Open with 7-Zip (LiberKey)</Description.en>
-					<Description.fr>Ouvrir avec 7-Zip (LiberKey)</Description.fr>
-					<ExePath>%APPS%\7Zip\7-ZipLKL.exe</ExePath>
-					<AppName>7-Zip</AppName>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-				<Action name="extraire_avec_7-zip">
-					<Description.en>Extract with 7-Zip (LiberKey)</Description.en>
-					<Description.fr>Extraire avec 7-Zip (LiberKey)</Description.fr>
-					<ExePath>%APPS%\7Zip\7-ZipLKL.exe</ExePath>
-					<AppName>7-Zip</AppName>
-					<CmdArgs>x -o* /xpath=&quot;%1&quot;</CmdArgs>
-				</Action>
-			</Shell>
-		</FileType>
-		<FileType ext="arj">
-			<TypeDescription.en>Compressed archive file (ARJ)</TypeDescription.en>
-			<TypeDescription.fr>Archive compressée (ARJ)</TypeDescription.fr>
-			<Shell>
-				<Action name="7-zip_portable">
-					<Description.en>Open with 7-Zip (LiberKey)</Description.en>
-					<Description.fr>Ouvrir avec 7-Zip (LiberKey)</Description.fr>
-					<ExePath>%APPS%\7Zip\7-ZipLKL.exe</ExePath>
-					<AppName>7-Zip</AppName>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-			</Shell>
-		</FileType>
-		<FileType ext="bz2">
-			<TypeDescription.en>Compressed archive file (BZ2)</TypeDescription.en>
-			<TypeDescription.fr>Archive compressée (BZ2)</TypeDescription.fr>
-			<Shell>
-				<Action name="7-zip_portable">
-					<Description.en>Open with 7-Zip (LiberKey)</Description.en>
-					<Description.fr>Ouvrir avec 7-Zip (LiberKey)</Description.fr>
-					<ExePath>%APPS%\7Zip\7-ZipLKL.exe</ExePath>
-					<AppName>7-Zip</AppName>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-			</Shell>
-		</FileType>
-		<FileType ext="bzip2">
-			<TypeDescription.en>Compressed archive file (BZIP2)</TypeDescription.en>
-			<TypeDescription.fr>Archive compressée (BZIP2)</TypeDescription.fr>
-			<Shell>
-				<Action name="7-zip_portable">
-					<Description.en>Open with 7-Zip (LiberKey)</Description.en>
-					<Description.fr>Ouvrir avec 7-Zip (LiberKey)</Description.fr>
-					<ExePath>%APPS%\7Zip\7-ZipLKL.exe</ExePath>
-					<AppName>7-Zip</AppName>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-			</Shell>
-		</FileType>
-		<FileType ext="deb">
-			<TypeDescription.en>Compressed archive file (DEB)</TypeDescription.en>
-			<TypeDescription.fr>Archive compressée (DEB)</TypeDescription.fr>
-			<Shell>
-				<Action name="7-zip_portable">
-					<Description.en>Open with 7-Zip (LiberKey)</Description.en>
-					<Description.fr>Ouvrir avec 7-Zip (LiberKey)</Description.fr>
-					<ExePath>%APPS%\7Zip\7-ZipLKL.exe</ExePath>
-					<AppName>7-Zip</AppName>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-			</Shell>
-		</FileType>
-		<FileType ext="gz">
-			<TypeDescription.en>Compressed archive file (GZ)</TypeDescription.en>
-			<TypeDescription.fr>Archive compressée (GZ)</TypeDescription.fr>
-			<Shell>
-				<Action name="7-zip_portable">
-					<Description.en>Open with 7-Zip (LiberKey)</Description.en>
-					<Description.fr>Ouvrir avec 7-Zip (LiberKey)</Description.fr>
-					<ExePath>%APPS%\7Zip\7-ZipLKL.exe</ExePath>
-					<AppName>7-Zip</AppName>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-			</Shell>
-		</FileType>
-		<FileType ext="gzip">
-			<TypeDescription.en>Compressed archive file (GZIP)</TypeDescription.en>
-			<TypeDescription.fr>Archive compressée (GZIP)</TypeDescription.fr>
-			<Shell>
-				<Action name="7-zip_portable">
-					<Description.en>Open with 7-Zip (LiberKey)</Description.en>
-					<Description.fr>Ouvrir avec 7-Zip (LiberKey)</Description.fr>
-					<ExePath>%APPS%\7Zip\7-ZipLKL.exe</ExePath>
-					<AppName>7-Zip</AppName>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-			</Shell>
-		</FileType>
-		<FileType ext="lha">
-			<TypeDescription.en>Compressed archive file (LHA)</TypeDescription.en>
-			<TypeDescription.fr>Archive compressée (LHA)</TypeDescription.fr>
-			<Shell>
-				<Action name="7-zip_portable">
-					<Description.en>Open with 7-Zip (LiberKey)</Description.en>
-					<Description.fr>Ouvrir avec 7-Zip (LiberKey)</Description.fr>
-					<ExePath>%APPS%\7Zip\7-ZipLKL.exe</ExePath>
-					<AppName>7-Zip</AppName>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-			</Shell>
-		</FileType>
-		<FileType ext="rar">
-			<TypeDescription.en>Compressed archive file (RAR)</TypeDescription.en>
-			<TypeDescription.fr>Archive compressée (RAR)</TypeDescription.fr>
-			<Shell>
-				<Action name="7-zip_portable">
-					<Description.en>Open with 7-Zip (LiberKey)</Description.en>
-					<Description.fr>Ouvrir avec 7-Zip (LiberKey)</Description.fr>
-					<ExePath>%APPS%\7Zip\7-ZipLKL.exe</ExePath>
-					<AppName>7-Zip</AppName>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-				<Action name="extraire_avec_7-zip">
-					<Description.en>Extract with 7-Zip (LiberKey)</Description.en>
-					<Description.fr>Extraire avec 7-Zip (LiberKey)</Description.fr>
-					<ExePath>%APPS%\7Zip\7-ZipLKL.exe</ExePath>
-					<AppName>7-Zip</AppName>
-					<CmdArgs>x -o* /xpath=&quot;%1&quot;</CmdArgs>
-				</Action>
-			</Shell>
-		</FileType>
-		<FileType ext="rpm">
-			<TypeDescription.en>Compressed archive file (RPM)</TypeDescription.en>
-			<TypeDescription.fr>Archive compressée (RPM)</TypeDescription.fr>
-			<Shell>
-				<Action name="7-zip_portable">
-					<Description.en>Open with 7-Zip (LiberKey)</Description.en>
-					<Description.fr>Ouvrir avec 7-Zip (LiberKey)</Description.fr>
-					<ExePath>%APPS%\7Zip\7-ZipLKL.exe</ExePath>
-					<AppName>7-Zip</AppName>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-			</Shell>
-		</FileType>
-		<FileType ext="tar">
-			<TypeDescription.en>Compressed archive file (TAR)</TypeDescription.en>
-			<TypeDescription.fr>Archive compressée (TAR)</TypeDescription.fr>
-			<Shell>
-				<Action name="7-zip_portable">
-					<Description.en>Open with 7-Zip (LiberKey)</Description.en>
-					<Description.fr>Ouvrir avec 7-Zip (LiberKey)</Description.fr>
-					<ExePath>%APPS%\7Zip\7-ZipLKL.exe</ExePath>
-					<AppName>7-Zip</AppName>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-			</Shell>
-		</FileType>
-		<FileType ext="zip" addmode="replace">
-			<TypeDescription.en>Compressed archive file (ZIP)</TypeDescription.en>
-			<TypeDescription.fr>Archive compressée (ZIP)</TypeDescription.fr>
-			<Shell>
-				<Action name="7-zip_portable">
-					<Description.en>Open with 7-Zip (LiberKey)</Description.en>
-					<Description.fr>Ouvrir avec 7-Zip (LiberKey)</Description.fr>
-					<ExePath>%APPS%\7Zip\7-ZipLKL.exe</ExePath>
-					<AppName>7-Zip</AppName>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-				<Action name="extraire_avec_7-zip">
-					<Description.en>Extract with 7-Zip (LiberKey)</Description.en>
-					<Description.fr>Extraire avec 7-Zip (LiberKey)</Description.fr>
-					<ExePath>%APPS%\7Zip\7-ZipLKL.exe</ExePath>
-					<AppName>7-Zip</AppName>
-					<CmdArgs>x -o* /xpath=&quot;%1&quot;</CmdArgs>
 				</Action>
 			</Shell>
 		</FileType>
@@ -1608,17 +1431,6 @@
 			</Shell>
 			<TypeIcon index="0">%MYAPPS%\Matieres\Technologie\RobotProg\RobotProg.exe</TypeIcon>
 		</FileType>
-		<FileType ext="sb2">
-			<TypeDescription.fr>Fichiers SB2</TypeDescription.fr>
-			<Shell>
-				<Action name="lk_open_434947f">
-					<ExePath>%MYAPPS%\Scratch 2\Scratch 2.exe</ExePath>
-					<Description.fr>Ouvrir avec  (LiberKey)</Description.fr>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-			</Shell>
-			<TypeIcon index="0">%MYAPPS%\Scratch 2\Scratch 2.exe</TypeIcon>
-		</FileType>
 		<FileType ext="sh3d">
 			<TypeDescription.fr>Fichiers SH3D</TypeDescription.fr>
 			<Shell>
@@ -1658,19 +1470,194 @@
 			</Shell>
 			<TypeDescription>Tous les fichiers</TypeDescription>
 		</FileType>
-	</AppsAssoc>
-	<AppsAssocErrors>
-		<FileType ext="lxf">
-			<TypeDescription.fr>Fichiers LXF</TypeDescription.fr>
+		<FileType ext="sb2">
+			<TypeDescription.fr>Fichiers SB2</TypeDescription.fr>
 			<Shell>
-				<Action name="lego_digital_designer">
-					<ExePath>%MYAPPS%\Matieres\Technologie\LEGO_Digital_Designer\LDD.exe</ExePath>
-					<AppName>LEGO Digital Designer</AppName>
-					<Description.fr>Ouvrir avec LEGO Digital Designer (LiberKey)</Description.fr>
+				<Action name="lk_open_434947f">
+					<ExePath>%MYAPPS%\Scratch 2\Scratch 2.exe</ExePath>
+					<Description.fr>Ouvrir avec  (LiberKey)</Description.fr>
 					<CmdArgs>&quot;%1&quot;</CmdArgs>
 				</Action>
 			</Shell>
-			<TypeIcon index="0">%MYAPPS%\Matieres\Technologie\LEGO_Digital_Designer\LDD.exe</TypeIcon>
+			<TypeIcon index="0">%MYAPPS%\Scratch 2\Scratch 2.exe</TypeIcon>
 		</FileType>
-	</AppsAssocErrors>
+		<FileType ext="7z" addmode="replace">
+			<TypeDescription.en>Compressed archive file 7-Zip (7Z)</TypeDescription.en>
+			<TypeDescription.fr>Archive compressée 7-Zip (7Z)</TypeDescription.fr>
+			<Shell>
+				<Action name="7-zip">
+					<Description.en>Open with 7-Zip (LiberKey)</Description.en>
+					<Description.fr>Ouvrir avec 7-Zip (LiberKey)</Description.fr>
+					<ExePath>%APPS%\7Zip\7-ZipLKL.exe</ExePath>
+					<AppName>7-Zip</AppName>
+					<CmdArgs>&quot;%1&quot;</CmdArgs>
+				</Action>
+				<Action name="extraire_avec_7-zip">
+					<Description.en>Extract with 7-Zip (LiberKey)</Description.en>
+					<Description.fr>Extraire avec 7-Zip (LiberKey)</Description.fr>
+					<ExePath>%APPS%\7Zip\7-ZipLKL.exe</ExePath>
+					<AppName>7-Zip</AppName>
+					<CmdArgs>x -o* /xpath=&quot;%1&quot;</CmdArgs>
+				</Action>
+			</Shell>
+		</FileType>
+		<FileType ext="arj">
+			<TypeDescription.en>Compressed archive file (ARJ)</TypeDescription.en>
+			<TypeDescription.fr>Archive compressée (ARJ)</TypeDescription.fr>
+			<Shell>
+				<Action name="7-zip_portable">
+					<Description.en>Open with 7-Zip (LiberKey)</Description.en>
+					<Description.fr>Ouvrir avec 7-Zip (LiberKey)</Description.fr>
+					<ExePath>%APPS%\7Zip\7-ZipLKL.exe</ExePath>
+					<AppName>7-Zip</AppName>
+					<CmdArgs>&quot;%1&quot;</CmdArgs>
+				</Action>
+			</Shell>
+		</FileType>
+		<FileType ext="bz2">
+			<TypeDescription.en>Compressed archive file (BZ2)</TypeDescription.en>
+			<TypeDescription.fr>Archive compressée (BZ2)</TypeDescription.fr>
+			<Shell>
+				<Action name="7-zip_portable">
+					<Description.en>Open with 7-Zip (LiberKey)</Description.en>
+					<Description.fr>Ouvrir avec 7-Zip (LiberKey)</Description.fr>
+					<ExePath>%APPS%\7Zip\7-ZipLKL.exe</ExePath>
+					<AppName>7-Zip</AppName>
+					<CmdArgs>&quot;%1&quot;</CmdArgs>
+				</Action>
+			</Shell>
+		</FileType>
+		<FileType ext="bzip2">
+			<TypeDescription.en>Compressed archive file (BZIP2)</TypeDescription.en>
+			<TypeDescription.fr>Archive compressée (BZIP2)</TypeDescription.fr>
+			<Shell>
+				<Action name="7-zip_portable">
+					<Description.en>Open with 7-Zip (LiberKey)</Description.en>
+					<Description.fr>Ouvrir avec 7-Zip (LiberKey)</Description.fr>
+					<ExePath>%APPS%\7Zip\7-ZipLKL.exe</ExePath>
+					<AppName>7-Zip</AppName>
+					<CmdArgs>&quot;%1&quot;</CmdArgs>
+				</Action>
+			</Shell>
+		</FileType>
+		<FileType ext="deb">
+			<TypeDescription.en>Compressed archive file (DEB)</TypeDescription.en>
+			<TypeDescription.fr>Archive compressée (DEB)</TypeDescription.fr>
+			<Shell>
+				<Action name="7-zip_portable">
+					<Description.en>Open with 7-Zip (LiberKey)</Description.en>
+					<Description.fr>Ouvrir avec 7-Zip (LiberKey)</Description.fr>
+					<ExePath>%APPS%\7Zip\7-ZipLKL.exe</ExePath>
+					<AppName>7-Zip</AppName>
+					<CmdArgs>&quot;%1&quot;</CmdArgs>
+				</Action>
+			</Shell>
+		</FileType>
+		<FileType ext="gz">
+			<TypeDescription.en>Compressed archive file (GZ)</TypeDescription.en>
+			<TypeDescription.fr>Archive compressée (GZ)</TypeDescription.fr>
+			<Shell>
+				<Action name="7-zip_portable">
+					<Description.en>Open with 7-Zip (LiberKey)</Description.en>
+					<Description.fr>Ouvrir avec 7-Zip (LiberKey)</Description.fr>
+					<ExePath>%APPS%\7Zip\7-ZipLKL.exe</ExePath>
+					<AppName>7-Zip</AppName>
+					<CmdArgs>&quot;%1&quot;</CmdArgs>
+				</Action>
+			</Shell>
+		</FileType>
+		<FileType ext="gzip">
+			<TypeDescription.en>Compressed archive file (GZIP)</TypeDescription.en>
+			<TypeDescription.fr>Archive compressée (GZIP)</TypeDescription.fr>
+			<Shell>
+				<Action name="7-zip_portable">
+					<Description.en>Open with 7-Zip (LiberKey)</Description.en>
+					<Description.fr>Ouvrir avec 7-Zip (LiberKey)</Description.fr>
+					<ExePath>%APPS%\7Zip\7-ZipLKL.exe</ExePath>
+					<AppName>7-Zip</AppName>
+					<CmdArgs>&quot;%1&quot;</CmdArgs>
+				</Action>
+			</Shell>
+		</FileType>
+		<FileType ext="lha">
+			<TypeDescription.en>Compressed archive file (LHA)</TypeDescription.en>
+			<TypeDescription.fr>Archive compressée (LHA)</TypeDescription.fr>
+			<Shell>
+				<Action name="7-zip_portable">
+					<Description.en>Open with 7-Zip (LiberKey)</Description.en>
+					<Description.fr>Ouvrir avec 7-Zip (LiberKey)</Description.fr>
+					<ExePath>%APPS%\7Zip\7-ZipLKL.exe</ExePath>
+					<AppName>7-Zip</AppName>
+					<CmdArgs>&quot;%1&quot;</CmdArgs>
+				</Action>
+			</Shell>
+		</FileType>
+		<FileType ext="rar">
+			<TypeDescription.en>Compressed archive file (RAR)</TypeDescription.en>
+			<TypeDescription.fr>Archive compressée (RAR)</TypeDescription.fr>
+			<Shell>
+				<Action name="7-zip_portable">
+					<Description.en>Open with 7-Zip (LiberKey)</Description.en>
+					<Description.fr>Ouvrir avec 7-Zip (LiberKey)</Description.fr>
+					<ExePath>%APPS%\7Zip\7-ZipLKL.exe</ExePath>
+					<AppName>7-Zip</AppName>
+					<CmdArgs>&quot;%1&quot;</CmdArgs>
+				</Action>
+				<Action name="extraire_avec_7-zip">
+					<Description.en>Extract with 7-Zip (LiberKey)</Description.en>
+					<Description.fr>Extraire avec 7-Zip (LiberKey)</Description.fr>
+					<ExePath>%APPS%\7Zip\7-ZipLKL.exe</ExePath>
+					<AppName>7-Zip</AppName>
+					<CmdArgs>x -o* /xpath=&quot;%1&quot;</CmdArgs>
+				</Action>
+			</Shell>
+		</FileType>
+		<FileType ext="rpm">
+			<TypeDescription.en>Compressed archive file (RPM)</TypeDescription.en>
+			<TypeDescription.fr>Archive compressée (RPM)</TypeDescription.fr>
+			<Shell>
+				<Action name="7-zip_portable">
+					<Description.en>Open with 7-Zip (LiberKey)</Description.en>
+					<Description.fr>Ouvrir avec 7-Zip (LiberKey)</Description.fr>
+					<ExePath>%APPS%\7Zip\7-ZipLKL.exe</ExePath>
+					<AppName>7-Zip</AppName>
+					<CmdArgs>&quot;%1&quot;</CmdArgs>
+				</Action>
+			</Shell>
+		</FileType>
+		<FileType ext="tar">
+			<TypeDescription.en>Compressed archive file (TAR)</TypeDescription.en>
+			<TypeDescription.fr>Archive compressée (TAR)</TypeDescription.fr>
+			<Shell>
+				<Action name="7-zip_portable">
+					<Description.en>Open with 7-Zip (LiberKey)</Description.en>
+					<Description.fr>Ouvrir avec 7-Zip (LiberKey)</Description.fr>
+					<ExePath>%APPS%\7Zip\7-ZipLKL.exe</ExePath>
+					<AppName>7-Zip</AppName>
+					<CmdArgs>&quot;%1&quot;</CmdArgs>
+				</Action>
+			</Shell>
+		</FileType>
+		<FileType ext="zip" addmode="replace">
+			<TypeDescription.en>Compressed archive file (ZIP)</TypeDescription.en>
+			<TypeDescription.fr>Archive compressée (ZIP)</TypeDescription.fr>
+			<Shell>
+				<Action name="7-zip_portable">
+					<Description.en>Open with 7-Zip (LiberKey)</Description.en>
+					<Description.fr>Ouvrir avec 7-Zip (LiberKey)</Description.fr>
+					<ExePath>%APPS%\7Zip\7-ZipLKL.exe</ExePath>
+					<AppName>7-Zip</AppName>
+					<CmdArgs>&quot;%1&quot;</CmdArgs>
+				</Action>
+				<Action name="extraire_avec_7-zip">
+					<Description.en>Extract with 7-Zip (LiberKey)</Description.en>
+					<Description.fr>Extraire avec 7-Zip (LiberKey)</Description.fr>
+					<ExePath>%APPS%\7Zip\7-ZipLKL.exe</ExePath>
+					<AppName>7-Zip</AppName>
+					<CmdArgs>x -o* /xpath=&quot;%1&quot;</CmdArgs>
+				</Action>
+			</Shell>
+		</FileType>
+	</AppsAssoc>
+	<AppsAssocErrors/>
 </KeyFileAssoc>

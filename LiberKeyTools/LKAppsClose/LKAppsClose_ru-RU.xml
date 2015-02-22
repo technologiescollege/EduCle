@@ -1,32 +1,32 @@
 <Languages version="0.2">
-	<ru-RU en_name="Russian" date="2011-02-03" version="0.2" icon="ru.png" name="Русский">
-		<Main>
-			<CommandButtons>
-				<CloseApps_Caption>&amp;Закрыть портативные приложения</CloseApps_Caption>
-				<Close_Caption>В&amp;ыход</Close_Caption>
-			</CommandButtons>
-		</Main>
-		<Messages>
-			<Closing>Закрытие приложения ....</Closing>
-			<CloseFailed>Приложения по-прежнему работает.\nЗакройте приложение вручную либо принудительно.\n</CloseFailed>
-			<ForceFailed>Ошибка при попытке закрыть!</ForceFailed>
-			<AppsCloseCanceled>Отмена закрытия приложений</AppsCloseCanceled>
-			<ContinueClose>Хотите продолжить закрытие других приложений?</ContinueClose>
-		</Messages>
+	<ru-RU en_name="Russian" date="2013-02-01" version="0.2" icon="ru.png" name="Русский">
 		<Closing>
 			<caption>Закрытие приложений LiberKey</caption>
 			<CommandButtons>
 				<Cancel_Caption>&amp;Отмена</Cancel_Caption>
-				<Terminate_Caption>&amp;Закрыть принудительно</Terminate_Caption>
 				<Retry_Caption>&amp;Повторить</Retry_Caption>
+				<Terminate_Caption>&amp;Закрыть принудительно</Terminate_Caption>
 			</CommandButtons>
 		</Closing>
 		<Debug>
 			<caption>Информация об обнаруженных окнах приложений\n</caption>
 		</Debug>
+		<Main>
+			<CommandButtons>
+				<Close_Caption>В&amp;ыход</Close_Caption>
+				<CloseApps_Caption>&amp;Закрыть портативные приложения</CloseApps_Caption>
+			</CommandButtons>
+		</Main>
 		<Message>
-			<KillWarning>Внимание!\n\nПринудительное закрытие приложений может повредить ваши данные.\nПоэтому желательно, завершить приложения  в обычном режиме.\n\nВы уверены, что хотите закрыть эту программу?</KillWarning>
+			<KillWarning>Внимание!\n\nПринудительное закрытие приложений может повредить ваши данные.\nПоэтому желательно, завершить приложения  в обычном режиме.\n\nВы уверены, что хотите закрыть это приложение?</KillWarning>
 		</Message>
+		<Messages>
+			<AppsCloseCanceled>Отмена закрытия приложений</AppsCloseCanceled>
+			<CloseFailed>Приложения по-прежнему работает.\nЗакройте приложение вручную либо принудительно.\n</CloseFailed>
+			<Closing>Закрытие приложения ....</Closing>
+			<ContinueClose>Хотите продолжить закрытие других приложений?</ContinueClose>
+			<ForceFailed>Ошибка при попытке закрыть!</ForceFailed>
+		</Messages>
 		<Contributors>
 			<Contributor name="mrBG" email="bg31688@mail.ru"/>
 			<Contributor name="Talyan" email="astrezh@list.ru"/>

@@ -1,0 +1,927 @@
+<Languages version="0.2">
+	<sr-Latn-RS en_name="Serbian (Latin)" icon="srbija.png" date="2013-07-18" version="3.50" name="Srpski (Latinica)">
+		<AppCategories>
+			<accessibility>Pristupačnost</accessibility>
+			<audio>Audio </audio>
+			<audio:converter>Konverter</audio:converter>
+			<audio:editor>Editor </audio:editor>
+			<audio:ipod_manager>iPod menadžer</audio:ipod_manager>
+			<audio:player>Plejer</audio:player>
+			<audio:radio>Radio </audio:radio>
+			<audio:ripper>Riper</audio:ripper>
+			<audio:tagger>Tager</audio:tagger>
+			<audio:text_to_speech>Tekst u izgovor</audio:text_to_speech>
+			<audio:tools>Alati</audio:tools>
+			<audio-video>Audio - Video </audio-video>
+			<cd-dvd>CD - DVD </cd-dvd>
+			<cd-dvd:burning_tools>Alati za rezanje</cd-dvd:burning_tools>
+			<cd-dvd:cover_printer>Štampač omota</cd-dvd:cover_printer>
+			<cd-dvd:image_tools>Alati za slike</cd-dvd:image_tools>
+			<development>Razvoj</development>
+			<education>Učenje</education>
+			<education:astronomy>Astronomija</education:astronomy>
+			<education:children>Deca</education:children>
+			<education:drawing>Crtanje</education:drawing>
+			<education:geography>Geografija</education:geography>
+			<education:music>Muzika</education:music>
+			<education:typing>Kucanje</education:typing>
+			<file_management>Upravljanje fajlovima</file_management>
+			<file_management:backup>Rezervna kopija</file_management:backup>
+			<file_management:cataloger>Kataloger</file_management:cataloger>
+			<file_management:comparison>Poređenje</file_management:comparison>
+			<file_management:compression>Kompresija</file_management:compression>
+			<file_management:copy>Kopiranje</file_management:copy>
+			<file_management:defragmenter>Defragmenter </file_management:defragmenter>
+			<file_management:directory_lister>Lister direktorijuma</file_management:directory_lister>
+			<file_management:disk_space_tool>Alat za prostor na disku</file_management:disk_space_tool>
+			<file_management:duplicate_finder>Pronalazač duplikata</file_management:duplicate_finder>
+			<file_management:manager>Menadžer</file_management:manager>
+			<file_management:recovery>Oporavak</file_management:recovery>
+			<file_management:renamer>Promena imena</file_management:renamer>
+			<file_management:search>Pretraga</file_management:search>
+			<file_management:splitter>Spliter</file_management:splitter>
+			<file_management:synchronization>Sinhronizacija</file_management:synchronization>
+			<file_management:tools>Alati</file_management:tools>
+			<file_management:universal_viewer>Univerzalni pregledač</file_management:universal_viewer>
+			<games>Igrice</games>
+			<games:action>Akcije</games:action>
+			<games:card>Karte</games:card>
+			<games:puzzle>Slagalice</games:puzzle>
+			<games:reflexion>Mozgalice</games:reflexion>
+			<games:strategy>Strategija</games:strategy>
+			<graphics-photo>Grafika - Slike</graphics-photo>
+			<graphics-photo:3d>3D </graphics-photo:3d>
+			<graphics-photo:color_picker>Izbor boja</graphics-photo:color_picker>
+			<graphics-photo:editor>Editor </graphics-photo:editor>
+			<graphics-photo:effect_and_filter>Efekti i filter</graphics-photo:effect_and_filter>
+			<graphics-photo:icon_editor>Editor ikonica</graphics-photo:icon_editor>
+			<graphics-photo:screen_capture>Slikanje ekrana</graphics-photo:screen_capture>
+			<graphics-photo:tools>Alati</graphics-photo:tools>
+			<graphics-photo:vector_converter>Konverter vektora</graphics-photo:vector_converter>
+			<graphics-photo:viewer>Pregledač</graphics-photo:viewer>
+			<internet>Internet </internet>
+			<internet:bookmark_manager>Bookmark menadžer</internet:bookmark_manager>
+			<internet:browser>Pretraživač</internet:browser>
+			<internet:download>Preuzimanje</internet:download>
+			<internet:email>Email </internet:email>
+			<internet:ftp>FTP </internet:ftp>
+			<internet:instant_messenger>Instant poruke</internet:instant_messenger>
+			<internet:rss_reader>RSS čitač</internet:rss_reader>
+			<internet:website_authoring>Vebsajt autoring</internet:website_authoring>
+			<internet:website_copier>Kopiranje vebsajta</internet:website_copier>
+			<multimedia>Multimedija</multimedia>
+			<networking-server>Mreža - Server</networking-server>
+			<networking-server:bandwidth_monitor>Bandwidth monitor </networking-server:bandwidth_monitor>
+			<networking-server:configuration>Konfiguracija</networking-server:configuration>
+			<networking-server:network_analyzer>Mrežna analiza</networking-server:network_analyzer>
+			<networking-server:remote_control>Daljinska kontrola</networking-server:remote_control>
+			<networking-server:scanner>Skener</networking-server:scanner>
+			<networking-server:server>Server </networking-server:server>
+			<networking-server:settings_manager>Podešavanja</networking-server:settings_manager>
+			<networking-server:telnet-ssh_client>Telnet-SSH klijent</networking-server:telnet-ssh_client>
+			<networking-server:tools>Alati</networking-server:tools>
+			<office>Kancelarija</office>
+			<office:calculator>Kalkulator</office:calculator>
+			<office:calendar>Kalendar</office:calendar>
+			<office:chrono>Vremenska linija</office:chrono>
+			<office:desktop_tools>Desktop alati</office:desktop_tools>
+			<office:desktop_tools:application_launcher>Pokretanje aplikacija</office:desktop_tools:application_launcher>
+			<office:desktop_tools:automation>Automatizacija</office:desktop_tools:automation>
+			<office:desktop_tools:clipboard_manager>Klipbord menadžer</office:desktop_tools:clipboard_manager>
+			<office:desktop_tools:clock>Sat</office:desktop_tools:clock>
+			<office:desktop_tools:customization>Prilagođavanje</office:desktop_tools:customization>
+			<office:desktop_tools:desktop_note>Desktop poruke</office:desktop_tools:desktop_note>
+			<office:desktop_tools:keyboard-mouse>Tastatura - Miš</office:desktop_tools:keyboard-mouse>
+			<office:desktop_tools:save_desktop_icon>Sačuvaj desktop ikone</office:desktop_tools:save_desktop_icon>
+			<office:desktop_tools:virtual_desktop>Virtuelni desktop</office:desktop_tools:virtual_desktop>
+			<office:desktop_tools:zoom>Zum</office:desktop_tools:zoom>
+			<office:diagram_editor>Editor dijagrama</office:diagram_editor>
+			<office:finance_manager>Menadžer finansija</office:finance_manager>
+			<office:font_manager>Font menadžer</office:font_manager>
+			<office:note_manager>Menadžer poruka</office:note_manager>
+			<office:office_suite>Kancelarijski pribor</office:office_suite>
+			<office:pdf>PDF </office:pdf>
+			<office:presentation>Prezentacija</office:presentation>
+			<office:task_manager>Menadžer zadataka</office:task_manager>
+			<office:text_editor>Tekst editor</office:text_editor>
+			<office:tutorial_creator>Kreator tutorijala</office:tutorial_creator>
+			<office:unit_converter>Konverter jedinica</office:unit_converter>
+			<office:universal_viewer>Univerzalni pregledač</office:universal_viewer>
+			<security>Sigurnost</security>
+			<security:anti_virus-spyware>Antivirus - Spajver</security:anti_virus-spyware>
+			<security:encryption>Enkripcija</security:encryption>
+			<security:integrity_checker>Provera integriteta</security:integrity_checker>
+			<security:password_manager>Menadžer lozinki</security:password_manager>
+			<security:privacy_tool>Alatke za privatnost</security:privacy_tool>
+			<security:secure_deletion>Sigurno brisanje</security:secure_deletion>
+			<security:tools>Alati</security:tools>
+			<system_utilities>Sistemski alati</system_utilities>
+			<system_utilities:benchmark>Benčmark</system_utilities:benchmark>
+			<system_utilities:benchmark:hard_disk>Hard disk </system_utilities:benchmark:hard_disk>
+			<system_utilities:benchmark:universal>Univerzalni</system_utilities:benchmark:universal>
+			<system_utilities:cleaner-uninstaller>Čistač - uninstaler</system_utilities:cleaner-uninstaller>
+			<system_utilities:emulator>Emulator </system_utilities:emulator>
+			<system_utilities:hex_editor>Hex editor </system_utilities:hex_editor>
+			<system_utilities:information>Informacije</system_utilities:information>
+			<system_utilities:information:file_monitoring>Posmatranje fajlova</system_utilities:information:file_monitoring>
+			<system_utilities:information:hardware_monitoring>Posmatranje hardvera</system_utilities:information:hardware_monitoring>
+			<system_utilities:information:inventory>Invertar</system_utilities:information:inventory>
+			<system_utilities:information:process>Proces</system_utilities:information:process>
+			<system_utilities:information:processor>Procesor</system_utilities:information:processor>
+			<system_utilities:information:service>Usluge</system_utilities:information:service>
+			<system_utilities:information:startup_manager>Startup menadžer</system_utilities:information:startup_manager>
+			<system_utilities:information:usb_device>USB uređaj</system_utilities:information:usb_device>
+			<system_utilities:information:video_card>Video kartica</system_utilities:information:video_card>
+			<system_utilities:registry>Registar</system_utilities:registry>
+			<system_utilities:registry:backup>Rezervna kopija</system_utilities:registry:backup>
+			<system_utilities:registry:comparison>Poređenje</system_utilities:registry:comparison>
+			<system_utilities:registry:compression>Kompresija</system_utilities:registry:compression>
+			<system_utilities:registry:monitoring>Posmatranje</system_utilities:registry:monitoring>
+			<system_utilities:registry:repair>Popravka</system_utilities:registry:repair>
+			<system_utilities:registry:search>Pretraga</system_utilities:registry:search>
+			<system_utilities:repair>Popravka</system_utilities:repair>
+			<system_utilities:tests>Testovi</system_utilities:tests>
+			<system_utilities:tests:burning_test>Test rezanja</system_utilities:tests:burning_test>
+			<system_utilities:tests:hard_disk>Hard disk </system_utilities:tests:hard_disk>
+			<system_utilities:tests:monitor>Monitor </system_utilities:tests:monitor>
+			<system_utilities:tests:ram>RAM </system_utilities:tests:ram>
+			<system_utilities:tools>Alati</system_utilities:tools>
+			<system_utilities:tweaker>Tviker</system_utilities:tweaker>
+			<system_utilities:update_checker>Provera nadogradnje</system_utilities:update_checker>
+			<video>Video </video>
+			<video:authoring>Autoring</video:authoring>
+			<video:capture>Hvatanje</video:capture>
+			<video:cataloger>Kataloger</video:cataloger>
+			<video:converter>Konverter</video:converter>
+			<video:editor>Editor </video:editor>
+			<video:player>Plejer</video:player>
+			<video:repair>Popravka</video:repair>
+			<video:tools>Alati</video:tools>
+		</AppCategories>
+		<AppInfo>
+			<CheckBoxs>
+				<AutoShowInfo_Caption>Prikaži ovu informaciju automatski</AutoShowInfo_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<AppGoToWebSite_ToolTip>Poseti sajt urednika</AppGoToWebSite_ToolTip>
+				<AppInstall_Caption>Instaliraj sada!</AppInstall_Caption>
+				<AppOpenLicenseFile_ToolTip>Vidi licencu</AppOpenLicenseFile_ToolTip>
+				<AppProperties_Caption>Svojstva...</AppProperties_Caption>
+				<AppRun_Caption>Pokreni</AppRun_Caption>
+				<AppUpdate_Caption>Nadogradi sad...</AppUpdate_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppEditorLabel_Caption>Urednik:</AppEditorLabel_Caption>
+				<AppLicenseLabel_Caption>Licenca:</AppLicenseLabel_Caption>
+				<AppPlatformLabel_Caption>Platforma(e):</AppPlatformLabel_Caption>
+			</Labels>
+		</AppInfo>
+		<AppList>
+			<CommandButtons>
+				<AddApp_Caption>Dodaj aplikacije</AddApp_Caption>
+				<AddApps_Caption>Dodaj aplikacije</AddApps_Caption>
+				<AddApps_ToolTip>Kliknite ovde da dodate aplikacije na vaš LiberKey</AddApps_ToolTip>
+				<Browse_ToolTip>Otvori folder aplikacije</Browse_ToolTip>
+				<Cancel_Caption>Zatvori</Cancel_Caption>
+				<Reinstall_Caption>Reinstaliraj</Reinstall_Caption>
+				<Reinstall_ToolTip>Ponovo instaliranje aplikacije može ponovo stvoriti prečice i privremene fajlove u LiberKey meniju.</Reinstall_ToolTip>
+				<Uninstall_Caption>Izbriši</Uninstall_Caption>
+				<Uninstall_ToolTip>Kliknite ovde da izbrišete ovu aplikaciju sa vašeg LiberKey-a. Sve što ova aplikacija koristi biće izbrisano: meniji, informacije, privremeni fajlovi i sam program.</Uninstall_ToolTip>
+			</CommandButtons>
+			<Labels>
+				<AppNameLabel_Caption>Naziv aplikacije</AppNameLabel_Caption>
+				<FolderSizeLabel_Caption>0 KB-a</FolderSizeLabel_Caption>
+				<Title_Caption>Upravljaj portabilnim aplikacijama</Title_Caption>
+			</Labels>
+			<Messages>
+				<Loading>Učitavanje liste...</Loading>
+			</Messages>
+		</AppList>
+		<AppProperties>
+			<AutoRunMode>
+				<Never>Nikad</Never>
+				<ShutDown>Na gašenju</ShutDown>
+				<ShutDownSingle>Na gašenju ako već ne radi</ShutDownSingle>
+				<Startup>Uvek na pokretanju</Startup>
+				<StartupSingle>Na pokretanju ako već nije upaljen</StartupSingle>
+			</AutoRunMode>
+			<CommandButtons>
+				<AppGoToWebSite_Caption>Posetite sajt</AppGoToWebSite_Caption>
+				<ApplyChanges_Caption>Potvrdi</ApplyChanges_Caption>
+				<AppOpenLicenseFile_Caption>Pretraži licencu</AppOpenLicenseFile_Caption>
+				<AppUninstall_Caption>Kliknite ovde da izbrišete ovu aplikaciju sa vašeg LiberKey-a</AppUninstall_Caption>
+				<AppUninstall_ToolTip>Kliknite ovde da izbrišete ovu aplikaciju sa vašeg LiberKey-a. Sve što je povezano sa ovom aplikacijom biće izbrisano: meniji, informacije, privremeni fajlovi, sam program i povezani podaci.</AppUninstall_ToolTip>
+				<AppUpdate_Caption>Nadogradnja...</AppUpdate_Caption>
+				<Cancel_Caption>Zatvori</Cancel_Caption>
+			</CommandButtons>
+			<FileSources>Tip linka</FileSources>
+			<Labels>
+				<AppDescriptionLabel_Caption>Opis aplikacije:</AppDescriptionLabel_Caption>
+				<AppEditorLabel_Caption>Urednik:</AppEditorLabel_Caption>
+				<AppIconLabel_Caption>Prilagođena ikonica:</AppIconLabel_Caption>
+				<AppLicenseLabel_Caption>Licenca:</AppLicenseLabel_Caption>
+				<AppNameLabel_Caption>Ime:</AppNameLabel_Caption>
+				<AppParamsLabel_Caption>Komandni parametri:</AppParamsLabel_Caption>
+				<AppPathLabel_Caption>Izvršna putanja / folder / veb stranica / dokument:</AppPathLabel_Caption>
+				<AppPlatformLabel_Caption>Platforma:</AppPlatformLabel_Caption>
+				<AppVersionLabel_Caption>Verzija:</AppVersionLabel_Caption>
+				<AppWorkDirLabel_Caption>Radni direktorijum:</AppWorkDirLabel_Caption>
+				<Title_Caption>Svojstva aplikacije</Title_Caption>
+			</Labels>
+			<Messages>
+				<BrowseForExe>Izaberite izvršni fajl aplikacije:</BrowseForExe>
+				<BrowseForFileToOpen>Izaberite fajl za otvaranje: </BrowseForFileToOpen>
+				<BrowseForLicense>Izaberi licencu programa:</BrowseForLicense>
+				<ClearLisenseFile>Izbriši link do licence</ClearLisenseFile>
+				<ClearWebAddress>Izbriši link do sajta</ClearWebAddress>
+				<SelectAppWorkDir>Izaberite radni direktorijum aplikacije</SelectAppWorkDir>
+				<SetLicenseAddr>Unesite internet adresu programske licence:</SetLicenseAddr>
+				<SetWebSiteAddr>Unesite internet adresu urednika ovog programa:</SetWebSiteAddr>
+			</Messages>
+			<Tabs>
+				<Application>Aplikacija</Application>
+				<AppMore>Napredno</AppMore>
+			</Tabs>
+			<WindowStartMode>
+				<Maximized>Maksimiziran</Maximized>
+				<Minimized>Minimiziran</Minimized>
+				<Normal>Normalan</Normal>
+			</WindowStartMode>
+		</AppProperties>
+		<CategoryProps>
+			<CheckBoxs>
+				<EditLiberKeyCategory_Caption>Preimenujte ovu LiberKey kategoriju</EditLiberKeyCategory_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Apply_Caption>U redu</Apply_Caption>
+				<Cancel_Caption>Otkaži</Cancel_Caption>
+			</CommandButtons>
+			<Labels>
+				<CategoryHotKey_Caption>Prečica na tastaturi (plutajući meni):</CategoryHotKey_Caption>
+				<CatIconLabel_Caption>Ikonica kategorije:</CatIconLabel_Caption>
+				<CatNameLabel_Caption>Naziv kategorije:</CatNameLabel_Caption>
+				<Title_Caption>Svojstva kategorije:</Title_Caption>
+			</Labels>
+		</CategoryProps>
+		<Config>
+			<About>
+				<Version>verzija %ver%</Version>
+			</About>
+			<CheckBoxs>
+				<AppHotKeysMemoPopup_Caption>Pokažite podsetnik pre pokretanja aplikacije</AppHotKeysMemoPopup_Caption>
+				<AutoCloseApps_Caption>Kada se meni zatvori, zatvori sve pokrenute portabilne aplikacije</AutoCloseApps_Caption>
+				<AutoCollapseOnHide_Caption>Kada se meni sakrije, vratite se na početnu kategoriju</AutoCollapseOnHide_Caption>
+				<AutoHideMenuOnAppRun_Caption>Sakrij meni kada se aplikacija pokrene</AutoHideMenuOnAppRun_Caption>
+				<AutoRemoveDrive_Caption>Kada se meni zatvori, diskonektuj USB uređaj</AutoRemoveDrive_Caption>
+				<AutoRunLiberKey_Caption>Pokreni LiberKey kada se Windows pokrene</AutoRunLiberKey_Caption>
+				<AutoShowAppInfo_Caption>Vidi informacije o aplikaciji</AutoShowAppInfo_Caption>
+				<ConfirmCategoryDeletion_Caption>Potvrdi brisanje katogorije</ConfirmCategoryDeletion_Caption>
+				<ConfirmShortcutDeletion_Caption>Potvrdi brisanje prečice</ConfirmShortcutDeletion_Caption>
+				<CreateTempSendToShortcut_Caption>Napravi &quot;Pošalji u / Moji portabilni dokumenti&quot; privremenu prečicu</CreateTempSendToShortcut_Caption>
+				<DisableAllEffects_Caption>Onesposobi sve efekte animacije</DisableAllEffects_Caption>
+				<DisableControlsEffects_Caption>Onesposobi animacije interfejsa</DisableControlsEffects_Caption>
+				<DisableDialogsEffects_Caption>Onesposobi animacije dijaloga</DisableDialogsEffects_Caption>
+				<DisableMenuEffects_Caption>Onesposobi animacije menija</DisableMenuEffects_Caption>
+				<DisplayClock_Caption>Pokaži sat</DisplayClock_Caption>
+				<DontShowEmptyDesc_Caption>Osim kada je opis prazan</DontShowEmptyDesc_Caption>
+				<EnableAppHotKeys_Caption>Omogućite prečice na tastaturi za pokretanje aplikaciju</EnableAppHotKeys_Caption>
+				<EnableAppsAutoStart_Caption>Omogući automatsko pokretanje</EnableAppsAutoStart_Caption>
+				<HideClockSeconds_Caption>Sakij sekunde</HideClockSeconds_Caption>
+				<HotKeyFloatMenu_Caption>Plutajući meni:</HotKeyFloatMenu_Caption>
+				<HotKeyMain_Caption>Glavni meni:</HotKeyMain_Caption>
+				<SingleClicAppRun_Caption>Pokreni aplikacije jednim klikom</SingleClicAppRun_Caption>
+				<SingleClicCategoryExpand_Caption>Otvori kategorije sa jednim klikom</SingleClicCategoryExpand_Caption>
+				<ToolsAutoOpenLiberKeyNews_Caption>Automatski otvori nove prozore</ToolsAutoOpenLiberKeyNews_Caption>
+				<ToolsCheckAppUpdates_Caption>Nadogradnje aplikacije</ToolsCheckAppUpdates_Caption>
+				<ToolsCheckLBKUpdates_Caption>Nadogradnje LiberKey Platforme</ToolsCheckLBKUpdates_Caption>
+				<ToolsCheckLiberKeyNews_Caption>Novosti</ToolsCheckLiberKeyNews_Caption>
+				<ToolsDoOnlineChecks_Caption>Omogući automatske provere</ToolsDoOnlineChecks_Caption>
+				<ToolsQuitKFA_Caption>Onemogući povezivanje fajlova kada se meni zatvori</ToolsQuitKFA_Caption>
+				<ToolsQuitPDS_Caption>Ukloni portabilne prečice kada se meni zatvori</ToolsQuitPDS_Caption>
+				<ToolsStartKFA_Caption>Omogući povezivanje fajlova kada se meni pokrene</ToolsStartKFA_Caption>
+				<ToolsStartPDS_Caption>Dodaj portabilne prečice kada se meni pokrene</ToolsStartPDS_Caption>
+				<UseClearTypeFonts_Caption>Koristi &quot;ClearType&quot; za pokazivanje fontova na ekranu</UseClearTypeFonts_Caption>
+				<UseMenuAppsAssoc_Caption>Poveži LiberKey sa svim fajlovima</UseMenuAppsAssoc_Caption>
+				<UseProxy_Caption>Koristi proksi server za pristup Internetu</UseProxy_Caption>
+				<VoiceOver_Caption>Omogući čitanje teksta prelaskom miša preko elementa</VoiceOver_Caption>
+				<WindowZoom_Caption>Omogući automatsko zumiranje prozora</WindowZoom_Caption>
+				<ZoomMenuFont_Caption>Promeni font plutajućeg menija</ZoomMenuFont_Caption>
+				<ZoomMenuFontAntialias_Caption>Antialias </ZoomMenuFontAntialias_Caption>
+				<ZoomMenuFontBold_Caption>Bold </ZoomMenuFontBold_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<ApplyChanges_Caption>Potvrdi</ApplyChanges_Caption>
+				<AutoRunDown_ToolTip>Pomeri dole</AutoRunDown_ToolTip>
+				<AutoRunLocate_ToolTip>Pronađi ovu prečicu u LiberKey meniju</AutoRunLocate_ToolTip>
+				<AutoRunProperties_ToolTip>Svojstva prečica</AutoRunProperties_ToolTip>
+				<AutoRunRemove_ToolTip>Ukloni iz liste auto. pokretanja</AutoRunRemove_ToolTip>
+				<AutoRunUp_ToolTip>Pomeri gore</AutoRunUp_ToolTip>
+				<Cancel_Caption>Zatvori</Cancel_Caption>
+				<CopyTechnicalInfo_Caption>Kopiraj ovu informaciju na klipbord</CopyTechnicalInfo_Caption>
+				<CreateAccount_Caption>Klikni ovde da napraviš besplatan nalog!</CreateAccount_Caption>
+				<KBSCRemove_ToolTip>Ukloni prečice tastature</KBSCRemove_ToolTip>
+				<SendTechnicalInfo_Caption>Pošalji</SendTechnicalInfo_Caption>
+			</CommandButtons>
+			<Labels>
+				<AccessibilityInfo_Caption>Podešavanje opcija pristupačnosti</AccessibilityInfo_Caption>
+				<Animations_Caption>Animacije</Animations_Caption>
+				<AppHotKeysMemoPopupDuration_Caption>Pokaži trajanje podsetnika:</AppHotKeysMemoPopupDuration_Caption>
+				<AppSetupInfo_Caption>Podesi LiberKey instaler aplikacija.</AppSetupInfo_Caption>
+				<AppUpdateInfo_Caption>Podesi softver nadogradnje sistema vašeg LiberKey-a.</AppUpdateInfo_Caption>
+				<AutoCheckOptions_Caption>Automatsko proveravanje</AutoCheckOptions_Caption>
+				<AutoRunDelay_Caption>Vreme pre samo-pokretanja (sekunde):</AutoRunDelay_Caption>
+				<AutoRunEachDelay_Caption>Vreme pre svakog pokretanja (sekunde):</AutoRunEachDelay_Caption>
+				<AutorunInfo_Caption>Upravljaj aplikacijama koje se izvršavaju na pokretanju i gašenju LiberKey menija</AutorunInfo_Caption>
+				<ClearTypeRestart_Caption>(zahteva restartovanje menija)</ClearTypeRestart_Caption>
+				<ColorsInfo_Caption>Primarna boja menija i prozora</ColorsInfo_Caption>
+				<Confirmations_Caption>Potvrde</Confirmations_Caption>
+				<CreateAccountLabel_Caption>Nemate nalog?</CreateAccountLabel_Caption>
+				<CustomBrightnessLabel_Caption>Bistrina</CustomBrightnessLabel_Caption>
+				<CustomColorInfo_Caption>Varijacija prilagođene boje</CustomColorInfo_Caption>
+				<CustomHueRotationLabel_Caption>Nijansa</CustomHueRotationLabel_Caption>
+				<CustomSaturationLabel_Caption>Zasićenje</CustomSaturationLabel_Caption>
+				<DefaultEffectSet>Standardni efekti</DefaultEffectSet>
+				<EffectSetLabel_Caption>Set efekata:</EffectSetLabel_Caption>
+				<FileAssocUpdatesOnlyInfo_Caption>Tokom nadogradnje, povezivanje fajlova se ne menja. Ono je definisano samo za nove aplikacije.</FileAssocUpdatesOnlyInfo_Caption>
+				<Fonts_Caption>Fontovi</Fonts_Caption>
+				<Gadgets_Caption>Dodaci</Gadgets_Caption>
+				<KeyboardShortcutsInfo_Caption>Prečice tastature koje koristi LiberKey meni</KeyboardShortcutsInfo_Caption>
+				<KFAoptions_Caption>Poveži fajlove sa portabilnim aplikacijama</KFAoptions_Caption>
+				<LangAuthorEmailLabel_Caption>Email: </LangAuthorEmailLabel_Caption>
+				<LangAuthorNameLabel_Caption>Autor:</LangAuthorNameLabel_Caption>
+				<LangAuthorWebsiteLabel_Caption>Sajt:</LangAuthorWebsiteLabel_Caption>
+				<LangContributors_Caption>Saradnici:</LangContributors_Caption>
+				<LangContributorsLabel_Caption>Saradnici:</LangContributorsLabel_Caption>
+				<LanguagesInfo_Caption>Izaberite jezik korisničkog interfejsa</LanguagesInfo_Caption>
+				<LangVersionLabel_Caption>Verzija:</LangVersionLabel_Caption>
+				<MaxRecentCount_Caption>Maksimalan broj stavki u skoro korišćenim aplikacijama</MaxRecentCount_Caption>
+				<MaxVisibleMostUsed_Caption>Maksimalan broj stavki u najčešće korišćenim pokretanjima</MaxVisibleMostUsed_Caption>
+				<MenuAccess_Caption>LiberKey meni za pristup</MenuAccess_Caption>
+				<MenuDelay_Caption>Odlaganje otvaranja menija:</MenuDelay_Caption>
+				<MenuDelayMS_Caption>milisekunde</MenuDelayMS_Caption>
+				<MenuIconActions_Caption>Ikonica sistema trej</MenuIconActions_Caption>
+				<MenuKeyboardShortcuts_Caption>Prečice tastature:</MenuKeyboardShortcuts_Caption>
+				<Misc_Caption>Ostalo</Misc_Caption>
+				<Navigation_Caption>Navigacija</Navigation_Caption>
+				<NeverUpdateFileAssocInfo_Caption>Povezivanje fajlova ostaje nepromenjeno kada se aplikacije dodaju ili nadograđuju.</NeverUpdateFileAssocInfo_Caption>
+				<NotificationsOptions_Caption>Obaveštenja</NotificationsOptions_Caption>
+				<Password_Caption>Lozinka:</Password_Caption>
+				<PDSoptions_Caption>Portabilne Desktop Prečice</PDSoptions_Caption>
+				<PlatformVersionInfo_Caption>Tim tehničke podrške na LiberKey forumu može da zatraži ovu informaciju. Da bi ste kopirali ovu listu, kliknite na &quot;Kopiraj ovu informaciju&quot; dugme.</PlatformVersionInfo_Caption>
+				<ProxyHost_Caption>Ime Hosta / IP adresa:</ProxyHost_Caption>
+				<ProxyInfo_Caption>Ako koristite proksi server da pristupite internetu, popunite polja ispod:</ProxyInfo_Caption>
+				<ProxyPassword_Caption>Lozinka:</ProxyPassword_Caption>
+				<ProxyPort_Caption>Port: </ProxyPort_Caption>
+				<ProxyUser_Caption>Korisničko ime:</ProxyUser_Caption>
+				<QuitOptions_Caption>Automatsko zatvaranje aplikacija i diskonektovanje</QuitOptions_Caption>
+				<RecentAndMostUsed_Caption>Istorija korišćenja aplikacije</RecentAndMostUsed_Caption>
+				<StartupWindowShowAlways_Caption>Uvek prikaži LiberKey meni</StartupWindowShowAlways_Caption>
+				<StartupWindowShowNever_Caption>Nikad ne pokazuj LiberKey meni</StartupWindowShowNever_Caption>
+				<StartupWindowShowPrevious_Caption>Pokaži meni samo ako je bio vidljiv na posednjem korišćenju</StartupWindowShowPrevious_Caption>
+				<StartupWindowStateLabel_Caption>Na pokretanju:</StartupWindowStateLabel_Caption>
+				<Title_Caption>LiberKey Meni - Podešavanja</Title_Caption>
+				<TrayLeftClickActionLabel_Caption>Levi klik:</TrayLeftClickActionLabel_Caption>
+				<TrayRightClickActionLabel_Caption>Desni klik:</TrayRightClickActionLabel_Caption>
+				<UpdateAllAppsInfo_Caption>Opcionalne i prioritetne nadogradnje su instalirane bez korisničkog unosa (automatski mod).</UpdateAllAppsInfo_Caption>
+				<UpdateAutoStartInfo_Caption>Prioritetne nadogradnje su instalirane bez korisničkog unosa (automatski mod).</UpdateAutoStartInfo_Caption>
+				<UpdateFileAssocInfo_Caption>Kada je aplikacija dodata ili nadograđena instalerom, ona se automatski povezuje sa fajlovima koje može da menja.</UpdateFileAssocInfo_Caption>
+				<UpdateNoUserAlertInfo_Caption>Kada se LiberKey pokrene, ne prikazuj poruke o nadogradnji aplikacija. Biće te obavešteni kada pokrenete aplikaciju kojoj je nadogradnja dostupna.</UpdateNoUserAlertInfo_Caption>
+				<UpdateUIAlertInfo_Caption>Vi onda možete da vidite listu dostupnih nadogradnji i izaberete one koje želite da primenite.</UpdateUIAlertInfo_Caption>
+				<UserLoginInfo_Caption>Logovanje više nije zahtevano da bi preuzeli nadogradnje za vaše aplikacije. Ipak, mi i dalje preporučujemo da unesete vaše korisničke detalje</UserLoginInfo_Caption>
+				<UserName_Caption>Korisničko ime:</UserName_Caption>
+				<ZoomMenuFontNameLabel_Caption>Font: </ZoomMenuFontNameLabel_Caption>
+				<ZoomMenuFontSizeLabel_Caption>Veličina:</ZoomMenuFontSizeLabel_Caption>
+			</Labels>
+			<OptionButtons>
+				<optAlwaysUpdateFileAssoc_Caption>Uvek nadogradi povezivanje fajlova</optAlwaysUpdateFileAssoc_Caption>
+				<optAutoRunAtStartup_Caption>Kada se LiberKey pokrene</optAutoRunAtStartup_Caption>
+				<optAutoRunOnQuit_Caption>Kada se LiberKey zatvori</optAutoRunOnQuit_Caption>
+				<optMenuDelayCustom_Caption>Drugačije</optMenuDelayCustom_Caption>
+				<optMenuDelayDefault_Caption>Standard</optMenuDelayDefault_Caption>
+				<optNeverUpdateFileAssoc_Caption>Nikad nemoj da nadogradiš povezivanje fajlova</optNeverUpdateFileAssoc_Caption>
+				<optUpdateAllApps_Caption>Automatski instaliraj sve nadogradnje</optUpdateAllApps_Caption>
+				<optUpdateAutoStart_Caption>Preuzmi i instaliraj nadogradnje automatski</optUpdateAutoStart_Caption>
+				<optUpdateFileAssocNewApps_Caption>Postavi povezivanje novih aplikacija</optUpdateFileAssocNewApps_Caption>
+				<optUpdateNoUserAlert_Caption>Upozori me samo kada se aplikacija pokreće</optUpdateNoUserAlert_Caption>
+				<optUpdateUIAlert_Caption>Pokaži ikonicu i obaveštajne poruke</optUpdateUIAlert_Caption>
+				<optUpdateUserAlert_Caption>Upozori me ako su prioritetne nadogradnje dostupne</optUpdateUserAlert_Caption>
+			</OptionButtons>
+			<Options>
+				<About>O LiberKey-u</About>
+				<Accessibility>Pristupačnost</Accessibility>
+				<Advanced>Napredne opcije</Advanced>
+				<AppSetup>Podešavanje instaliranja aplikacija</AppSetup>
+				<Autorun>Automatsko pokretanje</Autorun>
+				<AutoUpdate>Podešavanja nadogranje aplikacija</AutoUpdate>
+				<Colors>Boje</Colors>
+				<Effects>Korisnički interfejs</Effects>
+				<Help>Pomoć</Help>
+				<KeyboardShortcuts>Prečice tastature</KeyboardShortcuts>
+				<Language>Jezik</Language>
+				<LiberKeyTools>LiberKey Alati</LiberKeyTools>
+				<Proxy>HTTP proksi</Proxy>
+				<TechnicalInfo>Tehničke informacije</TechnicalInfo>
+				<User>Korisničke informacije</User>
+			</Options>
+		</Config>
+		<FloatingMenu>
+			<AlwaysOnTop>Uvek na vrhu</AlwaysOnTop>
+			<AutoCollapse>Automatski skupi</AutoCollapse>
+			<Close>Zatvori</Close>
+			<FixedMode>Zadrži otvorenim</FixedMode>
+			<GoToParent>Prebaci na glavni meni</GoToParent>
+		</FloatingMenu>
+		<IconSelect>
+			<Labels>
+				<Title_Caption>Odabir ikonice</Title_Caption>
+			</Labels>
+		</IconSelect>
+		<Main>
+			<CommandButtons>
+				<AddApps_Caption>Instalacija</AddApps_Caption>
+				<AddApps_ToolTip>Dodavanje / brisanje aplikacija</AddApps_ToolTip>
+				<Close_ToolTip>Sakrij LiberKey meni</Close_ToolTip>
+				<CloseSearch2_Caption>Zatvori</CloseSearch2_Caption>
+				<Config_Caption>LiberKey Alati</Config_Caption>
+				<MyDocs_Caption>Dokumenta</MyDocs_Caption>
+				<MyMusic_Caption>Muzika</MyMusic_Caption>
+				<MyPictures_Caption>Slike</MyPictures_Caption>
+				<Quit_ToolTip>Zatvori LiberKey meni</Quit_ToolTip>
+				<TabsScrollLeft_ToolTip>Pomeri levo</TabsScrollLeft_ToolTip>
+				<TabsScrollRight_ToolTip>Pomeri desno</TabsScrollRight_ToolTip>
+				<UserMenus_ToolTip>Meni korisnika</UserMenus_ToolTip>
+				<ViewIcons_ToolTip>Velike ikonice</ViewIcons_ToolTip>
+				<ViewTree_ToolTip>Stablo</ViewTree_ToolTip>
+			</CommandButtons>
+			<Labels>
+				<SearchInfoLabel_Caption>Pronađeno: %count% prečica</SearchInfoLabel_Caption>
+				<SearchInfoTitle_Caption>Pretraži LiberKey</SearchInfoTitle_Caption>
+			</Labels>
+			<LiberKeyTools>
+				<AddApps>Pretraži katalog aplikacije</AddApps>
+				<AddAppsTip>Ovaj čarobnjak vam dozvoljava da se povežete sa LiberKey serverom i pronađete i instalirate aplikacije koje tražite.</AddAppsTip>
+				<AddPortableShortcuts>Dodajte portabilne prečice</AddPortableShortcuts>
+				<AddRemoveApps>Dodaj / Izbriši programe</AddRemoveApps>
+				<AppsClose>Zatvori aplikacije</AppsClose>
+				<AppsCloseTip>LiberKey zatvarač aplikacija automatski zatvara sve aplikacije pokrenute sa LiberKey-a. Metode korišćene za zatvaranje aplikacija su brojne i podešene za svaku aplikaciju. Ako se neki fajl menjao (npr. dokument), program će vas pitati da sačuvate.</AppsCloseTip>
+				<Configuration>Podešavanja</Configuration>
+				<ConfigurationTip>LiberKey podešavanja.\nSva podešavanja vezana za izgled i ponašanje LiberKey-a su u ovom prozoru.</ConfigurationTip>
+				<DisableFileAssoc>Onemogući povezivanje fajlova</DisableFileAssoc>
+				<DisableFileAssocTip>Fajlovi na vašem kompjuteru su trenutno povezani sa vašim LiberKey aplikacijama.\nKlikni da povratiš povezivanje fajlova sa lokalnog kompjutera.</DisableFileAssocTip>
+				<EnableFileAssoc>Omogući povezivanje fajlova</EnableFileAssoc>
+				<EnableFileAssocTip>Omogućite privremeno povezivanje fajlova (.avi, .jpg, .doc, ...) za aplikacije na vašem LiberKey.</EnableFileAssocTip>
+				<FileAssoc>Povezivanje fajlova</FileAssoc>
+				<GoToWebSite>Posetite LiberKey sajt</GoToWebSite>
+				<GoToWebSiteTip>Ovaj meni vam dozvoljava da pristupite LiberKey sajtu.\nPronaćiće te razne informacije na LiberKey.com i forumu otvorenom za sve korisnike.</GoToWebSiteTip>
+				<InstallAppSuite>Instaliraj paket aplikacija</InstallAppSuite>
+				<InstallAppSuiteTip>Ovaj čarobnjak vam dozvoljava da instalirate pun paket aplikacija.</InstallAppSuiteTip>
+				<LiberKeyNews>Pročitaj novosti</LiberKeyNews>
+				<LiberKeyNewsTip>LiberKey Novosti informiše vas o svakom razvoju vezanom za LiberKey \nNove aplikacije u online katalogu ili informacije vezane za LiberKey će biti prikazane u LiberKey Novostima.</LiberKeyNewsTip>
+				<ManageApps>Upravljaj aplikacijama</ManageApps>
+				<ManageAppsTip>Izbriši, instaliraj ili reinstaliraj aplikacije. Ovaj skup alata će vam pomoći da upravljate instaliranim aplikacijama na vašem LiberKey.</ManageAppsTip>
+				<PortableShortcutsTip>Portabilne Desktop Prečice dozvoljavaju vam da upravljate vašim portabilnim desktop prečicama vezanim za vaš LiberKey\nTakođe možete da sačuvate lokacije prečica na desktopu.</PortableShortcutsTip>
+				<RemovePortableShortcuts>Ukloni portabilne aplikacije</RemovePortableShortcuts>
+				<Title>LiberKey Alati</Title>
+				<UpdateCheck>Provera nadogradnje</UpdateCheck>
+				<UpdateCheckTip>Proverite da li je dostupna nova verzija LiberKey ili nadogradnje softvera.\nNadogradnje možete da dobijete direktno preko LiberKey.com.</UpdateCheckTip>
+				<UsbEject>Diskonektujte Vaš LiberKey</UsbEject>
+				<USBEjectTip>LiberKey USB Izbacivač dozvoljava vam da diskonektujete USB uređaj na kom se nalazi LiberKey (automatski zatvara sve aplikacije).\n\nPODSETNIK: Vaš USB uređaj može da se izvadi samo kad su sve aplikacije zatvorene.</USBEjectTip>
+			</LiberKeyTools>
+			<Messages>
+				<About>O LiberKey-u...</About>
+				<BrowseForNewFolder>Izaberite folder koji će aplikacija da pokrene</BrowseForNewFolder>
+				<PatchDownload>Preuzimanje nadogradnje...</PatchDownload>
+				<SearchResults>Rezultati pretrage</SearchResults>
+			</Messages>
+		</Main>
+		<Menu>
+			<LKHelp>LiberKey pomoć</LKHelp>
+			<LKQuickLaunch>LiberKey brzo pokretanje</LKQuickLaunch>
+			<MostUsed>Najčešće korišćeno</MostUsed>
+			<MyApps>Moje aplikacije</MyApps>
+			<MyDocs>Moji dokumenti</MyDocs>
+			<Recent>Skoro korišćeno</Recent>
+		</Menu>
+		<MenuProperties>
+			<CheckBoxs>
+				<EditMode_Caption>Dozvoli izmene</EditMode_Caption>
+				<NotInSystrayMenu_Caption>Ne prikazuj u glavnom plutajućem meniju</NotInSystrayMenu_Caption>
+				<ShowName_Caption>Prikaži naziv</ShowName_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Apply_Caption>U redu</Apply_Caption>
+				<Cancel_Caption>Otkaži</Cancel_Caption>
+			</CommandButtons>
+			<Labels>
+				<MenuIconLabel_Caption>Povezane ikonice:</MenuIconLabel_Caption>
+				<MenuNameLabel_Caption>Naziv menija:</MenuNameLabel_Caption>
+				<Title_Caption>Svojstva korisničkog menija</Title_Caption>
+			</Labels>
+		</MenuProperties>
+		<Menus>
+			<AppCopy_Caption>&amp;Kopiraj</AppCopy_Caption>
+			<AppCut_Caption>&amp;Iseči</AppCut_Caption>
+			<AppDelApp_Caption>&amp;Izbriši</AppDelApp_Caption>
+			<AppEditProps_Caption>&amp;Svojstva aplikacije...</AppEditProps_Caption>
+			<AppGoToWebSite_Caption>&amp;Poseti sajt</AppGoToWebSite_Caption>
+			<AppLaunch_Caption>&amp;Pokreni</AppLaunch_Caption>
+			<AppLocate_Caption>&amp;Pronađi kategoriju</AppLocate_Caption>
+			<AppLocation-0_Caption>(ime kategorije)</AppLocation-0_Caption>
+			<AppLocations_Caption>&amp;Pronađi kategoriju</AppLocations_Caption>
+			<AppOpenAppFolder_Caption>&amp;Otvori folder sa aplik.</AppOpenAppFolder_Caption>
+			<AppPaste_Caption>&amp;Nalepi</AppPaste_Caption>
+			<AppRunAs_Caption>&amp;Pokreni kao...</AppRunAs_Caption>
+			<AppRunAsAdmin_Caption>&amp;Pokreni kao Administrator</AppRunAsAdmin_Caption>
+			<AppSetup_Caption>&amp;Instaliraj ovu aplikaciju</AppSetup_Caption>
+			<AppShowInfo_Caption>&amp;Informacije</AppShowInfo_Caption>
+			<AppUpdate_Caption>&amp;Nadogradi</AppUpdate_Caption>
+			<CatAdd_Caption>Nova prečica</CatAdd_Caption>
+			<CatAddApp_Caption>Aplikacija / datoteka</CatAddApp_Caption>
+			<CatAddFolder_Caption>Folder.. </CatAddFolder_Caption>
+			<CatAddWebPage_Caption>Veb stranica...</CatAddWebPage_Caption>
+			<CatCopy_Caption>&amp;Kopiraj</CatCopy_Caption>
+			<CatCut_Caption>&amp;Iseči</CatCut_Caption>
+			<CatDelCat_Caption>&amp;Izbriši</CatDelCat_Caption>
+			<CatEditProps_Caption>&amp;Svojstva...</CatEditProps_Caption>
+			<CatListMode_Caption>Pokaži &amp;listu</CatListMode_Caption>
+			<CatNewCat_Caption>&amp;Nova kategorija</CatNewCat_Caption>
+			<CatPaste_Caption>&amp;Nalepi</CatPaste_Caption>
+			<CatShowMenu_Caption>&amp;Plutajući meni...</CatShowMenu_Caption>
+			<CatSort_Caption>&amp;Sortiraj</CatSort_Caption>
+			<DoNothing_Caption>Ne radi ništa</DoNothing_Caption>
+			<FolderOpen_Caption>&amp;Otvori folder</FolderOpen_Caption>
+			<InstallLKS_Caption>Instaliraj LKS (LiberKey Setup) pakete</InstallLKS_Caption>
+			<InstallLKS_Tip>Izaberi jedan ili više LKS fajlova (LiberKey Setup) da instaliraš jednim klikom</InstallLKS_Tip>
+			<InstallsFromAppsFolder_Caption>Iz &quot;Apps&quot; foldera</InstallsFromAppsFolder_Caption>
+			<InstallsFromAppsFolder_Tip>Ovaj čarobnjak će automatski proveriti &quot;Apps&quot; direktorijum na vašem LiberKey ako su nove aplikacije prisutne.\nNa primer možete kopirati aplikacije sa drugog LiberKey i sačuvati ih u vašem Apps folderu, i ovaj čarobnjak će ih pronaći.</InstallsFromAppsFolder_Tip>
+			<InstallsFromMyApps_Caption>Iz &quot;MyApps&quot; foldera...</InstallsFromMyApps_Caption>
+			<InstallsFromMyApps_Tip>Ako ste ručno dodali portabilne aplikacije u &quot;MyApps&quot; direktorijum na vašem LiberKey, ovaj čarobnjak će pokušati da ih detektuje i registruje u meniju.</InstallsFromMyApps_Tip>
+			<InternetOpen_Caption>&amp;Otvori</InternetOpen_Caption>
+			<MenusCreate_Caption>&amp;Napravi novi meni...</MenusCreate_Caption>
+			<MenusDelete_Caption>&amp;Izbriši sadašnji meni</MenusDelete_Caption>
+			<MenusEdit_Caption>&amp;Svojstva sadašnjeg menija</MenusEdit_Caption>
+			<MenusExport_Caption>&amp;Izvezi sadašnji meni...</MenusExport_Caption>
+			<MenusHideNames_Caption>&amp;Sakrij nazive</MenusHideNames_Caption>
+			<MenusImport_Caption>&amp;Uvezi meni...</MenusImport_Caption>
+			<MenusRecent_Caption>&amp;Skoro korišćeno</MenusRecent_Caption>
+			<MenusShowNames_Caption>Pokaži &amp;nazive</MenusShowNames_Caption>
+			<MenusUser-0_Caption>Standardni meni</MenusUser-0_Caption>
+			<Open_Caption>&amp;Otvori</Open_Caption>
+			<OpenActiveFloatMenu_Caption>Otvori plutajući meni</OpenActiveFloatMenu_Caption>
+			<OpenMainWindow_Caption>Otvori glavni meni</OpenMainWindow_Caption>
+			<PatchCancelDownload_Caption>&amp;Otkaži preuzimanje</PatchCancelDownload_Caption>
+			<Quit>Izađi</Quit>
+			<RepairApps_Caption>Popravi oštećene aplikacije</RepairApps_Caption>
+			<RepairApps_Tip>Ovaj čarobnjak će automatski proveriti u &quot;Apps&quot; folderu na vašem LiberKey da li su aplikacije oštećene.\nAko je aplikacija sa LiberKey kataloga oštećena, čarobnjak će ponuditi da se aplikacija reinstalira.</RepairApps_Tip>
+			<SendToPortableDocs>Moji prenosni dokumenti</SendToPortableDocs>
+			<SendToPortableDocsDescription>Kopiraj izabrane fajlove u &quot;Moji Dokumenti&quot; LiberKey folder</SendToPortableDocsDescription>
+			<ShortcutEditProps_Caption>Svojstva prečice...</ShortcutEditProps_Caption>
+			<SuiteSetup>
+				<AppList>Lista aplikacija</AppList>
+				<HideNewApps_Caption>Sakrij nove aplikacije</HideNewApps_Caption>
+				<HideUpdates_Caption>Sakrij nadogradnje aplikacija</HideUpdates_Caption>
+				<HideUpToDateApps_Caption>Sakrij savremene aplikacije</HideUpToDateApps_Caption>
+				<SelectAll_Caption>Izaberi sve</SelectAll_Caption>
+				<SelectNewApps_Caption>Izaberi nove aplikacije</SelectNewApps_Caption>
+				<SelectPriority_Caption>Izaberi prioritetne nadogradnje</SelectPriority_Caption>
+				<SelectUpdates_Caption>Izaberi aplikacione nadogradnje</SelectUpdates_Caption>
+				<ShowNewApps_Caption>Prikaži nove aplikacije</ShowNewApps_Caption>
+				<ShowUpdates_Caption>Prikaži nadogradnje aplikacija </ShowUpdates_Caption>
+				<ShowUpToDateApps_Caption>Prikaži savremene aplikacije</ShowUpToDateApps_Caption>
+				<UnselectAll_Caption>Poništi sve</UnselectAll_Caption>
+				<UnselectNewApps_Caption>Nemoj da izabereš nove aplikacije</UnselectNewApps_Caption>
+				<UnselectPriority_Caption>Nemoj da izabereš prioritetne nadogradnje</UnselectPriority_Caption>
+				<UnselectUpdates_Caption>Nemoj izabrati nadogradnje aplikacija</UnselectUpdates_Caption>
+			</SuiteSetup>
+			<SynchronizeCatalog_Caption>Iz online kataloga</SynchronizeCatalog_Caption>
+			<SynchronizeCatalog_Tip>Ovaj čarobnjak će vam dozvoliti da se povežete sa LiberKey serverima i pronađete aplikacije koje tražite, i instalirate ih na vašem LiberKey.</SynchronizeCatalog_Tip>
+			<UserMenuTabEditable_Caption>Dozvoli izmene</UserMenuTabEditable_Caption>
+			<UserMenuTabFloatMenu_Caption>&amp;Plutajući meni</UserMenuTabFloatMenu_Caption>
+			<UserMenuTabHideName_Caption>&amp;Sakrij naziv</UserMenuTabHideName_Caption>
+			<UserMenuTabProperties_Caption>&amp;Svojstva...</UserMenuTabProperties_Caption>
+			<UserMenuTabShowName_Caption>&amp;Prikaži naziv</UserMenuTabShowName_Caption>
+		</Menus>
+		<Messages>
+			<AllFilesSelection>Svi fajlovi|*.*</AllFilesSelection>
+			<AppInstallation>Instaliranje aplikacije %appname%...</AppInstallation>
+			<AppInstallDone>Aplikacija %appname% je instalirana na vašem LiberKey-u.</AppInstallDone>
+			<AppInstalled>Aplikacija instalirana: %appname%</AppInstalled>
+			<AppNotFound>Ova aplikacija nije instalirana na vašem LiberKey-u.</AppNotFound>
+			<AppNotFoundTitle>Pronađi aplikaciju</AppNotFoundTitle>
+			<AppRefCount>Prečica do ove aplikacije: %count%</AppRefCount>
+			<AppRegistered>Aplikacija je sada registrovana u vašem LiberKey-u.\n\nSada možete napraviti prečicu.</AppRegistered>
+			<AppRunningCantUninst>Aplikacija je trenutno pokrenuta.\n\nNe možete je izbrisati dok je pokrenuta.</AppRunningCantUninst>
+			<AppsInstallDone>%count% novih aplikacije je instalirano na vašem LiberKey.</AppsInstallDone>
+			<AutoImportMenu>Još uvek niste napravili meni za pokretanje vaših aplikacija.\nDa li želite da uvezete stablo iz starog menija?</AutoImportMenu>
+			<BrokenAppFoundReinstall>Ova aplikacija izgleda da je oštećena: %appname%\n\nDa li želite da je reinstalirate?</BrokenAppFoundReinstall>
+			<Browse>Pretraži...</Browse>
+			<ConfirmDeleteCategory>Da li ste sigurni da želite da izbrišete kategoriju &quot;%name%&quot; i prečice koje sadrži?</ConfirmDeleteCategory>
+			<ConfirmDeleteSortcut>Da li ste sigurni da želite da izbrišete prečicu &quot;%name%&quot;?</ConfirmDeleteSortcut>
+			<ConfirmDeletion>Potvrdi brisanje</ConfirmDeletion>
+			<ConfirmInstallApp>Instalirajte %app% na vašem LiberKey-u?</ConfirmInstallApp>
+			<ConfirmInstallExtension>Da li hoćete da instalirate ovu ekstenziju na vašem LiberKey?\n\n%extname%</ConfirmInstallExtension>
+			<ConfirmInstallMyApps>Da li želite da detektujete nove aplikacije u &quot;MyApps&quot; folderu?</ConfirmInstallMyApps>
+			<ConfirmInstallNewApps>Da li želite da pronađete nove aplikacije u &quot;Apps&quot; folderu?</ConfirmInstallNewApps>
+			<ConfirmUninstallApp>Da li ste sigurni da želite da uklonite ovu aplikaciju?\nOva akcija ne može da se popravi.</ConfirmUninstallApp>
+			<DateFormat>mm/dd/yyyy </DateFormat>
+			<DefaultIcon>(Standardna ikonica)</DefaultIcon>
+			<DeleteMenuConfirm>Izbrišite meni &quot;%menu%&quot;?</DeleteMenuConfirm>
+			<DownloadPatchNow>Preuzmite nadogradnje sada?</DownloadPatchNow>
+			<DropLKSLoadingInfos>Molimo vas da sačekate dok se prikupljaju informacije o aplikaciji...</DropLKSLoadingInfos>
+			<DropLKSToInstall>Pustite dugme miša da se aplikacija instalira na vaš LiberKey.</DropLKSToInstall>
+			<Errors>
+				<AccessDenied>Pristup odbijen</AccessDenied>
+				<AccessRightsError>LiberKey zahteva dozvolu za pisanje za portabilni uređaj na kome se nalazi.</AccessRightsError>
+				<AssocIncomplete>Povezivanje fajlova nije završeno ili je nepotpuno.</AssocIncomplete>
+				<CantCreateTempFolder>Nismo u mogućnosti da napravimo privremeni folder.</CantCreateTempFolder>
+				<CantDefineHotKey>Dogodila se greška prilikom postavljanja hotkey prečice &quot;%name%&quot;:\n%err%</CantDefineHotKey>
+				<CantDefineHotKeys>Dogodila se greška prilikom postavljanja hotkey-a za sledeće prečice:\n%err%\n%namelist%</CantDefineHotKeys>
+				<CantStartOnRemoteDrive>Ne možete da koristite LiberKey na mrežnom uređaju.</CantStartOnRemoteDrive>
+				<DDEBusy>DDE zauzet.</DDEBusy>
+				<DDETimeout>DDE Timeout. </DDETimeout>
+				<DDETransacFailed>DDE transakcija nije uspela.</DDETransacFailed>
+				<DllNotFound>DLL nije pronađen.</DllNotFound>
+				<ErrorTitle>Greška</ErrorTitle>
+				<ErrShare>Dogodilo se kršenje pravila deljenja.</ErrShare>
+				<ExeBadFormat>Neispravan EXE fajl ili greška u EXE slici.</ExeBadFormat>
+				<ExecError>Greška u pokretanju programa.</ExecError>
+				<FileNotFound>Datoteka nije pronađena.</FileNotFound>
+				<GetUpdateInfoError>Dogodila se greška prilikom pokušaja da se prikupe informacije nadogradnje:\nGreška %err%: %desc%</GetUpdateInfoError>
+				<HotKeyAlreadyUsedBy>Vi već koristite ovu kombinaciju za prečicu &quot;%name%&quot;!</HotKeyAlreadyUsedBy>
+				<InstallExtensionError>Dogodila se greška prilikom instalacije ove ekstenzije!\n\n%extname%</InstallExtensionError>
+				<InvalidExtensionFile>Neispravan fajl ekstenzije!</InvalidExtensionFile>
+				<LKInstNotFound>LiberKey Instaler nije pronađen!</LKInstNotFound>
+				<LksDownloadFailed>Dogodila se greška prilikom preuzimanja instalacionog paketa za %app% (%lks%).\n\nGreška %errnum%: %errdesc%</LksDownloadFailed>
+				<LogUploadFailed>Dogodila se greška prilikom slanja informacija.</LogUploadFailed>
+				<NewsFeedDownloadError>Dogodila se greška prilikom preuzimanja novosti.\n%err%</NewsFeedDownloadError>
+				<NoAssoc>Povezivanje za ekstenziju fajla nije pronađeno.</NoAssoc>
+				<OutOfMemory>Ponestalo je memorije.</OutOfMemory>
+				<PathNotFound>Putanja nije pronađena.</PathNotFound>
+				<SkinImageNotFound>Greška prilikom pripremanja skina:\n\nFajl %file% nije pronađen.</SkinImageNotFound>
+			</Errors>
+			<FileSize>
+				<Bytes>Bajt</Bytes>
+				<GB>GB </GB>
+				<KB>KB </KB>
+				<MB>MB </MB>
+			</FileSize>
+			<FreeSpace>Drive %drive% (%filesys%)\n%volumename%\nKapacitet: %totalsize%\nKoristi se: %usedsize%\nSlobodno: %freesize% (%freesizepc%)</FreeSpace>
+			<HotKeyStartAppInfo>Pokretanje &quot;%name%&quot;...\nKlikni ovde da otkažeš</HotKeyStartAppInfo>
+			<IconFileSelection>Podržani fajlovi|*.ico;*.exe;*.dll|Fichiers icône (*.ico)|*.ico|Fichiers exécutables|*.exe;*.dll</IconFileSelection>
+			<IconSelection>
+				<AppIcons>Ikone menija</AppIcons>
+				<IconSelectTitle>Izaberi fajl sa ikonicom</IconSelectTitle>
+				<IconSources>Dostupne ikonice</IconSources>
+				<SkinIcons>Skin ikonice</SkinIcons>
+			</IconSelection>
+			<ImportASuiteMenu>Uvezite Asuite meni...</ImportASuiteMenu>
+			<ImportMenuFormatError>Ovaj fajl ne sadrži LiberKey meni.</ImportMenuFormatError>
+			<InternetAddress>Internet adresa...</InternetAddress>
+			<LastAppShortcutUninstall>Nepostoji više prečica do ove aplikacije u vašem LiberKey meniju.\nDa li želite da je izbrišete sa vašeg LiberKey-a?</LastAppShortcutUninstall>
+			<LinkedAppCount>Povezane aplikacije: %count%</LinkedAppCount>
+			<LogUploadDone>Informacije su poslate.\nHvala vam što učestvujete u razvoju LiberKey-a!</LogUploadDone>
+			<MenuExportTitle>Izvor menija u XML fajl...</MenuExportTitle>
+			<MenuImportError>Dogodila se greška prilikom kopiranja menija u vaš LiberKey.</MenuImportError>
+			<MenuImportErrorTitle>Nismo uspeli da uvezemo meni</MenuImportErrorTitle>
+			<MenuImportNotFromProfile>Ne možete uvesti meni koji se već nalazi u vašem LiberKey-u.</MenuImportNotFromProfile>
+			<MenuImportTitle>Uvezi meni iz XML fajla</MenuImportTitle>
+			<MultipleFilesDrop>%count% fajlova...</MultipleFilesDrop>
+			<MyMenu>Moj meni</MyMenu>
+			<NewCategory>Nova kategorija</NewCategory>
+			<NewMenu>Novi meni</NewMenu>
+			<NoAppAssocFound>Nijedna aplikacija iz LiberKey-a nije povezana sa ovim tipom datoteke</NoAppAssocFound>
+			<NoBrokenAppFound>Oštećene aplikacije nisu pronađene</NoBrokenAppFound>
+			<NoLogToSend>Ovaj alat vam dozvoljava da pošaljete log događaja menija  LiberKey timu da analizira probleme.\n\nLog događaja nije pronađen.</NoLogToSend>
+			<NoNewAppInstalled>Nove aplikacije nisu pronađene u &quot;Apps&quot; direktorijumu vašeg LiberKey-a</NoNewAppInstalled>
+			<NoNewMyAppInstalled>Nove aplikacije nisu pronađene u &quot;MyApps&quot; direktorijumu vašeg LiberKey-a</NoNewMyAppInstalled>
+			<OpenWithLiberKey>Otvori pomoću LiberKey-a</OpenWithLiberKey>
+			<PatchAvailable>Nadogradnja je dostupna za vaš LiberKey.\n\nDa li želite da je preuzmete sada?</PatchAvailable>
+			<SearchFieldInfo>Pretraži LiberKey...</SearchFieldInfo>
+			<SearchingBrokenApps>Potraga za oštećenim aplikacijama</SearchingBrokenApps>
+			<SearchingUninstalledApps>Pretraga za aplikacijama u &quot;Apps&quot; direktorijumu...</SearchingUninstalledApps>
+			<SearchingUninstalledMyApps>Pretraga za aplikacijama u &quot;MyApps&quot; direktorijumu...</SearchingUninstalledMyApps>
+			<SelectFile>Izaberi fajl...</SelectFile>
+			<SendingScreenshot>Slanje slike ekrana...</SendingScreenshot>
+			<SendLogInfo>Ovaj alat vam dozvoljava da pošaljete log događaja menija LiberKey timu da analizira probleme.\n\nTehničke informacije i poslednjih 10 generisanih fajlova u &quot;log&quot; direktorijumu vašeg menija biće poslati LiberKey timu.\n\nDa li ste sigurni da želite da nastavite?</SendLogInfo>
+			<SetupAutoRestart>Postavka %app% će se restartovati prekonfigurisana za LiberKey.</SetupAutoRestart>
+			<TrayIcon>
+				<AppUpdatesAvailable>Dostupne su nadogradnje za vaše aplikacije\nKlikni ovde da instaliraš.</AppUpdatesAvailable>
+				<AppUpdatesAvailableTitle>Dostupne nadogradnje aplikacija</AppUpdatesAvailableTitle>
+				<LiberKeyAssocFailed>Dogodila se greška prilikom pokušaja da se aktivira LiberKey protokol.\nNeke funkcije, kao što je instalacija iz online kataloga, su onesposobljene.</LiberKeyAssocFailed>
+				<LiberKeyUpdateAvailable>Nadogradnja je dostupna za vaš LiberKey.\nKlikni ovde da instaliraš.</LiberKeyUpdateAvailable>
+				<LiberKeyUpdateAvailableTitle>LiberKey Nadogradnja</LiberKeyUpdateAvailableTitle>
+				<NewAppDetected>Jedna ili više novih aplikacija su detektovane u &quot;MyApps&quot; direktorijumu na vašem LiberKey-u.\nKliknite ovde da registrujete nove aplikacije u vaš meni.</NewAppDetected>
+				<NewsUpdateAvailable>LiberKey Novosti\nPročitaj najnovije novosti</NewsUpdateAvailable>
+			</TrayIcon>
+			<UpdatePlatformFirst>Prvo morate nadograditi vaš LiberKey!\nDa li želite da izvršite nadogradnju sada?</UpdatePlatformFirst>
+			<XmlFileSelection>XML fajlovi|*.xml| Svi fajlovi|*.*</XmlFileSelection>
+		</Messages>
+		<NewAppList>
+			<CommandButtons>
+				<Cancel_Caption>Zatvori</Cancel_Caption>
+				<InstallApp_ToolTip>Instaliraj ovu aplikaciju</InstallApp_ToolTip>
+				<InstallApps_ToolTip>Instaliraj izabrane aplikacije</InstallApps_ToolTip>
+				<OpenFolder_ToolTip>Otvori lokaciju fajla</OpenFolder_ToolTip>
+				<Reload_ToolTip>Osveži listu</Reload_ToolTip>
+				<SelectApp_ToolTip>Izaberi ovu aplikaciju</SelectApp_ToolTip>
+				<UnselectApp_ToolTip>Nemoj da izabereš ovu aplikaciju</UnselectApp_ToolTip>
+			</CommandButtons>
+			<Labels>
+				<DestinationMenuLabel_Caption>Napravi prečicu u:</DestinationMenuLabel_Caption>
+				<Title_Caption>Nove aplikacije</Title_Caption>
+			</Labels>
+			<Messages>
+				<SelectExecutable>Izaberi program koji želiš da dodaš u meni.</SelectExecutable>
+			</Messages>
+		</NewAppList>
+		<News>
+			<CheckBoxs>
+				<HideReadNews_Caption>Sakrij pročitane novosti</HideReadNews_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<CloseNews_Caption>Zatvori</CloseNews_Caption>
+			</CommandButtons>
+			<Labels>
+				<Title_Caption>LiberKey Novosti</Title_Caption>
+			</Labels>
+			<Messages>
+				<NoNewsDescription>Trenutno nema novosti.\nAko su novosti objavljene, obavestiće vas &quot;LiberKey Novosti&quot; ikonica koja će se pojaviti iznad &quot;LiberKey Alati&quot; dugmeta.</NoNewsDescription>
+				<NoNewsTile>LiberKey Novosti - Nema novih vesti</NoNewsTile>
+				<NoNewsUpdateDescription>Trenutno ima %readcount% sakrivenih (pročitanih) novosti.\nDa bi ste videli sakrivene novosti, poništite (uncheck) &quot;Sakrij pročitane novosti&quot; ispod.</NoNewsUpdateDescription>
+				<NoNewsUpdateTile>LiberKey Novosti - Nove vesti nisu dostupne</NoNewsUpdateTile>
+			</Messages>
+		</News>
+		<OnlineCatalog>
+			<CommandButtons>
+				<Cancel_Caption>Otkaži</Cancel_Caption>
+				<CopyURL_Caption>Kopiraj adresu u klipbord</CopyURL_Caption>
+				<GoToWebsite_Caption>Pristupi online katalogu %count%</GoToWebsite_Caption>
+				<NoSyncCatalog_Caption>Pristupi online katalogu bez sinhronizacije sa mojim LiberKey</NoSyncCatalog_Caption>
+			</CommandButtons>
+			<Labels>
+				<AccessURL_Caption>Adresa za pristupanje online katalogu sinhronizivanom sa vašim LiberKey-om:</AccessURL_Caption>
+				<AddPortableAppsLabel_Caption>Instaliraj nove aplikacije</AddPortableAppsLabel_Caption>
+				<Privacy_Caption>Poruka: Broj verzije poslat sajtu pokriva samo aplikacije dostupne u online katalogu. Informacija o vašim ličnim aplikacijama nisu poslate tokom ove operacije.</Privacy_Caption>
+				<Title_Caption>Otvori online katalog</Title_Caption>
+			</Labels>
+		</OnlineCatalog>
+		<Search>
+			<Applications>Aplikacije</Applications>
+			<InCatalog>Online katalog</InCatalog>
+			<InstalledApp>Instalirane aplikacije</InstalledApp>
+			<SearchCatalog>Potraži u online katalogu</SearchCatalog>
+		</Search>
+		<SetupWizard>
+			<CheckBoxs>
+				<ApplyFilesAssocs_Caption>Poveži aplikaciju sa fajlovima koje može da otvori</ApplyFilesAssocs_Caption>
+				<CreateDefaultShortcuts_Caption>Napravi prečice za pokretanje aplikacije</CreateDefaultShortcuts_Caption>
+				<EditAppAfterSetup_Caption>Uredi svojstva aplikacije nakon instalacije</EditAppAfterSetup_Caption>
+				<FillAppInformations_Caption>Dodaj opis aplikacije</FillAppInformations_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<CancelSetup_Caption>Nemoj instalirati aplikaciju u &quot;MyApps&quot; folder</CancelSetup_Caption>
+				<CancelSetup2_Caption>Otkaži instalaciju</CancelSetup2_Caption>
+				<CantSetup_Caption>Zatvori čarobnjak (instalacija se neće nastaviti)</CantSetup_Caption>
+				<DoSetup_Caption>Instaliraj aplikacije na moj LiberKey</DoSetup_Caption>
+				<ForceSetup_Caption>Instaliraj aplikacije u &quot;MyApps&quot; folder</ForceSetup_Caption>
+				<OpenAppsFolder_Caption>Otvori &quot;Apps&quot; folder na mom LiberKey-u</OpenAppsFolder_Caption>
+				<OpenMyAppsFolder_Caption>Otvori &quot;MyApps&quot; folder na mom LiberKey-u</OpenMyAppsFolder_Caption>
+				<UpdateApp_Caption>Nadogradi ovu aplikaciju</UpdateApp_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppInfoDetailsTitle_Caption>Ova aplikacija je originalno instalirana iz &quot;LiberKey Setup&quot; paketa.\nSledeće akcije će biti izvršene.</AppInfoDetailsTitle_Caption>
+				<AppRegisterInfo_Caption>Ova aplikacija će biti ponovo registrovana u vašem LiberKey-u.</AppRegisterInfo_Caption>
+				<DestinationMenuLabel_Caption>Napravi prečicu u:</DestinationMenuLabel_Caption>
+				<IntroText_Caption>Ovaj čarobnjak je ovde da vam pomogne da dodate aplikacije na vaš LiberKey.</IntroText_Caption>
+				<LbkAppFolderInfo_Caption>Ova aplikacija se ne može nadograditi automatski.\nTrebate je premestiti u &quot;Apps&quot; direktorijum i ponoviti operaciju.</LbkAppFolderInfo_Caption>
+				<LbkAppFolderMistake_Caption>Portabilne aplikacije iz online kataloga moraju biti smeštene u &quot;Apps&quot; folder.</LbkAppFolderMistake_Caption>
+				<lblLbkAppInfoMissing_Caption>Informacije o ovoj aplikacijii nisu pronađene.\nNismo uspeli da sačuvamo informacije u vaš LiberKey.</lblLbkAppInfoMissing_Caption>
+				<lblLbkAppInfoMissingMoveApp_Caption>Trebate reinstalirati aplikaciju iz online kataloga.\nZa svaki slučaj, prvo premestite aplikaciju u &quot;MyApps&quot; folder.</lblLbkAppInfoMissingMoveApp_Caption>
+				<lblLbkAppInfoMissingUpdate_Caption>Da bi ste pravilno registrovali aplikaciju u vašem LiberKey-u izvršite nadogradnju. Za svaki slučaj, prvo premestite aplikaciju u &quot;MyApps&quot; folder.</lblLbkAppInfoMissingUpdate_Caption>
+				<lblUserAppFolderInfo>Da bi ste sačuvali aplikaciju u vašem LiberKey-u trebate je pomeriti u &quot;MyApps&quot; folder i ponoviti akciju.</lblUserAppFolderInfo>
+				<lblUserAppFolderMistake_Caption>Portabilne aplikacije koje nisu iz online kataloga moraju biti u &quot;MyApps&quot; direktorijumu.</lblUserAppFolderMistake_Caption>
+				<NewApp_Caption>Nova portabilna aplikacija</NewApp_Caption>
+				<NewAppRegisterInfo_Caption>Ova aplikacija nije registrovana u vašem LiberKey-u</NewAppRegisterInfo_Caption>
+				<PafInfoDetailsTitle_Caption>Ova aplikacija je originalno instalirana iz PAF paketa (portableapps.com™)\nSledeće operacije će biti izvršene:</PafInfoDetailsTitle_Caption>
+				<ReinstallApp_Caption>Reinstaliraj portabilnu aplikaciju</ReinstallApp_Caption>
+				<Title_Caption>Dodaj čarobnjak aplikacija</Title_Caption>
+				<UserAppInfoDetailsTitle_Caption>Portabilne aplikacije moraju biti registrovane u LiberKey meniju. Onda možete napraviti prečice u meniju i pokrenuti ih.\nSledeće akcije će biti izvršene:</UserAppInfoDetailsTitle_Caption>
+				<XSoftInfoDetailsTitle_Caption>Ova aplikacija je originalno instalirana iz X-Software paketa (winpenpack.com™)\nSledeće operacije će biti izvršene:</XSoftInfoDetailsTitle_Caption>
+			</Labels>
+		</SetupWizard>
+		<ShortcutProperties>
+			<CheckBoxs>
+				<AlwaysRunAsAdmin_Caption>Uvek pokreni kao administrator</AlwaysRunAsAdmin_Caption>
+				<ShortcutHiddenInMenu_Caption>Sakriven u plutajućem meniju</ShortcutHiddenInMenu_Caption>
+				<ShortcutNoMostUsed_Caption>Nemoj da dodaješ u &quot;Najčešće korišćeno&quot; meni</ShortcutNoMostUsed_Caption>
+				<ShortcutNoRecent_Caption>Nemoj da dodaješ u &quot;Skoro korišćeno&quot; meni</ShortcutNoRecent_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<ApplyChanges_Caption>Potvrdi</ApplyChanges_Caption>
+				<AppProps_Caption>Svojstva aplikacije</AppProps_Caption>
+				<Cancel_Caption>Zatvori</Cancel_Caption>
+				<ShortcutAppEdit_Caption>Ova prečica vodi do portabilne aplikacije</ShortcutAppEdit_Caption>
+			</CommandButtons>
+			<Labels>
+				<DescriptionLabel_Caption>Opis:</DescriptionLabel_Caption>
+				<ShortcutAutorunLabel_Caption>Automatsko pokretanje:</ShortcutAutorunLabel_Caption>
+				<ShortcutHotKey_Caption>Prečice tastature:</ShortcutHotKey_Caption>
+				<ShortcutIconLabel_Caption>Ikonica:</ShortcutIconLabel_Caption>
+				<ShortcutNameLabel_Caption>Ime:</ShortcutNameLabel_Caption>
+				<ShortcutParamsLabel_Caption>Parametri komandne linije:</ShortcutParamsLabel_Caption>
+				<ShortcutPathLabel_Caption>Izvršna putanja / folder / veb stranica / dokument :</ShortcutPathLabel_Caption>
+				<ShortcutWinStateLabel_Caption>Na pokretanju:</ShortcutWinStateLabel_Caption>
+				<ShortcutWorkDirLabel_Caption>Radni direktorijum</ShortcutWorkDirLabel_Caption>
+				<Title_Caption>Svojstva prečice</Title_Caption>
+			</Labels>
+			<Tabs>
+				<Shortcut>Prečice</Shortcut>
+				<ShortcutMore>Napredno</ShortcutMore>
+			</Tabs>
+		</ShortcutProperties>
+		<SuiteDownload>
+			<CommandButtons>
+				<Cancel_Caption>Otkaži</Cancel_Caption>
+				<GetSuites_Caption>Skini listu dostupnih paketa</GetSuites_Caption>
+				<InstallSuite_Caption>Instalirajte sve aplikacije iz izabranog paketa</InstallSuite_Caption>
+			</CommandButtons>
+			<DownloadedAppsCountInfo>-   Preuzeto: %dldone%</DownloadedAppsCountInfo>
+			<DownloadSizeInfo>Preuzmi: %size%</DownloadSizeInfo>
+			<InstallSizeInfo>- Potrebno prostora na disku: %size%</InstallSizeInfo>
+			<Labels>
+				<DownloadInfo_Caption>Ovaj čarobnjak vam dozvoljava da instalirate pun paket aplikacija\n\nKliknite na &quot;Preuzmi listu dostupnih paketa&quot; da nastavite</DownloadInfo_Caption>
+				<Title_Caption>Instaliraj paket aplikacija</Title_Caption>
+				<TitleBig_Caption>Instaliraj paket aplikacija</TitleBig_Caption>
+			</Labels>
+			<Messages>
+				<ConfirmKeepDownloads>Da li želite da zadržite pakete aplikacija za kasnije instaliranje?</ConfirmKeepDownloads>
+				<DownladAppIcons16>Preuzimanje ikonica aplikacija...</DownladAppIcons16>
+				<DownloadGraphics>Preuzimanje logoa za pakete aplikacija...</DownloadGraphics>
+				<DownloadingSuitesInfo>Preuzimanje informacija o paketima aplikacija...</DownloadingSuitesInfo>
+				<GetSuiteInfoFailed>Dogodila se greška prilikom preuzimanja liste dostupnih paketa.\n\nGreška %errnum%: %errdesc%</GetSuiteInfoFailed>
+				<IncompleteSuiteSetup>Neke aplikacije izabranog paketa nisu instalirane pravilno.\nMožete restartovati ovaj čarobnjak kasnije da završite instalaciju.</IncompleteSuiteSetup>
+				<PartialSuiteSetupDone>Изабране апликације су инсталиране.\nМожете рестартовати овај чаробњак и додати још апликација.\n</PartialSuiteSetupDone>
+				<SetupDone>Paket aplikacija &apos;%name%&apos; je sada instaliran na vašem LiberKey-u.</SetupDone>
+				<SetupError>Dogodila greška prilikom instaliranja %app%!</SetupError>
+			</Messages>
+			<SuiteAppCountInfo>Aplikacije:</SuiteAppCountInfo>
+			<SuiteAppsDoneInfo> -   Nove: %newapps%   -   Instalirane: %installed%</SuiteAppsDoneInfo>
+		</SuiteDownload>
+		<UninstallWizard>
+			<CheckBoxs>
+				<RemoveAppFolder_Caption>Ukloni folder aplikacije (uključujući program i pridružene podatke)</RemoveAppFolder_Caption>
+				<RemoveAppShortcuts_Caption>Ukloni prečice koje pokazuju na ovu aplikaciju</RemoveAppShortcuts_Caption>
+				<RemoveFilesAssocs_Caption>Ukloni povezivanje fajlova koje koristi ovaj program</RemoveFilesAssocs_Caption>
+				<UnregisterAppInfo_Caption>Odjavite ovu aplikaciju</UnregisterAppInfo_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<CancelSetup_Caption>Otkaži deinstalaciju.</CancelSetup_Caption>
+				<CancelSetup2_Caption>Otkaži deinstalaciju.</CancelSetup2_Caption>
+				<ConfirmUninstall_Caption>Potvrdi brisanje ove aplikacije</ConfirmUninstall_Caption>
+				<DoUninstall_Caption>Izvrši odabrana brisanja</DoUninstall_Caption>
+			</CommandButtons>
+			<Labels>
+				<IntroText_Caption>Ovaj čarobnjak će vam pomoći da deinsalirate aplikacije sa vašeg LiberKey-a.</IntroText_Caption>
+				<PreviewInfo_Caption>Ovde je lista akcija koje će vaš LiberKey izvršiti nakon deinstalacije. U nekim slučajevima brisanje aplikacije može dovesti do drugih gubitaka. Budite sigurni da proverite ovu listu pre deinstalacije.</PreviewInfo_Caption>
+				<RemoveApp_Caption>Ukloni ovu aplikaciju</RemoveApp_Caption>
+				<RemoveAppInfo_Caption>Ova aplikacija će biti uklonjena sa vašeg LiberKey-a</RemoveAppInfo_Caption>
+				<RemoveInfoDetailsTitle_Caption>Sledeće akcije će biti izvršene dok se program deinstalira. Poništite opcije ako želite da zadržite određene informacije vezane za aplikaciju.</RemoveInfoDetailsTitle_Caption>
+				<Title_Caption>Čarobnjak za deinstaliranje aplikacija</Title_Caption>
+			</Labels>
+			<PreviewTree>
+				<AppDataSize>Veličina aplikacije: %size%</AppDataSize>
+				<DeletedAssocs>Izbrisana povezivanja fajlova</DeletedAssocs>
+				<DeletedData>Izbrisani podaci aplikacija</DeletedData>
+				<DeletedShortcuts>Izbrisane prečice</DeletedShortcuts>
+				<FileType>Fajl &quot;.%type%&quot;</FileType>
+				<KFANotFound>Podešavanja za povezivanje fajlova nije pronađeno.</KFANotFound>
+				<KFANotUsed>Nema privremenih povezivanja za ovu aplikaciju</KFANotUsed>
+				<KfaUsedForTypeIcon>Koristi se za ovu ikonu tipa datoteke</KfaUsedForTypeIcon>
+				<UnregisterApp>Izbrisane aplikacije</UnregisterApp>
+			</PreviewTree>
+		</UninstallWizard>
+		<UpdateInfo>
+			<CommandButtons>
+				<Cancel_Caption>Zatvori</Cancel_Caption>
+				<DownloadPatch_Caption>Nadogradi moj LiberKey</DownloadPatch_Caption>
+				<OpenCatalog_Caption>Otvori katalog portabilnih aplikacija</OpenCatalog_Caption>
+				<UpdateApps_Caption>Nadogradi moje LiberKey aplikacije</UpdateApps_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppsUpdateFound>Nadogradnje su dostupne za vaše aplikacije</AppsUpdateFound>
+				<AppsUpdateNotFound>Nisu dostupne nadogradnje za Vaše aplikacije</AppsUpdateNotFound>
+				<NewAppsCount>Dodatne aplikacije su dostupne: %count%</NewAppsCount>
+				<NewAppsFound>Dodatne aplikacije su dostupne za Vaš LiberKey u online katalogu.</NewAppsFound>
+				<NewAppsNotFound>Nisu pronađene dodatne aplikacije za Vaš LiberKey u online katalogu</NewAppsNotFound>
+				<NoNewApp>Imate sve aplikacije!</NoNewApp>
+				<PlatformUpdateFound>Dostupna je nadogradnja za Vaš LiberKey</PlatformUpdateFound>
+				<PlatformUpdateNotFound>Nisu dostupne nadogradnje za LiberKey platformu</PlatformUpdateNotFound>
+				<Title_Caption>Dostupne su nadogradnje</Title_Caption>
+				<UpdatesCount>Dostupne nadogradnje: %count%</UpdatesCount>
+			</Labels>
+		</UpdateInfo>
+		<Contributors>
+			<Contributor name="Bojan Pavlović" email="bojan.pavlovich@yahoo.com"/>
+		</Contributors>
+	</sr-Latn-RS>
+</Languages>

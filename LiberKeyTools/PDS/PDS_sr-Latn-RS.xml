@@ -1,0 +1,13 @@
+<Languages version="0.2">
+	<sr-Latn-RS en_name="Serbian (Latin)" icon="srbija.png" date="2013-01-08" name="Srpski (Latinica)" version="3.50">
+		<Messages>
+			<ConfirmEraseMany>Izbrišite %count% sačuvanih prečica?</ConfirmEraseMany>
+			<ConfirmEraseOne>Izbrišite sačuvane prečice?</ConfirmEraseOne>
+			<NoDesktopIconFound>Prečice nisu pronađene na desktopu.</NoDesktopIconFound>
+			<NoQuickLaunchIconFound>Prečice nisu pronađene u liniji za brzo pokretanje.</NoQuickLaunchIconFound>
+		</Messages>
+		<Contributors>
+			<Contributor name="Bojan Pavlović" email="bojan.pavlovich@yahoo.com"/>
+		</Contributors>
+	</sr-Latn-RS>
+</Languages>

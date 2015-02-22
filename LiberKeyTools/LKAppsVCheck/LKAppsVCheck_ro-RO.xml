@@ -1,0 +1,72 @@
+<Languages version="0.2">
+	<ro-RO en_name="Romanian" icon="ro.png" date="2014-11-12">
+		<Info>
+			<UpdateIgnore>(dezactivat)</UpdateIgnore>
+			<UpdateLowPriority>(prioritate scăzută)</UpdateLowPriority>
+		</Info>
+		<Main>
+			<CheckBoxs>
+				<Silent_Caption>Instalarea aplicațiilor fără a fi introduse de un utilizator (modul automat)</Silent_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Cancel_Caption>Anulare</Cancel_Caption>
+				<Download_Caption>Instalez aplicațiile selectate</Download_Caption>
+				<HideWindow_Caption>&amp;Ascundeți această fereastră în timpul descărcării</HideWindow_Caption>
+			</CommandButtons>
+			<Labels>
+				<bytes>biti</bytes>
+				<DownloadSize_Caption>Dimensiune Descărcare:</DownloadSize_Caption>
+				<Gb>Gb gigabiti</Gb>
+				<Info_Caption>Actualizări disponibile:</Info_Caption>
+				<InstalledSize_Caption>Spațiu necesar pe disc:</InstalledSize_Caption>
+				<InstallTitle_Caption>Instalarea aplicațiilor</InstallTitle_Caption>
+				<Kb>Kb kicabiti</Kb>
+				<Mb>Mb megabiti</Mb>
+				<RemoveHiddenUpdates_Caption>Dezactivează actualizările (%count%)</RemoveHiddenUpdates_Caption>
+				<SelectAll_Caption>selectați toate</SelectAll_Caption>
+				<SelectHighPriority_Caption>Selectează prioritate în actualizare</SelectHighPriority_Caption>
+				<SelectNone_Caption>Deselectați toate</SelectNone_Caption>
+				<ShowHiddenUpdates_Caption>Arată actualizări ascunse (%count%)</ShowHiddenUpdates_Caption>
+				<Version_Caption>Versiune:</Version_Caption>
+			</Labels>
+		</Main>
+		<Messages>
+			<AppAlreadyInstalled>%appname% %appversion% este deja instalat pe LiberKey.\n\nVrei să re-instalati această aplicație?</AppAlreadyInstalled>
+			<AppsDownloadDone>Descărcare în magazia de fișiere este finalizată.\n=&gt;%Downloadpath%\n\nVrei să repornesti instalarea actualizărilor sau nu</AppsDownloadDone>
+			<AppUpdateObsolete>O versiune mai nouă de %appname% este deja instalat pe LiberKey.\n\nVersiune deja instalat:%appversion%\nVersiune în curs de instalare:%newversion%\n\nNu doriți să instalați versiunea veche?\n\n\n</AppUpdateObsolete>
+			<ConfirmCancel>Vi se cere descărcarea actualizărilor.\nDoriți să anulați descărcarea și actualizarea?</ConfirmCancel>
+			<DiskSpace>Spațiu pe disc necesar:%needed% (disponibil:%avai%)\n</DiskSpace>
+			<DownloadDone>Actualizările sau descărcat cu succes.\nMeniul LiberKey se va închide în timp ce aplicațiile sunt actualizate.</DownloadDone>
+			<DownloadingTip>Descărc actualizările ...\nFaceți clic aici pentru mai multe detalii.</DownloadingTip>
+			<DownloadingTipTitle>Actualizare Aplicații LiberKey</DownloadingTipTitle>
+			<Errors>
+				<403>Se pare serverul proxy a oprit LiberKey de la conectarea la Internet.\nVă rugăm să verificați configurația proxy.</403>
+				<404>%appname% %appversion%\n\nFișierul nu a fost găsit pe server!\nVă rugăm să încercați din nou mai târziu.</404>
+				<DepositFolderError>Imposibil pentru a salva datele în directorul depozit.\n%traseu%\n\nDoriți să descărcați pachetele lipsă în directorul temporar?</DepositFolderError>
+				<DownloadError>A apărut o eroare în timpul descărcării.\nÎncercați din nou?</DownloadError>
+				<InvalidPwd>Ați furnizat o parolă greșită.\n\nVă rugăm să furnizați parola corectă.</InvalidPwd>
+				<InvalidUser>Utilizatorul nu a fost găsit în baza de date LiberKey.\n\nVă rugăm să încercați din nou.</InvalidUser>
+				<Login>A apărut o eroare în timpul autentificării în LiberKey.\nVă rugăm să încercați din nou mai târziu.</Login>
+				<Password>Ați furnizat un nume de utilizator sau parola gresita.</Password>
+			</Errors>
+			<HideThisUpdate>Nu arată această actualizare</HideThisUpdate>
+			<HideUpdateInfo>Dezactivarea Actualizărilor pentru aplicatii  pot fi afișate din nou făcând clic pe &quot;Vedeți actualizări ascunse&quot;</HideUpdateInfo>
+			<HighPriority>prioritate</HighPriority>
+			<HighPriorityInfo>Vă încurajăm să aplicați această actualizare.\nAcesta conține mai multe remedieri importante, dintre care unele pot afecta securitatea aplicației.</HighPriorityInfo>
+			<HighPriorityInfoTitle>prioritate actualizare </HighPriorityInfoTitle>
+			<HttpError>A apărut o eroare în timp ce încerc să recuperez informații despre actualizări LiberKey disponibile.\nAi acces la internet pe acest calculator</HttpError>
+			<InformationTitle>Informatii</InformationTitle>
+			<KeepTempFiles>Doriți să păstrați fișierele descărcate pentru a fi utilizate mai târziu?</KeepTempFiles>
+			<LowPriority>Optionale</LowPriority>
+			<LowPriorityInfo>Se recomandă această actualizare dacă utilizați în mod regulat acest program.\nSe poate aduce noi caracteristici.</LowPriorityInfo>
+			<LowPriorityInfoTitle>Actualizare optională</LowPriorityInfoTitle>
+			<TempSpaceNeeded>Spatiul disponibil de descărcare a fișierelor de instalare temporare, este prea mic.\n\nSelecția dvs impune %downloadsize% din spațiu liber pe unitatea %drive% (în prezent există doar un rezultat %avail% disponibil pe %drive%)\n\n</TempSpaceNeeded>
+			<UpdateDone>Actualizările ale aplicațiilor sau terminat.</UpdateDone>
+			<UpdatesAvailable>Actualizări sunt disponibile pentru aplicațiile dumneavoastră.\nFaceți clic aici pentru a instala actualizări.</UpdatesAvailable>
+			<UpToDate>Aplicațiile dvs. din LiberKey sunt actualizate.</UpToDate>
+		</Messages>
+		<Contributors>
+			<Contributor email="prisacariu_a@tahoo.com" name="Adrian"/>
+		</Contributors>
+	</ro-RO>
+</Languages>

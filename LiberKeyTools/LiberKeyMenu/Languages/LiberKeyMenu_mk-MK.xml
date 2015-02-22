@@ -1,0 +1,927 @@
+<Languages version="0.2">
+	<mk-MK en_name="Macedonian" icon="mk.png" date="2012-07-26" name="Македонски">
+		<AppCategories>
+			<accessibility>Достапност</accessibility>
+			<audio>Аудио</audio>
+			<audio:converter>Конвертер</audio:converter>
+			<audio:editor>Уредувач</audio:editor>
+			<audio:ipod_manager>iPod управувач</audio:ipod_manager>
+			<audio:player>Плеер</audio:player>
+			<audio:radio>Радио</audio:radio>
+			<audio:ripper>Рипер</audio:ripper>
+			<audio:tagger>Означувач</audio:tagger>
+			<audio:text_to_speech>Текст во Говор</audio:text_to_speech>
+			<audio:tools>Алатки</audio:tools>
+			<audio-video>Аудио - Видео</audio-video>
+			<cd-dvd>ЦД - ДВД</cd-dvd>
+			<cd-dvd:burning_tools>Алатки за режење</cd-dvd:burning_tools>
+			<cd-dvd:cover_printer>Печатач на омот</cd-dvd:cover_printer>
+			<cd-dvd:image_tools>Алатки за слики</cd-dvd:image_tools>
+			<development>Развој</development>
+			<education>Образование</education>
+			<education:astronomy>Астрономија</education:astronomy>
+			<education:children>Деца</education:children>
+			<education:drawing>Цртање</education:drawing>
+			<education:geography>Географија</education:geography>
+			<education:music>Музика</education:music>
+			<education:typing>Пишување на тастатура</education:typing>
+			<file_management>Управување со датотеки</file_management>
+			<file_management:backup>Резервна копија</file_management:backup>
+			<file_management:cataloger>Каталогизирање</file_management:cataloger>
+			<file_management:comparison>Споредување</file_management:comparison>
+			<file_management:compression>Компресирање</file_management:compression>
+			<file_management:copy>Копирање</file_management:copy>
+			<file_management:defragmenter>Дефрагменттирање</file_management:defragmenter>
+			<file_management:directory_lister>Изработка на листа на директориуми</file_management:directory_lister>
+			<file_management:disk_space_tool>Алатки за простор на дискот</file_management:disk_space_tool>
+			<file_management:duplicate_finder>Пронаоѓач на дупликати</file_management:duplicate_finder>
+			<file_management:manager>Управувач</file_management:manager>
+			<file_management:recovery>Обновување</file_management:recovery>
+			<file_management:renamer>Преименувањее</file_management:renamer>
+			<file_management:search>Пребарување</file_management:search>
+			<file_management:splitter>Разделувачи</file_management:splitter>
+			<file_management:synchronization>Синхронизирање</file_management:synchronization>
+			<file_management:tools>Алатки</file_management:tools>
+			<file_management:universal_viewer>Универзални прегледувачи</file_management:universal_viewer>
+			<games>Игри</games>
+			<games:action>Акција</games:action>
+			<games:card>Карти</games:card>
+			<games:puzzle>Сложувалки</games:puzzle>
+			<games:reflexion>Логички</games:reflexion>
+			<games:strategy>Стратегија</games:strategy>
+			<graphics-photo>Графика - Слика</graphics-photo>
+			<graphics-photo:3d>3Д</graphics-photo:3d>
+			<graphics-photo:color_picker>Избирање боја</graphics-photo:color_picker>
+			<graphics-photo:editor>Уредувач</graphics-photo:editor>
+			<graphics-photo:effect_and_filter>Ефекти и филтри</graphics-photo:effect_and_filter>
+			<graphics-photo:icon_editor>Уредувач на икони</graphics-photo:icon_editor>
+			<graphics-photo:screen_capture>Препис на екран</graphics-photo:screen_capture>
+			<graphics-photo:tools>Алатки</graphics-photo:tools>
+			<graphics-photo:vector_converter>Вектор конвертер</graphics-photo:vector_converter>
+			<graphics-photo:viewer>Прикажувач</graphics-photo:viewer>
+			<internet>Интернет</internet>
+			<internet:bookmark_manager>Управувач со обележувачи</internet:bookmark_manager>
+			<internet:browser>Прегледувач</internet:browser>
+			<internet:download>Преземање</internet:download>
+			<internet:email>Е-пошта</internet:email>
+			<internet:ftp>FTP</internet:ftp>
+			<internet:instant_messenger>Месенџери</internet:instant_messenger>
+			<internet:rss_reader>RSS читач</internet:rss_reader>
+			<internet:website_authoring>Составување веб страници</internet:website_authoring>
+			<internet:website_copier>Копирање веб страници</internet:website_copier>
+			<multimedia>Мултимедија</multimedia>
+			<networking-server>Вмрежување - Сервер</networking-server>
+			<networking-server:bandwidth_monitor>Контрола на проток</networking-server:bandwidth_monitor>
+			<networking-server:configuration>Конфигурација</networking-server:configuration>
+			<networking-server:network_analyzer>Мрежен анализатор</networking-server:network_analyzer>
+			<networking-server:remote_control>Далечинско управување</networking-server:remote_control>
+			<networking-server:scanner>Скенер</networking-server:scanner>
+			<networking-server:server>Сервер</networking-server:server>
+			<networking-server:settings_manager>Управувач на подесувањата</networking-server:settings_manager>
+			<networking-server:telnet-ssh_client>Telnet-SSH клиент</networking-server:telnet-ssh_client>
+			<networking-server:tools>Алатки</networking-server:tools>
+			<office>Канцелариски апликации</office>
+			<office:calculator>Калкулатор</office:calculator>
+			<office:calendar>Календар</office:calendar>
+			<office:chrono>Хронологија</office:chrono>
+			<office:desktop_tools>Алатки за работна површина</office:desktop_tools>
+			<office:desktop_tools:application_launcher>Стартувач на апликација</office:desktop_tools:application_launcher>
+			<office:desktop_tools:automation>Автоматизација</office:desktop_tools:automation>
+			<office:desktop_tools:clipboard_manager>Управувач со склад</office:desktop_tools:clipboard_manager>
+			<office:desktop_tools:clock>Часовник</office:desktop_tools:clock>
+			<office:desktop_tools:customization>Прилагодување</office:desktop_tools:customization>
+			<office:desktop_tools:desktop_note>Белешка на работна површина</office:desktop_tools:desktop_note>
+			<office:desktop_tools:keyboard-mouse>Тастатура - Глувче</office:desktop_tools:keyboard-mouse>
+			<office:desktop_tools:save_desktop_icon>Зачувување икони</office:desktop_tools:save_desktop_icon>
+			<office:desktop_tools:virtual_desktop>Виртуелна работна површина</office:desktop_tools:virtual_desktop>
+			<office:desktop_tools:zoom>Зумирање</office:desktop_tools:zoom>
+			<office:diagram_editor>Уредувач на дијаграми</office:diagram_editor>
+			<office:finance_manager>Финансиски управувач</office:finance_manager>
+			<office:font_manager>Фонт управувач</office:font_manager>
+			<office:note_manager>Управувач со белешки</office:note_manager>
+			<office:office_suite>Канцелариски пакет</office:office_suite>
+			<office:pdf>PDF</office:pdf>
+			<office:presentation>Презентација</office:presentation>
+			<office:task_manager>Управувач со задачи</office:task_manager>
+			<office:text_editor>Уредувач на текст</office:text_editor>
+			<office:tutorial_creator>Создавач на упатства</office:tutorial_creator>
+			<office:unit_converter>Конвертер на единици</office:unit_converter>
+			<office:universal_viewer>Универзален прикажувач</office:universal_viewer>
+			<security>Безбедност</security>
+			<security:anti_virus-spyware>Антивирусен софтвер</security:anti_virus-spyware>
+			<security:encryption>Шифрирање</security:encryption>
+			<security:integrity_checker>Проверка на интегритет</security:integrity_checker>
+			<security:password_manager>Управувач со лозинки</security:password_manager>
+			<security:privacy_tool>Алатки за приватност</security:privacy_tool>
+			<security:secure_deletion>Безбедно бришење</security:secure_deletion>
+			<security:tools>Алатки</security:tools>
+			<system_utilities>Системски услуги</system_utilities>
+			<system_utilities:benchmark>Одредување на перфомансите</system_utilities:benchmark>
+			<system_utilities:benchmark:hard_disk>Тврд диск</system_utilities:benchmark:hard_disk>
+			<system_utilities:benchmark:universal>Универзално</system_utilities:benchmark:universal>
+			<system_utilities:cleaner-uninstaller>Чистач - Деинсталатор</system_utilities:cleaner-uninstaller>
+			<system_utilities:emulator>Емулатор</system_utilities:emulator>
+			<system_utilities:hex_editor>Хексадецимален уредувач</system_utilities:hex_editor>
+			<system_utilities:information>Информација</system_utilities:information>
+			<system_utilities:information:file_monitoring>Надгледување на датотеки</system_utilities:information:file_monitoring>
+			<system_utilities:information:hardware_monitoring>Надгледување на хардвер</system_utilities:information:hardware_monitoring>
+			<system_utilities:information:inventory>Инвентар</system_utilities:information:inventory>
+			<system_utilities:information:process>Процес</system_utilities:information:process>
+			<system_utilities:information:processor>Процесор</system_utilities:information:processor>
+			<system_utilities:information:service>Услуги</system_utilities:information:service>
+			<system_utilities:information:startup_manager>Управувач на стартување</system_utilities:information:startup_manager>
+			<system_utilities:information:usb_device>USB уред</system_utilities:information:usb_device>
+			<system_utilities:information:video_card>Графичка карта</system_utilities:information:video_card>
+			<system_utilities:registry>Регистар</system_utilities:registry>
+			<system_utilities:registry:backup>Резервна копија</system_utilities:registry:backup>
+			<system_utilities:registry:comparison>Споредување</system_utilities:registry:comparison>
+			<system_utilities:registry:compression>Компресија</system_utilities:registry:compression>
+			<system_utilities:registry:monitoring>Надзор</system_utilities:registry:monitoring>
+			<system_utilities:registry:repair>Поправка</system_utilities:registry:repair>
+			<system_utilities:registry:search>Пребарување</system_utilities:registry:search>
+			<system_utilities:repair>Поправка</system_utilities:repair>
+			<system_utilities:tests>Тестирање</system_utilities:tests>
+			<system_utilities:tests:burning_test>Тестирање на режењето</system_utilities:tests:burning_test>
+			<system_utilities:tests:hard_disk>Тврд диск</system_utilities:tests:hard_disk>
+			<system_utilities:tests:monitor>Монитор</system_utilities:tests:monitor>
+			<system_utilities:tests:ram>RAM</system_utilities:tests:ram>
+			<system_utilities:tools>Алатки</system_utilities:tools>
+			<system_utilities:tweaker>Подесувач</system_utilities:tweaker>
+			<system_utilities:update_checker>Проверка на ажурирањето</system_utilities:update_checker>
+			<video>Видео</video>
+			<video:authoring>Авторизирање</video:authoring>
+			<video:capture>Препис на екран</video:capture>
+			<video:cataloger>Каталогизирање</video:cataloger>
+			<video:converter>Конвертер</video:converter>
+			<video:editor>Уредувач</video:editor>
+			<video:player>Плеер</video:player>
+			<video:repair>Поправка</video:repair>
+			<video:tools>Алатки</video:tools>
+		</AppCategories>
+		<AppInfo>
+			<CheckBoxs>
+				<AutoShowInfo_Caption>Прикажи ја информацијата автоматски</AutoShowInfo_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<AppGoToWebSite_ToolTip>Посетете ја веб страницата на уредувачот</AppGoToWebSite_ToolTip>
+				<AppInstall_Caption>Инсталирај сега!</AppInstall_Caption>
+				<AppOpenLicenseFile_ToolTip>Погледнете лиценца</AppOpenLicenseFile_ToolTip>
+				<AppProperties_Caption>Својства...</AppProperties_Caption>
+				<AppRun_Caption>Стартувај</AppRun_Caption>
+				<AppUpdate_Caption>Ажурирај сега...</AppUpdate_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppEditorLabel_Caption>Уредувач:</AppEditorLabel_Caption>
+				<AppLicenseLabel_Caption>Лиценца:</AppLicenseLabel_Caption>
+				<AppPlatformLabel_Caption>Платформа(и):</AppPlatformLabel_Caption>
+			</Labels>
+		</AppInfo>
+		<AppList>
+			<CommandButtons>
+				<AddApp_Caption>Додај апликации</AddApp_Caption>
+				<AddApps_Caption>Додај апликации</AddApps_Caption>
+				<AddApps_ToolTip>Кликнете овде за додавање на апликации во LiberKey</AddApps_ToolTip>
+				<Browse_ToolTip>Отвори ја апликационата папка</Browse_ToolTip>
+				<Cancel_Caption>Затвори</Cancel_Caption>
+				<Reinstall_Caption>Реинсталирај</Reinstall_Caption>
+				<Reinstall_ToolTip>Реинстаирањето на апликацијата може да се одрази на стандардните кратенки во менито LiberKey, вчитувањето информации за апликацијата, и додадавањето на привремена датотечни поврзувања.</Reinstall_ToolTip>
+				<Uninstall_Caption>Деинсталирај</Uninstall_Caption>
+				<Uninstall_ToolTip>Кликнете овде за да ја деинсталирате оваа апликација од LiberKey. Сè што користи оваа апликација ќе биде избришано: менија, информации, привремени датотеки, самата програма и други поврзани податоци.</Uninstall_ToolTip>
+			</CommandButtons>
+			<Labels>
+				<AppNameLabel_Caption>Име на апликација</AppNameLabel_Caption>
+				<FolderSizeLabel_Caption>0 КБ</FolderSizeLabel_Caption>
+				<Title_Caption>Управување со преносни апликации</Title_Caption>
+			</Labels>
+			<Messages>
+				<Loading>Вчитување листа...</Loading>
+			</Messages>
+		</AppList>
+		<AppProperties>
+			<AutoRunMode>
+				<Never>Никогаш</Never>
+				<ShutDown>На исклучување</ShutDown>
+				<ShutDownSingle>На исклучување ако веќе не работи</ShutDownSingle>
+				<Startup>Секогаш на стартување</Startup>
+				<StartupSingle>На стартување ако веќе не работи</StartupSingle>
+			</AutoRunMode>
+			<CommandButtons>
+				<AppGoToWebSite_Caption>Посетете ја веб страницата</AppGoToWebSite_Caption>
+				<ApplyChanges_Caption>Примени</ApplyChanges_Caption>
+				<AppOpenLicenseFile_Caption>Прегледај лиценца</AppOpenLicenseFile_Caption>
+				<AppUninstall_Caption>Кликнете овде за деинсталација на апликацијата од LiberKey</AppUninstall_Caption>
+				<AppUninstall_ToolTip>Кликнете овде за деинсталирање на апликацијата од LiberKey. Се што е поврзано со апликацијата ќе биде избришано: менијата, информациите, привремените датотеки, самата програма и сите други поврзани податоци.</AppUninstall_ToolTip>
+				<AppUpdate_Caption>Ажурирај...</AppUpdate_Caption>
+				<Cancel_Caption>Затвори</Cancel_Caption>
+			</CommandButtons>
+			<FileSources>Тип на врска</FileSources>
+			<Labels>
+				<AppDescriptionLabel_Caption>Опис на апликацијата:</AppDescriptionLabel_Caption>
+				<AppEditorLabel_Caption>Уредувач:</AppEditorLabel_Caption>
+				<AppIconLabel_Caption>Корисничка икона:</AppIconLabel_Caption>
+				<AppLicenseLabel_Caption>Лиценца:</AppLicenseLabel_Caption>
+				<AppNameLabel_Caption>Име:</AppNameLabel_Caption>
+				<AppParamsLabel_Caption>Параметри на командната линија:</AppParamsLabel_Caption>
+				<AppPathLabel_Caption>Извршна патека / папка / веб страница / документ:</AppPathLabel_Caption>
+				<AppPlatformLabel_Caption>Платформа:</AppPlatformLabel_Caption>
+				<AppVersionLabel_Caption>Верзија:</AppVersionLabel_Caption>
+				<AppWorkDirLabel_Caption>Работен директориум:</AppWorkDirLabel_Caption>
+				<Title_Caption>Својства на апликацијата:</Title_Caption>
+			</Labels>
+			<Messages>
+				<BrowseForExe>Избери ја извршната датотека на апликацијата:</BrowseForExe>
+				<BrowseForFileToOpen>Избери датотека за отварање:</BrowseForFileToOpen>
+				<BrowseForLicense>Избери датотека со програмска лиценца:</BrowseForLicense>
+				<ClearLisenseFile>Избриши врска до лиценцата</ClearLisenseFile>
+				<ClearWebAddress>Избриши врска до веб страницата</ClearWebAddress>
+				<SelectAppWorkDir>Избери работен директориум на апликацијата</SelectAppWorkDir>
+				<SetLicenseAddr>Внеси интернет адреса на програмската лиценца:</SetLicenseAddr>
+				<SetWebSiteAddr>Внеси интернет адреса на програмскиот уредувач:</SetWebSiteAddr>
+			</Messages>
+			<Tabs>
+				<Application>Апликација</Application>
+				<AppMore>Напредно</AppMore>
+			</Tabs>
+			<WindowStartMode>
+				<Maximized>Максимизирано</Maximized>
+				<Minimized>Минимизирано</Minimized>
+				<Normal>Нормално</Normal>
+			</WindowStartMode>
+		</AppProperties>
+		<CategoryProps>
+			<CheckBoxs>
+				<EditLiberKeyCategory_Caption>Преименувај ја оваа LiberKey категорија</EditLiberKeyCategory_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Apply_Caption>Во ред</Apply_Caption>
+				<Cancel_Caption>Откажи</Cancel_Caption>
+			</CommandButtons>
+			<Labels>
+				<CategoryHotKey_Caption>Кратенка на тастатурата (лебдечкo мени):</CategoryHotKey_Caption>
+				<CatIconLabel_Caption>Икона на категоријата:</CatIconLabel_Caption>
+				<CatNameLabel_Caption>Име на категоријата:</CatNameLabel_Caption>
+				<Title_Caption>Својства на категоријата:</Title_Caption>
+			</Labels>
+		</CategoryProps>
+		<Config>
+			<About>
+				<Version>верзија %ver%</Version>
+			</About>
+			<CheckBoxs>
+				<AppHotKeysMemoPopup_Caption>Прикажи потсетник пред стартување на апликацијата</AppHotKeysMemoPopup_Caption>
+				<AutoCloseApps_Caption>При затварање на менито, затвори ги сите преносни апликации кои работат</AutoCloseApps_Caption>
+				<AutoCollapseOnHide_Caption>Кога менито е сокриено, врати се на основната категорија</AutoCollapseOnHide_Caption>
+				<AutoHideMenuOnAppRun_Caption>Сокриј го менито кога апликацијата е стартувана</AutoHideMenuOnAppRun_Caption>
+				<AutoRemoveDrive_Caption>При затварање на менито, исклучи го отстранливиот диск</AutoRemoveDrive_Caption>
+				<AutoRunLiberKey_Caption>Стартувај го LiberKey при стартување/вклучување на Windows</AutoRunLiberKey_Caption>
+				<AutoShowAppInfo_Caption>Прикажи информации за апликациите</AutoShowAppInfo_Caption>
+				<ConfirmCategoryDeletion_Caption>Потврди бришење на категорија</ConfirmCategoryDeletion_Caption>
+				<ConfirmShortcutDeletion_Caption>Потврди бришење на кратенка</ConfirmShortcutDeletion_Caption>
+				<CreateTempSendToShortcut_Caption>Создади „Испрати до/Мои преносни документи“ привремена кратенка</CreateTempSendToShortcut_Caption>
+				<DisableAllEffects_Caption>Оневозможи ги сите анимациски ефекти</DisableAllEffects_Caption>
+				<DisableControlsEffects_Caption>Оневозможи интерфејс анимација</DisableControlsEffects_Caption>
+				<DisableDialogsEffects_Caption>Оневозможи дијалог анимација</DisableDialogsEffects_Caption>
+				<DisableMenuEffects_Caption>Оневозможи мени анимација</DisableMenuEffects_Caption>
+				<DisplayClock_Caption>Покажи часовник</DisplayClock_Caption>
+				<DontShowEmptyDesc_Caption>Освен кога описот е празна</DontShowEmptyDesc_Caption>
+				<EnableAppHotKeys_Caption>Овозможи кратенки на тастатурата за да стартувате апликации</EnableAppHotKeys_Caption>
+				<EnableAppsAutoStart_Caption>Овозможи автоматско извршување</EnableAppsAutoStart_Caption>
+				<HideClockSeconds_Caption>Сокриј секунди</HideClockSeconds_Caption>
+				<HotKeyFloatMenu_Caption>Лебдечко мени:</HotKeyFloatMenu_Caption>
+				<HotKeyMain_Caption>Главно мени</HotKeyMain_Caption>
+				<SingleClicAppRun_Caption>Стартувај апликации со еден клик</SingleClicAppRun_Caption>
+				<SingleClicCategoryExpand_Caption>Отвори категории со еден клик</SingleClicCategoryExpand_Caption>
+				<ToolsAutoOpenLiberKeyNews_Caption>Автоматски отвори прозорец со новости</ToolsAutoOpenLiberKeyNews_Caption>
+				<ToolsCheckAppUpdates_Caption>Апликациски ажурирања</ToolsCheckAppUpdates_Caption>
+				<ToolsCheckLBKUpdates_Caption>Ажурирања за LiberKey платформата</ToolsCheckLBKUpdates_Caption>
+				<ToolsCheckLiberKeyNews_Caption>Новости</ToolsCheckLiberKeyNews_Caption>
+				<ToolsDoOnlineChecks_Caption>Овозможи автоматска проверка</ToolsDoOnlineChecks_Caption>
+				<ToolsQuitKFA_Caption>Оневозможи датотечни поврзувања при затварање на менито</ToolsQuitKFA_Caption>
+				<ToolsQuitPDS_Caption>Отстрани преносни краенки при затварање на менито</ToolsQuitPDS_Caption>
+				<ToolsStartKFA_Caption>Овозможи датотечни поврзувања при стартување на менито</ToolsStartKFA_Caption>
+				<ToolsStartPDS_Caption>Додај преносни кратенки при стартување на менито</ToolsStartPDS_Caption>
+				<UseClearTypeFonts_Caption>Користи ClearType за приказ на фонтот на екранот</UseClearTypeFonts_Caption>
+				<UseMenuAppsAssoc_Caption>Поврзи го LiberKey со сите датотеки</UseMenuAppsAssoc_Caption>
+				<UseProxy_Caption>Користи прокси сервер за пристап на Интернет:</UseProxy_Caption>
+				<VoiceOver_Caption>Овозможи читање на текстот на елементите со кружење на  глувчето</VoiceOver_Caption>
+				<WindowZoom_Caption>Овозможи автоматско зумирање прозорци</WindowZoom_Caption>
+				<ZoomMenuFont_Caption>Промена на фонтот на лебдечките менија</ZoomMenuFont_Caption>
+				<ZoomMenuFontAntialias_Caption>Антиалиас</ZoomMenuFontAntialias_Caption>
+				<ZoomMenuFontBold_Caption>Задебелено</ZoomMenuFontBold_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<ApplyChanges_Caption>Примени</ApplyChanges_Caption>
+				<AutoRunDown_ToolTip>Стрелка надолу</AutoRunDown_ToolTip>
+				<AutoRunLocate_ToolTip>Пронајдете ја кратенката во LiberKey менито</AutoRunLocate_ToolTip>
+				<AutoRunProperties_ToolTip>Својства на кратенката</AutoRunProperties_ToolTip>
+				<AutoRunRemove_ToolTip>Отстрани од листата за автоматско извршување</AutoRunRemove_ToolTip>
+				<AutoRunUp_ToolTip>Стрелка нагоре</AutoRunUp_ToolTip>
+				<Cancel_Caption>Затвори</Cancel_Caption>
+				<CopyTechnicalInfo_Caption>Копирај ја информацијата во складот</CopyTechnicalInfo_Caption>
+				<CreateAccount_Caption>Кликнете овде за да ја создадете вашата сметка!</CreateAccount_Caption>
+				<KBSCRemove_ToolTip>Отстрани ја кратенката на тастатурата</KBSCRemove_ToolTip>
+				<SendTechnicalInfo_Caption>Испрати</SendTechnicalInfo_Caption>
+			</CommandButtons>
+			<Labels>
+				<AccessibilityInfo_Caption>Прилагодување на пристапните опции</AccessibilityInfo_Caption>
+				<Animations_Caption>Анимации</Animations_Caption>
+				<AppHotKeysMemoPopupDuration_Caption>Приказ на траењето на потсетникот:</AppHotKeysMemoPopupDuration_Caption>
+				<AppSetupInfo_Caption>Конфигурирање на LiberKey апликативниот инсталатор.</AppSetupInfo_Caption>
+				<AppUpdateInfo_Caption>Конфигурирање на софтверското ажурирање на вашиот LiberKey.</AppUpdateInfo_Caption>
+				<AutoCheckOptions_Caption>Автоматски провери</AutoCheckOptions_Caption>
+				<AutoRunDelay_Caption>Време пред самоизвршување (секунди):</AutoRunDelay_Caption>
+				<AutoRunEachDelay_Caption>Време помеѓу секое стартување (секунди):</AutoRunEachDelay_Caption>
+				<AutorunInfo_Caption>Управување со апликациите кои се извршуваат при стартувањето и затварањето на LiberKey менито</AutorunInfo_Caption>
+				<ClearTypeRestart_Caption>(потребно рестартирање на менито)</ClearTypeRestart_Caption>
+				<ColorsInfo_Caption>Основна боја на менито и прозорците</ColorsInfo_Caption>
+				<Confirmations_Caption>Потврди</Confirmations_Caption>
+				<CreateAccountLabel_Caption>Немате сметка?</CreateAccountLabel_Caption>
+				<CustomBrightnessLabel_Caption>Светлост</CustomBrightnessLabel_Caption>
+				<CustomColorInfo_Caption>Сопствени варијации на боите</CustomColorInfo_Caption>
+				<CustomHueRotationLabel_Caption>Боја</CustomHueRotationLabel_Caption>
+				<CustomSaturationLabel_Caption>Заситеност</CustomSaturationLabel_Caption>
+				<DefaultEffectSet>Зададени ефекти:</DefaultEffectSet>
+				<EffectSetLabel_Caption>Подесување ефекти:</EffectSetLabel_Caption>
+				<FileAssocUpdatesOnlyInfo_Caption>Во текот на ажурирањето, датотечните поврзувања не се менуваат. Тие се одредени само за нови апликации.</FileAssocUpdatesOnlyInfo_Caption>
+				<Fonts_Caption>Фонтови</Fonts_Caption>
+				<Gadgets_Caption>Украсни програми</Gadgets_Caption>
+				<KeyboardShortcutsInfo_Caption>Кратенки на тастатурата користени во LiberKey менито</KeyboardShortcutsInfo_Caption>
+				<KFAoptions_Caption>Поврзи датотеки со преносни апликации</KFAoptions_Caption>
+				<LangAuthorEmailLabel_Caption>Е-пошта:</LangAuthorEmailLabel_Caption>
+				<LangAuthorNameLabel_Caption>Автор:</LangAuthorNameLabel_Caption>
+				<LangAuthorWebsiteLabel_Caption>Веб страна:</LangAuthorWebsiteLabel_Caption>
+				<LangContributors_Caption>Соработници:</LangContributors_Caption>
+				<LangContributorsLabel_Caption>Соработници:</LangContributorsLabel_Caption>
+				<LanguagesInfo_Caption>Изберете јазик за програмата</LanguagesInfo_Caption>
+				<LangVersionLabel_Caption>Верзија:</LangVersionLabel_Caption>
+				<MaxRecentCount_Caption>Најголем број на ставки во „Неодамна користени“:</MaxRecentCount_Caption>
+				<MaxVisibleMostUsed_Caption>Најголем број на ставки во „Најчесто користени“:</MaxVisibleMostUsed_Caption>
+				<MenuAccess_Caption>Пристап до LiberKey менито</MenuAccess_Caption>
+				<MenuDelay_Caption>Задоцнување на отварањето на менито:</MenuDelay_Caption>
+				<MenuDelayMS_Caption>милисекунди</MenuDelayMS_Caption>
+				<MenuIconActions_Caption>Икони во системската лента:</MenuIconActions_Caption>
+				<MenuKeyboardShortcuts_Caption>Кратенки на тастатурата:</MenuKeyboardShortcuts_Caption>
+				<Misc_Caption>Разно</Misc_Caption>
+				<Navigation_Caption>Навигација</Navigation_Caption>
+				<NeverUpdateFileAssocInfo_Caption>Датотечните поврзувања остануваат непроменети кога се додаваат или ажурираат апликациите.</NeverUpdateFileAssocInfo_Caption>
+				<NotificationsOptions_Caption>Известувања</NotificationsOptions_Caption>
+				<Password_Caption>Лозинка:</Password_Caption>
+				<PDSoptions_Caption>Преносни десктоп кратенки</PDSoptions_Caption>
+				<PlatformVersionInfo_Caption>Техничкиот тим за поддршка на LiberKey форумот може да побара информации. За да ја копирате оваа листа, кликнете на копчето „Копирај ја информацијата во складот“. </PlatformVersionInfo_Caption>
+				<ProxyHost_Caption>Име на домаќинот / IP адреса:</ProxyHost_Caption>
+				<ProxyInfo_Caption>Ако треба да се оди преку прокси серверот, пополни ги полињата подолу:</ProxyInfo_Caption>
+				<ProxyPassword_Caption>Лозинка:</ProxyPassword_Caption>
+				<ProxyPort_Caption>Порт:</ProxyPort_Caption>
+				<ProxyUser_Caption>Корисничко име:</ProxyUser_Caption>
+				<QuitOptions_Caption>Автоматско затварање на апликацијата и исклучување на УСБ</QuitOptions_Caption>
+				<RecentAndMostUsed_Caption>Историја на користење на апликацијата</RecentAndMostUsed_Caption>
+				<StartupWindowShowAlways_Caption>Секогаш покажувај LiberKey мени</StartupWindowShowAlways_Caption>
+				<StartupWindowShowNever_Caption>Никогаш не покажувај LiberKey мени</StartupWindowShowNever_Caption>
+				<StartupWindowShowPrevious_Caption>Покажи мени кое беше видливо при последното користење</StartupWindowShowPrevious_Caption>
+				<StartupWindowStateLabel_Caption>При стартување:</StartupWindowStateLabel_Caption>
+				<Title_Caption>LiberKey мени-Конфигурација</Title_Caption>
+				<TrayLeftClickActionLabel_Caption>Лев клик:</TrayLeftClickActionLabel_Caption>
+				<TrayRightClickActionLabel_Caption>Десен клик:</TrayRightClickActionLabel_Caption>
+				<UpdateAllAppsInfo_Caption>Сите ажурирања се инсталираат без корисничка помош (автоматски начин)</UpdateAllAppsInfo_Caption>
+				<UpdateAutoStartInfo_Caption>Приоритетните ажурирања се инсталираат без корисничка помош (автоматски начин)</UpdateAutoStartInfo_Caption>
+				<UpdateFileAssocInfo_Caption>Кога апликацијата е додадена или ажурирана со инсалатер, автоматски се поврзува со датотеките кои може да ги уредува.</UpdateFileAssocInfo_Caption>
+				<UpdateNoUserAlertInfo_Caption>Кога LiberKey стартува, не ми покажувај никакви пораки за ажурирања за апликациите. Извести само кога ќе се стартува некоја од апликациите.</UpdateNoUserAlertInfo_Caption>
+				<UpdateUIAlertInfo_Caption>Потоа можете да ги видете достапните ажурирања и да изберете ги оние кои што ќе ги применете.</UpdateUIAlertInfo_Caption>
+				<UserLoginInfo_Caption>Најавата не е потребна за преземање на ажурирања за вашите апликации. Сепак, ви препорачуваме да ги внесете вашите податоци.</UserLoginInfo_Caption>
+				<UserName_Caption>Корисничко име:</UserName_Caption>
+				<ZoomMenuFontNameLabel_Caption>Фонт:</ZoomMenuFontNameLabel_Caption>
+				<ZoomMenuFontSizeLabel_Caption>Големина:</ZoomMenuFontSizeLabel_Caption>
+			</Labels>
+			<OptionButtons>
+				<optAlwaysUpdateFileAssoc_Caption>Дозволи ажурирање на датотечните поврзувања</optAlwaysUpdateFileAssoc_Caption>
+				<optAutoRunAtStartup_Caption>Кога се стартува LiberKey</optAutoRunAtStartup_Caption>
+				<optAutoRunOnQuit_Caption>Кога се затвара LiberKey</optAutoRunOnQuit_Caption>
+				<optMenuDelayCustom_Caption>Сопствено</optMenuDelayCustom_Caption>
+				<optMenuDelayDefault_Caption>Зададено</optMenuDelayDefault_Caption>
+				<optNeverUpdateFileAssoc_Caption>Никогаш не ажурирај датотечно поврзување</optNeverUpdateFileAssoc_Caption>
+				<optUpdateAllApps_Caption>Автоматски инсталирај ги сите ажурирања</optUpdateAllApps_Caption>
+				<optUpdateAutoStart_Caption>Автоматски преземи и инсталирај ги ажурирањата</optUpdateAutoStart_Caption>
+				<optUpdateFileAssocNewApps_Caption>Подеси поврзувања на новите апликации</optUpdateFileAssocNewApps_Caption>
+				<optUpdateNoUserAlert_Caption>Предупреди ме само кога апликацијата стартува</optUpdateNoUserAlert_Caption>
+				<optUpdateUIAlert_Caption>Покажи икона и порака со известување</optUpdateUIAlert_Caption>
+				<optUpdateUserAlert_Caption>Предупреди ме кога се достапни ажурирања</optUpdateUserAlert_Caption>
+			</OptionButtons>
+			<Options>
+				<About>За</About>
+				<Accessibility>Пристапност</Accessibility>
+				<Advanced>Напредни опции</Advanced>
+				<AppSetup>Инсталациони подесувања на апликацијата</AppSetup>
+				<Autorun>Автоматско извршување</Autorun>
+				<AutoUpdate>Подесувања на ажурирањето на апликацијата</AutoUpdate>
+				<Colors>Боја</Colors>
+				<Effects>Кориснички интерфејс</Effects>
+				<Help>Помош</Help>
+				<KeyboardShortcuts>Кратенки на тастатурата</KeyboardShortcuts>
+				<Language>Јазик</Language>
+				<LiberKeyTools>LiberKey алатки</LiberKeyTools>
+				<Proxy>HTTP прокси</Proxy>
+				<TechnicalInfo>Технички информации</TechnicalInfo>
+				<User>Кориснички информации</User>
+			</Options>
+		</Config>
+		<FloatingMenu>
+			<AlwaysOnTop>Секогаш на врвот</AlwaysOnTop>
+			<AutoCollapse>Автоматско пропаѓање</AutoCollapse>
+			<Close>Затвори</Close>
+			<FixedMode>Задржи отворено</FixedMode>
+			<GoToParent>Префрли се на основното мени</GoToParent>
+		</FloatingMenu>
+		<IconSelect>
+			<Labels>
+				<Title_Caption>Избор на икона</Title_Caption>
+			</Labels>
+		</IconSelect>
+		<Main>
+			<CommandButtons>
+				<AddApps_Caption>Инсталација</AddApps_Caption>
+				<AddApps_ToolTip>Додавање/Бришење на апликации</AddApps_ToolTip>
+				<Close_ToolTip>Сокриј LiberKey мени</Close_ToolTip>
+				<CloseSearch2_Caption>Затвори</CloseSearch2_Caption>
+				<Config_Caption>LiberKey алатки</Config_Caption>
+				<MyDocs_Caption>Документи</MyDocs_Caption>
+				<MyMusic_Caption>Музика</MyMusic_Caption>
+				<MyPictures_Caption>Слики</MyPictures_Caption>
+				<Quit_ToolTip>Затвори LiberKey мени</Quit_ToolTip>
+				<TabsScrollLeft_ToolTip>Стрелка за лево</TabsScrollLeft_ToolTip>
+				<TabsScrollRight_ToolTip>Стрелка за десно</TabsScrollRight_ToolTip>
+				<UserMenus_ToolTip>Корисничко мени</UserMenus_ToolTip>
+				<ViewIcons_ToolTip>Големи икони</ViewIcons_ToolTip>
+				<ViewTree_ToolTip>Дрво</ViewTree_ToolTip>
+			</CommandButtons>
+			<Labels>
+				<SearchInfoLabel_Caption>Најдено: %count% кратенки</SearchInfoLabel_Caption>
+				<SearchInfoTitle_Caption>Пребарај во LiberKey</SearchInfoTitle_Caption>
+			</Labels>
+			<LiberKeyTools>
+				<AddApps>Прегледај го каталогот со апликации</AddApps>
+				<AddAppsTip>Овој волшебник ќе ви овозможи да се поврзете со LiberKey сервери, да пронајдете апликации што ги барате, и да ги инсталирате во вашиот LiberKey.</AddAppsTip>
+				<AddPortableShortcuts>Додај преносна кратенка</AddPortableShortcuts>
+				<AddRemoveApps>Додај/Отстрани програми</AddRemoveApps>
+				<AppsClose>Затвори апликации</AppsClose>
+				<AppsCloseTip>LiberKey Apps Closer автоматски ќе ги затвори сите ваши апликации стартувани од вашиот LiberKey. Методите кои се користат за да се затвораат апликациите се бројни и прилагодени на секој софтвер. Затворањето е правилно, ако датотеката, кој се менува (на пример, документ), се зачува.</AppsCloseTip>
+				<Configuration>Конфигурација</Configuration>
+				<ConfigurationTip>LiberKey конфигурација.\nСите поставки во врска со изгледот и однесувањето на вашиот LiberKey се во овој прозорец.</ConfigurationTip>
+				<DisableFileAssoc>Оневозможи датотечно поврзување</DisableFileAssoc>
+				<DisableFileAssocTip>Датотеките од компјутерот моментално се поврзани со LiberKey апликации\nКликнете за враќање на поврзувањата со датотеките од компјутерот.</DisableFileAssocTip>
+				<EnableFileAssoc>Овозможи датотечно поврзување</EnableFileAssoc>
+				<EnableFileAssocTip>Овозможи привремени датотечни поврзувања за апликациите од LiberKey.</EnableFileAssocTip>
+				<FileAssoc>Датотечно поврзување</FileAssoc>
+				<GoToWebSite>Посетете ја LiberKey веб страницата</GoToWebSite>
+				<GoToWebSiteTip>Ова мени ви овозможува да пристапите на веб страната на LiberKey. Ќе ги најдете сите видови информации за LiberKey и форум, отворен за сите корисници.</GoToWebSiteTip>
+				<InstallAppSuite>Инсталирај пакет со апликации</InstallAppSuite>
+				<InstallAppSuiteTip>Овој волшебник ви овозможува да инсталирате целосен пакет на апликации.</InstallAppSuiteTip>
+				<LiberKeyNews>Прочитајте новости</LiberKeyNews>
+				<LiberKeyNewsTip>LiberKey новости ви дава информирани за сите случувања во врска со LiberKey.\nНовите апликации во онлајн каталогот или какви било информации во врска со LiberKey ќе се појават во новостите.</LiberKeyNewsTip>
+				<ManageApps>Управување со апликации</ManageApps>
+				<ManageAppsTip>Деинсталирање, инсталирање или реинсталирање на апликации. Овој сет на алатки ќе ви помогне да се справите со апликациите инсталирани на вашиот LiberKey.</ManageAppsTip>
+				<PortableShortcutsTip>Portable Desktop Shortcut ви овозможува да управувате со вашите преносливи десктоп кратенки поврзани со вашиот LiberKey.\nВие исто така може да ги зачувате локациите на кратенки на вашата работна површина.</PortableShortcutsTip>
+				<RemovePortableShortcuts>Отстрани преносна кратенка</RemovePortableShortcuts>
+				<Title>LiberKey алатки</Title>
+				<UpdateCheck>Проверете за ажурирања</UpdateCheck>
+				<UpdateCheckTip>Проверете дали се достапни нови ажурирања и верзија за LiberKey.\nАко има, преземете ги директно од LiberKey.com</UpdateCheckTip>
+				<UsbEject>Исклучете го вашиот LiberKey</UsbEject>
+				<USBEjectTip>LiberKey USB Eject дозволува исфрлање на УСБ уредот на кој е вашиот LiberKey (со автоматско затварање на сите апликации).\n\nНАПОМЕНА: Вашиот УСБ уред ќе биде исфрлен само кога ќе бидат затворени сите апликации.</USBEjectTip>
+			</LiberKeyTools>
+			<Messages>
+				<About>За LiberKey...</About>
+				<BrowseForNewFolder>Изберете папка каде што ќе се отвара кратенката</BrowseForNewFolder>
+				<PatchDownload>Преземи ажурирање...</PatchDownload>
+				<SearchResults>Пребарај резултати</SearchResults>
+			</Messages>
+		</Main>
+		<Menu>
+			<LKHelp>Помош за LiberKey</LKHelp>
+			<LKQuickLaunch>LiberKey брз старт</LKQuickLaunch>
+			<MostUsed>Најчесто користени</MostUsed>
+			<MyApps>Мои преносни апликации</MyApps>
+			<MyDocs>Мои документи</MyDocs>
+			<Recent>Неодамна</Recent>
+		</Menu>
+		<MenuProperties>
+			<CheckBoxs>
+				<EditMode_Caption>Дозволи промени</EditMode_Caption>
+				<NotInSystrayMenu_Caption>Не покажувај во главното лебдечко мени</NotInSystrayMenu_Caption>
+				<ShowName_Caption>Покажи име</ShowName_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Apply_Caption>Во ред</Apply_Caption>
+				<Cancel_Caption>Прекини</Cancel_Caption>
+			</CommandButtons>
+			<Labels>
+				<MenuIconLabel_Caption>Поврзани икони:</MenuIconLabel_Caption>
+				<MenuNameLabel_Caption>Име на мени:</MenuNameLabel_Caption>
+				<Title_Caption>Својства на корисничко мени</Title_Caption>
+			</Labels>
+		</MenuProperties>
+		<Menus>
+			<AppCopy_Caption>&amp;Копирај</AppCopy_Caption>
+			<AppCut_Caption>&amp;Отсечи</AppCut_Caption>
+			<AppDelApp_Caption>&amp;Избриши</AppDelApp_Caption>
+			<AppEditProps_Caption>&amp;Својства на апликацијата...</AppEditProps_Caption>
+			<AppGoToWebSite_Caption>&amp;Посетете ја веб страницата</AppGoToWebSite_Caption>
+			<AppLaunch_Caption>&amp;Изврши</AppLaunch_Caption>
+			<AppLocate_Caption>&amp;Лоцирај категорија</AppLocate_Caption>
+			<AppLocation-0_Caption>(Име на категорија)</AppLocation-0_Caption>
+			<AppLocations_Caption>&amp;Лоцирај категорија</AppLocations_Caption>
+			<AppOpenAppFolder_Caption>&amp;Отвори содржинска папка</AppOpenAppFolder_Caption>
+			<AppPaste_Caption>&amp;Залепи</AppPaste_Caption>
+			<AppRunAs_Caption>&amp;Изврши како...</AppRunAs_Caption>
+			<AppRunAsAdmin_Caption>&amp;Изврши како администратор</AppRunAsAdmin_Caption>
+			<AppSetup_Caption>Инсталирај &amp;ја оваа апликација</AppSetup_Caption>
+			<AppShowInfo_Caption>&amp;Информации</AppShowInfo_Caption>
+			<AppUpdate_Caption>&amp;Ажурирај</AppUpdate_Caption>
+			<CatAdd_Caption>Нова кратенка</CatAdd_Caption>
+			<CatAddApp_Caption>Апликација/датотека...</CatAddApp_Caption>
+			<CatAddFolder_Caption>Папка...</CatAddFolder_Caption>
+			<CatAddWebPage_Caption>Веб страница...</CatAddWebPage_Caption>
+			<CatCopy_Caption>&amp;Копирај</CatCopy_Caption>
+			<CatCut_Caption>&amp;Отсечи</CatCut_Caption>
+			<CatDelCat_Caption>&amp;Избриши</CatDelCat_Caption>
+			<CatEditProps_Caption>&amp;Својства...</CatEditProps_Caption>
+			<CatListMode_Caption>Покажи &amp;листа</CatListMode_Caption>
+			<CatNewCat_Caption>&amp;Нова категорија</CatNewCat_Caption>
+			<CatPaste_Caption>&amp;Залепи</CatPaste_Caption>
+			<CatShowMenu_Caption>&amp;Лебдечко мени...</CatShowMenu_Caption>
+			<CatSort_Caption>&amp;Сортирај</CatSort_Caption>
+			<DoNothing_Caption>Не прави ништо</DoNothing_Caption>
+			<FolderOpen_Caption>&amp;Отвори папка</FolderOpen_Caption>
+			<InstallLKS_Caption>Инсталирај LKS (LiberKey Setup) пакети</InstallLKS_Caption>
+			<InstallLKS_Tip>Изберете една или повеќе LKS датотеки (LiberKey Setup) за инсталирање со едно кликнување.</InstallLKS_Tip>
+			<InstallsFromAppsFolder_Caption>Од папката „Апликации“...</InstallsFromAppsFolder_Caption>
+			<InstallsFromAppsFolder_Tip>Овој волшебник автоматски ќе ја провери папката „Апликации“ на вашиот LiberKey за присуство на нови апликации.\nНа пример: можете да копирате апликации од друг LiberKey и да ги зачувате во вашата папка а овој волшебник да ги открие.</InstallsFromAppsFolder_Tip>
+			<InstallsFromMyApps_Caption>Од папката „Мои апликации“...</InstallsFromMyApps_Caption>
+			<InstallsFromMyApps_Tip>Ако сте додале рачно апликацијии во папката „Мои апликации“, овој волшебник ќе се обиде да ги открие и да ги регистрира во менито.</InstallsFromMyApps_Tip>
+			<InternetOpen_Caption>&amp;Отвори</InternetOpen_Caption>
+			<MenusCreate_Caption>&amp;Создади ново мени...</MenusCreate_Caption>
+			<MenusDelete_Caption>&amp;Избриши го тековното мени</MenusDelete_Caption>
+			<MenusEdit_Caption>&amp;Својства на тековното мени...</MenusEdit_Caption>
+			<MenusExport_Caption>Из&amp;вези го тековното мени...</MenusExport_Caption>
+			<MenusHideNames_Caption>&amp;Сокриј имиња</MenusHideNames_Caption>
+			<MenusImport_Caption>У&amp;вези мени...</MenusImport_Caption>
+			<MenusRecent_Caption>&amp;Неодамна</MenusRecent_Caption>
+			<MenusShowNames_Caption>Покажи &amp;имиња</MenusShowNames_Caption>
+			<MenusUser-0_Caption>Стандардно мени</MenusUser-0_Caption>
+			<Open_Caption>&amp;Отвори</Open_Caption>
+			<OpenActiveFloatMenu_Caption>Отвори лебдечко мени</OpenActiveFloatMenu_Caption>
+			<OpenMainWindow_Caption>Отвори главно мени</OpenMainWindow_Caption>
+			<PatchCancelDownload_Caption>&amp;Откажи преземање</PatchCancelDownload_Caption>
+			<Quit>Прекини</Quit>
+			<RepairApps_Caption>Поправи оштетени апликации</RepairApps_Caption>
+			<RepairApps_Tip>Овој волшебник автоматски ќе ја провери папката „Апликации“ во вашиот LiberKey дали вашите апликации се оштетени.\nАко апликацијата е оштетена ќе ви биде понудено да ја преинсталирате.</RepairApps_Tip>
+			<SendToPortableDocs>Мои преносни документи</SendToPortableDocs>
+			<SendToPortableDocsDescription>Копирај ги избраните датотеки во LiberKey папката „Мои документи“</SendToPortableDocsDescription>
+			<ShortcutEditProps_Caption>Својства на кратенките за брз пристап...</ShortcutEditProps_Caption>
+			<SuiteSetup>
+				<AppList>Листа со апликации</AppList>
+				<HideNewApps_Caption>Сокриј нови апликации</HideNewApps_Caption>
+				<HideUpdates_Caption>Сокруј апликативни ажурирања</HideUpdates_Caption>
+				<HideUpToDateApps_Caption>Сокриј ажурирани апликации</HideUpToDateApps_Caption>
+				<SelectAll_Caption>Избери се</SelectAll_Caption>
+				<SelectNewApps_Caption>Избери нови апликации</SelectNewApps_Caption>
+				<SelectPriority_Caption>Избери приоритетни ажурирања</SelectPriority_Caption>
+				<SelectUpdates_Caption>Избери апликативни ажурирања</SelectUpdates_Caption>
+				<ShowNewApps_Caption>Покажи нови апликации</ShowNewApps_Caption>
+				<ShowUpdates_Caption>Покажи апликативни ажурирања</ShowUpdates_Caption>
+				<ShowUpToDateApps_Caption>Покажи ажурирани апликации</ShowUpToDateApps_Caption>
+				<UnselectAll_Caption>Отстрани се</UnselectAll_Caption>
+				<UnselectNewApps_Caption>Отстрани нови апликации</UnselectNewApps_Caption>
+				<UnselectPriority_Caption>Отстрани приоритетни ажурирања</UnselectPriority_Caption>
+				<UnselectUpdates_Caption>Отстрани апликативни ажурирања</UnselectUpdates_Caption>
+			</SuiteSetup>
+			<SynchronizeCatalog_Caption>Од онлајн каталог</SynchronizeCatalog_Caption>
+			<SynchronizeCatalog_Tip>Овој волшебник ќе ви овозможи да се поврзете со сервери на LiberKey, да ја пронајдете апликацијата што ја барате, и да ја инсталирате на вашиот LiberKey.</SynchronizeCatalog_Tip>
+			<UserMenuTabEditable_Caption>Дозволи измени</UserMenuTabEditable_Caption>
+			<UserMenuTabFloatMenu_Caption>&amp;Лебдечко мени...</UserMenuTabFloatMenu_Caption>
+			<UserMenuTabHideName_Caption>&amp;Сокриј име</UserMenuTabHideName_Caption>
+			<UserMenuTabProperties_Caption>&amp;Својства...</UserMenuTabProperties_Caption>
+			<UserMenuTabShowName_Caption>&amp;Покажи име</UserMenuTabShowName_Caption>
+		</Menus>
+		<Messages>
+			<AllFilesSelection>Сите датотеки|*.*</AllFilesSelection>
+			<AppInstallation>Инсталирање на апликацијата %appname%...</AppInstallation>
+			<AppInstallDone>Апликацијата %appname% беше инсталирана во вашиот LiberKey.</AppInstallDone>
+			<AppInstalled>Инсталирана апликација: %appname%</AppInstalled>
+			<AppNotFound>Оваа апликација не е инсталирана во вашиот LiberKey.</AppNotFound>
+			<AppNotFoundTitle>Локализирајте апликација</AppNotFoundTitle>
+			<AppRefCount>Кратенка до оваа апликација: %count%</AppRefCount>
+			<AppRegistered>Оваа апликација сега е регистрирана во вашиот LiberKey.\n\nСега можете да создадете ктаѕенка</AppRegistered>
+			<AppRunningCantUninst>Моментално оваа апликација работи.\n\nНеможете да деинсталирате апликација која работи.</AppRunningCantUninst>
+			<AppsInstallDone>%count% нови апликации се инсталирани во вашиот LiberKey.</AppsInstallDone>
+			<AutoImportMenu>Сеуште немате создадено мени за стартување на оваа апликација.\n\nДали сакате да увезете од старото мени?</AutoImportMenu>
+			<BrokenAppFoundReinstall>Апликацијата %appname% изгледа дека е оштетена.\n\nДали да се реинсталира?</BrokenAppFoundReinstall>
+			<Browse>Барање...</Browse>
+			<ConfirmDeleteCategory>Дали сте сигурни дека сакате да ја избришете категоријата „%name%“ и кратенките кои таа ги содржи?</ConfirmDeleteCategory>
+			<ConfirmDeleteSortcut>Дали сте сигурни дека сакате да ја избришете кратенката „%name%“?</ConfirmDeleteSortcut>
+			<ConfirmDeletion>Потврди бришење</ConfirmDeletion>
+			<ConfirmInstallApp>Да се инсталира ли %app% во вашиот LiberKey?</ConfirmInstallApp>
+			<ConfirmInstallExtension>Дали сакате да ја инсталирате оваа наставка во вашиот LiberKey?\n\n%extname%</ConfirmInstallExtension>
+			<ConfirmInstallMyApps>Дали сакате да откриете нови апликации во папката „Мои апликации“?</ConfirmInstallMyApps>
+			<ConfirmInstallNewApps>Дали сакате да откриете нови апликации во папката „Апликации“?</ConfirmInstallNewApps>
+			<ConfirmUninstallApp>Дали сте сигурни дека сакате да ја отстраните оваа апликација?\nОва дејство не може да се врати назад.</ConfirmUninstallApp>
+			<DateFormat>dd/mm/yyyy</DateFormat>
+			<DefaultIcon>(Стандардна икона)</DefaultIcon>
+			<DeleteMenuConfirm>Избриши мени „%menu%“?</DeleteMenuConfirm>
+			<DownloadPatchNow>Преземете ажурирање сега?</DownloadPatchNow>
+			<DropLKSLoadingInfos>Ве молиме почекајте додека примената информација се извадува...</DropLKSLoadingInfos>
+			<DropLKSToInstall>Ослободете го копчето од глувчето за да ја инсталирате апликацијата во Вашиот LiberKey.</DropLKSToInstall>
+			<Errors>
+				<AccessDenied>Пристапот е одбиен</AccessDenied>
+				<AccessRightsError>LiberKey бара пристап до преносниот уред на кој што е снимен.</AccessRightsError>
+				<AssocIncomplete>Незавршено или неправилно датотечно поврзување.</AssocIncomplete>
+				<CantCreateTempFolder>Не може да се создаде привремена папка.</CantCreateTempFolder>
+				<CantDefineHotKey>Се случи грешка при поставувањето кратенка за &quot;%name%&quot;:\n%err%</CantDefineHotKey>
+				<CantDefineHotKeys>Се случи грешка при поставувањето на следната кратенка:\n%err%\n%namelist%</CantDefineHotKeys>
+				<CantStartOnRemoteDrive>Не може да го користите LiberKey на мрежниот диск.</CantStartOnRemoteDrive>
+				<DDEBusy>Зафатен DDE.</DDEBusy>
+				<DDETimeout>DDE тајмаут.</DDETimeout>
+				<DDETransacFailed>DDE трансакцијата не успеа.</DDETransacFailed>
+				<DllNotFound>DDL не е пронајден.</DllNotFound>
+				<ErrorTitle>Грешка</ErrorTitle>
+				<ErrShare>Се случи повреда при споделувањето.</ErrShare>
+				<ExeBadFormat>Неправилна ЕХЕ датотека или грешка во ЕХЕ сликата.</ExeBadFormat>
+				<ExecError>Грешка во програмското стартување.</ExecError>
+				<FileNotFound>Датотеката не е пронајдена.</FileNotFound>
+				<GetUpdateInfoError>Се случи грешка при обидот на добивање на информации за ажурирањата:\nГрешка %err%: %desc%</GetUpdateInfoError>
+				<HotKeyAlreadyUsedBy>Веќе ја користите оваа комбинација за кратенката &quot;%name%&quot;!</HotKeyAlreadyUsedBy>
+				<InstallExtensionError>Се случи грешка за време на инсталацијата на оваа проширување!\n%extname%</InstallExtensionError>
+				<InvalidExtensionFile>Неправилна датотечна наставка.</InvalidExtensionFile>
+				<LKInstNotFound>LiberKey инсталатерот не е пронајден.</LKInstNotFound>
+				<LksDownloadFailed>Се случи грешка при преземањето на инсталација на пакетот за %app% (%lks%).\n\nГрешка %errnum%: %errdesc%</LksDownloadFailed>
+				<LogUploadFailed>Се случи грешка при испраќањето информации.</LogUploadFailed>
+				<NewsFeedDownloadError>Се случи грешка при преземањето податоци за новостите\n%err%</NewsFeedDownloadError>
+				<NoAssoc>Нема поврзување за датотечната наставка.</NoAssoc>
+				<OutOfMemory>Недостаток на меморија.</OutOfMemory>
+				<PathNotFound>Патеката не е пронајдена.</PathNotFound>
+				<SkinImageNotFound>Грешка при вчитување изглед на програмата:\n\nДатотеката %file% не е пронајдена.</SkinImageNotFound>
+			</Errors>
+			<FileSize>
+				<Bytes>бајти</Bytes>
+				<GB>ГБ</GB>
+				<KB>КБ</KB>
+				<MB>МБ</MB>
+			</FileSize>
+			<FreeSpace>Уред %drive% (%filesys%)\n%volumename%\nКапацитет: %totalsize%\nКористи: %usedsize%\nСлободно: %freesize% (%freesizepc%)</FreeSpace>
+			<HotKeyStartAppInfo>Стартување на „%name%“...\nКликнете овде за откажување!</HotKeyStartAppInfo>
+			<IconFileSelection>Поддржани датотеки|*.ico;*.exe;*.dll|Fichiers icône (*.ico)|*.ico|Fichiers exécutables|*.exe;*.dll</IconFileSelection>
+			<IconSelection>
+				<AppIcons>Икони</AppIcons>
+				<IconSelectTitle>Изберете датотеки кои содржат икони</IconSelectTitle>
+				<IconSources>Достапни икони</IconSources>
+				<SkinIcons>Икони</SkinIcons>
+			</IconSelection>
+			<ImportASuiteMenu>Увоз на мени...</ImportASuiteMenu>
+			<ImportMenuFormatError>Оваа датотека не постои во менито на LiberKey.</ImportMenuFormatError>
+			<InternetAddress>Интернет адреса...</InternetAddress>
+			<LastAppShortcutUninstall>Нема повеќе кратенки за оваа апликација во вашето LiberKey мени.\nДали сакате да се деинсталира од вашиот LiberKey?</LastAppShortcutUninstall>
+			<LinkedAppCount>Поврзани апликации: %count%</LinkedAppCount>
+			<LogUploadDone>Информацијата е испратена.\nВи благодариме за вашето учество во развојот на LiberKey!</LogUploadDone>
+			<MenuExportTitle>Извоз на менито во XML датотека...</MenuExportTitle>
+			<MenuImportError>Се случи грешка при копирањето на менито во вашиот LiberKey.</MenuImportError>
+			<MenuImportErrorTitle>Менито неможе да се увезе</MenuImportErrorTitle>
+			<MenuImportNotFromProfile>Неможе да се увезе мени кое веќе е во вашиот LiberKey.</MenuImportNotFromProfile>
+			<MenuImportTitle>Увоз на мени од XML датотека</MenuImportTitle>
+			<MultipleFilesDrop>%count% датотеки...</MultipleFilesDrop>
+			<MyMenu>Мое мени</MyMenu>
+			<NewCategory>Нова категорија</NewCategory>
+			<NewMenu>Ново мени</NewMenu>
+			<NoAppAssocFound>Ниту една апликација не е поврзана со овој вид датотека</NoAppAssocFound>
+			<NoBrokenAppFound>Нема пронајдено оштетени апликации</NoBrokenAppFound>
+			<NoLogToSend>Оваа алатка ви овозможува да испратите порака на тимот на LiberKey за да се анализираат проблемите.\n\nНема пронајдено никаков настан за испраќање.</NoLogToSend>
+			<NoNewAppInstalled>Нема пронајдено нови апликации во папката „Апликации“</NoNewAppInstalled>
+			<NoNewMyAppInstalled>Нема пронајдено нови апликации во папката „Мои апликации“</NoNewMyAppInstalled>
+			<OpenWithLiberKey>Отвори со LiberKey</OpenWithLiberKey>
+			<PatchAvailable>Достапно е ажурирање за вашиот LiberKey.\n\nДали сакате да го преземете сега?</PatchAvailable>
+			<SearchFieldInfo>Пребарување во вашиот LiberKey...</SearchFieldInfo>
+			<SearchingBrokenApps>Пребарување оштетени апликации...</SearchingBrokenApps>
+			<SearchingUninstalledApps>Пребарување апликации во папката „Апликации“...</SearchingUninstalledApps>
+			<SearchingUninstalledMyApps>Пребарување апликации во папката „Мои апликации“...</SearchingUninstalledMyApps>
+			<SelectFile>Избери датотека...</SelectFile>
+			<SendingScreenshot>Испраќање слика од екранот...</SendingScreenshot>
+			<SendLogInfo>Оваа алатка ви овозможува да испратите порака на тимот на LiberKey за да се анализираат проблемите.\n\nТехничките информации и последните 10 генерирани датотеки во „дневникот“ на вашето мени ќе бидат испратени на тимот на LiberKey.\n\nДали сте сигурни дека сакате да продолжите?</SendLogInfo>
+			<SetupAutoRestart>Подесувањата на %app% ќе се рестартираат обновени во LiberKey.</SetupAutoRestart>
+			<TrayIcon>
+				<AppUpdatesAvailable>Достапни се ажурирања за вашите апликации.\nКликнете овде за инсталирање.</AppUpdatesAvailable>
+				<AppUpdatesAvailableTitle>Достапни ажурирања на апликации</AppUpdatesAvailableTitle>
+				<LiberKeyAssocFailed>Се случи грешка при обидот за активирање на LiberKey протоколот.\nНекои функции како што се инсталација од онлајн каталогот се оневозможени.</LiberKeyAssocFailed>
+				<LiberKeyUpdateAvailable>Достапно е ажурирање за вашиот LiberKey.\nКликнете овде за инсталирање.</LiberKeyUpdateAvailable>
+				<LiberKeyUpdateAvailableTitle>LiberKey ажурирање</LiberKeyUpdateAvailableTitle>
+				<NewAppDetected>Една или повеќе нови апликации биле откриени во папката „Мои апликации“ на вашиот LiberKey.\nКликнете тука за да се регистрираат новите апликации во вашето мени.</NewAppDetected>
+				<NewsUpdateAvailable>LiberKey Новости\nПрочитајте ги последните новости</NewsUpdateAvailable>
+			</TrayIcon>
+			<UpdatePlatformFirst>Прво треба да го обновите вашиот LiberKey!\nДали сакате да го направите ова ажурирање сега?</UpdatePlatformFirst>
+			<XmlFileSelection>XML датотеки|*.xml|Сите датотеки|*.*</XmlFileSelection>
+		</Messages>
+		<NewAppList>
+			<CommandButtons>
+				<Cancel_Caption>Затвори</Cancel_Caption>
+				<InstallApp_ToolTip>Инсталирај ја апликацијата</InstallApp_ToolTip>
+				<InstallApps_ToolTip>Инсталирај ги избраните апликации</InstallApps_ToolTip>
+				<OpenFolder_ToolTip>Отвори ја локацијата на папката</OpenFolder_ToolTip>
+				<Reload_ToolTip>Освежи листа</Reload_ToolTip>
+				<SelectApp_ToolTip>Селектирај ја апликацијата</SelectApp_ToolTip>
+				<UnselectApp_ToolTip>Одселектирај ја апликацијата</UnselectApp_ToolTip>
+			</CommandButtons>
+			<Labels>
+				<DestinationMenuLabel_Caption>Создади кратенки во:</DestinationMenuLabel_Caption>
+				<Title_Caption>Нови апликации</Title_Caption>
+			</Labels>
+			<Messages>
+				<SelectExecutable>Изберете ја програмата копја сакате да ја додадете во менито.</SelectExecutable>
+			</Messages>
+		</NewAppList>
+		<News>
+			<CheckBoxs>
+				<HideReadNews_Caption>Сокриј веќепрочитани новости</HideReadNews_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<CloseNews_Caption>Затвори</CloseNews_Caption>
+			</CommandButtons>
+			<Labels>
+				<Title_Caption>LiberKey новости</Title_Caption>
+			</Labels>
+			<Messages>
+				<NoNewsDescription>Нема новости во моментот.\nАко се објавуваат новости, ќе бидете известени од страна на „LiberKey новости“ икона која ќе се појавуваат над копчето „LiberKey алатки“.</NoNewsDescription>
+				<NoNewsTile>LiberKey новости - Нема новости</NoNewsTile>
+				<NoNewsUpdateDescription>Во моментов постојат %readcount% скриени (веќе прочитани) новости.\nЗа да ги видите скриените новости, отштиклирајте „Сокриј веќе прочитани новости“ подолу.</NoNewsUpdateDescription>
+				<NoNewsUpdateTile>LiberKey новости - Нема достапни новости</NoNewsUpdateTile>
+			</Messages>
+		</News>
+		<OnlineCatalog>
+			<CommandButtons>
+				<Cancel_Caption>Откажи</Cancel_Caption>
+				<CopyURL_Caption>Копирај адреса во склад</CopyURL_Caption>
+				<GoToWebsite_Caption>Пристап во онлајн каталогот %count%</GoToWebsite_Caption>
+				<NoSyncCatalog_Caption>Пристап во онлајн каталогог без синхронизација на LiberKey</NoSyncCatalog_Caption>
+			</CommandButtons>
+			<Labels>
+				<AccessURL_Caption>Адресата за пристап до онлајн каталогот е синхронизирана со вашиот LiberKey:</AccessURL_Caption>
+				<AddPortableAppsLabel_Caption>Инсталирај нови апликации</AddPortableAppsLabel_Caption>
+				<Privacy_Caption>Забелешка: Бројот на верзиите испратени до веб страницата ги покрива достапните апликации во онлајн каталогот. Ниедна информација за вашите лични апликации не се пренесува за време на оваа операција.</Privacy_Caption>
+				<Title_Caption>Отвори онлајн каталог</Title_Caption>
+			</Labels>
+		</OnlineCatalog>
+		<Search>
+			<Applications>Апликации</Applications>
+			<InCatalog>Онлајн каталог</InCatalog>
+			<InstalledApp>Инсталирани апликации</InstalledApp>
+			<SearchCatalog>Пребарај во онлајн каталогот</SearchCatalog>
+		</Search>
+		<SetupWizard>
+			<CheckBoxs>
+				<ApplyFilesAssocs_Caption>Поврзете ја апликацијата на датотеки кои може да ги отвара</ApplyFilesAssocs_Caption>
+				<CreateDefaultShortcuts_Caption>Создадете кратенка за стартување на апликацијата</CreateDefaultShortcuts_Caption>
+				<EditAppAfterSetup_Caption>Уредете ги апликационите својства по инсталацијата</EditAppAfterSetup_Caption>
+				<FillAppInformations_Caption>Додадете опис на апликацијата</FillAppInformations_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<CancelSetup_Caption>Не ја инсталирај апликацијата во папката „Мои апликации“</CancelSetup_Caption>
+				<CancelSetup2_Caption>Откажи ја инсталацијата</CancelSetup2_Caption>
+				<CantSetup_Caption>Затвори го волшебникот (инсталацијата нема да продолжи)</CantSetup_Caption>
+				<DoSetup_Caption>Инсталирај ја апликацијата во мојот LiberKey</DoSetup_Caption>
+				<ForceSetup_Caption>Инсталирај ја апликацијатат во „Мои апликации“</ForceSetup_Caption>
+				<OpenAppsFolder_Caption>Отвори папка „Апликации“ во мојот LiberKey</OpenAppsFolder_Caption>
+				<OpenMyAppsFolder_Caption>Отвори папка „Мои апликации“ во мојот LiberKey</OpenMyAppsFolder_Caption>
+				<UpdateApp_Caption>Ажурирај ги овие апликации</UpdateApp_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppInfoDetailsTitle_Caption>Оваа апликација првично беше инсталирана од пакетот LKS (LiberKey подесување).\nСледниве дејствија ќе се извршат:</AppInfoDetailsTitle_Caption>
+				<AppRegisterInfo_Caption>Оваа апликација ќе биде регистрирана повторно во вашиот LiberKey.</AppRegisterInfo_Caption>
+				<DestinationMenuLabel_Caption>Создади кратенки во:</DestinationMenuLabel_Caption>
+				<IntroText_Caption>Овој волшебник е тука да ви помогне да додадете апликации во вашиот LiberKey.</IntroText_Caption>
+				<LbkAppFolderInfo_Caption>Оваа апликација не ќе се ажурира автоматски.\nТреба да ја поместите апликацијата во папката „Апликации“ и да ја повторите операцијата.</LbkAppFolderInfo_Caption>
+				<LbkAppFolderMistake_Caption>Преносните апликации од онлајн каталогот мора да бидат поставени во папката „Апликации“.</LbkAppFolderMistake_Caption>
+				<lblLbkAppInfoMissing_Caption>Информација за оваа апликација не е пронајдена.\nНе може да се зачува информацијата во вашиот LiberKey.</lblLbkAppInfoMissing_Caption>
+				<lblLbkAppInfoMissingMoveApp_Caption>Инсталирајте ја повторно апликацијата од онлајн каталогот.\nЗа правилна употреба, прво поместете ја апликацијата во папката „Мои апликации“.</lblLbkAppInfoMissingMoveApp_Caption>
+				<lblLbkAppInfoMissingUpdate_Caption>За правилно регистрирање на апликацијата во вашиот LiberKey, извршете ажурирање. За правилна употреба, прво поместете ја апликацијата во папката „Мои апликации“:</lblLbkAppInfoMissingUpdate_Caption>
+				<lblUserAppFolderInfo>За да ја зачувате оваа апликација во вашиот LiberKey, мора да ја поместите во папката „Мои апликации“ и да го повторите дејството.</lblUserAppFolderInfo>
+				<lblUserAppFolderMistake_Caption>Преносните апликации кои не се од онлајн каталогот мора да бидаѕ поставени во папката „Мои апликации“.</lblUserAppFolderMistake_Caption>
+				<NewApp_Caption>Нова преносна апликација</NewApp_Caption>
+				<NewAppRegisterInfo_Caption>Оваа апликација не е регистрирана во вашиот LiberKey</NewAppRegisterInfo_Caption>
+				<PafInfoDetailsTitle_Caption>Оваа апликација првично беше инсталирана од пакетот PAF (portableapps.com ™).\nСледниве операции ќе се извршат:</PafInfoDetailsTitle_Caption>
+				<ReinstallApp_Caption>Повторно инсталирај ја преносната апликација</ReinstallApp_Caption>
+				<Title_Caption>Додај волшебник на апликацијата</Title_Caption>
+				<UserAppInfoDetailsTitle_Caption>Преносните апликации мора да бидат регистрирани во менито LiberKey. Тогаш може да создадете кратенки во менито за стартување.\nСледниве акции ќе се извршат:\n</UserAppInfoDetailsTitle_Caption>
+				<XSoftInfoDetailsTitle_Caption>Оваа апликација првично беше инсталирана од Х-софтверски пакет (winpenpack.com ™).\nСледниве операции ќе се извршат:</XSoftInfoDetailsTitle_Caption>
+			</Labels>
+		</SetupWizard>
+		<ShortcutProperties>
+			<CheckBoxs>
+				<AlwaysRunAsAdmin_Caption>Секогаш извршувај како администратор</AlwaysRunAsAdmin_Caption>
+				<ShortcutHiddenInMenu_Caption>Скриено во лебдечкото мени</ShortcutHiddenInMenu_Caption>
+				<ShortcutNoMostUsed_Caption>Не додавај во менито на најчесто користени апликации</ShortcutNoMostUsed_Caption>
+				<ShortcutNoRecent_Caption>Не додавај во менито на неодамна користени апликации</ShortcutNoRecent_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<ApplyChanges_Caption>Примени</ApplyChanges_Caption>
+				<AppProps_Caption>Својства на апликацијата</AppProps_Caption>
+				<Cancel_Caption>Затвори</Cancel_Caption>
+				<ShortcutAppEdit_Caption>Оваа кратенка упатува на преносната апликација</ShortcutAppEdit_Caption>
+			</CommandButtons>
+			<Labels>
+				<DescriptionLabel_Caption>Опис:</DescriptionLabel_Caption>
+				<ShortcutAutorunLabel_Caption>Автоматско извршување:</ShortcutAutorunLabel_Caption>
+				<ShortcutHotKey_Caption>Кратенка на тастарурата:</ShortcutHotKey_Caption>
+				<ShortcutIconLabel_Caption>Икона:</ShortcutIconLabel_Caption>
+				<ShortcutNameLabel_Caption>Име:</ShortcutNameLabel_Caption>
+				<ShortcutParamsLabel_Caption>Параметри на командната линија:</ShortcutParamsLabel_Caption>
+				<ShortcutPathLabel_Caption>Извршна патека/папка/веб страница/документ:</ShortcutPathLabel_Caption>
+				<ShortcutWinStateLabel_Caption>При стартување:</ShortcutWinStateLabel_Caption>
+				<ShortcutWorkDirLabel_Caption>Раборен директориум</ShortcutWorkDirLabel_Caption>
+				<Title_Caption>Својства на кратенка</Title_Caption>
+			</Labels>
+			<Tabs>
+				<Shortcut>Кратенка</Shortcut>
+				<ShortcutMore>Напредно</ShortcutMore>
+			</Tabs>
+		</ShortcutProperties>
+		<SuiteDownload>
+			<CommandButtons>
+				<Cancel_Caption>Откажи</Cancel_Caption>
+				<GetSuites_Caption>Преземи ја листата на достапни пакети</GetSuites_Caption>
+				<InstallSuite_Caption>Инсталирај ги сите апликации во избраниот пакет</InstallSuite_Caption>
+			</CommandButtons>
+			<DownloadedAppsCountInfo>- Преземено: %dldone%</DownloadedAppsCountInfo>
+			<DownloadSizeInfo>Преземи: %size%</DownloadSizeInfo>
+			<InstallSizeInfo>- Потребен простор на дискот: %size%</InstallSizeInfo>
+			<Labels>
+				<DownloadInfo_Caption>Овој волшебник ви овозможува да инсталирате целосен пакет на апликации.\n\nКликнете на „Преземи ја листата на достапни пакети“ за да продолжите</DownloadInfo_Caption>
+				<Title_Caption>Инсталирајте пакет со апликации</Title_Caption>
+				<TitleBig_Caption>Инсталирајте пакет со апликации</TitleBig_Caption>
+			</Labels>
+			<Messages>
+				<ConfirmKeepDownloads>Дали сакате да се задржат аликационите пакети за подоцнежна инсталација?</ConfirmKeepDownloads>
+				<DownladAppIcons16>Преземање апликациони икони...</DownladAppIcons16>
+				<DownloadGraphics>Преземање лого на апликационите пакети...</DownloadGraphics>
+				<DownloadingSuitesInfo>Преземање информации за апликационите пакети...</DownloadingSuitesInfo>
+				<GetSuiteInfoFailed>Се случи грешка при преземањето на листата со достапни пакети.\n\nГрешка %errnum%: %errdesc%</GetSuiteInfoFailed>
+				<IncompleteSuiteSetup>Некои апликации од избраниот пакет беа неправилно инсталирани.\nМожете да го рестартирате волшебникот подоцна за завршување на инсталацијата.</IncompleteSuiteSetup>
+				<PartialSuiteSetupDone>Избраните апликации беа инсталирани.\nМожете да го рестартирате волшебникот подоцна за да додадете уште апликации.</PartialSuiteSetupDone>
+				<SetupDone>Апликациите од „%name%“ пакетот се инсталирани во вашиот LiberKey.</SetupDone>
+				<SetupError>Се случи грешка при инсталирањето на %app%!</SetupError>
+			</Messages>
+			<SuiteAppCountInfo>Апликации:</SuiteAppCountInfo>
+			<SuiteAppsDoneInfo>-   Ново: %newapps%   -   Инсталирано: %installed%</SuiteAppsDoneInfo>
+		</SuiteDownload>
+		<UninstallWizard>
+			<CheckBoxs>
+				<RemoveAppFolder_Caption>Отстрани ја апликационата папка (вклучувајќи ја и програмата и придружните податоци)</RemoveAppFolder_Caption>
+				<RemoveAppShortcuts_Caption>Отстрани ги сите кратенки што укажува на оваа апликација</RemoveAppShortcuts_Caption>
+				<RemoveFilesAssocs_Caption>Отстрани ги датотечните поврзувања кои се користат од оваа програма</RemoveFilesAssocs_Caption>
+				<UnregisterAppInfo_Caption>Одрегистрирај ја оваа апликација</UnregisterAppInfo_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<CancelSetup_Caption>Откажи деинсталација.</CancelSetup_Caption>
+				<CancelSetup2_Caption>Откажи деинсталација.</CancelSetup2_Caption>
+				<ConfirmUninstall_Caption>Потврдете отстранување на апликацијата.</ConfirmUninstall_Caption>
+				<DoUninstall_Caption>Изврши ги избраните бришења</DoUninstall_Caption>
+			</CommandButtons>
+			<Labels>
+				<IntroText_Caption>Овој волшебник ќе ви помогне да ја деинсталирате апликацијата од LiberKry.</IntroText_Caption>
+				<PreviewInfo_Caption>Ова е листата на акции кои што вашиот LiberKey ќе ги изврши при деинсталацијата. Во некои случаи отстранувањето на апликацијата може да доведе до други загуби. Задолжително проверете ја оваа листа пред деинсталирањето.</PreviewInfo_Caption>
+				<RemoveApp_Caption>Отстрани ја оваа апликација.</RemoveApp_Caption>
+				<RemoveAppInfo_Caption>Оваа апликација ќе се отстрани од LiberKey.</RemoveAppInfo_Caption>
+				<RemoveInfoDetailsTitle_Caption>Следните дејства ќе се извршат за време на деинсталирањето на програмата. Одштиклирајте ги опциите, доколку сакате да задржите некои информации во врска со апликацијата.</RemoveInfoDetailsTitle_Caption>
+				<Title_Caption>Волшебник за деинсталирање на апликацијата</Title_Caption>
+			</Labels>
+			<PreviewTree>
+				<AppDataSize>Големина на апликацијата: %size%</AppDataSize>
+				<DeletedAssocs>Избришано датотечно поврзување</DeletedAssocs>
+				<DeletedData>Избришани податоци за апликацијата</DeletedData>
+				<DeletedShortcuts>Избришани кратенки</DeletedShortcuts>
+				<FileType>Датотеки &quot;.%type%&quot;</FileType>
+				<KFANotFound>Конфигурацијата на датотечните поврзувања не беше пронајдена.</KFANotFound>
+				<KFANotUsed>Нема привремено поврзување за оваа апликација</KFANotUsed>
+				<KfaUsedForTypeIcon>Се користи за овој вид датотека на иконата</KfaUsedForTypeIcon>
+				<UnregisterApp>Избришани апликации</UnregisterApp>
+			</PreviewTree>
+		</UninstallWizard>
+		<UpdateInfo>
+			<CommandButtons>
+				<Cancel_Caption>Затвори</Cancel_Caption>
+				<DownloadPatch_Caption>Ажурирај го мојот LiberKey</DownloadPatch_Caption>
+				<OpenCatalog_Caption>Отвори го каталогот со преносни апликации</OpenCatalog_Caption>
+				<UpdateApps_Caption>Ажурирај ги моите LiberKey апликации</UpdateApps_Caption>
+			</CommandButtons>
+			<Labels>
+				<AppsUpdateFound>Достапни се ажурирања за вашите апликации.</AppsUpdateFound>
+				<AppsUpdateNotFound>Нема достапни ажурирања за вашите апликации.</AppsUpdateNotFound>
+				<NewAppsCount>Достапни се дополнителни апликации: %count%</NewAppsCount>
+				<NewAppsFound>Достапни се дополнителни апликации за вашиот LiberKey во онлајн каталогот.</NewAppsFound>
+				<NewAppsNotFound>Нема дополнителни апликации за вашиот LiberKey во онлајн каталогот.</NewAppsNotFound>
+				<NoNewApp>Имате се!</NoNewApp>
+				<PlatformUpdateFound>Едно ажурирање е достапно за вашиот LiberKey.</PlatformUpdateFound>
+				<PlatformUpdateNotFound>Нема пронајдено ажурирање за LiberKey платформата.</PlatformUpdateNotFound>
+				<Title_Caption>Достапни ажурирања</Title_Caption>
+				<UpdatesCount>Достапни ажурирања: %count%</UpdatesCount>
+			</Labels>
+		</UpdateInfo>
+		<Contributors>
+			<Contributor name="mite71" email="mite71@live.com"/>
+		</Contributors>
+	</mk-MK>
+</Languages>

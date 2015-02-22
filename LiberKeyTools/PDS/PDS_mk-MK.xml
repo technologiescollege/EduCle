@@ -1,0 +1,13 @@
+<Languages version="0.2">
+	<mk-MK en_name="Macedonian" icon="mk.png" date="2012-07-11" name="Македонски">
+		<Messages>
+			<ConfirmEraseMany>Да се избришат ли %count% зачувани кратенки?</ConfirmEraseMany>
+			<ConfirmEraseOne>Да се избрише ли зачуваната кратенка?</ConfirmEraseOne>
+			<NoDesktopIconFound>Нема пронајдено кратенки на работната површина.</NoDesktopIconFound>
+			<NoQuickLaunchIconFound>Нема пронајдено кратенка во лентата за брз старт.</NoQuickLaunchIconFound>
+		</Messages>
+		<Contributors>
+			<Contributor name="mite71" email="mite71@hotmail.com"/>
+		</Contributors>
+	</mk-MK>
+</Languages>

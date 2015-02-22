@@ -1,76 +1,76 @@
 <Languages version="0.2">
-	<ru-RU en_name="Russian" name="Русский" date="2011-02-03" version="0.2" icon="ru.png">
+	<ru-RU en_name="Russian" name="Русский" date="2013-02-01" version="0.2" icon="ru.png">
 		<Main>
+			<CommandButtons>
+				<Cancel_Caption>&amp;Отмена</Cancel_Caption>
+				<CancelOperation_Caption>&amp;Отмена</CancelOperation_Caption>
+				<Install_Caption>Установить это приложение на мой LiberKey</Install_Caption>
+			</CommandButtons>
 			<Labels>
+				<AppDescription_Caption>Описание:</AppDescription_Caption>
 				<AppName_Caption>Приложение:</AppName_Caption>
 				<AppVersion_Caption>Версия:</AppVersion_Caption>
-				<AppDescription_Caption>Описание:</AppDescription_Caption>
+				<AppWebSite_Caption>Веб-сайт:</AppWebSite_Caption>
+				<EditorEmail_Caption>Почта:</EditorEmail_Caption>
 				<EditorName_Caption>Автор:</EditorName_Caption>
 				<EditorWebSite_Caption>Веб-сайт:</EditorWebSite_Caption>
-				<EditorEmail_Caption>Почта:</EditorEmail_Caption>
-				<AppWebSite_Caption>Веб-сайт:</AppWebSite_Caption>
-				<SupportURL_Caption>Поддержка:</SupportURL_Caption>
-				<PackageLangs_Caption>Доступные языки установки:</PackageLangs_Caption>
 				<PackageInfo_Caption>Информация о пакете:</PackageInfo_Caption>
-				<Signature_Caption>Пакет предложен :</Signature_Caption>
+				<PackageLangs_Caption>Доступные языки установки:</PackageLangs_Caption>
+				<Signature_Caption>Пакет предложен:</Signature_Caption>
+				<SupportURL_Caption>Поддержка:</SupportURL_Caption>
 				<ValidationFailed_Caption>Предупреждение: этот пакет не проверялся!</ValidationFailed_Caption>
 			</Labels>
 			<Tabs>
 				<Application>Приложение</Application>
 				<Editor>Автор</Editor>
-				<Package>Инфо пакета:</Package>
+				<Package>Информация о пакете:</Package>
 			</Tabs>
-			<CommandButtons>
-				<Cancel_Caption>&amp;Отмена</Cancel_Caption>
-				<Install_Caption>Установить это приложение на мой LiberKey</Install_Caption>
-				<CancelOperation_Caption>&amp;Отмена</CancelOperation_Caption>
-			</CommandButtons>
 		</Main>
 		<Messages>
-			<InvalidPackageFile>Установочный пакет поврежден</InvalidPackageFile>
-			<Errors>
-				<ErrRenameAppDir>Ошибка при попытке переименовать папку приложения.\nУбедитесь, что приложение не запущено и что нет открытых файлов в папке приложения.\n\n</ErrRenameAppDir>
-				<ASuiteCloseFailed>Невозможно закрыть ASuite.</ASuiteCloseFailed>
-				<AppsDirNotFound>Папка назначения не найдена</AppsDirNotFound>
-				<ExtractErrorRestoreDone>Не удалось извлечь данные.\nБыла восстановлена предыдущая версия.\n</ExtractErrorRestoreDone>
-				<InstallerUpdateNeeded>Этот пакет более поздней версии, чем мастер установки.\nИспользуйте последнюю версию мастера для установки.</InstallerUpdateNeeded>
-				<InstallError>Произошла ошибка во время установки приложения!</InstallError>
-				<AppDataNotFound>Данные приложения не найдены</AppDataNotFound>
-				<InstErrorTitle>Ошибка при установке</InstErrorTitle>
-				<PackageValidationFailed>Внимание, этот пакет не был утвержден</PackageValidationFailed>
-				<DataFileModified>Инсталляционный пакет поврежден:\nДанные пакета были изменены\n\n%name%</DataFileModified>
-				<OldPackageVersion>Этот установочный пакет не поддерживается мастером установки.\nНевозможно продолжить установку.</OldPackageVersion>
-				<IncompleteSetup>Некоторые файлы не могут быть обновлены!\nНовые версии этих файлов были сохранены в следующем каталоге\n\n%failedfolder%</IncompleteSetup>
-				<SetupDataDownloadCanceled>Загрузка отменена</SetupDataDownloadCanceled>
-				<ExtractErrorRestoreNotDone>Извлечение приложения не удалось.\nПредыдущей версия была сохранена в каталоге резервного копирования.\n</ExtractErrorRestoreNotDone>
-				<SetupDataDownloadError>Ошибка загрузки данных установки</SetupDataDownloadError>
-			</Errors>
-			<Installing>Установка ...</Installing>
-			<VerifyingSetupPackage>Проверка установочного пакета</VerifyingSetupPackage>
-			<VerifyingSetupDestination>Проверка места назначения</VerifyingSetupDestination>
-			<SavingActualVersion>Сохранение текущей версией</SavingActualVersion>
-			<ExtractingAppFiles>Извлечение файлов приложения</ExtractingAppFiles>
-			<RestoringPreviousConfig>Восстановление предыдущей конфигурации</RestoringPreviousConfig>
-			<DeletingBackup>Удаление резервной копии</DeletingBackup>
-			<SetupDone>Установка закончена</SetupDone>
-			<ClosingASuite>Закрытие ASuite ...</ClosingASuite>
-			<ReStartLBK>Перезапуск LiberKey ...</ReStartLBK>
-			<AppStillRunning>Приложения по-прежнему работает.</AppStillRunning>
-			<UpdatingAppsMenu>Обновление LiberKey меню</UpdatingAppsMenu>
-			<RestartingMenu>Перезапуск меню ...</RestartingMenu>
-			<ClosingApplication>Закрытие приложения ...</ClosingApplication>
-			<ClosingKFA>Закрытие ключевых файлов ассоциации ...</ClosingKFA>
-			<UpdatingFileAssocs>Обновление ассоциации файлов</UpdatingFileAssocs>
-			<RestartingKFA>Перезапуск ключевые файлов ассоциации ...</RestartingKFA>
-			<RestartingApp>Перезапуск приложения ...</RestartingApp>
-			<PackageSignatureNotFound>(Этот пакет не подписан)</PackageSignatureNotFound>
-			<LangMismatchWarning>Внимание!\nВы собираетесь установить программное обеспечение на языке, который отличается от языка, используемого для вашего LiberKey.\nХотите продолжить?</LangMismatchWarning>
 			<AlreadyInstalled>Эта программа уже установлена на Вашем LiberKey.\nВы хотите, установить ее снова?</AlreadyInstalled>
+			<AppStillRunning>Приложения по-прежнему работает.</AppStillRunning>
+			<ClosingApplication>Закрытие приложения ...</ClosingApplication>
+			<ClosingASuite>Закрытие ASuite ...</ClosingASuite>
+			<ClosingKFA>Закрытие ключевых файлов ассоциации ...</ClosingKFA>
+			<DeletingBackup>Удаление резервной копии</DeletingBackup>
+			<DeletingObsoleteFiles>Удаление устаревших файлов</DeletingObsoleteFiles>
 			<DowngradeWarning>Внимание!\n\nНовая версия этой программы уже установлена на вашем LiberKey.\n\nВерсия уже установлена: %current_version%\nВерсия устанавливается: %setup_version%\n\nВы хотите установить старую версию?</DowngradeWarning>
 			<DownloadingSetupData>Загрузка установочных файлов  ...\n%DONE%</DownloadingSetupData>
-			<SetupDataDownloadDone>Загрузка завершена.</SetupDataDownloadDone>
+			<Errors>
+				<AppDataNotFound>Данные приложения не найдены</AppDataNotFound>
+				<AppsDirNotFound>Папка назначения не найдена</AppsDirNotFound>
+				<ASuiteCloseFailed>Невозможно закрыть ASuite.</ASuiteCloseFailed>
+				<DataFileModified>Инсталляционный пакет поврежден:\nДанные пакета были изменены\n\n%name%</DataFileModified>
+				<ErrRenameAppDir>Ошибка при попытке переименовать папку приложения.\nУбедитесь, что приложение не запущено и что нет открытых файлов в папке приложения.\n\n</ErrRenameAppDir>
+				<ExtractErrorRestoreDone>Не удалось извлечь данные.\nБыла восстановлена предыдущая версия.\n</ExtractErrorRestoreDone>
+				<ExtractErrorRestoreNotDone>Извлечение приложения не удалось.\nПредыдущей версия была сохранена в каталоге резервного копирования.\n</ExtractErrorRestoreNotDone>
+				<IncompleteSetup>Некоторые файлы не могут быть обновлены!\nНовые версии этих файлов были сохранены в следующем каталоге\n\n%failedfolder%</IncompleteSetup>
+				<InstallError>Произошла ошибка во время установки приложения!</InstallError>
+				<InstallerUpdateNeeded>Этот пакет более поздней версии, чем мастер установки.\nИспользуйте последнюю версию мастера для установки.</InstallerUpdateNeeded>
+				<InstErrorTitle>Ошибка при установке</InstErrorTitle>
+				<OldPackageVersion>Этот установочный пакет не поддерживается мастером установки.\nНевозможно продолжить установку.</OldPackageVersion>
+				<PackageValidationFailed>Внимание, этот пакет не был проверен</PackageValidationFailed>
+				<SetupDataDownloadCanceled>Загрузка отменена</SetupDataDownloadCanceled>
+				<SetupDataDownloadError>Ошибка загрузки данных установки</SetupDataDownloadError>
+			</Errors>
+			<ExtractingAppFiles>Извлечение файлов приложения</ExtractingAppFiles>
 			<InstalledLangMismatchWarning>Внимание!\nЭто программное обеспечение уже установлено на вашем LiberKey на другом языке.\n\nПредыдущая установка была сделана на: &quot;%prevlang%&quot;\nЭта установка будет на: &quot;%newlang%&quot;\n\nВы хотите продолжить?</InstalledLangMismatchWarning>
-			<DeletingObsoleteFiles>Удаление устаревших файлов</DeletingObsoleteFiles>
+			<Installing>Установка ...</Installing>
+			<InvalidPackageFile>Установочный пакет поврежден</InvalidPackageFile>
+			<LangMismatchWarning>Внимание!\nВы собираетесь установить программное обеспечение на языке, который отличается от языка, используемого для вашего LiberKey.\nХотите продолжить?</LangMismatchWarning>
+			<PackageSignatureNotFound>(Этот пакет не подписан)</PackageSignatureNotFound>
+			<RestartingApp>Перезапуск приложения ...</RestartingApp>
+			<RestartingKFA>Перезапуск ключевые файлов ассоциации ...</RestartingKFA>
+			<RestartingMenu>Перезапуск меню ...</RestartingMenu>
+			<ReStartLBK>Перезапуск LiberKey ...</ReStartLBK>
+			<RestoringPreviousConfig>Восстановление предыдущей конфигурации</RestoringPreviousConfig>
+			<SavingActualVersion>Сохранение текущей версией</SavingActualVersion>
+			<SetupDataDownloadDone>Загрузка завершена.</SetupDataDownloadDone>
+			<SetupDone>Установка закончена</SetupDone>
+			<UpdatingAppsMenu>Обновление LiberKey меню</UpdatingAppsMenu>
+			<UpdatingFileAssocs>Обновление ассоциации файлов</UpdatingFileAssocs>
+			<VerifyingSetupDestination>Проверка места назначения</VerifyingSetupDestination>
+			<VerifyingSetupPackage>Проверка установочного пакета</VerifyingSetupPackage>
 		</Messages>
 		<Report>
 			<caption>Установка завершена!</caption>
@@ -78,7 +78,7 @@
 				<Close_Caption>&amp;Закрыть</Close_Caption>
 			</CommandButtons>
 			<Labels>
-				<MenuInfo_Caption>Меню LiberKey было изменено!\n\nДля быстрого запуска только что установленного  \nприложения используйте меню LiberKey.</MenuInfo_Caption>
+				<MenuInfo_Caption>Меню LiberKey было изменено!\n\nДля быстрого запуска только что установленного приложения используйте меню LiberKey.</MenuInfo_Caption>
 			</Labels>
 		</Report>
 		<Contributors>

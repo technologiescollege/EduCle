@@ -1,0 +1,17 @@
+<Languages version="0.2">
+	<mk-MK en_name="Macedonian" icon="mk.png" date="2012-07-14" name="Македонски">
+		<Message>
+			<AppStillRunning>Сеуште има апликации кои работат во LiberKey.\n\nИсклучувањето на LiberKey уредот беше откажано.</AppStillRunning>
+		</Message>
+		<Messages>
+			<Errors>
+				<LkAppsCloseRunError>Грешка при извршувањето на програмата за затворање на апликацијата.</LkAppsCloseRunError>
+				<LkDiskEjectorRunError>Грешка при извршувањето на програмата за исфрлање на USB уредот.</LkDiskEjectorRunError>
+			</Errors>
+			<Intro>LiberKey USB Eject ги затвори сите отворени апликации од USB уредот.</Intro>
+		</Messages>
+		<Contributors>
+			<Contributor name="mite71" email="mite71@live.com"/>
+		</Contributors>
+	</mk-MK>
+</Languages>

@@ -1,6 +1,7 @@
 <Languages version="0.4">
-	<ar-TN en_name="Arabic" icon="tn.png" date="2011-05-02" version="0.9" name="العربيّة">
+	<ar-TN en_name="Arabic" icon="tn.png" date="2012-09-27" name="العربيّة" version="1.2">
 		<AppCategories>
+			<accessibility>تسهيل الوصول</accessibility>
 			<audio>الصوتيات</audio>
 			<audio:converter>التحويل</audio:converter>
 			<audio:editor>التعديل</audio:editor>
@@ -11,13 +12,18 @@
 			<audio:tagger>Tagger</audio:tagger>
 			<audio:text_to_speech>النص إلى كلام</audio:text_to_speech>
 			<audio:tools>الأدوات</audio:tools>
+			<audio-video>صوت-فيديو</audio-video>
 			<cd-dvd>سي دي -- دي في دي</cd-dvd>
 			<cd-dvd:burning_tools>أدوات الحرق</cd-dvd:burning_tools>
 			<cd-dvd:cover_printer>طباعة الواجهة الخارجية</cd-dvd:cover_printer>
 			<cd-dvd:image_tools>أدوات النسخ</cd-dvd:image_tools>
+			<development>تطوير</development>
 			<education>التعليم</education>
 			<education:astronomy>علم الفلك</education:astronomy>
+			<education:children>اطفال</education:children>
 			<education:drawing>التصوير</education:drawing>
+			<education:geography>جغرافيا</education:geography>
+			<education:music>موسيقا</education:music>
 			<education:typing>الكتابة</education:typing>
 			<file_management>إدارة الملفات</file_management>
 			<file_management:backup>النسخ الاحتياطي</file_management:backup>
@@ -63,6 +69,7 @@
 			<internet:rss_reader>RSS قارئ</internet:rss_reader>
 			<internet:website_authoring>تأليف المواقع</internet:website_authoring>
 			<internet:website_copier>نسخ المواقع</internet:website_copier>
+			<multimedia>ملتميديا</multimedia>
 			<networking-server>الشبكات -- الخادم</networking-server>
 			<networking-server:bandwidth_monitor>رصد عرض النطاق الترددي</networking-server:bandwidth_monitor>
 			<networking-server:configuration>برمجة</networking-server:configuration>
@@ -93,7 +100,7 @@
 			<office:font_manager>مدير الخطوط</office:font_manager>
 			<office:note_manager> مدير الملاحظات</office:note_manager>
 			<office:office_suite>حزمة المكتب</office:office_suite>
-			<office:pdf>PDF</office:pdf>
+			<office:pdf>ب-د-ف</office:pdf>
 			<office:presentation>عرض و تقديم</office:presentation>
 			<office:task_manager>مدير المهام</office:task_manager>
 			<office:text_editor>محرر النصوص</office:text_editor>
@@ -119,7 +126,7 @@
 			<system_utilities:information:file_monitoring>مراقبة الملفات</system_utilities:information:file_monitoring>
 			<system_utilities:information:hardware_monitoring>مراقبة الأجهزة</system_utilities:information:hardware_monitoring>
 			<system_utilities:information:inventory>جرد</system_utilities:information:inventory>
-			<system_utilities:information:process>Process</system_utilities:information:process>
+			<system_utilities:information:process>اسلوب</system_utilities:information:process>
 			<system_utilities:information:processor>المعالج</system_utilities:information:processor>
 			<system_utilities:information:service>خدمة</system_utilities:information:service>
 			<system_utilities:information:startup_manager>إدارة بدء التشغيل</system_utilities:information:startup_manager>
@@ -258,7 +265,7 @@
 		</CategoryProps>
 		<Config>
 			<About>
-				<Version>%ver% الإصدار</Version>
+				<Version>الاصدار %ver%</Version>
 			</About>
 			<CheckBoxs>
 				<AppHotKeysMemoPopup_Caption>عرض تذكير قبل بدء أي تطبيق</AppHotKeysMemoPopup_Caption>
@@ -266,7 +273,7 @@
 				<AutoCollapseOnHide_Caption>عندما يتم إخفاء القائمة،عد إلى الفئة الجذر</AutoCollapseOnHide_Caption>
 				<AutoHideMenuOnAppRun_Caption>إخفاء القائمة عند بدء تطبيق</AutoHideMenuOnAppRun_Caption>
 				<AutoRemoveDrive_Caption>عند إغلاق القائمة، قطع الجهاز القابلة للإزالة</AutoRemoveDrive_Caption>
-				<AutoRunLiberKey_Caption>عند بدء تشغيل الويندوز / تسجيل الدخول Liberkey بدء تشغيل</AutoRunLiberKey_Caption>
+				<AutoRunLiberKey_Caption> عند بدء تشغيل الويندوز / تسجيل الدخول liberkey بدء تشغيل </AutoRunLiberKey_Caption>
 				<AutoShowAppInfo_Caption>عرض معلومات حول التطبيقات</AutoShowAppInfo_Caption>
 				<ConfirmCategoryDeletion_Caption>تأكيد حذف فئة</ConfirmCategoryDeletion_Caption>
 				<ConfirmShortcutDeletion_Caption>تأكيد حذف الاختصار</ConfirmShortcutDeletion_Caption>
@@ -293,7 +300,14 @@
 				<ToolsQuitPDS_Caption>إزالة الاختصارات المحمولة عند إغلاق القائمة</ToolsQuitPDS_Caption>
 				<ToolsStartKFA_Caption>تمكين إقترانات الملفات عند بدء القائمة</ToolsStartKFA_Caption>
 				<ToolsStartPDS_Caption>إضافة الاختصارات المحمولة عند بدء القائمة</ToolsStartPDS_Caption>
-				<UseProxy_Caption>:استخدام خادم بروكسي للوصول إلى الإنترنت</UseProxy_Caption>
+				<UseClearTypeFonts_Caption>لعرض خطوط الشاشة ClearType استخدام</UseClearTypeFonts_Caption>
+				<UseMenuAppsAssoc_Caption>مع جميع الملفات Liberkey قرن</UseMenuAppsAssoc_Caption>
+				<UseProxy_Caption>استخدام خادم بروكسي للوصول إلى الإنترنت:</UseProxy_Caption>
+				<VoiceOver_Caption>تمكين قراءة نص العناصر عند تحويم الماوس</VoiceOver_Caption>
+				<WindowZoom_Caption>تمكين التكبير التلقائي النوافذ</WindowZoom_Caption>
+				<ZoomMenuFont_Caption>تغيير خط القوائم العائمة</ZoomMenuFont_Caption>
+				<ZoomMenuFontAntialias_Caption>الحواف</ZoomMenuFontAntialias_Caption>
+				<ZoomMenuFontBold_Caption>خشن</ZoomMenuFontBold_Caption>
 			</CheckBoxs>
 			<CommandButtons>
 				<ApplyChanges_Caption>طبق</ApplyChanges_Caption>
@@ -305,9 +319,11 @@
 				<Cancel_Caption>أغلق</Cancel_Caption>
 				<CopyTechnicalInfo_Caption>نسخ هذه المعلومات إلى الحافظة</CopyTechnicalInfo_Caption>
 				<CreateAccount_Caption>!انقر هنا لإنشاء حسابك مجانا</CreateAccount_Caption>
+				<KBSCRemove_ToolTip>إزالة اختصار لوحة المفاتيح</KBSCRemove_ToolTip>
 				<SendTechnicalInfo_Caption>أرسل</SendTechnicalInfo_Caption>
 			</CommandButtons>
 			<Labels>
+				<AccessibilityInfo_Caption>ضبط خيارات الوصول</AccessibilityInfo_Caption>
 				<Animations_Caption>تأثيرات حركية</Animations_Caption>
 				<AppHotKeysMemoPopupDuration_Caption>:مدة عرض الرسالة التذكيرية</AppHotKeysMemoPopupDuration_Caption>
 				<AppSetupInfo_Caption>Liberkey تهيئة مثبت التطبيق</AppSetupInfo_Caption>
@@ -316,6 +332,7 @@
 				<AutoRunDelay_Caption>( الزمن قبل التنفيذ الذاتي ( ثواني:</AutoRunDelay_Caption>
 				<AutoRunEachDelay_Caption>( الزمن بين كل تشغيل ( ثواني:</AutoRunEachDelay_Caption>
 				<AutorunInfo_Caption>إدارة التطبيقات التي تنفذ عند بدء تشغيل واغلاق \nLiberkey القائمة</AutorunInfo_Caption>
+				<ClearTypeRestart_Caption>(يتطلب إعادة تشغيل القائمة)</ClearTypeRestart_Caption>
 				<ColorsInfo_Caption>اللون الأولي للقائمة والنوافذ</ColorsInfo_Caption>
 				<Confirmations_Caption>تأكيدات</Confirmations_Caption>
 				<CreateAccountLabel_Caption>لا تملك حسابا ؟</CreateAccountLabel_Caption>
@@ -326,6 +343,7 @@
 				<DefaultEffectSet>التأثيرات الإفتراضية</DefaultEffectSet>
 				<EffectSetLabel_Caption>ضبط التأثيرات:</EffectSetLabel_Caption>
 				<FileAssocUpdatesOnlyInfo_Caption>.أثناء التحديث, لا يتم تعديل إقترانات الملفات\n.وهي تعرف فقط للتطبيقات الجديدة</FileAssocUpdatesOnlyInfo_Caption>
+				<Fonts_Caption>الخطوط</Fonts_Caption>
 				<Gadgets_Caption>الأدوات الذكية</Gadgets_Caption>
 				<KeyboardShortcutsInfo_Caption>Liberkey إختصارات لوحة المفاتيح المستخدمة من قبل القائمة</KeyboardShortcutsInfo_Caption>
 				<KFAoptions_Caption>نسب ملفات إلى تطبيقات محمولة</KFAoptions_Caption>
@@ -364,12 +382,15 @@
 				<Title_Caption>Liberkeyالإعدادات-قائمة</Title_Caption>
 				<TrayLeftClickActionLabel_Caption>نقرة على اليسار:</TrayLeftClickActionLabel_Caption>
 				<TrayRightClickActionLabel_Caption>نقرة على اليمين:</TrayRightClickActionLabel_Caption>
+				<UpdateAllAppsInfo_Caption>يتم تثبيت كافة التحديثات الاختيارية والأولوية دون إدخال المستخدم (الوضع التلقائي).</UpdateAllAppsInfo_Caption>
 				<UpdateAutoStartInfo_Caption>.(تم تثبيت التحديثات ذات الأولوية دون تدخل من المستخدم (الوضع التلقائي</UpdateAutoStartInfo_Caption>
 				<UpdateFileAssocInfo_Caption>.عندما تتم إضافة تطبيق أو تحديث مع المثبت ، يتم ربطه تلقائيا مع الملفات التي يستطيع تحريرها</UpdateFileAssocInfo_Caption>
 				<UpdateNoUserAlertInfo_Caption>.لا تظهر لي أية رسائل حول تحديث التطبيقات Liberkey حين بدء تشغيل\n.سيتم إعلامك عند بدء تشغيل أحد التطبيقات التي يتوفر لها تحديث</UpdateNoUserAlertInfo_Caption>
 				<UpdateUIAlertInfo_Caption>.عندها يمكنك عرض قائمة من التحديثات المتاحة واختيار تلك التي تريد تطبيقها</UpdateUIAlertInfo_Caption>
 				<UserLoginInfo_Caption>تسجيل الدخول لم يعد مطلوبا من أجل تنزيل تحديث\nللتطبيقات الخاصة بك. ومع ذلك، لانزال نوصي بإدخال تفاصيل لمستخدم الخاصة بك</UserLoginInfo_Caption>
 				<UserName_Caption>إسم المستخدم:</UserName_Caption>
+				<ZoomMenuFontNameLabel_Caption>الخطوط:</ZoomMenuFontNameLabel_Caption>
+				<ZoomMenuFontSizeLabel_Caption>حجم:</ZoomMenuFontSizeLabel_Caption>
 			</Labels>
 			<OptionButtons>
 				<optAlwaysUpdateFileAssoc_Caption>تحديث إقترانات الملفات دائما</optAlwaysUpdateFileAssoc_Caption>
@@ -378,12 +399,43 @@
 				<optMenuDelayCustom_Caption>ذوق ذاتي</optMenuDelayCustom_Caption>
 				<optMenuDelayDefault_Caption>إفتراضي</optMenuDelayDefault_Caption>
 				<optNeverUpdateFileAssoc_Caption> عدم تحديث إقترانات الملفات بتاتا</optNeverUpdateFileAssoc_Caption>
+				<optUpdateAllApps_Caption>تثبيت كافة التحديثات تلقائيا</optUpdateAllApps_Caption>
 				<optUpdateAutoStart_Caption>تنزيل و تنصيب التحديثات بصفة ألية</optUpdateAutoStart_Caption>
+				<optUpdateFileAssocNewApps_Caption>ضبط الارتباطات للتطبيقات الجديدة</optUpdateFileAssocNewApps_Caption>
+				<optUpdateNoUserAlert_Caption>حذرني فقط عند بدء تشغيل التطبيق</optUpdateNoUserAlert_Caption>
+				<optUpdateUIAlert_Caption>عرض أيقونة ورسالة إشعار</optUpdateUIAlert_Caption>
+				<optUpdateUserAlert_Caption>حذرني إذا كانت التحديثات ذات الأولوية متاحة</optUpdateUserAlert_Caption>
 			</OptionButtons>
+			<Options>
+				<About>معلومات</About>
+				<Accessibility>سهولة الوصول</Accessibility>
+				<Advanced>خيارات متقدمة</Advanced>
+				<AppSetup>اعدادات تثبيت التطبيق</AppSetup>
+				<Autorun>تشغيل الي</Autorun>
+				<AutoUpdate>اعدادات تحديث التطبيق</AutoUpdate>
+				<Colors>اللون</Colors>
+				<Effects>واجهة المستخدم</Effects>
+				<Help>مساعدة</Help>
+				<KeyboardShortcuts>اختصارات لوحة المفاتيح</KeyboardShortcuts>
+				<Language>اللغة</Language>
+				<LiberKeyTools>Liberkey ادوات </LiberKeyTools>
+				<Proxy>HTTP بروكسي</Proxy>
+				<TechnicalInfo>المعلومات التقنية</TechnicalInfo>
+				<User>معلومات المستخدم</User>
+			</Options>
 		</Config>
-		<Contributors>
-			<Contributor name="Trabelsi Youssef" email="djoe.coool@gmail.com"/>
-		</Contributors>
+		<FloatingMenu>
+			<AlwaysOnTop>دوما في المقدمة</AlwaysOnTop>
+			<AutoCollapse>اخفاء تلقائي</AutoCollapse>
+			<Close>اغلق</Close>
+			<FixedMode>يترك مفتوحا</FixedMode>
+			<GoToParent>التنقل الى القائمة الام</GoToParent>
+		</FloatingMenu>
+		<IconSelect>
+			<Labels>
+				<Title_Caption>اختيار الايقونة</Title_Caption>
+			</Labels>
+		</IconSelect>
 		<Menu>
 			<LKHelp>Liberkey المساعدة</LKHelp>
 			<LKQuickLaunch>Liberkey الإطلاق السريع ل</LKQuickLaunch>
@@ -392,6 +444,8 @@
 			<MyDocs>مجلداتي</MyDocs>
 			<Recent>مؤخرا</Recent>
 		</Menu>
-		<Menus/>
+		<Contributors>
+			<Contributor name="Trabelsi Youssef" email="djoe.coool@gmail.com"/>
+		</Contributors>
 	</ar-TN>
 </Languages>

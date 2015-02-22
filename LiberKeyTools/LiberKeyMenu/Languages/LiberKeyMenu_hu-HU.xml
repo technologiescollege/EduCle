@@ -1,5 +1,5 @@
 <Languages version="0.4">
-	<hu-HU en_name="Hungarian" icon="hu.png" date="2012-02-21" name="Magyar" version="5.6">
+	<hu-HU en_name="Hungarian" icon="hu.png" date="2013-11-17" name="Magyar" version="5.6">
 		<AppCategories>
 			<accessibility>Megközelíthetőség</accessibility>
 			<audio>Hang</audio>
@@ -268,8 +268,8 @@
 				<Version>verzió %ver%</Version>
 			</About>
 			<CheckBoxs>
-				<AppHotKeysMemoPopup_Caption>Emlékeztess mielőtt elindul egy alkalamzás</AppHotKeysMemoPopup_Caption>
-				<AutoCloseApps_Caption>Amíg a meü bezár, zárd be az alkalmazást is</AutoCloseApps_Caption>
+				<AppHotKeysMemoPopup_Caption>Emlékeztess mielőtt elindul egy alkalmazás</AppHotKeysMemoPopup_Caption>
+				<AutoCloseApps_Caption>Amíg a menü bezár, zárd be az alkalmazást is</AutoCloseApps_Caption>
 				<AutoCollapseOnHide_Caption>Amikor a menü rejtve van, menj vissza a kategória gyökérbe</AutoCollapseOnHide_Caption>
 				<AutoHideMenuOnAppRun_Caption>Rejtsd el a menüt amikor egy alkalmazás elindul</AutoHideMenuOnAppRun_Caption>
 				<AutoRemoveDrive_Caption>Amikor a menü bezárul, kapcsold le a hordozható készüléket</AutoRemoveDrive_Caption>
@@ -300,6 +300,7 @@
 				<ToolsQuitPDS_Caption>A hordozható parancsikonok eltávolításra kerülnek a menü bezárásakor</ToolsQuitPDS_Caption>
 				<ToolsStartKFA_Caption>A fájl együtműködés engedélyezve lesz a menü indulásakor</ToolsStartKFA_Caption>
 				<ToolsStartPDS_Caption>A hordozható parancsikonok hozzáadása a menü indulásakor</ToolsStartPDS_Caption>
+				<UseClearTypeFonts_Caption>Használj ClearType-ot a képernyő karakterhez</UseClearTypeFonts_Caption>
 				<UseMenuAppsAssoc_Caption>Társítja a LiberKey-t az összes fájl-lal</UseMenuAppsAssoc_Caption>
 				<UseProxy_Caption>Az Internet elérése proxy szerveren keresztül</UseProxy_Caption>
 				<VoiceOver_Caption>Engedélyezem az elemek szövegének olvasását az egérrel</VoiceOver_Caption>
@@ -331,6 +332,65 @@
 				<AutoRunDelay_Caption>Az önálló végrehajtás előtti idő (másodperc):</AutoRunDelay_Caption>
 				<AutoRunEachDelay_Caption>A futtatások közötti idő (másodperc):</AutoRunEachDelay_Caption>
 				<AutorunInfo_Caption>A LiberKey menü indítási és leállítási alkalmazásainak kezelése</AutorunInfo_Caption>
+				<ClearTypeRestart_Caption>(újra kell indítani a menüt)</ClearTypeRestart_Caption>
+				<ColorsInfo_Caption>A menü és az ablakok elsődleges színe</ColorsInfo_Caption>
+				<Confirmations_Caption>Megerősítés</Confirmations_Caption>
+				<CreateAccountLabel_Caption>Nincs fiókod?</CreateAccountLabel_Caption>
+				<CustomBrightnessLabel_Caption>Fényesség</CustomBrightnessLabel_Caption>
+				<CustomColorInfo_Caption>Egyedi szín variáció</CustomColorInfo_Caption>
+				<CustomHueRotationLabel_Caption>Színárnyalat</CustomHueRotationLabel_Caption>
+				<CustomSaturationLabel_Caption>Telítettség</CustomSaturationLabel_Caption>
+				<DefaultEffectSet>Alapértelmezett hatások</DefaultEffectSet>
+				<EffectSetLabel_Caption>Hatások beállítása:</EffectSetLabel_Caption>
+				<FileAssocUpdatesOnlyInfo_Caption>A frissítések alatt, a fájl társítások nem módosulnak. Ezek meghatározása csak az új alkalmazásokhoz.</FileAssocUpdatesOnlyInfo_Caption>
+				<Fonts_Caption>Betűk</Fonts_Caption>
+				<Gadgets_Caption>Eszközök</Gadgets_Caption>
+				<KeyboardShortcutsInfo_Caption>Billentyűparancsok használatban a LiberKey menüben</KeyboardShortcutsInfo_Caption>
+				<KFAoptions_Caption>Együttműködő fájlok a hordozható alkalmazásokban</KFAoptions_Caption>
+				<LangAuthorEmailLabel_Caption>Email :</LangAuthorEmailLabel_Caption>
+				<LangAuthorNameLabel_Caption>Szerző :</LangAuthorNameLabel_Caption>
+				<LangAuthorWebsiteLabel_Caption>Weboldal :</LangAuthorWebsiteLabel_Caption>
+				<LangContributors_Caption>Közreműködők :</LangContributors_Caption>
+				<LangContributorsLabel_Caption>Közreműködők :</LangContributorsLabel_Caption>
+				<LanguagesInfo_Caption>Válassza ki a felhasználói felület nyelvét</LanguagesInfo_Caption>
+				<LangVersionLabel_Caption>Verzió :</LangVersionLabel_Caption>
+				<MaxRecentCount_Caption>Az előző futtatásban lévő elemek maximális száma</MaxRecentCount_Caption>
+				<MaxVisibleMostUsed_Caption>A &quot;gyakran használt&quot; elemek maximális száma</MaxVisibleMostUsed_Caption>
+				<MenuAccess_Caption>LiberKey menü elérése</MenuAccess_Caption>
+				<MenuDelay_Caption>Menü nyitott késleltetés:</MenuDelay_Caption>
+				<MenuDelayMS_Caption>milliszekundum</MenuDelayMS_Caption>
+				<MenuIconActions_Caption>Tálcaikon:</MenuIconActions_Caption>
+				<MenuKeyboardShortcuts_Caption>Gyorsbillentyűk:</MenuKeyboardShortcuts_Caption>
+				<Misc_Caption>Egyéb</Misc_Caption>
+				<Navigation_Caption>Navigáció</Navigation_Caption>
+				<NeverUpdateFileAssocInfo_Caption>Fájl társítások változatlanok maradnak az alkalmazások frissítésekor.</NeverUpdateFileAssocInfo_Caption>
+				<NotificationsOptions_Caption>Értesítések</NotificationsOptions_Caption>
+				<Password_Caption>Jelszó:</Password_Caption>
+				<PDSoptions_Caption>Hordozható asztali parancsikonok</PDSoptions_Caption>
+				<PlatformVersionInfo_Caption>A műszaki támogató csoport a LiberKey fórumon kérik ezeket az információkat. A lista másolásához a listát, kattintson a &quot;Másolja ezt az információt&quot; gombra.</PlatformVersionInfo_Caption>
+				<ProxyHost_Caption>Host name - Csomópontnév / IP-cím:</ProxyHost_Caption>
+				<ProxyInfo_Caption>Ha egy proxy szerveren keresztüléri el az internetet, töltse ki az alábbi mezőket:</ProxyInfo_Caption>
+				<ProxyPassword_Caption>Jelszó:</ProxyPassword_Caption>
+				<ProxyPort_Caption>Port:</ProxyPort_Caption>
+				<ProxyUser_Caption>Felhasználónév:</ProxyUser_Caption>
+				<QuitOptions_Caption>Automatikus alkalmazás bezárása és USB-meghajtók lekapcsolása</QuitOptions_Caption>
+				<RecentAndMostUsed_Caption>Alkalmazás használat története:</RecentAndMostUsed_Caption>
+				<StartupWindowShowAlways_Caption>Mindig mutassa a LiberKey menüt</StartupWindowShowAlways_Caption>
+				<StartupWindowShowNever_Caption>Soha ne mutassa a LiberKey menüt</StartupWindowShowNever_Caption>
+				<StartupWindowShowPrevious_Caption>Csak a menüt mutassa, ha látható volt az utolsó használat alatt</StartupWindowShowPrevious_Caption>
+				<StartupWindowStateLabel_Caption>Induláskor:</StartupWindowStateLabel_Caption>
+				<Title_Caption>LiberKey Menü - Beállítás</Title_Caption>
+				<TrayLeftClickActionLabel_Caption>Bal kattintás:</TrayLeftClickActionLabel_Caption>
+				<TrayRightClickActionLabel_Caption>Jobb kattintás:</TrayRightClickActionLabel_Caption>
+				<UpdateAllAppsInfo_Caption>Az opcionális és kiemelt frissítések mind telepítve felhasználói beavatkozás nélkül (automata üzemmód).</UpdateAllAppsInfo_Caption>
+				<UpdateAutoStartInfo_Caption>Kiemelt frissítések telepítése felhasználói beavatkozás nélkül (automata üzemmód).</UpdateAutoStartInfo_Caption>
+				<UpdateFileAssocInfo_Caption>Ha egy alkalmazást hozzá adott vagy frissített a telepítő, akkor automatikusan hozzáadódnak azok a fájlok, melyeket lehet szerkeszteni ezekkel.</UpdateFileAssocInfo_Caption>
+				<UpdateNoUserAlertInfo_Caption>Amikor LiberKey elindul, nem mutasson nekem üzeneteket alkalmazás frissítésekről. Értesítést kapunk, ha egy alkalmazás elindul és amelyről elérhető egy frissítés.</UpdateNoUserAlertInfo_Caption>
+				<UpdateUIAlertInfo_Caption>Ezután megtekintheti az elérhető frissítéseket, és válassza ki azokat melyeket alkalmazni kíván.</UpdateUIAlertInfo_Caption>
+				<UserLoginInfo_Caption>Bejelentkezés már nem szükséges ahhoz, hogy letöltse a frissítéseket az alkalmazásokhoz. Ennek ellenére, még mindig tanácsos beírni a felhasználói adatait.</UserLoginInfo_Caption>
+				<UserName_Caption>Felhasználónév:</UserName_Caption>
+				<ZoomMenuFontNameLabel_Caption>Betű:</ZoomMenuFontNameLabel_Caption>
+				<ZoomMenuFontSizeLabel_Caption>Méret:</ZoomMenuFontSizeLabel_Caption>
 			</Labels>
 			<OptionButtons>
 				<optAlwaysUpdateFileAssoc_Caption>A fájl társítást mindig frissítse</optAlwaysUpdateFileAssoc_Caption>
@@ -399,27 +459,39 @@
 			</Labels>
 			<LiberKeyTools>
 				<AddApps>Az alkalmazás katalógus böngészése</AddApps>
+				<AddAppsTip>Ez a varázsló lehetővé teszi, hogy csatlakozzon a LiberKey kiszolgálókhoz és megtalálja az alkalmazást, amit keres, és telepítse az Ön LiberKey programjába.</AddAppsTip>
 				<AddPortableShortcuts>Hordozható parancsikon hozzáadása</AddPortableShortcuts>
 				<AddRemoveApps>Programok hozzáadása és eltávolítása</AddRemoveApps>
 				<AppsClose>Alkalmazás bezárása</AppsClose>
+				<AppsCloseTip>A LiberKey Alkalmazás Bezáró automatikusan bezárja az összes alkalmazást amit indított a LiberKey. Az alkalmazott módszereket számították és adaptálták az egyes szoftverekhez. A zárás helytelen lehet, ha egy fájl szerkesztés alatt van (pl. a dokumentum), akkor a program kérni fogja, hogy mentse el.</AppsCloseTip>
 				<Configuration>Behangolás</Configuration>
+				<ConfigurationTip>LiberKey konfiguráció.\nMinden beállítással kapcsolatos megjelenését és viselkedését a LiberKey ebben a konfigurációs ablakban állíthat be.</ConfigurationTip>
 				<DisableFileAssoc>Fájl társítások tiltása</DisableFileAssoc>
+				<DisableFileAssocTip>A fájlok a számítógépen jelenleg társítva vannak a LiberKey alkalmazásaival.\nKattintson ide, hogy visszaállítsa a helyi számítógép fájl társításokat.</DisableFileAssocTip>
 				<EnableFileAssoc>Fájl társítások engedélyezése</EnableFileAssoc>
 				<EnableFileAssocTip>Az ideiglenes fájl társítások engedélyezése (.avi, .jpg, .doc, ...) a LiberKey alkalmazásaival.</EnableFileAssocTip>
 				<FileAssoc>Fájl társítás</FileAssoc>
 				<GoToWebSite>A LiberKey weboldal meglátogatása</GoToWebSite>
+				<GoToWebSiteTip>Ez a menü lehetővé teszi a hozzáférést a LiberKey honlapján. Megtalál mindenféle információt, mert a LiberKey és a fórum nyitott minden felhasználó számára.</GoToWebSiteTip>
 				<InstallAppSuite>Alkalmazás csomag telepítése</InstallAppSuite>
+				<InstallAppSuiteTip>Ez a varázsló lehetővé teszi, hogy telepítsen egy teljes programcsomagot az alkalmazásokból.</InstallAppSuiteTip>
 				<LiberKeyNews>Hírek olvasása</LiberKeyNews>
+				<LiberKeyNewsTip>LiberKey Hírek tájékoztat az esetleges kapcsolódó LiberKey fejlesztésekről.\nAz új alkalmazásokat az online katalógusban, vagy bármely információt a hírekben a LiberKey meg fog jeleníteni.</LiberKeyNewsTip>
 				<ManageApps>Alkalmazások kezelése</ManageApps>
+				<ManageAppsTip>Törölni, telepíteni vagy újratelepíteni alkalmazásokat. Ez az eszköz segíteni kezelni a telepített alkalmazásokat az Ön LiberKey-jében.</ManageAppsTip>
+				<PortableShortcutsTip>Hordozható asztali parancsikon segítségével kezelheti a hordozható asztali parancsikonok kapcsolatait a LiberKey-ben.\nEl is mentheti a parancsikonok helyét az asztalon.</PortableShortcutsTip>
 				<RemovePortableShortcuts>Hordozható parancsikonok eltávolítása</RemovePortableShortcuts>
 				<Title>LiberKey eszközök</Title>
 				<UpdateCheck>Frissítések ellenőrzése</UpdateCheck>
+				<UpdateCheckTip>Ellenőrizze, hogy az új verzió elérhető-e a LiberKey vagy szoftver frissítéseknél.\nHa igen, akkor lehet, hogy ezek a frissítések közvetlenül LiberKey.com-ról települnek.</UpdateCheckTip>
 				<UsbEject>LiberKey lecsatlakoztatása</UsbEject>
+				<USBEjectTip>LiberKey USB Eject lehetővé teszi, hogy kihúzza az USB-eszközt, amelyen a LiberKey van (automatikus lezárás minden alkalmazásra).\n\nFONTOS: Az USB-eszköz csak akkor lehet kivenni, ha minden alkalmazást az Ön LiberKey-jében lezárt már.</USBEjectTip>
 			</LiberKeyTools>
 			<Messages>
 				<About>A LiberKey-ről...</About>
 				<BrowseForNewFolder>A mappa kiválasztása, melyet a parancsikon megnyit</BrowseForNewFolder>
 				<PatchDownload>Frissítések letöltése...</PatchDownload>
+				<SearchResults>A keresés eredményei</SearchResults>
 			</Messages>
 		</Main>
 		<Menu>
@@ -456,6 +528,24 @@
 			<AppLocate_Caption>&amp;Kategória helye</AppLocate_Caption>
 			<AppLocation-0_Caption>(kategória név)</AppLocation-0_Caption>
 		</Menus>
+		<NewAppList>
+			<CommandButtons>
+				<Cancel_Caption>Bezár</Cancel_Caption>
+				<InstallApp_ToolTip>Telepíti az alkalmazást</InstallApp_ToolTip>
+				<InstallApps_ToolTip>Telepíti a kiválasztott alkalmazásokat</InstallApps_ToolTip>
+				<OpenFolder_ToolTip>Nyissa ki a fájl helyét</OpenFolder_ToolTip>
+				<Reload_ToolTip>Újrafrissíti a listát</Reload_ToolTip>
+				<SelectApp_ToolTip>Kiválasztja az alkalmazást</SelectApp_ToolTip>
+				<UnselectApp_ToolTip>Kiválasztás megszüntetése az alkalmazásra</UnselectApp_ToolTip>
+			</CommandButtons>
+			<Labels>
+				<DestinationMenuLabel_Caption>Parancsikonok létrehozása:</DestinationMenuLabel_Caption>
+				<Title_Caption>Új alkalmazások</Title_Caption>
+			</Labels>
+			<Messages>
+				<SelectExecutable>Válassza ki a kívánt programot adni a menüben.</SelectExecutable>
+			</Messages>
+		</NewAppList>
 		<News>
 			<CheckBoxs>
 				<HideReadNews_Caption>Elolvasott hírek elrejtése</HideReadNews_Caption>
@@ -467,7 +557,9 @@
 				<Title_Caption>LiberKey hírek</Title_Caption>
 			</Labels>
 			<Messages>
+				<NoNewsDescription>Nincs hír ebben a pillanatban.\nHa a hír megjelent, akkor a &quot;LiberKey News&quot; ikon jelenik meg a fenti &quot;LiberKey Tools&quot; gombnál.</NoNewsDescription>
 				<NoNewsTile>LiberKey hírek - Nincs új hír</NoNewsTile>
+				<NoNewsUpdateDescription>Jelenleg %olvasásszámláló% rejti a (már olvasott) híreket.\nHa szeretné látni a rejtett híreket, törölje &quot;Rejtsd a már olvasott híreket&quot; gombbal alább.</NoNewsUpdateDescription>
 				<NoNewsUpdateTile>LiberKey hírek - Nincs új elérhető hír</NoNewsUpdateTile>
 			</Messages>
 		</News>
@@ -475,7 +567,15 @@
 			<CommandButtons>
 				<Cancel_Caption>Töröl</Cancel_Caption>
 				<CopyURL_Caption>Címet vágólapra másol</CopyURL_Caption>
+				<GoToWebsite_Caption>Hozzáférés az online katalógusban %count%</GoToWebsite_Caption>
+				<NoSyncCatalog_Caption>Hozzáférés az online katalógusban szinkronizálás nélkül a LiberKey-ben</NoSyncCatalog_Caption>
 			</CommandButtons>
+			<Labels>
+				<AccessURL_Caption>Cím eléréséhez az online katalógus szinkronizálása a LiberKey-vel:</AccessURL_Caption>
+				<AddPortableAppsLabel_Caption>Telepítse az új alkalmazásokat</AddPortableAppsLabel_Caption>
+				<Privacy_Caption>Megjegyzés: A verziószámot elküldeni a honlapra csak az alkalmazások terjesztése miatt az online katalógushoz. Nincs személyes információ továbbítva az alkalmazásokról a műveletet során.</Privacy_Caption>
+				<Title_Caption>Nyissa ki az online katalógusban</Title_Caption>
+			</Labels>
 		</OnlineCatalog>
 		<Search>
 			<Applications>Alkalmazások</Applications>
@@ -509,9 +609,23 @@
 			<DownloadSizeInfo>Letöltés: %size%</DownloadSizeInfo>
 			<InstallSizeInfo>-   Szükséges lemezterület: %size%</InstallSizeInfo>
 			<Labels>
+				<DownloadInfo_Caption>Ez a varázsló lehetővé teszi, hogy telepítsen egy teljes programcsomagot alkalmazásokból.\n\nKattintson a &quot;Töltse le a rendelkezésre álló csomagot&quot; gombra a folytatáshoz.</DownloadInfo_Caption>
 				<Title_Caption>Telepítsd az alkalamzás csomagot</Title_Caption>
 				<TitleBig_Caption>Telepítsd az alkalamzás csomagot</TitleBig_Caption>
 			</Labels>
+			<Messages>
+				<ConfirmKeepDownloads>Szeretnéd, hogy a alkalmazás csomagok később települjenek?</ConfirmKeepDownloads>
+				<DownladAppIcons16>Letöltés alkalmazás ikonok ...</DownladAppIcons16>
+				<DownloadGraphics>Programcsomag logók letöltése...</DownloadGraphics>
+				<DownloadingSuitesInfo>Programcsomag információk letöltése...</DownloadingSuitesInfo>
+				<GetSuiteInfoFailed>Hiba történt amikor lekértem az elérhető csomagok listáját.\n\nHiba %errnum%: %errdesc%</GetSuiteInfoFailed>
+				<IncompleteSuiteSetup>Egyes alkalmazások a kiválasztott csomagból nem lettek telepítve.\nIndítsa újra a varázslót a telepítés későbbi  befejezéséhez.</IncompleteSuiteSetup>
+				<PartialSuiteSetupDone>A kiválasztott alkalmazások telepítése kész.\nIndítsd újra a varázslót ha később további alkalmazásokat akarsz telepíteni.</PartialSuiteSetupDone>
+				<SetupDone>Az alkalmazások a csomagból &quot;%name%&quot; már telepítve vannak a LiberKey-be.</SetupDone>
+				<SetupError>Hiba történt a telepítés alatt %app%!</SetupError>
+			</Messages>
+			<SuiteAppCountInfo>Alkalmazások:</SuiteAppCountInfo>
+			<SuiteAppsDoneInfo>- Új: %newapps% - Telepített: %telepített%</SuiteAppsDoneInfo>
 		</SuiteDownload>
 		<UpdateInfo>
 			<CommandButtons>

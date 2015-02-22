@@ -28,8 +28,8 @@
 			<KillWarning>Attenzione!\n\nForzare la chiusura di un&apos;applicazione può causare problemi ai suoi dati.\nE&apos; quindi preferibile provare a chiuderla normalmente.\n\nSi è sicuri di voler forzare la chiusura di questa applicazione?</KillWarning>
 		</Message>
 		<Contributors>
-			<Contributor name="Alessandro Stella" email="mail@alessandrostella.it" website="http://www.alessandrostella.it/"/>
 			<Contributor name="Maurizio Ballo" email="xmaurizio.13@hotmail.com"/>
+			<Contributor name="Alessandro Stella" email="mail@alessandrostella.it" website="www.alessandrostella.it"/>
 		</Contributors>
 	</it>
 </Languages>

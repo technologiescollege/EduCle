@@ -1,0 +1,72 @@
+<Languages version="0.2">
+	<sr-Latn-RS en_name="Serbian (Latin)" icon="srbija.png" date="2013-07-18" name="Srpski (Latinica)" version="3.50">
+		<Info>
+			<UpdateIgnore>(onesposobljeno)</UpdateIgnore>
+			<UpdateLowPriority>(nizak prioritet)</UpdateLowPriority>
+		</Info>
+		<Main>
+			<CheckBoxs>
+				<Silent_Caption>Instaliranje aplikacija bez korisničkog unosa (automatski režim)</Silent_Caption>
+			</CheckBoxs>
+			<CommandButtons>
+				<Cancel_Caption>Otkaži</Cancel_Caption>
+				<Download_Caption>Instaliraj izabrane aplikacije</Download_Caption>
+				<HideWindow_Caption>&amp;Sakrij prozor tokom preuzimanja</HideWindow_Caption>
+			</CommandButtons>
+			<Labels>
+				<bytes>bajt</bytes>
+				<DownloadSize_Caption>Veličina za preuzimanje:</DownloadSize_Caption>
+				<Gb>GB</Gb>
+				<Info_Caption>Dostupne nadogradnje:</Info_Caption>
+				<InstalledSize_Caption>Potreban prostor na disku:</InstalledSize_Caption>
+				<InstallTitle_Caption>Instaliranje aplikacija</InstallTitle_Caption>
+				<Kb>KB</Kb>
+				<Mb>MB</Mb>
+				<RemoveHiddenUpdates_Caption>Ukloni onesposobljene nadogradnje (%count%)</RemoveHiddenUpdates_Caption>
+				<SelectAll_Caption>Izaberi sve</SelectAll_Caption>
+				<SelectHighPriority_Caption>Izaberi prioritetne nadogradnje</SelectHighPriority_Caption>
+				<SelectNone_Caption>Poništi sve</SelectNone_Caption>
+				<ShowHiddenUpdates_Caption>Prikaži sakrivene nadogradnje (%count%)</ShowHiddenUpdates_Caption>
+				<Version_Caption>Verzija:</Version_Caption>
+			</Labels>
+		</Main>
+		<Messages>
+			<AppAlreadyInstalled>%appname% %appversion% je već instalirana na vaš LiberKey.\n\nDa li želite da reinstalirate ovu aplikaciju?</AppAlreadyInstalled>
+			<AppsDownloadDone>Preuzimanje fajlova u skladištu je završeno.\n=&gt; %downloadpath%\n\nDa li želite da počnete instalaciju nadogradnji sada?</AppsDownloadDone>
+			<AppUpdateObsolete>Novija verzija %appname% je već instalirana na vašem LiberKey-u.\n\nInstalirana verzija: %appversion%\nVerzija koja se instalira: %newversion%\n\nDa li želite da instalirate stariju verziju?</AppUpdateObsolete>
+			<ConfirmCancel>Preuzimate nadogradnje.\nDa li želite da otkažete preuzimanje i nadogradnju?</ConfirmCancel>
+			<DiskSpace>Potreban prostor na disku: %needed% (dostupno: %avail%)</DiskSpace>
+			<DownloadDone>Nadogradnja je uspešno preuzeta.\nLiberKey meni će se zatvoriti dok se aplikacije nadograđuju.</DownloadDone>
+			<DownloadingTip>Preuzimanje nadogradnje...\nKliknite ovde za više detalja.</DownloadingTip>
+			<DownloadingTipTitle>LiberKey nadogradnja aplikacija</DownloadingTipTitle>
+			<Errors>
+				<403>Izgleda da je vaš proksi server zaustavio LiberKey da se poveže sa internetom.\nMolimo vas proverite vaša podešavanja proksija.</403>
+				<404>%appname% %appversion%\n\nDatoteka nije pronađena na serveru!\nMolimo vas da pokušate kasnije.</404>
+				<DepositFolderError>Nismo uspeli da sačuvamo podatke u skladišnom direktorijumu.\n%path%\n\nDa li želite da preuzmete pakete koji nedostaju u privremeni direktrijum?</DepositFolderError>
+				<DownloadError>Dogodila se greška prilikom preuzimanja.\nPokušajte ponovo?</DownloadError>
+				<InvalidPwd>Naveli ste pogrešnu lozinku.\nMolimo vas navedite tačnu lozinku.</InvalidPwd>
+				<InvalidUser>Korisnik nije pronađen u LiberKey bazi podataka\n\nMolimo vas pokušajte ponovo.</InvalidUser>
+				<Login>Dogodila se greška tokom LiberKey logovanja.\nMolimo vas da pokušate kasnije.</Login>
+				<Password>Naveli ste pogrešno korisničko ime ili lozinku.</Password>
+			</Errors>
+			<HideThisUpdate>Ne prikazuj ovu nadogradnju</HideThisUpdate>
+			<HideUpdateInfo>Onesposobljene nadogradnje mogu biti pokazane ponovo klikom na &quot;Prikaži sakrivene nadogradnje&quot;</HideUpdateInfo>
+			<HighPriority>Prioritet</HighPriority>
+			<HighPriorityInfo>Mi vas ohrabrujemo da primenite ovu nadogradnju.\nOna sadrži nekoliko bitnih popravki, neke mogu uticati na sigurnost aplikacija.</HighPriorityInfo>
+			<HighPriorityInfoTitle>Prioritetna nadogradnja</HighPriorityInfoTitle>
+			<HttpError>Dogodila se greška tokom pribavljanja informacija o dostupnim LiberKey nadogradnjama.\nDa li imate pristup internetu sa ovog kompjutera?</HttpError>
+			<InformationTitle>Informacija</InformationTitle>
+			<KeepTempFiles>Da li želite da zadržite preuzete fajlove za kasniju upotrebu?</KeepTempFiles>
+			<LowPriority>Opcionalno</LowPriority>
+			<LowPriorityInfo>Ova nadogradnja je preporučena ako redovno koristite ovaj softver.\nMože doneti nove mogućnosti.</LowPriorityInfo>
+			<LowPriorityInfoTitle>Opcionalne nadogradnje</LowPriorityInfoTitle>
+			<TempSpaceNeeded>Dostupan prostor za preuzimanje privremenih instalacionih fajlova je isuviše nizak.\n\nVaš izbor zahteva %downloadsize% slobodnog prostora na disku %drive% (trenutno postoji samo %avail% slobodnog prostora na disku %drive%)</TempSpaceNeeded>
+			<UpdateDone>Nadogradnja aplikacije završena.</UpdateDone>
+			<UpdatesAvailable>Nadogradnje su dostupne za vaše aplikacije.\nKliknite ovde da instalirate nadogradnje.</UpdatesAvailable>
+			<UpToDate>Vaše LiberKey aplikacije su savremene.</UpToDate>
+		</Messages>
+		<Contributors>
+			<Contributor name="Bojan Pavlović" email="bojan.pavlovich@yahoo.com"/>
+		</Contributors>
+	</sr-Latn-RS>
+</Languages>
