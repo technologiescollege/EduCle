@@ -15,266 +15,35 @@
 
 /*
  * 
- * @constructor init specific hooks
- */
-function hooks() {
-    "use strict";
-}
-/*
- * @param array layers
- * @param iaScene mainScene
- */
-hooks.prototype.beforeMainConstructor = function(mainScene, layers) {
-
-    // Load datas - only useful for themes debugging
-    if ($("#content").html() === "{{CONTENT}}") {
-        var menu = "";
-        menu += '<article class="message_success" id="message_success" data-score="50">';
-        menu += '<p>Bravo !!</p>';
-        menu += '</article>';
-        for (var i in details) {
-            if (details[i].options.indexOf("direct-link") == -1) {
-                if ((details[i].detail.indexOf("Réponse:") != -1) || (details[i].detail.indexOf("réponse:") != -1)) {
-                    var question = details[i].detail.substr(0,details[i].detail.indexOf("Réponse:"));
-                    var answer = details[i].detail.substr(details[i].detail.indexOf("Réponse:")+8);
-                    menu += '<article class="detail_content" id="article-'+i+'">';
-                    menu += '<h1>'+details[i].title+'</h1>';
-                    menu += '<p>' + question + '<div style="margin-top:5px;margin-bottom:5px;"><a class="button" href="#response_'+i+'">Réponse</a></div>' + '<div class="response" id="response_'+ i +'">' + answer + '</div>' + '</p>';
-                    menu += '</article>';            
-                }
-                else {
-                    menu += '<article class="detail_content" id="article-'+i+'">';
-                    menu += '<h1>'+details[i].title+'</h1>';
-                    menu += '<p>'+details[i].detail+'</p>';
-                    menu += '</article>';                        
-                }
-            }
-        }        
-        $("#content").html(menu);
-    }
-    if ($("#title").html() === "{{TITLE}}") $("#title").html(scene.title);
-
-};
-
-/*
- * @param iaScene mainScene
- * @param array layers
- */
-hooks.prototype.afterMainConstructor = function(mainScene, layers) {
-
-    // some stuff to manage popin windows
-
-    var viewportHeight = $(window).height();
-
-    var button_click = function() {
-        var target = $(this).data("target");
-        if ($("#response_" + target).is(":hidden")) {
-            if ($(this).data("password")) {
-                $("#form_" + target).toggle();
-                $("#form_" + target + " input[type=text]").val("");
-                $("#form_" + target + " input[type=text]").focus();
-            }
-            else {
-                $("#response_" + target).toggle();
-            }
-        }
-        else {
-            if ($(this).data("password")) {
-                $("#response_" + target).html($("#response_" + target).data("encrypted_content"));
-            }
-            $("#response_" + target).toggle();
-        }
-       
-    };
-    var unlock_input = function(e) {
-        e.preventDefault();
-        var entered_password = $(this).parent().children("input[type=text]").val();
-        var sha1Digest= new createJs(true);
-        sha1Digest.update(entered_password);
-        var hash = sha1Digest.digest();
-        if (hash == $(this).data("password")) {
-            var target = $(this).data("target");
-            var encrypted_content = $("#response_" + target).html();
-            $("#response_" + target).data("encrypted_content", encrypted_content);
-            $("#response_" + target).html(XORCipher.decode(entered_password, encrypted_content).decode());
-            $("#response_" + target).show();
-            $("#form_" + target).hide();
-            $(".button").off("click");
-            $(".button").on("click", button_click);
-            $(".unlock input[type=submit]").off("click");
-            $(".unlock input[type=submit]").on("click", unlock_input);
-        }        
-    };
-    $(".button").on("click", button_click);
-    $(".unlock input[type=submit]").on("click", unlock_input);
-
-
-    mainScene.score = $("#message_success").data("score");
-    if ((mainScene.score == mainScene.currentScore) && (mainScene.score != "0")) {
-        $("#content").show();
-        $("#message_success").show();
-        var general_border = $("#message_success").css("border-top-width").substr(0,$("#message_success").css("border-top-width").length - 2);
-        var general_offset = $("#message_success").offset();
-        var content_offset = $("#content").offset();
-        $("#message_success").css({'max-height':(viewportHeight - general_offset.top - content_offset.top - 2 * general_border)});        
-    }
-
-    $(".overlay").hide();
-
-    $(".infos").on("click", function(){
-        $("#rights").show();
-        $("#popup").show();
-        $("#popup_intro").hide();
-    });
-    $("#popup_close").on("click", function(){
-        $("#rights").hide();
-    });
-    $("#popup_toggle").on("click", function(){
-        $("#message_success_content").toggle();
-        if ($(this).attr('src') == 'img/hide.png') {
-            $(this).attr('src', 'img/show.png');
-        }
-        else {
-            $(this).attr('src', 'img/hide.png');
-        }
-    });
-    
-};
-/*
- *
- *  
- */
-hooks.prototype.afterIaObjectConstructor = function(iaScene, idText, detail, iaObject) {
-
-
-};
-
-/*
- *
- *  
- */
-hooks.prototype.afterIaObjectDragStart = function(iaScene, idText, iaObject) {
-    
-    $('#' + idText + " audio").each(function(){
-        if ($(this).data("state") === "autostart") {
-            $(this)[0].play();
-        }
-    });  
-};
-/*
- *
- *  
- */
-hooks.prototype.afterIaObjectDragEnd = function(iaScene, idText, iaObject, event) {
-    var target_id = $('#' + idText).data("target");
-
-    var iaObject_width = iaObject.maxX - iaObject.minX;
-    var iaObject_height = iaObject.maxY - iaObject.minY;
-    iaObject.minX = event.target.x();
-    iaObject.minY = event.target.y();
-    iaObject.maxX = event.target.x() + iaObject_width;
-    iaObject.maxY = event.target.y() + iaObject_height;    
-    
-    if (target_id) {
-        // retrieve kineticElement drop zone
-        // if center of dropped element is located in the drop zone
-        // then drop !
-        var target_object = iaObject.xiaDetail[0].kineticElement.getStage().find("#" + target_id);
-        var middle_coords = {x: event.target.x() + (iaObject.maxX - iaObject.minX)/2,y:event.target.y() + (iaObject.maxY - iaObject.minY)/2};
-        var target_iaObject = target_object[0].getIaObject();
-        var magnet_state = $("#" + target_iaObject.idText).data("magnet");
-        if ((middle_coords.x > target_iaObject.minX) &
-                (middle_coords.x < target_iaObject.maxX) &
-                (middle_coords.y > target_iaObject.minY) &
-                (middle_coords.y < target_iaObject.maxY)) {
-            if (!iaObject.match) {
-                iaObject.match = true;
-                iaScene.currentScore += 1;
-            }
-            if (magnet_state=="on") {
-                iaObject.xiaDetail[0].kineticElement.x(target_iaObject.minX);
-                iaObject.xiaDetail[0].kineticElement.y(target_iaObject.minY);
-            }
-        }
-        else {
-            if (iaObject.match) {
-                iaObject.match = false;
-                iaScene.currentScore -= 1;
-            }            
-        }
-        
-        if (target_object[0].getXiaParent().options.indexOf("direct-link") != -1) {
-            location.href = target_object[0].getXiaParent().title;
-        }        
-        
-        var viewportHeight = $(window).height();
-        if ((iaScene.score == iaScene.currentScore) && (iaScene.score != 0)) {
-            $("#content").show();
-            $("#message_success").show();
-            var general_border = $("#message_success").css("border-top-width").substr(0,$("#message_success").css("border-top-width").length - 2);
-            var general_offset = $("#message_success").offset();
-            var content_offset = $("#content").offset();
-            $("#message_success").css({'max-height':(viewportHeight - general_offset.top - content_offset.top - 2 * general_border)});        
-        }
-        $('#' + idText + " audio").each(function(){
-            if ($(this).data("state") === "autostart") {
-                $(this)[0].play();
-            }
-        });         
-    }
-};
-
-
-//   This program is free software: you can redistribute it and/or modify
-//   it under the terms of the GNU General Public License as published by
-//   the Free Software Foundation, either version 3 of the License, or
-//   (at your option) any later version.
-//   This program is distributed in the hope that it will be useful,
-//   but WITHOUT ANY WARRANTY; without even the implied warranty of
-//   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-//   GNU General Public License for more details.
-//   You should have received a copy of the GNU General Public License
-//   along with this program.  If not, see <http://www.gnu.org/licenses/>
-//   
-//   
-// @author : pascal.fautrero@ac-versailles.fr
-
-
-/*
- * 
- * @param {type} imageObj
- * @param {type} detail
- * @param {type} layer
- * @param {type} idText
- * @param {type} baseImage
- * @param {type} iaScene
+ * @param {object} params
  * @constructor create image active object
  */
-function IaObject(imageObj, detail, layer, idText, baseImage, iaScene, myhooks) {
+function IaObject(params) {
     "use strict";
     var that = this;
     this.xiaDetail = [];
-    this.layer = layer;
-    this.imageObj = imageObj;
     this.minX = 10000;
     this.minY = 10000;
     this.maxX = -10000;
     this.maxY = -10000;
-    //this.group = 0;
-    this.idText = idText;
-    this.myhooks = myhooks;
     this.match = false;
     this.collisions = "on";
+
+    this.layer = params.layer;
+    this.imageObj = params.imageObj;
+    this.idText = params.idText;
+    this.myhooks = params.myhooks;
+
     // Create kineticElements and include them in a group
    
     //that.group = new Kinetic.Group();
     //that.layer.add(that.group);
     
-    if (typeof(detail.path) !== 'undefined') {
-        that.includePath(detail, 0, that, iaScene, baseImage, idText);
+    if (typeof(params.detail.path) !== 'undefined') {
+        that.includePath(params.detail, 0, that, params.iaScene, params.baseImage, params.idText);
     }
-    else if (typeof(detail.image) !== 'undefined') {
-        that.includeImage(detail, 0, that, iaScene, baseImage, idText);
+    else if (typeof(params.detail.image) !== 'undefined') {
+        that.includeImage(params.detail, 0, that, params.iaScene, params.baseImage, params.idText);
     }
     // actually, groups are not allowed because of boxsize restriction
     
@@ -290,10 +59,10 @@ function IaObject(imageObj, detail, layer, idText, baseImage, iaScene, myhooks) 
         that.definePathBoxSize(detail, that);
     }*/
     else {
-        console.log(detail);
+        console.log(params.detail);
     }
-    this.scaleBox(this, iaScene);
-    this.myhooks.afterIaObjectConstructor(iaScene, idText, detail, this);
+    this.scaleBox(this, params.iaScene);
+    this.myhooks.afterIaObjectConstructor(params.iaScene, params.idText, params.detail, this);
 }
 
 /*
@@ -342,62 +111,126 @@ IaObject.prototype.includeImage = function(detail, i, that, iaScene, baseImage, 
                 x : this.getAbsolutePosition().x,
                 y : this.getAbsolutePosition().y,
             }    
-
+            var objectWidth = that.maxX - that.minX;
+            var objectHeight = that.maxY - that.minY;
             for(var i=0; i< len; i++) {
                 if (that != iaScene.shapes[i] && iaScene.shapes[i].collisions == "on") {
 
                     var shape = {
                         maxX : iaScene.shapes[i].maxX,
                         maxY : iaScene.shapes[i].maxY,
-                        minX : iaScene.shapes[i].minX - (that.maxX - that.minX),
-                        minY : iaScene.shapes[i].minY - (that.maxY - that.minY)
-                    };                    
-                    var pos_y = (getAbsolutePosition.y < shape.maxY - 10) &&
-                          (getAbsolutePosition.y > shape.minY + 10);
-                    var pos_x = (getAbsolutePosition.x < shape.maxX - 10) &&
-                          (getAbsolutePosition.x > shape.minX + 10);
+                        minX : iaScene.shapes[i].minX - objectWidth,
+                        minY : iaScene.shapes[i].minY - objectHeight
+                    };
 
-                    if (pos.x <= shape.maxX && 
-                            pos_y && 
-                            getAbsolutePosition.x >= shape.maxX - 10) {
-                        if (x_value == pos.x) {
-                            x_value = shape.maxX;
+                    var objectLocatedAt = {
+                        horizontal: (getAbsolutePosition.y < shape.maxY - 10) &&
+                          (getAbsolutePosition.y > shape.minY + 10),
+                        vertical: (getAbsolutePosition.x < shape.maxX - 10) &&
+                          (getAbsolutePosition.x > shape.minX + 10),
+                        bottomLeft: getAbsolutePosition.x <= shape.minX + 10 &&
+                          getAbsolutePosition.y >= shape.maxY - 10,
+                        topLeft: getAbsolutePosition.x <= shape.minX + 10 &&
+                          getAbsolutePosition.y <= shape.minY + 10,
+                        topRight: getAbsolutePosition.x >= shape.maxX - 10 &&
+                          getAbsolutePosition.y <= shape.minY + 10,
+                        bottomRight: getAbsolutePosition.x >= shape.maxX - 10 &&
+                          getAbsolutePosition.y >= shape.maxY - 10
+
+                    };
+                    if (objectLocatedAt.horizontal) {
+                        if (pos.x <= shape.maxX &&
+                          getAbsolutePosition.x >= shape.maxX - 10) {
+                            if (x_value == pos.x) {
+                                x_value = shape.maxX;
+                            }
+                            else {
+                                x_value = Math.max(shape.maxX, x_value);
+                            }
                         }
-                        else {
-                            x_value = Math.max(shape.maxX, x_value);
+                        if (pos.x >= shape.minX &&
+                          getAbsolutePosition.x <= shape.minX + 10) {
+                            if (x_value == pos.x) {
+                                x_value = shape.minX;
+                            }
+                            else {
+                                x_value = Math.min(shape.minX, x_value);
+                            }
                         }
                     }
+                    if (objectLocatedAt.vertical) {
+                        if (pos.y <= shape.maxY &&
+                          getAbsolutePosition.y >= shape.maxY -10) {
+                            if (y_value == pos.y) {
+                                y_value = shape.maxY;
+                            }
+                            else {
+                                y_value = Math.max(shape.maxY, y_value);
+                            }
+                        }
 
-                    if (pos.x >= shape.minX && 
-                            pos_y && 
-                            getAbsolutePosition.x <= shape.minX + 10) {
+                        if (pos.y >= shape.minY &&
+                          getAbsolutePosition.y <= 10 + shape.minY) {
+                            if (y_value == pos.y) {
+                                y_value = shape.minY;
+                            }
+                            else {
+                                y_value = Math.min(shape.minY, y_value);
+                            }
+                        }
+                    }
+                    var delta = 15;
+                    if (pos.x >= shape.minX + delta &&
+                      pos.y <= shape.maxY - delta &&
+                      objectLocatedAt.bottomLeft
+                        ) {
+
                         if (x_value == pos.x) {
                             x_value = shape.minX;
                         }
                         else {
                             x_value = Math.min(shape.minX, x_value);
                         }
-                    }
-                    if (pos.y <= shape.maxY && 
-                            pos_x && 
-                            getAbsolutePosition.y >= shape.maxY -10) {
-                        if (y_value == pos.y) {
-                            y_value = shape.maxY;
-                        }
-                        else {
-                            y_value = Math.max(shape.maxY, y_value);
-                        }
-                    }                    
 
-                    if (pos.y >= shape.minY && 
-                            pos_x && 
-                            getAbsolutePosition.y <= 10 + shape.minY) {
-                        if (y_value == pos.y) {
-                            y_value = shape.minY;
+                    }
+                    if (pos.x >= shape.minX + delta &&
+                      pos.y >= shape.minY + delta &&
+                      objectLocatedAt.topLeft
+                        ) {
+
+                        if (x_value == pos.x) {
+                            x_value = shape.minX;
                         }
                         else {
-                            y_value = Math.min(shape.minY, y_value);
+                            x_value = Math.min(shape.minX, x_value);
                         }
+
+                    }
+                    if (pos.x <= shape.maxX - delta &&
+                      pos.y >= shape.minY + delta &&
+                      objectLocatedAt.topRight
+                        ) {
+
+                        if (x_value == pos.x) {
+                            x_value = shape.maxX;
+                        }
+                        else {
+                            x_value = Math.max(shape.maxX, x_value);
+                        }
+
+                    }
+                    if (pos.x <= shape.maxX - delta &&
+                      pos.y <= shape.maxY - delta &&
+                      objectLocatedAt.bottomRight
+                        ) {
+
+                        if (x_value == pos.x) {
+                            x_value = shape.maxX;
+                        }
+                        else {
+                            x_value = Math.max(shape.maxX, x_value);
+                        }
+
                     }
                 }
             }
@@ -494,61 +327,126 @@ IaObject.prototype.includePath = function(detail, i, that, iaScene, baseImage, i
                 y : this.getAbsolutePosition().y,
             }    
 
+            var objectWidth = that.maxX - that.minX;
+            var objectHeight = that.maxY - that.minY;
             for(var i=0; i< len; i++) {
                 if (that != iaScene.shapes[i] && iaScene.shapes[i].collisions == "on") {
 
                     var shape = {
                         maxX : iaScene.shapes[i].maxX,
                         maxY : iaScene.shapes[i].maxY,
-                        minX : iaScene.shapes[i].minX - (that.maxX - that.minX),
-                        minY : iaScene.shapes[i].minY - (that.maxY - that.minY)
-                    };                    
-                    var pos_y = (getAbsolutePosition.y < shape.maxY - 10) &&
-                          (getAbsolutePosition.y > shape.minY + 10);
-                    var pos_x = (getAbsolutePosition.x < shape.maxX - 10) &&
-                          (getAbsolutePosition.x > shape.minX + 10);
+                        minX : iaScene.shapes[i].minX - objectWidth,
+                        minY : iaScene.shapes[i].minY - objectHeight
+                    };
 
-                    if (pos.x <= shape.maxX && 
-                            pos_y && 
-                            getAbsolutePosition.x >= shape.maxX - 10) {
-                        if (x_value == pos.x) {
-                            x_value = shape.maxX;
+                    var objectLocatedAt = {
+                        horizontal: (getAbsolutePosition.y < shape.maxY - 10) &&
+                          (getAbsolutePosition.y > shape.minY + 10),
+                        vertical: (getAbsolutePosition.x < shape.maxX - 10) &&
+                          (getAbsolutePosition.x > shape.minX + 10),
+                        bottomLeft: getAbsolutePosition.x <= shape.minX + 10 &&
+                          getAbsolutePosition.y >= shape.maxY - 10,
+                        topLeft: getAbsolutePosition.x <= shape.minX + 10 &&
+                          getAbsolutePosition.y <= shape.minY + 10,
+                        topRight: getAbsolutePosition.x >= shape.maxX - 10 &&
+                          getAbsolutePosition.y <= shape.minY + 10,
+                        bottomRight: getAbsolutePosition.x >= shape.maxX - 10 &&
+                          getAbsolutePosition.y >= shape.maxY - 10
+
+                    };
+                    if (objectLocatedAt.horizontal) {
+                        if (pos.x <= shape.maxX &&
+                          getAbsolutePosition.x >= shape.maxX - 10) {
+                            if (x_value == pos.x) {
+                                x_value = shape.maxX;
+                            }
+                            else {
+                                x_value = Math.max(shape.maxX, x_value);
+                            }
                         }
-                        else {
-                            x_value = Math.max(shape.maxX, x_value);
+                        if (pos.x >= shape.minX &&
+                          getAbsolutePosition.x <= shape.minX + 10) {
+                            if (x_value == pos.x) {
+                                x_value = shape.minX;
+                            }
+                            else {
+                                x_value = Math.min(shape.minX, x_value);
+                            }
                         }
                     }
+                    if (objectLocatedAt.vertical) {
+                        if (pos.y <= shape.maxY &&
+                          getAbsolutePosition.y >= shape.maxY -10) {
+                            if (y_value == pos.y) {
+                                y_value = shape.maxY;
+                            }
+                            else {
+                                y_value = Math.max(shape.maxY, y_value);
+                            }
+                        }
 
-                    if (pos.x >= shape.minX && 
-                            pos_y && 
-                            getAbsolutePosition.x <= shape.minX + 10) {
+                        if (pos.y >= shape.minY &&
+                          getAbsolutePosition.y <= 10 + shape.minY) {
+                            if (y_value == pos.y) {
+                                y_value = shape.minY;
+                            }
+                            else {
+                                y_value = Math.min(shape.minY, y_value);
+                            }
+                        }
+                    }
+                    var delta = 15;
+                    if (pos.x >= shape.minX + delta &&
+                      pos.y <= shape.maxY - delta &&
+                      objectLocatedAt.bottomLeft
+                        ) {
+
                         if (x_value == pos.x) {
                             x_value = shape.minX;
                         }
                         else {
                             x_value = Math.min(shape.minX, x_value);
                         }
-                    }
-                    if (pos.y <= shape.maxY && 
-                            pos_x && 
-                            getAbsolutePosition.y >= shape.maxY -10) {
-                        if (y_value == pos.y) {
-                            y_value = shape.maxY;
-                        }
-                        else {
-                            y_value = Math.max(shape.maxY, y_value);
-                        }
-                    }                    
 
-                    if (pos.y >= shape.minY && 
-                            pos_x && 
-                            getAbsolutePosition.y <= 10 + shape.minY) {
-                        if (y_value == pos.y) {
-                            y_value = shape.minY;
+                    }
+                    if (pos.x >= shape.minX + delta &&
+                      pos.y >= shape.minY + delta &&
+                      objectLocatedAt.topLeft
+                        ) {
+
+                        if (x_value == pos.x) {
+                            x_value = shape.minX;
                         }
                         else {
-                            y_value = Math.min(shape.minY, y_value);
+                            x_value = Math.min(shape.minX, x_value);
                         }
+
+                    }
+                    if (pos.x <= shape.maxX - delta &&
+                      pos.y >= shape.minY + delta &&
+                      objectLocatedAt.topRight
+                        ) {
+
+                        if (x_value == pos.x) {
+                            x_value = shape.maxX;
+                        }
+                        else {
+                            x_value = Math.max(shape.maxX, x_value);
+                        }
+
+                    }
+                    if (pos.x <= shape.maxX - delta &&
+                      pos.y <= shape.maxY - delta &&
+                      objectLocatedAt.bottomRight
+                        ) {
+
+                        if (x_value == pos.x) {
+                            x_value = shape.maxX;
+                        }
+                        else {
+                            x_value = Math.max(shape.maxX, x_value);
+                        }
+
                     }
                 }
             }
@@ -581,8 +479,8 @@ IaObject.prototype.includePath = function(detail, i, that, iaScene, baseImage, i
             cropHeight = iaScene.originalHeight * iaScene.scale - cropY * iaScene.scale;
         }
         // bad workaround to avoid null dimensions
-        if (cropWidth == 0) cropWidth = 1;
-        if (cropHeight == 0) cropHeight = 1;
+        if (cropWidth <= 0) cropWidth = 1;
+        if (cropHeight <= 0) cropHeight = 1;
         cropCtx.drawImage(
             that.imageObj,
             cropX * iaScene.scale,
@@ -689,19 +587,15 @@ IaObject.prototype.addEventsManagement = function(i, that, iaScene, baseImage, i
 
     var that=this;
 
-    that.xiaDetail[i].kineticElement.droparea = false;
     that.xiaDetail[i].kineticElement.tooltip_area = false;
-    // if current detail is a drop area, disable drag and drop
-    if ($('article[data-target="' + $("#" + idText).data("kinetic_id") + '"]').length != 0) {
-        that.xiaDetail[i].kineticElement.droparea = true;
-        
-    }
     // tooltip must be at the bottom
     if ($('article[data-tooltip="' + $("#" + idText).data("kinetic_id") + '"]').length != 0) {
         that.xiaDetail[i].kineticElement.moveToBottom();
         that.xiaDetail[i].kineticElement.tooltip_area = true;
         that.xiaDetail[i].options += " disable-click ";
     }
+
+    that.myhooks.afterXiaObjectCreation(iaScene, that.xiaDetail[i]);
 
     that.xiaDetail[i].kineticElement.on('mouseenter', function() {
         if (iaScene.cursorState.indexOf("ZoomOut.cur") !== -1) {
@@ -711,7 +605,7 @@ IaObject.prototype.addEventsManagement = function(i, that, iaScene, baseImage, i
 
         }
         else if (iaScene.cursorState.indexOf("HandPointer.cur") === -1) {
-            if ((!this.droparea) && (!this.tooltip_area)) {
+            if ((!this.getXiaParent().droparea) && (!this.tooltip_area)) {
                 document.body.style.cursor = "pointer";
             }
             iaScene.cursorState = "url(img/HandPointer.cur),auto";
@@ -778,19 +672,22 @@ IaObject.prototype.addEventsManagement = function(i, that, iaScene, baseImage, i
         }
     });       
     
-    if (that.xiaDetail[i].options.indexOf("disable-click") != -1) return;
-
     if (that.xiaDetail[i].options.indexOf("direct-link") != -1) {
         that.xiaDetail[i].kineticElement.on('click touchstart', function(e) {
             //location.href = that.title[i];
             location.href = that.xiaDetail[i].title;
         });
     }
+    else if (that.xiaDetail[i].options.indexOf("disable-click") != -1) {
+        return;
+    }
     else {
-        if (!that.xiaDetail[i].kineticElement.droparea) {
+
+        if (!that.xiaDetail[i].droparea) {
             that.xiaDetail[i].kineticElement.on('dragstart', function(e) {
                 iaScene.element = that;
-                that.myhooks.afterIaObjectDragStart(iaScene, idText, that);
+                that.afterDragStart(iaScene, idText, this);
+                that.myhooks.afterDragStart(iaScene, idText, this);
                 this.moveToTop();
                 Kinetic.draggedshape = this;
             });
@@ -799,15 +696,121 @@ IaObject.prototype.addEventsManagement = function(i, that, iaScene, baseImage, i
                 iaScene.element = that;
                 Kinetic.draggedshape = null;
                 // Kinetic hacking - speed up _getIntersection (for linux)
+                that.afterDragEnd(iaScene, idText, e, this);
+                that.myhooks.afterDragEnd(iaScene, idText, this);
                 this.getStage().completeImage = "redefine";
-                that.myhooks.afterIaObjectDragEnd(iaScene, idText, that, e);
                 that.layer.draw();
             });    
         }
     }
+
 };
 
+IaObject.prototype.afterDragStart = function(iaScene, idText, kineticElement) {
 
+    $('#' + idText + " audio").each(function(){
+        if ($(this).data("state") === "autostart") {
+            $(this)[0].play();
+        }
+    });
+};
+/*
+ *
+ *
+ */
+IaObject.prototype.afterDragEnd = function(iaScene, idText, event, kineticElement) {
+    //var target_id = $('#' + idText).data("target");
+    var target_id = kineticElement.getXiaParent().target_id;
+    var target_object = kineticElement.getStage().find("#" + target_id);
+    var iaObject_width = this.maxX - this.minX;
+    var iaObject_height = this.maxY - this.minY;
+    this.minX = event.target.x();
+    this.minY = event.target.y();
+    this.maxX = event.target.x() + iaObject_width;
+    this.maxY = event.target.y() + iaObject_height;
+    var middle_coords = {x: event.target.x() + (this.maxX - this.minX)/2,y:event.target.y() + (this.maxY - this.minY)/2};
+
+    //var mouseXY = kineticElement.getStage().getPointerPosition();
+    //var droparea = kineticElement.getStage().getIntersection(mouseXY);
+    var droparea = kineticElement.getStage().getIntersection(middle_coords);
+    var over_droparea = false;
+    if (droparea) {
+        if (droparea == kineticElement) {
+            // element dropped on its own area
+            // move current element out of stage, redraw the scene,
+            // find the drop zone element
+            // and move current element to its original position
+            var old_x = kineticElement.x();
+            kineticElement.x(2000);
+            kineticElement.getLayer().drawHit();
+            kineticElement.getStage().completeImage = "redefine";
+            //droparea = kineticElement.getStage().getIntersection(mouseXY);
+            droparea = kineticElement.getStage().getIntersection(middle_coords);
+            if (droparea) {
+                if (droparea != kineticElement) {
+                    over_droparea = true;
+                }
+            }
+            kineticElement.x(old_x);
+            kineticElement.getLayer().drawHit();
+        }
+        else if (droparea.getXiaParent().droparea) {
+            over_droparea = true;
+        }
+    }
+
+    if (over_droparea) {
+        // retrieve kineticElement drop zone
+        // if center of dropped element is located in the drop zone
+        // then drop !
+        //var target_object = this.xiaDetail[0].kineticElement.getStage().find("#" + target_id);
+        var target_iaObject = droparea.getIaObject();
+        if ((middle_coords.x > target_iaObject.minX) &
+                (middle_coords.x < target_iaObject.maxX) &
+                (middle_coords.y > target_iaObject.minY) &
+                (middle_coords.y < target_iaObject.maxY)) {
+            if (!this.match && droparea == target_object[0]) {
+                this.match = true;
+                iaScene.currentScore += 1;
+            }
+            if (iaScene.global_magnet_enabled || droparea.getXiaParent().magnet_state=="on") {
+                kineticElement.x(target_iaObject.minX - (iaObject_width / 2) + (target_iaObject.maxX - target_iaObject.minX) / 2);
+                kineticElement.y(target_iaObject.minY - (iaObject_height / 2) + (target_iaObject.maxY - target_iaObject.minY) / 2);
+            }
+        }
+        else {
+            if (this.match) {
+                this.match = false;
+                iaScene.currentScore -= 1;
+            }
+        }
+
+        if (droparea.getXiaParent().options.indexOf("direct-link") != -1) {
+            location.href = droparea.getXiaParent().title;
+        }
+
+        var viewportHeight = $(window).height();
+        if ((iaScene.score == iaScene.currentScore) && (iaScene.score != 0)) {
+            $("#content").show();
+            $("#message_success").show();
+            var general_border = $("#message_success").css("border-top-width").substr(0,$("#message_success").css("border-top-width").length - 2);
+            var general_offset = $("#message_success").offset();
+            var content_offset = $("#content").offset();
+            $("#message_success").css({'max-height':(viewportHeight - general_offset.top - content_offset.top - 2 * general_border)});
+        }
+        $('#' + idText + " audio").each(function(){
+            if ($(this).data("state") === "autostart") {
+                $(this)[0].play();
+            }
+        });
+    }
+    else {
+        if (this.match) {
+            this.match = false;
+            iaScene.currentScore -= 1;
+        }
+    }
+};
 //   This program is free software: you can redistribute it and/or modify
 //   it under the terms of the GNU General Public License as published by
 //   the Free Software Foundation, either version 3 of the License, or
@@ -856,6 +859,10 @@ function IaScene(originalWidth, originalHeight) {
     var _colorCache = {red:0, green:0, blue:0, opacity:0.6};
  
     // internal
+    this.global_magnet_enabled = false;
+    if ($("#message_success").data("magnet") == "on") {
+        this.global_magnet_enabled = true;
+    }
     this.score = 0;
     this.currentScore = 0;
     this.fullScreen = "off";
@@ -882,7 +889,7 @@ IaScene.prototype.scaleScene = function(mainScene){
     var viewportWidth = $(window).width();
     var viewportHeight = $(window).height();
 
-    if (viewportWidth > 1000) viewportWidth = 1000;
+    //if (viewportWidth > 1280) viewportWidth = 1280;
     
     var coeff_width = (viewportWidth * mainScene.ratio) / parseFloat(mainScene.originalWidth);
     var coeff_height = (viewportHeight) / (parseFloat(mainScene.originalHeight) + $('#canvas').offset().top + $('#container').offset().top);
@@ -912,6 +919,13 @@ IaScene.prototype.scaleScene = function(mainScene){
     $('#detect').css({"top": ($('#canvas').offset().top) + 'px'});
 };
 
+IaScene.prototype.mouseover = function(kineticElement) {
+    
+};
+
+IaScene.prototype.mouseout = function(kineticElement) {
+    
+};
 //   This program is free software: you can redistribute it and/or modify
 //   it under the terms of the GNU General Public License as published by
 //   the Free Software Foundation, either version 3 of the License, or
@@ -957,6 +971,7 @@ $(".videoWrapper4_3").each(function(){
 //   
 //   
 // @author : pascal.fautrero@ac-versailles.fr
+// @version=1.1
 
 /*
  * Main
@@ -966,6 +981,9 @@ $(".videoWrapper4_3").each(function(){
 
 function main(myhooks) {
     "use strict";
+
+    // fix bug in retina and amoled screens
+    Kinetic.pixelRatio = 1;
 
     Kinetic.Util.addMethods(Kinetic.Path,{
         setIaObject: function(iaobject) {
@@ -1004,7 +1022,8 @@ function main(myhooks) {
     
     Kinetic.draggedshape = null;
     
-    var that=window;
+    //var that=window;
+    var that=this;
     that.canvas = document.getElementById("canvas");
 
     // Load background image
@@ -1046,14 +1065,25 @@ function main(myhooks) {
         stage.add(layers[indice]);
 
         for (var i in details) {
-            var iaObj = new IaObject(that.imageObj, details[i], layers[indice], "article-" + i, baseImage, mainScene, myhooks);
+            var iaObj = new IaObject({
+                imageObj: that.imageObj,
+                detail: details[i],
+                layer: layers[indice],
+                idText: "article-" + i,
+                baseImage: baseImage,
+                iaScene: mainScene,
+                myhooks: myhooks
+            });
             mainScene.shapes.push(iaObj);
         }
+
+        that.afterMainConstructor(mainScene, that.layers);
         myhooks.afterMainConstructor(mainScene, that.layers);             
+
         $("#loader").hide();
 
         var viewportHeight = $(window).height();
-        if (scene.description != "<br> ") {
+        if (scene.description != "") {
             $("#rights").show();
             var content_offset = $("#rights").offset();
             var message_height = $("#popup_intro").css('height').substr(0,$("#popup_intro").css("height").length - 2);
@@ -1101,6 +1131,87 @@ function main(myhooks) {
         
     };    
 }
+main.prototype.afterMainConstructor = function(mainScene, layers) {
+
+    // some stuff to manage popin windows
+
+    var viewportHeight = $(window).height();
+
+    var button_click = function() {
+        var target = $(this).data("target");
+        if ($("#response_" + target).is(":hidden")) {
+            if ($(this).data("password")) {
+                $("#form_" + target).toggle();
+                $("#form_" + target + " input[type=text]").val("");
+                $("#form_" + target + " input[type=text]").focus();
+            }
+            else {
+                $("#response_" + target).toggle();
+            }
+        }
+        else {
+            if ($(this).data("password")) {
+                $("#response_" + target).html($("#response_" + target).data("encrypted_content"));
+            }
+            $("#response_" + target).toggle();
+        }
+
+    };
+    var unlock_input = function(e) {
+        e.preventDefault();
+        var entered_password = $(this).parent().children("input[type=text]").val();
+        var sha1Digest= new createJs(true);
+        sha1Digest.update(entered_password.encode());
+        var hash = sha1Digest.digest();
+        if (hash == $(this).data("password")) {
+            var target = $(this).data("target");
+            var encrypted_content = $("#response_" + target).html();
+            $("#response_" + target).data("encrypted_content", encrypted_content);
+            $("#response_" + target).html(XORCipher.decode(entered_password, encrypted_content).decode());
+            $("#response_" + target).show();
+            $("#form_" + target).hide();
+            $(".button").off("click");
+            $(".button").on("click", button_click);
+            $(".unlock input[type=submit]").off("click");
+            $(".unlock input[type=submit]").on("click", unlock_input);
+        }
+    };
+    $(".button").on("click", button_click);
+    $(".unlock input[type=submit]").on("click", unlock_input);
+
+
+    mainScene.score = $("#message_success").data("score");
+    if ((mainScene.score == mainScene.currentScore) && (mainScene.score != "0")) {
+        $("#content").show();
+        $("#message_success").show();
+        var general_border = $("#message_success").css("border-top-width").substr(0,$("#message_success").css("border-top-width").length - 2);
+        var general_offset = $("#message_success").offset();
+        var content_offset = $("#content").offset();
+        $("#message_success").css({
+            'max-height':(viewportHeight - general_offset.top - content_offset.top - 2 * general_border)
+        });
+    }
+
+    $(".overlay").hide();
+
+    $(".infos").on("click", function(){
+        $("#rights").show();
+        $("#popup").show();
+        $("#popup_intro").hide();
+    });
+    $("#popup_close").on("click", function(){
+        $("#rights").hide();
+    });
+    $("#popup_toggle").on("click", function(){
+        $("#message_success_content").toggle();
+        if ($(this).attr('src') == 'img/hide.png') {
+            $(this).attr('src', 'img/show.png');
+        }
+        else {
+            $(this).attr('src', 'img/hide.png');
+        }
+    });
+};
 
 myhooks = new hooks();
 launch = new main(myhooks);
@@ -1136,6 +1247,10 @@ function XiaDetail(detail, idText) {
     this.backgroundImage = null;
     this.tooltip = null;
     this.draggable_object = true;
+    this.target_id = null;
+    this.magnet_state = null;
+    this.droparea = false;
+    this.idText = idText;
     
     if ((typeof(detail.options) !== 'undefined')) {
         this.options = detail.options;
@@ -1150,7 +1265,15 @@ function XiaDetail(detail, idText) {
     if ($('article[data-tooltip="' + $("#" + idText).data("kinetic_id") + '"]').length != 0) {
         this.draggable_object = false;
     }  
+    
+    this.target_id = $('#' + idText).data("target");
+    this.magnet_state = $("#" + idText).data("magnet");
 
+    if ($('article[data-target="' + $("#" + idText).data("kinetic_id") + '"]').length != 0) {
+        this.droparea = true;
+        
+    }    
+    
 }
 
 // XORCipher - Super simple encryption using XOR and Base64
@@ -1287,6 +1410,30 @@ String.prototype.decode = function(encoding) {
             c3 = this.charCodeAt(index + 2);
             result += String.fromCharCode(((c & 15) << 12) | ((c2 & 63) << 6) | (c3 & 63));
             index += 3;
+        }
+    }
+ 
+    return result;
+};
+String.prototype.encode = function(encoding) {
+    var result = "";
+ 
+    var s = this.replace(/\r\n/g, "\n");
+ 
+    for(var index = 0; index < s.length; index++) {
+        var c = s.charCodeAt(index);
+ 
+        if(c < 128) {
+            result += String.fromCharCode(c);
+        }
+        else if((c > 127) && (c < 2048)) {
+            result += String.fromCharCode((c >> 6) | 192);
+            result += String.fromCharCode((c & 63) | 128);
+        }
+        else {
+            result += String.fromCharCode((c >> 12) | 224);
+            result += String.fromCharCode(((c >> 6) & 63) | 128);
+            result += String.fromCharCode((c & 63) | 128);
         }
     }
  

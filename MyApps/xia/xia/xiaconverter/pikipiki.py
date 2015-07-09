@@ -22,6 +22,8 @@ import os
 from datetime import datetime
 import hashlib
 import base64
+import uuid
+import math
 
 class PageFormatter:
     """Object that turns Wiki markup into HTML.
@@ -30,8 +32,10 @@ class PageFormatter:
     some state is carried over between lines.
     """
     def __init__(self, raw):
-        if type(raw) != unicode:
+        if type(raw) == str:
             raw = raw.decode("utf-8")
+        elif type(raw) != unicode:
+            raw = unicode(raw)
         self.raw = raw
         self.is_em = self.is_b = 0
         self.list_indents = []
@@ -51,9 +55,9 @@ class PageFormatter:
     def _rule_repl(self, word):
         s = self._undent()
         if len(word) <= 4:
-            s = s + u"\n<hr>\n"
+            s = s + u"\n<hr/>\n"
         else:
-            s = s + u"\n<hr size=%d>\n" % (len(word) - 2 )
+            s = s + u"\n<hr size=%d/>\n" % (len(word) - 2 )
         return s
 
     def _url_repl(self, word):
@@ -76,7 +80,7 @@ class PageFormatter:
               os.path.splitext(word)[0], os.path.splitext(word)[0])
 
     def _img_repl(self, word):
-        return u'<img src="%s">\n' % (word)
+        return u'<img src="%s"/>\n' % (word)
 
     def _iframe_repl(self, word):
         word_url = word.split("src=&quot;")[1].split("&quot;")[0]
@@ -97,11 +101,25 @@ class PageFormatter:
           '" data-iframe="%s"></div>\n' % (word_url)
 
     def _iframe2_repl(self, word):
-        word_url = word.split('src="')[1].split('"')[0]
+        
+        word_url = ""
+        srccheck = re.search('src=("|\')(.*?)("|\')', word, re.IGNORECASE|re.DOTALL)
+        if srccheck:
+            word_url = srccheck.group(2)        
+
         if word_url[0:2] == "//":
             word_url = "http:" + word_url
-        iframe_width = word.split('width="')[1].split('"')[0]
-        iframe_height = word.split('height="')[1].split('"')[0]
+            
+        iframe_width = ""
+        widthcheck = re.search('width=("|\')(.*?)("|\')', word, re.IGNORECASE|re.DOTALL)
+        if widthcheck:
+            iframe_width = widthcheck.group(2)        
+        
+        iframe_height = ""
+        heightcheck = re.search('height=("|\')(.*?)("|\')', word, re.IGNORECASE|re.DOTALL)
+        if heightcheck:
+            iframe_height = heightcheck.group(2)        
+
         videoClass = 'videoWrapper4_3'
         if iframe_width and iframe_height:
             ratio = (float(iframe_height) / float(iframe_width)) * 16
@@ -150,6 +168,11 @@ class PageFormatter:
             word_displayed = word_url
         return u'<a href="%s" target="_blank">%s</a>' %(word_url, word_displayed)
 
+    def _ialink_repl(self, word):
+        """compatibility with image active 1 format"""
+        subword = word.split("@")
+        return u'<a href="%s" target="_blank">%s</a>' %(subword[1][:-1], subword[0][1:])
+
     def _pre_repl(self, word):
         if word == '{{{' and not self.in_pre:
             self.in_pre = 1
@@ -171,10 +194,10 @@ class PageFormatter:
             if code_present:
                 password = code_present.group(1)
                 stack_value = password
-                data_password = 'data-password="' + hashlib.sha1(password).hexdigest() + '"'
+                data_password = 'data-password="' + hashlib.sha1(password.encode("utf-8")).hexdigest() + '"'
                 content = re.sub('\(code=(.*)\)', '', content)
             
-            random_id = hashlib.md5(str(datetime.now().microsecond)).hexdigest()
+            random_id = hashlib.md5(str(uuid.uuid1())).hexdigest()
             final_result =  u'<div style="margin-top:5px;margin-bottom:5px;">' + \
                 u'<a class="button" href="#" ' + data_password + \
                 u' data-target="' + random_id + '">' + \
@@ -257,26 +280,31 @@ class PageFormatter:
             + r"|(?P<audiostart>[^\s'\"]+\.(ogg|mp3)(\s*)autostart$)"
             + r"|(?P<audio>[^\s'\"]+\.(ogg|mp3)$)"
             + r"|(?P<url>(http|ftp|nntp|news|mailto|https)\:[^\s'\"]+\S)"
+            + r"|(?P<ialink>\{(.*)\@(.*)\})"
             + r"|(?P<email>[-\w._+]+\@[\w.-]+)"
             + r"|(?P<li>^\s+\*(.*))"
             + r"|(?P<nothandled>nothandled)"
             + r"|(?P<pre>(\{\{\{|\}\}\}))"
-            + r"|(?P<hidden_block>(\[\[(.*)\:|(.*)\]\]))"
-            + r")")
+            + r"|(?P<hidden_block>(\[\[(.*?)\:|\]\]))"
+            + r")", re.IGNORECASE)
         blank_re = re.compile("^\s*$")
         indent_re = re.compile("^\s*")
         eol_re = re.compile(r'\r?\n')
         raw = string.expandtabs(self.raw)
+        html_feed = u'<br/>\n'
 
         # fix some elements
-        fix_element = re.sub(r"\[\[(.*)\:", r"[[\1:\n", raw)
+        fix_element = re.sub(r"\[\[(.*?):", r"[[\1:\n", raw)
+        raw = fix_element
+
+        fix_element = re.sub(r"(.*?)\]\]", r"\1\n]]", raw)
         raw = fix_element
 
         # loop on lines
         for line in eol_re.split(raw):
             if not self.in_pre:
                 if blank_re.match(line):
-                    self.final_str += u'<br>\n'
+                    self.final_str += html_feed
                     continue
                 indent = indent_re.match(line)
                 self.final_str += self._indent_to(len(indent.group(0)))
@@ -293,4 +321,7 @@ class PageFormatter:
             self.hidden_block.pop(0)
             self.final_str += u'</div>\n'
         self.final_str += self._undent()
-        return self.final_str
+        if self.final_str == html_feed:
+            return ""
+        else:
+            return self.final_str

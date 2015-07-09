@@ -42,8 +42,10 @@ audio {
 }
 a {
     color:#00c6ff;
+  font-family: yanone_thin; 
+  font-size:1.4em;    
 }
-a:active, a:focus, a:hover {color:#FFF;}
+a:active, a:focus, a:hover {color:#DDD;}
 header {
     width:100%; 
     padding:0; 
@@ -246,7 +248,8 @@ header h1 {
 #popup_text img{
     float:left;
     width:20%;
-    max-width: 100px;
+    max-width: 60px;
+    margin: 10px;
 }
 #content #message_success {
     overflow-x:visible;

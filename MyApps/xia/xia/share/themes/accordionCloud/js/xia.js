@@ -15,218 +15,10 @@
 
 /*
  * 
- * @constructor init specific hooks
- */
-function hooks() {
-    "use strict";
-}
-/*
- * @param array layers
- * @param iaScene mainScene
- */
-hooks.prototype.beforeMainConstructor = function(mainScene, layers) {
-
-    // Load datas in the accordion menu - only useful for themes debugging
-    if ($("#accordion2").html() === "{{ACCORDION}}") {
-        var menu = "";
-        menu += '<div class="accordion-group">';
-        menu += '<div class="accordion-heading">';
-        menu += '<a id="collapsecomment-heading" class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapsecomment">'+scene.intro_title+'</a>';
-        menu += '<div id="collapsecomment" class="accordion-body collapse">';
-        menu += '<div class="accordion-inner">' + scene.intro_detail + '</div></div></div></div>';
-
-        for (var i in details) {
-            if (details[i].options.indexOf("direct-link") == -1) {
-                if ((details[i].detail.indexOf("Réponse:") != -1) || (details[i].detail.indexOf("réponse:") != -1)) {
-                    var question = details[i].detail.substr(0,details[i].detail.indexOf("Réponse:"));
-                    var answer = details[i].detail.substr(details[i].detail.indexOf("Réponse:")+8);
-                    menu += '<div class="accordion-group">';
-                    menu += '<div class="accordion-heading">';
-                    menu += '<a id="collapse'+i+'-heading" class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse'+i+'">'+details[i].title+'</a>';
-                    menu += '<div id="collapse'+i+'" class="accordion-body collapse">';
-                    menu += '<div class="accordion-inner">' + question + '<div style="margin-top:5px;margin-bottom:5px;"><a class="button" href="#response_'+i+'">Réponse</a></div>' + '<div class="response" id="response_'+ i +'">' + answer + '</div>' + '</div></div></div></div>';
-                }
-
-                else {
-                    menu += '<div class="accordion-group">';
-                    menu += '<div class="accordion-heading">';
-                    menu += '<a id="collapse'+i+'-heading" class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse'+i+'">'+details[i].title+'</a>';
-                    menu += '<div id="collapse'+i+'" class="accordion-body collapse">';
-                    menu += '<div class="accordion-inner">'+details[i].detail+'</div></div></div></div>';
-                }
-            }
-        }
-        $("#accordion2").html(menu);
-        //$("#collapsecomment").collapse("show");
-    }
-    if ($("#title").html() === "{{TITLE}}") $("#title").html(scene.title);
-
-};
-
-/*
- * @param iaScene mainScene
- * @param array layers
- */
-hooks.prototype.afterMainConstructor = function(mainScene, layers) {
-
-    $(".infos").on("click", function(){
-        $("#overlay").show();
-    });
-    $("#popup_close").on("click", function(){
-        $("#overlay").hide();
-    });
-
-    var button_click = function() {
-        var target = $(this).data("target");
-        if ($("#response_" + target).is(":hidden")) {
-            if ($(this).data("password")) {
-                $("#form_" + target).toggle();
-                $("#form_" + target + " input[type=text]").val("");
-                $("#form_" + target + " input[type=text]").focus();
-            }
-            else {
-                $("#response_" + target).toggle();
-            }
-        }
-        else {
-            if ($(this).data("password")) {
-                $("#response_" + target).html($("#response_" + target).data("encrypted_content"));
-            }
-            $("#response_" + target).toggle();
-        }
-       
-    };
-    var unlock_input = function(e) {
-        e.preventDefault();
-        var entered_password = $(this).parent().children("input[type=text]").val();
-        var sha1Digest= new createJs(true);
-        sha1Digest.update(entered_password);
-        var hash = sha1Digest.digest();
-        if (hash == $(this).data("password")) {
-            var target = $(this).data("target");
-            var encrypted_content = $("#response_" + target).html();
-            $("#response_" + target).data("encrypted_content", encrypted_content);
-            $("#response_" + target).html(XORCipher.decode(entered_password, encrypted_content).decode());
-            $("#response_" + target).show();
-            $("#form_" + target).hide();
-            $(".button").off("click");
-            $(".button").on("click", button_click);
-            $(".unlock input[type=submit]").off("click");
-            $(".unlock input[type=submit]").on("click", unlock_input);
-        }        
-    };
-    $(".button").on("click", button_click);
-    $(".unlock input[type=submit]").on("click", unlock_input);
-
-    $(".accordion-toggle").on("click tap", function(){
-        $('.accordion-body').removeClass("slidedown").addClass("collapse");
-        $(this).parent().children(".accordion-body").removeClass("collapse").addClass("slidedown");              
-    });
-
-    $("#collapsecomment-heading").on('click tap',function(){
-        if (mainScene.zoomActive === 0) {
-            if ((mainScene.element !== 0) && (typeof(mainScene.element) !== 'undefined')) {
-                for (var i in mainScene.element.kineticElement) {
-                    mainScene.element.kineticElement[i].fillPriority('color');
-                    mainScene.element.kineticElement[i].fill('rgba(0,0,0,0)');
-                    mainScene.element.kineticElement[i].setStroke('rgba(0, 0, 0, 0)');
-                    mainScene.element.kineticElement[i].setStrokeWidth(0);                     
-                    mainScene.element.layer.draw();
-                }
-            }
-            mainScene.element = that;
-            layers[0].moveToBottom();
-        }
-    });
-    document.addEventListener("click", function(ev){
-        if (mainScene.noPropagation) {
-            mainScene.noPropagation = false;
-        }
-        else {
-            if (mainScene.zoomActive === 1) {
-                if ((mainScene.element !== 0) && 
-                (typeof(mainScene.element) !== 'undefined')) {
-                    mainScene.element.kineticElement[0].fire("click");
-                }
-            }
-            else if (mainScene.cursorState.indexOf("ZoomIn.cur") !== -1) {
-                document.body.style.cursor = "default";
-                mainScene.cursorState = "default";
-                if (typeof(mainScene.element.kineticElement) != "undefined") {
-                    mainScene.element.kineticElement[0].fire("mouseleave");
-                }
-            }
-        }
-    });    
-
-};
-/*
- *
- *  
- */
-hooks.prototype.afterIaObjectConstructor = function(iaScene, idText, detail, iaObject) {
-
-    /*
-     *  manage accordion events related to this element
-     */
-    $("#" + idText + "-heading").on('click touchstart',function(){
-        if ($('#' + idText).css("height") == "0px") {
-            iaObject.kineticElement[0].fire("click");
-        }
-        else {
-            iaObject.kineticElement[0].fire("mouseleave");
-        }
-    });
-};
-/*
- *
- *  
- */
-hooks.prototype.afterIaObjectZoom = function(iaScene, idText, iaObject) {
-
-};
-    
-/*
- *
- *  
- */
-hooks.prototype.afterIaObjectFocus = function(iaScene, idText, iaObject) {
-    $('.accordion-body').removeClass("slidedown").addClass("collapse");
-    $('#' + idText).parent().children(".accordion-body").removeClass("collapse").addClass("slidedown");
-
-    $('#' + idText + " audio").each(function(){
-        if ($(this).data("state") === "autostart") {
-            $(this)[0].play();
-        }
-    }); 
-};
-
-//   This program is free software: you can redistribute it and/or modify
-//   it under the terms of the GNU General Public License as published by
-//   the Free Software Foundation, either version 3 of the License, or
-//   (at your option) any later version.
-//   This program is distributed in the hope that it will be useful,
-//   but WITHOUT ANY WARRANTY; without even the implied warranty of
-//   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-//   GNU General Public License for more details.
-//   You should have received a copy of the GNU General Public License
-//   along with this program.  If not, see <http://www.gnu.org/licenses/>
-//   
-//   
-// @author : pascal.fautrero@ac-versailles.fr
-
-
-/*
- * 
- * @param {type} imageObj
- * @param {type} detail
- * @param {type} layer
- * @param {type} idText
- * @param {type} baseImage
- * @param {type} iaScene
+ * @param {object} params
  * @constructor create image active object
  */
-function IaObject(imageObj, detail, layer, idText, baseImage, iaScene, background_layer, backgroundCache_layer, myhooks) {
+function IaObject(params) {
     "use strict";
     var that = this;
     this.path = [];
@@ -238,50 +30,55 @@ function IaObject(imageObj, detail, layer, idText, baseImage, iaScene, backgroun
     this.persistent = [];
     this.originalX = [];
     this.originalY = [];
-    this.options = [];    
-    this.layer = layer;
-    this.background_layer = background_layer;
-    this.backgroundCache_layer = backgroundCache_layer;
-    this.imageObj = imageObj;
+    this.options = [];
+    this.stroke = [];
+    this.strokeWidth = [];
+    this.tween = [];
     this.agrandissement = 0;
     this.zoomActive = 0;
     this.minX = 10000;
     this.minY = 10000;
     this.maxX = -10000;
     this.maxY = -10000;
-    this.tween = []; 
     this.tween_group = 0;
     this.group = 0;
-    this.myhooks = myhooks;
-    this.idText = idText;    
+
+    this.layer = params.layer;
+    this.background_layer = params.background_layer;
+    this.backgroundCache_layer = params.backgroundCache_layer;
+    this.imageObj = params.imageObj;
+    this.myhooks = params.myhooks;
+    this.idText = params.idText;
+    this.zoomLayer = params.zoomLayer;
+
     // Create kineticElements and include them in a group
    
     that.group = new Kinetic.Group();
     that.layer.add(that.group);
     
-    if (typeof(detail.path) !== 'undefined') {
-        that.includePath(detail, 0, that, iaScene, baseImage, idText);
+    if (typeof(params.detail.path) !== 'undefined') {
+        that.includePath(params.detail, 0, that, params.iaScene, params.baseImage, params.idText);
     }
-    else if (typeof(detail.image) !== 'undefined') {
-        that.includeImage(detail, 0, that, iaScene, baseImage, idText);
+    else if (typeof(params.detail.image) !== 'undefined') {
+        that.includeImage(params.detail, 0, that, params.iaScene, params.baseImage, params.idText);
     }
-    else if (typeof(detail.group) !== 'undefined') {
-        for (var i in detail.group) {
-            if (typeof(detail.group[i].path) !== 'undefined') {
-                that.includePath(detail.group[i], i, that, iaScene, baseImage, idText);
+    else if (typeof(params.detail.group) !== 'undefined') {
+        for (var i in params.detail.group) {
+            if (typeof(params.detail.group[i].path) !== 'undefined') {
+                that.includePath(params.detail.group[i], i, that, params.iaScene, params.baseImage, params.idText);
             }
-            else if (typeof(detail.group[i].image) !== 'undefined') {
-                that.includeImage(detail.group[i], i, that, iaScene, baseImage, idText);
+            else if (typeof(params.detail.group[i].image) !== 'undefined') {
+                that.includeImage(params.detail.group[i], i, that, params.iaScene, params.baseImage, params.idText);
             }
         }
-        that.definePathBoxSize(detail, that);
+        that.definePathBoxSize(params.detail, that);
     }
     else {
-        console.log(detail);
+        console.log(params.detail);
     }
 
-    this.defineTweens(this, iaScene);
-    this.myhooks.afterIaObjectConstructor(iaScene, idText, detail, this);
+    this.defineTweens(this, params.iaScene);
+    this.myhooks.afterIaObjectConstructor(params.iaScene, params.idText, params.detail, this);
 
 }
 
@@ -318,6 +115,18 @@ IaObject.prototype.includeImage = function(detail, i, that, iaScene, baseImage, 
         if ((typeof(detail.options) !== 'undefined')) {
             that.options[i] = detail.options;
         }
+        if ((typeof(detail.stroke) !== 'undefined') && (detail.stroke != 'none')) {
+            that.stroke[i] = detail.stroke;
+        }
+        else {
+            that.stroke[i] = 'rgba(0, 0, 0, 0)';
+        }
+        if ((typeof(detail.strokewidth) !== 'undefined')) {
+            that.strokeWidth[i] = detail.strokewidth;
+        }
+        else {
+            that.strokeWidth[i] = '0';
+        }
         that.persistent[i] = "off-image";
         if ((typeof(detail.fill) !== 'undefined') && 
             (detail.fill === "#ffffff")) {
@@ -345,7 +154,10 @@ IaObject.prototype.includeImage = function(detail, i, that, iaScene, baseImage, 
         if (cropY * 1 + cropHeight > iaScene.originalHeight * 1) {
             cropHeight = iaScene.originalHeight * 1 - cropY * 1;
         }
-
+	
+        var hitCanvas = that.layer.getHitCanvas();
+        iaScene.completeImage = hitCanvas.getContext().getImageData(0,0,Math.floor(hitCanvas.width),Math.floor(hitCanvas.height));
+        
         var canvas_source = document.createElement('canvas');
         canvas_source.setAttribute('width', cropWidth * iaScene.coeff);
         canvas_source.setAttribute('height', cropHeight * iaScene.coeff);
@@ -357,8 +169,8 @@ IaObject.prototype.includeImage = function(detail, i, that, iaScene, baseImage, 
        
         (function(len, imageDataSource){
         that.kineticElement[i].hitFunc(function(context) {
-            if (that.group.zoomActive == 0) {
-                rgbColorKey = Kinetic.Util._hexToRgb(this.colorKey);
+            if (iaScene.zoomActive == 0) {
+               /* rgbColorKey = Kinetic.Util._hexToRgb(this.colorKey);
                 //detach from the DOM
                 var imageData = imageDataSource.data;
                 // just replace scene colors by hit colors - alpha remains unchanged
@@ -371,7 +183,33 @@ IaObject.prototype.includeImage = function(detail, i, that, iaScene, baseImage, 
                 // reatach to the DOM
                 imageDataSource.data = imageData;
 
-                context.putImageData(imageDataSource, cropX * iaScene.coeff, cropY * iaScene.coeff);     
+                context.putImageData(imageDataSource, cropX * iaScene.coeff, cropY * iaScene.coeff);    
+                */
+               
+                var imageData = imageDataSource.data;
+                var imageDest = iaScene.completeImage.data;
+                var position1 = 0;
+                var position2 = 0;
+                var maxWidth = Math.floor(cropWidth * iaScene.coeff);
+                var maxHeight = Math.floor(cropHeight * iaScene.coeff);
+                var startY = Math.floor(cropY * iaScene.coeff);
+                var startX = Math.floor(cropX * iaScene.coeff);
+                var hitCanvasWidth = Math.floor(that.layer.getHitCanvas().width);
+                var rgbColorKey = Kinetic.Util._hexToRgb(this.colorKey);
+                for(var varx = 0; varx < maxWidth; varx +=1) {
+                    for(var vary = 0; vary < maxHeight; vary +=1) {
+                        position1 = 4 * (vary * maxWidth + varx);
+                        position2 = 4 * ((vary + startY) * hitCanvasWidth + varx + startX);
+                        if (imageData[position1 + 3] > 100) {
+                           imageDest[position2 + 0] = rgbColorKey.r;
+                           imageDest[position2 + 1] = rgbColorKey.g;
+                           imageDest[position2 + 2] = rgbColorKey.b;
+                           imageDest[position2 + 3] = 255;
+                        }
+                    }
+                } 
+                context.putImageData(iaScene.completeImage, 0, 0);                    
+                
             }
             else {
                 context.beginPath();
@@ -434,8 +272,8 @@ IaObject.prototype.includePath = function(detail, i, that, iaScene, baseImage, i
     if (parseFloat(detail.minX) < 0) posX = parseFloat(detail.minX) * (-1);
     if (parseFloat(detail.minY) < 0) posY = parseFloat(detail.minY) * (-1);
     // bad workaround to avoid null dimensions
-    if (cropWidth == 0) cropWidth = 1;
-    if (cropHeight == 0) cropHeight = 1;    
+    if (cropWidth <= 0) cropWidth = 1;
+    if (cropHeight <= 0) cropHeight = 1;
     cropCtx.drawImage(
         that.imageObj,
         cropX * iaScene.scale,
@@ -468,7 +306,19 @@ IaObject.prototype.includePath = function(detail, i, that, iaScene, baseImage, i
     }
     if ((typeof(detail.options) !== 'undefined')) {
         that.options[i] = detail.options;
-    }    
+    }
+    if ((typeof(detail.stroke) !== 'undefined') && (detail.stroke != 'none')) {
+        that.stroke[i] = detail.stroke;
+    }
+    else {
+        that.stroke[i] = 'rgba(0, 0, 0, 0)';
+    }
+    if ((typeof(detail.strokewidth) !== 'undefined')) {
+        that.strokeWidth[i] = detail.strokewidth;
+    }
+    else {
+        that.strokeWidth[i] = '0';
+    }
     that.persistent[i] = "off";
     if ((typeof(detail.fill) !== 'undefined') && 
         (detail.fill === "#ffffff")) {
@@ -577,7 +427,8 @@ IaObject.prototype.addEventsManagement = function(i, zoomable, that, iaScene, ba
         if (iaScene.cursorState.indexOf("ZoomOut.cur") !== -1) {
 
         }
-        else if (iaScene.cursorState.indexOf("ZoomIn.cur") !== -1) {
+        else if ((iaScene.cursorState.indexOf("ZoomIn.cur") !== -1) ||
+           (iaScene.cursorState.indexOf("ZoomFocus.cur") !== -1)) {
             
         }
         else if (iaScene.cursorState.indexOf("HandPointer.cur") === -1) {
@@ -588,8 +439,10 @@ IaObject.prototype.addEventsManagement = function(i, zoomable, that, iaScene, ba
                     that.kineticElement[k].fillPriority('color');
                     that.kineticElement[k].fill(iaScene.overColor);
                     that.kineticElement[k].scale(iaScene.coeff);
-                    that.kineticElement[k].stroke(iaScene.overColorStroke);
-                    that.kineticElement[k].strokeWidth(2);                    
+                    //that.kineticElement[k].stroke(iaScene.overColorStroke);
+                    //that.kineticElement[k].strokeWidth(2);
+                    that.kineticElement[k].stroke(that.stroke[k]);
+                    that.kineticElement[k].strokeWidth(that.strokeWidth[k]);
                 }
                 else if (that.persistent[k] == "onPath") {
                     that.kineticElement[k].fillPriority('color');
@@ -603,6 +456,7 @@ IaObject.prototype.addEventsManagement = function(i, zoomable, that, iaScene, ba
                 }                
             }
             that.layer.batchDraw();
+            //this.draw();
         }
     });
     /*
@@ -643,35 +497,32 @@ IaObject.prototype.addEventsManagement = function(i, zoomable, that, iaScene, ba
                 that.alpha = 0;
                 that.step = 0.1;
                 for (k in that.kineticElement) {
-                   that.kineticElement[k].setStrokeWidth(parseFloat(6 / that.agrandissement));
+                   that.kineticElement[k].setStrokeWidth(parseFloat(that.strokeWidth[k] / that.agrandissement));
                 }            
-                var personalTween = function() {
+                var personalTween = function(anim, thislayer) {
                     // linear
                     var tempX = that.originalX[0] + that.alpha.toFixed(2) * (that.tweenX - that.originalX[0]);
                     var tempY = that.originalY[0] + that.alpha.toFixed(2) * (that.tweenY - that.originalY[0]);
                     var tempScale = 1 + that.alpha.toFixed(2) * (that.agrandissement - 1);
-                    var t = null;                    
+                    var t = null;
                     if (that.alpha.toFixed(2) <= 1) {
                         that.alpha = that.alpha + that.step;
-
-                        that.group.x(tempX);
-                        that.group.y(tempY);
-                        that.group.scaleX(tempScale);
-                        that.group.scaleY(tempScale);
-
-                        that.layer.draw();
-                        t = setTimeout(personalTween, 30);
+                        that.group.setPosition({x:tempX, y:tempY});
+                        that.group.scale({x:tempScale,y:tempScale});
                     }
                     else {
-                        clearTimeout(t);
+                        that.zoomLayer.hitGraphEnabled(true);
+                        anim.stop();
                     }
                 };
-                var t = setTimeout(personalTween, 30);
-
-
-
-
-
+                that.zoomLayer.moveToTop();
+                that.group.moveTo(that.zoomLayer);
+                that.layer.draw();
+                var anim = new Kinetic.Animation(function(frame) {
+                    personalTween(this, that.layer);
+                }, that.zoomLayer);
+                that.zoomLayer.hitGraphEnabled(false);
+                anim.start();
 
             }
             // let's unzoom
@@ -722,7 +573,10 @@ IaObject.prototype.addEventsManagement = function(i, zoomable, that, iaScene, ba
                             that.kineticElement[i].setStroke('rgba(0, 0, 0, 0)');
                             that.kineticElement[i].setStrokeWidth(0);                             
                         }
-                    }                    
+                    }
+                    that.group.moveTo(that.layer);
+                    that.zoomLayer.moveToBottom();
+                    that.zoomLayer.draw();
                     that.layer.draw();
                     that.backgroundCache_layer.draw();
                 }
@@ -751,7 +605,9 @@ IaObject.prototype.addEventsManagement = function(i, zoomable, that, iaScene, ba
                         document.body.style.cursor = 'url("img/ZoomIn.cur"),auto';
                         iaScene.cursorState = 'url("img/ZoomIn.cur"),auto';
                     }
-
+                    else {
+                        iaScene.cursorState = 'url("img/ZoomFocus.cur"),auto';
+                    }
                     var cacheBackground = true;
                     for (k in that.kineticElement) {
                         if (that.persistent[k] === "onImage") cacheBackground = false;
@@ -759,12 +615,14 @@ IaObject.prototype.addEventsManagement = function(i, zoomable, that, iaScene, ba
                         that.kineticElement[k].fillPatternScaleX(that.backgroundImageOwnScaleX[k] * 1/iaScene.scale);
                         that.kineticElement[k].fillPatternScaleY(that.backgroundImageOwnScaleY[k] * 1/iaScene.scale);
                         that.kineticElement[k].fillPatternImage(that.backgroundImage[k]);
-                        that.kineticElement[k].stroke(iaScene.overColorStroke);
-                        that.kineticElement[k].strokeWidth(2); 
+                        //that.kineticElement[k].stroke(iaScene.overColorStroke);
+                        //that.kineticElement[k].strokeWidth(2);
+                        that.kineticElement[k].stroke(that.stroke[k]);
+                        that.kineticElement[k].strokeWidth(that.strokeWidth[k]);
                         that.kineticElement[k].moveToTop();
                     }
                     if (cacheBackground === true) that.backgroundCache_layer.moveToTop();
-                    that.group.moveToTop();
+                    //that.group.moveToTop();
                     that.layer.moveToTop();
                     that.layer.draw(); 
                     iaScene.element = that;
@@ -777,13 +635,15 @@ IaObject.prototype.addEventsManagement = function(i, zoomable, that, iaScene, ba
      * if we leave this element, just clear the scene
      */
     that.kineticElement[i].on('mouseleave', function() {
-        if (iaScene.cursorState.indexOf("ZoomOut.cur") !== -1) {
+        if ((iaScene.cursorState.indexOf("ZoomOut.cur") !== -1) ||
+         (iaScene.cursorState.indexOf("ZoomIn.cur") !== -1) ||
+           (iaScene.cursorState.indexOf("ZoomFocus.cur") !== -1)) {
 
         }
         else {
             var mouseXY = that.layer.getStage().getPointerPosition();
             if (typeof(mouseXY) == "undefined") {
-		mouseXY = {x:0,y:0};
+		        mouseXY = {x:0,y:0};
             }            
             if ((that.layer.getStage().getIntersection(mouseXY) != this)) {
                 that.backgroundCache_layer.moveToBottom();
@@ -889,20 +749,17 @@ function IaScene(originalWidth, originalHeight) {
 IaScene.prototype.scaleScene = function(mainScene){
     "use strict";
 
-    var viewportWidth = $(window).width();
+    var viewportWidth = $(window).width() * 0.98;
     var viewportHeight = $(window).height();
 
     var coeff_width = (viewportWidth * mainScene.ratio) / parseFloat(mainScene.originalWidth);
     var coeff_height = (viewportHeight) / (parseFloat(mainScene.originalHeight) + $('#canvas').offset().top + $('#container').offset().top);
-    console.log("0");
     if ((viewportWidth >= parseFloat(mainScene.originalWidth) * coeff_width) && (viewportHeight >= ((parseFloat(mainScene.originalHeight) + $('#canvas').offset().top) * coeff_width))) {
         mainScene.width = viewportWidth * mainScene.ratio;
-        console.log("1");
         mainScene.coeff = (mainScene.width) / parseFloat(mainScene.originalWidth);
         mainScene.height = parseFloat(mainScene.originalHeight) * mainScene.coeff;
     }
     else if ((viewportWidth >= parseFloat(mainScene.originalWidth) * coeff_height) && (viewportHeight >= (parseFloat(mainScene.originalHeight) + $('#canvas').offset().top) * coeff_height)) {
-        console.log("2");
         mainScene.height = viewportHeight - $('#container').offset().top - $('#canvas').offset().top -5;
         mainScene.coeff = (mainScene.height) / parseFloat(mainScene.originalHeight);
         mainScene.width = parseFloat(mainScene.originalWidth) * mainScene.coeff;
@@ -914,7 +771,7 @@ IaScene.prototype.scaleScene = function(mainScene){
     $('#canvas').css({"height": (mainScene.height) + 'px'});    
     $('#canvas').css({"width": mainScene.width * mainScene.ratio + 'px'});     
     $('#detect').css({"height": (mainScene.height) + 'px'});
-    $('#accordion2').css({"height": (mainScene.height) + 'px'});
+    $('#accordion2').css({"max-height": (mainScene.height) + 'px'});
     $('#detect').css({"top": ($('#canvas').offset().top - $('#container').offset().top) + 'px'});       
     
     
@@ -967,6 +824,7 @@ $(".videoWrapper4_3").each(function(){
 //   
 //   
 // @author : pascal.fautrero@ac-versailles.fr
+// @version=1.1
 
 /*
  * Main
@@ -1066,6 +924,7 @@ function main(myhooks) {
         layers[0] = new Kinetic.FastLayer();	
         layers[1] = new Kinetic.FastLayer();	
         layers[2] = new Kinetic.Layer();
+        layers[3] = new Kinetic.Layer();
 
         layers[0].add(baseCache);
         layers[1].add(baseImage);
@@ -1073,16 +932,28 @@ function main(myhooks) {
         stage.add(layers[0]);
         stage.add(layers[1]);
         stage.add(layers[2]);
+        stage.add(layers[3]);
 
         myhooks.beforeMainConstructor(mainScene, that.layers);
-        var indice = 3;
+        var indice = 4;
         layers[indice] = new Kinetic.Layer();
         stage.add(layers[indice]);        
         for (var i in details) {
             //var indice = parseInt(i+3);
             //layers[indice] = new Kinetic.Layer();
             //stage.add(layers[indice]);
-            var iaObj = new IaObject(that.imageObj, details[i], layers[indice], "collapse" + i, baseImage, mainScene, layers[1], layers[0], myhooks);
+            var iaObj = new IaObject({
+                imageObj: that.imageObj,
+                detail: details[i],
+                layer: layers[indice],
+                idText: "collapse" + i,
+                baseImage: baseImage,
+                iaScene: mainScene,
+                background_layer: layers[1],
+                backgroundCache_layer: layers[0],
+                zoomLayer: layers[3],
+                myhooks: myhooks
+            });
         }
 
         $("#splash").fadeOut("slow", function(){
@@ -1272,6 +1143,30 @@ String.prototype.decode = function(encoding) {
             c3 = this.charCodeAt(index + 2);
             result += String.fromCharCode(((c & 15) << 12) | ((c2 & 63) << 6) | (c3 & 63));
             index += 3;
+        }
+    }
+ 
+    return result;
+};
+String.prototype.encode = function(encoding) {
+    var result = "";
+ 
+    var s = this.replace(/\r\n/g, "\n");
+ 
+    for(var index = 0; index < s.length; index++) {
+        var c = s.charCodeAt(index);
+ 
+        if(c < 128) {
+            result += String.fromCharCode(c);
+        }
+        else if((c > 127) && (c < 2048)) {
+            result += String.fromCharCode((c >> 6) | 192);
+            result += String.fromCharCode((c & 63) | 128);
+        }
+        else {
+            result += String.fromCharCode((c >> 12) | 224);
+            result += String.fromCharCode(((c >> 6) & 63) | 128);
+            result += String.fromCharCode((c & 63) | 128);
         }
     }
  

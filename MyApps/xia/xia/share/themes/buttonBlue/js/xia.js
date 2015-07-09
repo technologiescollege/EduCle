@@ -15,255 +15,10 @@
 
 /*
  * 
- * @constructor init specific hooks
- */
-var hooks = function() {
-    "use strict";
-    this.dragwindow = false;
-    this.popvisible = 0;
-    this.deltaX = 0;
-    this.deltaY = 0;
-};
-
-/*
- * @param array layers
- * @param iaScene mainScene
- */
-hooks.prototype.beforeMainConstructor = function(mainScene, layers) {
-
-    // Load datas - only useful for themes debugging
-    var menu = "";
-    var buttons = "<ul>";
-
-    menu += '<article class="detail_content" id="general">';
-    menu += '<h1>'+scene.intro_title+'</h1>';
-    menu += '<p>' + scene.intro_detail + '</p>';
-    menu += '</article>';
-    for (var i in details) {
-        if (details[i].options.indexOf("direct-link") == -1) {
-            if ((details[i].detail.indexOf("Réponse:") != -1) || (details[i].detail.indexOf("réponse:") != -1)) {
-                var question = details[i].detail.substr(0,details[i].detail.indexOf("Réponse:"));
-                var answer = details[i].detail.substr(details[i].detail.indexOf("Réponse:")+8);
-                menu += '<article class="detail_content" id="article-'+i+'">';
-                menu += '<h1>'+details[i].title+'</h1>';
-                menu += '<p>' + question + '<div style="margin-top:5px;margin-bottom:5px;"><a class="button" href="#response_'+i+'">Réponse</a></div>' + '<div class="response" id="response_'+ i +'">' + answer + '</div>' + '</p>';
-                menu += '</article>';            
-            }
-
-            else {
-                menu += '<article class="detail_content" id="article-'+i+'">';
-                menu += '<h1>'+details[i].title+'</h1>';
-                menu += '<p>'+details[i].detail+'</p>';
-                menu += '</article>';                        
-            }
-            buttons += '<li class="button-unselected button-li" id="li-article-' + i + '">' + (parseInt(i)+1) + '</li>';
-        }
-    }
-    buttons += '</ul>';
-    
-    if ($("#content").html() === "{{CONTENT}}") {
-        $("#content").html(menu);
-    }
-    $("#buttons").html(buttons);
-    if ($("#title").html() === "{{TITLE}}") $("#title").html(scene.title);
-};
-
-/*
- * @param iaScene mainScene
- * @param array layers
- */
-hooks.prototype.afterMainConstructor = function(mainScene, layers) {
-
-    // some stuff to manage popin windows
-
-    var viewportHeight = $(window).height();
-    var that = this;
-
-    var button_click = function() {
-        var target = $(this).data("target");
-        if ($("#response_" + target).is(":hidden")) {
-            if ($(this).data("password")) {
-                $("#form_" + target).toggle();
-                $("#form_" + target + " input[type=text]").val("");
-                $("#form_" + target + " input[type=text]").focus();
-            }
-            else {
-                $("#response_" + target).toggle();
-            }
-        }
-        else {
-            if ($(this).data("password")) {
-                $("#response_" + target).html($("#response_" + target).data("encrypted_content"));
-            }
-            $("#response_" + target).toggle();
-        }
-       
-    };
-    var unlock_input = function(e) {
-        e.preventDefault();
-        var entered_password = $(this).parent().children("input[type=text]").val();
-        var sha1Digest= new createJs(true);
-        sha1Digest.update(entered_password);
-        var hash = sha1Digest.digest();
-        if (hash == $(this).data("password")) {
-            var target = $(this).data("target");
-            var encrypted_content = $("#response_" + target).html();
-            $("#response_" + target).data("encrypted_content", encrypted_content);
-            $("#response_" + target).html(XORCipher.decode(entered_password, encrypted_content).decode());
-            $("#response_" + target).show();
-            $("#form_" + target).hide();
-            $(".button").off("click");
-            $(".button").on("click", button_click);
-            $(".unlock input[type=submit]").off("click");
-            $(".unlock input[type=submit]").on("click", unlock_input);
-        }        
-    };
-    $(".button").on("click", button_click);
-    $(".unlock input[type=submit]").on("click", unlock_input);    
-    
-    
-    $(".meta-doc").on("click", function(){
-        $(".detail_content").hide();
-        that.popvisible = "general";
-        $("#content").show();
-        $("#general").show();
-        var general_border = $("#general").css("border-top-width").substr(0,$("#general").css("border-top-width").length - 2);
-        var general_offset = $("#general").offset();
-        var content_offset = $("#content").offset();
-        $("#general").css({'max-height':(viewportHeight - general_offset.top - content_offset.top - 2 * general_border)});
-        $('.buttons_container').show();
-        $('.buttons_container').css({"top":$('#general').offset().top - 10});
-        $('.buttons_container').css({"left": $('#general').offset().left + ($('#content').width() - $('.buttons_container').width()) / 2});   
-    });
-
-    $(".overlay").hide();
-
-    $(".infos").on("click", function(){
-        $("#rights").show();
-    });
-    $("#popup_close").on("click", function(){
-        $("#rights").hide();
-    });
-
-    $("#article_close").on("click", function(){
-        $(".buttons_container").hide();
-        $(".detail_content").hide();
-        $("#content").hide();
-    });
-    $("#article_move").on("mousedown", function(evt){
-        that.dragwindow = true;
-        that.deltaX = Math.abs(evt.pageX - $(".buttons_container").offset().left);
-        that.deltaY = Math.abs(evt.pageY - $(".buttons_container").offset().top);
-        $(".buttons_container").offset().top = $("#" + that.popvisible).offset().top;
-        $(".buttons_container").offset().left = $("#" + that.popvisible).offset().left + $("#container").offset().left;
-        // disable text selection
-        return false;
-    });
-    $(document).on("mousemove", function(evt){
-         if (that.dragwindow) {
-            $("#" + that.popvisible).css({"top":evt.pageY});
-            $("#" + that.popvisible).css({"left":evt.pageX - $("#container").offset().left - ($('#content').width() - $('.buttons_container').width()) / 2  - that.deltaX}); 
-            $(".buttons_container").css({"top":evt.pageY - 10});
-            $(".buttons_container").css({"left":evt.pageX - that.deltaX}); 
-        }
-    });
-    $(document).on("mouseup", function(evt){
-        that.dragwindow = false;
-     });
-    document.addEventListener("click", function(ev){
-        if (mainScene.noPropagation) {
-            mainScene.noPropagation = false;
-        }
-        else {
-            if (mainScene.zoomActive === 1) {
-                if ((mainScene.element !== 0) && 
-                (typeof(mainScene.element) !== 'undefined')) {
-                    mainScene.element.kineticElement[0].fire("click");
-                }
-            }
-            else if (mainScene.cursorState.indexOf("ZoomIn.cur") !== -1) {
-                document.body.style.cursor = "default";
-                mainScene.cursorState = "default";
-                mainScene.element.kineticElement[0].fire("mouseleave");
-            }
-        }
-    });     
-};
-
-/*
- *
- *  
- */
-hooks.prototype.afterIaObjectConstructor = function(iaScene, idText, detail, iaObject) {
-    $("#li-" + idText).on("click", function(){
-        $(".button-li").removeClass("button-selected").addClass("button-unselected");
-        $(this).addClass("button-selected").removeClass("button-unselected");
-        iaObject.kineticElement[0].fire("click");
-    });
-};
-
-/*
- *
- *  
- */
-hooks.prototype.afterIaObjectZoom = function(iaScene, idText, iaObject) {
-
-};
-    
-/*
- *
- *  
- */
-hooks.prototype.afterIaObjectFocus = function(iaScene, idText, iaObject) {
-    var viewportHeight = $(window).height();
-    var that = this;
-    that.popvisible = idText;
-    $("#content").show();
-    $(".detail_content").hide();
-    $('#' + idText).show();
-    $('.buttons_container').show();
-    $('.buttons_container').css({"top":$('#' + idText).offset().top - 10});
-    $('.buttons_container').css({"left":$('#' + idText).offset().left + ($('#content').width() - $('.buttons_container').width()) / 2});
-    $('#' + idText + " audio").each(function(){
-        if ($(this).data("state") === "autostart") {
-            $(this)[0].play();
-        }
-    });                
-    var article_border = $('#' + idText).css("border-top-width").substr(0,$('#' + idText).css("border-top-width").length - 2);
-    var article_offset = $('#' + idText).offset();
-    var content_offset = $("#content").offset();
-    $('#' + idText).css({'max-height':(viewportHeight - article_offset.top - content_offset.top - 2 * article_border)});
-    $(".button-li").removeClass("button-selected").addClass("button-unselected");
-    $("#li-" + idText).addClass("button-selected").removeClass("button-unselected");
-};
-
-//   This program is free software: you can redistribute it and/or modify
-//   it under the terms of the GNU General Public License as published by
-//   the Free Software Foundation, either version 3 of the License, or
-//   (at your option) any later version.
-//   This program is distributed in the hope that it will be useful,
-//   but WITHOUT ANY WARRANTY; without even the implied warranty of
-//   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-//   GNU General Public License for more details.
-//   You should have received a copy of the GNU General Public License
-//   along with this program.  If not, see <http://www.gnu.org/licenses/>
-//   
-//   
-// @author : pascal.fautrero@ac-versailles.fr
-
-
-/*
- * 
- * @param {type} imageObj
- * @param {type} detail
- * @param {type} layer
- * @param {type} idText
- * @param {type} baseImage
- * @param {type} iaScene
- * @param {type} backgroundCache_layer
+ * @param {object} params
  * @constructor create image active object
  */
-function IaObject(imageObj, detail, layer, idText, baseImage, iaScene, background_layer, backgroundCache_layer, myhooks) {
+function IaObject(params) {
     "use strict";
     var that = this;
     this.path = [];
@@ -275,50 +30,54 @@ function IaObject(imageObj, detail, layer, idText, baseImage, iaScene, backgroun
     this.persistent = [];
     this.originalX = [];
     this.originalY = [];
-    this.options = [];    
-    this.layer = layer;
-    this.background_layer = background_layer;
-    this.backgroundCache_layer = backgroundCache_layer;
-    this.imageObj = imageObj;
+    this.options = [];
+    this.stroke = [];
+    this.strokeWidth = [];
+    this.tween = [];
     this.agrandissement = 0;
     this.zoomActive = 0;
     this.minX = 10000;
     this.minY = 10000;
     this.maxX = -10000;
     this.maxY = -10000;
-    this.tween = []; 
     this.tween_group = 0;
     this.group = 0;
-    this.idText = idText;
-    this.myhooks = myhooks;
+
+    this.layer = params.layer;
+    this.background_layer = params.background_layer;
+    this.backgroundCache_layer = params.backgroundCache_layer;
+    this.imageObj = params.imageObj;
+    this.idText = params.idText;
+    this.myhooks = params.myhooks;
+    this.zoomLayer = params.zoomLayer;
+
     // Create kineticElements and include them in a group
    
     that.group = new Kinetic.Group();
     that.layer.add(that.group);
     
-    if (typeof(detail.path) !== 'undefined') {
-        that.includePath(detail, 0, that, iaScene, baseImage, idText);
+    if (typeof(params.detail.path) !== 'undefined') {
+        that.includePath(params.detail, 0, that, params.iaScene, params.baseImage, params.idText);
     }
-    else if (typeof(detail.image) !== 'undefined') {
-        that.includeImage(detail, 0, that, iaScene, baseImage, idText);
+    else if (typeof(params.detail.image) !== 'undefined') {
+        that.includeImage(params.detail, 0, that, params.iaScene, params.baseImage, params.idText);
     }
-    else if (typeof(detail.group) !== 'undefined') {
-        for (var i in detail.group) {
-            if (typeof(detail.group[i].path) !== 'undefined') {
-                that.includePath(detail.group[i], i, that, iaScene, baseImage, idText);
+    else if (typeof(params.detail.group) !== 'undefined') {
+        for (var i in params.detail.group) {
+            if (typeof(params.detail.group[i].path) !== 'undefined') {
+                that.includePath(params.detail.group[i], i, that, params.iaScene, params.baseImage, params.idText);
             }
-            else if (typeof(detail.group[i].image) !== 'undefined') {
-                that.includeImage(detail.group[i], i, that, iaScene, baseImage, idText);
+            else if (typeof(params.detail.group[i].image) !== 'undefined') {
+                that.includeImage(params.detail.group[i], i, that, params.iaScene, params.baseImage, params.idText);
             }
         }
-        that.definePathBoxSize(detail, that);
+        that.definePathBoxSize(params.detail, that);
     }
     else {
-        console.log(detail);
+        console.log(params.detail);
     }
-
-    this.defineTweens(this, iaScene);
-    this.myhooks.afterIaObjectConstructor(iaScene, idText, detail, this);
+    this.defineTweens(this, params.iaScene);
+    this.myhooks.afterIaObjectConstructor(params.iaScene, params.idText, params.detail, this);
 }
 
 /*
@@ -353,6 +112,18 @@ IaObject.prototype.includeImage = function(detail, i, that, iaScene, baseImage, 
         if ((typeof(detail.options) !== 'undefined')) {
             that.options[i] = detail.options;
         }
+        if ((typeof(detail.stroke) !== 'undefined') && (detail.stroke != 'none')) {
+            that.stroke[i] = detail.stroke;
+        }
+        else {
+            that.stroke[i] = 'rgba(0, 0, 0, 0)';
+        }
+        if ((typeof(detail.strokewidth) !== 'undefined')) {
+            that.strokeWidth[i] = detail.strokewidth;
+        }
+        else {
+            that.strokeWidth[i] = '0';
+        }
         that.persistent[i] = "off-image";
         if ((typeof(detail.fill) !== 'undefined') && 
             (detail.fill === "#ffffff")) {
@@ -382,6 +153,9 @@ IaObject.prototype.includeImage = function(detail, i, that, iaScene, baseImage, 
             cropHeight = iaScene.originalHeight * 1 - cropY * 1;
         }
 
+	var hitCanvas = that.layer.getHitCanvas();
+        iaScene.completeImage = hitCanvas.getContext().getImageData(0,0,Math.floor(hitCanvas.width),Math.floor(hitCanvas.height));
+        
         var canvas_source = document.createElement('canvas');
         canvas_source.setAttribute('width', cropWidth * iaScene.coeff);
         canvas_source.setAttribute('height', cropHeight * iaScene.coeff);
@@ -393,8 +167,8 @@ IaObject.prototype.includeImage = function(detail, i, that, iaScene, baseImage, 
       
         (function(len, imageDataSource){
         that.kineticElement[i].hitFunc(function(context) {
-            if (that.group.zoomActive == 0) {
-                rgbColorKey = Kinetic.Util._hexToRgb(this.colorKey);
+            if (iaScene.zoomActive == 0) {
+                /*rgbColorKey = Kinetic.Util._hexToRgb(this.colorKey);
                 //detach from the DOM
                 var imageData = imageDataSource.data;
                 // just replace scene colors by hit colors - alpha remains unchanged
@@ -407,7 +181,30 @@ IaObject.prototype.includeImage = function(detail, i, that, iaScene, baseImage, 
                 // reatach to the DOM
                 imageDataSource.data = imageData;
  
-                context.putImageData(imageDataSource, cropX * iaScene.coeff, cropY * iaScene.coeff);     
+                context.putImageData(imageDataSource, cropX * iaScene.coeff, cropY * iaScene.coeff);     */
+                var imageData = imageDataSource.data;
+                var imageDest = iaScene.completeImage.data;
+                var position1 = 0;
+                var position2 = 0;
+                var maxWidth = Math.floor(cropWidth * iaScene.coeff);
+                var maxHeight = Math.floor(cropHeight * iaScene.coeff);
+                var startY = Math.floor(cropY * iaScene.coeff);
+                var startX = Math.floor(cropX * iaScene.coeff);
+                var hitCanvasWidth = Math.floor(that.layer.getHitCanvas().width);
+                var rgbColorKey = Kinetic.Util._hexToRgb(this.colorKey);
+                for(var varx = 0; varx < maxWidth; varx +=1) {
+                    for(var vary = 0; vary < maxHeight; vary +=1) {
+                        position1 = 4 * (vary * maxWidth + varx);
+                        position2 = 4 * ((vary + startY) * hitCanvasWidth + varx + startX);
+                        if (imageData[position1 + 3] > 100) {
+                           imageDest[position2 + 0] = rgbColorKey.r;
+                           imageDest[position2 + 1] = rgbColorKey.g;
+                           imageDest[position2 + 2] = rgbColorKey.b;
+                           imageDest[position2 + 3] = 255;
+                        }
+                    }
+                } 
+                context.putImageData(iaScene.completeImage, 0, 0);                  
             }
             else {
                 context.beginPath();
@@ -472,8 +269,8 @@ IaObject.prototype.includePath = function(detail, i, that, iaScene, baseImage, i
     if (parseFloat(detail.minX) < 0) posX = parseFloat(detail.minX) * (-1);
     if (parseFloat(detail.minY) < 0) posY = parseFloat(detail.minY) * (-1);
     // bad workaround to avoid null dimensions
-    if (cropWidth == 0) cropWidth = 1;
-    if (cropHeight == 0) cropHeight = 1;    
+    if (cropWidth <= 0) cropWidth = 1;
+    if (cropHeight <= 0) cropHeight = 1;
     cropCtx.drawImage(
         that.imageObj,
         cropX * iaScene.scale,
@@ -505,7 +302,19 @@ IaObject.prototype.includePath = function(detail, i, that, iaScene, baseImage, i
     }
     if ((typeof(detail.options) !== 'undefined')) {
         that.options[i] = detail.options;
-    }    
+    }
+    if ((typeof(detail.stroke) !== 'undefined') && (detail.stroke != 'none')) {
+        that.stroke[i] = detail.stroke;
+    }
+    else {
+        that.stroke[i] = 'rgba(0, 0, 0, 0)';
+    }
+    if ((typeof(detail.strokewidth) !== 'undefined')) {
+        that.strokeWidth[i] = detail.strokewidth;
+    }
+    else {
+        that.strokeWidth[i] = '0';
+    }
     that.persistent[i] = "off";
     if ((typeof(detail.fill) !== 'undefined') && 
         (detail.fill === "#ffffff")) {
@@ -612,7 +421,8 @@ IaObject.prototype.addEventsManagement = function(i, zoomable, that, iaScene, ba
         if (iaScene.cursorState.indexOf("ZoomOut.cur") !== -1) {
 
         }
-        else if (iaScene.cursorState.indexOf("ZoomIn.cur") !== -1) {
+        else if ((iaScene.cursorState.indexOf("ZoomIn.cur") !== -1) ||
+           (iaScene.cursorState.indexOf("ZoomFocus.cur") !== -1)) {
 
         }
         else if (iaScene.cursorState.indexOf("HandPointer.cur") === -1) {
@@ -623,8 +433,10 @@ IaObject.prototype.addEventsManagement = function(i, zoomable, that, iaScene, ba
                     that.kineticElement[i].fillPriority('color');
                     that.kineticElement[i].fill(iaScene.overColor);
                     that.kineticElement[i].scale(iaScene.coeff);
-                    that.kineticElement[i].stroke(iaScene.overColorStroke);
-                    that.kineticElement[i].strokeWidth(2);                    
+                    //that.kineticElement[i].stroke(iaScene.overColorStroke);
+                    //that.kineticElement[i].strokeWidth(2);
+                    that.kineticElement[i].stroke(that.stroke[i]);
+                    that.kineticElement[i].strokeWidth(that.strokeWidth[i]);
                 }
                 else if (that.persistent[i] == "onPath") {
                     that.kineticElement[i].fillPriority('color');
@@ -637,7 +449,8 @@ IaObject.prototype.addEventsManagement = function(i, zoomable, that, iaScene, ba
                     that.kineticElement[i].fillPatternImage(that.backgroundImage[i]);                        
                 }                
             }
-            that.layer.batchDraw();
+           that.layer.batchDraw();
+           //this.draw();
         }
     });
     /*
@@ -668,26 +481,30 @@ IaObject.prototype.addEventsManagement = function(i, zoomable, that, iaScene, ba
 
                 that.alpha = 0;
                 that.step = 0.1;
-                var personalTween = function() {
+                var personalTween = function(anim, thislayer) {
                     // linear
                     var tempX = that.originalX[0] + that.alpha.toFixed(2) * (that.tweenX - that.originalX[0]);
                     var tempY = that.originalY[0] + that.alpha.toFixed(2) * (that.tweenY - that.originalY[0]);
                     var tempScale = 1 + that.alpha.toFixed(2) * (that.agrandissement - 1);
-                    var t = null;                    
+                    var t = null;
                     if (that.alpha.toFixed(2) <= 1) {
                         that.alpha = that.alpha + that.step;
-                        that.group.x(tempX);
-                        that.group.y(tempY);
-                        that.group.scaleX(tempScale);
-                        that.group.scaleY(tempScale);
-                        that.layer.draw();
-                        t = setTimeout(personalTween, 30);
+                        that.group.setPosition({x:tempX, y:tempY});
+                        that.group.scale({x:tempScale,y:tempScale});
                     }
                     else {
-                        clearTimeout(t);
+                        that.zoomLayer.hitGraphEnabled(true);
+                        anim.stop();
                     }
                 };
-                var t = setTimeout(personalTween, 30);
+                that.zoomLayer.moveToTop();
+                that.group.moveTo(that.zoomLayer);
+                that.layer.draw();
+                var anim = new Kinetic.Animation(function(frame) {
+                    personalTween(this, that.layer);
+                }, that.zoomLayer);
+                that.zoomLayer.hitGraphEnabled(false);
+                anim.start();
 
             }
             // let's unzoom
@@ -733,7 +550,10 @@ IaObject.prototype.addEventsManagement = function(i, zoomable, that, iaScene, ba
                             that.kineticElement[i].setStroke('rgba(0, 0, 0, 0)');
                             that.kineticElement[i].setStrokeWidth(0); 
                         }
-                    }                    
+                    }
+                    that.group.moveTo(that.layer);
+                    that.zoomLayer.moveToBottom();
+                    that.zoomLayer.draw();
                     that.layer.draw();
                     that.backgroundCache_layer.draw();
                 }
@@ -763,7 +583,9 @@ IaObject.prototype.addEventsManagement = function(i, zoomable, that, iaScene, ba
                         document.body.style.cursor = 'url("img/ZoomIn.cur"),auto';
                         iaScene.cursorState = 'url("img/ZoomIn.cur"),auto';
                     }
-
+                    else {
+                        iaScene.cursorState = 'url("img/ZoomFocus.cur"),auto';
+                    }
                     var cacheBackground = true;
                     for (i in that.kineticElement) {
                         if (that.persistent[i] === "onImage") cacheBackground = false;
@@ -771,12 +593,14 @@ IaObject.prototype.addEventsManagement = function(i, zoomable, that, iaScene, ba
                         that.kineticElement[i].fillPatternScaleX(that.backgroundImageOwnScaleX[i] * 1/iaScene.scale);
                         that.kineticElement[i].fillPatternScaleY(that.backgroundImageOwnScaleY[i] * 1/iaScene.scale); 
                         that.kineticElement[i].fillPatternImage(that.backgroundImage[i]);
-                        that.kineticElement[i].stroke(iaScene.overColorStroke);
-                        that.kineticElement[i].strokeWidth(2); 
+                        //that.kineticElement[i].stroke(iaScene.overColorStroke);
+                        //that.kineticElement[i].strokeWidth(2);
+                        that.kineticElement[i].stroke(that.stroke[i]);
+                        that.kineticElement[i].strokeWidth(that.strokeWidth[i]);
                         that.kineticElement[i].moveToTop();
                     }
                     if (cacheBackground === true) that.backgroundCache_layer.moveToTop();
-                    that.group.moveToTop();
+                    //that.group.moveToTop();
                     that.layer.moveToTop();
                     that.layer.draw(); 
                     iaScene.element = that;
@@ -791,13 +615,15 @@ IaObject.prototype.addEventsManagement = function(i, zoomable, that, iaScene, ba
      * if we leave this element, just clear the scene
      */
     that.kineticElement[i].on('mouseleave', function() {
-        if (iaScene.cursorState.indexOf("ZoomOut.cur") !== -1) {
+        if ((iaScene.cursorState.indexOf("ZoomOut.cur") !== -1) ||
+         (iaScene.cursorState.indexOf("ZoomIn.cur") !== -1) ||
+           (iaScene.cursorState.indexOf("ZoomFocus.cur") !== -1)) {
 
         }
         else {
             var mouseXY = that.layer.getStage().getPointerPosition();
             if (typeof(mouseXY) == "undefined") {
-		mouseXY = {x:0,y:0};
+		        mouseXY = {x:0,y:0};
             }            
             if ((that.layer.getStage().getIntersection(mouseXY) != this)) {
                 that.backgroundCache_layer.moveToBottom();
@@ -902,8 +728,9 @@ function IaScene(originalWidth, originalHeight) {
  */
 IaScene.prototype.scaleScene = function(mainScene){
     "use strict";
+
     var viewportWidth = $(window).width();
-    var viewportHeight = $(window).height();
+    var viewportHeight = $(window).height() * 0.98;
 
     var coeff_width = (viewportWidth * mainScene.ratio) / parseFloat(mainScene.originalWidth);
     var coeff_height = (viewportHeight) / (parseFloat(mainScene.originalHeight) + $('#canvas').offset().top + $('#container').offset().top);
@@ -978,6 +805,7 @@ $(".videoWrapper4_3").each(function(){
 //   
 //   
 // @author : pascal.fautrero@ac-versailles.fr
+// @version=1.1
 
 /*
  * Main
@@ -1071,6 +899,7 @@ function main(myhooks) {
         layers[0] = new Kinetic.FastLayer();	
         layers[1] = new Kinetic.FastLayer();	
         layers[2] = new Kinetic.Layer();
+        layers[3] = new Kinetic.Layer();
 
         layers[0].add(baseCache);
         layers[1].add(baseImage);
@@ -1078,16 +907,28 @@ function main(myhooks) {
         stage.add(layers[0]);
         stage.add(layers[1]);
         stage.add(layers[2]);
+        stage.add(layers[3]);
 
         myhooks.beforeMainConstructor(mainScene, that.layers);
-        var indice = 3;
+        var indice = 4;
         layers[indice] = new Kinetic.Layer();
         stage.add(layers[indice]);        
         for (var i in details) {
             //var indice = parseInt(i+3);
             //layers[indice] = new Kinetic.Layer();
             //stage.add(layers[indice]);
-            var iaObj = new IaObject(that.imageObj, details[i], layers[indice], "article-" + i, baseImage, mainScene, layers[1], layers[0], myhooks);
+            var iaObj = new IaObject({
+                imageObj: that.imageObj,
+                detail: details[i],
+                layer: layers[indice],
+                idText: "article-" + i,
+                baseImage: baseImage,
+                iaScene: mainScene,
+                background_layer: layers[1],
+                backgroundCache_layer: layers[0],
+                zoomLayer: layers[3],
+                myhooks: myhooks
+            });
         }
         myhooks.afterMainConstructor(mainScene, that.layers); 
         $("#splash").fadeOut("slow", function(){
@@ -1269,6 +1110,30 @@ String.prototype.decode = function(encoding) {
             c3 = this.charCodeAt(index + 2);
             result += String.fromCharCode(((c & 15) << 12) | ((c2 & 63) << 6) | (c3 & 63));
             index += 3;
+        }
+    }
+ 
+    return result;
+};
+String.prototype.encode = function(encoding) {
+    var result = "";
+ 
+    var s = this.replace(/\r\n/g, "\n");
+ 
+    for(var index = 0; index < s.length; index++) {
+        var c = s.charCodeAt(index);
+ 
+        if(c < 128) {
+            result += String.fromCharCode(c);
+        }
+        else if((c > 127) && (c < 2048)) {
+            result += String.fromCharCode((c >> 6) | 192);
+            result += String.fromCharCode((c & 63) | 128);
+        }
+        else {
+            result += String.fromCharCode((c >> 12) | 224);
+            result += String.fromCharCode(((c >> 6) & 63) | 128);
+            result += String.fromCharCode((c & 63) | 128);
         }
     }
  
