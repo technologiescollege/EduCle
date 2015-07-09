@@ -26,7 +26,7 @@ _ne tenez pas compte des pop-ups vers le site officiel si vous en avez une ou de
 
 ##_The Process:_
 
-_Don't take into account the pop-ups hyper-linked to the official site if one or two open, or the setup of "suites"_
+_don't take into account the pop-ups hyper-linked to the official site if one or two open, or the setup of "suites"_
 
 _1. download the setup file on the official site;_
 
@@ -46,7 +46,7 @@ _8. unpack it and overwrite all the files of the "standard" Liberkey._
 
 
 ## Pour vous tenir au courant des mises à jour
-Rendez-vous sur ce blog : [http://tic.technologiescollege.fr/wordpress](http://tic.technologiescollege.fr/wordpress)
+rendez-vous sur ce blog : [http://tic.technologiescollege.fr/wordpress](http://tic.technologiescollege.fr/wordpress)
 
 ##_To get informed of the updates_
 _go to this blog:[http://tic.technologiescollege.fr/wordpress](http://tic.technologiescollege.fr/wordpress)_
@@ -54,8 +54,9 @@ _go to this blog:[http://tic.technologiescollege.fr/wordpress](http://tic.techno
 ## Pour accéder au catalogue de toutes les applications
 que nous rajoutons dans MyApps, vous pouvez consulter cette page : [http://tic.technologiescollege.fr/wordpress/liberkey-educ-paquets/](http://tic.technologiescollege.fr/wordpress/liberkey-educ-paquets/)
 
-_To get to the catalogue of all the softwares that we add in MyApps, you can look up in this site: [http://tic.technologiescollege.fr/wordpress/liberkey-educ-paquets/](http://tic.technologiescollege.fr/wordpress/liberkey-educ-paquets/)_
+## _To get to the catalogue of all the softwares_
+that we add in MyApps, you can look up in this site: [http://tic.technologiescollege.fr/wordpress/liberkey-educ-paquets/](http://tic.technologiescollege.fr/wordpress/liberkey-educ-paquets/)_
 
-Vous pouvez ainsi individuellement télécharger nos zip.
+##Vous pouvez ainsi individuellement télécharger nos zip : [sur Dropbox](https://www.dropbox.com/sh/59s7brzbxnnljs9/AAAUb8EF82ybmoeJUl9k135na?dl=0).
 
-_Therefore you can download our zipped files individually._
+##_Therefore you can download our zipped files individually_ : [by Dropbox](https://www.dropbox.com/sh/59s7brzbxnnljs9/AAAUb8EF82ybmoeJUl9k135na?dl=0).
