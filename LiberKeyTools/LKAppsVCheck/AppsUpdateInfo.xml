@@ -1,71 +1,71 @@
 <LbkAppsUpdates>
-<AppInfo id="opera-operalkl">
+<AppInfo id="rapidtyping-rapidtypinglkl">
 				<priority>high</priority>
-				<Name>Opera</Name>
-				<Version>27.0.1689.69</Version>
-				<Description><![CDATA[Opera est navigateur internet très rapide, sécurisé, configurable et supportant parfaitement les standards du WEB.[br]Toutes les technologies modernes sont intégrées comme les onglets, sessions, zoom sur les pages, blocage de contenu, widget, favoris intelligents.[br]Il intègre également un client de messagerie (avec filtrage des spams), un gestionnaire de news, un gestionnaire de téléchargement (avec support natif de Bittorent) et bien plus.]]></Description>
-				<FileName>Opera_27.0.1689.69.lks</FileName>
-				<FileSize>31662791</FileSize>
-				<AppSize>119793205</AppSize>
-				<EditorName>Opera Software ASA</EditorName>
-				<EditorURL>http://www.opera.com</EditorURL>
-				<AppHomePageURL>http://www.opera.com</AppHomePageURL>
+				<Name>RapidTyping</Name>
+				<Version>5.0.336.101</Version>
+				<Description><![CDATA[RapidTyping vous permet d'apprendre de façon ludique à utiliser votre clavier. Il est conçu pour que des adultes ou des enfants se servent du clavier plus efficacement. Apprendre à taper devient un jeu grâce au Rapid Typing Game, avec de nombreux suivis statistiques des progrès et des leçons adaptées.]]></Description>
+				<FileName>RapidTyping_5.0.336.101.lks</FileName>
+				<FileSize>16392018</FileSize>
+				<AppSize>64236014</AppSize>
+				<EditorName>RapidTyping Team</EditorName>
+				<EditorURL>http://www.rapidtyping.com/</EditorURL>
+				<AppHomePageURL>http://www.rapidtyping.com/</AppHomePageURL>
 				<License>Freeware</License>
 				<Platform>XP/Vista/7/8</Platform>
 				<Icon ContentEncoding="base64">AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA
-				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAAFgAAABoAAAAWAAAADQAAAAAAAAAAAAAAAAAAAA
-				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAEBGAABpgAkDm5kJA5uZAABpgAAAOk0AAAAwAAAAFgAAAAA
-				AAAAAAAAAAAAAAAAAAAAAAAAAAAAANykIA5+zDgbM/xAG0v8LBLv/CwS7/w4GzP8OBsz/CAOeswAAI0AA
-				AAAgAAAAAAAAAAAAAAAAAAAAAAAAXRoJBLHZDAXD/wIBmP8EAKX/BgCzzwYAs78EAKf/AgGW/wwFwf8KB
-				LXyAAA7TQAAABMAAAAAAAAAAAAAAAAIA7OzCQS8/wAAmP8EAKj/BgCleQAAAAAAAAAABgCzcAQApv8AAJ
-				H/CAOy/wgDqtkAAAAtAAAAAAAAAAAAAKkwCwTI/wAApf8AAKP/BgCy/wAAABAAAAAAAAAAAAAAAAAGALH
-				/AACZ/wAAmP8MBcX/AABxgAAAAAoAAAAABQLEgAcDx/8AALX/AQCz/wYAq9kAAAANAAAAAAAAAAAAAAAA
-				BgCzzwEAp/8AAKT/AwGr/wcDrL8AAAAWAAAAAAcD2b8AAM7/AADL/wIAw/8GAKjMAAAADQAAAAAAAAAAA
-				AAAAAYAs78CALX/AAC0/wAAsv8JA8TmAAAAGgAAAAAJA+y/AADp/wAA5f8CANf/BgCozAAAAA0AAAAAAA
-				AAAAAAAAAGALO/AgDF/wAAyf8AAMb/BQLN/wAAABoAAAAACAf9vwUF/v8EBP3/BALq/wYAqMwAAAANAAA
-				AAAAAAAAAAAAABgCzvwIA2f8AAOP/AADg/wEB3v8AAAATAAAAABUV/58VFf//ExP//w4N7P8GAKjMAAAA
-				EwAAAAAAAAAAAAAAAAYAs88FA+v/AwP9/wIC+/8BAenMAAAABgAAAAAlJf9QJSX//yMj//8fH/r/BgCz/
-				wAAACMAAAAAAAAAAAAAAAAGALP/FBT//xIS//8QEP//DAzreQAAAAAAAAAAAAAAADQ0/98zM///MTH//w
-				4Jwf8EAHBmAAAAEwAAAAAGALNADAfB/yMj//8iIv//Hx//7xgY/xAAAAAAAAAAAAAAAAA/P/8wQkL/70F
-				B//8uLOf/BgCx8gUAm6YGAKScBgCz7yoo7P8zM///MTH//y0t/2AAAAAAAAAAAAAAAAAAAAAAAAAAAE1N
-				/zBQUP/fT0///0VE9v8qJ9n/KSbZ/0A/9v9FRf//Q0P/7z09/1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-				AAAAAAAWVn/EFlZ/2BYWP+vV1f/v1ZW/79UVP+vUVH/cE5O/xAAAAAAAAAAAAAAAAAAAAAA/B8AAPAHAA
-				DgAwAAwAEAAMGBAACBwAAAgcAAAIHAAACBwAAAgcAAAIHAAACBwQAAwIEAAMADAADgBwAA8A8AAA==
+				AD///8A////APn39wbn4t9p29PPycS2sPK2o5zquKigo8q6tHjUyMNS7urpGP///wD///8A////AP///w
+				D///8A////APf19Qe5o5m5yLGn/8mwpP/Eq6D/u6ac/7CUiP/Gp5n/x6mb/bqcj/27o5nB4trXOP///wD
+				///8A////APz8/ACzloq2uZKA/72Xhf+/mon/wZ2N/8Ogkf/FpJT/x6eY/8mqnP/LraD/zK+i/72gk/rI
+				ubNy+vn5A////wDVxb9huJB+/7qSgP+7lIL/vZeG/7+biv/Bno7/w6GR/8Wklf/Hp5n/yaud/8uuoP+wk
+				YP9l35y/7Wjm7339vUKwaKVwrqSgP+6koD/upKA/7uVg/++mIf/v5uL/8Gdjf/BqZ7/18vF/8Kqn//Jqp
+				z/w6WY/aiSh/3Ow77/zsO+kbmTg/O6koD/upKA/7SNfP+7k4H/vJWE/76ZiP+3mIr/iYiI/4uKif/y8O7
+				/vJ6R/8qrnf+1nZHZ08nE88q+ue69mIb4upKA/7mRf/+VbV3/xKGR/7qTgf+8loX/l35y/ygoKf8lJSb/
+				zMrJ/8OroP/Jqpz/5djSa/Pw7xXf19Ra0rerwrqSgP+6koD/rYV0/6aCcv+/mYj/u5SC/6ODdP+ioaD/L
+				Cwt/9zY1v+4mYr/0bar4Pr5+Az///8A////AO7l4FLBnYz/upKA/7mRf/+edmX/s5SF/8Kejf+7k4L/mn
+				5x/7Kjm/+7n5P/0ris5fXw7i3///8A////AP///wD///8A5dXNm8GcjP+6koD/uZF//6B4Z/+beGn/vqK
+				W8NrCtunbxbrX6dvVjPr49xT///8A////AP///wD///8A////AP39/QDw5uF10LSm9byVhP26koD/uZF/
+				/553Zvjj29kt////AP///wD///8A////AP///wD///8A////AP///wD///8A////APv6+Bnt4tyQ0bWn9
+				byVg/25kX//t56Uof///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP
+				v6+Bno2NGnwZ2M/7KQgdr///8A////AP///wD///8A////AP///wD///8A////AOXa1Ury7+8S////AP/
+				//wD18vEPzLqydbKOfvWzi3v6qo+Es83BvVDw7OsV7OjmH9zQzGT39vUP////AP///wD59vUZx6+lwayO
+				gsmsjoLGq4R09riQfv26k4H/vpmJ/8Sikv/AoZP9uZyP/cWsouvq499J////AP///wD///8A////AP39/
+				QPx6eRe2MG2wseml/PEopLz0baqveTUzaXbx73O38zDwOre2Xn59/YS////AP///wD///8A8P8AAMAPAA
+				CABwAAgAEAAAAAAAAAAAAAAAcAAAAHAACADwAAgB8AAOD/AADwfwAA/H8AAP4/AADABwAA8B8AAA==
 				</Icon>
 			<Location>http://update.liberkey.com/packages/</Location>
 </AppInfo>
-<AppInfo id="xmediarecode-xmediarecodelkl">
+<AppInfo id="recuva-recuvalkl">
 				<priority>high</priority>
-				<Name>XMedia Recode</Name>
-				<Version>3.2.1.6</Version>
-				<Description><![CDATA[XMedia Recode est un convertisseur universel permettant la conversion des fichiers audio/vidéo dans de nombreux formats.[br]Il supporte les formats 3GP, 3GPP, 3GPP2, AAC, AC3, AMR, ASF, AVI, AVISynth, DVD, FLAC, FLV, H.261, H.263, H.264, M4A , M1V, M2V, M4V, Matroska (MKV), MMF, MPEG-1, MPEG-2, MPEG-4, TS, TRP, MP2, MP3, MP4, MP4V, MOV, OGG, PSP, (S) VCD, SWF , VOB, WAV, WMA et WMV. ]]></Description>
-				<FileName>XMedia_Recode_3.2.1.6.lks</FileName>
-				<FileSize>7600414</FileSize>
-				<AppSize>26808783</AppSize>
-				<EditorName>Sebastian Dörfler</EditorName>
-				<EditorURL>http://www.xmedia-recode.de</EditorURL>
-				<AppHomePageURL>http://www.xmedia-recode.de</AppHomePageURL>
+				<Name>Recuva</Name>
+				<Version>1.52.1086</Version>
+				<Description><![CDATA[Recuva est un utilitaire qui permet de restaurer les fichiers accidentellement supprimés de votre ordinateur. Cela inclut les fichiers supprimés de la corbeille ainsi que les images et autres fichiers qui ont été supprimés par erreur d'une cartes mémoire d'appareil photo numérique, d'un lecteur MP3, etc. Il peut même récupérer les fichiers qui ont été supprimés par des bogues, plantages ou des virus.]]></Description>
+				<FileName>Recuva_1.52.1086.lks</FileName>
+				<FileSize>2674207</FileSize>
+				<AppSize>10481579</AppSize>
+				<EditorName>Piriform Ltd</EditorName>
+				<EditorURL>http://www.piriform.com/recuva</EditorURL>
+				<AppHomePageURL>http://www.piriform.com/recuva</AppHomePageURL>
 				<License>Freeware</License>
 				<Platform>XP/Vista/7/8</Platform>
 				<Icon ContentEncoding="base64">AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA
-				AAAAAAAAAAAAAAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD/AAAAAAAAAA
-				AAAAAAAAAAAAAAAAAAAAD//////wAAAP8AAAD/AQAA/wEAAP8AAAD/AAAA/wAAAP//////AAAA/wAAAAA
-				AAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP//2dn//9nZ///Z2f//2dn//9nZ///Z2f//2dn/AAAA/wAAAP8A
-				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////8nJ///Jyf//ycn//8nJ///Jyf//ycn//8nJ//////8AA
-				AD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA//+5uf//ubn//7m5//+5uf//ubn//7m5//+5uf8AAA
-				D/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////qan//6mp//+pqf//qan//6mp//+pqf//qan
-				//////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD//5iY//+YmP//mJj//5iY//+YmP//mJj/
-				/5iY/wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////+IiP//iIj//4iI//+IiP//iIj//
-				4iI//+IiP//////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AA
-				AA/wAAAP8AAAD/AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////2ho//9oaP//aGj//2h
-				o//9oaP//aGj//2ho//////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA//9YWP//WFj//1hY
-				//9YWP//WFj//1hY//9YWP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////SEj//0hI/
-				/9ISP//SEj//0hI//9ISP//SEj//////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD//zg4//
-				84OP//ODj//zg4//84OP//ODj//zg4/wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////8
-				oKP//KCj//ygo//8oKP//KCj//ygo//8oKP//////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAA
-				AP8CAAT/BQII/wIACf8BAAn/AQAK/wEAC/8AAAX/AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-				P8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD/AAAAAAAAAAAAAAAAz+cAAMAHAA
-				DABwAAwAcAAMAHAADABwAAwAcAAMAHAADABwAAwAcAAMAHAADABwAAwAcAAMAHAADABwAAz+cAAA==
+				AAAAAAAAAAAAAAAAAD6+vwFk5W9bBdqsvEMk87/Do7I/xSOyPw5b6bZYHqvqJKSum3W1uQpAAAAAAAAAA
+				AAAAAAAAAAAAAAAADGxto5NV2jzgCn6v8A1P//AN3//wHe//8E3v//Ad7//wLZ//8HxP7/BoPP/19hgPG
+				gnp7u2NfXOvPz9wxtdKmSAWy4/wCa2/8AjtT/AJrZ/y225v8u4v//ANr//wDb//8G3v//AdX//wCo5v+5
+				vtP/q6aj/5eXl+U4U5fIAIXT/wDW//8Quu3/AHi+/wB8wf8Ag8T/ANj//wDb//8A2///ALXu/xOv5P+Wp
+				cf/q6aj/8G9u/+ZmJjmAFmn/wDP//8fzu7/AJzW/wCd2v8TruP/D63h/z7L8v8+2///J8/4/wCc2f+sq8
+				j/rKaj/+Xj4v/Bvbv/nJyb6C95t9BN0vD/AK7m/wC48P8jzPn/j+z//wnQ//8Azv//ANL//wrL/P8dnNX
+				/rKak/+Lg3///////wb27/5ubmutTerG2CsT0/w/W//8A1P//cvD//5r5//8A2v//AMP//wDA//8v1P7/
+				JHOw/9/d3P/+/v7//////3Fvbv+YmJfrpqjKWSbV//9I7P//FuL//6D6//8B1f//D8n//0jj//8c1P//A
+				KTg/6Cdnv/5+Pf/cW9u/3Nxcf/9+PX/mpmZ7QAAAAAzeb3MAMv//wDI//8Aw///I7nz/17j//9m8///E7
+				Xq/3CTvv+2r6z/cW9u//Pv7P/X0s//t7Gt/5uZmfAAAAAAv8DYQDV5v8oIl973F8P2/yTI+P8Wx/b/GKT
+				b/4KMq//Owr7/q5uR/8zBvP/w6eP/5uHe/7Gmo/+ZmJjxAAAAAAAAAAAAAAAA3d3pImqDr5mVlLD/joWj
+				/9rP0v/MwLj/uqyj/93Sy/+3qZ7/7ebg//fw7P+jnZv/mJeX8wAAAAAAAAAAAAAAAAAAAACioaHA2dfW/
+				66loP/z7Ob/x7iy/+Ta1f/Asaj/2MrG//Pr5v/++PT/pqCf/5iXl/YAAAAAAAAAAAAAAAAAAAAApKKhwO
+				Tk5P+gmpf/7+fi//Lq5f/Owbr/w7ex/9jKxv//+vX//Pz8/6Whnv+ampr2AAAAAAAAAAAAAAAAAAAAAKS
+				iocDq6ur/wb++/56Ylf/w6eT//fbx///69v///////////6+qqP/FxMP/mpqa9wAAAAAAAAAAAAAAAAAA
+				AACkoqHA6urq//T09P/Jx8f/qKGg/6qkof+qp6X/oJ2b/5qWlf+/vr3/8/Pz/5mZmfoAAAAAAAAAAAAAA
+				AAAAAAA6+rpIZiXlfGamJf1mZiX9ZiWlfaVlJP2kZCP9pKRkfWRkI/1kZCQ85CQj/PV1dU94AcAAMAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAgAAAAOAAAADwAAAA8AAAAPAAAADwAAAA8AAAAA==
 				</Icon>
 			<Location>http://update.liberkey.com/packages/</Location>
 </AppInfo>

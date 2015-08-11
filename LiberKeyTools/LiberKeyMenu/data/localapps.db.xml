@@ -19,7 +19,7 @@ Décompression des formats 7z, ZIP, GZIP, BZIP2 and TAR + RAR, CAB, ISO, ARJ, LZ
 			<Platform>XP/Vista/7/8</Platform>
 			<License>GPL 2.0</License>
 			<Description><![CDATA[Audacity est un éditeur de fichier audio multi-pistes supportant plusieurs formats (Wav, AIFF, MP3, OGG, FLAC etc...). Il permet d'appliquer des effets sur vos pistes, découper des fichiers et bien plus.]]></Description>
-			<Version>2.0.6</Version>
+			<Version>2.1.0</Version>
 			<Developer>Audacity Team</Developer>
 			<WebSite>http://audacity.sourceforge.net/</WebSite>
 			<LicenseFile>%APPS%\Audacity\App\Audacity\LICENSE.txt</LicenseFile>
@@ -43,7 +43,7 @@ Décompression des formats 7z, ZIP, GZIP, BZIP2 and TAR + RAR, CAB, ISO, ARJ, LZ
 			<Platform>XP/Vista/7/8</Platform>
 			<License>Freeware</License>
 			<Description><![CDATA[CCleaner est un outil d'optimisation et de nettoyage de votre système. Il supprime les fichiers inutilisés ce qui permet de rendre Windows plus rapide et libère de la place disque. Il nettoie également les traces de vos activités sur Internet ainsi que les historiques des navigateurs. De plus, vous avez accès à un nettoyeur pour la base de registre.]]></Description>
-			<Version>5.02.5101</Version>
+			<Version>5.04.5151</Version>
 			<Developer>Piriform Ltd</Developer>
 			<WebSite>http://www.piriform.com/ccleaner</WebSite>
 			<LicenseFile>%APPS%\CCleaner\App\CCleaner\License.txt</LicenseFile>
@@ -68,7 +68,7 @@ Décompression des formats 7z, ZIP, GZIP, BZIP2 and TAR + RAR, CAB, ISO, ARJ, LZ
 			<License>GPL 2.0</License>
 			<Description><![CDATA[ClamWin est un antivirus avec mise à jour par Internet.
 Nota : il n'intègre pas de protection en temps réel, il faut lancer un scan manuel pour détecter les fichiers infectés.]]></Description>
-			<Version>0.98.5</Version>
+			<Version>0.98.6</Version>
 			<Developer>alch and Gianluigi Tiesi</Developer>
 			<WebSite>http://www.clamwin.com/</WebSite>
 			<LicenseFile>%APPS%\ClamWin\App\License.rtf</LicenseFile>
@@ -105,7 +105,7 @@ Il peut charger et sauvegarder les diagrammes au format XML, les exporter aux fo
 			<Platform>XP/Vista/7/8</Platform>
 			<License>Freeware (non commercial environment)</License>
 			<Description><![CDATA[FastStone Image Viewer est un navigateur d'images, convertisseur et éditeur. Il intègre de nombreuses fonctions: visualisation, gestion, comparaison, anti-yeux rouge, email, redimensionnement, découpe, ajustement des couleurs, etc. Il supporte les principaux formats de fichiers graphiques.]]></Description>
-			<Version>5.1</Version>
+			<Version>5.3</Version>
 			<Developer>FastStone Soft</Developer>
 			<WebSite>http://www.faststone.org/FSViewerDetail.htm</WebSite>
 			<LicenseFile>%APPS%\FastStoneImageViewer\App\FastStoneImageViewer\LicenseAgreement.pdf</LicenseFile>
@@ -119,7 +119,7 @@ Il peut charger et sauvegarder les diagrammes au format XML, les exporter aux fo
 			<Description><![CDATA[Filezilla permet de se connecter à distance sur un serveur FTP pour y télécharger des fichiers.
 Il supporte FTP, FTP sur SSL/TLS (FTPS), SSH, IPV6, mode reprise, transfert des fichiers > 4GB, un gestionnaire de site, la gestion des files d'attente, mode glisser / déposer,  HTTP/1.1, SOCKS5, FTP-Proxy et plus.
 ]]></Description>
-			<Version>3.10.1.1</Version>
+			<Version>3.10.3</Version>
 			<Developer>FileZilla Project</Developer>
 			<WebSite>http://filezilla.sourceforge.net/</WebSite>
 			<LicenseFile>%APPS%\Filezilla\App\FileZilla\GPL.html</LicenseFile>
@@ -132,7 +132,7 @@ Il supporte FTP, FTP sur SSL/TLS (FTPS), SSH, IPV6, mode reprise, transfert des 
 			<License>MPL 2.0</License>
 			<Description><![CDATA[Firefox est un navigateur web qui offre la navigation par onglet combinée avec de nombreuses fonctions très utiles comme le blocage automatique des fenêtres intempestives, une gestion avancée des favoris (avec support des flux RSS), un gestionnaire de mot de passe, le zoom complet des pages et bien plus.
 Il peut être complété grâce à des centaines de plugins (extensions) librement téléchargeables.]]></Description>
-			<Version>35.0.1</Version>
+			<Version>37.0.2</Version>
 			<Developer>Mozilla Corporation</Developer>
 			<WebSite>http://www.mozilla-europe.org/fr/products/firefox/</WebSite>
 			<LicenseFile>%APPS%\Firefox\App\license.txt</LicenseFile>
@@ -221,7 +221,7 @@ et beaucoup plus.]]></Description>
 			<License>GPL 2.0</License>
 			<Description><![CDATA[HTTrack est un aspirateur de sites Web.
 Il vous permet de télécharger un site Web d'Internet vers votre disque dur, en construisant récursivement tous les répertoires, récupérant html, images et fichiers du serveur vers votre ordinateur.]]></Description>
-			<Version>3.48-19</Version>
+			<Version>3.48-21</Version>
 			<Developer>HTTrack</Developer>
 			<WebSite>http://www.httrack.com/page/1/fr/index.html</WebSite>
 			<LicenseFile>%APPS%\Httrack\App\WinHTTrack\gpl-fr.txt</LicenseFile>
@@ -247,7 +247,7 @@ Il peut graver les CD audio et supporte tous les formats si les filtres DirectSh
 			<Platform>XP/Vista/7/8</Platform>
 			<License>GPL 2.0</License>
 			<Description><![CDATA[Inkscape est un logiciel d'édition de graphismes vectoriels, doté de capacités similaires à Illustrator, Freehand, CorelDraw ou Xara X, utilisant le format de fichiers Scalable Vector Graphics (SVG) standard du W3C. Les fonctionnalités supportées du format SVG incluent les formes, les chemins, le texte, les marqueurs, les clônes, les canaux alpha, les transformations, les motifs et les groupements. Il supporte également l'édition de nœuds, les couches, les opérations de chemins complexes, la vectorisation des bitmaps, le texte suivant des chemins, le texte contournant des objets, l'édition XML directe et beaucoup plus. Il peut importer des formats tels que le Postscript, EPS, JPEG, PNG et TIFF, et exporte en PNG ainsi qu'en de nombreux formats vectoriels.]]></Description>
-			<Version>0.48.4</Version>
+			<Version>0.91</Version>
 			<Developer>inkscape.org</Developer>
 			<WebSite>http://www.inkscape.org/</WebSite>
 			<LicenseFile>%APPS%\Inkscape\App\Inkscape\COPYING</LicenseFile>
@@ -412,7 +412,7 @@ Voici quelques fonctionnalités :
 - Auto-complétion
 - Drag'N'Drop
 - Editeur de macro pour enregistrer et exécuter les macros.]]></Description>
-			<Version>6.7.4</Version>
+			<Version>6.7.7</Version>
 			<Developer>Don HO</Developer>
 			<WebSite>http://notepad-plus-plus.org</WebSite>
 			<LicenseFile>%APPS%\Notepad++\App\Notepad++\License.txt</LicenseFile>
@@ -426,7 +426,7 @@ Voici quelques fonctionnalités :
 			<Description><![CDATA[Opera est navigateur internet très rapide, sécurisé, configurable et supportant parfaitement les standards du WEB.
 Toutes les technologies modernes sont intégrées comme les onglets, sessions, zoom sur les pages, blocage de contenu, widget, favoris intelligents.
 Il intègre également un client de messagerie (avec filtrage des spams), un gestionnaire de news, un gestionnaire de téléchargement (avec support natif de Bittorent) et bien plus.]]></Description>
-			<Version>27.0.1689.69</Version>
+			<Version>29.0.1795.47</Version>
 			<Developer>Opera Software ASA</Developer>
 			<WebSite>http://www.opera.com</WebSite>
 			<LicenseFile>%APPS%\Opera\App\license.rtf</LicenseFile>
@@ -452,7 +452,7 @@ Il intègre également un client de messagerie (avec filtrage des spams), un ges
 			<License>Freeware</License>
 			<Description><![CDATA[PDF-XChange Viewer permet de visionner et d'imprimer vos documents au format PDF.
 Il est également possible d'ajouter des annotations à vos fichiers PDF.]]></Description>
-			<Version>2.5.312</Version>
+			<Version>2.5.312.1</Version>
 			<Developer>Tracker Software Products Ltd.</Developer>
 			<WebSite>http://www.tracker-software.com/product/pdf-xchange-viewer</WebSite>
 			<LicenseFile>%APPS%\PDFXchangeViewer\App\License.rtf</LicenseFile>
@@ -464,7 +464,7 @@ Il est également possible d'ajouter des annotations à vos fichiers PDF.]]></De
 			<Platform>XP/Vista/7/8</Platform>
 			<License>Freeware (non commercial environment)</License>
 			<Description><![CDATA[PhotoFiltre est un logiciel de retouche d’images très complet. Il permet d’effectuer des réglages simples ou avancés sur une image et de lui appliquer un large éventail de filtres. Son utilisation simple et intuitive offre une prise en main rapide. La barre d’outils, proposant l’accès aux filtres standards, par simple click de souris, lui donne un côté convivial.]]></Description>
-			<Version>7.2.0</Version>
+			<Version>7.2.1</Version>
 			<Developer>Antonio Da Cruz</Developer>
 			<WebSite>http://www.photofiltre-studio.com/pf7.htm</WebSite>
 			<LicenseFile>%APPS%\PhotoFiltre\App\PhotoFiltre\Licence.txt</LicenseFile>
@@ -514,7 +514,7 @@ Il est particulièrement adapté au monde de l'enseignement et de la formation (
 			<Platform>XP/Vista/7/8</Platform>
 			<License>Freeware</License>
 			<Description><![CDATA[RapidTyping vous permet d'apprendre de façon ludique à utiliser votre clavier. Il est conçu pour que des adultes ou des enfants se servent du clavier plus efficacement. Apprendre à taper devient un jeu grâce au Rapid Typing Game, avec de nombreux suivis statistiques des progrès et des leçons adaptées.]]></Description>
-			<Version>5.0.202.98</Version>
+			<Version>5.0.336.101</Version>
 			<Developer>RapidTyping Team</Developer>
 			<WebSite>http://www.rapidtyping.com/</WebSite>
 			<LicenseFile>%APPS%\RapidTyping\App\RapidTyping\License.txt</LicenseFile>
@@ -526,11 +526,11 @@ Il est particulièrement adapté au monde de l'enseignement et de la formation (
 			<Platform>XP/Vista/7/8</Platform>
 			<License>Freeware</License>
 			<Description><![CDATA[Recuva est un utilitaire qui permet de restaurer les fichiers accidentellement supprimés de votre ordinateur. Cela inclut les fichiers supprimés de la corbeille ainsi que les images et autres fichiers qui ont été supprimés par erreur d'une cartes mémoire d'appareil photo numérique, d'un lecteur MP3, etc. Il peut même récupérer les fichiers qui ont été supprimés par des bogues, plantages ou des virus.]]></Description>
-			<Version>1.51.1063</Version>
+			<Version>1.52.1086</Version>
 			<Developer>Piriform Ltd</Developer>
 			<WebSite>http://www.piriform.com/recuva</WebSite>
 			<LicenseFile>%APPS%\Recuva\App\Recuva\License.txt</LicenseFile>
-			<AutoKeyWords>recuva piriform ltd est utilitaire qui permet restaurer les fichiers accidentellement supprimes votre ordinateur cela inclut corbeille ainsi que images autres ont ete par erreur une cartes memoire appareil photo numerique lecteur mp3 etc peut meme recuperer des bogues plantages virus freeware vista</AutoKeyWords>
+			<AutoKeyWords>gestion des fichiers restauration apres effacement recuva piriform ltd utilitaire qui permet restaurer les accidentellement supprimes votre ordinateur cela inclut corbeille ainsi que images autres ont ete par erreur une cartes memoire appareil photo numerique lecteur mp3 etc peut meme recuperer bogues plantages virus freeware vista</AutoKeyWords>
 		</Software>
 		<Software id="scribus" type="lbk">
 			<Name>Scribus</Name>
@@ -582,7 +582,7 @@ Les principales fonctions sont :
 			<License>Freeware</License>
 			<Description><![CDATA[Stickies permet de créer des notes sur votre bureau. L'apparence des notes est paramétrable (police, couleur, style). Elles peuvent être partagées sur un réseau TCP/IP, envoyées par emails, etc.
 De multiples fonctions sont disponibles, par exemple, les notes peuvent être associées à des alarmes.]]></Description>
-			<Version>8.0b</Version>
+			<Version>8.0c</Version>
 			<Developer>Tom Revell</Developer>
 			<WebSite>http://www.zhornsoftware.co.uk/stickies/</WebSite>
 			<LicenseFile>%APPS%\Stickies\App\license.txt</LicenseFile>
@@ -594,7 +594,7 @@ De multiples fonctions sont disponibles, par exemple, les notes peuvent être as
 			<Platform>XP/Vista/7/8</Platform>
 			<License>MPL 2.0</License>
 			<Description><![CDATA[Thunderbird est un client email qui offre de nombreuses fonctions très utiles comme : vues de dossiers avancées, étiquetage des messages, historique de navigation dans les messages, protection contre le hameçonnage, anti-spam, gestionnaire de modules complémentaires pour les extensions et les thèmes et bien plus.]]></Description>
-			<Version>31.4.0</Version>
+			<Version>31.5.0</Version>
 			<Developer>Mozilla Corporation</Developer>
 			<WebSite>http://www.mozillamessaging.com</WebSite>
 			<LicenseFile>%APPS%\Thunderbird\App\license.txt</LicenseFile>
@@ -634,6 +634,15 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<Version>8.00</Version>
 			<Developer>Microsoft Corporation</Developer>
 			<AutoKeyWords>video capture amcap microsoft corporation</AutoKeyWords>
+		</Software>
+		<Software id="user_captureflux" type="xsoft">
+			<ExePath>%MYAPPS%\CaptureFlux.exe</ExePath>
+			<Developer>Paul Glagla</Developer>
+			<Description>CaptureFlux de Paul Glagla</Description>
+			<License>Réservé à un usage personnel</License>
+			<Name>CaptureFlux</Name>
+			<Version>6,0,5</Version>
+			<AutoKeyWords>captureflux paul glagla reserve usage personnel</AutoKeyWords>
 		</Software>
 		<Software id="user_captureflux_52fr">
 			<Name>Captureflux</Name>
@@ -792,6 +801,11 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<AutoKeyWords>education langues verbira verbira.web.free.fr organisation inconnue</AutoKeyWords>
 			<WebSite>http://verbira.web.free.fr/</WebSite>
 		</Software>
+		<Software id="user_matieres-maths-apprentigeometre2-ag2">
+			<ExePath>%MYAPPS%\Matieres\Maths\ApprentiGeometre2\AG2.exe</ExePath>
+			<Name>AG2</Name>
+			<AutoKeyWords>ag2</AutoKeyWords>
+		</Software>
 		<Software id="user_matieres-maths-usbggb-ggb">
 			<Name>GeoGebra</Name>
 			<ExePath>%MYAPPS%\Matieres\Maths\geogebra\GeoGebra.exe</ExePath>
@@ -823,6 +837,15 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<Name>Caryo</Name>
 			<AutoKeyWords>caryo macromedia inc version runtime authorware ©1987-1997</AutoKeyWords>
 		</Software>
+		<Software id="user_matieres-svt-coeur-coeur">
+			<ExePath>%MYAPPS%\Matieres\SVT\Coeur\coeur.exe</ExePath>
+			<Developer>Pierre PEREZ</Developer>
+			<Description>Programme de seconde, collège...</Description>
+			<License>PP</License>
+			<Name>Player</Name>
+			<Version>03,00,0, b</Version>
+			<AutoKeyWords>player pierre perez programme seconde college..</AutoKeyWords>
+		</Software>
 		<Software id="user_matieres-svt-phylocollege-phylocollege">
 			<ExePath>%MYAPPS%\Matieres\SVT\phylocollege\phylocollege.exe</ExePath>
 			<Developer>Macromedia, Inc.</Developer>
@@ -839,6 +862,15 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<Name>Phylogène</Name>
 			<Version>2.7.6.0</Version>
 			<AutoKeyWords>phylogene ife 2001-2012</AutoKeyWords>
+		</Software>
+		<Software id="user_matieres-svt-reseau">
+			<ExePath>%MYAPPS%\Matieres\SVT\reseau.exe</ExePath>
+			<Developer>Macromedia, Inc.</Developer>
+			<Description>Rouen 2007</Description>
+			<License>Copyright © 1996-2000 Macromedia, Inc.</License>
+			<Name>Flash</Name>
+			<Version>5,0,30,0</Version>
+			<AutoKeyWords>flash macromedia inc rouen 2007 copyright 1996-2000</AutoKeyWords>
 		</Software>
 		<Software id="user_matieres-technologie-archifacile">
 			<Name>ArchiFacile</Name>
@@ -866,9 +898,10 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 		<Software id="user_matieres-technologie-designer_pepakura-pepakura3">
 			<Name>Pepakura Designer 3</Name>
 			<ExePath>%MYAPPS%\Matieres\Technologie\designer_pepakura\pepakura3.exe</ExePath>
-			<Version>3.0.4.0</Version>
+			<Version>3.1.4.0</Version>
 			<Developer>TamaSoftware</Developer>
-			<AutoKeyWords>pepakura designer tamasoftware</AutoKeyWords>
+			<AutoKeyWords>education technologie pepakura designer tamasoftware</AutoKeyWords>
+			<IconFile>%MYAPPS%\Matieres\Technologie\pepakura_designer\Pepakura_Designer.exe</IconFile>
 		</Software>
 		<Software id="user_matieres-technologie-ganttproject-ganttproject">
 			<Name>Plannification Gantt</Name>
@@ -894,6 +927,12 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<Version>1.0.0.0</Version>
 			<Developer>P. Crousaz &amp; A. Bulcke</Developer>
 			<AutoKeyWords>education technologie machines materiaux crousaz bulcke</AutoKeyWords>
+		</Software>
+		<Software id="user_matieres-technologie-mblock-mblock">
+			<ExePath>%MYAPPS%\Matieres\Technologie\mBlock\mBlock.exe</ExePath>
+			<Name>mBlock</Name>
+			<AutoKeyWords>education technologie pilotage mblock makeblock.cc</AutoKeyWords>
+			<WebSite>http://www.makeblock.cc/</WebSite>
 		</Software>
 		<Software id="user_matieres-technologie-organigram-organigram">
 			<ExePath>%MYAPPS%\Matieres\Technologie\Organigram\organigram.exe</ExePath>
@@ -932,6 +971,26 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<AutoKeyWords>education technologie roboprog physicsbox indexrobotprogfr</AutoKeyWords>
 			<Version>1.1</Version>
 			<WebSite>http://www.physicsbox.com/indexrobotprogfr.html</WebSite>
+		</Software>
+		<Software id="user_matieres-technologie-s2a-s2a" type="xsoft">
+			<ExePath>%MYAPPS%\Matieres\Technologie\s2a\s2a.exe</ExePath>
+			<Developer>WorldCompany</Developer>
+			<Description><![CDATA[s2a]]></Description>
+			<License>Sébastien Canet</License>
+			<Name>s2a</Name>
+			<Version>2.1</Version>
+			<AutoKeyWords>education technologie pilotage s2a https github technologiescollege s2a_fr worldcompany sebastien canet</AutoKeyWords>
+			<WebSite>https://github.com/technologiescollege/s2a_fr</WebSite>
+		</Software>
+		<Software id="user_matieres-technologie-s2p-s2p" type="xsoft">
+			<ExePath>%MYAPPS%\Matieres\Technologie\s2p\s2p.exe</ExePath>
+			<Developer>WorldCompany</Developer>
+			<Description><![CDATA[Lien Scratch2 <-> s2p <-> Picaxe]]></Description>
+			<License>Sébastien Canet</License>
+			<Name>Lien Scratch2 &lt;-&gt; s2p &lt;-&gt; Picaxe</Name>
+			<Version>2.1</Version>
+			<AutoKeyWords>education technologie pilotage s2p.exe raccourci lien scratch2 &lt;-&gt; picaxe https github technologiescollege worldcompany sebastien canet</AutoKeyWords>
+			<WebSite>https://github.com/technologiescollege/s2p</WebSite>
 		</Software>
 		<Software id="user_matieres-technologie-sweet_home_3d-sweethome3d">
 			<ExePath>%MYAPPS%\Matieres\Technologie\Sweet Home 3D\SweetHome3D.exe</ExePath>
@@ -989,16 +1048,40 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<AutoKeyWords>education technologie west point bridge designer sourceforge projects wpbdc dept civil mechanical engineering usma</AutoKeyWords>
 			<WebSite>http://sourceforge.net/projects/wpbdc/</WebSite>
 		</Software>
+		<Software id="user_matieres-technologie-xi-xiduino">
+			<ExePath>%MYAPPS%\Matieres\Technologie\Xi\XiDuino.exe</ExePath>
+			<Developer>WorldCompany</Developer>
+			<Description><![CDATA[Lien Scratch2 <-> Xi <-> Arduino]]></Description>
+			<License>Sébastien Canet</License>
+			<Name>Lien Scratch2 &lt;-&gt; Xi &lt;-&gt; Arduino</Name>
+			<Version>2.0</Version>
+			<AutoKeyWords>education technologie pilotage xiduino.exe raccourci lien scratch2 &lt;-&gt; arduino https github technologiescollege xiduino-windows-portable worldcompany sebastien canet</AutoKeyWords>
+			<WebSite>https://github.com/technologiescollege/XiDuino-Windows-Portable</WebSite>
+		</Software>
+		<Software id="user_pdfsam">
+			<ExePath>%MYAPPS%\pdfsam\pdfsam.exe</ExePath>
+			<Description>Starter for PDFsam</Description>
+			<License>Andrea Vacondio 2014</License>
+			<Name>PDFsam</Name>
+			<Version>3.0.0.M1</Version>
+			<AutoKeyWords>pdfsam starter for andrea vacondio 2014</AutoKeyWords>
+		</Software>
 		<Software id="user_pdfsam-pdfsam-starter">
-			<ExePath>%MYAPPS%\pdfsam\pdfsam-starter.exe</ExePath>
+			<ExePath>%MYAPPS%\pdfsam\pdfsam.exe</ExePath>
 			<Description><![CDATA[Starter for pdfsam basic]]></Description>
 			<License>Andrea Vacondio 2012</License>
-			<Name>pdfsam-starter</Name>
+			<Name>pdfsam</Name>
 			<Version>2.2.2</Version>
-			<AutoKeyWords>bureautique pdf s&amp;m pdfsam-starter for basic andrea vacondio 2012 windows</AutoKeyWords>
+			<AutoKeyWords>bureautique pdf s&amp;m pdfsam starter for basic andrea vacondio 2012 windows</AutoKeyWords>
 			<LicenseFile>http://www.pdfsam.org/eula/</LicenseFile>
 			<Platform>Windows</Platform>
 			<WebSite>http://www.pdfsam.org/</WebSite>
+		</Software>
+		<Software id="user_pencil2d-pencil">
+			<ExePath>%MYAPPS%\pencil2D\Pencil.exe</ExePath>
+			<Name>Pencil2D</Name>
+			<AutoKeyWords>graphisme photo pencil2d http pencil2d.org</AutoKeyWords>
+			<Developer>http://pencil2d.org</Developer>
 		</Software>
 		<Software id="user_pencil-animation-pencil">
 			<ExePath>%MYAPPS%\pencil-animation\Pencil.exe</ExePath>
@@ -1081,6 +1164,34 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<Version>2,2,3,324</Version>
 			<AutoKeyWords>vsdc free video editor flash-integro llc copyright 2011-2014 all rights reserved</AutoKeyWords>
 		</Software>
+		<Software id="user_vsdcfreevideoeditorportable" type="paf">
+			<ExePath>%MYAPPS%\VSDCFreeVideoEditorPortable\VSDCFreeVideoEditorPortable.exe</ExePath>
+			<Developer>Flash-Integro LLC/Vector Ltd. &amp; ThumbApps</Developer>
+			<Description><![CDATA[VSDCFreeVideoEditor is a a feature-packed software utility that can help even novices create high-complexity videos.]]></Description>
+			<License>Shareable/Freeware/CommercialUse</License>
+			<Name>VSDC Free Video Editor Portable</Name>
+			<Version>3.1.0</Version>
+			<AutoKeyWords>audio video vsdc free editor portable thumbapps.blogspot flash-integro llc vector ltd vsdcfreevideoeditor feature-packed software utility that can help even novices create high-complexity videos shareable freeware commercialuse</AutoKeyWords>
+			<WebSite>http://thumbApps.blogspot.com</WebSite>
+		</Software>
+		<Software id="user_vsdcfreevideoeditor-vsdcfreevideoeditorportable" type="paf">
+			<ExePath>%MYAPPS%\VSDCFreeVideoEditor\VSDCFreeVideoEditorPortable.exe</ExePath>
+			<Developer>Flash-Integro LLC/Vector Ltd. &amp; ThumbApps</Developer>
+			<Description><![CDATA[VSDCFreeVideoEditor is a a feature-packed software utility that can help even novices create high-complexity videos.]]></Description>
+			<License>Shareable/Freeware/CommercialUse</License>
+			<Name>VSDC Free Video Editor Portable</Name>
+			<Version>3.1.0</Version>
+			<AutoKeyWords>vsdc free video editor portable thumbapps.blogspot flash-integro llc vector ltd vsdcfreevideoeditor feature-packed software utility that can help even novices create high-complexity videos shareable freeware commercialuse</AutoKeyWords>
+			<WebSite>http://thumbApps.blogspot.com</WebSite>
+		</Software>
+		<Software id="user_vti">
+			<ExePath>%MYAPPS%\vti\Vti.exe</ExePath>
+			<Developer>ACZ</Developer>
+			<Description><![CDATA[Virtual TI]]></Description>
+			<Name>Virtual TI</Name>
+			<Version>2.5.0.0</Version>
+			<AutoKeyWords>virtual acz</AutoKeyWords>
+		</Software>
 		<Software id="user_xia">
 			<ExePath>%MYAPPS%\xia\xia.exe</ExePath>
 			<Developer>Académie de Versailles</Developer>
@@ -1110,7 +1221,7 @@ VirtualDub est conçu principalement pour traiter des fichiers AVI, bien qu’il
 			<Platform>XP/Vista/7/8</Platform>
 			<License>GPL 2.0</License>
 			<Description><![CDATA[VLC media player est un lecteur de fichier audio et vidéo supportant pratiquement tous les formats ( (MPEG-1, MPEG-2, MPEG-4, DivX, mp3, ogg, ...) ainsi que la lecture des DVDs et des protocoles de streaming (flux audio et vidéo). Il peut être utilisé en serveur de streaming. Son avantage est qu'il ne nécessite aucun codec audio et vidéo pour fonctionner.]]></Description>
-			<Version>2.1.5 rev1</Version>
+			<Version>2.2.0</Version>
 			<Developer>the VideoLan Team</Developer>
 			<WebSite>http://www.videolan.org/</WebSite>
 			<LicenseFile>%APPS%\VLC\App\VLC\x86\COPYING.txt</LicenseFile>
@@ -1161,7 +1272,7 @@ Format d'export : Macromedia Flash (swf), exécutables autonomes (EXE), etc.]]><
 			<License>Freeware</License>
 			<Description><![CDATA[XMedia Recode est un convertisseur universel permettant la conversion des fichiers audio/vidéo dans de nombreux formats.
 Il supporte les formats 3GP, 3GPP, 3GPP2, AAC, AC3, AMR, ASF, AVI, AVISynth, DVD, FLAC, FLV, H.261, H.263, H.264, M4A , M1V, M2V, M4V, Matroska (MKV), MMF, MPEG-1, MPEG-2, MPEG-4, TS, TRP, MP2, MP3, MP4, MP4V, MOV, OGG, PSP, (S) VCD, SWF , VOB, WAV, WMA et WMV. ]]></Description>
-			<Version>3.2.1.6</Version>
+			<Version>3.2.2.0</Version>
 			<Developer>Sebastian Dörfler</Developer>
 			<WebSite>http://www.xmedia-recode.de</WebSite>
 			<LicenseFile>%APPS%\XMediaRecode\App\XMediaRecode\license.txt</LicenseFile>

@@ -16,13 +16,13 @@
 		</Category>
 	</Category>
 	<Category name="Bureautique" icon="office.ico" id="office">
-		<Category name="Accessoires bureau" icon="auto:Blue" id="office:desktop_tools" expanded="yes">
+		<Category name="Accessoires bureau" icon="auto:Blue" id="office:desktop_tools">
 			<Category name="Pense-bête" id="office:desktop_tools:desktop_note" expanded="yes">
 				<Software id="stickies" cpt="279"/>
 			</Category>
 		</Category>
 		<Category name="Calculatrice" icon="auto:Blue" id="office:calculator">
-			<Software cpt="1">
+			<Software cpt="2">
 				<ExePath>%windir%\system32\calc.exe</ExePath>
 				<Developer>Microsoft Corporation</Developer>
 				<Description><![CDATA[Calculatrice de Windows]]></Description>
@@ -33,7 +33,7 @@
 			<Software id="speedcrunch" cpt="4"/>
 		</Category>
 		<Category name="Convertisseur d&apos;unité" icon="auto:Blue" id="office:unit_converter">
-			<Software id="converber" cpt="1"/>
+			<Software id="converber" cpt="2"/>
 		</Category>
 		<Category name="Création de tutoriel" icon="auto:Blue" id="office:tutorial_creator">
 			<Software>
@@ -55,13 +55,13 @@
 				<WorkingDir>%DRIVE%\Documents and Settings\élève\Local Settings\Application Data\Screencast-O-Matic</WorkingDir>
 				<IconFile>%DRIVE%\Documents and Settings\élève\Local Settings\Application Data\Screencast-O-Matic\som.ico</IconFile>
 			</Software>
-			<Software id="wink" cpt="6"/>
+			<Software id="wink" cpt="7"/>
 		</Category>
 		<Category name="Editeur de diagrammes" icon="auto:Blue" id="office:diagram_editor">
 			<Software id="dia" cpt="1"/>
 		</Category>
-		<Category name="Editeur de texte" icon="auto:Blue" id="office:text_editor" expanded="yes">
-			<Software cpt="3">
+		<Category name="Editeur de texte" icon="auto:Blue" id="office:text_editor">
+			<Software cpt="5">
 				<ExePath>%SystemRoot%\system32\notepad.exe</ExePath>
 				<Developer>Microsoft Corporation</Developer>
 				<Description><![CDATA[Bloc-notes]]></Description>
@@ -69,15 +69,15 @@
 				<Name>Notepad</Name>
 				<Version>6.1.7600.16385</Version>
 			</Software>
-			<Software id="notepad++" cpt="36"/>
+			<Software id="notepad++" cpt="46"/>
 		</Category>
-		<Category name="PDF" icon="auto:Blue" id="office:pdf" expanded="yes">
-			<Software id="user_pdfsam-pdfsam-starter" cpt="8">
+		<Category name="PDF" icon="auto:Blue" id="office:pdf">
+			<Software id="user_pdfsam">
 				<Name>PDF S&amp;M</Name>
 			</Software>
 			<Software id="pdfxchangeviewer" cpt="10"/>
 		</Category>
-		<Category name="Présentation" icon="auto:Blue" id="office:presentation" expanded="yes">
+		<Category name="Présentation" icon="auto:Blue" id="office:presentation">
 			<Software id="user_sankoreportable">
 				<Name>Open Sankoré</Name>
 				<WorkingDir>%MYAPPS%\SankorePortable</WorkingDir>
@@ -86,15 +86,20 @@
 			<Software id="user_pylote_win-pylote">
 				<WorkingDir>%MYAPPS%\pylote_win</WorkingDir>
 			</Software>
+			<Software>
+				<ExePath>%MYAPPS%\Strut_stand_alone\index.html</ExePath>
+				<Name>Strut</Name>
+				<IconFile>%MYAPPS%\Strut_stand_alone\strut.ico</IconFile>
+			</Software>
 		</Category>
-		<Category name="Suite bureautique" icon="auto:Blue" id="office:office_suite" expanded="yes">
-			<Software id="libreoffice" cpt="15"/>
+		<Category name="Suite bureautique" icon="auto:Blue" id="office:office_suite">
+			<Software id="libreoffice" cpt="16"/>
 			<Software id="libreoffice-libreofficebaselkl"/>
-			<Software id="libreoffice-libreofficecalclkl" cpt="14"/>
+			<Software id="libreoffice-libreofficecalclkl" cpt="18"/>
 			<Software id="libreoffice-libreofficedrawlkl"/>
-			<Software id="libreoffice-libreofficeimpresslkl" cpt="10"/>
-			<Software id="libreoffice-libreofficemathlkl"/>
-			<Software id="libreoffice-libreofficewriterlkl" cpt="103"/>
+			<Software id="libreoffice-libreofficeimpresslkl" cpt="14"/>
+			<Software id="libreoffice-libreofficemathlkl" cpt="1"/>
+			<Software id="libreoffice-libreofficewriterlkl" cpt="132"/>
 			<Software id="scribus" cpt="8"/>
 		</Category>
 		<Software cpt="1">
@@ -165,7 +170,11 @@
 			</Software>
 		</Category>
 		<Category name="Mathématiques" icon="auto:Red">
-			<Software id="carmetal">
+			<Software id="user_matieres-maths-apprentigeometre2-ag2">
+				<Name>Apprenti Géomètre</Name>
+				<WorkingDir>%MYAPPS%\Matieres\Maths\ApprentiGeometre2</WorkingDir>
+			</Software>
+			<Software id="carmetal" cpt="1">
 				<WorkingDir>%APPS%\CaRMetal</WorkingDir>
 			</Software>
 			<Software id="user_matieres-maths-usbggb-ggb" cpt="1">
@@ -177,19 +186,51 @@
 			<Software id="user_matieres-physiques-physicdraw" cpt="2"/>
 		</Category>
 		<Category name="SVT" icon="auto:Red">
-			<Software id="user_matieres-svt-caryotype-caryo" cpt="1">
+			<Software id="user_matieres-svt-caryotype-caryo" cpt="2">
 				<Name>Caryotype</Name>
+			</Software>
+			<Software id="user_matieres-svt-coeur-coeur">
+				<Name>coeur</Name>
+				<WorkingDir>%MYAPPS%\Matieres\SVT\Coeur</WorkingDir>
 			</Software>
 			<Software id="user_matieres-svt-phylocollege-phylocollege">
 				<Name>Phylocollège</Name>
 				<IconFile>%MYAPPS%\Matieres\SVT\phylocollege\phylocollege.ico</IconFile>
 			</Software>
 			<Software id="user_matieres-svt-phylogene-programmes-phylo"/>
+			<Software id="user_matieres-svt-reseau">
+				<Name>réseau alimentaire</Name>
+				<WorkingDir>%MYAPPS%\Matieres\SVT</WorkingDir>
+			</Software>
 		</Category>
-		<Category name="Technologie" icon="auto:Red" expanded="yes">
+		<Category name="Technologie" icon="auto:Red">
+			<Category name="Pilotage" icon="%MYAPPS%\Matieres\Technologie\s2a\microcontroller.ico">
+				<Software id="user_matieres-technologie-control_lab-clab">
+					<Name>LEGO Control Lab</Name>
+				</Software>
+				<Software id="user_matieres-technologie-mblock-mblock">
+					<WorkingDir>%MYAPPS%\Matieres\Technologie\mBlock</WorkingDir>
+				</Software>
+				<Software id="user_matieres-technologie-organigram-organigram" cpt="61"/>
+				<Software id="user_matieres-technologie-robolab-robolab254" cpt="2">
+					<Name>Robolab</Name>
+				</Software>
+				<Software id="user_matieres-technologie-robopro-robopro"/>
+				<Software id="user_matieres-technologie-s2a-s2a" cpt="1">
+					<WorkingDir>%MYAPPS%\Matieres\Technologie\s2a</WorkingDir>
+				</Software>
+				<Software id="user_matieres-technologie-s2p-s2p" cpt="1">
+					<Name>s2p</Name>
+					<WorkingDir>%MYAPPS%\Matieres\Technologie\s2p</WorkingDir>
+				</Software>
+				<Software id="user_matieres-technologie-xi-xiduino" cpt="1">
+					<Name>XiDuino</Name>
+					<WorkingDir>%MYAPPS%\Matieres\Technologie\Xi</WorkingDir>
+				</Software>
+			</Category>
 			<Software id="user_matieres-technologie-archifacile" cpt="2"/>
 			<Software id="user_matieres-technologie-bridge_building_game-bridge" cpt="3"/>
-			<Software id="user_matieres-technologie-wcharly-graal-cao-gcao3d" cpt="26">
+			<Software id="user_matieres-technologie-wcharly-graal-cao-gcao3d" cpt="28">
 				<Name>CAO</Name>
 			</Software>
 			<Software>
@@ -202,7 +243,7 @@
 				<WorkingDir>%DRIVE%\Program Files\Fichiers communs\eDrawings2005</WorkingDir>
 				<IconFile>%DRIVE%\WINDOWS\Installer\{C75539A8-8E7F-4AD9-8CF4-131F19E81E1D}\eModelViewer.exe</IconFile>
 			</Software>
-			<Software cpt="2">
+			<Software cpt="3">
 				<ExePath>%MYAPPS%\Matieres\Technologie\energy3d\energy3d.jar</ExePath>
 				<Name>Energy3D</Name>
 				<IconFile>%MYAPPS%\Matieres\Technologie\energy3d\energy3d.ico</IconFile>
@@ -210,11 +251,8 @@
 			<Software id="user_matieres-technologie-wcharly-graal-fao-gfao" cpt="2">
 				<Name>FAO</Name>
 			</Software>
-			<Software id="user_matieres-technologie-wcharly-graal-fao-magasinsoutilsmateriaux" cpt="2">
+			<Software id="user_matieres-technologie-wcharly-graal-fao-magasinsoutilsmateriaux" cpt="3">
 				<Name>GestionMagasinOutil</Name>
-			</Software>
-			<Software id="user_matieres-technologie-control_lab-clab">
-				<Name>LEGO Control Lab</Name>
 			</Software>
 			<Software>
 				<ExePath>C:\LEGO_Digital_Designer\LDD.exe</ExePath>
@@ -223,16 +261,11 @@
 			<Software id="user_matieres-technologie-m&amp;m-m&amp;m">
 				<IconFile>%MYAPPS%\Matieres\Technologie\M&amp;m\M&amp;m.exe</IconFile>
 			</Software>
-			<Software id="user_matieres-technologie-organigram-organigram" cpt="61"/>
-			<Software id="user_matieres-technologie-pepakura_designer-pepakura_designer" cpt="1"/>
+			<Software id="user_matieres-technologie-pepakura_designer-pepakura_designer" cpt="3"/>
 			<Software id="user_matieres-technologie-wcharly-graal-pilote-gpilote" cpt="4"/>
-			<Software id="user_matieres-technologie-ganttproject-ganttproject" cpt="12"/>
-			<Software id="user_matieres-technologie-robolab-robolab254" cpt="1">
-				<Name>Robolab</Name>
-			</Software>
-			<Software id="user_matieres-technologie-robopro-robopro"/>
+			<Software id="user_matieres-technologie-ganttproject-ganttproject" cpt="13"/>
 			<Software id="user_matieres-technologie-robotprog-robotprog" cpt="2"/>
-			<Software id="user_scratch_2" cpt="14">
+			<Software id="user_scratch_2" cpt="15">
 				<Name>Scratch</Name>
 			</Software>
 			<Software cpt="12">
@@ -252,15 +285,15 @@
 				<Version>13.3.1.110</Version>
 				<WorkingDir>%DRIVE%\Program Files\SolidWorks</WorkingDir>
 			</Software>
-			<Software id="user_matieres-technologie-sweet_home_3d-sweethome3d" cpt="37"/>
+			<Software id="user_matieres-technologie-sweet_home_3d-sweethome3d" cpt="38"/>
 			<Software id="user_matieres-technologie-westpointbridgedesigner-%appdir%-wpbd2007" cpt="2"/>
 		</Category>
-		<Category name="Trans-disciplinaire" icon="auto:Red" expanded="yes">
+		<Category name="Trans-disciplinaire" icon="auto:Red">
 			<Software id="user_cartoonstorymaker-csmaker"/>
 			<Software id="user_didapages-didapages_auteur" cpt="1">
 				<IconFile>%MYAPPS%\Didapages\Didapages.exe</IconFile>
 			</Software>
-			<Software id="user_freeplaneportable" cpt="14">
+			<Software id="user_freeplaneportable" cpt="16">
 				<WorkingDir>%MYAPPS%\FreeplanePortable</WorkingDir>
 			</Software>
 			<Software id="user_hotpotatoes6-hotpot">
@@ -278,10 +311,12 @@
 			<Software id="user_sankoreportable" cpt="1">
 				<Name>Open Sankoré</Name>
 			</Software>
-			<Software id="user_pencil-animation-pencil" cpt="1"/>
+			<Software id="user_pencil2d-pencil">
+				<Name>Pencil2D</Name>
+			</Software>
 			<Software id="user_pylote_win-pylote" cpt="2"/>
 			<Software id="user_rasterbator" cpt="3"/>
-			<Software id="user_scratch_2" cpt="5">
+			<Software id="user_scratch_2" cpt="9">
 				<Name>Scratch</Name>
 			</Software>
 			<Software>
@@ -304,6 +339,11 @@
 				<Version>13.0.4812</Version>
 				<IconFile>%DRIVE%\WINDOWS\Installer\{F277FA87-FCE4-49A3-B745-B82FB29ED8A4}\SketchUpIcon.8DA0A970_F85B_4519_B9ED_33FC3F82227B</IconFile>
 			</Software>
+			<Software>
+				<ExePath>%MYAPPS%\Strut_stand_alone\index.html</ExePath>
+				<Name>Strut</Name>
+				<IconFile>%MYAPPS%\Strut_stand_alone\strut.ico</IconFile>
+			</Software>
 			<Software id="user_images_actives" cpt="12"/>
 		</Category>
 	</Category>
@@ -313,7 +353,7 @@
 			<Software id="universalextractor" cpt="2"/>
 		</Category>
 		<Category name="Restauration après effacement" icon="auto:Green" id="file_management:recovery" expanded="yes">
-			<Software id="recuva"/>
+			<Software id="recuva" cpt="1"/>
 		</Category>
 		<Category name="Synchronisation" icon="auto:Green" id="file_management:synchronization" expanded="yes">
 			<Software id="freefilesync"/>
@@ -331,12 +371,12 @@
 	</Category>
 	<Category name="Graphisme - Photo" icon="graphic_tools.ico" id="graphics-photo">
 		<Category name="Copie d&apos;écran" icon="auto:Red" id="graphics-photo:screen_capture" expanded="yes">
-			<Software id="picpick" cpt="277"/>
+			<Software id="picpick" cpt="284"/>
 		</Category>
 		<Category name="Editeur" icon="auto:Red" id="graphics-photo:editor" expanded="yes">
-			<Software id="inkscape" cpt="4"/>
+			<Software id="inkscape" cpt="8"/>
 			<Software id="paint-net" cpt="6"/>
-			<Software id="photofiltre" cpt="120"/>
+			<Software id="photofiltre" cpt="137"/>
 		</Category>
 		<Category name="Editeur d&apos;icône" icon="auto:Red" id="graphics-photo:icon_editor" expanded="yes">
 			<Software id="greenfishiconeditorpro" cpt="9"/>
@@ -347,8 +387,9 @@
 		<Category name="Visualisateur" icon="auto:Red" id="graphics-photo:viewer" expanded="yes">
 			<Software id="faststoneimageviewer" cpt="5"/>
 		</Category>
-		<Software id="user_images_actives" cpt="3"/>
-		<Software id="user_pencil-animation-pencil" cpt="2"/>
+		<Software id="user_pencil2d-pencil">
+			<Name>Pencil2D</Name>
+		</Software>
 		<Software cpt="4">
 			<ExePath>%DRIVE%\Program Files\Scanitto\scanitto.exe</ExePath>
 			<Developer>Masters ITC Software</Developer>
@@ -366,26 +407,27 @@
 			<Name>Scanner USB</Name>
 			<Version>1.1.2.0</Version>
 		</Software>
+		<Software id="user_images_actives" cpt="3"/>
 	</Category>
 	<Category name="Internet" icon="internet.ico" id="internet">
 		<Category name="Aspirateur de site" icon="auto:Blue" id="internet:website_copier">
 			<Software id="httrack" cpt="3"/>
 		</Category>
-		<Category name="Création de sites Web" icon="auto:Blue" id="internet:website_authoring" expanded="yes">
+		<Category name="Création de sites Web" icon="auto:Blue" id="internet:website_authoring">
 			<Software id="kompozer" cpt="30"/>
 		</Category>
-		<Category name="Email" icon="auto:Blue" id="internet:email" expanded="yes">
+		<Category name="Email" icon="auto:Blue" id="internet:email">
 			<Software id="opera" cpt="5"/>
 			<Software id="thunderbird" cpt="3"/>
 		</Category>
-		<Category name="FTP" icon="auto:Blue" id="internet:ftp" expanded="yes">
+		<Category name="FTP" icon="auto:Blue" id="internet:ftp">
 			<Software id="filezilla" cpt="5"/>
 		</Category>
-		<Category name="Navigateur" icon="auto:Blue" id="internet:browser" expanded="yes">
-			<Software id="firefox" cpt="44"/>
-			<Software id="opera" cpt="65"/>
+		<Category name="Navigateur" icon="auto:Blue" id="internet:browser">
+			<Software id="firefox" cpt="119"/>
+			<Software id="opera" cpt="67"/>
 		</Category>
-		<Software id="user_carotdav" cpt="3"/>
+		<Software id="user_carotdav" cpt="4"/>
 	</Category>
 	<Category name="Outils système" icon="system_utilities.ico" id="system_utilities">
 		<Category name="Nettoyeur - désinstalleur" icon="auto:Grey" id="system_utilities:cleaner-uninstaller" expanded="yes">
@@ -396,7 +438,7 @@
 	</Category>
 	<Category name="Sécurité" icon="security.ico" id="security">
 		<Category name="Anti virus-spyware" icon="auto:Yellow" id="security:anti_virus-spyware" expanded="yes">
-			<Software id="clamwin" cpt="2"/>
+			<Software id="clamwin" cpt="3"/>
 			<Software id="user_spybotportable" cpt="3">
 				<Name>Spybot</Name>
 			</Software>
@@ -405,7 +447,7 @@
 	<Category name="Vidéo" icon="video.ico" id="video">
 		<Category name="Capture" icon="auto:Grey" id="video:capture" expanded="yes">
 			<Software id="user_amcap" cpt="1"/>
-			<Software id="user_captureflux_52fr" cpt="2"/>
+			<Software id="user_captureflux" cpt="1"/>
 		</Category>
 		<Category name="Convertisseur" icon="auto:Grey" id="video:converter" expanded="yes">
 			<Software id="formatfactory" cpt="14"/>
@@ -421,17 +463,11 @@
 				<Version>1.3.6.1</Version>
 				<WorkingDir>%DRIVE%\Program Files\AnvSoft\Any Video Editor</WorkingDir>
 			</Software>
-			<Software cpt="1">
-				<ExePath>%DRIVE%\Program Files\Pinnacle\Studio 15\programs\studio.exe</ExePath>
-				<Developer>Pinnacle Systems</Developer>
-				<Description><![CDATA[Studio program file]]></Description>
-				<License>Copyright ©1998-2010, Avid Technology, Inc. All Rights Reserved.</License>
-				<Name>Studio</Name>
-				<Version>15.0</Version>
-			</Software>
 			<Software id="user_videopad-videopad_video_editor" cpt="4"/>
 			<Software id="virtualdub" cpt="7"/>
-			<Software id="user_vsdc_video_editor-vsdc_free_video_editor2"/>
+			<Software id="user_vsdcfreevideoeditor-vsdcfreevideoeditorportable" cpt="2">
+				<Name>VSDC Free Video Editor</Name>
+			</Software>
 		</Category>
 		<Category name="Lecteur" icon="auto:Grey" id="video:player" expanded="yes">
 			<Software id="mediaplayerclassichc" cpt="9"/>
