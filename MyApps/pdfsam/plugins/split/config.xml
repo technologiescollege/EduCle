@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<plugin>
-	<data>
-	<classname>
-		org.pdfsam.plugin.split.GUI.SplitMainGUI
-	</classname>
-	</data>
-</plugin>
