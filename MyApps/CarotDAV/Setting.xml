@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <WebDAVClientSetting xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <FormSize>
-    <Width>364</Width>
-    <Height>323</Height>
+    <Width>0</Width>
+    <Height>0</Height>
   </FormSize>
   <ConnectionSettingListFormSize>
     <Width>0</Width>
@@ -32,7 +32,13 @@
   <SortString />
   <VersionCheckEnabled>true</VersionCheckEnabled>
   <EnableFileLogging>false</EnableFileLogging>
+  <BackgroundImagePath />
   <LastConnectionSetting />
   <MaxFaviconSize>1048576</MaxFaviconSize>
+  <ServerIP>127.0.0.1</ServerIP>
+  <ServerPort>12346</ServerPort>
+  <AutoEnableDAVServer>false</AutoEnableDAVServer>
+  <AutoMoundDriveLetter />
+  <AutoMoundWebFolder>false</AutoMoundWebFolder>
   <ConnectionSettings />
 </WebDAVClientSetting>

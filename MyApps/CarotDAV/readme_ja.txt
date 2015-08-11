@@ -1,9 +1,10 @@
 
-WebDAV Client CarotDAV Ver. 1.10.9
+WebDAV Client CarotDAV Ver. 1.12.0
 
 概要
 	Windows用のWebDAVクライアントです。
-	おまけでFTP/FTPSや各種オンラインサービスにアクセスできるかもしれません。
+	おまけで各種オンラインサービスにアクセスできるかもしれません。
+	ローカル用の簡易WebDAVサーバーもつけました。
 
 動作環境
 	Windows 2000, XP, 2003, Vista, 2008, 7, 2012, 8
@@ -13,7 +14,7 @@ WebDAV Client CarotDAV Ver. 1.10.9
 対応規格等
 	WebDAV
 	FTP/FTPS
-	DropBox / GoogleDrive / SkyDrive / Box / SugarSync / Copy
+	DropBox / GoogleDrive / OneDrive / Box / SugarSync / Copy / AmazonCloudDrive
 	Host-specific file names
 	IMAP
 	Unicode正規化(Unicode Standard Annex #15)
@@ -21,7 +22,7 @@ WebDAV Client CarotDAV Ver. 1.10.9
 	自動分割
 	暗号化・ファイル検証
 	マスターパスワード(XML-Enc)
-	TLS1.1/1.2 (.Net4.0以降)
+	TLS1.1/1.2 (.Net4.5以降)
 	詳細は一次配布サイト(http://rei.to/carodav.html)を参照ください。
 
 インストール方法
@@ -67,6 +68,8 @@ WebDAV Client CarotDAV Ver. 1.10.9
 	ポータブル版
 		CarotDAV.exe および *.dll
 			CarotDAV実行形式およびライブラリ。
+		CarotDAV.exe.config
+			CarotDAV.exeの構成ファイル
 		readme_ja.txt
 			CarotDAVの説明書き。このファイル。日本語。
 		readme_en.txt
@@ -83,6 +86,16 @@ WebDAV Client CarotDAV Ver. 1.10.9
 			04WebServer(http://soft3304.net/04WebServer/)用設定ファイルです。
 		IIS.xml
 			IIS用の設定ファイルです。
+
+	以下のファイルが必須ファイルです。
+	それ以外のDLLは各サービス・プロトコルのサポート用です。
+	必要なければ削除しても動作します。
+		CarotDAV.exe
+		CarotDAV.exe.config
+		Rei.Com.dll
+		Rei.Fs.dll
+		Rei.Fs.Webdav.dll
+		Rei.Net.HttpServer.dll
 
 注意事項
 	http://rei.to/carotdav.html を参照してください。

@@ -1,9 +1,10 @@
 
-WebDAV Client CarotDAV Ver. 1.10.9
+WebDAV Client CarotDAV Ver. 1.12.0
 
 Abstract
 	WebDAV client for windows OS.
-	FTP/FTPS, DropBox, GoogleDrive, SkyDrive, Box, SugarSync is also supported.
+	FTP/FTPS, DropBox, GoogleDrive, OneDrive, Box, SugarSync and Copy are also supported.
+	In addition, simplified WebDAV server for local use are embedded.
 
 Environment
 	Windows 2000, XP, 2003, Vista, 2008, 7, 2012, 8
@@ -13,7 +14,7 @@ Environment
 Complied standards, features
 	WebDAV
 	FTP/FTPS
-	DropBox / GoogleDrive / SkyDrive / Box / SugarSync / Copy
+	DropBox / GoogleDrive / OneDrive / Box / SugarSync / Copy / AmazonCloudDrive
 	IMAP
 	Resume
 	Auto Split
@@ -21,14 +22,16 @@ Complied standards, features
 	URI (RFC3986)
 	Unicode Normalization (Unicode Standard Annex #15)
 	Master Password(XML-Enc)
-	TLS1.1/1.2 (over .Net4.0)
+	TLS1.1/1.2 (over .Net4.5)
 
 How to install/uninstall
-	There are two type of distribution package.
+	There are two types of distribution package.
 	Installer version contains package file(.msi) for Windows Installer.
 	You can install/uninstall by clicking the package or using windows installer.
 	Portable version contains executable files.
 	Extract them and execute it directly.
+
+	You can delete dlls if you don't need to connect corresponding services/protocols.
 
 License, Charge, Donation
 	This software is free of charge.
