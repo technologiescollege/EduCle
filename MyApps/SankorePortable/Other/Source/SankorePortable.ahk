@@ -6,9 +6,9 @@
 ; License : GPL
 ; Ce script permet de créer le lanceur de SankorePortable.
 ; Compiler: AutoHotkey_L (http://www.autohotkey.net/~Lexikos/AutoHotkey_L/).
-; $id=SankorePortable.ahk $date=2014-08-26
+; $id=SankorePortable.ahk $date=2015-06-17
 ; ----------------------------------------------------
-;Copyright © 2005-2014 Framakey
+;Copyright © 2005-2015 Framakey
 
 ;Website: http://www.framakey.org
 
@@ -40,7 +40,7 @@ _LANG := "fr-FR"
 o_EnvVar := Object()
 
 ; --- Options : décommentez pour application, cf LogigrammeLanceur.odg pour plus d'infos ---
-;_HISTORY := True
+_HISTORY := True
 ;_APPDATABACKUP := True
 ;_APPDATASUBDIR := "%_APPNAME%"
 ;_MOZLOOP := True
@@ -49,29 +49,6 @@ o_EnvVar := Object()
 ;_REGBACKUP := True
 ;_REGPATH := "HKEY_CURRENT_USER\Software\%_APPNAME%"
 ;_TESTJAVA := True
-
-; --- Ajout Cyrille ---
-_APPLOCALAPPDATABACKUP := TRUE
-_APPLOCALAPPDATASUBDIR := "Sankore"
-
-VarSetCapacity(LOCAL_APP_PATH, 256)
-DllCall( "shell32\SHGetFolderPathW", "uint", 0, "int", 0x001C, "uint", 0, "int", 0, "str", LOCAL_APP_PATH)
-; --- Fin ajout Cyrille ---
-
-; --- Ajout Cyrille 2 : dossier présnet dans c:\Users\utilisateur ---
-;_USERDATABACKUP := True
-;_USERDATASUBDIR := "%APPNAME%"
-
-VarSetCapacity(USER_PATH, 256)
-DllCall( "shell32\SHGetFolderPathW", "uint", 0, "int", 0x0028, "uint", 0, "int", 0, "str", USER_PATH)
-; --- Fin ajout Cyrille 2 ---
-
-; --- Ajout Cyrille 3 : dossier présnet dans c:\Users\utilisateur\MesDocuments ---
-_MYDOCSBACKUP := True
-_MYDOCSSUBDIR := "%APPNAME%"
-
-; --- Fin ajout Cyrille 3 ---
-
 
 ; --- EnvVar Begin ---
 ; o_EnvVar.Insert("MA_VARIABLE", "ceci est sa valeur")
@@ -84,7 +61,7 @@ _EXECSTRING := """%p_AppDirectory%\%f_AppExecutable%"" %s_Parameters% %s_Additio
 ;-----------------------------------------------------------------------------------------------
 
 ; ------------ Bibliothèques et paramètres généraux -----------
-_SCRIPTVER := "2.0.1.6" ;Version du script du lanceur
+_SCRIPTVER := "2.0.1.8" ;Version du script du lanceur
 #NoTrayIcon
 #SingleInstance OFF
 #Include %A_ScriptDir%
@@ -93,6 +70,7 @@ _SCRIPTVER := "2.0.1.6" ;Version du script du lanceur
 #Include RegFunctions.ahk
 #Include Notify.ahk
 FileEncoding, UTF-8
+p_OldWorkingDir := A_WorkingDir
 SetWorkingDir %A_ScriptDir%
 OnExit, QuitPortableApp
 
@@ -131,6 +109,8 @@ s_Parameters := ""
 Loop, %0%
 {
 	_param := %A_Index%
+	IfExist, %p_OldWorkingDir%\%_param%
+		_param := p_OldWorkingDir "\" _param
 	IfInString, _param, %A_Space%
 		_param := """" . _param . """"
 	s_Parameters .= (!s_Parameters) ? _param : " " . _param
@@ -159,41 +139,12 @@ If _APPDATABACKUP
 	Else
 		p_DataDirUnified := A_AppData . "\" . _APPNAME
 	}
-
-; --- Ajout Cyrille ---
-Else if _APPLOCALAPPDATABACKUP
-	{
-	If _APPLOCALAPPDATASUBDIR
-		p_DataDirUnified := LOCAL_APP_PATH . "\" . Dereference(_APPLOCALAPPDATASUBDIR)
-	Else
-		p_DataDirUnified := LOCAL_APP_PATH . "\" . _APPNAME
-	}	
-; --- Fin ajout Cyrille ---
-; --- Ajout Cyrille 2---
-Else if _USERDATABACKUP
-	{
-	If _USERDATASUBDIR
-		p_DataDirUnified := USER_PATH . "\" . Dereference(_USERDATASUBDIR)
-	Else
-		p_DataDirUnified := USER_PATH . "\" . _APPNAME
-	}	
-; --- Fin ajout Cyrille 2---
-; --- Ajout Cyrille 3---
-Else if _MYDOCSBACKUP
-	{
-	If _MYDOCSASUBDIR
-		p_DataDirUnified := A_MyDocuments . "\" . Dereference(_MYDOCSSUBDIR)
-	Else
-		p_DataDirUnified := A_MyDocuments . "\" . _APPNAME
-	}	
-; --- Fin ajout Cyrille 3---
 Else If _READONLYL
 	p_DataDirUnified := p_PluginsDir . "\settings"
 Else If _NETWORKL
 	p_DataDirUnified := p_NetDataDir
 Else
 	p_DataDirUnified := p_DataDir
-
 	
 ;----------------------------------------------------
 ;				Vérifications
@@ -247,7 +198,7 @@ If _HISTORY
 ;----------------------------------------------------
 ;	Traitement conditionnel : recopie de p_DataDir
 ;----------------------------------------------------
-If (_APPDATABACKUP || _APPLOCALAPPDATABACKUP || _USERDATABACKUP ||_MYDOCSBACKUP)
+If _APPDATABACKUP
 ; Sauvegarde des préférences de l'application locale
 	IfExist, %p_DataDirUnified%\*.*
 		{
@@ -264,13 +215,11 @@ If _NETWORKL
 	p_DataDir := p_NetDataDir
 	}
 
-If (_APPDATABACKUP || _READONLYL || _NETWORKL || _APPLOCALAPPDATABACKUP || _USERDATABACKUP || _MYDOCSBACKUP)
+If (_APPDATABACKUP || _READONLYL || _NETWORKL)
 ; Copie des préférences de l'application portable
 	{
 	If (s_CopyCustom && !FileExist(p_DataDirUnified))
-		{
 		FileCopyDir, %p_DataDir%, %p_DataDirUnified%
-		}
 	If ErrorLevel
 		ErrMsg("CPYPREF_ERR_MSG")
 	If (_READONLYL || _NETWORKL)
@@ -359,7 +308,7 @@ If _REGBACKUP
 ;----------------------------------------------------
 ;Traitement conditionnel : permutation dans APPDATA
 ;----------------------------------------------------
-If (_APPDATABACKUP || _APPLOCALAPPDATABACKUP || _USERDATABACKUP || _MYDOCSBACKUP)
+If _APPDATABACKUP
 	{
 	; enregistrement des préférences portables
 	If !_READONLYL
@@ -432,7 +381,7 @@ Path2WSAPI_URI(_path)
 	pos = 1
 	Loop
 		If pos := RegExMatch(_string, "i)[^\/\w\.~`:%&=-]", char, pos++)
-			StringReplace, _string, _string, %char%, % "%" . Asc(char), All
+			StringReplace, _string, _string, %char%, % "%" . Asc(char), All ;"
 		Else Break
 	SetFormat, Integer, %f%
 	_result := "file:///" . StringReplace(_string, "0x", "", "All")
@@ -519,7 +468,7 @@ Return
 ; 						Modifications à apporter
 ;===============================================================================
 ; modifications à apporter au fichier registre suivant l'emplacement du "profil"
-; rappel : le ficheir registre est chargée dans la variable _reglist
+; rappel : le fichier registre est chargé dans la variable _reglist
 UpdateRegFile_DataPath:
 {
 	
@@ -536,7 +485,9 @@ Return
 ; modifications à apporter au "profil" suivant son emplacement
 UpdateSettings_DataPath:
 {
-	
+	o_Uniboardconfig := Object()
+	o_Uniboardconfig.Insert(StringReplace(s_LastDataDir, "\", "/", "All"), StringReplace(p_DataDirUnified, "\", "/", "All"))
+	UpdateObjectInFile(p_AppDirectory "\etc\Uniboard.config", o_Uniboardconfig, "UTF-8-RAW")
 Return
 }
 
@@ -546,4 +497,6 @@ UpdateSettings_AppPath:
 	
 Return
 }
+
+
 
