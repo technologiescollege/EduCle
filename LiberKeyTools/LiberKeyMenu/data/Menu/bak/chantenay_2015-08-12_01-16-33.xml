@@ -35,7 +35,7 @@
 		<Category name="Convertisseur d&apos;unité" icon="auto:Blue" id="office:unit_converter">
 			<Software id="converber" cpt="2"/>
 		</Category>
-		<Category name="Création de tutoriel" icon="auto:Blue" id="office:tutorial_creator" expanded="yes">
+		<Category name="Création de tutoriel" icon="auto:Blue" id="office:tutorial_creator">
 			<Software>
 				<ExePath>%DRIVE%\Program Files\oCam\oCam.exe</ExePath>
 				<Developer>oh!soft ( Partner: MediaWave )</Developer>
@@ -77,7 +77,7 @@
 			</Software>
 			<Software id="pdfxchangeviewer" cpt="10"/>
 		</Category>
-		<Category name="Présentation" icon="auto:Blue" id="office:presentation" expanded="yes">
+		<Category name="Présentation" icon="auto:Blue" id="office:presentation">
 			<Software id="user_sankoreportable">
 				<Name>Open Sankoré</Name>
 				<WorkingDir>%MYAPPS%\SankorePortable</WorkingDir>
@@ -92,7 +92,7 @@
 				<IconFile>%MYAPPS%\Strut_stand_alone\strut.ico</IconFile>
 			</Software>
 		</Category>
-		<Category name="Suite bureautique" icon="auto:Blue" id="office:office_suite" expanded="yes">
+		<Category name="Suite bureautique" icon="auto:Blue" id="office:office_suite">
 			<Software id="libreoffice" cpt="16"/>
 			<Software id="libreoffice-libreofficebaselkl"/>
 			<Software id="libreoffice-libreofficecalclkl" cpt="18"/>
@@ -203,18 +203,18 @@
 				<WorkingDir>%MYAPPS%\Matieres\SVT</WorkingDir>
 			</Software>
 		</Category>
-		<Category name="Technologie" icon="auto:Red" expanded="yes">
-			<Category name="Pilotage" icon="%MYAPPS%\Matieres\Technologie\s2a\microcontroller.ico" expanded="yes">
+		<Category name="Technologie" icon="auto:Red">
+			<Category name="Pilotage" icon="%MYAPPS%\Matieres\Technologie\s2a\microcontroller.ico">
 				<Software id="user_matieres-technologie-control_lab-clab">
 					<Name>LEGO Control Lab</Name>
-				</Software>
-				<Software id="user_matieres-technologie-robolab-robolab254" cpt="2">
-					<Name>LEGO Robolab</Name>
 				</Software>
 				<Software id="user_matieres-technologie-mblock-mblock">
 					<WorkingDir>%MYAPPS%\Matieres\Technologie\mBlock</WorkingDir>
 				</Software>
 				<Software id="user_matieres-technologie-organigram-organigram" cpt="61"/>
+				<Software id="user_matieres-technologie-robolab-robolab254" cpt="2">
+					<Name>Robolab</Name>
+				</Software>
 				<Software id="user_matieres-technologie-robopro-robopro"/>
 				<Software id="user_matieres-technologie-s2a-s2a" cpt="1">
 					<WorkingDir>%MYAPPS%\Matieres\Technologie\s2a</WorkingDir>
@@ -228,10 +228,6 @@
 					<WorkingDir>%MYAPPS%\Matieres\Technologie\Xi</WorkingDir>
 				</Software>
 			</Category>
-			<Software>
-				<ExePath>%DRIVE%\Program Files (x86)\AppInventor\aiStarter.exe</ExePath>
-				<Name>aiStarter</Name>
-			</Software>
 			<Software id="user_matieres-technologie-archifacile" cpt="2"/>
 			<Software id="user_matieres-technologie-bridge_building_game-bridge" cpt="3"/>
 			<Software id="user_matieres-technologie-wcharly-graal-cao-gcao3d" cpt="28">
@@ -292,7 +288,7 @@
 			<Software id="user_matieres-technologie-sweet_home_3d-sweethome3d" cpt="38"/>
 			<Software id="user_matieres-technologie-westpointbridgedesigner-%appdir%-wpbd2007" cpt="2"/>
 		</Category>
-		<Category name="Trans-disciplinaire" icon="auto:Red" expanded="yes">
+		<Category name="Trans-disciplinaire" icon="auto:Red">
 			<Software id="user_cartoonstorymaker-csmaker"/>
 			<Software id="user_didapages-didapages_auteur" cpt="1">
 				<IconFile>%MYAPPS%\Didapages\Didapages.exe</IconFile>
@@ -317,10 +313,6 @@
 			</Software>
 			<Software id="user_pencil2d-pencil">
 				<Name>Pencil2D</Name>
-			</Software>
-			<Software>
-				<ExePath>%DRIVE%\Program Files (x86)\Prezi\Prezi.exe</ExePath>
-				<Name>Pivot Animator</Name>
 			</Software>
 			<Software id="user_pylote_win-pylote" cpt="2"/>
 			<Software id="user_rasterbator" cpt="3"/>
