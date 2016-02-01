@@ -1,71 +1,36 @@
 <LbkAppsUpdates>
-<AppInfo id="rapidtyping-rapidtypinglkl">
+<AppInfo id="ccleaner-ccleanerlkl">
 				<priority>high</priority>
-				<Name>RapidTyping</Name>
-				<Version>5.0.336.101</Version>
-				<Description><![CDATA[RapidTyping vous permet d'apprendre de façon ludique à utiliser votre clavier. Il est conçu pour que des adultes ou des enfants se servent du clavier plus efficacement. Apprendre à taper devient un jeu grâce au Rapid Typing Game, avec de nombreux suivis statistiques des progrès et des leçons adaptées.]]></Description>
-				<FileName>RapidTyping_5.0.336.101.lks</FileName>
-				<FileSize>16392018</FileSize>
-				<AppSize>64236014</AppSize>
-				<EditorName>RapidTyping Team</EditorName>
-				<EditorURL>http://www.rapidtyping.com/</EditorURL>
-				<AppHomePageURL>http://www.rapidtyping.com/</AppHomePageURL>
-				<License>Freeware</License>
-				<Platform>XP/Vista/7/8</Platform>
-				<Icon ContentEncoding="base64">AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA
-				AD///8A////APn39wbn4t9p29PPycS2sPK2o5zquKigo8q6tHjUyMNS7urpGP///wD///8A////AP///w
-				D///8A////APf19Qe5o5m5yLGn/8mwpP/Eq6D/u6ac/7CUiP/Gp5n/x6mb/bqcj/27o5nB4trXOP///wD
-				///8A////APz8/ACzloq2uZKA/72Xhf+/mon/wZ2N/8Ogkf/FpJT/x6eY/8mqnP/LraD/zK+i/72gk/rI
-				ubNy+vn5A////wDVxb9huJB+/7qSgP+7lIL/vZeG/7+biv/Bno7/w6GR/8Wklf/Hp5n/yaud/8uuoP+wk
-				YP9l35y/7Wjm7339vUKwaKVwrqSgP+6koD/upKA/7uVg/++mIf/v5uL/8Gdjf/BqZ7/18vF/8Kqn//Jqp
-				z/w6WY/aiSh/3Ow77/zsO+kbmTg/O6koD/upKA/7SNfP+7k4H/vJWE/76ZiP+3mIr/iYiI/4uKif/y8O7
-				/vJ6R/8qrnf+1nZHZ08nE88q+ue69mIb4upKA/7mRf/+VbV3/xKGR/7qTgf+8loX/l35y/ygoKf8lJSb/
-				zMrJ/8OroP/Jqpz/5djSa/Pw7xXf19Ra0rerwrqSgP+6koD/rYV0/6aCcv+/mYj/u5SC/6ODdP+ioaD/L
-				Cwt/9zY1v+4mYr/0bar4Pr5+Az///8A////AO7l4FLBnYz/upKA/7mRf/+edmX/s5SF/8Kejf+7k4L/mn
-				5x/7Kjm/+7n5P/0ris5fXw7i3///8A////AP///wD///8A5dXNm8GcjP+6koD/uZF//6B4Z/+beGn/vqK
-				W8NrCtunbxbrX6dvVjPr49xT///8A////AP///wD///8A////AP39/QDw5uF10LSm9byVhP26koD/uZF/
-				/553Zvjj29kt////AP///wD///8A////AP///wD///8A////AP///wD///8A////APv6+Bnt4tyQ0bWn9
-				byVg/25kX//t56Uof///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP
-				v6+Bno2NGnwZ2M/7KQgdr///8A////AP///wD///8A////AP///wD///8A////AOXa1Ury7+8S////AP/
-				//wD18vEPzLqydbKOfvWzi3v6qo+Es83BvVDw7OsV7OjmH9zQzGT39vUP////AP///wD59vUZx6+lwayO
-				gsmsjoLGq4R09riQfv26k4H/vpmJ/8Sikv/AoZP9uZyP/cWsouvq499J////AP///wD///8A////AP39/
-				QPx6eRe2MG2wseml/PEopLz0baqveTUzaXbx73O38zDwOre2Xn59/YS////AP///wD///8A8P8AAMAPAA
-				CABwAAgAEAAAAAAAAAAAAAAAcAAAAHAACADwAAgB8AAOD/AADwfwAA/H8AAP4/AADABwAA8B8AAA==
-				</Icon>
-			<Location>http://update.liberkey.com/packages/</Location>
-</AppInfo>
-<AppInfo id="recuva-recuvalkl">
-				<priority>high</priority>
-				<Name>Recuva</Name>
-				<Version>1.52.1086</Version>
-				<Description><![CDATA[Recuva est un utilitaire qui permet de restaurer les fichiers accidentellement supprimés de votre ordinateur. Cela inclut les fichiers supprimés de la corbeille ainsi que les images et autres fichiers qui ont été supprimés par erreur d'une cartes mémoire d'appareil photo numérique, d'un lecteur MP3, etc. Il peut même récupérer les fichiers qui ont été supprimés par des bogues, plantages ou des virus.]]></Description>
-				<FileName>Recuva_1.52.1086.lks</FileName>
-				<FileSize>2674207</FileSize>
-				<AppSize>10481579</AppSize>
+				<Name>CCleaner</Name>
+				<Version>5.13.5460</Version>
+				<Description><![CDATA[CCleaner est un outil d'optimisation et de nettoyage de votre système. Il supprime les fichiers inutilisés ce qui permet de rendre Windows plus rapide et libère de la place disque. Il nettoie également les traces de vos activités sur Internet ainsi que les historiques des navigateurs. De plus, vous avez accès à un nettoyeur pour la base de registre.]]></Description>
+				<FileName>CCleaner_5.13.5460.lks</FileName>
+				<FileSize>4077591</FileSize>
+				<AppSize>18226309</AppSize>
 				<EditorName>Piriform Ltd</EditorName>
-				<EditorURL>http://www.piriform.com/recuva</EditorURL>
-				<AppHomePageURL>http://www.piriform.com/recuva</AppHomePageURL>
+				<EditorURL>http://www.piriform.com/ccleaner</EditorURL>
+				<AppHomePageURL>http://www.piriform.com/ccleaner</AppHomePageURL>
 				<License>Freeware</License>
-				<Platform>XP/Vista/7/8</Platform>
+				<Platform>XP/Vista/7/8/10</Platform>
 				<Icon ContentEncoding="base64">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
-				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
+				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
 				</Icon>
 			<Location>http://update.liberkey.com/packages/</Location>
 </AppInfo>

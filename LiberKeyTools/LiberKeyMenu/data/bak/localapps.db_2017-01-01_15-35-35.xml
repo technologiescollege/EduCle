@@ -3,11 +3,11 @@
 		<Software id="7zip-7-ziplkl" type="lbk">
 			<Name>7-Zip</Name>
 			<ExePath>%APPS%\7Zip\7-ZipLKL.exe</ExePath>
-			<Platform>XP/Vista/7/8/10</Platform>
+			<Platform>XP/Vista/7/8</Platform>
 			<License>LGPL 2.1</License>
 			<Description><![CDATA[7-Zip permet la compression de fichiers aux formats 7z, ZIP, GZIP, BZIP2 et TAR.
 Décompression des formats 7z, ZIP, GZIP, BZIP2 and TAR + RAR, CAB, ISO, ARJ, LZH, CHM, MSI, WIM, Z, CPIO, RPM, DEB, NSIS etc.]]></Description>
-			<Version>15.12</Version>
+			<Version>9.38</Version>
 			<Developer>Igor Pavlov</Developer>
 			<WebSite>http://www.7-zip.org</WebSite>
 			<LicenseFile>%APPS%\7Zip\App\7-Zip\License.txt</LicenseFile>
@@ -25,13 +25,25 @@ Décompression des formats 7z, ZIP, GZIP, BZIP2 and TAR + RAR, CAB, ISO, ARJ, LZ
 			<LicenseFile>%APPS%\Audacity\App\Audacity\LICENSE.txt</LicenseFile>
 			<AutoKeyWords>audio editeur audacity audacity.sourceforge team est fichier multi-pistes supportant plusieurs formats wav aiff mp3 ogg flac etc... permet appliquer des effets sur vos decouper fichiers bien gpl 2.0 vista</AutoKeyWords>
 		</Software>
+		<Software id="carmetal" type="lbk">
+			<Name>CaRMetal</Name>
+			<ExePath>%APPS%\CaRMetal\CaRMetalLKL.exe</ExePath>
+			<Platform>XP/Vista/7/8</Platform>
+			<License>GPL 3.0</License>
+			<Description><![CDATA[CaRMetal est un logiciel de géométrie interactive qui hérite du moteur mathématique du logiciel C.a.R. (Compass and Ruler). Il a été créé par Eric Hakenholz dans le langage Java. Il garde nombre de fonctionnalités de C.a.R. mais utilise une interface graphique différente qui élimine certaines boîtes de dialogue intermédiaires et offre un accès direct à de nombreux effets.]]></Description>
+			<Version>3.8.3</Version>
+			<Developer>Eric Hakenholz</Developer>
+			<WebSite>http://db-maths.nuxit.net/CaRMetal/</WebSite>
+			<LicenseFile>%APPS%\CaRMetal\App\CaRMetal\license.txt</LicenseFile>
+			<AutoKeyWords>education mathematiques carmetal db-maths.nuxit eric hakenholz est logiciel geometrie interactive qui herite moteur c.a.r compass and ruler ete cree par dans langage java garde nombre fonctionnalites mais utilise une interface graphique differente elimine certaines boites dialogue intermediaires offre acces direct nombreux effets gpl 3.0 vista</AutoKeyWords>
+		</Software>
 		<Software id="ccleaner" type="lbk">
 			<Name>CCleaner</Name>
 			<ExePath>%APPS%\CCleaner\CCleanerLKL.exe</ExePath>
 			<Platform>XP/Vista/7/8/10</Platform>
 			<License>Freeware</License>
 			<Description><![CDATA[CCleaner est un outil d'optimisation et de nettoyage de votre système. Il supprime les fichiers inutilisés ce qui permet de rendre Windows plus rapide et libère de la place disque. Il nettoie également les traces de vos activités sur Internet ainsi que les historiques des navigateurs. De plus, vous avez accès à un nettoyeur pour la base de registre.]]></Description>
-			<Version>5.13.5460</Version>
+			<Version>5.10.5373</Version>
 			<Developer>Piriform Ltd</Developer>
 			<WebSite>http://www.piriform.com/ccleaner</WebSite>
 			<LicenseFile>%APPS%\CCleaner\App\CCleaner\License.txt</LicenseFile>
@@ -108,7 +120,7 @@ Il supporte FTP, FTP sur SSL/TLS (FTPS), SSH, IPV6, mode reprise, transfert des 
 			<License>MPL 2.0</License>
 			<Description><![CDATA[Firefox est un navigateur web qui offre la navigation par onglet combinée avec de nombreuses fonctions très utiles comme le blocage automatique des fenêtres intempestives, une gestion avancée des favoris (avec support des flux RSS), un gestionnaire de mot de passe, le zoom complet des pages et bien plus.
 Il peut être complété grâce à des centaines de plugins (extensions) librement téléchargeables.]]></Description>
-			<Version>43.0.4</Version>
+			<Version>42.0</Version>
 			<Developer>Mozilla Corporation</Developer>
 			<WebSite>http://www.mozilla-europe.org/fr/products/firefox/</WebSite>
 			<LicenseFile>%APPS%\Firefox\App\license.txt</LicenseFile>
@@ -145,6 +157,31 @@ Il permet également la conversion entre les formats de fichier Audio.]]></Descr
 			<WebSite>http://www.freac.org/</WebSite>
 			<LicenseFile>%APPS%\Freac\App\Freac\COPYING</LicenseFile>
 			<AutoKeyWords>audio ripper freac robert kausch permet extraire les pistes encoder mp3 ogg aac flac etc... egalement conversion entre formats fichier gpl 2.0 vista</AutoKeyWords>
+		</Software>
+		<Software id="freefilesync" type="lbk">
+			<Name>FreeFileSync</Name>
+			<ExePath>%APPS%\FreeFileSync\FreeFileSyncLKL.exe</ExePath>
+			<Platform>XP/Vista/7/8</Platform>
+			<License>GPL 3.0</License>
+			<Description><![CDATA[FreeFileSync est un logiciel permettant la comparaison et la synchonisation de dossiers. Il permet de comparer les fichiers par taille, date ou contenu. Il intègre de nombreuses fonctionnalités comme la possibilité de définir des filtres de fichiers personnalisés, le support des tailles de fichiers> 4Go, la possiblité d'ignorer les répertoires "\RECYCLER" et "\System Volume Information", la synchronisation des sous-répertoires même vides.
+Il inclut le module RealtimeSync qui surveille toutes les modifications dans les répertoires et lance la synchronisation automatiquement.]]></Description>
+			<Version>6.2</Version>
+			<Developer>ZenJu</Developer>
+			<WebSite>http://freefilesync.sourceforge.net/</WebSite>
+			<LicenseFile>%APPS%\FreeFileSync\App\FreeFileSync\License.txt</LicenseFile>
+			<AutoKeyWords>freefilesync freefilesync.sourceforge zenju est logiciel permettant comparaison synchonisation dossiers comparer fichiers taille date contenu integre nombreuses fonctionnalites comme possibilite definir des filtres personnalises support tailles fichiers&gt; 4go possiblite ignorer repertoires recycler system volume information synchronisation sous-repertoires meme vides. inclut module realtimesync qui surveille toutes modifications dans lance automatiquement gpl 3.0 vista</AutoKeyWords>
+		</Software>
+		<Software mainid="freefilesync" id="freefilesync-realtimesynclkl" type="lbk">
+			<Name>FreeFileSync (RealtimeSync)</Name>
+			<ExePath>%APPS%\FreeFileSync\RealtimeSyncLKL.exe</ExePath>
+			<Platform>XP/Vista/7/8</Platform>
+			<License>GPL 3.0</License>
+			<Description><![CDATA[RealtimeSync est un module de FreeFileSync qui surveille toutes les modifications dans les répertoires et lance la synchronisation automatiquement.]]></Description>
+			<Version>6.2</Version>
+			<Developer>ZenJu</Developer>
+			<WebSite>http://freefilesync.sourceforge.net/</WebSite>
+			<LicenseFile>%APPS%\FreeFileSync\App\FreeFileSync\License.txt</LicenseFile>
+			<AutoKeyWords>freefilesync realtimesync freefilesync.sourceforge zenju est module qui surveille toutes modifications dans repertoires lance synchronisation automatiquement gpl 3.0 vista</AutoKeyWords>
 		</Software>
 		<Software id="greenfishiconeditorpro" type="lbk">
 			<Name>Greenfish Icon Editor Pro</Name>
@@ -203,6 +240,19 @@ Il peut graver les CD audio et supporte tous les formats si les filtres DirectSh
 			<WebSite>http://www.inkscape.org/</WebSite>
 			<LicenseFile>%APPS%\Inkscape\App\Inkscape\COPYING</LicenseFile>
 			<AutoKeyWords>graphisme photo editeur inkscape inkscape.org est logiciel edition graphismes vectoriels dote capacites similaires illustrator freehand coreldraw xara utilisant format fichiers scalable graphics svg standard w3c les fonctionnalites supportees incluent formes chemins texte marqueurs clones canaux alpha transformations motifs groupements egalement nœuds couches operations complexes vectorisation des bitmaps suivant contournant objets xml directe beaucoup plus peut importer formats tels postscript eps jpeg png tiff exporte ainsi nombreux gpl 2.0 vista</AutoKeyWords>
+		</Software>
+		<Software id="javara" type="lbk">
+			<Name>JavaRa</Name>
+			<ExePath>%APPS%\JavaRa\JavaRaLKL.exe</ExePath>
+			<Platform>XP/Vista/7/8/10</Platform>
+			<License>GPL 2.0</License>
+			<Description><![CDATA[JavaRa supprime les anciennes versions du Java Runtime Environnement (JRE) qui, par défaut, ne sont jamais supprimées lors de l'installation d'une nouvelle version (cela peut représenter environ 100Mo par ancienne version).
+En plus de supprimer les anciennes versions, JavaRa vous permet de mettre à jour votre version actuelle si une nouvelle version existe.]]></Description>
+			<Version>2.6.1</Version>
+			<Developer>SingularLabs</Developer>
+			<WebSite>http://singularlabs.com/software/javara/</WebSite>
+			<LicenseFile>%APPS%\JavaRa\App\gpl-2.0.txt</LicenseFile>
+			<AutoKeyWords>outils systeme nettoyeur desinstalleur javara singularlabs software supprime les anciennes versions runtime environnement jre qui par defaut sont jamais supprimees lors installation une nouvelle cela peut representer 100mo plus supprimer vous permet mettre jour votre actuelle existe gpl 2.0 vista</AutoKeyWords>
 		</Software>
 		<Software id="libreoffice" type="lbk">
 			<Name>LibreOffice</Name>
@@ -301,6 +351,19 @@ Il permet de créer et visionner des diaporamas.]]></Description>
 			<LicenseFile>%APPS%\LibreOffice\App\LibreOffice\license.txt</LicenseFile>
 			<AutoKeyWords>bureautique suite libreoffice writer fr.libreoffice the document foundation est module traitement texte lgpl 3.0 vista</AutoKeyWords>
 		</Software>
+		<Software id="marble" type="lbk">
+			<Name>Marble</Name>
+			<ExePath>%APPS%\Marble\MarbleLKL.exe</ExePath>
+			<Platform>XP/Vista/7/8</Platform>
+			<License>LGPL 2.1</License>
+			<Description><![CDATA[Marble est un globe virtuel et un atlas du monde que vous pouvez utiliser pour en apprendre davantage sur la terre.
+Il est possible de mesurer les distances entre les lieux ou de regarder la couverture nuageuse en cours. Marble offre différentes cartes thématiques : une carte historique, une vue satellite, une vue de la terre pendant la nuit et des cartes de température et de précipitations.]]></Description>
+			<Version>1.9.1</Version>
+			<Developer>The Marble Project</Developer>
+			<WebSite>http://marble.kde.org/</WebSite>
+			<LicenseFile>%APPS%\MarbleApp\Marble\data\LICENSE.txt</LicenseFile>
+			<AutoKeyWords>education geographie marble marble.kde the project est globe virtuel atlas monde que vous pouvez utiliser pour apprendre davantage sur terre. possible mesurer les distances entre lieux regarder couverture nuageuse cours offre differentes cartes thematiques une historique vue satellite pendant nuit des temperature precipitations lgpl 2.1 vista</AutoKeyWords>
+		</Software>
 		<Software id="mediaplayerclassichc" type="lbk">
 			<Name>MPC HomeCinema</Name>
 			<ExePath>%APPS%\MediaPlayerClassicHC\MediaPlayerClassicHCLKL.exe</ExePath>
@@ -340,11 +403,24 @@ Voici quelques fonctionnalités :
 			<Description><![CDATA[Opera est navigateur internet très rapide, sécurisé, configurable et supportant parfaitement les standards du WEB.
 Toutes les technologies modernes sont intégrées comme les onglets, sessions, zoom sur les pages, blocage de contenu, widget, favoris intelligents.
 Il intègre également un client de messagerie (avec filtrage des spams), un gestionnaire de news, un gestionnaire de téléchargement (avec support natif de Bittorent) et bien plus.]]></Description>
-			<Version>34.0.2036.25</Version>
+			<Version>33.0.1990.58 rev1</Version>
 			<Developer>Opera Software ASA</Developer>
 			<WebSite>http://www.opera.com</WebSite>
 			<LicenseFile>%APPS%\Opera\App\license.rtf</LicenseFile>
-			<AutoKeyWords>internet navigateur opera software asa est tres rapide securise configurable supportant parfaitement les standards web. toutes technologies modernes sont integrees comme onglets sessions zoom sur pages blocage contenu widget favoris intelligents. egalement client messagerie avec filtrage des spams gestionnaire news telechargement natif bittorent bien plus freeware vista</AutoKeyWords>
+			<AutoKeyWords>internet email navigateur opera software asa est tres rapide securise configurable supportant parfaitement les standards web. toutes technologies modernes sont integrees comme onglets sessions zoom sur pages blocage contenu widget favoris intelligents. egalement client messagerie avec filtrage des spams gestionnaire news telechargement natif bittorent bien plus freeware vista</AutoKeyWords>
+		</Software>
+		<Software id="paint-net" type="lbk">
+			<Name>Paint.NET</Name>
+			<ExePath>%APPS%\Paint.net\Paint.netLKL.exe</ExePath>
+			<Platform>XP/Vista/7/8/10</Platform>
+			<Dependencies>Framework .NET 4.5</Dependencies>
+			<License>Freeware</License>
+			<Description><![CDATA[Paint.NET est un logiciel de retouche et de création d'images numériques. Il intègre une interface intuitive avec support des calques, effets spéciaux ainsi que de nombreux outils pour traiter les images.]]></Description>
+			<Version>4.0.6</Version>
+			<Developer>dotPDN LLC</Developer>
+			<WebSite>http://www.getpaint.net/index.html</WebSite>
+			<LicenseFile>%APPS%\Paint.net\App\Paint.NET\License.txt</LicenseFile>
+			<AutoKeyWords>graphisme photo editeur paint.net getpaint index dotpdn llc est logiciel retouche creation images numeriques integre une interface intuitive avec support des calques effets speciaux ainsi nombreux outils pour traiter les freeware vista</AutoKeyWords>
 		</Software>
 		<Software id="pdfxchangeviewer" type="lbk">
 			<Name>PDF-XChange Viewer</Name>
@@ -384,6 +460,31 @@ Ses fonctionnalités sont nombreuses : puissant outil de capture, éditeur d'ima
 			<LicenseFile>%APPS%\PicPick\App\PicPick\license.txt</LicenseFile>
 			<AutoKeyWords>graphisme photo copie ecran picpick wiziple software est logiciel graphique tres complet pour les developpeurs logiciels concepteurs graphiques tout utilisateur une interface intuitive simple utilisation apres demarrage vous suffit selectionner des outils menu picpick. ses fonctionnalites sont nombreuses puissant capture editeur image selecteur couleur regle pixel tableau blanc etc freeware non commercial environment vista</AutoKeyWords>
 		</Software>
+		<Software id="pointofix" type="lbk">
+			<Name>Pointofix</Name>
+			<ExePath>%APPS%\Pointofix\PointofixLKL.exe</ExePath>
+			<Platform>2000/XP/Vista</Platform>
+			<License>Freeware</License>
+			<Description><![CDATA[Pointofix permet de dessiner n'importe où sur votre bureau de la même façon que sur un tableau. Une palette d'outils est à votre disposition pour réaliser toutes sortes d'annotations (crayon, flèche, rectangle, ellipse, texte, etc.). Il est possible d'appliquer différents niveaux de zoom à la souris. Le résultat peut être sauvegardé aux formats JPG, PNG, BMP ou simplement effacé. 
+Il est particulièrement adapté au monde de l'enseignement et de la formation (vidéoprojecteur, etc.).]]></Description>
+			<Version>1.7.2012.06.28</Version>
+			<Developer>Thomas Gottfried</Developer>
+			<WebSite>http://www.pointofix.de/</WebSite>
+			<LicenseFile>%APPS%\Pointofix\App\Pointofix\info-pointofix15.txt</LicenseFile>
+			<AutoKeyWords>bureautique presentation pointofix pointofix.de thomas gottfried permet dessiner importe sur votre meme façon tableau une palette outils est disposition pour realiser toutes sortes annotations crayon fleche rectangle ellipse texte etc. possible appliquer differents niveaux zoom souris resultat peut etre sauvegarde formats jpg png bmp simplement efface particulierement adapte monde enseignement formation videoprojecteur freeware 2000 vista</AutoKeyWords>
+		</Software>
+		<Software id="rapidtyping" type="lbk">
+			<Name>RapidTyping</Name>
+			<ExePath>%APPS%\RapidTyping\RapidTypingLKL.exe</ExePath>
+			<Platform>XP/Vista/7/8/10</Platform>
+			<License>Freeware</License>
+			<Description><![CDATA[RapidTyping vous permet d'apprendre de façon ludique à utiliser votre clavier. Il est conçu pour que des adultes ou des enfants se servent du clavier plus efficacement. Apprendre à taper devient un jeu grâce au Rapid Typing Game, avec de nombreux suivis statistiques des progrès et des leçons adaptées.]]></Description>
+			<Version>5.0.381.107</Version>
+			<Developer>RapidTyping Team</Developer>
+			<WebSite>http://www.rapidtyping.com/</WebSite>
+			<LicenseFile>%APPS%\RapidTyping\App\RapidTyping\License.txt</LicenseFile>
+			<AutoKeyWords>education dactylographie rapidtyping team vous permet apprendre façon ludique utiliser votre clavier est conçu pour des adultes enfants servent plus efficacement taper devient jeu grace game avec nombreux suivis statistiques progres leçons adaptees freeware vista</AutoKeyWords>
+		</Software>
 		<Software id="recuva" type="lbk">
 			<Name>Recuva</Name>
 			<ExePath>%APPS%\Recuva\RecuvaLKL.exe</ExePath>
@@ -395,6 +496,19 @@ Ses fonctionnalités sont nombreuses : puissant outil de capture, éditeur d'ima
 			<WebSite>http://www.piriform.com/recuva</WebSite>
 			<LicenseFile>%APPS%\Recuva\App\Recuva\License.txt</LicenseFile>
 			<AutoKeyWords>gestion des fichiers restauration apres effacement recuva piriform ltd utilitaire qui permet restaurer les accidentellement supprimes votre ordinateur cela inclut corbeille ainsi que images autres ont ete par erreur une cartes memoire appareil photo numerique lecteur mp3 etc peut meme recuperer bogues plantages virus freeware vista</AutoKeyWords>
+		</Software>
+		<Software id="scribus" type="lbk">
+			<Name>Scribus</Name>
+			<ExePath>%APPS%\Scribus\ScribusLKL.exe</ExePath>
+			<Platform>XP/Vista/7/8</Platform>
+			<License>GPL 2.0</License>
+			<Description><![CDATA[Scribus est un logiciel de publication assistée par ordinateur (PAO) 
+Il supporte les fonctionnalités de publication professionnelle, comme le modèle de couleur CMJN, les séparations, les tons de couleurs, la gestion des couleurs ICC et la création polyvalente de fichiers PDF.]]></Description>
+			<Version>1.4.5</Version>
+			<Developer>Franz Schmid &amp; Scribus Team</Developer>
+			<WebSite>http://www.scribus.net</WebSite>
+			<LicenseFile>%APPS%\Scribus\App\Scribus\readme\COPYING.txt</LicenseFile>
+			<AutoKeyWords>bureautique suite scribus franz schmid team est logiciel publication assistee par ordinateur pao supporte les fonctionnalites professionnelle comme modele couleur cmjn separations tons couleurs gestion des icc creation polyvalente fichiers pdf gpl 2.0 vista</AutoKeyWords>
 		</Software>
 		<Software id="thunderbird" type="lbk">
 			<Name>Thunderbird</Name>
@@ -452,6 +566,15 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<Version>6,0,5</Version>
 			<AutoKeyWords>captureflux paul glagla reserve usage personnel</AutoKeyWords>
 		</Software>
+		<Software id="user_captureflux_52fr">
+			<Name>Captureflux</Name>
+			<ExePath>%MYAPPS%\CaptureFlux_52fr.exe</ExePath>
+			<Version>5.2</Version>
+			<Developer>Paul Glagla</Developer>
+			<AutoKeyWords>video capture captureflux paul.glagla.free.fr</AutoKeyWords>
+			<LicenseFile>http://paul.glagla.free.fr/captureflux_licence.htm</LicenseFile>
+			<WebSite>http://paul.glagla.free.fr/captureflux.htm</WebSite>
+		</Software>
 		<Software id="user_carotdav">
 			<ExePath>%MYAPPS%\CarotDAV\CarotDAV.exe</ExePath>
 			<Developer>Rei Software</Developer>
@@ -463,13 +586,34 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<LicenseFile>http://rei.to/carotdav_en.html#license</LicenseFile>
 			<WebSite>http://rei.to/carotdav_en.html</WebSite>
 		</Software>
+		<Software id="user_cartoonstorymaker-csmaker">
+			<ExePath>%MYAPPS%\CartoonStoryMaker\CSMaker.exe</ExePath>
+			<Developer>Multidmedia Limited</Developer>
+			<Description><![CDATA[Cartoon Story Maker]]></Description>
+			<License>Multidmedia Limited</License>
+			<Name>Cartoon Story Maker v1.0</Name>
+			<Version>1.0.0.61</Version>
+			<AutoKeyWords>education trans-disciplinaire cartoon story maker v1.0 education.vic.gov.au languagesonline games multidmedia limited</AutoKeyWords>
+			<WebSite>http://www.education.vic.gov.au/languagesonline/games/cartoon/</WebSite>
+		</Software>
+		<Software id="user_didapages-didapages_auteur">
+			<ExePath>%MYAPPS%\Didapages\Didapages Auteur.exe</ExePath>
+			<Developer>Carlos Guedes</Developer>
+			<Description><![CDATA[Didapages]]></Description>
+			<License>Carlos Guedes</License>
+			<Name>Didapages</Name>
+			<Version>1.2.0.199</Version>
+			<AutoKeyWords>education trans-disciplinaire didapages didasystem index page=licence-dida1 carlos guedes</AutoKeyWords>
+			<LicenseFile>%MYAPPS%\Didapages\Licence.txt</LicenseFile>
+			<WebSite>http://www.didasystem.com/index.php?page=licence-dida1</WebSite>
+		</Software>
 		<Software id="user_freeplaneportable" type="paf">
 			<ExePath>%MYAPPS%\FreeplanePortable\FreeplanePortable.exe</ExePath>
 			<Developer>Freeplane team</Developer>
 			<Description><![CDATA[Freeplane Portable Edition is a free mind-mapping software written in Java, packaged with a PortableApps.com Launcher as a portable app, so you can take your mindmaps with you.]]></Description>
 			<License>Shareable/OpenSource/Freeware/CommercialUse</License>
 			<Name>Freeplane Portable</Name>
-			<Version>1.5.6 beta</Version>
+			<Version>1.5.1</Version>
 			<AutoKeyWords>education trans-disciplinaire freeplane portable editor team edition mind-mapping software written java packaged with portableapps.com launcher you can take your mindmaps shareable opensource freeware commercialuse</AutoKeyWords>
 			<WebSite>http://www.freeplane.org</WebSite>
 			<IconFile>%MYAPPS%\FreeplanePortable\App\Freeplane\freeplane.exe</IconFile>
@@ -504,12 +648,85 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<AutoKeyWords>education français collatinus</AutoKeyWords>
 			<WebSite>http://www.collatinus.org/collatinus/</WebSite>
 		</Software>
+		<Software id="user_matieres-francais-conjugue-conjugue">
+			<Name>Les bonnes terminaisons</Name>
+			<ExePath>%MYAPPS%\Matieres\Francais\Conjugue\Conjugue.exe</ExePath>
+			<AutoKeyWords>education français les bonnes terminaisons thierry.labregere.perso.neuf.fr jeu0</AutoKeyWords>
+			<WebSite>http://thierry.labregere.perso.neuf.fr/jeu0.htm</WebSite>
+		</Software>
+		<Software id="user_matieres-francais-imagemo-imagemo">
+			<Name>Imagemo</Name>
+			<ExePath>%MYAPPS%\Matieres\Francais\Imagemo\Imagemo.exe</ExePath>
+			<Version>9.0F</Version>
+			<Developer>Macromedia, Inc.</Developer>
+			<AutoKeyWords>education français imagemo imagemo.fr index_fr macromedia inc</AutoKeyWords>
+			<WebSite>http://www.imagemo.fr/index_fr.html</WebSite>
+		</Software>
+		<Software id="user_matieres-francais-lecteur-lecteur">
+			<Name>Lecture</Name>
+			<ExePath>%MYAPPS%\Matieres\Francais\Lecteur\LECTEUR.EXE</ExePath>
+			<AutoKeyWords>education français lecture gerard.ledu.free.fr</AutoKeyWords>
+			<WebSite>http://gerard.ledu.free.fr/</WebSite>
+		</Software>
+		<Software id="user_matieres-francais-littre-littre">
+			<Name>Dictionnaire Le Littré</Name>
+			<ExePath>%MYAPPS%\Matieres\Francais\Littre\Littre.exe</ExePath>
+			<IconFile>%MYAPPS%\Matieres\Francais\Littre\Littre.ico</IconFile>
+			<AutoKeyWords>education français dictionnaire littre https code.google dictionnaire-le-littre</AutoKeyWords>
+			<LicenseFile>%MYAPPS%\Matieres\Francais\littre\Licence-CeCILL.txt</LicenseFile>
+			<WebSite>https://code.google.com/p/dictionnaire-le-littre/</WebSite>
+		</Software>
+		<Software id="user_matieres-francais-orthaccords-orthaccords">
+			<Name>Orthaccords</Name>
+			<ExePath>%MYAPPS%\Matieres\Francais\Orthaccords\Orthaccords.exe</ExePath>
+			<IconFile>%MYAPPS%\Matieres\Francais\Orthaccords\orthaccords.ico</IconFile>
+			<Version>1.00</Version>
+			<Developer>***</Developer>
+			<AutoKeyWords>education français orthaccords gilles.joyeux.pagesperso-orange.fr conjortha_000002 ***</AutoKeyWords>
+			<WebSite>http://gilles.joyeux.pagesperso-orange.fr/conjortha_000002.htm</WebSite>
+		</Software>
 		<Software id="user_matieres-gridomatic">
 			<Name>GridOmatic Application</Name>
 			<ExePath>%MYAPPS%\Matieres\GridOmatic.exe</ExePath>
 			<Version>1.0.0.2</Version>
 			<AutoKeyWords>education physiques-chimie gridomatic application nutsnbits nutsnbits_000069</AutoKeyWords>
 			<WebSite>http://www.nutsnbits.com/nutsnbits_000069.htm</WebSite>
+		</Software>
+		<Software id="user_matieres-langues-imagemo_en-imagemo_en">
+			<Name>Imagemot</Name>
+			<ExePath>%MYAPPS%\Matieres\Langues\Imagemo_en\Imagemo_en.exe</ExePath>
+			<Version>9.0F</Version>
+			<Developer>Macromedia, Inc.</Developer>
+			<AutoKeyWords>education langues imagemot imagemo.fr index_fr macromedia inc</AutoKeyWords>
+			<WebSite>http://www.imagemo.fr/index_fr.html</WebSite>
+		</Software>
+		<Software id="user_matieres-langues-jo-reconst-recve40">
+			<ExePath>%MYAPPS%\Matieres\Langues\jo\reconst\recve40.exe</ExePath>
+			<Name>Reconstitution Elève</Name>
+			<AutoKeyWords>education langues reconstitution eleve jacques.omnes.pagesperso-orange.fr telechrg</AutoKeyWords>
+			<WebSite>http://jacques.omnes.pagesperso-orange.fr/telechrg/</WebSite>
+		</Software>
+		<Software id="user_matieres-langues-quiz_anglais-quiz_bases_de_la_langue_anglaise">
+			<Name>Questions-Réponses</Name>
+			<ExePath>%MYAPPS%\Matieres\Langues\Quiz_anglais\Quiz Bases de la langue anglaise.exe</ExePath>
+			<Version>1.4.3.0</Version>
+			<Developer>Copyright © 2001-2004, Thomas et Mathieu DUBAËLE</Developer>
+			<AutoKeyWords>education langues questions-reponses atlence study questionnaire anglais quiz-99-quiz-bases-de-la-langue-anglaise copyright 2001-2004 thomas mathieu dubaele</AutoKeyWords>
+			<LicenseFile>%MYAPPS%\Matieres\Langues\Quiz_anglais\lisezmoi.txt</LicenseFile>
+			<WebSite>http://www.atlence.com/study/questionnaire/anglais/quiz-99-quiz-bases-de-la-langue-anglaise.html</WebSite>
+		</Software>
+		<Software id="user_matieres-langues-verbira2-verbira">
+			<Name>VERBIRA</Name>
+			<ExePath>%MYAPPS%\Matieres\Langues\Verbira2\VERBIRA.exe</ExePath>
+			<Version>3.2</Version>
+			<Developer>Organisation inconnue</Developer>
+			<AutoKeyWords>education langues verbira verbira.web.free.fr organisation inconnue</AutoKeyWords>
+			<WebSite>http://verbira.web.free.fr/</WebSite>
+		</Software>
+		<Software id="user_matieres-maths-apprentigeometre2-ag2">
+			<ExePath>%MYAPPS%\Matieres\Maths\ApprentiGeometre2\AG2.exe</ExePath>
+			<Name>AG2</Name>
+			<AutoKeyWords>ag2</AutoKeyWords>
 		</Software>
 		<Software id="user_matieres-maths-usbggb-ggb">
 			<Name>GeoGebra</Name>
@@ -518,6 +735,21 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<LicenseFile>http://www.geogebra.org/cms/fr/license</LicenseFile>
 			<Version>5.0.4.0</Version>
 			<WebSite>http://www.geogebra.org/cms/fr/</WebSite>
+		</Software>
+		<Software id="user_matieres-physiques-physicdraw">
+			<ExePath>%MYAPPS%\Matieres\Physiques\PhysicDraw.exe</ExePath>
+			<Developer>Complex-softwares</Developer>
+			<Description><![CDATA[PhysicDraw]]></Description>
+			<License>Complex-softwares 2008-2009</License>
+			<Name>PhysicDraw</Name>
+			<AutoKeyWords>education physiques-chimie physicdraw complex.softwares.free.fr complex-softwares 2008-2009</AutoKeyWords>
+			<WebSite>http://complex.softwares.free.fr/</WebSite>
+		</Software>
+		<Software id="user_matieres-sciences-physicdraw">
+			<Name>PhysicDraw</Name>
+			<ExePath>%MYAPPS%\Matieres\Sciences\PhysicDraw.exe</ExePath>
+			<Developer>Complex-softwares                                                                                   </Developer>
+			<AutoKeyWords>physicdraw complex-softwares</AutoKeyWords>
 		</Software>
 		<Software id="user_matieres-svt-caryotype-caryo">
 			<ExePath>%MYAPPS%\Matieres\SVT\caryotype\Caryo.exe</ExePath>
@@ -562,6 +794,14 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<Version>5,0,30,0</Version>
 			<AutoKeyWords>flash macromedia inc rouen 2007 copyright 1996-2000</AutoKeyWords>
 		</Software>
+		<Software id="user_matieres-technologie-archifacile">
+			<Name>ArchiFacile</Name>
+			<ExePath>%MYAPPS%\Matieres\Technologie\ArchiFacile.exe</ExePath>
+			<AutoKeyWords>education technologie archifacile archifacile.fr</AutoKeyWords>
+			<LicenseFile>http://www.archifacile.fr/mentions-legales</LicenseFile>
+			<Version>6.3</Version>
+			<WebSite>http://www.archifacile.fr/</WebSite>
+		</Software>
 		<Software id="user_matieres-technologie-bridge_building_game-bridge">
 			<Name>Bridge Building Game</Name>
 			<ExePath>%MYAPPS%\Matieres\Technologie\Bridge Building Game\bridge.exe</ExePath>
@@ -577,6 +817,14 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<Version>1.0</Version>
 			<AutoKeyWords>clab the lego group dacta control 1996</AutoKeyWords>
 		</Software>
+		<Software id="user_matieres-technologie-designer_pepakura-pepakura3">
+			<Name>Pepakura Designer 3</Name>
+			<ExePath>%MYAPPS%\Matieres\Technologie\designer_pepakura\pepakura3.exe</ExePath>
+			<Version>3.1.4.0</Version>
+			<Developer>TamaSoftware</Developer>
+			<AutoKeyWords>education technologie pepakura designer tamasoftware</AutoKeyWords>
+			<IconFile>%MYAPPS%\Matieres\Technologie\pepakura_designer\Pepakura_Designer.exe</IconFile>
+		</Software>
 		<Software id="user_matieres-technologie-energy3d-energy3d">
 			<ExePath>%MYAPPS%\Matieres\Technologie\energy3d\energy3d.exe</ExePath>
 			<Name>energy3d</Name>
@@ -590,6 +838,15 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<LicenseFile>%MYAPPS%\Matieres\Technologie\ganttproject\LICENSE</LicenseFile>
 			<Version>2.6.6</Version>
 			<WebSite>http://www.ganttproject.biz/</WebSite>
+		</Software>
+		<Software id="user_matieres-technologie-lego_digital_designer-ldd2">
+			<ExePath>%MYAPPS%\Matieres\Technologie\LEGO_Digital_Designer\LDD.exe</ExePath>
+			<Developer>LEGO Company</Developer>
+			<Description>LEGO Digital Designer</Description>
+			<License>LEGO A/S Copyright ï¿½ 2012</License>
+			<Name>LEGO Digital Designer</Name>
+			<Version>4.3.5.0</Version>
+			<AutoKeyWords>lego digital designer company copyright 2012</AutoKeyWords>
 		</Software>
 		<Software id="user_matieres-technologie-m&amp;m-m&amp;m">
 			<Name>Machines &amp; Matériaux</Name>
@@ -609,15 +866,20 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<Name>organigram</Name>
 			<AutoKeyWords>organigram</AutoKeyWords>
 		</Software>
-		<Software id="user_matieres-technologie-pepakura_designer-pepakuradesignerportable" type="paf">
-			<ExePath>%MYAPPS%\Matieres\Technologie\pepakura_designer\PepakuraDesignerPortable.exe</ExePath>
-			<Developer>Tama Software Ltd</Developer>
-			<Description><![CDATA[Pepakura Designer allows you to create paper craft models from 3D data.]]></Description>
-			<Name>Pepakura Designer Portable</Name>
-			<Version>3.1.8</Version>
-			<AutoKeyWords>pepakura designer portable tamasoft.co.jp pepakura-en software ltd allows you create paper craft models from data shareable freeware commercialuse</AutoKeyWords>
-			<WebSite>http://www.tamasoft.co.jp/pepakura-en/</WebSite>
-			<License>Shareable/Freeware/CommercialUse</License>
+		<Software id="user_matieres-technologie-pepakura_designer-pepakura_designer">
+			<ExePath>%MYAPPS%\Matieres\Technologie\pepakura_designer\Pepakura_Designer.exe</ExePath>
+			<Developer>TamaSoftware</Developer>
+			<Description>Pepakura Designer Ver. 3.1.4</Description>
+			<License>Copyright (C) 2014 TamaSoftware</License>
+			<Name>Pepakura Designer</Name>
+			<Version>3, 1, 4, 0</Version>
+			<AutoKeyWords>pepakura designer tamasoftware ver 3.1.4 copyright 2014</AutoKeyWords>
+		</Software>
+		<Software id="user_matieres-technologie-robolab-robolab254" type="xsoft">
+			<ExePath>%MYAPPS%\Matieres\Technologie\Robolab\Robolab254.exe</ExePath>
+			<Name>Robolab254</Name>
+			<AutoKeyWords>education technologie robolab robolab254 legoengineering program</AutoKeyWords>
+			<WebSite>http://www.legoengineering.com/program/robolab/</WebSite>
 		</Software>
 		<Software id="user_matieres-technologie-robopro-robopro">
 			<ExePath>%MYAPPS%\Matieres\Technologie\ROBOPro\ROBOPro.exe</ExePath>
@@ -629,14 +891,23 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<AutoKeyWords>education technologie robopro fischertechnik.de home info computing robo-pro-software.aspx usetemplate-1_column_no_pano gmbh weinhalde 72178 waldachtal germany langage programmation graphique copyright 2004-2012 frenchy</AutoKeyWords>
 			<WebSite>http://www.fischertechnik.de/en/Home/info/computing/ROBO-Pro-Software.aspx/usetemplate-1_column_no_pano/</WebSite>
 		</Software>
-		<Software id="user_matieres-technologie-s2aio-s2aio" type="xsoft">
-			<ExePath>%MYAPPS%\Matieres\Technologie\s2aio\s2aio.exe</ExePath>
-			<Developer>ASTUCE.technology</Developer>
-			<Description>Scratch2 &lt;-&gt; s2aio &lt;-&gt; Arduino</Description>
-			<License>Sébastien CANET</License>
-			<Name>s2aio control</Name>
-			<Version>2.1.7</Version>
-			<AutoKeyWords>s2aio control astuce.technology scratch2 &lt;-&gt; arduino sebastien canet</AutoKeyWords>
+		<Software id="user_matieres-technologie-robotprog-robotprog">
+			<Name>RoboProg</Name>
+			<ExePath>%MYAPPS%\Matieres\Technologie\RobotProg\RobotProg.exe</ExePath>
+			<IconFile>%DRIVE%\Utils\LiberKey\Apps\Matieres\Technologie\RobotProg\RobotProg.exe</IconFile>
+			<AutoKeyWords>education technologie roboprog physicsbox indexrobotprogfr</AutoKeyWords>
+			<Version>1.1</Version>
+			<WebSite>http://www.physicsbox.com/indexrobotprogfr.html</WebSite>
+		</Software>
+		<Software id="user_matieres-technologie-s2a-s2a" type="xsoft">
+			<ExePath>%MYAPPS%\Matieres\Technologie\s2a\s2a.exe</ExePath>
+			<Developer>WorldCompany</Developer>
+			<Description><![CDATA[s2a]]></Description>
+			<License>Sébastien Canet</License>
+			<Name>s2a</Name>
+			<Version>2.1</Version>
+			<AutoKeyWords>education technologie pilotage s2a https github technologiescollege s2a_fr worldcompany sebastien canet</AutoKeyWords>
+			<WebSite>https://github.com/technologiescollege/s2a_fr</WebSite>
 		</Software>
 		<Software id="user_matieres-technologie-s2p-s2p" type="xsoft">
 			<ExePath>%MYAPPS%\Matieres\Technologie\s2p\s2p.exe</ExePath>
@@ -746,6 +1017,21 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<AutoKeyWords>graphisme photo pencil2d http pencil2d.org</AutoKeyWords>
 			<Developer>http://pencil2d.org</Developer>
 		</Software>
+		<Software id="user_pencil-animation-pencil">
+			<ExePath>%MYAPPS%\pencil-animation\Pencil.exe</ExePath>
+			<Name>Pencil Animation</Name>
+			<AutoKeyWords>education trans-disciplinaire pencil animation graphisme photo pencil-animation</AutoKeyWords>
+			<LicenseFile>%MYAPPS%\pencil-animation\LICENSE.TXT</LicenseFile>
+			<WebSite>http://www.pencil-animation.org/</WebSite>
+		</Software>
+		<Software id="user_pylote_win-pylote">
+			<Name>Pylote</Name>
+			<ExePath>%MYAPPS%\pylote_win\pylote.exe</ExePath>
+			<Version>0.00000000000001</Version>
+			<AutoKeyWords>bureautique presentation pylote education trans-disciplinaire pascal.peter.free.fr wiki logiciels</AutoKeyWords>
+			<LicenseFile>%MYAPPS%\pylote_win\gpl.txt</LicenseFile>
+			<WebSite>http://pascal.peter.free.fr/wiki/Logiciels/Pylote</WebSite>
+		</Software>
 		<Software id="user_rasterbator">
 			<Name>Rasterbator</Name>
 			<ExePath>%MYAPPS%\Rasterbator\Rasterbator.exe</ExePath>
@@ -773,6 +1059,17 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<Version>2</Version>
 			<WebSite>http://scratch.mit.edu/</WebSite>
 		</Software>
+		<Software id="user_spybotportable" type="paf">
+			<ExePath>%MYAPPS%\SpybotPortable\SpybotPortable.exe</ExePath>
+			<Developer>Safer Networking Ltd. &amp; PortableApps.com</Developer>
+			<Description><![CDATA[Detects and removes spyware]]></Description>
+			<License>Shareable/Freeware</License>
+			<Name>Spybot - Search &amp; Destroy Portable</Name>
+			<Version>2.2</Version>
+			<AutoKeyWords>securite anti virus-spyware spybot search destroy portable safer-networking ltd portableapps.com detects and removes shareable freeware</AutoKeyWords>
+			<WebSite>http://www.safer-networking.org/fr/</WebSite>
+			<LicenseFile>%MYAPPS%\SpybotPortable\App\Spybot\Help\Licence-PE.rtf</LicenseFile>
+		</Software>
 		<Software id="user_videopad-videopad_video_editor">
 			<ExePath>%MYAPPS%\VideoPad\VideoPad Video Editor.exe</ExePath>
 			<Developer>NCH Software</Developer>
@@ -783,6 +1080,34 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<LicenseFile>http://www.nch.com.au/general/fr/legal.html</LicenseFile>
 			<WebSite>http://www.nchsoftware.com/videopad/fr/</WebSite>
 		</Software>
+		<Software id="user_vsdc_video_editor-vsdc_free_video_editor">
+			<ExePath>%MYAPPS%\VSDC_Video_Editor\VSDC Free Video Editor.exe</ExePath>
+			<Developer>Flash-Integro LLC</Developer>
+			<Description>VSDC Free Video Editor</Description>
+			<License>Copyright (c) Flash-Integro LLC, 2011-2014.  All rights reserved.</License>
+			<Name>VSDC Free Video Editor</Name>
+			<Version>2,2,3,324</Version>
+			<AutoKeyWords>vsdc free video editor flash-integro llc copyright 2011-2014 all rights reserved</AutoKeyWords>
+		</Software>
+		<Software id="user_vsdc_video_editor-vsdc_free_video_editor2">
+			<ExePath>%MYAPPS%\VSDC_Video_Editor\VSDC_Free_Video_Editor.exe</ExePath>
+			<Developer>Flash-Integro LLC</Developer>
+			<Description>VSDC Free Video Editor</Description>
+			<License>Copyright (c) Flash-Integro LLC, 2011-2014.  All rights reserved.</License>
+			<Name>VSDC Free Video Editor</Name>
+			<Version>2,2,3,324</Version>
+			<AutoKeyWords>vsdc free video editor flash-integro llc copyright 2011-2014 all rights reserved</AutoKeyWords>
+		</Software>
+		<Software id="user_vsdcfreevideoeditorportable" type="paf">
+			<ExePath>%MYAPPS%\VSDCFreeVideoEditorPortable\VSDCFreeVideoEditorPortable.exe</ExePath>
+			<Developer>Flash-Integro LLC/Vector Ltd. &amp; ThumbApps</Developer>
+			<Description><![CDATA[VSDCFreeVideoEditor is a a feature-packed software utility that can help even novices create high-complexity videos.]]></Description>
+			<License>Shareable/Freeware/CommercialUse</License>
+			<Name>VSDC Free Video Editor Portable</Name>
+			<Version>3.1.0</Version>
+			<AutoKeyWords>audio video vsdc free editor portable thumbapps.blogspot flash-integro llc vector ltd vsdcfreevideoeditor feature-packed software utility that can help even novices create high-complexity videos shareable freeware commercialuse</AutoKeyWords>
+			<WebSite>http://thumbApps.blogspot.com</WebSite>
+		</Software>
 		<Software id="user_vsdcfreevideoeditor-vsdcfreevideoeditorportable" type="paf">
 			<ExePath>%MYAPPS%\VSDCFreeVideoEditor\VSDCFreeVideoEditorPortable.exe</ExePath>
 			<Developer>Flash-Integro LLC/Vector Ltd. &amp; ThumbApps</Developer>
@@ -792,6 +1117,14 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<Version>3.1.0</Version>
 			<AutoKeyWords>vsdc free video editor portable thumbapps.blogspot flash-integro llc vector ltd vsdcfreevideoeditor feature-packed software utility that can help even novices create high-complexity videos shareable freeware commercialuse</AutoKeyWords>
 			<WebSite>http://thumbApps.blogspot.com</WebSite>
+		</Software>
+		<Software id="user_vti">
+			<ExePath>%MYAPPS%\vti\Vti.exe</ExePath>
+			<Developer>ACZ</Developer>
+			<Description><![CDATA[Virtual TI]]></Description>
+			<Name>Virtual TI</Name>
+			<Version>2.5.0.0</Version>
+			<AutoKeyWords>virtual acz</AutoKeyWords>
 		</Software>
 		<Software id="user_xia">
 			<ExePath>%MYAPPS%\xia\xia.exe</ExePath>
@@ -815,6 +1148,19 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<LicenseFile>%APPS%\VLC\App\VLC\x86\COPYING.txt</LicenseFile>
 			<AutoKeyWords>video lecteur vlc media player videolan the team est fichier audio supportant pratiquement tous les formats mpeg-1 mpeg-2 mpeg-4 divx mp3 ogg ainsi lecture des dvds protocoles streaming flux peut etre utilise serveur son avantage necessite aucun codec pour fonctionner gpl 2.0 vista</AutoKeyWords>
 		</Software>
+		<Software id="wavosaur" type="lbk">
+			<Name>Wavosaur</Name>
+			<ExePath>%APPS%\Wavosaur\WavosaurLKL.exe</ExePath>
+			<Platform>XP/Vista/7/8</Platform>
+			<License>Donationware</License>
+			<Description><![CDATA[Wavosaur est un logiciel d'édition audio-numérique, qui permet d'enregistrer et éditer les fichiers sons (montage, mixage, conception, sampling, enregistrement, sound design, premastering).
+Il supporte les plugins VST, les drivers ASIO, les fichiers multicanaux wav, le traitement en temps réel des effets et bien plus...]]></Description>
+			<Version>1.1.0.0</Version>
+			<Developer>The Wavosaur Team</Developer>
+			<WebSite>http://fr.wavosaur.com</WebSite>
+			<LicenseFile>%APPS%\Wavosaur\App\license.txt</LicenseFile>
+			<AutoKeyWords>wavosaur fr.wavosaur the team est logiciel edition audio-numerique qui permet enregistrer editer les fichiers sons montage mixage conception sampling enregistrement sound design premastering supporte plugins vst drivers asio multicanaux traitement temps reel effets bien plus.. donationware vista</AutoKeyWords>
+		</Software>
 		<Software id="wink" type="lbk">
 			<Name>Wink</Name>
 			<ExePath>%APPS%\Wink\WinkLKL.exe</ExePath>
@@ -827,6 +1173,18 @@ Format d'export : Macromedia Flash (swf), exécutables autonomes (EXE), etc.]]><
 			<WebSite>http://www.debugmode.com/wink/</WebSite>
 			<LicenseFile>%APPS%\Wink\App\Wink\license.txt</LicenseFile>
 			<AutoKeyWords>wink debugmode satish kumar est logiciel qui permet realiser des tutoriaux presentations. format export macromedia flash swf executables autonomes etc freeware 2000 vista</AutoKeyWords>
+		</Software>
+		<Software id="wintopo" type="lbk">
+			<Name>WinTopo</Name>
+			<ExePath>%APPS%\WinTopo\WinTopoLKL.exe</ExePath>
+			<Platform>XP/Vista/7</Platform>
+			<License>Freeware</License>
+			<Description><![CDATA[WinTopo convertit une image bitmap BMP, TIF, JPG, GIF, PNG ou scannée vers un format d'images vectorielles comme AutoCAD DXF, DXF, SHP, MIF, WMF.]]></Description>
+			<Version>1.740</Version>
+			<Developer>SoftSoft Ltd</Developer>
+			<WebSite>http://www.wintopo.com/wintopo-free.htm</WebSite>
+			<LicenseFile>%APPS%\WinTopo\App\WinTopo\license.txt</LicenseFile>
+			<AutoKeyWords>graphisme photo vectorisation wintopo wintopo-free softsoft ltd convertit une image bitmap bmp tif jpg gif png scannee vers format images vectorielles comme autocad dxf shp mif wmf freeware vista</AutoKeyWords>
 		</Software>
 		<Software id="xmediarecode" type="lbk">
 			<Name>XMedia Recode</Name>

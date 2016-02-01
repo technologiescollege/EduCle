@@ -1,16 +1,16 @@
 HTTP/1.1 200 OK
-Date: Tue, 26 May 2015 08:43:13 GMT
+Date: Fri, 29 Jan 2016 01:58:26 GMT
 Server: Apache/2.2.20 (Unix) mod_ssl/2.2.20 OpenSSL/0.9.8o
 X-Powered-By: PHP/5.2.13-pl1-gentoo
 P3P: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
 Expires: Mon, 1 Jan 2001 00:00:00 GMT
 Cache-Control: post-check=0, pre-check=0
 Pragma: no-cache
-Set-Cookie: 9db2fa79a607ffcd65f78db44830b764=66d05a852effde66d226acbecbc5511f; path=/
-Set-Cookie: lang=deleted; expires=Mon, 26-May-2014 08:43:12 GMT; path=/
-Set-Cookie: jfcookie=deleted; expires=Mon, 26-May-2014 08:43:12 GMT; path=/
-Set-Cookie: jfcookie[lang]=fr; expires=Wed, 27-May-2015 08:43:13 GMT; path=/
-Last-Modified: Tue, 26 May 2015 08:43:13 GMT
+Set-Cookie: 9db2fa79a607ffcd65f78db44830b764=24e245f083e49591bdb190604830771d; path=/
+Set-Cookie: lang=deleted; expires=Thu, 29-Jan-2015 01:58:25 GMT; path=/
+Set-Cookie: jfcookie=deleted; expires=Thu, 29-Jan-2015 01:58:25 GMT; path=/
+Set-Cookie: jfcookie[lang]=fr; expires=Sat, 30-Jan-2016 01:58:26 GMT; path=/
+Last-Modified: Fri, 29 Jan 2016 01:58:26 GMT
 Vary: Accept-Encoding,User-Agent
 Connection: close
 Content-Type: application/rss+xml; charset=utf-8
@@ -22,7 +22,7 @@ Content-Type: application/rss+xml; charset=utf-8
 		<title>LiberKey News</title>
 		<description>Portable Applications</description>
 		<link>http://www.liberkey.com/fr/liberkey-news.html</link>
-		<lastBuildDate>Tue, 26 May 2015 08:43:13 +0000</lastBuildDate>
+		<lastBuildDate>Fri, 29 Jan 2016 01:58:26 +0000</lastBuildDate>
 		<generator>Joomla! 1.5 - Open Source Content Management</generator>
 		<language>fr-fr</language>
 		<item>

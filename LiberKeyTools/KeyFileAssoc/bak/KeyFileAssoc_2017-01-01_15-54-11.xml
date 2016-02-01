@@ -892,32 +892,6 @@
 				</Action>
 			</Shell>
 		</FileType>
-		<FileType ext="cel">
-			<TypeDescription.en>Celestia file (CEL)</TypeDescription.en>
-			<TypeDescription.fr>Fichier Celestia (CEL)</TypeDescription.fr>
-			<Shell>
-				<Action name="celestia">
-					<ExePath>%APPS%\Celestia\CelestiaLKL.exe</ExePath>
-					<AppName>Celestia</AppName>
-					<Description.en>Open with Celestia (LiberKey)</Description.en>
-					<Description.fr>Ouvrir avec Celestia (LiberKey)</Description.fr>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-			</Shell>
-		</FileType>
-		<FileType ext="celx">
-			<TypeDescription.en>Celestia file (CELX)</TypeDescription.en>
-			<TypeDescription.fr>Fichier Celestia (CELX)</TypeDescription.fr>
-			<Shell>
-				<Action name="celestia">
-					<ExePath>%APPS%\Celestia\CelestiaLKL.exe</ExePath>
-					<AppName>Celestia</AppName>
-					<Description.en>Open with Celestia (LiberKey)</Description.en>
-					<Description.fr>Ouvrir avec Celestia (LiberKey)</Description.fr>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-			</Shell>
-		</FileType>
 		<FileType ext="gom">
 			<TypeDescription.fr>Fichiers GOM</TypeDescription.fr>
 			<Shell>
@@ -1367,12 +1341,12 @@
 			<TypeDescription.fr>Fichiers NG3</TypeDescription.fr>
 			<Shell>
 				<Action name="lk_open_1b9d656">
-					<ExePath>%MYAPPS%\Matieres\Technologie\energy3d\energy3D.bat</ExePath>
+					<ExePath>%MYAPPS%\Matieres\Technologie\energy3d\Energy3D.exe</ExePath>
 					<Description.fr>Ouvrir avec  (LiberKey)</Description.fr>
 					<CmdArgs>&quot;%1&quot;</CmdArgs>
 				</Action>
 			</Shell>
-			<TypeIcon index="0">%MYAPPS%\Matieres\Technologie\energy3d\energy3d.ico</TypeIcon>
+			<TypeIcon index="0">%MYAPPS%\Matieres\Technologie\energy3d\Energy3D.exe</TypeIcon>
 		</FileType>
 		<FileType ext="gan">
 			<TypeDescription.fr>Fichiers GAN</TypeDescription.fr>
@@ -1470,7 +1444,7 @@
 			</Shell>
 			<TypeDescription>Tous les fichiers</TypeDescription>
 		</FileType>
-		<FileType ext="sb2">
+		<FileType ext="sb2" addmode="replace">
 			<TypeDescription.fr>Fichiers SB2</TypeDescription.fr>
 			<Shell>
 				<Action name="lk_open_434947f">
@@ -1657,6 +1631,30 @@
 					<CmdArgs>x -o* /xpath=&quot;%1&quot;</CmdArgs>
 				</Action>
 			</Shell>
+		</FileType>
+		<FileType ext="ffs_gui">
+			<TypeDescription.fr>Fichiers FFS_GUI</TypeDescription.fr>
+			<Shell>
+				<Action name="freefilesync">
+					<ExePath>%APPS%\FreeFileSync\FreeFileSyncLKL.exe</ExePath>
+					<AppName>FreeFileSync</AppName>
+					<Description.fr>Ouvrir avec FreeFileSync (LiberKey)</Description.fr>
+					<CmdArgs>&quot;%1&quot;</CmdArgs>
+				</Action>
+			</Shell>
+			<TypeIcon index="0">%APPS%\FreeFileSync\FreeFileSyncLKL.exe</TypeIcon>
+		</FileType>
+		<FileType ext="ffs_batch">
+			<TypeDescription.fr>Fichiers FFS_BATCH</TypeDescription.fr>
+			<Shell>
+				<Action name="freefilesync">
+					<ExePath>%APPS%\FreeFileSync\FreeFileSyncLKL.exe</ExePath>
+					<AppName>FreeFileSync</AppName>
+					<Description.fr>Ouvrir avec FreeFileSync (LiberKey)</Description.fr>
+					<CmdArgs>&quot;%1&quot;</CmdArgs>
+				</Action>
+			</Shell>
+			<TypeIcon index="0">%APPS%\FreeFileSync\FreeFileSyncLKL.exe</TypeIcon>
 		</FileType>
 	</AppsAssoc>
 	<AppsAssocErrors/>

@@ -3,6 +3,5 @@
 		<AppsPath>..\..\Apps\</AppsPath>
 		<fix>8</fix>
 		<ID>8f0ad4530df38fc8241552808027e3b3</ID>
-		<KFABackupMaxDays>30</KFABackupMaxDays>
 	</Config>
 </LiberKeyMenu>

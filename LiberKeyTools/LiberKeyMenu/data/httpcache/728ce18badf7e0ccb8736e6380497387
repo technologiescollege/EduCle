@@ -1,0 +1,682 @@
+HTTP/1.1 200 OK
+Date: Sat, 30 Jan 2016 17:36:19 GMT
+Server: Apache/2.2.20 (Unix) mod_ssl/2.2.20 OpenSSL/0.9.8o
+X-Powered-By: PHP/5.2.13-pl1-gentoo
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Content-Type: text/xml
+
+<LiberKeySuites>
+	<suites>
+		<ac-nantes_2012>
+			<suiteID>ac-nantes_2012</suiteID>
+			<suiteName><![CDATA[Technologies & Sciences de l'Ingénieur]]></suiteName>
+			<suiteLogo>http://ac-nantes.pro.liberkey.com/images/ac-nantes/ac-nantes_2012.png</suiteLogo>
+			<provider>
+				<ID>ac-nantes</ID>
+				<Name><![CDATA[EduClé TechnoNantes]]></Name>
+				<FullName><![CDATA[EduClé - S.Canet]]></FullName>
+				<WebSite>http://tic.technologiescollege.fr/</WebSite>
+				<Email>sebastien.canet@ac-nantes.fr</Email>
+			</provider>
+			<apps>audacity,vlc,thunderbird,photofiltre,formatfactory,xmediarecode,freac,converber,wink,notepad++,libreoffice,7zip-7-ziplkl,universalextractor,picpick,inkscape,faststoneimageviewer,httrack,firefox,opera,ccleaner,clamwin,mediaplayerclassichc,pdfxchangeviewer,greenfishiconeditorpro,imgburn,dia,unlocker,recuva,filezilla</apps>
+		</ac-nantes_2012>
+	</suites>
+	<apps>
+		<audacity>
+			<id>audacity</id>
+			<name><![CDATA[Audacity]]></name>
+			<description><![CDATA[Audacity est un éditeur de fichier audio multi-pistes supportant plusieurs formats (Wav, AIFF, MP3, OGG, FLAC etc...). Il permet d'appliquer des effets sur vos pistes, découper des fichiers et bien plus.]]></description>
+			<developer>Audacity Team</developer>
+			<license_type>GPL 2.0</license_type>
+			<source_code_url_lbk>http://download.liberkey.com/sources/Audacity</source_code_url_lbk>
+			<version>2.1.1</version>
+			<lks_file>Audacity_2.1.1.lks</lks_file>
+			<lks_size>24123284</lks_size>
+			<app_size>53609730</app_size>
+			<website>http://audacity.sourceforge.net/</website>
+			<dependencies></dependencies>
+			<platform>XP/Vista/7/8/10</platform>
+			<x_icon>32</x_icon>
+			<y_icon>32</y_icon>
+			<x_icon_32>448</x_icon_32>
+			<y_icon_32>0</y_icon_32>
+			<catalog_url>audio/editeur/</catalog_url>
+			<priority>high</priority>
+		</audacity>
+		<vlc>
+			<id>vlc</id>
+			<name><![CDATA[VLC media player]]></name>
+			<description><![CDATA[VLC media player est un lecteur de fichier audio et vidéo supportant pratiquement tous les formats ( (MPEG-1, MPEG-2, MPEG-4, DivX, mp3, ogg, ...) ainsi que la lecture des DVDs et des protocoles de streaming (flux audio et vidéo). Il peut être utilisé en serveur de streaming. Son avantage est qu'il ne nécessite aucun codec audio et vidéo pour fonctionner.]]></description>
+			<developer>the VideoLan Team</developer>
+			<license_type>GPL 2.0</license_type>
+			<source_code_url_lbk>http://download.liberkey.com/sources/VLCmediaplayer</source_code_url_lbk>
+			<version>2.2.1</version>
+			<lks_file>VLC_media_player_2.2.1.lks</lks_file>
+			<lks_size>42968053</lks_size>
+			<app_size>257261777</app_size>
+			<website>http://www.videolan.org/</website>
+			<dependencies></dependencies>
+			<platform>XP/Vista/7/8/10</platform>
+			<x_icon>176</x_icon>
+			<y_icon>288</y_icon>
+			<x_icon_32>224</x_icon_32>
+			<y_icon_32>544</y_icon_32>
+			<catalog_url>video/lecteur/</catalog_url>
+			<priority>high</priority>
+		</vlc>
+		<thunderbird>
+			<id>thunderbird</id>
+			<name><![CDATA[Thunderbird]]></name>
+			<description><![CDATA[Thunderbird est un client email qui offre de nombreuses fonctions très utiles comme : vues de dossiers avancées, étiquetage des messages, historique de navigation dans les messages, protection contre le hameçonnage, anti-spam, gestionnaire de modules complémentaires pour les extensions et les thèmes et bien plus.]]></description>
+			<developer>Mozilla Corporation</developer>
+			<license_type>MPL 2.0</license_type>
+			<source_code_url_lbk>http://download.liberkey.com/sources/Thunderbird</source_code_url_lbk>
+			<version>38.4.0</version>
+			<lks_file>Thunderbird_38.4.0.lks</lks_file>
+			<lks_size>53762</lks_size>
+			<app_size>41226240</app_size>
+			<website>http://www.mozilla.org/fr/thunderbird/</website>
+			<dependencies></dependencies>
+			<platform>XP/Vista/7/8</platform>
+			<x_icon>208</x_icon>
+			<y_icon>256</y_icon>
+			<x_icon_32>288</x_icon_32>
+			<y_icon_32>480</y_icon_32>
+			<catalog_url>internet/email/</catalog_url>
+			<priority>high</priority>
+		</thunderbird>
+		<photofiltre>
+			<id>photofiltre</id>
+			<name><![CDATA[PhotoFiltre]]></name>
+			<description><![CDATA[PhotoFiltre est un logiciel de retouche d’images très complet. Il permet d’effectuer des réglages simples ou avancés sur une image et de lui appliquer un large éventail de filtres. Son utilisation simple et intuitive offre une prise en main rapide. La barre d’outils, proposant l’accès aux filtres standards, par simple click de souris, lui donne un côté convivial.]]></description>
+			<developer>Antonio Da Cruz</developer>
+			<license_type>Freeware (non commercial environment)</license_type>
+			<source_code_url_lbk></source_code_url_lbk>
+			<version>7.2.1</version>
+			<lks_file>PhotoFiltre_7.2.1_FR.lks</lks_file>
+			<lks_size>4871374</lks_size>
+			<app_size>8337459</app_size>
+			<website>http://www.photofiltre-studio.com/pf7.htm</website>
+			<dependencies></dependencies>
+			<platform>XP/Vista/7/8</platform>
+			<x_icon>208</x_icon>
+			<y_icon>192</y_icon>
+			<x_icon_32>288</x_icon_32>
+			<y_icon_32>352</y_icon_32>
+			<catalog_url>graphisme-photo/editeur/</catalog_url>
+			<priority>high</priority>
+		</photofiltre>
+		<formatfactory>
+			<id>formatfactory</id>
+			<name><![CDATA[Format Factory]]></name>
+			<description><![CDATA[Format Factory est un convertisseur universel permettant la conversion des fichiers audio/vidéo dans de nombreux formats.
+Les applications typiques sont :
+- conversion des fichiers vidéo, audio et image
+- conversion des DVD et CD de musique
+- réparer des fichiers audio et vidéo
+- réduire de la taille des fichiers multimédia
+- conversion des formats iphone et ipod
+- etc.]]></description>
+			<developer>Free Time</developer>
+			<license_type>Freeware</license_type>
+			<source_code_url_lbk></source_code_url_lbk>
+			<version>3.6.0.0</version>
+			<lks_file>Format_Factory_3.6.0.0.lks</lks_file>
+			<lks_size>36233846</lks_size>
+			<app_size>102532010</app_size>
+			<website>http://www.pcfreetime.com/</website>
+			<dependencies></dependencies>
+			<platform>XP/Vista/7/8</platform>
+			<x_icon>48</x_icon>
+			<y_icon>112</y_icon>
+			<x_icon_32>480</x_icon_32>
+			<y_icon_32>160</y_icon_32>
+			<catalog_url>audio/convertisseur/</catalog_url>
+			<priority>high</priority>
+		</formatfactory>
+		<xmediarecode>
+			<id>xmediarecode</id>
+			<name><![CDATA[XMedia Recode]]></name>
+			<description><![CDATA[XMedia Recode est un convertisseur universel permettant la conversion des fichiers audio/vidéo dans de nombreux formats.
+Il supporte les formats 3GP, 3GPP, 3GPP2, AAC, AC3, AMR, ASF, AVI, AVISynth, DVD, FLAC, FLV, H.261, H.263, H.264, M4A , M1V, M2V, M4V, Matroska (MKV), MMF, MPEG-1, MPEG-2, MPEG-4, TS, TRP, MP2, MP3, MP4, MP4V, MOV, OGG, PSP, (S) VCD, SWF , VOB, WAV, WMA et WMV. ]]></description>
+			<developer>Sebastian Dörfler</developer>
+			<license_type>Freeware</license_type>
+			<source_code_url_lbk></source_code_url_lbk>
+			<version>3.2.6.8</version>
+			<lks_file>XMedia_Recode_3.2.6.8.lks</lks_file>
+			<lks_size>7952372</lks_size>
+			<app_size>28695503</app_size>
+			<website>http://www.xmedia-recode.de</website>
+			<dependencies></dependencies>
+			<platform>XP/Vista/7/8/10</platform>
+			<x_icon>176</x_icon>
+			<y_icon>304</y_icon>
+			<x_icon_32>224</x_icon_32>
+			<y_icon_32>576</y_icon_32>
+			<catalog_url>audio/convertisseur/</catalog_url>
+			<priority>high</priority>
+		</xmediarecode>
+		<freac>
+			<id>freac</id>
+			<name><![CDATA[Freac]]></name>
+			<description><![CDATA[Fre:ac permet d'extraire les pistes d'un CD audio et de les encoder en MP3, OGG, AAC, FLAC etc...
+Il permet également la conversion entre les formats de fichier Audio.]]></description>
+			<developer>Robert Kausch</developer>
+			<license_type>GPL 2.0</license_type>
+			<source_code_url_lbk>http://download.liberkey.com/sources/Freac</source_code_url_lbk>
+			<version>1.0.25</version>
+			<lks_file>Freac_1.0.25.lks</lks_file>
+			<lks_size>3901190</lks_size>
+			<app_size>13737951</app_size>
+			<website>http://www.freac.org/</website>
+			<dependencies></dependencies>
+			<platform>XP/Vista/7/8/10</platform>
+			<x_icon>128</x_icon>
+			<y_icon>320</y_icon>
+			<x_icon_32>128</x_icon_32>
+			<y_icon_32>608</y_icon_32>
+			<catalog_url>audio/ripper/</catalog_url>
+			<priority>high</priority>
+		</freac>
+		<converber>
+			<id>converber</id>
+			<name><![CDATA[Converber]]></name>
+			<description><![CDATA[Converber est un convertisseur d'unité. C'est un utilitaire qui aidera à faire des conversions faciles entre 1324 unités de mesure dans 38 catégories. Converber convertit tout: unités de longueur, force à l'écoulement, température, etc.]]></description>
+			<developer>Xyntec Inc.</developer>
+			<license_type>Freeware</license_type>
+			<source_code_url_lbk></source_code_url_lbk>
+			<version>2.3.1</version>
+			<lks_file>Converber_2.3.1.lks</lks_file>
+			<lks_size>583731</lks_size>
+			<app_size>1207402</app_size>
+			<website>http://www.xyntec.com/converber.htm</website>
+			<dependencies></dependencies>
+			<platform>2000/XP/Vista</platform>
+			<x_icon>0</x_icon>
+			<y_icon>64</y_icon>
+			<x_icon_32>384</x_icon_32>
+			<y_icon_32>64</y_icon_32>
+			<catalog_url>bureautique/convertisseur_d-unite/</catalog_url>
+		</converber>
+		<wink>
+			<id>wink</id>
+			<name><![CDATA[Wink]]></name>
+			<description><![CDATA[Wink est un logiciel qui permet de réaliser des tutoriaux et des présentations.
+Format d'export : Macromedia Flash (swf), exécutables autonomes (EXE), etc.]]></description>
+			<developer>Satish Kumar</developer>
+			<license_type>Freeware</license_type>
+			<source_code_url_lbk></source_code_url_lbk>
+			<version>2.0 build 1060 rev2</version>
+			<lks_file>Wink_2.0_build_1060_rev2.lks</lks_file>
+			<lks_size>3209732</lks_size>
+			<app_size>9899592</app_size>
+			<website>http://www.debugmode.com/wink/</website>
+			<dependencies></dependencies>
+			<platform>2000/XP/Vista/7</platform>
+			<x_icon>32</x_icon>
+			<y_icon>304</y_icon>
+			<x_icon_32>448</x_icon_32>
+			<y_icon_32>544</y_icon_32>
+			<catalog_url>bureautique/creation_de_tutoriel/</catalog_url>
+		</wink>
+		<notepad++>
+			<id>notepad++</id>
+			<name><![CDATA[Notepad++]]></name>
+			<description><![CDATA[Notepad++ est un éditeur de texte puissant orienté programmation.
+Voici quelques fonctionnalités :
+- Colorisation syntaxique en fonction du type de fichier
+- Multi-documents et multi-vues
+- WYSIWYG, zoom in et zoom out
+- Auto-complétion
+- Drag ‘N' Drop
+- Editeur de macro pour enregistrer et exécuter les macros.]]></description>
+			<developer>Don HO</developer>
+			<license_type>GPL 2.0</license_type>
+			<source_code_url_lbk>http://download.liberkey.com/sources/Notepad++</source_code_url_lbk>
+			<version>6.8.6</version>
+			<lks_file>Notepad++_6.8.6.lks</lks_file>
+			<lks_size>4947651</lks_size>
+			<app_size>19748173</app_size>
+			<website>http://notepad-plus-plus.org</website>
+			<dependencies></dependencies>
+			<platform>XP/Vista/7/8/10</platform>
+			<x_icon>144</x_icon>
+			<y_icon>176</y_icon>
+			<x_icon_32>160</x_icon_32>
+			<y_icon_32>320</y_icon_32>
+			<catalog_url>bureautique/editeur_de_texte/</catalog_url>
+			<priority>high</priority>
+		</notepad++>
+		<libreoffice>
+			<id>libreoffice</id>
+			<name><![CDATA[LibreOffice]]></name>
+			<description><![CDATA[LibreOffice est une suite bureautique qui intègre six applications riches en fonctionnalités :
+- Writer (traitement de texte)
+- Calc (tableur)
+- Impress (présentation)
+- Base (base de données)
+- Draw (dessin vectoriel)
+- Math (équation mathématique)]]></description>
+			<developer>The Document Foundation</developer>
+			<license_type>LGPL 3.0</license_type>
+			<source_code_url_lbk>http://download.liberkey.com/sources/LibreOffice</source_code_url_lbk>
+			<version>5.0.2</version>
+			<lks_file>LibreOffice_5.0.2.lks</lks_file>
+			<lks_size>116248109</lks_size>
+			<app_size>614314245</app_size>
+			<website>http://fr.libreoffice.org</website>
+			<dependencies></dependencies>
+			<platform>XP/Vista/7</platform>
+			<x_icon>192</x_icon>
+			<y_icon>336</y_icon>
+			<x_icon_32>64</x_icon_32>
+			<y_icon_32>608</y_icon_32>
+			<catalog_url>bureautique/suite_bureautique/</catalog_url>
+		</libreoffice>
+		<7zip-7-ziplkl>
+			<id>7zip-7-ziplkl</id>
+			<name><![CDATA[7-Zip]]></name>
+			<description><![CDATA[7-Zip permet la compression de fichiers aux formats 7z, ZIP, GZIP, BZIP2 et TAR.
+Décompression des formats 7z, ZIP, GZIP, BZIP2 and TAR + RAR, CAB, ISO, ARJ, LZH, CHM, MSI, WIM, Z, CPIO, RPM, DEB, NSIS etc.]]></description>
+			<developer>Igor Pavlov</developer>
+			<license_type>LGPL 2.1</license_type>
+			<source_code_url_lbk>http://download.liberkey.com/sources/7-Zip</source_code_url_lbk>
+			<version>15.12</version>
+			<lks_file>7-Zip_15.12.lks</lks_file>
+			<lks_size>1967749</lks_size>
+			<app_size>8562857</app_size>
+			<website>http://www.7-zip.org</website>
+			<dependencies></dependencies>
+			<platform>XP/Vista/7/8/10</platform>
+			<x_icon>64</x_icon>
+			<y_icon>16</y_icon>
+			<x_icon_32>0</x_icon_32>
+			<y_icon_32>0</y_icon_32>
+			<catalog_url>gestion_des_fichiers/compression/</catalog_url>
+			<priority>high</priority>
+		</7zip-7-ziplkl>
+		<universalextractor>
+			<id>universalextractor</id>
+			<name><![CDATA[Universal Extractor]]></name>
+			<description><![CDATA[Universal Extractor est un programme qui extrait tous les types de fichiers, que ce soit un simple fichier ZIP, 7zip, RAR etc., un programme d'installation (.EXE) réalisé avec Inno Setup, NSIS etc. ou même un fichier Windows installer (.MSI).
+Il n'est pas destiné à remplacer un logiciel spécialisé dans l'archivage comme par exemple 7-Zip mais plutôt à décompresser les fichiers d'installation (.EXE, .MSI).]]></description>
+			<developer>Jared Breland</developer>
+			<license_type>GPL 2.0</license_type>
+			<source_code_url_lbk>http://download.liberkey.com/sources/UniversalExtractor</source_code_url_lbk>
+			<version>1.6.1 rev4</version>
+			<lks_file>Universal_Extractor_1.6.1_rev4.lks</lks_file>
+			<lks_size>4977475</lks_size>
+			<app_size>11350165</app_size>
+			<website>http://www.legroom.net/software/uniextract</website>
+			<dependencies></dependencies>
+			<platform>2000/XP/Vista/7</platform>
+			<x_icon>176</x_icon>
+			<y_icon>272</y_icon>
+			<x_icon_32>224</x_icon_32>
+			<y_icon_32>512</y_icon_32>
+			<catalog_url>gestion_des_fichiers/compression/</catalog_url>
+		</universalextractor>
+		<picpick>
+			<id>picpick</id>
+			<name><![CDATA[PicPick]]></name>
+			<description><![CDATA[PicPick est un logiciel graphique très complet pour les développeurs de logiciels, les concepteurs graphiques et tout utilisateur. Il a une interface intuitive et il est simple d'utilisation. Après le démarrage du logiciel, il vous suffit de sélectionner l'un des outils du menu PicPick.
+Ses fonctionnalités sont nombreuses : puissant outil de capture, éditeur d'image, sélecteur de couleur, une règle de pixel, un tableau blanc etc.]]></description>
+			<developer>Wiziple software</developer>
+			<license_type>Freeware (non commercial environment)</license_type>
+			<source_code_url_lbk></source_code_url_lbk>
+			<version>4.0.8</version>
+			<lks_file>PicPick_4.0.8.lks</lks_file>
+			<lks_size>8309410</lks_size>
+			<app_size>31091830</app_size>
+			<website>http://www.picpick.org</website>
+			<dependencies></dependencies>
+			<platform>XP/Vista/7/8/10</platform>
+			<x_icon>224</x_icon>
+			<y_icon>192</y_icon>
+			<x_icon_32>320</x_icon_32>
+			<y_icon_32>352</y_icon_32>
+			<catalog_url>graphisme-photo/copie_d-ecran/</catalog_url>
+			<priority>high</priority>
+		</picpick>
+		<inkscape>
+			<id>inkscape</id>
+			<name><![CDATA[Inkscape]]></name>
+			<description><![CDATA[Inkscape est un logiciel d'édition de graphismes vectoriels, doté de capacités similaires à Illustrator, Freehand, CorelDraw ou Xara X, utilisant le format de fichiers Scalable Vector Graphics (SVG) standard du W3C. Les fonctionnalités supportées du format SVG incluent les formes, les chemins, le texte, les marqueurs, les clônes, les canaux alpha, les transformations, les motifs et les groupements. Il supporte également l'édition de nœuds, les couches, les opérations de chemins complexes, la vectorisation des bitmaps, le texte suivant des chemins, le texte contournant des objets, l'édition XML directe et beaucoup plus. Il peut importer des formats tels que le Postscript, EPS, JPEG, PNG et TIFF, et exporte en PNG ainsi qu'en de nombreux formats vectoriels.]]></description>
+			<developer>inkscape.org</developer>
+			<license_type>GPL 2.0</license_type>
+			<source_code_url_lbk>http://download.liberkey.com/sources/Inkscape</source_code_url_lbk>
+			<version>0.91</version>
+			<lks_file>Inkscape_0.91.lks</lks_file>
+			<lks_size>49111643</lks_size>
+			<app_size>475462555</app_size>
+			<website>http://www.inkscape.org/</website>
+			<dependencies></dependencies>
+			<platform>XP/Vista/7</platform>
+			<x_icon>16</x_icon>
+			<y_icon>144</y_icon>
+			<x_icon_32>416</x_icon_32>
+			<y_icon_32>224</y_icon_32>
+			<catalog_url>graphisme-photo/editeur/</catalog_url>
+			<priority>high</priority>
+		</inkscape>
+		<faststoneimageviewer>
+			<id>faststoneimageviewer</id>
+			<name><![CDATA[FastStone Image Viewer]]></name>
+			<description><![CDATA[FastStone Image Viewer est un navigateur d'images, convertisseur et éditeur. Il intègre de nombreuses fonctions: visualisation, gestion, comparaison, anti-yeux rouge, email, redimensionnement, découpe, ajustement des couleurs, etc. Il supporte les principaux formats de fichiers graphiques.]]></description>
+			<developer>FastStone Soft</developer>
+			<license_type>Freeware (non commercial environment)</license_type>
+			<source_code_url_lbk></source_code_url_lbk>
+			<version>5.5</version>
+			<lks_file>FastStone_Image_Viewer_5.5.lks</lks_file>
+			<lks_size>5441041</lks_size>
+			<app_size>15560411</app_size>
+			<website>http://www.faststone.org/FSViewerDetail.htm</website>
+			<dependencies></dependencies>
+			<platform>XP/Vista/7/8/10</platform>
+			<x_icon>80</x_icon>
+			<y_icon>96</y_icon>
+			<x_icon_32>32</x_icon_32>
+			<y_icon_32>160</y_icon_32>
+			<catalog_url>graphisme-photo/visualisateur/</catalog_url>
+			<priority>high</priority>
+		</faststoneimageviewer>
+		<httrack>
+			<id>httrack</id>
+			<name><![CDATA[HTTrack]]></name>
+			<description><![CDATA[HTTrack est un aspirateur de sites Web.
+Il vous permet de télécharger un site Web d'Internet vers votre disque dur, en construisant récursivement tous les répertoires, récupérant html, images et fichiers du serveur vers votre ordinateur.]]></description>
+			<developer>HTTrack</developer>
+			<license_type>GPL 2.0</license_type>
+			<source_code_url_lbk>http://download.liberkey.com/sources/HTTrack</source_code_url_lbk>
+			<version>3.48-21</version>
+			<lks_file>HTTrack_3.48-21.lks</lks_file>
+			<lks_size>2924814</lks_size>
+			<app_size>12866919</app_size>
+			<website>http://www.httrack.com/page/1/fr/index.html</website>
+			<dependencies></dependencies>
+			<platform>XP/Vista/7/8</platform>
+			<x_icon>144</x_icon>
+			<y_icon>128</y_icon>
+			<x_icon_32>160</x_icon_32>
+			<y_icon_32>224</y_icon_32>
+			<catalog_url>internet/aspirateur_de_site/</catalog_url>
+			<priority>high</priority>
+		</httrack>
+		<firefox>
+			<id>firefox</id>
+			<name><![CDATA[Firefox]]></name>
+			<description><![CDATA[Firefox est un navigateur web qui offre la navigation par onglet combinée avec de nombreuses fonctions très utiles comme le blocage automatique des fenêtres intempestives, une gestion avancée des favoris (avec support des flux RSS), un gestionnaire de mot de passe, le zoom complet des pages et bien plus.
+Il peut être complété grâce à des centaines de plugins (extensions) librement téléchargeables.]]></description>
+			<developer>Mozilla Corporation</developer>
+			<license_type>MPL 2.0</license_type>
+			<source_code_url_lbk>http://download.liberkey.com/sources/Firefox</source_code_url_lbk>
+			<version>43.0.4</version>
+			<lks_file>Firefox_43.0.4.lks</lks_file>
+			<lks_size>49773</lks_size>
+			<app_size>38338560</app_size>
+			<website>http://www.mozilla.org/fr/firefox/</website>
+			<dependencies></dependencies>
+			<platform>XP/Vista/7</platform>
+			<x_icon>224</x_icon>
+			<y_icon>96</y_icon>
+			<x_icon_32>320</x_icon_32>
+			<y_icon_32>160</y_icon_32>
+			<catalog_url>internet/navigateur/</catalog_url>
+			<priority>high</priority>
+		</firefox>
+		<opera>
+			<id>opera</id>
+			<name><![CDATA[Opera]]></name>
+			<description><![CDATA[Opera est navigateur internet très rapide, sécurisé, configurable et supportant parfaitement les standards du WEB.
+Toutes les technologies modernes sont intégrées comme les onglets, sessions, zoom sur les pages, blocage de contenu, widget, favoris intelligents.
+Il intègre également un client de messagerie (avec filtrage des spams), un gestionnaire de news, un gestionnaire de téléchargement (avec support natif de Bittorent) et bien plus.]]></description>
+			<developer>Opera Software ASA</developer>
+			<license_type>Freeware</license_type>
+			<source_code_url_lbk></source_code_url_lbk>
+			<version>34.0.2036.25</version>
+			<lks_file>Opera_34.0.2036.25.lks</lks_file>
+			<lks_size>36969328</lks_size>
+			<app_size>143936983</app_size>
+			<website>http://www.opera.com</website>
+			<dependencies></dependencies>
+			<platform>XP/Vista/7/8/10</platform>
+			<x_icon>0</x_icon>
+			<y_icon>192</y_icon>
+			<x_icon_32>384</x_icon_32>
+			<y_icon_32>320</y_icon_32>
+			<catalog_url>internet/navigateur/</catalog_url>
+			<priority>high</priority>
+		</opera>
+		<ccleaner>
+			<id>ccleaner</id>
+			<name><![CDATA[CCleaner]]></name>
+			<description><![CDATA[CCleaner est un outil d'optimisation et de nettoyage de votre système. Il supprime les fichiers inutilisés ce qui permet de rendre Windows plus rapide et libère de la place disque. Il nettoie également les traces de vos activités sur Internet ainsi que les historiques des navigateurs. De plus, vous avez accès à un nettoyeur pour la base de registre.]]></description>
+			<developer>Piriform Ltd</developer>
+			<license_type>Freeware</license_type>
+			<source_code_url_lbk></source_code_url_lbk>
+			<version>5.13.5460</version>
+			<lks_file>CCleaner_5.13.5460.lks</lks_file>
+			<lks_size>4077591</lks_size>
+			<app_size>18226309</app_size>
+			<website>http://www.piriform.com/ccleaner</website>
+			<dependencies></dependencies>
+			<platform>XP/Vista/7/8/10</platform>
+			<x_icon>240</x_icon>
+			<y_icon>32</y_icon>
+			<x_icon_32>352</x_icon_32>
+			<y_icon_32>32</y_icon_32>
+			<catalog_url>outils_systeme/nettoyeur-desinstalleur/</catalog_url>
+			<priority>high</priority>
+		</ccleaner>
+		<clamwin>
+			<id>clamwin</id>
+			<name><![CDATA[ClamWin]]></name>
+			<description><![CDATA[ClamWin est un antivirus avec mise à jour par Internet.
+Nota : il n'intègre pas de protection en temps réel, il faut lancer un scan manuel pour détecter les fichiers infectés.]]></description>
+			<developer>alch and Gianluigi Tiesi</developer>
+			<license_type>GPL 2.0</license_type>
+			<source_code_url_lbk>http://download.liberkey.com/sources/ClamWin</source_code_url_lbk>
+			<version>0.98.7</version>
+			<lks_file>ClamWin_0.98.7.lks</lks_file>
+			<lks_size>42439397</lks_size>
+			<app_size>71127879</app_size>
+			<website>http://www.clamwin.com/</website>
+			<dependencies></dependencies>
+			<platform>XP/Vista/7/8/10</platform>
+			<x_icon>96</x_icon>
+			<y_icon>48</y_icon>
+			<x_icon_32>64</x_icon_32>
+			<y_icon_32>64</y_icon_32>
+			<catalog_url>securite/anti_virus-spyware/</catalog_url>
+			<priority>high</priority>
+		</clamwin>
+		<mediaplayerclassichc>
+			<id>mediaplayerclassichc</id>
+			<name><![CDATA[MPC HomeCinema]]></name>
+			<description><![CDATA[MPC HomeCinema est un lecteur multimédia qui permet la lecture de multiples formats audio et vidéo. Il est basé sur Media Player Classic et intègre des fonctionnalités plus évoluées. Il peut lire les DVD, fichiers audio (MP3, Ogg etc.) et fichiers vidéo (H.264, DivX, Xvid, Mpeg4, FLV4 etc.) sans l'obligation d'installer les codecs sur l'ordinateur hôte.]]></description>
+			<developer>MPC HomeCinema Team</developer>
+			<license_type>GPL 3.0</license_type>
+			<source_code_url_lbk>http://download.liberkey.com/sources/MPCHomeCinema</source_code_url_lbk>
+			<version>1.7.9</version>
+			<lks_file>MPC_HomeCinema_1.7.9.lks</lks_file>
+			<lks_size>24351177</lks_size>
+			<app_size>105853108</app_size>
+			<website>http://mpc-hc.sourceforge.net/</website>
+			<dependencies></dependencies>
+			<platform>XP/Vista/7/8/10</platform>
+			<x_icon>32</x_icon>
+			<y_icon>160</y_icon>
+			<x_icon_32>448</x_icon_32>
+			<y_icon_32>256</y_icon_32>
+			<catalog_url>video/lecteur/</catalog_url>
+			<priority>high</priority>
+		</mediaplayerclassichc>
+		<pdfxchangeviewer>
+			<id>pdfxchangeviewer</id>
+			<name><![CDATA[PDF-XChange Viewer]]></name>
+			<description><![CDATA[PDF-XChange Viewer permet de visionner et d'imprimer vos documents au format PDF.
+Il est également possible d'ajouter des annotations à vos fichiers PDF.]]></description>
+			<developer>Tracker Software Products Ltd.</developer>
+			<license_type>Freeware</license_type>
+			<source_code_url_lbk></source_code_url_lbk>
+			<version>2.5.315.0</version>
+			<lks_file>PDF-XChange_Viewer_2.5.315.0.lks</lks_file>
+			<lks_size>12684864</lks_size>
+			<app_size>41274148</app_size>
+			<website>http://www.tracker-software.com/product/pdf-xchange-viewer</website>
+			<dependencies></dependencies>
+			<platform>XP/Vista/7/8/10</platform>
+			<x_icon>144</x_icon>
+			<y_icon>192</y_icon>
+			<x_icon_32>160</x_icon_32>
+			<y_icon_32>352</y_icon_32>
+			<catalog_url>bureautique/pdf/</catalog_url>
+			<priority>high</priority>
+		</pdfxchangeviewer>
+		<greenfishiconeditorpro>
+			<id>greenfishiconeditorpro</id>
+			<name><![CDATA[Greenfish Icon Editor Pro]]></name>
+			<description><![CDATA[Greenfish Icon Editor Pro est un outil facile à utiliser pour la conception et la retouche des icônes, curseurs, images animées et statiques.
+Il vous permet de :
+- utiliser les formats ICO, CUR, ANI, PNG, XPM, BMP, JPEG et GIF
+- faire des animations (fichiers curseurs et GIF)
+- créer et modifier des bibliothèques d'icônes
+- modifier les icônes dans les fichiers exécutables
+- convertir par lot les images vers des icônes, ou à un autre format d'image
+et beaucoup plus.]]></description>
+			<developer>Balázs Szalkai</developer>
+			<license_type>GPL 3.0</license_type>
+			<source_code_url_lbk></source_code_url_lbk>
+			<version>3.31</version>
+			<lks_file>Greenfish_Icon_Editor_Pro_3.31.lks</lks_file>
+			<lks_size>3133809</lks_size>
+			<app_size>11192074</app_size>
+			<website>http://greenfishsoftware.blogspot.com/</website>
+			<dependencies></dependencies>
+			<platform>XP/Vista/7/8</platform>
+			<x_icon>0</x_icon>
+			<y_icon>128</y_icon>
+			<x_icon_32>384</x_icon_32>
+			<y_icon_32>192</y_icon_32>
+			<catalog_url>graphisme-photo/editeur_d-icone/</catalog_url>
+			<priority>high</priority>
+		</greenfishiconeditorpro>
+		<imgburn>
+			<id>imgburn</id>
+			<name><![CDATA[ImgBurn]]></name>
+			<description><![CDATA[ImgBurn permet de graver les CD / DVD / HD DVD / Blu-ray.
+Il supporte de nombreux formats d'image : BIN, CUE, DI, DVD, GI, IMG, ISO, MDS, NRG and PDI.
+Il peut graver les CD audio et supporte tous les formats si les filtres DirectShow sont installés sur le PC : AAC, APE, FLAC, M4A, MP3, MP4, MPC, OGG, PCM, WAV, WMA and WV.]]></description>
+			<developer>LIGHTNING UK!</developer>
+			<license_type>Freeware</license_type>
+			<source_code_url_lbk></source_code_url_lbk>
+			<version>2.5.8.0</version>
+			<lks_file>ImgBurn_2.5.8.0.lks</lks_file>
+			<lks_size>3024947</lks_size>
+			<app_size>3354649</app_size>
+			<website>http://www.imgburn.com/</website>
+			<dependencies></dependencies>
+			<platform>XP/Vista/7/8</platform>
+			<x_icon>240</x_icon>
+			<y_icon>128</y_icon>
+			<x_icon_32>352</x_icon_32>
+			<y_icon_32>224</y_icon_32>
+			<catalog_url>cd-dvd/gravure/</catalog_url>
+			<priority>high</priority>
+		</imgburn>
+		<dia>
+			<id>dia</id>
+			<name><![CDATA[Dia]]></name>
+			<description><![CDATA[Dia permet de dessiner de nombreux types de diagrammes. Il a des outils spéciaux pour réaliser rapidement des diagrammes de décision, des diagrammes UML, des organigrammes, des diagrammes réseau et bien plus. Il est également possible d'ajouter de nouveaux objets en écrivant des fichiers XML simples.
+Il peut charger et sauvegarder les diagrammes au format XML, les exporter aux formats EPS, SVG, Xfig, WMF et PNG et les imprimer.]]></description>
+			<developer>Steffen Macke</developer>
+			<license_type>GPL 2.0</license_type>
+			<source_code_url_lbk>http://download.liberkey.com/sources/Dia</source_code_url_lbk>
+			<version>0.97.2</version>
+			<lks_file>Dia_0.97.2.lks</lks_file>
+			<lks_size>13585240</lks_size>
+			<app_size>64093804</app_size>
+			<website>http://dia-installer.de/index.html.en</website>
+			<dependencies></dependencies>
+			<platform>2000/XP/Vista/7</platform>
+			<x_icon>176</x_icon>
+			<y_icon>64</y_icon>
+			<x_icon_32>224</x_icon_32>
+			<y_icon_32>96</y_icon_32>
+			<catalog_url>bureautique/editeur_de_diagrammes/</catalog_url>
+		</dia>
+		<unlocker>
+			<id>unlocker</id>
+			<name><![CDATA[Unlocker]]></name>
+			<description><![CDATA[Unlocker permet d'effacer un fichier ou un répertoire bloqué sur votre système (refusant de s'effacer).
+Comment l'utiliser ?
+Solution 1 : faire un raccourci du fichier UnlockerLKL.exe sur le bureau et glisser sur le raccourci les fichiers ou dossiers bloqués.
+Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations de fichier). Ainsi, un click droit sur un fichier ou répertoire permet de sélectionner Unlocker.]]></description>
+			<developer>Cedrick Collomb</developer>
+			<license_type>Freeware</license_type>
+			<source_code_url_lbk></source_code_url_lbk>
+			<version>1.9.1</version>
+			<lks_file>Unlocker_1.9.1.lks</lks_file>
+			<lks_size>111874</lks_size>
+			<app_size>351439</app_size>
+			<website>http://www.emptyloop.com/unlocker</website>
+			<dependencies></dependencies>
+			<platform>2000/XP/Vista/7</platform>
+			<x_icon>208</x_icon>
+			<y_icon>272</y_icon>
+			<x_icon_32>288</x_icon_32>
+			<y_icon_32>512</y_icon_32>
+			<catalog_url>outils_systeme/nettoyeur-desinstalleur/</catalog_url>
+		</unlocker>
+		<recuva>
+			<id>recuva</id>
+			<name><![CDATA[Recuva]]></name>
+			<description><![CDATA[Recuva est un utilitaire qui permet de restaurer les fichiers accidentellement supprimés de votre ordinateur. Cela inclut les fichiers supprimés de la corbeille ainsi que les images et autres fichiers qui ont été supprimés par erreur d'une cartes mémoire d'appareil photo numérique, d'un lecteur MP3, etc. Il peut même récupérer les fichiers qui ont été supprimés par des bogues, plantages ou des virus.]]></description>
+			<developer>Piriform Ltd</developer>
+			<license_type>Freeware</license_type>
+			<source_code_url_lbk></source_code_url_lbk>
+			<version>1.52.1086</version>
+			<lks_file>Recuva_1.52.1086.lks</lks_file>
+			<lks_size>2674207</lks_size>
+			<app_size>10481579</app_size>
+			<website>http://www.piriform.com/recuva</website>
+			<dependencies></dependencies>
+			<platform>XP/Vista/7/8</platform>
+			<x_icon>48</x_icon>
+			<y_icon>224</y_icon>
+			<x_icon_32>480</x_icon_32>
+			<y_icon_32>384</y_icon_32>
+			<catalog_url>gestion_des_fichiers/restauration_apres_effacement/</catalog_url>
+			<priority>high</priority>
+		</recuva>
+		<filezilla>
+			<id>filezilla</id>
+			<name><![CDATA[FileZilla]]></name>
+			<description><![CDATA[Filezilla permet de se connecter à distance sur un serveur FTP pour y télécharger des fichiers.
+Il supporte FTP, FTP sur SSL/TLS (FTPS), SSH, IPV6, mode reprise, transfert des fichiers > 4GB, un gestionnaire de site, la gestion des files d'attente, mode glisser / déposer,  HTTP/1.1, SOCKS5, FTP-Proxy et plus.
+]]></description>
+			<developer>FileZilla Project</developer>
+			<license_type>GPL 2.0</license_type>
+			<source_code_url_lbk>http://download.liberkey.com/sources/Filezilla</source_code_url_lbk>
+			<version>3.14.1</version>
+			<lks_file>FileZilla_3.14.1.lks</lks_file>
+			<lks_size>5564375</lks_size>
+			<app_size>24692113</app_size>
+			<website>http://filezilla.sourceforge.net/</website>
+			<dependencies></dependencies>
+			<platform>Vista/7/8/10</platform>
+			<x_icon>192</x_icon>
+			<y_icon>96</y_icon>
+			<x_icon_32>256</x_icon_32>
+			<y_icon_32>160</y_icon_32>
+			<catalog_url>internet/ftp/</catalog_url>
+			<priority>high</priority>
+		</filezilla>
+	</apps>
+	<app_icons>
+		<icons_16>http://ac-nantes.pro.liberkey.com/images/ac-nantes/apps/tree_icons.png</icons_16>
+		<icons_32>http://ac-nantes.pro.liberkey.com/images/ac-nantes/apps/app_icons_32.png</icons_32>
+	</app_icons>
+	<lks_root>http://ac-nantes.pro.liberkey.com/packages/</lks_root>
+</LiberKeySuites>

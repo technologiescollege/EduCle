@@ -265,13 +265,6 @@
 					<AppName>PhotoFiltre</AppName>
 					<CmdArgs>&quot;%1&quot;</CmdArgs>
 				</Action>
-				<Action name="ouvrir_avec_paint.net_liberkey">
-					<Description.en>Open with Paint.NET (LiberKey)</Description.en>
-					<Description.fr>Ouvrir avec Paint.NET (LiberKey)</Description.fr>
-					<ExePath>%APPS%\Paint.net\Paint.netLKL.exe</ExePath>
-					<AppName>Paint.NET</AppName>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
 			</Shell>
 			<TypeIcon index="0">%APPS%\FastStoneImageViewer\FastStoneImageViewerLKL.exe</TypeIcon>
 		</FileType>
@@ -328,13 +321,6 @@
 					<AppName>PhotoFiltre</AppName>
 					<CmdArgs>&quot;%1&quot;</CmdArgs>
 				</Action>
-				<Action name="ouvrir_avec_paint.net_liberkey">
-					<Description.en>Open with Paint.NET (LiberKey)</Description.en>
-					<Description.fr>Ouvrir avec Paint.NET (LiberKey)</Description.fr>
-					<ExePath>%APPS%\Paint.net\Paint.netLKL.exe</ExePath>
-					<AppName>Paint.NET</AppName>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
 			</Shell>
 			<TypeIcon index="0">%APPS%\FastStoneImageViewer\FastStoneImageViewerLKL.exe</TypeIcon>
 		</FileType>
@@ -354,13 +340,6 @@
 					<Description.fr>Ouvrir avec PhotoFiltre (LiberKey)</Description.fr>
 					<ExePath>%APPS%\PhotoFiltre\PhotoFiltreLKL.exe</ExePath>
 					<AppName>PhotoFiltre</AppName>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-				<Action name="ouvrir_avec_paint.net_liberkey">
-					<Description.en>Open with Paint.NET (LiberKey)</Description.en>
-					<Description.fr>Ouvrir avec Paint.NET (LiberKey)</Description.fr>
-					<ExePath>%APPS%\Paint.net\Paint.netLKL.exe</ExePath>
-					<AppName>Paint.NET</AppName>
 					<CmdArgs>&quot;%1&quot;</CmdArgs>
 				</Action>
 			</Shell>
@@ -405,13 +384,6 @@
 					<AppName>PhotoFiltre</AppName>
 					<CmdArgs>&quot;%1&quot;</CmdArgs>
 				</Action>
-				<Action name="ouvrir_avec_paint.net_liberkey">
-					<Description.en>Open with Paint.NET (LiberKey)</Description.en>
-					<Description.fr>Ouvrir avec Paint.NET (LiberKey)</Description.fr>
-					<ExePath>%APPS%\Paint.net\Paint.netLKL.exe</ExePath>
-					<AppName>Paint.NET</AppName>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
 			</Shell>
 			<TypeIcon index="0">%APPS%\FastStoneImageViewer\FastStoneImageViewerLKL.exe</TypeIcon>
 		</FileType>
@@ -445,13 +417,6 @@
 					<Description.fr>Ouvrir avec PhotoFiltre (LiberKey)</Description.fr>
 					<ExePath>%APPS%\PhotoFiltre\PhotoFiltreLKL.exe</ExePath>
 					<AppName>PhotoFiltre</AppName>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-				<Action name="ouvrir_avec_paint.net_liberkey">
-					<Description.en>Open with Paint.NET (LiberKey)</Description.en>
-					<Description.fr>Ouvrir avec Paint.NET (LiberKey)</Description.fr>
-					<ExePath>%APPS%\Paint.net\Paint.netLKL.exe</ExePath>
-					<AppName>Paint.NET</AppName>
 					<CmdArgs>&quot;%1&quot;</CmdArgs>
 				</Action>
 			</Shell>
@@ -892,68 +857,6 @@
 				</Action>
 			</Shell>
 		</FileType>
-		<FileType ext="cel">
-			<TypeDescription.en>Celestia file (CEL)</TypeDescription.en>
-			<TypeDescription.fr>Fichier Celestia (CEL)</TypeDescription.fr>
-			<Shell>
-				<Action name="celestia">
-					<ExePath>%APPS%\Celestia\CelestiaLKL.exe</ExePath>
-					<AppName>Celestia</AppName>
-					<Description.en>Open with Celestia (LiberKey)</Description.en>
-					<Description.fr>Ouvrir avec Celestia (LiberKey)</Description.fr>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-			</Shell>
-		</FileType>
-		<FileType ext="celx">
-			<TypeDescription.en>Celestia file (CELX)</TypeDescription.en>
-			<TypeDescription.fr>Fichier Celestia (CELX)</TypeDescription.fr>
-			<Shell>
-				<Action name="celestia">
-					<ExePath>%APPS%\Celestia\CelestiaLKL.exe</ExePath>
-					<AppName>Celestia</AppName>
-					<Description.en>Open with Celestia (LiberKey)</Description.en>
-					<Description.fr>Ouvrir avec Celestia (LiberKey)</Description.fr>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-			</Shell>
-		</FileType>
-		<FileType ext="gom">
-			<TypeDescription.fr>Fichiers GOM</TypeDescription.fr>
-			<Shell>
-				<Action name="gridomatic_application">
-					<ExePath>%MYAPPS%\Matieres\GridOmatic.exe</ExePath>
-					<AppName>GridOmatic Application</AppName>
-					<Description.fr>Ouvrir avec GridOmatic Application (LiberKey)</Description.fr>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-			</Shell>
-		</FileType>
-		<FileType ext="plt">
-			<TypeDescription.fr>Fichiers PLT</TypeDescription.fr>
-			<Shell>
-				<Action name="pylote">
-					<ExePath>%MYAPPS%\pylote_win\pylote.exe</ExePath>
-					<AppName>Pylote</AppName>
-					<Description.fr>Ouvrir avec Pylote (LiberKey)</Description.fr>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-			</Shell>
-		</FileType>
-		<FileType ext="sla">
-			<TypeDescription.fr>Fichier Scribus (SLA)</TypeDescription.fr>
-			<Shell>
-				<Action name="scribus">
-					<ExePath>%APPS%\Scribus\ScribusLKL.exe</ExePath>
-					<AppName>Scribus</AppName>
-					<Description.fr>Ouvrir avec Scribus (LiberKey)</Description.fr>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-					<Description.en>Open with Scribus (LiberKey)</Description.en>
-				</Action>
-			</Shell>
-			<TypeDescription.en>Scribus file (SLA)</TypeDescription.en>
-			<TypeIcon index="0">%APPS%\Scribus\ScribusLKL.exe</TypeIcon>
-		</FileType>
 		<FileType ext="wnk">
 			<TypeDescription.en>Wink file (WNK)</TypeDescription.en>
 			<TypeDescription.fr>Fichier Wink (WNK)</TypeDescription.fr>
@@ -1281,168 +1184,6 @@
 				</Action>
 			</Shell>
 		</FileType>
-		<FileType ext="mm" addmode="replace">
-			<TypeDescription.fr>Fichiers MM</TypeDescription.fr>
-			<Shell>
-				<Action name="freeplane_portable">
-					<ExePath>%MYAPPS%\FreeplanePortable\FreeplanePortable.exe</ExePath>
-					<AppName>Freeplane Portable</AppName>
-					<Description.fr>Ouvrir avec Freeplane Portable (LiberKey)</Description.fr>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-			</Shell>
-			<TypeIcon index="0">%MYAPPS%\FreeplanePortable\FreeplanePortable.exe</TypeIcon>
-		</FileType>
-		<FileType ext="cao" addmode="replace">
-			<TypeDescription.fr>Fichiers CAO</TypeDescription.fr>
-			<Shell>
-				<Action name="gcao3d">
-					<ExePath>%MYAPPS%\Matieres\Technologie\Wcharly\Gcao3d.exe</ExePath>
-					<AppName>Gcao3d</AppName>
-					<Description.fr>Ouvrir avec CAO (LiberKey)</Description.fr>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-			</Shell>
-			<TypeIcon index="0">%MYAPPS%\Matieres\Technologie\Wcharly\Gcao3d.exe</TypeIcon>
-		</FileType>
-		<FileType ext="fao" addmode="replace">
-			<TypeDescription.fr>Fichiers FAO</TypeDescription.fr>
-			<Shell>
-				<Action name="application_graal_fao">
-					<ExePath>%MYAPPS%\Matieres\Technologie\Wcharly\GFao.exe</ExePath>
-					<AppName>Application Graal FAO</AppName>
-					<Description.fr>Ouvrir avec  FAO (LiberKey)</Description.fr>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-			</Shell>
-			<TypeIcon index="0">%MYAPPS%\Matieres\Technologie\Wcharly\GFao.exe</TypeIcon>
-		</FileType>
-		<FileType ext="pcb" addmode="replace">
-			<TypeDescription.fr>Fichiers PCB</TypeDescription.fr>
-			<Shell>
-				<Action name="gpilote">
-					<ExePath>%MYAPPS%\Matieres\Technologie\Wcharly\GPilote.exe</ExePath>
-					<AppName>GPilote</AppName>
-					<Description.fr>Ouvrir avec PiloteCharlyGraal (LiberKey)</Description.fr>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-			</Shell>
-			<TypeIcon index="0">%MYAPPS%\Matieres\Technologie\Wcharly\GPilote.exe</TypeIcon>
-		</FileType>
-		<FileType ext="vpj">
-			<TypeDescription.fr>Fichiers VPJ</TypeDescription.fr>
-			<Shell>
-				<Action name="videopad">
-					<ExePath>%MYAPPS%\VideoPad\VideoPad Video Editor.exe</ExePath>
-					<AppName>VideoPad</AppName>
-					<Description.fr>Ouvrir avec VideoPad (LiberKey)</Description.fr>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-			</Shell>
-			<TypeIcon index="0">%MYAPPS%\VideoPad\VideoPad Video Editor.exe</TypeIcon>
-		</FileType>
-		<FileType ext="ggb">
-			<TypeDescription.fr>Fichiers GGB</TypeDescription.fr>
-			<Shell>
-				<Action name="lk_open_32df0c1">
-					<ExePath>%MYAPPS%\Matieres\Maths\geogebra\GeoGebra.exe</ExePath>
-					<Description.fr>Ouvrir avec  (LiberKey)</Description.fr>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-			</Shell>
-			<TypeIcon index="0">%MYAPPS%\Matieres\Maths\geogebra\GeoGebra.exe</TypeIcon>
-		</FileType>
-		<FileType ext="ggt">
-			<TypeDescription.fr>Fichiers GGT</TypeDescription.fr>
-			<Shell>
-				<Action name="lk_open_3744675">
-					<ExePath>%MYAPPS%\Matieres\Maths\geogebra\GeoGebra.exe</ExePath>
-					<Description.fr>Ouvrir avec  (LiberKey)</Description.fr>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-			</Shell>
-			<TypeIcon index="0">%MYAPPS%\Matieres\Maths\geogebra\GeoGebra.exe</TypeIcon>
-		</FileType>
-		<FileType ext="ng3">
-			<TypeDescription.fr>Fichiers NG3</TypeDescription.fr>
-			<Shell>
-				<Action name="lk_open_1b9d656">
-					<ExePath>%MYAPPS%\Matieres\Technologie\energy3d\energy3D.bat</ExePath>
-					<Description.fr>Ouvrir avec  (LiberKey)</Description.fr>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-			</Shell>
-			<TypeIcon index="0">%MYAPPS%\Matieres\Technologie\energy3d\energy3d.ico</TypeIcon>
-		</FileType>
-		<FileType ext="gan">
-			<TypeDescription.fr>Fichiers GAN</TypeDescription.fr>
-			<Shell>
-				<Action name="lk_open_1ccbc71">
-					<ExePath>%MYAPPS%\Matieres\Technologie\ganttproject\ganttproject.exe</ExePath>
-					<Description.fr>Ouvrir avec  (LiberKey)</Description.fr>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-			</Shell>
-			<TypeIcon index="0">%MYAPPS%\Matieres\Technologie\ganttproject\ganttproject.exe</TypeIcon>
-		</FileType>
-		<FileType ext="org">
-			<TypeDescription.fr>Fichiers ORG</TypeDescription.fr>
-			<Shell>
-				<Action name="lk_open_49e28d9">
-					<ExePath>%MYAPPS%\Matieres\Technologie\Organigram\organigram.exe</ExePath>
-					<Description.fr>Ouvrir avec  (LiberKey)</Description.fr>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-			</Shell>
-			<TypeIcon index="0">%MYAPPS%\Matieres\Technologie\Organigram\organigram.exe</TypeIcon>
-		</FileType>
-		<FileType ext="rpp">
-			<TypeDescription.fr>Fichiers RPP</TypeDescription.fr>
-			<Shell>
-				<Action name="_robo_pro_un_langage_de_programmation_graphique_">
-					<ExePath>%MYAPPS%\Matieres\Technologie\ROBOPro\ROBOPro.exe</ExePath>
-					<AppName> ROBO Pro un langage de programmation graphique </AppName>
-					<Description.fr>Ouvrir avec  ROBO Pro un langage de programmation graphique  (LiberKey)</Description.fr>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-			</Shell>
-			<TypeIcon index="0">%MYAPPS%\Matieres\Technologie\ROBOPro\ROBOPro.exe</TypeIcon>
-		</FileType>
-		<FileType ext="rpl">
-			<TypeDescription.fr>Fichiers RPL</TypeDescription.fr>
-			<Shell>
-				<Action name="_robo_pro_un_langage_de_programmation_graphique_">
-					<ExePath>%MYAPPS%\Matieres\Technologie\ROBOPro\ROBOPro.exe</ExePath>
-					<AppName> ROBO Pro un langage de programmation graphique </AppName>
-					<Description.fr>Ouvrir avec  ROBO Pro un langage de programmation graphique  (LiberKey)</Description.fr>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-			</Shell>
-			<TypeIcon index="0">%MYAPPS%\Matieres\Technologie\ROBOPro\ROBOPro.exe</TypeIcon>
-		</FileType>
-		<FileType ext="bop">
-			<TypeDescription.fr>Fichiers BOP</TypeDescription.fr>
-			<Shell>
-				<Action name="lk_open_1563a4">
-					<ExePath>%MYAPPS%\Matieres\Technologie\RobotProg\RobotProg.exe</ExePath>
-					<Description.fr>Ouvrir avec  (LiberKey)</Description.fr>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-			</Shell>
-			<TypeIcon index="0">%MYAPPS%\Matieres\Technologie\RobotProg\RobotProg.exe</TypeIcon>
-		</FileType>
-		<FileType ext="sh3d">
-			<TypeDescription.fr>Fichiers SH3D</TypeDescription.fr>
-			<Shell>
-				<Action name="sweet_home_3d">
-					<ExePath>%MYAPPS%\Matieres\Technologie\Sweet Home 3D\SweetHome3D.exe</ExePath>
-					<AppName>Sweet Home 3D</AppName>
-					<Description.fr>Ouvrir avec Sweet Home 3D (LiberKey)</Description.fr>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-			</Shell>
-			<TypeIcon index="0">%MYAPPS%\Matieres\Technologie\Sweet Home 3D\SweetHome3D.exe</TypeIcon>
-		</FileType>
 		<FileType ext="pptx">
 			<TypeDescription.fr>Fichiers PPTX</TypeDescription.fr>
 			<Shell>
@@ -1469,17 +1210,6 @@
 				</Action>
 			</Shell>
 			<TypeDescription>Tous les fichiers</TypeDescription>
-		</FileType>
-		<FileType ext="sb2">
-			<TypeDescription.fr>Fichiers SB2</TypeDescription.fr>
-			<Shell>
-				<Action name="lk_open_434947f">
-					<ExePath>%MYAPPS%\Scratch 2\Scratch 2.exe</ExePath>
-					<Description.fr>Ouvrir avec  (LiberKey)</Description.fr>
-					<CmdArgs>&quot;%1&quot;</CmdArgs>
-				</Action>
-			</Shell>
-			<TypeIcon index="0">%MYAPPS%\Scratch 2\Scratch 2.exe</TypeIcon>
 		</FileType>
 		<FileType ext="7z" addmode="replace">
 			<TypeDescription.en>Compressed archive file 7-Zip (7Z)</TypeDescription.en>
@@ -1657,6 +1387,18 @@
 					<CmdArgs>x -o* /xpath=&quot;%1&quot;</CmdArgs>
 				</Action>
 			</Shell>
+		</FileType>
+		<FileType ext="mm" addmode="replace">
+			<TypeDescription.fr>Fichiers MM</TypeDescription.fr>
+			<Shell>
+				<Action name="freeplane_portable">
+					<ExePath>%MYAPPS%\FreeplanePortable\FreeplanePortable.exe</ExePath>
+					<AppName>Freeplane Portable</AppName>
+					<Description.fr>Ouvrir avec Freeplane Portable (LiberKey)</Description.fr>
+					<CmdArgs>&quot;%1&quot;</CmdArgs>
+				</Action>
+			</Shell>
+			<TypeIcon index="0">%MYAPPS%\FreeplanePortable\FreeplanePortable.exe</TypeIcon>
 		</FileType>
 	</AppsAssoc>
 	<AppsAssocErrors/>
