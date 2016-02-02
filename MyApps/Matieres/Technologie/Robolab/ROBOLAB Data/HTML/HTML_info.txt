@@ -1,1 +1,0 @@
-HTML files are saved in this folder when projects from Investigator are published to the web. Project are saved in folders according to their name and time and date that they were created.Open the index.htm file in your browser of choice to view the pages.

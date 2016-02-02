@@ -1,1 +1,0 @@
-WAD263~1.VI on Macintosh is same file as Wait For Unpowered IncreaseSA.vi on PC platform.WA5E94~1.VI on Macintosh is same file as Wait For Unpowered DecreaseSA.vi on PC platform.

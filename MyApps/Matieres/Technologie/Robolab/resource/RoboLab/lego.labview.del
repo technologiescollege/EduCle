@@ -1,3 +1,0 @@
-delete 'TMPL';
-delete 'PTH#' (100);
-delete 'PTH#' (101);
