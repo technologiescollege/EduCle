@@ -1,0 +1,7 @@
+<StackPanel>
+	<TextBlock TextWrapping="Wrap"><Hyperlink Tag="faq1" Foreground="#2f719c" TextDecorations="">How to use Video Editor</Hyperlink></TextBlock>
+	<TextBlock TextWrapping="Wrap"><Hyperlink Tag="faq2" Foreground="#2f719c" TextDecorations="">System requirements</Hyperlink></TextBlock>
+	<TextBlock TextWrapping="Wrap"><Hyperlink Tag="faq3" Foreground="#2f719c" TextDecorations="">Supported formats and codecs</Hyperlink></TextBlock>
+	<TextBlock TextWrapping="Wrap"><Hyperlink Tag="faq4" Foreground="#2f719c" TextDecorations="">Send us feedback</Hyperlink></TextBlock>
+	<TextBlock TextWrapping="Wrap"><Hyperlink Tag="faq5" Foreground="#2f719c" TextDecorations="">Help us</Hyperlink></TextBlock>
+</StackPanel>

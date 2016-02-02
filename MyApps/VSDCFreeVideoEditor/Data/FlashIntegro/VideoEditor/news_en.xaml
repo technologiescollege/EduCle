@@ -1,0 +1,49 @@
+<StackPanel>
+	<TextBlock Margin="0, 0, 0, 0" FontWeight="Bold" TextWrapping="Wrap"><Hyperlink Tag="News16" Foreground="#2f719c" TextDecorations="">VSDC Free Video Editor Comes Up with More Audio Options</Hyperlink></TextBlock>
+	<TextBlock TextWrapping="Wrap">July 1, 2015 - Flash-Integro announces a new version of VSDC Free Video Editor 3.2.  The acclaimed video processing tool now features a number of options to enhance audio editing as well. In particular, the new version introduces waveforms for audio and video objects for precise audio handling, visual editing of audio effects, and flexible volume control.</TextBlock>
+
+	<TextBlock Margin="0, 9, 0, 0" FontWeight="Bold" TextWrapping="Wrap"><Hyperlink Tag="News15" Foreground="#2f719c" TextDecorations="">VSDC Free Video Editor Makes Complex Video Editing Simpler</Hyperlink></TextBlock>
+	<TextBlock TextWrapping="Wrap">April 22, 2015 - Flash-Integro releases VSDC Free Video Editor 3.1, featuring even more flexible and more convenient editing of video files. In particular, managing of objects is easier now as they are available directly on the timeline, while the behavior of objects can be very complex thanks to the new visual editor that greatly speeds up the adjustment of object parameters.</TextBlock>
+
+	<TextBlock Margin="0, 9, 0, 0" FontWeight="Bold" TextWrapping="Wrap"><Hyperlink Tag="News14" Foreground="#2f719c" TextDecorations="">Non-linear VSDC Free Video Editor for Non-Linear Special Effects</Hyperlink></TextBlock>
+	<TextBlock TextWrapping="Wrap">March 03, 2015 - Flash-Integro announces VSDC Free Video Editor 3.0, a new update of its acclaimed video editing software. The new version redefines video editing by making it 100% non-linear. Practically, this means the program provides a lot of previously unavailable video editing options, while existing techniques have become faster and more efficient.</TextBlock>
+
+	<TextBlock Margin="0, 9, 0, 0" FontWeight="Bold" TextWrapping="Wrap"><Hyperlink Tag="News13" Foreground="#2f719c" TextDecorations="">Impressive Pack of New Features Improves VSDC Free Video Editor </Hyperlink></TextBlock>
+	<TextBlock TextWrapping="Wrap">December 10, 2014 - The new VSDC Free Video Editor 2.3.0 update released by Flash-Integro adds 3 dedicated utilities to download, burn, and convert videos, speeds up exporting and preview, reduces memory consumption and improves the use of multi-core CPUs for fluent and smooth performance.</TextBlock>
+
+	<TextBlock Margin="0, 9, 0, 0" FontWeight="Bold" TextWrapping="Wrap"><Hyperlink Tag="News12" Foreground="#2f719c" TextDecorations="">VSDC Video Editor with Transparent Video Support is Announced</Hyperlink></TextBlock>
+	<TextBlock TextWrapping="Wrap">October 15, 2014 - Flash-Integro developed a new major release of its acclaimed VSDC Free Video Editor 2.2.2. The update features industry-unique support for semi-transparent videos, offers convenient pre-configured profiles for web videos, adds support for SRT subtitles for easy labeling of and commenting on a video, and brings in instantly applied styles and effects.</TextBlock>
+
+	<TextBlock Margin="0, 9, 0, 0"  FontWeight="Bold" TextWrapping="Wrap"><Hyperlink Tag="News11" Foreground="#2f719c" TextDecorations="">VSDC Free Video Editor 2.2.0 Offers New Possibilities for Animation Experts</Hyperlink></TextBlock>
+	<TextBlock TextWrapping="Wrap">September 02, 2014 - Flash-Integro releases VSDC Free Video Editor 2.2.0. Capable video editing software that now allows for creating an animated object from a set of static images forming a video sequence. A series of optimization techniques applied to the frame processing resulted in a notable performance increase in the new version.</TextBlock>
+
+	<TextBlock Margin="0, 9, 0, 0"  FontWeight="Bold" TextWrapping="Wrap"><Hyperlink Tag="News10" Foreground="#2f719c" TextDecorations="">VSDC Free Video Editor Opens New Paths for Imagination</Hyperlink></TextBlock>
+	<TextBlock TextWrapping="Wrap">July 9, 2014 - Flash-Integro LLC announces the new version of VSDC Free Video Editor 2.1.9. The update of the well-known free video editing tool brings a completely new subpixel way of handling objects in a video and allows for specifying variable paths for them to provide smoother and more flexible movement.</TextBlock>
+
+	<TextBlock Margin="0, 9, 0, 0"  FontWeight="Bold" TextWrapping="Wrap"><Hyperlink Tag="News9" Foreground="#2f719c" TextDecorations="">VSDC Free Video Editor Gets Faster, Easier and Friendlier</Hyperlink></TextBlock>
+	<TextBlock TextWrapping="Wrap">May 13, 2014 - Flash-Integro LLC announces the new version of VSDC Free Video Editor 2.1.8. The freeware tool provides all the ways to perform comprehensive video creation, editing, montage, and capturing. Among the changes introduced in the update are better and more efficient Wizard dialog, comprehensive object editing, faster exporting, and lower RAM consumption as well as many bug-fixes.</TextBlock>
+
+	<TextBlock Margin="0, 9, 0, 0"  FontWeight="Bold" TextWrapping="Wrap"><Hyperlink Tag="News8" Foreground="#2f719c" TextDecorations="">Free Video Editor Brings Pro Effects to Home Movie Editing</Hyperlink></TextBlock>
+	<TextBlock TextWrapping="Wrap">March 4, 2014 - Flash-Integro Co. releases VSDC Free Video Editor 2.0, a comprehensive video creation, editing, montage and capturing tool. The latest major version offers a large collection of new professional-quality audio filters and effects as well as project backup capabilities.</TextBlock>
+
+	<TextBlock Margin="0, 9, 0, 0" FontWeight="Bold" TextWrapping="Wrap"><Hyperlink Tag="News7" Foreground="#2f719c" TextDecorations="">VSDC Free Video Editor 1.4: In-App Video Capturing inspires creativity</Hyperlink></TextBlock>
+	<TextBlock TextWrapping="Wrap">January 16, 2014 - Flash-Integro announces the new version of its VSDC Free Video Editor featuring in-app video capturing, the desktop video recorder, and an improved interface. With the support for multiple formats, hundreds of special effects and super intuitive non-linear editing, the program easily encourages users to work.</TextBlock>
+
+	<TextBlock Margin="0, 9, 0, 0" FontWeight="Bold" TextWrapping="Wrap"><Hyperlink Tag="News6" Foreground="#2f719c" TextDecorations="">Flash-Integro releases a Free Screen Recorder</Hyperlink></TextBlock>
+	<TextBlock TextWrapping="Wrap">November 19, 2013 - Flash-Integro announces its new free product – VSDC Free Screen Recorder. This easy-to-use screen video capturing application also has professional features that can compete with pro tools head-to-head.</TextBlock>
+
+	<TextBlock Margin="0, 9, 0, 0" FontWeight="Bold" TextWrapping="Wrap"><Hyperlink Tag="News5" Foreground="#2f719c" TextDecorations="">VSDC Video Editor Gets Image Capturing</Hyperlink></TextBlock>
+	<TextBlock TextWrapping="Wrap">October 14, 2013 - Flash-Integro Co. announces the new version of VSDC Video Editor, an easy to use tool to create and edit videos. The latest release features more comfortable Wizard for quicker video editing and the brand new video capture capability.</TextBlock>
+
+	<TextBlock Margin="0, 9, 0, 0" FontWeight="Bold" TextWrapping="Wrap"><Hyperlink Tag="News4" Foreground="#2f719c" TextDecorations="">VSDC Video Editor: More FX for Better Videos</Hyperlink></TextBlock>
+	<TextBlock TextWrapping="Wrap">July 02, 2013 - Flash-Integro company releases a new version of VSDC Video Editor (version 1.2.4). With nine new special effects and over 70 video editing templates in the update, the program delivers extremely easy video creation and application of spectacular effects and scene transitions.</TextBlock>
+
+	<TextBlock Margin="0, 9, 0, 0" FontWeight="Bold" TextWrapping="Wrap"><Hyperlink Tag="News3" Foreground="#2f719c" TextDecorations="">Free Audio Conversion. No Strings Attached</Hyperlink></TextBlock>
+	<TextBlock TextWrapping="Wrap">April 14, 2012 - Free versatile audio conversion tool offers wide conversion capabilities from and to virtually any audio format.</TextBlock>
+
+	<TextBlock Margin="0, 9, 0, 0" FontWeight="Bold" TextWrapping="Wrap"><Hyperlink Tag="News2" Foreground="#2f719c" TextDecorations="">Flash-Integro announces release of new version of the nonlinear Video Editor</Hyperlink></TextBlock>
+	<TextBlock TextWrapping="Wrap">January 22, 2012 - An easy to use video editor provides professional editing tools and a set of advanced capabilities for free.</TextBlock>
+
+	<TextBlock Margin="0, 9, 0, 0" FontWeight="Bold" TextWrapping="Wrap"><Hyperlink Tag="News1" Foreground="#2f719c" TextDecorations="">All-Formats Video Conversion with a Click</Hyperlink></TextBlock>
+	<TextBlock TextWrapping="Wrap">January 17, 2012 - Free Video Converter smoothly converts video from and to various formats and provides a range of video editing options as well.</TextBlock>
+</StackPanel>

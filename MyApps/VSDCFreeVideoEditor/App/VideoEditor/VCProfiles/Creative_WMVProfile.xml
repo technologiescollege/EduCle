@@ -1,0 +1,116 @@
+<Profiles version="1">
+	<AVProfile version="1">
+		<Format version="1">
+			<AVType>200</AVType>
+			<fccHandler>861293911</fccHandler>
+			<InternalCodec>0</InternalCodec>
+			<Bitrate>700000</Bitrate>
+			<Quality>100</Quality>
+			<Width>320</Width>
+			<Height>240</Height>
+			<FrameRate>0</FrameRate>
+			<AspectX>320</AspectX>
+			<AspectY>240</AspectY>
+			<ColorSpace>0</ColorSpace>
+			<Interlaced>0</Interlaced>
+			<FormatName>
+			</FormatName>
+		</Format>
+		<Format version="1">
+			<AVType>100</AVType>
+			<InternalCodec>0</InternalCodec>
+			<ChannelsMask>0</ChannelsMask>
+			<FormatTag>353</FormatTag>
+			<Channels>2</Channels>
+			<SamplesPerSec>44100</SamplesPerSec>
+			<BitsPerSample>16</BitsPerSample>
+			<BlockAlign>5945</BlockAlign>
+			<AvgBytesPerSec>16002</AvgBytesPerSec>
+			<cbSize>10</cbSize>
+			<FormatName>128 kbps, 44 kHz, stereo CBR</FormatName>
+			<WaveExt>00,88,00,00,0f,00,e5,5c,00,00,</WaveExt>
+		</Format>
+		<ContainerType>-1</ContainerType>
+		<ProfileGroup>Common</ProfileGroup>
+		<ProfileName>Normal Quality - Video: WMV9 - 700 kbps; Audio: WMA - 128 kbps</ProfileName>
+		<ProfileDescription>Normal Quality - Video: WMV9 - 700 kbps, 320x240, FrameRate - original; Audio: WMA9 - 128 kbps, 44100 Hz, Stereo</ProfileDescription>
+		<ProfileComment>
+		</ProfileComment>
+	</AVProfile>
+	<AVProfile version="1">
+		<Format version="1">
+			<AVType>200</AVType>
+			<fccHandler>861293911</fccHandler>
+			<InternalCodec>0</InternalCodec>
+			<Bitrate>1100000</Bitrate>
+			<Quality>100</Quality>
+			<Width>320</Width>
+			<Height>240</Height>
+			<FrameRate>0</FrameRate>
+			<AspectX>320</AspectX>
+			<AspectY>240</AspectY>
+			<ColorSpace>0</ColorSpace>
+			<Interlaced>0</Interlaced>
+			<FormatName>
+			</FormatName>
+		</Format>
+		<Format version="1">
+			<AVType>100</AVType>
+			<InternalCodec>0</InternalCodec>
+			<ChannelsMask>0</ChannelsMask>
+			<FormatTag>353</FormatTag>
+			<Channels>2</Channels>
+			<SamplesPerSec>44100</SamplesPerSec>
+			<BitsPerSample>16</BitsPerSample>
+			<BlockAlign>5945</BlockAlign>
+			<AvgBytesPerSec>16002</AvgBytesPerSec>
+			<cbSize>10</cbSize>
+			<FormatName>128 kbps, 44 kHz, stereo CBR</FormatName>
+			<WaveExt>00,88,00,00,0f,00,e5,5c,00,00,</WaveExt>
+		</Format>
+		<ContainerType>-1</ContainerType>
+		<ProfileGroup>Common</ProfileGroup>
+		<ProfileName>High Quality - Video: WMV9 - 1100 kbps; Audio: WMA9 - 128 kbps</ProfileName>
+		<ProfileDescription>High Quality - Video: WMV9 - 1100 kbps, 320x240, FrameRate - original; Audio: WMA9 - 128 kbps, 44100 Hz, Stereo</ProfileDescription>
+		<ProfileComment>
+		</ProfileComment>
+	</AVProfile>
+	<AVProfile version="1">
+		<Format version="1">
+			<AVType>200</AVType>
+			<fccHandler>861293911</fccHandler>
+			<InternalCodec>0</InternalCodec>
+			<Bitrate>400000</Bitrate>
+			<Quality>100</Quality>
+			<Width>320</Width>
+			<Height>240</Height>
+			<FrameRate>15</FrameRate>
+			<AspectX>320</AspectX>
+			<AspectY>240</AspectY>
+			<ColorSpace>0</ColorSpace>
+			<Interlaced>0</Interlaced>
+			<FormatName>
+			</FormatName>
+		</Format>
+		<Format version="1">
+			<AVType>100</AVType>
+			<InternalCodec>0</InternalCodec>
+			<ChannelsMask>0</ChannelsMask>
+			<FormatTag>353</FormatTag>
+			<Channels>2</Channels>
+			<SamplesPerSec>44100</SamplesPerSec>
+			<BitsPerSample>16</BitsPerSample>
+			<BlockAlign>4459</BlockAlign>
+			<AvgBytesPerSec>12003</AvgBytesPerSec>
+			<cbSize>10</cbSize>
+			<FormatName>96 kbps, 44 kHz, stereo CBR</FormatName>
+			<WaveExt>00,88,00,00,0f,00,ad,45,00,00,</WaveExt>
+		</Format>
+		<ContainerType>-1</ContainerType>
+		<ProfileGroup>Common</ProfileGroup>
+		<ProfileName>Low Quality - Video: WMV9 - 400 kbps; Audio: WMA9 - 96 kbps</ProfileName>
+		<ProfileDescription>Low Quality - Video: WMV9 - 400 kbps, 320x240, 15 fps; Audio: WMA9 - 96 kbps, 44100 Hz, Stereo</ProfileDescription>
+		<ProfileComment>
+		</ProfileComment>
+	</AVProfile>
+</Profiles>
