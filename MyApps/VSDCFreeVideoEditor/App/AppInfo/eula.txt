@@ -1,0 +1,64 @@
+﻿End-User License Agreement for Software Product of Flash-Integro LLC
+
+1. Software Licence Agreement
+In this Licence, "the Product" means the software product "VSDC Free Video Editor" which may be found at <www.videosoftdev.com>
+This Licence is a legal agreement between you and Flash-Integro LLC for the Product.
+By proceeding to install the Product, and in consideration of your use of the Product, you are deemed to agree to be bound by the terms of this Licence.
+Flash-Integro LLC permits you to use the Product only in accordance with the terms of this Licence and your rights under this Licence will terminate automatically without notice if you fail to comply with the terms of this Licence.
+
+2. Product Licence
+In consideration of your agreeing to abide by the terms of this Licence and subject to your compliance with the terms of this Licence, Flash-Integro LLC grants you a non-exclusive, non-transferable licence to use the Product for the following purposes and in the following manner:
+You may:
+1. Install and use the Product free of charge for personal, educational and also for commercial use. In these cases, you are granted the right to use and to make an unlimited number of copies of this software.
+2. You can use any materials created by the Product for personal and commercial purposes.
+You may not:
+1. Remove any proprietary notices or labels from the Product.
+2. Reverse engineer, decompile, disassemble, repackage the installation file or make derivative works based on the Product (except and only to the extent that such activity is expressly permitted by applicable law notwithstanding this limitation).
+3. Rent, lease, sublicense or assign the Product or any copy thereof, including any related documentation.
+
+3. Additional Terms for Businesses
+Where you are licensing the Product as a business and not as a consumer, this licence shall take effect between Flash-Integro LLC and you as a business entity and you shall take all appropriate steps to ensure that the Product is operated in a proper manner by your employees and staff.
+
+4. Intellectual Property Rights
+The Product is intellectual property of Flash-Integro LLC and is protected by law. You acknowledge that all intellectual property rights in the Product anywhere in the world belong to Flash-Integro LLC, that rights in the Product are licensed (not sold) to you, and that you have no rights in, or to, the Product other than the right to use them in accordance with the terms of this Licence.
+
+5. Warranty Disclaimer
+THIS PRODUCT AND ANY RELATED DOCUMENTATION IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OR MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NONINFRINGEMENT. THE ENTIRE RISK ARISING OUT OF USE OR PERFORMANCE OF THE PRODUCT REMAINS WITH YOU.
+
+6. Limitation of Liability
+IN NO EVENT SHALL FLASH-INTEGRO LLC BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT, OR CONSEQUENTIAL DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION, OR ANY OTHER PECUNIARY LOSS) ARISING OUT OF THE USE OR OF INABILITY TO USE THE PRODUCT.
+
+7. Additional Components
+The Product can contains some recommended software (read the OpenCandy EULA <http://www.opencandy.com/eulas/b/sneula.html>) as optional components that you may reject upon the installation of the Product.
+
+8. General
+- Updates may be licensed to you by Flash-Integro LLC with additional or different terms but Flash-Integro LLC has no obligation to provide any updates.
+- This Licence is the entire agreement between you and us and supersedes any prior representations, undertakings or advertising relating to the Product and you acknowledge that in entering into this Licence you have not relied on any statement, representation, advertising, assurance or warranty (whether made negligently or innocently) other than as expressly set out in this Licence.
+- This terms are subject to change without notice. Visit our site <www.videosoftdev.com> and download software to get the most recent End User License Agreement.
+
+COPYRIGHT NOTICE. Copyright(C) 2015 Flash-Integro LLC, All rights reserved. Any rights not expressly granted herein are reserved. 
+
+
+VSDC Free Video Editor
+
+Version 3.1
+
+The video editor is intended for editing video files and creating videos of any complexity involving various visual and audio effects. The program offers rich functionality and yet has a simple and intuitive interface, allowing you to create videos with a bare minimum of efforts.
+
+----------------------------------------------------------------
+INSTALL:
+ Run video_editor.exe and follow the instructions.
+----------------------------------------------------------------
+
+MINIMUM SYSTEM REQUIREMENTS:
+- Microsoft Windows 2000/XP/2003/Vista/Windows7 (all of the last updates installed are recommended) 
+- Intel or AMD or compatible processors at 800 MHz minimum 
+- Display graphics minimum resolution of 800x600x 32-bit color 
+- RAM 128 megabytes (MB) 
+- Microsoft DirectX 9.0c
+- Minimum 20 MB of free hard disk space is needed for installation
+- Administrative permissions are required for installation
+- Internet connection to register the product.
+
+You can send any questions to <mailto:support@videosoftdev.com>
+For more information see: <http://www.videosoftdev.com>
