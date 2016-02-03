@@ -1,0 +1,73 @@
+PICAXE Compiler Revision.
+Compilers are compiled from single source code for Windows/Mac/Linux.
+The only difference between compilers on the different platforms is the 
+Windows/Unix specific serial communication routines for program downloads.
+
+v2.8
+- X1		Added portA (A.0 etc.) pin definitions for use with readadc commands
+
+v2.7
+- 18M2		Fixed 18M2 issue with #no_data on long files
+- M2		Increased accuracy of memory useage reporting on M2 parts
+- All		Added warning msg if 7 bit (bit0 set) address within hi2csetup command
+
+v2.6
+- 20X2		Restored support for Lego NXT sensors
+- All		Fixed programming issue when putty had previously been used on the same COM port
+
+v2.5 		
+- All		Optimised stdout/stderr messages for PE6 output window
+- All		Amended directives for compatibility with PICAXE PreProcessor
+- All		Added 'tab' as predefined constant (value 9)
+- All		Improved #PICAXE directive parsing
+- All		Added support of underscore chip type definition (e.g. #ifdef _20X2)
+- M2		Added #slot to allow second program slot on 14M2, 18M2+, 20M2 parts
+- M2		Added run command to 14M2, 18M2+, 20M2 parts
+- X2		Added push, pop, pushram, popram commands to X2 parts
+- All		Removed the limit of 20 nested endifs
+- X2		Corrected incorrect 'inputtype' error message
+- M2		Added 'hpwmduty' command		
+- M2 X2		Corrected use of @bptrinc, @bptrdec within 'swap', 'select' etc. commands
+- X2		Corrected use of @ptrinc, @ptrdec within 'swap', 'select' etc. commands
+- M2 X2		bptr now recognised as a word variable within peek, poke, read, write etc.
+- X2		ptr now recognised as a word variable within peek, poke, read, write etc.
+- 20M2		Corrected serin pin getting incorrectly pulled up within 'pullup all' command
+- X1 X2		Corrected some of the bXXXX_20 baud rate constants
+- M2 X2	        Added bXXXX baud rate constants for 50, 10400 (OBD2) and 31250 (MIDI) baud rates
+- 20X2		Added warning for hi2c master mode using address of 0,1,2 (as silicon does not support those)
+- M2		Corrected high/low temp range bits for 'readinternaltemp' command
+- All		Added option of using 'downto' for decrementing for...next statements
+- M2 X2 	Optimised 'ultra' command so now works with M2 multitasking
+
+v2.4
+- M2 X2		Added ultra command for ease of use of SRF005 ultrasonic sensor
+- M2		Added missing NAND and NOR operators
+- M2		Added missing outpinB.PIN, outpinC.PIN definitions
+- All		Added write/read/peek/poke support for WORD option with the s_W? variables		
+- All		Removed the limit of 100 Cases within a single Select..EndSelect 
+
+v2.3
+- All		Minor version numbering updates
+ 
+v2.2
+- 18M2		Added 18M2+ support
+- All		Added _\n (whitespace-underscore-newline) as line continuation for splitting long lines
+- 18M2		Amended 'servopos pin, off' command for 18M2 to support older 18M2 firmware versions
+- M2		Corrected issue with calibfreq command on negative values for M2 parts
+- All		Fixed simulation issue parsing some characters such as "¯" within a string
+
+v2.1
+- All		Added/updated 'servo pin, off' command
+- 18M2		Corrected issue with do...loop in high memory position
+- 18M2		Corrected issue with pullup x,B command
+- 18M2		Updated 18M2 compiler memory allocation
+- All		Aligned Programming Editor and AXEpad #ifdef behaviour
+- M2 X2		'bcdtoascii/bintoascii' now support special word variables such as time
+- M2 X2		'select case' was not rejecting @ptrinc/dec @bptrinc/dec when they were used as the variable
+
+v2.0
+- All (Mac)	Improved new program download reliability for Mac computers
+- All		Added/updated 'servopos pin, off' command
+- M2		Added 'pause_int' command for early M2 firmware versions fix of 'pause within interrupt within multi-task' not working
+
+v1.x (archived)

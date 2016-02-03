@@ -1,0 +1,1212 @@
+# Master French file
+# Filename : C:\Revolution\projects\revolut\stamp\realbasic\S2P\Master_Dictionaries\French-Français.po
+# Created  : 2015-01-22 13:33-0000
+# Copyright (C) Revolution Education Ltd
+msgid ""
+msgstr ""
+"Project-Id-Version: Master French file - Initial Version\n"
+"POT-Creation-Date: 2015-01-22 13:33-0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: JB <jbown@rev-ed.co.uk>\n"
+"Language-Team: French <support@rev-ed.co.uk>\n"
+"Report-Msgid-Bugs-To: Revolution Education Ltd <support@rev-ed.co.uk>\n"
+"MIME-Version: 1.0\n"
+"Language: fr\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: Foreign\n"
+"X-Generator: Poedit 1.7.4\n"
+
+msgid "Communication with %1 was disconnected"
+msgstr "La communication avec %1 a été interrompue"
+
+msgid "%1 is already running"
+msgstr "% 1 est déjà en cours d'exécution"
+
+msgid "%1 is connected"
+msgstr "1% est connecté"
+
+msgid "All Files"
+msgstr "Tous les fichiers"
+
+msgid "Application folder does not exist"
+msgstr "Le dossier application n'existe pas"
+
+msgid "Application subfolder does not exist"
+msgstr "Le sous-dossier application n'existe pas"
+
+msgid "Attempting to communicate with %1"
+msgstr "Tentative de communication avec% 1"
+
+msgid "Attempting to communicate with PICAXE"
+msgstr "Tentative de communication avec PICAXE"
+
+msgid "Bluetooth Setup"
+msgstr "Configuration Bluetooth"
+
+msgid "Cannot create Scratch Projects sub-folder in documents folder"
+msgstr "Impossible de créer un sous-dossier de Projet  Scratch dans le dossier documents"
+
+msgid "Cannot find"
+msgstr "Impossible de trouver"
+
+msgid "Cannot find application folder"
+msgstr "Impossible de trouver le dossier applications"
+
+msgid "Cannot find application subfolder"
+msgstr "Impossible de trouver le sous-dossier application"
+
+msgid "Cannot find file"
+msgstr "Impossible de trouver le fichier"
+
+msgid "Cannot open port %1 (%2,N,8,1)"
+msgstr "Impossible d'ouvrir le port %1 (%2,N,8,1)"
+
+msgid "Cannot open serial port %1 (%2,N,8,1)"
+msgstr "Impossible d'ouvrir le port  %1 (%2,N,8,1)"
+
+msgid "Clearing Data ..."
+msgstr "Effacement des données"
+
+msgid "Clearing Data for %1 ..."
+msgstr "Effacement des données pour %1 ..."
+
+msgid "Clearing Data for %1 on %2 ..."
+msgstr "Effacement des données pour %1 sur %2 ..."
+
+msgid "Clearing Data on %1 ..."
+msgstr "Effacement des données sur %1 ..."
+
+msgid "Clearing Program ..."
+msgstr "Effacement du programme"
+
+msgid "Clearing Program for %1 ..."
+msgstr "Effacement du programme pour %1 ..."
+
+msgid "Clearing Program for %1 on %2 ..."
+msgstr "Effacement du programme pour %1 sur %2 ..."
+
+msgid "Clearing Program on %1 ..."
+msgstr "Effacement du programme sur %1 ..."
+
+msgid "Clearing Table ..."
+msgstr "Effacement du tableau"
+
+msgid "Clearing Table for %1 ..."
+msgstr "Effacement du tableau pour %1 ..."
+
+msgid "Clearing Table for %1 on %2 ..."
+msgstr "Effacement du tableau pour %1 sur %2 ..."
+
+msgid "Clearing Table on %1 ..."
+msgstr "Effacement du tableau sur %1 ..."
+
+msgid "COM Port"
+msgstr "Port COM"
+
+msgid "Communicating with PICAXE"
+msgstr "En cours de communication avec PICAXE"
+
+msgid "Communications with PICAXE were disconnected"
+msgstr "Les communications avec PICAXE ont été interrompues"
+
+msgid "Connect power now ..."
+msgstr "Mettre sous tension"
+
+msgid "Connect power now for %1 ..."
+msgstr "Mettre sous tension à présent pour %1 sur %2 ..."
+
+msgid "Connect power now for %1 on %2 ..."
+msgstr "Mettre sous tension à présent pour %1 sur %2 ..."
+
+msgid "Connect power now on %1 ..."
+msgstr "Mettre sous tension à présent sur %1 ..."
+
+msgid "Connection"
+msgstr "Connexion"
+
+msgid "Continue"
+msgstr "Poursuivre"
+
+msgid "Convert .sb2 file and display"
+msgstr "Convertir le fichier .sb2 et l'afficher"
+
+msgid "Convert .sb2 file to BASIC file"
+msgstr "Convertir le fichier .sb2 en fichier BASIC"
+
+msgid "Convert .sb2 file to clipboard"
+msgstr "Convertir le fichier .sb2 vers le presse-papier"
+
+msgid "Converted Basic has been placed in clipboard"
+msgstr "Le fichier convertit en BASIC a été placé dans le presse-papier"
+
+msgid "Converted Basic has been saved to disk as %1"
+msgstr "Le fichier convertit en BASIC a été sauvegardé avec le nom %1"
+
+msgid "Could not attach to GUID: '%1'"
+msgstr "Impossible de lier au GUIDE : '%1'"
+
+msgid "Could not create zip file"
+msgstr "Impossible  de créer le fichier zip"
+
+msgid "Could not get the name of this device: %1"
+msgstr "Impossible d'obtenir le nom de ce périphérique : %1"
+
+msgid "Could not open language file"
+msgstr "Impossible d'ouvrir le fichier des langues"
+
+msgid "Documents folder does not exist"
+msgstr "Le dossier documents n'existe pas"
+
+msgid "Done!"
+msgstr "Terminé !"
+
+msgid "Download Communicator Program"
+msgstr "Charger le programme de communication"
+
+# Guessed from ...
+# Derived translation from PE5 [7535]
+msgid "Downloading Data ..."
+msgstr "Chargement des données..."
+
+msgid "Downloading Data for %1 ..."
+msgstr "Chargement des données de %1 ..."
+
+msgid "Downloading Data for %1 on %2 ..."
+msgstr "Chargement des données de %1 dans %2 ..."
+
+msgid "Downloading Data on %1 ..."
+msgstr "Chargement des données dans %1 ..."
+
+# Guessed from ...
+# Derived translation from PE5 [7534]
+msgid "Downloading Program ..."
+msgstr "Envoi du programme..."
+
+msgid "Downloading Program for %1 ..."
+msgstr "Chargement du programme de %1 ..."
+
+msgid "Downloading Program for %1 on %2 ..."
+msgstr "Chargement du programme de %1 dans %2 ..."
+
+msgid "Downloading Program on %1 ..."
+msgstr "Chargement du programme dans %1 ..."
+
+msgid "Downloading Program/Table ..."
+msgstr "Chargement de tableau / programme ..."
+
+msgid "Downloading Program/Table for %1 ..."
+msgstr "Chargement de tableau / programme de %1 ..."
+
+msgid "Downloading Program/Table for %1 on %2 ..."
+msgstr "Chargement de tableau / programme de %1 dans %2 ..."
+
+msgid "Downloading Program/Table on %1 ..."
+msgstr "Chargement de tableau / programme dans %1 ..."
+
+msgid "Dummy task to make program multi-tasking"
+msgstr "Tâche virtuelle pour faire un programme multitâches"
+
+# Guessed from ...
+# Derived translation from PE5 [7001]
+msgid "Error:"
+msgstr "Erreur :"
+
+msgid "Failed to claim Wedo. Close any other application using WeDo and then restart this application."
+msgstr "Impossible d'appeler WeDo. Fermer toutes les applications utilisant WeDoClose et relancer cette application."
+
+msgid "Failed to connect to %1 Device."
+msgstr "Impossible  de se connecter à l'élément %1"
+
+msgid "Failed to delete file %1"
+msgstr "Impossible  de supprimer le fichier %1"
+
+msgid "Failed to install callback to %1 Device."
+msgstr "Impossible  d'installer les services de l'élément 1%"
+
+msgid "Failed to sendmessagememory to %1 Device"
+msgstr "Impossible  d'envoyer le message mémoire vers l'élément 1%"
+
+msgid "Failed to sendmessagememory to Wedo."
+msgstr "Impossible  d'envoyer le message mémoire vers WeDo"
+
+msgid "File does not exist"
+msgstr "Le fichier n'existe pas"
+
+msgid "File MotorControl22.rxe not found on NXT!"
+msgstr "Fichier MotorControl22.rxe non trouvé dans NXT!"
+
+msgid "File_DeleteFolder not implemented"
+msgstr "File_DeleteFolder non implémenté"
+
+msgid "Found #End - Probably should be #EndIf"
+msgstr "#End trouvé - Devrait être probablement #EndIf"
+
+msgid "Generated BASIC"
+msgstr "BASIC généré"
+
+msgid "Generated BASIC (also copied to clipboard)"
+msgstr "BASIC généré (copié dans le presse-papiers)"
+
+msgid "Have you downloaded the communicator program?"
+msgstr "Avez-vous chargé le programme de communication ?"
+
+# Definitive translation from PE5 [1030]
+msgid "Help"
+msgstr "Aide"
+
+msgid "Invalid baud rate %1"
+msgstr "Vitesse de transmission %1 invalide"
+
+msgid "Invalid Ev3Command.%1(%2)"
+msgstr "Ev3Command.%1(%2) invalide"
+
+msgid "Invalid packet at %1"
+msgstr "Paquet invalide à %1"
+
+msgid "Lego WeDo found"
+msgstr "Lego WeDo trouvé"
+
+msgid "Link established with %1"
+msgstr "Liaison établie avec %1"
+
+msgid "MBS plugin registration was not successful"
+msgstr "Erreur d'enregistrement du plugin MBS"
+
+msgid "Mode 1: Connected (Control PICAXE from Scratch)"
+msgstr "Mode 1 : Connecté (contrôle de PICAXE à partir de Scratch)"
+
+msgid "Mode 2: Remote Run (Convert Scratch to PICAXE BASIC)"
+msgstr "Mode 2 : fonctionnement autonome (convertit Scratch en BASIC PICAXE)"
+
+msgid "No documents or desktop folder found"
+msgstr "Aucun dossier documents ou bureau trouvé"
+
+msgid "No project.json file in Scratch project file"
+msgstr "Pas de fichier project.json dans le fichier projet Scratch"
+
+msgid "Not connected to %1"
+msgstr "Non connecté à %1"
+
+msgid "Not connected to PICAXE"
+msgstr "Non connecté à PICAXE"
+
+msgid "Oops - Unhandled Exception"
+msgstr "Oups ! - Exception non gérée"
+
+# Translation from Translate.Ini [11347]
+msgid "Open"
+msgstr "Ouvrir"
+
+msgid "Open Device Manager"
+msgstr "Ouvrit le gestionnaire de périphériques"
+
+msgid "Open Scratch Program File"
+msgstr "Ouvrir le fichier de programme Scratch"
+
+msgid "PICAXE"
+msgstr "PICAXE"
+
+msgid "PICAXE chip is not communicating"
+msgstr "Le microcontrôleur PICAXE ne communique pas"
+
+msgid "PICAXE chip is not communicating."
+msgstr "Le microcontrôleur PICAXE ne communique pas."
+
+msgid "Please install libhid (sudo apt-get install libhid-dev)"
+msgstr "Veuillez installer libhid (sudo apt-get install libhid-dev)"
+
+msgid "Please send this information to picaxe@rev-ed.co.uk."
+msgstr "Veuillez envoyer ce message à icaxe@rev-ed.co.uk."
+
+# Derived translation from PE5 [1209]
+msgid "Program"
+msgstr "Exécuter"
+
+msgid "Program PICAXE from .sb2 file"
+msgstr "Programmer PICAXE à partir du fichier .sb2"
+
+# Guessed from ...
+# Derived translation from PE5 [7124]
+msgid "Programming Failed"
+msgstr "La programmation a échoué"
+
+msgid "Quit"
+msgstr "Quitter"
+
+msgid "Refresh Port List"
+msgstr "Actualiser les ports COM"
+
+msgid "S2Bot plugin not communicating with %1"
+msgstr "le plugin S2Bot ne communique pas avec %1"
+
+msgid "S2Bot Version %1"
+msgstr "S2Bot version %1"
+
+msgid "S2P - Scratch to PICAXE (50212)"
+msgstr "S2P - Scratch to PICAXE (50212)"
+
+msgid "Save File"
+msgstr "Enregistrer le fichier"
+
+msgid "Save Scratch Extension File"
+msgstr "Enregistrer le fichier avec l'extension Scratch"
+
+msgid "Scratch 2.0 Project Files"
+msgstr "Fichier projet Scratch 2.0"
+
+msgid "Scratch project file does not exist"
+msgstr "Le fichier projet Scratch 2.0 n'existe pas"
+
+msgid "Scratch project file has no content"
+msgstr "Le fichier projet Scratch 2.0 est vide"
+
+msgid "Scratch to Bot"
+msgstr "Scratch vers Bot"
+
+msgid "Scratch to PICAXE"
+msgstr "Scratch vers PICAXE"
+
+msgid "Scraxe Board support coming soon!"
+msgstr "Assistance carte Scraxe Board bientôt disponible !"
+
+msgid "Search for bluetooth"
+msgstr "Recherche Bluetooth"
+
+msgid "Search for USB"
+msgstr "Recherche USB"
+
+msgid "Searching for hardware ..."
+msgstr "Recherche d'un matériel"
+
+msgid "Searching for hardware for %1 ..."
+msgstr "Recherche d'un matériel avec %1"
+
+msgid "Searching for hardware for %1 on %2 ..."
+msgstr "Recherche d'un matériel avec %1 sur %2"
+
+msgid "Searching for hardware on %1 ..."
+msgstr "Recherche d'un matériel sur %1"
+
+msgid "Select Folder"
+msgstr "Sélectionner le dossier"
+
+# Definitive translation from PE5 [1309]
+msgid "Setup"
+msgstr "Configuration"
+
+msgid "Shell has completed"
+msgstr "Construction terminée"
+
+msgid "Show PDF Document"
+msgstr "Voir le document PDF"
+
+msgid "Successfully programmed %1"
+msgstr "Programmé avec succès %1"
+
+msgid "Target"
+msgstr "Cible"
+
+msgid "Template for New Scratch Project"
+msgstr "Modèle pour un nouveau projet Scratch"
+
+# Translation from Translate.Ini [1315]
+msgid "Test"
+msgstr "Test"
+
+msgid "The %1 is not communicating"
+msgstr "Le %1 ne communique pas"
+
+msgid "The following bluetooth devices exist on this computer - %1"
+msgstr "Les périphériques Bluetooth suivants sont sur cet ordinateur - %1"
+
+msgid "The following tty devices exist on this computer - %1"
+msgstr "Le périphérique tty suivant est sur cet ordinateur - %1"
+
+msgid "The following USB devices exist on this computer - %1"
+msgstr "Les périphériques USB suivants sont sur cet ordinateur - %1"
+
+msgid "The following USB Serial Devices exist on this computer - %1"
+msgstr "Les périphériques Série USB suivants sont sur cet ordinateur - %1"
+
+msgid "The following USB<>Serial devices exist on this computer - %1"
+msgstr "Les périphériques Série <>USB suivants sont sur cet ordinateur - %1"
+
+msgid "The PICAXE is not communicating"
+msgstr "Le PICAXE ne communique pas"
+
+msgid "Try 'sudo adduser <your_username> dialout' and then a system reboot."
+msgstr "Essayez 'sudo adduser <your_username> dialout' puis redémarrez le système."
+
+msgid "Unable to connect to %1"
+msgstr "Impossible de se connecter à %1"
+
+msgid "Unable to extract project.json file from Scratch project file"
+msgstr "Impossible d'extraire le fichier project.json à partir du fichier projet Scratch"
+
+msgid "Unable to find %1"
+msgstr "impossible de trouver %1"
+
+msgid "Unable to find any bluetooth devices"
+msgstr "impossible de trouver des périphériques Bluetooth"
+
+msgid "Unable to find any Lego devices"
+msgstr "impossible de trouver des périphériques Lego"
+
+msgid "Unable to find any ttyUSB devices"
+msgstr "impossible de trouver des périphériques ttyUSB"
+
+msgid "Unable to find any USB devices"
+msgstr "impossible de trouver des périphériques USB"
+
+msgid "Unable to identify any USB Serial Devices"
+msgstr "impossible d'identifier des périphériques série USB"
+
+msgid "Unable to open port to %1"
+msgstr "impossible d'ouvrir le port à %1"
+
+msgid "Unable to open serial port to %1"
+msgstr "impossible d'ouvrir le port série à %1"
+
+msgid "Unable to process Scratch project file"
+msgstr "impossible d'exécuter le projet Scratch"
+
+msgid "USB Serial Port"
+msgstr "Port Série"
+
+msgid "USB Setup"
+msgstr "Configuration USB"
+
+msgid "Version %1"
+msgstr "Version %1"
+
+msgid "Wedo has been removed!"
+msgstr "Wedo a été supprimé !"
+
+msgid "Wedo not found. Insert WeDo and then close/restart this application."
+msgstr "Wedo non trouvé. Insérer WeDo puis quitter et redémarrer cette application"
+
+msgid "WeDo support is currently only for 32 bit Linux systems."
+msgstr "WeDo est pour l'instant compatible seulement avec les systèmes Linux 32 bits."
+
+msgid "Wrong PICAXE type connected - %1 connected"
+msgstr "Mauvais type de PICAXE connecté - %1 connecté"
+
+msgid "You do not have permission to open the Wedo device, so you must add a new udev rule."
+msgstr "Vous n'avez pas le permission d'ouvrir le périphérique WeDo, vous devez ajouter une nouvelle règle udev."
+
+msgid "Please Wait..."
+msgstr "Veuillez patienter..."
+
+msgid "Scanning for serial ports"
+msgstr "Rechercher des ports COM"
+
+#. PE6 Source Code
+msgid "Connect"
+msgstr "Connecter"
+
+# Translation from Translate.Ini [10050]
+#. PE6 Source Code
+#. Simulation Panel
+msgid "Disconnect"
+msgstr "Déconnecter"
+
+# Translation from Translate.Ini [10050]
+#. PE6 Source Code
+msgid "Convert"
+msgstr "Convertir"
+
+# For template file
+msgid "turn output %m.outputPin on"
+msgstr "activer la sortie %m.outputPin"
+
+# For template file
+msgid "turn output %m.outputPin off"
+msgstr "désactiver la sortie %m.outputPin"
+
+# For template file
+msgid "turn output %m.outputPin on for %n secs"
+msgstr "activer la sortie %m.outputPin pendant %n secs"
+
+# For template file
+msgid "turn %m.motor on"
+msgstr "lancer turn %m.motor"
+
+# For template file
+msgid "turn %m.motor off"
+msgstr "arrêter turn %m.motor"
+
+# For template file
+msgid "turn %m.motor on for %n secs"
+msgstr "lancer %m.motor pendant %n secs"
+
+# For template file
+msgid "set %m.motor direction to %m.motorDirection"
+msgstr "Mettre la direction moteur %m.motor à %m.motorDirection"
+
+# For template file
+msgid "play note %n for %n on %m.soundPin"
+msgstr "jouer la note %n pendant %n sur %m.soundPin"
+
+# For template file
+msgid "setup sensor %m.inputPin as %m.sensorType"
+msgstr "configurer le capteur %m.inputPin avec le type %m.sensorType"
+
+# For template file
+msgid "setup i2c as %m.i2cSensors"
+msgstr "Configurer l'i2c pour %m.i2cSensors"
+
+# For template file
+msgid "reset"
+msgstr "RAZ"
+
+# For template file
+msgid "move servo %m.servoPin to position %n"
+msgstr "Positionner le servo %m.servoPin à %n"
+
+# For template file
+msgid "setup sensor %m.adcPin as %m.adcType"
+msgstr "configurer le capteur %m.adcPin avec le type %m.adc"
+
+# For template file
+msgid "write %n to eeprom location %n"
+msgstr "écrire %n à la position eeprom %n"
+
+# For template file
+msgid "read eeprom location %n"
+msgstr "Lire l'eeprom à l'emplacement %n"
+
+# For template file
+msgid "eeprom data"
+msgstr "Donnée eeprom"
+
+# For template file
+# Non modifié!
+msgid "i2c %m.i2cResults"
+msgstr "i2c %m.i2cResults"
+
+# For template file
+msgid "motor A"
+msgstr "Moteur A"
+
+# For template file
+msgid "motor B"
+msgstr "Moteur B"
+
+# For template file
+msgid "motor C"
+msgstr "Moteur C"
+
+# For template file
+msgid "motor D"
+msgstr "Moteur D"
+
+# For template file
+msgid "switch"
+msgstr "contact"
+
+# For template file
+msgid "analogue"
+msgstr "Analogique"
+
+# For template file
+msgid "temperature"
+msgstr "température"
+
+# For template file
+msgid "ultrasonic"
+msgstr "ultrasons"
+
+# For template file
+msgid "infrared"
+msgstr "Infrarouge"
+
+# For template file
+msgid "touch"
+msgstr "tactile"
+
+# For template file
+msgid "this way"
+msgstr "de cette façon"
+
+# For template file
+msgid "that way"
+msgstr "comme cela"
+
+# For template file
+msgid "reverse"
+msgstr "inverser"
+
+# For template file
+msgid "None"
+msgstr "Aucun"
+
+# For template file
+msgid "Nunchuck A"
+msgstr "Nunchuck A"
+
+# For template file
+msgid "Nunchuck B"
+msgstr "Nunchuck B"
+
+# For template file
+msgid "NXT Color (MS1038)"
+msgstr "Capteur de couleur NXT (MS1038)"
+
+# For template file
+msgid "NXT Temp (9749)"
+msgstr "Capteur de température NXT (9749)"
+
+# For template file
+msgid "result1"
+msgstr "résultat1"
+
+# For template file
+msgid "result2"
+msgstr "résultat2"
+
+# For template file
+msgid "result3"
+msgstr "résultat3"
+
+# For template file
+msgid "result4"
+msgstr "résultat4"
+
+# For template file
+msgid "result5"
+msgstr "résultat5"
+
+# For template file
+msgid "result6"
+msgstr "résultat6"
+
+# For template file
+msgid "sensor A.0"
+msgstr "capteur A.0"
+
+# For template file
+msgid "sensor A.1"
+msgstr "capteur A.1"
+
+# For template file
+msgid "sensor A.2"
+msgstr "capteur A.2"
+
+# For template file
+msgid "sensor A.3"
+msgstr "capteur A.3"
+
+# For template file
+msgid "sensor A.4"
+msgstr "capteur A.4"
+
+# For template file
+msgid "sensor A.5"
+msgstr "capteur A.5"
+
+# For template file
+msgid "sensor A.6"
+msgstr "capteur A.6"
+
+# For template file
+msgid "sensor A.7"
+msgstr "capteur A.7"
+
+# For template file
+msgid "sensor B.0"
+msgstr "capteur B.0"
+
+# For template file
+msgid "sensor B.1"
+msgstr "capteur B.1"
+
+# For template file
+msgid "sensor B.2"
+msgstr "capteur B.2"
+
+# For template file
+msgid "sensor B.3"
+msgstr "capteur B.3"
+
+# For template file
+msgid "sensor B.4"
+msgstr "capteur B.4"
+
+# For template file
+msgid "sensor B.5"
+msgstr "capteur B.5"
+
+# For template file
+msgid "sensor B.6"
+msgstr "capteur B.6"
+
+# For template file
+msgid "sensor B.7"
+msgstr "capteur B.7"
+
+# For template file
+msgid "sensor C.0"
+msgstr "capteur C.0"
+
+# For template file
+msgid "sensor C.1"
+msgstr "capteur C.1"
+
+# For template file
+msgid "sensor C.2"
+msgstr "capteur C.2"
+
+# For template file
+msgid "sensor C.3"
+msgstr "capteur C.3"
+
+# For template file
+msgid "sensor C.4"
+msgstr "capteur C.4"
+
+# For template file
+msgid "sensor C.5"
+msgstr "capteur C.5"
+
+# For template file
+msgid "sensor C.6"
+msgstr "capteur C.6"
+
+# For template file
+msgid "sensor C.7"
+msgstr "capteur C.7"
+
+# For template file
+msgid "sensor D.0"
+msgstr "capteur D.0"
+
+# For template file
+msgid "sensor D.1"
+msgstr "capteur D.1"
+
+# For template file
+msgid "sensor D.2"
+msgstr "capteur D.2"
+
+# For template file
+msgid "sensor D.3"
+msgstr "capteur D.3"
+
+# For template file
+msgid "sensor D.4"
+msgstr "capteur D.4"
+
+# For template file
+msgid "sensor D.5"
+msgstr "capteur D.5"
+
+# For template file
+msgid "sensor D.6"
+msgstr "capteur D.6"
+
+# For template file
+msgid "sensor D.7"
+msgstr "capteur D.7"
+
+msgid "There is a problem with S2P"
+msgstr "Il y a un problème avec S2P"
+
+msgid "S2P plugin not communicating with PICAXE"
+msgstr "Le plugin S2P ne communique pas avec PICAXE"
+
+msgid "PICAXE Connected"
+msgstr "PICAXE connecté"
+
+msgid "%1 during %2"
+msgstr "%1 pendant %2"
+
+msgid "Saved Scratch program is intended for %1"
+msgstr "Le programme sauvegardé s'adresse à %1"
+
+msgid "Extraneous content at end of file"
+msgstr "Contenu supplémentaire en fin de fichier"
+
+msgid "Program contains no executable blocks"
+msgstr "Ce programme ne contient pas de blocs exécutables"
+
+msgid "Cannot have multiple interrupts"
+msgstr "Impossible d'avoir des interruptions multiples"
+
+msgid "Only four Scratch event blocks allowed for %1"
+msgstr "Seulement quatre blocs d'évènement Scratch autorisés pour %1"
+
+msgid "Only eight Scratch event blocks allowed for %1"
+msgstr "Seulement huit blocs d'évènement Scratch autorisés pour %1"
+
+msgid "Only one Scratch event block allowed on PICAXE devices without multi-tasking"
+msgstr "Seulement un bloc d'évènement Scratch autorisé sur les microcontrôleurs PICAXE non multitâches"
+
+msgid "Unknown operator"
+msgstr "Opérateur inconnu"
+
+msgid "Cannot configure analogue input on pin %1"
+msgstr "impossible de configurer la broche %1 en entrée analogique"
+
+# Traduction à adapter selon le contexte
+msgid "Duplicate menu item"
+msgstr "Dupliquer un élément du menu"
+
+msgid "Pin %1 cannot be used for %2"
+msgstr "Le broche %1 ne peut être utilisée pour %2"
+
+# Traduction à adapter selon le contexte
+msgid "Duplicate variable definition"
+msgstr "Dupliquer le définition de la variable"
+
+msgid "Unknown unary operator"
+msgstr "Opérateur unaire inconnu"
+
+msgid "Unknown binary operator"
+msgstr "Opérateur binaire inconnu"
+
+msgid "No available byte-sized loop variables"
+msgstr "Pas de variables d'itérations d'un octet disponibles "
+
+msgid "No available loop variables"
+msgstr "Pas de variables d'itérations disponibles"
+
+msgid "Command not supported"
+msgstr "Commande non prise en compte"
+
+msgid "Unknown command"
+msgstr "Commande inconnue"
+
+msgid "PICAXE event not supported"
+msgstr "Evènement PICAXE non pris en compte"
+
+msgid "Unknown motor"
+msgstr "Moteur inconnu"
+
+msgid "Unknown motor direction"
+msgstr "Direction moteur inconnue"
+
+msgid "PICAXE command not supported"
+msgstr "Commande PICAXE non prise en compte"
+
+msgid "Cannot have multiple sensor types on pin %1"
+msgstr "Impossible d'avoir des capteurs de types différents sur la broche %1"
+
+msgid "%1 and %2"
+msgstr "%1 et %2"
+
+msgid "Unknown PICAXE command"
+msgstr "Commande PICAXE inconnue"
+
+msgid "No temporary variables available"
+msgstr "Pas de variables temporaires disponibles "
+
+msgid "%1 expected"
+msgstr "%1 attendu"
+
+msgid "A-connected"
+msgstr ""
+
+msgid "all motors"
+msgstr ""
+
+msgid "B-connected"
+msgstr ""
+
+msgid "backwards"
+msgstr ""
+
+msgid "Battery Voltage"
+msgstr ""
+
+msgid "blue"
+msgstr ""
+
+msgid "brown"
+msgstr ""
+
+msgid "button-pressed"
+msgstr ""
+
+msgid "button"
+msgstr ""
+
+msgid "C-connected"
+msgstr ""
+
+msgid "custom"
+msgstr ""
+
+msgid "D-connected"
+msgstr ""
+
+msgid "distance"
+msgstr ""
+
+msgid "everything"
+msgstr ""
+
+msgid "forwards"
+msgstr ""
+
+msgid "green"
+msgstr ""
+
+msgid "HT Accel -X (MS1040)"
+msgstr ""
+
+msgid "HT Accel -Y (MS1040)"
+msgstr ""
+
+msgid "HT Accel -Z (MS1040)"
+msgstr ""
+
+msgid "HT Angle (NAA1030)"
+msgstr ""
+
+msgid "HT Color v2 -B (MS1038)"
+msgstr ""
+
+msgid "HT Color v2 -G (MS1038)"
+msgstr ""
+
+msgid "HT Color v2 -R (MS1038)"
+msgstr ""
+
+msgid "HT Color v2 (MS1038)"
+msgstr ""
+
+msgid "HT Compass (MS1034)"
+msgstr ""
+
+msgid "HT Force (NFS1074)"
+msgstr ""
+
+msgid "HT Gyro (NGY1044)"
+msgstr ""
+
+msgid "HT IRReceiver -L (NIR1032)"
+msgstr ""
+
+msgid "HT IRReceiver -R (NIR1032)"
+msgstr ""
+
+msgid "HT IRSeeker V2 -AC (NSK1042)"
+msgstr ""
+
+msgid "HT IRSeeker V2 -DC (NSK1042)"
+msgstr ""
+
+msgid "HT Magnetic (NMS1035)"
+msgstr ""
+
+msgid "HT PIR (NIS1070)"
+msgstr ""
+
+msgid "light"
+msgstr ""
+
+msgid "motor"
+msgstr ""
+
+msgid "move direction %n with speed %n"
+msgstr ""
+
+msgid "move robot %m.robotDirection for %n degrees"
+msgstr ""
+
+msgid "not ="
+msgstr ""
+
+msgid "NXT Light -Ambient (9844)"
+msgstr ""
+
+msgid "NXT Light -Reflected (9844)"
+msgstr ""
+
+msgid "NXT RGB -Ambient (9694)"
+msgstr ""
+
+msgid "NXT RGB -Blue (9694)"
+msgstr ""
+
+msgid "NXT RGB -Color (9694)"
+msgstr ""
+
+msgid "NXT RGB -Green (9694)"
+msgstr ""
+
+msgid "NXT RGB -Red (9694)"
+msgstr ""
+
+msgid "NXT Sound -db (9845)"
+msgstr ""
+
+msgid "NXT Sound -dba (9845)"
+msgstr ""
+
+msgid "NXT Temp -C (9749)"
+msgstr ""
+
+msgid "NXT Temp -F (9749)"
+msgstr ""
+
+msgid "NXT Touch (9843)"
+msgstr ""
+
+msgid "NXT Ultrasonic (9846)"
+msgstr ""
+
+msgid "off"
+msgstr ""
+
+msgid "on"
+msgstr ""
+
+msgid "play note %n for %n"
+msgstr ""
+
+msgid "play sound %s"
+msgstr ""
+
+msgid "purple"
+msgstr ""
+
+msgid "RCX Angle"
+msgstr ""
+
+msgid "RCX Light -Reflected"
+msgstr ""
+
+msgid "RCX Temp -C"
+msgstr ""
+
+msgid "RCX Temp -F"
+msgstr ""
+
+msgid "RCX Touch"
+msgstr ""
+
+msgid "red"
+msgstr ""
+
+msgid "resistance-A"
+msgstr ""
+
+msgid "resistance-B"
+msgstr ""
+
+msgid "resistance-C"
+msgstr ""
+
+msgid "resistance-D"
+msgstr ""
+
+msgid "sensor %m.booleanSensor?"
+msgstr ""
+
+msgid "sensor1"
+msgstr ""
+
+msgid "sensor2"
+msgstr ""
+
+msgid "sensor3"
+msgstr ""
+
+msgid "sensor4"
+msgstr ""
+
+msgid "set %m.motor power to %n"
+msgstr ""
+
+msgid "set color %m.color for %n secs"
+msgstr ""
+
+msgid "set color %m.color"
+msgstr ""
+
+msgid "set color red: %n green: %n blue: %n  for %n secs"
+msgstr ""
+
+msgid "set color red: %n green: %n blue: %n"
+msgstr ""
+
+msgid "set heading %n"
+msgstr ""
+
+msgid "set tail light %m.onOrOff"
+msgstr ""
+
+msgid "setup %m.sensor as %m.sensorTypes"
+msgstr ""
+
+msgid "slider"
+msgstr ""
+
+msgid "sound"
+msgstr ""
+
+msgid "stop moving"
+msgstr ""
+
+msgid "tilt"
+msgstr ""
+
+msgid "turn %m.motor %m.motorDirection for %n degrees"
+msgstr ""
+
+msgid "when %m.booleanSensor"
+msgstr ""
+
+msgid "when %m.mdistance %m.lessMore %n"
+msgstr ""
+
+msgid "when %m.mtilt %m.eNe %n"
+msgstr ""
+
+msgid "when %m.sensor %m.lessMore %n"
+msgstr ""
+
+msgid "white"
+msgstr ""
+
+msgid "orange"
+msgstr ""
+
+msgid "yellow"
+msgstr ""
+
+msgid "S2Bot plugin not communicating with PicoBoard"  
+msgstr ""
+
+msgid "PicoBoard Connected"  
+msgstr ""
+
+msgid "S2Bot plugin not communicating with Wedo"  
+msgstr ""
+
+msgid "Wedo Connected"  
+msgstr ""
+
+msgid "S2Bot plugin not communicating with Sphero"  
+msgstr ""
+
+msgid "Sphero Connected"  
+msgstr ""
+
+msgid "S2Bot plugin not communicating with NXT " 
+msgstr ""
+
+msgid "NXT Connected"  
+msgstr ""
+
+msgid "S2Bot plugin not communicating with EV3"  
+msgstr ""
+
+msgid "EV3 Connected"  
+msgstr ""
+
+
+
