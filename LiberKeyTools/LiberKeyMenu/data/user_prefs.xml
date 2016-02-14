@@ -98,7 +98,7 @@
 		<Language file="Languages\LiberKeyMenu_fr.xml">fr</Language>
 		<CustomColorVariation h="0" s="0" l="0"/>
 		<TabsOrder sel="chantenay.xml">chantenay.xml,chantenay_2.xml,recent.xml,mostused.xml</TabsOrder>
-		<Main x="1558" y="399" w="378" h="667"/>
+		<Main x="1542" y="383" w="378" h="667"/>
 		<Monitor dev="\\.\DISPLAY1" l="0" t="0" r="1920" b="1080"/>
 		<LastIconFolder>%MYAPPS%\Matieres\Technologie\s2aio</LastIconFolder>
 		<EffectSettings>FastClassic.FX.xml</EffectSettings>

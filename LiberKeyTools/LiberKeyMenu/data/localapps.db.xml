@@ -469,7 +469,7 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<Description><![CDATA[Freeplane Portable Edition is a free mind-mapping software written in Java, packaged with a PortableApps.com Launcher as a portable app, so you can take your mindmaps with you.]]></Description>
 			<License>Shareable/OpenSource/Freeware/CommercialUse</License>
 			<Name>Freeplane Portable</Name>
-			<Version>1.5.6 beta</Version>
+			<Version>1.5.7 beta</Version>
 			<AutoKeyWords>education trans-disciplinaire freeplane portable editor team edition mind-mapping software written java packaged with portableapps.com launcher you can take your mindmaps shareable opensource freeware commercialuse</AutoKeyWords>
 			<WebSite>http://www.freeplane.org</WebSite>
 			<IconFile>%MYAPPS%\FreeplanePortable\App\Freeplane\freeplane.exe</IconFile>

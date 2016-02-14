@@ -12,10 +12,10 @@
 		</Category>
 	</Category>
 	<Category name="Bureautique" icon="office.ico" id="office">
-		<Category name="Convertisseur d&apos;unité" icon="auto:Blue" id="office:unit_converter">
+		<Category name="Convertisseur d&apos;unité" icon="auto:Blue" id="office:unit_converter" expanded="yes">
 			<Software id="converber" cpt="2"/>
 		</Category>
-		<Category name="Création de tutoriel" icon="auto:Blue" id="office:tutorial_creator">
+		<Category name="Création de tutoriel" icon="auto:Blue" id="office:tutorial_creator" expanded="yes">
 			<Software id="user_ocam-ocam_portable">
 				<Name>oCam</Name>
 			</Software>
@@ -32,10 +32,10 @@
 			</Software>
 			<Software id="wink" cpt="7"/>
 		</Category>
-		<Category name="Editeur de diagrammes" icon="auto:Blue" id="office:diagram_editor">
+		<Category name="Editeur de diagrammes" icon="auto:Blue" id="office:diagram_editor" expanded="yes">
 			<Software id="dia" cpt="1"/>
 		</Category>
-		<Category name="Editeur de texte" icon="auto:Blue" id="office:text_editor">
+		<Category name="Editeur de texte" icon="auto:Blue" id="office:text_editor" expanded="yes">
 			<Software cpt="9">
 				<ExePath>%SystemRoot%\system32\notepad.exe</ExePath>
 				<Developer>Microsoft Corporation</Developer>
@@ -46,7 +46,7 @@
 			</Software>
 			<Software id="notepad++" cpt="52"/>
 		</Category>
-		<Category name="PDF" icon="auto:Blue" id="office:pdf">
+		<Category name="PDF" icon="auto:Blue" id="office:pdf" expanded="yes">
 			<Software id="user_pdfsam">
 				<Name>PDF S&amp;M</Name>
 			</Software>
@@ -63,14 +63,14 @@
 				<IconFile>%MYAPPS%\Strut_stand_alone\strut.ico</IconFile>
 			</Software>
 		</Category>
-		<Category name="Suite bureautique" icon="auto:Blue" id="office:office_suite" expanded="yes">
+		<Category name="Suite bureautique" icon="auto:Blue" id="office:office_suite">
 			<Software id="libreoffice" cpt="16"/>
 			<Software id="libreoffice-libreofficebaselkl"/>
 			<Software id="libreoffice-libreofficecalclkl" cpt="28"/>
 			<Software id="libreoffice-libreofficedrawlkl" cpt="3"/>
 			<Software id="libreoffice-libreofficeimpresslkl" cpt="15"/>
-			<Software id="libreoffice-libreofficemathlkl" cpt="1"/>
-			<Software id="libreoffice-libreofficewriterlkl" cpt="153"/>
+			<Software id="libreoffice-libreofficemathlkl" cpt="2"/>
+			<Software id="libreoffice-libreofficewriterlkl" cpt="155"/>
 		</Category>
 		<Software cpt="1">
 			<ExePath>%SystemRoot%\system32\charmap.exe</ExePath>
@@ -127,7 +127,7 @@
 		</Category>
 		<Category name="Technologie" icon="auto:Red" expanded="yes">
 			<Category name="Pilotage" icon="%MYAPPS%\Matieres\Technologie\s2a\microcontroller.ico" expanded="yes">
-				<Software id="user_matieres-technologie-mblock-mblock" cpt="18">
+				<Software id="user_matieres-technologie-mblock-mblock" cpt="20">
 					<WorkingDir>%MYAPPS%\Matieres\Technologie\mBlock</WorkingDir>
 				</Software>
 				<Software id="user_matieres-technologie-organigram-organigram" cpt="61"/>
@@ -179,7 +179,7 @@
 			<Software id="user_matieres-technologie-m&amp;m-m&amp;m">
 				<IconFile>%MYAPPS%\Matieres\Technologie\M&amp;m\M&amp;m.exe</IconFile>
 			</Software>
-			<Software id="user_matieres-technologie-pepakura_designer-pepakuradesignerportable" cpt="1">
+			<Software id="user_matieres-technologie-pepakura_designer-pepakuradesignerportable" cpt="2">
 				<Name>Pepakura Designer</Name>
 			</Software>
 			<Software id="user_matieres-technologie-wcharly-graal-pilote-gpilote" cpt="5"/>
@@ -204,7 +204,7 @@
 				<Version>13.3.1.110</Version>
 				<WorkingDir>%DRIVE%\Program Files\SolidWorks</WorkingDir>
 			</Software>
-			<Software id="user_matieres-technologie-sweet_home_3d-sweethome3d" cpt="40"/>
+			<Software id="user_matieres-technologie-sweet_home_3d-sweethome3d" cpt="42"/>
 			<Software id="user_matieres-technologie-westpointbridgedesigner-%appdir%-wpbd2007" cpt="2">
 				<Flags AlwaysAdmin="1"/>
 			</Software>
@@ -281,11 +281,11 @@
 	</Category>
 	<Category name="Graphisme - Photo" icon="graphic_tools.ico" id="graphics-photo">
 		<Category name="Copie d&apos;écran" icon="auto:Red" id="graphics-photo:screen_capture" expanded="yes">
-			<Software id="picpick" cpt="305"/>
+			<Software id="picpick" cpt="306"/>
 		</Category>
 		<Category name="Editeur" icon="auto:Red" id="graphics-photo:editor" expanded="yes">
 			<Software id="inkscape" cpt="9"/>
-			<Software id="photofiltre" cpt="158"/>
+			<Software id="photofiltre" cpt="161"/>
 		</Category>
 		<Category name="Editeur d&apos;icône" icon="auto:Red" id="graphics-photo:icon_editor" expanded="yes">
 			<Software id="greenfishiconeditorpro" cpt="9"/>
@@ -326,7 +326,7 @@
 			<Software id="filezilla" cpt="5"/>
 		</Category>
 		<Category name="Navigateur" icon="auto:Blue" id="internet:browser" expanded="yes">
-			<Software id="firefox" cpt="208"/>
+			<Software id="firefox" cpt="210"/>
 			<Software id="opera" cpt="71"/>
 		</Category>
 		<Software id="user_carotdav" cpt="4"/>

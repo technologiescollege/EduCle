@@ -1400,6 +1400,18 @@
 			</Shell>
 			<TypeIcon index="0">%MYAPPS%\FreeplanePortable\FreeplanePortable.exe</TypeIcon>
 		</FileType>
+		<FileType ext="sh3d">
+			<TypeDescription.fr>Fichiers SH3D</TypeDescription.fr>
+			<Shell>
+				<Action name="sweet_home_3d">
+					<ExePath>%MYAPPS%\Matieres\Technologie\Sweet Home 3D\SweetHome3D.exe</ExePath>
+					<AppName>Sweet Home 3D</AppName>
+					<Description.fr>Ouvrir avec Sweet Home 3D (LiberKey)</Description.fr>
+					<CmdArgs>&quot;%1&quot;</CmdArgs>
+				</Action>
+			</Shell>
+			<TypeIcon index="0">%MYAPPS%\Matieres\Technologie\Sweet Home 3D\SweetHome3D.exe</TypeIcon>
+		</FileType>
 	</AppsAssoc>
 	<AppsAssocErrors/>
 </KeyFileAssoc>

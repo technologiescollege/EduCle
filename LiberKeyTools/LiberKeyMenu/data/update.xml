@@ -1,4 +1,4 @@
-<LiberKeyVersionInfo checktime="20160131134306">
+<LiberKeyVersionInfo checktime="20160214110649">
 	<Platform v="5.8" p="20151129201000" pu="http://update.liberkey.com/whatsup/patch/5.8/20141104134857_20990000000000/public/lbk_20151129201000_MultiLng.exe">
 		<Description><![CDATA[Platforme LiberKey]]></Description>
 		<PatchInfo><![CDATA[Un patch est disponible pour votre LiberKey.\n\nIl est fortement recommandé de le télécharger et de l'appliquer !\n\nTaille du téléchargement : 517.90 Ko]]></PatchInfo>
@@ -307,9 +307,9 @@
 		<app id="yoyocut" v="2.5.0.208" sync="295"/>
 		<app id="zoomit" v="4.50" sync="296"/>
 	</Apps>
-	<menu_options><![CDATA[/pVfPKHtxQMS9dELgDu3FTViZOr17AwPt/SXLH5X3mwsJtdd2fT1i+K+IxOrh7oGN8dgikbRXq5s/Kjs
-/Inbd9k6nwvxZcd61tM/i6IKtFc=
+	<menu_options><![CDATA[II7ZONKcblQYPwez1iFra6nNHy/BT5F3re+1GmqZyqnGCHvPjZXLm5ikFKIz9x/TLxzMgs8iqJ9UFk5l
+MIhSJKN5rjSoM6I6nD1p/QDj130=
 ]]></menu_options>
-	<UserOptions><![CDATA[FgQgIGO1OovQa6DCanAtzPcbwBt2RGlH319qz8K1fVz9O1LU3I8cdg==
+	<UserOptions><![CDATA[eSWyhwnWz0j50MYmoZdBjVriAxoNClSKKb3TD6aUtCkubABaY511Dg==
 ]]></UserOptions>
 </LiberKeyVersionInfo>
