@@ -14,4 +14,4 @@ http://www.LiberKey.com
 
 La LiberKey est compatible Windows XP/Vista/7
 
-Cette version Educ a été réalisée par Sébastien Canet, accord avec les créateurs de la Liberkey qui m'a généreusement mis à disposition une plate forme pro afin de synchroniser nos clés avec une suite "TechnoNantes" : http://ac-nantes.pro.liberkey.com/
+Cette version Educ a été réalisée par Sébastien Canet, avec l'accord des créateurs de la Liberkey qui m'ont généreusement mis à disposition une plate forme pro afin de synchroniser nos clés avec une suite "TechnoNantes" : http://ac-nantes.pro.liberkey.com/
