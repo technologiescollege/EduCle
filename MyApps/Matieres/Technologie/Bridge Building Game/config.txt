@@ -1,5 +1,0 @@
-screenwidth=800
-screenheight=600
-colordepth=32
-fullscreen=0
-directory=0

@@ -8,11 +8,11 @@
 		</BasePaths>
 		<AddToStartMenuVerb>A&amp;jouter au menu Démarrer</AddToStartMenuVerb>
 		<RemoveFromStartMenuVerb>&amp;Supprimer du menu Démarrer</RemoveFromStartMenuVerb>
-		<Language file="PDS_fr.xml">fr</Language>
-		<UserLanguage/>
-		<ProcessDesktopShortcuts/>
-		<ProcessQuickLaunchShortcuts/>
+		<UserLanguage>fr</UserLanguage>
+		<Language/>
 	</Config>
-	<QuickLaunchShortcuts/>
-	<DesktopShortcuts/>
+	<QuickLaunchShortcuts>
+		</QuickLaunchShortcuts>
+	<DesktopShortcuts>
+		</DesktopShortcuts>
 </LiberKeyPortableShortcuts>

@@ -1,5 +1,0 @@
-﻿
------ 2014-08-26 -----
-** Modifications par Cyrille Largillier **
-
-** Fin des modifications **

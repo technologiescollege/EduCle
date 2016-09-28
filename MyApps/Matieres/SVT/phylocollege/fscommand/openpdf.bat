@@ -1,2 +1,0 @@
-start aide.pdf 
-exit

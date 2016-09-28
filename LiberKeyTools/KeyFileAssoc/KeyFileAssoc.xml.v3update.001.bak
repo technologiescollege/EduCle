@@ -1,11 +1,12 @@
-<KeyFileAssoc version="0.3">
+<KeyFileAssoc version="0.2">
 	<Config>
 		<AppsRoot>..\..\Apps</AppsRoot>
 		<UpdateAutoCheck>on</UpdateAutoCheck>
 		<SysTrayFastSwitch>on</SysTrayFastSwitch>
 		<ShowAssocToolTip>on</ShowAssocToolTip>
 		<UseLbkProxySettings>on</UseLbkProxySettings>
-		<Language file="KeyFileAssoc_fr.xml">fr</Language>
+		<UserLanguage>fr</UserLanguage>
+		<Language/>
 	</Config>
 	<AppsAssoc>
 		<FileType ext="lks">

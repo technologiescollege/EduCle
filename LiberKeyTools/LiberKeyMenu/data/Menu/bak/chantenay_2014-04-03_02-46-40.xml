@@ -1,0 +1,329 @@
+<LiberKeyMenu id="root" icon="liberkey.ico" usecache="no" view="tree" name="Chantenay" edit="yes">
+	<Category name="Audio" icon="audio.ico" id="audio">
+		<Category name="Convertisseur" icon="auto:Green" id="audio:converter">
+			<Software id="formatfactory" cpt="1"/>
+			<Software id="xmediarecode" cpt="3"/>
+		</Category>
+		<Category name="Editeur" icon="auto:Green" id="audio:editor">
+			<Software id="audacity" cpt="3"/>
+		</Category>
+		<Category name="Radio" icon="auto:Green" id="audio:radio">
+			<Software id="radiosure" cpt="1"/>
+		</Category>
+		<Category name="Ripper" icon="auto:Green" id="audio:ripper">
+			<Software id="freac">
+				<Flags AlwaysAdmin="1"/>
+			</Software>
+		</Category>
+	</Category>
+	<Category name="Bureautique" icon="office.ico" id="office">
+		<Category name="Accessoires bureau" icon="auto:Blue" id="office:desktop_tools">
+			<Category name="Pense-bête" id="office:desktop_tools:desktop_note" expanded="yes">
+				<Software id="stickies" cpt="278"/>
+			</Category>
+		</Category>
+		<Category name="Calculatrice" icon="auto:Blue" id="office:calculator">
+			<Software id="speedcrunch" cpt="5"/>
+		</Category>
+		<Category name="Convertisseur d&apos;unité" icon="auto:Blue" id="office:unit_converter">
+			<Software id="converber" cpt="2"/>
+		</Category>
+		<Category name="Création de tutoriel" icon="auto:Blue" id="office:tutorial_creator">
+			<Software id="wink" cpt="6"/>
+		</Category>
+		<Category name="Editeur de diagrammes" icon="auto:Blue" id="office:diagram_editor">
+			<Software id="dia"/>
+		</Category>
+		<Category name="Editeur de texte" icon="auto:Blue" id="office:text_editor">
+			<Software id="notepad++" cpt="32"/>
+		</Category>
+		<Category name="PDF" icon="auto:Blue" id="office:pdf" expanded="yes">
+			<Software id="user_pdfsam-pdfsam-starter">
+				<Name>PDF SaM</Name>
+			</Software>
+			<Software id="pdfxchangeviewer" cpt="5"/>
+		</Category>
+		<Category name="Présentation" icon="auto:Blue" id="office:presentation">
+			<Software id="user_sankoreportable">
+				<Name>OpenSankoré</Name>
+			</Software>
+			<Software id="pointofix" cpt="9"/>
+		</Category>
+		<Category name="Suite bureautique" icon="auto:Blue" id="office:office_suite">
+			<Software id="libreoffice" cpt="1"/>
+			<Software id="libreoffice-libreofficebaselkl"/>
+			<Software id="libreoffice-libreofficecalclkl" cpt="3"/>
+			<Software id="libreoffice-libreofficedrawlkl"/>
+			<Software id="libreoffice-libreofficeimpresslkl"/>
+			<Software id="libreoffice-libreofficemathlkl"/>
+			<Software id="libreoffice-libreofficewriterlkl" cpt="22"/>
+			<Software id="scribus" cpt="7"/>
+		</Category>
+	</Category>
+	<Category name="CD - DVD" icon="cd.ico" id="cd-dvd">
+		<Category name="Gravure" icon="auto:Violet" id="cd-dvd:burning_tools" expanded="yes">
+			<Software id="imgburn" cpt="3">
+				<Flags AlwaysAdmin="1"/>
+			</Software>
+		</Category>
+	</Category>
+	<Category name="Education" icon="education.ico" id="education">
+		<Category name="Astronomie" icon="auto:Red" id="education:astronomy">
+			<Software id="celestia"/>
+			<Software id="stellarium"/>
+		</Category>
+		<Category name="Dactylographie" icon="auto:Red" id="education:typing">
+			<Software id="rapidtyping"/>
+		</Category>
+		<Category name="Français" icon="auto:Red">
+			<Software id="user_matieres-francais-collatinus-collatinus"/>
+			<Software id="user_matieres-francais-littre-littre" cpt="1"/>
+			<Software id="user_matieres-francais-imagemo-imagemo"/>
+			<Software id="user_matieres-francais-lecteur-lecteur"/>
+			<Software id="user_matieres-francais-conjugue-conjugue"/>
+			<Software id="user_matieres-francais-orthaccords-orthaccords"/>
+		</Category>
+		<Category name="Langues" icon="auto:Red">
+			<Software id="user_matieres-langues-jo-grille-krzwrt22">
+				<Name>Grille Auteur</Name>
+			</Software>
+			<Software id="user_matieres-langues-jo-grille-krzwre22">
+				<Name>Grille Elève</Name>
+			</Software>
+			<Software id="user_matieres-langues-imagemo_en-imagemo_en"/>
+			<Software id="user_matieres-langues-jo-lacunes-lacuna40">
+				<Name>Lacunes Auteur</Name>
+			</Software>
+			<Software id="user_matieres-langues-jo-lacunes-lacune40">
+				<Name>Lacunes Elève</Name>
+			</Software>
+			<Software id="user_matieres-langues-quiz_anglais-quiz_bases_de_la_langue_anglaise"/>
+			<Software id="user_matieres-langues-jo-reconst-recva40">
+				<Name>Reconstitution Auteur</Name>
+			</Software>
+			<Software id="user_matieres-langues-jo-reconst-recve40"/>
+			<Software id="user_matieres-langues-jo-reconst-restit40">
+				<Name>Restit</Name>
+			</Software>
+			<Software id="user_matieres-langues-verbira2-verbira"/>
+		</Category>
+		<Category name="Mathématiques" icon="auto:Red">
+			<Software id="user_matieres-maths-apprentigeometre2-ag2">
+				<Name>Apprenti Géomètre</Name>
+			</Software>
+			<Software id="carmetal"/>
+			<Software id="user_matieres-maths-usbggb-ggb"/>
+		</Category>
+		<Category name="Sciences Physiques" icon="auto:Red">
+			<Software id="user_matieres-sciences-physicdraw"/>
+		</Category>
+		<Category name="Technologie" icon="auto:Red">
+			<Software id="user_matieres-technologie-archifacile" cpt="1"/>
+			<Software id="user_matieres-technologie-bridge_building_game-bridge" cpt="2"/>
+			<Software id="user_matieres-technologie-wcharly-graal-cao-gcao3d" cpt="20">
+				<Name>CAO</Name>
+			</Software>
+			<Software cpt="1">
+				<ExePath>%MYAPPS%\Matieres\Technologie\energy3d\energy3d.bat</ExePath>
+				<Name>Energy3D</Name>
+				<IconFile>skin:Favorite</IconFile>
+			</Software>
+			<Software id="user_matieres-technologie-wcharly-graal-fao-gfao" cpt="1">
+				<Name>FAO</Name>
+			</Software>
+			<Software id="user_matieres-technologie-control_lab-clab">
+				<Name>LEGO Control Lab</Name>
+			</Software>
+			<Software id="user_matieres-technologie-lego_digital_designer-ldd2"/>
+			<Software id="user_matieres-technologie-m&amp;m-m&amp;m">
+				<IconFile>%MYAPPS%\Matieres\Technologie\M&amp;m\M&amp;m.exe</IconFile>
+			</Software>
+			<Software id="user_matieres-technologie-wcharly-graal-fao-magasinsoutilsmateriaux" cpt="2">
+				<Name>MagasinsOutilsMateriaux</Name>
+			</Software>
+			<Software id="user_matieres-technologie-organigram-organigram" cpt="64"/>
+			<Software id="user_matieres-technologie-designer_pepakura-pepakura3"/>
+			<Software id="user_matieres-technologie-wcharly-graal-pilote-gpilote" cpt="3"/>
+			<Software id="user_matieres-technologie-ganttproject-ganttproject" cpt="12"/>
+			<Software id="user_matieres-technologie-robolab-robolab254">
+				<Name>Robolab</Name>
+			</Software>
+			<Software id="user_matieres-technologie-robopro-robopro"/>
+			<Software id="user_matieres-technologie-robotprog-robotprog" cpt="2"/>
+			<Software id="user_matieres-technologie-sweet_home_3d-sweethome3d" cpt="6"/>
+			<Software id="user_matieres-technologie-westpointbridgedesigner-%appdir%-wpbd2007" cpt="1">
+				<Name>WestPoint Bridge Designer</Name>
+			</Software>
+		</Category>
+		<Category name="Trans-disciplinaire" icon="auto:Red">
+			<Software id="user_cartoonstorymaker-csmaker"/>
+			<Software id="user_didapages-didapages_auteur" cpt="1"/>
+			<Software id="user_fais_ton_journal-fais_ton_journal" cpt="1"/>
+			<Software id="user_freeplaneportable" cpt="2">
+				<IconFile>%MYAPPS%\FreeplanePortable\App\Freeplane\freeplane.exe</IconFile>
+			</Software>
+			<Software id="user_matieres-gridomatic"/>
+			<Software id="user_hotpotatoes6-hotpot">
+				<Name>Hot Potatoes</Name>
+			</Software>
+			<Software id="user_sankoreportable">
+				<Name>Open Sankoré</Name>
+			</Software>
+			<Software id="user_pylote_win-pylote" cpt="1"/>
+			<Software id="user_rasterbator" cpt="2"/>
+			<Software id="user_scratch2-scratch_2"/>
+		</Category>
+	</Category>
+	<Category name="Gestion des fichiers" icon="file_management.ico" id="file_management">
+		<Category name="Compression" icon="auto:Green" id="file_management:compression" expanded="yes">
+			<Software id="7zip-7-ziplkl"/>
+			<Software id="universalextractor"/>
+		</Category>
+	</Category>
+	<Category name="Graphisme - Photo" icon="graphic_tools.ico" id="graphics-photo">
+		<Category name="Copie d&apos;écran" icon="auto:Red" id="graphics-photo:screen_capture" menulist="yes">
+			<Software id="picpick" cpt="260"/>
+		</Category>
+		<Category name="Editeur" icon="auto:Red" id="graphics-photo:editor">
+			<Software id="inkscape"/>
+			<Software id="paint-net" cpt="2"/>
+			<Software id="photofiltre" cpt="121"/>
+		</Category>
+		<Category name="Editeur d&apos;icône" icon="auto:Red" id="graphics-photo:icon_editor">
+			<Software id="greenfishiconeditorpro" cpt="4"/>
+		</Category>
+		<Category name="Vectorisation" icon="auto:Red" id="graphics-photo:vector_converter">
+			<Software id="wintopo" cpt="1"/>
+		</Category>
+		<Category name="Visualisateur" icon="auto:Red" id="graphics-photo:viewer">
+			<Software id="faststoneimageviewer" cpt="5"/>
+		</Category>
+		<Software id="user_images_actives" cpt="2">
+			<Name>Images Actives</Name>
+		</Software>
+		<Software id="user_pencil-animation-pencil">
+			<Name>Pencil Animation</Name>
+		</Software>
+	</Category>
+	<Category name="Internet" icon="internet.ico" id="internet">
+		<Category name="Aspirateur de site" icon="auto:Blue" id="internet:website_copier">
+			<Software id="httrack"/>
+		</Category>
+		<Category name="Création de sites Web" icon="auto:Blue" id="internet:website_authoring">
+			<Software id="kompozer" cpt="30"/>
+		</Category>
+		<Category name="Email" icon="auto:Blue" id="internet:email">
+			<Software id="thunderbird" cpt="2"/>
+		</Category>
+		<Category name="FTP" icon="auto:Blue" id="internet:ftp">
+			<Software id="filezilla" cpt="2"/>
+		</Category>
+		<Category name="Navigateur" icon="auto:Blue" id="internet:browser">
+			<Software id="firefox" cpt="34"/>
+			<Software id="opera" cpt="64"/>
+		</Category>
+		<Software id="user_carotdav" cpt="9">
+			<Name>CarotDAV</Name>
+		</Software>
+	</Category>
+	<Category name="Outils système" icon="system_utilities.ico" id="system_utilities">
+		<Category name="Nettoyeur - désinstalleur" icon="auto:Grey" id="system_utilities:cleaner-uninstaller" expanded="yes">
+			<Software id="ccleaner"/>
+			<Software id="javara" cpt="4"/>
+		</Category>
+	</Category>
+	<Category name="Sécurité" icon="security.ico" id="security">
+		<Category name="Anti virus-spyware" icon="auto:Yellow" id="security:anti_virus-spyware" expanded="yes">
+			<Software id="clamwin" cpt="3"/>
+		</Category>
+		<Software id="user_spybotportable" cpt="1"/>
+	</Category>
+	<Category name="Vidéo" icon="video.ico" id="video">
+		<Category name="Capture" icon="auto:Grey" id="video:capture">
+			<Software id="user_amcap"/>
+			<Software id="user_captureflux_52fr" cpt="2"/>
+		</Category>
+		<Category name="Convertisseur" icon="auto:Grey" id="video:converter">
+			<Software id="formatfactory" cpt="15"/>
+			<Software id="pocketdivxencoder" cpt="3"/>
+			<Software id="xmediarecode" cpt="19"/>
+		</Category>
+		<Category name="Editeur" icon="auto:Grey" id="video:editor">
+			<Software id="user_videopad-videopad_video_editor"/>
+			<Software id="virtualdub" cpt="5"/>
+		</Category>
+		<Category name="Lecteur" icon="auto:Grey" id="video:player">
+			<Software id="mediaplayerclassichc" cpt="10"/>
+			<Software id="vlc" cpt="18"/>
+		</Category>
+		<Category name="Outils" icon="auto:Grey" id="video:tools">
+			<Software id="codectweaktool"/>
+		</Category>
+		<Category name="Réparation" icon="auto:Grey" id="video:repair">
+			<Software id="divfix"/>
+		</Category>
+	</Category>
+	<Category name="A télécharger et installer" icon="9.ico">
+		<Category name="Correctifs / manquants" icon="9.ico">
+			<Software>
+				<Name>Adobe Air</Name>
+				<ExePath>http://get.adobe.com/fr/air/</ExePath>
+				<Flags NoRecent="1" NoMostUsed="1"/>
+			</Software>
+			<Software>
+				<Name>Adobe Flash Player</Name>
+				<ExePath>http://get.adobe.com/fr/flashplayer/</ExePath>
+				<Flags NoRecent="1" NoMostUsed="1"/>
+			</Software>
+			<Software>
+				<Name>Adobe Shockwave</Name>
+				<ExePath>http://get.adobe.com/fr/shockwave/</ExePath>
+				<Flags NoRecent="1" NoMostUsed="1"/>
+			</Software>
+			<Software>
+				<Name>Codecs audio &amp; vidéo</Name>
+				<ExePath>http://www.filehippo.com/fr/download_klite_mega_codec/download/a2d7addf25d518de0284aacdd6b89cfd/</ExePath>
+				<Flags NoRecent="1" NoMostUsed="1"/>
+			</Software>
+			<Software>
+				<Name>VB6 manquant : la solution</Name>
+				<ExePath>http://www.microsoft.com/downloads/details.aspx?displaylang=fr&amp;FamilyID=7b9ba261-7a9c-43e7-9117-f673077ffb3c</ExePath>
+				<Flags NoRecent="1" NoMostUsed="1"/>
+			</Software>
+		</Category>
+		<Software id="user_matieres-technologie-edrawingsfrench">
+			<Name>eDrawings</Name>
+			<Flags NoRecent="1" NoMostUsed="1"/>
+		</Software>
+		<Software cpt="2">
+			<Name>Google Earth</Name>
+			<ExePath>http://www.google.fr/intl/fr/earth/download/ge/agree.html</ExePath>
+			<Flags NoRecent="1" NoMostUsed="1"/>
+		</Software>
+		<Software>
+			<Name>Marble World Atlas</Name>
+			<ExePath>http://marble.kde.org/</ExePath>
+			<Flags NoRecent="1" NoMostUsed="1"/>
+		</Software>
+		<Software cpt="1">
+			<Name>NASA World Wind</Name>
+			<ExePath>http://builds.worldwind.arc.nasa.gov/download-release-daily.asp</ExePath>
+			<Flags NoRecent="1" NoMostUsed="1"/>
+		</Software>
+		<Software>
+			<Name>Scratch</Name>
+			<ExePath>http://scratch.mit.edu/scratch2download/</ExePath>
+			<Flags NoRecent="1" NoMostUsed="1"/>
+		</Software>
+		<Software>
+			<Name>Sketchup Make - toutes versions</Name>
+			<ExePath>http://www.sketchup.com/fr/download/all</ExePath>
+			<Flags NoRecent="1" NoMostUsed="1"/>
+		</Software>
+		<Software cpt="1">
+			<Name>Solidworks - gratuit 1 an</Name>
+			<ExePath>http://chantenay-nantes.loire-atlantique.e-lyco.fr/espace-tice-et-culture-numerique/telecharger-solidworks-gratuitement-1214.htm</ExePath>
+			<Flags NoRecent="1" NoMostUsed="1"/>
+		</Software>
+	</Category>
+</LiberKeyMenu>

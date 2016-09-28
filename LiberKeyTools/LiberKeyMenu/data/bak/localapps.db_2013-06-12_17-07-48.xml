@@ -1,0 +1,9 @@
+<LiberKeyDB>
+	<Apps>
+		<Software id="user_freeplane">
+			<ExePath>%MYAPPS%\Freeplane\freeplane.bat</ExePath>
+			<Name>freeplane.bat</Name>
+			<AutoKeyWords>freeplane.bat</AutoKeyWords>
+		</Software>
+	</Apps>
+</LiberKeyDB>

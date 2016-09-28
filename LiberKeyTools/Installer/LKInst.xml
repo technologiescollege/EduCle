@@ -1,6 +1,6 @@
 <LbkInstaller>
 	<AppsRoot>..\..\Apps</AppsRoot>
 	<LogToFile>no</LogToFile>
-	<UserLanguage/>
-	<Language file="LKInst_fr.xml">fr</Language>
+	<UserLanguage>fr</UserLanguage>
+	<Language/>
 </LbkInstaller>

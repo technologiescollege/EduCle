@@ -11,6 +11,6 @@
 			<FromAppUp>RotateUp</FromAppUp>
 		</AppInfo>
 	</Effects>
-	<Language file="LKAppsVCheck_fr.xml">fr</Language>
-	<KillTempFolder>yes</KillTempFolder>
+	<UserLanguage>fr</UserLanguage>
+	<Language/>
 </lbkAppsVCheck>

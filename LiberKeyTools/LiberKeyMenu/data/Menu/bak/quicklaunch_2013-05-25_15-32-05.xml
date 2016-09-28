@@ -4,4 +4,9 @@
 		<Name>lng:Menu.MyDocs</Name>
 		<IconFile>skin:MyDocs</IconFile>
 	</Software>
+	<Software>
+		<ExePath>lbk://forum.help.liberkey</ExePath>
+		<Name>lng:Menu.LKHelp</Name>
+		<IconFile>skin:Help</IconFile>
+	</Software>
 </LiberKeyMenu>

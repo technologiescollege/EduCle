@@ -1,5 +1,5 @@
 HTTP/1.1 200 OK
-Date: Sat, 30 Jan 2016 17:36:19 GMT
+Date: Wed, 28 Sep 2016 20:28:52 GMT
 Server: Apache/2.2.20 (Unix) mod_ssl/2.2.20 OpenSSL/0.9.8o
 X-Powered-By: PHP/5.2.13-pl1-gentoo
 Vary: Accept-Encoding,User-Agent
@@ -19,7 +19,7 @@ Content-Type: text/xml
 				<WebSite>http://tic.technologiescollege.fr/</WebSite>
 				<Email>sebastien.canet@ac-nantes.fr</Email>
 			</provider>
-			<apps>audacity,vlc,thunderbird,photofiltre,formatfactory,xmediarecode,freac,converber,wink,notepad++,libreoffice,7zip-7-ziplkl,universalextractor,picpick,inkscape,faststoneimageviewer,httrack,firefox,opera,ccleaner,clamwin,mediaplayerclassichc,pdfxchangeviewer,greenfishiconeditorpro,imgburn,dia,unlocker,recuva,filezilla</apps>
+			<apps>audacity,vlc,photofiltre,formatfactory,xmediarecode,freac,converber,wink,notepad++,libreoffice,7zip-7-ziplkl,universalextractor,picpick,inkscape,faststoneimageviewer,firefox,ccleaner,clamwin,mediaplayerclassichc,pdfxchangeviewer,greenfishiconeditorpro,imgburn,dia,unlocker,recuva,pointofix,freefilesync,kompozer</apps>
 		</ac-nantes_2012>
 	</suites>
 	<apps>
@@ -30,10 +30,10 @@ Content-Type: text/xml
 			<developer>Audacity Team</developer>
 			<license_type>GPL 2.0</license_type>
 			<source_code_url_lbk>http://download.liberkey.com/sources/Audacity</source_code_url_lbk>
-			<version>2.1.1</version>
-			<lks_file>Audacity_2.1.1.lks</lks_file>
-			<lks_size>24123284</lks_size>
-			<app_size>53609730</app_size>
+			<version>2.1.2</version>
+			<lks_file>Audacity_2.1.2.lks</lks_file>
+			<lks_size>26932339</lks_size>
+			<app_size>66166453</app_size>
 			<website>http://audacity.sourceforge.net/</website>
 			<dependencies></dependencies>
 			<platform>XP/Vista/7/8/10</platform>
@@ -51,10 +51,10 @@ Content-Type: text/xml
 			<developer>the VideoLan Team</developer>
 			<license_type>GPL 2.0</license_type>
 			<source_code_url_lbk>http://download.liberkey.com/sources/VLCmediaplayer</source_code_url_lbk>
-			<version>2.2.1</version>
-			<lks_file>VLC_media_player_2.2.1.lks</lks_file>
-			<lks_size>42968053</lks_size>
-			<app_size>257261777</app_size>
+			<version>2.2.4</version>
+			<lks_file>VLC_media_player_2.2.4.lks</lks_file>
+			<lks_size>45769402</lks_size>
+			<app_size>280887931</app_size>
 			<website>http://www.videolan.org/</website>
 			<dependencies></dependencies>
 			<platform>XP/Vista/7/8/10</platform>
@@ -65,27 +65,6 @@ Content-Type: text/xml
 			<catalog_url>video/lecteur/</catalog_url>
 			<priority>high</priority>
 		</vlc>
-		<thunderbird>
-			<id>thunderbird</id>
-			<name><![CDATA[Thunderbird]]></name>
-			<description><![CDATA[Thunderbird est un client email qui offre de nombreuses fonctions très utiles comme : vues de dossiers avancées, étiquetage des messages, historique de navigation dans les messages, protection contre le hameçonnage, anti-spam, gestionnaire de modules complémentaires pour les extensions et les thèmes et bien plus.]]></description>
-			<developer>Mozilla Corporation</developer>
-			<license_type>MPL 2.0</license_type>
-			<source_code_url_lbk>http://download.liberkey.com/sources/Thunderbird</source_code_url_lbk>
-			<version>38.4.0</version>
-			<lks_file>Thunderbird_38.4.0.lks</lks_file>
-			<lks_size>53762</lks_size>
-			<app_size>41226240</app_size>
-			<website>http://www.mozilla.org/fr/thunderbird/</website>
-			<dependencies></dependencies>
-			<platform>XP/Vista/7/8</platform>
-			<x_icon>208</x_icon>
-			<y_icon>256</y_icon>
-			<x_icon_32>288</x_icon_32>
-			<y_icon_32>480</y_icon_32>
-			<catalog_url>internet/email/</catalog_url>
-			<priority>high</priority>
-		</thunderbird>
 		<photofiltre>
 			<id>photofiltre</id>
 			<name><![CDATA[PhotoFiltre]]></name>
@@ -143,10 +122,10 @@ Il supporte les formats 3GP, 3GPP, 3GPP2, AAC, AC3, AMR, ASF, AVI, AVISynth, DVD
 			<developer>Sebastian Dörfler</developer>
 			<license_type>Freeware</license_type>
 			<source_code_url_lbk></source_code_url_lbk>
-			<version>3.2.6.8</version>
-			<lks_file>XMedia_Recode_3.2.6.8.lks</lks_file>
-			<lks_size>7952372</lks_size>
-			<app_size>28695503</app_size>
+			<version>3.3.1.9</version>
+			<lks_file>XMedia_Recode_3.3.1.9.lks</lks_file>
+			<lks_size>8948248</lks_size>
+			<app_size>35606252</app_size>
 			<website>http://www.xmedia-recode.de</website>
 			<dependencies></dependencies>
 			<platform>XP/Vista/7/8/10</platform>
@@ -165,10 +144,10 @@ Il permet également la conversion entre les formats de fichier Audio.]]></descri
 			<developer>Robert Kausch</developer>
 			<license_type>GPL 2.0</license_type>
 			<source_code_url_lbk>http://download.liberkey.com/sources/Freac</source_code_url_lbk>
-			<version>1.0.25</version>
-			<lks_file>Freac_1.0.25.lks</lks_file>
-			<lks_size>3901190</lks_size>
-			<app_size>13737951</app_size>
+			<version>1.0.26</version>
+			<lks_file>Freac_1.0.26.lks</lks_file>
+			<lks_size>3896408</lks_size>
+			<app_size>13705689</app_size>
 			<website>http://www.freac.org/</website>
 			<dependencies></dependencies>
 			<platform>XP/Vista/7/8/10</platform>
@@ -229,15 +208,15 @@ Voici quelques fonctionnalités :
 - Multi-documents et multi-vues
 - WYSIWYG, zoom in et zoom out
 - Auto-complétion
-- Drag ‘N' Drop
+- Drag and Drop
 - Editeur de macro pour enregistrer et exécuter les macros.]]></description>
 			<developer>Don HO</developer>
 			<license_type>GPL 2.0</license_type>
 			<source_code_url_lbk>http://download.liberkey.com/sources/Notepad++</source_code_url_lbk>
-			<version>6.8.6</version>
-			<lks_file>Notepad++_6.8.6.lks</lks_file>
-			<lks_size>4947651</lks_size>
-			<app_size>19748173</app_size>
+			<version>6.9.2</version>
+			<lks_file>Notepad++_6.9.2.lks</lks_file>
+			<lks_size>4981847</lks_size>
+			<app_size>20038128</app_size>
 			<website>http://notepad-plus-plus.org</website>
 			<dependencies></dependencies>
 			<platform>XP/Vista/7/8/10</platform>
@@ -261,18 +240,19 @@ Voici quelques fonctionnalités :
 			<developer>The Document Foundation</developer>
 			<license_type>LGPL 3.0</license_type>
 			<source_code_url_lbk>http://download.liberkey.com/sources/LibreOffice</source_code_url_lbk>
-			<version>5.0.2</version>
-			<lks_file>LibreOffice_5.0.2.lks</lks_file>
-			<lks_size>116248109</lks_size>
-			<app_size>614314245</app_size>
+			<version>5.2.0</version>
+			<lks_file>LibreOffice_5.2.0.lks</lks_file>
+			<lks_size>167359390</lks_size>
+			<app_size>1010865925</app_size>
 			<website>http://fr.libreoffice.org</website>
 			<dependencies></dependencies>
-			<platform>XP/Vista/7</platform>
+			<platform>XP/Vista/7/8/10</platform>
 			<x_icon>192</x_icon>
 			<y_icon>336</y_icon>
 			<x_icon_32>64</x_icon_32>
 			<y_icon_32>608</y_icon_32>
 			<catalog_url>bureautique/suite_bureautique/</catalog_url>
+			<priority>high</priority>
 		</libreoffice>
 		<7zip-7-ziplkl>
 			<id>7zip-7-ziplkl</id>
@@ -282,10 +262,10 @@ Décompression des formats 7z, ZIP, GZIP, BZIP2 and TAR + RAR, CAB, ISO, ARJ, LZH
 			<developer>Igor Pavlov</developer>
 			<license_type>LGPL 2.1</license_type>
 			<source_code_url_lbk>http://download.liberkey.com/sources/7-Zip</source_code_url_lbk>
-			<version>15.12</version>
-			<lks_file>7-Zip_15.12.lks</lks_file>
-			<lks_size>1967749</lks_size>
-			<app_size>8562857</app_size>
+			<version>16.02</version>
+			<lks_file>7-Zip_16.02.lks</lks_file>
+			<lks_size>1984998</lks_size>
+			<app_size>8640231</app_size>
 			<website>http://www.7-zip.org</website>
 			<dependencies></dependencies>
 			<platform>XP/Vista/7/8/10</platform>
@@ -325,10 +305,10 @@ Ses fonctionnalités sont nombreuses : puissant outil de capture, éditeur d'image
 			<developer>Wiziple software</developer>
 			<license_type>Freeware (non commercial environment)</license_type>
 			<source_code_url_lbk></source_code_url_lbk>
-			<version>4.0.8</version>
-			<lks_file>PicPick_4.0.8.lks</lks_file>
-			<lks_size>8309410</lks_size>
-			<app_size>31091830</app_size>
+			<version>4.1.4</version>
+			<lks_file>PicPick_4.1.4.lks</lks_file>
+			<lks_size>8836424</lks_size>
+			<app_size>36853198</app_size>
 			<website>http://www.picpick.org</website>
 			<dependencies></dependencies>
 			<platform>XP/Vista/7/8/10</platform>
@@ -381,28 +361,6 @@ Ses fonctionnalités sont nombreuses : puissant outil de capture, éditeur d'image
 			<catalog_url>graphisme-photo/visualisateur/</catalog_url>
 			<priority>high</priority>
 		</faststoneimageviewer>
-		<httrack>
-			<id>httrack</id>
-			<name><![CDATA[HTTrack]]></name>
-			<description><![CDATA[HTTrack est un aspirateur de sites Web.
-Il vous permet de télécharger un site Web d'Internet vers votre disque dur, en construisant récursivement tous les répertoires, récupérant html, images et fichiers du serveur vers votre ordinateur.]]></description>
-			<developer>HTTrack</developer>
-			<license_type>GPL 2.0</license_type>
-			<source_code_url_lbk>http://download.liberkey.com/sources/HTTrack</source_code_url_lbk>
-			<version>3.48-21</version>
-			<lks_file>HTTrack_3.48-21.lks</lks_file>
-			<lks_size>2924814</lks_size>
-			<app_size>12866919</app_size>
-			<website>http://www.httrack.com/page/1/fr/index.html</website>
-			<dependencies></dependencies>
-			<platform>XP/Vista/7/8</platform>
-			<x_icon>144</x_icon>
-			<y_icon>128</y_icon>
-			<x_icon_32>160</x_icon_32>
-			<y_icon_32>224</y_icon_32>
-			<catalog_url>internet/aspirateur_de_site/</catalog_url>
-			<priority>high</priority>
-		</httrack>
 		<firefox>
 			<id>firefox</id>
 			<name><![CDATA[Firefox]]></name>
@@ -411,9 +369,9 @@ Il peut être complété grâce à des centaines de plugins (extensions) librement té
 			<developer>Mozilla Corporation</developer>
 			<license_type>MPL 2.0</license_type>
 			<source_code_url_lbk>http://download.liberkey.com/sources/Firefox</source_code_url_lbk>
-			<version>43.0.4</version>
-			<lks_file>Firefox_43.0.4.lks</lks_file>
-			<lks_size>49773</lks_size>
+			<version>48.0.2</version>
+			<lks_file>Firefox_48.0.2.lks</lks_file>
+			<lks_size>49764</lks_size>
 			<app_size>38338560</app_size>
 			<website>http://www.mozilla.org/fr/firefox/</website>
 			<dependencies></dependencies>
@@ -425,29 +383,6 @@ Il peut être complété grâce à des centaines de plugins (extensions) librement té
 			<catalog_url>internet/navigateur/</catalog_url>
 			<priority>high</priority>
 		</firefox>
-		<opera>
-			<id>opera</id>
-			<name><![CDATA[Opera]]></name>
-			<description><![CDATA[Opera est navigateur internet très rapide, sécurisé, configurable et supportant parfaitement les standards du WEB.
-Toutes les technologies modernes sont intégrées comme les onglets, sessions, zoom sur les pages, blocage de contenu, widget, favoris intelligents.
-Il intègre également un client de messagerie (avec filtrage des spams), un gestionnaire de news, un gestionnaire de téléchargement (avec support natif de Bittorent) et bien plus.]]></description>
-			<developer>Opera Software ASA</developer>
-			<license_type>Freeware</license_type>
-			<source_code_url_lbk></source_code_url_lbk>
-			<version>34.0.2036.25</version>
-			<lks_file>Opera_34.0.2036.25.lks</lks_file>
-			<lks_size>36969328</lks_size>
-			<app_size>143936983</app_size>
-			<website>http://www.opera.com</website>
-			<dependencies></dependencies>
-			<platform>XP/Vista/7/8/10</platform>
-			<x_icon>0</x_icon>
-			<y_icon>192</y_icon>
-			<x_icon_32>384</x_icon_32>
-			<y_icon_32>320</y_icon_32>
-			<catalog_url>internet/navigateur/</catalog_url>
-			<priority>high</priority>
-		</opera>
 		<ccleaner>
 			<id>ccleaner</id>
 			<name><![CDATA[CCleaner]]></name>
@@ -455,10 +390,10 @@ Il intègre également un client de messagerie (avec filtrage des spams), un gesti
 			<developer>Piriform Ltd</developer>
 			<license_type>Freeware</license_type>
 			<source_code_url_lbk></source_code_url_lbk>
-			<version>5.13.5460</version>
-			<lks_file>CCleaner_5.13.5460.lks</lks_file>
-			<lks_size>4077591</lks_size>
-			<app_size>18226309</app_size>
+			<version>5.19.5633</version>
+			<lks_file>CCleaner_5.19.5633.lks</lks_file>
+			<lks_size>4197621</lks_size>
+			<app_size>18878693</app_size>
 			<website>http://www.piriform.com/ccleaner</website>
 			<dependencies></dependencies>
 			<platform>XP/Vista/7/8/10</platform>
@@ -477,10 +412,10 @@ Nota : il n'intègre pas de protection en temps réel, il faut lancer un scan manu
 			<developer>alch and Gianluigi Tiesi</developer>
 			<license_type>GPL 2.0</license_type>
 			<source_code_url_lbk>http://download.liberkey.com/sources/ClamWin</source_code_url_lbk>
-			<version>0.98.7</version>
-			<lks_file>ClamWin_0.98.7.lks</lks_file>
-			<lks_size>42439397</lks_size>
-			<app_size>71127879</app_size>
+			<version>0.99.1</version>
+			<lks_file>ClamWin_0.99.1.lks</lks_file>
+			<lks_size>42503526</lks_size>
+			<app_size>71324487</app_size>
 			<website>http://www.clamwin.com/</website>
 			<dependencies></dependencies>
 			<platform>XP/Vista/7/8/10</platform>
@@ -494,14 +429,14 @@ Nota : il n'intègre pas de protection en temps réel, il faut lancer un scan manu
 		<mediaplayerclassichc>
 			<id>mediaplayerclassichc</id>
 			<name><![CDATA[MPC HomeCinema]]></name>
-			<description><![CDATA[MPC HomeCinema est un lecteur multimédia qui permet la lecture de multiples formats audio et vidéo. Il est basé sur Media Player Classic et intègre des fonctionnalités plus évoluées. Il peut lire les DVD, fichiers audio (MP3, Ogg etc.) et fichiers vidéo (H.264, DivX, Xvid, Mpeg4, FLV4 etc.) sans l'obligation d'installer les codecs sur l'ordinateur hôte.]]></description>
+			<description><![CDATA[MPC HomeCinema est un lecteur multimédia qui permet la lecture de multiples formats audio et vidéo. Il est basé sur Media Player Classic et intègre des fonctionnalités plus évoluées. Il peut lire les DVD, fichiers audio (MP3, Ogg, etc.) et fichiers vidéo (H.264, DivX, Xvid, Mpeg4, FLV4, etc.) sans l'obligation d'installer les codecs sur l'ordinateur hôte.]]></description>
 			<developer>MPC HomeCinema Team</developer>
 			<license_type>GPL 3.0</license_type>
 			<source_code_url_lbk>http://download.liberkey.com/sources/MPCHomeCinema</source_code_url_lbk>
-			<version>1.7.9</version>
-			<lks_file>MPC_HomeCinema_1.7.9.lks</lks_file>
-			<lks_size>24351177</lks_size>
-			<app_size>105853108</app_size>
+			<version>1.7.10</version>
+			<lks_file>MPC_HomeCinema_1.7.10.lks</lks_file>
+			<lks_size>24778937</lks_size>
+			<app_size>108180074</app_size>
 			<website>http://mpc-hc.sourceforge.net/</website>
 			<dependencies></dependencies>
 			<platform>XP/Vista/7/8/10</platform>
@@ -520,10 +455,10 @@ Il est également possible d'ajouter des annotations à vos fichiers PDF.]]></desc
 			<developer>Tracker Software Products Ltd.</developer>
 			<license_type>Freeware</license_type>
 			<source_code_url_lbk></source_code_url_lbk>
-			<version>2.5.315.0</version>
-			<lks_file>PDF-XChange_Viewer_2.5.315.0.lks</lks_file>
-			<lks_size>12684864</lks_size>
-			<app_size>41274148</app_size>
+			<version>2.5.317</version>
+			<lks_file>PDF-XChange_Viewer_2.5.317.lks</lks_file>
+			<lks_size>12732932</lks_size>
+			<app_size>41646401</app_size>
 			<website>http://www.tracker-software.com/product/pdf-xchange-viewer</website>
 			<dependencies></dependencies>
 			<platform>XP/Vista/7/8/10</platform>
@@ -650,29 +585,70 @@ Solution 2 : activez KeyFilesAssoc (Outils LiberKey -> Activer les associations 
 			<catalog_url>gestion_des_fichiers/restauration_apres_effacement/</catalog_url>
 			<priority>high</priority>
 		</recuva>
-		<filezilla>
-			<id>filezilla</id>
-			<name><![CDATA[FileZilla]]></name>
-			<description><![CDATA[Filezilla permet de se connecter à distance sur un serveur FTP pour y télécharger des fichiers.
-Il supporte FTP, FTP sur SSL/TLS (FTPS), SSH, IPV6, mode reprise, transfert des fichiers > 4GB, un gestionnaire de site, la gestion des files d'attente, mode glisser / déposer,  HTTP/1.1, SOCKS5, FTP-Proxy et plus.
-]]></description>
-			<developer>FileZilla Project</developer>
-			<license_type>GPL 2.0</license_type>
-			<source_code_url_lbk>http://download.liberkey.com/sources/Filezilla</source_code_url_lbk>
-			<version>3.14.1</version>
-			<lks_file>FileZilla_3.14.1.lks</lks_file>
-			<lks_size>5564375</lks_size>
-			<app_size>24692113</app_size>
-			<website>http://filezilla.sourceforge.net/</website>
+		<pointofix>
+			<id>pointofix</id>
+			<name><![CDATA[Pointofix]]></name>
+			<description><![CDATA[Pointofix permet de dessiner n'importe où sur votre bureau de la même façon que sur un tableau. Une palette d'outils est à votre disposition pour réaliser toutes sortes d'annotations (crayon, flèche, rectangle, ellipse, texte, etc.). Il est possible d'appliquer différents niveaux de zoom à la souris. Le résultat peut être sauvegardé aux formats JPG, PNG, BMP ou simplement effacé. 
+Il est particulièrement adapté au monde de l'enseignement et de la formation (vidéoprojecteur, etc.).]]></description>
+			<developer>Thomas Gottfried</developer>
+			<license_type>Freeware</license_type>
+			<source_code_url_lbk></source_code_url_lbk>
+			<version>1.7.2.2015.07.28</version>
+			<lks_file>Pointofix_1.7.2.2015.07.28.lks</lks_file>
+			<lks_size>833059</lks_size>
+			<app_size>3146852</app_size>
+			<website>http://www.pointofix.de/</website>
 			<dependencies></dependencies>
-			<platform>Vista/7/8/10</platform>
-			<x_icon>192</x_icon>
-			<y_icon>96</y_icon>
-			<x_icon_32>256</x_icon_32>
-			<y_icon_32>160</y_icon_32>
-			<catalog_url>internet/ftp/</catalog_url>
+			<platform>2000/XP/Vista/7/10</platform>
+			<x_icon>48</x_icon>
+			<y_icon>208</y_icon>
+			<x_icon_32>480</x_icon_32>
+			<y_icon_32>352</y_icon_32>
+			<catalog_url>bureautique/presentation/</catalog_url>
 			<priority>high</priority>
-		</filezilla>
+		</pointofix>
+		<freefilesync>
+			<id>freefilesync</id>
+			<name><![CDATA[FreeFileSync]]></name>
+			<description><![CDATA[FreeFileSync est un logiciel permettant la comparaison et la synchonisation de dossiers. Il permet de comparer les fichiers par taille, date ou contenu. Il intègre de nombreuses fonctionnalités comme la possibilité de définir des filtres de fichiers personnalisés, le support des tailles de fichiers> 4Go, la possiblité d'ignorer les répertoires "\RECYCLER" et "\System Volume Information", la synchronisation des sous-répertoires même vides.
+Il inclut le module RealtimeSync qui surveille toutes les modifications dans les répertoires et lance la synchronisation automatiquement.]]></description>
+			<developer>ZenJu</developer>
+			<license_type>GPL 3.0</license_type>
+			<source_code_url_lbk>http://download.liberkey.com/sources/FreeFileSync</source_code_url_lbk>
+			<version>6.2</version>
+			<lks_file>FreeFileSync_6.2.lks</lks_file>
+			<lks_size>7172583</lks_size>
+			<app_size>40116042</app_size>
+			<website>http://freefilesync.sourceforge.net/</website>
+			<dependencies></dependencies>
+			<platform>XP/Vista/7/8</platform>
+			<x_icon>144</x_icon>
+			<y_icon>112</y_icon>
+			<x_icon_32>160</x_icon_32>
+			<y_icon_32>192</y_icon_32>
+			<catalog_url>gestion_des_fichiers/synchronisation/</catalog_url>
+			<priority>high</priority>
+		</freefilesync>
+		<kompozer>
+			<id>kompozer</id>
+			<name><![CDATA[KompoZer]]></name>
+			<description><![CDATA[KompoZer est un éditeur HTML complet pour créer un site web avec un gestionnaire de fichier et le support de l'édition en mode WYSIWYG.]]></description>
+			<developer>Fabien Cazenave</developer>
+			<license_type>MPL 1.1</license_type>
+			<source_code_url_lbk>http://download.liberkey.com/sources/KompoZer</source_code_url_lbk>
+			<version>0.7.10 rev1</version>
+			<lks_file>KompoZer_0.7.10_rev1_FR.lks</lks_file>
+			<lks_size>6316203</lks_size>
+			<app_size>23147495</app_size>
+			<website>http://www.kompozer.net/</website>
+			<dependencies></dependencies>
+			<platform>2000/XP/Vista</platform>
+			<x_icon>208</x_icon>
+			<y_icon>144</y_icon>
+			<x_icon_32>288</x_icon_32>
+			<y_icon_32>256</y_icon_32>
+			<catalog_url>internet/creation_de_sites_web/</catalog_url>
+		</kompozer>
 	</apps>
 	<app_icons>
 		<icons_16>http://ac-nantes.pro.liberkey.com/images/ac-nantes/apps/tree_icons.png</icons_16>

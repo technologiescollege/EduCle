@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ub="http://uniboard.mnemis.com/document" xmlns:xhtml="http://www.w3.org/1999/xhtml" version="1.1" ub:version="4.7.0" ub:uuid="441f2a53-1cc4-46b5-9e8d-8e718ff20574" viewBox="-753 -530 1443 1060" ub:nominal-size="1280x960" ub:dark-background="false" ub:crossed-background="false" pageDpi="96">
-    <rect fill="white" x="-753" y="-530" width="1443" height="1060"/>
-    <foreignObject ub:src="widgets/{c25685fa-9948-4b01-866f-4d4635db921f}.wgt" x="0" y="0" width="1024" height="768" transform="matrix(1.20755, 0, 0, 1.20755, -702.792, -460.075)" ub:z-value="-9999999.000000" ub:background="false" ub:uuid="c25685fa-9948-4b01-866f-4d4635db921f" ub:source="file:///C:/Users/Cyrille/AppData/Local/Sankore/interactive content/Web/{9d032193-7421-493e-ac86-f06352aa0a9c}.wgt" ub:layer="-1000">
-        <xhtml:iframe style="border: none" width="1024" height="768" src="widgets/{c25685fa-9948-4b01-866f-4d4635db921f}.wgt/index.htm"/>
-    </foreignObject>
-    <teacherGuide version="2.3.0"/>
-</svg>
