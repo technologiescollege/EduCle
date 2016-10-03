@@ -1,7 +1,7 @@
 ## EduClé - EducKey
 
 
-Liberkey pour l'EducNat : [http://tic.technologiescollege.fr/](http://tic.technologiescollege.fr/)
+Liberkey pour l'EducNat : [http://info.technologiescollege.fr/](http://info.technologiescollege.fr/)
 ![](http://www.liberkey.com/images/home/lbkhome5.jpg)
 
 Le site officiel de la Liberkey : [http://www.liberkey.com/fr.html](http://www.liberkey.com/fr.html)
@@ -44,13 +44,13 @@ _6. setup the synchronisation with our application suite following the instructi
 
 
 ## Pour vous tenir au courant des mises à jour
-rendez-vous sur ce blog : [http://tic.technologiescollege.fr/wordpress](http://tic.technologiescollege.fr/wordpress)
+rendez-vous sur ce blog : [http://info.technologiescollege.fr/wordpress](http://info.technologiescollege.fr/wordpress)
 
 ##_To get informed of the updates_
-_go to this blog:[http://tic.technologiescollege.fr/wordpress](http://tic.technologiescollege.fr/wordpress)_
+_go to this blog:[http://info.technologiescollege.fr/wordpress](http://info.technologiescollege.fr/wordpress)_
 
 ## Pour accéder au catalogue de toutes les applications
-que nous rajoutons dans MyApps, vous pouvez consulter cette page : [http://prtice.technologiescollege.fr/wordpress/liberkey-educ/](http://prtice.technologiescollege.fr/wordpress/liberkey-educ/)
+que nous rajoutons dans MyApps, vous pouvez consulter cette page : [http://info.technologiescollege.fr/wordpress/liberkey-educ/](http://info.technologiescollege.fr/wordpress/liberkey-educ/)
 
 ## _To get to the catalogue of all the softwares_
-that we add in MyApps, you can look up in this site: [http://prtice.technologiescollege.fr/wordpress/liberkey-educ/](http://prtice.technologiescollege.fr/wordpress/liberkey-educ/)_
+that we add in MyApps, you can look up in this site: [http://info.technologiescollege.fr/wordpress/liberkey-educ/](http://info.technologiescollege.fr/wordpress/liberkey-educ/)_
