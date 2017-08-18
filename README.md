@@ -8,21 +8,18 @@ Le site officiel de la Liberkey : [http://www.liberkey.com/fr.html](http://www.l
 
 _The official site for the Liberkey: [http://www.liberkey.com/en.html](http://www.liberkey.com/en.html)_
 
-Dans la démarche, nous utilisons cette clé en fournissant notre compilation sélectionnée aux élèves sur leur clé USB mais cette compilation est aussi cele déposée sur les ordinateurs des salles afin qu'il y ait une continuité de pratique entre le temps de classe, le temps hors-classe et le temps chez soi.
+Dans la démarche, nous utilisons cette clé en fournissant notre compilation sélectionnée aux élèves sur leur clé USB mais cette compilation est aussi celle déposée sur les ordinateurs des salles afin qu'il y ait une continuité de pratique entre le temps de classe, le temps hors-classe et le temps chez soi.
 
-_In the process, we use this USB stick by supplying our selectioned compilation of portable software to the pupils on the USB stick but this compilation is also copied on the computers in the classrooms so that the work started in class can be pursued out of the class and at home._ 
+_In the process, we use this USB stick by supplying our selectioned compilation of portable software to the pupils on their USB stick but this compilation is also copied on the computers in the classrooms so that the work started in class can be pursued out of the class and at home._ 
 
 ## La démarche :
 _ne tenez pas compte des pop-ups vers le site officiel si vous en avez une ou deux qui s'ouvrent vers leur site, ni de l'installation de 'suites' ;_
 
-1. télécharger le fichier d'installation sur le site officiel ;
-2. exécuter le pour qu'il se décompresse sur votre disque dur et/ou clé USB ;
-3. vous pouvez y créer un compte si vous voulez synchroniser plus facilement votre application avec ce qui est affiché sur le site officiel ;
-4. une fois installé, cliquez sur "Outils Liberkey" faîtes la mise à jour de la plateforme Liberkey ;
-5. ne pas installer de 'suite d'applications' tout de suite (il vous propose encore), ça viendra ;
-6. installer la synchro avec notre site d'aplications en suivant la démarche de cete page : [http://www.pedagogie.ac-nantes.fr/technologies-et-sciences-des-ingenieurs/documentation/didacticiels-tutoriels/creer-une-cle-usb-avec-les-applications-portables-709811.kjsp?RH=1333492036996](http://www.pedagogie.ac-nantes.fr/technologies-et-sciences-des-ingenieurs/documentation/didacticiels-tutoriels/creer-une-cle-usb-avec-les-applications-portables-709811.kjsp?RH=1333492036996)
-
-Ou alors ouvs téléchargez le ZIP de cet espace Github en cliquant sur "Download ZIP" sur la droite ; le décompresser et écraser tous les fichiers de la Liberkey "standard".
+1. télécharger le fichier d'installation sur le site officiel ou bien l'archive suivante pour avoir accès à notre sélection d'applications : [https://github.com/technologiescollege/EduCle/archive/master.zip](https://github.com/technologiescollege/EduCle/archive/master.zip) ;
+2. le décompresser sur votre disque dur et/ou clé USB ;
+3. vous pouvez créer un compte si vous voulez synchroniser plus facilement votre application avec ce qui est affiché sur le site officiel ;
+4. une fois décompressé, lancer la Liberkey et choisir dans la la suite d'applications 'TechnoNantes' les logiciels qui vous intéressent ;
+5. installer la synchro avec notre site d'applications en suivant la démarche de cette page : [http://www.pedagogie.ac-nantes.fr/technologies-et-sciences-des-ingenieurs/documentation/didacticiels-tutoriels/creer-une-cle-usb-avec-les-applications-portables-709811.kjsp?RH=1333492036996](http://www.pedagogie.ac-nantes.fr/technologies-et-sciences-des-ingenieurs/documentation/didacticiels-tutoriels/creer-une-cle-usb-avec-les-applications-portables-709811.kjsp?RH=1333492036996)
 
 ##_The Process:_
 
@@ -34,7 +31,7 @@ _2. run it to unpack on your hard disk and / or memory stick;_
 
 _3. you can create an account if you want to synchronise your software more easily with the official website;_
 
-_4. once settled, click on "Liberkey Tools" and start the update of the Liberkey platform;_
+_4. once settled, click on "Liberkey Tools" and start the update of the Liberkey platform if needed;_
 
 _5. do not install any "suite of applications " immediately (they propose it to you), it will come later;_
 
