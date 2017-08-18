@@ -21,7 +21,7 @@ _ne tenez pas compte des pop-ups vers le site officiel si vous en avez une ou de
 4. une fois décompressé, lancer la Liberkey et choisir dans la la suite d'applications 'TechnoNantes' les logiciels qui vous intéressent ;
 5. installer la synchro avec notre site d'applications en suivant la démarche de cette page : [http://www.pedagogie.ac-nantes.fr/technologies-et-sciences-des-ingenieurs/documentation/didacticiels-tutoriels/creer-une-cle-usb-avec-les-applications-portables-709811.kjsp?RH=1333492036996](http://www.pedagogie.ac-nantes.fr/technologies-et-sciences-des-ingenieurs/documentation/didacticiels-tutoriels/creer-une-cle-usb-avec-les-applications-portables-709811.kjsp?RH=1333492036996)
 
-##_The Process:_
+## _The Process:_
 
 _don't take into account the pop-ups hyper-linked to the official site if one or two open, or the setup of "suites"_
 
@@ -43,7 +43,7 @@ _6. setup the synchronisation with our application suite following the instructi
 ## Pour vous tenir au courant des mises à jour
 rendez-vous sur ce blog : [http://info.technologiescollege.fr/wordpress](http://info.technologiescollege.fr/wordpress)
 
-##_To get informed of the updates_
+## _To get informed of the updates_
 _go to this blog:[http://info.technologiescollege.fr/wordpress](http://info.technologiescollege.fr/wordpress)_
 
 ## Pour accéder au catalogue de toutes les applications
