@@ -5,9 +5,9 @@
 		<TreeView singleclic="yes"/>
 		<ClearTypeFonts active="yes"/>
 		<ActiveMenu/>
-		<Clock visible="yes" showseconds="no"/>
+		<Clock visible="yes" showseconds="yes"/>
 		<MostUsed max="0" empty="hide"/>
-		<SendToMenus mydocs="yes"/>
+		<SendToMenus mydocs="no"/>
 		<LiberKeyTools>
 			<AutomaticOnlineChecks>yes</AutomaticOnlineChecks>
 			<UseMenuAppsAssoc>yes</UseMenuAppsAssoc>
@@ -21,11 +21,12 @@
 			<AutoCloseKFA>yes</AutoCloseKFA>
 			<AutoRemoveDrive>no</AutoRemoveDrive>
 			<AutoCloseApps>no</AutoCloseApps>
+			<AutoUpdateAllApps>no</AutoUpdateAllApps>
 		</LiberKeyTools>
-		<MainMenuHotKey key="91" modifiers="2" active="yes"/>
-		<FloatMenuHotKey key="91" modifiers="4" active="yes"/>
-		<AppHotKeys active="yes" memo="yes" memosec="3"/>
-		<StartUpShowMenu prev="no">never</StartUpShowMenu>
+		<MainMenuHotKey key="91" modifiers="2" active="no"/>
+		<FloatMenuHotKey key="91" modifiers="4" active="no"/>
+		<AppHotKeys active="no" memo="no" memosec="3"/>
+		<StartUpShowMenu prev="yes">always</StartUpShowMenu>
 		<Sound>off</Sound>
 		<AppIcon ShowTaskbar="yes" KeepTaskbarMin="no"/>
 		<Effects active="yes" controls="yes" menudelay="default" dialogs="yes" menus="yes">
@@ -113,10 +114,10 @@
 				<Unread Count="0"/>
 			</NewsFeed>
 		</LiberKeyNews>
-		<cpatch>20120620105059</cpatch>
+		<cpatch>20151129201000</cpatch>
 		<AppsAutoStart>no</AppsAutoStart>
 		<AutoRunDelayEach>1</AutoRunDelayEach>
-		<Main x="1501" y="556" w="435" h="500"/>
+		<Main x="1558" y="474" w="378" h="581"/>
 		<Monitor dev="\\.\DISPLAY1" l="0" t="0" r="1920" b="1080"/>
 		<LockedMenus miniclose="yes" mininame="yes"/>
 		<TabsOrder sel="mostused.xml">mostused.xml,recent.xml</TabsOrder>
@@ -126,11 +127,14 @@
 			<Menus active="no">
 				<Font size="12" name="Tahoma"/>
 			</Menus>
+			<VoiceOver active="no"/>
 		</Accessibility>
 		<AutoRunDelay>10</AutoRunDelay>
 		<History max="0" empty="hide"/>
 		<ShowAppsInfo SkipEmptyDesc="no">no</ShowAppsInfo>
 		<ConfirmDeletion shortcuts="yes" categories="yes"/>
-		<AppRun singleclic="no" hidemenu="no"/>
+		<AppRun singleclic="yes" hidemenu="yes"/>
+		<Language file="Languages\LiberKeyMenu_fr.xml">fr</Language>
+		<CustomColorVariation h="0" s="0" l="0"/>
 	</UserConfig>
 </LiberKeyMenu>

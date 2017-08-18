@@ -8,4 +8,7 @@
 	<Setup>
 		<FileAssocSetupMode>always</FileAssocSetupMode>
 	</Setup>
+	<Update>
+		<AutoStart>1</AutoStart>
+	</Update>
 </LKConfig>

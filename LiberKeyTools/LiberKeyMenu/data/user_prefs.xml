@@ -5,7 +5,7 @@
 		<TreeView singleclic="yes"/>
 		<ClearTypeFonts active="yes"/>
 		<ActiveMenu/>
-		<Clock visible="yes" showseconds="no"/>
+		<Clock visible="yes" showseconds="yes"/>
 		<MostUsed max="0" empty="hide"/>
 		<SendToMenus mydocs="no"/>
 		<LiberKeyTools>
@@ -25,7 +25,7 @@
 		</LiberKeyTools>
 		<MainMenuHotKey key="91" modifiers="2" active="no"/>
 		<FloatMenuHotKey key="91" modifiers="4" active="no"/>
-		<AppHotKeys active="yes" memo="yes" memosec="3"/>
+		<AppHotKeys active="no" memo="no" memosec="3"/>
 		<StartUpShowMenu prev="yes">always</StartUpShowMenu>
 		<Sound>off</Sound>
 		<AppIcon ShowTaskbar="yes" KeepTaskbarMin="no"/>
@@ -117,7 +117,7 @@
 		<cpatch>20151129201000</cpatch>
 		<AppsAutoStart>no</AppsAutoStart>
 		<AutoRunDelayEach>1</AutoRunDelayEach>
-		<Main x="1558" y="475" w="378" h="581"/>
+		<Main x="1558" y="474" w="378" h="581"/>
 		<Monitor dev="\\.\DISPLAY1" l="0" t="0" r="1920" b="1080"/>
 		<LockedMenus miniclose="yes" mininame="yes"/>
 		<TabsOrder sel="mostused.xml">mostused.xml,recent.xml</TabsOrder>
